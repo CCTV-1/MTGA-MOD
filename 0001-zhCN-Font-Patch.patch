@@ -1,0 +1,407 @@
+From b2df4aaddb19313d4a304c0d22335ec025261cdc Mon Sep 17 00:00:00 2001
+From: CCTV-1 <script.tar.gz@gmail.com>
+Date: Sat, 7 May 2022 08:10:44 +0800
+Subject: [PATCH] zhCN Font Patch.
+
+---
+ AccountInformation.cs                         |  2 +-
+ CDCPart_TextBox_DayNight.cs                   |  4 +-
+ CDCPart_TextBox_Dungeon.cs                    |  5 +-
+ .../MasteryEndText.cs                         |  1 +
+ DeckMainTitlePanel.cs                         |  5 ++
+ MTGA.Loc/Languages.cs                         |  2 +-
+ MTGA.Loc/MTGALocalizable.cs                   | 35 +++++-------
+ MatchManager.cs                               |  2 +-
+ SearchAndFilterBar.cs                         |  1 +
+ SettingsPanelGraphics.cs                      |  2 +-
+ StoreItemBase.cs                              |  1 +
+ SystemMessageView.cs                          |  3 ++
+ .../FieldFillerUtils.cs                       | 17 +-----
+ .../ClassAbilityTextbox.cs                    |  1 +
+ .../TableAbilityTextbox.cs                    |  3 +-
+ .../TextboxSubComponentBase.cs                |  2 +-
+ Wotc.Mtga.Cards.Text/Utilities.cs             | 11 +---
+ .../DraftContentController.cs                 |  1 +
+ ZhCN_Font.cs                                  | 54 +++++++++++++++++++
+ 19 files changed, 93 insertions(+), 59 deletions(-)
+ create mode 100644 ZhCN_Font.cs
+
+diff --git a/AccountInformation.cs b/AccountInformation.cs
+index 8249116..f0e33a2 100644
+--- a/AccountInformation.cs
++++ b/AccountInformation.cs
+@@ -64,7 +64,7 @@ public class AccountInformation
+ 
+ 	public bool HasRole_MythicOrange()
+ 	{
+-		return Roles.Contains("WotC_REP", StringComparison.InvariantCultureIgnoreCase);
++		return true;
+ 	}
+ 
+ 	public bool HasRole_Debugging()
+diff --git a/CDCPart_TextBox_DayNight.cs b/CDCPart_TextBox_DayNight.cs
+index f27afd0..e5fc051 100644
+--- a/CDCPart_TextBox_DayNight.cs
++++ b/CDCPart_TextBox_DayNight.cs
+@@ -19,8 +19,8 @@ public class CDCPart_TextBox_DayNight : CDCPart_Textbox_SuperBase
+ 	protected override void HandleUpdateInternal()
+ 	{
+ 		base.HandleUpdateInternal();
+-		_upperTextLabel.font = _fontAsset;
+-		_lowerTextLabel.font = _fontAsset;
++		_upperTextLabel.font = ZhCN_Font.Instance.zhCNFont;
++		_lowerTextLabel.font = ZhCN_Font.Instance.zhCNFont;
+ 		_upperTextLabel.fontSize = _supportedFontSizes[0];
+ 		_lowerTextLabel.fontSize = _supportedFontSizes[0];
+ 		UpdateLabelMaterial(_upperTextLabel);
+diff --git a/CDCPart_TextBox_Dungeon.cs b/CDCPart_TextBox_Dungeon.cs
+index a232291..96c619d 100644
+--- a/CDCPart_TextBox_Dungeon.cs
++++ b/CDCPart_TextBox_Dungeon.cs
+@@ -47,15 +47,14 @@ public class CDCPart_TextBox_Dungeon : CDCPart_Textbox_SuperBase
+ 				}
+ 			}
+ 		}
+-		TMP_FontAsset titleFont = GetTitleFont();
+-		TMP_FontAsset fontAsset = _fontAsset;
++		TMP_FontAsset zhCNFont = ZhCN_Font.Instance.zhCNFont;
+ 		for (int i = 0; i < _cachedLabelStrings.Count && i < _dungeonRooms.Count; i++)
+ 		{
+ 			(string, string) tuple = _cachedLabelStrings[i];
+ 			string item4 = tuple.Item1;
+ 			string item5 = tuple.Item2;
+ 			DungeonRoomTextbox dungeonRoomTextbox = _dungeonRooms[i];
+-			dungeonRoomTextbox.SetFont(titleFont, fontAsset);
++			dungeonRoomTextbox.SetFont(zhCNFont, zhCNFont);
+ 			dungeonRoomTextbox.SetLabels(item4, item5);
+ 		}
+ 		_activeRoomArray[0] = CurrentRoomGrpId(_cachedModel);
+diff --git a/Core.Meta.MainNavigation.Profile/MasteryEndText.cs b/Core.Meta.MainNavigation.Profile/MasteryEndText.cs
+index c2b9aac..56ec768 100644
+--- a/Core.Meta.MainNavigation.Profile/MasteryEndText.cs
++++ b/Core.Meta.MainNavigation.Profile/MasteryEndText.cs
+@@ -21,6 +21,7 @@ namespace Core.Meta.MainNavigation.Profile
+ 				if (text == null)
+ 				{
+ 					text = GetComponent<TMP_Text>();
++					text.font = ZhCN_Font.Instance.zhCNFont;
+ 				}
+ 				return text;
+ 			}
+diff --git a/DeckMainTitlePanel.cs b/DeckMainTitlePanel.cs
+index 966e6f7..d8c4c04 100644
+--- a/DeckMainTitlePanel.cs
++++ b/DeckMainTitlePanel.cs
+@@ -210,6 +210,11 @@ public class DeckMainTitlePanel : MonoBehaviour
+ 			{
+ 				AudioManager.PlayAudio(WwiseEvents.sfx_ui_filter_toggle, AudioManager.Default);
+ 			});
++			_formatDropdown.transform.Find("Text_NonSelected").GetComponentInChildren<TextMeshProUGUI>().font = ZhCN_Font.Instance.zhCNFont;
++		}
++		if (_nameInput != null)
++		{
++			_nameInput.textComponent.font = ZhCN_Font.Instance.zhCNFont;
+ 		}
+ 		_meshRendererReferenceLoaders = new MeshRendererReferenceLoader[_deckBoxRenderers.Length];
+ 		for (int i = 0; i < _deckBoxRenderers.Length; i++)
+diff --git a/MTGA.Loc/Languages.cs b/MTGA.Loc/Languages.cs
+index bf932cf..e5a42bd 100644
+--- a/MTGA.Loc/Languages.cs
++++ b/MTGA.Loc/Languages.cs
+@@ -54,7 +54,7 @@ namespace MTGA.Loc
+ 			"zh-TW"
+ 		};
+ 
+-		public static readonly string[] ExternalLanguages = new string[9] { "en-US", "pt-BR", "fr-FR", "it-IT", "de-DE", "es-ES", "ru-RU", "ja-JP", "ko-KR" };
++		public static readonly string[] ExternalLanguages = new string[2] { "en-US", "ja-JP" };
+ 
+ 		public static readonly Dictionary<string, string> Converter = new Dictionary<string, string>
+ 		{
+diff --git a/MTGA.Loc/MTGALocalizable.cs b/MTGA.Loc/MTGALocalizable.cs
+index 8d8e1f4..4221773 100644
+--- a/MTGA.Loc/MTGALocalizable.cs
++++ b/MTGA.Loc/MTGALocalizable.cs
+@@ -46,36 +46,25 @@ namespace MTGA.Loc
+ 
+ 		public void Localize(LocalizationManager locMan, string materialKey = null)
+ 		{
+-			if (!active || !(serializedCmp is TMP_Text tMP_Text))
++			if (!active)
+ 			{
+ 				return;
+ 			}
+-			switch (targetType)
++			TMP_Text tMP_Text = serializedCmp as TMP_Text;
++			if (tMP_Text != null)
+ 			{
+-			case TargetType.Text:
+-				LocalizeText(locMan, tMP_Text);
+-				break;
+-			case TargetType.Font:
+-			{
+-				FontMaterialMap localizedFont = locMan.GetLocalizedFont(locKey, tMP_Text);
+-				if (localizedFont == null)
++				switch (targetType)
+ 				{
++				case TargetType.Text:
++					LocalizeText(locMan, tMP_Text);
++					break;
++				default:
++					Debug.LogError($"unsupported localization target type: {targetType}");
++					break;
++				case TargetType.Font:
++					tMP_Text.font = ZhCN_Font.Instance.zhCNFont;
+ 					break;
+ 				}
+-				tMP_Text.font = localizedFont.font;
+-				if (!string.IsNullOrEmpty(materialKey))
+-				{
+-					Material material = localizedFont.GetMaterial(materialKey);
+-					if ((bool)material)
+-					{
+-						tMP_Text.fontSharedMaterial = material;
+-					}
+-				}
+-				break;
+-			}
+-			default:
+-				Debug.LogError($"unsupported localization target type: {targetType}");
+-				break;
+ 			}
+ 		}
+ 
+diff --git a/MatchManager.cs b/MatchManager.cs
+index 290db51..c0bbb92 100644
+--- a/MatchManager.cs
++++ b/MatchManager.cs
+@@ -56,7 +56,7 @@ public class MatchManager : IDisposable
+ 			set
+ 			{
+ 				_screenName = value;
+-				int num = _screenName.LastIndexOf('#');
++				int num = _screenName.LastIndexOf('\0');
+ 				if (num != -1)
+ 				{
+ 					_screenName = _screenName.Substring(0, num);
+diff --git a/SearchAndFilterBar.cs b/SearchAndFilterBar.cs
+index 4cff116..5e51f3e 100644
+--- a/SearchAndFilterBar.cs
++++ b/SearchAndFilterBar.cs
+@@ -94,6 +94,7 @@ public class SearchAndFilterBar : MonoBehaviour
+ 			AudioManager.PlayAudio(WwiseEvents.sfx_ui_generic_click, AudioManager.Default);
+ 			UpdateSearchText();
+ 		});
++		SearchInput.textComponent.font = ZhCN_Font.Instance.zhCNFont;
+ 		ClearSearchButton.onClick.AddListener(delegate
+ 		{
+ 			AudioManager.PlayAudio(WwiseEvents.sfx_ui_generic_click, AudioManager.Default);
+diff --git a/SettingsPanelGraphics.cs b/SettingsPanelGraphics.cs
+index 15bb822..f134546 100644
+--- a/SettingsPanelGraphics.cs
++++ b/SettingsPanelGraphics.cs
+@@ -321,7 +321,7 @@ public class SettingsPanelGraphics : SettingsMenuPanel
+ 			"es" => "Español", 
+ 			"fr" => "Français", 
+ 			"it" => "Italiano", 
+-			"ja" => "日本語", 
++			"ja" => "简体中文", 
+ 			"ko" => "한국어", 
+ 			"pt-BR" => "Português\u00a0brasileiro", 
+ 			"ru" => "Русский", 
+diff --git a/StoreItemBase.cs b/StoreItemBase.cs
+index 013b206..9353f63 100644
+--- a/StoreItemBase.cs
++++ b/StoreItemBase.cs
+@@ -483,6 +483,7 @@ public class StoreItemBase : MonoBehaviour
+ 
+ 	public void SetLabelText(MTGALocalizedString text)
+ 	{
++		_label.GameObject.GetComponent<TextMeshProUGUI>().font = ZhCN_Font.Instance.zhCNFont;
+ 		SetOptionalObjectText(_label, text);
+ 	}
+ 
+diff --git a/SystemMessageView.cs b/SystemMessageView.cs
+index 71fa0aa..71d79a5 100644
+--- a/SystemMessageView.cs
++++ b/SystemMessageView.cs
+@@ -61,6 +61,9 @@ public class SystemMessageView : MonoBehaviour, IKeyDownSubscriber, IKeySubscrib
+ 	{
+ 		_canvasGroup.blocksRaycasts = false;
+ 		_canvasGroup.alpha = 0f;
++		_titleText.font = ZhCN_Font.Instance.zhCNFont;
++		_messageText.font = ZhCN_Font.Instance.zhCNFont;
++		_detailsText.font = ZhCN_Font.Instance.zhCNFont;
+ 	}
+ 
+ 	public void Show()
+diff --git a/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs b/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
+index c0c4bdb..3de67f2 100644
+--- a/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
++++ b/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
+@@ -60,21 +60,8 @@ namespace Wotc.Mtga.CardParts.FieldFillers
+ 
+ 		public static TMP_FontAsset FindFont(AssetLookupSystem als, AssetTracker tracker, out bool canSwapMaterial)
+ 		{
+-			if (als.TreeLoader.TryLoadTree(out AssetLookupTree<FieldFont> loadedTree))
+-			{
+-				FieldFont payload = loadedTree.GetPayload(als.Blackboard);
+-				if (payload != null)
+-				{
+-					TMP_FontAsset tMP_FontAsset = AssetLoader.AcquireAndTrackAsset(tracker, "FieldFont", payload.FontAssetReference);
+-					if ((object)tMP_FontAsset != null)
+-					{
+-						canSwapMaterial = payload.CanSwapMaterial;
+-						return tMP_FontAsset;
+-					}
+-				}
+-			}
+-			canSwapMaterial = true;
+-			return null;
++			canSwapMaterial = false;
++			return ZhCN_Font.Instance.zhCNFont;
+ 		}
+ 
+ 		public static Material FindMaterial(AssetLookupSystem als, AssetTracker tracker)
+diff --git a/Wotc.Mtga.Cards.Parts.Textbox/ClassAbilityTextbox.cs b/Wotc.Mtga.Cards.Parts.Textbox/ClassAbilityTextbox.cs
+index 111ac43..7471b4e 100644
+--- a/Wotc.Mtga.Cards.Parts.Textbox/ClassAbilityTextbox.cs
++++ b/Wotc.Mtga.Cards.Parts.Textbox/ClassAbilityTextbox.cs
+@@ -27,6 +27,7 @@ namespace Wotc.Mtga.Cards.Parts.Textbox
+ 			base.SetContent(content);
+ 			_textLabel.text = levelTextEntry.GetText();
+ 			_costLabel.text = levelTextEntry.GetCost();
++			_costLabel.font = ZhCN_Font.Instance.zhCNFont;
+ 		}
+ 
+ 		public override void CleanUp()
+diff --git a/Wotc.Mtga.Cards.Parts.Textbox/TableAbilityTextbox.cs b/Wotc.Mtga.Cards.Parts.Textbox/TableAbilityTextbox.cs
+index afa904b..9d4d070 100644
+--- a/Wotc.Mtga.Cards.Parts.Textbox/TableAbilityTextbox.cs
++++ b/Wotc.Mtga.Cards.Parts.Textbox/TableAbilityTextbox.cs
+@@ -21,6 +21,7 @@ namespace Wotc.Mtga.Cards.Parts.Textbox
+ 			{
+ 				Root = root;
+ 				Textfield = root.GetComponentInChildren<TMP_Text>();
++				Textfield.font = ZhCN_Font.Instance.zhCNFont;
+ 				Stripe = root.GetComponentInChildren<Image>();
+ 			}
+ 		}
+@@ -100,7 +101,7 @@ namespace Wotc.Mtga.Cards.Parts.Textbox
+ 			{
+ 				if ((bool)row.Textfield)
+ 				{
+-					row.Textfield.font = fontAsset;
++					row.Textfield.font = ZhCN_Font.Instance.zhCNFont;
+ 				}
+ 			}
+ 		}
+diff --git a/Wotc.Mtga.Cards.Parts.Textbox/TextboxSubComponentBase.cs b/Wotc.Mtga.Cards.Parts.Textbox/TextboxSubComponentBase.cs
+index 30a2da3..ae2ea36 100644
+--- a/Wotc.Mtga.Cards.Parts.Textbox/TextboxSubComponentBase.cs
++++ b/Wotc.Mtga.Cards.Parts.Textbox/TextboxSubComponentBase.cs
+@@ -47,7 +47,7 @@ namespace Wotc.Mtga.Cards.Parts.Textbox
+ 
+ 		public virtual void SetFont(TMP_FontAsset fontAsset)
+ 		{
+-			_textLabel.font = fontAsset;
++			_textLabel.font = ZhCN_Font.Instance.zhCNFont;
+ 		}
+ 
+ 		public virtual void SetAlignment(TextAlignmentOptions textAlignment)
+diff --git a/Wotc.Mtga.Cards.Text/Utilities.cs b/Wotc.Mtga.Cards.Text/Utilities.cs
+index 5de0488..7ec5b3c 100644
+--- a/Wotc.Mtga.Cards.Text/Utilities.cs
++++ b/Wotc.Mtga.Cards.Text/Utilities.cs
+@@ -51,16 +51,7 @@ namespace Wotc.Mtga.Cards.Text
+ 
+ 		public static string GetBoldedAbilityText(string localizedText)
+ 		{
+-			if (localizedText.Contains(". "))
+-			{
+-				return localizedText;
+-			}
+-			if (localizedText.Contains("—"))
+-			{
+-				string[] array = localizedText.Split('—');
+-				return localizedText.Replace(array[0], $"<b>{array[0]}</b>");
+-			}
+-			return $"<b>{localizedText}</b>";
++			return localizedText;
+ 		}
+ 
+ 		public static bool TryStripLoyaltyPrefixFromString(ref string localizedText)
+diff --git a/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs b/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
+index c099556..3436089 100644
+--- a/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
++++ b/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
+@@ -796,6 +796,7 @@ namespace Wotc.Mtga.Wrapper.Draft
+ 		{
+ 			_settingCardsCoroutine = null;
+ 			_okToPickCard = true;
++			UpdateCardCollectionInfo(show: true);
+ 			StartCoroutine(Coroutine_StartTimer());
+ 		}
+ 
+diff --git a/ZhCN_Font.cs b/ZhCN_Font.cs
+new file mode 100644
+index 0000000..c014191
+--- /dev/null
++++ b/ZhCN_Font.cs
+@@ -0,0 +1,54 @@
++using System.IO;
++using TMPro;
++using UnityEngine;
++
++public class ZhCN_Font
++{
++	public TMP_FontAsset zhCNFont;
++
++	private static ZhCN_Font instance;
++
++	private static readonly object lockObj;
++
++	private static string fontName;
++
++	public static ZhCN_Font Instance
++	{
++		get
++		{
++			lock (lockObj)
++			{
++				if (instance == null)
++				{
++					instance = new ZhCN_Font();
++					string text = fontName;
++					if (File.Exists(Application.dataPath + "/fontconfig.txt"))
++					{
++						text = new StreamReader(Application.dataPath + "/fontconfig.txt").ReadLine();
++					}
++					if (instance.zhCNFont == null)
++					{
++						AssetBundle assetBundle = AssetBundle.LoadFromFile(Application.dataPath + "/" + text);
++						if (assetBundle == null)
++						{
++							Debug.LogWarning(Application.dataPath + "/" + text + " don't exist");
++						}
++						instance.zhCNFont = assetBundle.LoadAsset<TMP_FontAsset>(text + " SDF");
++					}
++				}
++			}
++			return instance;
++		}
++	}
++
++	private ZhCN_Font()
++	{
++	}
++
++	static ZhCN_Font()
++	{
++		instance = null;
++		fontName = "sourcehansans-medium";
++		lockObj = new object();
++	}
++}
+-- 
+2.36.0
+
