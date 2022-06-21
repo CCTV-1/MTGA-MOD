@@ -78,9 +78,10 @@ ANDROID_REPLACE_RULES: dict[str:list] = {
 
 
 class FontContent():
-    def __init__(self, texture: PIL.Image, monoBehavior: dict) -> None:
+    def __init__(self, texture: PIL.Image, monoBehavior: dict, material: dict) -> None:
         self.fontAtlas = texture
         self.fontMonoBehavior = monoBehavior
+        self.fontMaterial = material
 
 
 def loadTMPFont(assetPath: str, monoBehaviorName: str) -> FontContent:
@@ -105,6 +106,8 @@ def loadTMPFont(assetPath: str, monoBehaviorName: str) -> FontContent:
     assetEnv = UnityPy.load(assetPath)
     texture = None
     monoBehavior = {}
+    material = {}
+    materialPathID = 0
     texturePathID = 0
     for obj in assetEnv.objects:
         if obj.type != UnityPy.enums.ClassIDType.MonoBehaviour:
@@ -139,20 +142,37 @@ def loadTMPFont(assetPath: str, monoBehaviorName: str) -> FontContent:
                 assetPath, monoBehaviorName))
         monoBehavior = objTree
         texturePathID = objTree['m_AtlasTextures'][objTree['m_AtlasTextureIndex']]['m_PathID']
+        materialPathID = objTree['material']['m_PathID']
         break
 
     for obj in assetEnv.objects:
-        if obj.path_id != texturePathID:
+        if obj.path_id not in [texturePathID, materialPathID]:
             continue
-        if obj.type != UnityPy.enums.ClassIDType.Texture2D:
-            continue
-        objData = obj.read()
-        texture = objData.image
-        # objData.image.save('{0} Atlas.png'.format(monoBehaviorName))
-    return FontContent(texture, monoBehavior)
+        match obj.type:
+            case UnityPy.enums.ClassIDType.Texture2D:
+                objData = obj.read()
+                texture = objData.image
+                # objData.image.save('{0} Atlas.png'.format(monoBehaviorName))
+            case UnityPy.enums.ClassIDType.Material:
+                objData = obj.read()
+                if not objData.serialized_type.nodes:
+                    with open('{0}/TMPFontMaterialTypeTree.json'.format(Config.RESOUCE_DIR), 'r', encoding='UTF-8') as f:
+                        typeTree = json.load(f)
+                    objData.serialized_type.nodes = typeTree
+                objTree = objData.read_typetree()
+                if not objTree:
+                    raise NotImplementedError('cannot found typetree in {0}:{1}'.format(
+                        assetPath, objData.name))
+                material = objTree
+            case _:
+                continue
+        if texture and material:
+            break
+
+    return FontContent(texture, monoBehavior, material)
 
 
-def replaceTMPFont(assetPath: str, monoBehaviorNames: list[str], newFontContent: FontContent):
+def replaceTMPFont(assetPath: str, monoBehaviorNames: list[str], newFontContent: FontContent, replaceMaterial: bool = False):
     """
         if you want load splitN asset,and edit it,code as follows(you can also use\ 
         other tools to binray merge files,then use `UnityPy.load(path)`):
@@ -172,7 +192,7 @@ def replaceTMPFont(assetPath: str, monoBehaviorNames: list[str], newFontContent:
         ```
     """
     assetEnv = UnityPy.load(assetPath)
-    texturePathIDs = []
+    replacePathIDs = []
     for obj in assetEnv.objects:
         if obj.type != UnityPy.enums.ClassIDType.MonoBehaviour:
             continue
@@ -212,20 +232,45 @@ def replaceTMPFont(assetPath: str, monoBehaviorNames: list[str], newFontContent:
         newFontContent.fontMonoBehavior['atlas']['m_FileID'] = objTree['atlas']['m_FileID']
         newFontContent.fontMonoBehavior['atlas']['m_PathID'] = objTree['atlas']['m_PathID']
 
-        texturePathIDs.append(
+        replacePathIDs.append(
             objTree['m_AtlasTextures'][objTree['m_AtlasTextureIndex']]['m_PathID'])
+        replacePathIDs.append(objTree['material']['m_PathID'])
         obj.save_typetree(newFontContent.fontMonoBehavior)
 
     for obj in assetEnv.objects:
-        if obj.path_id not in texturePathIDs:
+        if obj.path_id not in replacePathIDs:
             continue
-        if obj.type != UnityPy.enums.ClassIDType.Texture2D:
-            continue
-        objData = obj.read()
-        objData.set_image(img=newFontContent.fontAtlas)
-        objData.m_Height = newFontContent.fontAtlas.height
-        objData.m_Width = newFontContent.fontAtlas.width
-        objData.save()
+        match obj.type:
+            case UnityPy.enums.ClassIDType.Texture2D:
+                objData = obj.read()
+                objData.set_image(img=newFontContent.fontAtlas)
+                objData.m_Height = newFontContent.fontAtlas.height
+                objData.m_Width = newFontContent.fontAtlas.width
+                objData.save()
+            case UnityPy.enums.ClassIDType.Material:
+                if not replaceMaterial:
+                    continue
+                objData = obj.read()
+                if not objData.serialized_type.nodes:
+                    with open('{0}/TMPFontMaterialTypeTree.json'.format(Config.RESOUCE_DIR), 'r', encoding='UTF-8') as f:
+                        typeTree = json.load(f)
+                    objData.serialized_type.nodes = typeTree
+                objTree = objData.read_typetree()
+                if not objTree:
+                    raise NotImplementedError('cannot found typetree in {0}:{1}'.format(
+                        assetPath, objData.name))
+
+                newFontContent.fontMaterial['m_Name'] = objTree['m_Name']
+                newFontContent.fontMaterial['m_Shader']['m_FileID'] = objTree['m_Shader']['m_FileID']
+                newFontContent.fontMaterial['m_Shader']['m_PathID'] = objTree['m_Shader']['m_PathID']
+                newFontContent.fontMaterial['m_SavedProperties']['m_TexEnvs'] = objTree['m_SavedProperties']['m_TexEnvs']
+
+                obj.save_typetree(newFontContent.fontMaterial)
+            case _:
+                continue
+        replacePathIDs.remove(obj.path_id)
+        if not replacePathIDs:
+            break
 
     shutil.copy(assetPath, Config.BACKUP_DIR)
     assetName = pathlib.Path(assetPath).name

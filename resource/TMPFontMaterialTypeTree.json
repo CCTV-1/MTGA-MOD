@@ -1,0 +1,530 @@
+[
+    {
+        "level": 0,
+        "meta_flag": 32768,
+        "name": "Base",
+        "type": "Material"
+    },
+    {
+        "level": 1,
+        "meta_flag": 557057,
+        "name": "m_Name",
+        "type": "string"
+    },
+    {
+        "level": 2,
+        "meta_flag": 540673,
+        "name": "Array",
+        "type": "Array"
+    },
+    {
+        "level": 3,
+        "meta_flag": 524289,
+        "name": "size",
+        "type": "int"
+    },
+    {
+        "level": 3,
+        "meta_flag": 524289,
+        "name": "data",
+        "type": "char"
+    },
+    {
+        "level": 1,
+        "meta_flag": 0,
+        "name": "m_Shader",
+        "type": "PPtr<Shader>"
+    },
+    {
+        "level": 2,
+        "meta_flag": 8388609,
+        "name": "m_FileID",
+        "type": "int"
+    },
+    {
+        "level": 2,
+        "meta_flag": 8388609,
+        "name": "m_PathID",
+        "type": "SInt64"
+    },
+    {
+        "level": 1,
+        "meta_flag": 32768,
+        "name": "m_ShaderKeywords",
+        "type": "string"
+    },
+    {
+        "level": 2,
+        "meta_flag": 16385,
+        "name": "Array",
+        "type": "Array"
+    },
+    {
+        "level": 3,
+        "meta_flag": 1,
+        "name": "size",
+        "type": "int"
+    },
+    {
+        "level": 3,
+        "meta_flag": 1,
+        "name": "data",
+        "type": "char"
+    },
+    {
+        "level": 1,
+        "meta_flag": 0,
+        "name": "m_LightmapFlags",
+        "type": "unsigned int"
+    },
+    {
+        "level": 1,
+        "meta_flag": 0,
+        "name": "m_EnableInstancingVariants",
+        "type": "bool"
+    },
+    {
+        "level": 1,
+        "meta_flag": 16384,
+        "name": "m_DoubleSidedGI",
+        "type": "bool"
+    },
+    {
+        "level": 1,
+        "meta_flag": 0,
+        "name": "m_CustomRenderQueue",
+        "type": "int"
+    },
+    {
+        "level": 1,
+        "meta_flag": 32768,
+        "name": "stringTagMap",
+        "type": "map"
+    },
+    {
+        "level": 2,
+        "meta_flag": 32768,
+        "name": "Array",
+        "type": "Array"
+    },
+    {
+        "level": 3,
+        "meta_flag": 0,
+        "name": "size",
+        "type": "int"
+    },
+    {
+        "level": 3,
+        "meta_flag": 32768,
+        "name": "data",
+        "type": "pair"
+    },
+    {
+        "level": 4,
+        "meta_flag": 32768,
+        "name": "first",
+        "type": "string"
+    },
+    {
+        "level": 5,
+        "meta_flag": 16385,
+        "name": "Array",
+        "type": "Array"
+    },
+    {
+        "level": 6,
+        "meta_flag": 1,
+        "name": "size",
+        "type": "int"
+    },
+    {
+        "level": 6,
+        "meta_flag": 1,
+        "name": "data",
+        "type": "char"
+    },
+    {
+        "level": 4,
+        "meta_flag": 32768,
+        "name": "second",
+        "type": "string"
+    },
+    {
+        "level": 5,
+        "meta_flag": 16385,
+        "name": "Array",
+        "type": "Array"
+    },
+    {
+        "level": 6,
+        "meta_flag": 1,
+        "name": "size",
+        "type": "int"
+    },
+    {
+        "level": 6,
+        "meta_flag": 1,
+        "name": "data",
+        "type": "char"
+    },
+    {
+        "level": 1,
+        "meta_flag": 32768,
+        "name": "disabledShaderPasses",
+        "type": "vector"
+    },
+    {
+        "level": 2,
+        "meta_flag": 49152,
+        "name": "Array",
+        "type": "Array"
+    },
+    {
+        "level": 3,
+        "meta_flag": 0,
+        "name": "size",
+        "type": "int"
+    },
+    {
+        "level": 3,
+        "meta_flag": 32768,
+        "name": "data",
+        "type": "string"
+    },
+    {
+        "level": 4,
+        "meta_flag": 16385,
+        "name": "Array",
+        "type": "Array"
+    },
+    {
+        "level": 5,
+        "meta_flag": 1,
+        "name": "size",
+        "type": "int"
+    },
+    {
+        "level": 5,
+        "meta_flag": 1,
+        "name": "data",
+        "type": "char"
+    },
+    {
+        "level": 1,
+        "meta_flag": 32768,
+        "name": "m_SavedProperties",
+        "type": "UnityPropertySheet"
+    },
+    {
+        "level": 2,
+        "meta_flag": 32768,
+        "name": "m_TexEnvs",
+        "type": "map"
+    },
+    {
+        "level": 3,
+        "meta_flag": 32768,
+        "name": "Array",
+        "type": "Array"
+    },
+    {
+        "level": 4,
+        "meta_flag": 0,
+        "name": "size",
+        "type": "int"
+    },
+    {
+        "level": 4,
+        "meta_flag": 32768,
+        "name": "data",
+        "type": "pair"
+    },
+    {
+        "level": 5,
+        "meta_flag": 32768,
+        "name": "first",
+        "type": "string"
+    },
+    {
+        "level": 6,
+        "meta_flag": 16385,
+        "name": "Array",
+        "type": "Array"
+    },
+    {
+        "level": 7,
+        "meta_flag": 1,
+        "name": "size",
+        "type": "int"
+    },
+    {
+        "level": 7,
+        "meta_flag": 1,
+        "name": "data",
+        "type": "char"
+    },
+    {
+        "level": 5,
+        "meta_flag": 0,
+        "name": "second",
+        "type": "UnityTexEnv"
+    },
+    {
+        "level": 6,
+        "meta_flag": 0,
+        "name": "m_Texture",
+        "type": "PPtr<Texture>"
+    },
+    {
+        "level": 7,
+        "meta_flag": 8388609,
+        "name": "m_FileID",
+        "type": "int"
+    },
+    {
+        "level": 7,
+        "meta_flag": 8388609,
+        "name": "m_PathID",
+        "type": "SInt64"
+    },
+    {
+        "level": 6,
+        "meta_flag": 2097152,
+        "name": "m_Scale",
+        "type": "Vector2f"
+    },
+    {
+        "level": 7,
+        "meta_flag": 2097152,
+        "name": "x",
+        "type": "float"
+    },
+    {
+        "level": 7,
+        "meta_flag": 2097152,
+        "name": "y",
+        "type": "float"
+    },
+    {
+        "level": 6,
+        "meta_flag": 2097152,
+        "name": "m_Offset",
+        "type": "Vector2f"
+    },
+    {
+        "level": 7,
+        "meta_flag": 2097152,
+        "name": "x",
+        "type": "float"
+    },
+    {
+        "level": 7,
+        "meta_flag": 2097152,
+        "name": "y",
+        "type": "float"
+    },
+    {
+        "level": 2,
+        "meta_flag": 32768,
+        "name": "m_Floats",
+        "type": "map"
+    },
+    {
+        "level": 3,
+        "meta_flag": 32768,
+        "name": "Array",
+        "type": "Array"
+    },
+    {
+        "level": 4,
+        "meta_flag": 0,
+        "name": "size",
+        "type": "int"
+    },
+    {
+        "level": 4,
+        "meta_flag": 32768,
+        "name": "data",
+        "type": "pair"
+    },
+    {
+        "level": 5,
+        "meta_flag": 32768,
+        "name": "first",
+        "type": "string"
+    },
+    {
+        "level": 6,
+        "meta_flag": 16385,
+        "name": "Array",
+        "type": "Array"
+    },
+    {
+        "level": 7,
+        "meta_flag": 1,
+        "name": "size",
+        "type": "int"
+    },
+    {
+        "level": 7,
+        "meta_flag": 1,
+        "name": "data",
+        "type": "char"
+    },
+    {
+        "level": 5,
+        "meta_flag": 0,
+        "name": "second",
+        "type": "float"
+    },
+    {
+        "level": 2,
+        "meta_flag": 32768,
+        "name": "m_Colors",
+        "type": "map"
+    },
+    {
+        "level": 3,
+        "meta_flag": 32768,
+        "name": "Array",
+        "type": "Array"
+    },
+    {
+        "level": 4,
+        "meta_flag": 0,
+        "name": "size",
+        "type": "int"
+    },
+    {
+        "level": 4,
+        "meta_flag": 32768,
+        "name": "data",
+        "type": "pair"
+    },
+    {
+        "level": 5,
+        "meta_flag": 32768,
+        "name": "first",
+        "type": "string"
+    },
+    {
+        "level": 6,
+        "meta_flag": 16385,
+        "name": "Array",
+        "type": "Array"
+    },
+    {
+        "level": 7,
+        "meta_flag": 1,
+        "name": "size",
+        "type": "int"
+    },
+    {
+        "level": 7,
+        "meta_flag": 1,
+        "name": "data",
+        "type": "char"
+    },
+    {
+        "level": 5,
+        "meta_flag": 2097152,
+        "name": "second",
+        "type": "ColorRGBA"
+    },
+    {
+        "level": 6,
+        "meta_flag": 2097153,
+        "name": "r",
+        "type": "float"
+    },
+    {
+        "level": 6,
+        "meta_flag": 2097153,
+        "name": "g",
+        "type": "float"
+    },
+    {
+        "level": 6,
+        "meta_flag": 2097153,
+        "name": "b",
+        "type": "float"
+    },
+    {
+        "level": 6,
+        "meta_flag": 2097153,
+        "name": "a",
+        "type": "float"
+    },
+    {
+        "level": 1,
+        "meta_flag": 32768,
+        "name": "m_BuildTextureStacks",
+        "type": "vector"
+    },
+    {
+        "level": 2,
+        "meta_flag": 49152,
+        "name": "Array",
+        "type": "Array"
+    },
+    {
+        "level": 3,
+        "meta_flag": 0,
+        "name": "size",
+        "type": "int"
+    },
+    {
+        "level": 3,
+        "meta_flag": 32768,
+        "name": "data",
+        "type": "BuildTextureStackReference"
+    },
+    {
+        "level": 4,
+        "meta_flag": 32768,
+        "name": "groupName",
+        "type": "string"
+    },
+    {
+        "level": 5,
+        "meta_flag": 16385,
+        "name": "Array",
+        "type": "Array"
+    },
+    {
+        "level": 6,
+        "meta_flag": 1,
+        "name": "size",
+        "type": "int"
+    },
+    {
+        "level": 6,
+        "meta_flag": 1,
+        "name": "data",
+        "type": "char"
+    },
+    {
+        "level": 4,
+        "meta_flag": 32768,
+        "name": "itemName",
+        "type": "string"
+    },
+    {
+        "level": 5,
+        "meta_flag": 16385,
+        "name": "Array",
+        "type": "Array"
+    },
+    {
+        "level": 6,
+        "meta_flag": 1,
+        "name": "size",
+        "type": "int"
+    },
+    {
+        "level": 6,
+        "meta_flag": 1,
+        "name": "data",
+        "type": "char"
+    }
+]
