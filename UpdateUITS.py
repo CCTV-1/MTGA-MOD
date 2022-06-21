@@ -42,7 +42,7 @@ if __name__ == "__main__":
                 'jaJP': rawRow[3],
             }
 
-        # remove useless line
+        # remove useless rows
         cardDBCursor.execute('DROP TABLE Loc')
         cardDBCursor.execute('CREATE TABLE Loc(Key TEXT PRIMARY KEY UNIQUE NOT NULL,Bundle'
                              ' TEXT,enUS TEXT,jaJP TEXT);')

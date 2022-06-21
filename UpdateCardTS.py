@@ -36,7 +36,7 @@ if __name__ == "__main__":
                 'jaJP': rawRow[4]
             }
 
-        # remove useless line
+        # remove useless rows
         cardDBCursor.execute('DROP TABLE Localizations')
         cardDBCursor.execute(
             'CREATE TABLE Localizations(LocId INT NOT NULL, Formatted INT NOT NULL, KnownTitleId INT,enUS TEXT, jaJP TEXT, PRIMARY KEY (LocId, Formatted));')
