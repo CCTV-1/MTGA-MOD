@@ -71,6 +71,7 @@ if __name__ == "__main__":
         cardDBConnect.commit()
 
     locLibraryAsset = '{0}/resources.assets'.format(Config.WINDOWS_DATA_DIR)
+    #locLibraryAsset = '{0}/ea2265baff2fd5f49a88d2b9b9c85893'.format(Config.ANDROID_DATA_DIR)
     monoBehaviorName = 'LocLibrary'
     assetEnv = UnityPy.load(locLibraryAsset)
     for obj in assetEnv.objects:
