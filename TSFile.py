@@ -7,17 +7,17 @@ class TSFileType(enum.Enum):
     JSON = 1
 
 
-def loadTSInfo(filePath: str, type: TSFileType) -> dict:
+def loadTSInfo(filePath: str, type: TSFileType) -> collections.OrderedDict:
+    TSInfo = collections.OrderedDict()
     if type == TSFileType.JSON:
         with open(filePath, 'r', encoding='UTF-8') as f:
-            TSInfo = json.load(f)
+            TSInfo.update(json.load(f))
         return TSInfo
     else:
         import openpyxl
         TSBook = openpyxl.load_workbook(filePath, read_only=True)
         sheet = TSBook.active
         currentRow = 2
-        TSInfo = {}
         while currentRow <= sheet.max_row:
             tsKey = sheet.cell(row=currentRow, column=1).value
             tsOracleText = sheet.cell(row=currentRow, column=2).value
@@ -48,6 +48,6 @@ def SaveTSInfo(TSInfo: collections.OrderedDict, name: str, type: TSFileType):
         wb.save('{0}.xlsx'.format(name))
     elif type == TSFileType.JSON:
         with open('{0}.json'.format(name), 'w', encoding='UTF-8') as f:
-            json.dump(TSInfo, f, ensure_ascii=False)
+            json.dump(TSInfo, f, ensure_ascii=False, indent=4)
     else:
         pass
