@@ -64,4 +64,8 @@ if __name__ == "__main__":
         cardDBCursor.execute('VACUUM')
         cardDBConnect.commit()
 
-    TSFile.SaveTSInfo(TSInfo, 'CardTS', TSFile.TSFileType.JSON)
+    sortTS = collections.OrderedDict()
+    for i in sorted(TSInfo, key=lambda x:int(x)):
+        sortTS[i] = TSInfo[i]
+
+    TSFile.SaveTSInfo(sortTS, 'CardTS', TSFile.TSFileType.JSON)

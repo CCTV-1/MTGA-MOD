@@ -129,4 +129,7 @@ if __name__ == "__main__":
     with open('{0}/{1}'.format(Config.OUT_DIR, assetName), "wb") as f:
         f.write(assetEnv.file.save())
 
-    TSFile.SaveTSInfo(TSInfo, 'UITS', TSFile.TSFileType.JSON)
+    sortTS = collections.OrderedDict()
+    for i in sorted(TSInfo):
+        sortTS[i] = TSInfo[i]
+    TSFile.SaveTSInfo(sortTS, 'UITS', TSFile.TSFileType.JSON)
