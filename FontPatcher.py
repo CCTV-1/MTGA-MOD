@@ -16,23 +16,11 @@ WINDOWS_REPLACE_RULES: dict[str:list] = {
     '{0}/sharedassets0.assets'.format(Config.WINDOWS_DATA_DIR): [
         'Font_Default', 'Font_Title'
     ],
-    '{0}/Downloads/AssetBundle/Font_Font_Default_bdf9cfbb-5a0453a81269c26196a0f7339b3d7ef3.mtga'.format(Config.WINDOWS_DATA_DIR): [
-        'Font_Default'
+    '{0}/Downloads/AssetBundle/Bucket_Card.FieldFont_0_6b8436a2-80b5ae3a3e2e95a1bf8bd98d3579b754.mtga'.format(Config.WINDOWS_DATA_DIR): [
+        'Font_Default', 'Font_Title', 'Font_Default_JP', 'Font_Title_JP'
     ],
-    '{0}/Downloads/AssetBundle/Font_Font_Title_153ccb23-5a8fd0b79202a37d39f8ac03b0471c5c.mtga'.format(Config.WINDOWS_DATA_DIR): [
-        'Font_Title'
-    ],
-    '{0}/Downloads/AssetBundle/Font_Font_Default_JP_27d90eff-3211d70efd36e641d3112f62d96c7285.mtga'.format(Config.WINDOWS_DATA_DIR): [
-        'Font_Default_JP'
-    ],
-    '{0}/Downloads/AssetBundle/Font_Font_Title_JP_4b112539-6a3448b361b09d436c45f92df9bfb891.mtga'.format(Config.WINDOWS_DATA_DIR): [
-        'Font_Title_JP'
-    ],
-    '{0}/Downloads/AssetBundle/Font_Font_Default_USERNAME_debf830d-aaa57006d5c1d3afbf868e579d63f379.mtga'.format(Config.WINDOWS_DATA_DIR): [
-        'Font_Default_USERNAME'
-    ],
-    '{0}/Downloads/AssetBundle/Font_Font_Title_USERNAME_eb0101e1-8853c9993afeda6cd0ecae186586988e.mtga'.format(Config.WINDOWS_DATA_DIR): [
-        'Font_Title_USERNAME'
+    '{0}/Downloads/AssetBundle/Fonts_000c0e73-559ead1d27f1e25e4eb2ee3379385e34.mtga'.format(Config.WINDOWS_DATA_DIR): [
+        'Font_Default_USERNAME', 'Font_Title_USERNAME'
     ]
 }
 
@@ -56,23 +44,11 @@ ANDROID_REPLACE_RULES: dict[str:list] = {
     '{0}/sharedassets0.assets'.format(Config.ANDROID_DATA_DIR): [
         'Font_Default', 'Font_Title'
     ],
-    '{0}/AssetBundle/Font_Font_Default_2736e360-e0c808dc17939a7ea0a76402dbfcb405.mtga'.format(Config.ANDROID_DATA_DIR): [
-        'Font_Default'
+    '{0}/AssetBundle/Bucket_Card.FieldFont_0_43ae4143-80b5ae3a3e2e95a1bf8bd98d3579b754.mtga'.format(Config.ANDROID_DATA_DIR): [
+        'Font_Default', 'Font_Title', 'Font_Default_JP', 'Font_Title_JP'
     ],
-    '{0}/AssetBundle/Font_Font_Title_6950d97e-764baef053777a11d1c0a37e221148b5.mtga'.format(Config.ANDROID_DATA_DIR): [
-        'Font_Title'
-    ],
-    '{0}/AssetBundle/Font_Font_Default_JP_d679d304-95703669021cbb5be7df6c342b187602.mtga'.format(Config.ANDROID_DATA_DIR): [
-        'Font_Default_JP'
-    ],
-    '{0}/AssetBundle/Font_Font_Title_JP_18686823-2023f195934254e9089e663c502d42d0.mtga'.format(Config.ANDROID_DATA_DIR): [
-        'Font_Title_JP'
-    ],
-    '{0}/AssetBundle/Font_Font_Default_USERNAME_d3398052-f89e675d31e3765edec09f0310e8e8bb.mtga'.format(Config.ANDROID_DATA_DIR): [
-        'Font_Default_USERNAME'
-    ],
-    '{0}/AssetBundle/Font_Font_Title_USERNAME_2d152669-0cfbbd7dcceb9ab38e44c0398b6e55ba.mtga'.format(Config.ANDROID_DATA_DIR): [
-        'Font_Title_USERNAME'
+    '{0}/AssetBundle/Fonts_1efa7059-559ead1d27f1e25e4eb2ee3379385e34.mtga'.format(Config.ANDROID_DATA_DIR): [
+        'Font_Title_USERNAME', 'Font_Default_USERNAME'
     ]
 }
 
