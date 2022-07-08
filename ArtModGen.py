@@ -183,10 +183,10 @@ PATCH_TARGET_LIST: dict = {
             "Connections":
             [
                 {
-                    "Parent": "3754fcb2-033d-49a9-bf6d-4a1ab7be3b6d",
+                    "Parent": "d0079ff2-5a53-4c54-bbee-26cf984ae75e",
                     "Child":
                     {
-                        "ANB": "d0f5c832-3aac-41db-a67f-a22aa4d4edc9"
+                        "ANB": "41798323-4098-419f-afe5-fd6d73fef620"
                     }
                 },
                 {
@@ -324,7 +324,7 @@ PATCH_TARGET_LIST: dict = {
             "Connections":
             [
                 {
-                    "Parent": "c13a0041-fae2-4a9c-bc5b-e52489fe0d6f",
+                    "Parent": "9cf4275e-67d7-41ba-9901-b508ab872563",
                     "Child":
                     {
                         # "RelativePath": "Assets/Core/DuelScene/Cards/NewCDCPrefabs/CDCParts/Titlebar/Card Part - Titlebar NONE.prefab"
