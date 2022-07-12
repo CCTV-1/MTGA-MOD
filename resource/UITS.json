@@ -105,11 +105,11 @@
     },
     "AbilityHanger/CantSpecialize/Cant_Specialize_Body": {
         "oracleText": "This permanent does not have specialized faces and can't specialize.",
-        "translation": "This permanent does not have specialized faces and can't specialize."
+        "translation": "这个永久物没有专精面无法专精。"
     },
     "AbilityHanger/CantSpecialize/Cant_Specialize_Title": {
         "oracleText": "Can't Specialize",
-        "translation": "Can't Specialize"
+        "translation": "无法专精"
     },
     "AbilityHanger/CantTransform/Cant_Transform_Addendum": {
         "oracleText": "This is not a double-faced card and it can't transform.",
@@ -625,11 +625,11 @@
     },
     "AbilityHanger/Keyword/DoubleTeam_Body": {
         "oracleText": "When a creature with double team attacks, if it's not a token, conjure a duplicate into your hand, then both of them perpetually lose double team.",
-        "translation": "When a creature with double team attacks, if it's not a token, conjure a duplicate into your hand, then both of them perpetually lose double team."
+        "translation": "当一个具有后继异能的生物攻击时，如果它不是衍生物，变出一张它的复制牌置于你手上，然后他们两永久失去后继异能。"
     },
     "AbilityHanger/Keyword/DoubleTeam_Title": {
         "oracleText": "Double Team",
-        "translation": "Double Team"
+        "translation": "后继"
     },
     "AbilityHanger/Keyword/DraftFromSpellbook_Body": {
         "oracleText": "To draft from a spellbook select one of three random cards from this card's spellbook to add to your hand.",
@@ -1229,11 +1229,11 @@
     },
     "AbilityHanger/Keyword/Specialize_Body": {
         "oracleText": "{abilityCost}, Choose a color, discard a card of that color or associated basic land type: This creature perpetually specializes into that color. Activate only as a sorcery.",
-        "translation": "{abilityCost}, Choose a color, discard a card of that color or associated basic land type: This creature perpetually specializes into that color. Activate only as a sorcery."
+        "translation": "{abilityCost}，选择一个颜色，弃掉一张该色的牌或具有与该色有关的基本地类别的牌：这个生物将永久专精化为这个颜色。只能于法术时机起动。"
     },
     "AbilityHanger/Keyword/Specialize_Title": {
         "oracleText": "Specialize",
-        "translation": "Specialize"
+        "translation": "专精"
     },
     "AbilityHanger/Keyword/Spectacle": {
         "oracleText": "You may cast this spell for its spectacle cost rather than its mana cost if an opponent lost life this turn.",
@@ -1513,7 +1513,7 @@
     },
     "AbilityHanger/PlayWarning/Body_Legendary_Specialize": {
         "oracleText": "You already control a legendary with this name. Specializing into this color will require you to choose which legendary to keep.",
-        "translation": "You already control a legendary with this name. Specializing into this color will require you to choose which legendary to keep."
+        "translation": "你已经操控了一个具有这个名字的传奇。专精化为这个颜色后你需要选择一个传奇进行保留。"
     },
     "AbilityHanger/PlayWarning/Body_StartingPlayer": {
         "oracleText": "You were the starting player.",
@@ -5905,7 +5905,7 @@
     },
     "DuelScene/Browsers/Specialize_BrowserHeader": {
         "oracleText": "Choose a specialization.",
-        "translation": "Choose a specialization."
+        "translation": "选择一个专精。"
     },
     "DuelScene/Browsers/Stack_Browser_Attached_Card": {
         "oracleText": "Attached Card",
@@ -6005,7 +6005,7 @@
     },
     "DuelScene/CDC/Boon": {
         "oracleText": "Boon",
-        "translation": "Boon"
+        "translation": "祝福"
     },
     "DuelScene/CDC/Emblem": {
         "oracleText": "Emblem",
@@ -6269,7 +6269,7 @@
     },
     "DuelScene/ClientPrompt/ExamineSpecialize": {
         "oracleText": "View Specializations",
-        "translation": "View Specializations"
+        "translation": "查看专精列表"
     },
     "DuelScene/ClientPrompt/Forfeit_Match": {
         "oracleText": "Concede Match and Exit",
@@ -6693,11 +6693,11 @@
     },
     "DuelScene/FaceHanger/Specialized": {
         "oracleText": "Specialized From",
-        "translation": "Specialized From"
+        "translation": "专精自"
     },
     "DuelScene/FaceHanger/SpecializesInto": {
         "oracleText": "Specializes Into",
-        "translation": "Specializes Into"
+        "translation": "专精为"
     },
     "DuelScene/FaceHanger/Spellbook": {
         "oracleText": "Spellbook",
@@ -6749,7 +6749,7 @@
     },
     "DuelScene/Interaction/CastingTimeOption/SpecializeModalAbilityText": {
         "oracleText": "Specialize {abilityCost}, Discard a {specializeColor} or {specializeLandType} card: This permanent specializes into {specializeColor}. Activate only as a sorcery.",
-        "translation": "Specialize {abilityCost}, Discard a {specializeColor} or {specializeLandType} card: This permanent specializes into {specializeColor}. Activate only as a sorcery."
+        "translation": "专精{abilityCost}, 弃一张{specializeColor}或{specializeLandType}牌：这个永久物专精为{specializeColor}。只能于法术时机起动。"
     },
     "DuelScene/Interaction/DeclareAttackers/Attack": {
         "oracleText": "Attack",
@@ -17517,7 +17517,7 @@
     },
     "Events/Packets/SJMP_PacketName_Double_Team": {
         "oracleText": "Double Team",
-        "translation": "Double Team"
+        "translation": "后继"
     },
     "Events/Packets/SJMP_PacketName_Double_Trouble": {
         "oracleText": "Double Trouble",
@@ -21365,7 +21365,7 @@
     },
     "MainNav/DeckBuilder/SpecializeCommander": {
         "oracleText": "When selecting a Commander with Specialize, choose one additional color to use in deck building.",
-        "translation": "When selecting a Commander with Specialize, choose one additional color to use in deck building."
+        "translation": "当你选择一个具有专精异能的指挥官， 需要选择一个用于构建套牌的额外颜色。"
     },
     "MainNav/DeckBuilder/UseWildcards": {
         "oracleText": "Use Wildcards",
