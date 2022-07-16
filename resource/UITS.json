@@ -13,7 +13,7 @@
     },
     "AbilityHanger/AbilityWord/Adamant": {
         "oracleText": "This spell has an additional effect if cast with three mana of the indicated color.",
-        "translation": "如果施放此咒语时支付过至少三点提及的法术力，则此咒语获得额外效果。"
+        "translation": "如果施放此咒语时支付过至少三点提及的法术力，则此咒语获得额外效应。"
     },
     "AbilityHanger/AbilityWord/Addendum": {
         "oracleText": "This spell has an additional effect if you cast it during your main phase.",
@@ -105,7 +105,7 @@
     },
     "AbilityHanger/CantSpecialize/Cant_Specialize_Body": {
         "oracleText": "This permanent does not have specialized faces and can't specialize.",
-        "translation": "这个永久物没有专精面无法专精。"
+        "translation": "此永久物没有专精牌面，无法专精。"
     },
     "AbilityHanger/CantSpecialize/Cant_Specialize_Title": {
         "oracleText": "Can't Specialize",
@@ -117,11 +117,11 @@
     },
     "AbilityHanger/CantTransform/Cant_Transform_Body": {
         "oracleText": "This permanent is not double-faced and can't transform.",
-        "translation": "这个永久物没有两个面，也不能转化。"
+        "translation": "它本身不是双面牌，不会转化。"
     },
     "AbilityHanger/CantTransform/Cant_Transform_Title": {
         "oracleText": "Can't Transform",
-        "translation": "不能转化"
+        "translation": "无法转化"
     },
     "AbilityHanger/Color/AllColors": {
         "oracleText": "all colors",
@@ -193,7 +193,7 @@
     },
     "AbilityHanger/CostChange/CostModified_Header": {
         "oracleText": "Cost Modified",
-        "translation": "费用已改变"
+        "translation": "费用变化"
     },
     "AbilityHanger/CostChange/ModifiedAbilityCost_Body": {
         "oracleText": "Ability mana cost modified to {newCost}",
@@ -229,7 +229,7 @@
     },
     "AbilityHanger/DeckBuilder/CompanionViolation_Title": {
         "oracleText": "Companion Violation",
-        "translation": "行旅违规"
+        "translation": "违反行侣条件"
     },
     "AbilityHanger/Designation/ChosenCompanion_Body": {
         "oracleText": "This card is your chosen companion. Once per game you may pay {o3} any time you could cast a sorcery to put it into your hand.",
@@ -625,7 +625,7 @@
     },
     "AbilityHanger/Keyword/DoubleTeam_Body": {
         "oracleText": "When a creature with double team attacks, if it's not a token, conjure a duplicate into your hand, then both of them perpetually lose double team.",
-        "translation": "当一个具有后继异能的生物攻击时，如果它不是衍生物，变出一张它的复制牌置于你手上，然后他们两永久失去后继异能。"
+        "translation": "当具后继异能的生物攻击时，如果它不为衍生物，变出一张它的复制牌置于你手上，然后两者永久失去后继异能。"
     },
     "AbilityHanger/Keyword/DoubleTeam_Title": {
         "oracleText": "Double Team",
@@ -749,7 +749,7 @@
     },
     "AbilityHanger/Keyword/HexproofFromAColor_Body": {
         "oracleText": "A player or permanent with hexproof from a color can't be target of spells or abilities your opponents control of that color.",
-        "translation": "拥有反某色辟邪的牌手或永久物不能成为由对手所操控之该色咒语或异能的目标。"
+        "translation": "具有反某色辟邪的牌手或永久物不能成为由对手所操控之该色咒语或异能的目标。"
     },
     "AbilityHanger/Keyword/HexproofFromAColor_Title": {
         "oracleText": "Hexproof from a Color",
@@ -765,7 +765,7 @@
     },
     "AbilityHanger/Keyword/Hexproof_from_Artifacts_and_Enchantments_Body": {
         "oracleText": "A permanent with hexproof from artifacts and enchantments can't be the target of abilities from artifacts or enchantments your opponents control, or Auras your opponents cast.",
-        "translation": "具有反神器和结界辟邪的永久物不能成为由你对手操控的神器或结界的异能亦或者是由你对手释放的灵气咒语的目标。"
+        "translation": "具有反神器和结界辟邪的永久物不能成为由对手所操控之神器或结界的异能目标，也不能成为由对手操控之灵气的目标。"
     },
     "AbilityHanger/Keyword/Hexproof_from_Artifacts_and_Enchantments_Title": {
         "oracleText": "Hexproof from Artifacts and Enchantments",
@@ -921,7 +921,7 @@
     },
     "AbilityHanger/Keyword/Perpetual_Body": {
         "oracleText": "Perpetual effects and counters are not removed from cards that change zones.",
-        "translation": "永久效果和指示物不会在卡牌改变区域时移除."
+        "translation": "永久效应和指示物不会在卡牌改变区域时移除。"
     },
     "AbilityHanger/Keyword/Perpetual_Title": {
         "oracleText": "Perpetual",
@@ -985,11 +985,11 @@
     },
     "AbilityHanger/Keyword/ProtectionFromChosenNumber": {
         "oracleText": "This permanent can't be blocked, targeted, dealt damage, enchanted, or equipped by anything with a mana value other than the chosen number.",
-        "translation": "此永久物不能被总法术力费用为所选数字以外的东西阻挡，指定为目标，造成伤害，结附或装备."
+        "translation": "此永久物不能被总法术力费用为所选数字以外的东西阻挡，指定为目标，造成伤害，结附或是装备。"
     },
     "AbilityHanger/Keyword/ProtectionFromChosenNumberN": {
         "oracleText": "This permanent can't be blocked, targeted, dealt damage, enchanted, or equipped by anything with a mana value other than {0}.",
-        "translation": "此永久物不能被总法术力费用为{0}以外的东西阻挡，指定为目标，造成伤害，结附或装备."
+        "translation": "此永久物不能被总法术力费用为{0}以外的东西阻挡，指定为目标，造成伤害，结附或是装备。"
     },
     "AbilityHanger/Keyword/ProtectionFromChosenNumber_Title": {
         "oracleText": "Protection from ...",
@@ -1009,15 +1009,15 @@
     },
     "AbilityHanger/Keyword/ProtectionFromDemons_Reference": {
         "oracleText": "A permanent with protection from Demons can't be blocked, targeted, or dealt damage by Demons.",
-        "translation": "具有反恶魔保护的永久物不能被恶魔阻挡、指定为目标或造成伤害。"
+        "translation": "具有反恶魔保护的永久物不能被恶魔阻挡，指定为目标或造成伤害。"
     },
     "AbilityHanger/Keyword/ProtectionFromDevils_Body": {
         "oracleText": "This permanent can't be blocked, targeted, or dealt damage by Devils",
-        "translation": "该永久物不能被魔鬼阻挡，指定为目标或造成伤害。"
+        "translation": "该永久物不能被魔鬼阻挡，指定为目标或造成伤害."
     },
     "AbilityHanger/Keyword/ProtectionFromDevils_Reference": {
         "oracleText": "A permanent with protection from Devils can't be blocked, targeted, or dealt damage by Devils.",
-        "translation": "具有反魔鬼保护的永久物不能被魔鬼阻挡、指定为目标或造成伤害。"
+        "translation": "具有反魔鬼保护的永久物不能被魔鬼阻挡，指定为目标或造成伤害。"
     },
     "AbilityHanger/Keyword/ProtectionFromDevils_Title": {
         "oracleText": "Protection from Devils",
@@ -1029,19 +1029,19 @@
     },
     "AbilityHanger/Keyword/ProtectionFromDragons": {
         "oracleText": "This permanent can't be blocked, targeted, or dealt damage by Dragons.",
-        "translation": "该永久物不能被龙阻挡，指定为目标或造成伤害."
+        "translation": "该永久物不能被龙阻挡，指定为目标或造成伤害。"
     },
     "AbilityHanger/Keyword/ProtectionFromEven": {
         "oracleText": "This permanent can't be blocked, targeted, dealt damage, enchanted, or equipped by anything with an even mana value.",
-        "translation": "此永久物不能被总法术力费用为偶数的所有东西阻挡，指定为目标，造成伤害，结附或装备."
+        "translation": "此永久物不能被总法术力费用为偶数的所有东西阻挡，指定为目标，造成伤害，结附或是装备。"
     },
     "AbilityHanger/Keyword/ProtectionFromEvenOrOdd": {
         "oracleText": "This permanent can't be blocked, targeted, dealt damage, enchanted, or equipped by anything with either an odd or even mana value.",
-        "translation": "此永久物不能被总法术力费用为奇数或偶数的所有东西阻挡，指定为目标，造成伤害，结附或装备."
+        "translation": "此永久物不能被总法术力费用为奇数或偶数的所有东西阻挡，指定为目标，造成伤害，结附或是装备。"
     },
     "AbilityHanger/Keyword/ProtectionFromEvenText": {
         "oracleText": "Protection from even mana values.",
-        "translation": "反偶数总法术力费用保护."
+        "translation": "反偶数总法术力费用保护。"
     },
     "AbilityHanger/Keyword/ProtectionFromEvenTitle": {
         "oracleText": "Protection from Even Mana Values",
@@ -1049,7 +1049,7 @@
     },
     "AbilityHanger/Keyword/ProtectionFromGodCreatures": {
         "oracleText": "This permanent can't be blocked, targeted, or dealt damage by God creatures.",
-        "translation": "该永久物不能被神生物阻挡，指定为目标或造成伤害."
+        "translation": "该永久物不能被神生物阻挡，指定为目标或造成伤害。"
     },
     "AbilityHanger/Keyword/ProtectionFromGodCreatures_Title": {
         "oracleText": "Protection from God Creatures",
@@ -1069,7 +1069,7 @@
     },
     "AbilityHanger/Keyword/ProtectionFromMulticolored": {
         "oracleText": "This permanent can't be blocked, targeted, dealt damage, enchanted, or equipped by anything multicolored.",
-        "translation": "此永久物不能被多色的任何东西阻挡，指定为目标，造成伤害，结附或装备."
+        "translation": "此永久物不能被多色的任何东西阻挡，指定为目标，造成伤害，结附或是装备。"
     },
     "AbilityHanger/Keyword/ProtectionFromMulticolored_Title": {
         "oracleText": "Protection from Multicolored",
@@ -1077,11 +1077,11 @@
     },
     "AbilityHanger/Keyword/ProtectionFromOdd": {
         "oracleText": "This permanent can't be blocked, targeted, dealt damage, enchanted, or equipped by anything with an odd mana value.",
-        "translation": "此永久物不能被总法术力费用为奇数的任何东西阻挡，指定为目标，造成伤害，结附或装备."
+        "translation": "此永久物不能被总法术力费用为奇数的任何东西阻挡，指定为目标，造成伤害，结附或是装备。"
     },
     "AbilityHanger/Keyword/ProtectionFromOddText": {
         "oracleText": "Protection from odd mana values.",
-        "translation": "反奇数总法术力费用保护."
+        "translation": "反奇数总法术力费用保护。"
     },
     "AbilityHanger/Keyword/ProtectionFromOddTitle": {
         "oracleText": "Protection from Odd Mana Values",
@@ -1089,7 +1089,7 @@
     },
     "AbilityHanger/Keyword/ProtectionFromPlaneswalkers": {
         "oracleText": "This creature can't be blocked, targeted, or dealt damage by planeswalkers.",
-        "translation": "该生物不能被神生物阻挡，指定为目标或造成伤害."
+        "translation": "该生物不能被神生物阻挡，指定为目标或造成伤害。"
     },
     "AbilityHanger/Keyword/ProtectionFromPlaneswalkers_Title": {
         "oracleText": "Protection from Planeswalkers",
@@ -1105,11 +1105,11 @@
     },
     "AbilityHanger/Keyword/ProtectionFromVampires_Body": {
         "oracleText": "This permanent can't be blocked, targeted, or dealt damage by Vampires.",
-        "translation": "该永久物不能被吸血鬼阻挡，指定为目标或造成伤害."
+        "translation": "该永久物不能被吸血鬼阻挡，指定为目标或造成伤害。"
     },
     "AbilityHanger/Keyword/ProtectionFromWerewolf_Body": {
         "oracleText": "This permanent can't be blocked, targeted, or dealt damage by Werewolves.",
-        "translation": "该永久物不能被狼人阻挡，指定为目标或造成伤害."
+        "translation": "该永久物不能被狼人阻挡，指定为目标或造成伤害。"
     },
     "AbilityHanger/Keyword/ProtectionFromWhite": {
         "oracleText": "This permanent can't be blocked, targeted, dealt damage, enchanted, or equipped by anything white.",
@@ -1121,7 +1121,7 @@
     },
     "AbilityHanger/Keyword/ProtectionFromZombies": {
         "oracleText": "This creature can't be blocked, targeted, or dealt damage by Zombies.",
-        "translation": "该生物不能被灵佣阻挡，指定为目标或造成伤害.."
+        "translation": "该生物不能被灵佣阻挡，指定为目标或造成伤害。"
     },
     "AbilityHanger/Keyword/Prowess": {
         "oracleText": "Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.",
@@ -1229,7 +1229,7 @@
     },
     "AbilityHanger/Keyword/Specialize_Body": {
         "oracleText": "{abilityCost}, Choose a color, discard a card of that color or associated basic land type: This creature perpetually specializes into that color. Activate only as a sorcery.",
-        "translation": "{abilityCost}，选择一个颜色，弃掉一张该色的牌或具有与该色有关的基本地类别的牌：这个生物将永久专精化为这个颜色。只能于法术时机起动。"
+        "translation": "{abilityCost}，选择一种颜色，弃一张该颜色或相关基本地类别的牌：此生物永久专精为该颜色。只能于法术时机起动。"
     },
     "AbilityHanger/Keyword/Specialize_Title": {
         "oracleText": "Specialize",
@@ -1513,7 +1513,7 @@
     },
     "AbilityHanger/PlayWarning/Body_Legendary_Specialize": {
         "oracleText": "You already control a legendary with this name. Specializing into this color will require you to choose which legendary to keep.",
-        "translation": "你已经操控了一个具有这个名字的传奇。专精化为这个颜色后你需要选择一个传奇进行保留。"
+        "translation": "你已经操控具有该名称的传奇。专精为该颜色会要求你选择保留某个传奇。"
     },
     "AbilityHanger/PlayWarning/Body_StartingPlayer": {
         "oracleText": "You were the starting player.",
@@ -1805,7 +1805,7 @@
     },
     "AbilityHanger/SpecialHangers/MultipleFaceHangers/Body": {
         "oracleText": "Right-click for more information.",
-        "translation": "右击查看更多信息。"
+        "translation": "右击查看详细信息。"
     },
     "AbilityHanger/SpecialHangers/MultipleFaceHangers/Body_Craftable": {
         "oracleText": "Right-click for more information and crafting options.",
@@ -1933,7 +1933,7 @@
     },
     "AbilityHanger/SpecialHangers/RevealedToOpponent_Header": {
         "oracleText": "Revealed",
-        "translation": "展示"
+        "translation": "已展示"
     },
     "AbilityHanger/SpecialHangers/SnowManaSource_Body": {
         "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xS\"> can be paid with one mana from a snow source.",
@@ -2029,7 +2029,7 @@
     },
     "Apple/Preorder_HBG_2_ShortDesc": {
         "oracleText": "Includes Set Mastery",
-        "translation": "Includes Set Mastery"
+        "translation": "内含系列精研令状"
     },
     "Apple/Preorder_HBG_2_ShortName": {
         "oracleText": "Lae'zel  Play Pre-order",
@@ -2817,7 +2817,7 @@
     },
     "BattlePass/Rewards/Skin_and_Orb": {
         "oracleText": "1 Card Style & 1 Set Mastery Orb",
-        "translation": "1 Card Style & 1 Set Mastery Orb"
+        "translation": "1张卡牌样式和1个系列令状法珠"
     },
     "BattlePass/Rewards/StickerEmote_ZNRHedron_Angry": {
         "oracleText": "Hedron Angry Emote",
@@ -3549,47 +3549,47 @@
     },
     "Decks/Precon/DragonBrawl_Arcades": {
         "oracleText": "Arcades, the Strategist",
-        "translation": "Arcades, the Strategist"
+        "translation": "智龙阿卡迪"
     },
     "Decks/Precon/DragonBrawl_Chromium": {
         "oracleText": "Chromium, the Mutable",
-        "translation": "Chromium, the Mutable"
+        "translation": "化龙铬米恩"
     },
     "Decks/Precon/DragonBrawl_Galazeth": {
         "oracleText": "Galazeth Prismari",
-        "translation": "Galazeth Prismari"
+        "translation": "加拉泽粹丽"
     },
     "Decks/Precon/DragonBrawl_Lozhan": {
         "oracleText": "Lozhan, Dragon's Legacy",
-        "translation": "Lozhan, Dragon's Legacy"
+        "translation": "龙族传承洛珊"
     },
     "Decks/Precon/DragonBrawl_Miirym": {
         "oracleText": "Miirym, Sentinel Wyrm",
-        "translation": "Miirym, Sentinel Wyrm"
+        "translation": "上古龙卫米瑞穆"
     },
     "Decks/Precon/DragonBrawl_Piru": {
         "oracleText": "Piru, the Volatile",
-        "translation": "Piru, the Volatile"
+        "translation": "躁龙琵露"
     },
     "Decks/Precon/DragonBrawl_Rith": {
         "oracleText": "Rith, Liberated Primeval",
-        "translation": "Rith, Liberated Primeval"
+        "translation": "重获自由太古龙丽丝"
     },
     "Decks/Precon/DragonBrawl_Shadrix": {
         "oracleText": "Shadrix Silverquill",
-        "translation": "Shadrix Silverquill"
+        "translation": "沙垂兹银毫"
     },
     "Decks/Precon/DragonBrawl_Tanazir": {
         "oracleText": "Tanazir Quandrix",
-        "translation": "Tanazir Quandrix"
+        "translation": "塔那吉量析"
     },
     "Decks/Precon/DragonBrawl_Velomachus": {
         "oracleText": "Velomachus Lorehold",
-        "translation": "Velomachus Lorehold"
+        "translation": "维洛马楚衡鉴"
     },
     "Decks/Precon/DragonBrawl_Ziatora": {
         "oracleText": "Ziatora, the Incinerator",
-        "translation": "Ziatora, the Incinerator"
+        "translation": "焚炎魔齐朵拉"
     },
     "Decks/Precon/FNM_Adventure": {
         "oracleText": "Final Adventure",
@@ -4633,7 +4633,7 @@
     },
     "Decks/Precon/Precon_PW_M20_Sorin_Desc": {
         "oracleText": "Draw strength from death and destruction.",
-        "translation": "Draw strength from death and destruction."
+        "translation": "从死亡与毁灭当中汲取力量，壮大自己。  "
     },
     "Decks/Precon/Precon_PW_M20_Vivien": {
         "oracleText": "Vivien's Wilds",
@@ -4829,7 +4829,7 @@
     },
     "Decks/Precon/Precon_StreamLabs_desc": {
         "oracleText": "Recruit your army and mentor your foot soldiers into battle-hardened veterans. Build a force to be reckoned with!",
-        "translation": "Recruit your army and mentor your foot soldiers into battle-hardened veterans. Build a force to be reckoned with!"
+        "translation": " 招募军队，训导新兵，将其锤炼成才。建立一支能够昭彰正义的军队！"
     },
     "Decks/Precon/Precon_The_Brazen_Coalition": {
         "oracleText": "The Brazen Coalition",
@@ -4893,23 +4893,23 @@
     },
     "Decks/Precon/TurfBrawls_Brokers": {
         "oracleText": "Rigo, Streetwise Mentor",
-        "translation": "Rigo, Streetwise Mentor"
+        "translation": "街头明师瑞格"
     },
     "Decks/Precon/TurfBrawls_Cabaretti": {
         "oracleText": "Jinnie Fay, Jetmir's Second",
-        "translation": "Jinnie Fay, Jetmir's Second"
+        "translation": "杰米尔副手金妮斐"
     },
     "Decks/Precon/TurfBrawls_Maestros": {
         "oracleText": "Evelyn, the Covetous",
-        "translation": "Evelyn, the Covetous"
+        "translation": "贪婪的艾弗琳"
     },
     "Decks/Precon/TurfBrawls_Obscura": {
         "oracleText": "Toluz, Clever Conductor",
-        "translation": "Toluz, Clever Conductor"
+        "translation": "机敏行控涂璐丝"
     },
     "Decks/Precon/TurfBrawls_Riveteers": {
         "oracleText": "Mr. Orfeo, the Boulder",
-        "translation": "Mr. Orfeo, the Boulder"
+        "translation": "蛮石欧菲奥先生"
     },
     "Decks/Precon/Welcome_Booster_Deck": {
         "oracleText": "Critter Corps",
@@ -4989,11 +4989,11 @@
     },
     "Decks/Precon/Workshop_Draft_IKO2_GW_Vigilance": {
         "oracleText": "Vigilance",
-        "translation": "Vigilance"
+        "translation": "警戒"
     },
     "Decks/Precon/Workshop_Draft_IKO2_WB_Humans": {
         "oracleText": "Humans",
-        "translation": "Humans"
+        "translation": "人类"
     },
     "Decks/Precon/Workshop_Draft_IKO_UBG_Mutate": {
         "oracleText": "Mutate",
@@ -5001,23 +5001,23 @@
     },
     "Decks/Precon/Workshop_Draft_IKO_UR_CyclingControl": {
         "oracleText": "Spells",
-        "translation": "Spells"
+        "translation": "咒语"
     },
     "Decks/Precon/Workshop_Draft_IKO_WR_CyclingAggro": {
         "oracleText": "Cycling",
-        "translation": "Cycling"
+        "translation": "循环"
     },
     "Decks/Precon/Workshop_Draft_THB2_BG_Graveyard": {
         "oracleText": "Graveyard",
-        "translation": "坟墓场"
+        "translation": "坟场"
     },
     "Decks/Precon/Workshop_Draft_THB2_GR_Monsters": {
         "oracleText": "Monsters",
-        "translation": "Monsters"
+        "translation": "怪兽"
     },
     "Decks/Precon/Workshop_Draft_THB2_WU_Enchantments": {
         "oracleText": "Enchantments",
-        "translation": "Enchantments"
+        "translation": "结界"
     },
     "Decks/Precon/Workshop_Draft_THB_BR_Sacrifice": {
         "oracleText": "Sacrifice",
@@ -5313,11 +5313,11 @@
     },
     "Decks/Precon/YargleDay_Zalto": {
         "oracleText": "Zalto, Fire Giant Duke",
-        "translation": "Zalto, Fire Giant Duke"
+        "translation": "火巨人公爵札尔托"
     },
     "Decks/Precon/YargleDay_Zilortha": {
         "oracleText": "Zilortha, Strength Incarnate",
-        "translation": "Zilortha, Strength Incarnate"
+        "translation": "雄威化身兹罗塔"
     },
     "Draft/Autopicking_Button": {
         "oracleText": "Return to Draft",
@@ -5341,7 +5341,7 @@
     },
     "Draft/Cards": {
         "oracleText": "Cards",
-        "translation": "张数"
+        "translation": "牌张"
     },
     "Draft/DraftCompletedReconnect_Description": {
         "oracleText": "The draft portion of this event ended while you were away from the game. Build your deck and join the queue!",
@@ -5349,7 +5349,7 @@
     },
     "Draft/DraftCompletedReconnect_Title": {
         "oracleText": "Drafting Completed",
-        "translation": "Drafting Completed"
+        "translation": "轮抽已完成 "
     },
     "Draft/Draft_AutoSelectTag": {
         "oracleText": "Auto Select",
@@ -5373,7 +5373,7 @@
     },
     "Draft/Draft_Pick_Indicator": {
         "oracleText": "Pick",
-        "translation": "抓取"
+        "translation": "抽选"
     },
     "Draft/Draft_QueueHeader_Confirmed": {
         "oracleText": "Waiting for Others:",
@@ -5393,7 +5393,7 @@
     },
     "Draft/Draft_Ready": {
         "oracleText": "Ready!",
-        "translation": "准备就绪！"
+        "translation": "就绪!"
     },
     "Draft/Draft_Seat_Number": {
         "oracleText": "Seat {0}",
@@ -5945,15 +5945,15 @@
     },
     "DuelScene/Browsers/Specialize_BrowserHeader": {
         "oracleText": "Choose a specialization.",
-        "translation": "选择一个专精。"
+        "translation": "选择一项专精。"
     },
     "DuelScene/Browsers/Stack_Browser_Attached_Card": {
         "oracleText": "Attached Card",
-        "translation": "贴附的牌张"
+        "translation": "结附的牌张"
     },
     "DuelScene/Browsers/Stack_Browser_Attached_Cards": {
         "oracleText": "Attached Cards",
-        "translation": "贴附的牌张"
+        "translation": "结附的牌张"
     },
     "DuelScene/Browsers/Stack_Browser_Exiled_Card": {
         "oracleText": "Exiled Card",
@@ -6545,7 +6545,7 @@
     },
     "DuelScene/Emotes/Oops": {
         "oracleText": "Oops.",
-        "translation": "糟糕。"
+        "translation": "哎呀。"
     },
     "DuelScene/Emotes/Sorry": {
         "oracleText": "Sorry!",
@@ -6789,7 +6789,7 @@
     },
     "DuelScene/Interaction/CastingTimeOption/SpecializeModalAbilityText": {
         "oracleText": "Specialize {abilityCost}, Discard a {specializeColor} or {specializeLandType} card: This permanent specializes into {specializeColor}. Activate only as a sorcery.",
-        "translation": "专精{abilityCost}, 弃一张{specializeColor}或{specializeLandType}牌：这个永久物专精为{specializeColor}。只能于法术时机起动。"
+        "translation": "专精{abilityCost}，弃一张{specializeColor}或{specializeLandType}牌：此永久物专精为{specializeColor}。只能于法术时机起动。"
     },
     "DuelScene/Interaction/DeclareAttackers/Attack": {
         "oracleText": "Attack",
@@ -6805,7 +6805,7 @@
     },
     "DuelScene/Interaction/OptionalAction/Option_RemovePerpetualEffects": {
         "oracleText": "Remove Perpetual Effects",
-        "translation": "永久移除效应"
+        "translation": "移除永久效应"
     },
     "DuelScene/Interaction/OptionalAction/Option_Sacrifice": {
         "oracleText": "Sacrifice",
@@ -6913,7 +6913,7 @@
     },
     "DuelScene/PhaseLadder/PhaseStop/PhaseStep_Beginning_Next": {
         "oracleText": "Stop at Upkeep and Draw",
-        "translation": "在维持和抓牌阶段暂停"
+        "translation": "在下一个维持和抓牌步骤暂停"
     },
     "DuelScene/PhaseLadder/PhaseStop/PhaseStep_Beginning_Opponent": {
         "oracleText": "Stop on opponent's upkeep and draw step",
@@ -6937,7 +6937,7 @@
     },
     "DuelScene/PhaseLadder/PhaseStop/PhaseStep_Combat_End": {
         "oracleText": "Stop at End of Combat",
-        "translation": "在战斗结束时暂停"
+        "translation": "在战斗结束步骤暂停"
     },
     "DuelScene/PhaseLadder/PhaseStop/PhaseStep_Combat_Next": {
         "oracleText": "Stop at next Combat",
@@ -6985,11 +6985,11 @@
     },
     "DuelScene/PhaseLadder/PhaseStop/PhaseStep_End": {
         "oracleText": "Stop at End of Turn",
-        "translation": "在回合结束时暂停"
+        "translation": "在本回合结束步骤暂停"
     },
     "DuelScene/PhaseLadder/PhaseStop/PhaseStep_End_Next": {
         "oracleText": "Stop at End of next Turn",
-        "translation": "在下个回合结束时暂停"
+        "translation": "在下回合结束步骤暂停"
     },
     "DuelScene/PhaseLadder/PhaseStop/PhaseStep_End_Opponent": {
         "oracleText": "Stop on opponent's end step",
@@ -7013,11 +7013,11 @@
     },
     "DuelScene/PhaseLadder/PhaseStop/PhaseStep_Main2": {
         "oracleText": "Stop after Combat",
-        "translation": "在战斗阶段之前暂停"
+        "translation": "在战斗步骤后暂停"
     },
     "DuelScene/PhaseLadder/PhaseStop/PhaseStep_Main2_Next": {
         "oracleText": "Stop after next Combat",
-        "translation": "在下一个战斗阶段之前暂停"
+        "translation": "在下一个战斗步骤后暂停"
     },
     "DuelScene/PhaseLadder/PhaseStop/PhaseStep_Main2_Opponent": {
         "oracleText": "Stop on opponent's second main",
@@ -7113,7 +7113,7 @@
     },
     "DuelScene/RuleText/NoNotedCreatureType": {
         "oracleText": "No noted creature type.",
-        "translation": "没有标注生物类型。"
+        "translation": "未记下生物类别。"
     },
     "DuelScene/RuleText/NumberOfModifiedCreaturesAsSpellWasCast": {
         "oracleText": "Modified creatures you controlled as you cast this: {modifiedCreatureCount}",
@@ -7953,7 +7953,7 @@
     },
     "EPP/Nodes/R2A_Desc": {
         "oracleText": "Cheap but versatile damage spells mixed with huge dragons that threaten to end the game.",
-        "translation": "Cheap but versatile damage spells mixed with huge dragons that threaten to end the game."
+        "translation": "前期依靠费用低廉、用法灵活的伤害咒语掌控节奏，后期派出巨龙来终结悬念。 "
     },
     "EPP/Nodes/R2A_Title": {
         "oracleText": "Fuel to the Fire",
@@ -7961,7 +7961,7 @@
     },
     "EPP/Nodes/R3A_Desc": {
         "oracleText": "Dragon-based synergies that get more powerful the longer the game goes on.",
-        "translation": "Dragon-based synergies that get more powerful the longer the game goes on."
+        "translation": "基于「龙」这一生物类别的牌张配合，游戏局势拖得越久，就越能突显套牌威力。 "
     },
     "EPP/Nodes/R3A_Title": {
         "oracleText": "Chain Reaction",
@@ -8049,7 +8049,7 @@
     },
     "EPP/Nodes/W3B_Desc": {
         "oracleText": "Kill tapped creatures with spells to reach an extremely strong late-game.",
-        "translation": "Kill tapped creatures with spells to reach an extremely strong late-game."
+        "translation": "利用咒语消灭已横置的生物，力争把战局拖入后期好发挥威力。 "
     },
     "EPP/Nodes/W3B_Title": {
         "oracleText": "Radiance",
@@ -8065,7 +8065,7 @@
     },
     "EPP/Nodes/X4A_Desc": {
         "oracleText": "One card style.",
-        "translation": "一种卡牌样式。"
+        "translation": "一张卡牌样式。"
     },
     "EPP/Objective/ClickToView": {
         "oracleText": "Click to view Reward Track",
@@ -8229,7 +8229,7 @@
     },
     "EPP/Practice/intro_74": {
         "oracleText": "Hey, Look over here! I'm a planeswalker!",
-        "translation": "Hey, Look over here! I'm a planeswalker!"
+        "translation": "嘿，快看我！我成鹏洛客了！  "
     },
     "EPP/Practice/intro_75_alt": {
         "oracleText": "Hey Look! I'm a planeswalker",
@@ -8265,7 +8265,7 @@
     },
     "EPP/Practice/mulliganto5_114_alt": {
         "oracleText": "hate it when that happens.",
-        "translation": "hate it when that happens."
+        "translation": "碰到这种事真烦心。"
     },
     "EPP/Practice/nice_90": {
         "oracleText": "Thank you.",
@@ -8457,7 +8457,7 @@
     },
     "EPP/RewardTrack/RewardGold": {
         "oracleText": "Gold",
-        "translation": "黄金"
+        "translation": "金币"
     },
     "EPP/RewardTrack/RewardMythicWildcards": {
         "oracleText": "Mythic Rare Wildcard",
@@ -8493,11 +8493,11 @@
     },
     "EPP/RewardTrack/RewardRareWildcards": {
         "oracleText": "{number1} Rare Wildcards",
-        "translation": "{number1}稀有万用牌"
+        "translation": "{number1}张稀有万用牌"
     },
     "EPP/RewardTrack/RewardStylePlusWildcards": {
         "oracleText": "Reward: Card Style, {number1} Uncommon & {number2} Common Wildcards",
-        "translation": "Reward: Card Style, {number1} Uncommon & {number2} Common Wildcards"
+        "translation": "奖励：卡牌样式、{number1}张非凡和{number2}张普通万用牌"
     },
     "EPP/RewardTrack/RewardUncommonWildcards": {
         "oracleText": "{number1} Uncommon Wildcards",
@@ -8517,11 +8517,11 @@
     },
     "EPP/RewardTrack/Style_And_Orb": {
         "oracleText": "{number1} Card Style & {number2} Orb",
-        "translation": "{number1}种卡牌样式和{number2}颗法珠"
+        "translation": "{number1}张卡牌样式和{number2}颗法珠"
     },
     "EPP/RewardTrack/Style_And_Orbs": {
         "oracleText": "{number1} Card Style & {number2} Orbs",
-        "translation": "{number1}种卡牌样式和{number2}颗法珠"
+        "translation": "{number1}张卡牌样式和{number2}颗法珠"
     },
     "EPP/RewardTrack/Style_Orb_And_Unlock": {
         "oracleText": "1 Style, 1 Orb, & Unlock Play Modes",
@@ -8557,7 +8557,7 @@
     },
     "EPP/RewardWeb/EarnMoreOrbs": {
         "oracleText": "Earn more orbs by leveling up.",
-        "translation": "Earn more orbs by leveling up."
+        "translation": "提升等级可获得法珠。 "
     },
     "EPP/RewardWeb/EarnOrbsByleveling": {
         "oracleText": "Earn Mastery Orbs by leveling up!",
@@ -8645,7 +8645,7 @@
     },
     "EPP/Sparky/firstcolorchoice_157": {
         "oracleText": "But which path to choose?",
-        "translation": "But which path to choose?"
+        "translation": "你会选择哪条路呢？ "
     },
     "EPP/Sparky/firstcolorchoice_158": {
         "oracleText": "You're on the road to becoming a great planeswalker! Now it's time to choose your path.",
@@ -10929,7 +10929,7 @@
     },
     "Event_Desc_Treasure_Constructed": {
         "oracleText": "Play Treasure Contructed, win card style rewards! In Treasure Constructed, at the beginning of each of your upkeeps, you create an artifact Treasure token which you can sacrifice for a mana of any color. This event is also the first event on MTG Arena with card style rewards! You'll get the card style for Skewer the Critics at one or more wins, plus if you get five wins you'll receive the card style for Chemister's Insight. You can only receive each card style once, but it can be applied to all copies of the card in your collection.",
-        "translation": "参加「珍宝构筑」，赢取卡牌样式奖励！于「珍宝构筑」中，在你的每个维持开始时，你都会派出一个能够牺牲来产生一点任意颜色法术力的珍宝衍生神器。这也是MTG竞技场中第一个奖励卡牌样式的赛事！赢得至少一胜，便可获得遏制倒彩的卡牌样式。如果你取得五胜，便可再获得化学师的洞察之卡牌样式。每种卡牌样式只能获得一次，但不限使用张数～你收藏中的同画卡牌均可应用。"
+        "translation": "参加「珍宝构筑」，赢取卡牌样式奖励！于「珍宝构筑」中，在你的每个维持开始时，你都会派出一个能够牺牲来产生一点任意颜色法术力的珍宝衍生神器。这也是MTG竞技场中第一个奖励卡牌样式的赛事！赢得至少一胜，便可获得遏制倒彩的卡牌样式。如果你取得五胜，便可再获得化学师的洞察之卡牌样式。每张卡牌样式只能获得一次，但不限使用张数～你收藏中的同画卡牌均可应用。"
     },
     "Event_Desc_WAR_Quick_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!",
@@ -10945,7 +10945,7 @@
     },
     "Events/Banned_Cards_Tag_A": {
         "oracleText": "Standard Shakeup",
-        "translation": "标准革新"
+        "translation": "标准非主流"
     },
     "Events/Banned_Cards_Tag_B": {
         "oracleText": "Cards Banned in this Event",
@@ -11377,7 +11377,7 @@
     },
     "Events/Event_Cat_Constructed": {
         "oracleText": "Play",
-        "translation": "对战"
+        "translation": "开始游戏"
     },
     "Events/Event_Cat_Constructed _GRN": {
         "oracleText": "Guilds of Ravnica",
@@ -11385,11 +11385,11 @@
     },
     "Events/Event_Cat_ConstructedBestOf3": {
         "oracleText": "Standard Play",
-        "translation": "标准匹配"
+        "translation": "开始游戏"
     },
     "Events/Event_Cat_ConstructedBestOf3_Old": {
         "oracleText": "Play",
-        "translation": "对战"
+        "translation": "开始游戏"
     },
     "Events/Event_Cat_Constructed_AFR": {
         "oracleText": "Adventures",
@@ -11629,7 +11629,7 @@
     },
     "Events/Event_Cat_EternalNightMID": {
         "oracleText": "Night",
-        "translation": "夜晚"
+        "translation": "黑夜"
     },
     "Events/Event_Cat_Exploration_Draft": {
         "oracleText": "Exploration",
@@ -11817,43 +11817,43 @@
     },
     "Events/Event_Cat_Festival_KHM_100C_HistoricBrawl": {
         "oracleText": "Festival",
-        "translation": "节日"
+        "translation": "活动节"
     },
     "Events/Event_Cat_Festival_KHM_3Sets": {
         "oracleText": "Festival",
-        "translation": "节日"
+        "translation": "活动节"
     },
     "Events/Event_Cat_Festival_KHM_Emblem": {
         "oracleText": "Festival",
-        "translation": "节日"
+        "translation": "活动节"
     },
     "Events/Event_Cat_Festival_KHM_HistoricArtisan": {
         "oracleText": "Festival",
-        "translation": "节日"
+        "translation": "活动节"
     },
     "Events/Event_Cat_Festival_KHM_HistoricBrawl": {
         "oracleText": "Festival",
-        "translation": "节日"
+        "translation": "活动节"
     },
     "Events/Event_Cat_Festival_KHM_Precon": {
         "oracleText": "Festival",
-        "translation": "节日"
+        "translation": "活动节"
     },
     "Events/Event_Cat_Festival_M21_HistoricSingleton": {
         "oracleText": "Festival",
-        "translation": "节日"
+        "translation": "活动节"
     },
     "Events/Event_Cat_Festival_M21_NewPlayer_Precon": {
         "oracleText": "Festival",
-        "translation": "节日"
+        "translation": "活动节"
     },
     "Events/Event_Cat_Festival_MID_Emblem": {
         "oracleText": "Festival",
-        "translation": "节日"
+        "translation": "活动节"
     },
     "Events/Event_Cat_Festival_MID_Precon": {
         "oracleText": "Festival",
-        "translation": "节日"
+        "translation": "活动节"
     },
     "Events/Event_Cat_Festival_STX_Knowledge": {
         "oracleText": "College Cup",
@@ -11869,19 +11869,19 @@
     },
     "Events/Event_Cat_Festival_ZNR_3Sets": {
         "oracleText": "Festival",
-        "translation": "节日"
+        "translation": "活动节"
     },
     "Events/Event_Cat_Festival_ZNR_Mastermind": {
         "oracleText": "Festival",
-        "translation": "节日"
+        "translation": "活动节"
     },
     "Events/Event_Cat_Festival_ZNR_Precon": {
         "oracleText": "Festival",
-        "translation": "节日"
+        "translation": "活动节"
     },
     "Events/Event_Cat_Festival_ZNR_Singleton": {
         "oracleText": "Festival",
-        "translation": "节日"
+        "translation": "活动节"
     },
     "Events/Event_Cat_Flash_Event": {
         "oracleText": "Flash Event",
@@ -11889,7 +11889,7 @@
     },
     "Events/Event_Cat_Free_Play": {
         "oracleText": "Play",
-        "translation": "对战"
+        "translation": "开始游戏"
     },
     "Events/Event_Cat_Future_Artisan": {
         "oracleText": "Artisan",
@@ -11901,11 +11901,11 @@
     },
     "Events/Event_Cat_Future_Play": {
         "oracleText": "Play",
-        "translation": "对战"
+        "translation": "开始游戏"
     },
     "Events/Event_Cat_Future_Ranked": {
         "oracleText": "Ranked",
-        "translation": "天梯"
+        "translation": "排名赛"
     },
     "Events/Event_Cat_GRN_Cascade_Draft": {
         "oracleText": "Cascade GRN Draft",
@@ -12077,7 +12077,7 @@
     },
     "Events/Event_Cat_Ladder": {
         "oracleText": "Standard Ranked",
-        "translation": "标准天梯"
+        "translation": "排名赛"
     },
     "Events/Event_Cat_Ladder_Alchemy_Bo1": {
         "oracleText": "Play",
@@ -12289,7 +12289,7 @@
     },
     "Events/Event_Cat_Momir": {
         "oracleText": "Play",
-        "translation": "对战"
+        "translation": "开始游戏"
     },
     "Events/Event_Cat_Momir_PW": {
         "oracleText": "Momir",
@@ -12313,7 +12313,7 @@
     },
     "Events/Event_Cat_Pauper": {
         "oracleText": "Play",
-        "translation": "对战"
+        "translation": "开始游戏"
     },
     "Events/Event_Cat_Planecation1_GuildBattle": {
         "oracleText": "Guild Battle",
@@ -12349,7 +12349,7 @@
     },
     "Events/Event_Cat_Play": {
         "oracleText": "Play",
-        "translation": "对战"
+        "translation": "开始游戏"
     },
     "Events/Event_Cat_Play_Alchemy": {
         "oracleText": "Play",
@@ -12401,7 +12401,7 @@
     },
     "Events/Event_Cat_QuickExploration": {
         "oracleText": "Play",
-        "translation": "对战"
+        "translation": "开始游戏"
     },
     "Events/Event_Cat_Quick_Constructed": {
         "oracleText": "Constructed Event",
@@ -12693,7 +12693,7 @@
     },
     "Events/Event_Cat_TwiceTheLife": {
         "oracleText": "Play",
-        "translation": "对战"
+        "translation": "开始游戏"
     },
     "Events/Event_Cat_Twitchcon_Day9": {
         "oracleText": "Day[9]'s Insta-Ban",
@@ -13013,7 +13013,7 @@
     },
     "Events/Event_Desc_ConstructedBestOf3": {
         "oracleText": "Standard uses cards only from recent sets. Play a best-2-out-of-3 match with sideboarding.",
-        "translation": "使用事先组好的套牌（包含备牌）进行快速对战！"
+        "translation": "使用含有备牌的套牌进行对局！"
     },
     "Events/Event_Desc_Constructed_AFR": {
         "oracleText": "Bring a deck and play games using cards only from <i>Adventures in the Forgotten Realms</i>. You'll receive rewards based on how many games you win.",
@@ -13501,7 +13501,7 @@
     },
     "Events/Event_Desc_Festival_DOM": {
         "oracleText": "Grow your collection of Dominaria cards! Bring your constructed deck and battle opponents to receive Dominaria packs and Dominaria cards based on how many wins you earn. Each uncommon card reward can get upgraded to a rare or mythic (15%).\n\nKeep playing with that deck until you reach five wins or two losses.",
-        "translation": "Grow your collection of Dominaria cards! Bring your constructed deck and battle opponents to receive Dominaria packs and Dominaria cards based on how many wins you earn. Each uncommon card reward can get upgraded to a rare or mythic (15%).\n\nKeep playing with that deck until you reach five wins or two losses."
+        "translation": "充实你的多明纳里亚牌张收藏！使用事先组好的套牌与对手进行对局，并根据你的胜场数量赢得多明纳里亚补充包。使用同一副套牌持续游戏，直到累积五胜或二败为止。所得之非凡牌奖励都有机会升级为稀有或秘稀牌（15%）。\n\n使用同一副套牌持续游戏，直到累积五胜或二败为止。"
     },
     "Events/Event_Desc_Festival_HBG_Dragon_Brawl": {
         "oracleText": "<i>It gets tiring, you know... generation after generation of humans on quests to slay us. Ha! A mouse may rage, but the lion hears only squeaks. My kin, on the other claw, are much more worthy adversaries. I'm especially eager to test the mettle of Ziatora, a challenger from a plane called 'New Capenna.' To her I say: \"It's time for a Dragon Brawl, Zi!\"</i>\n\nIn <b>Dragon Brawl</b>, revel in your grandeur using one of the provided Historic Brawl decks, each of which features a Legendary Dragon as the commander. As you win, you'll earn dragon-themed Rulebook card styles from <i>Alchemy Horizons: Baldur's Gate</i>. There are 10 different styles to collect!\n\nFor more details on this format, including a full list of card styles you can earn, click <u><link=https://magic.wizards.com/mtga-hbg-dragon-brawl>here</link></u>.\n\n<size=100%><b><color=\"green\">When this event ends, entrants will receive any unclaimed rewards automatically.</color></b></size>",
@@ -13625,7 +13625,7 @@
     },
     "Events/Event_Desc_Flash_Event": {
         "oracleText": "Get a Dominaria pack just for entering this event! Bring your constructed deck, and battle opponents and earn bonus rewards with enough wins. \n\nKeep playing with that deck until you reach three wins or two losses.",
-        "translation": "Get a Dominaria pack just for entering this event! Bring your constructed deck, and battle opponents and earn bonus rewards with enough wins. \n\nKeep playing with that deck until you reach three wins or two losses."
+        "translation": "参加赛事即可获得多明纳里亚补充包！使用事先组好的套牌与对手进行对局，获得足够的胜场数量便可赢得额外奖励。\n\n使用同一副套牌持续游戏，直到累积三胜或二败为止。"
     },
     "Events/Event_Desc_Future_Artisan": {
         "oracleText": "Bring your Artisan deck into the new year! Build your deck from only common and uncommon cards from the sets remaining in Standard after renewal season: <i>Throne of Eldraine</i>, <i>Theros Beyond Death</i>, <i>Ikoria: Lair of Behemoths</i>, and <i>Core Set 2021</i>.\n\nThe following cards are banned:\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Cauldron Familiar\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> Zenith Flare",
@@ -13649,11 +13649,11 @@
     },
     "Events/Event_Desc_GRN_Comp_Draft": {
         "oracleText": "Select one card at a time from rotating 15-card draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three matches and receive prizes based on how many matches you win!",
-        "translation": "15张牌的轮抽用补充包在桌上轮转，你每次需从中选择一张牌。你所选择的牌张会加入你的收藏，且你会用你抽到的这些牌加上基本地来构筑一副40张的套牌参赛。不断进行对局，最后根据你的胜场数量赢得奖励！"
+        "translation": "15张牌的轮抽用补充包在桌上轮转，你每次需从中选择一张牌。你所选择的牌张会加入你的收藏，且你会用你抽到的这些牌加上基本地来构筑一副40张的套牌参赛。不断进行三盘两胜的对局，最后根据你的胜场数量赢得奖励！"
     },
     "Events/Event_Desc_GRN_Draft_Exploration": {
         "oracleText": "In Exploration, Magic's rules are changed: You can play two lands per turn, your starting hand size is nine, and you have no maximum hand size! Draft cards using 15-card draft packs and build a 40-card deck to battle others. You'll receive rewards based on how many wins you earn and you get to keep all the cards you choose!",
-        "translation": "In Exploration, Magic's rules are changed: You can play two lands per turn, your starting hand size is nine, and you have no maximum hand size! Draft cards using 15-card draft packs and build a 40-card deck to battle others. You'll receive rewards based on how many wins you earn and you get to keep all the cards you choose!"
+        "translation": "「探险」玩法的万智牌规则略有不同：你每回合可以使用两个地，你的起始手牌数量为九张，且没有手牌上限。用15张牌的补充包进行轮抽，精心挑选牌张，构筑一副40张的套牌与其他牌手对战。最后根据胜场数量赢得奖励，而且所抽选的牌都归你所有！"
     },
     "Events/Event_Desc_GRN_Omniscience_Draft": {
         "oracleText": "Select one card at a time from rotating 15-card draft packs, but with a twist: Spells don't cost any mana! Keep the lands out of your deck, you don't need them. Your starting hand size is 3.  You'll keep all cards drafted, then play games and receive prizes based on how many games you win! (Note that activated abilities and other mana payments function normally.)",
@@ -13669,7 +13669,7 @@
     },
     "Events/Event_Desc_GRN_Treasure_Draft": {
         "oracleText": "Select one card at a time from rotating 15-card draft packs, but with a twist: At the beginning of each of your turns, you'll get a Treasure token which you can sacrifice for a mana of any color. Accelerate by one mana each turn, or save them up to cast an expensive spell in half the time! You'll keep all cards drafted, then play games and receive prizes based on how many games you win.",
-        "translation": "15张牌的轮抽用补充包在桌上轮转，你每次需从中选择一张牌。不过这次有些不一样：在你的每个回合开始时，你会获得一个珍宝衍生物，牺牲它可以产生一点任意颜色的法术力。你可以每回合都用它来加速一点法术力，也可以把它们都留起来提前施放大型咒语！你所有抽到的牌都归你所有，不断进行对局，最后根据你的胜场数量赢得奖励。"
+        "translation": "15张牌的轮抽用补充包在桌上轮转，你每次需从中选择一张牌。但这次有些不一样：在你的每个回合开始时，你会获得一个珍宝衍生物，牺牲它可以产生一点任意颜色的法术力。你可以每回合都用它来加速一点法术力，也可以把它们都留起来提前施放大型咒语！你所有抽到的牌都归你所有，不断进行对战，最后根据你的胜场数量赢得奖励。"
     },
     "Events/Event_Desc_Game_Awards_2019": {
         "oracleText": "Now that we've celebrated at The Game Awards, it's time to shuffle up and pick sides! Join Ashiok and Elspeth in a fight deep in the Theros underworld. They're both armed with some of <i>Magic</i>'s most iconic and powerful cards, as well as preview cards from <i>Theros Beyond Death</i>.\nYou'll earn <i>Theros Beyond Death</i> packs that you can open when the set releases in January.\n\nNote: Event decks will not be added to your collection.",
@@ -13917,7 +13917,7 @@
     },
     "Events/Event_Desc_M20_Quick_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Bot Draft - Draft against AI with no waiting & no pick timers</b>",
-        "translation": "轮抽用补充包在桌上轮转，你每次需从中选择一张牌。这些牌张将加入你的收藏，而你将使用它们和基本地来构筑一副40张的套牌。不断进行对战，最后根据你的胜场数量赢得奖励！"
+        "translation": "轮抽用补充包在桌上轮转，你每次需从中选择一张牌。这些牌张将加入你的收藏，而你将使用它们和基本地来构筑一副40张的套牌。不断进行对战，最后根据你的胜场数量赢得奖励，另外当你第一次获得7胜时，还将获得铁根军头卡牌样式！"
     },
     "Events/Event_Desc_M20_Quick_Draft_Alt2": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win, plus a Ironroot Warlord card style the first time you get to 7 wins!",
@@ -14441,7 +14441,7 @@
     },
     "Events/Event_Desc_Streamer_Amazonian": {
         "oracleText": "We're giving Draft new house rules with Amazonian (twitch.tv/amazonian). Amy loves building crazy decks with lots of potential. So together we created AMAZONIAN'S PLAY ANYTHING DRAFT, where you can have unlimited potential. Because you don't have to pay the mana cost to play any card! No need to put lands in your deck, as every card's mana cost is waived when you cast it. Draft Core Set 2019, keep the cards you draft, and build a 40-card deck that takes advantage of the biggest cards. You'll also get one mana of each color in your mana pool each turn that you can use for abilities, and every player also starts with three cards in hand instead of seven.",
-        "translation": "We're giving Draft new house rules with Amazonian (twitch.tv/amazonian). Amy loves building crazy decks with lots of potential. So together we created AMAZONIAN'S PLAY ANYTHING DRAFT, where you can have unlimited potential. Because you don't have to pay the mana cost to play any card! No need to put lands in your deck, as every card's mana cost is waived when you cast it. Draft Core Set 2019, keep the cards you draft, and build a 40-card deck that takes advantage of the biggest cards. You'll also get one mana of each color in your mana pool each turn that you can use for abilities, and every player also starts with three cards in hand instead of seven."
+        "translation": "我们与Amazonian（twitch.tv/amazonian）一道，为轮抽赛事拟定全新自订规则。Amy钟爱构筑疯狂套牌，从不扼杀一切可能。我们由此推出「Amazonian的万物尽出轮抽」，让你释放无限潜能。牌张不需法术力费用即可施放，你不再需要为费用问题绞尽脑汁！套牌中不再需要留出地牌位置，所有牌张的法术力费用都变作免费，你可以在任何回合施放任何东西。使用2019核心系列进行轮抽，抽选到的牌即归你所有，之后利用它们构筑一副40张的套牌，利用高费咒语占据战场主动。你的法术力池中每个回合都会加入每种颜色各一点的法术力，供你起动异能之用，同时每位牌手的起始手牌数量改为三张（而非原本的七张）。"
     },
     "Events/Event_Desc_Streamer_Kibler": {
         "oracleText": "We're giving Constructed new house rules with Brian Kibler (twitch.tv/bmkibler). Kibler loves putting big creatures on the battlefield. So together we created KIBLER'S GIANT MONSTERS, where every time you cast a creature with converted mana cost of four or greater, you draw a card. That's more value for your powerful critters! Bring a 60-card deck full of larger creatures that take advantage of the card draw and put it to the test!",
@@ -14449,7 +14449,7 @@
     },
     "Events/Event_Desc_Streamer_Kripp": {
         "oracleText": "We're giving Draft new house rules with Kripp (twitch.tv/nl_kripp). Kripp loves playing decks using three or four colors. So together we created KRIPP'S TREASURE DRAFT. Draft Guilds of Ravnica like normal and then play a game of Magic with unique rules. At the beginning of your turn you get a new Treasure Token, which is an artifact that can be sacrificed for one mana of any color. The combination of Guilds of Ravnica multicolor cards and an extra mana of any color each turn makes three or four colors an inevitability in your 40-card deck.",
-        "translation": "We're giving Draft new house rules with Kripp (twitch.tv/nl_kripp). Kripp loves playing decks using three or four colors. So together we created KRIPP'S TREASURE DRAFT. Draft Guilds of Ravnica like normal and then play a game of Magic with unique rules. At the beginning of your turn you get a new Treasure Token, which is an artifact that can be sacrificed for one mana of any color. The combination of Guilds of Ravnica multicolor cards and an extra mana of any color each turn makes three or four colors an inevitability in your 40-card deck."
+        "translation": "我们与Kripp（twitch.tv/nl_kripp）一道，为轮抽赛事拟定全新自订规则。Kripp对三色或四色套牌情有独钟。由此我们特别推出「Kripp的珍宝轮轴」。利用烽会拉尼卡系列的补充包如常进行轮抽，但随后进行的万智牌游戏中会有特殊规则生效。在你的每个回合开始时，你都会新获得一个珍宝衍生物，其具有「牺牲之：加一点任意颜色的法术力。」烽会拉尼卡系列当中本来就有丰富的多色搭配，如今每个回合都能多获得一点任意颜色的法术力，更能使你在40张套牌内得心应手地同时驾驭三到四色。 "
     },
     "Events/Event_Desc_Streamer_Nox": {
         "oracleText": "We're giving Constructed new house rules with Nox (twitch.tv/professornoxlive). Nox loves brewing wacky decks and loves Sunbird's Invocation. So together we created CASCADE CONSTRUCTED, where the first card you play each turn has Cascade: when you cast that card, you exile cards from the top of your library until you exile a nonland permanent with a converted mana cost less than the spell you cast, then you get to play that card without paying its mana cost and put all other exiled cards on the bottom of your library. That's two cards for the mana cost of one! Build a 60-card deck that can take advantage of Cascade and put it to the test!",
@@ -14577,7 +14577,7 @@
     },
     "Events/Event_Desc_Treasure_Constructed": {
         "oracleText": "Play Treasure Contructed, win card style rewards! In Standard Treasure, at the beginning of each of your upkeeps, you create an artifact Treasure token which you can sacrifice for a mana of any color. The following cards are banned in this format:\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> Blood Aspirant\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> Woodland Champion\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Lavinia, Azorius Renegade\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> Mayhem Devil\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> Korvold, Fae-Cursed King\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xC\"> Karn, the Great Creator",
-        "translation": "参加「珍宝构筑」，赢取卡牌样式奖励！于「珍宝构筑」中，在你的每个维持开始时，你都会派出一个能够牺牲来产生一点任意颜色法术力的珍宝衍生神器。这也是MTG竞技场中第一个奖励卡牌样式的赛事！赢得至少一胜，便可获得遏制倒彩的卡牌样式。如果你取得五胜，便可再获得化学师的洞察之卡牌样式。每种卡牌样式只能获得一次，但不限使用张数～你收藏中的同画卡牌均可应用。"
+        "translation": "参加「珍宝构筑」，赢取卡牌样式奖励！于「珍宝构筑」中，在你的每个维持开始时，你都会派出一个能够牺牲来产生一点任意颜色法术力的珍宝衍生神器。这也是MTG竞技场中第一个奖励卡牌样式的赛事！赢得至少一胜，便可获得遏制倒彩的卡牌样式。如果你取得五胜，便可再获得化学师的洞察之卡牌样式。每张卡牌样式只能获得一次，但不限使用张数～你收藏中的同画卡牌均可应用。"
     },
     "Events/Event_Desc_Turbo_Draft": {
         "oracleText": "In Turbo Draft, draft three packs and keep the cards you draft, but with a twist: Each spell costs <sprite=\"SpriteSheet_ManaIcons\" name=\"x5\"> less!\n\nNote: This cost reduction will not affect the colored mana required to cast a card, and it does not apply to activated abilities.\n\nBot Draft - Draft against AI with no waiting & no pick timers",
@@ -14917,7 +14917,7 @@
     },
     "Events/Event_Title_AlchemyPrecons": {
         "oracleText": "Into the Future",
-        "translation": "走向未来"
+        "translation": "进入未来"
     },
     "Events/Event_Title_AlchemyRebalanceEvent": {
         "oracleText": "Alchemy: Try the Latest Changes!",
@@ -15089,15 +15089,15 @@
     },
     "Events/Event_Title_Constructed": {
         "oracleText": "Play",
-        "translation": "对战"
+        "translation": "开始游戏"
     },
     "Events/Event_Title_Constructed _GRN": {
         "oracleText": "Guilds of Ravnica Constructed",
-        "translation": "烽会拉尼卡构筑赛"
+        "translation": "烽会拉尼卡构筑"
     },
     "Events/Event_Title_ConstructedBestOf3": {
         "oracleText": "Traditional Standard Play",
-        "translation": "三盘标准模式"
+        "translation": "三盘对战"
     },
     "Events/Event_Title_ConstructedBestOf3_Old": {
         "oracleText": "Competitive Play",
@@ -15501,7 +15501,7 @@
     },
     "Events/Event_Title_FNM_Pauper": {
         "oracleText": "Pauper",
-        "translation": "纯普"
+        "translation": "全铁"
     },
     "Events/Event_Title_FNM_PlayAnyDeck": {
         "oracleText": "FNM at Home: All Access",
@@ -15565,7 +15565,7 @@
     },
     "Events/Event_Title_Festival_HBG_Dragon_Brawl": {
         "oracleText": "Festival: Dragon Brawl",
-        "translation": "Festival: Dragon Brawl"
+        "translation": "活动节：群龙争霸"
     },
     "Events/Event_Title_Festival_IKO_HistoricArtisan": {
         "oracleText": "Festival: Clever Reflections",
@@ -15713,7 +15713,7 @@
     },
     "Events/Event_Title_Free_Play": {
         "oracleText": "Play",
-        "translation": "对战"
+        "translation": "开始游戏"
     },
     "Events/Event_Title_Future_Artisan": {
         "oracleText": "Standard 2021 Artisan",
@@ -15725,11 +15725,11 @@
     },
     "Events/Event_Title_Future_Play": {
         "oracleText": "Standard 2022 Play",
-        "translation": "标准2022匹配"
+        "translation": "2020标准对局"
     },
     "Events/Event_Title_Future_Ranked": {
         "oracleText": "Standard 2022 Ranked",
-        "translation": "标准2022天梯"
+        "translation": "2020标准排名"
     },
     "Events/Event_Title_GRN_Cascade_Draft": {
         "oracleText": "Cascade Draft Guilds of Ravnica",
@@ -15797,7 +15797,7 @@
     },
     "Events/Event_Title_HBG_Trad_Draft": {
         "oracleText": "Traditional Draft Baldur's Gate",
-        "translation": "博德之门三盘轮抽"
+        "translation": "博德之门三局轮抽"
     },
     "Events/Event_Title_HOU_Quick_Draft": {
         "oracleText": "Draft Hour of Devastation",
@@ -15925,7 +15925,7 @@
     },
     "Events/Event_Title_Ladder": {
         "oracleText": "Standard Ranked",
-        "translation": "标准天梯"
+        "translation": "排名赛"
     },
     "Events/Event_Title_Ladder_Alchemy_Bo1": {
         "oracleText": "Alchemy",
@@ -15953,7 +15953,7 @@
     },
     "Events/Event_Title_Ladder_Standard_Bo3": {
         "oracleText": "Traditional Standard Ranked",
-        "translation": "三盘排名赛"
+        "translation": "三盘标准天梯"
     },
     "Events/Event_Title_Lore_WAR1": {
         "oracleText": "I: Ravnica at War - Momir",
@@ -15981,7 +15981,7 @@
     },
     "Events/Event_Title_M19_Comp_Draft": {
         "oracleText": "Competitive Draft Core Set 2019",
-        "translation": "Competitive Draft Core Set 2019"
+        "translation": "竞技轮抽：2019核心系列"
     },
     "Events/Event_Title_M19_Omniscience_Draft": {
         "oracleText": "Omniscience Draft Core Set 2019",
@@ -15997,7 +15997,7 @@
     },
     "Events/Event_Title_M19_StressTest_Draft": {
         "oracleText": "HALF ENTRY MAGIC 2019 QUICK DRAFT!",
-        "translation": "HALF ENTRY MAGIC 2019 QUICK DRAFT!"
+        "translation": "半价万智牌2019快速轮抽！"
     },
     "Events/Event_Title_M19_Treasure_Draft": {
         "oracleText": "Treasure Draft Core Set 2019",
@@ -16281,7 +16281,7 @@
     },
     "Events/Event_Title_Play": {
         "oracleText": "Standard Play",
-        "translation": "标准匹配"
+        "translation": "开始游戏"
     },
     "Events/Event_Title_Play_Alchemy": {
         "oracleText": "Alchemy",
@@ -16321,7 +16321,7 @@
     },
     "Events/Event_Title_Play_Standard_Bo3": {
         "oracleText": "Traditional Standard Play",
-        "translation": "三盘标准模式"
+        "translation": "三盘标准匹配"
     },
     "Events/Event_Title_Playtest_League": {
         "oracleText": "Playtest League",
@@ -16469,7 +16469,7 @@
     },
     "Events/Event_Title_Sealed_HBG": {
         "oracleText": "Sealed Baldur's Gate",
-        "translation": "现开：博德之门"
+        "translation": "博德之门现开"
     },
     "Events/Event_Title_Sealed_IKO": {
         "oracleText": "Sealed Ikoria: Lair of Behemoths",
@@ -16581,7 +16581,7 @@
     },
     "Events/Event_Title_StressTest_Constructed": {
         "oracleText": "STRESS TEST CONSTRUCTED!",
-        "translation": "STRESS TEST CONSTRUCTED!"
+        "translation": "压力测试构筑"
     },
     "Events/Event_Title_THB_Comp_Draft": {
         "oracleText": "Traditional Draft <nobr>Theros Beyond Death</nobr>",
@@ -16689,7 +16689,7 @@
     },
     "Events/Event_Title_Trad_Sealed_HBG": {
         "oracleText": "Traditional Sealed Baldur's Gate",
-        "translation": "博德之门三盘现开"
+        "translation": "博德之门三局现开"
     },
     "Events/Event_Title_Trad_Sealed_KHM": {
         "oracleText": "Traditional Sealed Kaldheim",
@@ -16769,7 +16769,7 @@
     },
     "Events/Event_Title_Treasure_Constructed": {
         "oracleText": "Standard Treasure",
-        "translation": "标准珍宝"
+        "translation": "珍宝构筑"
     },
     "Events/Event_Title_Turbo_Draft": {
         "oracleText": "Turbo Draft",
@@ -17933,15 +17933,15 @@
     },
     "Events/Tokens/PlayInTokenDescription": {
         "oracleText": "Use 20 Play-In Points to enter a Qualifier Play-In event",
-        "translation": "Use 20 Play-In Points to enter a Qualifier Play-In event"
+        "translation": "使用20点参赛积分来进入资格赛。"
     },
     "Events/Tokens/PlayInTokenPlural": {
         "oracleText": "{quantity} Play-In Points",
-        "translation": "{quantity} Play-In Points"
+        "translation": "{quantity}点参赛积分"
     },
     "Events/Tokens/PlayInTokenSingular": {
         "oracleText": "{quantity} Play-In Point",
-        "translation": "{quantity} Play-In Point"
+        "translation": "{quantity}点参赛积分"
     },
     "Events/Tokens/QualifierDay1TokenDescription20220528": {
         "oracleText": "Join between 6am and 8am Pacific on May 28",
@@ -18033,23 +18033,23 @@
     },
     "General/Sets/AHA1": {
         "oracleText": "Historic Anthology 1",
-        "translation": "史记合集1"
+        "translation": "史迹合集1"
     },
     "General/Sets/AHA2": {
         "oracleText": "Historic Anthology 2",
-        "translation": "史记合集2"
+        "translation": "史迹合集2"
     },
     "General/Sets/AHA3": {
         "oracleText": "Historic Anthology 3",
-        "translation": "史记合集3"
+        "translation": "史迹合集3"
     },
     "General/Sets/AHA4": {
         "oracleText": "Historic Anthology 4",
-        "translation": "史记合集4"
+        "translation": "史迹合集4"
     },
     "General/Sets/AHA5": {
         "oracleText": "Historic Anthology 5",
-        "translation": "史记合集5"
+        "translation": "史迹合集5"
     },
     "General/Sets/AKH": {
         "oracleText": "Amonkhet",
@@ -18109,11 +18109,11 @@
     },
     "General/Sets/M19": {
         "oracleText": "Core Set 2019",
-        "translation": "核心系列2019"
+        "translation": "万智牌2019核心系列"
     },
     "General/Sets/M20": {
         "oracleText": "Core Set 2020",
-        "translation": "核心系列2020"
+        "translation": "万智牌2020核心系列"
     },
     "General/Sets/M21": {
         "oracleText": "Core Set 2021",
@@ -18657,19 +18657,19 @@
     },
     "MainNav/BannedCards/Title_Banned_Alchemy": {
         "oracleText": "Banned Alchemy Cards",
-        "translation": "Banned Alchemy Cards"
+        "translation": "炼金禁用牌"
     },
     "MainNav/BannedCards/Title_Banned_Explorer": {
         "oracleText": "Banned Explorer Cards",
-        "translation": "Banned Explorer Cards"
+        "translation": "探险禁用牌"
     },
     "MainNav/BannedCards/Title_Banned_Historic": {
         "oracleText": "Banned Historic Cards",
-        "translation": "Banned Historic Cards"
+        "translation": "史迹禁用牌"
     },
     "MainNav/BannedCards/Title_Banned_Standard": {
         "oracleText": "Banned Standard Cards",
-        "translation": "Banned Standard Cards"
+        "translation": "标准禁用牌"
     },
     "MainNav/BannedCards/Title_Standard": {
         "oracleText": "Banned Standard Card",
@@ -18685,7 +18685,7 @@
     },
     "MainNav/BannedCards/Title_Suspended_Historic": {
         "oracleText": "Historic Suspensions",
-        "translation": "Historic Suspensions"
+        "translation": "史迹停权牌"
     },
     "MainNav/BannedCards/WildcardReplacement": {
         "oracleText": "You will receive an equivalent Wildcard for each copy in your collection.",
@@ -18757,7 +18757,7 @@
     },
     "MainNav/BattlePass/BattlePass_HBG_alt": {
         "oracleText": "Baldur's Gate Mastery Pass",
-        "translation": "博德之门令状"
+        "translation": "博德之门精研令状"
     },
     "MainNav/BattlePass/BattlePass_IKO": {
         "oracleText": "Ikoria",
@@ -19057,7 +19057,7 @@
     },
     "MainNav/BattlePass/MasteryListingTitle_HBG": {
         "oracleText": "Alchemy Horizons: Baldur's Gate Set Mastery",
-        "translation": "炼金新篇：博德之门令状"
+        "translation": "「炼金新篇：博德之门」系列令状"
     },
     "MainNav/BattlePass/MasteryPassUnlock": {
         "oracleText": "Unlock",
@@ -19077,7 +19077,7 @@
     },
     "MainNav/BattlePass/Mastery_Header_HBG": {
         "oracleText": "Alchemy Horizons: Baldur's Gate Mastery Pass",
-        "translation": "炼金新篇：博德之门令状"
+        "translation": "「炼金新篇：博德之门」精研令状"
     },
     "MainNav/BattlePass/Mastery_Header_MID": {
         "oracleText": "Innistrad: Midnight Hunt Mastery Pass",
@@ -19101,7 +19101,7 @@
     },
     "MainNav/BattlePass/Mastery_Text": {
         "oracleText": "$200+ Value when fully unlocked.",
-        "translation": "全部解锁价值$200以上。"
+        "translation": "完全解锁后价值$200+。"
     },
     "MainNav/BattlePass/Mastery_Title": {
         "oracleText": "Core Set 2021 Set Mastery Pass",
@@ -19149,7 +19149,7 @@
     },
     "MainNav/BattlePass/SetExpired_Title": {
         "oracleText": "{setName} has expired.",
-        "translation": "{setName}已过期。"
+        "translation": "{setName}已完成。"
     },
     "MainNav/BattlePass/SetMastery": {
         "oracleText": "Set Mastery",
@@ -19449,7 +19449,7 @@
     },
     "MainNav/CardViewer/Cosmetics/CardSleeves": {
         "oracleText": "Card Sleeves",
-        "translation": "设置牌套"
+        "translation": "牌套"
     },
     "MainNav/CardViewer/Cosmetics/ConfirmPurchase_OKButton": {
         "oracleText": "Confirm Purchase",
@@ -19561,7 +19561,7 @@
     },
     "MainNav/Collection/Collection_Foreground_Search_Placeholder": {
         "oracleText": "Search...",
-        "translation": "在此搜索..."
+        "translation": "搜索..."
     },
     "MainNav/Collection/Collection_Forgreound_Row2_Sort": {
         "oracleText": "Sort by Cost",
@@ -19617,7 +19617,7 @@
     },
     "MainNav/ConstructedDeckSelect/Tooltip_BannedCards": {
         "oracleText": "Banned or Suspended Cards:",
-        "translation": "禁止或观察中的卡牌:"
+        "translation": "禁止或停权卡牌:"
     },
     "MainNav/ConstructedDeckSelect/Tooltip_Common": {
         "oracleText": "Common:",
@@ -20857,7 +20857,7 @@
     },
     "MainNav/DeckBuilder/Advanced_Text_Search_MoreInfoText": {
         "oracleText": "More information about advanced search terms can be found here.",
-        "translation": "More information about advanced search terms can be found here."
+        "translation": "在此处可以找到更多与高级搜索有关的信息。"
     },
     "MainNav/DeckBuilder/Advanced_Text_Search_Mythic": {
         "oracleText": "Mythic",
@@ -21101,7 +21101,7 @@
     },
     "MainNav/DeckBuilder/DeckBuilder_InvalidDeckReasons_HasBannedCards": {
         "oracleText": "Deck contains banned or suspended cards.",
-        "translation": "套牌中有禁用牌。"
+        "translation": "套牌中有禁用或停权牌。"
     },
     "MainNav/DeckBuilder/DeckBuilder_InvalidDeckReasons_HasCommanderButShouldNot": {
         "oracleText": "Deck should not have a Commander.",
@@ -21225,7 +21225,7 @@
     },
     "MainNav/DeckBuilder/DeckBuilder_NewCard_Text": {
         "oracleText": "New",
-        "translation": "新"
+        "translation": "新获得"
     },
     "MainNav/DeckBuilder/DeckBuilder_NewDeck_Text": {
         "oracleText": "New Deck",
@@ -21405,7 +21405,7 @@
     },
     "MainNav/DeckBuilder/SpecializeCommander": {
         "oracleText": "When selecting a Commander with Specialize, choose one additional color to use in deck building.",
-        "translation": "当你选择一个具有专精异能的指挥官， 需要选择一个用于构建套牌的额外颜色。"
+        "translation":  "当你选择一个具有专精异能的指挥官， 需要选择一个用于构建套牌的额外颜色。"
     },
     "MainNav/DeckBuilder/UseWildcards": {
         "oracleText": "Use Wildcards",
@@ -21457,7 +21457,7 @@
     },
     "MainNav/DeckFormat/BaldursGate": {
         "oracleText": "Baldur's Gate Constructed",
-        "translation": "Baldur's Gate Constructed"
+        "translation": "博德之门构筑"
     },
     "MainNav/DeckFormat/Brawl": {
         "oracleText": "Brawl",
@@ -21501,7 +21501,7 @@
     },
     "MainNav/DeckFormat/DirectGameLimitedRebalanced": {
         "oracleText": "Limited Rebalanced",
-        "translation": "限制再平衡"
+        "translation": "再平衡限制赛"
     },
     "MainNav/DeckFormat/Draft": {
         "oracleText": "Draft",
@@ -21825,7 +21825,7 @@
     },
     "MainNav/DeckManager/DeckManager_Top_Favorite": {
         "oracleText": "Favorite",
-        "translation": "喜欢"
+        "translation": "置顶"
     },
     "MainNav/DeckManager/DeckManager_Top_HeaderBar_Center_ContentRight_TitleLabel": {
         "oracleText": "Select a Deck to Edit",
@@ -21841,7 +21841,7 @@
     },
     "MainNav/DeckManager/DeckManager_Top_Unfavorite": {
         "oracleText": "UNFAVORITE",
-        "translation": "取消喜欢"
+        "translation": "取消置顶"
     },
     "MainNav/DeckManager/Export_Deck_Text": {
         "oracleText": "{deckName} has been copied to your clipboard.",
@@ -22169,7 +22169,7 @@
     },
     "MainNav/Deckbuilder/Sleeves/CardBack_CardArtJP_AngrathCaptainOfChaos": {
         "oracleText": "Angrath sansyu Sleeve",
-        "translation": "sansyu版安戈斯牌套"
+        "translation": "Angrath sansyu Sleeve"
     },
     "MainNav/Deckbuilder/Sleeves/CardBack_CardArtJP_ArlinnVoiceOfThePack": {
         "oracleText": "Arlinn D-suzuki Sleeve",
@@ -23521,7 +23521,7 @@
     },
     "MainNav/Deckbuilder/Sleeves/CardBack_SNC_424731": {
         "oracleText": "Xander's Lounge Sleeve",
-        "translation": "Xander's Lounge Sleeve"
+        "translation": "尚夺尔的酒廊牌套"
     },
     "MainNav/Deckbuilder/Sleeves/CardBack_SNC_424733": {
         "oracleText": "Raffine's Tower Sleeve",
@@ -23945,7 +23945,7 @@
     },
     "MainNav/Draft/EventDescription": {
         "oracleText": "When you draft, you'll open a Limited booster, pick a card, then pass the rest to another player. Pick a card from what you get passed, then keep going. After three packs like that, build a 40-card deck with basic lands and the cards you picked.\nPlay against other people and their draft decks. Lose three times, and you're done. The more you win, the more prizes you accumulate!",
-        "translation": "When you draft, you'll open a Limited booster, pick a card, then pass the rest to another player. Pick a card from what you get passed, then keep going. After three packs like that, build a 40-card deck with basic lands and the cards you picked.\nPlay against other people and their draft decks. Lose three times, and you're done. The more you win, the more prizes you accumulate!"
+        "translation": "轮抽的流程如下：你打开一包限制赛补充包，从中挑选一张牌，然后将剩余的牌传给下一位牌手。之后你接过别人传给你的牌，从中挑选一张，以此类推。在如此重复三包之后，你需要利用你抽到的牌加上适当数量的基本地，构筑出一副40张的套牌。\n之后你就用这副套牌跟其他牌手组出的轮抽套牌进行对局。三败之后你的征途即告终结，但你胜得越多，累积的奖品也就越多！"
     },
     "MainNav/Draft/MainDeck_CardQuantity_Label_Plural": {
         "oracleText": "{currentQuantity}/{expectedQuantity} Cards",
@@ -23993,7 +23993,7 @@
     },
     "MainNav/EventPage/Button_PlayMatch": {
         "oracleText": "Play",
-        "translation": "对战"
+        "translation": "开始游戏"
     },
     "MainNav/EventPage/Button_Resign": {
         "oracleText": "Resign",
@@ -24221,11 +24221,11 @@
     },
     "MainNav/EventRewards/Card_And_Skin": {
         "oracleText": "1 Card & 1 Card Style",
-        "translation": "1张牌和1种卡牌样式"
+        "translation": "1张牌和1张卡牌样式"
     },
     "MainNav/EventRewards/Card_And_Skins": {
         "oracleText": "1 Card & {number1} Card Styles",
-        "translation": "1张牌和{number1}种卡牌样式"
+        "translation": "1张牌和{number1}张卡牌样式"
     },
     "MainNav/EventRewards/Card_And_XP": {
         "oracleText": "1 Card\n& {number1} Mastery XP",
@@ -24257,11 +24257,11 @@
     },
     "MainNav/EventRewards/Cards_And_Skin": {
         "oracleText": "{number1} Cards & 1 Card Style",
-        "translation": "{number1}张牌和1种卡牌样式"
+        "translation": "{number1}张牌和1张卡牌样式"
     },
     "MainNav/EventRewards/Cards_And_Skins": {
         "oracleText": "{number1} Cards & {number2} Card Styles",
-        "translation": "{number1}张牌和{number2}种卡牌样式"
+        "translation": "{number1}张牌和{number2}张卡牌样式"
     },
     "MainNav/EventRewards/Cash1": {
         "oracleText": "$1,000 USD",
@@ -24381,7 +24381,7 @@
     },
     "MainNav/EventRewards/Daily_Wins_Title": {
         "oracleText": "Daily Win Rewards",
-        "translation": "胜场奖励"
+        "translation": "每日胜场奖励"
     },
     "MainNav/EventRewards/Dawnhart_Mentor": {
         "oracleText": "Dawnhart Mentor Card Style",
@@ -24681,11 +24681,11 @@
     },
     "MainNav/EventRewards/Gems_And_Skin": {
         "oracleText": "{number1} Gems & 1 Card Style",
-        "translation": "{number1}颗宝石和1种卡牌样式"
+        "translation": "{number1}颗宝石和1张卡牌样式"
     },
     "MainNav/EventRewards/Gems_And_Skins": {
         "oracleText": "{number1} Gems & {number2} Card Styles",
-        "translation": "{number1}颗宝石和{number2}种卡牌样式"
+        "translation": "{number1}颗宝石和{number2}张卡牌样式"
     },
     "MainNav/EventRewards/Gems_Packs_And_PIP": {
         "oracleText": "{number1} Gems, {number2} Packs, & 1 Play-In Point",
@@ -24745,11 +24745,11 @@
     },
     "MainNav/EventRewards/Gold_And_Skin": {
         "oracleText": "{number1} Gold & 1 Card Style",
-        "translation": "{number1}枚金币和1种卡牌样式"
+        "translation": "{number1}枚金币和1张卡牌样式"
     },
     "MainNav/EventRewards/Gold_And_Skins": {
         "oracleText": "{number1} Gold & {number2} Card Styles",
-        "translation": "{number1}枚金币和{number2}种卡牌样式"
+        "translation": "{number1}枚金币和{number2}张卡牌样式"
     },
     "MainNav/EventRewards/Gold_And_XP_Reward": {
         "oracleText": "{number1} Gold\n& {number2} Mastery XP",
@@ -24881,11 +24881,11 @@
     },
     "MainNav/EventRewards/Pack_And_Skin": {
         "oracleText": "1 Pack & 1 Card Style",
-        "translation": "1包补充包和1种卡牌样式"
+        "translation": "1包补充包和1张卡牌样式"
     },
     "MainNav/EventRewards/Pack_And_Skins": {
         "oracleText": "1 Pack & {number1} Card Styles",
-        "translation": "1包补充包和{number1}种卡牌样式"
+        "translation": "1包补充包和{number1}张卡牌样式"
     },
     "MainNav/EventRewards/Pack_And_XP": {
         "oracleText": "1 Pack & {number1} XP",
@@ -24905,11 +24905,11 @@
     },
     "MainNav/EventRewards/Packs_And_Skin": {
         "oracleText": "{number1} Packs & 1 Card Style",
-        "translation": "{number1}包补充包和1种卡牌样式"
+        "translation": "{number1}包补充包和1张卡牌样式"
     },
     "MainNav/EventRewards/Packs_And_Skins": {
         "oracleText": "{number1} Packs & {number2} Card Styles",
-        "translation": "{number1}包补充包和{number2}种卡牌样式"
+        "translation": "{number1}包补充包和{number2}张卡牌样式"
     },
     "MainNav/EventRewards/Packs_And_XP": {
         "oracleText": "{number1} Packs & {number2} XP",
@@ -24981,7 +24981,7 @@
     },
     "MainNav/EventRewards/Skin": {
         "oracleText": "1 Card Style",
-        "translation": "1种卡牌样式"
+        "translation": "1张卡牌样式"
     },
     "MainNav/EventRewards/Skin_Chemisters_Insight": {
         "oracleText": "Card Style will be Chemister's Insight",
@@ -25009,7 +25009,7 @@
     },
     "MainNav/EventRewards/Skins": {
         "oracleText": "{number1} Card Styles",
-        "translation": "{number1}种卡牌样式"
+        "translation": "{number1}张卡牌样式"
     },
     "MainNav/EventRewards/Sleeve": {
         "oracleText": "1 Sleeve",
@@ -25221,11 +25221,11 @@
     },
     "MainNav/EventRewards/XP_And_Skin": {
         "oracleText": "{number1} XP & 1 Style",
-        "translation": "{number1}经验和1种卡牌样式"
+        "translation": "{number1}经验和1张卡牌样式"
     },
     "MainNav/EventRewards/XP_And_Skins": {
         "oracleText": "{number1} XP & {number2} Styles",
-        "translation": "{number1}经验和{number2}种卡牌样式"
+        "translation": "{number1}经验和{number2}张卡牌样式"
     },
     "MainNav/EventsPage/AddToDecks": {
         "oracleText": "Add to Decks",
@@ -26297,11 +26297,11 @@
     },
     "MainNav/HomePage/Carousel/22_17_Store_Desc": {
         "oracleText": "Find your favorite loot among many new treasures in the store, including dragon pets and magical card styles!",
-        "translation": "Find your favorite loot among many new treasures in the store, including dragon pets and magical card styles!"
+        "translation": "商店中有许多新宝物，包括宠物龙和充满魔法的卡牌样式！快来挑选你最爱的战利品。"
     },
     "MainNav/HomePage/Carousel/22_17_Store_Title": {
         "oracleText": "Alchemy Horizons: Baldur's Gate is now on sale!",
-        "translation": "Alchemy Horizons: Baldur's Gate is now on sale!"
+        "translation": "「炼金新篇：博德之门」现已发售！"
     },
     "MainNav/HomePage/Carousel/AFR_Sealed_Desc": {
         "oracleText": "Grab your dice and prepare for adventure by building a 40-card sealed deck with 6 packs of Magic's latest set!",
@@ -26485,7 +26485,7 @@
     },
     "MainNav/HomePage/Carousel/Bundle_Explorer_Description": {
         "oracleText": "Get a one-time deal on 5 iconic Card Styles and 3,500 Gems before it leaves the store on July 16, 2020.",
-        "translation": "Get a one-time deal on 5 iconic Card Styles and 3,500 Gems before it leaves the store on July 16, 2020."
+        "translation": "购买超值组合，内含5张标志性卡牌的卡牌样式和3500颗宝石，仅限单次购买。"
     },
     "MainNav/HomePage/Carousel/Bundle_Explorer_Title": {
         "oracleText": "Explorer's Bundle - Expiring Soon!",
@@ -26541,7 +26541,7 @@
     },
     "MainNav/HomePage/Carousel/Calendar_Desc": {
         "oracleText": "Check out the full event schedule online",
-        "translation": "Check out the full event schedule online"
+        "translation": "在线查看完整赛事日程安排"
     },
     "MainNav/HomePage/Carousel/Calendar_Title": {
         "oracleText": "Event Calendar",
@@ -26717,7 +26717,7 @@
     },
     "MainNav/HomePage/Carousel/Dominaria_Sealed_Title Sealed": {
         "oracleText": "Dominaria",
-        "translation": "多明纳里亚"
+        "translation": "多明纳里亚 "
     },
     "MainNav/HomePage/Carousel/DoubleFeature_Desc": {
         "oracleText": "Draft all the spookiest monsters from both <i>Innistrad: Midnight Hunt</i> and <i>Innistrad:Crimson Vow</i>!",
@@ -27525,11 +27525,11 @@
     },
     "MainNav/HomePage/Carousel/M20Store_July25_Title": {
         "oracleText": "Battle in Style!",
-        "translation": "Battle in Style!"
+        "translation": "盛装出战！"
     },
     "MainNav/HomePage/Carousel/M20Store_July2_Desc": {
         "oracleText": "Now Available: Liliana Yoshitaka Amano Sleeve, special card style sales, and more in the store.",
-        "translation": "Now Available: Liliana Yoshitaka Amano Sleeve, special card style sales, and more in the store."
+        "translation": "现已上市：Yoshitaka Amano版莉莲娜牌套、特殊卡牌样式促销，以及更多内容，尽在商店待你选购。"
     },
     "MainNav/HomePage/Carousel/M20Store_July2_Title": {
         "oracleText": "Check out the new content in the store!",
@@ -27701,7 +27701,7 @@
     },
     "MainNav/HomePage/Carousel/NEO_Sealed_Title": {
         "oracleText": "Sealed <i>Kamigawa: Neon Dynasty</i>",
-        "translation": "Sealed <i>Kamigawa: Neon Dynasty</i>"
+        "translation": "「神河：霓朝纪」现开"
     },
     "MainNav/HomePage/Carousel/NEO_Set_Mastery_Desc": {
         "oracleText": "Energize circuits to earn koi pets, mech sleeves and much more!",
@@ -28433,19 +28433,19 @@
     },
     "MainNav/HomePage/Carousel/SetMastery_HBG_Desc": {
         "oracleText": "Take your highest initiative and earn metallic dragons, adventurous avatars, and more!",
-        "translation": "Take your highest initiative and earn metallic dragons, adventurous avatars, and more!"
+        "translation": "掌握先制，赢取金属龙、冒险头像和更多内容！"
     },
     "MainNav/HomePage/Carousel/SetMastery_HBG_LastChance_Desc": {
         "oracleText": "Battle bravely to earn XP and claim heroic prizes before this Mastery Pass ends!",
-        "translation": "Battle bravely to earn XP and claim heroic prizes before this Mastery Pass ends!"
+        "translation": "在精研令状结束之前勇敢地战斗，获得经验值，获取英雄奖品！"
     },
     "MainNav/HomePage/Carousel/SetMastery_HBG_LastChance_Title": {
         "oracleText": "Alchemy Horizons: Baldur's Gate Set Mastery is almost over!",
-        "translation": "Alchemy Horizons: Baldur's Gate Set Mastery is almost over!"
+        "translation": "「炼金新篇：博德之门」系列令状即将结束！"
     },
     "MainNav/HomePage/Carousel/SetMastery_HBG_Title": {
         "oracleText": "Alchemy Horizons: Baldur's Gate Set Mastery!",
-        "translation": "炼金新篇：博德之门精研令状!"
+        "translation": "「炼金新篇：博德之门」系列令状！"
     },
     "MainNav/HomePage/Carousel/SetMastery_Title": {
         "oracleText": "Introducing Set Mastery",
@@ -28781,7 +28781,7 @@
     },
     "MainNav/HomePage/EventBlade/Ladder": {
         "oracleText": "Find Match",
-        "translation": "寻找对局"
+        "translation": "查找对局"
     },
     "MainNav/HomePage/EventBlade/LimitedRank": {
         "oracleText": "Limited Rank",
@@ -29073,7 +29073,7 @@
     },
     "MainNav/Landing/Landing_RankButton_Constructed_Label": {
         "oracleText": "Constructed",
-        "translation": "构筑"
+        "translation": "构筑赛"
     },
     "MainNav/Landing/Landing_RankButton_Limited_Label": {
         "oracleText": "Limited",
@@ -29089,7 +29089,7 @@
     },
     "MainNav/Landing/Play": {
         "oracleText": "Play",
-        "translation": "对战"
+        "translation": "开始游戏"
     },
     "MainNav/Landing/Resume": {
         "oracleText": "Resume",
@@ -29173,7 +29173,7 @@
     },
     "MainNav/Learn/Page_Title": {
         "oracleText": "Learn More",
-        "translation": "精研技艺"
+        "translation": "了解更多"
     },
     "MainNav/Learn/Patch_Notes": {
         "oracleText": "Patch Notes",
@@ -29677,7 +29677,7 @@
     },
     "MainNav/LoreText/WAR/Liliana": {
         "oracleText": "Long ago, she had been a Planeswalker when that term still meant something. Back when the Spark that granted the power to traverse worlds wasn't handed to every Beefslab who could wield a sword or child who could summon up a bit of fire. Back then, Planeswalkers were immortal. Back then, Planeswalkers were nothing short of gods.\n\nAnd Liliana Vess was a—goddess!\n\n\n~ War of the Spark: Ravnica by Greg Weisman",
-        "translation": "Long ago, she had been a Planeswalker when that term still meant something. Back when the Spark that granted the power to traverse worlds wasn't handed to every Beefslab who could wield a sword or child who could summon up a bit of fire. Back then, Planeswalkers were immortal. Back then, Planeswalkers were nothing short of gods.\n\nAnd Liliana Vess was a—goddess!\n\n\n~ War of the Spark: Ravnica by Greg Weisman"
+        "translation": "从很久以前，鹏洛客还是一个强大的存在时，她就一直是鹏洛客了。那时候，能够穿越世界的火花之力，舞剑蛮汉或召火毛孩都无从获得。那时候，鹏洛客还是永生的。那时候，鹏洛客就是神灵一般的存在。\n\n莉莲娜当时就是女神！\n\n\n～《火花之战：拉尼卡》，格雷格·韦斯曼著"
     },
     "MainNav/LoreText/WAR/Nahiri": {
         "oracleText": "Molten blades whirled around Nahiri, parrying the vampire's blows with graceful ease. She would make Sorin wish he'd never escaped the prison she made for him.",
@@ -29801,7 +29801,7 @@
     },
     "MainNav/NavBar/BonusWildcardDescription": {
         "oracleText": "+Bonus to open Rare Wild Card:",
-        "translation": "+Bonus to open Rare Wild Card:"
+        "translation": "+开到稀有万用牌的加成："
     },
     "MainNav/NavBar/DeckLayout_Tooltip": {
         "oracleText": "Change Deck Layout",
@@ -29821,7 +29821,7 @@
     },
     "MainNav/NavBar/Learn_Tooltip": {
         "oracleText": "Learn More",
-        "translation": "精研技艺"
+        "translation": "了解更多"
     },
     "MainNav/NavBar/MasteryDisabled_Tooltip": {
         "oracleText": "Set Mastery is currently unavailable.",
@@ -29909,7 +29909,7 @@
     },
     "MainNav/NewTags/First_label": {
         "oracleText": "First",
-        "translation": "第一张"
+        "translation": "首张"
     },
     "MainNav/NewTags/New_label": {
         "oracleText": "New",
@@ -30029,7 +30029,7 @@
     },
     "MainNav/PetNames/HA4_Thopter": {
         "oracleText": "Thopter",
-        "translation": "振翼机"
+        "translation": "扑翼机"
     },
     "MainNav/PetNames/HBG_Mastery_Dragon": {
         "oracleText": "Metallic Dragon Pet",
@@ -30541,7 +30541,7 @@
     },
     "MainNav/Popups/CollectionFilterPopup/Header_Collection": {
         "oracleText": "Collection",
-        "translation": "牌张收藏"
+        "translation": "收藏"
     },
     "MainNav/Popups/CollectionFilterPopup/Header_Historic": {
         "oracleText": "Historic",
@@ -30709,15 +30709,15 @@
     },
     "MainNav/PreconEvent/PreconEvent_LeftPanel_LeftBottomPanelJoin_RewardText": {
         "oracleText": "The more you win, the bigger the prize!\nWith five wins, you'll even unlock a new battle deck!",
-        "translation": "The more you win, the bigger the prize!\nWith five wins, you'll even unlock a new battle deck!"
+        "translation": "胜得越多，赢的越多！\n取得五胜即能解锁一副全新战斗套牌！"
     },
     "MainNav/PreconEvent/PreconEvent_LeftPanel_ScrollView_Viewport_Content_Joined": {
         "oracleText": "Run the Gauntlet!\n\nDuel players with similar records until you win five times or lose twice. You'll increase your gold prize with each win. Unlock a new deck by winning five times!",
-        "translation": "Run the Gauntlet!\n\nDuel players with similar records until you win five times or lose twice. You'll increase your gold prize with each win. Unlock a new deck by winning five times!"
+        "translation": "强手过招，连续对决！\n\n与水平相当的牌手连续对战，直到你取得五胜或两败为止。每多取得一胜，还能增加你的金币奖励，取得五胜更能解锁新的套牌！"
     },
     "MainNav/PreconEvent/PreconEvent_LeftPanel_ScrollView_Viewport_Content_Joining": {
         "oracleText": "Choose a Deck and Play!\n\nGrab one of your battle decks and enter the fray! Can you win five times before you lose twice? Complete quests to unlock additional decks!",
-        "translation": "Choose a Deck and Play!\n\nGrab one of your battle decks and enter the fray! Can you win five times before you lose twice? Complete quests to unlock additional decks!"
+        "translation": "选择套牌，加入游戏！\n\n选择一副战斗套牌加入战局！你能否在吞下两场败局之前取得五胜？完成任务即可解锁额外套牌！"
     },
     "MainNav/PreconEvent/PreconEvent_TitleBar_Text": {
         "oracleText": "battle decks",
@@ -30985,11 +30985,11 @@
     },
     "MainNav/Profile/Avatars/Astarion_HBG_Name": {
         "oracleText": "Astarion",
-        "translation": "Astarion"
+        "translation": "阿斯代伦"
     },
     "MainNav/Profile/Avatars/Aurelia_Bio": {
         "oracleText": "Aurelia argues that true justice isn't merely the enforcement of the letter of existing laws; but the establishment of equitable and compassionate relationships among all of Ravnica's people.",
-        "translation": "Aurelia argues that true justice isn't merely the enforcement of the letter of existing laws; but the establishment of equitable and compassionate relationships among all of Ravnica's people."
+        "translation": "欧瑞梨认为，仅用强权维系法条权威算不上守护正义，唯有使平等互助理念长植民心，方才能在拉尼卡实现公义。"
     },
     "MainNav/Profile/Avatars/Aurelia_Name": {
         "oracleText": "Aurelia",
@@ -31009,7 +31009,7 @@
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Jetmir_SNC_Name": {
         "oracleText": "Jetmir, Nexus of Revels",
-        "translation": "Jetmir, Nexus of Revels"
+        "translation": "欢宴魔杰米尔"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_ObNixilis_SNC_Bio": {
         "oracleText": "The demon lord Ob Nixilis has carved his path to power through the multiverse. But after growing bored of regular conquest, he appeared in New Capenna with a more subtle strategy—gradually build his influence over the Five Families before claiming the plane for himself.",
@@ -31161,7 +31161,7 @@
     },
     "MainNav/Profile/Avatars/Gale_HBG_Name": {
         "oracleText": "Gale",
-        "translation": "Gale"
+        "translation": "盖尔"
     },
     "MainNav/Profile/Avatars/GideonJura_Bio": {
         "oracleText": "A powerful warrior-mage with the ability to make himself invulnerable, Gideon is fiercely loyal, unyielding, just, charismatic and never hesitates to enter combat to defend the innocent.",
@@ -31261,7 +31261,7 @@
     },
     "MainNav/Profile/Avatars/Laezel_HBG_Name": {
         "oracleText": "Lae'zel",
-        "translation": "Lae'zel"
+        "translation": "莱埃泽尔"
     },
     "MainNav/Profile/Avatars/Lazav_Bio": {
         "oracleText": "Little is known about the mysterious shapeshifter Lazav. House Dimir's Guildmaster is able to warp reality and seems to attract all of the magic in his surroundings toward him.",
@@ -31317,7 +31317,7 @@
     },
     "MainNav/Profile/Avatars/Minsc_HBG_Name": {
         "oracleText": "Minsc & Boo",
-        "translation": "Minsc & Boo"
+        "translation": "明斯克与布布"
     },
     "MainNav/Profile/Avatars/NicolBolas_Bio": {
         "oracleText": "Elder dragon and tyrant of worlds, Nicol Bolas is one of the oldest known beings in the Multiverse. He's a force of villainous destruction, crushing all magic—and minds—that stand in his way.",
@@ -31377,7 +31377,7 @@
     },
     "MainNav/Profile/Avatars/Rakdos_Bio": {
         "oracleText": "Rakdos is a consummate entertainer. A monstrous figure standing thirty feet tall, Rakdos demands the spotlight. His every entrance is a showstopper.",
-        "translation": "Rakdos is a consummate entertainer. A monstrous figure standing thirty feet tall, Rakdos demands the spotlight. His every entrance is a showstopper."
+        "translation": "拉铎司演艺精湛。作为身长三十英尺的庞然巨物，他必然占据主角之位，堪称镇场明星。 "
     },
     "MainNav/Profile/Avatars/Rakdos_Name": {
         "oracleText": "Rakdos",
@@ -31437,7 +31437,7 @@
     },
     "MainNav/Profile/Avatars/Shadowheart_HBG_Name": {
         "oracleText": "Shadowheart",
-        "translation": "Shadowheart"
+        "translation": "影心"
     },
     "MainNav/Profile/Avatars/Sorin_VOW_Bio": {
         "oracleText": "A powerful vampire Planeswalker, Sorin Markov was born over 7,000 years ago on Innistrad. For millennia, he lorded over his home plane, preserving the balance between humans and the monsters that hunt them. Now, his power has been challenged by his longtime rival, Olivia Voldaren.",
@@ -31477,7 +31477,7 @@
     },
     "MainNav/Profile/Avatars/Tasha_HBG_Name": {
         "oracleText": "Tasha",
-        "translation": "Tasha"
+        "translation": "塔莎"
     },
     "MainNav/Profile/Avatars/Teferi_Bio": {
         "oracleText": "Teferi was recognized as a magical prodigy at a young age. With a talent for temporal magic and a fondness for practical jokes, he was one of the academy's most renowned, and confounding, students.",
@@ -31581,7 +31581,7 @@
     },
     "MainNav/Profile/Avatars/Wyll_HBG_Name": {
         "oracleText": "Wyll",
-        "translation": "Wyll"
+        "translation": "威迩"
     },
     "MainNav/Profile/Avatars/ZNR_Nahiri_Bio": {
         "oracleText": "Nahiri is a lithomancer: a mage who wields great power over stone. She can create arcane, complex formations that redirect the leylines of an entire world, or simply drag red-hot blades from the earth and leap into battle. Some call her a hero, some a villain, but nobody not even her most vicious enemies can deny her courage.",
@@ -31601,7 +31601,7 @@
     },
     "MainNav/Profile/ChangeAvatar": {
         "oracleText": "Avatars",
-        "translation": "头像"
+        "translation": "更换头像"
     },
     "MainNav/Profile/ChangePet": {
         "oracleText": "Pet",
@@ -31705,7 +31705,7 @@
     },
     "MainNav/Profile/PetSelect": {
         "oracleText": "Pets",
-        "translation": "宠物"
+        "translation": "宠物选择"
     },
     "MainNav/Profile/PetSelect/NoPet": {
         "oracleText": "No Pet",
@@ -31949,7 +31949,7 @@
     },
     "MainNav/Rewards/EquipEmotesError_Description": {
         "oracleText": "An error occured attempting to equip emote. Please try equipping later from the Profile page.",
-        "translation": "An error occured attempting to equip emote. Please try equipping later from the Profile page."
+        "translation": "装备表情时发生错误. 请稍后在资料页中尝试。"
     },
     "MainNav/Rewards/EquipEmotesError_Header": {
         "oracleText": "Equip Error",
@@ -32021,7 +32021,7 @@
     },
     "MainNav/Rewards/PreorderRewards_Title": {
         "oracleText": "Acquired",
-        "translation": "Acquired"
+        "translation": "已获得"
     },
     "MainNav/Rewards/QualifierTokenDescription_Day2": {
         "oracleText": "Day 2 Access",
@@ -32029,7 +32029,7 @@
     },
     "MainNav/Rewards/QualifierTokenDescription_Header": {
         "oracleText": "Qualified",
-        "translation": "具参赛资格"
+        "translation": "已获资格"
     },
     "MainNav/Rewards/QualifierTokenDescription_StartTime": {
         "oracleText": "Join between 6am and 8am Pacific",
@@ -32049,7 +32049,7 @@
     },
     "MainNav/Rewards/QualifierToken_Countdown": {
         "oracleText": "Begins in: {0}:{1}",
-        "translation": "{0}:{1}后开始"
+        "translation": "开始时间：{0}:{1}"
     },
     "MainNav/Rewards/RewardsClaimButtonClaimRewards": {
         "oracleText": "Claim Rewards",
@@ -32057,7 +32057,7 @@
     },
     "MainNav/Rewards/RewardsClaimButtonPlay": {
         "oracleText": "Play",
-        "translation": "对战"
+        "translation": "开始游戏"
     },
     "MainNav/Rewards/RewardsSubtitleFinalResults": {
         "oracleText": "Final Results",
@@ -32161,11 +32161,11 @@
     },
     "MainNav/Season/Reward_Style": {
         "oracleText": "1 Card Style",
-        "translation": "1种卡牌样式"
+        "translation": "1张卡牌样式"
     },
     "MainNav/Season/Reward_Styles": {
         "oracleText": "2 Card Styles",
-        "translation": "2种卡牌样式"
+        "translation": "2张卡牌样式"
     },
     "MainNav/Season/Season0Name": {
         "oracleText": "Off Season",
@@ -32441,7 +32441,7 @@
     },
     "MainNav/SetAnnouncements/AnnounceEnterButton": {
         "oracleText": "Explore",
-        "translation": "勘察"
+        "translation": "了解更多"
     },
     "MainNav/SetAnnouncements/GRN/GRNAnnounceDescription": {
         "oracleText": "The Guilds of Ravnica card set is now available. Which of the guilds will you align with? Experience what Ravnica has to offer and discover for yourself.",
@@ -33129,7 +33129,7 @@
     },
     "MainNav/Store/AgreeToTermsAndConditions": {
         "oracleText": "By clicking I agree I read, understood, and accept the <link=\"TC\"><color=#CBAE85><u>Terms and Conditions</u></color></link> that govern this purchase.",
-        "translation": "By clicking I agree I read, understood, and accept the <link=\"TC\"><color=#CBAE85><u>Terms and Conditions</u></color></link> that govern this purchase."
+        "translation": "点击「我同意」，即表明我已阅读、理解并接受约束此次购买之各项<link=\"TC\"><color=#CBAE85><u>条款与细则</u></color></link>。"
     },
     "MainNav/Store/Amonkhet": {
         "oracleText": "Amonkhet",
@@ -33237,7 +33237,7 @@
     },
     "MainNav/Store/BoosterTooltips/DAR-Packs-004": {
         "oracleText": "Bundle includes:\n1 copy of Firesong and Sunspeaker",
-        "translation": "Bundle includes:\n1 copy of Firesong and Sunspeaker"
+        "translation": "套装内含：\n1张咏火与颂日"
     },
     "MainNav/Store/BoosterTooltips/DAR-Packs-005": {
         "oracleText": "Bundle includes:\n2 copies of Firesong and Sunspeaker",
@@ -34177,7 +34177,7 @@
     },
     "MainNav/Store/Bundles/Bundle_HBG_Stickers1_Name": {
         "oracleText": "Baldur's Gate Sticker Bundle",
-        "translation": "Baldur's Gate Sticker Bundle"
+        "translation": "博德之门贴纸套装"
     },
     "MainNav/Store/Bundles/Bundle_HBG_Stickers2_Desc": {
         "oracleText": "Black Dragon Gloat Sticker Emote\nRed Dragon Angry Sticker Emote\nBlue Dragon Squint Sticker Emote\nGreen Dragon Sly Sticker Emote\nWhite Dragon Bored Sticker Emote",
@@ -35165,15 +35165,15 @@
     },
     "MainNav/Store/Bundles/PreOrder_AvailableDate": {
         "oracleText": "Available on July 7, 2022",
-        "translation": "Available on July 7, 2022"
+        "translation": "2022年7月7日可用"
     },
     "MainNav/Store/Bundles/PreOrder_Available_Purchasable": {
         "oracleText": "Available for purchase until July 7, 2022",
-        "translation": "Available for purchase until July 7, 2022"
+        "translation": "预购截止日期：2022年7月7日。"
     },
     "MainNav/Store/Bundles/Voucher_Available_CLBPreRelease": {
         "oracleText": "Available on July 7, 2022",
-        "translation": "Available on July 7, 2022"
+        "translation": "2022年7月7日可用"
     },
     "MainNav/Store/Bundles/WAR_PreOrder_Description": {
         "oracleText": "50 War of the Spark Packs\nWar of the Spark Sleeve\n1x Liliana, Dreadhorde General\nLiliana, Dreadhorde General Card Style",
@@ -35269,7 +35269,7 @@
     },
     "MainNav/Store/Crafting_Skin_In_Bundle_Message": {
         "oracleText": "Notice: This card style is currently on sale in a Store bundle.",
-        "translation": "Notice: This card style is currently on sale in a Store bundle."
+        "translation": "注意：此卡牌样式所在的套装目前正在商店售卖。"
     },
     "MainNav/Store/Crafting_Unowned_Skin_Message": {
         "oracleText": "This style can only be applied to a card you have not collected yet.",
@@ -35341,7 +35341,7 @@
     },
     "MainNav/Store/ExplorersBundleCallout": {
         "oracleText": "One Time Purchase - 3500 Gems & 5 Card Styles",
-        "translation": "限购一次～3500颗宝石和5种卡牌样式"
+        "translation": "限购一次～3500颗宝石和5张卡牌样式"
     },
     "MainNav/Store/Featured": {
         "oracleText": "Featured",
@@ -35777,7 +35777,7 @@
     },
     "MainNav/Store/PreOrderAdditionalInfo": {
         "oracleText": "Learn more about pre-orders <link=\"PREORDER\"><color=#CBAE85><u>here</u></color></link>.",
-        "translation": "Learn more about pre-orders <link=\"PREORDER\"><color=#CBAE85><u>here</u></color></link>."
+        "translation": "在<link=\"PREORDER\"><color=#CBAE85><u>此处</u></color></link>了解更多有关预购的信息。"
     },
     "MainNav/Store/PreOrderBundleInfo": {
         "oracleText": "Immediate payment required. \nThis bundle is expected to be available in {releaseDate}.",
@@ -36241,11 +36241,11 @@
     },
     "MainNav/Store/Tags/18Styles": {
         "oracleText": "+18 Card Styles",
-        "translation": "+18种卡牌样式"
+        "translation": "+18张卡牌样式"
     },
     "MainNav/Store/Tags/1Style": {
         "oracleText": "+1 Card Style",
-        "translation": "+1种卡牌样式"
+        "translation": "+1张卡牌样式"
     },
     "MainNav/Store/Tags/1_Full_Art_Land": {
         "oracleText": "+1 Full-Art Land",
@@ -36253,7 +36253,7 @@
     },
     "MainNav/Store/Tags/3Styles": {
         "oracleText": "+3 Card Styles",
-        "translation": "+3种卡牌样式"
+        "translation": "+3张卡牌样式"
     },
     "MainNav/Store/Tags/3_Full_Art_Lands": {
         "oracleText": "+3 Full-Art Lands",
@@ -36265,7 +36265,7 @@
     },
     "MainNav/Store/Tags/9Styles": {
         "oracleText": "+9 Card Styles",
-        "translation": "+9种卡牌样式"
+        "translation": "+9张卡牌样式"
     },
     "MainNav/Store/Tags/Back": {
         "oracleText": "Back!",
@@ -36433,7 +36433,7 @@
     },
     "MainNav/Store/WelcomeBundleCallout": {
         "oracleText": "2500 Gems & 5 Packs",
-        "translation": "2500 Gems & 5 Packs"
+        "translation": "2500颗宝石和5包补充包"
     },
     "MainNav/Store/WelcomeBundleDesctription": {
         "oracleText": "5 Magic Core Set 2020 Packs, 2500 Gems",
@@ -36669,7 +36669,7 @@
     },
     "MainNav/homepage/billboards/LockedDescription": {
         "oracleText": "Complete more Color Challenges to unlock additional play modes.",
-        "translation": "提升至更高等级以解锁其他游戏模式。"
+        "translation": "完成当前所有任务，即可启用更多游戏模式。"
     },
     "MainNav/homepage/billboards/LockedTitle": {
         "oracleText": "Locked Events",
@@ -36717,7 +36717,7 @@
     },
     "Match/PreGame/Sideboarding": {
         "oracleText": "Sideboarding",
-        "translation": "正在更换备牌"
+        "translation": "更换备牌"
     },
     "Match/QueueTip001": {
         "oracleText": "If you click End Turn but change your mind before the turn ends, you can cancel that by quickly pressing Enter or clicking End Turn again.",
@@ -37453,7 +37453,7 @@
     },
     "NPE/Deckbuilder/intro_132": {
         "oracleText": "Let me introduce you to the deckbuilder.",
-        "translation": "Let me introduce you to the deckbuilder."
+        "translation": "让我介绍一下套牌构筑界面吧。"
     },
     "NPE/Deckbuilder/intro_133": {
         "oracleText": "This is where ideas become reality!",
@@ -37609,7 +37609,7 @@
     },
     "NPE/Game01/End/ElfDefeat/Kylea_09": {
         "oracleText": "Well fought, outsider.",
-        "translation": "Well fought, outsider."
+        "translation": "打得不错，外来者。"
     },
     "NPE/Game01/Intro/Kylea_01": {
         "oracleText": "Don't you know the penalty for trespassing in Llanowar?",
@@ -37617,7 +37617,7 @@
     },
     "NPE/Game01/Intro/Kylea_02": {
         "oracleText": "For each branch broken... DEATH!",
-        "translation": "For each branch broken... DEATH!"
+        "translation": "每踩断一根树枝...就得死！"
     },
     "NPE/Game01/Intro/Kylea_02a": {
         "oracleText": "A bone shall be broken for each twig snapped underfoot.",
@@ -37661,7 +37661,7 @@
     },
     "NPE/Game01/Stitcher/Sparky_02b": {
         "oracleText": "Especially what NOT to do.",
-        "translation": "Especially what NOT to do."
+        "translation": "尤其是那些不该做的事。"
     },
     "NPE/Game01/Turn00/AlwaysReminder_2": {
         "oracleText": "You need more untapped lands for that.",
@@ -37741,7 +37741,7 @@
     },
     "NPE/Game01/Turn03/AttackingReminder_12_Handheld": {
         "oracleText": "Touch each creature you want to attack with.",
-        "translation": "点击所有你要用于攻击的生物。已横置的生物不能进行阻挡。"
+        "translation": "点击所有你要用于攻击的生物。"
     },
     "NPE/Game01/Turn03/AttackingReminder_15": {
         "oracleText": "Click on each creature you want to attack with. Creatures can't attack their first turn.",
@@ -37945,7 +37945,7 @@
     },
     "NPE/Game02/Stitcher/Sparky_02": {
         "oracleText": "Follow me to Ixalan. There's a mystic there who has spent his life studying the nuances of combat.",
-        "translation": "Follow me to Ixalan. There's a mystic there who has spent his life studying the nuances of combat."
+        "translation": "跟我去依夏兰吧。那里有位秘教徒，他花了毕生时间研究战斗中最微妙的差异。"
     },
     "NPE/Game02/Turn00/AlwaysReminder_35": {
         "oracleText": "You'll need this spell for something else or at another time.",
@@ -38017,7 +38017,7 @@
     },
     "NPE/Game02/Turn03/Sparky_05": {
         "oracleText": "Your creatures aren't tough enough to survive being blocked.",
-        "translation": "Your creatures aren't tough enough to survive being blocked."
+        "translation": "你的生物不够大，对手如果阻挡的话都活不下来。"
     },
     "NPE/Game02/Turn03/Sparky_06": {
         "oracleText": "Hold them back.",
@@ -38145,7 +38145,7 @@
     },
     "NPE/Game03/Stitcher/Sparky_01": {
         "oracleText": "You're almost ready to take on anyone, including whoever roughed you up in the first place.",
-        "translation": "You're almost ready to take on anyone, including whoever roughed you up in the first place."
+        "translation": "你差不多可以找人练手了，包括那些先前打惨你的对手。"
     },
     "NPE/Game03/Stitcher/Sparky_01a": {
         "oracleText": "I'd say you're just about ready to take on anyone, including whoever roughed you up in the first place.",
@@ -38277,7 +38277,7 @@
     },
     "NPE/Game03/Turn07/Calubi_13": {
         "oracleText": "The student is a river. The teacher is an ocean. The master is... also an ocean.",
-        "translation": "The student is a river. The teacher is an ocean. The master is... also an ocean."
+        "translation": "如果学生像是潺潺溪流。老师便是汪洋大海。而无上宗师……也是汪洋大海。"
     },
     "NPE/Game03/Turn07/Calubi_14": {
         "oracleText": "I apologize.",
@@ -38301,7 +38301,7 @@
     },
     "NPE/Game03/Turn07/Sparky_08b": {
         "oracleText": "So... I actually don't know who this guy is.",
-        "translation": "So... I actually don't know who this guy is."
+        "translation": "所以...我也不知道这人是谁。"
     },
     "NPE/Game03/Turn07/Sparky_09": {
         "oracleText": "Um... We should get going.",
@@ -38349,7 +38349,7 @@
     },
     "NPE/Game04/Stitcher/Sparky_02b": {
         "oracleText": "Who were you fighting in the first place, anyway?",
-        "translation": "Who were you fighting in the first place, anyway?"
+        "translation": "你一开始是跟谁作战的来着？"
     },
     "NPE/Game04/Stitcher/Sparky_03": {
         "oracleText": "WHAT?! This is a terrible idea!",
@@ -38589,11 +38589,11 @@
     },
     "NPE/Game05/Intro/NicolBolas_01": {
         "oracleText": "I'll make a deal with you, planeswalker.",
-        "translation": "I'll make a deal with you, planeswalker."
+        "translation": "我跟你做一笔交易吧，鹏洛客。"
     },
     "NPE/Game05/Intro/NicolBolas_02": {
         "oracleText": "Defeat me and I'll let you go.",
-        "translation": "Defeat me and I'll let you go."
+        "translation": "如果我输了，我就放你自由。"
     },
     "NPE/Game05/Intro/NicolBolas_03": {
         "oracleText": "Lose, and you will serve me for eternity.",
@@ -38609,7 +38609,7 @@
     },
     "NPE/Game05/Intro/Sparky_01b": {
         "oracleText": "Do we even have a choice?",
-        "translation": "Do we even have a choice?"
+        "translation": "我们还有选择吗？"
     },
     "NPE/Game05/Turn00/AlwaysReminder_68": {
         "oracleText": "Discard a Plains.",
@@ -38621,7 +38621,7 @@
     },
     "NPE/Game05/Turn01/NicolBolas_04a": {
         "oracleText": "No, not really.",
-        "translation": "No, not really."
+        "translation": "还真没有。"
     },
     "NPE/Game05/Turn01/Sparky_02": {
         "oracleText": "Fight as if your life depended on it.",
@@ -38721,7 +38721,7 @@
     },
     "NPE/Game05/Turn07/NicolBolas_12": {
         "oracleText": "What's this?",
-        "translation": "What's this?"
+        "translation": "这是什么？"
     },
     "NPE/Game05/Turn07/NicolBolas_12b": {
         "oracleText": "???",
@@ -38825,11 +38825,11 @@
     },
     "NPE/Intro/Sparky_01": {
         "oracleText": "Wake up! Wake Up!",
-        "translation": "Wake up! Wake Up!"
+        "translation": "醒醒！醒醒！"
     },
     "NPE/Intro/Sparky_02": {
         "oracleText": "I was worried there for a minute.",
-        "translation": "I was worried there for a minute."
+        "translation": "我还稍微担心了一会儿。"
     },
     "NPE/Intro/Sparky_03": {
         "oracleText": "Looks like you barely survived your last battle, but with some training, you'll become a force to be reckoned with.",
@@ -38917,7 +38917,7 @@
     },
     "NPE/Mulligans/13": {
         "oracleText": "At the beginning of the game, you can either keep your opening hand or \"mulligan\" it.",
-        "translation": "At the beginning of the game, you can either keep your opening hand or \"mulligan\" it."
+        "translation": "在游戏开始时，你可以选择保留起手牌或将其「再调度」。"
     },
     "NPE/Mulligans/14": {
         "oracleText": "A mulligan lets you trade your hand for a new one, but you get one less card.",
@@ -39145,7 +39145,7 @@
     },
     "NPE/PLP/MS4/Landing/Sparky_01": {
         "oracleText": "Look, special events! Each one is different.",
-        "translation": "Look, special events! Each one is different."
+        "translation": "看，特殊赛事！每场赛事都不相同。"
     },
     "NPE/PLP/MS4/Landing/Sparky_03": {
         "oracleText": "You can find events here too. Keep an eye out for new ones.",
@@ -39813,7 +39813,7 @@
     },
     "PlayBlade/BestOfOne_Text": {
         "oracleText": "Best of",
-        "translation": "三盘两胜"
+        "translation": "一盘胜负"
     },
     "PlayBlade/BestOfThree_Digit": {
         "oracleText": "3",
@@ -39865,7 +39865,7 @@
     },
     "PlayBlade/Filters/Default/Limited": {
         "oracleText": "Limited",
-        "translation": "限制赛"
+        "translation": "限制"
     },
     "PlayBlade/Filters/Default/Limited_Desc": {
         "oracleText": "Draft or build a deck from a limited pool of cards that you'll get at the start of one of these events.",
@@ -40377,7 +40377,7 @@
     },
     "Rank/Rank_Master": {
         "oracleText": "Master",
-        "translation": "主音量"
+        "translation": "大师"
     },
     "Rank/Rank_Mythic": {
         "oracleText": "Mythic",
