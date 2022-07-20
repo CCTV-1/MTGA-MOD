@@ -1,7 +1,7 @@
-From eff47dcb0b5a4fc3d1440a880305e54569e2d2de Mon Sep 17 00:00:00 2001
+From 6447023ff2ef2d1b5ed28a869f176417fd075fe1 Mon Sep 17 00:00:00 2001
 From: CCTV-1 <script.tar.gz@gmail.com>
-Date: Wed, 20 Jul 2022 21:41:41 +0800
-Subject: [PATCH] zhCN Font Patch
+Date: Wed, 20 Jul 2022 22:41:26 +0800
+Subject: [PATCH] zhCN Font Patch.
 
 ---
  AccountInformation.cs                         |  2 +-
@@ -16,6 +16,7 @@ Subject: [PATCH] zhCN Font Patch
  SettingsPanelGraphics.cs                      |  2 +-
  StoreItemBase.cs                              |  1 +
  SystemMessageView.cs                          |  3 ++
+ .../CDCExtraFrameDetailFiller.cs              |  1 +
  .../FieldFillerUtils.cs                       | 17 +-----
  .../ClassAbilityTextbox.cs                    |  1 +
  .../TableAbilityTextbox.cs                    |  3 +-
@@ -24,7 +25,7 @@ Subject: [PATCH] zhCN Font Patch
  Wotc.Mtga.Loc/Languages.cs                    |  2 +-
  .../DraftContentController.cs                 |  1 +
  ZhCN_Font.cs                                  | 54 +++++++++++++++++++
- 20 files changed, 90 insertions(+), 51 deletions(-)
+ 21 files changed, 91 insertions(+), 51 deletions(-)
  create mode 100644 ZhCN_Font.cs
 
 diff --git a/AccountInformation.cs b/AccountInformation.cs
@@ -228,6 +229,18 @@ index 71fa0aa..71d79a5 100644
  	}
  
  	public void Show()
+diff --git a/Wotc.Mtga.CardParts.FieldFillers/CDCExtraFrameDetailFiller.cs b/Wotc.Mtga.CardParts.FieldFillers/CDCExtraFrameDetailFiller.cs
+index 762e50b..79a5240 100644
+--- a/Wotc.Mtga.CardParts.FieldFillers/CDCExtraFrameDetailFiller.cs
++++ b/Wotc.Mtga.CardParts.FieldFillers/CDCExtraFrameDetailFiller.cs
+@@ -42,6 +42,7 @@ namespace Wotc.Mtga.CardParts.FieldFillers
+ 			if (!_hasBeenInit)
+ 			{
+ 				_label = GetComponent<TMP_Text>();
++				_label.font = ZhCN_Font.Instance.zhCNFont;
+ 				_defaultFont = _label.font;
+ 				_defaultFontMaterial = _label.fontSharedMaterial;
+ 				_hasBeenInit = true;
 diff --git a/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs b/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
 index b2f58c7..0d51e17 100644
 --- a/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
