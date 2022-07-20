@@ -1,16 +1,16 @@
-From b2df4aaddb19313d4a304c0d22335ec025261cdc Mon Sep 17 00:00:00 2001
+From eff47dcb0b5a4fc3d1440a880305e54569e2d2de Mon Sep 17 00:00:00 2001
 From: CCTV-1 <script.tar.gz@gmail.com>
-Date: Sat, 7 May 2022 08:10:44 +0800
-Subject: [PATCH] zhCN Font Patch.
+Date: Wed, 20 Jul 2022 21:41:41 +0800
+Subject: [PATCH] zhCN Font Patch
 
 ---
  AccountInformation.cs                         |  2 +-
+ AutoLandsToggle.cs                            |  6 +++
  CDCPart_TextBox_DayNight.cs                   |  4 +-
  CDCPart_TextBox_Dungeon.cs                    |  5 +-
  .../MasteryEndText.cs                         |  1 +
  DeckMainTitlePanel.cs                         |  5 ++
- MTGA.Loc/Languages.cs                         |  2 +-
- MTGA.Loc/MTGALocalizable.cs                   | 35 +++++-------
+ MTGA.Loc/MTGALocalizable.cs                   | 18 ++-----
  MatchManager.cs                               |  2 +-
  SearchAndFilterBar.cs                         |  1 +
  SettingsPanelGraphics.cs                      |  2 +-
@@ -21,9 +21,10 @@ Subject: [PATCH] zhCN Font Patch.
  .../TableAbilityTextbox.cs                    |  3 +-
  .../TextboxSubComponentBase.cs                |  2 +-
  Wotc.Mtga.Cards.Text/Utilities.cs             | 11 +---
+ Wotc.Mtga.Loc/Languages.cs                    |  2 +-
  .../DraftContentController.cs                 |  1 +
  ZhCN_Font.cs                                  | 54 +++++++++++++++++++
- 19 files changed, 93 insertions(+), 59 deletions(-)
+ 20 files changed, 90 insertions(+), 51 deletions(-)
  create mode 100644 ZhCN_Font.cs
 
 diff --git a/AccountInformation.cs b/AccountInformation.cs
@@ -39,6 +40,29 @@ index 8249116..f0e33a2 100644
  	}
  
  	public bool HasRole_Debugging()
+diff --git a/AutoLandsToggle.cs b/AutoLandsToggle.cs
+index e7824b5..7f1a59b 100644
+--- a/AutoLandsToggle.cs
++++ b/AutoLandsToggle.cs
+@@ -1,5 +1,6 @@
+ using System;
+ using GreClient.CardData;
++using TMPro;
+ using UnityEngine;
+ using Wotc.Mtga.Extensions;
+ 
+@@ -40,6 +41,11 @@ public class AutoLandsToggle : MonoBehaviour
+ 			deckBuilderWidget.CardRemovedFromMainDeck += _onCardRemovedFromMainDeck;
+ 			filterBar.LandFilterValueChanged += _onFilterValueChanged;
+ 			cardPoolHolder.OnPageChanged += _onPageChanged;
++			Transform transform = base.transform.FindChild("Text");
++			if (transform != null)
++			{
++				transform.GetComponent<TextMeshProUGUI>().font = ZhCN_Font.Instance.zhCNFont;
++			}
+ 			_isInitialized = true;
+ 		}
+ 	}
 diff --git a/CDCPart_TextBox_DayNight.cs b/CDCPart_TextBox_DayNight.cs
 index f27afd0..e5fc051 100644
 --- a/CDCPart_TextBox_DayNight.cs
@@ -55,10 +79,10 @@ index f27afd0..e5fc051 100644
  		_lowerTextLabel.fontSize = _supportedFontSizes[0];
  		UpdateLabelMaterial(_upperTextLabel);
 diff --git a/CDCPart_TextBox_Dungeon.cs b/CDCPart_TextBox_Dungeon.cs
-index a232291..96c619d 100644
+index 5620d11..b15fa45 100644
 --- a/CDCPart_TextBox_Dungeon.cs
 +++ b/CDCPart_TextBox_Dungeon.cs
-@@ -47,15 +47,14 @@ public class CDCPart_TextBox_Dungeon : CDCPart_Textbox_SuperBase
+@@ -48,15 +48,14 @@ public class CDCPart_TextBox_Dungeon : CDCPart_Textbox_SuperBase
  				}
  			}
  		}
@@ -77,10 +101,10 @@ index a232291..96c619d 100644
  		}
  		_activeRoomArray[0] = CurrentRoomGrpId(_cachedModel);
 diff --git a/Core.Meta.MainNavigation.Profile/MasteryEndText.cs b/Core.Meta.MainNavigation.Profile/MasteryEndText.cs
-index c2b9aac..56ec768 100644
+index 590b658..0fc629f 100644
 --- a/Core.Meta.MainNavigation.Profile/MasteryEndText.cs
 +++ b/Core.Meta.MainNavigation.Profile/MasteryEndText.cs
-@@ -21,6 +21,7 @@ namespace Core.Meta.MainNavigation.Profile
+@@ -22,6 +22,7 @@ namespace Core.Meta.MainNavigation.Profile
  				if (text == null)
  				{
  					text = GetComponent<TMP_Text>();
@@ -89,7 +113,7 @@ index c2b9aac..56ec768 100644
  				return text;
  			}
 diff --git a/DeckMainTitlePanel.cs b/DeckMainTitlePanel.cs
-index 966e6f7..d8c4c04 100644
+index f191488..747eb73 100644
 --- a/DeckMainTitlePanel.cs
 +++ b/DeckMainTitlePanel.cs
 @@ -210,6 +210,11 @@ public class DeckMainTitlePanel : MonoBehaviour
@@ -104,55 +128,28 @@ index 966e6f7..d8c4c04 100644
  		}
  		_meshRendererReferenceLoaders = new MeshRendererReferenceLoader[_deckBoxRenderers.Length];
  		for (int i = 0; i < _deckBoxRenderers.Length; i++)
-diff --git a/MTGA.Loc/Languages.cs b/MTGA.Loc/Languages.cs
-index bf932cf..e5a42bd 100644
---- a/MTGA.Loc/Languages.cs
-+++ b/MTGA.Loc/Languages.cs
-@@ -54,7 +54,7 @@ namespace MTGA.Loc
- 			"zh-TW"
- 		};
- 
--		public static readonly string[] ExternalLanguages = new string[9] { "en-US", "pt-BR", "fr-FR", "it-IT", "de-DE", "es-ES", "ru-RU", "ja-JP", "ko-KR" };
-+		public static readonly string[] ExternalLanguages = new string[2] { "en-US", "ja-JP" };
- 
- 		public static readonly Dictionary<string, string> Converter = new Dictionary<string, string>
- 		{
 diff --git a/MTGA.Loc/MTGALocalizable.cs b/MTGA.Loc/MTGALocalizable.cs
-index 8d8e1f4..4221773 100644
+index 1625dd6..4979246 100644
 --- a/MTGA.Loc/MTGALocalizable.cs
 +++ b/MTGA.Loc/MTGALocalizable.cs
-@@ -46,36 +46,25 @@ namespace MTGA.Loc
+@@ -26,7 +26,7 @@ namespace MTGA.Loc
+ 			public string value;
+ 		}
  
- 		public void Localize(LocalizationManager locMan, string materialKey = null)
- 		{
--			if (!active || !(serializedCmp is TMP_Text tMP_Text))
-+			if (!active)
+-		private static readonly Dictionary<string, string> Parameters = new Dictionary<string, string>();
++		private static readonly Dictionary<string, string> Parameters;
+ 
+ 		[SerializeField]
+ 		public bool active = true;
+@@ -59,20 +59,8 @@ namespace MTGA.Loc
+ 				break;
+ 			case TargetType.Font:
  			{
- 				return;
- 			}
--			switch (targetType)
-+			TMP_Text tMP_Text = serializedCmp as TMP_Text;
-+			if (tMP_Text != null)
- 			{
--			case TargetType.Text:
--				LocalizeText(locMan, tMP_Text);
--				break;
--			case TargetType.Font:
--			{
--				FontMaterialMap localizedFont = locMan.GetLocalizedFont(locKey, tMP_Text);
+-				FontMaterialMap localizedFont = fontProvider.GetLocalizedFont(locKey);
 -				if (localizedFont == null)
-+				switch (targetType)
- 				{
-+				case TargetType.Text:
-+					LocalizeText(locMan, tMP_Text);
-+					break;
-+				default:
-+					Debug.LogError($"unsupported localization target type: {targetType}");
-+					break;
-+				case TargetType.Font:
-+					tMP_Text.font = ZhCN_Font.Instance.zhCNFont;
- 					break;
- 				}
+-				{
+-					break;
+-				}
 -				tMP_Text.font = localizedFont.font;
 -				if (!string.IsNullOrEmpty(materialKey))
 -				{
@@ -162,14 +159,11 @@ index 8d8e1f4..4221773 100644
 -						tMP_Text.fontSharedMaterial = material;
 -					}
 -				}
--				break;
--			}
--			default:
--				Debug.LogError($"unsupported localization target type: {targetType}");
--				break;
++				tMP_Text.font = ZhCN_Font.Instance.zhCNFont;
++
+ 				break;
  			}
- 		}
- 
+ 			default:
 diff --git a/MatchManager.cs b/MatchManager.cs
 index 290db51..c0bbb92 100644
 --- a/MatchManager.cs
@@ -184,10 +178,10 @@ index 290db51..c0bbb92 100644
  				{
  					_screenName = _screenName.Substring(0, num);
 diff --git a/SearchAndFilterBar.cs b/SearchAndFilterBar.cs
-index 4cff116..5e51f3e 100644
+index b95550a..b018874 100644
 --- a/SearchAndFilterBar.cs
 +++ b/SearchAndFilterBar.cs
-@@ -94,6 +94,7 @@ public class SearchAndFilterBar : MonoBehaviour
+@@ -95,6 +95,7 @@ public class SearchAndFilterBar : MonoBehaviour
  			AudioManager.PlayAudio(WwiseEvents.sfx_ui_generic_click, AudioManager.Default);
  			UpdateSearchText();
  		});
@@ -196,10 +190,10 @@ index 4cff116..5e51f3e 100644
  		{
  			AudioManager.PlayAudio(WwiseEvents.sfx_ui_generic_click, AudioManager.Default);
 diff --git a/SettingsPanelGraphics.cs b/SettingsPanelGraphics.cs
-index 15bb822..f134546 100644
+index 6427585..4d4b9f2 100644
 --- a/SettingsPanelGraphics.cs
 +++ b/SettingsPanelGraphics.cs
-@@ -321,7 +321,7 @@ public class SettingsPanelGraphics : SettingsMenuPanel
+@@ -319,7 +319,7 @@ public class SettingsPanelGraphics : SettingsMenuPanel
  			"es" => "Español", 
  			"fr" => "Français", 
  			"it" => "Italiano", 
@@ -209,7 +203,7 @@ index 15bb822..f134546 100644
  			"pt-BR" => "Português\u00a0brasileiro", 
  			"ru" => "Русский", 
 diff --git a/StoreItemBase.cs b/StoreItemBase.cs
-index 013b206..9353f63 100644
+index a593a77..3a7866c 100644
 --- a/StoreItemBase.cs
 +++ b/StoreItemBase.cs
 @@ -483,6 +483,7 @@ public class StoreItemBase : MonoBehaviour
@@ -235,10 +229,10 @@ index 71fa0aa..71d79a5 100644
  
  	public void Show()
 diff --git a/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs b/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
-index c0c4bdb..3de67f2 100644
+index b2f58c7..0d51e17 100644
 --- a/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
 +++ b/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
-@@ -60,21 +60,8 @@ namespace Wotc.Mtga.CardParts.FieldFillers
+@@ -62,21 +62,8 @@ namespace Wotc.Mtga.CardParts.FieldFillers
  
  		public static TMP_FontAsset FindFont(AssetLookupSystem als, AssetTracker tracker, out bool canSwapMaterial)
  		{
@@ -309,10 +303,10 @@ index 30a2da3..ae2ea36 100644
  
  		public virtual void SetAlignment(TextAlignmentOptions textAlignment)
 diff --git a/Wotc.Mtga.Cards.Text/Utilities.cs b/Wotc.Mtga.Cards.Text/Utilities.cs
-index 5de0488..7ec5b3c 100644
+index b5113a5..d4a5a75 100644
 --- a/Wotc.Mtga.Cards.Text/Utilities.cs
 +++ b/Wotc.Mtga.Cards.Text/Utilities.cs
-@@ -51,16 +51,7 @@ namespace Wotc.Mtga.Cards.Text
+@@ -52,16 +52,7 @@ namespace Wotc.Mtga.Cards.Text
  
  		public static string GetBoldedAbilityText(string localizedText)
  		{
@@ -330,11 +324,24 @@ index 5de0488..7ec5b3c 100644
  		}
  
  		public static bool TryStripLoyaltyPrefixFromString(ref string localizedText)
+diff --git a/Wotc.Mtga.Loc/Languages.cs b/Wotc.Mtga.Loc/Languages.cs
+index e21259f..cf830df 100644
+--- a/Wotc.Mtga.Loc/Languages.cs
++++ b/Wotc.Mtga.Loc/Languages.cs
+@@ -67,7 +67,7 @@ namespace Wotc.Mtga.Loc
+ 			"zh-TW"
+ 		};
+ 
+-		public static readonly string[] ExternalLanguages = new string[9] { "en-US", "pt-BR", "fr-FR", "it-IT", "de-DE", "es-ES", "ru-RU", "ja-JP", "ko-KR" };
++		public static readonly string[] ExternalLanguages = new string[9] { "en-US", "ja-JP" };
+ 
+ 		public const string BULLET_EN = "• ";
+ 
 diff --git a/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs b/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
-index c099556..3436089 100644
+index 99dca2b..f506750 100644
 --- a/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
 +++ b/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
-@@ -796,6 +796,7 @@ namespace Wotc.Mtga.Wrapper.Draft
+@@ -889,6 +889,7 @@ namespace Wotc.Mtga.Wrapper.Draft
  		{
  			_settingCardsCoroutine = null;
  			_okToPickCard = true;
@@ -403,5 +410,5 @@ index 0000000..c014191
 +	}
 +}
 -- 
-2.36.0
+2.37.1
 
