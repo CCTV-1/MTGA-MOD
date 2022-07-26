@@ -3755,6 +3755,30 @@
         "oracleText": "Elspeth, Sun's Nemesis",
         "translation": "破日死敌艾紫培"
     },
+    "Decks/Precon/Gladiator_BR": {
+        "oracleText": "Rakdos Magecraft",
+        "translation": "Rakdos Magecraft"
+    },
+    "Decks/Precon/Gladiator_GR": {
+        "oracleText": "Gruul Legends",
+        "translation": "Gruul Legends"
+    },
+    "Decks/Precon/Gladiator_Generic": {
+        "oracleText": "Gladiator Deck",
+        "translation": "Gladiator Deck"
+    },
+    "Decks/Precon/Gladiator_W": {
+        "oracleText": "White Aggro",
+        "translation": "White Aggro"
+    },
+    "Decks/Precon/Gladiator_WBG": {
+        "oracleText": "Three-Color Landfall",
+        "translation": "Three-Color Landfall"
+    },
+    "Decks/Precon/Gladiator_WU": {
+        "oracleText": "Azorius Control",
+        "translation": "Azorius Control"
+    },
     "Decks/Precon/MWM_Brawl_Hofri": {
         "oracleText": "Hofri Ghostforge",
         "translation": "铸魂霍非"
@@ -3782,6 +3806,10 @@
     "Decks/Precon/MWM_Omniscience": {
         "oracleText": "Midweek Magic",
         "translation": "周中万智牌"
+    },
+    "Decks/Precon/MWM_Omniscience_Dragons": {
+        "oracleText": "Omniscience Dragons",
+        "translation": "Omniscience Dragons"
     },
     "Decks/Precon/MWM_Omniscience_Enchantments": {
         "oracleText": "Midweek Magic",
@@ -11203,6 +11231,10 @@
         "oracleText": "Create or select your deck here!",
         "translation": "在此创建或选择你的套牌！"
     },
+    "Events/DraftTwo_Notice": {
+        "oracleText": "This qualifies you for  Draft Two of this event. Join from 12 p.m. - 2 p.m. PT.",
+        "translation": "This qualifies you for  Draft Two of this event. Join from 12 p.m. - 2 p.m. PT."
+    },
     "Events/EventPreview_Back_To_Day_1": {
         "oracleText": "Back to Day 1",
         "translation": "回到第一天"
@@ -12928,28 +12960,36 @@
         "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for Day 1 is Historic with single-game matches, and then Traditional Historic with best-of-three matches using sideboards for Day 2. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo1": {
-        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i>Streets of New Capenna</i> Sealed with single-game matches. The Day 2 event will use Traditional <i>Streets of New Capenna</i> Draft with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i>Streets of New Capenna</i> Sealed with single-game matches. The Day 2 event will use Traditional <i>Streets of New Capenna</i> Draft with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is  <i>Alchemy Horizons: Baldur's Gate </i> Sealed with single-game matches. The Day 2 event will use Traditional <i>Alchemy Horizons: Baldur's Gate</i> Draft with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is  <i>Alchemy Horizons: Baldur's Gate </i> Sealed with single-game matches. The Day 2 event will use Traditional <i>Alchemy Horizons: Baldur's Gate</i> Draft with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo1_Alt": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Standard with single-game matches. The Day 2 event will use Traditional Standard with best-of-three matches using sideboards. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b></size>",
         "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Standard with single-game matches. The Day 2 event will use Traditional Standard with best-of-three matches using sideboards. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo3": {
-        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional <i>Streets of New Capenna</i> Sealed with best-of-three matches using sideboards and individual timers. The Day 2 event will be Traditional <i>Streets of New Capenna</i> Draft with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional <i>Streets of New Capenna</i> Sealed with best-of-three matches using sideboards and individual timers. The Day 2 event will be Traditional <i>Streets of New Capenna</i> Draft with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional <i>Alchemy Horizons: Baldur's Gate</i> Sealed with best-of-three matches using sideboards and individual timers. The Day 2 event will be Traditional <i>Alchemy Horizons: Baldur's Gate</i> Draft with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional <i>Alchemy Horizons: Baldur's Gate</i> Sealed with best-of-three matches using sideboards and individual timers. The Day 2 event will be Traditional <i>Alchemy Horizons: Baldur's Gate</i> Draft with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo3_Alt": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 match wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional Standard with best-of-three matches using sideboards. The Day 2 event will also be Traditional Standard with best-of-three matches using sideboards. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b></size>",
         "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 match wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional Standard with best-of-three matches using sideboards. The Day 2 event will also be Traditional Standard with best-of-three matches using sideboards. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_ArenaOpen_Day2": {
-        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the Day 2 event between 6 a.m. PT - 8 a.m. PT.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is Traditional <i>Streets of New Capenna</i> Draft with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the Day 2 event between 6 a.m. PT - 8 a.m. PT.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is Traditional <i>Streets of New Capenna</i> Draft with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Alchemy Horizons: Baldur's Gate</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\n<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT. </size></color>\n\nFor assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Alchemy Horizons: Baldur's Gate</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\n<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT. </size></color>\n\nFor assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_Alt": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards playing MTG Arena!</size></color>\n\nThis second day of competition is open only to qualified players from Day 1. Players must join the Day 2 event between 6 a.m. PT/2 p.m. UTC and 8 a.m. PT/4 p.m. UTC.\n\nThe Day 2 format is Traditional Standard with best-of-three matches using sideboards. Players may only enter once, even if they have qualified multiple times. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b></size>",
         "translation": "<size=150%><color=#e1a154>Compete for monetary rewards playing MTG Arena!</size></color>\n\nThis second day of competition is open only to qualified players from Day 1. Players must join the Day 2 event between 6 a.m. PT/2 p.m. UTC and 8 a.m. PT/4 p.m. UTC.\n\nThe Day 2 format is Traditional Standard with best-of-three matches using sideboards. Players may only enter once, even if they have qualified multiple times. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b></size>"
+    },
+    "Events/Event_Desc_ArenaOpen_Day2_DraftOne": {
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 12 p.m. PT.\n\nPlayers must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Alchemy Horizons: Baldur's Gate</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 12 p.m. PT.\n\nPlayers must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Alchemy Horizons: Baldur's Gate</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>"
+    },
+    "Events/Event_Desc_ArenaOpen_Day2_DraftTwo": {
+        "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Alchemy Horizons: Baldur's Gate</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Alchemy Horizons: Baldur's Gate</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaTeamEvent": {
         "oracleText": "Thank you for all your hard work!",
@@ -13683,6 +13723,10 @@
         "oracleText": "In Giant Monsters, whenever you cast a creature spell with mana value of four or greater, draw a card! Narset, Parter of Veils and Nexus of Fate are banned in this format.",
         "translation": "在「威凛巨兽」规则下，每当你施放总法术力费用等于或大于四的生物时，你便抓一张牌！揭帷娜尔施和龙命连结点在此赛制中禁用。"
     },
+    "Events/Event_Desc_GladiatorSpotlight": {
+        "oracleText": "Welcome to Gladiator, one of the most popular fan formats for MTG Arena!\n\nGladiator uses 100-card singleton Historic decks with a minimal banned list. You then face off in best-of-three matches, giving you the chance to see a wide range of possibilities from both players' decks. There are no sideboards, so what you bring is what you've got!\n\nTo learn more about Gladiator and and its community, click <u><link=https://magic.wizards.com/en/articles/archive/magic-digital/community-spotlight-gladiator-august-2022>here</link></u>.",
+        "translation": "Welcome to Gladiator, one of the most popular fan formats for MTG Arena!\n\nGladiator uses 100-card singleton Historic decks with a minimal banned list. You then face off in best-of-three matches, giving you the chance to see a wide range of possibilities from both players' decks. There are no sideboards, so what you bring is what you've got!\n\nTo learn more about Gladiator and and its community, click <u><link=https://magic.wizards.com/en/articles/archive/magic-digital/community-spotlight-gladiator-august-2022>here</link></u>."
+    },
     "Events/Event_Desc_Greedy_Draft": {
         "oracleText": "In Greedy Draft, draft three packs and keep the cards you draft, but with a twist: Everyone can play two lands per turn, starts with 9 cards in their hand, and has no maximum hand size!",
         "translation": "在「贪婪轮抽」中，依然是利用三包补充包进行轮抽，且你所抽到的牌张都会加入你的收藏，不过有些不一样：所有人每回合都能使用两个地，以9张手牌起手，没有手牌上限。"
@@ -13732,8 +13776,8 @@
         "translation": "组一套只含有普通和非凡牌的套牌！点击下方按钮查看禁牌表。"
     },
     "Events/Event_Desc_Historic_Challenge": {
-        "oracleText": "Prove yourself through winning best-of-three matches in the Historic Challenge! For more information on this event, see <u><link=http://magic.wizards.com/mtga-historic-championship>here</link></u>.\n\nPrize packs are evenly split between:\n• <i>Amonkhet Remastered</i>\n• <i>Kaladesh Remastered</i>\n• <i>Core Set 2019</i>",
-        "translation": "Prove yourself through winning best-of-three matches in the Historic Challenge! For more information on this event, see <u><link=http://magic.wizards.com/mtga-historic-championship>here</link></u>.\n\nPrize packs are evenly split between:\n• <i>Amonkhet Remastered</i>\n• <i>Kaladesh Remastered</i>\n• <i>Core Set 2019</i>"
+        "oracleText": "Bring your Historic deck and play best-of-three matches! You'll receive rewards based on how many matches you win.",
+        "translation": "Bring your Historic deck and play best-of-three matches! You'll receive rewards based on how many matches you win."
     },
     "Events/Event_Desc_Historic_Challenge_Banned": {
         "oracleText": "Prove yourself through winning best-of-three matches in the Historic Challenge!\n\nThe following cards are banned in this event:",
@@ -13808,8 +13852,8 @@
         "translation": "Tune into the MTG Arena Mythic Invitational this weekend (March 28 - 31), where 64 players compete for $1 million in prizes. Follow all the action at http://twitch.tv/magic and play while you watch! You can win Chemister's Insight and Skewer the Critics card styles."
     },
     "Events/Event_Desc_Jump_In": {
-        "oracleText": "Welcome to the world of MTG Arena! Here you can explore popular cards and strategies, and maybe even find a new favorite. It's time to <b>Jump In!</b>\n\nWhen you join this event, you will get to select two different half-decks from a variety of themes in Standard. Combine them, and you'll have a deck that's ready to go. Play as much as you want here, or use the cards to build new decks for other modes - they're yours to keep!\n\n<color=\"green\"><b>Resign at any time if you wish to rejoin and pick new packets. You will have to pay the entry again, but you will keep all cards from the decks you choose.</b></color>",
-        "translation": "Welcome to the world of MTG Arena! Here you can explore popular cards and strategies, and maybe even find a new favorite. It's time to <b>Jump In!</b>\n\nWhen you join this event, you will get to select two different half-decks from a variety of themes in Standard. Combine them, and you'll have a deck that's ready to go. Play as much as you want here, or use the cards to build new decks for other modes - they're yours to keep!\n\n<color=\"green\"><b>Resign at any time if you wish to rejoin and pick new packets. You will have to pay the entry again, but you will keep all cards from the decks you choose.</b></color>"
+        "oracleText": "Welcome to the world of MTG Arena! Here you can explore popular cards and strategies, and maybe even find a new favorite. It's time to <b>Jump In!</b>\n\nWhen you join this event, you will get to select two different half-decks from a variety of themes in Alchemy. Combine them, and you'll have a deck that's ready to go. Play as much as you want here, or use the cards to build new decks for other modes - they're yours to keep!\n\n<color=\"green\"><b>Resign at any time if you wish to rejoin and pick new packets. You will have to pay the entry again, but you will keep all cards from the decks you choose.</b></color>",
+        "translation": "Welcome to the world of MTG Arena! Here you can explore popular cards and strategies, and maybe even find a new favorite. It's time to <b>Jump In!</b>\n\nWhen you join this event, you will get to select two different half-decks from a variety of themes in Alchemy. Combine them, and you'll have a deck that's ready to go. Play as much as you want here, or use the cards to build new decks for other modes - they're yours to keep!\n\n<color=\"green\"><b>Resign at any time if you wish to rejoin and pick new packets. You will have to pay the entry again, but you will keep all cards from the decks you choose.</b></color>"
     },
     "Events/Event_Desc_Jumpstart_J21": {
         "oracleText": "Welcome to Jumpstart: Historic Horizons!\n\nWhen you join this event, you will get to select two different half-decks from a variety of themes inspired by Magic's history and the <i>Modern Horizons</i> sets. Combine them, and you'll have a deck that's ready to go! You'll keep all the cards from your deck, and you can play with it as much as you want.\n\n<color=\"green\"><b>Resign at any time if you wish to rejoin and pick new packets. You will have to pay the entry again, but you can also earn all rewards again as well.</b></color>",
@@ -13979,13 +14023,21 @@
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is the 2022 Challenger Decks! These iconic archetypes are available now, and you can take them for a spin right here. Choose your favorite strategy and seize victory!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>.",
         "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is the 2022 Challenger Decks! These iconic archetypes are available now, and you can take them for a spin right here. Choose your favorite strategy and seize victory!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>."
     },
+    "Events/Event_Desc_MWM_Explorer": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Explorer: Bring a 60-card Explorer deck and battle through Magic's history!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Explorer: Bring a 60-card Explorer deck and battle through Magic's history!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+    },
+    "Events/Event_Desc_MWM_FutureAlchemy": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Future Alchemy: Get a jump on next year's format! Bring a 60-card deck using only cards from the last year of Alchemy, starting with <i>Innistrad: Midnight Hunt</i>, whether they're in your collection or not. Out with the old and in with the new!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Future Alchemy: Get a jump on next year's format! Bring a 60-card deck using only cards from the last year of Alchemy, starting with <i>Innistrad: Midnight Hunt</i>, whether they're in your collection or not. Out with the old and in with the new!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+    },
     "Events/Event_Desc_MWM_FuturePrecon": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nToday's event is Future Precons: These preconstructed decks are gearing up for the future, using only cards from the last year of sets! Change decks as often as you like.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
         "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nToday's event is Future Precons: These preconstructed decks are gearing up for the future, using only cards from the last year of sets! Change decks as often as you like.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
     },
     "Events/Event_Desc_MWM_HBG_BotDraft": {
-        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Alchemy Horizons: Baldur's Gate</i> Bot Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Flicker your creatures in and out of play to produce as many triggers as possible!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Control the battlefield and sneak in creatures to deal damage to your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> The real treasure will be the treasure you make along the way.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> DRAGONS!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> The best offense is a good defense? Gain life so you can lower theirs!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Earn bonuses every time your creatures leave the battlefield.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> MORE DRAGONS!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> What’s dead may never die… but may live again?\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> Prepare for trouble! Use the new Double Team mechanic to cast creatures with the same name.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> EVEN MORE DRAGONS!",
-        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Alchemy Horizons: Baldur's Gate</i> Bot Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Flicker your creatures in and out of play to produce as many triggers as possible!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Control the battlefield and sneak in creatures to deal damage to your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> The real treasure will be the treasure you make along the way.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> DRAGONS!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> The best offense is a good defense? Gain life so you can lower theirs!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Earn bonuses every time your creatures leave the battlefield.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> MORE DRAGONS!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> What’s dead may never die… but may live again?\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> Prepare for trouble! Use the new Double Team mechanic to cast creatures with the same name.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> EVEN MORE DRAGONS!"
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Alchemy Horizons: Baldur's Gate</i> Bot Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Alchemy Horizons: Baldur's Gate</i> Bot Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>."
     },
     "Events/Event_Desc_MWM_Historic": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Historic Shakeup: We're removing some of Historic's most popular and powerful cards. Search for new strategies and bring the best 60-card deck you can create!\n\nYou can receive a code for a Midweek Magic Promo Pack containing two cosmetic items when you share your results with your local game store. Find out how <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>.\n\n*Note: While supplies last. Not all stores are participating.",
@@ -14019,6 +14071,10 @@
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play <i>MTG Arena</i>!\n\nThis week's event is Blast From the Past: Bring a 60-card deck, but you have access to every Standard set since <i>MTG Arena</i> came to Open Beta, starting with <i>Ixalan</i>! Standard has been through a lot since then. Can you find the strategy that will hold up across time?\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>.",
         "translation": "Welcome to Midweek Magic! Each week, try out a different way to play <i>MTG Arena</i>!\n\nThis week's event is Blast From the Past: Bring a 60-card deck, but you have access to every Standard set since <i>MTG Arena</i> came to Open Beta, starting with <i>Ixalan</i>! Standard has been through a lot since then. Can you find the strategy that will hold up across time?\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>."
     },
+    "Events/Event_Desc_MWM_LastCall": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Last Call: Bid farewell to our departing sets by bringing a 60-card Alchemy deck that only contains cards from <i>Zendikar Rising</i>, <i>Kaldheim</i>, <i>Strixhaven</i>, and <i>Adventures in the Forgotten Realms</i>. This event is All Access, meaning you can use cards that aren't in your collection!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Last Call: Bid farewell to our departing sets by bringing a 60-card Alchemy deck that only contains cards from <i>Zendikar Rising</i>, <i>Kaldheim</i>, <i>Strixhaven</i>, and <i>Adventures in the Forgotten Realms</i>. This event is All Access, meaning you can use cards that aren't in your collection!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+    },
     "Events/Event_Desc_MWM_MixedUp_Sealed": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Mixed-Up Sealed: you'll receive 6 packs of mixed-up cards from all across <i>MTG Arena</i>.  Add basic lands to make a 40-card deck, and play against other players as much as you want!\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>.",
         "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Mixed-Up Sealed: you'll receive 6 packs of mixed-up cards from all across <i>MTG Arena</i>.  Add basic lands to make a 40-card deck, and play against other players as much as you want!\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>."
@@ -14038,6 +14094,10 @@
     "Events/Event_Desc_MWM_OmniscienceEnchantments": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Omniscience: We'll provide a deck for you to play... but it has no lands in it. Instead, every card can be cast for free! You only get a three-card opening hand, so make them count!\n\nThis Omniscience deck is focused on <b>enchantments</b>. Assemble Shrines, stack Sagas, and ensorcell creatures (and players) with Auras!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>.",
         "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Omniscience: We'll provide a deck for you to play... but it has no lands in it. Instead, every card can be cast for free! You only get a three-card opening hand, so make them count!\n\nThis Omniscience deck is focused on <b>enchantments</b>. Assemble Shrines, stack Sagas, and ensorcell creatures (and players) with Auras!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>."
+    },
+    "Events/Event_Desc_MWM_Omniscience_Dragons": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Omniscience Dragons: We'll provide a dragon-themed deck for you to play... but it has no lands in it. Instead, every card can be cast for free! You only get a three-card opening hand, so make them count!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Omniscience Dragons: We'll provide a dragon-themed deck for you to play... but it has no lands in it. Instead, every card can be cast for free! You only get a three-card opening hand, so make them count!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>."
     },
     "Events/Event_Desc_MWM_OneForAll": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is One For All: Choose your deck from out of every card on Arena. Nothing is banned, but you can use only one copy of each! What's in your toolbox?\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>.",
@@ -14220,20 +14280,20 @@
         "translation": "参加活动，抢先体验<i>艾卓王权</i>！在此特殊活动中，你将从四副预组套牌中选择一副，加入我们最新的赛制～争锋！\n\n选择一位特殊的传奇生物或鹏洛客当作你的指挥官，并围绕它构筑一副套牌，而后与另一位牌手进行双人对战！欲知争锋赛制的更多信息，敬请<u></b><link=https://magic.wizards.com/mtga-brawl>点按此处</link></b></u>。\n\n争锋套牌不会加入牌手的收藏当中，但显示在赛事奖励中给出的<i>艾卓王权</i>卡牌可在9月9日开始的「2020标准赛」赛事活动中使用，并从9月26日开始可以在其他赛事活动中使用。"
     },
     "Events/Event_Desc_QualifierPlayIn_Bo1": {
-        "oracleText": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom <i>Alchemy Horizons: Baldur's Gate</i> Sealed with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.\n\nMust be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend>here</link></u> for full details.</color></b></size>",
-        "translation": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom <i>Alchemy Horizons: Baldur's Gate</i> Sealed with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.\n\nMust be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend>here</link></u> for full details.</color></b></size>"
+        "oracleText": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Alchemy with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
+        "translation": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Alchemy with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_QualifierPlayIn_Bo3": {
-        "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom Traditional <i>Alchemy Horizons: Baldur's Gate</i> Sealed with best-of-three matches using sideboards and individual timers. If you win four matches, come back for the Qualifier Weekend after this event ends!\n\n<size=100%><b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.\n\nMust be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend>here</link></u> for full details.</color></b></size>",
-        "translation": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom Traditional <i>Alchemy Horizons: Baldur's Gate</i> Sealed with best-of-three matches using sideboards and individual timers. If you win four matches, come back for the Qualifier Weekend after this event ends!\n\n<size=100%><b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.\n\nMust be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend>here</link></u> for full details.</color></b></size>"
+        "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Traditional Alchemy with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
+        "translation": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Traditional Alchemy with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_QualifierWeekend_Day1": {
-        "oracleText": "Congratulations on earning your way to Qualifier Weekend! Sign up for this Day 1 event and get all 7 wins to qualify for Day 2! You may join each day only once.\n\nPlayers can only join Day 1 and (if qualified) Day 2 events between 6 a.m. PT - 8 a.m. PT.\n\n<size=100%><b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.\n\nMust be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend>here</link></u> for full details.</color></b></size>",
-        "translation": "Congratulations on earning your way to Qualifier Weekend! Sign up for this Day 1 event and get all 7 wins to qualify for Day 2! You may join each day only once.\n\nPlayers can only join Day 1 and (if qualified) Day 2 events between 6 a.m. PT - 8 a.m. PT.\n\n<size=100%><b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.\n\nMust be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend>here</link></u> for full details.</color></b></size>"
+        "oracleText": "Congratulations on earning your way to Qualifier Weekend! Sign up for this Day 1 event and get all 7 wins to qualify for Day 2! You may join each day only once.\n\nPlayers can only join Day 1 and (if qualified) Day 2 events between 6 a.m. PT - 8 a.m. PT.\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend>here</link></u> for full details.</color></b></size>",
+        "translation": "Congratulations on earning your way to Qualifier Weekend! Sign up for this Day 1 event and get all 7 wins to qualify for Day 2! You may join each day only once.\n\nPlayers can only join Day 1 and (if qualified) Day 2 events between 6 a.m. PT - 8 a.m. PT.\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_QualifierWeekend_Day2": {
-        "oracleText": "Congratulations on making Day 2! You may join only once.\n\nTo play Day 2, you MUST join between 6 a.m. PT - 8 a.m. PT.\n\n<size=100%><b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.\n\nMust be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend>here</link></u> for full details.</color></b></size>",
-        "translation": "Congratulations on making Day 2! You may join only once.\n\nTo play Day 2, you MUST join between 6 a.m. PT - 8 a.m. PT.\n\n<size=100%><b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.\n\nMust be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend>here</link></u> for full details.</color></b></size>"
+        "oracleText": "Congratulations on making Day 2! You may join only once.\n\nTo play Day 2, you MUST join between 6 a.m. PT - 8 a.m. PT.\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend>here</link></u> for full details.</color></b></size>",
+        "translation": "Congratulations on making Day 2! You may join only once.\n\nTo play Day 2, you MUST join between 6 a.m. PT - 8 a.m. PT.\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_QuickExploration": {
         "oracleText": "In Exploration, Magic's rules are changed: You can play two lands per turn, your starting hand size is nine, and you have no maximum hand size!",
@@ -15006,6 +15066,14 @@
     "Events/Event_Title_ArenaOpen_Day2_Alt2": {
         "oracleText": "The Gauntlet - Day 2",
         "translation": "The Gauntlet - Day 2"
+    },
+    "Events/Event_Title_ArenaOpen_Day2_DraftOne": {
+        "oracleText": "The Arena Open - Day 2 Draft One",
+        "translation": "The Arena Open - Day 2 Draft One"
+    },
+    "Events/Event_Title_ArenaOpen_Day2_DraftTwo": {
+        "oracleText": "The Arena Open - Day 2 Draft Two",
+        "translation": "The Arena Open - Day 2 Draft Two"
     },
     "Events/Event_Title_ArenaTeamEvent": {
         "oracleText": "Arena Team Release Day",
@@ -15783,6 +15851,10 @@
         "oracleText": "Giant Monsters",
         "translation": "威凛巨兽"
     },
+    "Events/Event_Title_GladiatorSpotlight": {
+        "oracleText": "Community Spotlight: Gladiator",
+        "translation": "Community Spotlight: Gladiator"
+    },
     "Events/Event_Title_Greedy_Draft": {
         "oracleText": "Greedy Draft",
         "translation": "贪婪轮抽"
@@ -15828,8 +15900,8 @@
         "translation": "史迹银铁"
     },
     "Events/Event_Title_Historic_Challenge": {
-        "oracleText": "Historic Challenge",
-        "translation": "Historic Challenge"
+        "oracleText": "Historic Metagame Challenge",
+        "translation": "Historic Metagame Challenge"
     },
     "Events/Event_Title_Historic_Event": {
         "oracleText": "Historic Event",
@@ -16071,9 +16143,17 @@
         "oracleText": "Midweek Magic: Challenger Showcase",
         "translation": "周中万智牌：挑战者套牌展览"
     },
+    "Events/Event_Title_MWM_Explorer": {
+        "oracleText": "Midweek Magic: Explorer",
+        "translation": "Midweek Magic: Explorer"
+    },
     "Events/Event_Title_MWM_Future": {
         "oracleText": "Midweek Magic: Standard 2022",
         "translation": "Midweek Magic: Standard 2022"
+    },
+    "Events/Event_Title_MWM_FutureAlchemy": {
+        "oracleText": "Midweek Magic: Future Alchemy",
+        "translation": "Midweek Magic: Future Alchemy"
     },
     "Events/Event_Title_MWM_FuturePrecon": {
         "oracleText": "Midweek Magic: Future Precons",
@@ -16115,6 +16195,10 @@
         "oracleText": "Midweek Magic: Blast From the Past",
         "translation": "Midweek Magic: Blast From the Past"
     },
+    "Events/Event_Title_MWM_LastCall": {
+        "oracleText": "Midweek Magic: Last Call",
+        "translation": "Midweek Magic: Last Call"
+    },
     "Events/Event_Title_MWM_MixedUp_Sealed": {
         "oracleText": "Midweek Magic: Mixed-Up Sealed",
         "translation": "Midweek Magic: Mixed-Up Sealed"
@@ -16130,6 +16214,10 @@
     "Events/Event_Title_MWM_Omniscience": {
         "oracleText": "Midweek Magic: Omniscience",
         "translation": "Midweek Magic: Omniscience"
+    },
+    "Events/Event_Title_MWM_Omniscience_Dragons": {
+        "oracleText": "Midweek Magic: Omniscience Dragons",
+        "translation": "Midweek Magic: Omniscience Dragons"
     },
     "Events/Event_Title_MWM_OneForAll": {
         "oracleText": "Midweek Magic: One For All",
@@ -17959,6 +18047,10 @@
         "oracleText": "Join between 6am and 8am Pacific on August 20",
         "translation": "Join between 6am and 8am Pacific on August 20"
     },
+    "Events/Tokens/QualifierDay1TokenDescription20220917": {
+        "oracleText": "Join between 6 a.m. and 8 a.m. Pacific on September 17",
+        "translation": "Join between 6 a.m. and 8 a.m. Pacific on September 17"
+    },
     "Events/Tokens/QualifierDay1TokenPlural": {
         "oracleText": "Qualifier Weekend Token",
         "translation": "Qualifier Weekend Token"
@@ -18051,6 +18143,10 @@
         "oracleText": "Historic Anthology 5",
         "translation": "史迹合集5"
     },
+    "General/Sets/AHA6": {
+        "oracleText": "Historic Anthology 6",
+        "translation": "Historic Anthology 6"
+    },
     "General/Sets/AKH": {
         "oracleText": "Amonkhet",
         "translation": "阿芒凯"
@@ -18066,6 +18162,10 @@
     "General/Sets/DAR": {
         "oracleText": "Dominaria",
         "translation": "多明纳里亚"
+    },
+    "General/Sets/EA1": {
+        "oracleText": "Explorer Anthology 1",
+        "translation": "Explorer Anthology 1"
     },
     "General/Sets/ELD": {
         "oracleText": "Throne of Eldraine",
@@ -21527,6 +21627,10 @@
         "oracleText": "Friendly Match",
         "translation": "友好对决"
     },
+    "MainNav/DeckFormat/FutureAlchemy": {
+        "oracleText": "Future Alchemy",
+        "translation": "Future Alchemy"
+    },
     "MainNav/DeckFormat/GRN": {
         "oracleText": "Guilds of Ravnica",
         "translation": "烽会拉尼卡"
@@ -21534,6 +21638,10 @@
     "MainNav/DeckFormat/GiantMonsters": {
         "oracleText": "Giant Monsters",
         "translation": "威凛巨兽"
+    },
+    "MainNav/DeckFormat/Gladiator": {
+        "oracleText": "Gladiator",
+        "translation": "Gladiator"
     },
     "MainNav/DeckFormat/HarvestBash": {
         "oracleText": "Festival: Harvest Bash",
@@ -21610,6 +21718,10 @@
     "MainNav/DeckFormat/Kaldheim": {
         "oracleText": "Kaldheim Constructed",
         "translation": "凯德海姆构筑"
+    },
+    "MainNav/DeckFormat/LastCall": {
+        "oracleText": "Last Call",
+        "translation": "Last Call"
     },
     "MainNav/DeckFormat/MidnightHunt": {
         "oracleText": "Midnight Hunt Constructed",
@@ -21850,6 +21962,14 @@
     "MainNav/DeckManager/Export_Deck_Title": {
         "oracleText": "Export Deck",
         "translation": "导出套牌"
+    },
+    "MainNav/DeckManager/GladiatorSpotlight_Description": {
+        "oracleText": "In the fan-made Gladiator format, play a 100-card deck that's ready for anything! Clone one of these decks and modify it to your liking, or build something totally new.",
+        "translation": "In the fan-made Gladiator format, play a 100-card deck that's ready for anything! Clone one of these decks and modify it to your liking, or build something totally new."
+    },
+    "MainNav/DeckManager/GladiatorSpotlight_Folder": {
+        "oracleText": "Community Spotlight: Gladiator",
+        "translation": "Community Spotlight: Gladiator"
     },
     "MainNav/DeckManager/Import_CardNotCollectable_ErrorMessage": {
         "oracleText": "The input string contains a card that is not collectable: {cardName}",
@@ -22343,6 +22463,10 @@
         "oracleText": "Kraken Tentacle Sleeve",
         "translation": "Kraken Tentacle Sleeve"
     },
+    "MainNav/Deckbuilder/Sleeves/CardBack_DG_413133": {
+        "oracleText": "Brushwagg Sleeve",
+        "translation": "Brushwagg Sleeve"
+    },
     "MainNav/Deckbuilder/Sleeves/CardBack_DG_413915": {
         "oracleText": "Path To Exile Sleeve",
         "translation": "流放之径牌套"
@@ -22683,6 +22807,10 @@
         "oracleText": "Minsc & Boo Sleeve",
         "translation": "明斯克与布布牌套"
     },
+    "MainNav/Deckbuilder/Sleeves/CardBack_HBG_425960": {
+        "oracleText": "Chardalyn Dragon Sleeve",
+        "translation": "Chardalyn Dragon Sleeve"
+    },
     "MainNav/Deckbuilder/Sleeves/CardBack_Historic_PlatinumAngel": {
         "oracleText": "Platinum Angel Basic Sleeve",
         "translation": "白金天使基本牌套"
@@ -23006,6 +23134,26 @@
     "MainNav/Deckbuilder/Sleeves/CardBack_NEO_425146": {
         "oracleText": "Neon Ogre Mask Sleeve",
         "translation": "霓朝食人魔面具牌套"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_ORI_161819": {
+        "oracleText": "Origins Chandra Sleeve",
+        "translation": "Origins Chandra Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_ORI_161822": {
+        "oracleText": "Origins Gideon Sleeve",
+        "translation": "Origins Gideon Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_ORI_161824": {
+        "oracleText": "Origins Liliana Sleeve",
+        "translation": "Origins Liliana Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_ORI_161826": {
+        "oracleText": "Origins Jace Sleeve",
+        "translation": "Origins Jace Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_ORI_161828": {
+        "oracleText": "Origins Nissa Sleeve",
+        "translation": "Origins Nissa Sleeve"
     },
     "MainNav/Deckbuilder/Sleeves/CardBack_RD_414680": {
         "oracleText": "Arcbound Ravager Sleeve",
@@ -23399,6 +23547,22 @@
         "oracleText": "Totally Normal Collector Ouphe Sleeve",
         "translation": "Totally Normal Collector Ouphe Sleeve"
     },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_431832": {
+        "oracleText": "Arcanis The Omnipotent Sleeve",
+        "translation": "Arcanis The Omnipotent Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_431833": {
+        "oracleText": "Queen Marchesa Sleeve",
+        "translation": "Queen Marchesa Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_431834": {
+        "oracleText": "Brimaz King Of Oreskos Sleeve",
+        "translation": "Brimaz King Of Oreskos Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_431835": {
+        "oracleText": "Savra Queen Of The Golgari Sleeve",
+        "translation": "Savra Queen Of The Golgari Sleeve"
+    },
     "MainNav/Deckbuilder/Sleeves/CardBack_RD_432024": {
         "oracleText": "Triumphant Reckoning Sleeve",
         "translation": "凯旋清偿牌套"
@@ -23530,6 +23694,26 @@
     "MainNav/Deckbuilder/Sleeves/CardBack_SNC_424735": {
         "oracleText": "Spara's Headquarters Sleeve",
         "translation": "斯帕拉的总部牌套"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_SNC_437331": {
+        "oracleText": "Olena Richards Lord Xander Sleeve",
+        "translation": "Olena Richards Lord Xander Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_SNC_437332": {
+        "oracleText": "Olena Richards Jetmir Sleeve",
+        "translation": "Olena Richards Jetmir Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_SNC_437333": {
+        "oracleText": "Olena Richards Raffine Sleeve",
+        "translation": "Olena Richards Raffine Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_SNC_437334": {
+        "oracleText": "Olena Richards Ziatora Sleeve",
+        "translation": "Olena Richards Ziatora Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_SNC_437335": {
+        "oracleText": "Olena Richards Falco Spara Sleeve",
+        "translation": "Olena Richards Falco Spara Sleeve"
     },
     "MainNav/Deckbuilder/Sleeves/CardBack_STX_412077": {
         "oracleText": "Professor of Zoomancy Sleeve",
@@ -24495,6 +24679,10 @@
         "oracleText": "{number1} Player Draft Tokens & {number2} Packs",
         "translation": "{number1}真人轮抽门票和{number2}个补充包"
     },
+    "MainNav/EventRewards/DraftTwo": {
+        "oracleText": "Qualify for Draft Two",
+        "translation": "Qualify for Draft Two"
+    },
     "MainNav/EventRewards/Early_ELD_Cards": {
         "oracleText": "These cards are only legal in Standard 2020 events until September 26, then in additional formats and events afterward.",
         "translation": "这些卡牌于9月26日之前，只能在「2020标准赛」赛事中使用。之后便能在其他赛制和赛事中使用。"
@@ -24654,6 +24842,10 @@
     "MainNav/EventRewards/Gems_And_Day2": {
         "oracleText": "{number1} Gems & Qualify for Day 2",
         "translation": "{number1}颗宝石和第二天的入场资格"
+    },
+    "MainNav/EventRewards/Gems_And_DraftTwo": {
+        "oracleText": "{number1} Gems & Qualify for Draft Two",
+        "translation": "{number1} Gems & Qualify for Draft Two"
     },
     "MainNav/EventRewards/Gems_And_Invite": {
         "oracleText": "{number1} Gems & Invitation",
@@ -26303,6 +26495,22 @@
         "oracleText": "Alchemy Horizons: Baldur's Gate is now on sale!",
         "translation": "「炼金新篇：博德之门」现已发售！"
     },
+    "MainNav/HomePage/Carousel/22_18_Store_HA6_Desc": {
+        "oracleText": "Historic Anthology 6 is here! Come see what's entering Historic, as well as the first ever Explorer Anthology!",
+        "translation": "Historic Anthology 6 is here! Come see what's entering Historic, as well as the first ever Explorer Anthology!"
+    },
+    "MainNav/HomePage/Carousel/22_18_Store_HA6_Title": {
+        "oracleText": "Historic Anthology 6",
+        "translation": "Historic Anthology 6"
+    },
+    "MainNav/HomePage/Carousel/22_18_Store_SummerSale_Desc": {
+        "oracleText": "Stop by the Store to find limited-time offers on favorite returning Avatars, Pets, and Stickers, as well as new Sleeves and Card Styles!",
+        "translation": "Stop by the Store to find limited-time offers on favorite returning Avatars, Pets, and Stickers, as well as new Sleeves and Card Styles!"
+    },
+    "MainNav/HomePage/Carousel/22_18_Store_SummerSale_Title": {
+        "oracleText": "The Summer Sale is here!",
+        "translation": "The Summer Sale is here!"
+    },
     "MainNav/HomePage/Carousel/AFR_Sealed_Desc": {
         "oracleText": "Grab your dice and prepare for adventure by building a 40-card sealed deck with 6 packs of Magic's latest set!",
         "translation": "Grab your dice and prepare for adventure by building a 40-card sealed deck with 6 packs of Magic's latest set!"
@@ -27194,6 +27402,14 @@
     "MainNav/HomePage/Carousel/Generic_Title": {
         "oracleText": "New Event!",
         "translation": "New Event!"
+    },
+    "MainNav/HomePage/Carousel/Gladiator_Event_Desc": {
+        "oracleText": "Come try this unique, Best of 3 Historic Singleton format, created and refined by Magic's community!",
+        "translation": "Come try this unique, Best of 3 Historic Singleton format, created and refined by Magic's community!"
+    },
+    "MainNav/HomePage/Carousel/Gladiator_Event_Title": {
+        "oracleText": "Community Spotlight: Gladiator",
+        "translation": "Community Spotlight: Gladiator"
     },
     "MainNav/HomePage/Carousel/Historic_Article_Desc": {
         "oracleText": "Learn more about the launch of Historic",
@@ -30003,6 +30219,10 @@
         "oracleText": "Black Lotus",
         "translation": "黑莲花"
     },
+    "MainNav/PetNames/Brushwagg_Level1": {
+        "oracleText": "Brushwagg",
+        "translation": "Brushwagg"
+    },
     "MainNav/PetNames/DragonWhelp": {
         "oracleText": "Dragon Whelp",
         "translation": "龙崽"
@@ -30294,6 +30514,10 @@
     "MainNav/PetNames/SkycatCub": {
         "oracleText": "Azizi",
         "translation": "Azizi"
+    },
+    "MainNav/PetNames/SolRing_Level1": {
+        "oracleText": "Sol Ring",
+        "translation": "Sol Ring"
     },
     "MainNav/PetNames/THB_BattlePass": {
         "oracleText": "Nyx Owl",
@@ -33563,6 +33787,14 @@
         "oracleText": "Adventurer Bundle",
         "translation": "冒险者套装"
     },
+    "MainNav/Store/Bundles/Bundle_Alchemist_18_0_Desc": {
+        "oracleText": "5x Alchemy: Innistrad boosters\n5x Alchemy: Kamigawa boosters\n5x Alchemy: New Capenna boosters\n5x Alchemy Horizons: Baldur's Gate boosters",
+        "translation": "5x Alchemy: Innistrad boosters\n5x Alchemy: Kamigawa boosters\n5x Alchemy: New Capenna boosters\n5x Alchemy Horizons: Baldur's Gate boosters"
+    },
+    "MainNav/Store/Bundles/Bundle_Alchemist_18_0_Name": {
+        "oracleText": "Alchemist Bundle",
+        "translation": "Alchemist Bundle"
+    },
     "MainNav/Store/Bundles/Bundle_Alchemist_Desc": {
         "oracleText": "20x <i>Alchemy: Innistrad</i> Boosters",
         "translation": "20包「炼金：依尼翠」"
@@ -33803,6 +34035,14 @@
         "oracleText": "Black Lotus Bundle",
         "translation": "Black Lotus Bundle"
     },
+    "MainNav/Store/Bundles/Bundle_Brushwagg_Desc": {
+        "oracleText": "Brushwagg Pet\nBrushwagg Sleeve",
+        "translation": "Brushwagg Pet\nBrushwagg Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_Brushwagg_Name": {
+        "oracleText": "Brushwagg Pet Bundle",
+        "translation": "Brushwagg Pet Bundle"
+    },
     "MainNav/Store/Bundles/Bundle_CasttasticSpells_Description": {
         "oracleText": "Ral, Storm Conduit Card Style\nSaheeli, Sublime Artificer Card Style\nBond of Insight Card Style",
         "translation": "召雷拉尔卡牌样式\n非凡神器师莎希莉卡牌样式\n洞察璧合卡牌样式"
@@ -33882,6 +34122,14 @@
     "MainNav/Store/Bundles/Bundle_Draft_WAR_White_Name": {
         "oracleText": "White Draft Bundle",
         "translation": "白色轮抽套装"
+    },
+    "MainNav/Store/Bundles/Bundle_EA1_Desc": {
+        "oracleText": "4x Alesha, Who Smiles at Death\n4x Back to Nature\n4x Battlewise Hoplite\n4x Darksteel Citadel\n4x Elvish Mystic\n4x Ensoul Artifact\n4x Favored Hoplite\n4x Hangarback Walker\n4x Kalitas, Traitor of Ghet\n4x Mausoleum Wanderer\n4x Rally the Ancestors\n4x Searing Blood\n4x Shadowborn Apostle\n4x Siege Rhino\n4x Slaughter Games\n4x Supreme Verdict\n4x Tainted Remedy\n4x Temur Battle Rage\n4x Tireless Tracker\n4x Titan's Strength",
+        "translation": "4x Alesha, Who Smiles at Death\n4x Back to Nature\n4x Battlewise Hoplite\n4x Darksteel Citadel\n4x Elvish Mystic\n4x Ensoul Artifact\n4x Favored Hoplite\n4x Hangarback Walker\n4x Kalitas, Traitor of Ghet\n4x Mausoleum Wanderer\n4x Rally the Ancestors\n4x Searing Blood\n4x Shadowborn Apostle\n4x Siege Rhino\n4x Slaughter Games\n4x Supreme Verdict\n4x Tainted Remedy\n4x Temur Battle Rage\n4x Tireless Tracker\n4x Titan's Strength"
+    },
+    "MainNav/Store/Bundles/Bundle_EA1_Name": {
+        "oracleText": "Explorer Anthology 1",
+        "translation": "Explorer Anthology 1"
     },
     "MainNav/Store/Bundles/Bundle_ELD_AdventureAbound_Description": {
         "oracleText": "Lucky Clover Card Style\nEdgewall Inkeeper Card Style\nMysterious Pathlighter Card Style",
@@ -34003,6 +34251,14 @@
         "oracleText": "Explorer Bundle",
         "translation": "探险家套装"
     },
+    "MainNav/Store/Bundles/Bundle_FamilySleeves_Desc": {
+        "oracleText": "Olena Richards Lord Xander Sleeve\nOlena Richards Jetmir Sleeve\nOlena Richards Raffine Sleeve\nOlena Richards Ziatora Sleeve\nOlena Richards Falco Spara Sleeve",
+        "translation": "Olena Richards Lord Xander Sleeve\nOlena Richards Jetmir Sleeve\nOlena Richards Raffine Sleeve\nOlena Richards Ziatora Sleeve\nOlena Richards Falco Spara Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_FamilySleeves_Name": {
+        "oracleText": "Family Means Business",
+        "translation": "Family Means Business"
+    },
     "MainNav/Store/Bundles/Bundle_FlashFromThePast_Desc": {
         "oracleText": "Chainer's Edict Card Style\nDevil's Play Card Style\nMomentary Blink Card Style\nRoar of the Wurm Card Style\nSilent Departure Card Style\nUnburial Rites Card Style",
         "translation": "Chainer's Edict Card Style\nDevil's Play Card Style\nMomentary Blink Card Style\nRoar of the Wurm Card Style\nSilent Departure Card Style\nUnburial Rites Card Style"
@@ -34042,6 +34298,14 @@
     "MainNav/Store/Bundles/Bundle_Guildgate_Name": {
         "oracleText": "Guildgate Bundle",
         "translation": "公会门套装"
+    },
+    "MainNav/Store/Bundles/Bundle_Guildmasters_18_0_Desc": {
+        "oracleText": "Aurelia Avatar\nDomri Rade Avatar\nDovin Baan Avatar\nKaya Avatar\nLazav Avatar\nRakdos Avatar\nRal Zarek Avatar\nTrostani Avatar\nVannifar Avatar\nVraska Avatar\nAzorius Locket Sleeve\nBoros Locket Sleeve\nDimir Locket Sleeve\nGolgari Locket Sleeve\nGruul Locket Sleeve\nIzzet Locket Sleeve\nOrzhov Locket Sleeve\nRakdos Locket Sleeve\nSelesnya Locket Sleeve\nSimic Locket Sleeve",
+        "translation": "Aurelia Avatar\nDomri Rade Avatar\nDovin Baan Avatar\nKaya Avatar\nLazav Avatar\nRakdos Avatar\nRal Zarek Avatar\nTrostani Avatar\nVannifar Avatar\nVraska Avatar\nAzorius Locket Sleeve\nBoros Locket Sleeve\nDimir Locket Sleeve\nGolgari Locket Sleeve\nGruul Locket Sleeve\nIzzet Locket Sleeve\nOrzhov Locket Sleeve\nRakdos Locket Sleeve\nSelesnya Locket Sleeve\nSimic Locket Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_Guildmasters_18_0_Name": {
+        "oracleText": "Guildmaster Collection",
+        "translation": "Guildmaster Collection"
     },
     "MainNav/Store/Bundles/Bundle_HA4_AllCards_Desc": {
         "oracleText": "4x Abomination of Llanowar\n4x Adorned Pouncer\n4x Ammit Eternal\n4x Blinkmoth Nexus\n4x Bonesplitter\n4x Coldsteel Heart\n4x Collected Conjuring\n4x Death's Shadow\n4x Declaration in Stone\n4x Faith of the Devoted\n4x Flameblade Adept\n4x Goblin Gaveleer\n4x Hamza, Guardian of Arashin\n4x Harmless Offering\n4x Iceberg Cancrix\n4x Inspiring Statuary\n4x Lys Alana Huntmaster\n4x Marit Lage's Slumber\n4x Sawtusk Demolisher\n4x Spider Spawning\n4x Sword of Body and Mind\n4x Think Twice\n4x Thraben Inspector\n4x Torment of Scarabs\n4x Triumphant Reckoning",
@@ -34130,6 +34394,70 @@
     "MainNav/Store/Bundles/Bundle_HA5_Styles4_Name": {
         "oracleText": "Draconic Commands Bundle",
         "translation": "Draconic Commands Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_HA6_Desc": {
+        "oracleText": "4x Avacyn, Angel of Hope\n4x Chalice of the Void\n4x Darkmoss Bridge\n4x Drossforge Bridge\n4x Glimpse the Unthinkable\n4x Goldmire Bridge\n4x Go-Shintai of Life's Origin\n4x Laelia, the Blade Reforged\n4x Mistvault Bridge\n4x Night of Souls' Betrayal\n4x Ophiomancer\n4x Phyrexian Metamorph\n4x Razortide Bridge\n4x Retrofitter Foundry\n4x Rustvale Bridge\n4x Silverbluff Bridge\n4x Slagwoods Bridge\n4x Tanglepool Bridge\n4x Tarmogoyf\n4x Thornglint Bridge",
+        "translation": "4x Avacyn, Angel of Hope\n4x Chalice of the Void\n4x Darkmoss Bridge\n4x Drossforge Bridge\n4x Glimpse the Unthinkable\n4x Goldmire Bridge\n4x Go-Shintai of Life's Origin\n4x Laelia, the Blade Reforged\n4x Mistvault Bridge\n4x Night of Souls' Betrayal\n4x Ophiomancer\n4x Phyrexian Metamorph\n4x Razortide Bridge\n4x Retrofitter Foundry\n4x Rustvale Bridge\n4x Silverbluff Bridge\n4x Slagwoods Bridge\n4x Tanglepool Bridge\n4x Tarmogoyf\n4x Thornglint Bridge"
+    },
+    "MainNav/Store/Bundles/Bundle_HA6_Name": {
+        "oracleText": "Historic Anthology 6",
+        "translation": "Historic Anthology 6"
+    },
+    "MainNav/Store/Bundles/Bundle_HA6_Styles1_Desc": {
+        "oracleText": "Slaughter Games Card Style\nAlesha, Who Smiles at Death Card Style\nSearing Blood Card Style\nTemur Battle Rage Card Style\nTitan's Strength Card Style\nFavored Hoplite Card Style \nSiege Rhino Card Style\nBattlewise Hoplite Card Style",
+        "translation": "Slaughter Games Card Style\nAlesha, Who Smiles at Death Card Style\nSearing Blood Card Style\nTemur Battle Rage Card Style\nTitan's Strength Card Style\nFavored Hoplite Card Style \nSiege Rhino Card Style\nBattlewise Hoplite Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_HA6_Styles1_Name": {
+        "oracleText": "Built for Battle",
+        "translation": "Built for Battle"
+    },
+    "MainNav/Store/Bundles/Bundle_HA6_Styles2_Desc": {
+        "oracleText": "Back to Nature Card Style \nTireless Tracker Card Style\nTainted Remedy Card Style\nElvish Mystic Card Style\nKalitas, Traitor of Ghet Card Style\nShadowborn Apostle Card Style",
+        "translation": "Back to Nature Card Style \nTireless Tracker Card Style\nTainted Remedy Card Style\nElvish Mystic Card Style\nKalitas, Traitor of Ghet Card Style\nShadowborn Apostle Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_HA6_Styles2_Name": {
+        "oracleText": "Fang and Claw",
+        "translation": "Fang and Claw"
+    },
+    "MainNav/Store/Bundles/Bundle_HA6_Styles3_Desc": {
+        "oracleText": "Supreme Verdict Card Style\nMausoleum Wanderer Card Style\nDarksteel Citadel Card Style\nEnsoul Artifact Card Style\nHangarback Walker Card Style\nRally the Ancestors Card Style",
+        "translation": "Supreme Verdict Card Style\nMausoleum Wanderer Card Style\nDarksteel Citadel Card Style\nEnsoul Artifact Card Style\nHangarback Walker Card Style\nRally the Ancestors Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_HA6_Styles3_Name": {
+        "oracleText": "Ghosts in the Machine",
+        "translation": "Ghosts in the Machine"
+    },
+    "MainNav/Store/Bundles/Bundle_HA6_Styles4_Desc": {
+        "oracleText": "Go-Shintai of Life's Origin Card Style\nTarmogoyf Card Style\nAvacyn, Angel of Hope Card Style\nLaelia, the Blade Reforged Card Style\nRetrofitter Foundry Card Style",
+        "translation": "Go-Shintai of Life's Origin Card Style\nTarmogoyf Card Style\nAvacyn, Angel of Hope Card Style\nLaelia, the Blade Reforged Card Style\nRetrofitter Foundry Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_HA6_Styles4_Name": {
+        "oracleText": "Spark of Creation",
+        "translation": "Spark of Creation"
+    },
+    "MainNav/Store/Bundles/Bundle_HA6_Styles5_Desc": {
+        "oracleText": "Night of Souls' Betrayal Card Style\nOphiomancer Card Style\nChalice of the Void Card Style\nPhyrexian Metamorph Card Style\nGlimpse the Unthinkable Card Style",
+        "translation": "Night of Souls' Betrayal Card Style\nOphiomancer Card Style\nChalice of the Void Card Style\nPhyrexian Metamorph Card Style\nGlimpse the Unthinkable Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_HA6_Styles5_Name": {
+        "oracleText": "Deadly Shadows",
+        "translation": "Deadly Shadows"
+    },
+    "MainNav/Store/Bundles/Bundle_HA6_Styles6_Desc": {
+        "oracleText": "Rustvale Bridge Card Style\nSilverbluff Bridge Card Style\nSlagwoods Bridge Card Style\nTanglepool Bridge Card Style\nThornglint Bridge Card Style\nDarkmoss Bridge Card Style\nDrossforge Bridge Card Style\nGoldmire Bridge Card Style\nMistvault Bridge Card Style\nRazortide Bridge Card Style",
+        "translation": "Rustvale Bridge Card Style\nSilverbluff Bridge Card Style\nSlagwoods Bridge Card Style\nTanglepool Bridge Card Style\nThornglint Bridge Card Style\nDarkmoss Bridge Card Style\nDrossforge Bridge Card Style\nGoldmire Bridge Card Style\nMistvault Bridge Card Style\nRazortide Bridge Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_HA6_Styles6_Name": {
+        "oracleText": "Bridge to Beyond",
+        "translation": "Bridge to Beyond"
+    },
+    "MainNav/Store/Bundles/Bundle_HBG_ChardalynDragon_Desc": {
+        "oracleText": "Chardalyn Dragon Pet\nChardalyn Dragon Sleeve",
+        "translation": "Chardalyn Dragon Pet\nChardalyn Dragon Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_HBG_ChardalynDragon_Name": {
+        "oracleText": "Chardalyn Dragon Bundle",
+        "translation": "Chardalyn Dragon Bundle"
     },
     "MainNav/Store/Bundles/Bundle_HBG_ChromaticDragons_Desc": {
         "oracleText": "Red Dragon Pet\nGreen Dragon Pet\nWhite Dragon Pet\nBlue Dragon Pet\n<b>NEW</b> Black Dragon Pet",
@@ -34515,6 +34843,30 @@
         "oracleText": "Midnight Hunt Sticker Bundle",
         "translation": "Midnight Hunt Sticker Bundle"
     },
+    "MainNav/Store/Bundles/Bundle_MattJukesStyles_Desc": {
+        "oracleText": "Glacial Fortress Card Style\nDrowned Catacomb Card Style\nDragonskull Summit Card Style\nRootbound Crag Card Style\nSunpetal Grove Card Style",
+        "translation": "Glacial Fortress Card Style\nDrowned Catacomb Card Style\nDragonskull Summit Card Style\nRootbound Crag Card Style\nSunpetal Grove Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_MattJukesStyles_Name": {
+        "oracleText": "Special Guest: Matt Jukes",
+        "translation": "Special Guest: Matt Jukes"
+    },
+    "MainNav/Store/Bundles/Bundle_MegaBPW_18_0_Desc": {
+        "oracleText": "Arlinn, the Pack's Hope Card Style\nTeferi, Who Slows the Sunset Card Style\nWrenn and Seven Card Style\nSorin the Mirthless Card Style\nChandra, Dressed to Kill Card Style\nKaya, Geist Hunter Card Style\nThe Wandering Emperor Card Style\nTezzeret, Betrayer of Flesh Card Style\nKaito Shizuki Card Style\nTamiyo, Compleated Sage Card Style\nElspeth Resplendent Card Style\nVivien on the Hunt Card Style\nOb Nixilis, the Adversary Card Style",
+        "translation": "Arlinn, the Pack's Hope Card Style\nTeferi, Who Slows the Sunset Card Style\nWrenn and Seven Card Style\nSorin the Mirthless Card Style\nChandra, Dressed to Kill Card Style\nKaya, Geist Hunter Card Style\nThe Wandering Emperor Card Style\nTezzeret, Betrayer of Flesh Card Style\nKaito Shizuki Card Style\nTamiyo, Compleated Sage Card Style\nElspeth Resplendent Card Style\nVivien on the Hunt Card Style\nOb Nixilis, the Adversary Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_MegaBPW_18_0_Name": {
+        "oracleText": "Borderless Planeswalkers Mega Bundle",
+        "translation": "Borderless Planeswalkers Mega Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_MegaStickers_18_0_Desc": {
+        "oracleText": "Reaper Shrug Sticker Emote\nShepherd Glee Sticker Emote\nWill Sticker Emote\nRowan Sticker Emote\nProfessor Onyx Sticker Emote\nEllywick Sticker Emote\nBeholder Sticker Emote\nMindflayer Sticker Emote\nMuch Moon, Very Sticker Emote\nTeferi Sticker Emote\nGisa Sticker Emote\nSorin Sticker Emote\nOlivia Sticker Emote\nGood Game Sticker Emote\nOko Kiss Sticker Emote\nMagic Bae Sticker Emote\nTamiyo Hello Sticker Emote\nTezzeret Rage Sticker Emote\nKaito Fistbump Sticker Emote\nTamiyo Disconnect Sticker Emote\nGiada Oops Sticker Emote\nFalco Spara Objection Sticker Emote\nElspeth Mic Drop Sticker Emote\nHalo Cheers Sticker Emote",
+        "translation": "Reaper Shrug Sticker Emote\nShepherd Glee Sticker Emote\nWill Sticker Emote\nRowan Sticker Emote\nProfessor Onyx Sticker Emote\nEllywick Sticker Emote\nBeholder Sticker Emote\nMindflayer Sticker Emote\nMuch Moon, Very Sticker Emote\nTeferi Sticker Emote\nGisa Sticker Emote\nSorin Sticker Emote\nOlivia Sticker Emote\nGood Game Sticker Emote\nOko Kiss Sticker Emote\nMagic Bae Sticker Emote\nTamiyo Hello Sticker Emote\nTezzeret Rage Sticker Emote\nKaito Fistbump Sticker Emote\nTamiyo Disconnect Sticker Emote\nGiada Oops Sticker Emote\nFalco Spara Objection Sticker Emote\nElspeth Mic Drop Sticker Emote\nHalo Cheers Sticker Emote"
+    },
+    "MainNav/Store/Bundles/Bundle_MegaStickers_18_0_Name": {
+        "oracleText": "Stickers Mega Bundle",
+        "translation": "Stickers Mega Bundle"
+    },
     "MainNav/Store/Bundles/Bundle_MirageLands_Desc": {
         "oracleText": "Mirage Plains\nMirage Island\nMirage Swamp\nMirage Mountain\nMirage Forest",
         "translation": "Mirage Plains\nMirage Island\nMirage Swamp\nMirage Mountain\nMirage Forest"
@@ -34643,6 +34995,14 @@
         "oracleText": "Oko Reloaded Bundle",
         "translation": "Oko Reloaded Bundle"
     },
+    "MainNav/Store/Bundles/Bundle_OriginsSleeves_Desc": {
+        "oracleText": "Origins Chandra Sleeve\nOrigins Gideon Sleeve\nOrigins Liliana Sleeve\nOrigins Jace Sleeve\nOrigins Nissa Sleeve",
+        "translation": "Origins Chandra Sleeve\nOrigins Gideon Sleeve\nOrigins Liliana Sleeve\nOrigins Jace Sleeve\nOrigins Nissa Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_OriginsSleeves_Name": {
+        "oracleText": "Origins",
+        "translation": "Origins"
+    },
     "MainNav/Store/Bundles/Bundle_PH_Praetors_Desc": {
         "oracleText": "Elesh Norn, Grand Cenobite Phyrexian Card Style\nJin-Gitaxias, Core Augur Phyrexian Card Style\nSheoldred, Whispering One Phyrexian Card Style\nUrabrask the Hidden Phyrexian Card Style\nVorinclex, Voice of Hunger Phyrexian Card Style",
         "translation": "Elesh Norn, Grand Cenobite Phyrexian Card Style\nJin-Gitaxias, Core Augur Phyrexian Card Style\nSheoldred, Whispering One Phyrexian Card Style\nUrabrask the Hidden Phyrexian Card Style\nVorinclex, Voice of Hunger Phyrexian Card Style"
@@ -34690,6 +35050,14 @@
     "MainNav/Store/Bundles/Bundle_Reinforcements_Name": {
         "oracleText": "Reinforcements Bundle",
         "translation": "Reinforcements Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_RuletheRoom_Desc": {
+        "oracleText": "Arcanis, the Omnipotent Sleeve\nQueen Marchesa Sleeve\nBrimaz, King of Oreskos Sleeve\nSavra, Queen of the Golgari Sleeve",
+        "translation": "Arcanis, the Omnipotent Sleeve\nQueen Marchesa Sleeve\nBrimaz, King of Oreskos Sleeve\nSavra, Queen of the Golgari Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_RuletheRoom_Name": {
+        "oracleText": "Rule the Room",
+        "translation": "Rule the Room"
     },
     "MainNav/Store/Bundles/Bundle_SL_DraculaLands_Desc": {
         "oracleText": "Dracula Full Art Basic Plains\nDracula Full Art Basic Island\nDracula Full Art Basic Swamp\nDracula Full Art Basic Mountain\nDracula Full Art Basic Forest",
@@ -34907,6 +35275,14 @@
         "oracleText": "Mana Sleeve Bundle",
         "translation": "法术力牌套套装"
     },
+    "MainNav/Store/Bundles/Bundle_SolRingPet_Desc": {
+        "oracleText": "Sol Ring Pet\nSol Ring Exquisite Sleeve",
+        "translation": "Sol Ring Pet\nSol Ring Exquisite Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_SolRingPet_Name": {
+        "oracleText": "Sol Ring Pet Bundle",
+        "translation": "Sol Ring Pet Bundle"
+    },
     "MainNav/Store/Bundles/Bundle_Standard2020_Desc": {
         "oracleText": "2x Guilds of Ravnica Packs\n2x Ravnica Allegiance Packs\n2x War of the Spark Packs\n2x Core Set 2020 Packs\n2x Throne of Eldraine Packs\n1000 Gems",
         "translation": "2x Guilds of Ravnica Packs\n2x Ravnica Allegiance Packs\n2x War of the Spark Packs\n2x Core Set 2020 Packs\n2x Throne of Eldraine Packs\n1000 Gems"
@@ -35018,6 +35394,14 @@
     "MainNav/Store/Bundles/Bundle_Thopter_Name": {
         "oracleText": "Thopter Bundle",
         "translation": "Thopter Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_TokyoLands_Desc": {
+        "oracleText": "Tokyo Full Art Plains\nTokyo Full Art Island\nTokyo Full Art Swamp\nTokyo Full Art Mountain\nTokyo Full Art Forest",
+        "translation": "Tokyo Full Art Plains\nTokyo Full Art Island\nTokyo Full Art Swamp\nTokyo Full Art Mountain\nTokyo Full Art Forest"
+    },
+    "MainNav/Store/Bundles/Bundle_TokyoLands_Name": {
+        "oracleText": "The Tokyo Lands",
+        "translation": "The Tokyo Lands"
     },
     "MainNav/Store/Bundles/Bundle_TricksAndTools_Desc": {
         "oracleText": "Platinum Angel Card Style\nMaelstrom Pulse Card Style\nMerrow Reejerey Card Style\nRanger of Eos Card Style",
@@ -36363,6 +36747,10 @@
         "oracleText": "Special Gold Price",
         "translation": "特价"
     },
+    "MainNav/Store/Tags/SummerSale": {
+        "oracleText": "SUMMER SALE",
+        "translation": "SUMMER SALE"
+    },
     "MainNav/Store/Tags/TodayOnly": {
         "oracleText": "Today Only!",
         "translation": "只限今日！"
@@ -36988,8 +37376,8 @@
         "translation": "The Yawning Portal is a tavern in Waterdeep named after the great hole in the taproom that leads to the dungeons of Undermountain."
     },
     "Match/QueueTips/Queue_Tip_124": {
-        "oracleText": "Chromatic dragons are driven by greed and united by their sense of superiority. Meanwhile, metallic dragons are curious, protectful, and can shapeshift into humanoids and beasts.",
-        "translation": "Chromatic dragons are driven by greed and united by their sense of superiority. Meanwhile, metallic dragons are curious, protectful, and can shapeshift into humanoids and beasts."
+        "oracleText": "Chromatic dragons are driven by greed and united by their sense of superiority. Meanwhile, metallic dragons are curious, protective, and can shapeshift into humanoids and beasts.",
+        "translation": "Chromatic dragons are driven by greed and united by their sense of superiority. Meanwhile, metallic dragons are curious, protective, and can shapeshift into humanoids and beasts."
     },
     "Match/QueueTips/Queue_Tip_125": {
         "oracleText": "Baldur's Gate is protected by the Watch, who guard the citizens of the Upper City; and the Flaming Fists, a mercenary company who control Wyrm's Rock, an imposing island-fortress.",
