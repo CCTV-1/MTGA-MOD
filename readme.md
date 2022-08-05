@@ -52,24 +52,54 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 	}
 	```
 
-2. 修改`MatchManager/PlayerInfo::set_ScreenName`为以下所示，使对局显示玩家ID:
+2. 修改~~`GreClient.Network::GREConnection::HandleMatchServiceMessage`和~~`MatchManager.PlayerInfo.ScreenName`使得对局中显示玩家的ID~~和隐藏分~~(2022/8/4更新后，服务器不再告知客户端对局内玩家的隐藏分)：
 	```csharp
-	public string ScreenName
+	private void HandleMatchServiceMessage(MatchServiceToClientMessage msg)
 	{
-		get
+		/*无关代码，省略*/
+		MatchServiceToClientMessage.MessageOneofCase messageCase = msg.MessageCase;
+		switch (messageCase)
 		{
-			return this._screenName;
-		}
-		set
-		{
-			this._screenName = value;
-			int num = this._screenName.LastIndexOf('\0');
-			if (num != -1)
+			/*无关代码，省略*/
+			case MatchServiceToClientMessage.MessageOneofCase.MatchGameRoomStateChangedEvent:
 			{
-				this._screenName = this._screenName.Substring(0, num);
+				foreach (MatchGameRoomPlayerInfo playerInfo in msg.MatchGameRoomStateChangedEvent.GameRoomInfo.GameRoomConfig.ReservedPlayers)
+				{
+					string userId = playerInfo.UserId;
+					string playerName = playerInfo.PlayerName;
+					string playerMMR = "0";
+					if (msg.MatchGameRoomStateChangedEvent.GameRoomInfo.GameRoomConfig.ServiceMetadata.TryGetValue(userId + "_Rating", out playerMMR))
+					{
+						//保留整数
+						//playerMMR = ((int)float.Parse(playerMMR)).ToString();
+						MMRMap.Instance.cache[playerName] = playerMMR;
+					}
+				}
+				break;
+			}
+			/*无关代码，省略*/
+		}
+		/*无关代码，省略*/
+	}
+	```
+
+	然后将`MatchManager::PlayerInfo.ScreenName`修改为：
+	```csharp
+		public string ScreenName
+		{
+			get
+			{
+				if (MMRMap.Instance.cache.ContainsKey(_screenName))
+				{
+					return _screenName + "(" + MMRMap.Instance.cache[_screenName] + ")";
+				}
+				return _screenName;
+			}
+			set
+			{
+				_screenName = value;
 			}
 		}
-	}
 	```
 
 3. 修改`Wotc.Mtga.Wrapper.Draft.DraftContentController::SettingCards_OnComplete`为以下所示，使轮抓过程中始终显示玩家收藏情况：
