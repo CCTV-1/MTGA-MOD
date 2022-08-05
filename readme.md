@@ -113,7 +113,7 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 	}
 	```
 
-4. 在威世智修复音效bug之前，修改`AudioManager::LoadBnk`的以下部分，避免游戏频繁进行自检恢复被mod替换的文件：
+4. ~~在威世智修复音效bug之前，修改`AudioManager::LoadBnk`的以下部分，避免游戏频繁进行自检恢复被mod替换的文件~~(2022/8/4更新后已修复)：
 	```csharp
 	private static bool LoadBnk(string Bnkname)
 	{
