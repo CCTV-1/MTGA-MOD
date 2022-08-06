@@ -52,7 +52,7 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 	}
 	```
 
-2. 修改~~`GreClient.Network::GREConnection::HandleMatchServiceMessage`和~~`MatchManager.PlayerInfo.ScreenName`使得对局中显示玩家的ID~~和隐藏分~~(2022/8/4更新后，服务器不再告知客户端对局内玩家的隐藏分)：
+2. 修改 ~~`GreClient.Network::GREConnection::HandleMatchServiceMessage`和~~`MatchManager.PlayerInfo.ScreenName`使得对局中显示玩家的ID~~和隐藏分~~(2022/8/4更新后，服务器不再告知客户端对局内玩家的隐藏分)：
 	```csharp
 	private void HandleMatchServiceMessage(MatchServiceToClientMessage msg)
 	{
