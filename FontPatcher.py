@@ -9,7 +9,7 @@ import Config
 
 
 # asset path : monoBehavior name list
-WINDOWS_REPLACE_RULES: dict[str:list] = {
+WINDOWS_FONT_RULES: dict[str:list] = {
     '{0}/resources.assets'.format(Config.WINDOWS_DATA_DIR): [
         'Font_Title_JP', 'Font_Default_JP', 'Font_Title_USERNAME', 'Font_Default_USERNAME'
     ],
@@ -24,11 +24,25 @@ WINDOWS_REPLACE_RULES: dict[str:list] = {
     ]
 }
 
+WINDOWS_MATERIAL_RULES: dict[str:list] = {
+    '{0}/resources.assets'.format(Config.WINDOWS_DATA_DIR): [
+        'Font_Title - DropShadow', 'Font_Title_JP - DropShadow', 'Font_Default - DropShadow'
+    ],
+    '{0}/Downloads/AssetBundle/Bucket_Card.FontMaterialSettings_0_a238f96a-c26c7de3df30d26641d8fac0f4f83133.mtga'.format(
+        Config.WINDOWS_DATA_DIR): [
+            'Font_Title - DropShadow', 'Font_Title_JP - DropShadow'
+    ],
+    '{0}/Downloads/AssetBundle/Fonts_000c0e73-559ead1d27f1e25e4eb2ee3379385e34.mtga'.format(
+        Config.WINDOWS_DATA_DIR): [
+            'Font_Default - DropShadow'
+    ]
+}
+
 # extract apk to Config.ANDROID_DATA_DIR/../../.. ,then extract obb/assets/bin/Data/* to
 # Config.ANDROID_DATA_DIR,then extract obb/assets/assets/AssetBundle/Font_* to
 # Config.ANDROID_DATA_DIR/AssetBundle
 # asset path : monoBehavior name list,
-ANDROID_REPLACE_RULES: dict[str:list] = {
+ANDROID_FONT_RULES: dict[str:list] = {
     '{0}/805e1ce96cdd34dcdb7cd9f07bd03fe1'.format(Config.ANDROID_DATA_DIR): [
         'Font_Default_JP'
     ],
@@ -49,6 +63,27 @@ ANDROID_REPLACE_RULES: dict[str:list] = {
     ],
     '{0}/AssetBundle/Fonts_1efa7059-559ead1d27f1e25e4eb2ee3379385e34.mtga'.format(Config.ANDROID_DATA_DIR): [
         'Font_Title_USERNAME', 'Font_Default_USERNAME'
+    ]
+}
+
+
+ANDROID_MATERIAL_RULES: dict[str:list] = {
+    '{0}/b23dd914b3aab694da0048175882674f'.format(Config.ANDROID_DATA_DIR): [
+        'Font_Title - DropShadow'
+    ],
+    '{0}/3c076afdcf4ccb14ca714feb8769bc6b'.format(Config.ANDROID_DATA_DIR): [
+        'Font_Title_JP - DropShadow'
+    ],
+    '{0}/351f23bf48c7814428089374c54eefa9'.format(Config.ANDROID_DATA_DIR): [
+        'Font_Default - DropShadow'
+    ],
+    '{0}/AssetBundle/Bucket_Card.FontMaterialSettings_0_1a1e45d7-c26c7de3df30d26641d8fac0f4f83133.mtga'.format(
+        Config.ANDROID_DATA_DIR): [
+            'Font_Title - DropShadow', 'Font_Title_JP - DropShadow'
+    ],
+    '{0}/AssetBundle/Fonts_1efa7059-559ead1d27f1e25e4eb2ee3379385e34.mtga'.format(
+        Config.ANDROID_DATA_DIR): [
+            'Font_Default - DropShadow'
     ]
 }
 
@@ -237,9 +272,15 @@ def replaceTMPFont(assetPath: str, monoBehaviorNames: list[str], newFontContent:
                         assetPath, objData.name))
 
                 newFontContent.fontMaterial['m_Name'] = objTree['m_Name']
+                newFontContent.fontMaterial['m_ShaderKeywords'] = objTree['m_ShaderKeywords']
                 newFontContent.fontMaterial['m_Shader']['m_FileID'] = objTree['m_Shader']['m_FileID']
                 newFontContent.fontMaterial['m_Shader']['m_PathID'] = objTree['m_Shader']['m_PathID']
-                newFontContent.fontMaterial['m_SavedProperties']['m_TexEnvs'] = objTree['m_SavedProperties']['m_TexEnvs']
+
+                for i in range(0, len(newFontContent.fontMaterial['m_SavedProperties']['m_TexEnvs'])):
+                    newFontContent.fontMaterial['m_SavedProperties']['m_TexEnvs'][i][1]['m_Texture'][
+                        'm_FileID'] = objTree['m_SavedProperties']['m_TexEnvs'][i][1]['m_Texture']['m_FileID']
+                    newFontContent.fontMaterial['m_SavedProperties']['m_TexEnvs'][i][1]['m_Texture'][
+                        'm_PathID'] = objTree['m_SavedProperties']['m_TexEnvs'][i][1]['m_Texture']['m_PathID']
 
                 obj.save_typetree(newFontContent.fontMaterial)
             case _:
@@ -252,6 +293,45 @@ def replaceTMPFont(assetPath: str, monoBehaviorNames: list[str], newFontContent:
     assetName = pathlib.Path(assetPath).name
     with open('{0}/{1}'.format(Config.OUT_DIR, assetName), "wb") as f:
         f.write(assetEnv.file.save())
+    shutil.copy('{0}/{1}'.format(Config.OUT_DIR, assetName), assetPath)
+
+
+def replaceTMPMaterial(assetPath: str, materialNames: str, newFontContent: FontContent):
+    assetEnv = UnityPy.load(assetPath)
+    for obj in assetEnv.objects:
+        if obj.type != UnityPy.enums.ClassIDType.Material:
+            continue
+        objData = obj.read()
+        if not objData.serialized_type.nodes:
+            with open('{0}/TMPFontMaterialTypeTree.json'.format(Config.RESOUCE_DIR), 'r', encoding='UTF-8') as f:
+                typeTree = json.load(f)
+            objData.serialized_type.nodes = typeTree
+        if objData.name not in materialNames:
+            continue
+        objTree = objData.read_typetree()
+        if not objTree:
+            raise NotImplementedError('cannot found typetree in {0}:{1}'.format(
+                assetPath, objData.name))
+
+        newFontContent.fontMaterial['m_Name'] = objTree['m_Name']
+        newFontContent.fontMaterial['m_ShaderKeywords'] = objTree['m_ShaderKeywords']
+        newFontContent.fontMaterial['m_Shader']['m_FileID'] = objTree['m_Shader']['m_FileID']
+        newFontContent.fontMaterial['m_Shader']['m_PathID'] = objTree['m_Shader']['m_PathID']
+
+        for i in range(0, len(newFontContent.fontMaterial['m_SavedProperties']['m_TexEnvs'])):
+            newFontContent.fontMaterial['m_SavedProperties']['m_TexEnvs'][i][1]['m_Texture'][
+                'm_FileID'] = objTree['m_SavedProperties']['m_TexEnvs'][i][1]['m_Texture']['m_FileID']
+            newFontContent.fontMaterial['m_SavedProperties']['m_TexEnvs'][i][1]['m_Texture'][
+                'm_PathID'] = objTree['m_SavedProperties']['m_TexEnvs'][i][1]['m_Texture']['m_PathID']
+
+        obj.save_typetree(newFontContent.fontMaterial)
+
+    assetName = pathlib.Path(assetPath).name
+    if not pathlib.Path('{0}/{1}'.format(Config.BACKUP_DIR, assetName)).exists():
+        shutil.copy(assetPath, Config.BACKUP_DIR)
+    with open('{0}/{1}'.format(Config.OUT_DIR, assetName), "wb") as f:
+        f.write(assetEnv.file.save())
+    shutil.copy('{0}/{1}'.format(Config.OUT_DIR, assetName), assetPath)
 
 
 if __name__ == '__main__':
@@ -265,5 +345,8 @@ if __name__ == '__main__':
     newFontContent = loadTMPFont(
         '{0}/msyh'.format(Config.WINDOWS_DATA_DIR), 'msyh SDF')
 
-    for path, fontNames in WINDOWS_REPLACE_RULES.items():
-        replaceTMPFont(path, fontNames, newFontContent)
+    for path, fontNames in WINDOWS_FONT_RULES.items():
+        replaceTMPFont(path, fontNames, newFontContent, True)
+
+    for path, materialName in WINDOWS_MATERIAL_RULES.items():
+        replaceTMPMaterial(path, materialName, newFontContent)
