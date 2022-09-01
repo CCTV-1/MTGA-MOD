@@ -213,7 +213,7 @@
     },
     "AbilityHanger/Counters/PoisonCounter_Body": {
         "oracleText": "A player with ten or more poison counters loses the game.",
-        "translation": "A player with ten or more poison counters loses the game."
+        "translation": "如果一位牌手有十个或更多的中毒指示物，则其输掉游戏。"
     },
     "AbilityHanger/Counters/ShieldCounterReference_Body": {
         "oracleText": "If a permanent with a shield counter on it would be dealt damage or destroyed, remove a shield counter from it instead.",
@@ -229,11 +229,11 @@
     },
     "AbilityHanger/Counters/StunCounterReference_Body": {
         "oracleText": "If a permanent with a stun counter would become untapped, remove one from it instead.",
-        "translation": "If a permanent with a stun counter would become untapped, remove one from it instead."
+        "translation": "如果某个其上有眩晕指示物的已横置永久物将成为未横置，则改为从其上移去一个晕眩指示物。"
     },
     "AbilityHanger/Counters/StunCounter_Body": {
         "oracleText": "If this would become untapped, remove a stun counter from it instead.",
-        "translation": "If this would become untapped, remove a stun counter from it instead."
+        "translation": "如果它将成为未横置，则改为从其上移去一个晕眩指示物。"
     },
     "AbilityHanger/DeckBuilder/CompanionViolation_Body": {
         "oracleText": "This card invalidates your declared Companion. See the Companion's rules text for details.",
@@ -453,7 +453,7 @@
     },
     "AbilityHanger/Keyword/Compleated_Body": {
         "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"{manaCombined}\"> can be paid with <sprite=\"SpriteSheet_ManaIcons\" name=\"{manaType0}\">, <sprite=\"SpriteSheet_ManaIcons\" name=\"{manaType1}\">, or 2 life. If life was paid, this planeswalker enters with two fewer loyalty counters.",
-        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"{manaCombined}\"> can be paid with <sprite=\"SpriteSheet_ManaIcons\" name=\"{manaType0}\">, <sprite=\"SpriteSheet_ManaIcons\" name=\"{manaType1}\">, or 2 life. If life was paid, this planeswalker enters with two fewer loyalty counters."
+        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"{manaCombined}\">可以用<sprite=\"SpriteSheet_ManaIcons\" name=\"{manaType0}\">, <sprite=\"SpriteSheet_ManaIcons\" name=\"{manaType1}\">，或2点生命来支付。如果以生命支付，则此鹏洛客进战场时上面少两个忠诚指示物。"
     },
     "AbilityHanger/Keyword/Compleated_Title": {
         "oracleText": "Compleated",
@@ -661,7 +661,7 @@
     },
     "AbilityHanger/Keyword/Enlist_Body": {
         "oracleText": "As this creature attacks, you may tap a nonattacking creature you control without summoning sickness. When you do, add its power to this creature's until end of turn.",
-        "translation": "As this creature attacks, you may tap a nonattacking creature you control without summoning sickness. When you do, add its power to this creature's until end of turn."
+        "translation": "于此生物攻击时，你可以横置一个由你操控、不具召唤失调且未进行攻击的生物。当你如此作时， 将所横置生物的力量加至此生物直到回合结束。"
     },
     "AbilityHanger/Keyword/Equip": {
         "oracleText": "You may pay the Equip cost to attach this permanent to target creature you control. Equip only as a sorcery.",
@@ -1149,7 +1149,7 @@
     },
     "AbilityHanger/Keyword/ReadAhead_Body": {
         "oracleText": "Choose a chapter and start with that many lore counters. Add one after your draw step. Skipped chapters don't trigger. Sacrifice after III.",
-        "translation": "Choose a chapter and start with that many lore counters. Add one after your draw step. Skipped chapters don't trigger. Sacrifice after III."
+        "translation": "选择一个章节，此传纪一开始就有该数量的学问指示物。于你抓牌步骤后再加一个。跳过的章节不会触发。到III 后牺牲之。"
     },
     "AbilityHanger/Keyword/Rebound_Body": {
         "oracleText": "If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.",
@@ -6077,7 +6077,7 @@
     },
     "DuelScene/Browsers/ReadAhead_Header": {
         "oracleText": "Read Ahead",
-        "translation": "Read Ahead"
+        "translation": "跳读"
     },
     "DuelScene/Browsers/Repeat_Options_Subheader": {
         "oracleText": "You may choose the same option more than once, {options} options remaining",
@@ -6513,7 +6513,7 @@
     },
     "DuelScene/ClientPrompt/EnlistCount": {
         "oracleText": "Enlist: {count}",
-        "translation": "Enlist: {count}"
+        "translation": "征列：{count}"
     },
     "DuelScene/ClientPrompt/EntersTapped": {
         "oracleText": "Enters Tapped",
@@ -6677,7 +6677,7 @@
     },
     "DuelScene/ClientPrompt/Pile_Is_Empty": {
         "oracleText": "Pile {pileNumber} is empty.",
-        "translation": "Pile {pileNumber} is empty."
+        "translation": "堆{pileNumber}是空的。"
     },
     "DuelScene/ClientPrompt/Prompt_Transform": {
         "oracleText": "Transform {CardName} into {BackFaceName}?",
@@ -6697,7 +6697,7 @@
     },
     "DuelScene/ClientPrompt/Sacrifice_Pile_Number_Confirmation": {
         "oracleText": "Sacrifice Pile {pileNum}?",
-        "translation": "Sacrifice Pile {pileNum}?"
+        "translation": "牺牲堆{pileNum}？"
     },
     "DuelScene/ClientPrompt/ScryEffectResultsEmote": {
         "oracleText": "{source}: {topCount} top, {bottomCount} bottom.",
@@ -7037,7 +7037,7 @@
     },
     "DuelScene/Interaction/DeclareAttackers/Enlist": {
         "oracleText": "Enlist",
-        "translation": "Enlist"
+        "translation": "征列"
     },
     "DuelScene/Interaction/DeclareAttackers/Exert": {
         "oracleText": "Exert",
@@ -15561,15 +15561,15 @@
     },
     "Events/Event_Title_DMU_Premier_Draft": {
         "oracleText": "Premier Draft Dominaria United",
-        "translation": "Premier Draft Dominaria United"
+        "translation": "多明纳里亚：众志成城竞技轮抽"
     },
     "Events/Event_Title_DMU_Quick_Draft": {
         "oracleText": "Quick Draft Dominaria United",
-        "translation": "Quick Draft Dominaria United"
+        "translation": "多明纳里亚：众志成城快速轮抽"
     },
     "Events/Event_Title_DMU_Trad_Draft": {
         "oracleText": "Traditional Draft Dominaria United",
-        "translation": "Traditional Draft Dominaria United"
+        "translation": "多明纳里亚：众志成城三盘轮抽"
     },
     "Events/Event_Title_DOM_Cascade_Draft": {
         "oracleText": "Cascade Draft Dominaria",
@@ -16425,7 +16425,7 @@
     },
     "Events/Event_Title_MWM_DMU_Sealed": {
         "oracleText": "Midweek Magic: Phantom Sealed",
-        "translation": "Midweek Magic: Phantom Sealed"
+        "translation": "周中万智牌：幻影现开"
     },
     "Events/Event_Title_MWM_Explorer": {
         "oracleText": "Midweek Magic: Explorer",
@@ -16833,7 +16833,7 @@
     },
     "Events/Event_Title_Sealed_DMU": {
         "oracleText": "Sealed Dominaria United",
-        "translation": "Sealed Dominaria United"
+        "translation": "多明纳里亚：众志成城现开"
     },
     "Events/Event_Title_Sealed_ELD": {
         "oracleText": "Sealed Throne of Eldraine",
@@ -18545,7 +18545,7 @@
     },
     "General/Sets/DMU": {
         "oracleText": "Dominaria United",
-        "translation": "Dominaria United"
+        "translation": "多明纳里亚：众志成城"
     },
     "General/Sets/EA1": {
         "oracleText": "Explorer Anthology 1",
@@ -19233,11 +19233,11 @@
     },
     "MainNav/BattlePass/BattlePass_DMU": {
         "oracleText": "Dominaria United",
-        "translation": "Dominaria United"
+        "translation": "多明纳里亚：众志成城"
     },
     "MainNav/BattlePass/BattlePass_DMU_alt": {
         "oracleText": "Dominaria United Mastery Pass",
-        "translation": "Dominaria United Mastery Pass"
+        "translation": "多明纳里亚：众志成城精研令状"
     },
     "MainNav/BattlePass/BattlePass_ELD": {
         "oracleText": "Eldraine",
@@ -19549,7 +19549,7 @@
     },
     "MainNav/BattlePass/MasteryListingTitle_DMU": {
         "oracleText": "Dominaria United Set Mastery",
-        "translation": "Dominaria United Set Mastery"
+        "translation": "多明纳里亚：众志成城精研令状"
     },
     "MainNav/BattlePass/MasteryListingTitle_HBG": {
         "oracleText": "Alchemy Horizons: Baldur's Gate Set Mastery",
@@ -19573,7 +19573,7 @@
     },
     "MainNav/BattlePass/Mastery_Header_DMU": {
         "oracleText": "Dominaria United Mastery Pass",
-        "translation": "Dominaria United Mastery Pass"
+        "translation": "多明纳里亚：众志成城精研令状"
     },
     "MainNav/BattlePass/Mastery_Header_HBG": {
         "oracleText": "Alchemy Horizons: Baldur's Gate Mastery Pass",
@@ -22421,11 +22421,11 @@
     },
     "MainNav/DeckManager/StarterDecks_Description": {
         "oracleText": "These starter decks are available for the 2023 Season, and do not count against your deck limit. Clone a deck to edit and make it your own.",
-        "translation": "These starter decks are available for the 2023 Season, and do not count against your deck limit. Clone a deck to edit and make it your own."
+        "translation": "这些新手套牌于2023年赛季中可用，不占用你的套牌容量。复制后编辑，打造属于你的套牌。"
     },
     "MainNav/DeckManager/StarterDecks_Folder": {
         "oracleText": "Starter Decks",
-        "translation": "起始套牌"
+        "translation": "新手套牌"
     },
     "MainNav/DeckManager/Tooltip_PlayMoreColorChallenges": {
         "oracleText": "Play more {color} Color Challenge games to fully unlock or edit this deck",
