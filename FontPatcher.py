@@ -58,7 +58,7 @@ ANDROID_FONT_RULES: dict[str:list] = {
     '{0}/sharedassets0.assets'.format(Config.ANDROID_DATA_DIR): [
         'Font_Default', 'Font_Title'
     ],
-    '{0}/AssetBundle/Bucket_Card.FieldFont_0_43ae4143-80b5ae3a3e2e95a1bf8bd98d3579b754.mtga'.format(Config.ANDROID_DATA_DIR): [
+    '{0}/AssetBundle/Bucket_Card.FieldFont_0_a116c1ec-c37369c6467ae311a43d99b752e92a51.mtga'.format(Config.ANDROID_DATA_DIR): [
         'Font_Default', 'Font_Title', 'Font_Default_JP', 'Font_Title_JP'
     ],
     '{0}/AssetBundle/Fonts_1efa7059-559ead1d27f1e25e4eb2ee3379385e34.mtga'.format(Config.ANDROID_DATA_DIR): [
