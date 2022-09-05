@@ -22,7 +22,7 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 
 # 二、 翻译文本
 1. ~~翻译位于`"{0}/Downloads/Loc".format(Application.dataPath)`和`"{0}/Downloads/Data".format(Application.dataPath)`下的所有位于.mtga文件内的文本(实际上是json文件)，使用脚本合并已存在的翻译/导出未进行翻译的文本。~~ 2022/6/2更新后，文本被放置于`sqlite3`数据库文件和资源文件的`MonoBehavior`脚本中(位于`"{0}/Downloads/Raw/Raw_CardDatabase_***".format(Application.dataPath)`、`"{0}/Downloads/Raw/Raw_ClientLocalization_***".format(Application.dataPath)`，以及`"{0}/resources.assets".format(Application.dataPath)`中类别为`MonoBehavior`的`LocLibrary`)，无法再使用文本编辑器直接编辑，需要使用相关软件编辑或者使用[脚本](./UpdateCardTS.py)和[脚本](./UpdateUITS.py)导出成文本文件后进行翻译，再使用脚本导入回资源文件中。
-2. 翻译注意事项：`Wotc.Mtga.Cards.Text::AbilityTextData::ColorizeModalAbilityText`中有一行`text = "• " + text;`要求选择模式牌张的翻译不能使用`•增殖`必须留有空格`• 增殖`。文本中被`{}`包围的文本需原样保留(可调整位置)。~~文本中的HTML标签(`<i>`等)也需原样保留(若不想要与英文样式一致，则HTML标签也可不保留)~~(2022/6/2更新后删除了所有牌张文本中的HTML标签)。被用于牌张类别栏的文本若包含有`(`和`)`不能改成`（`和`）`否则会被`GreClient.CardData::CardUtilities::FormatComplexTitle`和`GreClient.CardData::CardUtilities::FormatComplexTitleVertical`强制修改样式。
+2. 翻译注意事项：~~ `Wotc.Mtga.Cards.Text::AbilityTextData::ColorizeModalAbilityText`中有一行`text = "• " + text;`要求选择模式牌张的翻译不能使用`•增殖`必须留有空格`• 增殖`。~~(对应原文里不再保留`•`)。文本中被`{}`包围的文本需原样保留(可调整位置)。~~文本中的HTML标签(`<i>`等)也需原样保留(若不想要与英文样式一致，则HTML标签也可不保留)~~(2022/6/2更新后删除了所有牌张文本中的HTML标签)。被用于牌张类别栏的文本若包含有`(`和`)`不能改成`（`和`）`否则会被`GreClient.CardData::CardUtilities::FormatComplexTitle`和`GreClient.CardData::CardUtilities::FormatComplexTitleVertical`强制修改样式。
 
 # 三、 其他功能补丁
 
@@ -113,7 +113,7 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 	}
 	```
 
-4. 在威世智修复音效bug之前，修改`AudioManager::LoadBnk`的以下部分，避免游戏频繁进行自检恢复被mod替换的文件(2022/8/4更新后宣称已修复，其实并未修复)
+4. 在威世智修复音效bug之前，修改`AudioManager::LoadBnk`的以下部分，避免游戏频繁进行自检恢复被mod替换的文件(2022/9/1更新后似乎已经修复了)
 	```csharp
 	private static bool LoadBnk(string Bnkname)
 	{
