@@ -38,6 +38,35 @@ WINDOWS_MATERIAL_RULES: dict[str:list] = {
     ]
 }
 
+MACOS_FONT_RULES: dict[str:list] = {
+    '{0}/resources.assets'.format(Config.MACOS_RES_DIR): [
+        'Font_Title_JP', 'Font_Default_JP', 'Font_Title_USERNAME', 'Font_Default_USERNAME'
+    ],
+    '{0}/sharedassets0.assets'.format(Config.MACOS_RES_DIR): [
+        'Font_Default', 'Font_Title'
+    ],
+    '{0}/Downloads/AssetBundle/Bucket_Card.FieldFont_0_58bb793c-c37369c6467ae311a43d99b752e92a51.mtga'.format(Config.MACOS_DATA_DIR): [
+        'Font_Default', 'Font_Title', 'Font_Default_JP', 'Font_Title_JP'
+    ],
+    '{0}/Downloads/AssetBundle/Fonts_11814f4c-559ead1d27f1e25e4eb2ee3379385e34.mtga'.format(Config.MACOS_DATA_DIR): [
+        'Font_Default_USERNAME', 'Font_Title_USERNAME'
+    ]
+}
+
+MACOS_MATERIAL_RULES: dict[str:list] = {
+    '{0}/resources.assets'.format(Config.MACOS_RES_DIR): [
+        'Font_Title - DropShadow', 'Font_Title_JP - DropShadow', 'Font_Default - DropShadow'
+    ],
+    '{0}/Downloads/AssetBundle/Bucket_Card.FontMaterialSettings_0_abb598a9-c26c7de3df30d26641d8fac0f4f83133.mtga'.format(
+        Config.MACOS_DATA_DIR): [
+            'Font_Title - DropShadow', 'Font_Title_JP - DropShadow'
+    ],
+    '{0}/Downloads/AssetBundle/Fonts_11814f4c-559ead1d27f1e25e4eb2ee3379385e34.mtga'.format(
+        Config.MACOS_DATA_DIR): [
+            'Font_Default - DropShadow'
+    ]
+}
+
 # extract apk to Config.ANDROID_DATA_DIR/../../.. ,then extract obb/assets/bin/Data/* to
 # Config.ANDROID_DATA_DIR,then extract obb/assets/assets/AssetBundle/Font_* to
 # Config.ANDROID_DATA_DIR/AssetBundle
