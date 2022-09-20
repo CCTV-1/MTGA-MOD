@@ -1,6 +1,6 @@
-From 6447023ff2ef2d1b5ed28a869f176417fd075fe1 Mon Sep 17 00:00:00 2001
+From 83e5c8b3368141b689765ed950fce79989c81a9e Mon Sep 17 00:00:00 2001
 From: CCTV-1 <script.tar.gz@gmail.com>
-Date: Wed, 20 Jul 2022 22:41:26 +0800
+Date: Tue, 20 Sep 2022 12:51:55 +0800
 Subject: [PATCH] zhCN Font Patch.
 
 ---
@@ -10,14 +10,17 @@ Subject: [PATCH] zhCN Font Patch.
  CDCPart_TextBox_Dungeon.cs                    |  5 +-
  .../MasteryEndText.cs                         |  1 +
  DeckMainTitlePanel.cs                         |  5 ++
- MTGA.Loc/MTGALocalizable.cs                   | 18 ++-----
+ DirectChallengeBladeWidget.cs                 |  1 +
+ FriendChallengeBladeWidget.cs                 |  1 +
+ MTGA.Loc/MTGALocalizable.cs                   | 15 +-----
  MatchManager.cs                               |  2 +-
  SearchAndFilterBar.cs                         |  1 +
  SettingsPanelGraphics.cs                      |  2 +-
+ Spinner_OptionSelector.cs                     |  1 +
  StoreItemBase.cs                              |  1 +
  SystemMessageView.cs                          |  3 ++
  .../CDCExtraFrameDetailFiller.cs              |  1 +
- .../FieldFillerUtils.cs                       | 17 +-----
+ .../FieldFillerUtils.cs                       | 15 +-----
  .../ClassAbilityTextbox.cs                    |  1 +
  .../TableAbilityTextbox.cs                    |  3 +-
  .../TextboxSubComponentBase.cs                |  2 +-
@@ -25,7 +28,7 @@ Subject: [PATCH] zhCN Font Patch.
  Wotc.Mtga.Loc/Languages.cs                    |  2 +-
  .../DraftContentController.cs                 |  1 +
  ZhCN_Font.cs                                  | 54 +++++++++++++++++++
- 21 files changed, 91 insertions(+), 51 deletions(-)
+ 24 files changed, 91 insertions(+), 49 deletions(-)
  create mode 100644 ZhCN_Font.cs
 
 diff --git a/AccountInformation.cs b/AccountInformation.cs
@@ -80,7 +83,7 @@ index f27afd0..e5fc051 100644
  		_lowerTextLabel.fontSize = _supportedFontSizes[0];
  		UpdateLabelMaterial(_upperTextLabel);
 diff --git a/CDCPart_TextBox_Dungeon.cs b/CDCPart_TextBox_Dungeon.cs
-index 5620d11..b15fa45 100644
+index c589030..36023cc 100644
 --- a/CDCPart_TextBox_Dungeon.cs
 +++ b/CDCPart_TextBox_Dungeon.cs
 @@ -48,15 +48,14 @@ public class CDCPart_TextBox_Dungeon : CDCPart_Textbox_SuperBase
@@ -129,20 +132,35 @@ index f191488..747eb73 100644
  		}
  		_meshRendererReferenceLoaders = new MeshRendererReferenceLoader[_deckBoxRenderers.Length];
  		for (int i = 0; i < _deckBoxRenderers.Length; i++)
+diff --git a/DirectChallengeBladeWidget.cs b/DirectChallengeBladeWidget.cs
+index 3d9987a..56f52cb 100644
+--- a/DirectChallengeBladeWidget.cs
++++ b/DirectChallengeBladeWidget.cs
+@@ -188,6 +188,7 @@ public class DirectChallengeBladeWidget : PlayBladeWidget
+ 		_selectDeckSlot.OnClick.AddListener(OnSelectDeckClicked);
+ 		_selectDeckButton.OnClick.AddListener(OnSelectDeckClicked);
+ 		LocalUsernameOutputter.onClick.AddListener(OnYourName_Clicked);
++		TournamentSettingsText.font = ZhCN_Font.Instance.zhCNFont;
+ 	}
+ 
+ 	private void OnEnable()
+diff --git a/FriendChallengeBladeWidget.cs b/FriendChallengeBladeWidget.cs
+index dfc44c7..0c21daf 100644
+--- a/FriendChallengeBladeWidget.cs
++++ b/FriendChallengeBladeWidget.cs
+@@ -115,6 +115,7 @@ public class FriendChallengeBladeWidget : PlayBladeWidget
+ 			Languages.ActiveLocProvider.GetLocalizedText("MainNav/PrivateGame/Settings/StartingPlayer_Opponent")
+ 		});
+ 		_startingPlayerSpinner.SelectOption(0);
++		TournamentSettingsText.font = ZhCN_Font.Instance.zhCNFont;
+ 	}
+ 
+ 	private void Start()
 diff --git a/MTGA.Loc/MTGALocalizable.cs b/MTGA.Loc/MTGALocalizable.cs
-index 1625dd6..4979246 100644
+index 1625dd6..fb8da58 100644
 --- a/MTGA.Loc/MTGALocalizable.cs
 +++ b/MTGA.Loc/MTGALocalizable.cs
-@@ -26,7 +26,7 @@ namespace MTGA.Loc
- 			public string value;
- 		}
- 
--		private static readonly Dictionary<string, string> Parameters = new Dictionary<string, string>();
-+		private static readonly Dictionary<string, string> Parameters;
- 
- 		[SerializeField]
- 		public bool active = true;
-@@ -59,20 +59,8 @@ namespace MTGA.Loc
+@@ -59,20 +59,7 @@ namespace MTGA.Loc
  				break;
  			case TargetType.Font:
  			{
@@ -161,12 +179,11 @@ index 1625dd6..4979246 100644
 -					}
 -				}
 +				tMP_Text.font = ZhCN_Font.Instance.zhCNFont;
-+
  				break;
  			}
  			default:
 diff --git a/MatchManager.cs b/MatchManager.cs
-index 290db51..c0bbb92 100644
+index 773cd3f..34c2bcd 100644
 --- a/MatchManager.cs
 +++ b/MatchManager.cs
 @@ -56,7 +56,7 @@ public class MatchManager : IDisposable
@@ -203,11 +220,23 @@ index 6427585..4d4b9f2 100644
  			"ko" => "한국어", 
  			"pt-BR" => "Português\u00a0brasileiro", 
  			"ru" => "Русский", 
+diff --git a/Spinner_OptionSelector.cs b/Spinner_OptionSelector.cs
+index c3ddafd..3145d70 100644
+--- a/Spinner_OptionSelector.cs
++++ b/Spinner_OptionSelector.cs
+@@ -101,6 +101,7 @@ public class Spinner_OptionSelector : MonoBehaviour
+ 	{
+ 		_buttonNextValue.OnClick.AddListener(OnNextValue);
+ 		_buttonPreviousValue.OnClick.AddListener(OnPreviousValue);
++		_valueLabel.font = ZhCN_Font.Instance.zhCNFont;
+ 	}
+ 
+ 	private void Start()
 diff --git a/StoreItemBase.cs b/StoreItemBase.cs
-index a593a77..3a7866c 100644
+index af03328..4b5b259 100644
 --- a/StoreItemBase.cs
 +++ b/StoreItemBase.cs
-@@ -483,6 +483,7 @@ public class StoreItemBase : MonoBehaviour
+@@ -489,6 +489,7 @@ public class StoreItemBase : MonoBehaviour
  
  	public void SetLabelText(MTGALocalizedString text)
  	{
@@ -216,10 +245,10 @@ index a593a77..3a7866c 100644
  	}
  
 diff --git a/SystemMessageView.cs b/SystemMessageView.cs
-index 71fa0aa..71d79a5 100644
+index c0fdf0e..2c230fb 100644
 --- a/SystemMessageView.cs
 +++ b/SystemMessageView.cs
-@@ -61,6 +61,9 @@ public class SystemMessageView : MonoBehaviour, IKeyDownSubscriber, IKeySubscrib
+@@ -63,6 +63,9 @@ public class SystemMessageView : MonoBehaviour, IKeyDownSubscriber, IKeySubscrib
  	{
  		_canvasGroup.blocksRaycasts = false;
  		_canvasGroup.alpha = 0f;
@@ -230,7 +259,7 @@ index 71fa0aa..71d79a5 100644
  
  	public void Show()
 diff --git a/Wotc.Mtga.CardParts.FieldFillers/CDCExtraFrameDetailFiller.cs b/Wotc.Mtga.CardParts.FieldFillers/CDCExtraFrameDetailFiller.cs
-index 762e50b..79a5240 100644
+index 9812960..ff46b51 100644
 --- a/Wotc.Mtga.CardParts.FieldFillers/CDCExtraFrameDetailFiller.cs
 +++ b/Wotc.Mtga.CardParts.FieldFillers/CDCExtraFrameDetailFiller.cs
 @@ -42,6 +42,7 @@ namespace Wotc.Mtga.CardParts.FieldFillers
@@ -242,10 +271,10 @@ index 762e50b..79a5240 100644
  				_defaultFontMaterial = _label.fontSharedMaterial;
  				_hasBeenInit = true;
 diff --git a/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs b/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
-index b2f58c7..0d51e17 100644
+index be11702..1e5b99b 100644
 --- a/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
 +++ b/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
-@@ -62,21 +62,8 @@ namespace Wotc.Mtga.CardParts.FieldFillers
+@@ -64,21 +64,8 @@ namespace Wotc.Mtga.CardParts.FieldFillers
  
  		public static TMP_FontAsset FindFont(AssetLookupSystem als, AssetTracker tracker, out bool canSwapMaterial)
  		{
@@ -262,9 +291,8 @@ index b2f58c7..0d51e17 100644
 -					}
 -				}
 -			}
--			canSwapMaterial = true;
+ 			canSwapMaterial = true;
 -			return null;
-+			canSwapMaterial = false;
 +			return ZhCN_Font.Instance.zhCNFont;
  		}
  
@@ -351,10 +379,10 @@ index e21259f..cf830df 100644
  		public const string BULLET_EN = "• ";
  
 diff --git a/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs b/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
-index 99dca2b..f506750 100644
+index 87b925f..569632a 100644
 --- a/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
 +++ b/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
-@@ -889,6 +889,7 @@ namespace Wotc.Mtga.Wrapper.Draft
+@@ -906,6 +906,7 @@ namespace Wotc.Mtga.Wrapper.Draft
  		{
  			_settingCardsCoroutine = null;
  			_okToPickCard = true;
@@ -423,5 +451,5 @@ index 0000000..c014191
 +	}
 +}
 -- 
-2.37.1
+2.37.3
 
