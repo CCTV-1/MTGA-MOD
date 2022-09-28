@@ -46,4 +46,4 @@ if __name__ == "__main__":
             print("can not download:'{0}'".format(rawAssetUri))
             continue
         with open(name, 'wb') as f:
-            f.write(resp.content)
+            f.write(gzip.decompress(resp.content))
