@@ -20,19 +20,30 @@ if __name__ == "__main__":
     resJson = json.loads(resp.text)
     fileHash = resJson['contentHash']
 
-    assetUri = "https://assets.mtgarena.wizards.com/Manifest_{0}.mtga".format(fileHash)
+    manifestAssetUri = "https://assets.mtgarena.wizards.com/Manifest_{0}.mtga".format(fileHash)
 
-    resp = requests.get(assetUri)
+    resp = requests.get(manifestAssetUri)
     if resp.status_code != 200:
         raise Exception('can not found {0} manifest file'.format(platformKey))
 
     unCompContent = gzip.decompress(resp.content)
     manifestJson = json.loads(unCompContent)
 
+    rawAssetNames = []
     for assetNode in manifestJson['Assets']:
-        if assetNode['Name'].startswith('Raw_CardDatabase'):
-            print(assetNode['Name'])
-        elif assetNode['Name'].startswith('Raw_ClientLocalization'):
-            print(assetNode['Name'])
+        #Raw_CardDatabase_ Raw_ClientLocalization_ shared 'Raw_C' and Raw_cards_ not use.
+        if assetNode['Name'].startswith('Raw_C'):
+            pass
         else:
             continue
+        #print(assetNode['Name'])
+        rawAssetNames.append(assetNode['Name'])
+    
+    for name in rawAssetNames:
+        rawAssetUri = "https://assets.mtgarena.wizards.com/{0}.gz".format(name)
+        resp = requests.get(rawAssetUri)
+        if resp.status_code != 200:
+            print("can not download:'{0}'".format(rawAssetUri))
+            continue
+        with open(name, 'wb') as f:
+            f.write(resp.content)
