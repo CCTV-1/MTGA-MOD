@@ -2331,6 +2331,10 @@
         "oracleText": "Garruk, Cursed Huntsman Avatar, Enchanted Kingdom Sleeve and Common Fey Fox",
         "translation": "遭诅猎人贾路头像、魔法王国牌套和普通妖狐"
     },
+    "BattlePass/Rewards/Emote_Phrase_TEST_WhatIsThis": {
+        "oracleText": "Wow... What's this?",
+        "translation": "Wow... What's this?"
+    },
     "BattlePass/Rewards/Emote_Phrase_ZNR_AllOfUs": {
         "oracleText": "All of Us Text Emote",
         "translation": "我们所有人文字表情"
@@ -3192,8 +3196,8 @@
         "translation": "(除{exceptions}外的所有)"
     },
     "Card/Textbox/CurrentIntensity": {
-        "oracleText": "Current intensity level {currentIntensity}",
-        "translation": "当前强度{currentIntensity}"
+        "oracleText": "<nobr>(Current {currentIntensity})</nobr>",
+        "translation": "<nobr>(Current {currentIntensity})</nobr>"
     },
     "Card/Textbox/Kicked": {
         "oracleText": "Kicked",
@@ -3311,6 +3315,10 @@
         "oracleText": "2D Artist",
         "translation": "原画师"
     },
+    "Credits/Role/3DArtist": {
+        "oracleText": "3D Artist",
+        "translation": "3D Artist"
+    },
     "Credits/Role/Associate2DArtist": {
         "oracleText": "Associate 2D Artist",
         "translation": "联合原画师"
@@ -3338,6 +3346,10 @@
     "Credits/Role/AssociateVFXArtist": {
         "oracleText": "Associate VFX Artist",
         "translation": "联合视觉特效师"
+    },
+    "Credits/Role/BuildEngineer": {
+        "oracleText": "Build Engineer",
+        "translation": "Build Engineer"
     },
     "Credits/Role/BuildReleaseEngineer": {
         "oracleText": "Build & Release Engineer",
@@ -3383,6 +3395,10 @@
         "oracleText": "Lead Software Development Engineer",
         "translation": "首席软件开发工程师"
     },
+    "Credits/Role/ManagerDesign": {
+        "oracleText": "Manager Design",
+        "translation": "Manager Design"
+    },
     "Credits/Role/ManagerSoftwareDevelopment": {
         "oracleText": "Manager Software Development",
         "translation": "软件开发经理"
@@ -3416,12 +3432,16 @@
         "translation": "高级数据分析师"
     },
     "Credits/Role/SeniorDigitalProductManager": {
-        "oracleText": "Senior Manager Digital Product",
-        "translation": "高级数字产品经理"
+        "oracleText": "Senior Digital Product Manager",
+        "translation": "Senior Digital Product Manager"
     },
     "Credits/Role/SeniorGameDesigner": {
         "oracleText": "Senior Game Designer",
         "translation": "高级游戏设计师"
+    },
+    "Credits/Role/SeniorManagerDigitalProduct": {
+        "oracleText": "Senior Manager Digital Product",
+        "translation": "Senior Manager Digital Product"
     },
     "Credits/Role/SeniorSoftwareDeveloper": {
         "oracleText": "Senior Software Development Engineer",
@@ -4047,6 +4067,26 @@
         "oracleText": "Player Hotel - Golos Fires",
         "translation": "牌手Hotel-戈罗斯烈焰"
     },
+    "Decks/Precon/Precon_Alchemy_DMU_BRG": {
+        "oracleText": "Dragon's Roost",
+        "translation": "Dragon's Roost"
+    },
+    "Decks/Precon/Precon_Alchemy_DMU_R": {
+        "oracleText": "Not Us, Not Today",
+        "translation": "Not Us, Not Today"
+    },
+    "Decks/Precon/Precon_Alchemy_DMU_RGW": {
+        "oracleText": "The Elven Legion",
+        "translation": "The Elven Legion"
+    },
+    "Decks/Precon/Precon_Alchemy_DMU_WBR": {
+        "oracleText": "Driven to Win",
+        "translation": "Driven to Win"
+    },
+    "Decks/Precon/Precon_Alchemy_DMU_WUBRG": {
+        "oracleText": "Domain Domination",
+        "translation": "Domain Domination"
+    },
     "Decks/Precon/Precon_ArenaTeam_BR": {
         "oracleText": "Rakdos Sacrifice",
         "translation": "拉铎司牺牲"
@@ -4579,6 +4619,10 @@
         "oracleText": "Izzet Spellweaving",
         "translation": "伊捷织咒"
     },
+    "Decks/Precon/Precon_Johnny": {
+        "oracleText": "Johnny, Combo Player",
+        "translation": "Johnny, Combo Player"
+    },
     "Decks/Precon/Precon_July_B": {
         "oracleText": "As a black mage, every advantage comes at a cost. Sacrifice whatever is necessary to control the forces of death and darkness.",
         "translation": "身为黑色法师，你深知不付出代价就没有回报，为能掌控死亡与黑暗之力，甘愿作出任何牺牲。"
@@ -4927,6 +4971,26 @@
         "oracleText": "Build up your forces by gaining life. Overwhelm your foes with pure power and use crafty tactics to sneak past their defenses.",
         "translation": "获得生命即可壮大军势。而后依靠纯粹战力击溃对手，并利用巧妙策略绕开防线。"
     },
+    "Decks/Precon/Precon_Posty_Ellywick": {
+        "oracleText": "Avant-Garde Bard",
+        "translation": "Avant-Garde Bard"
+    },
+    "Decks/Precon/Precon_Posty_Firesong": {
+        "oracleText": "A Song of Sun and Fire",
+        "translation": "A Song of Sun and Fire"
+    },
+    "Decks/Precon/Precon_Posty_Korlessa": {
+        "oracleText": "Green and Blues Scale",
+        "translation": "Green and Blues Scale"
+    },
+    "Decks/Precon/Precon_Posty_Rakdos": {
+        "oracleText": "The Devil's Interval",
+        "translation": "The Devil's Interval"
+    },
+    "Decks/Precon/Precon_Posty_Rootha": {
+        "oracleText": "Spells Da Capo",
+        "translation": "Spells Da Capo"
+    },
     "Decks/Precon/Precon_Primal_Sorcery": {
         "oracleText": "Primal Sorcery",
         "translation": "原初秘法"
@@ -4962,6 +5026,10 @@
     "Decks/Precon/Precon_Selesnya_Pride": {
         "oracleText": "Selesnya Pride",
         "translation": "瑟雷尼亚荣耀"
+    },
+    "Decks/Precon/Precon_Spike": {
+        "oracleText": "Spike, Tournament Grinder",
+        "translation": "Spike, Tournament Grinder"
     },
     "Decks/Precon/Precon_Starter2021_BG": {
         "oracleText": "Rough and Tumble",
@@ -5043,6 +5111,10 @@
         "oracleText": "The Sun Empire",
         "translation": "烈阳帝国"
     },
+    "Decks/Precon/Precon_Timmy": {
+        "oracleText": "Timmy, Power Gamer",
+        "translation": "Timmy, Power Gamer"
+    },
     "Decks/Precon/Precon_TwitchCon2018": {
         "oracleText": "Selesnya Conclave",
         "translation": "瑟雷尼亚盟会"
@@ -5066,6 +5138,10 @@
     "Decks/Precon/Precon_TwitchPrime_desc": {
         "oracleText": "Join the Boros Legion in the fight against Bolas! Mentor your army into a force strong enough to take down any foe.",
         "translation": "加入波洛斯教团，共同对抗波拉斯！不断训导部队，令其在战场上所向披靡。"
+    },
+    "Decks/Precon/Precon_Vorthos": {
+        "oracleText": "Vorthos, Steward of Myth",
+        "translation": "Vorthos, Steward of Myth"
     },
     "Decks/Precon/Precon_White": {
         "oracleText": "Tactical Assault",
@@ -6078,6 +6154,10 @@
     "DuelScene/Browsers/Order_Top": {
         "oracleText": "Top",
         "translation": "牌库顶"
+    },
+    "DuelScene/Browsers/Phyrexian_Mana_SubTitle": {
+        "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xP\"> represents a cost of 2 life.",
+        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xP\"> represents a cost of 2 life."
     },
     "DuelScene/Browsers/ReadAhead_Header": {
         "oracleText": "Read Ahead",
@@ -8888,8 +8968,8 @@
         "translation": "你正在成为一名伟大的鹏洛客。"
     },
     "EPP/Sparky/colorChallengeIntro_03": {
-        "oracleText": "So, what's next?",
-        "translation": "还有谁？"
+        "oracleText": "What's next?",
+        "translation": "What's next?"
     },
     "EPP/Sparky/firstcolorchoice_157": {
         "oracleText": "But which path to choose?",
@@ -8986,6 +9066,10 @@
     "Emergent London Mulligan Strings": {
         "oracleText": "",
         "translation": ""
+    },
+    "Emotes/TEST/Mini/WhatIsThis": {
+        "oracleText": "What's this?",
+        "translation": "What's this?"
     },
     "Emotes/ZNR/Full/AllOfUs": {
         "oracleText": "You mess with one of us, you mess with all of us!",
@@ -13180,24 +13264,24 @@
         "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for Day 1 is Historic with single-game matches, and then Traditional Historic with best-of-three matches using sideboards for Day 2. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo1": {
-        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i>Dominaria United</i> Sealed with single-game matches. The Day 2 event will use Traditional <i>Dominaria United</i> Draft with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i>Dominaria United</i> Sealed with single-game matches. The Day 2 event will use Traditional <i>Dominaria United</i> Draft with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Alchemy with single-game matches. The Day 2 event will use Traditional Alchemy with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Alchemy with single-game matches. The Day 2 event will use Traditional Alchemy with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo1_Alt": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Standard with single-game matches. The Day 2 event will use Traditional Standard with best-of-three matches using sideboards. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b></size>",
         "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Standard with single-game matches. The Day 2 event will use Traditional Standard with best-of-three matches using sideboards. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo3": {
-        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional <i>Dominaria United</i> Sealed with best-of-three matches using sideboards and individual timers. The Day 2 event will also be Traditional <i>Dominaria United</i> Draft with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional <i>Dominaria United</i> Sealed with best-of-three matches using sideboards and individual timers. The Day 2 event will also be Traditional <i>Dominaria United</i> Draft with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 match wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional Alchemy with best-of-three matches using sideboards and individual timers. The Day 2 event will also be Traditional Alchemy with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 match wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional Alchemy with best-of-three matches using sideboards and individual timers. The Day 2 event will also be Traditional Alchemy with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo3_Alt": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 match wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional Standard with best-of-three matches using sideboards. The Day 2 event will also be Traditional Standard with best-of-three matches using sideboards. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b></size>",
         "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 match wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional Standard with best-of-three matches using sideboards. The Day 2 event will also be Traditional Standard with best-of-three matches using sideboards. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_ArenaOpen_Day2": {
-        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 12 p.m. PT.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is Traditional <i>Dominaria United</i> Draft with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 12 p.m. PT.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is Traditional <i>Dominaria United</i> Draft with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the Day 2 event between 6 a.m. PT - 8 a.m. PT (1400 UTC - 1600 UTC).</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is Traditional Alchemy with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the Day 2 event between 6 a.m. PT - 8 a.m. PT (1400 UTC - 1600 UTC).</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is Traditional Alchemy with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_Alt": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards playing MTG Arena!</size></color>\n\nThis second day of competition is open only to qualified players from Day 1. Players must join the Day 2 event between 6 a.m. PT/2 p.m. UTC and 8 a.m. PT/4 p.m. UTC.\n\nThe Day 2 format is Traditional Standard with best-of-three matches using sideboards. Players may only enter once, even if they have qualified multiple times. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b></size>",
@@ -13210,6 +13294,14 @@
     "Events/Event_Desc_ArenaOpen_Day2_DraftTwo": {
         "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Dominaria United</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>",
         "translation": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Dominaria United</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>"
+    },
+    "Events/Event_Desc_ArenaOpen_Day2_DraftTwo_Fix": {
+        "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 11 a.m. PT - 1 p.m. PT and play their matches by 4 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Dominaria United</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Players must join the second draft between 11 a.m. PT - 1 p.m. PT and play their matches by 4 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Dominaria United</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>"
+    },
+    "Events/Event_Desc_ArenaOpen_Day2_Fix": {
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 11 a.m. PT.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second draft between 11 a.m. PT - 1 p.m. PT and play their matches by 4 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Dominaria United</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 11 a.m. PT.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second draft between 11 a.m. PT - 1 p.m. PT and play their matches by 4 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Dominaria United</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaTeamEvent": {
         "oracleText": "Thank you for all your hard work!",
@@ -13528,8 +13620,8 @@
         "translation": "每次从传过来的轮抽卡包中选一张牌，这些牌会加入你的收藏，你将使用这些牌加上基本地来构筑40张的套牌进行bo3对战。你将得到的奖励取决于你的胜场！"
     },
     "Events/Event_Desc_ELD_Premier_Draft": {
-        "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>",
-        "translation": "每次从传过来的轮抽卡包中选一张牌，这些牌会加入你的收藏，你将使用这些牌加上基本地来构筑40张的套牌开始游戏。你将得到的奖励取决于你的胜场!\n\n<b>真人轮抽～和其他七位玩家共同进行的限时轮抽</b>"
+        "oracleText": "<b><color=\"red\">This set is only legal in Historic and Explorer.</color></b>\n\nSelect one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>",
+        "translation": "<b><color=\"red\">This set is only legal in Historic and Explorer.</color></b>\n\nSelect one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>"
     },
     "Events/Event_Desc_ELD_Quick_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers",
@@ -14263,6 +14355,10 @@
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is the 2022 Challenger Decks! These iconic archetypes are available now, and you can take them for a spin right here. Choose your favorite strategy and seize victory!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>.",
         "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is the 2022 Challenger Decks! These iconic archetypes are available now, and you can take them for a spin right here. Choose your favorite strategy and seize victory!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>."
     },
+    "Events/Event_Desc_MWM_Cube_BotDraft": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Creature Cube Bot Draft: Try out the newest curated draft format on MTG Arena! Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Creature Cube Bot Draft: Try out the newest curated draft format on MTG Arena! Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+    },
     "Events/Event_Desc_MWM_DMU_Sealed": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Dominaria United</i> Sealed: Open six packs and add basic lands to make a 40-card deck, then play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
         "translation": "欢迎来到周中万智牌！每周尝试一个不同的方式来游玩万智牌竞技场！\n\n本周赛事是<i>多明纳里亚：众志成城</i>现开：打开六包卡牌并添加基本地来组成一副40张牌的套牌，然后随心所欲地与其他玩家对战。\n\n<b><color=\"red\">这是一个幻影活动。你所抓取的牌张不会添加到你的收藏当中。</color></b>\n\n更多关于本活动及即将到来的周中万智牌信息，请查看<u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>这里</link></u>。"
@@ -14375,6 +14471,10 @@
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Standard Shakeup: We're removing some of Standard's most popular and powerful cards. Search for new strategies and bring the best 60-card deck you can create!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>.",
         "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Standard Shakeup: We're removing some of Standard's most popular and powerful cards. Search for new strategies and bring the best 60-card deck you can create!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>."
     },
+    "Events/Event_Desc_MWM_UltimateShowdown2022": {
+        "oracleText": "<i>For years, the different player types have lived together in harmony. But today, everything changes. Today, it's time to stop being polite and start learning the empirically correct, clearly superior, and unambiguously best way to play the game.\n\nBut who will reign supreme? Will it be Timmy, master of monsters? Johnny, the ingenious inventor? Cutthroat card-slinger Spike? Or perhaps the lore-loving Vorthos? Each of these iconic archetypes has brought their own deck to this contest, and we've ripped the mana costs off so they can get right down to business. Welcome to the Ultimate Showdown!</i>\n\nIn this Omniscience event, each deck brings the essence of a player archetype to the table. Play as much as you want and change decks whenever you like. And if you find the archetype that truly speaks to your soul, you can add their avatar and sleeve to your collection in the Store!",
+        "translation": "<i>For years, the different player types have lived together in harmony. But today, everything changes. Today, it's time to stop being polite and start learning the empirically correct, clearly superior, and unambiguously best way to play the game.\n\nBut who will reign supreme? Will it be Timmy, master of monsters? Johnny, the ingenious inventor? Cutthroat card-slinger Spike? Or perhaps the lore-loving Vorthos? Each of these iconic archetypes has brought their own deck to this contest, and we've ripped the mana costs off so they can get right down to business. Welcome to the Ultimate Showdown!</i>\n\nIn this Omniscience event, each deck brings the essence of a player archetype to the table. Play as much as you want and change decks whenever you like. And if you find the archetype that truly speaks to your soul, you can add their avatar and sleeve to your collection in the Store!"
+    },
     "Events/Event_Desc_MWM_VOW_QuickDraft": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Crimson Vow Quick Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>.",
         "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Crimson Vow Quick Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">这是一个幻影活动。你所抓取的牌张不会添加到你的收藏当中。</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>."
@@ -14386,6 +14486,10 @@
     "Events/Event_Desc_MadScience_VOW": {
         "oracleText": "<i>This was never the plan. The machine was intended to capture energy from spellcasting so it could be reused, put to better purpose. Creating zombies bent to your will was not the purpose you had in mind - but then again, who's to say it's not a better one after all? Think of the good you could do, the recognition you could earn, the doubters who who would finally eat those words...or be eaten, if necessary...</i>\n\nIn this event, your Alchemy deck will let you show them all! When you cast an instant or sorcery, you will create a Zombie Army token based on its mana value. The more spells you cast, the larger your creation will grow, until your legion covers the countryside! When your mad rampage comes to an end, you'll receive Eternal Night card styles from <i>Innistrad: Crimson Vow</i>. There are 12 styles to collect!\n\nFor more details on this format, including a full list of card styles your experiments can uncover, click <u><link=https://magic.wizards.com/mtga-vow-mad-science>here</link></u>.",
         "translation": "<i>This was never the plan. The machine was intended to capture energy from spellcasting so it could be reused, put to better purpose. Creating zombies bent to your will was not the purpose you had in mind - but then again, who's to say it's not a better one after all? Think of the good you could do, the recognition you could earn, the doubters who who would finally eat those words...or be eaten, if necessary...</i>\n\nIn this event, your Alchemy deck will let you show them all! When you cast an instant or sorcery, you will create a Zombie Army token based on its mana value. The more spells you cast, the larger your creation will grow, until your legion covers the countryside! When your mad rampage comes to an end, you'll receive Eternal Night card styles from <i>Innistrad: Crimson Vow</i>. There are 12 styles to collect!\n\nFor more details on this format, including a full list of card styles your experiments can uncover, click <u><link=https://magic.wizards.com/mtga-vow-mad-science>here</link></u>."
+    },
+    "Events/Event_Desc_Magic30_Premier_Draft": {
+        "oracleText": "This weekend, we kickoff a yearlong celebration of Magic, culminating in the game's 30th anniversary! And MTG Arena is getting in on the action with Mixed-Up Draft, featuring mixed-together cards from many different sets in every pack. All players who enter will receive a special sleeve, and then you'll show down with cards from all across the game's history!\n\nSelect one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>",
+        "translation": "This weekend, we kickoff a yearlong celebration of Magic, culminating in the game's 30th anniversary! And MTG Arena is getting in on the action with Mixed-Up Draft, featuring mixed-together cards from many different sets in every pack. All players who enter will receive a special sleeve, and then you'll show down with cards from all across the game's history!\n\nSelect one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>"
     },
     "Events/Event_Desc_ManaLink_Draft": {
         "oracleText": "In Mana Link Draft, draft three packs and keep the cards you draft like normal, but there are some new rules. First, you will receive a land token automatically each turn. Second, you can cast any number of spells that you have enough lands to afford.\n\nWill you stay low to the ground and flood the board once you hit three lands? Or defend yourself enough to hit those expensive cards that will take control of the game? You can even still play lands from your hand to further accelerate yourself, but risk running out of action later on. You'll start with fewer cards and less life than normal, so be ready to jump right into the fray!\n\nSelect one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers",
@@ -14524,12 +14628,12 @@
         "translation": "参加活动，抢先体验<i>艾卓王权</i>！在此特殊活动中，你将从四副预组套牌中选择一副，加入我们最新的赛制～争锋！\n\n选择一位特殊的传奇生物或鹏洛客当作你的指挥官，并围绕它构筑一副套牌，而后与另一位牌手进行双人对战！欲知争锋赛制的更多信息，敬请<u></b><link=https://magic.wizards.com/mtga-brawl>点按此处</link></b></u>。\n\n争锋套牌不会加入牌手的收藏当中，但显示在赛事奖励中给出的<i>艾卓王权</i>卡牌可在9月9日开始的「2020标准赛」赛事活动中使用，并从9月26日开始可以在其他赛事活动中使用。"
     },
     "Events/Event_Desc_QualifierPlayIn_Bo1": {
-        "oracleText": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom <i>Dominaria United</i> Sealed with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
-        "translation": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom <i>Dominaria United</i> Sealed with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>"
+        "oracleText": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Standard with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
+        "translation": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Standard with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_QualifierPlayIn_Bo3": {
-        "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom Traditional <i>Dominaria United</i> Sealed with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
-        "translation": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom Traditional <i>Dominaria United</i> Sealed with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>"
+        "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Traditional Standard with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
+        "translation": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Traditional Standard with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_QualifierWeekend_Day1": {
         "oracleText": "Congratulations on earning your way to Qualifier Weekend! Sign up for this Day 1 event and get all 7 wins to qualify for Day 2! You may join each day only once.\n\nPlayers can only join Day 1 and (if qualified) Day 2 events between 6 a.m. PT - 8 a.m. PT.\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend>here</link></u> for full details.</color></b></size>",
@@ -14595,6 +14699,10 @@
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers\n\n<b>The Five Families</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> The Obscura: Craft the perfect draws and use superior intelligence over a long game to engineer a route to victory. Use the family's connive mechanic to draw, then discard - giving your creatures +1/+1 counters along the way!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> The Maestros: Hire expendable underlings as your family's muscle on the streets. Then use the casualty mechanic to sacrifice those minions, copy your spells, and blast your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> The Riveteers: The Riveteers rumble with large creatures. Give your creatures haste with the blitz mechanic, then sacrifice them at the end of your turn to draw a card. Keep that pressure up! Then press your advantage to crush your opponents.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> The Cabaretti: Flood the board with tokens and small creatures to overwhelm the opposition. The family knows how to collaborate for greater gain: alliance abilities give you additional effects whenever another creature enters the battlefield under your control.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> The Brokers: The Brokers are always ready to take down your opponents one notch at a time. Attack relentlessly to deal small amounts of damage, and mount an impenetrable defense - legal or otherwise! - by amassing shield counters on your creatures.",
         "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers\n\n<b>The Five Families</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> The Obscura: Craft the perfect draws and use superior intelligence over a long game to engineer a route to victory. Use the family's connive mechanic to draw, then discard - giving your creatures +1/+1 counters along the way!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> The Maestros: Hire expendable underlings as your family's muscle on the streets. Then use the casualty mechanic to sacrifice those minions, copy your spells, and blast your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> The Riveteers: The Riveteers rumble with large creatures. Give your creatures haste with the blitz mechanic, then sacrifice them at the end of your turn to draw a card. Keep that pressure up! Then press your advantage to crush your opponents.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> The Cabaretti: Flood the board with tokens and small creatures to overwhelm the opposition. The family knows how to collaborate for greater gain: alliance abilities give you additional effects whenever another creature enters the battlefield under your control.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> The Brokers: The Brokers are always ready to take down your opponents one notch at a time. Attack relentlessly to deal small amounts of damage, and mount an impenetrable defense - legal or otherwise! - by amassing shield counters on your creatures."
     },
+    "Events/Event_Desc_SNC_Rebalanced_Draft": {
+        "oracleText": "In this Planeshifted Draft, many of the cards from <i>Streets of New Capenna</i> have been rebalanced, creating an alternative look at this draft format. Figure out which families are coming into power, and you could rule New Capenna when the dust settles.\n\nSelect one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>",
+        "translation": "In this Planeshifted Draft, many of the cards from <i>Streets of New Capenna</i> have been rebalanced, creating an alternative look at this draft format. Figure out which families are coming into power, and you could rule New Capenna when the dust settles.\n\nSelect one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>"
+    },
     "Events/Event_Desc_SNC_Trad_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players </b>\n\n<b>The Five Families</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> The Obscura: Craft the perfect draws and use superior intelligence over a long game to engineer a route to victory. Use the family's connive mechanic to draw, then discard - giving your creatures +1/+1 counters along the way!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> The Maestros: Hire expendable underlings as your family's muscle on the streets. Then use the casualty mechanic to sacrifice those minions, copy your spells, and blast your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> The Riveteers: The Riveteers rumble with large creatures. Give your creatures haste with the blitz mechanic, then sacrifice them at the end of your turn to draw a card. Keep that pressure up! Then press your advantage to crush your opponents.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> The Cabaretti: Flood the board with tokens and small creatures to overwhelm the opposition. The family knows how to collaborate for greater gain: alliance abilities give you additional effects whenever another creature enters the battlefield under your control.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> The Brokers: The Brokers are always ready to take down your opponents one notch at a time. Attack relentlessly to deal small amounts of damage, and mount an impenetrable defense - legal or otherwise! - by amassing shield counters on your creatures.",
         "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players </b>\n\n<b>The Five Families</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> The Obscura: Craft the perfect draws and use superior intelligence over a long game to engineer a route to victory. Use the family's connive mechanic to draw, then discard - giving your creatures +1/+1 counters along the way!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> The Maestros: Hire expendable underlings as your family's muscle on the streets. Then use the casualty mechanic to sacrifice those minions, copy your spells, and blast your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> The Riveteers: The Riveteers rumble with large creatures. Give your creatures haste with the blitz mechanic, then sacrifice them at the end of your turn to draw a card. Keep that pressure up! Then press your advantage to crush your opponents.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> The Cabaretti: Flood the board with tokens and small creatures to overwhelm the opposition. The family knows how to collaborate for greater gain: alliance abilities give you additional effects whenever another creature enters the battlefield under your control.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> The Brokers: The Brokers are always ready to take down your opponents one notch at a time. Attack relentlessly to deal small amounts of damage, and mount an impenetrable defense - legal or otherwise! - by amassing shield counters on your creatures."
@@ -14620,8 +14728,8 @@
         "translation": "你将得到6包15张牌的补充包。补充包内的牌张都会加入你的收藏，而你将利用这些牌外加基本地来构筑一副40张的套牌进行游戏。不断进行对战，最后根据你的胜场数量赢得奖励！"
     },
     "Events/Event_Desc_Sealed_DAR": {
-        "oracleText": "You'll receive 6 fourteen-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win",
-        "translation": "你将得到6包14张牌的补充包。补充包内的牌张都会加入你的收藏，而你将利用这些牌外加基本地来构筑一副40张的套牌进行游戏。不断进行对战，最后根据胜场数量赢得奖励"
+        "oracleText": "<b><color=\"red\">This set is only legal in Historic and Explorer.</color></b>\n\nYou'll receive 6 <i>Dominaria</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!",
+        "translation": "<b><color=\"red\">This set is only legal in Historic and Explorer.</color></b>\n\nYou'll receive 6 <i>Dominaria</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!"
     },
     "Events/Event_Desc_Sealed_DMU": {
         "oracleText": "You'll receive 6 <i>Dominaria United</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Fliers Tempo</b> Hold your ground with tokens and defensive instants and sorceries, all while attacking from the air.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Control</b> Develop a long-term advantage with card draw and creature removal spells, then go after your opponent directly in the late game.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Reckless Aggro</b> Throw caution to the wind and assault your opponent, clearing a path with creature removal spells or by simply trading your creatures for theirs.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Domain Stompy</b> Rule the board by attacking with the largest creatures on the battlefield, boosted by the domain mechanic.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Domain Tokens</b> Assemble a massive army of creatures and tokens, then dominate the mid-game with the domain mechanic.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Creature Sacrifice</b> Ruthlessly sacrifice your small creatures or tokens for profit, then bring creatures back from the graveyard to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Spells Aggro</b> Cast instant and sorcery spells to bolster aggressive creatures and clear a path to victory.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Domain Midrange</b> Get maximum value out of your cards with huge creatures, bringing cards back from the graveyard, and domain rewards.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Tokens Aggro</b> Go wide with an aggressive army of small creatures and tokens, punching through your opponent's defenses with spells and effects that boost your whole team.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Kicker Ramp</b> Build up your mana to get additional value from kicking your spells. Splash in some other colors to take advantage of powerful multicolor cards and the domain mechanic.",
@@ -14814,6 +14922,10 @@
     "Events/Event_Desc_Trad_Sealed_AFR": {
         "oracleText": "You'll receive 6 fourteen-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!",
         "translation": "You'll receive 6 fourteen-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!"
+    },
+    "Events/Event_Desc_Trad_Sealed_DAR": {
+        "oracleText": "<b><color=\"red\">This set is only legal in Historic and Explorer.</color></b>\n\nYou'll receive 6 <i>Dominaria</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!",
+        "translation": "<b><color=\"red\">This set is only legal in Historic and Explorer.</color></b>\n\nYou'll receive 6 <i>Dominaria</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!"
     },
     "Events/Event_Desc_Trad_Sealed_DMU": {
         "oracleText": "You'll receive 6 <i>Dominaria United</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Fliers Tempo</b> Hold your ground with tokens and defensive instants and sorceries, all while attacking from the air.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Control</b> Develop a long-term advantage with card draw and creature removal spells, then go after your opponent directly in the late game.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Reckless Aggro</b> Throw caution to the wind and assault your opponent, clearing a path with creature removal spells or by simply trading your creatures for theirs.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Domain Stompy</b> Rule the board by attacking with the largest creatures on the battlefield, boosted by the domain mechanic.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Domain Tokens</b> Assemble a massive army of creatures and tokens, then dominate the mid-game with the domain mechanic.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Creature Sacrifice</b> Ruthlessly sacrifice your small creatures or tokens for profit, then bring creatures back from the graveyard to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Spells Aggro</b> Cast instant and sorcery spells to bolster aggressive creatures and clear a path to victory.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Domain Midrange</b> Get maximum value out of your cards with huge creatures, bringing cards back from the graveyard, and domain rewards.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Tokens Aggro</b> Go wide with an aggressive army of small creatures and tokens, punching through your opponent's defenses with spells and effects that boost your whole team.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Kicker Ramp</b> Build up your mana to get additional value from kicking your spells. Splash in some other colors to take advantage of powerful multicolor cards and the domain mechanic.",
@@ -15022,6 +15134,14 @@
     "Events/Event_Desc_Y22SNC_Premier_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<b>The Five Families</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> The Obscura: Craft the perfect draws and use superior intelligence over a long game to engineer a route to victory. Use the family's connive mechanic to draw, then discard - giving your creatures +1/+1 counters along the way!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> The Maestros: Hire expendable underlings as your family's muscle on the streets. Then use the casualty mechanic to sacrifice those minions, copy your spells, and blast your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> The Riveteers: The Riveteers rumble with large creatures. Give your creatures haste with the blitz mechanic, then sacrifice them at the end of your turn to draw a card. Keep that pressure up! Then press your advantage to crush your opponents.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> The Cabaretti: Flood the board with tokens and small creatures to overwhelm the opposition. The family knows how to collaborate for greater gain: alliance abilities give you additional effects whenever another creature enters the battlefield under your control.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> The Brokers: The Brokers are always ready to take down your opponents one notch at a time. Attack relentlessly to deal small amounts of damage, and mount an impenetrable defense - legal or otherwise! - by amassing shield counters on your creatures.",
         "translation": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<b>The Five Families</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> The Obscura: Craft the perfect draws and use superior intelligence over a long game to engineer a route to victory. Use the family's connive mechanic to draw, then discard - giving your creatures +1/+1 counters along the way!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> The Maestros: Hire expendable underlings as your family's muscle on the streets. Then use the casualty mechanic to sacrifice those minions, copy your spells, and blast your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> The Riveteers: The Riveteers rumble with large creatures. Give your creatures haste with the blitz mechanic, then sacrifice them at the end of your turn to draw a card. Keep that pressure up! Then press your advantage to crush your opponents.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> The Cabaretti: Flood the board with tokens and small creatures to overwhelm the opposition. The family knows how to collaborate for greater gain: alliance abilities give you additional effects whenever another creature enters the battlefield under your control.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> The Brokers: The Brokers are always ready to take down your opponents one notch at a time. Attack relentlessly to deal small amounts of damage, and mount an impenetrable defense - legal or otherwise! - by amassing shield counters on your creatures."
+    },
+    "Events/Event_Desc_Y23DMU_Premier_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Fliers Tempo</b> Hold your ground with tokens and defensive instants and sorceries, all while attacking from the air.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Control</b> Develop a long-term advantage with card draw and creature removal spells, then go after your opponent directly in the late game.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Reckless Aggro</b> Throw caution to the wind and assault your opponent, clearing a path with creature removal spells or by simply trading your creatures for theirs.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Domain Stompy</b> Rule the board by attacking with the largest creatures on the battlefield, boosted by the domain mechanic.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Domain Tokens</b> Assemble a massive army of creatures and tokens, then dominate the mid-game with the domain mechanic.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Creature Sacrifice</b> Ruthlessly sacrifice your small creatures or tokens for profit, then bring creatures back from the graveyard to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Spells Aggro</b> Cast instant and sorcery spells to bolster aggressive creatures and clear a path to victory.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Domain Midrange</b> Get maximum value out of your cards with huge creatures, bringing cards back from the graveyard, and domain rewards.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Tokens Aggro</b> Go wide with an aggressive army of small creatures and tokens, punching through your opponent's defenses with spells and effects that boost your whole team.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Kicker Ramp</b> Build up your mana to get additional value from kicking your spells. Splash in some other colors to take advantage of powerful multicolor cards and the domain mechanic.",
+        "translation": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Fliers Tempo</b> Hold your ground with tokens and defensive instants and sorceries, all while attacking from the air.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Control</b> Develop a long-term advantage with card draw and creature removal spells, then go after your opponent directly in the late game.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Reckless Aggro</b> Throw caution to the wind and assault your opponent, clearing a path with creature removal spells or by simply trading your creatures for theirs.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Domain Stompy</b> Rule the board by attacking with the largest creatures on the battlefield, boosted by the domain mechanic.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Domain Tokens</b> Assemble a massive army of creatures and tokens, then dominate the mid-game with the domain mechanic.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Creature Sacrifice</b> Ruthlessly sacrifice your small creatures or tokens for profit, then bring creatures back from the graveyard to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Spells Aggro</b> Cast instant and sorcery spells to bolster aggressive creatures and clear a path to victory.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Domain Midrange</b> Get maximum value out of your cards with huge creatures, bringing cards back from the graveyard, and domain rewards.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Tokens Aggro</b> Go wide with an aggressive army of small creatures and tokens, punching through your opponent's defenses with spells and effects that boost your whole team.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Kicker Ramp</b> Build up your mana to get additional value from kicking your spells. Splash in some other colors to take advantage of powerful multicolor cards and the domain mechanic."
+    },
+    "Events/Event_Desc_Y23DMU_Premier_Draft_TEST": {
+        "oracleText": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xW\\\"><sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xU\\\"> <b>Fliers Tempo</b> Hold your ground with tokens and defensive instants and sorceries, all while attacking from the air.\n\n<sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xU\\\"><sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xB\\\"> <b>Control</b> Develop a long-term advantage with card draw and creature removal spells, then go after your opponent directly in the late game.\n\n<sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xB\\\"><sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xR\\\"> <b>Reckless Aggro</b> Throw caution to the wind and assault your opponent, clearing a path with creature removal spells or by simply trading your creatures for theirs.\n\n<sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xR\\\"><sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xG\\\"> <b>Domain Stompy</b> Rule the board by attacking with the largest creatures on the battlefield, boosted by the domain mechanic.\n\n<sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xG\\\"><sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xW\\\"> <b>Domain Tokens</b> Assemble a massive army of creatures and tokens, then dominate the mid-game with the domain mechanic.\n\n<sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xW\\\"><sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xB\\\"> <b>Creature Sacrifice</b> Ruthlessly sacrifice your small creatures or tokens for profit, then bring creatures back from the graveyard to overwhelm your opponent.\n\n<sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xU\\\"><sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xR\\\"> <b>Spells Aggro</b> Cast instant and sorcery spells to bolster aggressive creatures and clear a path to victory.\n\n<sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xB\\\"><sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xG\\\"> <b>Domain Midrange</b> Get maximum value out of your cards with huge creatures, bringing cards back from the graveyard, and domain rewards.\n\n<sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xW\\\"><sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xR\\\"> <b>Tokens Aggro</b> Go wide with an aggressive army of small creatures and tokens, punching through your opponent's defenses with spells and effects that boost your whole team.\n\n<sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xU\\\"><sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xG\\\"> <b>Kicker Ramp</b> Build up your mana to get additional value from kicking your spells. Splash in some other colors to take advantage of powerful multicolor cards and the domain mechanic.",
+        "translation": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xW\\\"><sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xU\\\"> <b>Fliers Tempo</b> Hold your ground with tokens and defensive instants and sorceries, all while attacking from the air.\n\n<sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xU\\\"><sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xB\\\"> <b>Control</b> Develop a long-term advantage with card draw and creature removal spells, then go after your opponent directly in the late game.\n\n<sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xB\\\"><sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xR\\\"> <b>Reckless Aggro</b> Throw caution to the wind and assault your opponent, clearing a path with creature removal spells or by simply trading your creatures for theirs.\n\n<sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xR\\\"><sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xG\\\"> <b>Domain Stompy</b> Rule the board by attacking with the largest creatures on the battlefield, boosted by the domain mechanic.\n\n<sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xG\\\"><sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xW\\\"> <b>Domain Tokens</b> Assemble a massive army of creatures and tokens, then dominate the mid-game with the domain mechanic.\n\n<sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xW\\\"><sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xB\\\"> <b>Creature Sacrifice</b> Ruthlessly sacrifice your small creatures or tokens for profit, then bring creatures back from the graveyard to overwhelm your opponent.\n\n<sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xU\\\"><sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xR\\\"> <b>Spells Aggro</b> Cast instant and sorcery spells to bolster aggressive creatures and clear a path to victory.\n\n<sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xB\\\"><sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xG\\\"> <b>Domain Midrange</b> Get maximum value out of your cards with huge creatures, bringing cards back from the graveyard, and domain rewards.\n\n<sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xW\\\"><sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xR\\\"> <b>Tokens Aggro</b> Go wide with an aggressive army of small creatures and tokens, punching through your opponent's defenses with spells and effects that boost your whole team.\n\n<sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xU\\\"><sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xG\\\"> <b>Kicker Ramp</b> Build up your mana to get additional value from kicking your spells. Splash in some other colors to take advantage of powerful multicolor cards and the domain mechanic."
     },
     "Events/Event_Desc_Yargle_Day_2020": {
         "oracleText": "When Belzenlok's lieutenant Yar-Kul grew too ambitious, the Demonlord transformed him into a maggot. The frog that ate the maggot grew and grew, until a ravenous spirit burst from its body. Today, we celebrate that spirit, everyone's pal, Yargle!\n\nWe asked Yargle how best to celebrate, and here's how we interpreted its gurgles and shrieks:\n- Yargle makes the rules! Yargle has provided decks for everyone to use, and we've even cleaned most of the slime off of them.\n- Yargle is the center of attention! Yargle is the only non-common card allowed, and you'll have plenty of extras so you won't run out.\n- Yargle is special! Yargle will be faster to get into the fight, so nobody has to have fun alone.\n\nJoin us for a rip-roaring good time with a spirit of a frog which ate a maggot that was actually a transformed lieutenant of a demon. Happy Yargle Day, everyone!",
@@ -16439,6 +16559,10 @@
         "oracleText": "Midweek Magic: Challenger Showcase",
         "translation": "周中万智牌：挑战者套牌展览"
     },
+    "Events/Event_Title_MWM_Cube_BotDraft": {
+        "oracleText": "Midweek Magic: Phantom Bot Draft",
+        "translation": "Midweek Magic: Phantom Bot Draft"
+    },
     "Events/Event_Title_MWM_DMU_Sealed": {
         "oracleText": "Midweek Magic: Phantom Sealed",
         "translation": "周中万智牌：幻影现开"
@@ -16551,6 +16675,10 @@
         "oracleText": "Midweek Magic: Standard Shakeup",
         "translation": "周中万智牌：标准非主流"
     },
+    "Events/Event_Title_MWM_UltimateShowdown2022": {
+        "oracleText": "The Ultimate Showdown",
+        "translation": "The Ultimate Showdown"
+    },
     "Events/Event_Title_MWM_VOW_QuickDraft": {
         "oracleText": "Midweek Magic: Phantom Quick Draft",
         "translation": "周中万智牌：幻影快速轮抽"
@@ -16562,6 +16690,10 @@
     "Events/Event_Title_MadScience_VOW": {
         "oracleText": "Mad Science",
         "translation": "疯狂科学"
+    },
+    "Events/Event_Title_Magic30_Premier_Draft": {
+        "oracleText": "Magic 30: Mixed-Up Premier Draft",
+        "translation": "Magic 30: Mixed-Up Premier Draft"
     },
     "Events/Event_Title_ManaLink_Draft": {
         "oracleText": "Mana Link Draft",
@@ -16818,6 +16950,10 @@
     "Events/Event_Title_SNC_Quick_Draft": {
         "oracleText": "Quick Draft New Capenna",
         "translation": "新卡佩纳快速轮抽"
+    },
+    "Events/Event_Title_SNC_Rebalanced_Draft": {
+        "oracleText": "Planeshifted Draft New Capenna",
+        "translation": "Planeshifted Draft New Capenna"
     },
     "Events/Event_Title_SNC_Trad_Draft": {
         "oracleText": "Traditional Draft New Capenna",
@@ -17087,6 +17223,10 @@
         "oracleText": "Traditional Sealed Forgotten Realms",
         "translation": "被遗忘国度三盘现开"
     },
+    "Events/Event_Title_Trad_Sealed_DAR": {
+        "oracleText": "Traditional Sealed Dominaria",
+        "translation": "Traditional Sealed Dominaria"
+    },
     "Events/Event_Title_Trad_Sealed_DMU": {
         "oracleText": "Traditional Sealed Dominaria United",
         "translation": "多明纳里亚：众志成城三盘现开"
@@ -17306,6 +17446,10 @@
     "Events/Event_Title_Y22SNC_Premier_Draft": {
         "oracleText": "Premier Draft New Capenna Alchemy",
         "translation": "新卡佩纳炼金竞技轮抽"
+    },
+    "Events/Event_Title_Y23DMU_Premier_Draft": {
+        "oracleText": "Premier Draft Dominaria United Alchemy",
+        "translation": "Premier Draft Dominaria United Alchemy"
     },
     "Events/Event_Title_Yargle_Day_2020": {
         "oracleText": "Yargle Day!",
@@ -18419,6 +18563,10 @@
         "oracleText": "Join between 6am and 8am Pacific on November 12",
         "translation": "Join between 6am and 8am Pacific on November 12"
     },
+    "Events/Tokens/QualifierDay1TokenDescription20221210": {
+        "oracleText": "Join between 6am and 8am Pacific on December 10",
+        "translation": "Join between 6am and 8am Pacific on December 10"
+    },
     "Events/Tokens/QualifierDay1TokenPlural": {
         "oracleText": "Qualifier Weekend Token",
         "translation": "资格赛周末门票"
@@ -18468,8 +18616,28 @@
         "translation": "公开赛 - 第二天 二次轮抽"
     },
     "Events/Tokens/Token_OpenDay2Draft2_Desc": {
-        "oracleText": "Join between 12pm and 2pm Pacific",
-        "translation": "在太平洋时间的中午十二点到下午二点加入"
+        "oracleText": "Join between 11am and 1pm Pacific",
+        "translation": "Join between 11am and 1pm Pacific"
+    },
+    "Events/Tokens/Token_OpenDay2Sealed1Plural": {
+        "oracleText": "Open Day 2 Sealed One",
+        "translation": "Open Day 2 Sealed One"
+    },
+    "Events/Tokens/Token_OpenDay2Sealed1Singular": {
+        "oracleText": "Open Day 2 Sealed One",
+        "translation": "Open Day 2 Sealed One"
+    },
+    "Events/Tokens/Token_OpenDay2Sealed2Plural": {
+        "oracleText": "Open Day 2 Sealed Two",
+        "translation": "Open Day 2 Sealed Two"
+    },
+    "Events/Tokens/Token_OpenDay2Sealed2Singular": {
+        "oracleText": "Open Day 2 Sealed Two",
+        "translation": "Open Day 2 Sealed Two"
+    },
+    "Events/Tokens/Token_OpenDay2Sealed2_Desc": {
+        "oracleText": "Join between 11am and 1pm Pacific",
+        "translation": "Join between 11am and 1pm Pacific"
     },
     "Events/Tokens/Token_OpenSideEvent_20221001Plural": {
         "oracleText": "Mixed-Up Sealed Pass",
@@ -18682,6 +18850,10 @@
     "General/Sets/Y22-SNC": {
         "oracleText": "Alchemy: New Capenna",
         "translation": "炼金：新卡佩纳"
+    },
+    "General/Sets/Y23-DMU": {
+        "oracleText": "Alchemy: Dominaria",
+        "translation": "Alchemy: Dominaria"
     },
     "General/Sets/ZNR": {
         "oracleText": "Zendikar Rising",
@@ -21444,8 +21616,8 @@
         "translation": "搜索词"
     },
     "MainNav/DeckBuilder/Advanced_Text_Search_TextComparisons": {
-        "oracleText": "Text Comparisions",
-        "translation": "文本比较"
+        "oracleText": "Text Comparisons",
+        "translation": "Text Comparisons"
     },
     "MainNav/DeckBuilder/Advanced_Text_Search_Title": {
         "oracleText": "Title",
@@ -22635,6 +22807,38 @@
         "oracleText": "Apply Sleeves in the Deck Builder",
         "translation": "在套牌构筑界面中应用牌套"
     },
+    "MainNav/Deckbuilder/Sleeves/CardBack_40K_422744": {
+        "oracleText": "Abaddon the Despoiler Sleeve",
+        "translation": "Abaddon the Despoiler Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_40K_422754": {
+        "oracleText": "Wayfarer's Bauble Sleeve",
+        "translation": "Wayfarer's Bauble Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_40K_423030": {
+        "oracleText": "Royal Warden Sleeve",
+        "translation": "Royal Warden Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_40K_423105": {
+        "oracleText": "Royal Warden Sleeve",
+        "translation": "Royal Warden Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_40K_423131": {
+        "oracleText": "Noise Marine Sleeve",
+        "translation": "Noise Marine Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_40K_424486": {
+        "oracleText": "Tyranid Sleeve",
+        "translation": "Tyranid Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_40K_424493": {
+        "oracleText": "Vanguard Suppressor Sleeve",
+        "translation": "Vanguard Suppressor Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_40K_424495": {
+        "oracleText": "Tyranid Warrior Sleeve",
+        "translation": "Tyranid Warrior Sleeve"
+    },
     "MainNav/Deckbuilder/Sleeves/CardBack_AFR_418832": {
         "oracleText": "Xanathar, Guild Kingpin Sleeve",
         "translation": "公会首领札那瑟牌套"
@@ -22987,6 +23191,10 @@
         "oracleText": "Ajani, Sleeper Agent Exquisite Sleeve",
         "translation": "潜藏密探阿耶尼精饰牌套"
     },
+    "MainNav/Deckbuilder/Sleeves/CardBack_DMU_427314": {
+        "oracleText": "Squee, Dubious Monarch Sleeve",
+        "translation": "Squee, Dubious Monarch Sleeve"
+    },
     "MainNav/Deckbuilder/Sleeves/CardBack_DMU_428774": {
         "oracleText": "Liliana of the Veil Sleeve",
         "translation": "面纱的莉莲娜牌套"
@@ -23003,9 +23211,17 @@
         "oracleText": "Rona, Sheoldred's Faithful Stained Glass Sleeve",
         "translation": "希欧蕊信徒罗娜花窗牌套"
     },
+    "MainNav/Deckbuilder/Sleeves/CardBack_DMU_429010": {
+        "oracleText": "Zur, Eternal Schemer Sleeve",
+        "translation": "Zur, Eternal Schemer Sleeve"
+    },
     "MainNav/Deckbuilder/Sleeves/CardBack_DMU_429014": {
         "oracleText": "Shanna, Purifying Blade Stained Glass Sleeve",
         "translation": "涤净之刃莎娜花窗牌套"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_DMU_429337": {
+        "oracleText": "Urza Assembles the Titans Sleeve",
+        "translation": "Urza Assembles the Titans Sleeve"
     },
     "MainNav/Deckbuilder/Sleeves/CardBack_DMU_430687": {
         "oracleText": "King Darien XLVIII Stained Glass Sleeve",
@@ -23018,6 +23234,10 @@
     "MainNav/Deckbuilder/Sleeves/CardBack_DMU_438412": {
         "oracleText": "Renewal 2022 Sleeve",
         "translation": "焕新2022牌套"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_DMU_StainedGlassBasics": {
+        "oracleText": "",
+        "translation": ""
     },
     "MainNav/Deckbuilder/Sleeves/CardBack_DepthArt_NicolBolasDragonGod": {
         "oracleText": "Nicol Bolas, Dragon-God Exquisite Sleeve",
@@ -23955,6 +24175,26 @@
         "oracleText": "Li'l Walker Angrath Sleeve",
         "translation": "小旅法安戈斯牌套"
     },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_423438": {
+        "oracleText": "Wood Elves Weirdest Pet Sleeve",
+        "translation": "Wood Elves Weirdest Pet Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_423439": {
+        "oracleText": "Laboratory Maniac Weirdest Pet Sleeve",
+        "translation": "Laboratory Maniac Weirdest Pet Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_423440": {
+        "oracleText": "Beast Whisperer Weirdest Pet Sleeve",
+        "translation": "Beast Whisperer Weirdest Pet Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_423441": {
+        "oracleText": "Vizier of the Menagerie Weirdest Pet Sleeve",
+        "translation": "Vizier of the Menagerie Weirdest Pet Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_423442": {
+        "oracleText": "Stitcher's Supplier Weirdest Pet Sleeve",
+        "translation": "Stitcher's Supplier Weirdest Pet Sleeve"
+    },
     "MainNav/Deckbuilder/Sleeves/CardBack_RD_423606": {
         "oracleText": "Counterspell Sleeve",
         "translation": "反击咒语牌套"
@@ -23970,6 +24210,18 @@
     "MainNav/Deckbuilder/Sleeves/CardBack_RD_424027": {
         "oracleText": "Night's Whisper Sleeve",
         "translation": "夜空细语牌套"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_424180": {
+        "oracleText": "Yoji Shinkawa Tezzeret the Seeker Sleeve",
+        "translation": "Yoji Shinkawa Tezzeret the Seeker Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_424182": {
+        "oracleText": "Yoji Shinkawa Skullclamp Sleeve",
+        "translation": "Yoji Shinkawa Skullclamp Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_424183": {
+        "oracleText": "Yoji Shinkawa Solemn Simulacrum Sleeve",
+        "translation": "Yoji Shinkawa Solemn Simulacrum Sleeve"
     },
     "MainNav/Deckbuilder/Sleeves/CardBack_RD_425119": {
         "oracleText": "Ryu, World Warrior Sleeve",
@@ -24030,6 +24282,38 @@
     "MainNav/Deckbuilder/Sleeves/CardBack_RD_426881": {
         "oracleText": "Kaito Unmask Sleeve",
         "translation": "魁渡揭开真相牌套"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_427255": {
+        "oracleText": "Liliana of the Dark Realms If Looks Could Kill Sleeve",
+        "translation": "Liliana of the Dark Realms If Looks Could Kill Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_427256": {
+        "oracleText": "Adaptive Automaton If Looks Could Kill Sleeve",
+        "translation": "Adaptive Automaton If Looks Could Kill Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_427257": {
+        "oracleText": "Azami, Lady of Scrolls If Looks Could Kill Sleeve",
+        "translation": "Azami, Lady of Scrolls If Looks Could Kill Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_427258": {
+        "oracleText": "Reflector Mage If Looks Could Kill Sleeve",
+        "translation": "Reflector Mage If Looks Could Kill Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_427259": {
+        "oracleText": "Junji Ito Thoughtseize Sleeve",
+        "translation": "Junji Ito Thoughtseize Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_427261": {
+        "oracleText": "Junji Ito Doomsday Sleeve",
+        "translation": "Junji Ito Doomsday Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_427262": {
+        "oracleText": "Junji Ito Plaguecrafter Sleeve",
+        "translation": "Junji Ito Plaguecrafter Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_427263": {
+        "oracleText": "Junji Ito Carrion Feeder Sleeve",
+        "translation": "Junji Ito Carrion Feeder Sleeve"
     },
     "MainNav/Deckbuilder/Sleeves/CardBack_RD_427268": {
         "oracleText": "Pir, Imaginative Rascal Sleeve",
@@ -24119,6 +24403,42 @@
         "oracleText": "Dan Frazier Talisman of Unity Sleeve",
         "translation": "Dan Frazier版调和饰符牌套"
     },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_429559": {
+        "oracleText": "",
+        "translation": ""
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_429560": {
+        "oracleText": "",
+        "translation": ""
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_429561": {
+        "oracleText": "",
+        "translation": ""
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_429562": {
+        "oracleText": "",
+        "translation": ""
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_429563": {
+        "oracleText": "",
+        "translation": ""
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_430595": {
+        "oracleText": "Strip Mine Spaced Out Sleeve",
+        "translation": "Strip Mine Spaced Out Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_430596": {
+        "oracleText": "Fabled Passage Spaced Out Sleeve",
+        "translation": "Fabled Passage Spaced Out Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_430597": {
+        "oracleText": "Command Beacon Spaced Out Sleeve",
+        "translation": "Command Beacon Spaced Out Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_430598": {
+        "oracleText": "Ash Barrens Spaced Out Sleeve",
+        "translation": "Ash Barrens Spaced Out Sleeve"
+    },
     "MainNav/Deckbuilder/Sleeves/CardBack_RD_430859": {
         "oracleText": "Vaevictis Asmadi Stained Glass Sleeve",
         "translation": "*瓦威提阿玛迪*花窗牌套"
@@ -24199,6 +24519,10 @@
         "oracleText": "Shades Not Included Forest Sleeve",
         "translation": "*不要墨镜*树林牌套"
     },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_431313": {
+        "oracleText": "Yoji Shinkawa Phyrexian Metamorph Sleeve",
+        "translation": "Yoji Shinkawa Phyrexian Metamorph Sleeve"
+    },
     "MainNav/Deckbuilder/Sleeves/CardBack_RD_431425": {
         "oracleText": "Atraxa, Praetors Voice Showcase Sleeve",
         "translation": "*魔判官之声亚崔夏*镶金闪牌套"
@@ -24210,6 +24534,22 @@
     "MainNav/Deckbuilder/Sleeves/CardBack_RD_431427": {
         "oracleText": "Yidris, Maelstrom Wielder Showcase Sleeve",
         "translation": "*涡心法师依吉*镶金闪牌套"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_431795": {
+        "oracleText": "Stasis Beyond the Stars Sleeve",
+        "translation": "Stasis Beyond the Stars Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_431796": {
+        "oracleText": "Imprisoned in the Moon Beyond the Stars Sleeve",
+        "translation": "Imprisoned in the Moon Beyond the Stars Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_431797": {
+        "oracleText": "Wheel of Sun and Moon Beyond the Stars Sleeve",
+        "translation": "Wheel of Sun and Moon Beyond the Stars Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_RD_431798": {
+        "oracleText": "Prismatic Omen Beyond the Stars Sleeve",
+        "translation": "Prismatic Omen Beyond the Stars Sleeve"
     },
     "MainNav/Deckbuilder/Sleeves/CardBack_RD_431824": {
         "oracleText": "Totally Normal Void Winnower Sleeve",
@@ -24515,6 +24855,22 @@
         "oracleText": "Elspeth's Nightmare Sleeve",
         "translation": "艾紫培的梦魇牌套"
     },
+    "MainNav/Deckbuilder/Sleeves/CardBack_UNF_400465": {
+        "oracleText": "Spike, Tournament Grinder Sleeve",
+        "translation": "Spike, Tournament Grinder Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_UNF_413455": {
+        "oracleText": "Timmy, Power Gamer Sleeve",
+        "translation": "Timmy, Power Gamer Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_UNF_418311": {
+        "oracleText": "Vorthos, Steward of Myth Sleeve",
+        "translation": "Vorthos, Steward of Myth Sleeve"
+    },
+    "MainNav/Deckbuilder/Sleeves/CardBack_UNF_79770": {
+        "oracleText": "Johnny, Combo Player Sleeve",
+        "translation": "Johnny, Combo Player Sleeve"
+    },
     "MainNav/Deckbuilder/Sleeves/CardBack_VOW_409706": {
         "oracleText": "Winter Fox Sleeve",
         "translation": "冬日狐牌套"
@@ -24552,8 +24908,8 @@
         "translation": "卢诺溪堡牌套"
     },
     "MainNav/Deckbuilder/Sleeves/CardBack_VOW_422883": {
-        "oracleText": "Lucy Westenra Transforming Sleeve",
-        "translation": "露西韦斯特拉牌套"
+        "oracleText": "Transforming Lucy Westenra Exquisite Sleeve",
+        "translation": "Transforming Lucy Westenra Exquisite Sleeve"
     },
     "MainNav/Deckbuilder/Sleeves/CardBack_VOW_424047": {
         "oracleText": "Sorin the Mirthless Sleeve",
@@ -25408,8 +25764,8 @@
         "translation": "{number1}真人轮抽门票和{number2}个补充包"
     },
     "MainNav/EventRewards/DraftTwo": {
-        "oracleText": "Qualify for Draft Two",
-        "translation": "二次轮抽的资格"
+        "oracleText": "This qualifies you for Draft Two of this event. Join from 11 a.m. - 1 p.m. PT.",
+        "translation": "This qualifies you for Draft Two of this event. Join from 11 a.m. - 1 p.m. PT."
     },
     "MainNav/EventRewards/Early_ELD_Cards": {
         "oracleText": "These cards are only legal in Standard 2020 events until September 26, then in additional formats and events afterward.",
@@ -25891,6 +26247,10 @@
         "oracleText": "Rocco, Cabaretti Caterer Card Style",
         "translation": "*乐舞会主厨罗孔*卡牌样式"
     },
+    "MainNav/EventRewards/SealedTwo": {
+        "oracleText": "This qualifies you for Sealed Two of this event. Join from 11 a.m. - 1 p.m. PT.",
+        "translation": "This qualifies you for Sealed Two of this event. Join from 11 a.m. - 1 p.m. PT."
+    },
     "MainNav/EventRewards/Shattered_Seraph": {
         "oracleText": "Shattered Seraph Card Style",
         "translation": "*碎翼炽天使*卡牌样式"
@@ -25998,6 +26358,18 @@
     "MainNav/EventRewards/Sticker_HBG_WhiteDragon": {
         "oracleText": "White Dragon Bored Sticker Emote",
         "translation": "白龙无聊贴纸表情"
+    },
+    "MainNav/EventRewards/Sticker_Posty_Karn_Crowdsurf": {
+        "oracleText": "Karn Crowd Surfing Sticker Emote",
+        "translation": "Karn Crowd Surfing Sticker Emote"
+    },
+    "MainNav/EventRewards/Sticker_Posty_Radha_Headbang": {
+        "oracleText": "Radha Headbang Sticker Emote",
+        "translation": "Radha Headbang Sticker Emote"
+    },
+    "MainNav/EventRewards/Sticker_Posty_Squee_Rimshot": {
+        "oracleText": "Squee Rimshot Sticker Emote",
+        "translation": "Squee Rimshot Sticker Emote"
     },
     "MainNav/EventRewards/Sticker_SNC_Elspeth": {
         "oracleText": "Elspeth Mic Drop Sticker Emote",
@@ -27263,6 +27635,14 @@
         "oracleText": "Dominaria United is now on sale!",
         "translation": "多明纳里亚：众志成城已经发售！"
     },
+    "MainNav/HomePage/Carousel/22_20_Store_Desc": {
+        "oracleText": "Reinforce your deck and show off how you play Magic with new cards from Alchemy: Dominaria and Unfinity Avatars!",
+        "translation": "Reinforce your deck and show off how you play Magic with new cards from Alchemy: Dominaria and Unfinity Avatars!"
+    },
+    "MainNav/HomePage/Carousel/22_20_Store_Title": {
+        "oracleText": "Alchemy: Dominaria is here!",
+        "translation": "Alchemy: Dominaria is here!"
+    },
     "MainNav/HomePage/Carousel/AFR_Sealed_Desc": {
         "oracleText": "Grab your dice and prepare for adventure by building a 40-card sealed deck with 6 packs of Magic's latest set!",
         "translation": "拿起你的骰子，用6包万智牌的最新系列卡牌构建一副40张的现开套牌，为历险做好准备！"
@@ -27498,6 +27878,14 @@
     "MainNav/HomePage/Carousel/CC_Victory_Witherbloom_Title": {
         "oracleText": "Victory for Witherbloom",
         "translation": "靡华胜利"
+    },
+    "MainNav/HomePage/Carousel/CI_Satisfaction_Survey_Desc": {
+        "oracleText": "Take our survey to tell us about your experience in MTG Arena.",
+        "translation": "Take our survey to tell us about your experience in MTG Arena."
+    },
+    "MainNav/HomePage/Carousel/CI_Satisfaction_Survey_Title": {
+        "oracleText": "We Want To Hear From You",
+        "translation": "We Want To Hear From You"
     },
     "MainNav/HomePage/Carousel/CLB_AtHomeKit_Desc": {
         "oracleText": "Try out Magic's most popular multiplayer format with a draft box or all 4 decks full of beloved D&D characters.",
@@ -27779,6 +28167,14 @@
         "oracleText": "Magic esports",
         "translation": "万智牌电子竞技"
     },
+    "MainNav/HomePage/Carousel/Event_Creature_Cube_Desc": {
+        "oracleText": "Draft a deck centered around a single creature type and unleash coordinated fury!",
+        "translation": "Draft a deck centered around a single creature type and unleash coordinated fury!"
+    },
+    "MainNav/HomePage/Carousel/Event_Creature_Cube_Title": {
+        "oracleText": "Creature Cube",
+        "translation": "Creature Cube"
+    },
     "MainNav/HomePage/Carousel/Event_DragonsAndDungeons_Desc": {
         "oracleText": "Bring your best gear and delve into this thrilling event to earn gold and card styles!",
         "translation": "带上你最好的装备钻进这个激动人心的赛事来获得金币和卡牌样式！"
@@ -27787,6 +28183,14 @@
         "oracleText": "Dragons & Dungeons!",
         "translation": "龙与地下城！"
     },
+    "MainNav/HomePage/Carousel/Event_Final_Showdown_Desc": {
+        "oracleText": "Who will reign supreme? Come play with four Omniscience decks that represent a different Magic player Archetype and find your style to show off!",
+        "translation": "Who will reign supreme? Come play with four Omniscience decks that represent a different Magic player Archetype and find your style to show off!"
+    },
+    "MainNav/HomePage/Carousel/Event_Final_Showdown_Title": {
+        "oracleText": "Ultimate Showdown",
+        "translation": "Ultimate Showdown"
+    },
     "MainNav/HomePage/Carousel/Event_Holiday_2018_Desc": {
         "oracleText": "Earn exclusive alternate art copies of Llanowar Elves & Firemind's Research",
         "translation": "赢取独家异画罗堰妖精和炎灵研究"
@@ -27794,6 +28198,14 @@
     "MainNav/HomePage/Carousel/Event_Holiday_2018_Title": {
         "oracleText": "Holiday Pauper",
         "translation": "假日纯普"
+    },
+    "MainNav/HomePage/Carousel/Event_MixedUpPremierDraft_Desc": {
+        "oracleText": "Come celebrate Magic30 and draft a deck from a series of mixed-up packs containing some favorite sets on Arena!",
+        "translation": "Come celebrate Magic30 and draft a deck from a series of mixed-up packs containing some favorite sets on Arena!"
+    },
+    "MainNav/HomePage/Carousel/Event_MixedUpPremierDraft_Title": {
+        "oracleText": "Mixed Up Premier Draft",
+        "translation": "Mixed Up Premier Draft"
     },
     "MainNav/HomePage/Carousel/Event_Practice_Desc": {
         "oracleText": "Hone your skills with a training match.",
@@ -29178,6 +29590,22 @@
     "MainNav/HomePage/Carousel/SecretLair_MSCHF_Title": {
         "oracleText": "Secret Lair x MSCHF",
         "translation": "秘室珍品xMSCHF"
+    },
+    "MainNav/HomePage/Carousel/SecretLair_OctoberSuperdrop_1_Announce_Desc": {
+        "oracleText": "The silence of the galaxy is pierced by a mighty WAAAGH! as da Orkz blast their way into Secret Lair!",
+        "translation": "The silence of the galaxy is pierced by a mighty WAAAGH! as da Orkz blast their way into Secret Lair!"
+    },
+    "MainNav/HomePage/Carousel/SecretLair_OctoberSuperdrop_1_Announce_Title": {
+        "oracleText": "Secret Lair x Warhammer 40,000: Orks",
+        "translation": "Secret Lair x Warhammer 40,000: Orks"
+    },
+    "MainNav/HomePage/Carousel/SecretLair_OctoberSuperdrop_2_Announce_Desc": {
+        "oracleText": "Out of this world and into the multiverse! This Superdrop features Junji Ito, Jack Hughes, and Borderless Galaxy Foil editions!",
+        "translation": "Out of this world and into the multiverse! This Superdrop features Junji Ito, Jack Hughes, and Borderless Galaxy Foil editions!"
+    },
+    "MainNav/HomePage/Carousel/SecretLair_OctoberSuperdrop_2_Announce_Title": {
+        "oracleText": "Secret Lair: October Superdrop",
+        "translation": "Secret Lair: October Superdrop"
     },
     "MainNav/HomePage/Carousel/SecretLair_Secretversary_Desc": {
         "oracleText": "Celebrate the 2nd Secretversary with some truly Legendary cards!",
@@ -30863,6 +31291,90 @@
         "oracleText": "More Info",
         "translation": "更多信息"
     },
+    "MainNav/Mailbox/Customer_Service_Description": {
+        "oracleText": "Your issue should now be resolved, and we're sorry for any inconvience it caused. Thank you for playing Magic the Gathering: Arena!",
+        "translation": "Your issue should now be resolved, and we're sorry for any inconvience it caused. Thank you for playing Magic the Gathering: Arena!"
+    },
+    "MainNav/Mailbox/Customer_Service_Title": {
+        "oracleText": "Customer Service Ticket Update",
+        "translation": "Customer Service Ticket Update"
+    },
+    "MainNav/Mailbox/Global_Login_Grant_Description": {
+        "oracleText": "We apologize for the recent disruptions in Arena that may have impacted your play experience. The issues should now be resolved. Thank you for bearing with us!",
+        "translation": "We apologize for the recent disruptions in Arena that may have impacted your play experience. The issues should now be resolved. Thank you for bearing with us!"
+    },
+    "MainNav/Mailbox/Global_Login_Grant_Title": {
+        "oracleText": "Please Excuse the Pixies",
+        "translation": "Please Excuse the Pixies"
+    },
+    "MainNav/Mailbox/Minor_Release_Description": {
+        "oracleText": "Arena will be releasing a new update soon. Patch notes will be available after the release so keep an eye out on our status page for updates & details.",
+        "translation": "Arena will be releasing a new update soon. Patch notes will be available after the release so keep an eye out on our status page for updates & details."
+    },
+    "MainNav/Mailbox/Minor_Release_Title": {
+        "oracleText": "Upcoming Release",
+        "translation": "Upcoming Release"
+    },
+    "MainNav/Mailbox/Patch_Notes_Description_Generic": {
+        "oracleText": "A new patch is here with some exciting updates! Check them out at the link below to learn more!",
+        "translation": "A new patch is here with some exciting updates! Check them out at the link below to learn more!"
+    },
+    "MainNav/Mailbox/Patch_Notes_Description_Y22-DMU": {
+        "oracleText": "Patch <2022.20.0> is here with some exciting updates! \n\t• New cards for Alchemy:Dominaria have been released! \n\t• Added new Unfinity lands, avatars, and sleeves. \n\t• Added Set Collection Progress. \n\t• We also have bug fixes, new bundles, card styles, and more!\nCheck them out at <link> to learn more!",
+        "translation": "Patch <2022.20.0> is here with some exciting updates! \n\t• New cards for Alchemy:Dominaria have been released! \n\t• Added new Unfinity lands, avatars, and sleeves. \n\t• Added Set Collection Progress. \n\t• We also have bug fixes, new bundles, card styles, and more!\nCheck them out at <link> to learn more!"
+    },
+    "MainNav/Mailbox/Patch_Notes_Title": {
+        "oracleText": "Patch Notes Have Arrived",
+        "translation": "Patch Notes Have Arrived"
+    },
+    "MainNav/Mailbox/Planned_Downtime_Description": {
+        "oracleText": "We are working hard to improve Arena, which requires a little downtime. Servers will be down while we work to fix the issue. We apologize for the inconvenience, but here is a little something extra to help make up for it!",
+        "translation": "We are working hard to improve Arena, which requires a little downtime. Servers will be down while we work to fix the issue. We apologize for the inconvenience, but here is a little something extra to help make up for it!"
+    },
+    "MainNav/Mailbox/Planned_Downtime_Title": {
+        "oracleText": "Downtime Incoming",
+        "translation": "Downtime Incoming"
+    },
+    "MainNav/Mailbox/Set_Release_20.0_Y22-DMU_Description": {
+        "oracleText": "Alchemy: Dominaria is now available on Magic Arena. Check out all new cards and events!",
+        "translation": "Alchemy: Dominaria is now available on Magic Arena. Check out all new cards and events!"
+    },
+    "MainNav/Mailbox/Set_Release_20.0_Y22-DMU_Title": {
+        "oracleText": "Dominaria Calls For Your Aid!",
+        "translation": "Dominaria Calls For Your Aid!"
+    },
+    "MainNav/Mailbox/State_Of_The_Game_Title": {
+        "oracleText": "State of the Game - October",
+        "translation": "State of the Game - October"
+    },
+    "MainNav/Mailbox/State_Of_The_Y22-DMU_Game_Description": {
+        "oracleText": "It's almost time for Alchemy: Dominaria! Discover what is new and awesome in Arena with the latest State of the Game, covering new mechanics, Magic 30, Set Collection, and more!",
+        "translation": "It's almost time for Alchemy: Dominaria! Discover what is new and awesome in Arena with the latest State of the Game, covering new mechanics, Magic 30, Set Collection, and more!"
+    },
+    "MainNav/Mailbox/Targeted_Login_Grant_Description": {
+        "oracleText": "Oh no! Pixies got into our servers and made a mess. Everything is cleaned up now and the pixies are all wrangled. They wanted you to have this gift as way of saying they are really, really, really sorry for all the trouble",
+        "translation": "Oh no! Pixies got into our servers and made a mess. Everything is cleaned up now and the pixies are all wrangled. They wanted you to have this gift as way of saying they are really, really, really sorry for all the trouble"
+    },
+    "MainNav/Mailbox/Targeted_Login_Grant_Title": {
+        "oracleText": "Oops! Pardon the Pixies!",
+        "translation": "Oops! Pardon the Pixies!"
+    },
+    "MainNav/Mailbox/Unplanned_Downtime_Description": {
+        "oracleText": "We have a swarm of mischievous pixies incoming and need to shut down the servers for a bit to make sure they don't do too much damage! We apologize for any inconvenience!",
+        "translation": "We have a swarm of mischievous pixies incoming and need to shut down the servers for a bit to make sure they don't do too much damage! We apologize for any inconvenience!"
+    },
+    "MainNav/Mailbox/Unplanned_Downtime_Title": {
+        "oracleText": "Upcoming Downtime",
+        "translation": "Upcoming Downtime"
+    },
+    "MainNav/Mailbox/Weekly_Blog_Description_Generic": {
+        "oracleText": "New Announcements just dropped! Click the link to find the latest updates for Arena, including upcoming events and what's next on the Premier Play schedule!",
+        "translation": "New Announcements just dropped! Click the link to find the latest updates for Arena, including upcoming events and what's next on the Premier Play schedule!"
+    },
+    "MainNav/Mailbox/Weekly_Blog_Title": {
+        "oracleText": "Arena Announcements Are Here!",
+        "translation": "Arena Announcements Are Here!"
+    },
     "MainNav/NavBar/BetaIcon_Tooltip": {
         "oracleText": "BETA",
         "translation": "测试版"
@@ -32127,6 +32639,26 @@
         "oracleText": "Aurelia",
         "translation": "欧瑞梨"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_AlphaWizard_DMU_Bio": {
+        "oracleText": "In life, Burog was a tinkerer, piecing together mechanical doo-dads out of scrap he found scattered throughout Urborg. Now dead, he carries on tinkering, assembling creatures of swamp moss and corpse-stuff to add to his thriving social circle. Outside of his workshop Burog can be found with his good friend Tinybones, who occasionally robs him.",
+        "translation": "In life, Burog was a tinkerer, piecing together mechanical doo-dads out of scrap he found scattered throughout Urborg. Now dead, he carries on tinkering, assembling creatures of swamp moss and corpse-stuff to add to his thriving social circle. Outside of his workshop Burog can be found with his good friend Tinybones, who occasionally robs him."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_AlphaWizard_DMU_Desc": {
+        "oracleText": "A mysterious and powerful mage delving deep into the secrets of the past, this aven seeks to turn history into Dominaria's most potent weapon.",
+        "translation": "A mysterious and powerful mage delving deep into the secrets of the past, this aven seeks to turn history into Dominaria's most potent weapon."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_AlphaWizard_DMU_Name": {
+        "oracleText": "Oracle of the Alpha",
+        "translation": "Oracle of the Alpha"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Arvad_DMU_Bio": {
+        "oracleText": "Once a proud Benalish knight, Arvad was turned into a vampire by a descendent of the notorious Sengir line. Wielding the same holy magic that lets him withstand sunlight and suppress his hunger for blood, Arvad guards his companions aboard the Weatherlight from the Phyrexian invaders.",
+        "translation": "Once a proud Benalish knight, Arvad was turned into a vampire by a descendent of the notorious Sengir line. Wielding the same holy magic that lets him withstand sunlight and suppress his hunger for blood, Arvad guards his companions aboard the Weatherlight from the Phyrexian invaders."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Arvad_DMU_Name": {
+        "oracleText": "Arvad",
+        "translation": "Arvad"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_FalcoSpara_SNC_Bio": {
         "oracleText": "Falco Spara is the head of the Brokers and one of the few in New Capenna old enough to remember the city's founding. With his ironclad contracts, Falco and his Brokers provide the highest order of protection to clients in need—provided they can shell out the cash.",
         "translation": "Falco Spara is the head of the Brokers and one of the few in New Capenna old enough to remember the city's founding. With his ironclad contracts, Falco and his Brokers provide the highest order of protection to clients in need—provided they can shell out the cash."
@@ -32143,6 +32675,14 @@
         "oracleText": "Jetmir, Nexus of Revels",
         "translation": "欢宴魔杰米尔"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_Niambi_DMU_Bio": {
+        "oracleText": "Niambi is daughter to the Planeswalker Teferi and a legend in her own right, having served as an advisor and healer throughout Jamuraa. It is her sincere hope that, through diplomacy and compassion, she can mend the wounds that divide her fellow Dominarians in time to unite them.",
+        "translation": "Niambi is daughter to the Planeswalker Teferi and a legend in her own right, having served as an advisor and healer throughout Jamuraa. It is her sincere hope that, through diplomacy and compassion, she can mend the wounds that divide her fellow Dominarians in time to unite them."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Niambi_DMU_Name": {
+        "oracleText": "Niambi",
+        "translation": "Niambi"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_ObNixilis_SNC_Bio": {
         "oracleText": "The demon lord Ob Nixilis has carved his path to power through the multiverse. But after growing bored of regular conquest, he appeared in New Capenna with a more subtle strategy—gradually build his influence over the Five Families before claiming the plane for himself.",
         "translation": "The demon lord Ob Nixilis has carved his path to power through the multiverse. But after growing bored of regular conquest, he appeared in New Capenna with a more subtle strategy—gradually build his influence over the Five Families before claiming the plane for himself."
@@ -32158,6 +32698,54 @@
     "MainNav/Profile/Avatars/Avatar_Basic_Raffine_SNC_Name": {
         "oracleText": "Raffine, Scheming Seer",
         "translation": "卜策魔拉斐茵"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Squee_DMU_Bio": {
+        "oracleText": "Once a cabin-boy on the Weatherlight, a mishap related to an evil god granted Squee immortality. Unable to die by blade, age, or any other method his assorted enemies have tried, Squee has had his fill of adventuring and now lives in \"retirement\" as the chieftain of a goblin tribe high in the Otarian mountains. Lately, he can't shake the feeling that something is off, and is putting his centuries of wisdom to the purpose of figuring out just what that something is....",
+        "translation": "Once a cabin-boy on the Weatherlight, a mishap related to an evil god granted Squee immortality. Unable to die by blade, age, or any other method his assorted enemies have tried, Squee has had his fill of adventuring and now lives in \"retirement\" as the chieftain of a goblin tribe high in the Otarian mountains. Lately, he can't shake the feeling that something is off, and is putting his centuries of wisdom to the purpose of figuring out just what that something is...."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Squee_DMU_Name": {
+        "oracleText": "Squee",
+        "translation": "Squee"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Tiana_DMU_Bio": {
+        "oracleText": "Appointed guardian of the sacred powerstone at the core of the <i>Weatherlight</i>, Tiana discovered a gift for maintaining the legendary skyship. At home amidst the grease and noise of the engine room, Tiana uses her natural abilities to keep the <i>Weatherlight</i> flying in hostile territory.",
+        "translation": "Appointed guardian of the sacred powerstone at the core of the <i>Weatherlight</i>, Tiana discovered a gift for maintaining the legendary skyship. At home amidst the grease and noise of the engine room, Tiana uses her natural abilities to keep the <i>Weatherlight</i> flying in hostile territory."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Tiana_DMU_Name": {
+        "oracleText": "Tiana",
+        "translation": "Tiana"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_UNJohnny_Bio": {
+        "oracleText": "Johnny is the cerebral player who likes to set it up before knocking it all down. They deckbuild and play with unconventional options to show off their style and creativity. Win or lose, they're satisfied if their experiment gets results. Just wait till they get their Krark-Clan Ironworks, Genesis Chamber, Grinding Station...",
+        "translation": "Johnny is the cerebral player who likes to set it up before knocking it all down. They deckbuild and play with unconventional options to show off their style and creativity. Win or lose, they're satisfied if their experiment gets results. Just wait till they get their Krark-Clan Ironworks, Genesis Chamber, Grinding Station..."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_UNJohnny_Name": {
+        "oracleText": "Johnny, Combo Player",
+        "translation": "Johnny, Combo Player"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_UNSpike_Bio": {
+        "oracleText": "Spike is here to win, and win a lot. They're a tournament player with ruthless strategies and the best decks to claim victory, no matter how slight. If they can prove themself worthy in a competition, that's a day well spent. Think you've got them beat? Just wait for their response...",
+        "translation": "Spike is here to win, and win a lot. They're a tournament player with ruthless strategies and the best decks to claim victory, no matter how slight. If they can prove themself worthy in a competition, that's a day well spent. Think you've got them beat? Just wait for their response..."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_UNSpike_Name": {
+        "oracleText": "Spike, Tournament Grinder",
+        "translation": "Spike, Tournament Grinder"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_UNTimmy_Bio": {
+        "oracleText": "Timmy likes big plays, big creatures, and big wins. Their gaming style favors powerful smackdowns over sneaky mechanics, and it's the sheer thrill of victory that keeps them coming back for more. When they drop a monstrous beast into play, head for the hills. Just wait till they get their Gigantosaurus...",
+        "translation": "Timmy likes big plays, big creatures, and big wins. Their gaming style favors powerful smackdowns over sneaky mechanics, and it's the sheer thrill of victory that keeps them coming back for more. When they drop a monstrous beast into play, head for the hills. Just wait till they get their Gigantosaurus..."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_UNTimmy_Name": {
+        "oracleText": "Timmy, Power Gamer",
+        "translation": "Timmy, Power Gamer"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_UNVorthos_Bio": {
+        "oracleText": "Vorthos is here for the flavor. That doesn't mean they're not trying to win, they just get their greatest joy from playing cards tied to the lore they adore. Watch out for their clever theming with a killer edge—just wait till you see their Bolas deck complete with an Umezawa subtheme!",
+        "translation": "Vorthos is here for the flavor. That doesn't mean they're not trying to win, they just get their greatest joy from playing cards tied to the lore they adore. Watch out for their clever theming with a killer edge—just wait till you see their Bolas deck complete with an Umezawa subtheme!"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_UNVorthos_Name": {
+        "oracleText": "Vorthos, Steward of Myth",
+        "translation": "Vorthos, Steward of Myth"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Xander_SNC_Bio": {
         "oracleText": "At the top of the food chain for the Maestros is Lord Xander, an eternal vampire with a powerful demonic blessing. He positions himself as a curator and collector of Old Capenna's historical relics. The crown jewel in his collection? Himself, of course.",
@@ -32880,8 +33468,196 @@
         "translation": "宠物"
     },
     "MainNav/Profile/Progression/Bubble/Set_Title": {
-        "oracleText": "Set",
-        "translation": "系列"
+        "oracleText": "Set Mastery",
+        "translation": "Set Mastery"
+    },
+    "MainNav/Profile/ProgressionHeader": {
+        "oracleText": "Progression",
+        "translation": "Progression"
+    },
+    "MainNav/Profile/SetCollection/MeterBlack_0": {
+        "oracleText": "0 Black cards collected",
+        "translation": "0 Black cards collected"
+    },
+    "MainNav/Profile/SetCollection/MeterBlack_1x": {
+        "oracleText": "Collect 1x of all Black cards",
+        "translation": "Collect 1x of all Black cards"
+    },
+    "MainNav/Profile/SetCollection/MeterBlack_4x": {
+        "oracleText": "Collect 4x of all Black cards",
+        "translation": "Collect 4x of all Black cards"
+    },
+    "MainNav/Profile/SetCollection/MeterBlack_Complete": {
+        "oracleText": "Black Completed",
+        "translation": "Black Completed"
+    },
+    "MainNav/Profile/SetCollection/MeterBlue_0": {
+        "oracleText": "0 Blue cards collected",
+        "translation": "0 Blue cards collected"
+    },
+    "MainNav/Profile/SetCollection/MeterBlue_1x": {
+        "oracleText": "Collect 1x of all Blue cards",
+        "translation": "Collect 1x of all Blue cards"
+    },
+    "MainNav/Profile/SetCollection/MeterBlue_4x": {
+        "oracleText": "Collect 4x of all Blue cards",
+        "translation": "Collect 4x of all Blue cards"
+    },
+    "MainNav/Profile/SetCollection/MeterBlue_Complete": {
+        "oracleText": "Blue Completed",
+        "translation": "Blue Completed"
+    },
+    "MainNav/Profile/SetCollection/MeterColorless_0": {
+        "oracleText": "0 Colorless cards collected",
+        "translation": "0 Colorless cards collected"
+    },
+    "MainNav/Profile/SetCollection/MeterColorless_1x": {
+        "oracleText": "Collect 1x of all Colorless cards",
+        "translation": "Collect 1x of all Colorless cards"
+    },
+    "MainNav/Profile/SetCollection/MeterColorless_4x": {
+        "oracleText": "Collect 4x of all Colorless cards",
+        "translation": "Collect 4x of all Colorless cards"
+    },
+    "MainNav/Profile/SetCollection/MeterColorless_Complete": {
+        "oracleText": "Colorless Completed",
+        "translation": "Colorless Completed"
+    },
+    "MainNav/Profile/SetCollection/MeterCommon_0": {
+        "oracleText": "0 Common cards collected",
+        "translation": "0 Common cards collected"
+    },
+    "MainNav/Profile/SetCollection/MeterCommon_1x": {
+        "oracleText": "Collect 1x of all Common cards",
+        "translation": "Collect 1x of all Common cards"
+    },
+    "MainNav/Profile/SetCollection/MeterCommon_4x": {
+        "oracleText": "Collect 4x of all Common cards",
+        "translation": "Collect 4x of all Common cards"
+    },
+    "MainNav/Profile/SetCollection/MeterCommon_Complete": {
+        "oracleText": "Common Completed",
+        "translation": "Common Completed"
+    },
+    "MainNav/Profile/SetCollection/MeterGreen_0": {
+        "oracleText": "0 Green cards collected",
+        "translation": "0 Green cards collected"
+    },
+    "MainNav/Profile/SetCollection/MeterGreen_1x": {
+        "oracleText": "Collect 1x of all Green cards",
+        "translation": "Collect 1x of all Green cards"
+    },
+    "MainNav/Profile/SetCollection/MeterGreen_4x": {
+        "oracleText": "Collect 4x of all Green cards",
+        "translation": "Collect 4x of all Green cards"
+    },
+    "MainNav/Profile/SetCollection/MeterGreen_Complete": {
+        "oracleText": "Green Completed",
+        "translation": "Green Completed"
+    },
+    "MainNav/Profile/SetCollection/MeterMythic_0": {
+        "oracleText": "0 Mythic cards collected",
+        "translation": "0 Mythic cards collected"
+    },
+    "MainNav/Profile/SetCollection/MeterMythic_1x": {
+        "oracleText": "Collect 1x of all Mythic cards",
+        "translation": "Collect 1x of all Mythic cards"
+    },
+    "MainNav/Profile/SetCollection/MeterMythic_4x": {
+        "oracleText": "Collect 4x of all Mythic cards",
+        "translation": "Collect 4x of all Mythic cards"
+    },
+    "MainNav/Profile/SetCollection/MeterMythic_Complete": {
+        "oracleText": "Mythic Compleated",
+        "translation": "Mythic Compleated"
+    },
+    "MainNav/Profile/SetCollection/MeterRare_0": {
+        "oracleText": "0 Rare cards collected",
+        "translation": "0 Rare cards collected"
+    },
+    "MainNav/Profile/SetCollection/MeterRare_1x": {
+        "oracleText": "Collect 1x of all Rare cards",
+        "translation": "Collect 1x of all Rare cards"
+    },
+    "MainNav/Profile/SetCollection/MeterRare_4x": {
+        "oracleText": "Collect 4x of all Rare cards",
+        "translation": "Collect 4x of all Rare cards"
+    },
+    "MainNav/Profile/SetCollection/MeterRare_Complete": {
+        "oracleText": "Rare Completed",
+        "translation": "Rare Completed"
+    },
+    "MainNav/Profile/SetCollection/MeterRed_0": {
+        "oracleText": "0 Red cards collected",
+        "translation": "0 Red cards collected"
+    },
+    "MainNav/Profile/SetCollection/MeterRed_1x": {
+        "oracleText": "Collect 1x of all Red cards",
+        "translation": "Collect 1x of all Red cards"
+    },
+    "MainNav/Profile/SetCollection/MeterRed_4x": {
+        "oracleText": "Collect 4x of all Red cards",
+        "translation": "Collect 4x of all Red cards"
+    },
+    "MainNav/Profile/SetCollection/MeterRed_Complete": {
+        "oracleText": "Red Completed",
+        "translation": "Red Completed"
+    },
+    "MainNav/Profile/SetCollection/MeterUncommon_0": {
+        "oracleText": "0 Uncommon cards collected",
+        "translation": "0 Uncommon cards collected"
+    },
+    "MainNav/Profile/SetCollection/MeterUncommon_1x": {
+        "oracleText": "Collect 1x of all Uncommon cards",
+        "translation": "Collect 1x of all Uncommon cards"
+    },
+    "MainNav/Profile/SetCollection/MeterUncommon_4x": {
+        "oracleText": "Collect 4x of all Uncommon cards",
+        "translation": "Collect 4x of all Uncommon cards"
+    },
+    "MainNav/Profile/SetCollection/MeterUncommon_Complete": {
+        "oracleText": "Uncommon Completed",
+        "translation": "Uncommon Completed"
+    },
+    "MainNav/Profile/SetCollection/MeterWhite_0": {
+        "oracleText": "0 White cards collected",
+        "translation": "0 White cards collected"
+    },
+    "MainNav/Profile/SetCollection/MeterWhite_1x": {
+        "oracleText": "Collect 1x of all White cards",
+        "translation": "Collect 1x of all White cards"
+    },
+    "MainNav/Profile/SetCollection/MeterWhite_4x": {
+        "oracleText": "Collect 4x of all White cards",
+        "translation": "Collect 4x of all White cards"
+    },
+    "MainNav/Profile/SetCollection/MeterWhite_Complete": {
+        "oracleText": "White Completed",
+        "translation": "White Completed"
+    },
+    "MainNav/Profile/SetCollection/NewestToOldest": {
+        "oracleText": "Newest to Oldest",
+        "translation": "Newest to Oldest"
+    },
+    "MainNav/Profile/SetCollection/OldestToNewest": {
+        "oracleText": "Oldest to Newest",
+        "translation": "Oldest to Newest"
+    },
+    "MainNav/Profile/SetCollection/ReleaseDate": {
+        "oracleText": "Release Date:",
+        "translation": "Release Date:"
+    },
+    "MainNav/Profile/SetCollection/SetCollectionHeader": {
+        "oracleText": "Set Collection",
+        "translation": "Set Collection"
+    },
+    "MainNav/Profile/ToolTip_SetCollection": {
+        "oracleText": "Track your progress on collecting card sets",
+        "translation": "Track your progress on collecting card sets"
+    },
+    "MainNav/Profile/ToolTip_SetMastery": {
+        "oracleText": "Earn XP from quests and wins to get mastery rewards",
+        "translation": "Earn XP from quests and wins to get mastery rewards"
     },
     "MainNav/Profile/rankConstructed": {
         "oracleText": "Your Constructed rank is determined by matches and events where you choose your deck ahead of time, like Standard Ranked and Historic Ranked.",
@@ -34739,6 +35515,14 @@
         "oracleText": "Alchemist Bundle",
         "translation": "炼金套装"
     },
+    "MainNav/Store/Bundles/Bundle_Alchemist_DMU_Desc": {
+        "oracleText": "20x Alchemy: Dominaria boosters",
+        "translation": "20x Alchemy: Dominaria boosters"
+    },
+    "MainNav/Store/Bundles/Bundle_Alchemist_DMU_Name": {
+        "oracleText": "Alchemist Bundle",
+        "translation": "Alchemist Bundle"
+    },
     "MainNav/Store/Bundles/Bundle_Alchemist_Desc": {
         "oracleText": "20x <i>Alchemy: Innistrad</i> Boosters",
         "translation": "20包「炼金：依尼翠」"
@@ -34826,6 +35610,46 @@
     "MainNav/Store/Bundles/Bundle_Anthology3_Name": {
         "oracleText": "Historic Anthology 3 Bundle",
         "translation": "史迹合集3套装"
+    },
+    "MainNav/Store/Bundles/Bundle_ArlinnLucy_Desc": {
+        "oracleText": "Transforming Arlinn Exquisite Sleeve\nTransforming Lucy Westenra Exquisite Sleeve",
+        "translation": "Transforming Arlinn Exquisite Sleeve\nTransforming Lucy Westenra Exquisite Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_ArlinnLucy_Name": {
+        "oracleText": "Spooky Scary Transforming Sleeves",
+        "translation": "Spooky Scary Transforming Sleeves"
+    },
+    "MainNav/Store/Bundles/Bundle_Avatar_Johnny_Desc": {
+        "oracleText": "Johnny, Combo PlayerAvatar\nJohnny, Combo Player Sleeve",
+        "translation": "Johnny, Combo PlayerAvatar\nJohnny, Combo Player Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_Avatar_Johnny_Name": {
+        "oracleText": "Johnny, Combo Player Bundle",
+        "translation": "Johnny, Combo Player Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_Avatar_Spike_Desc": {
+        "oracleText": "Spike, Tournament Grinder Avatar\nSpike, Tournament Grinder Sleeve",
+        "translation": "Spike, Tournament Grinder Avatar\nSpike, Tournament Grinder Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_Avatar_Spike_Name": {
+        "oracleText": "Spike, Tournament Grinder Bundle",
+        "translation": "Spike, Tournament Grinder Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_Avatar_Timmy_Desc": {
+        "oracleText": "Timmy, Power Gamer Avatar\nTimmy, Power Gamer Sleeve",
+        "translation": "Timmy, Power Gamer Avatar\nTimmy, Power Gamer Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_Avatar_Timmy_Name": {
+        "oracleText": "Timmy, Power Gamer Bundle",
+        "translation": "Timmy, Power Gamer Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_Avatar_Vorthos_Desc": {
+        "oracleText": "Vorthos, Steward of Myth Avatar\nVorthos, Steward of Myth Sleeve",
+        "translation": "Vorthos, Steward of Myth Avatar\nVorthos, Steward of Myth Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_Avatar_Vorthos_Name": {
+        "oracleText": "Vorthos, Steward of Myth Bundle",
+        "translation": "Vorthos, Steward of Myth Bundle"
     },
     "MainNav/Store/Bundles/Bundle_BPW_AFR_Desc": {
         "oracleText": "Lolth, Spider Queen Card Style\nEllywick Tumblestrum Card Style\nZariel, Archduke of Avernus Card Style\nMordenkainen Card Style\nGrand Master of Flowers Card Style",
@@ -35114,6 +35938,14 @@
     "MainNav/Store/Bundles/Bundle_DMU_SLD_JayaSleeves_Name": {
         "oracleText": "In Memoriam: Jaya Ballard Sleeves",
         "translation": "纪念：*雅亚巴拉德*牌套"
+    },
+    "MainNav/Store/Bundles/Bundle_DMU_Squee_Desc": {
+        "oracleText": "Squee Avatar\nSquee the Immortal Pet\nSquee, Dubious Monarch Sleeve",
+        "translation": "Squee Avatar\nSquee the Immortal Pet\nSquee, Dubious Monarch Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_DMU_Squee_Name": {
+        "oracleText": "Squee Pet Bundle",
+        "translation": "Squee Pet Bundle"
     },
     "MainNav/Store/Bundles/Bundle_DMU_StainedGlassLands_Desc": {
         "oracleText": "Stained Glass Full Art Plains\nStained Glass Full Art Island\nStained Glass Full Art Swamp\nStained Glass Full Art Mountain\nStained Glass Full Art Forest",
@@ -35891,6 +36723,14 @@
         "oracleText": "Midnight Hunt Sticker Bundle",
         "translation": "Midnight Hunt Sticker Bundle"
     },
+    "MainNav/Store/Bundles/Bundle_Magic30_Desc": {
+        "oracleText": "",
+        "translation": ""
+    },
+    "MainNav/Store/Bundles/Bundle_Magic30_Name": {
+        "oracleText": "",
+        "translation": ""
+    },
     "MainNav/Store/Bundles/Bundle_MattJukesStyles_Desc": {
         "oracleText": "Glacial Fortress Card Style\nDrowned Catacomb Card Style\nDragonskull Summit Card Style\nRootbound Crag Card Style\nSunpetal Grove Card Style",
         "translation": "Glacial Fortress Card Style\nDrowned Catacomb Card Style\nDragonskull Summit Card Style\nRootbound Crag Card Style\nSunpetal Grove Card Style"
@@ -36058,6 +36898,14 @@
     "MainNav/Store/Bundles/Bundle_PH_Praetors_Name": {
         "oracleText": "Praetors: Compleat Edition Styles",
         "translation": "Praetors: Compleat Edition Styles"
+    },
+    "MainNav/Store/Bundles/Bundle_PostyStickers_Desc": {
+        "oracleText": "Karn Crowd Surfing Sticker Emote\nSquee Rimshot Sticker Emote\nRadha Headbang Sticker Emote",
+        "translation": "Karn Crowd Surfing Sticker Emote\nSquee Rimshot Sticker Emote\nRadha Headbang Sticker Emote"
+    },
+    "MainNav/Store/Bundles/Bundle_PostyStickers_Name": {
+        "oracleText": "Music Festival Sticker Bundle",
+        "translation": "Music Festival Sticker Bundle"
     },
     "MainNav/Store/Bundles/Bundle_PowerPlay_Desc": {
         "oracleText": "Akroma's Memorial Card Style\nBody Double Card Style\nMaze's End Card Style\nPhyrexian Obliterator Card Style\nSwan Song Card Style\nUlamog, the Ceaseless Hunger Card Style",
@@ -36467,6 +37315,22 @@
         "oracleText": "Triome Ink Style Bundle",
         "translation": "Triome Ink Style Bundle"
     },
+    "MainNav/Store/Bundles/Bundle_UNF_BasicLands_Desc": {
+        "oracleText": "Orbital Space-ic Full Art Plains\nOrbital Space-ic Full Art Island\nOrbital Space-ic Full Art Swamp\nOrbital Space-ic Full Art Mountain\nOrbital Space-ic Full Art Forest\nPlanetary Space-ic Full Art Plains\nPlanetary Space-ic Full Art Island\nPlanetary Space-ic Full Art Swamp\nPlanetary Space-ic Full Art Mountain\nPlanetary Space-ic Full Art Forest",
+        "translation": "Orbital Space-ic Full Art Plains\nOrbital Space-ic Full Art Island\nOrbital Space-ic Full Art Swamp\nOrbital Space-ic Full Art Mountain\nOrbital Space-ic Full Art Forest\nPlanetary Space-ic Full Art Plains\nPlanetary Space-ic Full Art Island\nPlanetary Space-ic Full Art Swamp\nPlanetary Space-ic Full Art Mountain\nPlanetary Space-ic Full Art Forest"
+    },
+    "MainNav/Store/Bundles/Bundle_UNF_BasicLands_Name": {
+        "oracleText": "<i>Unfinity</i> Space-ic Lands",
+        "translation": "<i>Unfinity</i> Space-ic Lands"
+    },
+    "MainNav/Store/Bundles/Bundle_UNF_Shocklands_Desc": {
+        "oracleText": "Hallowed Fountain Borderless Card Style\nWatery Grave Borderless Card Style\nBlood Crypt Borderless Card Style\nStomping Ground Borderless Card Style\nTemple Garden Borderless Card Style\nGodless Shrine Borderless Card Style\nSteam Vents Borderless Card Style\nOvergrown Tomb Borderless Card Style\nSacred Foundry Borderless Card Style\nBreeding Pool Borderless Card Style",
+        "translation": "Hallowed Fountain Borderless Card Style\nWatery Grave Borderless Card Style\nBlood Crypt Borderless Card Style\nStomping Ground Borderless Card Style\nTemple Garden Borderless Card Style\nGodless Shrine Borderless Card Style\nSteam Vents Borderless Card Style\nOvergrown Tomb Borderless Card Style\nSacred Foundry Borderless Card Style\nBreeding Pool Borderless Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_UNF_Shocklands_Name": {
+        "oracleText": "<i>Unfinity</i> Borderless Shock Lands",
+        "translation": "<i>Unfinity</i> Borderless Shock Lands"
+    },
     "MainNav/Store/Bundles/Bundle_UncommonMutate_Desc": {
         "oracleText": "Parcelbeast Showcase Style\nMajestic Auricorn Showcase Style\nPouncing Shoreshark Showcase Style\nChittering Harvester Showcase Style\nGlowstone Recluse Showcase Style",
         "translation": "Parcelbeast Showcase Style\nMajestic Auricorn Showcase Style\nPouncing Shoreshark Showcase Style\nChittering Harvester Showcase Style\nGlowstone Recluse Showcase Style"
@@ -36555,6 +37419,38 @@
         "oracleText": "Crimson Vow Sticker Bundle",
         "translation": "Crimson Vow Sticker Bundle"
     },
+    "MainNav/Store/Bundles/Bundle_Y23DMU_DA1_Desc": {
+        "oracleText": "Ghitu Embercoiler Card Style\nSpellchain Scatter Card Style\nVesuvan Mist Card Style\nPull of the Mist Moon Card Style\nTeferi's Contingency Card Style\nSkywriter Djinn Card Style\nDarigaaz, Shivan Champion Card Style\nVodalian Tide Mage Card Style",
+        "translation": "Ghitu Embercoiler Card Style\nSpellchain Scatter Card Style\nVesuvan Mist Card Style\nPull of the Mist Moon Card Style\nTeferi's Contingency Card Style\nSkywriter Djinn Card Style\nDarigaaz, Shivan Champion Card Style\nVodalian Tide Mage Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y23DMU_DA1_Name": {
+        "oracleText": "Alchemy Styles: Time and Tide",
+        "translation": "Alchemy Styles: Time and Tide"
+    },
+    "MainNav/Store/Bundles/Bundle_Y23DMU_DA2_Desc": {
+        "oracleText": "Reezug, the Bonecobbler Card Style\nDiminished Returner Card Style\nNantuko Slicer Card Style\nVinesoul Spider Card Style\nArvad, Weatherlight Smuggler Card Style\nNiambi, Beloved Protector Card Style\nBloodsprout Talisman Card Style",
+        "translation": "Reezug, the Bonecobbler Card Style\nDiminished Returner Card Style\nNantuko Slicer Card Style\nVinesoul Spider Card Style\nArvad, Weatherlight Smuggler Card Style\nNiambi, Beloved Protector Card Style\nBloodsprout Talisman Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y23DMU_DA2_Name": {
+        "oracleText": "Alchemy Styles: Growth and Decay",
+        "translation": "Alchemy Styles: Growth and Decay"
+    },
+    "MainNav/Store/Bundles/Bundle_Y23DMU_DA3_Desc": {
+        "oracleText": "Darigaaz's Whelp Card Style\nMarwyn's Kindred Card Style\nWandering Treefolk Card Style\nGoblin Morale Sergeant Card Style\nPriest of Possibility Card Style\nBenalish Knight-Counselor Card Style\nGoblin Influx Array Card Style\nSlimefoot, Thallid Transplant Card Style",
+        "translation": "Darigaaz's Whelp Card Style\nMarwyn's Kindred Card Style\nWandering Treefolk Card Style\nGoblin Morale Sergeant Card Style\nPriest of Possibility Card Style\nBenalish Knight-Counselor Card Style\nGoblin Influx Array Card Style\nSlimefoot, Thallid Transplant Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y23DMU_DA3_Name": {
+        "oracleText": "Alchemy Styles: Unite the Coalition",
+        "translation": "Alchemy Styles: Unite the Coalition"
+    },
+    "MainNav/Store/Bundles/Bundle_Y23DMU_DA4_Desc": {
+        "oracleText": "Coalition Construct Card Style\nSmogbelcher Chariot Card Style\nOracle of the Alpha Card Style\nTrove Mage Card Style\nJuggernaut Peddler Card Style\nTiana, Angelic Mechanic Card Style\nProtean War Engine Card Style",
+        "translation": "Coalition Construct Card Style\nSmogbelcher Chariot Card Style\nOracle of the Alpha Card Style\nTrove Mage Card Style\nJuggernaut Peddler Card Style\nTiana, Angelic Mechanic Card Style\nProtean War Engine Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y23DMU_DA4_Name": {
+        "oracleText": "Alchemy Styles: Arms and Artifice",
+        "translation": "Alchemy Styles: Arms and Artifice"
+    },
     "MainNav/Store/Bundles/Bundle_YargleDay_Desc": {
         "oracleText": "Opt Card Style\nFatal Push Card Style\nSwords to Plowshares Card Style\nAnger of the Gods Card Style\nExplore Card Style",
         "translation": "Opt Card Style\nFatal Push Card Style\nSwords to Plowshares Card Style\nAnger of the Gods Card Style\nExplore Card Style"
@@ -36618,6 +37514,14 @@
     "MainNav/Store/Bundles/bundle_wildcards_15_0_Name": {
         "oracleText": "Wildcard Bundle",
         "translation": "万用牌套装"
+    },
+    "MainNav/Store/Bundles/mtga_bundle_40k_sleeves_Desc": {
+        "oracleText": "Abaddon the Despoiler Sleeve\nNoise Marine Sleeve\nRoyal Warden Sleeve\nSpace Marine Devastator Sleeve\nTyranid Sleeve\nTyranid Warrior Sleeve\nVanguard Suppressor Sleeve\nWayfarer's Bauble Sleeve",
+        "translation": "Abaddon the Despoiler Sleeve\nNoise Marine Sleeve\nRoyal Warden Sleeve\nSpace Marine Devastator Sleeve\nTyranid Sleeve\nTyranid Warrior Sleeve\nVanguard Suppressor Sleeve\nWayfarer's Bauble Sleeve"
+    },
+    "MainNav/Store/Bundles/mtga_bundle_40k_sleeves_Name": {
+        "oracleText": "Warhammer 40,000 Sleeves",
+        "translation": "Warhammer 40,000 Sleeves"
     },
     "MainNav/Store/Buy_Gems_Title": {
         "oracleText": "<color=white>Buy Gems</color>*",
@@ -40824,8 +41728,8 @@
         "translation": "Because its the most common way to play."
     },
     "NPE/PLP/Playblade/sparkyIntroStandard_03": {
-        "oracleText": "It only uses cards from the last couple of years, to keep things spicy.",
-        "translation": "It only uses cards from the last couple of years, to keep things spicy."
+        "oracleText": "It only uses cards from the last couple of years, to keep things fresh.",
+        "translation": "It only uses cards from the last couple of years, to keep things fresh."
     },
     "NPE/PLP/Playblade/sparkyIntroStandard_04": {
         "oracleText": "Ah, Standard.",
@@ -41535,9 +42439,17 @@
         "oracleText": "Recently Played",
         "translation": "最近对战"
     },
+    "PlayerInbox/DateFormat": {
+        "oracleText": "{Month}/{Day}/{Year}",
+        "translation": "{Month}/{Day}/{Year}"
+    },
     "PlayerInbox/LetterWillBeDeletedWarning": {
         "oracleText": "This message will be deleted automatically on {Month}/{Day}/{Year}",
         "translation": "This message will be deleted automatically on {Month}/{Day}/{Year}"
+    },
+    "PlayerInbox/NewAlert": {
+        "oracleText": "New",
+        "translation": "New"
     },
     "PlayerInbox/TestBody": {
         "oracleText": "Test Body One",
@@ -42024,8 +42936,8 @@
         "translation": "每年秋天，标准赛制中的可用卡牌会进行一次轮替。"
     },
     "Renewal/UpcomingRotation_SubTitle4": {
-        "oracleText": "These sets will be playable only in Play or Historic modes.",
-        "translation": "以下系列只能在史迹游戏模式中使用。"
+        "oracleText": "These sets will only be playable in non-rotating modes, like Historic and Explorer.",
+        "translation": "These sets will only be playable in non-rotating modes, like Historic and Explorer."
     },
     "Renewal/UpcomingRotation_SubTitle4_Alt1": {
         "oracleText": "These sets will be playable only in Open Play or Historic play modes.",
@@ -43406,6 +44318,10 @@
     "Xsolla/StarterBundle_Desc": {
         "oracleText": "MTGA Starter Bundle: 5 Assorted Standard Packs, 2500 Gems",
         "translation": "MTGA Starter Bundle: 5 Assorted Standard Packs, 2500 Gems"
+    },
+    "Xsolla/Warhammer_Description": {
+        "oracleText": "8x Warhammer 40,000 Sleeves",
+        "translation": "8x Warhammer 40,000 Sleeves"
     },
     "Xsolla/XL_2019_Logo_Sleeve_Title": {
         "oracleText": "Extra Life 2019 Sleeve**",
