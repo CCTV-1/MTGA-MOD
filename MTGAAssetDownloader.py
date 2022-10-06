@@ -10,7 +10,7 @@ class MTGA_PLATFORM(enum.Enum):
     MacOS = 'macos'
 
 playerId = "\0" #seem can be any Non-None value
-clientVersion = "2022.19.11"
+clientVersion = "2022.20.0"
 platformKey = MTGA_PLATFORM.MacOS.value
 
 if __name__ == "__main__":
