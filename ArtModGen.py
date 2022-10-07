@@ -2,6 +2,7 @@ import enum
 import json
 import pathlib
 import shutil
+import sqlite3
 
 import UnityPy
 from PIL import Image
@@ -26,36 +27,6 @@ class AssetType(enum.Enum):
 PATCH_TARGET_LIST: dict = {
     AssetType.CardArt:
     [
-        ## UND
-        #"410991",
-        #"410992",
-        #"410993",
-        #"410994",
-        #"410995",
-        ## UST
-        #"162621",
-        #"162622",
-        #"162623",
-        #"162624",
-        #"162625",
-        ## GRN
-        #"402471",
-        #"402472",
-        #"402473",
-        #"402474",
-        #"402475",
-        ## RNA
-        #"402478",
-        #"402479",
-        #"402480",
-        #"402481",
-        #"402482",
-        ## ANB
-        #"089172",
-        #"138668",
-        #"159811",
-        #"401902",
-        #"403289",
         # KHM
         "416564",
         "416565",
@@ -394,11 +365,11 @@ PATCH_TARGET_LIST: dict = {
         # Example: { ... "artId": 89172, ... "set": "ANB", ... } to { ... "artId": 89172, "artSize": 2, ... "set": "ANB", ... }
         "ANB":
         {
-            89172: {"artSize": 421791},
-            138668: {"artSize": 421789},
-            159811: {"artSize": 421792},
-            401902: {"artSize": 421793},
-            403289: {"artSize": 421790}
+            89172:  {"artId": 421791, "artSize": 2},
+            138668: {"artId": 421789, "artSize": 2},
+            159811: {"artId": 421792, "artSize": 2},
+            401902: {"artId": 421793, "artSize": 2},
+            403289: {"artId": 421790, "artSize": 2}
         },
         "GRN":
         {
@@ -417,11 +388,11 @@ PATCH_TARGET_LIST: dict = {
             402482: {"artId": 421797}
         },
         "KHM": {
-            416564: {"artSize": 2, "rawFrameDetails": "full frame"},
-            416565: {"artSize": 2, "rawFrameDetails": "full frame"},
-            416566: {"artSize": 2, "rawFrameDetails": "full frame"},
-            416567: {"artSize": 2, "rawFrameDetails": "full frame"},
-            416568: {"artSize": 2, "rawFrameDetails": "full frame"}
+            416564: {"artSize": 2},
+            416565: {"artSize": 2},
+            416566: {"artSize": 2},
+            416567: {"artSize": 2},
+            416568: {"artSize": 2}
         }
     }
 }
@@ -525,22 +496,34 @@ def patch_carddatabase(patch: dict):
         raise FileNotFoundError('can not found mtga card database dir')
 
     for dbAsset in databaseDir.iterdir():
-        if dbAsset.name.startswith('Raw_cards_'):
+        if dbAsset.name.startswith('Raw_CardDatabase_'):
             shutil.copy(dbAsset, Config.BACKUP_DIR)
 
-            with open(dbAsset, 'r', encoding='UTF-8') as f:
-                databaseContent = json.load(f)
+            with sqlite3.connect(dbAsset) as cardDBConnect:
+                cardDBCursor = cardDBConnect.cursor()
+                databaseContent = {}
+                for rawRow in cardDBCursor.execute('SELECT GrpId,ArtSize,artId,ExpansionCode,RawFrameDetail FROM Cards;'):
+                    databaseContent[rawRow[0]] = {
+                        'ArtSize': rawRow[1],
+                        'artId': rawRow[2],
+                        'ExpansionCode': rawRow[3],
+                        'RawFrameDetail': rawRow[4]
+                    }
 
-            for setCode, setPatchs in patch.items():
-                artArr = setPatchs.keys()
-                for nodeId in range(0, len(databaseContent)):
-                    if databaseContent[nodeId]['set'] == setCode and databaseContent[nodeId]['artId'] in artArr:
-                        patchContents = setPatchs[databaseContent[nodeId]['artId']]
-                        for k, v in patchContents.items():
-                            databaseContent[nodeId][k] = v
+                for setCode, setPatchs in patch.items():
+                    artArr = setPatchs.keys()
+                    for GrpId, cardData in databaseContent.items():
+                        if cardData['ExpansionCode'] == setCode and cardData['artId'] in artArr:
+                            patchContents = setPatchs[cardData['artId']]
+                            for k, v in patchContents.items():
+                                cardData[k] = v
+                            cardDBCursor.execute('UPDATE Cards set ArtSize = ?, artId = ?, ExpansionCode = ?, RawFrameDetail = ? WHERE GrpId = ?;',
+                                                 (cardData['ArtSize'], cardData['artId'], cardData['ExpansionCode'], cardData['RawFrameDetail'], GrpId))
 
-            with open('{0}/{1}'.format(Config.OUT_DIR, dbAsset.name), 'w', encoding='UTF-8') as f:
-                json.dump(databaseContent, f, ensure_ascii=False, indent=4)
+                # 'GC' database file
+                cardDBConnect.isolation_level = None
+                cardDBCursor.execute('VACUUM')
+                cardDBConnect.commit()
 
             return
 
