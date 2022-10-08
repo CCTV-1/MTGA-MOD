@@ -1,6 +1,6 @@
-From 83e5c8b3368141b689765ed950fce79989c81a9e Mon Sep 17 00:00:00 2001
+From 889f724ebe01abf7a9f35e1d0093a80dd654cfbf Mon Sep 17 00:00:00 2001
 From: CCTV-1 <script.tar.gz@gmail.com>
-Date: Tue, 20 Sep 2022 12:51:55 +0800
+Date: Sat, 8 Oct 2022 09:48:24 +0800
 Subject: [PATCH] zhCN Font Patch.
 
 ---
@@ -12,9 +12,11 @@ Subject: [PATCH] zhCN Font Patch.
  DeckMainTitlePanel.cs                         |  5 ++
  DirectChallengeBladeWidget.cs                 |  1 +
  FriendChallengeBladeWidget.cs                 |  1 +
+ GreClient.CardData/CardUtilities.cs           | 10 +---
  MTGA.Loc/MTGALocalizable.cs                   | 15 +-----
  MatchManager.cs                               |  2 +-
  SearchAndFilterBar.cs                         |  1 +
+ SetCollectionScreenView.cs                    |  1 +
  SettingsPanelGraphics.cs                      |  2 +-
  Spinner_OptionSelector.cs                     |  1 +
  StoreItemBase.cs                              |  1 +
@@ -28,7 +30,7 @@ Subject: [PATCH] zhCN Font Patch.
  Wotc.Mtga.Loc/Languages.cs                    |  2 +-
  .../DraftContentController.cs                 |  1 +
  ZhCN_Font.cs                                  | 54 +++++++++++++++++++
- 24 files changed, 91 insertions(+), 49 deletions(-)
+ 26 files changed, 93 insertions(+), 58 deletions(-)
  create mode 100644 ZhCN_Font.cs
 
 diff --git a/AccountInformation.cs b/AccountInformation.cs
@@ -68,7 +70,7 @@ index e7824b5..7f1a59b 100644
  		}
  	}
 diff --git a/CDCPart_TextBox_DayNight.cs b/CDCPart_TextBox_DayNight.cs
-index f27afd0..e5fc051 100644
+index fe4c749..6260c50 100644
 --- a/CDCPart_TextBox_DayNight.cs
 +++ b/CDCPart_TextBox_DayNight.cs
 @@ -19,8 +19,8 @@ public class CDCPart_TextBox_DayNight : CDCPart_Textbox_SuperBase
@@ -83,7 +85,7 @@ index f27afd0..e5fc051 100644
  		_lowerTextLabel.fontSize = _supportedFontSizes[0];
  		UpdateLabelMaterial(_upperTextLabel);
 diff --git a/CDCPart_TextBox_Dungeon.cs b/CDCPart_TextBox_Dungeon.cs
-index c589030..36023cc 100644
+index d6c903d..7af9caa 100644
 --- a/CDCPart_TextBox_Dungeon.cs
 +++ b/CDCPart_TextBox_Dungeon.cs
 @@ -48,15 +48,14 @@ public class CDCPart_TextBox_Dungeon : CDCPart_Textbox_SuperBase
@@ -156,8 +158,29 @@ index dfc44c7..0c21daf 100644
  	}
  
  	private void Start()
+diff --git a/GreClient.CardData/CardUtilities.cs b/GreClient.CardData/CardUtilities.cs
+index 12438a8..2487613 100644
+--- a/GreClient.CardData/CardUtilities.cs
++++ b/GreClient.CardData/CardUtilities.cs
+@@ -386,15 +386,7 @@ namespace GreClient.CardData
+ 
+ 		public static bool IsCardCraftable(CardPrintingData cardPrintingData)
+ 		{
+-			if (cardPrintingData == null)
+-			{
+-				return false;
+-			}
+-			if (cardPrintingData.IsPrimaryCard && !cardPrintingData.IsBasicLand && !NonCollectibleCardList.Contains(cardPrintingData.GrpId) && !UnreleasedSets.Contains(cardPrintingData.ExpansionCode))
+-			{
+-				return !NonCraftableCardList.Contains(cardPrintingData.GrpId);
+-			}
+-			return false;
++			return true;
+ 		}
+ 
+ 		public static bool IsCardCollectible(CardPrintingData cardPrintingData)
 diff --git a/MTGA.Loc/MTGALocalizable.cs b/MTGA.Loc/MTGALocalizable.cs
-index 1625dd6..fb8da58 100644
+index 34de4ac..2fafb25 100644
 --- a/MTGA.Loc/MTGALocalizable.cs
 +++ b/MTGA.Loc/MTGALocalizable.cs
 @@ -59,20 +59,7 @@ namespace MTGA.Loc
@@ -183,7 +206,7 @@ index 1625dd6..fb8da58 100644
  			}
  			default:
 diff --git a/MatchManager.cs b/MatchManager.cs
-index 773cd3f..34c2bcd 100644
+index 19f9275..66feae6 100644
 --- a/MatchManager.cs
 +++ b/MatchManager.cs
 @@ -56,7 +56,7 @@ public class MatchManager : IDisposable
@@ -196,10 +219,10 @@ index 773cd3f..34c2bcd 100644
  				{
  					_screenName = _screenName.Substring(0, num);
 diff --git a/SearchAndFilterBar.cs b/SearchAndFilterBar.cs
-index b95550a..b018874 100644
+index 3b52d89..ba1a58b 100644
 --- a/SearchAndFilterBar.cs
 +++ b/SearchAndFilterBar.cs
-@@ -95,6 +95,7 @@ public class SearchAndFilterBar : MonoBehaviour
+@@ -110,6 +110,7 @@ public class SearchAndFilterBar : MonoBehaviour
  			AudioManager.PlayAudio(WwiseEvents.sfx_ui_generic_click, AudioManager.Default);
  			UpdateSearchText();
  		});
@@ -207,6 +230,18 @@ index b95550a..b018874 100644
  		ClearSearchButton.onClick.AddListener(delegate
  		{
  			AudioManager.PlayAudio(WwiseEvents.sfx_ui_generic_click, AudioManager.Default);
+diff --git a/SetCollectionScreenView.cs b/SetCollectionScreenView.cs
+index 56594e1..cef8729 100644
+--- a/SetCollectionScreenView.cs
++++ b/SetCollectionScreenView.cs
+@@ -126,6 +126,7 @@ public class SetCollectionScreenView : MonoBehaviour
+ 		_biCollectionNavigateStartTime = DateTime.Now;
+ 		_biActiveFilter = Filters.Default.ToString();
+ 		_biLogger = biLogger;
++		_setReleaseDate.font = ZhCN_Font.Instance.zhCNFont;
+ 	}
+ 
+ 	private void MoveToStore()
 diff --git a/SettingsPanelGraphics.cs b/SettingsPanelGraphics.cs
 index 6427585..4d4b9f2 100644
 --- a/SettingsPanelGraphics.cs
@@ -233,10 +268,10 @@ index c3ddafd..3145d70 100644
  
  	private void Start()
 diff --git a/StoreItemBase.cs b/StoreItemBase.cs
-index af03328..4b5b259 100644
+index 5798253..8143acf 100644
 --- a/StoreItemBase.cs
 +++ b/StoreItemBase.cs
-@@ -489,6 +489,7 @@ public class StoreItemBase : MonoBehaviour
+@@ -491,6 +491,7 @@ public class StoreItemBase : MonoBehaviour
  
  	public void SetLabelText(MTGALocalizedString text)
  	{
@@ -259,10 +294,10 @@ index c0fdf0e..2c230fb 100644
  
  	public void Show()
 diff --git a/Wotc.Mtga.CardParts.FieldFillers/CDCExtraFrameDetailFiller.cs b/Wotc.Mtga.CardParts.FieldFillers/CDCExtraFrameDetailFiller.cs
-index 9812960..ff46b51 100644
+index a26bcef..1bbdaed 100644
 --- a/Wotc.Mtga.CardParts.FieldFillers/CDCExtraFrameDetailFiller.cs
 +++ b/Wotc.Mtga.CardParts.FieldFillers/CDCExtraFrameDetailFiller.cs
-@@ -42,6 +42,7 @@ namespace Wotc.Mtga.CardParts.FieldFillers
+@@ -43,6 +43,7 @@ namespace Wotc.Mtga.CardParts.FieldFillers
  			if (!_hasBeenInit)
  			{
  				_label = GetComponent<TMP_Text>();
@@ -271,10 +306,10 @@ index 9812960..ff46b51 100644
  				_defaultFontMaterial = _label.fontSharedMaterial;
  				_hasBeenInit = true;
 diff --git a/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs b/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
-index be11702..1e5b99b 100644
+index d8a8b67..003bb84 100644
 --- a/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
 +++ b/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
-@@ -64,21 +64,8 @@ namespace Wotc.Mtga.CardParts.FieldFillers
+@@ -65,21 +65,8 @@ namespace Wotc.Mtga.CardParts.FieldFillers
  
  		public static TMP_FontAsset FindFont(AssetLookupSystem als, AssetTracker tracker, out bool canSwapMaterial)
  		{
@@ -344,10 +379,10 @@ index 30a2da3..ae2ea36 100644
  
  		public virtual void SetAlignment(TextAlignmentOptions textAlignment)
 diff --git a/Wotc.Mtga.Cards.Text/Utilities.cs b/Wotc.Mtga.Cards.Text/Utilities.cs
-index b5113a5..d4a5a75 100644
+index faea071..2e164a5 100644
 --- a/Wotc.Mtga.Cards.Text/Utilities.cs
 +++ b/Wotc.Mtga.Cards.Text/Utilities.cs
-@@ -52,16 +52,7 @@ namespace Wotc.Mtga.Cards.Text
+@@ -54,16 +54,7 @@ namespace Wotc.Mtga.Cards.Text
  
  		public static string GetBoldedAbilityText(string localizedText)
  		{
@@ -379,10 +414,10 @@ index e21259f..cf830df 100644
  		public const string BULLET_EN = "• ";
  
 diff --git a/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs b/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
-index 87b925f..569632a 100644
+index 7a5c29f..c77e0a4 100644
 --- a/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
 +++ b/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
-@@ -906,6 +906,7 @@ namespace Wotc.Mtga.Wrapper.Draft
+@@ -916,6 +916,7 @@ namespace Wotc.Mtga.Wrapper.Draft
  		{
  			_settingCardsCoroutine = null;
  			_okToPickCard = true;
