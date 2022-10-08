@@ -131,7 +131,38 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 	}
 	```
 
-5. 禁止安卓端请求Google Play更新数据：使用`Il2CppDumper`或类似工具将符号恢复到`IDA Pro`中。搜索函数`Wizards_Mtga_Platforms_PlatformContext__GetInstallationController`，使函数无条件跳转至构造返回`Wizards.Mtga.Installation.NoSupportInstallationController`而不是构造返回`Wizards.Mtga.Platforms.Android.AndroidInstallationController`。例如将下面的`B.NE loc_1438FAC`改为`B loc_1438FAC`。
+5. 修改`CardUtilities.IsCardCraftable`函数为总是返回`true`，解除某些单卡不可使用野卡合成的限制(有封号风险)。
+	```csharp
+		private void RefreshCraftMode()
+		{
+			/*无关代码，省略*/
+			if (this._printingData.IsBasicLand)
+			{
+				list.Add(Languages.ActiveLocProvider.GetLocalizedText("SystemMessage/System_Invalid_Redemption_Text", Array.Empty<ValueTuple<string, string>>()));
+			}
+			else if (!CardUtilities.IsCardCraftable(this._printingData))
+			{
+				flag3 = true;
+				list.Add(Languages.ActiveLocProvider.GetLocalizedText("SystemMessage/System_Invalid_Redemption_Text", Array.Empty<ValueTuple<string, string>>()));
+			}
+			else if (this._collectedQuantity < 4)
+			{
+				flag3 = true;
+				flag4 = true;
+				/*无关代码，省略*/
+			}
+			/*无关代码，省略*/
+			this._craftButton.gameObject.SetActive(flag4);
+			if (flag4)
+			{
+				this._craftButton.Interactable = flag5;
+			}
+			/*无关代码，省略*/
+		}
+	```
+
+
+6. 禁止安卓端请求Google Play更新数据：使用`Il2CppDumper`或类似工具将符号恢复到`IDA Pro`中。搜索函数`Wizards_Mtga_Platforms_PlatformContext__GetInstallationController`，使函数无条件跳转至构造返回`Wizards.Mtga.Installation.NoSupportInstallationController`而不是构造返回`Wizards.Mtga.Platforms.Android.AndroidInstallationController`。例如将下面的`B.NE loc_1438FAC`改为`B loc_1438FAC`。
 	```ASM
 	STR             X19, [SP,#-0x20]!
 	STP             X29, X30, [SP,#0x10]
@@ -172,7 +203,7 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 	RET
 	```
 
-6. 安卓端禁用商店以支持无GooglePlay设备进入游戏：使用`Il2CppDumper`或类似工具将符号恢复到`IDA Pro`中。搜索函数`StoreManager$$RefreshStoreDataYield`(不同工具生成的名称会略有不同)。通过`CODE XREF`找到`WrapperController::Coroutine_StartupSequence::MoveNext`函数中对`StoreManager$$RefreshStoreDataYield`的调用并将其`NOP`。例如在`2022/4/28`更新的客户端中：`0x172B564` `BL StoreManager$$RefreshStoreDataYield`(19 3F F8 97) => `NOP`(1F 20 03 D5)
+7. 安卓端禁用商店以支持无GooglePlay设备进入游戏：使用`Il2CppDumper`或类似工具将符号恢复到`IDA Pro`中。搜索函数`StoreManager$$RefreshStoreDataYield`(不同工具生成的名称会略有不同)。通过`CODE XREF`找到`WrapperController::Coroutine_StartupSequence::MoveNext`函数中对`StoreManager$$RefreshStoreDataYield`的调用并将其`NOP`。例如在`2022/4/28`更新的客户端中：`0x172B564` `BL StoreManager$$RefreshStoreDataYield`(19 3F F8 97) => `NOP`(1F 20 03 D5)
 
 # 四、 自动生成牌张样式MOD
 
