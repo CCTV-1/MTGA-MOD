@@ -161,8 +161,73 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 		}
 	```
 
+6. 修改`DeckBuilderWidget::SuggestLand`以支持设置默认基本地。
+	```csharp
+		private void SuggestLand()
+		{
+			List<CardList.CardPrintingQuantity> filteredMainDeck = _model.GetFilteredMainDeck();
+			Dictionary<ManaColor, uint> dictionary = BasicLandSuggester.Calculate(filteredMainDeck, _context.Format);
+			List<uint> list = new List<uint>();
+			foreach (CardList.CardPrintingQuantity item2 in filteredMainDeck)
+			{
+				if (item2.Printing.IsBasicLandUnlimited)
+				{
+					for (int j = 0; j < item2.Quantity; j++)
+					{
+						list.Add(item2.Printing.GrpId);
+					}
+				}
+			}
+			foreach (uint item3 in list)
+			{
+				_model.RemoveCardFromMainDeck(item3);
+			}
+			foreach (KeyValuePair<ManaColor, uint> suggestion in dictionary)
+			{
+				ManaColor suggestionColor = suggestion.Key;
+				uint defaultLandId = 0;
+				switch (suggestionColor)
+				{
+					case ManaColor.ManaColor_White:
+					{
+						defaultLandId = LandConfig.Instance.plainsId;
+						break;
+					}
+					case ManaColor.ManaColor_Blue:
+					{
+						defaultLandId = LandConfig.Instance.islandId;
+						break;
+					}
+					case ManaColor.ManaColor_Black:
+					{
+						defaultLandId = LandConfig.Instance.swampId;
+						break;
+					}
+					case ManaColor.ManaColor_Red:
+					{
+						defaultLandId = LandConfig.Instance.mountainId;
+						break;
+					}
+					case ManaColor.ManaColor_Green:
+					{
+						defaultLandId = LandConfig.Instance.forestId;
+						break;
+					}
+					default:
+						break;
+				}
+				for (int k = 0; k < suggestion.Value; k++)
+				{
+					_model.AddCardToMainDeck(defaultLandId);
+				}
+			}
+			_model.UpdateMainDeck();
+			_companionUtil.UpdateValidation(_model, _context?.Format);
+			WrapperDeckBuilder.CacheDeck(_model, _context);
+		}
+	```
 
-6. 禁止安卓端请求Google Play更新数据：使用`Il2CppDumper`或类似工具将符号恢复到`IDA Pro`中。搜索函数`Wizards_Mtga_Platforms_PlatformContext__GetInstallationController`，使函数无条件跳转至构造返回`Wizards.Mtga.Installation.NoSupportInstallationController`而不是构造返回`Wizards.Mtga.Platforms.Android.AndroidInstallationController`。例如将下面的`B.NE loc_1438FAC`改为`B loc_1438FAC`。
+7. 禁止安卓端请求Google Play更新数据：使用`Il2CppDumper`或类似工具将符号恢复到`IDA Pro`中。搜索函数`Wizards_Mtga_Platforms_PlatformContext__GetInstallationController`，使函数无条件跳转至构造返回`Wizards.Mtga.Installation.NoSupportInstallationController`而不是构造返回`Wizards.Mtga.Platforms.Android.AndroidInstallationController`。例如将下面的`B.NE loc_1438FAC`改为`B loc_1438FAC`。
 	```ASM
 	STR             X19, [SP,#-0x20]!
 	STP             X29, X30, [SP,#0x10]
@@ -203,7 +268,7 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 	RET
 	```
 
-7. 安卓端禁用商店以支持无GooglePlay设备进入游戏：使用`Il2CppDumper`或类似工具将符号恢复到`IDA Pro`中。搜索函数`StoreManager$$RefreshStoreDataYield`(不同工具生成的名称会略有不同)。通过`CODE XREF`找到`WrapperController::Coroutine_StartupSequence::MoveNext`函数中对`StoreManager$$RefreshStoreDataYield`的调用并将其`NOP`。例如在`2022/4/28`更新的客户端中：`0x172B564` `BL StoreManager$$RefreshStoreDataYield`(19 3F F8 97) => `NOP`(1F 20 03 D5)
+8. 安卓端禁用商店以支持无GooglePlay设备进入游戏：使用`Il2CppDumper`或类似工具将符号恢复到`IDA Pro`中。搜索函数`StoreManager$$RefreshStoreDataYield`(不同工具生成的名称会略有不同)。通过`CODE XREF`找到`WrapperController::Coroutine_StartupSequence::MoveNext`函数中对`StoreManager$$RefreshStoreDataYield`的调用并将其`NOP`。例如在`2022/4/28`更新的客户端中：`0x172B564` `BL StoreManager$$RefreshStoreDataYield`(19 3F F8 97) => `NOP`(1F 20 03 D5)
 
 # 四、 自动生成牌张样式MOD
 
