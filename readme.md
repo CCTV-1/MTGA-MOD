@@ -216,6 +216,11 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 					default:
 						break;
 				}
+				//if player not own seleced land,failback to use he last obtained land.
+				if (!_inventoryManager.Cards.TryGetValue(defaultLandId, out var cardQuantity) || (cardQuantity <= 0))
+				{
+					defaultLandId = _cardDatabase.DatabaseUtilities.GetPrimaryPrintings().LastOrDefault((CardPrintingData kvp) => kvp.IsBasicLandUnlimited && kvp.ColorIdentity.FirstOrDefault().ToManaColor() == suggestion.Key && _inventoryManager.Cards.TryGetValue(kvp.GrpId, out var cardQuantity) && cardQuantity > 0).GrpId;
+				}
 				for (int k = 0; k < suggestion.Value; k++)
 				{
 					_model.AddCardToMainDeck(defaultLandId);
