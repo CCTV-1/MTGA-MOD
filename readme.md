@@ -190,27 +190,27 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 				{
 					case ManaColor.ManaColor_White:
 					{
-						defaultLandId = LandConfig.Instance.plainsId;
+						defaultLandId = ModConfig.Instance.plainsId;
 						break;
 					}
 					case ManaColor.ManaColor_Blue:
 					{
-						defaultLandId = LandConfig.Instance.islandId;
+						defaultLandId = ModConfig.Instance.islandId;
 						break;
 					}
 					case ManaColor.ManaColor_Black:
 					{
-						defaultLandId = LandConfig.Instance.swampId;
+						defaultLandId = ModConfig.Instance.swampId;
 						break;
 					}
 					case ManaColor.ManaColor_Red:
 					{
-						defaultLandId = LandConfig.Instance.mountainId;
+						defaultLandId = ModConfig.Instance.mountainId;
 						break;
 					}
 					case ManaColor.ManaColor_Green:
 					{
-						defaultLandId = LandConfig.Instance.forestId;
+						defaultLandId = ModConfig.Instance.forestId;
 						break;
 					}
 					default:
@@ -232,7 +232,35 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 		}
 	```
 
-7. 禁止安卓端请求Google Play更新数据：使用`Il2CppDumper`或类似工具将符号恢复到`IDA Pro`中。搜索函数`Wizards_Mtga_Platforms_PlatformContext__GetInstallationController`，使函数无条件跳转至构造返回`Wizards.Mtga.Installation.NoSupportInstallationController`而不是构造返回`Wizards.Mtga.Platforms.Android.AndroidInstallationController`。例如将下面的`B.NE loc_1438FAC`改为`B loc_1438FAC`。
+7. 修改`WrapperDeckBuilder::OnNewDeck`和`DeckManagerController::OnCreateDeck`以支持指定套牌的默认赛制。
+   ```csharp
+		public void OnNewDeck()
+		{
+			if (!_decksManager.ShowDeckLimitError())
+			{
+				//GetDefaultFormat() ==> GetSafeFormat(ModConfig.Instance.defaultFormat)
+				DeckBuilderContext context = new DeckBuilderContext(DeckServiceWrapperHelpers.ToAzureModel(_formatManager.GetSafeFormat(ModConfig.Instance.defaultFormat).NewDeck(_decksManager)), null, sideboarding: false, firstEdit: true, DeckBuilderMode.DeckBuilding, ambiguousFormat: true);
+				SceneLoader.GetSceneLoader().GoToDeckBuilder(context, reloadIfAlreadyLoaded: true);
+				AudioManager.PlayAudio(WwiseEvents.sfx_ui_generic_click, base.gameObject);
+			}
+		}
+
+		private void OnCreateDeck()
+		{
+			if (!_decksManager.ShowDeckLimitError())
+			{
+				string createsFormat = _deckBuckets[_selectedBucket].CreatesFormat;
+				if (_selectedBucket == 0)
+				{
+					createsFormat = ModConfig.Instance.defaultFormat;
+				}
+				Client_Deck deck = _formatManager.GetSafeFormat(createsFormat).NewDeck(_decksManager);
+				New_GoToDeckBuilder(deck, FormatUtilities.IsAmbiguous(createsFormat));
+			}
+		}
+   ```
+
+8. 禁止安卓端请求Google Play更新数据：使用`Il2CppDumper`或类似工具将符号恢复到`IDA Pro`中。搜索函数`Wizards_Mtga_Platforms_PlatformContext__GetInstallationController`，使函数无条件跳转至构造返回`Wizards.Mtga.Installation.NoSupportInstallationController`而不是构造返回`Wizards.Mtga.Platforms.Android.AndroidInstallationController`。例如将下面的`B.NE loc_1438FAC`改为`B loc_1438FAC`。
 	```ASM
 	STR             X19, [SP,#-0x20]!
 	STP             X29, X30, [SP,#0x10]
@@ -273,7 +301,7 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 	RET
 	```
 
-8. 安卓端禁用商店以支持无GooglePlay设备进入游戏：使用`Il2CppDumper`或类似工具将符号恢复到`IDA Pro`中。搜索函数`StoreManager$$RefreshStoreDataYield`(不同工具生成的名称会略有不同)。通过`CODE XREF`找到`WrapperController::Coroutine_StartupSequence::MoveNext`函数中对`StoreManager$$RefreshStoreDataYield`的调用并将其`NOP`。例如在`2022/4/28`更新的客户端中：`0x172B564` `BL StoreManager$$RefreshStoreDataYield`(19 3F F8 97) => `NOP`(1F 20 03 D5)
+9. 安卓端禁用商店以支持无GooglePlay设备进入游戏：使用`Il2CppDumper`或类似工具将符号恢复到`IDA Pro`中。搜索函数`StoreManager$$RefreshStoreDataYield`(不同工具生成的名称会略有不同)。通过`CODE XREF`找到`WrapperController::Coroutine_StartupSequence::MoveNext`函数中对`StoreManager$$RefreshStoreDataYield`的调用并将其`NOP`。例如在`2022/4/28`更新的客户端中：`0x172B564` `BL StoreManager$$RefreshStoreDataYield`(19 3F F8 97) => `NOP`(1F 20 03 D5)
 
 # 四、 自动生成牌张样式MOD
 
