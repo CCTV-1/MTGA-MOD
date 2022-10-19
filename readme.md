@@ -1,9 +1,9 @@
 # 一、让MTGA使用支持中文的字体
 
 ## 方案1：注入代码使游戏加载并使用自己制作的字体(以未使用`IL2CPP`构建的情况为例)
-1. 使用`dnSpy`给`Assembly-CSharp.dll`插入类[ZhCN_Font](./ZhCN_Font.cs)。
-2. 在合适的位置修改各处TMP_Text对象(直接或间接使用)的`font`成员为`ZhCN_Font.Instance.zhCNFont`([当前修补的位置](./0001-zhCN-Font-Patch.patch))。若想精细控制具体区域使用什么字体，只需要向`ZhCN_Font`类添加`TMP_FontAsset`类型的成员并加载相关字体，然后在设置`font`成员的各处改为想设置的字体(`ZhCN_Font.Instance.TitleFont`、`ZhCN_Font.Instance.RuleTextFont`之类的)即可。
-3. 使用与MTGA同样的Unity版本(`2020.3.13 f1`)制作字体。放于`ZhCN_Font`类要求的位置。
+1. 使用`dnSpy`给`Assembly-CSharp.dll`插入类[ModManager](./ModManager.cs)。
+2. 在合适的位置修改各处TMP_Text对象(直接或间接使用)的`font`成员为`ModManager.Instance.zhCNFont`([当前修补的位置](./0001-zhCN-Font-Patch.patch))。若想精细控制具体区域使用什么字体，只需要向`ModManager`类添加`TMP_FontAsset`类型的成员并加载相关字体，然后在设置`font`成员的各处改为想设置的字体(`ModManager.Instance.TitleFont`、`ModManager.Instance.RuleTextFont`之类的)即可。
+3. 使用与MTGA同样的Unity版本(`2020.3.13 f1`)制作字体。放于`ModManager`类要求的位置。
 
 PS: 对于使用了使用`IL2CPP`构建的平台，如果`BepInEx`、`MelonLoader`以及其他类似物可用，可以使用他们提供的API在运行时替换字体和修补代码以减少工作量。
 
@@ -190,27 +190,27 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 				{
 					case ManaColor.ManaColor_White:
 					{
-						defaultLandId = ModConfig.Instance.plainsId;
+						defaultLandId = ModManager.instance.config.plainsId;
 						break;
 					}
 					case ManaColor.ManaColor_Blue:
 					{
-						defaultLandId = ModConfig.Instance.islandId;
+						defaultLandId = ModManager.instance.config.islandId;
 						break;
 					}
 					case ManaColor.ManaColor_Black:
 					{
-						defaultLandId = ModConfig.Instance.swampId;
+						defaultLandId = ModManager.instance.config.swampId;
 						break;
 					}
 					case ManaColor.ManaColor_Red:
 					{
-						defaultLandId = ModConfig.Instance.mountainId;
+						defaultLandId = ModManager.instance.config.mountainId;
 						break;
 					}
 					case ManaColor.ManaColor_Green:
 					{
-						defaultLandId = ModConfig.Instance.forestId;
+						defaultLandId = ModManager.instance.config.forestId;
 						break;
 					}
 					default:
@@ -238,8 +238,8 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 		{
 			if (!_decksManager.ShowDeckLimitError())
 			{
-				//GetDefaultFormat() ==> GetSafeFormat(ModConfig.Instance.defaultFormat)
-				DeckBuilderContext context = new DeckBuilderContext(DeckServiceWrapperHelpers.ToAzureModel(_formatManager.GetSafeFormat(ModConfig.Instance.defaultFormat).NewDeck(_decksManager)), null, sideboarding: false, firstEdit: true, DeckBuilderMode.DeckBuilding, ambiguousFormat: true);
+				//GetDefaultFormat() ==> GetSafeFormat(ModManager.instance.config.defaultFormat)
+				DeckBuilderContext context = new DeckBuilderContext(DeckServiceWrapperHelpers.ToAzureModel(_formatManager.GetSafeFormat(ModManager.instance.config.defaultFormat).NewDeck(_decksManager)), null, sideboarding: false, firstEdit: true, DeckBuilderMode.DeckBuilding, ambiguousFormat: true);
 				SceneLoader.GetSceneLoader().GoToDeckBuilder(context, reloadIfAlreadyLoaded: true);
 				AudioManager.PlayAudio(WwiseEvents.sfx_ui_generic_click, base.gameObject);
 			}
@@ -252,7 +252,7 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 				string createsFormat = _deckBuckets[_selectedBucket].CreatesFormat;
 				if (_selectedBucket == 0)
 				{
-					createsFormat = ModConfig.Instance.defaultFormat;
+					createsFormat = ModManager.instance.config.defaultFormat;
 				}
 				Client_Deck deck = _formatManager.GetSafeFormat(createsFormat).NewDeck(_decksManager);
 				New_GoToDeckBuilder(deck, FormatUtilities.IsAmbiguous(createsFormat));
