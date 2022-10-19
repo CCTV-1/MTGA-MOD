@@ -1,37 +1,40 @@
-From 889f724ebe01abf7a9f35e1d0093a80dd654cfbf Mon Sep 17 00:00:00 2001
+From c98edc62cf0d4911c7adece92f9cd1dd522df312 Mon Sep 17 00:00:00 2001
 From: CCTV-1 <script.tar.gz@gmail.com>
-Date: Sat, 8 Oct 2022 09:48:24 +0800
-Subject: [PATCH] zhCN Font Patch.
+Date: Wed, 19 Oct 2022 21:50:44 +0800
+Subject: [PATCH] mod patch.
 
 ---
  AccountInformation.cs                         |  2 +-
- AutoLandsToggle.cs                            |  6 +++
+ AutoLandsToggle.cs                            |  6 ++
  CDCPart_TextBox_DayNight.cs                   |  4 +-
  CDCPart_TextBox_Dungeon.cs                    |  5 +-
  .../MasteryEndText.cs                         |  1 +
- DeckMainTitlePanel.cs                         |  5 ++
+ DeckBuilderWidget.cs                          | 96 ++++++-------------
+ DeckMainTitlePanel.cs                         |  5 +
+ DeckManagerController.cs                      | 10 +-
  DirectChallengeBladeWidget.cs                 |  1 +
  FriendChallengeBladeWidget.cs                 |  1 +
- GreClient.CardData/CardUtilities.cs           | 10 +---
- MTGA.Loc/MTGALocalizable.cs                   | 15 +-----
+ GreClient.CardData/CardUtilities.cs           | 10 +-
+ MTGA.Loc/MTGALocalizable.cs                   | 15 +--
  MatchManager.cs                               |  2 +-
+ ModManager.cs                                 | 84 ++++++++++++++++
  SearchAndFilterBar.cs                         |  1 +
  SetCollectionScreenView.cs                    |  1 +
  SettingsPanelGraphics.cs                      |  2 +-
  Spinner_OptionSelector.cs                     |  1 +
  StoreItemBase.cs                              |  1 +
- SystemMessageView.cs                          |  3 ++
+ SystemMessageView.cs                          |  3 +
  .../CDCExtraFrameDetailFiller.cs              |  1 +
- .../FieldFillerUtils.cs                       | 15 +-----
+ .../FieldFillerUtils.cs                       | 15 +--
  .../ClassAbilityTextbox.cs                    |  1 +
  .../TableAbilityTextbox.cs                    |  3 +-
  .../TextboxSubComponentBase.cs                |  2 +-
- Wotc.Mtga.Cards.Text/Utilities.cs             | 11 +---
+ Wotc.Mtga.Cards.Text/Utilities.cs             | 11 +--
  Wotc.Mtga.Loc/Languages.cs                    |  2 +-
  .../DraftContentController.cs                 |  1 +
- ZhCN_Font.cs                                  | 54 +++++++++++++++++++
- 26 files changed, 93 insertions(+), 58 deletions(-)
- create mode 100644 ZhCN_Font.cs
+ WrapperDeckBuilder.cs                         |  2 +-
+ 29 files changed, 162 insertions(+), 127 deletions(-)
+ create mode 100644 ModManager.cs
 
 diff --git a/AccountInformation.cs b/AccountInformation.cs
 index 8249116..f0e33a2 100644
@@ -47,7 +50,7 @@ index 8249116..f0e33a2 100644
  
  	public bool HasRole_Debugging()
 diff --git a/AutoLandsToggle.cs b/AutoLandsToggle.cs
-index e7824b5..7f1a59b 100644
+index e7824b5..dde621b 100644
 --- a/AutoLandsToggle.cs
 +++ b/AutoLandsToggle.cs
 @@ -1,5 +1,6 @@
@@ -64,13 +67,13 @@ index e7824b5..7f1a59b 100644
 +			Transform transform = base.transform.FindChild("Text");
 +			if (transform != null)
 +			{
-+				transform.GetComponent<TextMeshProUGUI>().font = ZhCN_Font.Instance.zhCNFont;
++				transform.GetComponent<TextMeshProUGUI>().font = ModManager.Instance.zhCNFont;
 +			}
  			_isInitialized = true;
  		}
  	}
 diff --git a/CDCPart_TextBox_DayNight.cs b/CDCPart_TextBox_DayNight.cs
-index fe4c749..6260c50 100644
+index fe4c749..65dfb9b 100644
 --- a/CDCPart_TextBox_DayNight.cs
 +++ b/CDCPart_TextBox_DayNight.cs
 @@ -19,8 +19,8 @@ public class CDCPart_TextBox_DayNight : CDCPart_Textbox_SuperBase
@@ -79,13 +82,13 @@ index fe4c749..6260c50 100644
  		base.HandleUpdateInternal();
 -		_upperTextLabel.font = _fontAsset;
 -		_lowerTextLabel.font = _fontAsset;
-+		_upperTextLabel.font = ZhCN_Font.Instance.zhCNFont;
-+		_lowerTextLabel.font = ZhCN_Font.Instance.zhCNFont;
++		_upperTextLabel.font = ModManager.Instance.zhCNFont;
++		_lowerTextLabel.font = ModManager.Instance.zhCNFont;
  		_upperTextLabel.fontSize = _supportedFontSizes[0];
  		_lowerTextLabel.fontSize = _supportedFontSizes[0];
  		UpdateLabelMaterial(_upperTextLabel);
 diff --git a/CDCPart_TextBox_Dungeon.cs b/CDCPart_TextBox_Dungeon.cs
-index d6c903d..7af9caa 100644
+index d6c903d..6ffbd00 100644
 --- a/CDCPart_TextBox_Dungeon.cs
 +++ b/CDCPart_TextBox_Dungeon.cs
 @@ -48,15 +48,14 @@ public class CDCPart_TextBox_Dungeon : CDCPart_Textbox_SuperBase
@@ -94,7 +97,7 @@ index d6c903d..7af9caa 100644
  		}
 -		TMP_FontAsset titleFont = GetTitleFont();
 -		TMP_FontAsset fontAsset = _fontAsset;
-+		TMP_FontAsset zhCNFont = ZhCN_Font.Instance.zhCNFont;
++		TMP_FontAsset zhCNFont = ModManager.Instance.zhCNFont;
  		for (int i = 0; i < _cachedLabelStrings.Count && i < _dungeonRooms.Count; i++)
  		{
  			(string, string) tuple = _cachedLabelStrings[i];
@@ -107,54 +110,195 @@ index d6c903d..7af9caa 100644
  		}
  		_activeRoomArray[0] = CurrentRoomGrpId(_cachedModel);
 diff --git a/Core.Meta.MainNavigation.Profile/MasteryEndText.cs b/Core.Meta.MainNavigation.Profile/MasteryEndText.cs
-index 590b658..0fc629f 100644
+index 590b658..9185b34 100644
 --- a/Core.Meta.MainNavigation.Profile/MasteryEndText.cs
 +++ b/Core.Meta.MainNavigation.Profile/MasteryEndText.cs
 @@ -22,6 +22,7 @@ namespace Core.Meta.MainNavigation.Profile
  				if (text == null)
  				{
  					text = GetComponent<TMP_Text>();
-+					text.font = ZhCN_Font.Instance.zhCNFont;
++					text.font = ModManager.Instance.zhCNFont;
  				}
  				return text;
  			}
+diff --git a/DeckBuilderWidget.cs b/DeckBuilderWidget.cs
+index fc77cbe..2c076aa 100644
+--- a/DeckBuilderWidget.cs
++++ b/DeckBuilderWidget.cs
+@@ -3382,84 +3382,50 @@ public class DeckBuilderWidget : MonoBehaviour, IKeyDownSubscriber, IKeySubscrib
+ 	{
+ 		List<CardList.CardPrintingQuantity> filteredMainDeck = _model.GetFilteredMainDeck();
+ 		Dictionary<ManaColor, uint> dictionary = BasicLandSuggester.Calculate(filteredMainDeck, _context.Format);
+-		Dictionary<ManaColor, List<uint>> dictionary2 = new Dictionary<ManaColor, List<uint>>
+-		{
+-			{
+-				ManaColor.ManaColor_White,
+-				new List<uint>()
+-			},
+-			{
+-				ManaColor.ManaColor_Blue,
+-				new List<uint>()
+-			},
+-			{
+-				ManaColor.ManaColor_Black,
+-				new List<uint>()
+-			},
+-			{
+-				ManaColor.ManaColor_Red,
+-				new List<uint>()
+-			},
+-			{
+-				ManaColor.ManaColor_Green,
+-				new List<uint>()
+-			}
+-		};
++		List<uint> list = new List<uint>();
+ 		foreach (CardList.CardPrintingQuantity item in filteredMainDeck)
+ 		{
+-			if (!item.Printing.IsBasicLandUnlimited)
++			if (item.Printing.IsBasicLandUnlimited)
+ 			{
+-				continue;
+-			}
+-			CardColor cardColor = item.Printing.ColorIdentity.FirstOrDefault();
+-			if ((uint)(cardColor - 1) <= 4u && _inventoryManager.Cards.TryGetValue(item.Printing.GrpId, out var value) && value > 0)
+-			{
+-				ManaColor key = cardColor.ToManaColor();
+ 				for (int i = 0; i < item.Quantity; i++)
+ 				{
+-					dictionary2[key].Add(item.Printing.GrpId);
+-				}
+-			}
+-		}
+-		List<uint> list = new List<uint>();
+-		foreach (CardList.CardPrintingQuantity item2 in filteredMainDeck)
+-		{
+-			if (item2.Printing.IsBasicLandUnlimited)
+-			{
+-				for (int j = 0; j < item2.Quantity; j++)
+-				{
+-					list.Add(item2.Printing.GrpId);
++					list.Add(item.Printing.GrpId);
+ 				}
+ 			}
+ 		}
+-		foreach (uint item3 in list)
++		foreach (uint item2 in list)
+ 		{
+-			_model.RemoveCardFromMainDeck(item3);
++			_model.RemoveCardFromMainDeck(item2);
+ 		}
+ 		foreach (KeyValuePair<ManaColor, uint> suggestion in dictionary)
+ 		{
+-			CardPrintingData cardPrintingData = null;
+-			List<uint> list2 = dictionary2[suggestion.Key];
+-			for (int k = 0; k < suggestion.Value; k++)
++			ManaColor key = suggestion.Key;
++			uint num = 0u;
++			switch (key)
+ 			{
+-				if (k < list2.Count)
+-				{
+-					_model.AddCardToMainDeck(list2[k]);
+-					continue;
+-				}
+-				if (list2.Count > 0)
+-				{
+-					_model.AddCardToMainDeck(list2[list2.Count - 1]);
+-					continue;
+-				}
+-				if (cardPrintingData == null)
+-				{
+-					cardPrintingData = _cardDatabase.DatabaseUtilities.GetPrimaryPrintings().LastOrDefault((CardPrintingData kvp) => kvp.IsBasicLandUnlimited && kvp.ColorIdentity.FirstOrDefault().ToManaColor() == suggestion.Key && _inventoryManager.Cards.TryGetValue(kvp.GrpId, out var value2) && value2 > 0);
+-				}
+-				if (cardPrintingData != null)
+-				{
+-					_model.AddCardToMainDeck(cardPrintingData.GrpId);
+-				}
++			case ManaColor.ManaColor_White:
++				num = ModManager.Instance.config.plainsId;
++				break;
++			case ManaColor.ManaColor_Blue:
++				num = ModManager.Instance.config.islandId;
++				break;
++			case ManaColor.ManaColor_Black:
++				num = ModManager.Instance.config.swampId;
++				break;
++			case ManaColor.ManaColor_Red:
++				num = ModManager.Instance.config.mountainId;
++				break;
++			case ManaColor.ManaColor_Green:
++				num = ModManager.Instance.config.forestId;
++				break;
++			}
++			if (!_inventoryManager.Cards.TryGetValue(num, out var value) || value <= 0)
++			{
++				num = _cardDatabase.DatabaseUtilities.GetPrimaryPrintings().LastOrDefault((CardPrintingData kvp) => kvp.IsBasicLandUnlimited && kvp.ColorIdentity.FirstOrDefault().ToManaColor() == suggestion.Key && _inventoryManager.Cards.TryGetValue(kvp.GrpId, out var value2) && value2 > 0).GrpId;
++			}
++			for (int j = 0; j < suggestion.Value; j++)
++			{
++				_model.AddCardToMainDeck(num);
+ 			}
+ 		}
+ 		_model.UpdateMainDeck();
 diff --git a/DeckMainTitlePanel.cs b/DeckMainTitlePanel.cs
-index f191488..747eb73 100644
+index f191488..fc897e6 100644
 --- a/DeckMainTitlePanel.cs
 +++ b/DeckMainTitlePanel.cs
 @@ -210,6 +210,11 @@ public class DeckMainTitlePanel : MonoBehaviour
  			{
  				AudioManager.PlayAudio(WwiseEvents.sfx_ui_filter_toggle, AudioManager.Default);
  			});
-+			_formatDropdown.transform.Find("Text_NonSelected").GetComponentInChildren<TextMeshProUGUI>().font = ZhCN_Font.Instance.zhCNFont;
++			_formatDropdown.transform.Find("Text_NonSelected").GetComponentInChildren<TextMeshProUGUI>().font = ModManager.Instance.zhCNFont;
 +		}
 +		if (_nameInput != null)
 +		{
-+			_nameInput.textComponent.font = ZhCN_Font.Instance.zhCNFont;
++			_nameInput.textComponent.font = ModManager.Instance.zhCNFont;
  		}
  		_meshRendererReferenceLoaders = new MeshRendererReferenceLoader[_deckBoxRenderers.Length];
  		for (int i = 0; i < _deckBoxRenderers.Length; i++)
+diff --git a/DeckManagerController.cs b/DeckManagerController.cs
+index f3d3b31..5b5b21c 100644
+--- a/DeckManagerController.cs
++++ b/DeckManagerController.cs
+@@ -386,9 +386,13 @@ public class DeckManagerController : NavContentController
+ 	{
+ 		if (!_decksManager.ShowDeckLimitError())
+ 		{
+-			string createsFormat = _deckBuckets[_selectedBucket].CreatesFormat;
+-			Client_Deck deck = _formatManager.GetSafeFormat(createsFormat).NewDeck(_decksManager);
+-			New_GoToDeckBuilder(deck, FormatUtilities.IsAmbiguous(createsFormat));
++			string formatName = _deckBuckets[_selectedBucket].CreatesFormat;
++			if (_selectedBucket == 0)
++			{
++				formatName = ModManager.Instance.config.defaultFormatName;
++			}
++			Client_Deck deck = _formatManager.GetSafeFormat(formatName).NewDeck(_decksManager);
++			New_GoToDeckBuilder(deck, FormatUtilities.IsAmbiguous(formatName));
+ 		}
+ 	}
+ 
 diff --git a/DirectChallengeBladeWidget.cs b/DirectChallengeBladeWidget.cs
-index 3d9987a..56f52cb 100644
+index 3d9987a..ec4b229 100644
 --- a/DirectChallengeBladeWidget.cs
 +++ b/DirectChallengeBladeWidget.cs
 @@ -188,6 +188,7 @@ public class DirectChallengeBladeWidget : PlayBladeWidget
  		_selectDeckSlot.OnClick.AddListener(OnSelectDeckClicked);
  		_selectDeckButton.OnClick.AddListener(OnSelectDeckClicked);
  		LocalUsernameOutputter.onClick.AddListener(OnYourName_Clicked);
-+		TournamentSettingsText.font = ZhCN_Font.Instance.zhCNFont;
++		TournamentSettingsText.font = ModManager.Instance.zhCNFont;
  	}
  
  	private void OnEnable()
 diff --git a/FriendChallengeBladeWidget.cs b/FriendChallengeBladeWidget.cs
-index dfc44c7..0c21daf 100644
+index dfc44c7..4eba434 100644
 --- a/FriendChallengeBladeWidget.cs
 +++ b/FriendChallengeBladeWidget.cs
 @@ -115,6 +115,7 @@ public class FriendChallengeBladeWidget : PlayBladeWidget
  			Languages.ActiveLocProvider.GetLocalizedText("MainNav/PrivateGame/Settings/StartingPlayer_Opponent")
  		});
  		_startingPlayerSpinner.SelectOption(0);
-+		TournamentSettingsText.font = ZhCN_Font.Instance.zhCNFont;
++		TournamentSettingsText.font = ModManager.Instance.zhCNFont;
  	}
  
  	private void Start()
@@ -180,7 +324,7 @@ index 12438a8..2487613 100644
  
  		public static bool IsCardCollectible(CardPrintingData cardPrintingData)
 diff --git a/MTGA.Loc/MTGALocalizable.cs b/MTGA.Loc/MTGALocalizable.cs
-index 34de4ac..2fafb25 100644
+index 34de4ac..9ebce53 100644
 --- a/MTGA.Loc/MTGALocalizable.cs
 +++ b/MTGA.Loc/MTGALocalizable.cs
 @@ -59,20 +59,7 @@ namespace MTGA.Loc
@@ -201,7 +345,7 @@ index 34de4ac..2fafb25 100644
 -						tMP_Text.fontSharedMaterial = material;
 -					}
 -				}
-+				tMP_Text.font = ZhCN_Font.Instance.zhCNFont;
++				tMP_Text.font = ModManager.Instance.zhCNFont;
  				break;
  			}
  			default:
@@ -218,27 +362,117 @@ index 19f9275..66feae6 100644
  				if (num != -1)
  				{
  					_screenName = _screenName.Substring(0, num);
+diff --git a/ModManager.cs b/ModManager.cs
+new file mode 100644
+index 0000000..eff3074
+--- /dev/null
++++ b/ModManager.cs
+@@ -0,0 +1,84 @@
++using System;
++using System.IO;
++using System.Text;
++using TMPro;
++using UnityEngine;
++
++public class ModManager
++{
++	[Serializable]
++	public class ModConfig
++	{
++		public string fontName = "sourcehansans-medium";
++
++		public uint plainsId = 81179u;
++
++		public uint islandId = 81180u;
++
++		public uint swampId = 81181u;
++
++		public uint mountainId = 81182u;
++
++		public uint forestId = 81183u;
++
++		public string defaultFormatName = "Standard";
++	}
++
++	public TMP_FontAsset zhCNFont;
++
++	private static ModManager instance;
++
++	private static readonly object lockObj;
++
++	private static string configFilePath;
++
++	public ModConfig config;
++
++	public static ModManager Instance
++	{
++		get
++		{
++			lock (lockObj)
++			{
++				if (instance == null)
++				{
++					instance = new ModManager();
++					if (instance.config == null)
++					{
++						try
++						{
++							string json = File.ReadAllText(configFilePath, Encoding.UTF8);
++							instance.config = JsonUtility.FromJson<ModConfig>(json);
++						}
++						catch (Exception)
++						{
++							instance.config = new ModConfig();
++						}
++					}
++					if (instance.zhCNFont == null)
++					{
++						string fontName = instance.config.fontName;
++						AssetBundle assetBundle = AssetBundle.LoadFromFile(Application.dataPath + "/" + fontName);
++						if (assetBundle == null)
++						{
++							Debug.LogWarning(Application.dataPath + "/" + fontName + " don't exist");
++						}
++						instance.zhCNFont = assetBundle.LoadAsset<TMP_FontAsset>(fontName + " SDF");
++					}
++				}
++			}
++			return instance;
++		}
++	}
++
++	private ModManager()
++	{
++	}
++
++	static ModManager()
++	{
++		instance = null;
++		lockObj = new object();
++		configFilePath = Application.dataPath + "/modconfig.json";
++	}
++}
 diff --git a/SearchAndFilterBar.cs b/SearchAndFilterBar.cs
-index 3b52d89..ba1a58b 100644
+index 3b52d89..c3e7959 100644
 --- a/SearchAndFilterBar.cs
 +++ b/SearchAndFilterBar.cs
 @@ -110,6 +110,7 @@ public class SearchAndFilterBar : MonoBehaviour
  			AudioManager.PlayAudio(WwiseEvents.sfx_ui_generic_click, AudioManager.Default);
  			UpdateSearchText();
  		});
-+		SearchInput.textComponent.font = ZhCN_Font.Instance.zhCNFont;
++		SearchInput.textComponent.font = ModManager.Instance.zhCNFont;
  		ClearSearchButton.onClick.AddListener(delegate
  		{
  			AudioManager.PlayAudio(WwiseEvents.sfx_ui_generic_click, AudioManager.Default);
 diff --git a/SetCollectionScreenView.cs b/SetCollectionScreenView.cs
-index 56594e1..cef8729 100644
+index 56594e1..c3a1e32 100644
 --- a/SetCollectionScreenView.cs
 +++ b/SetCollectionScreenView.cs
 @@ -126,6 +126,7 @@ public class SetCollectionScreenView : MonoBehaviour
  		_biCollectionNavigateStartTime = DateTime.Now;
  		_biActiveFilter = Filters.Default.ToString();
  		_biLogger = biLogger;
-+		_setReleaseDate.font = ZhCN_Font.Instance.zhCNFont;
++		_setReleaseDate.font = ModManager.Instance.zhCNFont;
  	}
  
  	private void MoveToStore()
@@ -256,57 +490,57 @@ index 6427585..4d4b9f2 100644
  			"pt-BR" => "Português\u00a0brasileiro", 
  			"ru" => "Русский", 
 diff --git a/Spinner_OptionSelector.cs b/Spinner_OptionSelector.cs
-index c3ddafd..3145d70 100644
+index c3ddafd..cab44df 100644
 --- a/Spinner_OptionSelector.cs
 +++ b/Spinner_OptionSelector.cs
 @@ -101,6 +101,7 @@ public class Spinner_OptionSelector : MonoBehaviour
  	{
  		_buttonNextValue.OnClick.AddListener(OnNextValue);
  		_buttonPreviousValue.OnClick.AddListener(OnPreviousValue);
-+		_valueLabel.font = ZhCN_Font.Instance.zhCNFont;
++		_valueLabel.font = ModManager.Instance.zhCNFont;
  	}
  
  	private void Start()
 diff --git a/StoreItemBase.cs b/StoreItemBase.cs
-index 5798253..8143acf 100644
+index 5798253..1f81971 100644
 --- a/StoreItemBase.cs
 +++ b/StoreItemBase.cs
 @@ -491,6 +491,7 @@ public class StoreItemBase : MonoBehaviour
  
  	public void SetLabelText(MTGALocalizedString text)
  	{
-+		_label.GameObject.GetComponent<TextMeshProUGUI>().font = ZhCN_Font.Instance.zhCNFont;
++		_label.GameObject.GetComponent<TextMeshProUGUI>().font = ModManager.Instance.zhCNFont;
  		SetOptionalObjectText(_label, text);
  	}
  
 diff --git a/SystemMessageView.cs b/SystemMessageView.cs
-index c0fdf0e..2c230fb 100644
+index c0fdf0e..2522871 100644
 --- a/SystemMessageView.cs
 +++ b/SystemMessageView.cs
 @@ -63,6 +63,9 @@ public class SystemMessageView : MonoBehaviour, IKeyDownSubscriber, IKeySubscrib
  	{
  		_canvasGroup.blocksRaycasts = false;
  		_canvasGroup.alpha = 0f;
-+		_titleText.font = ZhCN_Font.Instance.zhCNFont;
-+		_messageText.font = ZhCN_Font.Instance.zhCNFont;
-+		_detailsText.font = ZhCN_Font.Instance.zhCNFont;
++		_titleText.font = ModManager.Instance.zhCNFont;
++		_messageText.font = ModManager.Instance.zhCNFont;
++		_detailsText.font = ModManager.Instance.zhCNFont;
  	}
  
  	public void Show()
 diff --git a/Wotc.Mtga.CardParts.FieldFillers/CDCExtraFrameDetailFiller.cs b/Wotc.Mtga.CardParts.FieldFillers/CDCExtraFrameDetailFiller.cs
-index a26bcef..1bbdaed 100644
+index a26bcef..75a1a66 100644
 --- a/Wotc.Mtga.CardParts.FieldFillers/CDCExtraFrameDetailFiller.cs
 +++ b/Wotc.Mtga.CardParts.FieldFillers/CDCExtraFrameDetailFiller.cs
 @@ -43,6 +43,7 @@ namespace Wotc.Mtga.CardParts.FieldFillers
  			if (!_hasBeenInit)
  			{
  				_label = GetComponent<TMP_Text>();
-+				_label.font = ZhCN_Font.Instance.zhCNFont;
++				_label.font = ModManager.Instance.zhCNFont;
  				_defaultFont = _label.font;
  				_defaultFontMaterial = _label.fontSharedMaterial;
  				_hasBeenInit = true;
 diff --git a/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs b/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
-index d8a8b67..003bb84 100644
+index d8a8b67..e9f47d8 100644
 --- a/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
 +++ b/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
 @@ -65,21 +65,8 @@ namespace Wotc.Mtga.CardParts.FieldFillers
@@ -328,31 +562,31 @@ index d8a8b67..003bb84 100644
 -			}
  			canSwapMaterial = true;
 -			return null;
-+			return ZhCN_Font.Instance.zhCNFont;
++			return ModManager.Instance.zhCNFont;
  		}
  
  		public static Material FindMaterial(AssetLookupSystem als, AssetTracker tracker)
 diff --git a/Wotc.Mtga.Cards.Parts.Textbox/ClassAbilityTextbox.cs b/Wotc.Mtga.Cards.Parts.Textbox/ClassAbilityTextbox.cs
-index 111ac43..7471b4e 100644
+index 111ac43..09600f6 100644
 --- a/Wotc.Mtga.Cards.Parts.Textbox/ClassAbilityTextbox.cs
 +++ b/Wotc.Mtga.Cards.Parts.Textbox/ClassAbilityTextbox.cs
 @@ -27,6 +27,7 @@ namespace Wotc.Mtga.Cards.Parts.Textbox
  			base.SetContent(content);
  			_textLabel.text = levelTextEntry.GetText();
  			_costLabel.text = levelTextEntry.GetCost();
-+			_costLabel.font = ZhCN_Font.Instance.zhCNFont;
++			_costLabel.font = ModManager.Instance.zhCNFont;
  		}
  
  		public override void CleanUp()
 diff --git a/Wotc.Mtga.Cards.Parts.Textbox/TableAbilityTextbox.cs b/Wotc.Mtga.Cards.Parts.Textbox/TableAbilityTextbox.cs
-index afa904b..9d4d070 100644
+index afa904b..77aeb9c 100644
 --- a/Wotc.Mtga.Cards.Parts.Textbox/TableAbilityTextbox.cs
 +++ b/Wotc.Mtga.Cards.Parts.Textbox/TableAbilityTextbox.cs
 @@ -21,6 +21,7 @@ namespace Wotc.Mtga.Cards.Parts.Textbox
  			{
  				Root = root;
  				Textfield = root.GetComponentInChildren<TMP_Text>();
-+				Textfield.font = ZhCN_Font.Instance.zhCNFont;
++				Textfield.font = ModManager.Instance.zhCNFont;
  				Stripe = root.GetComponentInChildren<Image>();
  			}
  		}
@@ -361,12 +595,12 @@ index afa904b..9d4d070 100644
  				if ((bool)row.Textfield)
  				{
 -					row.Textfield.font = fontAsset;
-+					row.Textfield.font = ZhCN_Font.Instance.zhCNFont;
++					row.Textfield.font = ModManager.Instance.zhCNFont;
  				}
  			}
  		}
 diff --git a/Wotc.Mtga.Cards.Parts.Textbox/TextboxSubComponentBase.cs b/Wotc.Mtga.Cards.Parts.Textbox/TextboxSubComponentBase.cs
-index 30a2da3..ae2ea36 100644
+index 30a2da3..f4002e9 100644
 --- a/Wotc.Mtga.Cards.Parts.Textbox/TextboxSubComponentBase.cs
 +++ b/Wotc.Mtga.Cards.Parts.Textbox/TextboxSubComponentBase.cs
 @@ -47,7 +47,7 @@ namespace Wotc.Mtga.Cards.Parts.Textbox
@@ -374,7 +608,7 @@ index 30a2da3..ae2ea36 100644
  		public virtual void SetFont(TMP_FontAsset fontAsset)
  		{
 -			_textLabel.font = fontAsset;
-+			_textLabel.font = ZhCN_Font.Instance.zhCNFont;
++			_textLabel.font = ModManager.Instance.zhCNFont;
  		}
  
  		public virtual void SetAlignment(TextAlignmentOptions textAlignment)
@@ -425,66 +659,19 @@ index 7a5c29f..c77e0a4 100644
  			StartCoroutine(Coroutine_StartTimer());
  		}
  
-diff --git a/ZhCN_Font.cs b/ZhCN_Font.cs
-new file mode 100644
-index 0000000..c014191
---- /dev/null
-+++ b/ZhCN_Font.cs
-@@ -0,0 +1,54 @@
-+using System.IO;
-+using TMPro;
-+using UnityEngine;
-+
-+public class ZhCN_Font
-+{
-+	public TMP_FontAsset zhCNFont;
-+
-+	private static ZhCN_Font instance;
-+
-+	private static readonly object lockObj;
-+
-+	private static string fontName;
-+
-+	public static ZhCN_Font Instance
-+	{
-+		get
-+		{
-+			lock (lockObj)
-+			{
-+				if (instance == null)
-+				{
-+					instance = new ZhCN_Font();
-+					string text = fontName;
-+					if (File.Exists(Application.dataPath + "/fontconfig.txt"))
-+					{
-+						text = new StreamReader(Application.dataPath + "/fontconfig.txt").ReadLine();
-+					}
-+					if (instance.zhCNFont == null)
-+					{
-+						AssetBundle assetBundle = AssetBundle.LoadFromFile(Application.dataPath + "/" + text);
-+						if (assetBundle == null)
-+						{
-+							Debug.LogWarning(Application.dataPath + "/" + text + " don't exist");
-+						}
-+						instance.zhCNFont = assetBundle.LoadAsset<TMP_FontAsset>(text + " SDF");
-+					}
-+				}
-+			}
-+			return instance;
-+		}
-+	}
-+
-+	private ZhCN_Font()
-+	{
-+	}
-+
-+	static ZhCN_Font()
-+	{
-+		instance = null;
-+		fontName = "sourcehansans-medium";
-+		lockObj = new object();
-+	}
-+}
+diff --git a/WrapperDeckBuilder.cs b/WrapperDeckBuilder.cs
+index b1a40f5..74b8d53 100644
+--- a/WrapperDeckBuilder.cs
++++ b/WrapperDeckBuilder.cs
+@@ -239,7 +239,7 @@ public class WrapperDeckBuilder : NavContentController
+ 	{
+ 		if (!_decksManager.ShowDeckLimitError())
+ 		{
+-			DeckBuilderContext context = new DeckBuilderContext(DeckServiceWrapperHelpers.ToAzureModel(_formatManager.GetDefaultFormat().NewDeck(_decksManager)), null, sideboarding: false, firstEdit: true, DeckBuilderMode.DeckBuilding, ambiguousFormat: true);
++			DeckBuilderContext context = new DeckBuilderContext(DeckServiceWrapperHelpers.ToAzureModel(_formatManager.GetSafeFormat(ModManager.Instance.config.defaultFormatName).NewDeck(_decksManager)), null, sideboarding: false, firstEdit: true, DeckBuilderMode.DeckBuilding, ambiguousFormat: true);
+ 			SceneLoader.GetSceneLoader().GoToDeckBuilder(context, reloadIfAlreadyLoaded: true);
+ 			AudioManager.PlayAudio(WwiseEvents.sfx_ui_generic_click, base.gameObject);
+ 		}
 -- 
-2.37.3
+2.38.0
 
