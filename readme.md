@@ -312,11 +312,11 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 				}
 				if (iwd <= 0.0)
 				{
-					iwdString = "<color=\"red\">" + iwd.ToString("F1");
+					iwdString = "<color=\"red\"><size=90%>" + iwd.ToString("F1");
 				}
 				else
 				{
-					iwdString = "<color=\"green\">" + iwd.ToString("F1");
+					iwdString = "<color=\"green\"><size=90%>" + iwd.ToString("F1");
 				}
 				cardView.CardView.ShowCardRankInfo(active: true, iwdString);
 			}
