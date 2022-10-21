@@ -190,27 +190,27 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 				{
 					case ManaColor.ManaColor_White:
 					{
-						defaultLandId = ModManager.instance.config.plainsId;
+						defaultLandId = ModManager.Instance.config.plainsId;
 						break;
 					}
 					case ManaColor.ManaColor_Blue:
 					{
-						defaultLandId = ModManager.instance.config.islandId;
+						defaultLandId = ModManager.Instance.config.islandId;
 						break;
 					}
 					case ManaColor.ManaColor_Black:
 					{
-						defaultLandId = ModManager.instance.config.swampId;
+						defaultLandId = ModManager.Instance.config.swampId;
 						break;
 					}
 					case ManaColor.ManaColor_Red:
 					{
-						defaultLandId = ModManager.instance.config.mountainId;
+						defaultLandId = ModManager.Instance.config.mountainId;
 						break;
 					}
 					case ManaColor.ManaColor_Green:
 					{
-						defaultLandId = ModManager.instance.config.forestId;
+						defaultLandId = ModManager.Instance.config.forestId;
 						break;
 					}
 					default:
@@ -238,8 +238,8 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 		{
 			if (!_decksManager.ShowDeckLimitError())
 			{
-				//GetDefaultFormat() ==> GetSafeFormat(ModManager.instance.config.defaultFormat)
-				DeckBuilderContext context = new DeckBuilderContext(DeckServiceWrapperHelpers.ToAzureModel(_formatManager.GetSafeFormat(ModManager.instance.config.defaultFormat).NewDeck(_decksManager)), null, sideboarding: false, firstEdit: true, DeckBuilderMode.DeckBuilding, ambiguousFormat: true);
+				//GetDefaultFormat() ==> GetSafeFormat(ModManager.Instance.config.defaultFormat)
+				DeckBuilderContext context = new DeckBuilderContext(DeckServiceWrapperHelpers.ToAzureModel(_formatManager.GetSafeFormat(ModManager.Instance.config.defaultFormat).NewDeck(_decksManager)), null, sideboarding: false, firstEdit: true, DeckBuilderMode.DeckBuilding, ambiguousFormat: true);
 				SceneLoader.GetSceneLoader().GoToDeckBuilder(context, reloadIfAlreadyLoaded: true);
 				AudioManager.PlayAudio(WwiseEvents.sfx_ui_generic_click, base.gameObject);
 			}
@@ -252,7 +252,7 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 				string createsFormat = _deckBuckets[_selectedBucket].CreatesFormat;
 				if (_selectedBucket == 0)
 				{
-					createsFormat = ModManager.instance.config.defaultFormat;
+					createsFormat = ModManager.Instance.config.defaultFormat;
 				}
 				Client_Deck deck = _formatManager.GetSafeFormat(createsFormat).NewDeck(_decksManager);
 				New_GoToDeckBuilder(deck, FormatUtilities.IsAmbiguous(createsFormat));
@@ -260,7 +260,70 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 		}
    ```
 
-8. 禁止安卓端请求Google Play更新数据：使用`Il2CppDumper`或类似工具将符号恢复到`IDA Pro`中。搜索函数`Wizards_Mtga_Platforms_PlatformContext__GetInstallationController`，使函数无条件跳转至构造返回`Wizards.Mtga.Installation.NoSupportInstallationController`而不是构造返回`Wizards.Mtga.Platforms.Android.AndroidInstallationController`。例如将下面的`B.NE loc_1438FAC`改为`B loc_1438FAC`。
+8. 给`Meta_CDC`添加`ShowCardRankInfo`函数并修改`Wotc.Mtga.Wrapper.Draft.DraftContentController::UpdateCardCollectionInfo`为如下所示，显示从`17Lands`获取的牌张`IWD`信息。
+	```csharp
+		public virtual void ShowCardRankInfo(bool active, string IWDInfo = "???")
+		{
+			_collectionAnchor.UpdateActive(active);
+			if (active)
+			{
+				_collectionCheckMark.UpdateActive(active: false);
+				_collectionText.transform.parent.gameObject.UpdateActive(active: true);
+				this._collectionText.SetText(IWDInfo, true);
+			}
+		}
+
+		private void UpdateCardCollectionInfo(bool show)
+		{
+			_showCollectionInfo = show;
+			if (!show)
+			{
+				foreach (DraftPackCardView cardView in _draftPackHolder.GetAllCardViews())
+				{
+					_inventoryManager.Cards.TryGetValue(cardView.Card.GrpId, out var value);
+					value += _deck.MainDeckIds.Count((uint id) => id == cardView.Card.GrpId);
+					value += _deck.SideboardIds.Count((uint id) => id == cardView.Card.GrpId);
+					int maxCollected = (int)cardView.Card.Printing.MaxCollected;
+					cardView.CardView.ShowCollectionInfo(active: true, Math.Min(value, maxCollected), maxCollected);
+				}
+				return ;
+			}
+
+			if (this._draftPod.InternalEventName == null)
+			{
+				return;
+			}
+			//QuickDraft_DMU_20221014
+			string[] draftInfo = this._draftPod.InternalEventName.Split('_');
+			Dictionary<string, double> rankInfo = ModManager.Instance.getCardRankMap(draftInfo[1], draftInfo[0]);
+			if (rankInfo == null)
+			{
+				return;
+			}
+
+			foreach (DraftPackCardView cardView in _draftPackHolder.GetAllCardViews())
+			{
+				string cardName = this._cardDatabase.CardTitleProvider.GetCardTitle(cardView.Card.GrpId, true, "en-US");
+				string iwdString = null;
+				double iwd;
+				if (!rankInfo.TryGetValue(cardName, out iwd))
+				{
+					iwdString = "???";
+				}
+				if (iwd <= 0.0)
+				{
+					iwdString = "<color=\"red\">" + iwd.ToString("F1");
+				}
+				else
+				{
+					iwdString = "<color=\"green\">" + iwd.ToString("F1");
+				}
+				cardView.CardView.ShowCardRankInfo(active: true, iwdString);
+			}
+		}
+	```
+
+9.  禁止安卓端请求Google Play更新数据：使用`Il2CppDumper`或类似工具将符号恢复到`IDA Pro`中。搜索函数`Wizards_Mtga_Platforms_PlatformContext__GetInstallationController`，使函数无条件跳转至构造返回`Wizards.Mtga.Installation.NoSupportInstallationController`而不是构造返回`Wizards.Mtga.Platforms.Android.AndroidInstallationController`。例如将下面的`B.NE loc_1438FAC`改为`B loc_1438FAC`。
 	```ASM
 	STR             X19, [SP,#-0x20]!
 	STP             X29, X30, [SP,#0x10]
@@ -301,7 +364,7 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 	RET
 	```
 
-9. 安卓端禁用商店以支持无GooglePlay设备进入游戏：使用`Il2CppDumper`或类似工具将符号恢复到`IDA Pro`中。搜索函数`StoreManager$$RefreshStoreDataYield`(不同工具生成的名称会略有不同)。通过`CODE XREF`找到`WrapperController::Coroutine_StartupSequence::MoveNext`函数中对`StoreManager$$RefreshStoreDataYield`的调用并将其`NOP`。例如在`2022/4/28`更新的客户端中：`0x172B564` `BL StoreManager$$RefreshStoreDataYield`(19 3F F8 97) => `NOP`(1F 20 03 D5)
+10. 安卓端禁用商店以支持无GooglePlay设备进入游戏：使用`Il2CppDumper`或类似工具将符号恢复到`IDA Pro`中。搜索函数`StoreManager$$RefreshStoreDataYield`(不同工具生成的名称会略有不同)。通过`CODE XREF`找到`WrapperController::Coroutine_StartupSequence::MoveNext`函数中对`StoreManager$$RefreshStoreDataYield`的调用并将其`NOP`。例如在`2022/4/28`更新的客户端中：`0x172B564` `BL StoreManager$$RefreshStoreDataYield`(19 3F F8 97) => `NOP`(1F 20 03 D5)
 
 # 四、 自动生成牌张样式MOD
 
