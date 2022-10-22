@@ -260,7 +260,7 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 		}
    ```
 
-8. 给`Meta_CDC`添加`ShowCardRankInfo`函数并修改`Wotc.Mtga.Wrapper.Draft.DraftContentController::UpdateCardCollectionInfo`为如下所示，显示从`17Lands`获取的牌张`IWD`信息。
+8. 给`Meta_CDC`添加`ShowCardRankInfo`函数并修改`Wotc.Mtga.Wrapper.Draft.DraftContentController::UpdateCardCollectionInfo`和`Wotc.Mtga.Wrapper.Draft::HumanDraftPod`的构造函数为如下所示，显示从`17Lands`获取的牌张`IWD`信息。
 	```csharp
 		public virtual void ShowCardRankInfo(bool active, string IWDInfo = "???")
 		{
@@ -271,6 +271,20 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 				_collectionText.transform.parent.gameObject.UpdateActive(active: true);
 				this._collectionText.SetText(IWDInfo, true);
 			}
+		}
+
+
+		public HumanDraftPod(IEventsServiceWrapper eventsServiceWrapper, WGS.Logging.ILogger logger, BILogger biLogger, string eventId, string draftId = null)
+		{
+			this._eventsServiceWrapper = eventsServiceWrapper;
+			this._logger = logger;
+			this._biLogger = biLogger;
+			eventsServiceWrapper.AddDraftNotificationCallback(new Action<DraftNotification>(this.OnMsg_DraftNotification));
+			this._eventId = eventId;
+			//BotDraftPod::SetDraftState会设置InternalEventName而HumanDraftPod并不设置，所以要额外添加此行为
+			this.InternalEventName = eventId;
+			this.DraftState = DraftState.Podmaking;
+			this.DraftId = draftId;
 		}
 
 		private void UpdateCardCollectionInfo(bool show)
