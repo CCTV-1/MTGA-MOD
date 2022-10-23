@@ -54,13 +54,18 @@ public class ModManager
 	{
 		if (!ModManager.cardRankMap.TryGetValue(setCode + "_" + draftType, out Dictionary<string, double> eventCardRankMap))
 		{
-			if (!ModManager.fetchingTask.TryGetValue(setCode + "_" + draftType, out bool exist))
+			bool exist = false;
+			lock (ModManager.lockObj)
 			{
-				ModManager.instance.fetchCardRankInfo(setCode, draftType);
+				exist = ModManager.fetchingTask.ContainsKey(setCode + "_" + draftType)
+			}
+			if (!exist)
+			{
 				lock (ModManager.lockObj)
 				{
 					ModManager.fetchingTask[setCode + "_" + draftType] = true;
 				}
+				ModManager.instance.fetchCardRankInfo(setCode, draftType);
 			}
 			return null;
 		}
