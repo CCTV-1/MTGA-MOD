@@ -91,6 +91,11 @@ public class ModManager
 				Dictionary<string, double> eventCardRankMap = new Dictionary<string, double>();
 				foreach (ModManager.CardInfo cardInfo in rankList.data)
 				{
+					if ((cardInfo.ever_drawn_game_count < 200) || (cardInfo.never_drawn_game_count < 200))
+					{
+						//discard invalid data
+						continue;
+					}
 					double iwd = (cardInfo.ever_drawn_win_rate - cardInfo.never_drawn_win_rate) * 100.0;
 					eventCardRankMap[cardInfo.name] = iwd;
 				}
@@ -117,7 +122,7 @@ public class ModManager
 
 	public ModManager.ModConfig config;
 
-	//eventName : cardRankMap
+	// <eventName, <cardName, cardIWD>>
 	private static Dictionary<string, Dictionary<string, double>> cardRankMap = new Dictionary<string, Dictionary<string, double>>();
 	private static Dictionary<string, bool> fetchingTask = new Dictionary<string, bool>();
 
