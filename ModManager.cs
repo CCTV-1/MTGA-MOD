@@ -52,6 +52,10 @@ public class ModManager
 
 	public Dictionary<string, double> getCardRankMap(string setCode, string draftType)
 	{
+		if (!this.config.displayIWDText)
+		{
+			return null;
+		}
 		if (!ModManager.cardRankMap.TryGetValue(setCode + "_" + draftType, out Dictionary<string, double> eventCardRankMap))
 		{
 			bool exist = false;
@@ -65,7 +69,7 @@ public class ModManager
 				{
 					ModManager.fetchingTask[setCode + "_" + draftType] = true;
 				}
-				ModManager.instance.fetchCardRankInfo(setCode, draftType);
+				this.fetchCardRankInfo(setCode, draftType);
 			}
 			return null;
 		}
@@ -91,13 +95,12 @@ public class ModManager
 				Dictionary<string, double> eventCardRankMap = new Dictionary<string, double>();
 				foreach (ModManager.CardInfo cardInfo in rankList.data)
 				{
-					if ((cardInfo.ever_drawn_game_count < 200) || (cardInfo.never_drawn_game_count < 200))
+					//discard untrusted data
+					if ((cardInfo.ever_drawn_game_count >= this.config.maxUntrustedIWDDataAmount) || (cardInfo.never_drawn_game_count >= this.config.maxUntrustedIWDDataAmount))
 					{
-						//discard invalid data
-						continue;
+						double iwd = (cardInfo.ever_drawn_win_rate - cardInfo.never_drawn_win_rate) * 100.0;
+						eventCardRankMap[cardInfo.name] = iwd;
 					}
-					double iwd = (cardInfo.ever_drawn_win_rate - cardInfo.never_drawn_win_rate) * 100.0;
-					eventCardRankMap[cardInfo.name] = iwd;
 				}
 				ModManager.cardRankMap[setCode + "_" + draftModeName] = eventCardRankMap;
 			}
@@ -150,6 +153,10 @@ public class ModManager
 		public uint forestId = 81183U;
 
 		public string defaultFormatName = "Standard";
+
+		public bool displayIWDText = true;
+
+		public uint maxUntrustedIWDDataAmount = 200;
 	}
 
 	[Serializable]
