@@ -28,6 +28,32 @@ public class ModManager
 						{
 							string configContent = File.ReadAllText(ModManager.configFilePath, Encoding.UTF8);
 							ModManager.instance.config = JsonUtility.FromJson<ModManager.ModConfig>(configContent);
+
+							if (ModManager.instance.config.userSkillLevel > UserSkillLevel.top)
+							{
+								ModManager.instance.config.userSkillLevel = UserSkillLevel.NONE;
+							}
+							if (ModManager.instance.config.draftDeckColor > DraftDeckColor.WUBRG)
+							{
+								ModManager.instance.config.draftDeckColor = DraftDeckColor.NONE;
+							}
+
+							if (ModManager.instance.config.userSkillLevel != UserSkillLevel.NONE)
+							{
+								ModManager.apiUri = string.Format("{0}&user_group={1}", new object[]
+								{
+									ModManager.apiUri,
+									ModManager.instance.config.userSkillLevel.ToString("G")
+								});
+							}
+							if (ModManager.instance.config.draftDeckColor != DraftDeckColor.NONE)
+							{
+								ModManager.apiUri = string.Format("{0&colors={1}", new object[]
+								{
+									ModManager.apiUri,
+									ModManager.instance.config.draftDeckColor.ToString("G")
+								});
+							}
 						}
 						catch (Exception)
 						{
@@ -61,7 +87,7 @@ public class ModManager
 			bool exist = false;
 			lock (ModManager.lockObj)
 			{
-				exist = ModManager.fetchingTask.ContainsKey(setCode + "_" + draftType)
+				exist = ModManager.fetchingTask.ContainsKey(setCode + "_" + draftType);
 			}
 			if (!exist)
 			{
@@ -85,6 +111,7 @@ public class ModManager
 			ModManager.startDate,
 			ModManager.endDate
 		});
+
 		try
 		{
 			string responseBody = await ModManager.client.GetStringAsync(requestUrl);
@@ -137,6 +164,50 @@ public class ModManager
 
 	private static readonly HttpClient client = new HttpClient();
 
+	public enum UserSkillLevel : uint
+	{
+		NONE = 0,
+		bottom = 1,
+		middle = 2,
+		top = 3,
+	}
+
+	public enum DraftDeckColor : uint
+	{
+		NONE = 0,
+		W,
+		U,
+		B,
+		R,
+		G,
+		WU,
+		WB,
+		WR,
+		WG,
+		UB,
+		UR,
+		UG,
+		BR,
+		BG,
+		RG,
+		WUB,
+		WUR,
+		WUG,
+		WBR,
+		WBG,
+		WRG,
+		UBR,
+		UBG,
+		URG,
+		BRG,
+		WUBR,
+		WUBG,
+		WURG,
+		WBRG,
+		UBRG,
+		WUBRG
+	}
+
 	[Serializable]
 	public class ModConfig
 	{
@@ -157,6 +228,10 @@ public class ModManager
 		public bool displayIWDText = true;
 
 		public uint maxUntrustedIWDDataAmount = 200;
+
+		public UserSkillLevel userSkillLevel = UserSkillLevel.NONE;
+
+		public DraftDeckColor draftDeckColor = DraftDeckColor.NONE;
 	}
 
 	[Serializable]
