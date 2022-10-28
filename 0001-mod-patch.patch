@@ -1,39 +1,41 @@
-From c98edc62cf0d4911c7adece92f9cd1dd522df312 Mon Sep 17 00:00:00 2001
+From ebfbab56845075f9aa8aeb465d48c1a980346439 Mon Sep 17 00:00:00 2001
 From: CCTV-1 <script.tar.gz@gmail.com>
-Date: Wed, 19 Oct 2022 21:50:44 +0800
+Date: Fri, 28 Oct 2022 09:52:22 +0800
 Subject: [PATCH] mod patch.
 
 ---
- AccountInformation.cs                         |  2 +-
- AutoLandsToggle.cs                            |  6 ++
- CDCPart_TextBox_DayNight.cs                   |  4 +-
- CDCPart_TextBox_Dungeon.cs                    |  5 +-
- .../MasteryEndText.cs                         |  1 +
- DeckBuilderWidget.cs                          | 96 ++++++-------------
- DeckMainTitlePanel.cs                         |  5 +
- DeckManagerController.cs                      | 10 +-
- DirectChallengeBladeWidget.cs                 |  1 +
- FriendChallengeBladeWidget.cs                 |  1 +
- GreClient.CardData/CardUtilities.cs           | 10 +-
- MTGA.Loc/MTGALocalizable.cs                   | 15 +--
- MatchManager.cs                               |  2 +-
- ModManager.cs                                 | 84 ++++++++++++++++
- SearchAndFilterBar.cs                         |  1 +
- SetCollectionScreenView.cs                    |  1 +
- SettingsPanelGraphics.cs                      |  2 +-
- Spinner_OptionSelector.cs                     |  1 +
- StoreItemBase.cs                              |  1 +
- SystemMessageView.cs                          |  3 +
- .../CDCExtraFrameDetailFiller.cs              |  1 +
- .../FieldFillerUtils.cs                       | 15 +--
- .../ClassAbilityTextbox.cs                    |  1 +
- .../TableAbilityTextbox.cs                    |  3 +-
- .../TextboxSubComponentBase.cs                |  2 +-
- Wotc.Mtga.Cards.Text/Utilities.cs             | 11 +--
- Wotc.Mtga.Loc/Languages.cs                    |  2 +-
- .../DraftContentController.cs                 |  1 +
- WrapperDeckBuilder.cs                         |  2 +-
- 29 files changed, 162 insertions(+), 127 deletions(-)
+ AccountInformation.cs                         |   2 +-
+ AutoLandsToggle.cs                            |   6 +
+ CDCPart_TextBox_DayNight.cs                   |   4 +-
+ CDCPart_TextBox_Dungeon.cs                    |   4 +-
+ .../MasteryEndText.cs                         |   1 +
+ DeckBuilderWidget.cs                          |  96 ++----
+ DeckMainTitlePanel.cs                         |   5 +
+ DeckManagerController.cs                      |  10 +-
+ DirectChallengeBladeWidget.cs                 |   1 +
+ FriendChallengeBladeWidget.cs                 |   1 +
+ GreClient.CardData/CardUtilities.cs           |  10 +-
+ MTGA.Loc/MTGALocalizable.cs                   |  16 +-
+ MatchManager.cs                               |   5 -
+ Meta_CDC.cs                                   |  11 +
+ ModManager.cs                                 | 278 ++++++++++++++++++
+ SearchAndFilterBar.cs                         |   1 +
+ SetCollectionScreenView.cs                    |   1 +
+ SettingsPanelGraphics.cs                      |   2 +-
+ Spinner_OptionSelector.cs                     |   1 +
+ StoreItemBase.cs                              |   1 +
+ SystemMessageView.cs                          |   3 +
+ .../CDCExtraFrameDetailFiller.cs              |   1 +
+ .../FieldFillerUtils.cs                       |  15 +-
+ .../ClassAbilityTextbox.cs                    |   1 +
+ .../TableAbilityTextbox.cs                    |   3 +-
+ .../TextboxSubComponentBase.cs                |   2 +-
+ Wotc.Mtga.Cards.Text/Utilities.cs             |  11 +-
+ Wotc.Mtga.Loc/Languages.cs                    |   2 +-
+ .../DraftContentController.cs                 |  29 +-
+ Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs      |   1 +
+ WrapperDeckBuilder.cs                         |   2 +-
+ 31 files changed, 390 insertions(+), 136 deletions(-)
  create mode 100644 ModManager.cs
 
 diff --git a/AccountInformation.cs b/AccountInformation.cs
@@ -88,27 +90,20 @@ index fe4c749..65dfb9b 100644
  		_lowerTextLabel.fontSize = _supportedFontSizes[0];
  		UpdateLabelMaterial(_upperTextLabel);
 diff --git a/CDCPart_TextBox_Dungeon.cs b/CDCPart_TextBox_Dungeon.cs
-index d6c903d..6ffbd00 100644
+index d6c903d..cba5d5c 100644
 --- a/CDCPart_TextBox_Dungeon.cs
 +++ b/CDCPart_TextBox_Dungeon.cs
-@@ -48,15 +48,14 @@ public class CDCPart_TextBox_Dungeon : CDCPart_Textbox_SuperBase
+@@ -48,8 +48,8 @@ public class CDCPart_TextBox_Dungeon : CDCPart_Textbox_SuperBase
  				}
  			}
  		}
 -		TMP_FontAsset titleFont = GetTitleFont();
 -		TMP_FontAsset fontAsset = _fontAsset;
-+		TMP_FontAsset zhCNFont = ModManager.Instance.zhCNFont;
++		TMP_FontAsset titleFont = ModManager.Instance.zhCNFont;
++		TMP_FontAsset fontAsset = ModManager.Instance.zhCNFont;
  		for (int i = 0; i < _cachedLabelStrings.Count && i < _dungeonRooms.Count; i++)
  		{
  			(string, string) tuple = _cachedLabelStrings[i];
- 			string item4 = tuple.Item1;
- 			string item5 = tuple.Item2;
- 			DungeonRoomTextbox dungeonRoomTextbox = _dungeonRooms[i];
--			dungeonRoomTextbox.SetFont(titleFont, fontAsset);
-+			dungeonRoomTextbox.SetFont(zhCNFont, zhCNFont);
- 			dungeonRoomTextbox.SetLabels(item4, item5);
- 		}
- 		_activeRoomArray[0] = CurrentRoomGrpId(_cachedModel);
 diff --git a/Core.Meta.MainNavigation.Profile/MasteryEndText.cs b/Core.Meta.MainNavigation.Profile/MasteryEndText.cs
 index 590b658..9185b34 100644
 --- a/Core.Meta.MainNavigation.Profile/MasteryEndText.cs
@@ -324,10 +319,10 @@ index 12438a8..2487613 100644
  
  		public static bool IsCardCollectible(CardPrintingData cardPrintingData)
 diff --git a/MTGA.Loc/MTGALocalizable.cs b/MTGA.Loc/MTGALocalizable.cs
-index 34de4ac..9ebce53 100644
+index 34de4ac..a9c7e1b 100644
 --- a/MTGA.Loc/MTGALocalizable.cs
 +++ b/MTGA.Loc/MTGALocalizable.cs
-@@ -59,20 +59,7 @@ namespace MTGA.Loc
+@@ -59,21 +59,7 @@ namespace MTGA.Loc
  				break;
  			case TargetType.Font:
  			{
@@ -345,37 +340,107 @@ index 34de4ac..9ebce53 100644
 -						tMP_Text.fontSharedMaterial = material;
 -					}
 -				}
+-				break;
 +				tMP_Text.font = ModManager.Instance.zhCNFont;
- 				break;
  			}
  			default:
+ 				Debug.LogError($"unsupported localization target type: {targetType}");
 diff --git a/MatchManager.cs b/MatchManager.cs
-index 19f9275..66feae6 100644
+index 19f9275..4f8cb3d 100644
 --- a/MatchManager.cs
 +++ b/MatchManager.cs
-@@ -56,7 +56,7 @@ public class MatchManager : IDisposable
+@@ -56,11 +56,6 @@ public class MatchManager : IDisposable
  			set
  			{
  				_screenName = value;
 -				int num = _screenName.LastIndexOf('#');
-+				int num = _screenName.LastIndexOf('\0');
- 				if (num != -1)
- 				{
- 					_screenName = _screenName.Substring(0, num);
+-				if (num != -1)
+-				{
+-					_screenName = _screenName.Substring(0, num);
+-				}
+ 			}
+ 		}
+ 
+diff --git a/Meta_CDC.cs b/Meta_CDC.cs
+index c899070..4ae0f51 100644
+--- a/Meta_CDC.cs
++++ b/Meta_CDC.cs
+@@ -86,4 +86,15 @@ public class Meta_CDC : BASE_CDC
+ 		_matBlock = null;
+ 		base.OnDestroy();
+ 	}
++
++	public virtual void ShowCardRankInfo(bool active, string IWDInfo = "???")
++	{
++		_collectionAnchor.UpdateActive(active);
++		if (active)
++		{
++			_collectionCheckMark.UpdateActive(active: false);
++			_collectionText.transform.parent.gameObject.UpdateActive(active: true);
++			_collectionText.SetText(IWDInfo);
++		}
++	}
+ }
 diff --git a/ModManager.cs b/ModManager.cs
 new file mode 100644
-index 0000000..eff3074
+index 0000000..9989a00
 --- /dev/null
 +++ b/ModManager.cs
-@@ -0,0 +1,84 @@
+@@ -0,0 +1,278 @@
 +using System;
++using System.Collections.Generic;
 +using System.IO;
++using System.Net.Http;
 +using System.Text;
 +using TMPro;
 +using UnityEngine;
 +
 +public class ModManager
 +{
++	public enum UserSkillLevel : uint
++	{
++		NONE,
++		bottom,
++		middle,
++		top
++	}
++
++	public enum DraftDeckColor : uint
++	{
++		NONE,
++		W,
++		U,
++		B,
++		R,
++		G,
++		WU,
++		WB,
++		WR,
++		WG,
++		UB,
++		UR,
++		UG,
++		BR,
++		BG,
++		RG,
++		WUB,
++		WUR,
++		WUG,
++		WBR,
++		WBG,
++		WRG,
++		UBR,
++		UBG,
++		URG,
++		BRG,
++		WUBR,
++		WUBG,
++		WURG,
++		WBRG,
++		UBRG,
++		WUBRG
++	}
++
 +	[Serializable]
 +	public class ModConfig
 +	{
@@ -392,17 +457,91 @@ index 0000000..eff3074
 +		public uint forestId = 81183u;
 +
 +		public string defaultFormatName = "Standard";
++
++		public bool displayIWDText = true;
++
++		public uint maxUntrustedIWDDataAmount = 200u;
++
++		public UserSkillLevel userSkillLevel;
++
++		public DraftDeckColor draftDeckColor;
++	}
++
++	[Serializable]
++	private class CardInfo
++	{
++		public int seen_count;
++
++		public int pick_count;
++
++		public int game_count;
++
++		public int sideboard_game_count;
++
++		public int opening_hand_game_count;
++
++		public int drawn_game_count;
++
++		public int ever_drawn_game_count;
++
++		public int never_drawn_game_count;
++
++		public string name;
++
++		public string color;
++
++		public string rarity;
++
++		public string url;
++
++		public string url_back;
++
++		public double avg_seen;
++
++		public double avg_pick;
++
++		public double win_rate;
++
++		public double sideboard_win_rate;
++
++		public double opening_hand_win_rate;
++
++		public double drawn_win_rate;
++
++		public double ever_drawn_win_rate;
++
++		public double never_drawn_win_rate;
++
++		public double drawn_improvement_win_rate;
++	}
++
++	[Serializable]
++	private class CardInfoList
++	{
++		public List<CardInfo> data;
 +	}
 +
 +	public TMP_FontAsset zhCNFont;
 +
-+	private static ModManager instance;
++	private static ModManager instance = null;
 +
-+	private static readonly object lockObj;
++	private static readonly object lockObj = new object();
 +
-+	private static string configFilePath;
++	private static string configFilePath = Application.dataPath + "/modconfig.json";
 +
 +	public ModConfig config;
++
++	private static Dictionary<string, Dictionary<string, double>> cardRankMap = new Dictionary<string, Dictionary<string, double>>();
++
++	private static Dictionary<string, bool> fetchingTask = new Dictionary<string, bool>();
++
++	private static string startDate = "2016-09-01";
++
++	private static string endDate = DateTime.Now.ToString("yyyy-MM-dd");
++
++	private static string apiUri = "https://www.17lands.com/card_ratings/data?expansion={0}&format={1}&start_date={2}&end_date={3}";
++
++	private static readonly HttpClient client = new HttpClient();
 +
 +	public static ModManager Instance
 +	{
@@ -419,6 +558,30 @@ index 0000000..eff3074
 +						{
 +							string json = File.ReadAllText(configFilePath, Encoding.UTF8);
 +							instance.config = JsonUtility.FromJson<ModConfig>(json);
++							if (instance.config.userSkillLevel > UserSkillLevel.top)
++							{
++								instance.config.userSkillLevel = UserSkillLevel.NONE;
++							}
++							if (instance.config.draftDeckColor > DraftDeckColor.WUBRG)
++							{
++								instance.config.draftDeckColor = DraftDeckColor.NONE;
++							}
++							if (instance.config.userSkillLevel != 0)
++							{
++								apiUri = string.Format("{0}&user_group={1}", new object[2]
++								{
++									apiUri,
++									instance.config.userSkillLevel.ToString("G")
++								});
++							}
++							if (instance.config.draftDeckColor != 0)
++							{
++								apiUri = string.Format("{0&colors={1}", new object[2]
++								{
++									apiUri,
++									instance.config.draftDeckColor.ToString("G")
++								});
++							}
 +						}
 +						catch (Exception)
 +						{
@@ -445,11 +608,61 @@ index 0000000..eff3074
 +	{
 +	}
 +
-+	static ModManager()
++	public Dictionary<string, double> getCardRankMap(string setCode, string draftType)
 +	{
-+		instance = null;
-+		lockObj = new object();
-+		configFilePath = Application.dataPath + "/modconfig.json";
++		if (!config.displayIWDText)
++		{
++			return null;
++		}
++		if (!cardRankMap.TryGetValue(setCode + "_" + draftType, out var value))
++		{
++			bool flag = false;
++			lock (lockObj)
++			{
++				flag = fetchingTask.ContainsKey(setCode + "_" + draftType);
++			}
++			if (!flag)
++			{
++				lock (lockObj)
++				{
++					fetchingTask[setCode + "_" + draftType] = true;
++				}
++				fetchCardRankInfo(setCode, draftType);
++			}
++			return null;
++		}
++		return value;
++	}
++
++	public async void fetchCardRankInfo(string setCode, string draftModeName)
++	{
++		string requestUri = string.Format(apiUri, setCode, draftModeName, startDate, endDate);
++		try
++		{
++			string json = $"{{ \"data\": {await client.GetStringAsync(requestUri)}}}";
++			CardInfoList cardInfoList = JsonUtility.FromJson<CardInfoList>(json);
++			if (cardInfoList != null)
++			{
++				Dictionary<string, double> dictionary = new Dictionary<string, double>();
++				foreach (CardInfo datum in cardInfoList.data)
++				{
++					if (datum.ever_drawn_game_count >= config.maxUntrustedIWDDataAmount || datum.never_drawn_game_count >= config.maxUntrustedIWDDataAmount)
++					{
++						double value = (datum.ever_drawn_win_rate - datum.never_drawn_win_rate) * 100.0;
++						dictionary[datum.name] = value;
++					}
++				}
++				cardRankMap[setCode + "_" + draftModeName] = dictionary;
++			}
++		}
++		catch (HttpRequestException)
++		{
++			Debug.LogWarning("fetch " + setCode + "_" + draftModeName + "card rank info failure.");
++		}
++		lock (lockObj)
++		{
++			fetchingTask.Remove(setCode + "_" + draftModeName);
++		}
 +	}
 +}
 diff --git a/SearchAndFilterBar.cs b/SearchAndFilterBar.cs
@@ -635,7 +848,7 @@ index faea071..2e164a5 100644
  
  		public static bool TryStripLoyaltyPrefixFromString(ref string localizedText)
 diff --git a/Wotc.Mtga.Loc/Languages.cs b/Wotc.Mtga.Loc/Languages.cs
-index e21259f..cf830df 100644
+index e21259f..c8c03ff 100644
 --- a/Wotc.Mtga.Loc/Languages.cs
 +++ b/Wotc.Mtga.Loc/Languages.cs
 @@ -67,7 +67,7 @@ namespace Wotc.Mtga.Loc
@@ -643,15 +856,61 @@ index e21259f..cf830df 100644
  		};
  
 -		public static readonly string[] ExternalLanguages = new string[9] { "en-US", "pt-BR", "fr-FR", "it-IT", "de-DE", "es-ES", "ru-RU", "ja-JP", "ko-KR" };
-+		public static readonly string[] ExternalLanguages = new string[9] { "en-US", "ja-JP" };
++		public static readonly string[] ExternalLanguages = new string[2] { "en-US", "ja-JP" };
  
  		public const string BULLET_EN = "• ";
  
 diff --git a/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs b/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
-index 7a5c29f..c77e0a4 100644
+index 7a5c29f..e95e5ee 100644
 --- a/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
 +++ b/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
-@@ -916,6 +916,7 @@ namespace Wotc.Mtga.Wrapper.Draft
+@@ -721,9 +721,10 @@ namespace Wotc.Mtga.Wrapper.Draft
+ 
+ 		private void UpdateCardCollectionInfo(bool show)
+ 		{
+-			foreach (DraftPackCardView cardView in _draftPackHolder.GetAllCardViews())
++			_showCollectionInfo = show;
++			if (!show)
+ 			{
+-				if (show)
++				foreach (DraftPackCardView cardView in _draftPackHolder.GetAllCardViews())
+ 				{
+ 					_inventoryManager.Cards.TryGetValue(cardView.Card.GrpId, out var value);
+ 					value += _deck.MainDeckIds.Count((uint id) => id == cardView.Card.GrpId);
+@@ -731,12 +732,29 @@ namespace Wotc.Mtga.Wrapper.Draft
+ 					int maxCollected = (int)cardView.Card.Printing.MaxCollected;
+ 					cardView.CardView.ShowCollectionInfo(active: true, Math.Min(value, maxCollected), maxCollected);
+ 				}
+-				else
++				return;
++			}
++			if (_draftPod.InternalEventName == null)
++			{
++				return;
++			}
++			string[] array = _draftPod.InternalEventName.Split('_');
++			Dictionary<string, double> cardRankMap = ModManager.Instance.getCardRankMap(array[1], array[0]);
++			if (cardRankMap == null)
++			{
++				return;
++			}
++			foreach (DraftPackCardView allCardView in _draftPackHolder.GetAllCardViews())
++			{
++				string cardTitle = _cardDatabase.CardTitleProvider.GetCardTitle(allCardView.Card.GrpId, formatted: true, "en-US");
++				string text = null;
++				if (!cardRankMap.TryGetValue(cardTitle, out var value2))
+ 				{
+-					cardView.CardView.ShowCollectionInfo(active: false);
++					text = "???";
+ 				}
++				text = ((!(value2 <= 0.0)) ? ("<color=\"green\"><size=90%>" + value2.ToString("F1")) : ("<color=\"red\"><size=90%>" + value2.ToString("F1")));
++				allCardView.CardView.ShowCardRankInfo(active: true, text);
+ 			}
+-			_showCollectionInfo = show;
+ 		}
+ 
+ 		private void UpdateWaitingOnPacksText()
+@@ -916,6 +934,7 @@ namespace Wotc.Mtga.Wrapper.Draft
  		{
  			_settingCardsCoroutine = null;
  			_okToPickCard = true;
@@ -659,6 +918,18 @@ index 7a5c29f..c77e0a4 100644
  			StartCoroutine(Coroutine_StartTimer());
  		}
  
+diff --git a/Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs b/Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs
+index c1b0f34..cde0ae5 100644
+--- a/Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs
++++ b/Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs
+@@ -63,6 +63,7 @@ namespace Wotc.Mtga.Wrapper.Draft
+ 			_biLogger = biLogger;
+ 			eventsServiceWrapper.AddDraftNotificationCallback(OnMsg_DraftNotification);
+ 			_eventId = eventId;
++			InternalEventName = eventId;
+ 			DraftState = DraftState.Podmaking;
+ 			DraftId = draftId;
+ 		}
 diff --git a/WrapperDeckBuilder.cs b/WrapperDeckBuilder.cs
 index b1a40f5..74b8d53 100644
 --- a/WrapperDeckBuilder.cs
@@ -673,5 +944,5 @@ index b1a40f5..74b8d53 100644
  			AudioManager.PlayAudio(WwiseEvents.sfx_ui_generic_click, base.gameObject);
  		}
 -- 
-2.38.0
+2.38.1
 
