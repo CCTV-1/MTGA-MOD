@@ -453,7 +453,7 @@
     },
     "AbilityHanger/Keyword/Compleated_Body": {
         "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"{manaCombined}\"> can be paid with <sprite=\"SpriteSheet_ManaIcons\" name=\"{manaType0}\">, <sprite=\"SpriteSheet_ManaIcons\" name=\"{manaType1}\">, or 2 life. If life was paid, this planeswalker enters with two fewer loyalty counters.",
-        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"{manaCombined}\">可以用<sprite=\"SpriteSheet_ManaIcons\" name=\"{manaType0}\">, <sprite=\"SpriteSheet_ManaIcons\" name=\"{manaType1}\">，或2点生命来支付。如果以生命支付，则此鹏洛客进战场时上面少两个忠诚指示物。"
+        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"{manaCombined}\">可以用<sprite=\"SpriteSheet_ManaIcons\" name=\"{manaType0}\">， <sprite=\"SpriteSheet_ManaIcons\" name=\"{manaType1}\">，或2点生命来支付。如果以生命支付，则此鹏洛客进战场时上面少两个忠诚指示物。"
     },
     "AbilityHanger/Keyword/Compleated_Title": {
         "oracleText": "Compleated",
@@ -669,7 +669,7 @@
     },
     "AbilityHanger/Keyword/Escape": {
         "oracleText": "You may cast this card from your graveyard for its escape cost.",
-        "translation": "你可以从你的坟墓场施放此牌，并支付其逸脱费用."
+        "translation": "你可以从你的坟墓场施放此牌，并支付其逸脱费用。"
     },
     "AbilityHanger/Keyword/Eternalize": {
         "oracleText": "You may pay the Eternalize cost to exile this card from your graveyard and create a token that's a copy of this card, except it's black, it's 4/4, it has no mana cost, and it's a Zombie in addition to its other types. Activate this ability only any time you could cast a sorcery.",
@@ -677,23 +677,23 @@
     },
     "AbilityHanger/Keyword/Evoke": {
         "oracleText": "You may cast this spell for its evoke cost. If you do it's sacrificed when it enters the battlefield.",
-        "translation": "你可以支付呼魂费用来施放此牌. 若你如此做,则当此永久物进入战场时将之牺牲."
+        "translation": "你可以支付呼魂费用来施放此牌。 若你如此做，则当此永久物进入战场时将之牺牲。"
     },
     "AbilityHanger/Keyword/Evolve": {
         "oracleText": "Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.",
-        "translation": "每当一个生物在你的操控下进战场时，若该生物的力量或防御力大于此生物，则在此生物上放置一个+1/+1指示物."
+        "translation": "每当一个生物在你的操控下进战场时，若该生物的力量或防御力大于此生物，则在此生物上放置一个+1/+1指示物。"
     },
     "AbilityHanger/Keyword/Exalted_Body": {
         "oracleText": "Whenever a creature you control attacks alone, it gets +1/+1 until end of turn for each instance of exalted among permanents you control.",
-        "translation": "每当一个由你操控的生物单独攻击时，由你操控的永久物的每个颂威异能使该生物得+1/+1直到回合结束."
+        "translation": "每当一个由你操控的生物单独攻击时，由你操控的永久物的每个颂威异能使该生物得+1/+1直到回合结束。"
     },
     "AbilityHanger/Keyword/Exert": {
         "oracleText": "An exerted creature won't untap during your next untap step.",
-        "translation": "已耗竭的生物于你的下一个重置步骤中不能重置."
+        "translation": "已耗竭的生物于你的下一个重置步骤中不能重置。"
     },
     "AbilityHanger/Keyword/Exploit_Body": {
         "oracleText": "When this creature enters the battlefield, you may sacrifice a creature.",
-        "translation": "当此生物进战场时，你可以牺牲一个生物."
+        "translation": "当此生物进战场时，你可以牺牲一个生物。"
     },
     "AbilityHanger/Keyword/Explore": {
         "oracleText": "Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.",
@@ -717,7 +717,7 @@
     },
     "AbilityHanger/Keyword/Fear_Body": {
         "oracleText": "This creature can't be blocked except by artifact creatures and/or black creatures.",
-        "translation": "此生物只能被神器生物和／或黑色生物阻挡."
+        "translation": "此生物只能被神器生物和／或黑色生物阻挡。"
     },
     "AbilityHanger/Keyword/FirstStrike": {
         "oracleText": "This creature deals combat damage before creatures without first strike. (Does not apply when creatures \"fight\")",
@@ -729,7 +729,7 @@
     },
     "AbilityHanger/Keyword/Flashback": {
         "oracleText": "You may cast this card from your graveyard for its flashback cost. Then exile it.",
-        "translation": "你可以从你的坟墓场施放此牌，并支付其返照费用，然后将它放逐."
+        "translation": "你可以从你的坟墓场施放此牌，并支付其返照费用，然后将它放逐。"
     },
     "AbilityHanger/Keyword/Flying": {
         "oracleText": "A creature with flying can't be blocked except by creatures with flying or reach.",
@@ -737,11 +737,11 @@
     },
     "AbilityHanger/Keyword/Forestwalk": {
         "oracleText": "This creature can't be blocked as long as defending player controls a Forest.",
-        "translation": "只要防御牌手操控树林，此生物就不能被阻挡."
+        "translation": "只要防御牌手操控树林，此生物就不能被阻挡。"
     },
     "AbilityHanger/Keyword/Foretell": {
         "oracleText": "During your turn, you may pay <sprite=\"SpriteSheet_ManaIcons\" name=\"x2\"> and exile this card from your hand face down. Cast it on a later turn for its foretell cost.",
-        "translation": "于你的回合中，你可以支付<sprite=\"SpriteSheet_ManaIcons\" name=\"x2\"> 并将此牌从手上牌面朝下地放逐，在之后的回合你可以施放它并须改为支付其预示费用."
+        "translation": "于你的回合中，你可以支付<sprite=\"SpriteSheet_ManaIcons\" name=\"x2\"> 并将此牌从手上牌面朝下地放逐，在之后的回合你可以施放它并须改为支付其预示费用。"
     },
     "AbilityHanger/Keyword/Haste": {
         "oracleText": "A creature with haste can attack and {oT} as soon as it comes under your control.",
@@ -833,7 +833,7 @@
     },
     "AbilityHanger/Keyword/Investigate": {
         "oracleText": "Create a colorless Clue artifact token with \"{o2}, Sacrifice this artifact: Draw a card.\"",
-        "translation": "派出一个无色线索衍生神器，且其具有「{o2}, 牺牲此神器：抓一张牌。」"
+        "translation": "派出一个无色线索衍生神器，且其具有「{o2}， 牺牲此神器：抓一张牌。」"
     },
     "AbilityHanger/Keyword/Investigate_Title": {
         "oracleText": "Investigate",
@@ -853,7 +853,7 @@
     },
     "AbilityHanger/Keyword/Learn": {
         "oracleText": "You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.",
-        "translation": "你可以弃一张牌。如果你如此作，则抓一张牌。如果你未弃牌，则你可以从游戏外展示一张由你拥有的课程牌，并将它置于你手上."
+        "translation": "你可以弃一张牌。如果你如此作，则抓一张牌。如果你未弃牌，则你可以从游戏外展示一张由你拥有的课程牌，并将它置于你手上。"
     },
     "AbilityHanger/Keyword/Learn_Title": {
         "oracleText": "Learn",
@@ -865,7 +865,7 @@
     },
     "AbilityHanger/Keyword/LivingWeapon_Body": {
         "oracleText": "When this Equipment enters the battlefield, create a 0/0 black Phyrexian Germ creature token, then attach this to it.",
-        "translation": "当此武具进入战场时，派出一个0/0黑色非瑞人/病菌衍生生物，然后将它贴附此武具."
+        "translation": "当此武具进入战场时，派出一个0/0黑色非瑞人/病菌衍生生物，然后将它贴附此武具。"
     },
     "AbilityHanger/Keyword/LivingWeapon_Title": {
         "oracleText": "Living Weapon",
@@ -873,7 +873,7 @@
     },
     "AbilityHanger/Keyword/Madness": {
         "oracleText": "If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.",
-        "translation": "若你将弃掉此牌，则改为将其弃到放逐区，若你如此做，可以通过支付其疯魔费用来施放之，若你未以此法施放则将此牌置入坟墓场."
+        "translation": "若你将弃掉此牌，则改为将其弃到放逐区，若你如此做，可以通过支付其疯魔费用来施放之，若你未以此法施放则将此牌置入坟墓场。"
     },
     "AbilityHanger/Keyword/Menace": {
         "oracleText": "A creature with menace can't be blocked except by two or more creatures.",
@@ -893,7 +893,7 @@
     },
     "AbilityHanger/Keyword/Modified": {
         "oracleText": "Equipment, Auras you control, and counters are modifications.",
-        "translation": "由你操控的武具, 灵气, 以及指示物是饰装。"
+        "translation": "由你操控的武具， 灵气， 以及指示物是饰装。"
     },
     "AbilityHanger/Keyword/Modified_Title": {
         "oracleText": "Modifications",
@@ -901,7 +901,7 @@
     },
     "AbilityHanger/Keyword/Modular1": {
         "oracleText": "This enters the battlefield with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.",
-        "translation": "此永久物进入战场时上面有一个+1/+1指示物。当它死去时, 你可以将它的+1/+1指示物放到目标神器生物上。"
+        "translation": "此永久物进入战场时上面有一个+1/+1指示物。当它死去时， 你可以将它的+1/+1指示物放到目标神器生物上。"
     },
     "AbilityHanger/Keyword/Modular2": {
         "oracleText": "This enters the battlefield with two +1/+1 counters on it. When it dies, you may put its +1/+1 counters on target artifact creature.",
@@ -909,7 +909,7 @@
     },
     "AbilityHanger/Keyword/Modular4": {
         "oracleText": "This enters the battlefield with four +1/+1 counters on it. When it dies, you may put its +1/+1 counters on target artifact creature.",
-        "translation": "此永久物进入战场时上面有四个+1/+1指示物。当它死去时, 你可以将它的+1/+1指示物放到目标神器生物上。"
+        "translation": "此永久物进入战场时上面有四个+1/+1指示物。当它死去时， 你可以将它的+1/+1指示物放到目标神器生物上。"
     },
     "AbilityHanger/Keyword/Mutate_Body": {
         "oracleText": "If you cast this spell for its mutate cost, put it under or over target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.",
@@ -917,7 +917,7 @@
     },
     "AbilityHanger/Keyword/Ninjutsu_Body": {
         "oracleText": "{abilityCost}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.",
-        "translation": "{abilityCost}, 将一个由你操控且未受阻挡的攻击生物移回其拥有者手上：将此牌从你手上横置进场，且正进行攻击。"
+        "translation": "{abilityCost}， 将一个由你操控且未受阻挡的攻击生物移回其拥有者手上：将此牌从你手上横置进场，且正进行攻击。"
     },
     "AbilityHanger/Keyword/Ninjutsu_Title": {
         "oracleText": "Ninjutsu",
@@ -925,7 +925,7 @@
     },
     "AbilityHanger/Keyword/Outlast_Body": {
         "oracleText": "{abilityCost}, <sprite=\"SpriteSheet_ManaIcons\" name=\"xT\" color=\"#FFFFFF\">: Put a +1/+1 counter on this creature. Outlast only as a sorcery.",
-        "translation": "{abilityCost}, <sprite=\"SpriteSheet_ManaIcons\" name=\"xT\" color=\"#FFFFFF\">：在此生物上放置一个+1/+1指示物。延生的时机视同法术。"
+        "translation": "{abilityCost}， <sprite=\"SpriteSheet_ManaIcons\" name=\"xT\" color=\"#FFFFFF\">：在此生物上放置一个+1/+1指示物。延生的时机视同法术。"
     },
     "AbilityHanger/Keyword/Outlast_Title": {
         "oracleText": "Outlast",
@@ -933,7 +933,7 @@
     },
     "AbilityHanger/Keyword/Overload": {
         "oracleText": "You may cast this spell for its overload cost. If you do, change its text by replacing all instances of \"target\" with \"each.\"",
-        "translation": "你可以支付此咒语的超载费用来施放它。如果你如此作，将其中的 \"目标\" 字样全部更改为 \"每个\"。"
+        "translation": "你可以支付此咒语的超载费用来施放它。如果你如此作，将其中的“目标”字样全部更改为“每个”。"
     },
     "AbilityHanger/Keyword/Perpetual_Body": {
         "oracleText": "Perpetual effects and counters are not removed from cards that change zones.",
@@ -949,7 +949,7 @@
     },
     "AbilityHanger/Keyword/PhasedOut": {
         "oracleText": "This permanent is treated as if it doesn't exist until the start of its controller's next turn.",
-        "translation": "此永久物直到其操控者的下个回合视为不存在."
+        "translation": "此永久物直到其操控者的下个回合视为不存在。"
     },
     "AbilityHanger/Keyword/PhasedOut_Title": {
         "oracleText": "Phased Out",
@@ -989,7 +989,7 @@
     },
     "AbilityHanger/Keyword/ProtectionFromCardType_Body": {
         "oracleText": "A player or permanent with protection from a card type can't be blocked, targeted, dealt damage, enchanted, or equipped by anything with that type.",
-        "translation": "具有反某种牌类别的保护的牌手或永久物不能被该类别的任何东西阻挡，指定为目标，造成伤害，结附或装备."
+        "translation": "具有反某种牌类别的保护的牌手或永久物不能被该类别的任何东西阻挡，指定为目标，造成伤害，结附或装备。"
     },
     "AbilityHanger/Keyword/ProtectionFromCardType_Title": {
         "oracleText": "Protection from a Card Type",
@@ -997,7 +997,7 @@
     },
     "AbilityHanger/Keyword/ProtectionFromChosenCard": {
         "oracleText": "You can't be targeted, dealt damage, or enchanted by anything with the chosen name.",
-        "translation": "你不能被选定名字的任何东西指定为目标，造成伤害或结附."
+        "translation": "你不能被选定名字的任何东西指定为目标，造成伤害或结附。"
     },
     "AbilityHanger/Keyword/ProtectionFromChosenNumber": {
         "oracleText": "This permanent can't be blocked, targeted, dealt damage, enchanted, or equipped by anything with a mana value other than the chosen number.",
@@ -1029,7 +1029,7 @@
     },
     "AbilityHanger/Keyword/ProtectionFromDevils_Body": {
         "oracleText": "This permanent can't be blocked, targeted, or dealt damage by Devils",
-        "translation": "该永久物不能被魔鬼阻挡，指定为目标或造成伤害."
+        "translation": "该永久物不能被魔鬼阻挡，指定为目标或造成伤害。"
     },
     "AbilityHanger/Keyword/ProtectionFromDevils_Reference": {
         "oracleText": "A permanent with protection from Devils can't be blocked, targeted, or dealt damage by Devils.",
@@ -1041,7 +1041,7 @@
     },
     "AbilityHanger/Keyword/ProtectionFromDogs": {
         "oracleText": "A permanent with protection from Dogs can't be blocked, targeted, or dealt damage by Dogs.",
-        "translation": "具有反狗保护的永久物不能被狗阻挡，指定为目标或造成伤害."
+        "translation": "具有反狗保护的永久物不能被狗阻挡，指定为目标或造成伤害。"
     },
     "AbilityHanger/Keyword/ProtectionFromDragons": {
         "oracleText": "This permanent can't be blocked, targeted, or dealt damage by Dragons.",
@@ -1081,7 +1081,7 @@
     },
     "AbilityHanger/Keyword/ProtectionFromHumans_Body": {
         "oracleText": "This permanent can't be blocked, targeted, or dealt damage by Humans.",
-        "translation": "该永久物不能被人类阻挡，指定为目标或造成伤害."
+        "translation": "该永久物不能被人类阻挡，指定为目标或造成伤害。"
     },
     "AbilityHanger/Keyword/ProtectionFromMulticolored": {
         "oracleText": "This permanent can't be blocked, targeted, dealt damage, enchanted, or equipped by anything multicolored.",
@@ -1153,7 +1153,7 @@
     },
     "AbilityHanger/Keyword/Rebound_Body": {
         "oracleText": "If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.",
-        "translation": "如果你从手上施放此咒语，于它结算时将之放逐。在你的下一个维持开始时，你可以从放逐区施放此牌，且不需支付其法术力费用."
+        "translation": "如果你从手上施放此咒语，于它结算时将之放逐。在你的下一个维持开始时，你可以从放逐区施放此牌，且不需支付其法术力费用。"
     },
     "AbilityHanger/Keyword/Reconfigure_Body": {
         "oracleText": "{abilityCost}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.",
@@ -1165,7 +1165,7 @@
     },
     "AbilityHanger/Keyword/Reinforce2_Body": {
         "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"x1\" color=\"#FFFFFF\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\" color=\"#FFFFFF\">, Discard this card: Put two +1/+1 counters on target creature",
-        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"x1\" color=\"#FFFFFF\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\" color=\"#FFFFFF\">, 弃掉此牌：在目标生物上放置两个+1/+1指示物"
+        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"x1\" color=\"#FFFFFF\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\" color=\"#FFFFFF\">， 弃掉此牌：在目标生物上放置两个+1/+1指示物"
     },
     "AbilityHanger/Keyword/Reinforce2_Title": {
         "oracleText": "Reinforce 2",
@@ -1173,7 +1173,7 @@
     },
     "AbilityHanger/Keyword/ReinforceX_Body": {
         "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xX\" color=\"#FFFFFF\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\" color=\"#FFFFFF\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\" color=\"#FFFFFF\">, Discard this card: Put X +1/+1 counters on target creature.",
-        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xX\" color=\"#FFFFFF\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\" color=\"#FFFFFF\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\" color=\"#FFFFFF\">, 弃掉此牌：在目标生物上放置X个+1/+1指示物."
+        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xX\" color=\"#FFFFFF\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\" color=\"#FFFFFF\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\" color=\"#FFFFFF\">， 弃掉此牌：在目标生物上放置X个+1/+1指示物。"
     },
     "AbilityHanger/Keyword/ReinforceX_Title": {
         "oracleText": "Reinforce X",
@@ -1181,7 +1181,7 @@
     },
     "AbilityHanger/Keyword/Retrace": {
         "oracleText": "You may cast this card from your graveyard by discarding a land card in addition to paying its other costs.",
-        "translation": "你可以从你的坟墓场使用此牌，但必须支付其所需费用，并额外弃掉一张地牌."
+        "translation": "你可以从你的坟墓场使用此牌，但必须支付其所需费用，并额外弃掉一张地牌。"
     },
     "AbilityHanger/Keyword/Riot": {
         "oracleText": "A creature with riot enters the battlefield with your choice of a +1/+1 counter or haste.",
@@ -1189,7 +1189,7 @@
     },
     "AbilityHanger/Keyword/Scavenge_Body": {
         "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"x5\" color=\"#FFFFFF\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\" color=\"#FFFFFF\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\" color=\"#FFFFFF\">, Exile this card from your graveyard: Put a number of +1/+1 counters equal to this card's power on target creature. Scavenge only as a sorcery.",
-        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"x5\" color=\"#FFFFFF\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\" color=\"#FFFFFF\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\" color=\"#FFFFFF\">, 从你的坟墓场放逐此牌：在目标生物上放置若干+1/+1指示物，其数量等同于此牌的力量。食腐的时机视同法术."
+        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"x5\" color=\"#FFFFFF\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\" color=\"#FFFFFF\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\" color=\"#FFFFFF\">， 从你的坟墓场放逐此牌：在目标生物上放置若干+1/+1指示物，其数量等同于此牌的力量。食腐的时机视同法术。"
     },
     "AbilityHanger/Keyword/Scry": {
         "oracleText": "Look at the top cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.",
@@ -1237,7 +1237,7 @@
     },
     "AbilityHanger/Keyword/Seek_Body": {
         "oracleText": "To seek a card, put one at random from your library into your hand.",
-        "translation": "掏一张牌，指从你的牌库中随机将一张牌置于你的手上."
+        "translation": "掏一张牌，指从你的牌库中随机将一张牌置于你的手上。"
     },
     "AbilityHanger/Keyword/Seek_Title": {
         "oracleText": "Seek",
@@ -1245,7 +1245,7 @@
     },
     "AbilityHanger/Keyword/Shroud_Body": {
         "oracleText": "A player or permanent with shroud can't be the target of spells of abilities.",
-        "translation": "具有帷幕的牌手或永久物不能成为咒语或异能的目标."
+        "translation": "具有帷幕的牌手或永久物不能成为咒语或异能的目标。"
     },
     "AbilityHanger/Keyword/Specialize_Body": {
         "oracleText": "{abilityCost}, Choose a color, discard a card of that color or associated basic land type: This creature perpetually specializes into that color. Activate only as a sorcery.",
@@ -1261,15 +1261,15 @@
     },
     "AbilityHanger/Keyword/SplitSecond": {
         "oracleText": "As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.",
-        "translation": "只要具有转瞬异能的咒语在堆叠上，牌手便不能施放咒语或起动不是法术力异能的异能."
+        "translation": "只要具有转瞬异能的咒语在堆叠上，牌手便不能施放咒语或起动不是法术力异能的异能。"
     },
     "AbilityHanger/Keyword/Storm": {
         "oracleText": "When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.",
-        "translation": "当你施放具有风暴异能的咒语时，本回合于它之前每施放过一个咒语，便将此咒语复制一次. 你可以为复制品选择新的目标."
+        "translation": "当你施放具有风暴异能的咒语时，本回合于它之前每施放过一个咒语，便将此咒语复制一次。 你可以为复制品选择新的目标。"
     },
     "AbilityHanger/Keyword/Support2_Body": {
         "oracleText": "Put a +1/+1 counter on each of up to two target creatures.",
-        "translation": "在至多两个目标生物上各放置一个+1/+1指示物."
+        "translation": "在至多两个目标生物上各放置一个+1/+1指示物。"
     },
     "AbilityHanger/Keyword/Support2_Title": {
         "oracleText": "Support 2",
@@ -1313,11 +1313,11 @@
     },
     "AbilityHanger/Keyword/Swampwalk": {
         "oracleText": "This creature can't be blocked as long as defending player controls a Swamp.",
-        "translation": "只要防御牌手操控沼泽，此生物就不能被阻挡."
+        "translation": "只要防御牌手操控沼泽，此生物就不能被阻挡。"
     },
     "AbilityHanger/Keyword/Training_Body": {
         "oracleText": "Whenever this creature attacks with another creature with greater power, put a +1/+1 counter on this creature.",
-        "translation": "当此生物与另一个力量较之为大的生物一起攻击时, 在前者上放置一个+1/+1指示物."
+        "translation": "当此生物与另一个力量较之为大的生物一起攻击时， 在前者上放置一个+1/+1指示物。"
     },
     "AbilityHanger/Keyword/Trample": {
         "oracleText": "A creature with trample can deal excess combat damage to the player or planeswalker it's attacking.",
@@ -1329,7 +1329,7 @@
     },
     "AbilityHanger/Keyword/Undying_Body": {
         "oracleText": "When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.",
-        "translation": "当此生物死去时，若其上没有+1/+1指示物，则将该生物在你的操控下返回战场，且其上有一个+1/+1指示物."
+        "translation": "当此生物死去时，若其上没有+1/+1指示物，则将该生物在你的操控下返回战场，且其上有一个+1/+1指示物。"
     },
     "AbilityHanger/Keyword/Unearth_Body": {
         "oracleText": "{abilityCost}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.",
@@ -1341,7 +1341,7 @@
     },
     "AbilityHanger/Keyword/VentureIntoTheDungeon": {
         "oracleText": "Enter the first room of a dungeon. If already in a dungeon advance to the next room instead.",
-        "translation": "进入一个地城的第一个房间. 若已在地城中则改为前进至下一个房间."
+        "translation": "进入一个地城的第一个房间。 若已在地城中则改为前进至下一个房间。"
     },
     "AbilityHanger/Keyword/VentureIntoTheDungeon_CompletedDungeons": {
         "oracleText": "Completed Dungeons",
@@ -1357,7 +1357,7 @@
     },
     "AbilityHanger/Keyword/Ward": {
         "oracleText": "Whenever a permanent with ward becomes the target of a spell or ability an opponent controls, counter it unless that player pays the ward cost.",
-        "translation": "每当此永久物成为由对手操控之咒语或异能的目标时，除非该牌手支付守护费用，否则反击之."
+        "translation": "每当此永久物成为由对手操控之咒语或异能的目标时，除非该牌手支付守护费用，否则反击之。"
     },
     "AbilityHanger/KeywordCounter_Plural": {
         "oracleText": "{keyword} Counters ({amount})",
@@ -1525,7 +1525,7 @@
     },
     "AbilityHanger/PlayWarning/Body_EntersTapped": {
         "oracleText": "This card would enter the battlefield tapped.",
-        "translation": "此牌将横置进战场."
+        "translation": "此牌将横置进战场。"
     },
     "AbilityHanger/PlayWarning/Body_Legendary": {
         "oracleText": "You already have a copy of this legendary in play. Playing this one will require you to choose which copy to keep.",
@@ -1537,7 +1537,7 @@
     },
     "AbilityHanger/PlayWarning/Body_StartingPlayer": {
         "oracleText": "You were the starting player.",
-        "translation": "你是先手牌手."
+        "translation": "你是先手牌手。"
     },
     "AbilityHanger/PlayWarning/Body_Undefined": {
         "oracleText": "Playing this card right now may not be the best choice.",
@@ -1729,7 +1729,7 @@
     },
     "AbilityHanger/SpecialHangers/CardStyle/Body": {
         "oracleText": "Card styles are cosmetic changes to cards that can change the art, frame, and more.",
-        "translation": "卡牌样式是是对卡牌的外观进行更改，可以更改卡图,牌框等."
+        "translation": "卡牌样式是是对卡牌的外观进行更改，可以更改卡图，牌框等。"
     },
     "AbilityHanger/SpecialHangers/CardStyle/Header": {
         "oracleText": "Card Style",
@@ -1889,11 +1889,11 @@
     },
     "AbilityHanger/SpecialHangers/Party": {
         "oracleText": "Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.",
-        "translation": "冒险团由僧侣，浪客，战士和法术师组成，每种类别至多只计入一个."
+        "translation": "冒险团由僧侣，浪客，战士和法术师组成，每种类别至多只计入一个。"
     },
     "AbilityHanger/SpecialHangers/Party_Additional": {
         "oracleText": "Adding one of these types would increase party size:",
-        "translation": "增加一张以下类别的牌能增加冒险团规模:"
+        "translation": "增加一张以下类别的牌能增加冒险团规模："
     },
     "AbilityHanger/SpecialHangers/Party_Title_Count": {
         "oracleText": "Party <#FF9C01>({0})</color>",
@@ -1921,7 +1921,7 @@
     },
     "AbilityHanger/SpecialHangers/ReplacementEffect/Adventure": {
         "oracleText": "Exile this spell as it resolves. You may cast the creature later from exile.",
-        "translation": "在此咒语结算时将其放逐. 你之后可以从放逐区中施放该生物."
+        "translation": "在此咒语结算时将其放逐。 你之后可以从放逐区中施放该生物。"
     },
     "AbilityHanger/SpecialHangers/ReplacementEffect/AmountValue": {
         "oracleText": "Amount: {durability}",
@@ -1957,7 +1957,7 @@
     },
     "AbilityHanger/SpecialHangers/SnowManaSource_Body": {
         "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xS\"> can be paid with one mana from a snow source.",
-        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xS\"> 可以用产自雪境来源的法术力支付."
+        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xS\"> 可以用产自雪境来源的法术力支付。"
     },
     "AbilityHanger/SpecialHangers/SnowManaSource_Title": {
         "oracleText": "Mana from a Snow Source",
@@ -1977,7 +1977,7 @@
     },
     "AbilityHanger/SpecialHangers/TokenAffinity_Body": {
         "oracleText": "This spell costs <sprite=\"SpriteSheet_ManaIcons\" name=\"x1\"> less to cast for each token you control.",
-        "translation": "你每操控一个衍生物，此咒语便减少<sprite=\"SpriteSheet_ManaIcons\" name=\"x1\"> 来施放."
+        "translation": "你每操控一个衍生物，此咒语便减少<sprite=\"SpriteSheet_ManaIcons\" name=\"x1\"> 来施放。"
     },
     "AbilityHanger/SpecialHangers/TokenAffinity_Header": {
         "oracleText": "Affinity for Tokens",
@@ -2293,7 +2293,7 @@
     },
     "BattlePass/Rewards/DMU_Pet_Hover": {
         "oracleText": "Otarian Goblin: Mastery Pass Level 50",
-        "translation": "欧塔利亚鬼怪:精研通行证等级达到50"
+        "translation": "欧塔利亚鬼怪：精研通行证等级达到50"
     },
     "BattlePass/Rewards/DraftToken": {
         "oracleText": "{count} Draft Token",
@@ -2897,7 +2897,7 @@
     },
     "BattlePass/Rewards/THB_Level1": {
         "oracleText": "Elspeth Avatar, Elspeth's Nightmare Sleeve, & Common Nyx Owl",
-        "translation": "艾紫培头像,艾紫培的梦魇牌套,& 普通尼兹猫头鹰宠物"
+        "translation": "艾紫培头像，艾紫培的梦魇牌套，& 普通尼兹猫头鹰宠物"
     },
     "BattlePass/Rewards/THB_Pet2_And_Orb": {
         "oracleText": "1 Set Mastery Orb & Uncommon Nyx Owl",
@@ -3205,7 +3205,7 @@
     },
     "Card/Textbox/CurrentIntensity": {
         "oracleText": "<nobr>(Current {currentIntensity})</nobr>",
-        "translation": "<nobr>(当前强度{currentIntensity})</nobr>"
+        "translation": "<nobr>(当前{currentIntensity})</nobr>"
     },
     "Card/Textbox/Kicked": {
         "oracleText": "Kicked",
@@ -5389,7 +5389,7 @@
     },
     "Decks/Precon/Workshop_Brawl_VadrokApexOfThunder": {
         "oracleText": "Vadrok, Apex of Thunder",
-        "translation": "Vadrok, Apex of Thunde"
+        "translation": "雷鸣霸龙瓦卓克"
     },
     "Decks/Precon/Workshop_Cats": {
         "oracleText": "CATS!",
@@ -5761,7 +5761,7 @@
     },
     "Draft/Autopicking_Description": {
         "oracleText": "Your picks will be made automatically if you do not return to draft now.",
-        "translation": "如果您现在不返回轮抽，你的选牌将自动选择."
+        "translation": "如果您现在不返回轮抽，你的选牌将自动选择。"
     },
     "Draft/Autopicking_Title": {
         "oracleText": "Are you still there?",
@@ -5781,7 +5781,7 @@
     },
     "Draft/DraftCompletedReconnect_Description": {
         "oracleText": "The draft portion of this event ended while you were away from the game. Build your deck and join the queue!",
-        "translation": "该活动轮抽的选牌环节已在你离开游戏时结束. 构筑你的套牌并加入队列!"
+        "translation": "该活动轮抽的选牌环节已在你离开游戏时结束。 构筑你的套牌并加入队列!"
     },
     "Draft/DraftCompletedReconnect_Title": {
         "oracleText": "Drafting Completed",
@@ -5813,15 +5813,15 @@
     },
     "Draft/Draft_QueueHeader_Confirmed": {
         "oracleText": "Waiting for Others:",
-        "translation": "等待其它人:"
+        "translation": "等待其它人："
     },
     "Draft/Draft_QueueHeader_FindTable": {
         "oracleText": "Finding a Draft Table:",
-        "translation": "寻找轮抽牌桌:"
+        "translation": "寻找轮抽牌桌："
     },
     "Draft/Draft_QueueHeader_Ready": {
         "oracleText": "Time to Prepare:",
-        "translation": "准备时间:"
+        "translation": "准备时间："
     },
     "Draft/Draft_Queue_Time": {
         "oracleText": "Your Time in Queue | {minutes}:{seconds}",
@@ -5853,7 +5853,7 @@
     },
     "Draft/EventEnded_Description": {
         "oracleText": "An event you were in has ended. Your entry fee has been returned to your account.",
-        "translation": "有一个你参加的活动结束了，你的入场费用已返回到你账号中."
+        "translation": "有一个你参加的活动结束了，你的入场费用已返回到你账号中。"
     },
     "Draft/EventEnded_Title": {
         "oracleText": "Event Ended - Entry Fee Returned",
@@ -5861,7 +5861,7 @@
     },
     "Draft/LeavingTable_Description": {
         "oracleText": "If you are not back in time, your next pick will be made for you. Are you sure you want to leave?",
-        "translation": "如果你不能在时限内返回，你的下一抓将会为你自动选择. 确定要离开吗?"
+        "translation": "如果你不能在时限内返回，你的下一抓将会为你自动选择。 确定要离开吗?"
     },
     "Draft/LeavingTable_Title": {
         "oracleText": "Warning - Leaving the Draft Table",
@@ -5873,7 +5873,7 @@
     },
     "Draft/RebuildingQueue": {
         "oracleText": "One or more players did not ready up in time. Rebuilding the queue.",
-        "translation": "有一个或多个玩家未在时限内准备，重新建立队列."
+        "translation": "有一个或多个玩家未在时限内准备，重新建立队列。"
     },
     "Draft/Rejoin_Draft": {
         "oracleText": "Rejoin Draft",
@@ -5889,7 +5889,7 @@
     },
     "Draft/RemovedFromQueue_Description": {
         "oracleText": "You did not click 'Ready' in time to join the draft, please try again.",
-        "translation": "你未在时限内点击 '准备' 来参加轮抽, 请再试一次."
+        "translation": "你未在时限内点击 '准备' 来参加轮抽， 请再试一次。"
     },
     "Draft/RemovedFromQueue_Title": {
         "oracleText": "Removed from Queue",
@@ -6525,7 +6525,7 @@
     },
     "DuelScene/ClientPrompt/Cast_With_Selection": {
         "oracleText": "({CastWith}) Select 1.",
-        "translation": "({CastWith})选择1."
+        "translation": "({CastWith})选择1。"
     },
     "DuelScene/ClientPrompt/ChooseX_Choose": {
         "oracleText": "Choose {quantity}",
@@ -9221,7 +9221,7 @@
     },
     "Emotes/ZNR/Full/DawnAdventure": {
         "oracleText": "A new dawn, a new adventure.",
-        "translation": "新的黎明, 新的冒险."
+        "translation": "新的黎明， 新的冒险。"
     },
     "Emotes/ZNR/Full/FlashFast": {
         "oracleText": "Too flashy to ignore. Too fast to catch.",
@@ -13329,7 +13329,7 @@
     },
     "Events/Event_Desc_AFR_Trad_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players </b>",
-        "translation": "每次从传过来的轮抽卡包中选一张牌，这些牌会加入你的收藏，你将使用这些牌加上基本地来构筑40张的套牌进行bo3对战. 你将得到的奖励取决于你的胜场!\n\n<b>真人轮抽～和其他七位玩家共同进行的限时轮抽</b>"
+        "translation": "每次从传过来的轮抽卡包中选一张牌，这些牌会加入你的收藏，你将使用这些牌加上基本地来构筑40张的套牌进行bo3对战。 你将得到的奖励取决于你的胜场!\n\n<b>真人轮抽～和其他七位玩家共同进行的限时轮抽</b>"
     },
     "Events/Event_Desc_AIBotMatch": {
         "oracleText": "Play a practice game with Sparky, our AI computer opponent.",
@@ -13373,27 +13373,27 @@
     },
     "Events/Event_Desc_AllAccess": {
         "oracleText": "Welcome to Launch Celebration! Play ANY Deck, Win EVERY Card.\n\nYour access to all Standard cards starts right now. Play games with any Standard deck, even with cards not in your collection! After joining, click the \"Choose Your Deck\" button on the right to build or select your deck.\n\nFlex your deck brewing muscles as you get ready for our Win Every Card Challenge on October 5, 20:00 Pacific time (UTC-7), where you can <i>really</i> welcome the challenge and potentially walk away with one copy of every Standard card.\n\nDon't know what decks to play? <u><link=\"http://magic.wizards.com/mtga-play-any-deck\">Check out a few decklists here</link></u>.",
-        "translation": "欢迎来到启动庆典！玩任何套牌，赢任意卡牌。\n\n现在开始，你可以使用所有标准卡。使用任何标准套牌游玩，即使里面有你未收集的卡牌！加入后，点击右侧的“选择你的套牌”按钮来构建或选择你的套牌。\n\n尽情锻炼吧，为太平洋时间10月5日20:00（UTC-7）的 \"赢任意卡牌\"挑战赛做好准备，那时你可以迎来<i>真正</i>的挑战，并有可能带走每一张标准卡的副本。\n\n不知道该玩什么套牌？<u><link=\"http://magic.wizards.com/mtga-play-any-deck\">查看一下这里的一些套牌列表</link></u>。"
+        "translation": "欢迎来到启动庆典！玩任何套牌，赢任意卡牌。\n\n现在开始，你可以使用所有标准卡。使用任何标准套牌游玩，即使里面有你未收集的卡牌！加入后，点击右侧的“选择你的套牌”按钮来构建或选择你的套牌。\n\n尽情锻炼吧，为太平洋时间10月5日20:00（UTC-7）的“赢任意卡牌”挑战赛做好准备，那时你可以迎来<i>真正</i>的挑战，并有可能带走每一张标准卡的副本。\n\n不知道该玩什么套牌？<u><link=\"http://magic.wizards.com/mtga-play-any-deck\">查看一下这里的一些套牌列表</link></u>。"
     },
     "Events/Event_Desc_AllAccess_ALT2": {
         "oracleText": "Welcome to Launch Celebration! Play ANY Deck, Win EVERY Card.\n\nYour access to all Standard cards starts right now. Play games with any Standard deck, even with cards not in your collection! Once you start, click the \"Choose Your Deck\" button on the right to build or select your deck.\n\nFlex your deck brewing muscles as you get ready for our Win Every Card Challenge on October 5, 20:00 Pacific time (UTC-7), where you can <i>really</i> welcome the challenge and potentially walk away with one copy of every Standard card.\n\nDon't know what decks to play? <link=\"http://magic.wizards.com/mtga-play-any-deck\">Check out a few decklists here</link>.",
-        "translation": "欢迎来到启动庆典！玩任何套牌，赢任意卡牌。\n\n现在开始，你可以使用所有标准卡。使用任何标准套牌游玩，即使里面有你未收集的卡牌！加入后，点击右侧的“选择你的套牌”按钮来构建或选择你的套牌。\n\n尽情锻炼吧，为太平洋时间10月5日20:00（UTC-7）的 \"赢任意卡牌\"挑战赛做好准备，那时你可以迎来<i>真正</i>的挑战，并有可能带走每一张标准卡的副本。\n\n不知道该玩什么套牌？<link=\"http://magic.wizards.com/mtga-play-any-deck\">查看一下这里的一些套牌列表</link>。"
+        "translation": "欢迎来到启动庆典！玩任何套牌，赢任意卡牌。\n\n现在开始，你可以使用所有标准卡。使用任何标准套牌游玩，即使里面有你未收集的卡牌！加入后，点击右侧的“选择你的套牌”按钮来构建或选择你的套牌。\n\n尽情锻炼吧，为太平洋时间10月5日20:00（UTC-7）的“赢任意卡牌”挑战赛做好准备，那时你可以迎来<i>真正</i>的挑战，并有可能带走每一张标准卡的副本。\n\n不知道该玩什么套牌？<link=\"http://magic.wizards.com/mtga-play-any-deck\">查看一下这里的一些套牌列表</link>。"
     },
     "Events/Event_Desc_AllAccess_Alt": {
         "oracleText": "Welcome to Launch Celebration! Play ANY Deck, Win EVERY Card.\n\nYour access to all Standard cards starts right now. Play games with any Standard deck, even with cards not in your collection! Once you start, click the \"Choose Your Deck\" button on the right to build or select your deck.\n\nGet to five wins in this event to qualify for our Win Every Card Challenge on October 5, where you can <i>really</i> welcome the challenge and potentially walk away with one copy of every Standard card. \n\nDon't know what decks to build to get your 5 qualifying wins? <link=\"http://magic.wizards.com/mtga-play-any-deck\">Check out a few decklists here</link>.",
-        "translation": "欢迎来到启动庆典！玩任何套牌，赢任意卡牌。\n\n现在开始，你可以使用所有标准卡。使用任何标准套牌游玩，即使里面有你未收集的卡牌！加入后，点击右侧的“选择你的套牌”按钮来构建或选择你的套牌。\n\n在此赛事中赢得五场胜利，才有资格参加太平洋时间10月5日20:00（UTC-7）的 \"赢任意卡牌\"挑战赛，那时你可以迎来<i>真正</i>的挑战，并有可能带走每一张标准卡的副本。\n\n不知道要构建什么套牌才能获得 5 次排位赛胜利？<link=\"http://magic.wizards.com/mtga-play-any-deck\">查看一下这里的一些套牌列表</link>。"
+        "translation": "欢迎来到启动庆典！玩任何套牌，赢任意卡牌。\n\n现在开始，你可以使用所有标准卡。使用任何标准套牌游玩，即使里面有你未收集的卡牌！加入后，点击右侧的“选择你的套牌”按钮来构建或选择你的套牌。\n\n在此赛事中赢得五场胜利，才有资格参加太平洋时间10月5日20:00（UTC-7）的“赢任意卡牌”挑战赛，那时你可以迎来<i>真正</i>的挑战，并有可能带走每一张标准卡的副本。\n\n不知道要构建什么套牌才能获得 5 次排位赛胜利？<link=\"http://magic.wizards.com/mtga-play-any-deck\">查看一下这里的一些套牌列表</link>。"
     },
     "Events/Event_Desc_AllAccess_Alt1": {
         "oracleText": "Play ANY Deck, Win EVERY Card!\n\nPlay games with any Standard deck, even with cards not in your collection!  Click on \"Choose Your Deck\" to start building a deck.\n\nLook for our  Win Every Card Challenge on October 5, where you can <i>really</i> welcome the challenge and potentially walk away with one copy of every Standard card.\n\nDon't know what decks to play? <link=\"http://magic.wizards.com/mtga-play-any-deck\">Check out a few decklists here</link>.",
-        "translation": "玩任何套牌，赢任意卡牌！\n\n使用任何标准套牌游玩，即使里面有你未收集的卡牌！点击右侧的“选择你的套牌”按钮来构建你的套牌。\n\n关注太平洋时间10月5日20:00（UTC-7）的 \"赢任意卡牌\"挑战赛，那时你可以迎来<i>真正</i>的挑战，并有可能带走每一张标准卡的副本。\n\n不知道该玩什么套牌？<link=\"http://magic.wizards.com/mtga-play-any-deck\">查看一下这里的一些套牌列表</link>。"
+        "translation": "玩任何套牌，赢任意卡牌！\n\n使用任何标准套牌游玩，即使里面有你未收集的卡牌！点击右侧的“选择你的套牌”按钮来构建你的套牌。\n\n关注太平洋时间10月5日20:00（UTC-7）的“赢任意卡牌”挑战赛，那时你可以迎来<i>真正</i>的挑战，并有可能带走每一张标准卡的副本。\n\n不知道该玩什么套牌？<link=\"http://magic.wizards.com/mtga-play-any-deck\">查看一下这里的一些套牌列表</link>。"
     },
     "Events/Event_Desc_AllAccess_Alt1_ALT2": {
         "oracleText": "Play ANY Deck, Win EVERY Card!\n\nPlay games with any Standard deck, even with cards not in your collection!  Click on \"Choose Your Deck\" to start building a deck.\n\nLook for our  Win Every Card Challenge on October 5, 20:00 Pacific time (UTC-7) where you can <i>really</i> welcome the challenge and potentially walk away with one copy of every Standard card.\n\nDon't know what decks to play? <link=\"http://magic.wizards.com/mtga-play-any-deck\">Check out a few decklists here</link>.",
-        "translation": "玩任何套牌，赢任意卡牌！\n\n使用任何标准套牌游玩，即使里面有你未收集的卡牌！加入后，点击右侧的“选择你的套牌”按钮来构建你的套牌。\n\n关注太平洋时间10月5日20:00（UTC-7）的 \"赢任意卡牌\"挑战赛，那时你可以迎来<i>真正</i>的挑战，并有可能带走每一张标准卡的副本。\n\n不知道该玩什么套牌？<link=\"http://magic.wizards.com/mtga-play-any-deck\">查看一下这里的一些套牌列表</link>。"
+        "translation": "玩任何套牌，赢任意卡牌！\n\n使用任何标准套牌游玩，即使里面有你未收集的卡牌！加入后，点击右侧的“选择你的套牌”按钮来构建你的套牌。\n\n关注太平洋时间10月5日20:00（UTC-7）的“赢任意卡牌”挑战赛，那时你可以迎来<i>真正</i>的挑战，并有可能带走每一张标准卡的副本。\n\n不知道该玩什么套牌？<link=\"http://magic.wizards.com/mtga-play-any-deck\">查看一下这里的一些套牌列表</link>。"
     },
     "Events/Event_Desc_AllAccess_Alt_ALT2": {
         "oracleText": "Welcome to Launch Celebration! Play ANY Deck, Win EVERY Card.\n\nYour access to all Standard cards starts right now. Play games with any Standard deck, even with cards not in your collection! Once you start, click the \"Choose Your Deck\" button on the right to build or select your deck.\n\nPractice with 12 games in this event to prepare for our Win Every Card Challenge on October 5, 20:00 Pacific time (UTC-7) where you can <i>really</i> welcome the challenge and potentially walk away with one copy of every Standard card. \n\nDon't know what decks to build to get your 5 qualifying wins? <link=\"http://magic.wizards.com/mtga-play-any-deck\">Check out a few decklists here</link>.",
-        "translation": "欢迎来到启动庆典！玩任何套牌，赢任意卡牌。\n\n现在开始，你可以使用所有标准卡。使用任何标准套牌游玩，即使里面有你未收集的卡牌！加入后，点击右侧的“选择你的套牌”按钮来构建或选择你的套牌。\n\n在此次赛事中进行12次对战，为太平洋时间10月5日20:00（UTC-7）的 \"赢任意卡牌\"挑战赛做好准备，那时你可以迎来<i>真正</i>的挑战，并有可能带走每一张标准卡的副本。\n\n不知道要构建什么套牌才能获得 5 次排位赛胜利？<link=\"http://magic.wizards.com/mtga-play-any-deck\">查看一下这里的一些套牌列表</link>。"
+        "translation": "欢迎来到启动庆典！玩任何套牌，赢任意卡牌。\n\n现在开始，你可以使用所有标准卡。使用任何标准套牌游玩，即使里面有你未收集的卡牌！加入后，点击右侧的“选择你的套牌”按钮来构建或选择你的套牌。\n\n在此次赛事中进行12次对战，为太平洋时间10月5日20:00（UTC-7）的“赢任意卡牌”挑战赛做好准备，那时你可以迎来<i>真正</i>的挑战，并有可能带走每一张标准卡的副本。\n\n不知道要构建什么套牌才能获得 5 次排位赛胜利？<link=\"http://magic.wizards.com/mtga-play-any-deck\">查看一下这里的一些套牌列表</link>。"
     },
     "Events/Event_Desc_AllAccess_Finals": {
         "oracleText": "Play ANY Deck, Win EVERY Card!\n\nWin 12 games before your second loss and receive the top reward, a copy of EVERY card in Standard plus a Sealed Event Token! All participants earn rewards, <u><link=http://magic.wizards.com/mtga-win-every-card>click here to see the full event rewards.</link></u>\n\n<b>Note:</b> We strongly recommend you join and play your games as early as possible. We want to make sure everyone can try for 12 wins before the event ends.",
@@ -13853,7 +13853,7 @@
     },
     "Events/Event_Desc_Extra_Life_Momir": {
         "oracleText": "Wizards of the Coast is donating $25,000 to Extra Life to support healing local kids. We're also raising money through a charity stream this weekend from 8am Pacific Time on October 19 to 11:59pm Pacific Time on October 20. Tune in and consider joining us in donating to this worthy cause if you are able. To celebrate, we're running this special event for the weekend! Each turn, click on Momir on the left side of your battlefield, pay X mana, and discard a card to create a random token copy of a creature from all of MTG Arena with converted mana cost X. No deck required, we'll provide deck of 12 copies each of the five basic lands. And since this is in support of Extra Life, players will begin with 21 life.",
-        "translation": "威世智将向「Extra Life」捐赠25,000美元，为当地儿童医疗事业尽一份绵薄之力。在本周末，即太平洋时间10月19日上午8时到10月20日下午11时59分期间，我们还将举办慈善直播活动募集善款。敬请准时关注，如果您行有余力，也可以考虑一同为这一崇高事业献上心意。为纪念这一筹款活动，我们将在本周末举办这一特殊赛事！在每个回合中，你都可以点击位于战场左侧的莫秘维，支付X点法术力并弃一张牌，游戏便会从万智牌竞技场所有总法术力费用为X的生物当中随机挑选一个，为你派出该生物之复制品衍生物。无需事先构筑套牌，游戏会为牌手备好一副每种基本地各12张的套牌。由于这是为支持「Extra Life」而举办的特殊活动，所有牌手的起始生命值都是21点。"
+        "translation": "威世智将向「Extra Life」捐赠25000美元，为当地儿童医疗事业尽一份绵薄之力。在本周末，即太平洋时间10月19日上午8时到10月20日下午11时59分期间，我们还将举办慈善直播活动募集善款。敬请准时关注，如果您行有余力，也可以考虑一同为这一崇高事业献上心意。为纪念这一筹款活动，我们将在本周末举办这一特殊赛事！在每个回合中，你都可以点击位于战场左侧的莫秘维，支付X点法术力并弃一张牌，游戏便会从万智牌竞技场所有总法术力费用为X的生物当中随机挑选一个，为你派出该生物之复制品衍生物。无需事先构筑套牌，游戏会为牌手备好一副每种基本地各12张的套牌。由于这是为支持「Extra Life」而举办的特殊活动，所有牌手的起始生命值都是21点。"
     },
     "Events/Event_Desc_FNM_100C_HistoricBrawl": {
         "oracleText": "Connect with your local game store and keep yourself and others safe by playing Friday Night Magic (FNM) at home on <i>MTG Arena</i>!\n\nToday's event is Historic Brawl: Bring a 100-card Brawl deck using any cards in <i>MTG Arena</i>, led by your favorite legendary creature or planeswalker!\n\nYou can receive a code for an Arena FNM Promo Pack containing two cosmetic items when you share your results with your local game store. Find out how, as well as a list of banned cards <u><link=https://magic.wizards.com/mtga-fnm-play-home-1>here</link></u>.\n\n*Note: While supplies last. Not all stores are participating.",
@@ -13925,7 +13925,7 @@
     },
     "Events/Event_Desc_FNM_KHM_Quick_Draft": {
         "oracleText": "Connect with your local game store while keeping yourself and others safe by playing Friday Night Magic (FNM) on MTG Arena!\n\nThis week: Draft Kaldheim! Select one card at a time from rotating draft packs with bots, no waiting, and no pick timers. Add basic lands to make a 40-card deck, and play against other players. You can play as many games as you want with your deck, but you can only draft once.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nYou can receive a code for an Arena FNM Promo Pack containing two cosmetic items when you share your results with your local game store. Find out how <u><link=https://magic.wizards.com/mtga-fnm-play-home-1>HERE</link></u>.\n\n*Note: While supplies last. Not all stores are participating.",
-        "translation": "Connect with your local game store while keeping yourself and others safe by playing Friday Night Magic (FNM) on MTG Arena!\n\nThis week: Draft Kaldheim! Select one card at a time from rotating draft packs with bots, no waiting, and no pick timers. Add basic lands to make a 40-card deck, and play against other players. You can play as many games as you want with your deck, but you can only draft once.\n\n<b><color=\"red\">这是一个幻影活动。你所抓取的牌张不会添加到你的收藏当中。</color></b>\n\nYou can receive a code for an Arena FNM Promo Pack containing two cosmetic items when you share your results with your local game store. Find out how <u><link=https://magic.wizards.com/mtga-fnm-play-home-1>HERE</link></u>.\n\n*Note: While supplies last. Not all stores are participating."
+        "translation": "Connect with your local game store while keeping yourself and others safe by playing Friday Night Magic (FNM) on MTG Arena!\n\nThis week: Draft Kaldheim! Select one card at a time from rotating draft packs with bots， no waiting， and no pick timers. Add basic lands to make a 40-card deck， and play against other players. You can play as many games as you want with your deck， but you can only draft once.\n\n<b><color=\"red\">这是一个幻影活动。你所抓取的牌张不会添加到你的收藏当中。</color></b>\n\nYou can receive a code for an Arena FNM Promo Pack containing two cosmetic items when you share your results with your local game store. Find out how <u><link=https://magic.wizards.com/mtga-fnm-play-home-1>HERE</link></u>.\n\n*Note: While supplies last. Not all stores are participating."
     },
     "Events/Event_Desc_FNM_Mastermind": {
         "oracleText": "Connect with your local game store while keeping yourself and others safe by playing Friday Night Magic (FNM) on MTG Arena!\n\nThis week: We'll provide a deck for you to play... but it has no lands in it. Instead, discard a card in exchange for a land token that will make any color of mana. Get creative and get wins!\n\nYou can receive a code for an Arena FNM Promo Pack containing two cosmetic items when you share your results with your local game store. Find out how <u><link=https://magic.wizards.com/mtga-fnm-play-home-1>HERE</link></u>.\n\n*Note: While supplies last. Not all stores are participating.",
@@ -14225,7 +14225,7 @@
     },
     "Events/Event_Desc_HBG_Trad_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players </b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Flicker your creatures in and out of play to produce as many triggers as possible!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Control the battlefield and sneak in creatures to deal damage to your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> The real treasure will be the treasure you make along the way.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> DRAGONS!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> The best offense is a good defense? Gain life so you can lower theirs!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Earn bonuses every time your creatures leave the battlefield.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> MORE DRAGONS!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> What's dead may never die... but may live again?\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> Prepare for trouble! Use the new Double Team mechanic to cast creatures with the same name.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> EVEN MORE DRAGONS!",
-        "translation": "每次从传过来的轮抽卡包中选一张牌，这些牌会加入你的收藏，你将使用这些牌加上基本地来构筑40张的套牌进行bo3对战. 你将得到的奖励取决于你的胜场!\n\n<b>真人轮抽～和其他七位玩家共同进行的限时轮抽</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\">在游戏中闪动你的生物，以产生尽可能多的触发器\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\">控制战场，偷袭生物，对你的对手造成伤害。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">真正的宝藏将是你沿途创造的财富。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">龙！龙！龙！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\">最好的进攻就是防守？获得生命，这样你就可以降低他们的生命！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\">每次你的生物离开战场时，都能获得奖励。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> 更多的龙！更多的龙！更多的龙！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">死去的东西可能永远不会死去……但可能会再次复活？\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">准备好迎接麻烦! 使用新的双团队机制来施放同名的生物。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">甚至更多的龙！甚至更多的龙！甚至更多的龙！"
+        "translation": "每次从传过来的轮抽卡包中选一张牌，这些牌会加入你的收藏，你将使用这些牌加上基本地来构筑40张的套牌进行bo3对战。 你将得到的奖励取决于你的胜场!\n\n<b>真人轮抽～和其他七位玩家共同进行的限时轮抽</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\">在游戏中闪动你的生物，以产生尽可能多的触发器\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\">控制战场，偷袭生物，对你的对手造成伤害。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">真正的宝藏将是你沿途创造的财富。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">龙！龙！龙！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\">最好的进攻就是防守？获得生命，这样你就可以降低他们的生命！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\">每次你的生物离开战场时，都能获得奖励。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> 更多的龙！更多的龙！更多的龙！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">死去的东西可能永远不会死去……但可能会再次复活？\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">准备好迎接麻烦! 使用新的双团队机制来施放同名的生物。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">甚至更多的龙！甚至更多的龙！甚至更多的龙！"
     },
     "Events/Event_Desc_HOU_Quick_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!",
@@ -14473,7 +14473,7 @@
     },
     "Events/Event_Desc_MID_Trad_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players </b>",
-        "translation": "每次从传过来的轮抽卡包中选一张牌，这些牌会加入你的收藏，你将使用这些牌加上基本地来构筑40张的套牌进行bo3对战. 你将得到的奖励取决于你的胜场!\n\n<b>真人轮抽～和其他七位玩家共同进行的限时轮抽</b>"
+        "translation": "每次从传过来的轮抽卡包中选一张牌，这些牌会加入你的收藏，你将使用这些牌加上基本地来构筑40张的套牌进行bo3对战。 你将得到的奖励取决于你的胜场!\n\n<b>真人轮抽～和其他七位玩家共同进行的限时轮抽</b>"
     },
     "Events/Event_Desc_MWM_3Sets": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is On the Edge: Bring a 60-card deck using only cards from <i>Kamigawa: Neon Dynasty</i>, <i>Streets of New Capenna</i>, and <i>Dominaria United</i>. With only three Standard sets to work with, you'll need cutting-edge strategies to find victory! \n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
@@ -14513,7 +14513,7 @@
     },
     "Events/Event_Desc_MWM_Cube_BotDraft": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Chromatic Cube Bot Draft: Try out the biggest and boldest curated draft format on MTG Arena! Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
-        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Chromatic Cube Bot Draft: Try out the biggest and boldest curated draft format on MTG Arena! Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+        "translation": "欢迎来到周中万智牌！每周尝试一个不同的方式来游玩万智牌竞技场！\n\n本周赛事是生物方盒人机轮抽：在MTGA上尝试最新的精选轮抽赛制！轮抽用补充包在桌上轮转，你每次需从中选择一张牌以对抗 AI，无需等待，也无需选择计时器。而你将使用它们和基本地来构筑一副40张的套牌，不断进行对战随你所愿！\n\n<b><color=\"red\">这是一个幻影活动。你所抓取的牌张不会添加到你的收藏当中。</color></b>\n\n更多关于本活动及即将到来的周中万智牌赛事信息，请查看<u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>这里</link></u>。"
     },
     "Events/Event_Desc_MWM_DMU_Sealed": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Dominaria United</i> Sealed: Open six packs and add basic lands to make a 40-card deck, then play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
@@ -14581,7 +14581,7 @@
     },
     "Events/Event_Desc_MWM_NEO_BotDraft": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Kamigawa: Neon Dynasty</i> Bot Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>.",
-        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Kamigawa: Neon Dynasty</i> Bot Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">这是一个幻影活动。你所抓取的牌张不会添加到你的收藏当中。</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>."
+        "translation": "Welcome to Midweek Magic! Each week， try out a different way to play MTG Arena!\n\nThis week's event is <i>Kamigawa: Neon Dynasty</i> Bot Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck， and play against other players as much as you want.\n\n<b><color=\"red\">这是一个幻影活动。你所抓取的牌张不会添加到你的收藏当中。</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>."
     },
     "Events/Event_Desc_MWM_Omniscience": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Omniscience: We'll provide a deck for you to play... but it has no lands in it. Instead, every card can be cast for free! You only get a three-card opening hand, so make them count!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>.",
@@ -14637,7 +14637,7 @@
     },
     "Events/Event_Desc_MWM_VOW_QuickDraft": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Crimson Vow Quick Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>.",
-        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Crimson Vow Quick Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">这是一个幻影活动。你所抓取的牌张不会添加到你的收藏当中。</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>."
+        "translation": "Welcome to Midweek Magic! Each week， try out a different way to play MTG Arena!\n\nThis week's event is Crimson Vow Quick Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck， and play against other players as much as you want.\n\n<b><color=\"red\">这是一个幻影活动。你所抓取的牌张不会添加到你的收藏当中。</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>."
     },
     "Events/Event_Desc_MWM_WorldsShowcase": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is the Standard decks from this year's Worlds competitors! Choose a player and deck from among <i>Magic</i>'s best, then catch them in action during World Championship XXVII this Friday through Sunday! Find out everything you need to know <u><link=https://magic.wizards.com/mtga-mwm-worlds>right here</link></u>.\n\nYou can receive a code for a Midweek Magic Promo Pack containing two cosmetic items when you share your results with your local game store. Find out how <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>.\n\n*Note: While supplies last. Not all stores are participating.",
@@ -14701,7 +14701,7 @@
     },
     "Events/Event_Desc_NEO_Trad_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players </b>",
-        "translation": "每次从传过来的轮抽卡包中选一张牌，这些牌会加入你的收藏，你将使用这些牌加上基本地来构筑40张的套牌进行bo3对战. 你将得到的奖励取决于你的胜场!\n\n<b>真人轮抽～和其他七位玩家共同进行的限时轮抽</b>"
+        "translation": "每次从传过来的轮抽卡包中选一张牌，这些牌会加入你的收藏，你将使用这些牌加上基本地来构筑40张的套牌进行bo3对战。 你将得到的奖励取决于你的胜场!\n\n<b>真人轮抽～和其他七位玩家共同进行的限时轮抽</b>"
     },
     "Events/Event_Desc_NeonArcade_NEO": {
         "oracleText": "<i>The Neon Arcade is the hottest spot for the best players in the city. Are you a whiz at pinball? A fighting-game master? A hero of jukebox dance-offs? No matter your play style, this is where you can turn that skill into ultimate gaming glory. So drop in your coin, rack up all the points you can, and shoot for the stars!</i>\n\nBring a Singleton deck and try to set a new high score! Each time you cast a spell that's bigger than you've cast before, you'll get a Treasure token that can help push you even higher. When your credits are finally spent, you'll score Soft Glow styles from <i>Kamigawa: Neon Dynasty</i>. There are 20 styles to collect!\n\nFor more details on this format, including a full list of card styles available in the arcade, click <u><link=https://magic.wizards.com/mtga-neo-neon-arcade>here</link></u>.",
@@ -14853,11 +14853,11 @@
     },
     "Events/Event_Desc_SNC_Premier_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<b>The Five Families</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> The Obscura: Craft the perfect draws and use superior intelligence over a long game to engineer a route to victory. Use the family's connive mechanic to draw, then discard - giving your creatures +1/+1 counters along the way!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> The Maestros: Hire expendable underlings as your family's muscle on the streets. Then use the casualty mechanic to sacrifice those minions, copy your spells, and blast your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> The Riveteers: The Riveteers rumble with large creatures. Give your creatures haste with the blitz mechanic, then sacrifice them at the end of your turn to draw a card. Keep that pressure up! Then press your advantage to crush your opponents.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> The Cabaretti: Flood the board with tokens and small creatures to overwhelm the opposition. The family knows how to collaborate for greater gain: alliance abilities give you additional effects whenever another creature enters the battlefield under your control.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> The Brokers: The Brokers are always ready to take down your opponents one notch at a time. Attack relentlessly to deal small amounts of damage, and mount an impenetrable defense - legal or otherwise! - by amassing shield counters on your creatures.",
-        "translation": "轮抽用补充包在桌上轮转，你每次需从中选择一张牌。这些牌张将加入你的收藏，而你将使用它们和基本地来构筑一副40张的套牌。不断进行对战，最后根据你的胜场数量赢得奖励！\n\n<b>真人轮抽～和其他七位玩家共同进行的限时轮抽</b> \n\n<b>五大家族</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> 秘闻帮：在漫长的比赛中制作完美的平局并使用卓越的智慧来设计通往胜利的路线。使用家族的筹谋机制来抓牌，然后弃牌——在你的生物上放置 +1/+1 指示物!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> 绝艺盟: 雇佣可消耗的下属作为你的家族在街头的力量。然后利用催命机制来牺牲这些小兵，复制你的咒语，并轰击你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> 勤工联: 铆工们用大型生物轰鸣。用急袭机制给你的生物以敏捷异能，然后在你的回合结束时牺牲它们来抽一张牌。保持这种压力! 然后发挥你的优势，击溃你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> 乐舞会: 用指示物和小生物铺满桌面以压制对手。家族知道如何合作以获得更大的收益：每当另一个生物在你的控制下进入战场，联手异能附加额外效应。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> 扶济社: 扶济社总是有所准备，将对手层层击溃。无情攻击造成少量伤害，但建立坚不可摧的防御 - 合法或其他！ - 通过在你的生物上积累后盾指示物"
+        "translation": "轮抽用补充包在桌上轮转，你每次需从中选择一张牌。这些牌张将加入你的收藏，而你将使用它们和基本地来构筑一副40张的套牌。不断进行对战，最后根据你的胜场数量赢得奖励！\n\n<b>真人轮抽～和其他七位玩家共同进行的限时轮抽</b> \n\n<b>五大家族</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> 秘闻帮：在漫长的比赛中制作完美的平局并使用卓越的智慧来设计通往胜利的路线。使用家族的筹谋机制来抓牌，然后弃牌——在你的生物上放置 +1/+1 指示物!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> 绝艺盟： 雇佣可消耗的下属作为你的家族在街头的力量。然后利用催命机制来牺牲这些小兵，复制你的咒语，并轰击你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> 勤工联： 铆工们用大型生物轰鸣。用急袭机制给你的生物以敏捷异能，然后在你的回合结束时牺牲它们来抽一张牌。保持这种压力! 然后发挥你的优势，击溃你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> 乐舞会： 用指示物和小生物铺满桌面以压制对手。家族知道如何合作以获得更大的收益：每当另一个生物在你的控制下进入战场，联手异能附加额外效应。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> 扶济社： 扶济社总是有所准备，将对手层层击溃。无情攻击造成少量伤害，但建立坚不可摧的防御 - 合法或其他！ - 通过在你的生物上积累后盾指示物"
     },
     "Events/Event_Desc_SNC_Quick_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers\n\n<b>The Five Families</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> The Obscura: Craft the perfect draws and use superior intelligence over a long game to engineer a route to victory. Use the family's connive mechanic to draw, then discard - giving your creatures +1/+1 counters along the way!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> The Maestros: Hire expendable underlings as your family's muscle on the streets. Then use the casualty mechanic to sacrifice those minions, copy your spells, and blast your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> The Riveteers: The Riveteers rumble with large creatures. Give your creatures haste with the blitz mechanic, then sacrifice them at the end of your turn to draw a card. Keep that pressure up! Then press your advantage to crush your opponents.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> The Cabaretti: Flood the board with tokens and small creatures to overwhelm the opposition. The family knows how to collaborate for greater gain: alliance abilities give you additional effects whenever another creature enters the battlefield under your control.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> The Brokers: The Brokers are always ready to take down your opponents one notch at a time. Attack relentlessly to deal small amounts of damage, and mount an impenetrable defense - legal or otherwise! - by amassing shield counters on your creatures.",
-        "translation": "轮抽用补充包在桌上轮转，你每次需从中选择一张牌。这些牌张将加入你的收藏，而你将使用它们和基本地来构筑一副40张的套牌。不断进行对战，最后根据你的胜场数量赢得奖励！\n\n<b>人机轮抽～与AI进行轮抽，无需等待，也不限制选牌时间 </b> \n\n<b>五大家族</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> 秘闻帮：在漫长的比赛中制作完美的平局并使用卓越的智慧来设计通往胜利的路线。使用家族的筹谋机制来抓牌，然后弃牌——在你的生物上放置 +1/+1 指示物!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> 绝艺盟: 雇佣可消耗的下属作为你的家族在街头的力量。然后利用催命机制来牺牲这些小兵，复制你的咒语，并轰击你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> 勤工联: 铆工们用大型生物轰鸣。用急袭机制给你的生物以敏捷异能，然后在你的回合结束时牺牲它们来抽一张牌。保持这种压力! 然后发挥你的优势，击溃你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> 乐舞会: 用指示物和小生物铺满桌面以压制对手。家族知道如何合作以获得更大的收益：每当另一个生物在你的控制下进入战场，联手异能附加额外效应。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> 扶济社: 扶济社总是有所准备，将对手层层击溃。无情攻击造成少量伤害，但建立坚不可摧的防御 - 合法或其他！ - 通过在你的生物上积累后盾指示物"
+        "translation": "轮抽用补充包在桌上轮转，你每次需从中选择一张牌。这些牌张将加入你的收藏，而你将使用它们和基本地来构筑一副40张的套牌。不断进行对战，最后根据你的胜场数量赢得奖励！\n\n<b>人机轮抽～与AI进行轮抽，无需等待，也不限制选牌时间 </b> \n\n<b>五大家族</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> 秘闻帮：在漫长的比赛中制作完美的平局并使用卓越的智慧来设计通往胜利的路线。使用家族的筹谋机制来抓牌，然后弃牌——在你的生物上放置 +1/+1 指示物!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> 绝艺盟： 雇佣可消耗的下属作为你的家族在街头的力量。然后利用催命机制来牺牲这些小兵，复制你的咒语，并轰击你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> 勤工联： 铆工们用大型生物轰鸣。用急袭机制给你的生物以敏捷异能，然后在你的回合结束时牺牲它们来抽一张牌。保持这种压力! 然后发挥你的优势，击溃你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> 乐舞会： 用指示物和小生物铺满桌面以压制对手。家族知道如何合作以获得更大的收益：每当另一个生物在你的控制下进入战场，联手异能附加额外效应。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> 扶济社： 扶济社总是有所准备，将对手层层击溃。无情攻击造成少量伤害，但建立坚不可摧的防御 - 合法或其他！ - 通过在你的生物上积累后盾指示物"
     },
     "Events/Event_Desc_SNC_Rebalanced_Draft": {
         "oracleText": "In this Planeshifted Draft, many of the cards from <i>Streets of New Capenna</i> have been rebalanced, creating an alternative look at this draft format. Figure out which families are coming into power, and you could rule New Capenna when the dust settles.\n\nSelect one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>",
@@ -14865,7 +14865,7 @@
     },
     "Events/Event_Desc_SNC_Trad_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players </b>\n\n<b>The Five Families</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> The Obscura: Craft the perfect draws and use superior intelligence over a long game to engineer a route to victory. Use the family's connive mechanic to draw, then discard - giving your creatures +1/+1 counters along the way!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> The Maestros: Hire expendable underlings as your family's muscle on the streets. Then use the casualty mechanic to sacrifice those minions, copy your spells, and blast your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> The Riveteers: The Riveteers rumble with large creatures. Give your creatures haste with the blitz mechanic, then sacrifice them at the end of your turn to draw a card. Keep that pressure up! Then press your advantage to crush your opponents.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> The Cabaretti: Flood the board with tokens and small creatures to overwhelm the opposition. The family knows how to collaborate for greater gain: alliance abilities give you additional effects whenever another creature enters the battlefield under your control.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> The Brokers: The Brokers are always ready to take down your opponents one notch at a time. Attack relentlessly to deal small amounts of damage, and mount an impenetrable defense - legal or otherwise! - by amassing shield counters on your creatures.",
-        "translation": "每次从传过来的轮抽卡包中选一张牌，这些牌会加入你的收藏，你将使用这些牌加上基本地来构筑40张的套牌进行bo3对战。你将得到的奖励取决于你的胜场！\n\n<b>真人轮抽～和其他七位玩家共同进行的限时轮抽</b> \n\n<b>五大家族</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> 秘闻帮：在漫长的比赛中制作完美的平局并使用卓越的智慧来设计通往胜利的路线。使用家族的筹谋机制来抓牌，然后弃牌——在你的生物上放置 +1/+1 指示物!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> 绝艺盟: 雇佣可消耗的下属作为你的家族在街头的力量。然后利用催命机制来牺牲这些小兵，复制你的咒语，并轰击你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> 勤工联: 铆工们用大型生物轰鸣。用急袭机制给你的生物以敏捷异能，然后在你的回合结束时牺牲它们来抽一张牌。保持这种压力! 然后发挥你的优势，击溃你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> 乐舞会: 用指示物和小生物铺满桌面以压制对手。家族知道如何合作以获得更大的收益：每当另一个生物在你的控制下进入战场，联手异能附加额外效应。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> 扶济社: 扶济社总是有所准备，将对手层层击溃。无情攻击造成少量伤害，但建立坚不可摧的防御 - 合法或其他！ - 通过在你的生物上积累后盾指示物"
+        "translation": "每次从传过来的轮抽卡包中选一张牌，这些牌会加入你的收藏，你将使用这些牌加上基本地来构筑40张的套牌进行bo3对战。你将得到的奖励取决于你的胜场！\n\n<b>真人轮抽～和其他七位玩家共同进行的限时轮抽</b> \n\n<b>五大家族</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> 秘闻帮：在漫长的比赛中制作完美的平局并使用卓越的智慧来设计通往胜利的路线。使用家族的筹谋机制来抓牌，然后弃牌——在你的生物上放置 +1/+1 指示物!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> 绝艺盟： 雇佣可消耗的下属作为你的家族在街头的力量。然后利用催命机制来牺牲这些小兵，复制你的咒语，并轰击你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> 勤工联： 铆工们用大型生物轰鸣。用急袭机制给你的生物以敏捷异能，然后在你的回合结束时牺牲它们来抽一张牌。保持这种压力! 然后发挥你的优势，击溃你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> 乐舞会： 用指示物和小生物铺满桌面以压制对手。家族知道如何合作以获得更大的收益：每当另一个生物在你的控制下进入战场，联手异能附加额外效应。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> 扶济社： 扶济社总是有所准备，将对手层层击溃。无情攻击造成少量伤害，但建立坚不可摧的防御 - 合法或其他！ - 通过在你的生物上积累后盾指示物"
     },
     "Events/Event_Desc_STX_Premier_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>",
@@ -14917,7 +14917,7 @@
     },
     "Events/Event_Desc_Sealed_KLR": {
         "oracleText": "You'll receive 6 fourteen-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!",
-        "translation": "你将获得6个14张的补充包. 这些牌会加入你的收藏. 你将使用这些牌加上基本地来构筑40张的套牌进行游戏. 你将得到的奖励取决于你的胜场!"
+        "translation": "你将获得6个14张的补充包。 这些牌会加入你的收藏。 你将使用这些牌加上基本地来构筑40张的套牌进行游戏。 你将得到的奖励取决于你的胜场!"
     },
     "Events/Event_Desc_Sealed_M19": {
         "oracleText": "You'll receive 6 fifteen-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win",
@@ -14937,7 +14937,7 @@
     },
     "Events/Event_Desc_Sealed_MID": {
         "oracleText": "You'll receive 6 fourteen-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!",
-        "translation": "你将获得6个14张的补充包. 这些牌会加入你的收藏. 你将使用这些牌加上基本地来构筑40张的套牌进行游戏. 你将得到的奖励取决于你的胜场!"
+        "translation": "你将获得6个14张的补充包。 这些牌会加入你的收藏。 你将使用这些牌加上基本地来构筑40张的套牌进行游戏。 你将得到的奖励取决于你的胜场!"
     },
     "Events/Event_Desc_Sealed_MixedUp": {
         "oracleText": "<b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.</color></b>\n\n<i>You know what's more exciting than a pack of cards? A pack of <b>mystery</b> cards! Why the mystery? Well, look, some beebles got into the warehouse and moved everything around, and now it's a mystery whether you like it or not. I'd actually appreciate some help sorting things back out, and I don't mind if you play some games along the way. Thanks for pitching in!</i>\n\nIf you've finished your run in this weekend's run of the Arena Open, kick back with some Mixed-Up Sealed! You can enter this event <b>either</b> by paying the entry fee once or by entering Day 1 of the Arena Open. Once you've entered, you can play as many times as you like for the rest of the weekend.\n\nYou'll receive 6 packs of mixed-up cards from all across <i>MTG Arena</i>, and then build the best 40-card deck you can. Once you're finished, we'll find the right shelves in the back room for your cards, and you can join again!",
@@ -14945,11 +14945,11 @@
     },
     "Events/Event_Desc_Sealed_NEO": {
         "oracleText": "You'll receive 6 15-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!",
-        "translation": "你将获得6个15张的补充包. 这些牌会加入你的收藏. 你将使用这些牌加上基本地来构筑40张的套牌进行游戏. 你将得到的奖励取决于你的胜场!"
+        "translation": "你将获得6个15张的补充包。 这些牌会加入你的收藏。 你将使用这些牌加上基本地来构筑40张的套牌进行游戏。 你将得到的奖励取决于你的胜场!"
     },
     "Events/Event_Desc_Sealed_RAVM": {
         "oracleText": "You'll receive 6 fourteen-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!",
-        "translation": "你将获得6个14张的补充包. 这些牌会加入你的收藏. 你将使用这些牌加上基本地来构筑40张的套牌进行游戏. 你将得到的奖励取决于你的胜场!"
+        "translation": "你将获得6个14张的补充包。 这些牌会加入你的收藏。 你将使用这些牌加上基本地来构筑40张的套牌进行游戏。 你将得到的奖励取决于你的胜场!"
     },
     "Events/Event_Desc_Sealed_RIX": {
         "oracleText": "You'll receive 6 fourteen-card packs, 4 from Rivals of Ixalan and 2 from Ixalan. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!",
@@ -14969,11 +14969,11 @@
     },
     "Events/Event_Desc_Sealed_SN": {
         "oracleText": "You'll receive 6 14-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>The Five Families</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> The Obscura: Craft the perfect draws and use superior intelligence over a long game to engineer a route to victory. Use the family's connive mechanic to draw, then discard - giving your creatures +1/+1 counters along the way!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> The Maestros: Hire expendable underlings as your family's muscle on the streets. Then use the casualty mechanic to sacrifice those minions, copy your spells, and blast your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> The Riveteers: The Riveteers rumble with large creatures. Give your creatures haste with the blitz mechanic, then sacrifice them at the end of your turn to draw a card. Keep that pressure up! Then press your advantage to crush your opponents.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> The Cabaretti: Flood the board with tokens and small creatures to overwhelm the opposition. The family knows how to collaborate for greater gain: alliance abilities give you additional effects whenever another creature enters the battlefield under your control.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> The Brokers: The Brokers are always ready to take down your opponents one notch at a time. Attack relentlessly to deal small amounts of damage, and mount an impenetrable defense - legal or otherwise! - by amassing shield counters on your creatures.",
-        "translation": "你将得到6包14张牌的补充包。补充包内的牌张都会加入你的收藏，而你将利用这些牌外加基本地来构筑一副40张的套牌进行游戏。不断进行对战，最后根据胜场数量赢得奖励\n\n<b>五大家族</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> 秘闻帮：在漫长的比赛中制作完美的平局并使用卓越的智慧来设计通往胜利的路线。使用家族的筹谋机制来抓牌，然后弃牌——在你的生物上放置 +1/+1 指示物!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> 绝艺盟: 雇佣可消耗的下属作为你的家族在街头的力量。然后利用催命机制来牺牲这些小兵，复制你的咒语，并轰击你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> 勤工联: 铆工们用大型生物轰鸣。用急袭机制给你的生物以敏捷异能，然后在你的回合结束时牺牲它们来抽一张牌。保持这种压力! 然后发挥你的优势，击溃你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> 乐舞会: 用指示物和小生物铺满桌面以压制对手。家族知道如何合作以获得更大的收益：每当另一个生物在你的控制下进入战场，联手异能附加额外效应。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> 扶济社: 扶济社总是有所准备，将对手层层击溃。无情攻击造成少量伤害，但建立坚不可摧的防御 - 合法或其他！ - 通过在你的生物上积累后盾指示物"
+        "translation": "你将得到6包14张牌的补充包。补充包内的牌张都会加入你的收藏，而你将利用这些牌外加基本地来构筑一副40张的套牌进行游戏。不断进行对战，最后根据胜场数量赢得奖励\n\n<b>五大家族</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> 秘闻帮：在漫长的比赛中制作完美的平局并使用卓越的智慧来设计通往胜利的路线。使用家族的筹谋机制来抓牌，然后弃牌——在你的生物上放置 +1/+1 指示物!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> 绝艺盟： 雇佣可消耗的下属作为你的家族在街头的力量。然后利用催命机制来牺牲这些小兵，复制你的咒语，并轰击你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> 勤工联： 铆工们用大型生物轰鸣。用急袭机制给你的生物以敏捷异能，然后在你的回合结束时牺牲它们来抽一张牌。保持这种压力! 然后发挥你的优势，击溃你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> 乐舞会： 用指示物和小生物铺满桌面以压制对手。家族知道如何合作以获得更大的收益：每当另一个生物在你的控制下进入战场，联手异能附加额外效应。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> 扶济社： 扶济社总是有所准备，将对手层层击溃。无情攻击造成少量伤害，但建立坚不可摧的防御 - 合法或其他！ - 通过在你的生物上积累后盾指示物"
     },
     "Events/Event_Desc_Sealed_SNC": {
         "oracleText": "You'll receive 6 <i>Streets of New Capenna</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>The Five Families</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> The Obscura: Craft the perfect draws and use superior intelligence over a long game to engineer a route to victory. Use the family's connive mechanic to draw, then discard - giving your creatures +1/+1 counters along the way!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> The Maestros: Hire expendable underlings as your family's muscle on the streets. Then use the casualty mechanic to sacrifice those minions, copy your spells, and blast your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> The Riveteers: The Riveteers rumble with large creatures. Give your creatures haste with the blitz mechanic, then sacrifice them at the end of your turn to draw a card. Keep that pressure up! Then press your advantage to crush your opponents.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> The Cabaretti: Flood the board with tokens and small creatures to overwhelm the opposition. The family knows how to collaborate for greater gain: alliance abilities give you additional effects whenever another creature enters the battlefield under your control.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> The Brokers: The Brokers are always ready to take down your opponents one notch at a time. Attack relentlessly to deal small amounts of damage, and mount an impenetrable defense - legal or otherwise! - by amassing shield counters on your creatures.",
-        "translation": "你将得到6包<i>新卡佩纳：喧嚣黑街</i>的补充包。补充包内的牌张都会加入你的收藏，而你将利用这些牌外加基本地来构筑一副40张的套牌进行游戏。不断进行对战，最后根据你的胜场数量赢得奖励！\n\n<b>五大家族</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> 秘闻帮：在漫长的比赛中制作完美的平局并使用卓越的智慧来设计通往胜利的路线。使用家族的筹谋机制来抓牌，然后弃牌——在你的生物上放置 +1/+1 指示物!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> 绝艺盟: 雇佣可消耗的下属作为你的家族在街头的力量。然后利用催命机制来牺牲这些小兵，复制你的咒语，并轰击你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> 勤工联: 铆工们用大型生物轰鸣。用急袭机制给你的生物以敏捷异能，然后在你的回合结束时牺牲它们来抽一张牌。保持这种压力! 然后发挥你的优势，击溃你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> 乐舞会: 用指示物和小生物铺满桌面以压制对手。家族知道如何合作以获得更大的收益：每当另一个生物在你的控制下进入战场，联手异能附加额外效应。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> 扶济社: 扶济社总是有所准备，将对手层层击溃。无情攻击造成少量伤害，但建立坚不可摧的防御 - 合法或其他！ - 通过在你的生物上积累后盾指示物"
+        "translation": "你将得到6包<i>新卡佩纳：喧嚣黑街</i>的补充包。补充包内的牌张都会加入你的收藏，而你将利用这些牌外加基本地来构筑一副40张的套牌进行游戏。不断进行对战，最后根据你的胜场数量赢得奖励！\n\n<b>五大家族</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> 秘闻帮：在漫长的比赛中制作完美的平局并使用卓越的智慧来设计通往胜利的路线。使用家族的筹谋机制来抓牌，然后弃牌——在你的生物上放置 +1/+1 指示物!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> 绝艺盟： 雇佣可消耗的下属作为你的家族在街头的力量。然后利用催命机制来牺牲这些小兵，复制你的咒语，并轰击你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> 勤工联： 铆工们用大型生物轰鸣。用急袭机制给你的生物以敏捷异能，然后在你的回合结束时牺牲它们来抽一张牌。保持这种压力! 然后发挥你的优势，击溃你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> 乐舞会： 用指示物和小生物铺满桌面以压制对手。家族知道如何合作以获得更大的收益：每当另一个生物在你的控制下进入战场，联手异能附加额外效应。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> 扶济社： 扶济社总是有所准备，将对手层层击溃。无情攻击造成少量伤害，但建立坚不可摧的防御 - 合法或其他！ - 通过在你的生物上积累后盾指示物"
     },
     "Events/Event_Desc_Sealed_STX": {
         "oracleText": "You'll receive 6 fifteen-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!",
@@ -14985,7 +14985,7 @@
     },
     "Events/Event_Desc_Sealed_VOW": {
         "oracleText": "You'll receive 6 fourteen-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!",
-        "translation": "你将获得6个14张的补充包. 这些牌会加入你的收藏. 你将使用这些牌加上基本地来构筑40张的套牌进行游戏. 你将得到的奖励取决于你的胜场!"
+        "translation": "你将获得6个14张的补充包。 这些牌会加入你的收藏。 你将使用这些牌加上基本地来构筑40张的套牌进行游戏。 你将得到的奖励取决于你的胜场!"
     },
     "Events/Event_Desc_Sealed_WAR": {
         "oracleText": "You'll receive 6 fourteen-card War of the Spark packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!",
@@ -14993,7 +14993,7 @@
     },
     "Events/Event_Desc_Sealed_ZNR": {
         "oracleText": "You'll receive 6 fourteen-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!",
-        "translation": "你将获得6个14张的补充包. 这些牌会加入你的收藏. 你将使用这些牌加上基本地来构筑40张的套牌进行游戏. 你将得到的奖励取决于你的胜场!"
+        "translation": "你将获得6个14张的补充包。 这些牌会加入你的收藏。 你将使用这些牌加上基本地来构筑40张的套牌进行游戏。 你将得到的奖励取决于你的胜场!"
     },
     "Events/Event_Desc_ShowcasePlayIn_Bo1": {
         "oracleText": "It's time for the very first Arena Championship! This weekend, 32 of the best players in MTG Arena are facing off to earn the title of Arena Champion and a seat at World Championship XXVIII. For the rest of us, it's not too late to start climbing toward the next Arena Championship, and it can all start right here. If you're not already qualified, get all six wins in this Play-In event to earn your seat at the next Qualifier Weekend.\n\nThe format for this Play-In event is Arena Championship Showcase with best-of-one matches and individual timers. Choose one of the Alchemy decks being played by Arena Championship competitors this weekend and face off against the same field they'll be facing. If you win six games, come back on October 15 for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
@@ -15081,7 +15081,7 @@
     },
     "Events/Event_Desc_Trad_Sealed_AFR": {
         "oracleText": "You'll receive 6 fourteen-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!",
-        "translation": "你将获得6个14张的补充包. 这些牌会加入你的收藏. 你将使用这些牌加上基本地来构筑40张的套牌进行bo3对战. 你将得到的奖励取决于你的胜场!"
+        "translation": "你将获得6个14张的补充包。 这些牌会加入你的收藏。 你将使用这些牌加上基本地来构筑40张的套牌进行bo3对战。 你将得到的奖励取决于你的胜场!"
     },
     "Events/Event_Desc_Trad_Sealed_DAR": {
         "oracleText": "<b><color=\"red\">This set is only legal in Historic and Explorer.</color></b>\n\nYou'll receive 6 <i>Dominaria</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!",
@@ -15101,7 +15101,7 @@
     },
     "Events/Event_Desc_Trad_Sealed_MID": {
         "oracleText": "You'll receive 6 fourteen-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!",
-        "translation": "你将获得6个14张的补充包. 这些牌会加入你的收藏. 你将使用这些牌加上基本地来构筑40张的套牌进行bo3对战. 你将得到的奖励取决于你的胜场!"
+        "translation": "你将获得6个14张的补充包。 这些牌会加入你的收藏。 你将使用这些牌加上基本地来构筑40张的套牌进行bo3对战。 你将得到的奖励取决于你的胜场!"
     },
     "Events/Event_Desc_Trad_Sealed_NEO": {
         "oracleText": "You'll receive 6 15-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!",
@@ -15117,7 +15117,7 @@
     },
     "Events/Event_Desc_Trad_Sealed_VOW": {
         "oracleText": "You'll receive 6 fourteen-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!",
-        "translation": "你将获得6个14张的补充包. 这些牌会加入你的收藏. 你将使用这些牌加上基本地来构筑40张的套牌进行bo3对战. 你将得到的奖励取决于你的胜场!"
+        "translation": "你将获得6个14张的补充包。 这些牌会加入你的收藏。 你将使用这些牌加上基本地来构筑40张的套牌进行bo3对战。 你将得到的奖励取决于你的胜场!"
     },
     "Events/Event_Desc_Traditional_Alchemy_Event": {
         "oracleText": "Bring your Alchemy deck with a sideboard, play some best-of-three matches, and receive rewards based on how many matches you win!",
@@ -15193,7 +15193,7 @@
     },
     "Events/Event_Desc_UnbrokenBlade": {
         "oracleText": "<i>May your courage never waver.\nMay your service never falter.\nMay your blade never break.</i>\n\nThe way of the samurai can be lonely and unforgiving, but we're providing some much-appreciated assistance: whenever you attack with only one creature, they'll get a +1/+1 edge to help them out. Use this to gain the upper hand for your 60-card Singleton deck, and at the end of your run, you'll earn Samurai card styles from <i>Kamigawa: Neon Dynasty</i> for your collection. There are 12 styles to collect!\n\nFor more details on this format, including a full list of card styles available to those who prove worthy, click <u><link=https://magic.wizards.com/mtga-neo-unbroken-blade>here</link></u>.",
-        "translation": "<i>May your courage never waver.\nMay your service never falter.\nMay your blade never break.</i>\n\nThe way of the samurai can be lonely and unforgiving, but we're providing some much-appreciated assistance: 每当你用一个生物单独攻击, 它们获得 +1/+1 . 利用这个来为你的 60张 单张套牌获得优势, 每轮完成时, 你将获得来自 <i>神河：霓朝纪</i> 武士卡牌样式到你的收藏中. 总共有 12 种样式收集 !\n\nFor more details on this format, including a full list of card styles available to those who prove worthy, click <u><link=https://magic.wizards.com/mtga-neo-unbroken-blade>here</link></u>."
+        "translation": "<i>May your courage never waver.\nMay your service never falter.\nMay your blade never break.</i>\n\nThe way of the samurai can be lonely and unforgiving， but we're providing some much-appreciated assistance: 每当你用一个生物单独攻击， 它们获得 +1/+1 . 利用这个来为你的 60张 单张套牌获得优势， 每轮完成时， 你将获得来自 <i>神河：霓朝纪</i> 武士卡牌样式到你的收藏中. 总共有 12 种样式收集 !\n\nFor more details on this format， including a full list of card styles available to those who prove worthy， click <u><link=https://magic.wizards.com/mtga-neo-unbroken-blade>here</link></u>."
     },
     "Events/Event_Desc_VOW_Premier_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>",
@@ -15233,51 +15233,51 @@
     },
     "Events/Event_Desc_Workshop_Artisan": {
         "oracleText": "\"<i>One should never consider themselves disadvantaged by a lesser or uncommon tool. You should be able to find victory when using even the most incomplete materials. To tell you the truth, it's sometimes this challenge that's the most enjoyable part! Try out these <b>Artisan<b> decks and I'll show you why you shouldn't be so eager to cast the common or uncommon options aside.</i>\" - Feldon",
-        "translation": "\"<i>One should never consider themselves disadvantaged by a lesser or uncommon tool. You should be able to find victory when using even the most incomplete materials. To tell you the truth, it's sometimes this challenge that's the most enjoyable part! Try out these <b>Artisan<b> decks and I'll show you why you shouldn't be so eager to cast the common or uncommon options aside.</i>\" - Feldon"
+        "translation": "“<i>永远不要认为自己被一种次要或不常见的工具置于不利地位。即使使用最不完整的材料，你也应该能够找到胜利。说实话，有时候这个挑战才是最有趣的部分！试试这些<b>银铁<b>套牌，我会告诉你为什么不应该如此急切地放弃普通或非凡选项。</i>” - 费顿"
     },
     "Events/Event_Desc_Workshop_Brawl": {
         "oracleText": "\"<i>These decks were crafted around either a legendary creature or planeswalker who will serve as your commander. Don't worry - like any good commander they're resilient. If your first choice doesn't work for you, you can always change your selection. You can cause all the trouble you want with these until the dust settles and the event comes to a close.</i>\" - Feldon",
-        "translation": "\"<i>These decks were crafted around either a legendary creature or planeswalker who will serve as your commander. Don't worry - like any good commander they're resilient. If your first choice doesn't work for you, you can always change your selection. You can cause all the trouble you want with these until the dust settles and the event comes to a close.</i>\" - Feldon"
+        "translation": "“<i>这些套牌是围绕将担任你指挥官的传奇生物或鹏洛客制作的。别担心——就像任何优秀的指挥官一样，他们有韧性。如果你的第一选择不适合你，你可以随时更改你的选择。你可以用这些来制造你想要的所有麻烦，直到尘埃落定，赛事结束。</i>” - 费顿"
     },
     "Events/Event_Desc_Workshop_Draft_IKO": {
         "oracleText": "\"<i>I'm of the belief that there's nothing wrong with standing on the shoulders of those who have come before us, and these draft decks are a perfect example of that! These <i>Ikoria: Lair of Behemoth's</i> draft decks have already proven themselves worthy and act as an example of what a commendable draft deck should look like.</i>\" - Feldon",
-        "translation": "\"<i>I'm of the belief that there's nothing wrong with standing on the shoulders of those who have come before us, and these draft decks are a perfect example of that! These <i>Ikoria: Lair of Behemoth's</i> draft decks have already proven themselves worthy and act as an example of what a commendable draft deck should look like.</i>\" - Feldon"
+        "translation": "“<i>我相信站在前人的肩膀上并没有错，而这些轮抽套牌就是一个完美的例子！这些 <i>依克黎：巨兽时空</i>的轮抽套牌已经证明了自己的价值，并作为值得称道的轮抽套牌的典范。</i>” - 费顿"
     },
     "Events/Event_Desc_Workshop_Draft_THB": {
         "oracleText": "\"<i>I'm of the belief that there's nothing wrong with standing on the shoulders of those who have come before us, and these draft decks are a perfect example of that! These Theros Beyond Death draft decks have already proven themselves worthy and act as an example of what a commendable draft deck should look like.</i>\" - Feldon",
-        "translation": "\"<i>I'm of the belief that there's nothing wrong with standing on the shoulders of those who have come before us, and these draft decks are a perfect example of that! These Theros Beyond Death draft decks have already proven themselves worthy and act as an example of what a commendable draft deck should look like.</i>\" - Feldon"
+        "translation": "“<i>我相信站在前人的肩膀上并没有错，而这些轮抽套牌就是一个完美的例子！这些 <i>塞洛斯：冥途求生</i>的轮抽套牌已经证明了自己的价值，并作为值得称道的轮抽套牌的典范。</i>” - 费顿"
     },
     "Events/Event_Desc_Workshop_GuildBattle": {
         "oracleText": "\"<i>There are certain elements that are drawn to each other and then there are others that oppose - sometimes violently. What you're about to walk into is that volatile situation and I've prepared some options that will help you stand your ground. There exists a synergy between the cards you have in your hand, but they will react fiercely against the opponent.</i>\" - Feldon",
-        "translation": "\"<i>There are certain elements that are drawn to each other and then there are others that oppose - sometimes violently. What you're about to walk into is that volatile situation and I've prepared some options that will help you stand your ground. There exists a synergy between the cards you have in your hand, but they will react fiercely against the opponent.</i>\" - Feldon"
+        "translation": "“<i>某些元素相互吸引，而另一些元素则相互反对——有时是暴力的。你将要面对的是动荡的局势，我已经准备了一些选项来帮助你站稳脚跟。你手中的牌之间存在协同作用，但它们会对对手做出激烈的反应。</i>” - 费顿"
     },
     "Events/Event_Desc_Workshop_Historic": {
         "oracleText": "\"<i> These may have seen their share of conflicts, but the scars of battle show that you fought, and most importantly, survived. There are times when you need those who have stood the test of time at your side, so I put these away in safe keeping for such a time as this. If you'll only wipe away the dust, I assure you - you'll wipe that smile off your opponent's face.</i>\" - Feldon",
-        "translation": "\"<i> These may have seen their share of conflicts, but the scars of battle show that you fought, and most importantly, survived. There are times when you need those who have stood the test of time at your side, so I put these away in safe keeping for such a time as this. If you'll only wipe away the dust, I assure you - you'll wipe that smile off your opponent's face.</i>\" - Feldon"
+        "translation": "“<i>这些可能已经看到了他们的冲突，但战斗的伤疤表明你战斗过，最重要的是，你活下来了。有时候，你需要那些经受住时间考验的人在你身边，所以我把它们妥善保管，以备不时之需。如果你只需擦去灰尘，我向你保证--你会把这种笑容从你的对手脸上擦掉。</i>” - 费顿"
     },
     "Events/Event_Desc_Workshop_HistoricPauper": {
         "oracleText": "\"<i>In this Pauper event, these decks bring together well-known warriors of the past, who are only common in name and not in might. Great things can be achieved through this collective action when focused and aimed in the right direction.</i>\" - Feldon",
-        "translation": "\"<i>In this Pauper event, these decks bring together well-known warriors of the past, who are only common in name and not in might. Great things can be achieved through this collective action when focused and aimed in the right direction.</i>\" - Feldon"
+        "translation": "“<i>在这次全铁赛事中，这些套牌汇集了过去著名的战士，他们只是名存实亡，实力不济。通过这种集体行动，只要重点突出，方向正确，就能取得伟大的成就。</i>” - 费顿"
     },
     "Events/Event_Desc_Workshop_Mastermind": {
         "oracleText": "\"<i>You'll only get stronger if you keep bearing heavier loads, so I'll be honest with you - this one is going to require you to stay focused and to think critically. I'm sending you out with no lands, but instead I want you to discard a card in exchange for a land token that will make any color of mana. Get creative and get wins!</i>\" - Feldon",
-        "translation": "\"<i>You'll only get stronger if you keep bearing heavier loads, so I'll be honest with you - this one is going to require you to stay focused and to think critically. I'm sending you out with no lands, but instead I want you to discard a card in exchange for a land token that will make any color of mana. Get creative and get wins!</i>\" - Feldon"
+        "translation": "“<i>只有不断承受更重的负荷，你才会变得更强壮，所以我跟你说实话--这一次需要你保持专注，并进行批判性思考。我派你出去时没有地，但我希望你弃掉一张牌，以换取一个可以产生任何颜色法术力的地衍生物。发挥创意并获得胜利！</i>” - 费顿"
     },
     "Events/Event_Desc_Workshop_NoCardLimit": {
         "oracleText": "<i>This might sound mad, but I removed the maximum count restriction from these. Use them wisely, as this will certainly require a different strategy than you might be used to. However, if you can take advantage of these effectively, well...there is great power in numbers after all. </i> - Feldon",
-        "translation": "<i>This might sound mad, but I removed the maximum count restriction from these. Use them wisely, as this will certainly require a different strategy than you might be used to. However, if you can take advantage of these effectively, well...there is great power in numbers after all. </i> - Feldon"
+        "translation": "“<i>这听起来可能很疯狂，但我取消了这些东西的最大数量限制。明智地使用它们，因为这肯定需要一个与你可能习惯的不同的策略。但是，如果你可以有效地利用这些优势，那么……毕竟人数众多。</i>” - 费顿"
     },
     "Events/Event_Desc_Workshop_OffMeta": {
         "oracleText": "\"<i>So, you're itching to try something a little different, eh? Well I've got just the thing for you! You won't find the decks everyone else is playing, but that doesn't mean that they don't still pack a serious punch! If you want to have some fun and experiment with some cards that are, let's say '<i>off the beaten path</i>,' then give these a go!</i>\" - Feldon",
-        "translation": "\"<i>So, you're itching to try something a little different, eh? Well I've got just the thing for you! You won't find the decks everyone else is playing, but that doesn't mean that they don't still pack a serious punch! If you want to have some fun and experiment with some cards that are, let's say '<i>off the beaten path</i>,' then give these a go!</i>\" - Feldon"
+        "translation": "“<i>那么，你渴望尝试一些不同的东西，是吗？那么，我为你准备了合适的东西！你不会发现其他人都在玩的套牌，但这并不意味着它们不具备严重的冲击力！如果你想找点乐子，并尝试使用一些牌，比方说\"<i>不走寻常路</i>\"，那就试试这些卡牌吧！</i>” - 费顿"
     },
     "Events/Event_Desc_Workshop_Staircase": {
         "oracleText": "\"<i>In life there's never a shortage of the unremarkable, but often you need to climb the proverbial mountain to set your eyes upon the extraordinary. While maybe not as profound, these decks reflect that sentiment in regards to their rarity counts. Specifically there will be a single copy of any mythic card, two copies of a rare, three of uncommon, and four of any common.</i>\" - Feldon",
-        "translation": "\"<i>In life there's never a shortage of the unremarkable, but often you need to climb the proverbial mountain to set your eyes upon the extraordinary. While maybe not as profound, these decks reflect that sentiment in regards to their rarity counts. Specifically there will be a single copy of any mythic card, two copies of a rare, three of uncommon, and four of any common.</i>\" - Feldon"
+        "translation": "“<i>生活中从不缺少平凡，但往往你需要爬上众所周知的山，才能看到非凡。虽然可能没有那么深刻，但这些套牌在稀有性方面反映了这种情绪。具体来说，将有一张任意秘稀牌的副本、两张稀有牌、三张非凡牌和四张普通牌。</i>” - 费顿"
     },
     "Events/Event_Desc_Workshop_TasteOfIkoria": {
         "oracleText": "\"<i>Heading out to unfamiliar new lands for the first time can be equal parts exciting and unnerving. To help prepare you for some of the things you'll encounter, I've put together a bit of a sampler, or test run of sorts, of what you can expect from this plane. Give them all a try and you'll come out the other side significantly more prepared for the real thing.</i>\" - Feldon",
-        "translation": "\"<i>Heading out to unfamiliar new lands for the first time can be equal parts exciting and unnerving. To help prepare you for some of the things you'll encounter, I've put together a bit of a sampler, or test run of sorts, of what you can expect from this plane. Give them all a try and you'll come out the other side significantly more prepared for the real thing.</i>\" - Feldon"
+        "translation": "“<i>第一次前往陌生的新土地可能既令人兴奋又令人不安。为了帮助你为你将遇到的一些事情做好准备，我已经把你可以从时空期待获取的东西放在一起，或者说是试运行。试一试，你会为真正的事情做好充分的准备。</i>” - 费顿"
     },
     "Events/Event_Desc_Worlds_2020": {
         "oracleText": "The <i>Magic</i> World Championship XXVI is happening this weekend on <i>MTG Arena</i>! Tune in to <u><link=https://magic.wizards.com/mtga-worlds-xxvi-showcase-event>live event coverage</link></u> and see which of the 16 incredible competitors will win the title of World Champion and their share of the $1,000,000 prize pool.\n\nJoin the fun and #FindYourChampion by selecting a Worlds competitor! We'll provide decks for use during this event. Matches are best-of-one, and you can swap decks between games.",
@@ -15293,7 +15293,7 @@
     },
     "Events/Event_Desc_Y22SNC_Premier_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<b>The Five Families</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> The Obscura: Craft the perfect draws and use superior intelligence over a long game to engineer a route to victory. Use the family's connive mechanic to draw, then discard - giving your creatures +1/+1 counters along the way!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> The Maestros: Hire expendable underlings as your family's muscle on the streets. Then use the casualty mechanic to sacrifice those minions, copy your spells, and blast your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> The Riveteers: The Riveteers rumble with large creatures. Give your creatures haste with the blitz mechanic, then sacrifice them at the end of your turn to draw a card. Keep that pressure up! Then press your advantage to crush your opponents.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> The Cabaretti: Flood the board with tokens and small creatures to overwhelm the opposition. The family knows how to collaborate for greater gain: alliance abilities give you additional effects whenever another creature enters the battlefield under your control.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> The Brokers: The Brokers are always ready to take down your opponents one notch at a time. Attack relentlessly to deal small amounts of damage, and mount an impenetrable defense - legal or otherwise! - by amassing shield counters on your creatures.",
-        "translation": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<b>The Five Families</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> The Obscura: Craft the perfect draws and use superior intelligence over a long game to engineer a route to victory. Use the family's connive mechanic to draw, then discard - giving your creatures +1/+1 counters along the way!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> The Maestros: Hire expendable underlings as your family's muscle on the streets. Then use the casualty mechanic to sacrifice those minions, copy your spells, and blast your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> The Riveteers: The Riveteers rumble with large creatures. Give your creatures haste with the blitz mechanic, then sacrifice them at the end of your turn to draw a card. Keep that pressure up! Then press your advantage to crush your opponents.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> The Cabaretti: Flood the board with tokens and small creatures to overwhelm the opposition. The family knows how to collaborate for greater gain: alliance abilities give you additional effects whenever another creature enters the battlefield under your control.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> The Brokers: The Brokers are always ready to take down your opponents one notch at a time. Attack relentlessly to deal small amounts of damage, and mount an impenetrable defense - legal or otherwise! - by amassing shield counters on your creatures."
+        "translation": "轮抽用炼金补充包在桌上轮转，你每次需从中选择一张牌。这些牌张将加入你的收藏，而你将使用它们和基本地来构筑一副40张的套牌。不断进行对战，最后根据你的胜场数量赢得奖励！\n\n<b>真人轮抽～和其他七位玩家共同进行的限时轮抽</b>\n\n<b>五大家族</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> 秘闻帮：在漫长的比赛中制作完美的平局并使用卓越的智慧来设计通往胜利的路线。使用家族的筹谋机制来抓牌，然后弃牌——在你的生物上放置 +1/+1 指示物!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> 绝艺盟: 雇佣可消耗的下属作为你的家族在街头的力量。然后利用催命机制来牺牲这些小兵，复制你的咒语，并轰击你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> 勤工联: 铆工们用大型生物轰鸣。用急袭机制给你的生物以敏捷异能，然后在你的回合结束时牺牲它们来抽一张牌。保持这种压力! 然后发挥你的优势，击溃你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> 乐舞会: 用指示物和小生物铺满桌面以压制对手。家族知道如何合作以获得更大的收益：每当另一个生物在你的控制下进入战场，联手异能附加额外效应。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> 扶济社: 扶济社总是有所准备，将对手层层击溃。无情攻击造成少量伤害，但建立坚不可摧的防御 - 合法或其他！ - 通过在你的生物上积累后盾指示物。"
     },
     "Events/Event_Desc_Y23DMU_Premier_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Fliers Tempo</b> Hold your ground with tokens and defensive instants and sorceries, all while attacking from the air.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Control</b> Develop a long-term advantage with card draw and creature removal spells, then go after your opponent directly in the late game.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Reckless Aggro</b> Throw caution to the wind and assault your opponent, clearing a path with creature removal spells or by simply trading your creatures for theirs.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Domain Stompy</b> Rule the board by attacking with the largest creatures on the battlefield, boosted by the domain mechanic.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Domain Tokens</b> Assemble a massive army of creatures and tokens, then dominate the mid-game with the domain mechanic.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Creature Sacrifice</b> Ruthlessly sacrifice your small creatures or tokens for profit, then bring creatures back from the graveyard to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Spells Aggro</b> Cast instant and sorcery spells to bolster aggressive creatures and clear a path to victory.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Domain Midrange</b> Get maximum value out of your cards with huge creatures, bringing cards back from the graveyard, and domain rewards.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Tokens Aggro</b> Go wide with an aggressive army of small creatures and tokens, punching through your opponent's defenses with spells and effects that boost your whole team.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Kicker Ramp</b> Build up your mana to get additional value from kicking your spells. Splash in some other colors to take advantage of powerful multicolor cards and the domain mechanic.",
@@ -15305,11 +15305,11 @@
     },
     "Events/Event_Desc_Yargle_Day_2020": {
         "oracleText": "When Belzenlok's lieutenant Yar-Kul grew too ambitious, the Demonlord transformed him into a maggot. The frog that ate the maggot grew and grew, until a ravenous spirit burst from its body. Today, we celebrate that spirit, everyone's pal, Yargle!\n\nWe asked Yargle how best to celebrate, and here's how we interpreted its gurgles and shrieks:\n- Yargle makes the rules! Yargle has provided decks for everyone to use, and we've even cleaned most of the slime off of them.\n- Yargle is the center of attention! Yargle is the only non-common card allowed, and you'll have plenty of extras so you won't run out.\n- Yargle is special! Yargle will be faster to get into the fight, so nobody has to have fun alone.\n\nJoin us for a rip-roaring good time with a spirit of a frog which ate a maggot that was actually a transformed lieutenant of a demon. Happy Yargle Day, everyone!",
-        "translation": "When Belzenlok's lieutenant Yar-Kul grew too ambitious, the Demonlord transformed him into a maggot. The frog that ate the maggot grew and grew, until a ravenous spirit burst from its body. Today, we celebrate that spirit, everyone's pal, Yargle!\n\nWe asked Yargle how best to celebrate, and here's how we interpreted its gurgles and shrieks:\n- Yargle makes the rules! Yargle has provided decks for everyone to use, and we've even cleaned most of the slime off of them.\n- Yargle is the center of attention! Yargle is the only non-common card allowed, and you'll have plenty of extras so you won't run out.\n- Yargle is special! Yargle will be faster to get into the fight, so nobody has to have fun alone.\n\nJoin us for a rip-roaring good time with a spirit of a frog which ate a maggot that was actually a transformed lieutenant of a demon. Happy Yargle Day, everyone!"
+        "translation": "贝赞洛的副手雅库开始展露野心，恶魔领主便把他变成一条蛆虫。有只青蛙吞下了这条蛆虫后不断变大，最终贪食的精怪从其体内破膛而出。今天，我们庆祝这种精神，每个人的朋友，雅骨尔！\n\n我们询问了雅骨尔如何最好地庆祝，以下是我们如何解释它的咯咯声和尖叫声：\n- 雅骨尔制定了规则! 雅骨尔提供了套牌供大家使用，我们甚至已经把套牌上的大部分粘液清理干净了。\n- 雅骨尔是关注的焦点! 雅骨尔是唯一允许使用的非普通卡，你会有大量的额外卡，所以你不会用完。\n- 雅骨尔很特别! 雅骨尔会更快地进入战斗，所以没有人必须独自享受乐趣。\n\n加入我们的行列，与一只吃了蛆的青蛙精怪一起度过一段撕心裂肺的美好时光，这只青蛙实际上是一个恶魔的变身副官。各位，雅骨尔日快乐！"
     },
     "Events/Event_Desc_Yargle_Day_2021": {
         "oracleText": "When Belzenlok's lieutenant Yar-Kul grew too ambitious, the Demonlord transformed him into a maggot. The frog that ate the maggot grew and grew, until a ravenous spirit burst from its body. Today, we celebrate that spirit, everyone's pal, Yargle!\n\nThis year, Yargle has invited several friends who share its interests and general lopsidedness, and everyone's squaring off in a Historic Brawl showdown. Of course, it's Yargle's day, so the rules might be a little lopsided to boot, but who's counting? Choose your favorite champion and celebrate in style! Happy Yargle Day, everyone!",
-        "translation": "When Belzenlok's lieutenant Yar-Kul grew too ambitious, the Demonlord transformed him into a maggot. The frog that ate the maggot grew and grew, until a ravenous spirit burst from its body. Today, we celebrate that spirit, everyone's pal, Yargle!\n\nThis year, Yargle has invited several friends who share its interests and general lopsidedness, and everyone's squaring off in a Historic Brawl showdown. Of course, it's Yargle's day, so the rules might be a little lopsided to boot, but who's counting? Choose your favorite champion and celebrate in style! Happy Yargle Day, everyone!"
+        "translation": "贝赞洛的副手雅库开始展露野心，恶魔领主便把他变成一条蛆虫。有只青蛙吞下了这条蛆虫后不断变大，最终贪食的精怪从其体内破膛而出。今天，我们庆祝这种精神，每个人的朋友，雅骨尔！\n\n今年，雅骨尔邀请了几个与它志趣相投的朋友，大家在史迹争锋中对决。当然，今天是雅骨尔的节日，所以规则可能有点一边倒，但谁又能说得清呢？选择你最喜欢的冠军，有风格地庆祝吧！各位，雅骨尔日快乐!"
     },
     "Events/Event_Desc_Yargle_Day_2022": {
         "oracleText": "When Belzenlok's lieutenant Yar-Kul grew too ambitious, the Demonlord transformed him into a maggot. The frog that ate the maggot grew and grew, until a ravenous spirit burst from its body. Today, we celebrate that spirit, everyone's pal, Yargle!\n\nThis year, Yargle is looking to broaden its horizons, to branch out and learn some new skills. And what's the best way to learn? By eating, of course! Feed Yargle or one of its froggy brethren a choice morsel, and that Frog will gain all of its meal's abilities. Delicious and educational! Happy Yargle Day, everyone!",
@@ -15317,7 +15317,7 @@
     },
     "Events/Event_Desc_YawningPortal": {
         "oracleText": "<i>\"Welcome to the Yawning Portal, finest tavern in Waterdeep! You look like you've come to try your luck down the Well, right? I hope you've come ready, for your sake.\"\n\nAt the center of this boisterous tavern is a 40-foot-wide, seemingly bottomless stone-rimmed well. It leads to the treacherous dungeon of Undermountain, for those bold enough to make the descent. You step up and grip the rope, wondering what you will face down below...</i>\n\nBring a 60-card Singleton deck that's ready to explore: when you cast two spells during a turn, you'll venture into the dungeon. At the end of your run, you'll receive rulebook card styles from <i>Adventures in the Forgotten Realms</i> as loot. There are 27 styles to collect!\n\nFor more details on this format, including a full list of card styles available to find in the dungeon, click <u><link=https://magic.wizards.com/mtga-afr-yawning-portal>here</link></u>.",
-        "translation": "<i>\"Welcome to the Yawning Portal, finest tavern in Waterdeep! You look like you've come to try your luck down the Well, right? I hope you've come ready, for your sake.\"\n\nAt the center of this boisterous tavern is a 40-foot-wide, seemingly bottomless stone-rimmed well. It leads to the treacherous dungeon of Undermountain, for those bold enough to make the descent. You step up and grip the rope, wondering what you will face down below...</i>\n\nBring a 60-card Singleton deck that's ready to explore: when you cast two spells during a turn, you'll venture into the dungeon. At the end of your run, you'll receive rulebook card styles from <i>Adventures in the Forgotten Realms</i> as loot. There are 27 styles to collect!\n\nFor more details on this format, including a full list of card styles available to find in the dungeon, click <u><link=https://magic.wizards.com/mtga-afr-yawning-portal>here</link></u>."
+        "translation": "<i>“欢迎来到打呵欠之门，深水城最好的酒馆！你看起来是来井下试试运气的，对吧？我希望你已经准备好了，为你着想。”\n\n在这个喧闹的小酒馆的中心是一口40英尺宽、看似无底的石缘井。对于那些胆大妄为的人来说，它通向地脉迷城的危险地城。你站起来抓住绳子，想知道你会在下面面对什么......</i>\n\n带上60张无双套牌探索吧：当你在一个回合中施放两个咒语时，你将深入地城。在你的旅程结束时，你会从<i>被遗忘国度战记</i> 获得规则书卡牌样式作为战利品。有 27 种款式可供收藏！\n\n有关此赛制的更多详细信息，包括可在地牢中找到的卡牌样式的完整列表，请单击<u><link=https://magic.wizards.com/mtga-afr-yawning-portal>此处</link></u>。"
     },
     "Events/Event_Desc_ZNR_Premier_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>",
@@ -19105,7 +19105,7 @@
     },
     "Google/bundle_wildcards_15_0_Description": {
         "oracleText": "Wildcard Bundle:\n12 Rare Wildcards\n4 Mythic Wildcards",
-        "translation": "万用牌套装:\n12 稀有万用牌\n4 秘稀万用牌"
+        "translation": "万用牌套装：\n12 稀有万用牌\n4 秘稀万用牌"
     },
     "GothamNarrow-Medium": {
         "oracleText": "Font_Title - Quest",
@@ -19461,7 +19461,7 @@
     },
     "MainNav/BannedCards/Subtitle": {
         "oracleText": "This card has been added to the Standard banned list.",
-        "translation": "这张牌已经被加入标准禁牌表."
+        "translation": "这张牌已经被加入标准禁牌表。"
     },
     "MainNav/BannedCards/SubtitlePlural": {
         "oracleText": "The following cards have been added to the Standard banned list.",
@@ -20277,7 +20277,7 @@
     },
     "MainNav/CardViewer/Cosmetics/CantPurchaseStyle_Sale": {
         "oracleText": "This style is currently on sale in the Store.",
-        "translation": "该款式现在在商店出售."
+        "translation": "该款式现在在商店出售。"
     },
     "MainNav/CardViewer/Cosmetics/CantPurchaseStyle_SeasonReward": {
         "oracleText": "This style is a Season reward. If the Season is over, check back later to see if it is available for purchase.",
@@ -20501,11 +20501,11 @@
     },
     "MainNav/ConstructedDeckSelect/Tooltip_BannedCards": {
         "oracleText": "Banned or Suspended Cards:",
-        "translation": "禁止或停权卡牌:"
+        "translation": "禁止或停权卡牌："
     },
     "MainNav/ConstructedDeckSelect/Tooltip_Common": {
         "oracleText": "Common:",
-        "translation": "普通:"
+        "translation": "普通："
     },
     "MainNav/ConstructedDeckSelect/Tooltip_DoubleClickToInspect": {
         "oracleText": "Double-click to Inspect",
@@ -20517,11 +20517,11 @@
     },
     "MainNav/ConstructedDeckSelect/Tooltip_InvalidCards": {
         "oracleText": "Invalid Cards:",
-        "translation": "非法卡牌:"
+        "translation": "非法卡牌："
     },
     "MainNav/ConstructedDeckSelect/Tooltip_InvalidDeck_CardsNotInFormat": {
         "oracleText": "Deck contains cards not legal in this format.",
-        "translation": "套牌中包含在该模式中非法的卡牌."
+        "translation": "套牌中包含在该模式中非法的卡牌。"
     },
     "MainNav/ConstructedDeckSelect/Tooltip_InvalidDeck_PluralInvalidCard": {
         "oracleText": "Invalid Deck:<br>{number} invalid cards in deck.<br>Double-click to edit.",
@@ -21669,7 +21669,7 @@
     },
     "MainNav/DeckBuilder/Advanced_Text_Search_Equals": {
         "oracleText": "Equals (same as :)",
-        "translation": "等于（等效于:）"
+        "translation": "等于（等效于：）"
     },
     "MainNav/DeckBuilder/Advanced_Text_Search_Exactly": {
         "oracleText": "Exactly (same as =)",
@@ -21929,7 +21929,7 @@
     },
     "MainNav/DeckBuilder/CompanionSelection_Body": {
         "oracleText": "Your deck must fulfill the following condition:\n{conditionText}",
-        "translation": "你的套牌必须满足以下条件:\n{conditionText}"
+        "translation": "你的套牌必须满足以下条件：\n{conditionText}"
     },
     "MainNav/DeckBuilder/CompanionSelection_Title": {
         "oracleText": "Set as Companion?",
@@ -22065,7 +22065,7 @@
     },
     "MainNav/DeckBuilder/DeckBuilder_MessageContent_InvalidDeck": {
         "oracleText": "This deck has the following issues:\n\n{0}\nWould you like to save and exit anyway?",
-        "translation": "\"此套牌存在以下问题：\n\n\\{0}\n是否仍要保存并退出？\""
+        "translation": "“此套牌存在以下问题：\n\n{0}\n是否仍要保存并退出？”"
     },
     "MainNav/DeckBuilder/DeckBuilder_MessageContent_InvalidDeck_CantSave": {
         "oracleText": "This deck has the following issues and can not be saved:\n{0}",
@@ -22685,7 +22685,7 @@
     },
     "MainNav/DeckManager/DeckManager_NoDecksFound": {
         "oracleText": "No decks found with the currently selected filters.",
-        "translation": "使用当前选择的筛选器找不到套牌."
+        "translation": "使用当前选择的筛选器找不到套牌。"
     },
     "MainNav/DeckManager/DeckManager_SortBy_Alphabetical": {
         "oracleText": "Alphabetical",
@@ -24149,7 +24149,7 @@
     },
     "MainNav/Deckbuilder/Sleeves/CardBack_NEO_424174": {
         "oracleText": "Ace, Runaway Pilot Sleeve",
-        "translation": "ACE,失控驾手牌套"
+        "translation": "ACE，失控驾手牌套"
     },
     "MainNav/Deckbuilder/Sleeves/CardBack_NEO_425065": {
         "oracleText": "Neon Samurai Sleeve",
@@ -24317,7 +24317,7 @@
     },
     "MainNav/Deckbuilder/Sleeves/CardBack_RD_419779": {
         "oracleText": "Black is Magic Sleeve",
-        "translation": "黑,魔法牌套"
+        "translation": "黑，魔法牌套"
     },
     "MainNav/Deckbuilder/Sleeves/CardBack_RD_420756": {
         "oracleText": "Fire Covenant Sleeve",
@@ -24461,35 +24461,35 @@
     },
     "MainNav/Deckbuilder/Sleeves/CardBack_RD_425119": {
         "oracleText": "Ryu, World Warrior Sleeve",
-        "translation": "隆,街头霸王牌套"
+        "translation": "隆，街头霸王牌套"
     },
     "MainNav/Deckbuilder/Sleeves/CardBack_RD_425120": {
         "oracleText": "Chun-Li, Countless Kicks Sleeve",
-        "translation": "春丽,百裂脚牌套"
+        "translation": "春丽，百裂脚牌套"
     },
     "MainNav/Deckbuilder/Sleeves/CardBack_RD_425121": {
         "oracleText": "Ken, Burning Brawler Sleeve",
-        "translation": "肯,红莲格斗王牌套"
+        "translation": "肯，红莲格斗王牌套"
     },
     "MainNav/Deckbuilder/Sleeves/CardBack_RD_425122": {
         "oracleText": "Guile, Sonic Soldier Sleeve",
-        "translation": "吉列,音速战士牌套"
+        "translation": "吉列，音速战士牌套"
     },
     "MainNav/Deckbuilder/Sleeves/CardBack_RD_425123": {
         "oracleText": "Blanka, Ferocious Friend Sleeve",
-        "translation": "布兰卡,威猛朋友牌套"
+        "translation": "布兰卡，威猛朋友牌套"
     },
     "MainNav/Deckbuilder/Sleeves/CardBack_RD_425124": {
         "oracleText": "Zangief, the Red Cyclone Sleeve",
-        "translation": "桑吉尔夫,红色旋风牌套"
+        "translation": "桑吉尔夫，红色旋风牌套"
     },
     "MainNav/Deckbuilder/Sleeves/CardBack_RD_425125": {
         "oracleText": "Dhalsim, Pliable Pacifist Sleeve",
-        "translation": "达尔锡,柔韧的和平主义者牌套"
+        "translation": "达尔锡，柔韧的和平主义者牌套"
     },
     "MainNav/Deckbuilder/Sleeves/CardBack_RD_425126": {
         "oracleText": "E. Honda, Sumo Champion Sleeve",
-        "translation": "埃德蒙·本田,相扑冠军牌套"
+        "translation": "埃德蒙·本田，相扑冠军牌套"
     },
     "MainNav/Deckbuilder/Sleeves/CardBack_RD_425775": {
         "oracleText": "Propaganda Blue Sleeve",
@@ -25537,7 +25537,7 @@
     },
     "MainNav/Draft/Warning_TooManyOfSingleCard": {
         "oracleText": "Only {quantity} copies of this card can be played in a deck. Are you sure you want to draft more than {quantity} copies?",
-        "translation": "只有 {quantity} 张此卡牌可用于套牌. 你确定还要抓取 {quantity} 张吗?"
+        "translation": "只有 {quantity} 张此卡牌可用于套牌。 你确定还要抓取 {quantity} 张吗?"
     },
     "MainNav/EventPage/1xFullSetRewardDescription": {
         "oracleText": "12 Win Reward",
@@ -25545,7 +25545,7 @@
     },
     "MainNav/EventPage/Add_Deck_Text": {
         "oracleText": "Deck successfully added to your collection.",
-        "translation": "套牌成功添加到你的套牌收藏."
+        "translation": "套牌成功添加到你的套牌收藏。"
     },
     "MainNav/EventPage/Add_Deck_Title": {
         "oracleText": "Deck Added",
@@ -26909,7 +26909,7 @@
     },
     "MainNav/FriendChallenge/AllowedOnlyOneChallenge_Desc": {
         "oracleText": "Only one challenge request is allowed. Please cancel pending request.",
-        "translation": "同时只能提交一个挑战请求. 请取消之前的请求."
+        "translation": "同时只能提交一个挑战请求。 请取消之前的请求。"
     },
     "MainNav/FriendChallenge/AllowedOnlyOneChallenge_Header": {
         "oracleText": "Pending Challenge Request Exists",
@@ -26917,7 +26917,7 @@
     },
     "MainNav/FriendChallenge/CancelChallenge_EnteringQueue_Desc": {
         "oracleText": "Entering a match will cancel your outgoing challenge.",
-        "translation": "加入比赛会取消你进行中的挑战请求."
+        "translation": "加入比赛会取消你进行中的挑战请求。"
     },
     "MainNav/FriendChallenge/CancelPendingChallenge_Button": {
         "oracleText": "Cancel Outgoing Challenge",
@@ -26925,7 +26925,7 @@
     },
     "MainNav/FriendChallenge/CannotAcceptFriendChallengeWhileInMatch_Desc": {
         "oracleText": "Please finish the current match to accept this challenge.",
-        "translation": "请先完成当前对局来接受挑战."
+        "translation": "请先完成当前对局来接受挑战。"
     },
     "MainNav/FriendChallenge/CannotAcceptFriendChallengeWhileInMatch_Header": {
         "oracleText": "Cannot Accept Challenge",
@@ -26933,15 +26933,15 @@
     },
     "MainNav/FriendChallenge/CannotAcceptFriendChallengeWhileInOtherLobby_Desc": {
         "oracleText": "Please leave the current challenge to accept this new challenge.",
-        "translation": "请离开当前挑战来接受新的挑战."
+        "translation": "请离开当前挑战来接受新的挑战。"
     },
     "MainNav/FriendChallenge/CannotSendChallengesWhileInMatch_Tooltip": {
         "oracleText": "Finish the current match to challenge a friend.",
-        "translation": "完成当前对局以挑战好友."
+        "translation": "完成当前对局以挑战好友。"
     },
     "MainNav/FriendChallenge/CannotSendMoreThanOneChallenge_Tooltip": {
         "oracleText": "You can only challenge one friend at a time.",
-        "translation": "你一次只能向一个好友发出挑战."
+        "translation": "你一次只能向一个好友发出挑战。"
     },
     "MainNav/FriendChallenge/ChallengeAccepted_CancelChallenge_Button": {
         "oracleText": "Cancel Challenge",
@@ -26953,11 +26953,11 @@
     },
     "MainNav/FriendChallenge/ChallengeAccepted_DeckBuilder_Desc": {
         "oracleText": "{username} accepted your challenge. You will need to discard or save changes before joining them.",
-        "translation": "{username} 接受你的挑战. 参加之前你需要放弃或保存变更."
+        "translation": "{username} 接受你的挑战。 参加之前你需要放弃或保存变更。"
     },
     "MainNav/FriendChallenge/ChallengeAccepted_Desc": {
         "oracleText": "{username} accepted your challenge.",
-        "translation": "{username} 接受你的挑战."
+        "translation": "{username} 接受你的挑战。"
     },
     "MainNav/FriendChallenge/ChallengeAccepted_Header": {
         "oracleText": "Challenge Accepted",
@@ -26973,7 +26973,7 @@
     },
     "MainNav/FriendChallenge/ChallengeAccepted_SaveFailed_Desc": {
         "oracleText": "Save failed for an unknown reason, discarding unsaved changes.",
-        "translation": "未知原因保存失败, 取消未保存的变更."
+        "translation": "未知原因保存失败， 取消未保存的变更。"
     },
     "MainNav/FriendChallenge/ChallengeAccepted_SaveFailed_Header": {
         "oracleText": "Save Failed",
@@ -26981,15 +26981,15 @@
     },
     "MainNav/FriendChallenge/ChallengeExistsError_ClientDataFound_Desc": {
         "oracleText": "A challenge with this player already exists.",
-        "translation": "该玩家已有挑战存在."
+        "translation": "该玩家已有挑战存在。"
     },
     "MainNav/FriendChallenge/ChallengeExistsError_ClientDataNotFound_Desc": {
         "oracleText": "A challenge with this player already exists. Canceling challenge. Please try again.",
-        "translation": "该玩家已有挑战存在. 取消挑战. 请重试."
+        "translation": "该玩家已有挑战存在。 取消挑战。 请重试。"
     },
     "MainNav/FriendChallenge/ChallengeExistsError_Desc": {
         "oracleText": "A challenge with this player already exists.",
-        "translation": "该玩家已有挑战存在."
+        "translation": "该玩家已有挑战存在。"
     },
     "MainNav/FriendChallenge/ChallengeExistsError_Header": {
         "oracleText": "Friend Challenge Exists",
@@ -26997,7 +26997,7 @@
     },
     "MainNav/FriendChallenge/ChallengeFriendOfflineError_Desc": {
         "oracleText": "Challenged friend has become offline.",
-        "translation": "挑战的好友已离线."
+        "translation": "挑战的好友已离线。"
     },
     "MainNav/FriendChallenge/ChallengeFriendOfflineError_Header": {
         "oracleText": "Friend is Offline",
@@ -27005,7 +27005,7 @@
     },
     "MainNav/FriendChallenge/ChallengeGenericError_Desc": {
         "oracleText": "Friend challenge has failed. Please try again later.",
-        "translation": "好友挑战失败. 请稍后重试."
+        "translation": "好友挑战失败。 请稍后重试。"
     },
     "MainNav/FriendChallenge/ChallengeGenericError_Header": {
         "oracleText": "Friend Challenge Failed",
@@ -27017,7 +27017,7 @@
     },
     "MainNav/FriendChallenge/ChallengeSent": {
         "oracleText": "You challenged {username}.",
-        "translation": "你对 {username} 发起挑战."
+        "translation": "你对 {username} 发起挑战。"
     },
     "MainNav/FriendChallenge/Challenge_Button": {
         "oracleText": "Challenge",
@@ -27025,7 +27025,7 @@
     },
     "MainNav/FriendChallenge/ClosePlayBladeDuringDeckSelect_Desc": {
         "oracleText": "Navigating away from deck selection will cancel this challenge.",
-        "translation": "离开套牌选择界面会取消挑战."
+        "translation": "离开套牌选择界面会取消挑战。"
     },
     "MainNav/FriendChallenge/ClosePlayBladeDuringDeckSelect_Header": {
         "oracleText": "Cancel Challenge?",
@@ -27049,7 +27049,7 @@
     },
     "MainNav/FriendChallenge/NonexistantChallengeError_Desc": {
         "oracleText": "A challenge with this friend does not exist. The challenge might have been canceled or friend has since become unavailable.",
-        "translation": "该好友的挑战不存在. 挑战可能已被取消或者好友已离席."
+        "translation": "该好友的挑战不存在。 挑战可能已被取消或者好友已离席。"
     },
     "MainNav/FriendChallenge/NonexistentChallengeError_Header": {
         "oracleText": "Challenge Does Not Exist",
@@ -27057,7 +27057,7 @@
     },
     "MainNav/FriendChallenge/OpponentCanceledChallenge_Desc": {
         "oracleText": "Opponent has canceled the challenge.",
-        "translation": "对手已取消挑战."
+        "translation": "对手已取消挑战。"
     },
     "MainNav/FriendChallenge/OpponentCanceledChallenge_Header": {
         "oracleText": "Challenge Canceled",
@@ -27065,11 +27065,11 @@
     },
     "MainNav/FriendChallenge/OpponentIsSelectingDeck": {
         "oracleText": "Opponent is selecting a deck.",
-        "translation": "对手正在选择套牌."
+        "translation": "对手正在选择套牌。"
     },
     "MainNav/FriendChallenge/OpponentNotAvailable_Desc": {
         "oracleText": "Opponent is not available. They may be busy or have gone offline. Canceling challenge.",
-        "translation": "对手已离席. 他们可能忙碌中或离线. 正在取消挑战."
+        "translation": "对手已离席。 他们可能忙碌中或离线。 正在取消挑战。"
     },
     "MainNav/FriendChallenge/OpponentNotAvailable_Header": {
         "oracleText": "Opponent Unavailable",
@@ -27077,7 +27077,7 @@
     },
     "MainNav/FriendChallenge/OpponentNotFound_Desc": {
         "oracleText": "Opponent does not exist or is not your friend.",
-        "translation": "对手不存在或者不是你的好友."
+        "translation": "对手不存在或者不是你的好友。"
     },
     "MainNav/FriendChallenge/OpponentNotFound_Header": {
         "oracleText": "Opponent Not Found",
@@ -27085,7 +27085,7 @@
     },
     "MainNav/FriendChallenge/OpponentReady": {
         "oracleText": "Opponent is ready.",
-        "translation": "对手已准备."
+        "translation": "对手已准备。"
     },
     "MainNav/FriendChallenge/ViewChallenge_Button": {
         "oracleText": "View Challenge",
@@ -28509,7 +28509,7 @@
     },
     "MainNav/HomePage/Carousel/Event_MixedUpPremierDraft_Desc": {
         "oracleText": "Come celebrate Magic 30 and draft a deck from a series of mixed-up packs containing some favorite sets on Arena!",
-        "translation": "Come celebrate Magic 30 and draft a deck from a series of mixed-up packs containing some favorite sets on Arena!"
+        "translation": "快来庆祝 Magic30，并从一系列混合包中轮抽并构建一副套牌，其中包含一些竞技场上最喜欢的系列！"
     },
     "MainNav/HomePage/Carousel/Event_MixedUpPremierDraft_Title": {
         "oracleText": "Mixed Up Premier Draft",
@@ -28593,11 +28593,11 @@
     },
     "MainNav/HomePage/Carousel/Extra_Life_SL_Desc": {
         "oracleText": "Available only from Nov 4 - 7!",
-        "translation": "Available only from Nov 4 - 7!"
+        "translation": "谁将成为竞技场冠军赛1的胜利者？快来观看并为你最喜爱的选手加油助威，他们将争夺200000美元的奖金和世界万智牌冠军赛的席位！"
     },
     "MainNav/HomePage/Carousel/Extra_Life_SL_Title": {
         "oracleText": "Secret Lair x Extra Life 2022 Drop",
-        "translation": "Secret Lair x Extra Life 2022 Drop"
+        "translation": "竞技场冠军赛 1"
     },
     "MainNav/HomePage/Carousel/FNMPromo_Desc": {
         "oracleText": "Click to see participating stores",
@@ -28653,7 +28653,7 @@
     },
     "MainNav/HomePage/Carousel/FNM_NoLimits_Desc": {
         "oracleText": "Bring a 40-card deck with any number of copies of any card in MTG Arena in this \"Anything Goes\" FNM!",
-        "translation": "在这个\"随心所欲\"的FNM赛事中，请带上一副40张的套牌，包括MTGA中任何数量的卡牌副本。"
+        "translation": "在这个“随心所欲”的FNM赛事中，请带上一副40张的套牌，包括MTGA中任何数量的卡牌副本。"
     },
     "MainNav/HomePage/Carousel/FNM_NoLimits_Title": {
         "oracleText": "FNM at Home: No Limits",
@@ -28777,7 +28777,7 @@
     },
     "MainNav/HomePage/Carousel/FestivalGods_ImmortalSun_Desc": {
         "oracleText": "An emblem event with the effects of The Immortal Sun and a 6-card hand. Earn showcase card styles for <i>THB</i> cards!",
-        "translation": "An emblem event with the effects of The Immortal Sun and a 6-card hand. Earn showcase card styles for <i>THB</i> cards!"
+        "translation": "通过具有“永生圣阳”效果的徽章和6张手牌规则的赛事。赚取 <i>THB</i>展览卡牌样式！"
     },
     "MainNav/HomePage/Carousel/FestivalGods_ImmortalSun_Title": {
         "oracleText": "Festival of the Gods: Heliod's Glory",
@@ -28785,7 +28785,7 @@
     },
     "MainNav/HomePage/Carousel/FestivalGods_ThassaDeck_Desc": {
         "oracleText": "Embark on a quest for victory with a provided 150-card+ Singleton deck.  Earn showcase card styles for <i>THB</i> cards!",
-        "translation": "Embark on a quest for victory with a provided 150-card+ Singleton deck.  Earn showcase card styles for <i>THB</i> cards!"
+        "translation": "使用提供的 150 张以上的无双套牌开始寻求胜利。赚取 <i>THB</i>展览卡牌样式！"
     },
     "MainNav/HomePage/Carousel/FestivalGods_ThassaDeck_Title": {
         "oracleText": "Festival of the Gods: Thassa's Briny Bounty",
@@ -28793,7 +28793,7 @@
     },
     "MainNav/HomePage/Carousel/Festival_IKO_HistoricArtisan_Desc": {
         "oracleText": "In this Historic, Artisan-style event, pick up the pieces of the past and earn showcase card styles for <i>Ikoria: Lair of Behemoths</i> cards!",
-        "translation": "In this Historic, Artisan-style event, pick up the pieces of the past and earn showcase card styles for <i>Ikoria: Lair of Behemoths</i> cards!"
+        "translation": "在这个具有历史意义的工匠风格赛事中，拾起过去的碎片，为 <i>依克黎：巨兽时空</i>卡牌赢取展览卡牌样式！"
     },
     "MainNav/HomePage/Carousel/Festival_IKO_HistoricArtisan_Title": {
         "oracleText": "Festival: Clever Reflections",
@@ -28801,7 +28801,7 @@
     },
     "MainNav/HomePage/Carousel/Festival_IKO_MonsterEmblemPrecon_Desc": {
         "oracleText": "Cast forth the raw power of <i>Ikoria's</i> beasts with a monstrously-sized deck. Earn showcase card styles for <i>Ikoria: Lair of Behemoths</i> cards!",
-        "translation": "Cast forth the raw power of <i>Ikoria's</i> beasts with a monstrously-sized deck. Earn showcase card styles for <i>Ikoria: Lair of Behemoths</i> cards!"
+        "translation": "用一个巨大的套牌投出<i>依克黎</i>野兽的原始力量。 赢取<i>依克黎：巨兽时空</i>展览卡牌样式！ "
     },
     "MainNav/HomePage/Carousel/Festival_IKO_MonsterEmblemPrecon_Title": {
         "oracleText": "Festival: Battle Royale",
@@ -28809,7 +28809,7 @@
     },
     "MainNav/HomePage/Carousel/Festival_IKO_StandardTreasure_Desc": {
         "oracleText": "Use Treasure tokens to bring out the beasts in this Standard event! Earn showcase card styles for <i>Ikoria: Lair of Behemoths</i> cards!",
-        "translation": "Use Treasure tokens to bring out the beasts in this Standard event! Earn showcase card styles for <i>Ikoria: Lair of Behemoths</i> cards!"
+        "translation": "在此标准赛事中使用珍宝门票带出野兽！赢取<i>依克黎：巨兽时空</i>展览卡牌样式！"
     },
     "MainNav/HomePage/Carousel/Festival_IKO_StandardTreasure_Title": {
         "oracleText": "Festival: Mountains of Mana",
@@ -28817,7 +28817,7 @@
     },
     "MainNav/HomePage/Carousel/Festival_KHM_Description": {
         "oracleText": "Play a unique format and earn <i>Kaldheim</i> cosmetic items in this Festival of Tales event!",
-        "translation": "Play a unique format and earn <i>Kaldheim</i> cosmetic items in this Festival of Tales event!"
+        "translation": "在这个故事节赛事中，玩独特的赛制并获得<i>凯德海姆</i>装饰物品!"
     },
     "MainNav/HomePage/Carousel/Festival_M21_NPE_Precon_Desc": {
         "oracleText": "Earn styles as you examine a glimpse of what is to come.",
@@ -28841,7 +28841,7 @@
     },
     "MainNav/HomePage/Carousel/Festival_ZNR_Precon_Desc": {
         "oracleText": "See the scenic sights of Zendikar, and earn card styles and a new emote along the way!",
-        "translation": "See the scenic sights of Zendikar, and earn card styles and a new emote along the way!"
+        "translation": "欣赏赞迪卡的风景，并沿途获得卡牌样式和新的表情!"
     },
     "MainNav/HomePage/Carousel/Festival_ZNR_Precon_Title": {
         "oracleText": "Festival: Zendikar World Tour",
@@ -30021,7 +30021,7 @@
     },
     "MainNav/HomePage/Carousel/Secret_Lair_Bundle_2020_Desc": {
         "oracleText": "Enjoy a variety of Secret Lairs with special deals on bundles of them. Includes codes for items on MTG Arena.",
-        "translation": "Enjoy a variety of Secret Lairs with special deals on bundles of them. Includes codes for items on MTG Arena."
+        "translation": "享受各种秘室珍品以及套装包的特别优惠。包括MTGA上的物品代码。"
     },
     "MainNav/HomePage/Carousel/Secret_Lair_CareerDay_Desc": {
         "oracleText": "What if Ajani, Domri, Tamiyo, and Vraska never became Planeswalkers? Includes a sleeve for MTG Arena.",
@@ -30105,7 +30105,7 @@
     },
     "MainNav/HomePage/Carousel/Secret_Lair_Godzilla_Desc": {
         "oracleText": "The King of Monsters has stomped onto the shores of <i>Magic</i>! Includes a sleeve for <i>MTG Arena.</i>",
-        "translation": "The King of Monsters has stomped onto the shores of <i>Magic</i>! Includes a sleeve for <i>MTG Arena.</i>"
+        "translation": "怪兽之王踏上了<i>Magic</i>的海岸！包括 <i>MTGA</i>的牌套。"
     },
     "MainNav/HomePage/Carousel/Secret_Lair_Godzilla_Title": {
         "oracleText": "Secret Lair: The Godzilla Lands",
@@ -30457,7 +30457,7 @@
     },
     "MainNav/HomePage/Carousel/VOW_Sealed_Desc": {
         "oracleText": "RSVP for Olivia's wedding by building a 40-card sealed deck with 6 packs of Magic's latest set!",
-        "translation": "RSVP for Olivia's wedding by building a 40-card sealed deck with 6 packs of Magic's latest set!"
+        "translation": "用最新系列的6包万智牌构建一副40张牌的现开套牌，为奥莉薇亚的婚礼做个回复吧!"
     },
     "MainNav/HomePage/Carousel/VOW_Sealed_Title": {
         "oracleText": "Sealed <i>Innistrad: Crimson Vow</i>",
@@ -30473,7 +30473,7 @@
     },
     "MainNav/HomePage/Carousel/Valentines_Singleton_Description": {
         "oracleText": "Play Singleton with no entry fee all weekend, on Danny & Day[9]",
-        "translation": "\"形单影只无处去，无双赛事度时光。周末免费参赛，Danny & Day[9]全请\""
+        "translation": "“形单影只无处去，无双赛事度时光。周末免费参赛，Danny & Day[9]全请”"
     },
     "MainNav/HomePage/Carousel/Valentines_Singleton_Title": {
         "oracleText": "Danny Trejo & Day[9] Singleton Weekend",
@@ -30601,7 +30601,7 @@
     },
     "MainNav/HomePage/Carousel/ZNR_Set_Mastery_Desc": {
         "oracleText": "Hedrons and Sky Forts and the Roil, oh yes! Ready for the journey to Zendikar, gather your elemental buddies, and pick up new emotes for the first time in MTGA.",
-        "translation": "Hedrons and Sky Forts and the Roil, oh yes! Ready for the journey to Zendikar, gather your elemental buddies, and pick up new emotes for the first time in MTGA."
+        "translation": "晶石、天空堡垒和咆哮，哦，是的! 准备好前往赞迪卡，召集你的元素伙伴，并在MTGA中首次拾取新的表情。"
     },
     "MainNav/HomePage/Carousel/ZNR_Set_Mastery_Title": {
         "oracleText": "Zendikar Rising Set Mastery Pass",
@@ -30633,7 +30633,7 @@
     },
     "MainNav/HomePage/EventBlade/Tooltip_BotMatchQueue": {
         "oracleText": "Practice against Sparky.",
-        "translation": "和 Sparky 进行练习."
+        "translation": "和 Sparky 进行练习。"
     },
     "MainNav/HomePage/EventBlade/Tooltip_Brawl": {
         "oracleText": "Play a game with a Standard deck built around a legendary creature or planeswalker.",
@@ -30649,35 +30649,35 @@
     },
     "MainNav/HomePage/EventBlade/Tooltip_HistoricPlayQueue": {
         "oracleText": "Play a single game vs. another player using a Historic deck.",
-        "translation": "用史迹套牌与其它玩家进行一次单局对战."
+        "translation": "用史迹套牌与其它玩家进行一次单局对战。"
     },
     "MainNav/HomePage/EventBlade/Tooltip_HistoricRankedQueue": {
         "oracleText": "Historic Ranked is a competitive queue using cards from all of MTG Arena.",
-        "translation": "史迹天梯赛是一个使用所有万智牌竞技场的卡牌的匹配队列."
+        "translation": "史迹天梯赛是一个使用所有万智牌竞技场的卡牌的匹配队列。"
     },
     "MainNav/HomePage/EventBlade/Tooltip_HistoricTraditionalRankedQueue": {
         "oracleText": "Traditional Historic Ranked is a competitive queue using cards from all of MTG Arena.",
-        "translation": "三盘史迹天梯是一个使用所有万智牌竞技场的卡牌的匹配队列."
+        "translation": "三盘史迹天梯是一个使用所有万智牌竞技场的卡牌的匹配队列。"
     },
     "MainNav/HomePage/EventBlade/Tooltip_PlayQueue": {
         "oracleText": "Play a single game vs. another player.",
-        "translation": "与其它玩家进行一次单局对战."
+        "translation": "与其它玩家进行一次单局对战。"
     },
     "MainNav/HomePage/EventBlade/Tooltip_PlayQueue_Old": {
         "oracleText": "Play a single game vs. another player using a Standard deck.",
-        "translation": "用标准套牌与其它玩家进行一次单局对战."
+        "translation": "用标准套牌与其它玩家进行一次单局对战。"
     },
     "MainNav/HomePage/EventBlade/Tooltip_RankedQueue": {
         "oracleText": "Standard Ranked is the default competitive queue.",
-        "translation": "标准天梯是默认的匹配队列."
+        "translation": "标准天梯是默认的匹配队列。"
     },
     "MainNav/HomePage/EventBlade/Tooltip_TraditionalPlayQueue": {
         "oracleText": "Play a best-of-three match vs. another player using Standard decks.",
-        "translation": "使用标准套牌与其它玩家进行bo3对战."
+        "translation": "使用标准套牌与其它玩家进行bo3对战。"
     },
     "MainNav/HomePage/EventBlade/Tooltip_TraditionalRankedQueue": {
         "oracleText": "Traditional Ranked is an alternate competitive queue that uses Best-of-Three rules and Standard decks.",
-        "translation": "三盘天梯是一个可选的使用标准套牌和bo3规则的匹配队列."
+        "translation": "三盘天梯是一个可选的使用标准套牌和bo3规则的匹配队列。"
     },
     "MainNav/HomePage/GiftPack/Back": {
         "oracleText": "Back",
@@ -30805,7 +30805,7 @@
     },
     "MainNav/HomePage/Splash/Companion_New": {
         "oracleText": "If your starting deck meets the companion's restriction you may choose it to be your companion. Once per game you may pay <sprite=\"SpriteSheet_ManaIcons\" name=\"x3\"> any time you could cast a sorcery to put your chosen companion into your hand.",
-        "translation": "如果你起始套牌满足行侣限制,你可以选它作为你的行侣. 每局游戏一次,在你能使用法术的任意时机你可以支付 <sprite=\"SpriteSheet_ManaIcons\" name=\"x3\"> 来把行侣放到你的手牌."
+        "translation": "如果你起始套牌满足行侣限制，你可以选它作为你的行侣。 每局游戏一次，在你能使用法术的任意时机你可以支付 <sprite=\"SpriteSheet_ManaIcons\" name=\"x3\"> 来把行侣放到你的手牌。"
     },
     "MainNav/HomePage/Splash/Companion_New_Header": {
         "oracleText": "New Rule",
@@ -30841,7 +30841,7 @@
     },
     "MainNav/Killswitch/PopupError_Message": {
         "oracleText": "This is currently unavailable, please try again later",
-        "translation": "当前不可用, 请稍后尝试"
+        "translation": "当前不可用， 请稍后尝试"
     },
     "MainNav/Killswitch/PopupError_Title": {
         "oracleText": "Error",
@@ -31029,7 +31029,7 @@
     },
     "MainNav/Learn/Twitch_Disclaimer": {
         "oracleText": "TWITCH, the TWITCH Logo and/or the Glitch Logo are trademarks of Twitch Interactive, Inc. or its affiliates.",
-        "translation": "TWITCH，TWITCH标志和／或Glitch标志是Twitch Interactive, Inc.或其附属公司的商标。"
+        "translation": "TWITCH，TWITCH标志和／或Glitch标志是Twitch Interactive， Inc.或其附属公司的商标。"
     },
     "MainNav/Learn/Video_Hint": {
         "oracleText": "[Launches Browser]",
@@ -31873,7 +31873,7 @@
     },
     "MainNav/Objectives/PlayPVPPoptart_Description": {
         "oracleText": "You cannot earn these rewards in Bot matches or the Color challenge.",
-        "translation": "你不能在机器人对战或颜色挑战中获得这些奖励."
+        "translation": "你不能在机器人对战或颜色挑战中获得这些奖励。"
     },
     "MainNav/Objectives/PlayPVPPoptart_Footer": {
         "oracleText": "Earn daily and weekly rewards by playing against opponents in play, ranked, or live events.",
@@ -31881,11 +31881,11 @@
     },
     "MainNav/Packs/NoPackOpen1": {
         "oracleText": "These packs currently cannot be opened. Please try again later.",
-        "translation": "这些补充包目前不能打开. 请之后再试."
+        "translation": "这些补充包目前不能打开。 请之后再试。"
     },
     "MainNav/Packs/NoPackOpen2": {
         "oracleText": "These packs are from an upcoming set. You will be able to open them once the set is released.",
-        "translation": "这些补充包来自未实装系列. 当系列实装时你可以打开."
+        "translation": "这些补充包来自未实装系列。 当系列实装时你可以打开。"
     },
     "MainNav/PetNames/AFR_Beholder": {
         "oracleText": "Beholder",
@@ -33273,7 +33273,7 @@
     },
     "MainNav/Profile/Avatars/Jaya_DMU_Bio": {
         "oracleText": "Born on Dominaria more than 1,500 years ago, Jaya Ballard is a hot-headed Planeswalker who played an important part in the plane's early history before disappearing for centuries. In recent years, she resurfaced as an older, wiser, but no less sarcastic hero, helping unite Dominaria to fight back against the threat of New Phyrexia.",
-        "translation": "雅亚巴拉德于1,500 多年前出生于多明纳里亚，是一位急性子的鹏洛客。她在销声匿迹几个世纪之前，在该位面的早期历史中扮演了重要角色。近年来，她以年长、睿智但毒舌的英雄身份重新出现，帮助联合多明纳里亚对抗新非瑞克西亚的威胁。"
+        "translation": "雅亚巴拉德于1，500 多年前出生于多明纳里亚，是一位急性子的鹏洛客。她在销声匿迹几个世纪之前，在该位面的早期历史中扮演了重要角色。近年来，她以年长、睿智但毒舌的英雄身份重新出现，帮助联合多明纳里亚对抗新非瑞克西亚的威胁。"
     },
     "MainNav/Profile/Avatars/Jaya_DMU_Name": {
         "oracleText": "Jaya, Fiery Negotiator",
@@ -33541,7 +33541,7 @@
     },
     "MainNav/Profile/Avatars/Tasha_HBG_Bio": {
         "oracleText": "Tasha hails from Oerth (the World of Greyhawk) and is the adopted daughter of Baba Yaga, an archfey known as the Mother of Witches. An archmage with unsurpassed knowledge of the planes, she is also an archfey with control over her own Domain of Delight.",
-        "translation": "Tasha hails from Oerth (the World of Greyhawk) and is the adopted daughter of Baba Yaga, an archfey known as the Mother of Witches. An archmage with unsurpassed knowledge of the planes, she is also an archfey with control over her own Domain of Delight."
+        "translation": "塔莎来自Oerth（灰鹰世界），是被称为女巫之母的大法师Baba Yaga的养女。她是一位大法师，拥有无与伦比的平面知识，同时也是一位大法师，控制着她自己的快乐领域。"
     },
     "MainNav/Profile/Avatars/Tasha_HBG_Name": {
         "oracleText": "Tasha",
@@ -33557,7 +33557,7 @@
     },
     "MainNav/Profile/Avatars/Teyo_J21_Bio": {
         "oracleText": "Teyo Verada is a young, inexperienced shield mage who was unexpectedly thrust into the chaos of war, surviving deadly trials against all odds. He's still learning what it means to be a Planeswalker and has only scratched the surface of his true potential.",
-        "translation": "Teyo Verada is a young, inexperienced shield mage who was unexpectedly thrust into the chaos of war, surviving deadly trials against all odds. He's still learning what it means to be a Planeswalker and has only scratched the surface of his true potential."
+        "translation": "泰佑维拉达是一个年轻的、没有经验的盾法师，他意外地被推入了混乱的战争中，在致命的考验中逆境生存。他仍在学习成为一名鹏洛客的意义，对他真正的潜力也只是触及表面。"
     },
     "MainNav/Profile/Avatars/Teyo_J21_Name": {
         "oracleText": "Teyo",
@@ -34117,7 +34117,7 @@
     },
     "MainNav/Quests/ArtifactAndCreature_Desc": {
         "oracleText": "Play {quantity} artifact or creature spells.",
-        "translation": "使用 {quantity} 神器或生物咒语."
+        "translation": "使用 {quantity} 神器或生物咒语。"
     },
     "MainNav/Quests/BG_Damage_Desc": {
         "oracleText": "Deal {quantity} damage with black or green cards.",
@@ -34213,15 +34213,15 @@
     },
     "MainNav/Rewards/EquipEmoteCapReached_Subtitle": {
         "oracleText": "Equip cap reached. Manage emotes in the Profile tab.",
-        "translation": "达到装备上限. 在资料页中管理表情."
+        "translation": "达到装备上限。 在资料页中管理表情。"
     },
     "MainNav/Rewards/EquipEmoteSuccessful_Subtitle": {
         "oracleText": "Emote equipped.",
-        "translation": "表情已装备."
+        "translation": "表情已装备。"
     },
     "MainNav/Rewards/EquipEmotesError_Description": {
         "oracleText": "An error occured attempting to equip emote. Please try equipping later from the Profile page.",
-        "translation": "装备表情时发生错误. 请稍后在资料页中尝试。"
+        "translation": "装备表情时发生错误。 请稍后在资料页中尝试。"
     },
     "MainNav/Rewards/EquipEmotesError_Header": {
         "oracleText": "Equip Error",
@@ -34269,11 +34269,11 @@
     },
     "MainNav/Rewards/ICRBonusAdditional": {
         "oracleText": "You have been granted a bonus Alchemy card.",
-        "translation": "你已经获得一张额外的炼金卡牌."
+        "translation": "你已经获得一张额外的炼金卡牌。"
     },
     "MainNav/Rewards/ICRBonusAdditionalPlural": {
         "oracleText": "You have been granted bonus Alchemy cards.",
-        "translation": "你已获得额外的炼金卡牌."
+        "translation": "你已获得额外的炼金卡牌。"
     },
     "MainNav/Rewards/MythicQualifier_Button_MoreInfo": {
         "oracleText": "Event details available online",
@@ -35829,7 +35829,7 @@
     },
     "MainNav/Store/Bundles/Bundle_APACBlueBoosterLands_Name": {
         "oracleText": "\"Blue Booster\" Land Bundle",
-        "translation": "\"Blue Booster\"地套装"
+        "translation": "“Blue Booster”地套装"
     },
     "MainNav/Store/Bundles/Bundle_APACClearBoosterLands_Desc": {
         "oracleText": "Plains - Rebecca Guay\nIsland - Rob Alexander\nSwamp - Ron Spears\nMountain - Edward P. Beard Jr.\nForest - Edward P. Beard Jr.",
@@ -35837,7 +35837,7 @@
     },
     "MainNav/Store/Bundles/Bundle_APACClearBoosterLands_Name": {
         "oracleText": "\"Clear Booster\" Land Bundle",
-        "translation": "\"Clear Booster\"地套装"
+        "translation": "“Clear Booster”地套装"
     },
     "MainNav/Store/Bundles/Bundle_APACRedBoosterLands_Desc": {
         "oracleText": "Plains - Ron Spears\nIsland - Edward P. Beard Jr.\nSwamp - Edward P. Beard Jr.\nMountain - Heather Hudson\nForest - Pete Venters",
@@ -35845,7 +35845,7 @@
     },
     "MainNav/Store/Bundles/Bundle_APACRedBoosterLands_Name": {
         "oracleText": "\"Red Booster\" Land Bundle",
-        "translation": "\"Red Booster\"地套装"
+        "translation": "“Red Booster”地套装"
     },
     "MainNav/Store/Bundles/Bundle_Adventurer_Desc": {
         "oracleText": "3,500 Gems\nThe Adventurer Avatar\nCity of Brass Sleeve",
@@ -36065,7 +36065,7 @@
     },
     "MainNav/Store/Bundles/Bundle_BPW_NEO_Desc": {
         "oracleText": "The Wandering Emperor Card Style\nTezzeret, Betrayer of Flesh Card Style\nKaito Shizuki Card Style\nTamiyo, Compleated Sage Card Style",
-        "translation": "飘萍皇卡牌样式\nTezzeret, Betrayer of Flesh Card Style\nKaito Shizuki Card Style\nTamiyo, Compleated Sage Card Style"
+        "translation": "飘萍皇卡牌样式\nTezzeret， Betrayer of Flesh Card Style\nKaito Shizuki Card Style\nTamiyo， Compleated Sage Card Style"
     },
     "MainNav/Store/Bundles/Bundle_BPW_NEO_Name": {
         "oracleText": "Kamigawa Borderless Planeswalkers",
@@ -37325,7 +37325,7 @@
     },
     "MainNav/Store/Bundles/Bundle_SL_PixelSnowLands_Name": {
         "oracleText": "Secret Lair: PixelSnowLands.jpg",
-        "translation": "秘室珍品：像素雪地.jpg"
+        "translation": "秘室珍品：像素雪地。jpg"
     },
     "MainNav/Store/Bundles/Bundle_SNC_Brokers_Desc": {
         "oracleText": "Spara's Headquarters Sleeve\nSoul of Emancipation Card Style\nFalco Spara, Pactweaver Card Style\nRigo, Streetwise Mentor Card Style\nBrokers Charm Golden Card Style",
@@ -37385,11 +37385,11 @@
     },
     "MainNav/Store/Bundles/Bundle_SNC_MetropolisLands_Desc": {
         "oracleText": "Metropolis Full Art Plains (2 appearances)\nMetropolis Full Art Island (2 appearances)\nMetropolis Full Art Swamp (2 appearances)\nMetropolis Full Art Mountain (2 appearances)\nMetropolis Full Art Forest (2 appearances)",
-        "translation": "Metropolis Full Art Plains (2 appearances)\nMetropolis Full Art Island (2 appearances)\nMetropolis Full Art Swamp (2 appearances)\nMetropolis Full Art Mountain (2 appearances)\nMetropolis Full Art Forest (2 appearances)"
+        "translation": "都会大画平原（2种外观）\n都会大画海岛（2种外观）\n都会大画沼泽（2种外观）\n都会大画山脉（2种外观）\n都会大画树林（2种外观）"
     },
     "MainNav/Store/Bundles/Bundle_SNC_MetropolisLands_Name": {
         "oracleText": "Metropolis Full Art Lands Bundle",
-        "translation": "Metropolis Full Art Lands Bundle"
+        "translation": "都会大画地套装"
     },
     "MainNav/Store/Bundles/Bundle_SNC_Obscura_Desc": {
         "oracleText": "Raffine's Tower Sleeve\nObscure Interceptor Card Style\nRaffine, Scheming Seer Card Style\nToluz, Clever Conductor Card Style\nObscura Charm Card Style",
@@ -37749,7 +37749,7 @@
     },
     "MainNav/Store/Bundles/Bundle_VOW_SH1_Name": {
         "oracleText": "Fang: Markov Styles",
-        "translation": "Fang: Markov Styles"
+        "translation": "Fang：马可夫样式"
     },
     "MainNav/Store/Bundles/Bundle_VOW_SH2_Desc": {
         "oracleText": "Olivia, Crimson Bride Card Style\nOlivia's Attendants Card Style\nBlood Petal Celebrant Card Style\nVoldaren Bloodcaster Card Style\nVoldaren Epicure Card Style\nAnje, Maid of Dishonor Card Style",
@@ -37757,7 +37757,7 @@
     },
     "MainNav/Store/Bundles/Bundle_VOW_SH2_Name": {
         "oracleText": "Fang: Voldaren Styles",
-        "translation": "Fang: Voldaren Styles"
+        "translation": "Fang：沃达连样式"
     },
     "MainNav/Store/Bundles/Bundle_VOW_Stickers_Desc": {
         "oracleText": "Sorin Sticker Emote\nOlivia Sticker Emote\nGood Game Sticker Emote",
@@ -37841,11 +37841,11 @@
     },
     "MainNav/Store/Bundles/PreOrder_AvailableDate": {
         "oracleText": "Available on November 15, 2022",
-        "translation": "Available on November 15, 2022"
+        "translation": "2022年9月1日上线"
     },
     "MainNav/Store/Bundles/PreOrder_Available_Purchasable": {
         "oracleText": "Available for purchase until November 15, 2022",
-        "translation": "Available for purchase until November 15, 2022"
+        "translation": "可在2022年9月1日之前购买"
     },
     "MainNav/Store/Bundles/Voucher_Available_CLBPreRelease": {
         "oracleText": "Available on July 7, 2022",
@@ -38301,7 +38301,7 @@
     },
     "MainNav/Store/LimitedOffer_ZNRLands": {
         "oracleText": "Until October 15, 2020 get bonus Full-Art Lands with <i>Zendikar Rising</i> pack bundles!",
-        "translation": "Until October 15, 2020 get bonus Full-Art Lands with <i>Zendikar Rising</i> pack bundles!"
+        "translation": "在2020年10月15日之前，通过<i>赞迪卡再起</i>套装包获得额外的大画地。"
     },
     "MainNav/Store/M21PreorderDogDesc": {
         "oracleText": "Darius Osworth Gerhardt IV",
@@ -38793,7 +38793,7 @@
     },
     "MainNav/Store/Sales_SubText": {
         "oracleText": "All offers will refresh in:",
-        "translation": "特惠刷新时间:"
+        "translation": "特惠刷新时间："
     },
     "MainNav/Store/Sales_SubText_NoSales": {
         "oracleText": "No deals currently available. Check back tomorrow!",
@@ -42481,7 +42481,7 @@
     },
     "NPE/Timers/29": {
         "oracleText": "So now might be a good time to practice playing quickly.",
-        "translation": "所以请利用现在,来熟悉快速游戏的节奏。"
+        "translation": "所以请利用现在，来熟悉快速游戏的节奏。"
     },
     "NPE/Timers/30": {
         "oracleText": "If the timer runs out, your turn will be over.",
@@ -42581,7 +42581,7 @@
     },
     "Notification/Notification_ColorChallenge_Quest_BR_Body": {
         "oracleText": "Unlock a new Black and Red deck by completing your latest quest.",
-        "translation": "完成新任务来解锁一个新红黑套牌."
+        "translation": "完成新任务来解锁一个新红黑套牌。"
     },
     "Notification/Notification_ColorChallenge_Quest_BR_Title": {
         "oracleText": "New Deck to Unlock (3/10)",
@@ -42589,7 +42589,7 @@
     },
     "Notification/Notification_ColorChallenge_Quest_Five_Body": {
         "oracleText": "Unlock the final five decks by completing one more quest.",
-        "translation": "完成一个或多个任务来解锁最后5个套牌."
+        "translation": "完成一个或多个任务来解锁最后5个套牌。"
     },
     "Notification/Notification_ColorChallenge_Quest_Five_Title": {
         "oracleText": "5 New Decks to Unlock!",
@@ -42597,7 +42597,7 @@
     },
     "Notification/Notification_ColorChallenge_Quest_GW_Body": {
         "oracleText": "Unlock a new Green and White deck by completing your latest quest.",
-        "translation": "完成新任务来解锁一个新白绿套牌."
+        "translation": "完成新任务来解锁一个新白绿套牌。"
     },
     "Notification/Notification_ColorChallenge_Quest_GW_Title": {
         "oracleText": "New Deck to Unlock (4/10)",
@@ -42605,7 +42605,7 @@
     },
     "Notification/Notification_ColorChallenge_Quest_RG_Body": {
         "oracleText": "Unlock a new Red and Green deck by completing your latest quest.",
-        "translation": "完成新任务来解释一个新红绿套牌."
+        "translation": "完成新任务来解释一个新红绿套牌。"
     },
     "Notification/Notification_ColorChallenge_Quest_RG_Title": {
         "oracleText": "New Deck to Unlock (1/10)",
@@ -42613,7 +42613,7 @@
     },
     "Notification/Notification_ColorChallenge_Quest_UB_Body": {
         "oracleText": "Unlock a new Blue and Black deck by completing your latest quest.",
-        "translation": "完成新任务来解释一个新蓝黑套牌."
+        "translation": "完成新任务来解释一个新蓝黑套牌。"
     },
     "Notification/Notification_ColorChallenge_Quest_UB_Title": {
         "oracleText": "New Deck to Unlock (5/10)",
@@ -42621,7 +42621,7 @@
     },
     "Notification/Notification_ColorChallenge_Quest_WU_Body": {
         "oracleText": "Unlock a new White and Blue deck by completing your latest quest.",
-        "translation": "完成新任务来解释一个新白蓝套牌."
+        "translation": "完成新任务来解释一个新白蓝套牌。"
     },
     "Notification/Notification_ColorChallenge_Quest_WU_Title": {
         "oracleText": "New Deck to Unlock (2/10)",
@@ -42673,7 +42673,7 @@
     },
     "PlayBlade/Filters/Default/Constructed_Desc": {
         "oracleText": "Bring a deck constructed from the cards of your choice and see how it stacks up against other players'.",
-        "translation": "带上由你选择的卡牌构筑成的套牌,用它们与其它玩家对战。"
+        "translation": "带上由你选择的卡牌构筑成的套牌，用它们与其它玩家对战。"
     },
     "PlayBlade/Filters/Default/Constructed_Header": {
         "oracleText": "Constructed Events",
@@ -43305,23 +43305,23 @@
     },
     "Renewal/UpcomingRotation_SubTitle4_Alt1": {
         "oracleText": "These sets will be playable only in Open Play or Historic play modes.",
-        "translation": "这些系列将会只在公开匹配和史迹模式中可用."
+        "translation": "这些系列将会只在公开匹配和史迹模式中可用。"
     },
     "Renewal/UpcomingRotation_SubTitle4_Alt2": {
         "oracleText": "These sets will be playable only in Rotated Play or Historic play modes.",
-        "translation": "这些系列将会只在轮转模式或史迹模式中可用."
+        "translation": "这些系列将会只在轮转模式或史迹模式中可用。"
     },
     "Renewal/UpcomingRotation_SubTitle4_Alt4": {
         "oracleText": "These sets will not be playable in Standard.",
-        "translation": "这些系列不能在标准使用."
+        "translation": "这些系列不能在标准使用。"
     },
     "Renewal/UpcomingRotation_SubTitle4_Alt5": {
         "oracleText": "These sets will not be playable in Standard play modes.",
-        "translation": "这些系列不能在标准对战模式中使用."
+        "translation": "这些系列不能在标准对战模式中使用。"
     },
     "Renewal/UpcomingRotation_SubTitle4_Old": {
         "oracleText": "These sets will be playable only in Historic play modes.",
-        "translation": "这些系列只能在史迹模式中使用."
+        "translation": "这些系列只能在史迹模式中使用。"
     },
     "Social/Challenge/Request_Message": {
         "oracleText": "{playerName} is challenging you to a match!",
@@ -44537,11 +44537,11 @@
     },
     "Xsolla/PreorderIKO1_Description": {
         "oracleText": "Lukka Play Pre-order: \nIkoria: Lair of Behemoths Set Mastery\n10 Bonus Levels for Set Mastery\n2x Sealed Tokens\n1x Lukka, Coppercoat Outcast Card\nLukka, Coppercoat Outcast Card Style\nLukka Outcast Sleeve",
-        "translation": "Lukka Play Pre-order: \nIkoria: Lair of Behemoths Set Mastery\n10 Bonus Levels for Set Mastery\n2x Sealed Tokens\n1x Lukka, Coppercoat Outcast Card\nLukka, Coppercoat Outcast Card Style\nLukka Outcast Sleeve"
+        "translation": "卢卡游玩预购：\n依克黎：巨兽时空精研通行证\n+10 精研等级\n2x 现开门票\n1x *紫铜军黜人卢卡*\n1x *紫铜军黜人卢卡*卡牌样式\n1x 黜人卢卡牌套"
     },
     "Xsolla/PreorderIKO2_Description": {
         "oracleText": "Vivien Pack Pre-order: \n50x Ikoria: Lair of Behemoths Boosters\n1x Vivien, Monsters  Advocate Card\n10x Bonus Godzilla Series Monster Card Styles\nVivien, Monsters  Advocate Card Style\nVivien Tracker Sleeve",
-        "translation": "Vivien Pack Pre-order: \n50x Ikoria: Lair of Behemoths Boosters\n1x Vivien, Monsters  Advocate Card\n10x Bonus Godzilla Series Monster Card Styles\nVivien, Monsters  Advocate Card Style\nVivien Tracker Sleeve"
+        "translation": "薇薇安包预购：\n50x <i>依克黎：巨兽时空</i>补充包\n1x *护兽薇薇安*\n10x 额外哥斯拉系列怪物卡牌样式\n*护兽薇薇安*卡牌样式\n薇薇安猎手牌套"
     },
     "Xsolla/PreorderIKO_Pet_Text_1": {
         "oracleText": "Promotion: Azizi",
@@ -44569,11 +44569,11 @@
     },
     "Xsolla/PreorderTHB1_Description": {
         "oracleText": "Ashiok Pack Pre-order: \n50x Theros Beyond Death Boosters\n1x Ashiok, Nightmare Muse Card\nAshiok, Nightmare Muse Card Style\nAshiok Mosaic Sleeve",
-        "translation": "Ashiok Pack Pre-order: \n50x Theros Beyond Death Boosters\n1x Ashiok, Nightmare Muse Card\nAshiok, Nightmare Muse Card Style\nAshiok Mosaic Sleeve"
+        "translation": "安梭苛包预购：\n50x <i>塞洛斯：冥途求生</i>补充包\n1x *梦魇缪司安梭苛*\n*梦魇缪司安梭苛*卡牌样式\n*梦魇缪司安梭苛*牌套"
     },
     "Xsolla/PreorderTHB2_Description": {
         "oracleText": "Elspeth Play Pre-order: \nTheros Beyond Death Mastery Pass\n10 Bonus Levels for Set Mastery\n2x Sealed Tokens\n1x Elspeth, Sun's Nemesis Card\nElspeth, Sun's Nemesis Card Style\nElspeth Mosaic Sleeve",
-        "translation": "Elspeth Play Pre-order: \nTheros Beyond Death Mastery Pass\n10 Bonus Levels for Set Mastery\n2x Sealed Tokens\n1x Elspeth, Sun's Nemesis Card\nElspeth, Sun's Nemesis Card Style\nElspeth Mosaic Sleeve"
+        "translation": "艾紫培游玩预购：\n<i>塞洛斯：冥途求生</i>精研通行证\n10 额外精研通行证等级\n2x 现开门票\n1x *破日死敌艾紫培*\n*破日死敌艾紫培*卡牌样式\n艾紫培马赛克牌套"
     },
     "Xsolla/PreorderTHB_Pet_Text_1": {
         "oracleText": "Promotion: Kunoros Pet",
@@ -44593,11 +44593,11 @@
     },
     "Xsolla/Preorder_AFR_1_Description": {
         "oracleText": "Lolth Pack Pre-order: 50x Adventures in the Forgotten Realms Boosters, 1x Lolth, Spider Queen, Lolth, Spider Queen Card Style, Spider Queen Sleeve",
-        "translation": "Lolth Pack Pre-order: 50x Adventures in the Forgotten Realms Boosters, 1x Lolth, Spider Queen, Lolth, Spider Queen Card Style, Spider Queen Sleeve"
+        "translation": "罗丝包预购：50x <i>被遗忘国度战记</i>补充包，1x *蜘蛛神后罗丝*，*蜘蛛神后罗丝*卡牌样式，*蜘蛛神后罗丝*牌套"
     },
     "Xsolla/Preorder_AFR_2_Description": {
         "oracleText": "Ellywick Play Pre-order: Adventures in the Forgotten Realms Set Mastery Pass, 3x Player Draft Token, 1x Sealed Token, 1x Ellywick Tumblestrum, Ellywick Tumblestrum Card Style, Ellywick Sleeve, Ebondeath Pet",
-        "translation": "Ellywick Play Pre-order: Adventures in the Forgotten Realms Set Mastery Pass, 3x Player Draft Token, 1x Sealed Token, 1x Ellywick Tumblestrum, Ellywick Tumblestrum Card Style, Ellywick Sleeve, Ebondeath Pet"
+        "translation": "艾利薇游玩预购：<i>被遗忘国度战记</i>精研通行证，3x 真人轮抽门票，1x 现开门票，1x *艾利薇鼓琴*，*艾利薇鼓琴*卡牌样式，*艾利薇*牌套，黑檀死神宠物"
     },
     "Xsolla/Preorder_BRO_1_AltDesc": {
         "oracleText": "Mishra Pack Pre-order: 50 Packs, 5 Golden Packs, 2 Cards, 2 Styles, 1 Sleeve",
@@ -44625,35 +44625,35 @@
     },
     "Xsolla/Preorder_HBG_1_Description": {
         "oracleText": "Wyll Pack Pre-order: 50x Alchemy Horizons: Baldur's Gate Boosters, 5x Alchemy Horizons: Baldur's Gate Mythic Boosters, 1x Wyll, Pact-Bound Duelist, Wyll, Pact-Bound Duelist Card Style, Wyll, Pact-Bound Duelist Sleeve",
-        "translation": "Wyll Pack Pre-order: 50x Alchemy Horizons: Baldur's Gate Boosters, 5x Alchemy Horizons: Baldur's Gate Mythic Boosters, 1x Wyll, Pact-Bound Duelist, Wyll, Pact-Bound Duelist Card Style, Wyll, Pact-Bound Duelist Sleeve"
+        "translation": "威迩包预购：50x <i>炼金新篇：博德之门</i>补充包，5x <i>炼金新篇：博德之门</i>秘稀补充包，1x *契缚斗客威迩*，*契缚斗客威迩*卡牌样式，*契缚斗客威迩*牌套"
     },
     "Xsolla/Preorder_HBG_2_Description": {
         "oracleText": "Lae'zel Play Pre-order: HBG Set Mastery Pass, +10 Mastery Levels, 3x Player Draft Token, 1x Sealed Token, 1x Lae'zel, Githyanki Warrior, Lae'zel, Githyanki Warrior Card Style, Lae'zel, Githyanki Warrior Sleeve, Chardalyn Dragon Pet",
-        "translation": "Lae'zel Play Pre-order: HBG Set Mastery Pass, +10 Mastery Levels, 3x Player Draft Token, 1x Sealed Token, 1x Lae'zel, Githyanki Warrior, Lae'zel, Githyanki Warrior Card Style, Lae'zel, Githyanki Warrior Sleeve, Chardalyn Dragon Pet"
+        "translation": "莱埃泽尔游玩预购：HBG精研通行证，+10精研等级，3x 真人轮抽门票，1x 现开门票，1x*吉斯洋基战士莱埃泽尔*，*吉斯洋基战士莱埃泽尔*卡牌样式，*吉斯洋基战士莱埃泽尔*牌套，卡达林魔晶龙宠物"
     },
     "Xsolla/Preorder_KLR_Description": {
         "oracleText": "Saheeli's Opus Pre-order:\n10x Kaladesh Remastered Packs\n3x Player Draft Token\n4x Aether Hub Card\n1x Aether Hub Alt-Art Style\nSublime Artificer Sleeve\nSaheeli Rai Avatar",
-        "translation": "Saheeli's Opus Pre-order:\n10x Kaladesh Remastered Packs\n3x Player Draft Token\n4x Aether Hub Card\n1x Aether Hub Alt-Art Style\nSublime Artificer Sleeve\nSaheeli Rai Avatar"
+        "translation": "莎希莉作品预购：\n10x <i>卡拉德许重铸</i>补充包\n3x 真人轮抽门票\n4x *乙太枢纽*\n1x *乙太枢纽*异画样式\n*非凡神器师*牌套\n莎希莉莱伊头像"
     },
     "Xsolla/Preorder_KLR_Description_Alt": {
         "oracleText": "Saheeli's Opus Pre-order:\n10x Kaladesh Remastered Packs | \n3x Player Draft Token | \n4x Aether Hub Card | \n1x Aether Hub Alt-Art Style | \nSublime Artificer Sleeve | \nSaheeli Rai Avatar",
-        "translation": "Saheeli's Opus Pre-order:\n10x Kaladesh Remastered Packs | \n3x Player Draft Token | \n4x Aether Hub Card | \n1x Aether Hub Alt-Art Style | \nSublime Artificer Sleeve | \nSaheeli Rai Avatar"
+        "translation": "莎希莉作品预购：\n10x <i>卡拉德许重铸</i>补充包 | \n3x 真人轮抽门票 | \n4x *乙太枢纽* | \n1x *乙太枢纽*异画样式 | \n*非凡神器师*牌套 | \n莎希莉莱伊头像"
     },
     "Xsolla/Preorder_M21_1_Description": {
         "oracleText": "Liliana Pack Pre-order:  \n50x Core Set 2021 Boosters\n1x Card of Liliana, Waker of the Dead\n1x Liliana, Waker of the Dead Card Style\nWaker of the Dead Sleeve",
-        "translation": "Liliana Pack Pre-order:  \n50x Core Set 2021 Boosters\n1x Card of Liliana, Waker of the Dead\n1x Liliana, Waker of the Dead Card Style\nWaker of the Dead Sleeve"
+        "translation": "莉莲娜包预购：\n50x核心系列2021补充包\n1x *醒亡莉莲娜*\n1x *醒亡莉莲娜*卡牌样式\n1x *醒亡莉莲娜*牌套"
     },
     "Xsolla/Preorder_M21_2_Description": {
         "oracleText": "Teferi Play Pre-order:  \nCore Set 2021 Set Mastery Pass\n3x Player Draft Token\n1x Sealed Token\n1x Card of Teferi, Master of Time\n1x Teferi, Master of Time Card Style\nMaster of Time Sleeve",
-        "translation": "Teferi Play Pre-order:  \nCore Set 2021 Set Mastery Pass\n3x Player Draft Token\n1x Sealed Token\n1x Card of Teferi, Master of Time\n1x Teferi, Master of Time Card Style\nMaster of Time Sleeve"
+        "translation": "泰菲力游玩预购：\n<i>核心系列2021</i>精研通行证\n3x 真人轮抽门票\n1x 现开门票\n1x *弄时宗师泰菲力*\n1x *弄时宗师泰菲力*卡牌样式\n时间大师牌套"
     },
     "Xsolla/Preorder_MID_1_Description": {
         "oracleText": "Arlinn Pack Pre-order: 50x Innistrad: Midnight Hunt Boosters, 1x Arlinn, the Pack's Hope, Arlinn, the Pack's Hope Card Style, The Moon's Fury Sleeve",
-        "translation": "Arlinn Pack Pre-order: 50x Innistrad: Midnight Hunt Boosters, 1x Arlinn, the Pack's Hope, Arlinn, the Pack's Hope Card Style, The Moon's Fury Sleeve"
+        "translation": "雅琳包预购：50x 「依尼翠：黯夜猎踪」补充包\\，1x [狼群之望雅琳]，[狼群之望雅琳] 卡牌样式，[皎月之怒]牌套"
     },
     "Xsolla/Preorder_MID_2_Description": {
         "oracleText": "Wrenn Play Pre-order: Innistrad: Midnight Hunt Set Mastery Pass, 3x Player Draft Token, 1x Sealed Token, 1x Wrenn and Seven, Wrenn and Seven Card Style, Wrenn and Seven Sleeve, The Jailer Pet",
-        "translation": "Wrenn Play Pre-order: Innistrad: Midnight Hunt Set Mastery Pass, 3x Player Draft Token, 1x Sealed Token, 1x Wrenn and Seven, Wrenn and Seven Card Style, Wrenn and Seven Sleeve, The Jailer Pet"
+        "translation": "芮恩包预购：「依尼翠：黯夜猎踪」精研通行证，3x 真人轮抽门票，1x 现开门票，1x [芮恩与七树妖]，[芮恩与七树妖] 卡牌样式，[芮恩与七树妖] 牌套，狱卒宠物"
     },
     "Xsolla/Preorder_NEO_1_Description": {
         "oracleText": "The Wanderer Pack Pre-order: 50x Kamigawa: Neon Dynasty Boosters, 1x The Wandering Emperor, The Wandering Emperor Card Style, The Wandering Emperor Sleeve",
@@ -44661,15 +44661,15 @@
     },
     "Xsolla/Preorder_NEO_2_Description": {
         "oracleText": "Kaito Play Pre-order: Kamigawa: Neon Dynasty Set Mastery Pass, 3x Player Draft Token, 1x Sealed Token, 1x Kaito Shizuki, Kaito Shizuki Card Style, Kaito Shizuki Sleeve, Folded Koi Pet",
-        "translation": "魁渡游玩预购：50x 「神河：霓朝纪」补充包,3x 真人轮抽门票,1x 现开门票,1x [漆月魁渡],[漆月魁渡] 卡牌样式,[漆月魁渡] 牌套,折纸锦鲤宠物"
+        "translation": "魁渡游玩预购：50x 「神河：霓朝纪」补充包，3x 真人轮抽门票，1x 现开门票，1x [漆月魁渡]，[漆月魁渡] 卡牌样式，[漆月魁渡] 牌套，折纸锦鲤宠物"
     },
     "Xsolla/Preorder_SNC_1_Description": {
         "oracleText": "Elspeth Pack Pre-order: 50x Streets of New Capenna Boosters, 1x Elspeth Resplendent, Elspeth Resplendent Card Style, Elspeth Resplendent Sleeve",
-        "translation": "艾紫培包预购：50x 「新卡佩纳：喧嚣黑街」补充包,1x [飘萍皇],[飘萍皇] 卡牌样式,[飘萍皇] 牌套"
+        "translation": "艾紫培包预购：50x 「新卡佩纳：喧嚣黑街」补充包，1x [飘萍皇]，[飘萍皇] 卡牌样式，[飘萍皇] 牌套"
     },
     "Xsolla/Preorder_SNC_2_Description": {
         "oracleText": "Ob Nixilis Play Pre-order: Streets of New Capenna Set Mastery Pass, 3x Player Draft Token, 1x Sealed Token, 1x Ob Nixilis, the Adversary, Ob Nixilis, the Adversary Card Style, Ob Nixilis, the Adversary Sleeve, Angelic Construct Pet",
-        "translation": "欧尼希兹游玩预购：「新卡佩纳：喧嚣黑街」精研通行证,3x 真人轮抽门票,1x 现开门票,1x [魔头欧尼希兹],[魔头欧尼希兹] 卡牌样式,[魔头欧尼希兹] 牌套,天使组构体 宠物"
+        "translation": "欧尼希兹游玩预购：「新卡佩纳：喧嚣黑街」精研通行证，3x 真人轮抽门票，1x 现开门票，1x [魔头欧尼希兹]，[魔头欧尼希兹] 卡牌样式，[魔头欧尼希兹] 牌套，天使组构体 宠物"
     },
     "Xsolla/Preorder_STX_1_Description": {
         "oracleText": "Kasmina Pack Pre-order:\n50x <i>Strixhaven</i> Boosters\n1x Kasmina, Enigma Sage\n1x Kasmina, Enigma Sage Style\nEnigma Sage Sleeve",
@@ -44681,11 +44681,11 @@
     },
     "Xsolla/Preorder_VOW_1_Description": {
         "oracleText": "Olivia Pack Pre-order: 50x Innistrad: Crimson Vow Boosters, 1x Olivia, Crimson Bride, Olivia, Crimson Bride, Crimson Bride Sleeve",
-        "translation": "奥莉薇亚包预购：50x 「依尼翠：腥红婚誓」补充包,1x [绯红新娘奥莉薇亚],[绯红新娘奥莉薇亚] 卡牌样式,[绯红新娘] 牌套"
+        "translation": "奥莉薇亚包预购：50x 「依尼翠：腥红婚誓」补充包，1x [绯红新娘奥莉薇亚]，[绯红新娘奥莉薇亚] 卡牌样式，[绯红新娘] 牌套"
     },
     "Xsolla/Preorder_VOW_2_Description": {
         "oracleText": "Sorin Play Pre-order: Innistrad: Crimson Vow Set Mastery Pass, 3x Player Draft Token, 1x Sealed Token, 1x Sorin the Mirthless, Sorin the Mirthless Card Style, Sorin the Mirthless Sleeve, Blood Bat Pet",
-        "translation": "索霖游玩预购：「依尼翠：腥红婚誓」精研通行证,3x 真人轮抽门票,1x 现开门票,1x [阴郁的索霖],[阴郁的索霖] 卡牌样式,[阴郁的索霖] 牌套,血蝙蝠 宠物"
+        "translation": "索霖游玩预购：「依尼翠：腥红婚誓」精研通行证，3x 真人轮抽门票，1x 现开门票，1x [阴郁的索霖]，[阴郁的索霖] 卡牌样式，[阴郁的索霖] 牌套，血蝙蝠 宠物"
     },
     "Xsolla/Preorder_ZNR_1_Description": {
         "oracleText": "Jace Pack Pre-order:  \n50x <i>Zendikar Rising</i> Boosters\n1x Card of Jace, Mirror Mage\n1x Jace, Mirror Mage Card Style\nMind Mage Sleeve",
@@ -44729,7 +44729,7 @@
     },
     "Xsolla/bundle_wildcards_15_0_Description": {
         "oracleText": "Wildcard Bundle: 12 Rare Wildcards, 4 Mythic Wildcards",
-        "translation": "万用牌套装:12 稀有万用牌，4 秘稀万用牌"
+        "translation": "万用牌套装：12 稀有万用牌，4 秘稀万用牌"
     },
     "ZoneType_Opponent_Graveyard": {
         "oracleText": "Opponent Graveyard",
