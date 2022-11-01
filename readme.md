@@ -318,19 +318,18 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 			foreach (DraftPackCardView cardView in _draftPackHolder.GetAllCardViews())
 			{
 				string cardName = this._cardDatabase.CardTitleProvider.GetCardTitle(cardView.Card.GrpId, true, "en-US");
-				string iwdString = null;
+				string iwdString = "???";
 				double iwd;
-				if (!rankInfo.TryGetValue(cardName, out iwd))
+				if (rankInfo.TryGetValue(cardName, out iwd))
 				{
-					iwdString = "???";
-				}
-				if (iwd <= 0.0)
-				{
-					iwdString = "<color=\"red\"><size=90%>" + iwd.ToString("F1");
-				}
-				else
-				{
-					iwdString = "<color=\"green\"><size=90%>" + iwd.ToString("F1");
+					if (iwd <= 0.0)
+					{
+						iwdString = "<color=\"red\"><size=90%>" + iwd.ToString("F1");
+					}
+					else
+					{
+						iwdString = "<color=\"green\"><size=90%>" + iwd.ToString("F1");
+					}
 				}
 				cardView.CardView.ShowCardRankInfo(active: true, iwdString);
 			}
