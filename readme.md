@@ -166,11 +166,11 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 		private void SuggestLand()
 		{
 			List<CardList.CardPrintingQuantity> filteredMainDeck = _model.GetFilteredMainDeck();
-			Dictionary<ManaColor, uint> dictionary = BasicLandSuggester.Calculate(filteredMainDeck, _context.Format);
+			Dictionary<ManaColor, uint> suggesContent = BasicLandSuggester.Calculate(filteredMainDeck, _context.Format);
 			List<uint> list = new List<uint>();
 			foreach (CardList.CardPrintingQuantity item2 in filteredMainDeck)
 			{
-				if (item2.Printing.IsBasicLandUnlimited)
+				if (item2.Printing.IsBasicLandUnlimited || IsSuggestibleWaste(item2))
 				{
 					for (int j = 0; j < item2.Quantity; j++)
 					{
@@ -182,7 +182,7 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 			{
 				_model.RemoveCardFromMainDeck(item3);
 			}
-			foreach (KeyValuePair<ManaColor, uint> suggestion in dictionary)
+			foreach (KeyValuePair<ManaColor, uint> suggestion in suggesContent)
 			{
 				ManaColor suggestionColor = suggestion.Key;
 				uint defaultLandId = 0;
@@ -213,8 +213,19 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 						defaultLandId = ModManager.Instance.config.forestId;
 						break;
 					}
+					case ManaColor.ManaColor_None:
 					default:
+					{
+						if (this._context.IsConstructed)
+						{
+							defaultLandId = ModManager.Instance.config.wasteId;
+						}
+						else
+						{
+							defaultLandId = ModManager.Instance.config.plainsId;
+						}
 						break;
+					}
 				}
 				//if player not own seleced land,failback to use he last obtained land.
 				if (!_inventoryManager.Cards.TryGetValue(defaultLandId, out var cardQuantity) || (cardQuantity <= 0))
@@ -229,6 +240,15 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 			_model.UpdateMainDeck();
 			_companionUtil.UpdateValidation(_model, _context?.Format);
 			WrapperDeckBuilder.CacheDeck(_model, _context);
+
+			bool IsSuggestibleWaste(CardList.CardPrintingQuantity card)
+			{
+				if (_context.IsConstructed && card.Printing.IsBasicLand)
+				{
+					return card.Printing.ColorIdentity.Count == 0;
+				}
+				return false;
+			}
 		}
 	```
 

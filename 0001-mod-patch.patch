@@ -1,24 +1,24 @@
-From ebfbab56845075f9aa8aeb465d48c1a980346439 Mon Sep 17 00:00:00 2001
+From ed737978d503fbbadb15914e23918823a993debc Mon Sep 17 00:00:00 2001
 From: CCTV-1 <script.tar.gz@gmail.com>
-Date: Fri, 28 Oct 2022 09:52:22 +0800
+Date: Wed, 16 Nov 2022 09:55:17 +0800
 Subject: [PATCH] mod patch.
 
 ---
  AccountInformation.cs                         |   2 +-
  AutoLandsToggle.cs                            |   6 +
  CDCPart_TextBox_DayNight.cs                   |   4 +-
- CDCPart_TextBox_Dungeon.cs                    |   4 +-
+ CDCPart_TextBox_Dungeon.cs                    |   5 +-
  .../MasteryEndText.cs                         |   1 +
- DeckBuilderWidget.cs                          |  96 ++----
+ DeckBuilderWidget.cs                          | 116 ++-----
  DeckMainTitlePanel.cs                         |   5 +
  DeckManagerController.cs                      |  10 +-
  DirectChallengeBladeWidget.cs                 |   1 +
  FriendChallengeBladeWidget.cs                 |   1 +
  GreClient.CardData/CardUtilities.cs           |  10 +-
- MTGA.Loc/MTGALocalizable.cs                   |  16 +-
+ MTGA.Loc/MTGALocalizable.cs                   |  15 +-
  MatchManager.cs                               |   5 -
  Meta_CDC.cs                                   |  11 +
- ModManager.cs                                 | 278 ++++++++++++++++++
+ ModManager.cs                                 | 293 ++++++++++++++++++
  SearchAndFilterBar.cs                         |   1 +
  SetCollectionScreenView.cs                    |   1 +
  SettingsPanelGraphics.cs                      |   2 +-
@@ -32,10 +32,10 @@ Subject: [PATCH] mod patch.
  .../TextboxSubComponentBase.cs                |   2 +-
  Wotc.Mtga.Cards.Text/Utilities.cs             |  11 +-
  Wotc.Mtga.Loc/Languages.cs                    |   2 +-
- .../DraftContentController.cs                 |  29 +-
+ .../DraftContentController.cs                 |  28 +-
  Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs      |   1 +
  WrapperDeckBuilder.cs                         |   2 +-
- 31 files changed, 390 insertions(+), 136 deletions(-)
+ 31 files changed, 397 insertions(+), 163 deletions(-)
  create mode 100644 ModManager.cs
 
 diff --git a/AccountInformation.cs b/AccountInformation.cs
@@ -90,20 +90,27 @@ index fe4c749..65dfb9b 100644
  		_lowerTextLabel.fontSize = _supportedFontSizes[0];
  		UpdateLabelMaterial(_upperTextLabel);
 diff --git a/CDCPart_TextBox_Dungeon.cs b/CDCPart_TextBox_Dungeon.cs
-index d6c903d..cba5d5c 100644
+index d6c903d..6ffbd00 100644
 --- a/CDCPart_TextBox_Dungeon.cs
 +++ b/CDCPart_TextBox_Dungeon.cs
-@@ -48,8 +48,8 @@ public class CDCPart_TextBox_Dungeon : CDCPart_Textbox_SuperBase
+@@ -48,15 +48,14 @@ public class CDCPart_TextBox_Dungeon : CDCPart_Textbox_SuperBase
  				}
  			}
  		}
 -		TMP_FontAsset titleFont = GetTitleFont();
 -		TMP_FontAsset fontAsset = _fontAsset;
-+		TMP_FontAsset titleFont = ModManager.Instance.zhCNFont;
-+		TMP_FontAsset fontAsset = ModManager.Instance.zhCNFont;
++		TMP_FontAsset zhCNFont = ModManager.Instance.zhCNFont;
  		for (int i = 0; i < _cachedLabelStrings.Count && i < _dungeonRooms.Count; i++)
  		{
  			(string, string) tuple = _cachedLabelStrings[i];
+ 			string item4 = tuple.Item1;
+ 			string item5 = tuple.Item2;
+ 			DungeonRoomTextbox dungeonRoomTextbox = _dungeonRooms[i];
+-			dungeonRoomTextbox.SetFont(titleFont, fontAsset);
++			dungeonRoomTextbox.SetFont(zhCNFont, zhCNFont);
+ 			dungeonRoomTextbox.SetLabels(item4, item5);
+ 		}
+ 		_activeRoomArray[0] = CurrentRoomGrpId(_cachedModel);
 diff --git a/Core.Meta.MainNavigation.Profile/MasteryEndText.cs b/Core.Meta.MainNavigation.Profile/MasteryEndText.cs
 index 590b658..9185b34 100644
 --- a/Core.Meta.MainNavigation.Profile/MasteryEndText.cs
@@ -117,10 +124,10 @@ index 590b658..9185b34 100644
  				return text;
  			}
 diff --git a/DeckBuilderWidget.cs b/DeckBuilderWidget.cs
-index fc77cbe..2c076aa 100644
+index ac50dc4..8988b0a 100644
 --- a/DeckBuilderWidget.cs
 +++ b/DeckBuilderWidget.cs
-@@ -3382,84 +3382,50 @@ public class DeckBuilderWidget : MonoBehaviour, IKeyDownSubscriber, IKeySubscrib
+@@ -3386,109 +3386,41 @@ public class DeckBuilderWidget : MonoBehaviour, IKeyDownSubscriber, IKeySubscrib
  	{
  		List<CardList.CardPrintingQuantity> filteredMainDeck = _model.GetFilteredMainDeck();
  		Dictionary<ManaColor, uint> dictionary = BasicLandSuggester.Calculate(filteredMainDeck, _context.Format);
@@ -145,33 +152,44 @@ index fc77cbe..2c076aa 100644
 -			{
 -				ManaColor.ManaColor_Green,
 -				new List<uint>()
+-			},
+-			{
+-				ManaColor.ManaColor_None,
+-				new List<uint>()
 -			}
 -		};
-+		List<uint> list = new List<uint>();
- 		foreach (CardList.CardPrintingQuantity item in filteredMainDeck)
- 		{
--			if (!item.Printing.IsBasicLandUnlimited)
-+			if (item.Printing.IsBasicLandUnlimited)
- 			{
--				continue;
--			}
--			CardColor cardColor = item.Printing.ColorIdentity.FirstOrDefault();
--			if ((uint)(cardColor - 1) <= 4u && _inventoryManager.Cards.TryGetValue(item.Printing.GrpId, out var value) && value > 0)
+-		foreach (CardList.CardPrintingQuantity item in filteredMainDeck)
+-		{
+-			if (item.Printing.IsBasicLandUnlimited)
 -			{
--				ManaColor key = cardColor.ToManaColor();
- 				for (int i = 0; i < item.Quantity; i++)
- 				{
--					dictionary2[key].Add(item.Printing.GrpId);
+-				CardColor cardColor = item.Printing.ColorIdentity.FirstOrDefault();
+-				if ((uint)(cardColor - 1) <= 4u && _inventoryManager.Cards.TryGetValue(item.Printing.GrpId, out var value) && value > 0)
+-				{
+-					ManaColor key = cardColor.ToManaColor();
+-					for (int i = 0; i < item.Quantity; i++)
+-					{
+-						dictionary2[key].Add(item.Printing.GrpId);
+-					}
+-				}
+-			}
+-			else if (IsSuggestibleWaste(item))
+-			{
+-				for (int j = 0; j < item.Quantity; j++)
+-				{
+-					dictionary2[ManaColor.ManaColor_None].Add(item.Printing.GrpId);
 -				}
 -			}
 -		}
--		List<uint> list = new List<uint>();
+ 		List<uint> list = new List<uint>();
 -		foreach (CardList.CardPrintingQuantity item2 in filteredMainDeck)
--		{
--			if (item2.Printing.IsBasicLandUnlimited)
--			{
--				for (int j = 0; j < item2.Quantity; j++)
--				{
++		foreach (CardList.CardPrintingQuantity item in filteredMainDeck)
+ 		{
+-			if (item2.Printing.IsBasicLandUnlimited || IsSuggestibleWaste(item2))
++			if (item.Printing.IsBasicLandUnlimited || IsSuggestibleWaste(item))
+ 			{
+-				for (int k = 0; k < item2.Quantity; k++)
++				for (int i = 0; i < item.Quantity; i++)
+ 				{
 -					list.Add(item2.Printing.GrpId);
 +					list.Add(item.Printing.GrpId);
  				}
@@ -183,18 +201,23 @@ index fc77cbe..2c076aa 100644
 -			_model.RemoveCardFromMainDeck(item3);
 +			_model.RemoveCardFromMainDeck(item2);
  		}
- 		foreach (KeyValuePair<ManaColor, uint> suggestion in dictionary)
+-		foreach (KeyValuePair<ManaColor, uint> item4 in dictionary)
++		foreach (KeyValuePair<ManaColor, uint> suggestion in dictionary)
  		{
+-			KeyValuePair<ManaColor, uint> kvp2 = item4;
+-			DictionaryExtensions.Deconstruct(in kvp2, out var key2, out var value2);
+-			ManaColor suggestionColor = key2;
+-			uint num = value2;
 -			CardPrintingData cardPrintingData = null;
--			List<uint> list2 = dictionary2[suggestion.Key];
--			for (int k = 0; k < suggestion.Value; k++)
+-			List<uint> list2 = dictionary2[suggestionColor];
+-			for (int l = 0; l < num; l++)
 +			ManaColor key = suggestion.Key;
 +			uint num = 0u;
-+			switch (key)
++			num = key switch
  			{
--				if (k < list2.Count)
+-				if (l < list2.Count)
 -				{
--					_model.AddCardToMainDeck(list2[k]);
+-					_model.AddCardToMainDeck(list2[l]);
 -					continue;
 -				}
 -				if (list2.Count > 0)
@@ -204,28 +227,30 @@ index fc77cbe..2c076aa 100644
 -				}
 -				if (cardPrintingData == null)
 -				{
--					cardPrintingData = _cardDatabase.DatabaseUtilities.GetPrimaryPrintings().LastOrDefault((CardPrintingData kvp) => kvp.IsBasicLandUnlimited && kvp.ColorIdentity.FirstOrDefault().ToManaColor() == suggestion.Key && _inventoryManager.Cards.TryGetValue(kvp.GrpId, out var value2) && value2 > 0);
+-					cardPrintingData = _cardDatabase.DatabaseUtilities.GetPrimaryPrintings().LastOrDefault((CardPrintingData kvp) => kvp.IsBasicLandUnlimited && kvp.ColorIdentity.FirstOrDefault().ToManaColor() == suggestionColor && _inventoryManager.Cards.TryGetValue(kvp.GrpId, out var value5) && value5 > 0);
+-				}
+-				if (cardPrintingData == null && suggestionColor == ManaColor.ManaColor_None)
+-				{
+-					if (_context.IsConstructed)
+-					{
+-						cardPrintingData = _cardDatabase.DatabaseUtilities.GetPrimaryPrintings().LastOrDefault((CardPrintingData kvp) => kvp.IsBasicLand && kvp.ColorIdentity.FirstOrDefault().ToManaColor() == ManaColor.ManaColor_None && _inventoryManager.Cards.TryGetValue(kvp.GrpId, out var value4) && value4 > 0);
+-					}
+-					if (cardPrintingData == null)
+-					{
+-						cardPrintingData = _cardDatabase.DatabaseUtilities.GetPrimaryPrintings().LastOrDefault((CardPrintingData kvp) => kvp.IsBasicLandUnlimited && kvp.ColorIdentity.FirstOrDefault().ToManaColor() == ManaColor.ManaColor_White && _inventoryManager.Cards.TryGetValue(kvp.GrpId, out var value3) && value3 > 0);
+-					}
 -				}
 -				if (cardPrintingData != null)
 -				{
 -					_model.AddCardToMainDeck(cardPrintingData.GrpId);
 -				}
-+			case ManaColor.ManaColor_White:
-+				num = ModManager.Instance.config.plainsId;
-+				break;
-+			case ManaColor.ManaColor_Blue:
-+				num = ModManager.Instance.config.islandId;
-+				break;
-+			case ManaColor.ManaColor_Black:
-+				num = ModManager.Instance.config.swampId;
-+				break;
-+			case ManaColor.ManaColor_Red:
-+				num = ModManager.Instance.config.mountainId;
-+				break;
-+			case ManaColor.ManaColor_Green:
-+				num = ModManager.Instance.config.forestId;
-+				break;
-+			}
++				ManaColor.ManaColor_White => ModManager.Instance.config.plainsId, 
++				ManaColor.ManaColor_Blue => ModManager.Instance.config.islandId, 
++				ManaColor.ManaColor_Black => ModManager.Instance.config.swampId, 
++				ManaColor.ManaColor_Red => ModManager.Instance.config.mountainId, 
++				ManaColor.ManaColor_Green => ModManager.Instance.config.forestId, 
++				_ => (!_context.IsConstructed) ? ModManager.Instance.config.plainsId : ModManager.Instance.config.wasteId, 
++			};
 +			if (!_inventoryManager.Cards.TryGetValue(num, out var value) || value <= 0)
 +			{
 +				num = _cardDatabase.DatabaseUtilities.GetPrimaryPrintings().LastOrDefault((CardPrintingData kvp) => kvp.IsBasicLandUnlimited && kvp.ColorIdentity.FirstOrDefault().ToManaColor() == suggestion.Key && _inventoryManager.Cards.TryGetValue(kvp.GrpId, out var value2) && value2 > 0).GrpId;
@@ -298,10 +323,10 @@ index dfc44c7..4eba434 100644
  
  	private void Start()
 diff --git a/GreClient.CardData/CardUtilities.cs b/GreClient.CardData/CardUtilities.cs
-index 12438a8..2487613 100644
+index 18465af..261656b 100644
 --- a/GreClient.CardData/CardUtilities.cs
 +++ b/GreClient.CardData/CardUtilities.cs
-@@ -386,15 +386,7 @@ namespace GreClient.CardData
+@@ -412,15 +412,7 @@ namespace GreClient.CardData
  
  		public static bool IsCardCraftable(CardPrintingData cardPrintingData)
  		{
@@ -319,10 +344,10 @@ index 12438a8..2487613 100644
  
  		public static bool IsCardCollectible(CardPrintingData cardPrintingData)
 diff --git a/MTGA.Loc/MTGALocalizable.cs b/MTGA.Loc/MTGALocalizable.cs
-index 34de4ac..a9c7e1b 100644
+index 80f3eef..6d65c17 100644
 --- a/MTGA.Loc/MTGALocalizable.cs
 +++ b/MTGA.Loc/MTGALocalizable.cs
-@@ -59,21 +59,7 @@ namespace MTGA.Loc
+@@ -59,20 +59,7 @@ namespace MTGA.Loc
  				break;
  			case TargetType.Font:
  			{
@@ -340,16 +365,15 @@ index 34de4ac..a9c7e1b 100644
 -						tMP_Text.fontSharedMaterial = material;
 -					}
 -				}
--				break;
 +				tMP_Text.font = ModManager.Instance.zhCNFont;
+ 				break;
  			}
  			default:
- 				Debug.LogError($"unsupported localization target type: {targetType}");
 diff --git a/MatchManager.cs b/MatchManager.cs
-index 19f9275..4f8cb3d 100644
+index cdcf351..779ebad 100644
 --- a/MatchManager.cs
 +++ b/MatchManager.cs
-@@ -56,11 +56,6 @@ public class MatchManager : IDisposable
+@@ -57,11 +57,6 @@ public class MatchManager : IDisposable
  			set
  			{
  				_screenName = value;
@@ -383,10 +407,10 @@ index c899070..4ae0f51 100644
  }
 diff --git a/ModManager.cs b/ModManager.cs
 new file mode 100644
-index 0000000..9989a00
+index 0000000..41810e3
 --- /dev/null
 +++ b/ModManager.cs
-@@ -0,0 +1,278 @@
+@@ -0,0 +1,293 @@
 +using System;
 +using System.Collections.Generic;
 +using System.IO;
@@ -465,6 +489,8 @@ index 0000000..9989a00
 +		public UserSkillLevel userSkillLevel;
 +
 +		public DraftDeckColor draftDeckColor;
++
++		public uint wasteId = 81179u;
 +	}
 +
 +	[Serializable]
@@ -523,25 +549,25 @@ index 0000000..9989a00
 +
 +	public TMP_FontAsset zhCNFont;
 +
-+	private static ModManager instance = null;
++	private static ModManager instance;
 +
-+	private static readonly object lockObj = new object();
++	private static readonly object lockObj;
 +
-+	private static string configFilePath = Application.dataPath + "/modconfig.json";
++	private static string configFilePath;
 +
 +	public ModConfig config;
 +
-+	private static Dictionary<string, Dictionary<string, double>> cardRankMap = new Dictionary<string, Dictionary<string, double>>();
++	private static Dictionary<string, Dictionary<string, double>> cardRankMap;
 +
-+	private static Dictionary<string, bool> fetchingTask = new Dictionary<string, bool>();
++	private static Dictionary<string, bool> fetchingTask;
 +
-+	private static string startDate = "2016-09-01";
++	private static string startDate;
 +
-+	private static string endDate = DateTime.Now.ToString("yyyy-MM-dd");
++	private static string endDate;
 +
-+	private static string apiUri = "https://www.17lands.com/card_ratings/data?expansion={0}&format={1}&start_date={2}&end_date={3}";
++	private static string apiUri;
 +
-+	private static readonly HttpClient client = new HttpClient();
++	private static readonly HttpClient client;
 +
 +	public static ModManager Instance
 +	{
@@ -664,6 +690,19 @@ index 0000000..9989a00
 +			fetchingTask.Remove(setCode + "_" + draftModeName);
 +		}
 +	}
++
++	static ModManager()
++	{
++		instance = null;
++		lockObj = new object();
++		configFilePath = Application.dataPath + "/modconfig.json";
++		cardRankMap = new Dictionary<string, Dictionary<string, double>>();
++		fetchingTask = new Dictionary<string, bool>();
++		startDate = "2016-09-01";
++		endDate = DateTime.Now.ToString("yyyy-MM-dd");
++		apiUri = "https://www.17lands.com/card_ratings/data?expansion={0}&format={1}&start_date={2}&end_date={3}";
++		client = new HttpClient();
++	}
 +}
 diff --git a/SearchAndFilterBar.cs b/SearchAndFilterBar.cs
 index 3b52d89..c3e7959 100644
@@ -678,10 +717,10 @@ index 3b52d89..c3e7959 100644
  		{
  			AudioManager.PlayAudio(WwiseEvents.sfx_ui_generic_click, AudioManager.Default);
 diff --git a/SetCollectionScreenView.cs b/SetCollectionScreenView.cs
-index 56594e1..c3a1e32 100644
+index 6bf5972..707967f 100644
 --- a/SetCollectionScreenView.cs
 +++ b/SetCollectionScreenView.cs
-@@ -126,6 +126,7 @@ public class SetCollectionScreenView : MonoBehaviour
+@@ -127,6 +127,7 @@ public class SetCollectionScreenView : MonoBehaviour
  		_biCollectionNavigateStartTime = DateTime.Now;
  		_biActiveFilter = Filters.Default.ToString();
  		_biLogger = biLogger;
@@ -715,10 +754,10 @@ index c3ddafd..cab44df 100644
  
  	private void Start()
 diff --git a/StoreItemBase.cs b/StoreItemBase.cs
-index 5798253..1f81971 100644
+index b5da256..4d1f62c 100644
 --- a/StoreItemBase.cs
 +++ b/StoreItemBase.cs
-@@ -491,6 +491,7 @@ public class StoreItemBase : MonoBehaviour
+@@ -487,6 +487,7 @@ public class StoreItemBase : MonoBehaviour
  
  	public void SetLabelText(MTGALocalizedString text)
  	{
@@ -753,7 +792,7 @@ index a26bcef..75a1a66 100644
  				_defaultFontMaterial = _label.fontSharedMaterial;
  				_hasBeenInit = true;
 diff --git a/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs b/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
-index d8a8b67..e9f47d8 100644
+index 9eb06da..060ccc8 100644
 --- a/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
 +++ b/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
 @@ -65,21 +65,8 @@ namespace Wotc.Mtga.CardParts.FieldFillers
@@ -848,7 +887,7 @@ index faea071..2e164a5 100644
  
  		public static bool TryStripLoyaltyPrefixFromString(ref string localizedText)
 diff --git a/Wotc.Mtga.Loc/Languages.cs b/Wotc.Mtga.Loc/Languages.cs
-index e21259f..c8c03ff 100644
+index e21259f..cf830df 100644
 --- a/Wotc.Mtga.Loc/Languages.cs
 +++ b/Wotc.Mtga.Loc/Languages.cs
 @@ -67,7 +67,7 @@ namespace Wotc.Mtga.Loc
@@ -856,12 +895,12 @@ index e21259f..c8c03ff 100644
  		};
  
 -		public static readonly string[] ExternalLanguages = new string[9] { "en-US", "pt-BR", "fr-FR", "it-IT", "de-DE", "es-ES", "ru-RU", "ja-JP", "ko-KR" };
-+		public static readonly string[] ExternalLanguages = new string[2] { "en-US", "ja-JP" };
++		public static readonly string[] ExternalLanguages = new string[9] { "en-US", "ja-JP" };
  
  		public const string BULLET_EN = "• ";
  
 diff --git a/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs b/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
-index 7a5c29f..e95e5ee 100644
+index 4f5cbcd..9a3bc3b 100644
 --- a/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
 +++ b/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
 @@ -721,9 +721,10 @@ namespace Wotc.Mtga.Wrapper.Draft
@@ -877,7 +916,7 @@ index 7a5c29f..e95e5ee 100644
  				{
  					_inventoryManager.Cards.TryGetValue(cardView.Card.GrpId, out var value);
  					value += _deck.MainDeckIds.Count((uint id) => id == cardView.Card.GrpId);
-@@ -731,12 +732,29 @@ namespace Wotc.Mtga.Wrapper.Draft
+@@ -731,12 +732,28 @@ namespace Wotc.Mtga.Wrapper.Draft
  					int maxCollected = (int)cardView.Card.Printing.MaxCollected;
  					cardView.CardView.ShowCollectionInfo(active: true, Math.Min(value, maxCollected), maxCollected);
  				}
@@ -897,20 +936,19 @@ index 7a5c29f..e95e5ee 100644
 +			foreach (DraftPackCardView allCardView in _draftPackHolder.GetAllCardViews())
 +			{
 +				string cardTitle = _cardDatabase.CardTitleProvider.GetCardTitle(allCardView.Card.GrpId, formatted: true, "en-US");
-+				string text = null;
-+				if (!cardRankMap.TryGetValue(cardTitle, out var value2))
++				string iWDInfo = "???";
++				if (cardRankMap.TryGetValue(cardTitle, out var value2))
  				{
 -					cardView.CardView.ShowCollectionInfo(active: false);
-+					text = "???";
++					iWDInfo = ((!(value2 <= 0.0)) ? ("<color=\"green\"><size=90%>" + value2.ToString("F1")) : ("<color=\"red\"><size=90%>" + value2.ToString("F1")));
  				}
-+				text = ((!(value2 <= 0.0)) ? ("<color=\"green\"><size=90%>" + value2.ToString("F1")) : ("<color=\"red\"><size=90%>" + value2.ToString("F1")));
-+				allCardView.CardView.ShowCardRankInfo(active: true, text);
++				allCardView.CardView.ShowCardRankInfo(active: true, iWDInfo);
  			}
 -			_showCollectionInfo = show;
  		}
  
  		private void UpdateWaitingOnPacksText()
-@@ -916,6 +934,7 @@ namespace Wotc.Mtga.Wrapper.Draft
+@@ -916,6 +933,7 @@ namespace Wotc.Mtga.Wrapper.Draft
  		{
  			_settingCardsCoroutine = null;
  			_okToPickCard = true;
@@ -919,7 +957,7 @@ index 7a5c29f..e95e5ee 100644
  		}
  
 diff --git a/Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs b/Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs
-index c1b0f34..cde0ae5 100644
+index b8df756..2ed5432 100644
 --- a/Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs
 +++ b/Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs
 @@ -63,6 +63,7 @@ namespace Wotc.Mtga.Wrapper.Draft

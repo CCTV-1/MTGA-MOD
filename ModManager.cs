@@ -223,6 +223,8 @@ public class ModManager
 
 		public uint forestId = 81183U;
 
+		public uint wasteId = 81179U;
+
 		public string defaultFormatName = "Standard";
 
 		public bool displayIWDText = true;
