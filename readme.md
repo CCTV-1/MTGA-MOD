@@ -356,7 +356,60 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 		}
 	```
 
-9.  禁止安卓端请求Google Play更新数据：使用`Il2CppDumper`或类似工具将符号恢复到`IDA Pro`中。搜索函数`Wizards_Mtga_Platforms_PlatformContext__GetInstallationController`，使函数无条件跳转至构造返回`Wizards.Mtga.Installation.NoSupportInstallationController`而不是构造返回`Wizards.Mtga.Platforms.Android.AndroidInstallationController`。例如将下面的`B.NE loc_1438FAC`改为`B loc_1438FAC`。
+9. 修改`WrapperDeckUtilities::GetPrintingsByLocalizedTitle`使游戏无论在什么语言环境下都支持导入英文牌表。
+    ```csharp
+		private static IReadOnlyList<CardPrintingData> GetPrintingsByLocalizedTitle(CardDatabase cardDatabase, string title)
+		{
+			//先检查是不是英文牌名
+			IReadOnlyList<CardPrintingData> printingsByLocalizedTitle = cardDatabase.DatabaseUtilities.GetPrintingsByEnglishTitle(title);
+			if (printingsByLocalizedTitle == null || printingsByLocalizedTitle.Count == 0)
+			{
+				//不是英文牌名再检查是不是本地语言环境下的牌名
+				printingsByLocalizedTitle = cardDatabase.DatabaseUtilities.GetPrintingsByLocalizedTitle(title);
+			}
+			if (printingsByLocalizedTitle != null)
+			{
+				CardPrintingData cardPrintingData = printingsByLocalizedTitle.FirstOrDefault((CardPrintingData c) => !c.IsPrimaryCard && c.DefunctRebalancedCardLink != 0U && cardDatabase.CardDataProvider.GetCardPrintingById(c.DefunctRebalancedCardLink, null).IsPrimaryCard);
+				if (cardPrintingData != null)
+				{
+					CardPrintingData cardPrintingById = cardDatabase.CardDataProvider.GetCardPrintingById(cardPrintingData.DefunctRebalancedCardLink, null);
+					return cardDatabase.DatabaseUtilities.GetPrintingsByTitleId(cardPrintingById.TitleId);
+				}
+			}
+			return printingsByLocalizedTitle;
+		}
+	```
+
+10. 修改`WrapperDeckUtilities::ToExportString_BySection`、`WrapperDeckUtilities::GetMainLabel`、`WrapperDeckUtilities::GetSideboardLabel`、`WrapperDeckUtilities::GetCommanderLabel`、`WrapperDeckUtilities::GetCompanionLabel`以支持指定游戏无论在什么语言环境下都支持导出英文牌表。
+	```csharp
+		//GetSideboardLabel GetCommanderLabel GetCompanionLabel都是一样的修改
+		private static string GetMainLabel(IClientLocProvider localizationManager)
+		{
+			if (ModManager.Instance.config.alwayExportEnglishDeck)
+			{
+				return localizationManager.GetLocalizedTextForLanguage("MainNav/DeckBuilder/Sideboard_Label", "en-US", Array.Empty<ValueTuple<string, string>>());
+			}
+			return localizationManager.GetLocalizedText("MainNav/DeckBuilder/Deck_Label", Array.Empty<ValueTuple<string, string>>());
+		}
+
+		private static void ToExportString_BySection(StringBuilder builder, List<CardInDeck> cardCollection, ICardDatabaseAdapter db)
+		{
+			string overrideLangCode = null;
+			if (ModManager.Instance.config.alwayExportEnglishDeck)
+			{
+				overrideLangCode = "en-US";
+			}
+			foreach (CardInDeck item in cardCollection)
+			{
+				CardPrintingData cardPrintingById = db.CardDataProvider.GetCardPrintingById(item.Id);
+				builder.AppendLine(string.Format("{0} {1} ({2}) {3}", item.Quantity, (Languages.CurrentLanguage == "ja-JP") ? RemoveFurigana(db.GreLocProvider.GetLocalizedText(cardPrintingById.TitleId, overrideLangCode, formatted: false)) : db.GreLocProvider.GetLocalizedText(cardPrintingById.TitleId, overrideLangCode, formatted: false), cardPrintingById.ExpansionCode, cardPrintingById.CollectorNumber));
+			}
+		}
+	```
+
+11. 对牌张数据库执行`UPDATE Cards SET AdditionalFrameDetails  = '' WHERE ExpansionCode = "BRR";`以和谐兄弟之战神器秘典牌的过于难看的老框。
+
+12. 禁止安卓端请求Google Play更新数据：使用`Il2CppDumper`或类似工具将符号恢复到`IDA Pro`中。搜索函数`Wizards_Mtga_Platforms_PlatformContext__GetInstallationController`，使函数无条件跳转至构造返回`Wizards.Mtga.Installation.NoSupportInstallationController`而不是构造返回`Wizards.Mtga.Platforms.Android.AndroidInstallationController`。例如将下面的`B.NE loc_1438FAC`改为`B loc_1438FAC`。
 	```ASM
 	STR             X19, [SP,#-0x20]!
 	STP             X29, X30, [SP,#0x10]
@@ -397,7 +450,7 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 	RET
 	```
 
-10. 安卓端禁用商店以支持无GooglePlay设备进入游戏：使用`Il2CppDumper`或类似工具将符号恢复到`IDA Pro`中。搜索函数`StoreManager$$RefreshStoreDataYield`(不同工具生成的名称会略有不同)。通过`CODE XREF`找到`WrapperController::Coroutine_StartupSequence::MoveNext`函数中对`StoreManager$$RefreshStoreDataYield`的调用并将其`NOP`。例如在`2022/4/28`更新的客户端中：`0x172B564` `BL StoreManager$$RefreshStoreDataYield`(19 3F F8 97) => `NOP`(1F 20 03 D5)
+13. 安卓端禁用商店以支持无GooglePlay设备进入游戏：使用`Il2CppDumper`或类似工具将符号恢复到`IDA Pro`中。搜索函数`StoreManager$$RefreshStoreDataYield`(不同工具生成的名称会略有不同)。通过`CODE XREF`找到`WrapperController::Coroutine_StartupSequence::MoveNext`函数中对`StoreManager$$RefreshStoreDataYield`的调用并将其`NOP`。例如在`2022/4/28`更新的客户端中：`0x172B564` `BL StoreManager$$RefreshStoreDataYield`(19 3F F8 97) => `NOP`(1F 20 03 D5)
 
 # 四、 自动生成牌张样式MOD
 

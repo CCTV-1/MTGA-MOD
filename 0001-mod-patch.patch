@@ -1,6 +1,6 @@
-From ed737978d503fbbadb15914e23918823a993debc Mon Sep 17 00:00:00 2001
+From 334b47c219e3619dc19b1b10353053222835f0b1 Mon Sep 17 00:00:00 2001
 From: CCTV-1 <script.tar.gz@gmail.com>
-Date: Wed, 16 Nov 2022 09:55:17 +0800
+Date: Sun, 20 Nov 2022 20:54:22 +0800
 Subject: [PATCH] mod patch.
 
 ---
@@ -18,7 +18,7 @@ Subject: [PATCH] mod patch.
  MTGA.Loc/MTGALocalizable.cs                   |  15 +-
  MatchManager.cs                               |   5 -
  Meta_CDC.cs                                   |  11 +
- ModManager.cs                                 | 293 ++++++++++++++++++
+ ModManager.cs                                 | 295 ++++++++++++++++++
  SearchAndFilterBar.cs                         |   1 +
  SetCollectionScreenView.cs                    |   1 +
  SettingsPanelGraphics.cs                      |   2 +-
@@ -35,7 +35,8 @@ Subject: [PATCH] mod patch.
  .../DraftContentController.cs                 |  28 +-
  Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs      |   1 +
  WrapperDeckBuilder.cs                         |   2 +-
- 31 files changed, 397 insertions(+), 163 deletions(-)
+ WrapperDeckUtilities.cs                       |  29 +-
+ 32 files changed, 426 insertions(+), 165 deletions(-)
  create mode 100644 ModManager.cs
 
 diff --git a/AccountInformation.cs b/AccountInformation.cs
@@ -407,10 +408,10 @@ index c899070..4ae0f51 100644
  }
 diff --git a/ModManager.cs b/ModManager.cs
 new file mode 100644
-index 0000000..41810e3
+index 0000000..856f57f
 --- /dev/null
 +++ b/ModManager.cs
-@@ -0,0 +1,293 @@
+@@ -0,0 +1,295 @@
 +using System;
 +using System.Collections.Generic;
 +using System.IO;
@@ -491,6 +492,8 @@ index 0000000..41810e3
 +		public DraftDeckColor draftDeckColor;
 +
 +		public uint wasteId = 81179u;
++
++		public bool alwayExportEnglishDeck = false;
 +	}
 +
 +	[Serializable]
@@ -981,6 +984,76 @@ index b1a40f5..74b8d53 100644
  			SceneLoader.GetSceneLoader().GoToDeckBuilder(context, reloadIfAlreadyLoaded: true);
  			AudioManager.PlayAudio(WwiseEvents.sfx_ui_generic_click, base.gameObject);
  		}
+diff --git a/WrapperDeckUtilities.cs b/WrapperDeckUtilities.cs
+index 8902981..a6b60a9 100644
+--- a/WrapperDeckUtilities.cs
++++ b/WrapperDeckUtilities.cs
+@@ -248,30 +248,51 @@ public static class WrapperDeckUtilities
+ 
+ 	private static string GetMainLabel(IClientLocProvider localizationManager)
+ 	{
++		if (ModManager.Instance.config.alwayExportEnglishDeck)
++		{
++			return localizationManager.GetLocalizedTextForLanguage("MainNav/DeckBuilder/Deck_Label", "en-US");
++		}
+ 		return localizationManager.GetLocalizedText("MainNav/DeckBuilder/Deck_Label");
+ 	}
+ 
+ 	private static string GetSideboardLabel(IClientLocProvider localizationManager)
+ 	{
++		if (ModManager.Instance.config.alwayExportEnglishDeck)
++		{
++			return localizationManager.GetLocalizedTextForLanguage("MainNav/DeckBuilder/Sideboard_Label", "en-US");
++		}
+ 		return localizationManager.GetLocalizedText("MainNav/DeckBuilder/Sideboard_Label");
+ 	}
+ 
+ 	private static string GetCommanderLabel(IClientLocProvider localizationManager)
+ 	{
++		if (ModManager.Instance.config.alwayExportEnglishDeck)
++		{
++			return localizationManager.GetLocalizedTextForLanguage("MainNav/DeckBuilder/Commander", "en-US");
++		}
+ 		return localizationManager.GetLocalizedText("MainNav/DeckBuilder/Commander");
+ 	}
+ 
+ 	private static string GetCompanionLabel(IClientLocProvider localizationManager)
+ 	{
++		if (ModManager.Instance.config.alwayExportEnglishDeck)
++		{
++			return localizationManager.GetLocalizedTextForLanguage("MainNav/DeckBuilder/Companion", "en-US");
++		}
+ 		return localizationManager.GetLocalizedText("MainNav/DeckBuilder/Companion");
+ 	}
+ 
+ 	private static void ToExportString_BySection(StringBuilder builder, List<CardInDeck> cardCollection, ICardDatabaseAdapter db)
+ 	{
++		string overrideLanguageCode = null;
++		if (ModManager.Instance.config.alwayExportEnglishDeck)
++		{
++			overrideLanguageCode = "en-US";
++		}
+ 		foreach (CardInDeck item in cardCollection)
+ 		{
+ 			CardPrintingData cardPrintingById = db.CardDataProvider.GetCardPrintingById(item.Id);
+-			builder.AppendLine(string.Format("{0} {1} ({2}) {3}", item.Quantity, (Languages.CurrentLanguage == "ja-JP") ? RemoveFurigana(db.GreLocProvider.GetLocalizedText(cardPrintingById.TitleId, null, formatted: false)) : db.GreLocProvider.GetLocalizedText(cardPrintingById.TitleId, null, formatted: false), cardPrintingById.ExpansionCode, cardPrintingById.CollectorNumber));
++			builder.AppendLine(string.Format("{0} {1} ({2}) {3}", item.Quantity, (Languages.CurrentLanguage == "ja-JP") ? RemoveFurigana(db.GreLocProvider.GetLocalizedText(cardPrintingById.TitleId, overrideLanguageCode, formatted: false)) : db.GreLocProvider.GetLocalizedText(cardPrintingById.TitleId, overrideLanguageCode, formatted: false), cardPrintingById.ExpansionCode, cardPrintingById.CollectorNumber));
+ 		}
+ 	}
+ 
+@@ -520,7 +541,11 @@ public static class WrapperDeckUtilities
+ 
+ 	private static IReadOnlyList<CardPrintingData> GetPrintingsByLocalizedTitle(CardDatabase cardDatabase, string title)
+ 	{
+-		IReadOnlyList<CardPrintingData> printingsByLocalizedTitle = cardDatabase.DatabaseUtilities.GetPrintingsByLocalizedTitle(title);
++		IReadOnlyList<CardPrintingData> printingsByLocalizedTitle = cardDatabase.DatabaseUtilities.GetPrintingsByEnglishTitle(title);
++		if (printingsByLocalizedTitle == null || readOnlyList.Count == 0)
++		{
++			printingsByLocalizedTitle = cardDatabase.DatabaseUtilities.GetPrintingsByLocalizedTitle(title);
++		}
+ 		if (printingsByLocalizedTitle != null)
+ 		{
+ 			CardPrintingData cardPrintingData = printingsByLocalizedTitle.FirstOrDefault((CardPrintingData c) => !c.IsPrimaryCard && c.DefunctRebalancedCardLink != 0 && cardDatabase.CardDataProvider.GetCardPrintingById(c.DefunctRebalancedCardLink).IsPrimaryCard);
 -- 
 2.38.1
 

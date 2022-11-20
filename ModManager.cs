@@ -234,6 +234,8 @@ public class ModManager
 		public UserSkillLevel userSkillLevel = UserSkillLevel.NONE;
 
 		public DraftDeckColor draftDeckColor = DraftDeckColor.NONE;
+
+		public bool alwayExportEnglishDeck = false;
 	}
 
 	[Serializable]
