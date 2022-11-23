@@ -1047,7 +1047,7 @@ index 8902981..a6b60a9 100644
  	{
 -		IReadOnlyList<CardPrintingData> printingsByLocalizedTitle = cardDatabase.DatabaseUtilities.GetPrintingsByLocalizedTitle(title);
 +		IReadOnlyList<CardPrintingData> printingsByLocalizedTitle = cardDatabase.DatabaseUtilities.GetPrintingsByEnglishTitle(title);
-+		if (printingsByLocalizedTitle == null || readOnlyList.Count == 0)
++		if (printingsByLocalizedTitle == null || printingsByLocalizedTitle.Count == 0)
 +		{
 +			printingsByLocalizedTitle = cardDatabase.DatabaseUtilities.GetPrintingsByLocalizedTitle(title);
 +		}
