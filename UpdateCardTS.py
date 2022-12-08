@@ -90,6 +90,7 @@ if __name__ == "__main__":
         # patch the conflicting SubtypeTextId
         for oldKey, NewKey in SubtypeTextPatchRules.items():
             cardDBCursor.execute('UPDATE Cards SET SubtypeTextId = ? WHERE SubtypeTextId = ?;', (NewKey, oldKey))
+            cardDBCursor.execute('UPDATE Enums SET LocId = ? WHERE LocId = ?;', (NewKey, oldKey))
 
         # 'GC' database file
         cardDBConnect.isolation_level = None
