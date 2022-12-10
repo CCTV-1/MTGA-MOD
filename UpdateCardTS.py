@@ -12,9 +12,7 @@ ExtraLocalizationTexts: dict[int:dict[str, str]] = {
     9000001: {'enUS': 'Manticore', 'jaJP': '翼狮'},
     9000002: {'enUS': 'Zombie Ogre', 'jaJP': '灵俑／食人魔'},
     9000003: {'enUS': 'Skeleton Archer', 'jaJP': '骷髅妖／弓箭手'},
-    9000004: {'enUS': 'Dragon Egg', 'jaJP': '龙／蛋'},
-    9000005: {'enUS': 'Urza\'s Mine', 'jaJP': '克撒的／矿脉'},
-    9000006: {'enUS': 'Urza\'s Tower', 'jaJP': '克撒的／塔'},
+    9000004: {'enUS': 'Dragon Egg', 'jaJP': '龙／蛋'}
 }
 
 # old SubtypeTextId : new SubtypeTextId
