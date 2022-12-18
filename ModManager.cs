@@ -22,6 +22,7 @@ public class ModManager
 				if (ModManager.instance == null)
 				{
 					ModManager.instance = new ModManager();
+					ModManager.instance.enUSFont = TMP_Settings.defaultFontAsset;
 					if (ModManager.instance.config == null)
 					{
 						try
@@ -48,7 +49,7 @@ public class ModManager
 							}
 							if (ModManager.instance.config.draftDeckColor != DraftDeckColor.NONE)
 							{
-								ModManager.apiUri = string.Format("{0&colors={1}", new object[]
+								ModManager.apiUri = string.Format("{0}&colors={1}", new object[]
 								{
 									ModManager.apiUri,
 									ModManager.instance.config.draftDeckColor.ToString("G")
@@ -66,9 +67,17 @@ public class ModManager
 						AssetBundle assetBundle = AssetBundle.LoadFromFile(Application.dataPath + "/" + fontFileName);
 						if (assetBundle == null)
 						{
-							Debug.LogWarning(Application.dataPath + "/" + fontFileName + " don't exist");
+							ModManager.instance.zhCNFont = ModManager.instance.enUSFont;
+							Debug.LogWarning(string.Format("{0}/{1} don't exist,use game default font:\"{2}\".", new object[]{
+								Application.dataPath,
+								fontFileName,
+								ModManager.instance.enUSFont.name
+							}));
 						}
-						ModManager.instance.zhCNFont = assetBundle.LoadAsset<TMP_FontAsset>(fontFileName + " SDF");
+						else
+						{
+							ModManager.instance.zhCNFont = assetBundle.LoadAsset<TMP_FontAsset>(fontFileName + " SDF");
+						}
 					}
 				}
 			}
@@ -143,6 +152,7 @@ public class ModManager
 	}
 
 	public TMP_FontAsset zhCNFont;
+	public TMP_FontAsset enUSFont;
 
 	private static ModManager instance = null;
 
