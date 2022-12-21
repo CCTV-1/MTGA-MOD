@@ -166,7 +166,19 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 		private void SuggestLand()
 		{
 			List<CardList.CardPrintingQuantity> filteredMainDeck = _model.GetFilteredMainDeck();
-			Dictionary<ManaColor, uint> suggesContent = BasicLandSuggester.Calculate(filteredMainDeck, _context.Format);
+			List<CardList.CardPrintingQuantity> filteredCommandZone = _model.GetFilteredCommandZone();
+			IEnumerable<CardList.CardPrintingQuantity> cards;
+			if (filteredCommandZone == null)
+			{
+				IEnumerable<CardList.CardPrintingQuantity> enumerable = filteredMainDeck;
+				cards = enumerable;
+			}
+			else
+			{
+				cards = filteredMainDeck.Concat(filteredCommandZone);
+			}
+
+			Dictionary<ManaColor, uint> suggesContent = BasicLandSuggester.Calculate(cards, _context.Format);
 			List<uint> list = new List<uint>();
 			foreach (CardList.CardPrintingQuantity item2 in filteredMainDeck)
 			{
@@ -185,6 +197,7 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 			foreach (KeyValuePair<ManaColor, uint> suggestion in suggesContent)
 			{
 				ManaColor suggestionColor = suggestion.Key;
+				CardPrintingData cardPrintingData = null;
 				uint defaultLandId = 0;
 				switch (suggestionColor)
 				{
@@ -230,7 +243,24 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 				//if player not own seleced land,failback to use he last obtained land.
 				if (!_inventoryManager.Cards.TryGetValue(defaultLandId, out var cardQuantity) || (cardQuantity <= 0))
 				{
-					defaultLandId = _cardDatabase.DatabaseUtilities.GetPrimaryPrintings().LastOrDefault((CardPrintingData kvp) => kvp.IsBasicLandUnlimited && kvp.ColorIdentity.FirstOrDefault().ToManaColor() == suggestion.Key && _inventoryManager.Cards.TryGetValue(kvp.GrpId, out var cardQuantity) && cardQuantity > 0).GrpId;
+					cardPrintingData = _cardDatabase.DatabaseUtilities.GetPrimaryPrintings().LastOrDefault((CardPrintingData kvp) => kvp.IsBasicLandUnlimited && kvp.ColorIdentity.FirstOrDefault().ToManaColor() == suggestion.Key && _inventoryManager.Cards.TryGetValue(kvp.GrpId, out var cardQuantity) && cardQuantity > 0);
+
+					if (cardPrintingData == null && key == ManaColor.ManaColor_None)
+					{
+						if (_context.IsConstructed)
+						{
+							cardPrintingData = _cardDatabase.DatabaseUtilities.GetPrimaryPrintings().LastOrDefault((CardPrintingData kvp) => kvp.IsBasicLand && kvp.ColorIdentity.FirstOrDefault().ToManaColor() == ManaColor.ManaColor_None && _inventoryManager.Cards.TryGetValue(kvp.GrpId, out var value4) && value4 > 0);
+						}
+						if (cardPrintingData == null)
+						{
+							cardPrintingData = _cardDatabase.DatabaseUtilities.GetPrimaryPrintings().LastOrDefault((CardPrintingData kvp) => kvp.IsBasicLandUnlimited && kvp.ColorIdentity.FirstOrDefault().ToManaColor() == ManaColor.ManaColor_White && _inventoryManager.Cards.TryGetValue(kvp.GrpId, out var value3) && value3 > 0);
+						}
+					}
+					if (cardPrintingData == null)
+					{
+						continue;
+					}
+					defaultLandId = cardPrintingData.GrpId
 				}
 				for (int k = 0; k < suggestion.Value; k++)
 				{
