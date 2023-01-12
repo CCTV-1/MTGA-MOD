@@ -61,23 +61,23 @@ public class ModManager
 							ModManager.instance.config = new ModManager.ModConfig();
 						}
 					}
-					if (ModManager.instance.zhCNFont == null)
+				}
+				if (ModManager.instance.zhCNFont == null)
+				{
+					string fontFileName = ModManager.instance.config.fontName;
+					AssetBundle assetBundle = AssetBundle.LoadFromFile(Application.dataPath + "/" + fontFileName);
+					if (assetBundle == null)
 					{
-						string fontFileName = ModManager.instance.config.fontName;
-						AssetBundle assetBundle = AssetBundle.LoadFromFile(Application.dataPath + "/" + fontFileName);
-						if (assetBundle == null)
-						{
-							ModManager.instance.zhCNFont = ModManager.instance.enUSFont;
-							Debug.LogWarning(string.Format("{0}/{1} don't exist,use game default font:\"{2}\".", new object[]{
-								Application.dataPath,
-								fontFileName,
-								ModManager.instance.enUSFont.name
-							}));
-						}
-						else
-						{
-							ModManager.instance.zhCNFont = assetBundle.LoadAsset<TMP_FontAsset>(fontFileName + " SDF");
-						}
+						ModManager.instance.zhCNFont = ModManager.instance.enUSFont;
+						Debug.LogWarning(string.Format("{0}/{1} don't exist,use game default font:\"{2}\".", new object[]{
+							Application.dataPath,
+							fontFileName,
+							ModManager.instance.enUSFont.name
+						}));
+					}
+					else
+					{
+						ModManager.instance.zhCNFont = assetBundle.LoadAsset<TMP_FontAsset>(fontFileName + " SDF");
 					}
 				}
 			}
