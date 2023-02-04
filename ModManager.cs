@@ -16,13 +16,11 @@ public class ModManager
 	{
 		get
 		{
-			object obj = ModManager.lockObj;
-			lock (obj)
+			lock (ModManager.lockObj)
 			{
 				if (ModManager.instance == null)
 				{
 					ModManager.instance = new ModManager();
-					ModManager.instance.enUSFont = TMP_Settings.defaultFontAsset;
 					if (ModManager.instance.config == null)
 					{
 						try
@@ -62,24 +60,6 @@ public class ModManager
 						}
 					}
 				}
-				if (ModManager.instance.zhCNFont == null)
-				{
-					string fontFileName = ModManager.instance.config.fontName;
-					AssetBundle assetBundle = AssetBundle.LoadFromFile(Application.dataPath + "/" + fontFileName);
-					if (assetBundle == null)
-					{
-						ModManager.instance.zhCNFont = ModManager.instance.enUSFont;
-						Debug.LogWarning(string.Format("{0}/{1} don't exist,use game default font:\"{2}\".", new object[]{
-							Application.dataPath,
-							fontFileName,
-							ModManager.instance.enUSFont.name
-						}));
-					}
-					else
-					{
-						ModManager.instance.zhCNFont = assetBundle.LoadAsset<TMP_FontAsset>(fontFileName + " SDF");
-					}
-				}
 			}
 			return ModManager.instance;
 		}
@@ -91,20 +71,17 @@ public class ModManager
 		{
 			return null;
 		}
-		if (!ModManager.cardRankMap.TryGetValue(setCode + "_" + draftType, out Dictionary<string, double> eventCardRankMap))
+		if (!this.cardRankMap.TryGetValue(setCode + "_" + draftType, out Dictionary<string, double> eventCardRankMap))
 		{
 			bool exist = false;
 			lock (ModManager.lockObj)
 			{
-				exist = ModManager.fetchingTask.ContainsKey(setCode + "_" + draftType);
-			}
-			if (!exist)
-			{
-				lock (ModManager.lockObj)
+				exist = this.fetchingTask.ContainsKey(setCode + "_" + draftType);
+				if (!exist)
 				{
-					ModManager.fetchingTask[setCode + "_" + draftType] = true;
+					this.fetchingTask[setCode + "_" + draftType] = true;
+					this.fetchCardRankInfo(setCode, draftType);
 				}
-				this.fetchCardRankInfo(setCode, draftType);
 			}
 			return null;
 		}
@@ -123,7 +100,7 @@ public class ModManager
 
 		try
 		{
-			string responseBody = await ModManager.client.GetStringAsync(requestUrl);
+			string responseBody = await this.client.GetStringAsync(requestUrl);
 			responseBody = string.Format("{{ \"data\": {0}}}", responseBody);
 			ModManager.CardInfoList rankList = JsonUtility.FromJson<ModManager.CardInfoList>(responseBody);
 			if (rankList != null)
@@ -138,7 +115,7 @@ public class ModManager
 						eventCardRankMap[cardInfo.name] = iwd;
 					}
 				}
-				ModManager.cardRankMap[setCode + "_" + draftModeName] = eventCardRankMap;
+				this.cardRankMap[setCode + "_" + draftModeName] = eventCardRankMap;
 			}
 		}
 		catch (HttpRequestException e)
@@ -147,32 +124,51 @@ public class ModManager
 		}
 		lock (ModManager.lockObj)
 		{
-			ModManager.fetchingTask.Remove(setCode + "_" + draftModeName);
+			this.fetchingTask.Remove(setCode + "_" + draftModeName);
 		}
 	}
 
-	public TMP_FontAsset zhCNFont;
-	public TMP_FontAsset enUSFont;
+	public TMP_FontAsset zhCNFont
+	{
+		get
+		{
+			if (this.modFont == null)
+			{
+				string fontFileName = this.config.fontName;
+				AssetBundle assetBundle = AssetBundle.LoadFromFile(Application.dataPath + "/" + fontFileName);
+				if (assetBundle == null)
+				{
+					this.modFont = TMP_Settings.defaultFontAsset;
+					Debug.LogWarning(string.Format("{0}/{1} don't exist,use game default font:\"{2}\".", new object[]{
+						Application.dataPath,
+						fontFileName,
+						this.modFont.name
+					}));
+				}
+				else
+				{
+					this.modFont = assetBundle.LoadAsset<TMP_FontAsset>(fontFileName + " SDF");
+				}
+			}
 
-	private static ModManager instance = null;
-
-	private static readonly object lockObj = new object();
-
-	private static string configFilePath = Application.dataPath + "/modconfig.json";
+			return this.modFont;
+		}
+	}
 
 	public ModManager.ModConfig config;
 
-	// <eventName, <cardName, cardIWD>>
-	private static Dictionary<string, Dictionary<string, double>> cardRankMap = new Dictionary<string, Dictionary<string, double>>();
-	private static Dictionary<string, bool> fetchingTask = new Dictionary<string, bool>();
-
+	private static ModManager instance = null;
+	private static readonly object lockObj = new object();
+	private static string configFilePath = Application.dataPath + "/modconfig.json";
 	private static string startDate = "2016-09-01";
-
 	private static string endDate = DateTime.Now.ToString("yyyy-MM-dd");
-
 	private static string apiUri = "https://www.17lands.com/card_ratings/data?expansion={0}&format={1}&start_date={2}&end_date={3}";
 
-	private static readonly HttpClient client = new HttpClient();
+	private TMP_FontAsset modFont = null;
+	// <eventName, <cardName, cardIWD>>
+	private Dictionary<string, Dictionary<string, double>> cardRankMap = new Dictionary<string, Dictionary<string, double>>();
+	private Dictionary<string, bool> fetchingTask = new Dictionary<string, bool>();
+	private HttpClient client = new HttpClient();
 
 	public enum UserSkillLevel : uint
 	{
