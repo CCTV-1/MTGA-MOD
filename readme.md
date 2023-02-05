@@ -85,21 +85,21 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 
 	然后将`MatchManager::PlayerInfo.ScreenName`修改为：
 	```csharp
-		public string ScreenName
+	public string ScreenName
+	{
+		get
 		{
-			get
+			if (MMRMap.Instance.cache.ContainsKey(_screenName))
 			{
-				if (MMRMap.Instance.cache.ContainsKey(_screenName))
-				{
-					return _screenName + "(" + MMRMap.Instance.cache[_screenName] + ")";
-				}
-				return _screenName;
+				return _screenName + "(" + MMRMap.Instance.cache[_screenName] + ")";
 			}
-			set
-			{
-				_screenName = value;
-			}
+			return _screenName;
 		}
+		set
+		{
+			_screenName = value;
+		}
+	}
 	```
 
 3. 修改`Wotc.Mtga.Wrapper.Draft.DraftContentController::SettingCards_OnComplete`为以下所示，使轮抓过程中始终显示玩家收藏情况：
@@ -133,308 +133,308 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 
 5. 修改`CardUtilities.IsCardCraftable`函数为总是返回`true`，解除某些单卡不可使用野卡合成的限制(有封号风险)。
 	```csharp
-		private void RefreshCraftMode()
+	private void RefreshCraftMode()
+	{
+		/*无关代码，省略*/
+		if (this._printingData.IsBasicLand)
 		{
-			/*无关代码，省略*/
-			if (this._printingData.IsBasicLand)
-			{
-				list.Add(Languages.ActiveLocProvider.GetLocalizedText("SystemMessage/System_Invalid_Redemption_Text", Array.Empty<ValueTuple<string, string>>()));
-			}
-			else if (!CardUtilities.IsCardCraftable(this._printingData))
-			{
-				flag3 = true;
-				list.Add(Languages.ActiveLocProvider.GetLocalizedText("SystemMessage/System_Invalid_Redemption_Text", Array.Empty<ValueTuple<string, string>>()));
-			}
-			else if (this._collectedQuantity < 4)
-			{
-				flag3 = true;
-				flag4 = true;
-				/*无关代码，省略*/
-			}
-			/*无关代码，省略*/
-			this._craftButton.gameObject.SetActive(flag4);
-			if (flag4)
-			{
-				this._craftButton.Interactable = flag5;
-			}
+			list.Add(Languages.ActiveLocProvider.GetLocalizedText("SystemMessage/System_Invalid_Redemption_Text", Array.Empty<ValueTuple<string, string>>()));
+		}
+		else if (!CardUtilities.IsCardCraftable(this._printingData))
+		{
+			flag3 = true;
+			list.Add(Languages.ActiveLocProvider.GetLocalizedText("SystemMessage/System_Invalid_Redemption_Text", Array.Empty<ValueTuple<string, string>>()));
+		}
+		else if (this._collectedQuantity < 4)
+		{
+			flag3 = true;
+			flag4 = true;
 			/*无关代码，省略*/
 		}
+		/*无关代码，省略*/
+		this._craftButton.gameObject.SetActive(flag4);
+		if (flag4)
+		{
+			this._craftButton.Interactable = flag5;
+		}
+		/*无关代码，省略*/
+	}
 	```
 
 6. 修改`DeckBuilderWidget::SuggestLand`以支持设置默认基本地。
 	```csharp
-		private void SuggestLand()
+	private void SuggestLand()
+	{
+		List<CardList.CardPrintingQuantity> filteredMainDeck = _model.GetFilteredMainDeck();
+		List<CardList.CardPrintingQuantity> filteredCommandZone = _model.GetFilteredCommandZone();
+		IEnumerable<CardList.CardPrintingQuantity> cards;
+		if (filteredCommandZone == null)
 		{
-			List<CardList.CardPrintingQuantity> filteredMainDeck = _model.GetFilteredMainDeck();
-			List<CardList.CardPrintingQuantity> filteredCommandZone = _model.GetFilteredCommandZone();
-			IEnumerable<CardList.CardPrintingQuantity> cards;
-			if (filteredCommandZone == null)
-			{
-				IEnumerable<CardList.CardPrintingQuantity> enumerable = filteredMainDeck;
-				cards = enumerable;
-			}
-			else
-			{
-				cards = filteredMainDeck.Concat(filteredCommandZone);
-			}
+			IEnumerable<CardList.CardPrintingQuantity> enumerable = filteredMainDeck;
+			cards = enumerable;
+		}
+		else
+		{
+			cards = filteredMainDeck.Concat(filteredCommandZone);
+		}
 
-			Dictionary<ManaColor, uint> suggesContent = BasicLandSuggester.Calculate(cards, _context.Format);
-			List<uint> list = new List<uint>();
-			foreach (CardList.CardPrintingQuantity item2 in filteredMainDeck)
+		Dictionary<ManaColor, uint> suggesContent = BasicLandSuggester.Calculate(cards, _context.Format);
+		List<uint> list = new List<uint>();
+		foreach (CardList.CardPrintingQuantity item2 in filteredMainDeck)
+		{
+			if (item2.Printing.IsBasicLandUnlimited || IsSuggestibleWaste(item2))
 			{
-				if (item2.Printing.IsBasicLandUnlimited || IsSuggestibleWaste(item2))
+				for (int j = 0; j < item2.Quantity; j++)
 				{
-					for (int j = 0; j < item2.Quantity; j++)
-					{
-						list.Add(item2.Printing.GrpId);
-					}
+					list.Add(item2.Printing.GrpId);
 				}
 			}
-			foreach (uint item3 in list)
+		}
+		foreach (uint item3 in list)
+		{
+			_model.RemoveCardFromMainDeck(item3);
+		}
+		foreach (KeyValuePair<ManaColor, uint> suggestion in suggesContent)
+		{
+			ManaColor suggestionColor = suggestion.Key;
+			CardPrintingData cardPrintingData = null;
+			uint defaultLandId = 0;
+			switch (suggestionColor)
 			{
-				_model.RemoveCardFromMainDeck(item3);
-			}
-			foreach (KeyValuePair<ManaColor, uint> suggestion in suggesContent)
-			{
-				ManaColor suggestionColor = suggestion.Key;
-				CardPrintingData cardPrintingData = null;
-				uint defaultLandId = 0;
-				switch (suggestionColor)
+				case ManaColor.ManaColor_White:
 				{
-					case ManaColor.ManaColor_White:
+					defaultLandId = ModManager.Instance.config.plainsId;
+					break;
+				}
+				case ManaColor.ManaColor_Blue:
+				{
+					defaultLandId = ModManager.Instance.config.islandId;
+					break;
+				}
+				case ManaColor.ManaColor_Black:
+				{
+					defaultLandId = ModManager.Instance.config.swampId;
+					break;
+				}
+				case ManaColor.ManaColor_Red:
+				{
+					defaultLandId = ModManager.Instance.config.mountainId;
+					break;
+				}
+				case ManaColor.ManaColor_Green:
+				{
+					defaultLandId = ModManager.Instance.config.forestId;
+					break;
+				}
+				case ManaColor.ManaColor_None:
+				default:
+				{
+					if (this._context.IsConstructed)
+					{
+						defaultLandId = ModManager.Instance.config.wasteId;
+					}
+					else
 					{
 						defaultLandId = ModManager.Instance.config.plainsId;
-						break;
 					}
-					case ManaColor.ManaColor_Blue:
-					{
-						defaultLandId = ModManager.Instance.config.islandId;
-						break;
-					}
-					case ManaColor.ManaColor_Black:
-					{
-						defaultLandId = ModManager.Instance.config.swampId;
-						break;
-					}
-					case ManaColor.ManaColor_Red:
-					{
-						defaultLandId = ModManager.Instance.config.mountainId;
-						break;
-					}
-					case ManaColor.ManaColor_Green:
-					{
-						defaultLandId = ModManager.Instance.config.forestId;
-						break;
-					}
-					case ManaColor.ManaColor_None:
-					default:
-					{
-						if (this._context.IsConstructed)
-						{
-							defaultLandId = ModManager.Instance.config.wasteId;
-						}
-						else
-						{
-							defaultLandId = ModManager.Instance.config.plainsId;
-						}
-						break;
-					}
+					break;
 				}
-				//if player not own seleced land,failback to use he last obtained land.
-				if (!_inventoryManager.Cards.TryGetValue(defaultLandId, out var cardQuantity) || (cardQuantity <= 0))
-				{
-					cardPrintingData = _cardDatabase.DatabaseUtilities.GetPrimaryPrintings().LastOrDefault((CardPrintingData kvp) => kvp.IsBasicLandUnlimited && kvp.ColorIdentity.FirstOrDefault().ToManaColor() == suggestion.Key && _inventoryManager.Cards.TryGetValue(kvp.GrpId, out var cardQuantity) && cardQuantity > 0);
+			}
+			//if player not own seleced land,failback to use he last obtained land.
+			if (!_inventoryManager.Cards.TryGetValue(defaultLandId, out var cardQuantity) || (cardQuantity <= 0))
+			{
+				cardPrintingData = _cardDatabase.DatabaseUtilities.GetPrimaryPrintings().LastOrDefault((CardPrintingData kvp) => kvp.IsBasicLandUnlimited && kvp.ColorIdentity.FirstOrDefault().ToManaColor() == suggestion.Key && _inventoryManager.Cards.TryGetValue(kvp.GrpId, out var cardQuantity) && cardQuantity > 0);
 
-					if (cardPrintingData == null && key == ManaColor.ManaColor_None)
+				if (cardPrintingData == null && key == ManaColor.ManaColor_None)
+				{
+					if (_context.IsConstructed)
 					{
-						if (_context.IsConstructed)
-						{
-							cardPrintingData = _cardDatabase.DatabaseUtilities.GetPrimaryPrintings().LastOrDefault((CardPrintingData kvp) => kvp.IsBasicLand && kvp.ColorIdentity.FirstOrDefault().ToManaColor() == ManaColor.ManaColor_None && _inventoryManager.Cards.TryGetValue(kvp.GrpId, out var value4) && value4 > 0);
-						}
-						if (cardPrintingData == null)
-						{
-							cardPrintingData = _cardDatabase.DatabaseUtilities.GetPrimaryPrintings().LastOrDefault((CardPrintingData kvp) => kvp.IsBasicLandUnlimited && kvp.ColorIdentity.FirstOrDefault().ToManaColor() == ManaColor.ManaColor_White && _inventoryManager.Cards.TryGetValue(kvp.GrpId, out var value3) && value3 > 0);
-						}
+						cardPrintingData = _cardDatabase.DatabaseUtilities.GetPrimaryPrintings().LastOrDefault((CardPrintingData kvp) => kvp.IsBasicLand && kvp.ColorIdentity.FirstOrDefault().ToManaColor() == ManaColor.ManaColor_None && _inventoryManager.Cards.TryGetValue(kvp.GrpId, out var value4) && value4 > 0);
 					}
 					if (cardPrintingData == null)
 					{
-						continue;
+						cardPrintingData = _cardDatabase.DatabaseUtilities.GetPrimaryPrintings().LastOrDefault((CardPrintingData kvp) => kvp.IsBasicLandUnlimited && kvp.ColorIdentity.FirstOrDefault().ToManaColor() == ManaColor.ManaColor_White && _inventoryManager.Cards.TryGetValue(kvp.GrpId, out var value3) && value3 > 0);
 					}
-					defaultLandId = cardPrintingData.GrpId
 				}
-				for (int k = 0; k < suggestion.Value; k++)
+				if (cardPrintingData == null)
 				{
-					_model.AddCardToMainDeck(defaultLandId);
+					continue;
 				}
+				defaultLandId = cardPrintingData.GrpId
 			}
-			_model.UpdateMainDeck();
-			_companionUtil.UpdateValidation(_model, _context?.Format);
-			WrapperDeckBuilder.CacheDeck(_model, _context);
-
-			bool IsSuggestibleWaste(CardList.CardPrintingQuantity card)
+			for (int k = 0; k < suggestion.Value; k++)
 			{
-				if (_context.IsConstructed && card.Printing.IsBasicLand)
-				{
-					return card.Printing.ColorIdentity.Count == 0;
-				}
-				return false;
+				_model.AddCardToMainDeck(defaultLandId);
 			}
 		}
+		_model.UpdateMainDeck();
+		_companionUtil.UpdateValidation(_model, _context?.Format);
+		WrapperDeckBuilder.CacheDeck(_model, _context);
+
+		bool IsSuggestibleWaste(CardList.CardPrintingQuantity card)
+		{
+			if (_context.IsConstructed && card.Printing.IsBasicLand)
+			{
+				return card.Printing.ColorIdentity.Count == 0;
+			}
+			return false;
+		}
+	}
 	```
 
 7. 修改`WrapperDeckBuilder::OnNewDeck`和`DeckManagerController::OnCreateDeck`以支持指定套牌的默认赛制。
    ```csharp
-		public void OnNewDeck()
+	public void OnNewDeck()
+	{
+		if (!_decksManager.ShowDeckLimitError())
 		{
-			if (!_decksManager.ShowDeckLimitError())
-			{
-				//GetDefaultFormat() ==> GetSafeFormat(ModManager.Instance.config.defaultFormat)
-				DeckBuilderContext context = new DeckBuilderContext(DeckServiceWrapperHelpers.ToAzureModel(_formatManager.GetSafeFormat(ModManager.Instance.config.defaultFormat).NewDeck(_decksManager)), null, sideboarding: false, firstEdit: true, DeckBuilderMode.DeckBuilding, ambiguousFormat: true);
-				SceneLoader.GetSceneLoader().GoToDeckBuilder(context, reloadIfAlreadyLoaded: true);
-				AudioManager.PlayAudio(WwiseEvents.sfx_ui_generic_click, base.gameObject);
-			}
+			//GetDefaultFormat() ==> GetSafeFormat(ModManager.Instance.config.defaultFormat)
+			DeckBuilderContext context = new DeckBuilderContext(DeckServiceWrapperHelpers.ToAzureModel(_formatManager.GetSafeFormat(ModManager.Instance.config.defaultFormat).NewDeck(_decksManager)), null, sideboarding: false, firstEdit: true, DeckBuilderMode.DeckBuilding, ambiguousFormat: true);
+			SceneLoader.GetSceneLoader().GoToDeckBuilder(context, reloadIfAlreadyLoaded: true);
+			AudioManager.PlayAudio(WwiseEvents.sfx_ui_generic_click, base.gameObject);
 		}
+	}
 
-		private void OnCreateDeck()
+	private void OnCreateDeck()
+	{
+		if (!_decksManager.ShowDeckLimitError())
 		{
-			if (!_decksManager.ShowDeckLimitError())
+			string createsFormat = _deckBuckets[_selectedBucket].CreatesFormat;
+			if (_selectedBucket == 0)
 			{
-				string createsFormat = _deckBuckets[_selectedBucket].CreatesFormat;
-				if (_selectedBucket == 0)
-				{
-					createsFormat = ModManager.Instance.config.defaultFormat;
-				}
-				Client_Deck deck = _formatManager.GetSafeFormat(createsFormat).NewDeck(_decksManager);
-				New_GoToDeckBuilder(deck, FormatUtilities.IsAmbiguous(createsFormat));
+				createsFormat = ModManager.Instance.config.defaultFormat;
 			}
+			Client_Deck deck = _formatManager.GetSafeFormat(createsFormat).NewDeck(_decksManager);
+			New_GoToDeckBuilder(deck, FormatUtilities.IsAmbiguous(createsFormat));
 		}
+	}
    ```
 
 8. 给`Meta_CDC`添加`ShowCardRankInfo`函数并修改`Wotc.Mtga.Wrapper.Draft.DraftContentController::UpdateCardCollectionInfo`和`Wotc.Mtga.Wrapper.Draft::HumanDraftPod`的构造函数为如下所示，显示从`17Lands`获取的牌张`IWD`信息。
 	```csharp
-		public virtual void ShowCardRankInfo(bool active, string IWDInfo = "???")
+	public virtual void ShowCardRankInfo(bool active, string IWDInfo = "???")
+	{
+		_collectionAnchor.UpdateActive(active);
+		if (active)
 		{
-			_collectionAnchor.UpdateActive(active);
-			if (active)
-			{
-				_collectionCheckMark.UpdateActive(active: false);
-				_collectionText.transform.parent.gameObject.UpdateActive(active: true);
-				this._collectionText.SetText(IWDInfo, true);
-			}
+			_collectionCheckMark.UpdateActive(active: false);
+			_collectionText.transform.parent.gameObject.UpdateActive(active: true);
+			this._collectionText.SetText(IWDInfo, true);
 		}
+	}
 
 
-		public HumanDraftPod(IEventsServiceWrapper eventsServiceWrapper, WGS.Logging.ILogger logger, BILogger biLogger, string eventId, string draftId = null)
+	public HumanDraftPod(IEventsServiceWrapper eventsServiceWrapper, WGS.Logging.ILogger logger, BILogger biLogger, string eventId, string draftId = null)
+	{
+		this._eventsServiceWrapper = eventsServiceWrapper;
+		this._logger = logger;
+		this._biLogger = biLogger;
+		eventsServiceWrapper.AddDraftNotificationCallback(new Action<DraftNotification>(this.OnMsg_DraftNotification));
+		this._eventId = eventId;
+		//BotDraftPod::SetDraftState会设置InternalEventName而HumanDraftPod并不设置，所以要额外添加此行为
+		this.InternalEventName = eventId;
+		this.DraftState = DraftState.Podmaking;
+		this.DraftId = draftId;
+	}
+
+	private void UpdateCardCollectionInfo(bool show)
+	{
+		_showCollectionInfo = show;
+		if (!show)
 		{
-			this._eventsServiceWrapper = eventsServiceWrapper;
-			this._logger = logger;
-			this._biLogger = biLogger;
-			eventsServiceWrapper.AddDraftNotificationCallback(new Action<DraftNotification>(this.OnMsg_DraftNotification));
-			this._eventId = eventId;
-			//BotDraftPod::SetDraftState会设置InternalEventName而HumanDraftPod并不设置，所以要额外添加此行为
-			this.InternalEventName = eventId;
-			this.DraftState = DraftState.Podmaking;
-			this.DraftId = draftId;
-		}
-
-		private void UpdateCardCollectionInfo(bool show)
-		{
-			_showCollectionInfo = show;
-			if (!show)
-			{
-				foreach (DraftPackCardView cardView in _draftPackHolder.GetAllCardViews())
-				{
-					_inventoryManager.Cards.TryGetValue(cardView.Card.GrpId, out var value);
-					value += _deck.MainDeckIds.Count((uint id) => id == cardView.Card.GrpId);
-					value += _deck.SideboardIds.Count((uint id) => id == cardView.Card.GrpId);
-					int maxCollected = (int)cardView.Card.Printing.MaxCollected;
-					cardView.CardView.ShowCollectionInfo(active: true, Math.Min(value, maxCollected), maxCollected);
-				}
-				return ;
-			}
-
-			if (this._draftPod.InternalEventName == null)
-			{
-				return;
-			}
-			//QuickDraft_DMU_20221014
-			string[] draftInfo = this._draftPod.InternalEventName.Split('_');
-			Dictionary<string, double> rankInfo = ModManager.Instance.getCardRankMap(draftInfo[1], draftInfo[0]);
-			if (rankInfo == null)
-			{
-				return;
-			}
-
 			foreach (DraftPackCardView cardView in _draftPackHolder.GetAllCardViews())
 			{
-				string cardName = this._cardDatabase.CardTitleProvider.GetCardTitle(cardView.Card.GrpId, true, "en-US");
-				string iwdString = "???";
-				double iwd;
-				if (rankInfo.TryGetValue(cardName, out iwd))
-				{
-					if (iwd <= 0.0)
-					{
-						iwdString = "<color=\"red\"><size=90%>" + iwd.ToString("F1");
-					}
-					else
-					{
-						iwdString = "<color=\"green\"><size=90%>" + iwd.ToString("F1");
-					}
-				}
-				cardView.CardView.ShowCardRankInfo(active: true, iwdString);
+				_inventoryManager.Cards.TryGetValue(cardView.Card.GrpId, out var value);
+				value += _deck.MainDeckIds.Count((uint id) => id == cardView.Card.GrpId);
+				value += _deck.SideboardIds.Count((uint id) => id == cardView.Card.GrpId);
+				int maxCollected = (int)cardView.Card.Printing.MaxCollected;
+				cardView.CardView.ShowCollectionInfo(active: true, Math.Min(value, maxCollected), maxCollected);
 			}
+			return ;
 		}
+
+		if (this._draftPod.InternalEventName == null)
+		{
+			return;
+		}
+		//QuickDraft_DMU_20221014
+		string[] draftInfo = this._draftPod.InternalEventName.Split('_');
+		Dictionary<string, double> rankInfo = ModManager.Instance.getCardRankMap(draftInfo[1], draftInfo[0]);
+		if (rankInfo == null)
+		{
+			return;
+		}
+
+		foreach (DraftPackCardView cardView in _draftPackHolder.GetAllCardViews())
+		{
+			string cardName = this._cardDatabase.CardTitleProvider.GetCardTitle(cardView.Card.GrpId, true, "en-US");
+			string iwdString = "???";
+			double iwd;
+			if (rankInfo.TryGetValue(cardName, out iwd))
+			{
+				if (iwd <= 0.0)
+				{
+					iwdString = "<color=\"red\"><size=90%>" + iwd.ToString("F1");
+				}
+				else
+				{
+					iwdString = "<color=\"green\"><size=90%>" + iwd.ToString("F1");
+				}
+			}
+			cardView.CardView.ShowCardRankInfo(active: true, iwdString);
+		}
+	}
 	```
 
 9. 修改`WrapperDeckUtilities::GetPrintingsByLocalizedTitle`使游戏无论在什么语言环境下都支持导入英文牌表。
     ```csharp
-		private static IReadOnlyList<CardPrintingData> GetPrintingsByLocalizedTitle(CardDatabase cardDatabase, string title)
+	private static IReadOnlyList<CardPrintingData> GetPrintingsByLocalizedTitle(CardDatabase cardDatabase, string title)
+	{
+		//先检查是不是英文牌名
+		IReadOnlyList<CardPrintingData> printingsByLocalizedTitle = cardDatabase.DatabaseUtilities.GetPrintingsByEnglishTitle(title);
+		if (printingsByLocalizedTitle == null || printingsByLocalizedTitle.Count == 0)
 		{
-			//先检查是不是英文牌名
-			IReadOnlyList<CardPrintingData> printingsByLocalizedTitle = cardDatabase.DatabaseUtilities.GetPrintingsByEnglishTitle(title);
-			if (printingsByLocalizedTitle == null || printingsByLocalizedTitle.Count == 0)
-			{
-				//不是英文牌名再检查是不是本地语言环境下的牌名
-				printingsByLocalizedTitle = cardDatabase.DatabaseUtilities.GetPrintingsByLocalizedTitle(title);
-			}
-			if (printingsByLocalizedTitle != null)
-			{
-				CardPrintingData cardPrintingData = printingsByLocalizedTitle.FirstOrDefault((CardPrintingData c) => !c.IsPrimaryCard && c.DefunctRebalancedCardLink != 0U && cardDatabase.CardDataProvider.GetCardPrintingById(c.DefunctRebalancedCardLink, null).IsPrimaryCard);
-				if (cardPrintingData != null)
-				{
-					CardPrintingData cardPrintingById = cardDatabase.CardDataProvider.GetCardPrintingById(cardPrintingData.DefunctRebalancedCardLink, null);
-					return cardDatabase.DatabaseUtilities.GetPrintingsByTitleId(cardPrintingById.TitleId);
-				}
-			}
-			return printingsByLocalizedTitle;
+			//不是英文牌名再检查是不是本地语言环境下的牌名
+			printingsByLocalizedTitle = cardDatabase.DatabaseUtilities.GetPrintingsByLocalizedTitle(title);
 		}
+		if (printingsByLocalizedTitle != null)
+		{
+			CardPrintingData cardPrintingData = printingsByLocalizedTitle.FirstOrDefault((CardPrintingData c) => !c.IsPrimaryCard && c.DefunctRebalancedCardLink != 0U && cardDatabase.CardDataProvider.GetCardPrintingById(c.DefunctRebalancedCardLink, null).IsPrimaryCard);
+			if (cardPrintingData != null)
+			{
+				CardPrintingData cardPrintingById = cardDatabase.CardDataProvider.GetCardPrintingById(cardPrintingData.DefunctRebalancedCardLink, null);
+				return cardDatabase.DatabaseUtilities.GetPrintingsByTitleId(cardPrintingById.TitleId);
+			}
+		}
+		return printingsByLocalizedTitle;
+	}
 	```
 
 10. 修改`WrapperDeckUtilities::ToExportString_BySection`、`WrapperDeckUtilities::GetMainLabel`、`WrapperDeckUtilities::GetSideboardLabel`、`WrapperDeckUtilities::GetCommanderLabel`、`WrapperDeckUtilities::GetCompanionLabel`以支持指定游戏无论在什么语言环境下都支持导出英文牌表。
 	```csharp
-		//GetSideboardLabel GetCommanderLabel GetCompanionLabel都是一样的修改
-		private static string GetMainLabel(IClientLocProvider localizationManager)
+	//GetSideboardLabel GetCommanderLabel GetCompanionLabel都是一样的修改
+	private static string GetMainLabel(IClientLocProvider localizationManager)
+	{
+		if (ModManager.Instance.config.alwayExportEnglishDeck)
 		{
-			if (ModManager.Instance.config.alwayExportEnglishDeck)
-			{
-				return localizationManager.GetLocalizedTextForLanguage("MainNav/DeckBuilder/Sideboard_Label", "en-US", Array.Empty<ValueTuple<string, string>>());
-			}
-			return localizationManager.GetLocalizedText("MainNav/DeckBuilder/Deck_Label", Array.Empty<ValueTuple<string, string>>());
+			return localizationManager.GetLocalizedTextForLanguage("MainNav/DeckBuilder/Sideboard_Label", "en-US", Array.Empty<ValueTuple<string, string>>());
 		}
+		return localizationManager.GetLocalizedText("MainNav/DeckBuilder/Deck_Label", Array.Empty<ValueTuple<string, string>>());
+	}
 
-		private static void ToExportString_BySection(StringBuilder builder, List<CardInDeck> cardCollection, ICardDatabaseAdapter db)
+	private static void ToExportString_BySection(StringBuilder builder, List<CardInDeck> cardCollection, ICardDatabaseAdapter db)
+	{
+		string overrideLangCode = null;
+		if (ModManager.Instance.config.alwayExportEnglishDeck)
 		{
-			string overrideLangCode = null;
-			if (ModManager.Instance.config.alwayExportEnglishDeck)
-			{
-				overrideLangCode = "en-US";
-			}
-			foreach (CardInDeck item in cardCollection)
-			{
-				CardPrintingData cardPrintingById = db.CardDataProvider.GetCardPrintingById(item.Id);
-				builder.AppendLine(string.Format("{0} {1} ({2}) {3}", item.Quantity, (Languages.CurrentLanguage == "ja-JP") ? RemoveFurigana(db.GreLocProvider.GetLocalizedText(cardPrintingById.TitleId, overrideLangCode, formatted: false)) : db.GreLocProvider.GetLocalizedText(cardPrintingById.TitleId, overrideLangCode, formatted: false), cardPrintingById.ExpansionCode, cardPrintingById.CollectorNumber));
-			}
+			overrideLangCode = "en-US";
 		}
+		foreach (CardInDeck item in cardCollection)
+		{
+			CardPrintingData cardPrintingById = db.CardDataProvider.GetCardPrintingById(item.Id);
+			builder.AppendLine(string.Format("{0} {1} ({2}) {3}", item.Quantity, (Languages.CurrentLanguage == "ja-JP") ? RemoveFurigana(db.GreLocProvider.GetLocalizedText(cardPrintingById.TitleId, overrideLangCode, formatted: false)) : db.GreLocProvider.GetLocalizedText(cardPrintingById.TitleId, overrideLangCode, formatted: false), cardPrintingById.ExpansionCode, cardPrintingById.CollectorNumber));
+		}
+	}
 	```
 
 11. 对牌张数据库执行`UPDATE Cards SET AdditionalFrameDetails  = '' WHERE ExpansionCode = "BRR";`以和谐兄弟之战神器秘典牌的过于难看的老框。
