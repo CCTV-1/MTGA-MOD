@@ -245,7 +245,7 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 			{
 				cardPrintingData = _cardDatabase.DatabaseUtilities.GetPrimaryPrintings().LastOrDefault((CardPrintingData kvp) => kvp.IsBasicLandUnlimited && kvp.ColorIdentity.FirstOrDefault().ToManaColor() == suggestion.Key && _inventoryManager.Cards.TryGetValue(kvp.GrpId, out var cardQuantity) && cardQuantity > 0);
 
-				if (cardPrintingData == null && key == ManaColor.ManaColor_None)
+				if (cardPrintingData == null && suggestion.Key == ManaColor.ManaColor_None)
 				{
 					if (_context.IsConstructed)
 					{
@@ -260,7 +260,7 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 				{
 					continue;
 				}
-				defaultLandId = cardPrintingData.GrpId
+				defaultLandId = cardPrintingData.GrpId;
 			}
 			for (int k = 0; k < suggestion.Value; k++)
 			{
