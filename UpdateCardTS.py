@@ -46,20 +46,23 @@ if __name__ == "__main__":
     shutil.copy(DBPath, Config.BACKUP_DIR)
     with sqlite3.connect(DBPath) as cardDBConnect:
         cardDBCursor = cardDBConnect.cursor()
-        for rawRow in cardDBCursor.execute('SELECT LocId,Formatted,KnownTitleId,enUS,jaJP FROM Localizations;'):
+        for rawRow in cardDBCursor.execute('SELECT LocId,Formatted,KnownTitleId,enUS,jaJP,phyrexian FROM Localizations;'):
             RawData[rawRow[0]] = {
                 'Formatted': rawRow[1],
                 'KnownTitleId': rawRow[2],
                 'enUS': rawRow[3],
-                'jaJP': rawRow[4]
+                'jaJP': rawRow[4],
+                'phyrexian': rawRow[5]
             }
 
         # remove useless rows
         cardDBCursor.execute('DROP TABLE Localizations')
         cardDBCursor.execute(
-            'CREATE TABLE Localizations(LocId INT NOT NULL, Formatted INT NOT NULL, KnownTitleId INT,enUS TEXT, jaJP TEXT, PRIMARY KEY (LocId, Formatted));')
-        cardDBCursor.execute(
-            'CREATE UNIQUE INDEX idx_loc ON Localizations (LocId, Formatted);')
+            'CREATE TABLE Localizations(LocId INT NOT NULL, Formatted INT NOT NULL, KnownTitleId INT,enUS TEXT, jaJP TEXT, phyrexian TEXT, PRIMARY KEY (LocId, Formatted));')
+        cardDBCursor.execute('CREATE UNIQUE INDEX idx_loc ON Localizations (LocId, Formatted);')
+        cardDBCursor.execute("CREATE INDEX idx_loc_enUS ON Localizations(enUS);")
+        cardDBCursor.execute("CREATE INDEX idx_loc_jaJP ON Localizations(jaJP);")
+        cardDBCursor.execute("CREATE INDEX idx_loc_phyrexian ON Localizations(phyrexian);")
 
         for rawKey, rawValue in RawData.items():
             strKey = str(rawKey)
@@ -74,13 +77,13 @@ if __name__ == "__main__":
             rawValue['jaJP'] = TSInfo[strKey]['translation']
 
             # write data to database
-            cardDBCursor.execute('INSERT INTO Localizations(LocId, Formatted, KnownTitleId, enUS, jaJP) VALUES(:LocId, :Formatted, :KnownTitleId, :enUS, :jaJP);',
-                                 {'LocId': rawKey, 'Formatted': rawValue['Formatted'], 'KnownTitleId': rawValue['KnownTitleId'], 'enUS': rawValue['enUS'], 'jaJP': rawValue['jaJP']})
+            cardDBCursor.execute('INSERT INTO Localizations(LocId, Formatted, KnownTitleId, enUS, jaJP, phyrexian) VALUES(:LocId, :Formatted, :KnownTitleId, :enUS, :jaJP, :phyrexian);',
+                                 {'LocId': rawKey, 'Formatted': rawValue['Formatted'], 'KnownTitleId': rawValue['KnownTitleId'], 'enUS': rawValue['enUS'], 'jaJP': rawValue['jaJP'], "phyrexian": rawValue['phyrexian']})
 
         # patch extra loc texts
         for locId, row in ExtraLocalizationTexts.items():
-            cardDBCursor.execute('INSERT INTO Localizations(LocId, Formatted, KnownTitleId, enUS, jaJP) VALUES(:LocId, :Formatted, :KnownTitleId, :enUS, :jaJP);',
-                                 {'LocId': locId, 'Formatted': 1, 'KnownTitleId': 1, 'enUS': row['enUS'], 'jaJP': row['jaJP']})
+            cardDBCursor.execute('INSERT INTO Localizations(LocId, Formatted, KnownTitleId, enUS, jaJP, phyrexian) VALUES(:LocId, :Formatted, :KnownTitleId, :enUS, :jaJP, :phyrexian);',
+                                 {'LocId': locId, 'Formatted': 1, 'KnownTitleId': 1, 'enUS': row['enUS'], 'jaJP': row['jaJP'], "phyrexian": ""})
 
         # remove pre-8ed card style
         cardDBCursor.execute('UPDATE Cards SET AdditionalFrameDetails  = \'\' WHERE ExpansionCode = "BRR";')
