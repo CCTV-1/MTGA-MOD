@@ -33,7 +33,7 @@
     },
     "AbilityHanger/AbilityWord/Constellation": {
         "oracleText": "This ability triggers when an enchantment enters the battlefield under your control.",
-        "translation": "当一个结界在你的操控下进入战场时，触发此异能。"
+        "translation": "当一个结界在你的操控下进战场时，触发此异能。"
     },
     "AbilityHanger/AbilityWord/Enrage": {
         "oracleText": "This ability triggers whenever this creature takes damage.",
@@ -45,7 +45,7 @@
     },
     "AbilityHanger/AbilityWord/ForMirrodin_Body": {
         "oracleText": "When this Equipment enters the battlefield, create a 2/2 red Rebel creature token, then attach this to it.",
-        "translation": "当此武具进入战场时，派出一个2/2红色反抗军衍生生物，然后将它贴附于其上。"
+        "translation": "当此武具进战场时，派出一个2/2红色反抗军衍生生物，然后将它贴附于其上。"
     },
     "AbilityHanger/AbilityWord/ForMirrodin_Title": {
         "oracleText": "For Mirrodin!",
@@ -485,7 +485,7 @@
     },
     "AbilityHanger/Keyword/Compleated_Body": {
         "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"{manaCombined}\"> can be paid with <sprite=\"SpriteSheet_ManaIcons\" name=\"{manaType0}\">, <sprite=\"SpriteSheet_ManaIcons\" name=\"{manaType1}\">, or 2 life. If life was paid, this planeswalker enters with two fewer loyalty counters.",
-        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"{manaCombined}\">可以用<sprite=\"SpriteSheet_ManaIcons\" name=\"{manaType0}\">， <sprite=\"SpriteSheet_ManaIcons\" name=\"{manaType1}\">，或2点生命来支付。如果以生命支付，则此鹏洛客进战场时上面少两个忠诚指示物。"
+        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"{manaCombined}\">可以用<sprite=\"SpriteSheet_ManaIcons\" name=\"{manaType0}\">，<sprite=\"SpriteSheet_ManaIcons\" name=\"{manaType1}\">，或2点生命来支付。如果以生命支付，则此鹏洛客进战场时上面少两个忠诚指示物。"
     },
     "AbilityHanger/Keyword/Compleated_Mono_Color_Body": {
         "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xP{color}\" color=\"#FFFFFF\"> can be paid with <sprite=\"SpriteSheet_ManaIcons\" name=\"x{color}\">, or 2 life. If life was paid, this planeswalker enters with two fewer loyalty counters.",
@@ -709,7 +709,7 @@
     },
     "AbilityHanger/Keyword/Enlist_Body": {
         "oracleText": "As this creature attacks, you may tap a nonattacking creature you control without summoning sickness. When you do, add its power to this creature's until end of turn.",
-        "translation": "于此生物攻击时，你可以横置一个由你操控、不具召唤失调且未进行攻击的生物。当你如此作时， 将所横置生物的力量加至此生物直到回合结束。"
+        "translation": "于此生物攻击时，你可以横置一个由你操控、不具召唤失调且未进行攻击的生物。当你如此作时，将所横置生物的力量加至此生物直到回合结束。"
     },
     "AbilityHanger/Keyword/Equip": {
         "oracleText": "You may pay the Equip cost to attach this permanent to target creature you control. Equip only as a sorcery.",
@@ -725,7 +725,7 @@
     },
     "AbilityHanger/Keyword/Evoke": {
         "oracleText": "You may cast this spell for its evoke cost. If you do it's sacrificed when it enters the battlefield.",
-        "translation": "你可以支付呼魂费用来施放此牌。若你如此作，则当此永久物进入战场时将之牺牲。"
+        "translation": "你可以支付此咒语的呼魂费用来施放它。若你如此作，当它进战场时便牺牲之。"
     },
     "AbilityHanger/Keyword/Evolve": {
         "oracleText": "Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.",
@@ -881,7 +881,7 @@
     },
     "AbilityHanger/Keyword/Investigate": {
         "oracleText": "Create a colorless Clue artifact token with \"{o2}, Sacrifice this artifact: Draw a card.\"",
-        "translation": "派出一个无色线索衍生神器，且其具有「{o2}， 牺牲此神器：抓一张牌。」"
+        "translation": "派出一个无色线索衍生神器，且其具有「{o2}，牺牲此神器：抓一张牌。」"
     },
     "AbilityHanger/Keyword/Investigate_Title": {
         "oracleText": "Investigate",
@@ -913,7 +913,7 @@
     },
     "AbilityHanger/Keyword/LivingWeapon_Body": {
         "oracleText": "When this Equipment enters the battlefield, create a 0/0 black Phyrexian Germ creature token, then attach this to it.",
-        "translation": "当此武具进入战场时，派出一个0/0黑色非瑞人/病菌衍生生物，然后将它贴附此武具。"
+        "translation": "当此武具进战场时，派出一个0/0黑色非瑞人/病菌衍生生物，然后将它贴附此武具。"
     },
     "AbilityHanger/Keyword/LivingWeapon_Title": {
         "oracleText": "Living Weapon",
@@ -941,7 +941,7 @@
     },
     "AbilityHanger/Keyword/Modified": {
         "oracleText": "Equipment, Auras you control, and counters are modifications.",
-        "translation": "由你操控的武具， 灵气， 以及指示物是饰装。"
+        "translation": "由你操控的武具，灵气，以及指示物是饰装。"
     },
     "AbilityHanger/Keyword/Modified_Title": {
         "oracleText": "Modifications",
@@ -949,15 +949,15 @@
     },
     "AbilityHanger/Keyword/Modular1": {
         "oracleText": "This enters the battlefield with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.",
-        "translation": "此永久物进入战场时上面有一个+1/+1指示物。当它死去时， 你可以将它的+1/+1指示物放到目标神器生物上。"
+        "translation": "此永久物进战场时上面有一个+1/+1指示物。当它死去时，你可以将它的+1/+1指示物置于目标神器生物上。"
     },
     "AbilityHanger/Keyword/Modular2": {
         "oracleText": "This enters the battlefield with two +1/+1 counters on it. When it dies, you may put its +1/+1 counters on target artifact creature.",
-        "translation": "此永久物进入战场时上面有两个+1/+1指示物。"
+        "translation": "此永久物进战场时上面有两个+1/+1指示物。当它死去时，你可以将它的+1/+1指示物置于目标神器生物上。"
     },
     "AbilityHanger/Keyword/Modular4": {
         "oracleText": "This enters the battlefield with four +1/+1 counters on it. When it dies, you may put its +1/+1 counters on target artifact creature.",
-        "translation": "此永久物进入战场时上面有四个+1/+1指示物。当它死去时， 你可以将它的+1/+1指示物放到目标神器生物上。"
+        "translation": "此永久物进战场时上面有四个+1/+1指示物。当它死去时，你可以将它的+1/+1指示物置于目标神器生物上。"
     },
     "AbilityHanger/Keyword/Mutate_Body": {
         "oracleText": "If you cast this spell for its mutate cost, put it under or over target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.",
@@ -965,7 +965,7 @@
     },
     "AbilityHanger/Keyword/Ninjutsu_Body": {
         "oracleText": "{abilityCost}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.",
-        "translation": "{abilityCost}， 将一个由你操控且未受阻挡的攻击生物移回其拥有者手上：将此牌从你手上横置放进战场，且正进行攻击。"
+        "translation": "{abilityCost}，将一个由你操控且未受阻挡的攻击生物移回其拥有者手上：将此牌从你手上横置放进战场，且正进行攻击。"
     },
     "AbilityHanger/Keyword/Ninjutsu_Title": {
         "oracleText": "Ninjutsu",
@@ -973,7 +973,7 @@
     },
     "AbilityHanger/Keyword/Outlast_Body": {
         "oracleText": "{abilityCost}, <sprite=\"SpriteSheet_ManaIcons\" name=\"xT\" color=\"#FFFFFF\">: Put a +1/+1 counter on this creature. Outlast only as a sorcery.",
-        "translation": "{abilityCost}， <sprite=\"SpriteSheet_ManaIcons\" name=\"xT\" color=\"#FFFFFF\">：在此生物上放置一个+1/+1指示物。延生的时机视同法术。"
+        "translation": "{abilityCost}，<sprite=\"SpriteSheet_ManaIcons\" name=\"xT\" color=\"#FFFFFF\">：在此生物上放置一个+1/+1指示物。延生的时机视同法术。"
     },
     "AbilityHanger/Keyword/Outlast_Title": {
         "oracleText": "Outlast",
@@ -1233,7 +1233,7 @@
     },
     "AbilityHanger/Keyword/Reinforce2_Body": {
         "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"x1\" color=\"#FFFFFF\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\" color=\"#FFFFFF\">, Discard this card: Put two +1/+1 counters on target creature",
-        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"x1\" color=\"#FFFFFF\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\" color=\"#FFFFFF\">， 弃掉此牌：在目标生物上放置两个+1/+1指示物"
+        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"x1\" color=\"#FFFFFF\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\" color=\"#FFFFFF\">，弃掉此牌：在目标生物上放置两个+1/+1指示物"
     },
     "AbilityHanger/Keyword/Reinforce2_Title": {
         "oracleText": "Reinforce 2",
@@ -1241,7 +1241,7 @@
     },
     "AbilityHanger/Keyword/ReinforceX_Body": {
         "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xX\" color=\"#FFFFFF\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\" color=\"#FFFFFF\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\" color=\"#FFFFFF\">, Discard this card: Put X +1/+1 counters on target creature.",
-        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xX\" color=\"#FFFFFF\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\" color=\"#FFFFFF\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\" color=\"#FFFFFF\">， 弃掉此牌：在目标生物上放置X个+1/+1指示物。"
+        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xX\" color=\"#FFFFFF\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\" color=\"#FFFFFF\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\" color=\"#FFFFFF\">，弃掉此牌：在目标生物上放置X个+1/+1指示物。"
     },
     "AbilityHanger/Keyword/ReinforceX_Title": {
         "oracleText": "Reinforce X",
@@ -1257,7 +1257,7 @@
     },
     "AbilityHanger/Keyword/Scavenge_Body": {
         "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"x5\" color=\"#FFFFFF\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\" color=\"#FFFFFF\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\" color=\"#FFFFFF\">, Exile this card from your graveyard: Put a number of +1/+1 counters equal to this card's power on target creature. Scavenge only as a sorcery.",
-        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"x5\" color=\"#FFFFFF\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\" color=\"#FFFFFF\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\" color=\"#FFFFFF\">， 从你的坟墓场放逐此牌：在目标生物上放置若干+1/+1指示物，其数量等同于此牌的力量。食腐的时机视同法术。"
+        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"x5\" color=\"#FFFFFF\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\" color=\"#FFFFFF\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\" color=\"#FFFFFF\">，从你的坟墓场放逐此牌：在目标生物上放置若干+1/+1指示物，其数量等同于此牌的力量。食腐的时机视同法术。"
     },
     "AbilityHanger/Keyword/Scry": {
         "oracleText": "Look at the top cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.",
@@ -1393,7 +1393,7 @@
     },
     "AbilityHanger/Keyword/Training_Body": {
         "oracleText": "Whenever this creature attacks with another creature with greater power, put a +1/+1 counter on this creature.",
-        "translation": "当此生物与另一个力量较之为大的生物一起攻击时， 在前者上放置一个+1/+1指示物。"
+        "translation": "当此生物与另一个力量较之为大的生物一起攻击时，在前者上放置一个+1/+1指示物。"
     },
     "AbilityHanger/Keyword/Trample": {
         "oracleText": "A creature with trample can deal excess combat damage to the player or planeswalker it's attacking.",
@@ -6117,7 +6117,7 @@
     },
     "Draft/RemovedFromQueue_Description": {
         "oracleText": "You did not click 'Ready' in time to join the draft, please try again.",
-        "translation": "你未在时限内点击 '准备' 来参加轮抽， 请再试一次。"
+        "translation": "你未在时限内点击 '准备' 来参加轮抽，请再试一次。"
     },
     "Draft/RemovedFromQueue_Title": {
         "oracleText": "Removed from Queue",
@@ -8309,7 +8309,7 @@
     },
     "Duelscene/SettingsMenu/PrivacyPolicy/WhatInfoBody": {
         "oracleText": "• Device, connectivity, and configuration data (IP address, ad ID, device ID, screen, resolution etc.)\n• Precise and imprecise location data\n• Web browser settings (e.g., language preferences) \n• Web browsing behavior (e.g., number of visits, pages visited, etc.)\n• Contact data (e.g., email address, physical address, age, phone number, etc.)\n• Wizards profile data (e.g., username, photo, etc.)\n• Social media profile data (e.g., account info authorized via Facebook, Twitter, etc.)\n• Third party gaming platform data (such as Steam or Twitch)",
-        "translation": "\"- 设备、网络连接情况和配置数据（IP地址、广告标识符、设备标识符， 屏幕，分辨率等）\n- 精确和粗略的位置数据\n- 浏览器设置（例如，语言首选项）\n- 网页浏览行为（例如访问次数、访问过的页面等）\n- 联系数据（电子邮件地址、实际住址、电话号码等）\n- 威世智个人档案数据（用户名、照片等）\n- 社交媒体个人档案数据（例如通过Facebook、Twitter等授权的帐户信息）\n- 第三方游戏平台数据（例如Steam或Twitch）\""
+        "translation": "\"- 设备、网络连接情况和配置数据（IP地址、广告标识符、设备标识符，屏幕，分辨率等）\n- 精确和粗略的位置数据\n- 浏览器设置（例如，语言首选项）\n- 网页浏览行为（例如访问次数、访问过的页面等）\n- 联系数据（电子邮件地址、实际住址、电话号码等）\n- 威世智个人档案数据（用户名、照片等）\n- 社交媒体个人档案数据（例如通过Facebook、Twitter等授权的帐户信息）\n- 第三方游戏平台数据（例如Steam或Twitch）\""
     },
     "Duelscene/SettingsMenu/PrivacyPolicy/WhatInfoNote": {
         "oracleText": "* This section includes information collected while you use the app, as well as information that may be collected if you create a Wizards account and link your account with social media or third party gaming platforms.  For more information, please see Section 3 of our full Privacy Policy (URL below).",
@@ -9009,7 +9009,7 @@
     },
     "EPP/Practice/mulliganto5_113": {
         "oracleText": "Oh, I hate it when that happens.",
-        "translation": "噢， 碰到这种事真烦心。"
+        "translation": "噢，碰到这种事真烦心。"
     },
     "EPP/Practice/mulliganto5_114_alt": {
         "oracleText": "hate it when that happens.",
@@ -9501,7 +9501,7 @@
     },
     "Emotes/ZNR/Full/DawnAdventure": {
         "oracleText": "A new dawn, a new adventure.",
-        "translation": "新的黎明， 新的冒险。"
+        "translation": "新的黎明，新的冒险。"
     },
     "Emotes/ZNR/Full/FlashFast": {
         "oracleText": "Too flashy to ignore. Too fast to catch.",
@@ -13633,7 +13633,7 @@
     },
     "Events/Event_Desc_AlchemyPrecons": {
         "oracleText": "The latest set of Alchemy cards is here, and it's time to hit the laboratory! To get things started, we've arranged a few samples that will get you off and running. Give them a try, and you just might find the seed for your next masterpiece! \n\nYou will receive 1000 Mastery XP when you join this event. Then choose any of these preconstructed decks and play as much as you want until the event ends. You may change your deck choice at any time.",
-        "translation": "最新系列的炼金模式卡牌在这里，是时候轰击实验室了！在开始之前， 我们为你安排了一些可以轻松上手的样品。进行尝试，然后你可能会找到你下一个杰作的种子！\n\n当你参加此活动你将获得 1000 精研通行证经验。选择其中一个预组套牌，游玩直到活动结束。你可以在任何时候更换你的套牌。"
+        "translation": "最新系列的炼金模式卡牌在这里，是时候轰击实验室了！在开始之前，我们为你安排了一些可以轻松上手的样品。进行尝试，然后你可能会找到你下一个杰作的种子！\n\n当你参加此活动你将获得 1000 精研通行证经验。选择其中一个预组套牌，游玩直到活动结束。你可以在任何时候更换你的套牌。"
     },
     "Events/Event_Desc_AlchemyRebalanceEvent": {
         "oracleText": "With the latest developments in Alchemy, there's a new landscape to explore. Put a tried-and-true theorem to the test, or break fresh ground with your own experiments. You can bring any Alchemy deck you like, whether you have the cards in your collection or not!\n\nTo see all of the latest card changes, click <u><link=https://magic.wizards.com/mtga-alchemy-latest-changes>here</link></u>.",
@@ -14293,7 +14293,7 @@
     },
     "Events/Event_Desc_FNM_KHM_Quick_Draft": {
         "oracleText": "Connect with your local game store while keeping yourself and others safe by playing Friday Night Magic (FNM) on MTG Arena!\n\nThis week: Draft Kaldheim! Select one card at a time from rotating draft packs with bots, no waiting, and no pick timers. Add basic lands to make a 40-card deck, and play against other players. You can play as many games as you want with your deck, but you can only draft once.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nYou can receive a code for an Arena FNM Promo Pack containing two cosmetic items when you share your results with your local game store. Find out how <u><link=https://magic.wizards.com/mtga-fnm-play-home-1>HERE</link></u>.\n\n*Note: While supplies last. Not all stores are participating.",
-        "translation": "Connect with your local game store while keeping yourself and others safe by playing Friday Night Magic (FNM) on MTG Arena!\n\nThis week: Draft Kaldheim! Select one card at a time from rotating draft packs with bots， no waiting， and no pick timers. Add basic lands to make a 40-card deck， and play against other players. You can play as many games as you want with your deck， but you can only draft once.\n\n<b><color=\"red\">这是一个幻影活动。你所抓取的牌张不会添加到你的收藏当中。</color></b>\n\nYou can receive a code for an Arena FNM Promo Pack containing two cosmetic items when you share your results with your local game store. Find out how <u><link=https://magic.wizards.com/mtga-fnm-play-home-1>HERE</link></u>.\n\n*Note: While supplies last. Not all stores are participating."
+        "translation": "Connect with your local game store while keeping yourself and others safe by playing Friday Night Magic (FNM) on MTG Arena!\n\nThis week: Draft Kaldheim! Select one card at a time from rotating draft packs with bots，no waiting，and no pick timers. Add basic lands to make a 40-card deck，and play against other players. You can play as many games as you want with your deck，but you can only draft once.\n\n<b><color=\"red\">这是一个幻影活动。你所抓取的牌张不会添加到你的收藏当中。</color></b>\n\nYou can receive a code for an Arena FNM Promo Pack containing two cosmetic items when you share your results with your local game store. Find out how <u><link=https://magic.wizards.com/mtga-fnm-play-home-1>HERE</link></u>.\n\n*Note: While supplies last. Not all stores are participating."
     },
     "Events/Event_Desc_FNM_Mastermind": {
         "oracleText": "Connect with your local game store while keeping yourself and others safe by playing Friday Night Magic (FNM) on MTG Arena!\n\nThis week: We'll provide a deck for you to play... but it has no lands in it. Instead, discard a card in exchange for a land token that will make any color of mana. Get creative and get wins!\n\nYou can receive a code for an Arena FNM Promo Pack containing two cosmetic items when you share your results with your local game store. Find out how <u><link=https://magic.wizards.com/mtga-fnm-play-home-1>HERE</link></u>.\n\n*Note: While supplies last. Not all stores are participating.",
@@ -15669,7 +15669,7 @@
     },
     "Events/Event_Desc_UnbrokenBlade": {
         "oracleText": "<i>May your courage never waver.\nMay your service never falter.\nMay your blade never break.</i>\n\nThe way of the samurai can be lonely and unforgiving, but we're providing some much-appreciated assistance: whenever you attack with only one creature, they'll get a +1/+1 edge to help them out. Use this to gain the upper hand for your 60-card Singleton deck, and at the end of your run, you'll earn Samurai card styles from <i>Kamigawa: Neon Dynasty</i> for your collection. There are 12 styles to collect!\n\nFor more details on this format, including a full list of card styles available to those who prove worthy, click <u><link=https://magic.wizards.com/mtga-neo-unbroken-blade>here</link></u>.",
-        "translation": "<i>May your courage never waver.\nMay your service never falter.\nMay your blade never break.</i>\n\nThe way of the samurai can be lonely and unforgiving， but we're providing some much-appreciated assistance: 每当你用一个生物单独攻击， 它们获得 +1/+1 . 利用这个来为你的 60张 单张套牌获得优势， 每轮完成时， 你将获得来自 <i>神河：霓朝纪</i> 武士卡牌样式到你的收藏中. 总共有 12 种样式收集 !\n\nFor more details on this format， including a full list of card styles available to those who prove worthy， click <u><link=https://magic.wizards.com/mtga-neo-unbroken-blade>here</link></u>."
+        "translation": "<i>May your courage never waver.\nMay your service never falter.\nMay your blade never break.</i>\n\nThe way of the samurai can be lonely and unforgiving，but we're providing some much-appreciated assistance: 每当你用一个生物单独攻击，它们获得+1/+1 . 利用这个来为你的 60张 单张套牌获得优势，每轮完成时，你将获得来自 <i>神河：霓朝纪</i> 武士卡牌样式到你的收藏中. 总共有 12 种样式收集 !\n\nFor more details on this format，including a full list of card styles available to those who prove worthy，click <u><link=https://magic.wizards.com/mtga-neo-unbroken-blade>here</link></u>."
     },
     "Events/Event_Desc_VOW_Premier_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>",
@@ -25961,7 +25961,7 @@
     },
     "MainNav/DeckBuilder/SpecializeCommander": {
         "oracleText": "When selecting a Commander with Specialize, choose one additional color to use in deck building.",
-        "translation": "当你选择一个具有专精异能的指挥官， 需要选择一个用于构建套牌的额外颜色。"
+        "translation": "当你选择一个具有专精异能的指挥官，需要选择一个用于构建套牌的额外颜色。"
     },
     "MainNav/DeckBuilder/UseWildcards": {
         "oracleText": "Use Wildcards",
@@ -28317,7 +28317,7 @@
     },
     "MainNav/FriendChallenge/ChallengeAccepted_SaveFailed_Desc": {
         "oracleText": "Save failed for an unknown reason, discarding unsaved changes.",
-        "translation": "未知原因保存失败， 取消未保存的变更。"
+        "translation": "未知原因保存失败，取消未保存的变更。"
     },
     "MainNav/FriendChallenge/ChallengeAccepted_SaveFailed_Header": {
         "oracleText": "Save Failed",
@@ -32353,7 +32353,7 @@
     },
     "MainNav/Killswitch/PopupError_Message": {
         "oracleText": "This is currently unavailable, please try again later",
-        "translation": "当前不可用， 请稍后尝试"
+        "translation": "当前不可用，请稍后尝试"
     },
     "MainNav/Killswitch/PopupError_Title": {
         "oracleText": "Error",
@@ -32541,7 +32541,7 @@
     },
     "MainNav/Learn/Twitch_Disclaimer": {
         "oracleText": "TWITCH, the TWITCH Logo and/or the Glitch Logo are trademarks of Twitch Interactive, Inc. or its affiliates.",
-        "translation": "TWITCH，TWITCH标志和／或Glitch标志是Twitch Interactive， Inc.或其附属公司的商标。"
+        "translation": "TWITCH，TWITCH标志和／或Glitch标志是Twitch Interactive，Inc.或其附属公司的商标。"
     },
     "MainNav/Learn/Video_Hint": {
         "oracleText": "[Launches Browser]",
@@ -38077,7 +38077,7 @@
     },
     "MainNav/Store/Bundles/Bundle_BPW_NEO_Desc": {
         "oracleText": "The Wandering Emperor Card Style\nTezzeret, Betrayer of Flesh Card Style\nKaito Shizuki Card Style\nTamiyo, Compleated Sage Card Style",
-        "translation": "飘萍皇卡牌样式\nTezzeret， Betrayer of Flesh Card Style\nKaito Shizuki Card Style\nTamiyo， Compleated Sage Card Style"
+        "translation": "飘萍皇卡牌样式\nTezzeret，Betrayer of Flesh Card Style\nKaito Shizuki Card Style\nTamiyo，Compleated Sage Card Style"
     },
     "MainNav/Store/Bundles/Bundle_BPW_NEO_Name": {
         "oracleText": "Kamigawa Borderless Planeswalkers",
@@ -42001,7 +42001,7 @@
     },
     "Match/QueueTips/Queue_Tip_109": {
         "oracleText": "To show only cards from Streets of New Capenna in the deckbuilder, type \"set:SNC\" into the search bar. Each set has a unique 3-letter-code.",
-        "translation": "想让组牌器只显示新卡佩纳：喧嚣黑街的卡， 在搜索栏输入“set:SNC” 或者“e:SNC”。每个系列有一个独有的3字缩写。"
+        "translation": "想让组牌器只显示新卡佩纳：喧嚣黑街的卡，在搜索栏输入“set:SNC” 或者“e:SNC”。每个系列有一个独有的3字缩写。"
     },
     "Match/QueueTips/Queue_Tip_11": {
         "oracleText": "When cards in a library are known to a player, they'll see them face-up when browsing that library.",
@@ -42053,7 +42053,7 @@
     },
     "Match/QueueTips/Queue_Tip_120": {
         "oracleText": "To show only cards from Alchemy Horizons: Baldur's Gate in the deckbuilder, type \"set:HBG\" into the search bar. Each set has a unique 3-letter-code.",
-        "translation": "想让组牌器只显示炼金新篇：博德之门的卡， 在搜索栏输入“set:HBG”或者“e:HBG”。每个系列有一个独有的3字缩写。"
+        "translation": "想让组牌器只显示炼金新篇：博德之门的卡，在搜索栏输入“set:HBG”或者“e:HBG”。每个系列有一个独有的3字缩写。"
     },
     "Match/QueueTips/Queue_Tip_121": {
         "oracleText": "The world of the Forgotten Realms takes place on a planet called Toril and its moon Selûne, which is always trailed by an asteroid cluster known as The Tears of Selûne.",
@@ -42101,7 +42101,7 @@
     },
     "Match/QueueTips/Queue_Tip_131": {
         "oracleText": "To show only cards from Dominaria United in the deckbuilder, type \"set:DMU\" into the search bar. Each set has a unique 3-letter-code.",
-        "translation": "想让组牌器只显示多明纳里亚：众志成城的卡， 在搜索栏输入 \"set:DMU\" 或者 \"e:DMU\" 。每个系列有一个独有的3字缩写。"
+        "translation": "想让组牌器只显示多明纳里亚：众志成城的卡，在搜索栏输入 \"set:DMU\" 或者 \"e:DMU\" 。每个系列有一个独有的3字缩写。"
     },
     "Match/QueueTips/Queue_Tip_132": {
         "oracleText": "The Seven Great Houses rule New Benalia and attempt to live up to a thousand years of heroic ancestors. The current Highest House is House Capashen, the first house to accept the Serran faith.",
@@ -42153,7 +42153,7 @@
     },
     "Match/QueueTips/Queue_Tip_143": {
         "oracleText": "To show only cards from The Brothers' War in the deckbuilder, type \"set:BRO\" into the search bar. Each set has a unique 3-letter-code.",
-        "translation": "想让组牌器只显示兄弟之战的卡， 在搜索栏输入 \"set:BRO\" 或者 \"e:BRO\" 。每个系列有一个独有的3字缩写。"
+        "translation": "想让组牌器只显示兄弟之战的卡，在搜索栏输入 \"set:BRO\" 或者 \"e:BRO\" 。每个系列有一个独有的3字缩写。"
     },
     "Match/QueueTips/Queue_Tip_144": {
         "oracleText": "Urza was obsessed with perfection, emphasizing efficiency, elegance, and power. In his machines, he finds the perfection he cannot see in people - or himself.",
@@ -42205,7 +42205,7 @@
     },
     "Match/QueueTips/Queue_Tip_154": {
         "oracleText": "To show only cards from Phyrexia: All Will Be One in the deckbuilder, type \"set:ONE\" into the search bar. Each set has a unique 3-letter-code.",
-        "translation": "想让组牌器只显示非瑞克西亚：万界归一的卡， 在搜索栏输入 \"set:ONE\" 或者 \"e:ONE\" 。每个系列有一个独有的3字缩写。"
+        "translation": "想让组牌器只显示非瑞克西亚：万界归一的卡，在搜索栏输入 \"set:ONE\" 或者 \"e:ONE\" 。每个系列有一个独有的3字缩写。"
     },
     "Match/QueueTips/Queue_Tip_155": {
         "oracleText": "Elesh Norn leads the Machine Orthodoxy as The Mother of Machines. She aims to unify all living creatures and end needless conflict through phyresis.",
@@ -42873,7 +42873,7 @@
     },
     "NPE/Game01/Stitcher/Sparky_01b": {
         "oracleText": "But if you're going to battle another Planeswalker, you've got to be prepared for anything.",
-        "translation": "但是如果你打算跟其他鹏洛客对战， 就得作好万全的准备。"
+        "translation": "但是如果你打算跟其他鹏洛客对战，就得作好万全的准备。"
     },
     "NPE/Game01/Stitcher/Sparky_02": {
         "oracleText": "I know a guy on Ravnica that can teach you everything you need to know about tactics.",
