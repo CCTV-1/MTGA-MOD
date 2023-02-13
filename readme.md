@@ -447,11 +447,44 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 
 12. 修改`AbilityHangerBase::AddHangersInternal`以显示牌张的`GrpId`(用于设定默认基本地)：
     ```csharp
+	public void Init(ICardDatabaseAdapter cardDatabase, AssetLookupSystem assetLookupSystem, IUnityObjectPool unityObjectPool, IObjectPool genericObjectPool, IFaceInfoGenerator faceInfoGenerator, IClientLocProvider locManager, DeckFormat currentEventFormat)
+	{
+		//插入的私有对象
+		this.rarityNameMap = new Dictionary<CardRarity, string>
+		{
+			{
+				CardRarity.None,
+				"无"
+			},
+			{
+				CardRarity.Land,
+				"地"
+			},
+			{
+				CardRarity.Common,
+				this._locManager.GetLocalizedText("Enum/Rarity/Common", Array.Empty<ValueTuple<string, string>>())
+			},
+			{
+				CardRarity.Uncommon,
+				this._locManager.GetLocalizedText("Enum/Rarity/Uncommon", Array.Empty<ValueTuple<string, string>>())
+			},
+			{
+				CardRarity.Rare,
+				this._locManager.GetLocalizedText("Enum/Rarity/Rare", Array.Empty<ValueTuple<string, string>>())
+			},
+			{
+				CardRarity.MythicRare,
+				this._locManager.GetLocalizedText("Enum/Rarity/MythicRare", Array.Empty<ValueTuple<string, string>>())
+			}
+		};
+		/*无关的原始代码*/
+	}
+
 	protected virtual void AddHangersInternal(BASE_CDC cardView, ICardDataAdapter sourceModel, HangerSituation situation)
 	{
 		ICardDataAdapter model = cardView.Model;
 		//插入下面这行
-		this._view.CreateHangerItem("GrpId", false, model.GrpId.ToString(), false, "", false, null, 0, false, false, false);
+		this._view.CreateHangerItem("系列、稀有度、内部编号", false, string.Format("{0} {1} {2}", model.ExpansionCode, rarityName[model.Rarity], model.GrpId), false, "", false, null, 0, false, false, false);
 		/*无关代码*/
 	}
 	```

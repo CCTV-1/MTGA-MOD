@@ -1,10 +1,10 @@
-From 43882a24e30ce58fd832ea25bc0f67f6c99b9ae8 Mon Sep 17 00:00:00 2001
+From eddf684989b32858737e4a12f90ddbeeb125db43 Mon Sep 17 00:00:00 2001
 From: CCTV-1 <script.tar.gz@gmail.com>
-Date: Mon, 13 Feb 2023 12:11:06 +0800
+Date: Mon, 13 Feb 2023 12:58:59 +0800
 Subject: [PATCH] mod patch.
 
 ---
- AbilityHangerBase.cs                          |   1 +
+ AbilityHangerBase.cs                          |  30 ++
  AccountInformation.cs                         |   2 +-
  AutoLandsToggle.cs                            |   6 +
  CDCPart_TextBox_DayNight.cs                   |   4 +-
@@ -37,18 +37,61 @@ Subject: [PATCH] mod patch.
  Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs      |   1 +
  WrapperDeckBuilder.cs                         |   2 +-
  WrapperDeckUtilities.cs                       |  29 +-
- 33 files changed, 472 insertions(+), 130 deletions(-)
+ 33 files changed, 501 insertions(+), 130 deletions(-)
  create mode 100644 ModManager.cs
 
 diff --git a/AbilityHangerBase.cs b/AbilityHangerBase.cs
-index a909672..0a2efa8 100644
+index a909672..6c47c95 100644
 --- a/AbilityHangerBase.cs
 +++ b/AbilityHangerBase.cs
-@@ -215,6 +215,7 @@ public class AbilityHangerBase : HangerBase
+@@ -61,6 +61,8 @@ public class AbilityHangerBase : HangerBase
+ 
+ 	private IGreLocProvider _greLocManager;
+ 
++	public Dictionary<CardRarity, string> rarityNameMap;
++
+ 	public bool IsDirty { get; set; }
+ 
+ 	public override bool Flipped
+@@ -91,6 +93,33 @@ public class AbilityHangerBase : HangerBase
+ 		_multiFaceHangerConfigProvider = new MultiFaceHangerConfigProvider(cardDatabase.ClientLocProvider, cardDatabase.GreLocProvider, _assetLookupSystem, _cardDatabase, currentEventFormat, genericObjectPool);
+ 		_faceInfoGenerator = faceInfoGenerator;
+ 		SpawnHangerView();
++		this.rarityNameMap = new Dictionary<CardRarity, string>
++		{
++			{
++				CardRarity.None,
++				"无"
++			},
++			{
++				CardRarity.Land,
++				"地"
++			},
++			{
++				CardRarity.Common,
++				this._locManager.GetLocalizedText("Enum/Rarity/Common", Array.Empty<ValueTuple<string, string>>())
++			},
++			{
++				CardRarity.Uncommon,
++				this._locManager.GetLocalizedText("Enum/Rarity/Uncommon", Array.Empty<ValueTuple<string, string>>())
++			},
++			{
++				CardRarity.Rare,
++				this._locManager.GetLocalizedText("Enum/Rarity/Rare", Array.Empty<ValueTuple<string, string>>())
++			},
++			{
++				CardRarity.MythicRare,
++				this._locManager.GetLocalizedText("Enum/Rarity/MythicRare", Array.Empty<ValueTuple<string, string>>())
++			}
++		};
+ 	}
+ 
+ 	private void SpawnHangerView()
+@@ -215,6 +244,7 @@ public class AbilityHangerBase : HangerBase
  	protected virtual void AddHangersInternal(BASE_CDC cardView, ICardDataAdapter sourceModel, HangerSituation situation)
  	{
  		ICardDataAdapter model = cardView.Model;
-+		this._view.CreateHangerItem("GrpId", false, model.GrpId.ToString(), false, "", false, null, 0, false, false, false);
++		this._view.CreateHangerItem("系列、稀有度、内部编号", false, string.Format("{0} {1} {2}", model.ExpansionCode, this.rarityNameMap[model.Rarity], model.GrpId), false, "", false, null, 0, false, false, false);
  		if (model.IsFakeStyleCard)
  		{
  			_view.CreateHangerCardStyle();
