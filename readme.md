@@ -1,9 +1,15 @@
 # 一、让MTGA使用支持中文的字体
 
-## 方案1：注入代码使游戏加载并使用自己制作的字体(以未使用`IL2CPP`构建的情况为例)
+## 方案1：注入代码使游戏加载并使用自己制作的字体(以`MONO`构建的情况为例)
+### 手动注入代码
 1. 使用`dnSpy`给`Assembly-CSharp.dll`插入类[ModManager](./ModManager.cs)。
 2. 在合适的位置修改各处TMP_Text对象(直接或间接使用)的`font`成员为`ModManager.Instance.zhCNFont`([当前修补的位置](./0001-mod-patch.patch))。若想精细控制具体区域使用什么字体，只需要向`ModManager`类添加`TMP_FontAsset`类型的成员并加载相关字体，然后在设置`font`成员的各处改为想设置的字体(`ModManager.Instance.TitleFont`、`ModManager.Instance.RuleTextFont`之类的)即可。
 3. 使用与MTGA同样的Unity版本(`2020.3.13 f1`)制作字体。放于`ModManager`类要求的位置。
+
+### 自动注入代码
+1. 安装`.NET SDK`(当前的LTS版)，然后`cd`到`Assembly-CSharp.Mod.mm`文件夹。
+2. `dotnet build`编译生成`Assembly-CSharp.Mod.mm.dll`。
+3. 按[MonoMod](https://github.com/MonoMod/MonoMod)的说明生成修补后的`MONOMODDED_Assembly-CSharp.dll`备份原`Assembly-CSharp.dll`后将其改为`Assembly-CSharp.dll`即可。
 
 PS: 对于使用了使用`IL2CPP`构建的平台，如果`BepInEx`、`MelonLoader`以及其他类似物可用，可以使用他们提供的API在运行时替换字体和修补代码以减少工作量。
 
@@ -439,7 +445,18 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 
 11. 对牌张数据库执行`UPDATE Cards SET AdditionalFrameDetails  = '' WHERE ExpansionCode = "BRR";`以和谐兄弟之战神器秘典牌的过于难看的老框。
 
-12. 禁止安卓端请求Google Play更新数据：使用`Il2CppDumper`或类似工具将符号恢复到`IDA Pro`中。搜索函数`Wizards_Mtga_Platforms_PlatformContext__GetInstallationController`，使函数无条件跳转至构造返回`Wizards.Mtga.Installation.NoSupportInstallationController`而不是构造返回`Wizards.Mtga.Platforms.Android.AndroidInstallationController`。例如将下面的`B.NE loc_1438FAC`改为`B loc_1438FAC`。
+12. 修改`AbilityHangerBase::AddHangersInternal`以显示牌张的`GrpId`(用于设定默认基本地)：
+    ```csharp
+	protected virtual void AddHangersInternal(BASE_CDC cardView, ICardDataAdapter sourceModel, HangerSituation situation)
+	{
+		ICardDataAdapter model = cardView.Model;
+		//插入下面这行
+		this._view.CreateHangerItem("GrpId", false, model.GrpId.ToString(), false, "", false, null, 0, false, false, false);
+		/*无关代码*/
+	}
+	```
+
+13. 禁止安卓端请求Google Play更新数据：使用`Il2CppDumper`或类似工具将符号恢复到`IDA Pro`中。搜索函数`Wizards_Mtga_Platforms_PlatformContext__GetInstallationController`，使函数无条件跳转至构造返回`Wizards.Mtga.Installation.NoSupportInstallationController`而不是构造返回`Wizards.Mtga.Platforms.Android.AndroidInstallationController`。例如将下面的`B.NE loc_1438FAC`改为`B loc_1438FAC`。
 	```ASM
 	STR             X19, [SP,#-0x20]!
 	STP             X29, X30, [SP,#0x10]
@@ -480,7 +497,7 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 	RET
 	```
 
-13. 安卓端禁用商店以支持无GooglePlay设备进入游戏：使用`Il2CppDumper`或类似工具将符号恢复到`IDA Pro`中。搜索函数`StoreManager$$RefreshStoreDataYield`(不同工具生成的名称会略有不同)。通过`CODE XREF`找到`WrapperController::Coroutine_StartupSequence::MoveNext`函数中对`StoreManager$$RefreshStoreDataYield`的调用并将其`NOP`。例如在`2022/4/28`更新的客户端中：`0x172B564` `BL StoreManager$$RefreshStoreDataYield`(19 3F F8 97) => `NOP`(1F 20 03 D5)
+14. 安卓端禁用商店以支持无GooglePlay设备进入游戏：使用`Il2CppDumper`或类似工具将符号恢复到`IDA Pro`中。搜索函数`StoreManager$$RefreshStoreDataYield`(不同工具生成的名称会略有不同)。通过`CODE XREF`找到`WrapperController::Coroutine_StartupSequence::MoveNext`函数中对`StoreManager$$RefreshStoreDataYield`的调用并将其`NOP`。例如在`2022/4/28`更新的客户端中：`0x172B564` `BL StoreManager$$RefreshStoreDataYield`(19 3F F8 97) => `NOP`(1F 20 03 D5)
 
 # 四、 自动生成牌张样式MOD
 

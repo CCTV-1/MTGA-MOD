@@ -1,9 +1,10 @@
-From d79517fa4a3a5d2a185f998cfebec15ac3b73e74 Mon Sep 17 00:00:00 2001
+From 43882a24e30ce58fd832ea25bc0f67f6c99b9ae8 Mon Sep 17 00:00:00 2001
 From: CCTV-1 <script.tar.gz@gmail.com>
-Date: Wed, 8 Feb 2023 09:28:42 +0800
+Date: Mon, 13 Feb 2023 12:11:06 +0800
 Subject: [PATCH] mod patch.
 
 ---
+ AbilityHangerBase.cs                          |   1 +
  AccountInformation.cs                         |   2 +-
  AutoLandsToggle.cs                            |   6 +
  CDCPart_TextBox_DayNight.cs                   |   4 +-
@@ -26,8 +27,8 @@ Subject: [PATCH] mod patch.
  StoreItemBase.cs                              |   1 +
  SystemMessageView.cs                          |   3 +
  .../CDCExtraFrameDetailFiller.cs              |   1 +
- .../FieldFillerUtils.cs                       |  14 +-
- .../ClassAbilityTextbox.cs                    |   1 +
+ .../FieldFillerUtils.cs                       |   8 +-
+ .../ClassAbilityTextbox.cs                    |   5 +
  .../TableAbilityTextbox.cs                    |   3 +-
  .../TextboxSubComponentBase.cs                |   9 +-
  Wotc.Mtga.Cards.Text/Utilities.cs             |  11 +-
@@ -36,9 +37,21 @@ Subject: [PATCH] mod patch.
  Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs      |   1 +
  WrapperDeckBuilder.cs                         |   2 +-
  WrapperDeckUtilities.cs                       |  29 +-
- 32 files changed, 469 insertions(+), 134 deletions(-)
+ 33 files changed, 472 insertions(+), 130 deletions(-)
  create mode 100644 ModManager.cs
 
+diff --git a/AbilityHangerBase.cs b/AbilityHangerBase.cs
+index a909672..0a2efa8 100644
+--- a/AbilityHangerBase.cs
++++ b/AbilityHangerBase.cs
+@@ -215,6 +215,7 @@ public class AbilityHangerBase : HangerBase
+ 	protected virtual void AddHangersInternal(BASE_CDC cardView, ICardDataAdapter sourceModel, HangerSituation situation)
+ 	{
+ 		ICardDataAdapter model = cardView.Model;
++		this._view.CreateHangerItem("GrpId", false, model.GrpId.ToString(), false, "", false, null, 0, false, false, false);
+ 		if (model.IsFakeStyleCard)
+ 		{
+ 			_view.CreateHangerCardStyle();
 diff --git a/AccountInformation.cs b/AccountInformation.cs
 index 8249116..f0e33a2 100644
 --- a/AccountInformation.cs
@@ -820,7 +833,7 @@ index 11dc368..b4d0975 100644
  				_defaultFontMaterial = _label.fontSharedMaterial;
  				_hasBeenInit = true;
 diff --git a/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs b/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
-index b49db98..dc9b268 100644
+index b49db98..4624203 100644
 --- a/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
 +++ b/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
 @@ -65,12 +65,16 @@ namespace Wotc.Mtga.CardParts.FieldFillers
@@ -842,38 +855,22 @@ index b49db98..dc9b268 100644
  		}
  
  		public static Material FindMaterial(AssetLookupSystem als, AssetTracker tracker)
-@@ -173,8 +177,7 @@ namespace Wotc.Mtga.CardParts.FieldFillers
- 
- 		public static string GetText_Title(ICardDataAdapter model, ICardDatabaseAdapter cdb, bool canShowFrameLanguage)
- 		{
--			string text = (model.IsWildcard ? GetText_Title_Wildcard(model, cdb.ClientLocProvider) : ((!(model.Printing.HasFrameLanguage() && canShowFrameLanguage)) ? GetText_Title_Default(model, model.TitleId, cdb.GreLocProvider) : GetText_Title_FrameLanguage(model, model.TitleId, cdb.GreLocProvider)));
--			return CardUtilities.FormatComplexTitle(text);
-+			return CardUtilities.FormatComplexTitle(model.IsWildcard ? GetText_Title_Wildcard(model, cdb.ClientLocProvider) : ((!(model.Printing.HasFrameLanguage() && canShowFrameLanguage)) ? GetText_Title_Default(model, model.TitleId, cdb.GreLocProvider) : GetText_Title_FrameLanguage(model, model.TitleId, cdb.GreLocProvider)));
- 		}
- 
- 		public static string GetText_AltTitle(ICardDataAdapter model, ICardDatabaseAdapter cdb, bool canShowFrameLanguage)
-@@ -182,8 +185,7 @@ namespace Wotc.Mtga.CardParts.FieldFillers
- 			CardPrintingData printing = model.Printing;
- 			if (printing != null && printing.AltTitleId != 0)
- 			{
--				string text = ((!(model.Printing.HasFrameLanguage() && canShowFrameLanguage)) ? GetText_Title_Default(model, model.Printing.AltTitleId, cdb.GreLocProvider) : GetText_Title_FrameLanguage(model, model.Printing.AltTitleId, cdb.GreLocProvider));
--				return CardUtilities.FormatComplexTitle(text);
-+				return CardUtilities.FormatComplexTitle((!(model.Printing.HasFrameLanguage() && canShowFrameLanguage)) ? GetText_Title_Default(model, model.Printing.AltTitleId, cdb.GreLocProvider) : GetText_Title_FrameLanguage(model, model.Printing.AltTitleId, cdb.GreLocProvider));
- 			}
- 			return string.Empty;
- 		}
 diff --git a/Wotc.Mtga.Cards.Parts.Textbox/ClassAbilityTextbox.cs b/Wotc.Mtga.Cards.Parts.Textbox/ClassAbilityTextbox.cs
-index 111ac43..09600f6 100644
+index 111ac43..2e3b5a2 100644
 --- a/Wotc.Mtga.Cards.Parts.Textbox/ClassAbilityTextbox.cs
 +++ b/Wotc.Mtga.Cards.Parts.Textbox/ClassAbilityTextbox.cs
-@@ -27,6 +27,7 @@ namespace Wotc.Mtga.Cards.Parts.Textbox
- 			base.SetContent(content);
- 			_textLabel.text = levelTextEntry.GetText();
- 			_costLabel.text = levelTextEntry.GetCost();
-+			_costLabel.font = ModManager.Instance.zhCNFont;
- 		}
+@@ -13,6 +13,11 @@ namespace Wotc.Mtga.Cards.Parts.Textbox
+ 		[SerializeField]
+ 		private TMP_Text _costLabel;
  
- 		public override void CleanUp()
++        public void Awake()
++        {
++            _costLabel.font = ModManager.Instance.ZhCNFont;
++        }
++
+ 		public override float GetPreferredHeight()
+ 		{
+ 			return _header.rect.height;
 diff --git a/Wotc.Mtga.Cards.Parts.Textbox/TableAbilityTextbox.cs b/Wotc.Mtga.Cards.Parts.Textbox/TableAbilityTextbox.cs
 index afa904b..77aeb9c 100644
 --- a/Wotc.Mtga.Cards.Parts.Textbox/TableAbilityTextbox.cs
