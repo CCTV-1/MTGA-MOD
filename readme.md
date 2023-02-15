@@ -365,7 +365,7 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 		}
 		//QuickDraft_DMU_20221014
 		string[] draftInfo = this._draftPod.InternalEventName.Split('_');
-		Dictionary<string, double> rankInfo = ModManager.Instance.getCardRankMap(draftInfo[1], draftInfo[0]);
+		Dictionary<string, ModManager.DraftInfo> rankInfo = ModManager.Instance.getCardRankMap(draftInfo[1], draftInfo[0]);
 		if (rankInfo == null)
 		{
 			return;
@@ -375,9 +375,9 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 		{
 			string cardName = this._cardDatabase.CardTitleProvider.GetCardTitle(cardView.Card.GrpId, true, "en-US");
 			string iwdString = "???";
-			double iwd;
-			if (rankInfo.TryGetValue(cardName, out iwd))
+			if (rankInfo.TryGetValue(cardName, out var draftInfo))
 			{
+				double iwd = draftInfo.iwd;
 				if (iwd <= 0.0)
 				{
 					iwdString = "<color=\"red\"><size=90%>" + iwd.ToString("F1");
@@ -445,7 +445,7 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 
 11. 对牌张数据库执行`UPDATE Cards SET AdditionalFrameDetails  = '' WHERE ExpansionCode = "BRR";`以和谐兄弟之战神器秘典牌的过于难看的老框。
 
-12. 修改`AbilityHangerBase::AddHangersInternal`以显示牌张的`GrpId`(用于设定默认基本地)：
+12. 修改`AbilityHangerBase::AddHangersInternal`以显示一些额外信息：
     ```csharp
 	public void Init(ICardDatabaseAdapter cardDatabase, AssetLookupSystem assetLookupSystem, IUnityObjectPool unityObjectPool, IObjectPool genericObjectPool, IFaceInfoGenerator faceInfoGenerator, IClientLocProvider locManager, DeckFormat currentEventFormat)
 	{
@@ -483,8 +483,18 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 	protected virtual void AddHangersInternal(BASE_CDC cardView, ICardDataAdapter sourceModel, HangerSituation situation)
 	{
 		ICardDataAdapter model = cardView.Model;
-		//插入下面这行
-		this._view.CreateHangerItem("系列、稀有度、内部编号", false, string.Format("{0} {1} {2}", model.ExpansionCode, rarityName[model.Rarity], model.GrpId), false, "", false, null, 0, false, false, false);
+		//插入下面这几行
+		if (ModManager.Instance.config.displayAbilityHangerExtraInfo)
+		{
+			string body = string.Format("系列代码：{0}\n稀有度：{1}\n内部编号：{2}{3}", new object[]
+			{
+				model.ExpansionCode,
+				this.rarityNameMap[model.Rarity],
+				model.GrpId,
+				ModManager.Instance.getCardAvgPickInfo(this._cardDatabase.CardTitleProvider.GetCardTitle(model.GrpId, true, "en-US"))
+			});
+			this._view.CreateHangerItem("Mod额外信息", false, body, false, "", false, null, 0, false, false, false);
+		}
 		/*无关代码*/
 	}
 	```

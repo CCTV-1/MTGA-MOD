@@ -65,13 +65,13 @@ public class ModManager
 		}
 	}
 
-	public Dictionary<string, double> getCardRankMap(string setCode, string draftType)
+	public Dictionary<string, ModManager.DraftInfo> getCardRankMap(string setCode, string draftType)
 	{
 		if (!this.config.displayIWDText)
 		{
 			return null;
 		}
-		if (!this.cardRankMap.TryGetValue(setCode + "_" + draftType, out Dictionary<string, double> eventCardRankMap))
+		if (!this.cardRankMap.TryGetValue(setCode + "_" + draftType, out Dictionary<string, ModManager.DraftInfo> eventCardRankMap))
 		{
 			bool exist = false;
 			lock (ModManager.lockObj)
@@ -105,14 +105,14 @@ public class ModManager
 			ModManager.CardInfoList rankList = JsonUtility.FromJson<ModManager.CardInfoList>(responseBody);
 			if (rankList != null)
 			{
-				Dictionary<string, double> eventCardRankMap = new Dictionary<string, double>();
+				Dictionary<string, ModManager.DraftInfo> eventCardRankMap = new Dictionary<string, ModManager.DraftInfo>();
 				foreach (ModManager.CardInfo cardInfo in rankList.data)
 				{
 					//discard untrusted data
 					if ((cardInfo.ever_drawn_game_count >= this.config.maxUntrustedIWDDataAmount) || (cardInfo.never_drawn_game_count >= this.config.maxUntrustedIWDDataAmount))
 					{
 						double iwd = (cardInfo.ever_drawn_win_rate - cardInfo.never_drawn_win_rate) * 100.0;
-						eventCardRankMap[cardInfo.name] = iwd;
+						eventCardRankMap[cardInfo.name] = new ModManager.DraftInfo(iwd, cardInfo.avg_pick);
 					}
 				}
 				this.cardRankMap[setCode + "_" + draftModeName] = eventCardRankMap;
@@ -126,6 +126,28 @@ public class ModManager
 		{
 			this.fetchingTask.Remove(setCode + "_" + draftModeName);
 		}
+	}
+
+	public string getCardAvgPickInfo(string cardName)
+	{
+		string text = "";
+		foreach (KeyValuePair<string, Dictionary<string, ModManager.DraftInfo>> keyValuePair in this.cardRankMap)
+		{
+			if (keyValuePair.Value != null && keyValuePair.Value.Count != 0)
+			{
+				ModManager.DraftInfo draftInfo;
+				keyValuePair.Value.TryGetValue(cardName, out draftInfo);
+				text = string.Concat(new string[]
+				{
+					text,
+					"\n",
+					keyValuePair.Key,
+					"平均抓位：",
+					draftInfo.ToString()
+				});
+			}
+		}
+		return text;
 	}
 
 	public TMP_FontAsset zhCNFont
@@ -165,8 +187,8 @@ public class ModManager
 	private static string apiUri = "https://www.17lands.com/card_ratings/data?expansion={0}&format={1}&start_date={2}&end_date={3}";
 
 	private TMP_FontAsset modFont = null;
-	// <eventName, <cardName, cardIWD>>
-	private Dictionary<string, Dictionary<string, double>> cardRankMap = new Dictionary<string, Dictionary<string, double>>();
+	// <eventName, <cardName, DraftInfo>>
+	private Dictionary<string, Dictionary<string, ModManager.DraftInfo>> cardRankMap = new Dictionary<string, Dictionary<string, ModManager.DraftInfo>>();
 	private Dictionary<string, bool> fetchingTask = new Dictionary<string, bool>();
 	private HttpClient client = new HttpClient();
 
@@ -214,6 +236,18 @@ public class ModManager
 		WUBRG
 	}
 
+	public struct DraftInfo
+	{
+		public DraftInfo(double iwdValue, double pickValue)
+		{
+			this.iwd = iwdValue;
+			this.avgPick = pickValue;
+		}
+
+		public double iwd;
+		public double avgPick;
+	}
+
 	[Serializable]
 	public class ModConfig
 	{
@@ -242,6 +276,8 @@ public class ModManager
 		public DraftDeckColor draftDeckColor = DraftDeckColor.NONE;
 
 		public bool alwayExportEnglishDeck = false;
+
+		public bool displayAbilityHangerExtraInfo = true;
 	}
 
 	[Serializable]

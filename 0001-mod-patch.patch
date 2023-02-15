@@ -1,16 +1,16 @@
-From eddf684989b32858737e4a12f90ddbeeb125db43 Mon Sep 17 00:00:00 2001
+From 39a2709ff468b7d03681b0423aed65f8c05e55d2 Mon Sep 17 00:00:00 2001
 From: CCTV-1 <script.tar.gz@gmail.com>
-Date: Mon, 13 Feb 2023 12:58:59 +0800
+Date: Wed, 15 Feb 2023 18:40:11 +0800
 Subject: [PATCH] mod patch.
 
 ---
- AbilityHangerBase.cs                          |  30 ++
+ AbilityHangerBase.cs                          |  40 +++
  AccountInformation.cs                         |   2 +-
  AutoLandsToggle.cs                            |   6 +
  CDCPart_TextBox_DayNight.cs                   |   4 +-
  CDCPart_TextBox_Dungeon.cs                    |   5 +-
  .../MasteryEndText.cs                         |   1 +
- DeckBuilderWidget.cs                          | 122 ++++----
+ DeckBuilderWidget.cs                          | 122 +++----
  DeckMainTitlePanel.cs                         |   5 +
  DeckManagerController.cs                      |  10 +-
  DirectChallengeBladeWidget.cs                 |   1 +
@@ -19,7 +19,7 @@ Subject: [PATCH] mod patch.
  MTGA.Loc/MTGALocalizable.cs                   |  15 +-
  MatchManager.cs                               |   5 -
  Meta_CDC.cs                                   |  11 +
- ModManager.cs                                 | 295 ++++++++++++++++++
+ ModManager.cs                                 | 336 ++++++++++++++++++
  SearchAndFilterBar.cs                         |   1 +
  SetCollectionScreenView.cs                    |   1 +
  SettingsPanelGraphics.cs                      |   2 +-
@@ -33,15 +33,15 @@ Subject: [PATCH] mod patch.
  .../TextboxSubComponentBase.cs                |   9 +-
  Wotc.Mtga.Cards.Text/Utilities.cs             |  11 +-
  Wotc.Mtga.Loc/Languages.cs                    |   2 +-
- .../DraftContentController.cs                 |  28 +-
+ .../DraftContentController.cs                 |  29 +-
  Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs      |   1 +
  WrapperDeckBuilder.cs                         |   2 +-
  WrapperDeckUtilities.cs                       |  29 +-
- 33 files changed, 501 insertions(+), 130 deletions(-)
+ 33 files changed, 553 insertions(+), 130 deletions(-)
  create mode 100644 ModManager.cs
 
 diff --git a/AbilityHangerBase.cs b/AbilityHangerBase.cs
-index a909672..6c47c95 100644
+index a909672..538acce 100644
 --- a/AbilityHangerBase.cs
 +++ b/AbilityHangerBase.cs
 @@ -61,6 +61,8 @@ public class AbilityHangerBase : HangerBase
@@ -87,11 +87,21 @@ index a909672..6c47c95 100644
  	}
  
  	private void SpawnHangerView()
-@@ -215,6 +244,7 @@ public class AbilityHangerBase : HangerBase
+@@ -215,6 +244,17 @@ public class AbilityHangerBase : HangerBase
  	protected virtual void AddHangersInternal(BASE_CDC cardView, ICardDataAdapter sourceModel, HangerSituation situation)
  	{
  		ICardDataAdapter model = cardView.Model;
-+		this._view.CreateHangerItem("系列、稀有度、内部编号", false, string.Format("{0} {1} {2}", model.ExpansionCode, this.rarityNameMap[model.Rarity], model.GrpId), false, "", false, null, 0, false, false, false);
++		if (ModManager.Instance.config.displayAbilityHangerExtraInfo)
++		{
++			string body = string.Format("系列代码：{0}\n稀有度：{1}\n内部编号：{2}{3}", new object[]
++			{
++				model.ExpansionCode,
++				this.rarityNameMap[model.Rarity],
++				model.GrpId,
++				ModManager.Instance.getCardAvgPickInfo(this._cardDatabase.CardTitleProvider.GetCardTitle(model.GrpId, true, "en-US"))
++			});
++			this._view.CreateHangerItem("Mod额外信息", false, body, false, "", false, null, 0, false, false, false);
++		}
  		if (model.IsFakeStyleCard)
  		{
  			_view.CreateHangerCardStyle();
@@ -489,10 +499,10 @@ index ce12467..3e8d569 100644
  }
 diff --git a/ModManager.cs b/ModManager.cs
 new file mode 100644
-index 0000000..47ea973
+index 0000000..5d5e2d3
 --- /dev/null
 +++ b/ModManager.cs
-@@ -0,0 +1,295 @@
+@@ -0,0 +1,334 @@
 +using System;
 +using System.Collections.Generic;
 +using System.IO;
@@ -503,17 +513,201 @@ index 0000000..47ea973
 +
 +public class ModManager
 +{
++	private ModManager()
++	{
++	}
++
++	public static ModManager Instance
++	{
++		get
++		{
++			lock (ModManager.lockObj)
++			{
++				if (ModManager.instance == null)
++				{
++					ModManager.instance = new ModManager();
++					if (ModManager.instance.config == null)
++					{
++						try
++						{
++							string configContent = File.ReadAllText(ModManager.configFilePath, Encoding.UTF8);
++							ModManager.instance.config = JsonUtility.FromJson<ModManager.ModConfig>(configContent);
++
++							if (ModManager.instance.config.userSkillLevel > UserSkillLevel.top)
++							{
++								ModManager.instance.config.userSkillLevel = UserSkillLevel.NONE;
++							}
++							if (ModManager.instance.config.draftDeckColor > DraftDeckColor.WUBRG)
++							{
++								ModManager.instance.config.draftDeckColor = DraftDeckColor.NONE;
++							}
++
++							if (ModManager.instance.config.userSkillLevel != UserSkillLevel.NONE)
++							{
++								ModManager.apiUri = string.Format("{0}&user_group={1}", new object[]
++								{
++									ModManager.apiUri,
++									ModManager.instance.config.userSkillLevel.ToString("G")
++								});
++							}
++							if (ModManager.instance.config.draftDeckColor != DraftDeckColor.NONE)
++							{
++								ModManager.apiUri = string.Format("{0}&colors={1}", new object[]
++								{
++									ModManager.apiUri,
++									ModManager.instance.config.draftDeckColor.ToString("G")
++								});
++							}
++						}
++						catch (Exception)
++						{
++							ModManager.instance.config = new ModManager.ModConfig();
++						}
++					}
++				}
++			}
++			return ModManager.instance;
++		}
++	}
++
++	public Dictionary<string, ModManager.DraftInfo> getCardRankMap(string setCode, string draftType)
++	{
++		if (!this.config.displayIWDText)
++		{
++			return null;
++		}
++		if (!this.cardRankMap.TryGetValue(setCode + "_" + draftType, out Dictionary<string, ModManager.DraftInfo> eventCardRankMap))
++		{
++			bool exist = false;
++			lock (ModManager.lockObj)
++			{
++				exist = this.fetchingTask.ContainsKey(setCode + "_" + draftType);
++				if (!exist)
++				{
++					this.fetchingTask[setCode + "_" + draftType] = true;
++					this.fetchCardRankInfo(setCode, draftType);
++				}
++			}
++			return null;
++		}
++		return eventCardRankMap;
++	}
++
++	public async void fetchCardRankInfo(string setCode, string draftModeName)
++	{
++		string requestUrl = string.Format(ModManager.apiUri, new object[]
++		{
++			setCode,
++			draftModeName,
++			ModManager.startDate,
++			ModManager.endDate
++		});
++
++		try
++		{
++			string responseBody = await this.client.GetStringAsync(requestUrl);
++			responseBody = string.Format("{{ \"data\": {0}}}", responseBody);
++			ModManager.CardInfoList rankList = JsonUtility.FromJson<ModManager.CardInfoList>(responseBody);
++			if (rankList != null)
++			{
++				Dictionary<string, ModManager.DraftInfo> eventCardRankMap = new Dictionary<string, ModManager.DraftInfo>();
++				foreach (ModManager.CardInfo cardInfo in rankList.data)
++				{
++					//discard untrusted data
++					if ((cardInfo.ever_drawn_game_count >= this.config.maxUntrustedIWDDataAmount) || (cardInfo.never_drawn_game_count >= this.config.maxUntrustedIWDDataAmount))
++					{
++						double iwd = (cardInfo.ever_drawn_win_rate - cardInfo.never_drawn_win_rate) * 100.0;
++						eventCardRankMap[cardInfo.name] = new ModManager.DraftInfo(iwd, cardInfo.avg_pick);
++					}
++				}
++				this.cardRankMap[setCode + "_" + draftModeName] = eventCardRankMap;
++			}
++		}
++		catch (HttpRequestException e)
++		{
++			Debug.LogWarning("fetch " + setCode + "_" + draftModeName + "card rank info failure.");
++		}
++		lock (ModManager.lockObj)
++		{
++			this.fetchingTask.Remove(setCode + "_" + draftModeName);
++		}
++	}
++
++	public string getCardAvgPickInfo(string cardName)
++	{
++		string text = "";
++		foreach (KeyValuePair<string, Dictionary<string, ModManager.DraftInfo>> keyValuePair in this.cardRankMap)
++		{
++			if (keyValuePair.Value != null && keyValuePair.Value.Count != 0)
++			{
++				ModManager.DraftInfo draftInfo;
++				keyValuePair.Value.TryGetValue(cardName, out draftInfo);
++				text = string.Concat(new string[]
++				{
++					text,
++					"\n",
++					keyValuePair.Key,
++					"平均抓位：",
++					draftInfo.ToString()
++				});
++			}
++		}
++		return text;
++	}
++
++	public TMP_FontAsset zhCNFont
++	{
++		get
++		{
++			if (this.modFont == null)
++			{
++				string fontFileName = this.config.fontName;
++				AssetBundle assetBundle = AssetBundle.LoadFromFile(Application.dataPath + "/" + fontFileName);
++				if (assetBundle == null)
++				{
++					this.modFont = TMP_Settings.defaultFontAsset;
++					Debug.LogWarning(string.Format("{0}/{1} don't exist,use game default font:\"{2}\".", new object[]{
++						Application.dataPath,
++						fontFileName,
++						this.modFont.name
++					}));
++				}
++				else
++				{
++					this.modFont = assetBundle.LoadAsset<TMP_FontAsset>(fontFileName + " SDF");
++				}
++			}
++
++			return this.modFont;
++		}
++	}
++
++	public ModManager.ModConfig config;
++
++	private static ModManager instance = null;
++	private static readonly object lockObj = new object();
++	private static string configFilePath = Application.dataPath + "/modconfig.json";
++	private static string startDate = "2016-09-01";
++	private static string endDate = DateTime.Now.ToString("yyyy-MM-dd");
++	private static string apiUri = "https://www.17lands.com/card_ratings/data?expansion={0}&format={1}&start_date={2}&end_date={3}";
++
++	private TMP_FontAsset modFont = null;
++	// <eventName, <cardName, DraftInfo>>
++	private Dictionary<string, Dictionary<string, ModManager.DraftInfo>> cardRankMap = new Dictionary<string, Dictionary<string, ModManager.DraftInfo>>();
++	private Dictionary<string, bool> fetchingTask = new Dictionary<string, bool>();
++	private HttpClient client = new HttpClient();
++
 +	public enum UserSkillLevel : uint
 +	{
-+		NONE,
-+		bottom,
-+		middle,
-+		top
++		NONE = 0,
++		bottom = 1,
++		middle = 2,
++		top = 3,
 +	}
 +
 +	public enum DraftDeckColor : uint
 +	{
-+		NONE,
++		NONE = 0,
 +		W,
 +		U,
 +		B,
@@ -547,34 +741,48 @@ index 0000000..47ea973
 +		WUBRG
 +	}
 +
++	public struct DraftInfo
++	{
++		public DraftInfo(double iwdValue, double pickValue)
++		{
++			this.iwd = iwdValue;
++			this.avgPick = pickValue;
++		}
++
++		public double iwd;
++		public double avgPick;
++	}
++
 +	[Serializable]
 +	public class ModConfig
 +	{
 +		public string fontName = "sourcehansans-medium";
 +
-+		public uint plainsId = 81179u;
++		public uint plainsId = 81179U;
 +
-+		public uint islandId = 81180u;
++		public uint islandId = 81180U;
 +
-+		public uint swampId = 81181u;
++		public uint swampId = 81181U;
 +
-+		public uint mountainId = 81182u;
++		public uint mountainId = 81182U;
 +
-+		public uint forestId = 81183u;
++		public uint forestId = 81183U;
++
++		public uint wasteId = 62531U;
 +
 +		public string defaultFormatName = "Standard";
 +
 +		public bool displayIWDText = true;
 +
-+		public uint maxUntrustedIWDDataAmount = 200u;
++		public uint maxUntrustedIWDDataAmount = 200;
 +
-+		public UserSkillLevel userSkillLevel;
++		public UserSkillLevel userSkillLevel = UserSkillLevel.NONE;
 +
-+		public DraftDeckColor draftDeckColor;
-+
-+		public uint wasteId = 81179u;
++		public DraftDeckColor draftDeckColor = DraftDeckColor.NONE;
 +
 +		public bool alwayExportEnglishDeck = false;
++
++		public bool displayAbilityHangerExtraInfo = true;
 +	}
 +
 +	[Serializable]
@@ -628,164 +836,7 @@ index 0000000..47ea973
 +	[Serializable]
 +	private class CardInfoList
 +	{
-+		public List<CardInfo> data;
-+	}
-+
-+	public TMP_FontAsset zhCNFont;
-+
-+	private static ModManager instance;
-+
-+	private static readonly object lockObj;
-+
-+	private static string configFilePath;
-+
-+	public ModConfig config;
-+
-+	private static Dictionary<string, Dictionary<string, double>> cardRankMap;
-+
-+	private static Dictionary<string, bool> fetchingTask;
-+
-+	private static string startDate;
-+
-+	private static string endDate;
-+
-+	private static string apiUri;
-+
-+	private static readonly HttpClient client;
-+
-+	public static ModManager Instance
-+	{
-+		get
-+		{
-+			lock (lockObj)
-+			{
-+				if (instance == null)
-+				{
-+					instance = new ModManager();
-+					if (instance.config == null)
-+					{
-+						try
-+						{
-+							string json = File.ReadAllText(configFilePath, Encoding.UTF8);
-+							instance.config = JsonUtility.FromJson<ModConfig>(json);
-+							if (instance.config.userSkillLevel > UserSkillLevel.top)
-+							{
-+								instance.config.userSkillLevel = UserSkillLevel.NONE;
-+							}
-+							if (instance.config.draftDeckColor > DraftDeckColor.WUBRG)
-+							{
-+								instance.config.draftDeckColor = DraftDeckColor.NONE;
-+							}
-+							if (instance.config.userSkillLevel != 0)
-+							{
-+								apiUri = string.Format("{0}&user_group={1}", new object[2]
-+								{
-+									apiUri,
-+									instance.config.userSkillLevel.ToString("G")
-+								});
-+							}
-+							if (instance.config.draftDeckColor != 0)
-+							{
-+								apiUri = string.Format("{0&colors={1}", new object[2]
-+								{
-+									apiUri,
-+									instance.config.draftDeckColor.ToString("G")
-+								});
-+							}
-+						}
-+						catch (Exception)
-+						{
-+							instance.config = new ModConfig();
-+						}
-+					}
-+					if (instance.zhCNFont == null)
-+					{
-+						string fontName = instance.config.fontName;
-+						AssetBundle assetBundle = AssetBundle.LoadFromFile(Application.dataPath + "/" + fontName);
-+						if (assetBundle == null)
-+						{
-+							Debug.LogWarning(Application.dataPath + "/" + fontName + " don't exist");
-+						}
-+						instance.zhCNFont = assetBundle.LoadAsset<TMP_FontAsset>(fontName + " SDF");
-+					}
-+				}
-+			}
-+			return instance;
-+		}
-+	}
-+
-+	private ModManager()
-+	{
-+	}
-+
-+	public Dictionary<string, double> getCardRankMap(string setCode, string draftType)
-+	{
-+		if (!config.displayIWDText)
-+		{
-+			return null;
-+		}
-+		if (!cardRankMap.TryGetValue(setCode + "_" + draftType, out var value))
-+		{
-+			bool flag = false;
-+			lock (lockObj)
-+			{
-+				flag = fetchingTask.ContainsKey(setCode + "_" + draftType);
-+			}
-+			if (!flag)
-+			{
-+				lock (lockObj)
-+				{
-+					fetchingTask[setCode + "_" + draftType] = true;
-+				}
-+				fetchCardRankInfo(setCode, draftType);
-+			}
-+			return null;
-+		}
-+		return value;
-+	}
-+
-+	public async void fetchCardRankInfo(string setCode, string draftModeName)
-+	{
-+		string requestUri = string.Format(apiUri, setCode, draftModeName, startDate, endDate);
-+		try
-+		{
-+			string json = $"{{ \"data\": {await client.GetStringAsync(requestUri)}}}";
-+			CardInfoList cardInfoList = JsonUtility.FromJson<CardInfoList>(json);
-+			if (cardInfoList != null)
-+			{
-+				Dictionary<string, double> dictionary = new Dictionary<string, double>();
-+				foreach (CardInfo datum in cardInfoList.data)
-+				{
-+					if (datum.ever_drawn_game_count >= config.maxUntrustedIWDDataAmount || datum.never_drawn_game_count >= config.maxUntrustedIWDDataAmount)
-+					{
-+						double value = (datum.ever_drawn_win_rate - datum.never_drawn_win_rate) * 100.0;
-+						dictionary[datum.name] = value;
-+					}
-+				}
-+				cardRankMap[setCode + "_" + draftModeName] = dictionary;
-+			}
-+		}
-+		catch (HttpRequestException)
-+		{
-+			Debug.LogWarning("fetch " + setCode + "_" + draftModeName + "card rank info failure.");
-+		}
-+		lock (lockObj)
-+		{
-+			fetchingTask.Remove(setCode + "_" + draftModeName);
-+		}
-+	}
-+
-+	static ModManager()
-+	{
-+		instance = null;
-+		lockObj = new object();
-+		configFilePath = Application.dataPath + "/modconfig.json";
-+		cardRankMap = new Dictionary<string, Dictionary<string, double>>();
-+		fetchingTask = new Dictionary<string, bool>();
-+		startDate = "2016-09-01";
-+		endDate = DateTime.Now.ToString("yyyy-MM-dd");
-+		apiUri = "https://www.17lands.com/card_ratings/data?expansion={0}&format={1}&start_date={2}&end_date={3}";
-+		client = new HttpClient();
++		public List<ModManager.CardInfo> data;
 +	}
 +}
 diff --git a/SearchAndFilterBar.cs b/SearchAndFilterBar.cs
@@ -991,7 +1042,7 @@ index d250625..afd0e79 100644
  		public static readonly string[] CardLanguages = new string[10] { "en-US", "pt-BR", "fr-FR", "it-IT", "de-DE", "es-ES", "ru-RU", "ja-JP", "ko-KR", "phyrexian" };
  
 diff --git a/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs b/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
-index 3d50dc3..291a570 100644
+index 3d50dc3..eb72633 100644
 --- a/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
 +++ b/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
 @@ -709,9 +709,10 @@ namespace Wotc.Mtga.Wrapper.Draft
@@ -1007,7 +1058,7 @@ index 3d50dc3..291a570 100644
  				{
  					_inventoryManager.Cards.TryGetValue(cardView.Card.GrpId, out var value);
  					value += _deck.MainDeckIds.Count((uint id) => id == cardView.Card.GrpId);
-@@ -719,12 +720,28 @@ namespace Wotc.Mtga.Wrapper.Draft
+@@ -719,12 +720,29 @@ namespace Wotc.Mtga.Wrapper.Draft
  					int maxCollected = (int)cardView.Card.Printing.MaxCollected;
  					cardView.CardView.ShowCollectionInfo(active: true, Math.Min(value, maxCollected), maxCollected);
  				}
@@ -1019,7 +1070,7 @@ index 3d50dc3..291a570 100644
 +				return;
 +			}
 +			string[] array = _draftPod.InternalEventName.Split('_');
-+			Dictionary<string, double> cardRankMap = ModManager.Instance.getCardRankMap(array[1], array[0]);
++			Dictionary<string, ModManager.DraftInfo> cardRankMap = ModManager.Instance.getCardRankMap(array[1], array[0]);
 +			if (cardRankMap == null)
 +			{
 +				return;
@@ -1028,10 +1079,11 @@ index 3d50dc3..291a570 100644
 +			{
 +				string cardTitle = _cardDatabase.CardTitleProvider.GetCardTitle(allCardView.Card.GrpId, formatted: true, "en-US");
 +				string iWDInfo = "???";
-+				if (cardRankMap.TryGetValue(cardTitle, out var value2))
++				if (cardRankMap.TryGetValue(cardTitle, out var draftInfo))
  				{
 -					cardView.CardView.ShowCollectionInfo(active: false);
-+					iWDInfo = ((!(value2 <= 0.0)) ? ("<color=\"green\"><size=90%>" + value2.ToString("F1")) : ("<color=\"red\"><size=90%>" + value2.ToString("F1")));
++					double iwd = draftInfo.iwd;
++					iWDInfo = ((!(iwd <= 0.0)) ? ("<color=\"green\"><size=90%>" + iwd.ToString("F1")) : ("<color=\"red\"><size=90%>" + iwd.ToString("F1")));
  				}
 +				allCardView.CardView.ShowCardRankInfo(active: true, iWDInfo);
  			}
@@ -1039,7 +1091,7 @@ index 3d50dc3..291a570 100644
  		}
  
  		private void UpdateWaitingOnPacksText()
-@@ -904,6 +921,7 @@ namespace Wotc.Mtga.Wrapper.Draft
+@@ -904,6 +922,7 @@ namespace Wotc.Mtga.Wrapper.Draft
  		{
  			_settingCardsCoroutine = null;
  			_okToPickCard = true;
