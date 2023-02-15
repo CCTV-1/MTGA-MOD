@@ -19,7 +19,7 @@ Subject: [PATCH] mod patch.
  MTGA.Loc/MTGALocalizable.cs                   |  15 +-
  MatchManager.cs                               |   5 -
  Meta_CDC.cs                                   |  11 +
- ModManager.cs                                 | 336 ++++++++++++++++++
+ ModManager.cs                                 | 334 ++++++++++++++++++
  SearchAndFilterBar.cs                         |   1 +
  SetCollectionScreenView.cs                    |   1 +
  SettingsPanelGraphics.cs                      |   2 +-
@@ -37,7 +37,7 @@ Subject: [PATCH] mod patch.
  Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs      |   1 +
  WrapperDeckBuilder.cs                         |   2 +-
  WrapperDeckUtilities.cs                       |  29 +-
- 33 files changed, 553 insertions(+), 130 deletions(-)
+ 33 files changed, 551 insertions(+), 130 deletions(-)
  create mode 100644 ModManager.cs
 
 diff --git a/AbilityHangerBase.cs b/AbilityHangerBase.cs
@@ -648,7 +648,7 @@ index 0000000..5d5e2d3
 +					"\n",
 +					keyValuePair.Key,
 +					"平均抓位：",
-+					draftInfo.ToString()
++					draftInfo.avgPick.ToString()
 +				});
 +			}
 +		}
@@ -781,8 +781,6 @@ index 0000000..5d5e2d3
 +		public DraftDeckColor draftDeckColor = DraftDeckColor.NONE;
 +
 +		public bool alwayExportEnglishDeck = false;
-+
-+		public bool displayAbilityHangerExtraInfo = true;
 +	}
 +
 +	[Serializable]

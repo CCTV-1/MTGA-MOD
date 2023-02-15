@@ -143,7 +143,7 @@ public class ModManager
 					"\n",
 					keyValuePair.Key,
 					"平均抓位：",
-					draftInfo.ToString()
+					draftInfo.avgPick.ToString()
 				});
 			}
 		}
