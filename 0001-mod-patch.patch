@@ -1,6 +1,6 @@
-From 39a2709ff468b7d03681b0423aed65f8c05e55d2 Mon Sep 17 00:00:00 2001
+From 71237557780c44cc959a4411a4ed2c61bcb430bf Mon Sep 17 00:00:00 2001
 From: CCTV-1 <script.tar.gz@gmail.com>
-Date: Wed, 15 Feb 2023 18:40:11 +0800
+Date: Tue, 21 Feb 2023 10:51:28 +0800
 Subject: [PATCH] mod patch.
 
 ---
@@ -10,7 +10,6 @@ Subject: [PATCH] mod patch.
  CDCPart_TextBox_DayNight.cs                   |   4 +-
  CDCPart_TextBox_Dungeon.cs                    |   5 +-
  .../MasteryEndText.cs                         |   1 +
- DeckBuilderWidget.cs                          | 122 +++----
  DeckMainTitlePanel.cs                         |   5 +
  DeckManagerController.cs                      |  10 +-
  DirectChallengeBladeWidget.cs                 |   1 +
@@ -37,7 +36,7 @@ Subject: [PATCH] mod patch.
  Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs      |   1 +
  WrapperDeckBuilder.cs                         |   2 +-
  WrapperDeckUtilities.cs                       |  29 +-
- 33 files changed, 551 insertions(+), 130 deletions(-)
+ 32 files changed, 498 insertions(+), 61 deletions(-)
  create mode 100644 ModManager.cs
 
 diff --git a/AbilityHangerBase.cs b/AbilityHangerBase.cs
@@ -190,169 +189,6 @@ index 590b658..9185b34 100644
  				}
  				return text;
  			}
-diff --git a/DeckBuilderWidget.cs b/DeckBuilderWidget.cs
-index a6e7449..619bb3b 100644
---- a/DeckBuilderWidget.cs
-+++ b/DeckBuilderWidget.cs
-@@ -3403,62 +3403,14 @@ public class DeckBuilderWidget : MonoBehaviour, IFindActionHandler
- 		{
- 			cards = filteredMainDeck.Concat(filteredCommandZone);
- 		}
--		Dictionary<ManaColor, uint> dictionary = BasicLandSuggester.Calculate(cards, _context.Format);
--		Dictionary<ManaColor, List<uint>> dictionary2 = new Dictionary<ManaColor, List<uint>>
--		{
--			{
--				ManaColor.ManaColor_White,
--				new List<uint>()
--			},
--			{
--				ManaColor.ManaColor_Blue,
--				new List<uint>()
--			},
--			{
--				ManaColor.ManaColor_Black,
--				new List<uint>()
--			},
--			{
--				ManaColor.ManaColor_Red,
--				new List<uint>()
--			},
--			{
--				ManaColor.ManaColor_Green,
--				new List<uint>()
--			},
--			{
--				ManaColor.ManaColor_None,
--				new List<uint>()
--			}
--		};
--		foreach (CardList.CardPrintingQuantity item in filteredMainDeck)
--		{
--			if (item.Printing.IsBasicLandUnlimited)
--			{
--				CardColor cardColor = item.Printing.ColorIdentity.FirstOrDefault();
--				if ((uint)(cardColor - 1) <= 4u && _inventoryManager.Cards.TryGetValue(item.Printing.GrpId, out var value) && value > 0)
--				{
--					ManaColor key = cardColor.ToManaColor();
--					for (int i = 0; i < item.Quantity; i++)
--					{
--						dictionary2[key].Add(item.Printing.GrpId);
--					}
--				}
--			}
--			else if (IsSuggestibleWaste(item))
--			{
--				for (int j = 0; j < item.Quantity; j++)
--				{
--					dictionary2[ManaColor.ManaColor_None].Add(item.Printing.GrpId);
--				}
--			}
--		}
-+
-+		Dictionary<ManaColor, uint> suggesContent = BasicLandSuggester.Calculate(cards, _context.Format);
- 		List<uint> list = new List<uint>();
- 		foreach (CardList.CardPrintingQuantity item2 in filteredMainDeck)
- 		{
- 			if (item2.Printing.IsBasicLandUnlimited || IsSuggestibleWaste(item2))
- 			{
--				for (int k = 0; k < item2.Quantity; k++)
-+				for (int j = 0; j < item2.Quantity; j++)
- 				{
- 					list.Add(item2.Printing.GrpId);
- 				}
-@@ -3468,31 +3420,58 @@ public class DeckBuilderWidget : MonoBehaviour, IFindActionHandler
- 		{
- 			_model.RemoveCardFromMainDeck(item3);
- 		}
--		foreach (KeyValuePair<ManaColor, uint> item4 in dictionary)
-+		foreach (KeyValuePair<ManaColor, uint> suggestion in suggesContent)
- 		{
--			KeyValuePair<ManaColor, uint> kvp2 = item4;
--			DictionaryExtensions.Deconstruct(in kvp2, out var key2, out var value2);
--			ManaColor suggestionColor = key2;
--			uint num = value2;
-+			ManaColor suggestionColor = suggestion.Key;
- 			CardPrintingData cardPrintingData = null;
--			List<uint> list2 = dictionary2[suggestionColor];
--			for (int l = 0; l < num; l++)
-+			uint defaultLandId = 0;
-+			switch (suggestionColor)
- 			{
--				if (l < list2.Count)
-+				case ManaColor.ManaColor_White:
- 				{
--					_model.AddCardToMainDeck(list2[l]);
--					continue;
-+					defaultLandId = ModManager.Instance.config.plainsId;
-+					break;
- 				}
--				if (list2.Count > 0)
-+				case ManaColor.ManaColor_Blue:
- 				{
--					_model.AddCardToMainDeck(list2[list2.Count - 1]);
--					continue;
-+					defaultLandId = ModManager.Instance.config.islandId;
-+					break;
- 				}
--				if (cardPrintingData == null)
-+				case ManaColor.ManaColor_Black:
- 				{
--					cardPrintingData = _cardDatabase.DatabaseUtilities.GetPrimaryPrintings().LastOrDefault((CardPrintingData kvp) => kvp.IsBasicLandUnlimited && kvp.ColorIdentity.FirstOrDefault().ToManaColor() == suggestionColor && _inventoryManager.Cards.TryGetValue(kvp.GrpId, out var value5) && value5 > 0);
-+					defaultLandId = ModManager.Instance.config.swampId;
-+					break;
-+				}
-+				case ManaColor.ManaColor_Red:
-+				{
-+					defaultLandId = ModManager.Instance.config.mountainId;
-+					break;
-+				}
-+				case ManaColor.ManaColor_Green:
-+				{
-+					defaultLandId = ModManager.Instance.config.forestId;
-+					break;
-+				}
-+				case ManaColor.ManaColor_None:
-+				default:
-+				{
-+					if (this._context.IsConstructed)
-+					{
-+						defaultLandId = ModManager.Instance.config.wasteId;
-+					}
-+					else
-+					{
-+						defaultLandId = ModManager.Instance.config.plainsId;
-+					}
-+					break;
- 				}
--				if (cardPrintingData == null && suggestionColor == ManaColor.ManaColor_None)
-+			}
-+
-+			if (!_inventoryManager.Cards.TryGetValue(defaultLandId, out var cardQuantity) || (cardQuantity <= 0))
-+			{
-+				cardPrintingData = _cardDatabase.DatabaseUtilities.GetPrimaryPrintings().LastOrDefault((CardPrintingData kvp) => kvp.IsBasicLandUnlimited && kvp.ColorIdentity.FirstOrDefault().ToManaColor() == suggestion.Key && _inventoryManager.Cards.TryGetValue(kvp.GrpId, out var cardQuantity) && cardQuantity > 0);
-+
-+				if (cardPrintingData == null && key == ManaColor.ManaColor_None)
- 				{
- 					if (_context.IsConstructed)
- 					{
-@@ -3503,10 +3482,15 @@ public class DeckBuilderWidget : MonoBehaviour, IFindActionHandler
- 						cardPrintingData = _cardDatabase.DatabaseUtilities.GetPrimaryPrintings().LastOrDefault((CardPrintingData kvp) => kvp.IsBasicLandUnlimited && kvp.ColorIdentity.FirstOrDefault().ToManaColor() == ManaColor.ManaColor_White && _inventoryManager.Cards.TryGetValue(kvp.GrpId, out var value3) && value3 > 0);
- 					}
- 				}
--				if (cardPrintingData != null)
-+				if (cardPrintingData == null)
- 				{
--					_model.AddCardToMainDeck(cardPrintingData.GrpId);
-+					continue;
- 				}
-+				defaultLandId = cardPrintingData.GrpId
-+			}
-+			for (int k = 0; k < suggestion.Value; k++)
-+			{
-+				_model.AddCardToMainDeck(defaultLandId);
- 			}
- 		}
- 		_model.UpdateMainDeck();
 diff --git a/DeckMainTitlePanel.cs b/DeckMainTitlePanel.cs
 index f191488..fc897e6 100644
 --- a/DeckMainTitlePanel.cs
@@ -499,7 +335,7 @@ index ce12467..3e8d569 100644
  }
 diff --git a/ModManager.cs b/ModManager.cs
 new file mode 100644
-index 0000000..5d5e2d3
+index 0000000..24c2e96
 --- /dev/null
 +++ b/ModManager.cs
 @@ -0,0 +1,334 @@
@@ -1193,5 +1029,5 @@ index 0d5c56c..55c6304 100644
  		{
  			CardPrintingData cardPrintingData = printingsByLocalizedTitle.FirstOrDefault((CardPrintingData c) => !c.IsPrimaryCard && c.DefunctRebalancedCardLink != 0 && cardDatabase.CardDataProvider.GetCardPrintingById(c.DefunctRebalancedCardLink).IsPrimaryCard);
 -- 
-2.39.1
+2.39.2
 

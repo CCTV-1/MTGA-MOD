@@ -167,7 +167,7 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 	}
 	```
 
-6. 修改`DeckBuilderWidget::SuggestLand`以支持设置默认基本地。
+6. ~~修改`DeckBuilderWidget::SuggestLand`以支持设置默认基本地。~~(2023.2.28更新后客户端提供了此功能)
 	```csharp
 	private void SuggestLand()
 	{
