@@ -253,18 +253,6 @@ public class ModManager
 	{
 		public string fontName = "sourcehansans-medium";
 
-		public uint plainsId = 81179U;
-
-		public uint islandId = 81180U;
-
-		public uint swampId = 81181U;
-
-		public uint mountainId = 81182U;
-
-		public uint forestId = 81183U;
-
-		public uint wasteId = 62531U;
-
 		public string defaultFormatName = "Standard";
 
 		public bool displayIWDText = true;
@@ -277,7 +265,7 @@ public class ModManager
 
 		public bool alwayExportEnglishDeck = false;
 
-		public bool displayAbilityHangerExtraInfo = true;
+		public bool displayAbilityHangerExtraInfo = false;
 	}
 
 	[Serializable]
