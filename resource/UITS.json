@@ -104,8 +104,8 @@
         "translation": "本回合中你对手已施放了{spellsCast}个咒语。"
     },
     "AbilityHanger/AbilityWord/Toxic_Body": {
-        "oracleText": "A player dealt combat damage by a creature with toxic also gets poison counters equal to that creature’s total toxic value.",
-        "translation": "受此生物战斗伤害的牌手还会得到等同于其总下毒值的中毒指示物。"
+        "oracleText": "A player dealt combat damage by a creature with toxic also gets poison counters equal to that creature's total toxic value.",
+        "translation": "A player dealt combat damage by a creature with toxic also gets poison counters equal to that creature's total toxic value."
     },
     "AbilityHanger/AbilityWord/Toxic_Title": {
         "oracleText": "Toxic",
@@ -3819,6 +3819,22 @@
         "oracleText": "Get In!",
         "translation": "进来！"
     },
+    "Decks/Precon/Alchemy_ONE_GU": {
+        "oracleText": "Counter Points",
+        "translation": "Counter Points"
+    },
+    "Decks/Precon/Alchemy_ONE_R": {
+        "oracleText": "Big Red",
+        "translation": "Big Red"
+    },
+    "Decks/Precon/Alchemy_ONE_RW": {
+        "oracleText": "For Mirrodin!",
+        "translation": "For Mirrodin!"
+    },
+    "Decks/Precon/Alchemy_ONE_WB": {
+        "oracleText": "We Are Legion",
+        "translation": "We Are Legion"
+    },
     "Decks/Precon/Alchemy_SNC_BRG": {
         "oracleText": "Shock Troops",
         "translation": "突击部队"
@@ -4202,6 +4218,10 @@
     "Decks/Precon/Gladiator_WU": {
         "oracleText": "Azorius Control",
         "translation": "俄佐立控制"
+    },
+    "Decks/Precon/HP2023": {
+        "oracleText": "Vivien's Hunt",
+        "translation": "Vivien's Hunt"
     },
     "Decks/Precon/MWM_Brawl_Hofri": {
         "oracleText": "Hofri Ghostforge",
@@ -13688,84 +13708,84 @@
         "translation": "玩任何套牌，赢任意卡牌！\n\n在第二次失败之前赢得12场比赛即可获得最高奖励，即标准版所有卡牌的副本和一枚密封赛事代币！所有参与者都能获得奖励，<u><link=http://magic.wizards.com/mtga-win-every-card>点击这里查看全部赛事奖励。</link></u>。\n\n<b>注意：</b>我们强烈建议你尽可能早地加入并进行比赛。我们希望确保每个人都能在活动结束前尝试获得12场胜利。"
     },
     "Events/Event_Desc_ArenaOpen_Day1": {
-        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for Day 1 is Historic with single-game matches, and then Traditional Historic with best-of-three matches using sideboards for Day 2. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b></size>",
-        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for Day 1 is Historic with single-game matches, and then Traditional Historic with best-of-three matches using sideboards for Day 2. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b></size>"
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for Day 1 is Historic with single-game matches, and then Traditional Historic with best-of-three matches using sideboards for Day 2. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for Day 1 is Historic with single-game matches, and then Traditional Historic with best-of-three matches using sideboards for Day 2. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo1": {
-        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i>Arena Cube</i> Draft with single-game matches. The Day 2 event will use two Traditional <i>Arena Cube</i> Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>角逐现金奖励！</color></size>\n\n报名首日活动，赢得全部7胜以获得进入次日活动与高玩角逐现金奖励的资格！玩家可多次参与首日活动，但即使多次在首日获得资格，他们也只能参与一次次日活动。\n\n首日活动的赛制是单场<i>竞技场方盒</i>轮抓。次日活动赛制则使用两场三盘<i>竞技场方盒</i>轮抓，使用备牌和独立计时器。寻求帮助可点击<u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>此处</link></u>咨询客服。\n\n<b><color=red>必须年满18周岁方可参加。该活动并非在所有国家/地区可用。被禁止地区活动无效。获取现金奖励需注册或拥有有效威世智，DCL以及i-Payout账号。详见<u><link=http://magic.wizards.com/mtga-69960-toc>此处</link></u>。</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i>Phyrexia: All Will Be One</i> Sealed with single-game matches. The Day 2 event will use Traditional <i>Phyrexia: All Will Be One</i> Draft with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i>Phyrexia: All Will Be One</i> Sealed with single-game matches. The Day 2 event will use Traditional <i>Phyrexia: All Will Be One</i> Draft with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo1_Alt": {
-        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Standard with single-game matches. The Day 2 event will use Traditional Standard with best-of-three matches using sideboards. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b></size>",
-        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Standard with single-game matches. The Day 2 event will use Traditional Standard with best-of-three matches using sideboards. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b></size>"
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Standard with single-game matches. The Day 2 event will use Traditional Standard with best-of-three matches using sideboards. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Standard with single-game matches. The Day 2 event will use Traditional Standard with best-of-three matches using sideboards. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo1_KHM": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i>Kaldheim</i> Sealed with single-game matches. The Day 2 event will use two Traditional <i>Kaldheim</i> Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
         "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i>Kaldheim</i> Sealed with single-game matches. The Day 2 event will use two Traditional <i>Kaldheim</i> Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo3": {
-        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional <i>Arena Cube</i> Draft with best-of-three matches using sideboards and individual timers. The Day 2 event will use two Traditional <i>Arena Cube</i> Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional <i>Arena Cube</i> Draft with best-of-three matches using sideboards and individual timers. The Day 2 event will use two Traditional <i>Arena Cube</i> Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional <i>Phyrexia: All Will Be One</i> Sealed with best-of-three matches using sideboards and individual timers. The Day 2 event will also be Traditional <i>Phyrexia: All Will Be One</i> Sealed with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional <i>Phyrexia: All Will Be One</i> Sealed with best-of-three matches using sideboards and individual timers. The Day 2 event will also be Traditional <i>Phyrexia: All Will Be One</i> Sealed with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo3_Alt": {
-        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 match wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional Standard with best-of-three matches using sideboards. The Day 2 event will also be Traditional Standard with best-of-three matches using sideboards. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b></size>",
-        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 match wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional Standard with best-of-three matches using sideboards. The Day 2 event will also be Traditional Standard with best-of-three matches using sideboards. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b></size>"
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 match wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional Standard with best-of-three matches using sideboards. The Day 2 event will also be Traditional Standard with best-of-three matches using sideboards. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 match wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional Standard with best-of-three matches using sideboards. The Day 2 event will also be Traditional Standard with best-of-three matches using sideboards. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo3_KHM": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional <i>Kaldheim</i> Sealed with best-of-three matches using sideboards and individual timers. The Day 2 event will use two Traditional <i>Kaldheim</i> Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
         "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional <i>Kaldheim</i> Sealed with best-of-three matches using sideboards and individual timers. The Day 2 event will use two Traditional <i>Kaldheim</i> Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2": {
-        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the Day 2 event between 6 a.m. PT - 8 a.m. PT (1400 UTC - 1600 UTC).</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is Traditional Alchemy with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the Day 2 event between 6 a.m. PT - 8 a.m. PT (1400 UTC - 1600 UTC).</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is Traditional Alchemy with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the Day 2 event between 6 a.m. PT - 8 a.m. PT (1400 UTC - 1600 UTC).</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is Traditional Alchemy with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the Day 2 event between 6 a.m. PT - 8 a.m. PT (1400 UTC - 1600 UTC).</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is Traditional Alchemy with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_Alt": {
-        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards playing MTG Arena!</size></color>\n\nThis second day of competition is open only to qualified players from Day 1. Players must join the Day 2 event between 6 a.m. PT/2 p.m. UTC and 8 a.m. PT/4 p.m. UTC.\n\nThe Day 2 format is Traditional Standard with best-of-three matches using sideboards. Players may only enter once, even if they have qualified multiple times. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b></size>",
-        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards playing MTG Arena!</size></color>\n\nThis second day of competition is open only to qualified players from Day 1. Players must join the Day 2 event between 6 a.m. PT/2 p.m. UTC and 8 a.m. PT/4 p.m. UTC.\n\nThe Day 2 format is Traditional Standard with best-of-three matches using sideboards. Players may only enter once, even if they have qualified multiple times. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b></size>"
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards playing MTG Arena!</size></color>\n\nThis second day of competition is open only to qualified players from Day 1. Players must join the Day 2 event between 6 a.m. PT/2 p.m. UTC and 8 a.m. PT/4 p.m. UTC.\n\nThe Day 2 format is Traditional Standard with best-of-three matches using sideboards. Players may only enter once, even if they have qualified multiple times. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards playing MTG Arena!</size></color>\n\nThis second day of competition is open only to qualified players from Day 1. Players must join the Day 2 event between 6 a.m. PT/2 p.m. UTC and 8 a.m. PT/4 p.m. UTC.\n\nThe Day 2 format is Traditional Standard with best-of-three matches using sideboards. Players may only enter once, even if they have qualified multiple times. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftOne": {
-        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 12 p.m. PT. Winning all four matches will allow for a second loss in the second draft.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Arena Cube</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 12 p.m. PT. Winning all four matches will allow for a second loss in the second draft.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Arena Cube</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 12 p.m. PT. Winning all 4 matches will allow an extra loss in the second draft.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Phyrexia: All Will Be One</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 12 p.m. PT. Winning all 4 matches will allow an extra loss in the second draft.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Phyrexia: All Will Be One</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftOne_KHM": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 12 p.m. PT. Winning all four matches will allow for a second loss in the second draft.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Kaldheim</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
         "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 12 p.m. PT. Winning all four matches will allow for a second loss in the second draft.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Kaldheim</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftTwo": {
-        "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Dominaria United</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Dominaria United</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Dominaria United</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Dominaria United</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftTwoA": {
-        "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 4 wins in the first draft, this draft is double elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Arena Cube</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 4 wins in the first draft, this draft is double elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Arena Cube</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 4 wins in the first draft, this draft is double elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Phyrexia: All Will Be One</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 4 wins in the first draft, this draft is double elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Phyrexia: All Will Be One</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftTwoA_KHM": {
         "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 4 wins in the first draft, this draft is double elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Kaldheim</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
         "translation": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 4 wins in the first draft, this draft is double elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Kaldheim</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftTwoB": {
-        "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 3 wins in the first draft, this draft is single elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Arena Cube</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 3 wins in the first draft, this draft is single elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Arena Cube</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 3 wins in the first draft, this draft is single elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Phyrexia: All Will Be One</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 3 wins in the first draft, this draft is single elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Phyrexia: All Will Be One</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftTwoB_KHM": {
         "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 3 wins in the first draft, this draft is single elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Kaldheim</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
         "translation": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 3 wins in the first draft, this draft is single elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Kaldheim</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftTwo_Fix": {
-        "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 11 a.m. PT - 1 p.m. PT and play their matches by 4 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Dominaria United</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>玩家必须在太平洋时间上午11点至下午1点之间加入第二轮比赛，并在太平洋时间下午4点之前进行比赛。</size></color>\n\n第二天的比赛只对第一天的合格选手开放。\n\n第2天的赛制是<b>两场</b><i>多明纳里亚：众志成城</i>三盘轮抽，使用备牌和个人计时器进行三局两胜的比赛。玩家只能进入一次，即使他们已经多次获得资格。\n\n如需帮助，请单击<u><link=http://magic.wizards.com/mtga-69960>此处</link></u>联系客户服务。\n\n<b><color=red>必须年满18岁才能参加。并非在所有地区/领地都可用。禁止的地方无效。领取陷阱奖励需要创建或拥有现有的Wizards、DCI和i-Payout账户。请参阅<u><link=http://magic.wizards.com/mtga-69960-toc>此处</link></u>了解完整详情。</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 11 a.m. PT - 1 p.m. PT and play their matches by 4 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Dominaria United</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Players must join the second draft between 11 a.m. PT - 1 p.m. PT and play their matches by 4 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Dominaria United</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_Fix": {
-        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 11 a.m. PT.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second draft between 11 a.m. PT - 1 p.m. PT and play their matches by 4 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Dominaria United</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>争夺现金奖励！\n\n球员必须在太平洋时间上午 6 点至上午 8 点之间参加初选，并在太平洋时间上午11点之前参加比赛。</size></color>\n\n<size=150%><color=#e1a154>玩家必须在太平洋时间上午11点至下午1点之间加入第二轮比赛，并在太平洋时间下午4点之前进行比赛。</size></color>\n\n第二天的比赛只对第一天的合格选手开放。\n\n第2天的赛制是<b>两场</b><i>多明纳里亚：众志成城</i>三盘轮抽，使用备牌和个人计时器进行三局两胜的比赛。玩家只能进入一次，即使他们已经多次获得资格。如需帮助，请单击<u><link=http://magic.wizards.com/mtga-69960>此处</link></u>联系客户服务。\n\n<b><color=red>必须年满18岁才能参加。并非在所有地区/领地都可用。禁止的地方无效。领取陷阱奖励需要创建或拥有现有的Wizards、DCI和i-Payout账户。请参阅<u><link=http://magic.wizards.com/mtga-69960-toc>此处</link></u>了解完整详情。</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 11 a.m. PT.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second draft between 11 a.m. PT - 1 p.m. PT and play their matches by 4 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Dominaria United</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 11 a.m. PT.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second draft between 11 a.m. PT - 1 p.m. PT and play their matches by 4 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Dominaria United</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_SealedOne": {
-        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first event between 6 a.m. PT - 8 a.m. PT and play their matches by 11 a.m. PT.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second event between 11 a.m. PT - 1 p.m. PT and play their matches by 4 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is Traditional <i>Dominaria</i> Sealed with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first event between 6 a.m. PT - 8 a.m. PT and play their matches by 11 a.m. PT.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second event between 11 a.m. PT - 1 p.m. PT and play their matches by 4 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is Traditional <i>Dominaria</i> Sealed with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first event between 6 a.m. PT - 8 a.m. PT and play their matches by 11 a.m. PT.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second event between 11 a.m. PT - 1 p.m. PT and play their matches by 4 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is Traditional <i>Dominaria</i> Sealed with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first event between 6 a.m. PT - 8 a.m. PT and play their matches by 11 a.m. PT.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second event between 11 a.m. PT - 1 p.m. PT and play their matches by 4 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is Traditional <i>Dominaria</i> Sealed with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_SealedTwo": {
-        "oracleText": "<size=150%><color=#e1a154>Players must join the second event between 11 a.m. PT - 1 p.m. PT and play their matches by 4 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Dominaria</i> Sealed with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Players must join the second event between 11 a.m. PT - 1 p.m. PT and play their matches by 4 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Dominaria</i> Sealed with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Players must join the second event between 11 a.m. PT - 1 p.m. PT and play their matches by 4 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Dominaria</i> Sealed with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Players must join the second event between 11 a.m. PT - 1 p.m. PT and play their matches by 4 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Dominaria</i> Sealed with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaTeamEvent": {
         "oracleText": "Thank you for all your hard work!",
@@ -14880,8 +14900,8 @@
         "translation": "每次从传过来的轮抽卡包中选一张牌，这些牌会加入你的收藏，你将使用这些牌加上基本地来构筑40张的套牌进行bo3对战。 你将得到的奖励取决于你的胜场!\n\n<b>真人轮抽～和其他七位玩家共同进行的限时轮抽</b>"
     },
     "Events/Event_Desc_MWM_3Sets": {
-        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is On the Edge: Bring a 60-card deck using only cards from <i>Kamigawa: Neon Dynasty</i>, <i>Streets of New Capenna</i>, and <i>Dominaria United</i>. With only three Standard sets to work with, you'll need cutting-edge strategies to find victory! \n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
-        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is On the Edge: Bring a 60-card deck using only cards from <i>Kamigawa: Neon Dynasty</i>, <i>Streets of New Capenna</i>, and <i>Dominaria United</i>. With only three Standard sets to work with, you'll need cutting-edge strategies to find victory! \n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is On the Edge: Bring a 60-card deck using only cards from <i>Dominaria United</i>, <i>The Brothers' War</i>, and <i>Phyrexia: All Will Be One</i>. With only three Standard sets to work with, you'll need cutting-edge strategies to find victory! \n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is On the Edge: Bring a 60-card deck using only cards from <i>Dominaria United</i>, <i>The Brothers' War</i>, and <i>Phyrexia: All Will Be One</i>. With only three Standard sets to work with, you'll need cutting-edge strategies to find victory! \n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
     },
     "Events/Event_Desc_MWM_Alchemy": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Alchemy: Bring a 60-card Alchemy deck. Break out the latest and greatest from the lab, or maybe find a new favorite!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
@@ -14910,6 +14930,10 @@
     "Events/Event_Desc_MWM_BotDraft_KHM": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Kaldheim</i> Bot Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
         "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Kaldheim</i> Bot Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+    },
+    "Events/Event_Desc_MWM_BotDraft_STX": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Planeshifted <i>Strixhaven</i> Bot Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Planeshifted <i>Strixhaven</i> Bot Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
     },
     "Events/Event_Desc_MWM_Brawl": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Brawl: Bring a 60-card deck led by your favorite legendary creature or planeswalker in Standard. Choose your champion and fight to the top of the heap!\n\nYou can receive a code for a Midweek Magic Promo Pack containing two cosmetic items when you share your results with your local game store. Find out how <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.\n\n*Note: While supplies last. Not all stores are participating.",
@@ -15240,20 +15264,20 @@
         "translation": "参加活动，抢先体验<i>艾卓王权</i>！在此特殊活动中，你将从四副预组套牌中选择一副，加入我们最新的赛制～争锋！\n\n选择一位特殊的传奇生物或鹏洛客当作你的指挥官，并围绕它构筑一副套牌，而后与另一位牌手进行双人对战！欲知争锋赛制的更多信息，敬请<u></b><link=https://magic.wizards.com/mtga-brawl>点按此处</link></b></u>。\n\n争锋套牌不会加入牌手的收藏当中，但显示在赛事奖励中给出的<i>艾卓王权</i>卡牌可在9月9日开始的「2020标准赛」赛事活动中使用，并从9月26日开始可以在其他赛事活动中使用。"
     },
     "Events/Event_Desc_QualifierPlayIn_Bo1": {
-        "oracleText": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom <i>Phyrexia: All Will Be One</i> Sealed with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
-        "translation": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom <i>Phyrexia: All Will Be One</i> Sealed with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>"
+        "oracleText": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Standard with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
+        "translation": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Standard with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_QualifierPlayIn_Bo3": {
-        "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom Traditional <i>Phyrexia: All Will Be One</i> Sealed with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
-        "translation": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom Traditional <i>Phyrexia: All Will Be One</i> Sealed with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>"
+        "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Traditional Standard with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
+        "translation": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Traditional Standard with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_QualifierWeekend_Day1": {
-        "oracleText": "Congratulations on earning your way to Qualifier Weekend! Sign up for this Day 1 event and get all 7 wins to qualify for Day 2! You may join each day only once.\n\nPlayers can only join Day 1 and (if qualified) Day 2 events between 6 a.m. PT - 8 a.m. PT.\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend>here</link></u> for full details.</color></b></size>",
-        "translation": "恭喜你获得参加资格赛周末的机会！报名参加第1天的赛事并获得全部7场胜利，即可获得第 2 天的参赛资格！你每天只能参加一次。\n\n玩家只能在太平洋时间上午6点至上午8点之间参加第1天和第2天的活动（如果有资格）。\n\n<size=100%><b><color=\"red\">必须年满18岁才能参加。并非在所有地区/领地都可用。禁止的地方无效。附加条款和条件适用。请参阅<u><link=https://magic.gg/events/qualifier-weekend>此处</link></u>了解完整详情。</color></b></size>"
+        "oracleText": "Congratulations on earning your way to Qualifier Weekend! Sign up for this Day 1 event and get all 7 wins to qualify for Day 2! You may join each day only once.\n\nPlayers can only join Day 1 and (if qualified) Day 2 events between 6 a.m. PT - 8 a.m. PT.\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
+        "translation": "Congratulations on earning your way to Qualifier Weekend! Sign up for this Day 1 event and get all 7 wins to qualify for Day 2! You may join each day only once.\n\nPlayers can only join Day 1 and (if qualified) Day 2 events between 6 a.m. PT - 8 a.m. PT.\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_QualifierWeekend_Day2": {
-        "oracleText": "Congratulations on making Day 2! You may join only once.\n\nTo play Day 2, you MUST join between 6 a.m. PT - 8 a.m. PT.\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend>here</link></u> for full details.</color></b></size>",
-        "translation": "祝贺你进入第2天的赛事！你每天只能参加一次。\n\n第2天的赛事，只能在太平洋时间上午 6 点至上午 8 点之间参加。\n\n<size=100%><b><color=\"red\">必须年满18岁才能参加。并非在所有地区/领地都可用。禁止的地方无效。附加条款和条件适用。请参阅<u><link=https://magic.gg/events/qualifier-weekend>此处</link></u>了解完整详情。</color></b></size>"
+        "oracleText": "Congratulations on making Day 2! You may join only once.\n\nTo play Day 2, you MUST join between 6 a.m. PT - 8 a.m. PT.\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
+        "translation": "Congratulations on making Day 2! You may join only once.\n\nTo play Day 2, you MUST join between 6 a.m. PT - 8 a.m. PT.\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_QuickExploration": {
         "oracleText": "In Exploration, Magic's rules are changed: You can play two lands per turn, your starting hand size is nine, and you have no maximum hand size!",
@@ -15783,6 +15807,10 @@
         "oracleText": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Fliers Tempo</b> Hold your ground with tokens and defensive instants and sorceries, all while attacking from the air.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Control</b> Develop a long-term advantage with card draw and creature removal spells, then go after your opponent directly in the late game.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Reckless Aggro</b> Throw caution to the wind and assault your opponent, clearing a path with creature removal spells or by simply trading your creatures for theirs.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Domain Stompy</b> Rule the board by attacking with the largest creatures on the battlefield, boosted by the domain mechanic.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Domain Tokens</b> Assemble a massive army of creatures and tokens, then dominate the mid-game with the domain mechanic.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Creature Sacrifice</b> Ruthlessly sacrifice your small creatures or tokens for profit, then bring creatures back from the graveyard to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Spells Aggro</b> Cast instant and sorcery spells to bolster aggressive creatures and clear a path to victory.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Domain Midrange</b> Get maximum value out of your cards with huge creatures, bringing cards back from the graveyard, and domain rewards.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Tokens Aggro</b> Go wide with an aggressive army of small creatures and tokens, punching through your opponent's defenses with spells and effects that boost your whole team.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Kicker Ramp</b> Build up your mana to get additional value from kicking your spells. Splash in some other colors to take advantage of powerful multicolor cards and the domain mechanic.",
         "translation": "轮抽用炼金补充包在桌上轮转，你每次需从中选择一张牌。这些牌张将加入你的收藏，而你将使用它们和基本地来构筑一副40张的套牌。不断进行对战，最后根据你的胜场数量赢得奖励！\n\n<b>真人轮抽～和其他七位玩家共同进行的限时轮抽</b>\n\n<sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xW\\\"><sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xU\\\"> <b>飞行节奏</b> 用衍生物和防御性的瞬间和法术进行地面防御，同时从空中进行攻击。\n\n<sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xU\\\"><sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xB\\\"> <b>控制</b> 利用抓牌和生物移除咒语形成长期优势，然后在游戏后期直接追击你的对手。\n\n<sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xB\\\"><sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xR\\\"> <b>无情快攻</b> 将谨慎抛诸脑后，直接攻击你的对手，用生物移除咒语扫清道路，或者简单地用你的生物交换他们的生物。\n\n<sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xR\\\"><sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xG\\\"> <b>领土风暴</b> 通过使用战场上最大的生物进行攻击，在领土机制的推动下，统治棋盘。\n\n<sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xG\\\"><sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xW\\\"> <b>领土衍生物</b> 组建一支庞大的生物和衍生物大军，然后用领土机制主宰游戏中期。\n\n<sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xW\\\"><sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xB\\\"> <b>生物牺牲</b> 无情地牺牲你的小生物或衍生物以获得收益，然后将生物从坟墓场带回来压倒你的对手。\n\n<sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xU\\\"><sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xR\\\"> <b>法术快攻</b>释放瞬间和法术咒语来振励好斗异能生物，并扫清通往胜利的道路。\n\n<sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xB\\\"><sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xG\\\"> <b>领土中速</b> 使用巨大的生物让你的牌发挥最大价值，将牌从坟墓场中带回，并获得领土的加成效果。\n\n<sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xW\\\"><sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xR\\\"> <b>衍生物快攻</b> 使用由小生物和衍生物组成的侵略性大军，用可以提升整个团队的咒语和效应来突破对手的防御。\n\n<sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xU\\\"><sprite=\\\"SpriteSheet_ManaIcons\\\" name=\\\"xG\\\"> <b>增幅暴费</b> 使用增幅类咒语获得额外法术力建立优势，加上一些其它颜色卡牌以更好利用多色和领土优势。"
     },
+    "Events/Event_Desc_Y23ONE_Premier_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Artifacts</b> Phyrexia is filled with glorious artifacts.  Gather as many of these artifacts as you can to outmaneuver your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Proliferate Control</b> Use proliferate to spread the glory of Phyrexia—oil counters, poison counters, and loyalty counters are all ready to be proliferated.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Oil Counters & Sacrifice</b> All Phyrexians are valuable, even (and sometimes especially) in death.  Use your creatures and artifacts to generate oil counters when they die.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Oil Counters Midrange</b> The more things with oil counters you have, the merrier.  Use these oil counters to get the biggest, smashiest creatures you can.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Toxic Aggro</b> Take advantage of small toxic creatures, especially Mite tokens, to swarm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Corrupted</b> Give your opponent three or more poison counters, then your corrupted cards become even more powerful.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Oil Counters & Noncreature Spells</b> Build up your oil counters and overwhelm your opponent by casting a variety of artifacts, enchantments, instants, sorceries, and yes, even planeswalkers!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Poison Victory</b> You have the biggest baddest creature with toxic.  Use them to get your opponent to 10 poison counters.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>For Mirrodin! Equipment</b> Someone's got to fight against the Phyrexians!  Your rebels can use equipment to stave them off!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Proliferate & Poison</b> Two great tastes that go great together.  Use green creatures with toxic to deal out serious poison counters, then proliferate to finish the job.",
+        "translation": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Artifacts</b> Phyrexia is filled with glorious artifacts.  Gather as many of these artifacts as you can to outmaneuver your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Proliferate Control</b> Use proliferate to spread the glory of Phyrexia—oil counters, poison counters, and loyalty counters are all ready to be proliferated.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Oil Counters & Sacrifice</b> All Phyrexians are valuable, even (and sometimes especially) in death.  Use your creatures and artifacts to generate oil counters when they die.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Oil Counters Midrange</b> The more things with oil counters you have, the merrier.  Use these oil counters to get the biggest, smashiest creatures you can.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Toxic Aggro</b> Take advantage of small toxic creatures, especially Mite tokens, to swarm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Corrupted</b> Give your opponent three or more poison counters, then your corrupted cards become even more powerful.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Oil Counters & Noncreature Spells</b> Build up your oil counters and overwhelm your opponent by casting a variety of artifacts, enchantments, instants, sorceries, and yes, even planeswalkers!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Poison Victory</b> You have the biggest baddest creature with toxic.  Use them to get your opponent to 10 poison counters.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>For Mirrodin! Equipment</b> Someone's got to fight against the Phyrexians!  Your rebels can use equipment to stave them off!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Proliferate & Poison</b> Two great tastes that go great together.  Use green creatures with toxic to deal out serious poison counters, then proliferate to finish the job."
+    },
     "Events/Event_Desc_Yargle_Day_2020": {
         "oracleText": "When Belzenlok's lieutenant Yar-Kul grew too ambitious, the Demonlord transformed him into a maggot. The frog that ate the maggot grew and grew, until a ravenous spirit burst from its body. Today, we celebrate that spirit, everyone's pal, Yargle!\n\nWe asked Yargle how best to celebrate, and here's how we interpreted its gurgles and shrieks:\n- Yargle makes the rules! Yargle has provided decks for everyone to use, and we've even cleaned most of the slime off of them.\n- Yargle is the center of attention! Yargle is the only non-common card allowed, and you'll have plenty of extras so you won't run out.\n- Yargle is special! Yargle will be faster to get into the fight, so nobody has to have fun alone.\n\nJoin us for a rip-roaring good time with a spirit of a frog which ate a maggot that was actually a transformed lieutenant of a demon. Happy Yargle Day, everyone!",
         "translation": "贝赞洛的副手雅库开始展露野心，恶魔领主便把他变成一条蛆虫。有只青蛙吞下了这条蛆虫后不断变大，最终贪食的精怪从其体内破膛而出。今天，我们庆祝这种精神，每个人的朋友，雅骨尔！\n\n我们询问了雅骨尔如何最好地庆祝，以下是我们如何解释它的咯咯声和尖叫声：\n- 雅骨尔制定了规则! 雅骨尔提供了套牌供大家使用，我们甚至已经把套牌上的大部分粘液清理干净了。\n- 雅骨尔是关注的焦点! 雅骨尔是唯一允许使用的非普通卡，你会有大量的额外卡，所以你不会用完。\n- 雅骨尔很特别! 雅骨尔会更快地进入战斗，所以没有人必须独自享受乐趣。\n\n加入我们的行列，与一只吃了蛆的青蛙精怪一起度过一段撕心裂肺的美好时光，这只青蛙实际上是一个恶魔的变身副官。各位，雅骨尔日快乐！"
@@ -15910,6 +15938,10 @@
     "Events/Event_Desc_white05": {
         "oracleText": "Play against another player using the White deck, win or lose, to complete this Color Challenge. No one knows who it will be.",
         "translation": "使用白色套牌与另一位玩家对战，无论输赢，完成此颜色挑战。没有人知道对手会是谁。"
+    },
+    "Events/Event_Detail_EventCount": {
+        "oracleText": "{0} events available.",
+        "translation": "{0} events available."
     },
     "Events/Event_NonStandardDraft_ConfirmJoin": {
         "oracleText": "Join Event",
@@ -17299,6 +17331,10 @@
         "oracleText": "Midweek Magic: Phantom Bot Draft",
         "translation": "周中万智牌：幻影人机轮抽"
     },
+    "Events/Event_Title_MWM_BotDraft_STX": {
+        "oracleText": "Midweek Magic: Phantom Bot Draft",
+        "translation": "Midweek Magic: Phantom Bot Draft"
+    },
     "Events/Event_Title_MWM_Brawl": {
         "oracleText": "Midweek Magic: Brawl",
         "translation": "周中万智牌：争锋"
@@ -18211,6 +18247,10 @@
         "oracleText": "Workshop: Heroes of Theros",
         "translation": "工坊：塞洛斯的英雄"
     },
+    "Events/Event_Title_Workshop_Draft_THB\t": {
+        "oracleText": "Workshop: Heroes of Theros",
+        "translation": "Workshop: Heroes of Theros"
+    },
     "Events/Event_Title_Workshop_GuildBattle": {
         "oracleText": "Workshop: Rise and Revolt",
         "translation": "工坊：崛起与反抗"
@@ -18266,6 +18306,10 @@
     "Events/Event_Title_Y23DMU_Premier_Draft": {
         "oracleText": "Premier Draft Dominaria United Alchemy",
         "translation": "多明纳里亚：众志成城炼金竞技轮抽"
+    },
+    "Events/Event_Title_Y23ONE_Premier_Draft": {
+        "oracleText": "Premier Draft All Will Be One Alchemy",
+        "translation": "Premier Draft All Will Be One Alchemy"
     },
     "Events/Event_Title_Yargle_Day_2020": {
         "oracleText": "Yargle Day!",
@@ -19503,6 +19547,10 @@
         "oracleText": "Join between 6am and 8am Pacific on March 11",
         "translation": "在太平洋时间的3月11日早上六点到八点加入"
     },
+    "Events/Tokens/QualifierDay1TokenDescription20230408": {
+        "oracleText": "Join between 6am and 8am Pacific on April 8",
+        "translation": "Join between 6am and 8am Pacific on April 8"
+    },
     "Events/Tokens/QualifierDay1TokenPlural": {
         "oracleText": "Qualifier Weekend Token",
         "translation": "资格赛周末门票"
@@ -19526,6 +19574,10 @@
     "Events/Tokens/QualifierDay2TokenDescription20230226": {
         "oracleText": "Join between 6am and 8am Pacific on February 26",
         "translation": "在太平洋时间的2月26日早上六点到八点加入"
+    },
+    "Events/Tokens/QualifierDay2TokenDescription20230312": {
+        "oracleText": "Join between 6am and 8am Pacific on March 12",
+        "translation": "Join between 6am and 8am Pacific on March 12"
     },
     "Events/Tokens/QualifierDay2TokenPlural": {
         "oracleText": "Qualifier Day 2",
@@ -19859,6 +19911,14 @@
         "oracleText": "Ravnica Allegiance",
         "translation": "效忠拉尼卡"
     },
+    "General/Sets/SIR": {
+        "oracleText": "Shadows over Innistrad Remastered",
+        "translation": "Shadows over Innistrad Remastered"
+    },
+    "General/Sets/SIS": {
+        "oracleText": "Shadows of the Past",
+        "translation": "Shadows of the Past"
+    },
     "General/Sets/SNC": {
         "oracleText": "Streets of New Capenna",
         "translation": "新卡佩纳：喧嚣黑街"
@@ -19910,6 +19970,10 @@
     "General/Sets/Y23-DMU": {
         "oracleText": "Alchemy: Dominaria",
         "translation": "炼金：多明纳里亚"
+    },
+    "General/Sets/Y23-ONE": {
+        "oracleText": "Alchemy: Phyrexia",
+        "translation": "Alchemy: Phyrexia"
     },
     "General/Sets/ZNR": {
         "oracleText": "Zendikar Rising",
@@ -21090,6 +21154,10 @@
     "MainNav/BoosterChamber/CarouselBooster_Open10": {
         "oracleText": "Open x10",
         "translation": "打开x10"
+    },
+    "MainNav/BoosterChamber/DismissCards": {
+        "oracleText": "Dismiss Cards",
+        "translation": "Dismiss Cards"
     },
     "MainNav/BoosterChamber/Header_Title": {
         "oracleText": "Packs",
@@ -24471,6 +24539,10 @@
         "oracleText": "PLACEHOLDER SLEEVE NAME <CardBack_ONE_418505>",
         "translation": "PLACEHOLDER SLEEVE NAME <CardBack_ONE_418505>"
     },
+    "MainNav/DeckBuilder/Sleeves/CardBack_ONE_422039": {
+        "oracleText": "Flensing Raptor Sleeve",
+        "translation": "Flensing Raptor Sleeve"
+    },
     "MainNav/DeckBuilder/Sleeves/CardBack_ONE_422219": {
         "oracleText": "PLACEHOLDER SLEEVE NAME <CardBack_ONE_422219>",
         "translation": "PLACEHOLDER SLEEVE NAME <CardBack_ONE_422219>"
@@ -24963,6 +25035,26 @@
         "oracleText": "kelogsloops Burgeoning Sleeve",
         "translation": "kelogsloops版发芽牌套"
     },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_427718": {
+        "oracleText": "Sakashima the Impostor Sleeve",
+        "translation": "Sakashima the Impostor Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_427719": {
+        "oracleText": "Massacre Girl Sleeve",
+        "translation": "Massacre Girl Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_427720": {
+        "oracleText": "Azusa, Lost but Seeking Sleeve",
+        "translation": "Azusa, Lost but Seeking Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_427721": {
+        "oracleText": "Teysa Karlov Sleeve",
+        "translation": "Teysa Karlov Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_427722": {
+        "oracleText": "Paradise Mantle Sleeve",
+        "translation": "Paradise Mantle Sleeve"
+    },
     "MainNav/DeckBuilder/Sleeves/CardBack_RD_429175": {
         "oracleText": "Dan Frazier Talisman of Creativity Sleeve",
         "translation": "Dan Frazier版创新饰符牌套"
@@ -25223,6 +25315,26 @@
         "oracleText": "Prismatic Omen Beyond the Stars Sleeve",
         "translation": "*五彩预兆*星空之外牌套"
     },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_431807": {
+        "oracleText": "Alms Collector Sleeve",
+        "translation": "Alms Collector Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_431808": {
+        "oracleText": "Crested Sunmare Sleeve",
+        "translation": "Crested Sunmare Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_431809": {
+        "oracleText": "Rin and Seri, Inseperable Sleeve",
+        "translation": "Rin and Seri, Inseperable Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_431810": {
+        "oracleText": "Goreclaw, Terror of Qal Sisma Sleeve",
+        "translation": "Goreclaw, Terror of Qal Sisma Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_431811": {
+        "oracleText": "Exotic Orchard Sleeve",
+        "translation": "Exotic Orchard Sleeve"
+    },
     "MainNav/DeckBuilder/Sleeves/CardBack_RD_431824": {
         "oracleText": "Totally Normal Void Winnower Sleeve",
         "translation": "完全正常*虚空筛除体*牌套"
@@ -25378,6 +25490,26 @@
     "MainNav/DeckBuilder/Sleeves/CardBack_RD_435963": {
         "oracleText": "Sliver Legion Sleeve",
         "translation": "Sliver Legion Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_436815": {
+        "oracleText": "Hexdrinker Sleeve",
+        "translation": "Hexdrinker Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_436816": {
+        "oracleText": "Ice-Fang Coatl Sleeve",
+        "translation": "Ice-Fang Coatl Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_436817": {
+        "oracleText": "Lotus Cobra Sleeve",
+        "translation": "Lotus Cobra Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_436818": {
+        "oracleText": "Stonecoil Serpent Sleeve",
+        "translation": "Stonecoil Serpent Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_436819": {
+        "oracleText": "Seshiro the Anointed Sleeve",
+        "translation": "Seshiro the Anointed Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_RD_437315": {
         "oracleText": "Post Malone Plains Sleeve",
@@ -27299,6 +27431,10 @@
         "oracleText": "Earn wins with Standard decks or in Historic modes.",
         "translation": "使用标准套牌或史迹模式赢得胜利。"
     },
+    "MainNav/EventRewards/EleshNorn_Reward": {
+        "oracleText": "Elesh Norn, Mother of Machines Card Style",
+        "translation": "Elesh Norn, Mother of Machines Card Style"
+    },
     "MainNav/EventRewards/Elesh_Norn_Mother_of_Machines": {
         "oracleText": "Elesh Norn, Mother of Machines Card Style",
         "translation": "*机械之母艾蕾侬*卡牌样式"
@@ -29155,6 +29291,14 @@
         "oracleText": "Phyrexia: All Will Be One!",
         "translation": "非瑞克西亚：万界归一！"
     },
+    "MainNav/HomePage/Carousel/2023_24_Store_Desc": {
+        "oracleText": "Perfection is nearly compleat! Come check out all new Alchemy: Phyrexia boosters and more in the store!",
+        "translation": "Perfection is nearly compleat! Come check out all new Alchemy: Phyrexia boosters and more in the store!"
+    },
+    "MainNav/HomePage/Carousel/2023_24_Store_Title": {
+        "oracleText": "Alchemy: Phyrexia is here!",
+        "translation": "Alchemy: Phyrexia is here!"
+    },
     "MainNav/HomePage/Carousel/2023_ONE_PreOrder_Desc": {
         "oracleText": "Preorders have a compleatly new look! Pick up the Pack Bundle, Play Bundle, or the new Pass Bundle before ONE releases to help ensure your victory against the threat of Phyrexia.",
         "translation": "Preorders have a compleatly new look! Pick up the Pack Bundle, Play Bundle, or the new Pass Bundle before ONE releases to help ensure your victory against the threat of Phyrexia."
@@ -30946,6 +31090,14 @@
     "MainNav/HomePage/Carousel/Pomponchan_Title": {
         "oracleText": "Pompon-chan Pet Bundle",
         "translation": "Pompon-chan宠物套装"
+    },
+    "MainNav/HomePage/Carousel/PotM_Here_March_Desc": {
+        "oracleText": "Ebondeath is back from the brink and ready to soar into your heart! This dragon will always be by your side – not even death can stop it! Fly by the store today and see for yourself!",
+        "translation": "Ebondeath is back from the brink and ready to soar into your heart! This dragon will always be by your side – not even death can stop it! Fly by the store today and see for yourself!"
+    },
+    "MainNav/HomePage/Carousel/PotM_Leaving_March_Desc": {
+        "oracleText": "Stop by the store and pick up Ebondeath before it heads back to the graveyard.",
+        "translation": "Stop by the store and pick up Ebondeath before it heads back to the graveyard."
     },
     "MainNav/HomePage/Carousel/PreOrder_BRO_Desc": {
         "oracleText": "The time to rage with machines is almost upon us! Return to the trenches and fortify your engines with Pre-orders available now in the Store.",
@@ -33127,6 +33279,14 @@
         "oracleText": "More Info",
         "translation": "更多信息"
     },
+    "MainNav/Mailbox/CardRebalances_Description": {
+        "oracleText": "We've made adjustments to a few cards in Arena to make games more balanced. We've given you an additional copy of each card you already owned. To see all the rebalances and reasoning behind them, check out our Release Notes below!",
+        "translation": "We've made adjustments to a few cards in Arena to make games more balanced. We've given you an additional copy of each card you already owned. To see all the rebalances and reasoning behind them, check out our Release Notes below!"
+    },
+    "MainNav/Mailbox/CardRebalances_Title": {
+        "oracleText": "Card Rebalances Are Here!",
+        "translation": "Card Rebalances Are Here!"
+    },
     "MainNav/Mailbox/Claim_Error": {
         "oracleText": "The items could not be claimed, please try again later.",
         "translation": "这些物品无法获得，请稍后重试"
@@ -33227,6 +33387,14 @@
         "oracleText": "Upcoming Release",
         "translation": "即将发布"
     },
+    "MainNav/Mailbox/NoMorePrizes": {
+        "oracleText": "You Got All The Rewards!",
+        "translation": "You Got All The Rewards!"
+    },
+    "MainNav/Mailbox/NoMorePrizes_Description": {
+        "oracleText": "Congratulations! You've redeemed all the codes associated with this offer. Thank you for playing Magic the Gathering: Arena!",
+        "translation": "Congratulations! You've redeemed all the codes associated with this offer. Thank you for playing Magic the Gathering: Arena!"
+    },
     "MainNav/Mailbox/ONE_Web_Release_Notes_Description": {
         "oracleText": "Get a look into the mechanics, features, and more coming with ONE by clicking the link below!",
         "translation": "Get a look into the mechanics, features, and more coming with ONE by clicking the link below!"
@@ -33259,9 +33427,25 @@
         "oracleText": "We are working hard to improve MTG Arena which requires a little downtime. Servers will be down for awhile. We apologize for the inconvenience.",
         "translation": "We are working hard to improve MTG Arena which requires a little downtime. Servers will be down for awhile. We apologize for the inconvenience."
     },
+    "MainNav/Mailbox/Planned_Downtime_Matchmaking_Description": {
+        "oracleText": "We are working hard to improve MTG Arena which requires a little downtime with our Matchmaking servers. You will be unable to queue into various games until matchmaking is restored. Please see our status page below for more details!",
+        "translation": "We are working hard to improve MTG Arena which requires a little downtime with our Matchmaking servers. You will be unable to queue into various games until matchmaking is restored. Please see our status page below for more details!"
+    },
+    "MainNav/Mailbox/Planned_Downtime_Matchmaking_Title": {
+        "oracleText": "Matchmaking Downtime Incoming",
+        "translation": "Matchmaking Downtime Incoming"
+    },
     "MainNav/Mailbox/Planned_Downtime_Title": {
         "oracleText": "Downtime Incoming",
         "translation": "停机时间传入"
+    },
+    "MainNav/Mailbox/PreferredPrinting_Description": {
+        "oracleText": "We are happy to announce that you can now select your favorite printing of each card in your collection! Yes, this means you can select your favorite basic lands!\n\nMultiple printings for a single card are now collapsed down to a single entry. You can toggle the expand button on a card to see all the printings you have and toggle it again to close them up. From the expanded view you can tap on the heart to set a favorite, which is the printing the game will use by default. Your current favorite card is the first one used when you add it to your deck or when auto-adding lands.\n\nHere are a few tips and tricks to help you start selecting your Preferred Printing of cards:\n\n-- The easiest way to see this in action is to go to your collection, and sort to your lands.\n\n-- From there, expand a card by using the button displayed in the upper left of any card that has multiple printings.\n\n-- Select a favorite by clicking the heart button in the lower right corner of your favorite printing.\n\n-- If you do not have a favorite selected, it defaults to the newest printing of that card in your collection.\n\n-- If you would like a deck to NOT use your favorite, expand the list and select the printing you want for that deck.\n\n-- If you have less printings of your favorite than you use, the most recent printing is also used.\n\n-- Limited modes will keep the non-land cards to the ones in that set. For example: If the set has Opt, you'll see that set's Opt in your deck, not your preferred version.",
+        "translation": "We are happy to announce that you can now select your favorite printing of each card in your collection! Yes, this means you can select your favorite basic lands!\n\nMultiple printings for a single card are now collapsed down to a single entry. You can toggle the expand button on a card to see all the printings you have and toggle it again to close them up. From the expanded view you can tap on the heart to set a favorite, which is the printing the game will use by default. Your current favorite card is the first one used when you add it to your deck or when auto-adding lands.\n\nHere are a few tips and tricks to help you start selecting your Preferred Printing of cards:\n\n-- The easiest way to see this in action is to go to your collection, and sort to your lands.\n\n-- From there, expand a card by using the button displayed in the upper left of any card that has multiple printings.\n\n-- Select a favorite by clicking the heart button in the lower right corner of your favorite printing.\n\n-- If you do not have a favorite selected, it defaults to the newest printing of that card in your collection.\n\n-- If you would like a deck to NOT use your favorite, expand the list and select the printing you want for that deck.\n\n-- If you have less printings of your favorite than you use, the most recent printing is also used.\n\n-- Limited modes will keep the non-land cards to the ones in that set. For example: If the set has Opt, you'll see that set's Opt in your deck, not your preferred version."
+    },
+    "MainNav/Mailbox/PreferredPrinting_Title": {
+        "oracleText": "Introducing Preferred Printing!",
+        "translation": "Introducing Preferred Printing!"
     },
     "MainNav/Mailbox/QW_Event_Invite_Generic": {
         "oracleText": "A Day 1 Token for this weekend's Qualifier Weekend event is attached to this message. As a reminder, you must click Claim on this message and join the event between 6 a.m. and 8 a.m. Pacific time. Late entries cannot be accommodated. Full details can be found at the link below.\n\nGood luck in the event!",
@@ -33374,6 +33558,30 @@
     "MainNav/Mailbox/Weekly_Blog_Title": {
         "oracleText": "Arena Announcements Are Here!",
         "translation": "竞技场公告在这里！"
+    },
+    "MainNav/Mailbox/Y23ONE_PatchNotes_Description": {
+        "oracleText": "Patch 2022.24.0 is here with some exciting updates, including Preferred Printing, bug fixes, and more! Check out more details at the link below!",
+        "translation": "Patch 2022.24.0 is here with some exciting updates, including Preferred Printing, bug fixes, and more! Check out more details at the link below!"
+    },
+    "MainNav/Mailbox/Y23ONE_PatchNotes_Title": {
+        "oracleText": "2022.24.0 Patch Notes are here!",
+        "translation": "2022.24.0 Patch Notes are here!"
+    },
+    "MainNav/Mailbox/Y23ONE_WebReleaseNotes_Description": {
+        "oracleText": "Get a look into the mechanics, features, and more coming with Y23-ONE by clicking the link below!",
+        "translation": "Get a look into the mechanics, features, and more coming with Y23-ONE by clicking the link below!"
+    },
+    "MainNav/Mailbox/Y23ONE_WebReleaseNotes_Title": {
+        "oracleText": "Alchemy: Phyrexia Release Notes are Here!",
+        "translation": "Alchemy: Phyrexia Release Notes are Here!"
+    },
+    "MainNav/Mailbox/Y23_ONE_Release_Description": {
+        "oracleText": "Our plans grow to fruition. Soon all will know the perfection of Phyrexia. Take these packs to grow stronger. Your journey is nearly compleat.",
+        "translation": "Our plans grow to fruition. Soon all will know the perfection of Phyrexia. Take these packs to grow stronger. Your journey is nearly compleat."
+    },
+    "MainNav/Mailbox/Y23_ONE_Release_Title": {
+        "oracleText": "<font=\"Font_Default_Phyrexian\"><lowercase>^lo φyrxkeθəɢð'ɒjbť ẅɬnesuš</font>",
+        "translation": "<font=\"Font_Default_Phyrexian\"><lowercase>^lo φyrxkeθəɢð'ɒjbť ẅɬnesuš</font>"
     },
     "MainNav/NavBar/BetaIcon_Tooltip": {
         "oracleText": "BETA",
@@ -33564,8 +33772,8 @@
         "translation": "黄金补充包包含6张稀有牌，每张有正常的概率升级成为秘稀稀有度。"
     },
     "MainNav/PackProgressMeter/CallToAction": {
-        "oracleText": "Purchase {remaining} more Phyrexia: All Will Be One packs to earn a Golden Pack.",
-        "translation": "Purchase {remaining} more Phyrexia: All Will Be One packs to earn a Golden Pack."
+        "oracleText": "Purchase {remaining} more  Alchemy: Phyrexia and Phyrexia: All Will Be One packs to earn a Golden Pack.",
+        "translation": "Purchase {remaining} more  Alchemy: Phyrexia and Phyrexia: All Will Be One packs to earn a Golden Pack."
     },
     "MainNav/PackProgressMeter/FullDetailsLink": {
         "oracleText": "Full Details",
@@ -33730,6 +33938,10 @@
     "MainNav/PetNames/IKO_BattlePass_5": {
         "oracleText": "Skycat Cub",
         "translation": "翔狮幼兽"
+    },
+    "MainNav/PetNames/InfectiousFlenser": {
+        "oracleText": "Flensing Raptor",
+        "translation": "Flensing Raptor"
     },
     "MainNav/PetNames/InfectiousFlenser_1": {
         "oracleText": "Flensing Raptor",
@@ -37899,6 +38111,14 @@
         "oracleText": "Alchemist Bundle",
         "translation": "炼金套装"
     },
+    "MainNav/Store/Bundles/Bundle_Alchemist_ONE_Desc": {
+        "oracleText": "20x Alchemy: Phyrexia Boosters",
+        "translation": "20x Alchemy: Phyrexia Boosters"
+    },
+    "MainNav/Store/Bundles/Bundle_Alchemist_ONE_Name": {
+        "oracleText": "Alchemist Bundle",
+        "translation": "Alchemist Bundle"
+    },
     "MainNav/Store/Bundles/Bundle_Alchemist_SNC_Desc": {
         "oracleText": "20x Alchemy: New Capenna Boosters",
         "translation": "20x *炼金：新卡佩纳*补充包"
@@ -39371,6 +39591,14 @@
         "oracleText": "Nissa, Ascended Animist Avatar Bundle",
         "translation": "升华物灵师妮莎头像套装"
     },
+    "MainNav/Store/Bundles/Bundle_ONE_Pet_Desc": {
+        "oracleText": "Flensing Raptor Pet\nFlensing Raptor Sleeve",
+        "translation": "Flensing Raptor Pet\nFlensing Raptor Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_ONE_Pet_Name": {
+        "oracleText": "Flensing Raptor Pet Bundle",
+        "translation": "Flensing Raptor Pet Bundle"
+    },
     "MainNav/Store/Bundles/Bundle_ONE_Stickers_Desc": {
         "oracleText": "Elesh Norn Love Sticker Emote\nUrabrask Challenge Sticker Emote\nSheoldred Secret Sticker Emote\nJin-Gitaxias Ponder Sticker Emote\nVorinclex Interrupted Sticker Emote",
         "translation": "艾蕾侬关爱贴纸表情\n洼巴司挑战贴纸表情\n希欧蕊秘密贴纸表情\n金吉塔厦沉思贴纸表情\n弗霖凯打断贴纸表情"
@@ -39467,6 +39695,22 @@
         "oracleText": "Rule the Room",
         "translation": "统治房间"
     },
+    "MainNav/Store/Bundles/Bundle_SL_90sBinder_Desc": {
+        "oracleText": "Alms Collector Secret Lair Sleeve\nCrested Sunmare Secret Lair Sleeve\nGoreclaw, Terror of Qal Sisma Secret Lair Sleeve\nRin and Seri, Inseperable Secret Lair Sleeve\nExotic Orchard Secret Lair Sleeve",
+        "translation": "Alms Collector Secret Lair Sleeve\nCrested Sunmare Secret Lair Sleeve\nGoreclaw, Terror of Qal Sisma Secret Lair Sleeve\nRin and Seri, Inseperable Secret Lair Sleeve\nExotic Orchard Secret Lair Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_SL_90sBinder_Name": {
+        "oracleText": "Secret Lair: The '90s Binder Experience",
+        "translation": "Secret Lair: The '90s Binder Experience"
+    },
+    "MainNav/Store/Bundles/Bundle_SL_CitySleeves_Desc": {
+        "oracleText": "Sakashima the Impostor Secret Lair Sleeve\nMassacre Girl Secret Lair Sleeve\nAzusa, Lost but Seeking Secret Lair Sleeve\nTeysa Karlov Secret Lair Sleeve\nParadise Mantle Secret Lair Sleeve",
+        "translation": "Sakashima the Impostor Secret Lair Sleeve\nMassacre Girl Secret Lair Sleeve\nAzusa, Lost but Seeking Secret Lair Sleeve\nTeysa Karlov Secret Lair Sleeve\nParadise Mantle Secret Lair Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_SL_CitySleeves_Name": {
+        "oracleText": "Secret Lair: City Styles",
+        "translation": "Secret Lair: City Styles"
+    },
     "MainNav/Store/Bundles/Bundle_SL_DraculaLands_Desc": {
         "oracleText": "Dracula Full Art Basic Plains\nDracula Full Art Basic Island\nDracula Full Art Basic Swamp\nDracula Full Art Basic Mountain\nDracula Full Art Basic Forest",
         "translation": "德古拉大画基本平原\n德古拉大画基本海岛\n德古拉大画基本沼泽\n德古拉大画基本山脉\n德古拉大画基本树林"
@@ -39514,6 +39758,14 @@
     "MainNav/Store/Bundles/Bundle_SL_PixelSnowLands_Name": {
         "oracleText": "Secret Lair: PixelSnowLands.jpg",
         "translation": "秘室珍品：像素雪地。jpg"
+    },
+    "MainNav/Store/Bundles/Bundle_SL_Snakes_Desc": {
+        "oracleText": "Hexdrinker Secret Lair Sleeve\nLotus Cobra Secret Lair Sleeve\nSeshiro the Anointed Secret Lair Sleeve\nIce-Fang Coatl Secret Lair Sleeve\nStonecoil Serpent Secret Lair Sleeve",
+        "translation": "Hexdrinker Secret Lair Sleeve\nLotus Cobra Secret Lair Sleeve\nSeshiro the Anointed Secret Lair Sleeve\nIce-Fang Coatl Secret Lair Sleeve\nStonecoil Serpent Secret Lair Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_SL_Snakes_Name": {
+        "oracleText": "Secret Lair: Ssssssnakessssss",
+        "translation": "Secret Lair: Ssssssnakessssss"
     },
     "MainNav/Store/Bundles/Bundle_SL_TimeTrouble2_Sleeves_Desc": {
         "oracleText": "Narset, Parter of Veils Sleeve\nNissa, Who Shakes the World Sleeve\nTezzeret, Agent of Bolas Sleeve",
@@ -40050,6 +40302,30 @@
     "MainNav/Store/Bundles/Bundle_Y23DMU_Oracle_Bundle_Name": {
         "oracleText": "Oracle of the Alpha Avatar Bundle",
         "translation": "Oracle of the Alpha Avatar Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_Y23ONE_DA1_Desc": {
+        "oracleText": "Kemba's Outfitter Depth Art Card Style\nInnovative Metatect Depth Art Card Style\nVexyr, Ich-Tekik's Heir Depth Art Card Style\nSurgical Metamorph Depth Art Card Style\nSkullpiercer Gnat Depth Art Card Style\nQuicksilver Servitor Depth Art Card Style\nTezzeret's Reckoning Depth Art Card Style\nGlistening Extractor Depth Art Card Style\nSpawning Pod Depth Art Card Style\nPhyrexian Harvester Depth Art Card Style",
+        "translation": "Kemba's Outfitter Depth Art Card Style\nInnovative Metatect Depth Art Card Style\nVexyr, Ich-Tekik's Heir Depth Art Card Style\nSurgical Metamorph Depth Art Card Style\nSkullpiercer Gnat Depth Art Card Style\nQuicksilver Servitor Depth Art Card Style\nTezzeret's Reckoning Depth Art Card Style\nGlistening Extractor Depth Art Card Style\nSpawning Pod Depth Art Card Style\nPhyrexian Harvester Depth Art Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y23ONE_DA1_Name": {
+        "oracleText": "Alchemy Styles: March of Progress",
+        "translation": "Alchemy Styles: March of Progress"
+    },
+    "MainNav/Store/Bundles/Bundle_Y23ONE_DA2_Desc": {
+        "oracleText": "Ghalma the Shaper Depth Art Card Style\nHexgold Sledge Depth Art Card Style\nBladehold Cleaver Depth Art Card Style\nQuicksilver Lapidary Depth Art Card Style\nPhyrexian Scrapyard Depth Art Card Style\nSheoldred's Assimilator Depth Art Card Style\nNorn's Fetchling Depth Art Card Style\nDarksteel Hydra Depth Art Card Style\nNettling Host Depth Art Card Style\nContagion Dispenser Depth Art Card Style",
+        "translation": "Ghalma the Shaper Depth Art Card Style\nHexgold Sledge Depth Art Card Style\nBladehold Cleaver Depth Art Card Style\nQuicksilver Lapidary Depth Art Card Style\nPhyrexian Scrapyard Depth Art Card Style\nSheoldred's Assimilator Depth Art Card Style\nNorn's Fetchling Depth Art Card Style\nDarksteel Hydra Depth Art Card Style\nNettling Host Depth Art Card Style\nContagion Dispenser Depth Art Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y23ONE_DA2_Name": {
+        "oracleText": "Alchemy Styles: Something from Nothing",
+        "translation": "Alchemy Styles: Something from Nothing"
+    },
+    "MainNav/Store/Bundles/Bundle_Y23ONE_DA3_Desc": {
+        "oracleText": "Magmatic Scorchwing Depth Art Card Style\nRothga, Bonded Engulfer Depth Art Card Style\nIchor Aberration Depth Art Card Style\nMephidross Slime Depth Art Card Style\nGyox, Brutal Carnivora Depth Art Card Style\nArek, False Goldwarden Depth Art Card Style\nPhyresis Roach Depth Art Card Style\nSeething Skitter-Priest Depth Art Card Style\nBlightwing Whelp Art Card Style\nMarch Toward Perfection Depth Art Card Style",
+        "translation": "Magmatic Scorchwing Depth Art Card Style\nRothga, Bonded Engulfer Depth Art Card Style\nIchor Aberration Depth Art Card Style\nMephidross Slime Depth Art Card Style\nGyox, Brutal Carnivora Depth Art Card Style\nArek, False Goldwarden Depth Art Card Style\nPhyresis Roach Depth Art Card Style\nSeething Skitter-Priest Depth Art Card Style\nBlightwing Whelp Art Card Style\nMarch Toward Perfection Depth Art Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y23ONE_DA3_Name": {
+        "oracleText": "Alchemy Styles: Monstrous Evolution",
+        "translation": "Alchemy Styles: Monstrous Evolution"
     },
     "MainNav/Store/Bundles/Bundle_YargleDay_Desc": {
         "oracleText": "Opt Card Style\nFatal Push Card Style\nSwords to Plowshares Card Style\nAnger of the Gods Card Style\nExplore Card Style",
@@ -45171,6 +45447,42 @@
         "oracleText": "New Events",
         "translation": "新赛事"
     },
+    "PlayBlade/Filters/Dynamic/CompetitiveTitle": {
+        "oracleText": "Competitive",
+        "translation": "Competitive"
+    },
+    "PlayBlade/Filters/Dynamic/NewPlayerDescription": {
+        "oracleText": "These Events are great for both New and Long Time Players!  Click into an Event to learn more about it!",
+        "translation": "These Events are great for both New and Long Time Players!  Click into an Event to learn more about it!"
+    },
+    "PlayBlade/Filters/Dynamic/NewPlayerTitle": {
+        "oracleText": "New Player",
+        "translation": "New Player"
+    },
+    "PlayBlade/Filters/Dynamic/ONELimitedTitle": {
+        "oracleText": "Phyrexia: All will be One Limited",
+        "translation": "Phyrexia: All will be One Limited"
+    },
+    "PlayBlade/Filters/Dynamic/PremierPlayDescription": {
+        "oracleText": "Top Prize in these regular events include Play-In Points.  Earn 20 Play-In Points for Free Entry into Monthly Play-In Events!",
+        "translation": "Top Prize in these regular events include Play-In Points.  Earn 20 Play-In Points for Free Entry into Monthly Play-In Events!"
+    },
+    "PlayBlade/Filters/Dynamic/PremierPlayTitle": {
+        "oracleText": "Premier Play",
+        "translation": "Premier Play"
+    },
+    "PlayBlade/Filters/Dynamic/RankedDescription": {
+        "oracleText": "Looking to Climb your way up the Ladder?  These Events can earn you rewards along with your Rank!",
+        "translation": "Looking to Climb your way up the Ladder?  These Events can earn you rewards along with your Rank!"
+    },
+    "PlayBlade/Filters/Dynamic/RankedTitle": {
+        "oracleText": "Ranked",
+        "translation": "Ranked"
+    },
+    "PlayBlade/Filters/Dynamic/SETLimitedDescription": {
+        "oracleText": "Put your Limited skill to the test!",
+        "translation": "Put your Limited skill to the test!"
+    },
     "PlayBlade/FindMatch/Blade_Alchemy_Ladder": {
         "oracleText": "Alchemy Ranked",
         "translation": "炼金天梯"
@@ -45266,6 +45578,22 @@
     "PlayBlade/Tabs/RecentlyPlayed_Title": {
         "oracleText": "Recently Played",
         "translation": "最近对战"
+    },
+    "Playblade/Tooltip/EventTile_Bo3": {
+        "oracleText": "Best of Three",
+        "translation": "Best of Three"
+    },
+    "Playblade/Tooltip/EventTile_ColorChallenge": {
+        "oracleText": "Color Challenge Progress",
+        "translation": "Color Challenge Progress"
+    },
+    "Playblade/Tooltip/EventTile_LossSlots": {
+        "oracleText": "Event Progress",
+        "translation": "Event Progress"
+    },
+    "Playblade/Tooltip/EventTile_Rank": {
+        "oracleText": "Ranked Event",
+        "translation": "Ranked Event"
     },
     "PlayerInbox/DateFormat": {
         "oracleText": "{Month}/{Day}/{Year}",
