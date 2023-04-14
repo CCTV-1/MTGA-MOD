@@ -12,7 +12,8 @@ ExtraLocalizationTexts: dict[int:dict[str, str]] = {
     9000001: {'enUS': 'Manticore', 'jaJP': '翼狮'},
     9000002: {'enUS': 'Zombie Ogre', 'jaJP': '灵俑／食人魔'},
     9000003: {'enUS': 'Skeleton Archer', 'jaJP': '骷髅妖／弓箭手'},
-    9000004: {'enUS': 'Dragon Egg', 'jaJP': '龙／蛋'}
+    9000004: {'enUS': 'Dragon Egg', 'jaJP': '龙／蛋'},
+    9000005: {'enUS': 'Phyrexian Pegasus', 'jaJP': '非瑞人／飞马'}
 }
 
 # old SubtypeTextId : new SubtypeTextId
@@ -21,7 +22,8 @@ SubtypeTextPatchRules: dict[int:int] = {
     20912: 9000001,
     286058: 9000002,
     229573: 9000003,
-    42935: 9000004
+    42935: 9000004,
+    704311: 9000005
 }
 
 if __name__ == "__main__":
