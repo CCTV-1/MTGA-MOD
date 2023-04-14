@@ -429,15 +429,15 @@
     },
     "AbilityHanger/Keyword/Backup1_Body": {
         "oracleText": "When this creature enters the battlefield, put a +1/+1 counter on target creature. If that's another creature, it also gains the abilities printed below this one until end of turn.",
-        "translation": "When this creature enters the battlefield, put a +1/+1 counter on target creature. If that's another creature, it also gains the abilities printed below this one until end of turn."
+        "translation": "当此生物进战场时，在目标生物上放置一个+1/+1指示物。若后者是另一个生物，则它获得下文之异能直到回合结束。"
     },
     "AbilityHanger/Keyword/BackupN_Body": {
         "oracleText": "When this creature enters the battlefield, put {numeral} +1/+1 counters on target creature. If that's another creature, it also gains the abilities printed below this one until end of turn.",
-        "translation": "When this creature enters the battlefield, put {numeral} +1/+1 counters on target creature. If that's another creature, it also gains the abilities printed below this one until end of turn."
+        "translation": "当此生物进战场时，在目标生物上放置{numeral}个+1/+1指示物。若后者是另一个生物，则它获得下文之异能直到回合结束。"
     },
     "AbilityHanger/Keyword/BackupN_Title": {
         "oracleText": "Backup {numeral}",
-        "translation": "Backup {numeral}"
+        "translation": "后援{numeral}"
     },
     "AbilityHanger/Keyword/Battle_Cry_Body": {
         "oracleText": "Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.",
@@ -457,11 +457,11 @@
     },
     "AbilityHanger/Keyword/Bolster1_Body": {
         "oracleText": "Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.",
-        "translation": "Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it."
+        "translation": "选择一个由你操控的生物，且需是由你操控的生物中防御力最小或同为防御力最小者。在其上放置一个+1/+1指示物。"
     },
     "AbilityHanger/Keyword/Bolster1_Title": {
         "oracleText": "Bolster 1",
-        "translation": "Bolster 1"
+        "translation": "振励1"
     },
     "AbilityHanger/Keyword/Cascade": {
         "oracleText": "When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast that card without paying its mana cost if its mana value is less than this spell's. Put the exiled cards on the bottom of your library in a random order.",
@@ -585,15 +585,15 @@
     },
     "AbilityHanger/Keyword/Cycling_Title": {
         "oracleText": "Cycling",
-        "translation": "Cycling"
+        "translation": "循环"
     },
     "AbilityHanger/Keyword/Dash_Body": {
         "oracleText": "You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.",
-        "translation": "You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step."
+        "translation": "你可以你选择支付此咒语的掩袭费用，若你如此作，它获得敏捷异能，并在结束步骤开始时，将此咒语成为的永久物移回其拥有者手上。"
     },
     "AbilityHanger/Keyword/Dash_Title": {
         "oracleText": "Dash",
-        "translation": "Dash"
+        "translation": "掩袭"
     },
     "AbilityHanger/Keyword/Deathtouch": {
         "oracleText": "Any amount of damage a source with deathtouch deals to a creature is enough to destroy it.",
@@ -829,7 +829,7 @@
     },
     "AbilityHanger/Keyword/Flashback_Reference": {
         "oracleText": "You may cast a card with flashback from your graveyard for its flashback cost. Then exile it.",
-        "translation": "You may cast a card with flashback from your graveyard for its flashback cost. Then exile it."
+        "translation": "你可以从你的坟墓场施放一张具有返照异能的牌，并支付其返照费用，然后将它放逐。"
     },
     "AbilityHanger/Keyword/Flying": {
         "oracleText": "A creature with flying can't be blocked except by creatures with flying or reach.",
@@ -837,11 +837,11 @@
     },
     "AbilityHanger/Keyword/Forestcycling_Body": {
         "oracleText": "{abilityCost}, Discard this card: Search your library for a Forest card, reveal it, put it into your hand, then shuffle.",
-        "translation": "{abilityCost}, Discard this card: Search your library for a Forest card, reveal it, put it into your hand, then shuffle."
+        "translation": "{abilityCost}，弃掉此牌：从你的牌库中搜寻一张树林牌，展示该牌，将它置于你手上，然后洗牌。"
     },
     "AbilityHanger/Keyword/Forestcycling_Title": {
         "oracleText": "Forestcycling",
-        "translation": "Forestcycling"
+        "translation": "循环树林"
     },
     "AbilityHanger/Keyword/Forestwalk": {
         "oracleText": "This creature can't be blocked as long as defending player controls a Forest.",
@@ -937,51 +937,51 @@
     },
     "AbilityHanger/Keyword/Incubate1_Body": {
         "oracleText": "Create an Incubator token with a +1/+1 counter on it and \"{o2}: Transform this artifact.\" It transforms into a 0/0 Phyrexian artifact creature.",
-        "translation": "Create an Incubator token with a +1/+1 counter on it and \"{o2}: Transform this artifact.\" It transforms into a 0/0 Phyrexian artifact creature."
+        "translation": "派出一个上面有一个+1/+1指示物的抚育器衍生物，且具有「{o2}：转化此神器。」 它转化为0/0非瑞人神器衍生物。"
     },
     "AbilityHanger/Keyword/Incubate1_Title": {
         "oracleText": "Incubate 1",
-        "translation": "Incubate 1"
+        "translation": "抚育1"
     },
     "AbilityHanger/Keyword/Incubate2_Body": {
         "oracleText": "Create an Incubator token with 2 +1/+1 counters on it and \"{o2}: Transform this artifact.\" It transforms into a 0/0 Phyrexian artifact creature.",
-        "translation": "Create an Incubator token with 2 +1/+1 counters on it and \"{o2}: Transform this artifact.\" It transforms into a 0/0 Phyrexian artifact creature."
+        "translation": "派出一个上面有2个+1/+1指示物的抚育器衍生物，且具有「{o2}：转化此神器。」 它转化为0/0非瑞人神器衍生物。"
     },
     "AbilityHanger/Keyword/Incubate2_Title": {
         "oracleText": "Incubate 2",
-        "translation": "Incubate 2"
+        "translation": "抚育2"
     },
     "AbilityHanger/Keyword/Incubate3_Body": {
         "oracleText": "Create an Incubator token with 3 +1/+1 counters on it and \"{o2}: Transform this artifact.\" It transforms into a 0/0 Phyrexian artifact creature.",
-        "translation": "Create an Incubator token with 3 +1/+1 counters on it and \"{o2}: Transform this artifact.\" It transforms into a 0/0 Phyrexian artifact creature."
+        "translation": "派出一个上面有3个+1/+1指示物的抚育器衍生物，且具有「{o2}：转化此神器。」 它转化为0/0非瑞人神器衍生物。"
     },
     "AbilityHanger/Keyword/Incubate3_Title": {
         "oracleText": "Incubate 3",
-        "translation": "Incubate 3"
+        "translation": "抚育3"
     },
     "AbilityHanger/Keyword/Incubate4_Body": {
         "oracleText": "Create an Incubator token with 4 +1/+1 counters on it and \"{o2}: Transform this artifact.\" It transforms into a 0/0 Phyrexian artifact creature.",
-        "translation": "Create an Incubator token with 4 +1/+1 counters on it and \"{o2}: Transform this artifact.\" It transforms into a 0/0 Phyrexian artifact creature."
+        "translation": "派出一个上面有4个+1/+1指示物的抚育器衍生物，且具有「{o2}：转化此神器。」 它转化为0/0非瑞人神器衍生物。"
     },
     "AbilityHanger/Keyword/Incubate4_Title": {
         "oracleText": "Incubate 4",
-        "translation": "Incubate 4"
+        "translation": "抚育4"
     },
     "AbilityHanger/Keyword/Incubate5_Body": {
         "oracleText": "Create an Incubator token with 5 +1/+1 counters on it and \"{o2}: Transform this artifact.\" It transforms into a 0/0 Phyrexian artifact creature.",
-        "translation": "Create an Incubator token with 5 +1/+1 counters on it and \"{o2}: Transform this artifact.\" It transforms into a 0/0 Phyrexian artifact creature."
+        "translation": "派出一个上面有5个+1/+1指示物的抚育器衍生物，且具有「{o2}：转化此神器。」 它转化为0/0非瑞人神器衍生物。"
     },
     "AbilityHanger/Keyword/Incubate5_Title": {
         "oracleText": "Incubate 5",
-        "translation": "Incubate 5"
+        "translation": "抚育5"
     },
     "AbilityHanger/Keyword/IncubateX_Body": {
         "oracleText": "Create an Incubator token with X +1/+1 counters on it and \"{o2}: Transform this artifact.\" It transforms into a 0/0 Phyrexian artifact creature.",
-        "translation": "Create an Incubator token with X +1/+1 counters on it and \"{o2}: Transform this artifact.\" It transforms into a 0/0 Phyrexian artifact creature."
+        "translation": "派出一个上面有X个+1/+1指示物的抚育器衍生物，且具有「{o2}：转化此神器。」 它转化为0/0非瑞人神器衍生物。"
     },
     "AbilityHanger/Keyword/IncubateX_Title": {
         "oracleText": "Incubate X",
-        "translation": "Incubate X"
+        "translation": "抚育X"
     },
     "AbilityHanger/Keyword/Indestructible": {
         "oracleText": "Effects that say \"destroy\" don't destroy a permanent with indestructible, and if it's a creature, it can't be destroyed by damage.",
@@ -989,11 +989,11 @@
     },
     "AbilityHanger/Keyword/Infect_Body": {
         "oracleText": "A creature with infect deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.",
-        "translation": "A creature with infect deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters."
+        "translation": "具有侵染生物以-1/-1指示物的形式对生物造成伤害，并以中毒指示物的形式对牌手造成伤害。"
     },
     "AbilityHanger/Keyword/Infect_Title": {
         "oracleText": "Infect",
-        "translation": "Infect"
+        "translation": "侵染"
     },
     "AbilityHanger/Keyword/Investigate": {
         "oracleText": "Create a colorless Clue artifact token with \"{o2}, Sacrifice this artifact: Draw a card.\"",
@@ -1005,11 +1005,11 @@
     },
     "AbilityHanger/Keyword/Islandcycling_Body": {
         "oracleText": "{abilityCost}, Discard this card: Search your library for a Island card, reveal it, put it into your hand, then shuffle.",
-        "translation": "{abilityCost}, Discard this card: Search your library for a Island card, reveal it, put it into your hand, then shuffle."
+        "translation": "{abilityCost}，弃掉此牌：从你的牌库中搜寻一张海岛牌，展示该牌，将它置于你手上，然后洗牌。"
     },
     "AbilityHanger/Keyword/Islandcycling_Title": {
         "oracleText": "Islandcycling",
-        "translation": "Islandcycling"
+        "translation": "循环海岛"
     },
     "AbilityHanger/Keyword/Islandwalk_Body": {
         "oracleText": "This creature can't be blocked as long as defending player controls a Island.",
@@ -1089,11 +1089,11 @@
     },
     "AbilityHanger/Keyword/Mountaincycling_Body": {
         "oracleText": "{abilityCost}, Discard this card: Search your library for a Mountain card, reveal it, put it into your hand, then shuffle.",
-        "translation": "{abilityCost}, Discard this card: Search your library for a Mountain card, reveal it, put it into your hand, then shuffle."
+        "translation": "{abilityCost}，弃掉此牌：从你的牌库中搜寻一张山脉牌，展示该牌，将它置于你手上，然后洗牌。"
     },
     "AbilityHanger/Keyword/Mountaincycling_Title": {
         "oracleText": "Mountaincycling",
-        "translation": "Mountaincycling"
+        "translation": "循环山脉"
     },
     "AbilityHanger/Keyword/Mutate_Body": {
         "oracleText": "If you cast this spell for its mutate cost, put it under or over target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.",
@@ -1149,11 +1149,11 @@
     },
     "AbilityHanger/Keyword/Plainscycling_Body": {
         "oracleText": "{abilityCost}, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle.",
-        "translation": "{abilityCost}, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle."
+        "translation": "{abilityCost}，弃掉此牌：从你的牌库中搜寻一张平原牌，展示该牌，将它置于你手上，然后洗牌。"
     },
     "AbilityHanger/Keyword/Plainscycling_Title": {
         "oracleText": "Plainscycling",
-        "translation": "Plainscycling"
+        "translation": "循环平原"
     },
     "AbilityHanger/Keyword/Proliferate": {
         "oracleText": "Choose any number of permanents and/or players, then give each another counter of each kind already there.",
@@ -1213,19 +1213,19 @@
     },
     "AbilityHanger/Keyword/ProtectionFromColorlessOrAColor_Body": {
         "oracleText": "A player or permanent with protection from colorless or a color can't be blocked, targeted, dealt damage, enchanted, or equipped by anything with that quality.",
-        "translation": "A player or permanent with protection from colorless or a color can't be blocked, targeted, dealt damage, enchanted, or equipped by anything with that quality."
+        "translation": "具反无色或反某色保护的牌手或永久物不能被对应来源阻挡、指定为目标、造成伤害、结附或是装备。"
     },
     "AbilityHanger/Keyword/ProtectionFromColorlessOrAColor_Title": {
         "oracleText": "Protection from Colorless or a Color",
-        "translation": "Protection from Colorless or a Color"
+        "translation": "反无色或某色保护"
     },
     "AbilityHanger/Keyword/ProtectionFromColorless_Body": {
         "oracleText": "A player or permanent with protection from colorless can't be blocked, targeted, dealt damage, enchanted, or equipped by anything colorless.",
-        "translation": "A player or permanent with protection from colorless can't be blocked, targeted, dealt damage, enchanted, or equipped by anything colorless."
+        "translation": "具有反无色保护的牌手或永久物不能被无色来源阻挡、指定为目标、造成伤害、结附或是装备。"
     },
     "AbilityHanger/Keyword/ProtectionFromColorless_Title": {
         "oracleText": "Protection from Colorless",
-        "translation": "Protection from Colorless"
+        "translation": "反无色保护"
     },
     "AbilityHanger/Keyword/ProtectionFromDemons": {
         "oracleText": "This permanent can't be blocked, targeted, or dealt damage by Demons.",
@@ -1385,7 +1385,7 @@
     },
     "AbilityHanger/Keyword/Rebound_Referenced_Body": {
         "oracleText": "If you cast a spell with rebound from your hand hand, exile it as it resolves. At the beginning of your next upkeep, you may cast that card from exile without paying its mana cost.",
-        "translation": "If you cast a spell with rebound from your hand hand, exile it as it resolves. At the beginning of your next upkeep, you may cast that card from exile without paying its mana cost."
+        "translation": "如果具有弹回异能的咒语是从你手上施放，于它结算时将之放逐。在你的下一个维持开始时，你可以从放逐区施放此牌，且不需支付其法术力费用。"
     },
     "AbilityHanger/Keyword/Reconfigure_Body": {
         "oracleText": "{abilityCost}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.",
@@ -1481,11 +1481,11 @@
     },
     "AbilityHanger/Keyword/Siege_Body": {
         "oracleText": "A battle is a permanent type that enters with defense counters. As a Siege battle enters, your opponent will be chosen to protect it, while you can attack it. Damage removes its defense counters, when the last counter is removed, exile it, then cast it transformed.",
-        "translation": "A battle is a permanent type that enters with defense counters. As a Siege battle enters, your opponent will be chosen to protect it, while you can attack it. Damage removes its defense counters, when the last counter is removed, exile it, then cast it transformed."
+        "translation": "战役是一种带有布防指示物的永久物类别。于围攻进战场时，选择一位对手来防卫之。你可以攻击它。 伤害会使其失去等量的布防指示物，当移去战役上最后一个布防指示物时，围攻的操控者将之放逐，且可以施放已转化的此牌。"
     },
     "AbilityHanger/Keyword/Siege_Title": {
         "oracleText": "Battle - Siege",
-        "translation": "Battle - Siege"
+        "translation": "战役 ～ 围攻"
     },
     "AbilityHanger/Keyword/Skulk": {
         "oracleText": "A creature with skulk can't be blocked by creatures with greater power.",
@@ -1565,11 +1565,11 @@
     },
     "AbilityHanger/Keyword/Swampcycling_Body": {
         "oracleText": "{abilityCost}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.",
-        "translation": "{abilityCost}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle."
+        "translation": "{abilityCost}，弃掉此牌：从你的牌库中搜寻一张沼泽牌，展示该牌，将它置于你手上，然后洗牌。"
     },
     "AbilityHanger/Keyword/Swampcycling_Title": {
         "oracleText": "Swampcycling",
-        "translation": "Swampcycling"
+        "translation": "循环沼泽"
     },
     "AbilityHanger/Keyword/Swampwalk": {
         "oracleText": "This creature can't be blocked as long as defending player controls a Swamp.",
@@ -1961,7 +1961,7 @@
     },
     "AbilityHanger/Regenerate_Title": {
         "oracleText": "Regenerate",
-        "translation": "Regenerate"
+        "translation": "重生"
     },
     "AbilityHanger/SpecialHangers/AddedAbilities_Header": {
         "oracleText": "Added Abilities",
@@ -2005,7 +2005,7 @@
     },
     "AbilityHanger/SpecialHangers/BattleProtector/Header": {
         "oracleText": "Protector",
-        "translation": "Protector"
+        "translation": "防卫者"
     },
     "AbilityHanger/SpecialHangers/CardStyle/Body": {
         "oracleText": "Card styles are cosmetic changes to cards that can change the art, frame, and more.",
@@ -3557,7 +3557,7 @@
     },
     "Card/SiegeAbilityOverrideText": {
         "oracleText": "When the last defense counter is removed from this permanent, exile it, then you may cast it transformed without paying its mana cost.",
-        "translation": "When the last defense counter is removed from this permanent, exile it, then you may cast it transformed without paying its mana cost."
+        "translation": "当移去此永久物上最后一个布防指示物时，将之放逐，然后你可以施放已转化的它且不需支付其法术力费用。"
     },
     "Card/Styles/MOD/CharacterLevels": {
         "oracleText": "An Adventure for Character Levels {characterLevels}",
@@ -4121,11 +4121,11 @@
     },
     "Codex/WaysToPlay/Formats/Precons_ColorChallenge_Header": {
         "oracleText": "Color Challenge",
-        "translation": "Color Challenge"
+        "translation": "颜色挑战"
     },
     "Codex/WaysToPlay/Formats/Precons_Header": {
         "oracleText": "Preconstructed Decks",
-        "translation": "Preconstructed Decks"
+        "translation": "预组套牌"
     },
     "Codex/WaysToPlay/Formats/Precons_SparkRank_A": {
         "oracleText": "<color #E9E9F6><b>Spark Rank</b><color #CCCCCC> is the introduction to MTG Arena's Ranking system. While this <color #E9E9F6><b>Ranked</b><color #CCCCCC> play mode is technically Constructed</b><color #CCCCCC> (you can bring the exact deck you want to play with), it is highly suggested to start with one of these 10 two color <color #E9E9F6><b>Starter Decks</b><color #CCCCCC>. You can easily adjust the deck to exactly how you want to play it, just remember to try remove and add card types in similar amounts! And while it might be enticing to cut boring 'ol lands for exciting new spells, try not to. You need those lands to cast your spells!",
@@ -4133,7 +4133,7 @@
     },
     "Codex/WaysToPlay/Formats/Precons_SparkRank_Header": {
         "oracleText": "Spark Rank",
-        "translation": "Spark Rank"
+        "translation": "火花段位"
     },
     "Codex/WaysToPlay/Formats/Precons_StarterDeckDuel_A": {
         "oracleText": "<color #CCCCCC>This <color #E9E9F6><b>Unranked</b><color #CCCCCC> event uses all 10 two color <color #E9E9F6><b>Starter Decks</b><color #CCCCCC> to do battle! Each player can only choose between these 10 decks based around themes accentuated by the ten color pairs of Magic:",
@@ -4141,7 +4141,7 @@
     },
     "Codex/WaysToPlay/Formats/Precons_StarterDeckDuel_Header": {
         "oracleText": "Starter Deck Duel",
-        "translation": "Starter Deck Duel"
+        "translation": "新手套牌对决"
     },
     "Commerce Loc": {
         "oracleText": "M20 Preorder:\n50x M20 card packs\n1x Chandra, Awakened Inferno Card\nChandra, Awakened Inferno Card Style\nM20 Sleeve",
@@ -4241,7 +4241,7 @@
     },
     "Credits/Role/Animator": {
         "oracleText": "Animator",
-        "translation": "Animator"
+        "translation": "动画师"
     },
     "Credits/Role/Associate2DArtist": {
         "oracleText": "Associate 2D Artist",
@@ -17925,7 +17925,7 @@
     },
     "Events/Event_Title_Festival_MOM_HistoricBrawl": {
         "oracleText": "Festival: Historic Brawl",
-        "translation": "Festival: Historic Brawl"
+        "translation": "活动节：史迹争锋"
     },
     "Events/Event_Title_Festival_ONE_Basilica": {
         "oracleText": "Festival: The Fair Basilica",
@@ -18373,15 +18373,15 @@
     },
     "Events/Event_Title_MOM_Premier_Draft": {
         "oracleText": "Premier Draft March of the Machine",
-        "translation": "Premier Draft March of the Machine"
+        "translation": "邪军压境竞技轮抽"
     },
     "Events/Event_Title_MOM_Quick_Draft": {
         "oracleText": "Quick Draft March of the Machine",
-        "translation": "Quick Draft March of the Machine"
+        "translation": "邪军压境快速轮抽"
     },
     "Events/Event_Title_MOM_Trad_Draft": {
         "oracleText": "Traditional Draft March of the Machine",
-        "translation": "Traditional Draft March of the Machine"
+        "translation": "邪军压境三盘轮抽"
     },
     "Events/Event_Title_MWM_3Sets": {
         "oracleText": "Midweek Magic: On the Edge",
@@ -18521,11 +18521,11 @@
     },
     "Events/Event_Title_MWM_MOMConstructed": {
         "oracleText": "Midweek Magic: March of the Machine Constructed",
-        "translation": "Midweek Magic: March of the Machine Constructed"
+        "translation": "周中万智牌：邪军压境环境构筑"
     },
     "Events/Event_Title_MWM_MOM_Sealed": {
         "oracleText": "Midweek Magic: Phantom Sealed",
-        "translation": "Midweek Magic: Phantom Sealed"
+        "translation": "周中万智牌：幻影现开"
     },
     "Events/Event_Title_MWM_MixedUp_Sealed": {
         "oracleText": "Midweek Magic: Mixed-Up Sealed",
@@ -18973,7 +18973,7 @@
     },
     "Events/Event_Title_Sealed_MOM": {
         "oracleText": "Sealed March of the Machine",
-        "translation": "Sealed March of the Machine"
+        "translation": "邪军压境现开"
     },
     "Events/Event_Title_Sealed_MixedUp": {
         "oracleText": "Mixed-Up Sealed",
@@ -19053,7 +19053,7 @@
     },
     "Events/Event_Title_Spark_Ladder": {
         "oracleText": "Spark Ranked",
-        "translation": "Spark Ranked"
+        "translation": "火花段位"
     },
     "Events/Event_Title_Standard_Challenge": {
         "oracleText": "Standard Metagame Challenge",
@@ -19213,7 +19213,7 @@
     },
     "Events/Event_Title_Trad_Sealed_MOM": {
         "oracleText": "Traditional Sealed March of the Machine",
-        "translation": "Traditional Sealed March of the Machine"
+        "translation": "邪军压境三盘现开"
     },
     "Events/Event_Title_Trad_Sealed_NEO": {
         "oracleText": "Traditional Sealed Neon Dynasty",
@@ -20101,7 +20101,7 @@
     },
     "Events/Packets/SJMP_PacketName_Convoke": {
         "oracleText": "Convoke",
-        "translation": "Convoke"
+        "translation": "召集"
     },
     "Events/Packets/SJMP_PacketName_Corrupted": {
         "oracleText": "Corrupted",
@@ -20217,7 +20217,7 @@
     },
     "Events/Packets/SJMP_PacketName_Incubation": {
         "oracleText": "Incubation",
-        "translation": "Incubation"
+        "translation": "存育"
     },
     "Events/Packets/SJMP_PacketName_Inspired": {
         "oracleText": "Inspired",
@@ -20237,7 +20237,7 @@
     },
     "Events/Packets/SJMP_PacketName_Knights": {
         "oracleText": "Knights",
-        "translation": "Knights"
+        "translation": "骑士"
     },
     "Events/Packets/SJMP_PacketName_Landfall": {
         "oracleText": "Landfall",
@@ -20313,7 +20313,7 @@
     },
     "Events/Packets/SJMP_PacketName_Phyrexian": {
         "oracleText": "Phyrexian",
-        "translation": "Phyrexian"
+        "translation": "非瑞人"
     },
     "Events/Packets/SJMP_PacketName_Powered_Up": {
         "oracleText": "Powered Up",
@@ -21073,11 +21073,11 @@
     },
     "General/Sets/MOM": {
         "oracleText": "March of the Machine",
-        "translation": "March of the Machine"
+        "translation": "邪军压境"
     },
     "General/Sets/MUL": {
         "oracleText": "Multiverse Legends",
-        "translation": "Multiverse Legends"
+        "translation": "多重宇宙传奇"
     },
     "General/Sets/NEO": {
         "oracleText": "Kamigawa: Neon Dynasty",
@@ -21769,11 +21769,11 @@
     },
     "MainNav/BattlePass/BattlePass_MOM": {
         "oracleText": "March of the Machine",
-        "translation": "March of the Machine"
+        "translation": "邪军压境"
     },
     "MainNav/BattlePass/BattlePass_MOM_alt": {
         "oracleText": "MOM Mastery Pass",
-        "translation": "MOM Mastery Pass"
+        "translation": "邪军压境精研通行证"
     },
     "MainNav/BattlePass/BattlePass_NEO": {
         "oracleText": "Neon Dynasty",
@@ -22061,7 +22061,7 @@
     },
     "MainNav/BattlePass/MasteryListingTitle_MOM": {
         "oracleText": "March of the Machine Set Mastery",
-        "translation": "March of the Machine Set Mastery"
+        "translation": "邪军压境精研通行证"
     },
     "MainNav/BattlePass/MasteryListingTitle_ONE": {
         "oracleText": "Phyrexia: All Will Be One Set Mastery",
@@ -22101,7 +22101,7 @@
     },
     "MainNav/BattlePass/Mastery_Header_MOM": {
         "oracleText": "March of the Machine Mastery Pass",
-        "translation": "March of the Machine Mastery Pass"
+        "translation": "邪军压境精研通行证"
     },
     "MainNav/BattlePass/Mastery_Header_NEO": {
         "oracleText": "Kamigawa: Neon Dynasty Mastery Pass",
@@ -25653,7 +25653,7 @@
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MOM_433781": {
         "oracleText": "Baral and Kari Zev Sleeve",
-        "translation": "Baral and Kari Zev Sleeve"
+        "translation": "巴罗与卡丽泽夫牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MOM_433782": {
         "oracleText": "Yargle and Multani Sleeve",
@@ -28317,7 +28317,7 @@
     },
     "MainNav/EventRewards/AtraxaAvatar": {
         "oracleText": "Atraxa Avatar",
-        "translation": "Atraxa Avatar"
+        "translation": "亚崔夏头像"
     },
     "MainNav/EventRewards/Avatar": {
         "oracleText": "1 Avatar",
@@ -35893,7 +35893,7 @@
     },
     "MainNav/Popups/CollectionFilterPopup/CollectionFilterPopup_Category_Row1_Battle_Toggle_Background_Label": {
         "oracleText": "Battle",
-        "translation": "Battle"
+        "translation": "战役"
     },
     "MainNav/Popups/CollectionFilterPopup/CollectionFilterPopup_Category_Row1_Commanders_Toggle_Background_Label": {
         "oracleText": "Commanders",
@@ -36453,7 +36453,7 @@
     },
     "MainNav/Profile/Avatars/Atraxa_MOM_Name": {
         "oracleText": "Atraxa",
-        "translation": "Atraxa"
+        "translation": "亚崔夏"
     },
     "MainNav/Profile/Avatars/Aurelia_Bio": {
         "oracleText": "Aurelia argues that true justice isn't merely the enforcement of the letter of existing laws; but the establishment of equitable and compassionate relationships among all of Ravnica's people.",
