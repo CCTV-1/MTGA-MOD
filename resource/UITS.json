@@ -1963,6 +1963,10 @@
         "oracleText": "Regenerate",
         "translation": "重生"
     },
+    "AbilityHanger/SpecialHangers/A-Satoru_Umezawa_Body": {
+        "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"x1\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\">, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.",
+        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"x1\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\">, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking."
+    },
     "AbilityHanger/SpecialHangers/AddedAbilities_Header": {
         "oracleText": "Added Abilities",
         "translation": "新增异能"
@@ -2234,6 +2238,10 @@
     "AbilityHanger/SpecialHangers/RevealedToOpponent_Header": {
         "oracleText": "Revealed",
         "translation": "已展示"
+    },
+    "AbilityHanger/SpecialHangers/Satoru_Umezawa_Body": {
+        "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"x2\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\">, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.",
+        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"x2\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\">, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking."
     },
     "AbilityHanger/SpecialHangers/SnowManaSource_Body": {
         "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xS\"> can be paid with one mana from a snow source.",
@@ -3688,12 +3696,12 @@
         "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\">天使会计师"
     },
     "Codex/ChooseATopic": {
-        "oracleText": "Choose A Topic",
-        "translation": "选择一个主题"
+        "oracleText": "Choose a Topic",
+        "translation": "Choose a Topic"
     },
     "Codex/CodexTitle": {
-        "oracleText": "Codex of The Multiverse",
-        "translation": "多重宇宙法典"
+        "oracleText": "Codex of the Multiverse",
+        "translation": "Codex of the Multiverse"
     },
     "Codex/Decks_BasicLands": {
         "oracleText": "<color #CCCCCC>If you have a specific basic land in your collection, you'll be able to use as many copies of it as you'd like. Many basic lands from each set are already in your collection, but you can also find more in the Store from time to time!",
@@ -3730,6 +3738,10 @@
     "Codex/Decks_StarterDecks": {
         "oracleText": "<color #CCCCCC>A good place to start is with opening one of the <color #E9E9F6><b>Starter Decks</b><color #CCCCCC> and adapting it to your playstyle. Or by adding in that new exciting card you just got (and probably removing an existing card to do so).",
         "translation": "<color #CCCCCC>A good place to start is with opening one of the <color #E9E9F6><b>Starter Decks</b><color #CCCCCC> and adapting it to your playstyle. Or by adding in that new exciting card you just got (and probably removing an existing card to do so)."
+    },
+    "Codex/Digital_Only": {
+        "oracleText": "Digital-Only Cards",
+        "translation": "Digital-Only Cards"
     },
     "Codex/HowToPlay/QuickStart/Attacking_A": {
         "oracleText": "<color #CCCCCC>Once you have cast a spell it resolves. If it's a creature, its two main functions are attacking and blocking!",
@@ -9059,6 +9071,10 @@
         "oracleText": "<size=+.15><b><color=red>Warning!</color></b></size> You haven't acted recently. Act soon or you'll concede the game!",
         "translation": "<size=+.15><b><color=red>警告！</color></b></size>你已有一段时间没有任何操作。请尽快行动，否则你会输掉此盘游戏。"
     },
+    "DuelScene/Warning/AttachAura_ColdHighlightWarning": {
+        "oracleText": "Do you want to attach {aura} to {target}?",
+        "translation": "Do you want to attach {aura} to {target}?"
+    },
     "DuelScene/Warning/MatchClockLowTime": {
         "oracleText": "Less than {minutesRemaining} minutes remaining in your match timer. You will concede the match if it expires.",
         "translation": "你对局计时器上的剩余时间已少于{minutesRemaining}分钟。如果时间用完，将视作你认输对局。"
@@ -9931,6 +9947,122 @@
         "oracleText": "I'm going, I'm going.",
         "translation": "马上，马上。"
     },
+    "EPP/Quests/3_JumpIn_Runs_Description": {
+        "oracleText": "Complete Jump In! three times.",
+        "translation": "Complete Jump In! three times."
+    },
+    "EPP/Quests/3_JumpIn_Runs_Footer": {
+        "oracleText": "Explore new cards and strategies in the Jump In! event.",
+        "translation": "Explore new cards and strategies in the Jump In! event."
+    },
+    "EPP/Quests/3_JumpIn_Runs_Refresh_Button": {
+        "oracleText": "Jump In!",
+        "translation": "Jump In!"
+    },
+    "EPP/Quests/6_JumpIn_Runs_Description": {
+        "oracleText": "Complete Jump In! six times.",
+        "translation": "Complete Jump In! six times."
+    },
+    "EPP/Quests/6_JumpIn_Runs_Footer": {
+        "oracleText": "Explore new cards and strategies in the Jump In! event.",
+        "translation": "Explore new cards and strategies in the Jump In! event."
+    },
+    "EPP/Quests/6_JumpIn_Runs_Refresh_Button": {
+        "oracleText": "Jump In!",
+        "translation": "Jump In!"
+    },
+    "EPP/Quests/Beat_Sparky_Description": {
+        "oracleText": "Win one Game against Sparky.",
+        "translation": "Win one Game against Sparky."
+    },
+    "EPP/Quests/Beat_Sparky_Footer": {
+        "oracleText": "Test your skills against Sparky, our AI computer opponent.",
+        "translation": "Test your skills against Sparky, our AI computer opponent."
+    },
+    "EPP/Quests/Beat_Sparky_Refresh_Button": {
+        "oracleText": "Bot Match",
+        "translation": "Bot Match"
+    },
+    "EPP/Quests/Complete_1_Color_Challenge_Description": {
+        "oracleText": "Complete one Color Challenge",
+        "translation": "Complete one Color Challenge"
+    },
+    "EPP/Quests/Complete_1_Color_Challenge_Footer": {
+        "oracleText": "Explore one of the five colors of Magic.",
+        "translation": "Explore one of the five colors of Magic."
+    },
+    "EPP/Quests/Complete_1_Color_Challenge_Refresh_Button": {
+        "oracleText": "Explore one of the five colors of Magic.",
+        "translation": "Explore one of the five colors of Magic."
+    },
+    "EPP/Quests/Complete_5_Color_Challenge_Description": {
+        "oracleText": "Complete all five Color Challenges.",
+        "translation": "Complete all five Color Challenges."
+    },
+    "EPP/Quests/Complete_5_Color_Challenge_Footer": {
+        "oracleText": "Grow your knowledge in each of the five colors of Magic.",
+        "translation": "Grow your knowledge in each of the five colors of Magic."
+    },
+    "EPP/Quests/Complete_5_Color_Challenge_Refresh_Button": {
+        "oracleText": "Color Challenge",
+        "translation": "Color Challenge"
+    },
+    "EPP/Quests/Complete_Dual_Color_Precon_Description": {
+        "oracleText": "Win 3 Starter Deck Duel Games.",
+        "translation": "Win 3 Starter Deck Duel Games."
+    },
+    "EPP/Quests/Complete_Dual_Color_Precon_Footer": {
+        "oracleText": "Battle other players with premade two-color decks!",
+        "translation": "Battle other players with premade two-color decks!"
+    },
+    "EPP/Quests/Complete_Dual_Color_Precon_Refresh_Button": {
+        "oracleText": "Starter Deck Duel",
+        "translation": "Starter Deck Duel"
+    },
+    "EPP/Quests/Complete_Spark_Rank_Button": {
+        "oracleText": "Spark Ranked",
+        "translation": "Spark Ranked"
+    },
+    "EPP/Quests/Complete_Spark_Rank_Description": {
+        "oracleText": "Complete Spark Rank.",
+        "translation": "Complete Spark Rank."
+    },
+    "EPP/Quests/Complete_Spark_Rank_Footer": {
+        "oracleText": "Rank up and upgrade your decks!",
+        "translation": "Rank up and upgrade your decks!"
+    },
+    "EPP/Quests/Complete_Sparky_Challenge_Description": {
+        "oracleText": "Complete Sparky's Challenge",
+        "translation": "Complete Sparky's Challenge"
+    },
+    "EPP/Quests/Complete_Sparky_Challenge_Footer": {
+        "oracleText": "Test your skills against Sparky, our AI computer opponent.",
+        "translation": "Test your skills against Sparky, our AI computer opponent."
+    },
+    "EPP/Quests/Complete_Sparky_Challenge_Refresh_Button": {
+        "oracleText": "Sparky's Challenge",
+        "translation": "Sparky's Challenge"
+    },
+    "EPP/Quests/Reach_Spark_Rank_Tier1": {
+        "oracleText": "Reach Spark Rank Tier 1",
+        "translation": "Reach Spark Rank Tier 1"
+    },
+    "EPP/Quests/Reach_Spark_Rank_Tier2": {
+        "oracleText": "Reach Spark Rank Tier 3",
+        "translation": "Reach Spark Rank Tier 3"
+    },
+    "EPP/Quests/Reach_Spark_Rank_Tier3": {
+        "oracleText": "Reach Spark Rank Tier 3",
+        "translation": "Reach Spark Rank Tier 3"
+    },
+    "EPP/RewardTrack/3_JumpIn_Runs": {
+        "oracleText": "Jump In! Tokens",
+        "translation": "Jump In! Tokens"
+    },
+    "EPP/RewardTrack/6_JumpIn_Runs": {
+        "oracleText": "1000 Coins",
+        "translation": "1000 Coins"
+    },
     "EPP/RewardTrack/Avatar": {
         "oracleText": "{avatarName} Avatar",
         "translation": "{avatarName}头像"
@@ -9966,6 +10098,10 @@
     "EPP/RewardTrack/Complete_Spark_Rank": {
         "oracleText": "Jace Sleeve & 5 Jump In! Tokens",
         "translation": "杰斯牌套和5个速学门票"
+    },
+    "EPP/RewardTrack/Complete_Sparky_Challenge": {
+        "oracleText": "Stained Glass Sleeve",
+        "translation": "Stained Glass Sleeve"
     },
     "EPP/RewardTrack/Completed": {
         "oracleText": "Completed",
@@ -10306,6 +10442,18 @@
     "EPP/Sparky/SparkRank_08": {
         "oracleText": "A great place to start is using decks you have earned from playing the Starter Deck Duel Event. You can even upgrade those decks and make your own creation!",
         "translation": "A great place to start is using decks you have earned from playing the Starter Deck Duel Event. You can even upgrade those decks and make your own creation!"
+    },
+    "EPP/Sparky/Sparky_Challenge_01": {
+        "oracleText": "Nice work, Planeswalker! I think you're ready for the next stage of your journey.",
+        "translation": "Nice work, Planeswalker! I think you're ready for the next stage of your journey."
+    },
+    "EPP/Sparky/Sparky_Challenge_02": {
+        "oracleText": "In Sparky's Challenge, you'll choose a starter deck to play against...me!",
+        "translation": "In Sparky's Challenge, you'll choose a starter deck to play against...me!"
+    },
+    "EPP/Sparky/Sparky_Challenge_03": {
+        "oracleText": "If you can defeat me three times, you'll have proven you're ready to step into a much larger world. So let's go!",
+        "translation": "If you can defeat me three times, you'll have proven you're ready to step into a much larger world. So let's go!"
     },
     "EPP/Sparky/StarterDeckDuel_01": {
         "oracleText": "Wow, you've unlocked your first event: Starter Deck Duel!",
@@ -15387,6 +15535,10 @@
         "oracleText": "Grow your collection of Dominaria cards! Bring your constructed deck and battle opponents to receive Dominaria packs and Dominaria cards based on how many wins you earn. Each uncommon card reward can get upgraded to a rare or mythic (15%).\n\nKeep playing with that deck until you reach five wins or two losses.",
         "translation": "充实你的多明纳里亚牌张收藏！使用事先组好的套牌与对手进行对局，并根据你的胜场数量赢得多明纳里亚补充包。使用同一副套牌持续游戏，直到累积五胜或二败为止。所得之非凡牌奖励都有机会升级为稀有或秘稀牌（15%）。\n\n使用同一副套牌持续游戏，直到累积五胜或二败为止。"
     },
+    "Events/Event_Desc_Festival_Festival_MAT_TreasuredHistoricSingleton": {
+        "oracleText": "Ixalan is a plane full of wonderous treasures.  So much treasure you may have trouble knowing what to do with it all!\n\nGet four wins to collect all Treasure Card Styles in this Treasured Historic Singleton Festival!\n\nBring a 60-card Historic deck with no duplicates besides basic lands!  Read the ban list for this format <link=https://magic.wizards.com/en/news/mtg-arena/treasured-festival-historic-singleton-june-2-5>here</link> \n\nIn this event, each player creates a Treasure token at the beginning of each of their upkeeps.",
+        "translation": "Ixalan is a plane full of wonderous treasures.  So much treasure you may have trouble knowing what to do with it all!\n\nGet four wins to collect all Treasure Card Styles in this Treasured Historic Singleton Festival!\n\nBring a 60-card Historic deck with no duplicates besides basic lands!  Read the ban list for this format <link=https://magic.wizards.com/en/news/mtg-arena/treasured-festival-historic-singleton-june-2-5>here</link> \n\nIn this event, each player creates a Treasure token at the beginning of each of their upkeeps."
+    },
     "Events/Event_Desc_Festival_HBG_Dragon_Brawl": {
         "oracleText": "<i>It gets tiring, you know... generation after generation of humans on quests to slay us. Ha! A mouse may rage, but the lion hears only squeaks. My kin, on the other claw, are much more worthy adversaries. I'm especially eager to test the mettle of Ziatora, a challenger from a plane called 'New Capenna.' To her I say: \"It's time for a Dragon Brawl, Zi!\"</i>\n\nIn <b>Dragon Brawl</b>, revel in your grandeur using one of the provided Historic Brawl decks, each of which features a Legendary Dragon as the commander. As you win, you'll earn dragon-themed Rulebook card styles from <i>Alchemy Horizons: Baldur's Gate</i>. There are 10 different styles to collect!\n\nFor more details on this format, including a full list of card styles you can earn, click <u><link=https://magic.wizards.com/mtga-hbg-dragon-brawl>here</link></u>.\n\n<size=100%><b><color=\"green\">When this event ends, entrants will receive any unclaimed rewards automatically.</color></b></size>",
         "translation": "<i>It gets tiring, you know... generation after generation of humans on quests to slay us. Ha! A mouse may rage, but the lion hears only squeaks. My kin, on the other claw, are much more worthy adversaries. I'm especially eager to test the mettle of Ziatora, a challenger from a plane called 'New Capenna.' To her I say: \"It's time for a Dragon Brawl, Zi!\"</i>\n\nIn <b>Dragon Brawl</b>, revel in your grandeur using one of the provided Historic Brawl decks, each of which features a Legendary Dragon as the commander. As you win, you'll earn dragon-themed Rulebook card styles from <i>Alchemy Horizons: Baldur's Gate</i>. There are 10 different styles to collect!\n\nFor more details on this format, including a full list of card styles you can earn, click <u><link=https://magic.wizards.com/mtga-hbg-dragon-brawl>here</link></u>.\n\n<size=100%><b><color=\"green\">When this event ends, entrants will receive any unclaimed rewards automatically.</color></b></size>"
@@ -15859,6 +16011,10 @@
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>",
         "translation": "每次从传过来的轮抽卡包中选一张牌，这些牌会加入你的收藏，你将使用这些牌加上基本地来构筑40张的套牌进行bo3对战。你将得到的奖励取决于你的胜场！\n\n<b>真人轮抽～和其他七位玩家共同进行的限时轮抽</b> "
     },
+    "Events/Event_Desc_MAT_Premier_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Knights </b> Knights have assembled from around the multiverse! Keeping a steady supply of these gallant creatures will help press your advantage each turn.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Graveyard </b> Mill everyone. Your forces will improve with more strategies and greater power as each graveyard fills.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Sacrifice </b> Desperate times call for desperate measures. Sacrifice your artifacts and creatures to pave a path to victory.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Battles </b> Get ready to liberate your favorite plane from the Phyrexians! Prioritize Battles, Magic's newest card type, and smash through opposing defenses to save the day.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> +1/+1 Counters </b> It's time to buff up! Arm your creatures with +1/+1 counters to outclass the opposition.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Phyrexian </b> Looking to play the villain? Seek out Phyrexians of all sorts to take advantage of them and their swarms of little hatching Incubator tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Convoke </b> Your creatures are here to help withstand the invasion. Build an army early and they'll help you cast powerful spells with convoke.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Incubate </b> Go big and generate tons of mana to play bigger creatures and incubate larger tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Backup </b> Find a good partner and tag-team those Phyrexians. Use the backup mechanic to find the right combination of abilities to build toward your victory each turn.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Transform </b> Life is always more fun with some change. Take your cards to the next level by winning battles and turning Incubator tokens and creatures into their Phyrexian selves.",
+        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Knights </b> Knights have assembled from around the multiverse! Keeping a steady supply of these gallant creatures will help press your advantage each turn.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Graveyard </b> Mill everyone. Your forces will improve with more strategies and greater power as each graveyard fills.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Sacrifice </b> Desperate times call for desperate measures. Sacrifice your artifacts and creatures to pave a path to victory.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Battles </b> Get ready to liberate your favorite plane from the Phyrexians! Prioritize Battles, Magic's newest card type, and smash through opposing defenses to save the day.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> +1/+1 Counters </b> It's time to buff up! Arm your creatures with +1/+1 counters to outclass the opposition.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Phyrexian </b> Looking to play the villain? Seek out Phyrexians of all sorts to take advantage of them and their swarms of little hatching Incubator tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Convoke </b> Your creatures are here to help withstand the invasion. Build an army early and they'll help you cast powerful spells with convoke.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Incubate </b> Go big and generate tons of mana to play bigger creatures and incubate larger tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Backup </b> Find a good partner and tag-team those Phyrexians. Use the backup mechanic to find the right combination of abilities to build toward your victory each turn.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Transform </b> Life is always more fun with some change. Take your cards to the next level by winning battles and turning Incubator tokens and creatures into their Phyrexian selves."
+    },
     "Events/Event_Desc_MID_Premier_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>",
         "translation": "每次从传过来的轮抽卡包中选一张牌，这些牌会加入你的收藏，你将使用这些牌加上基本地来构筑40张的套牌开始游戏。你将得到的奖励取决于你的胜场!\n\n<b>真人轮抽～和其他七位玩家共同进行的限时轮抽</b>"
@@ -15866,6 +16022,10 @@
     "Events/Event_Desc_MID_Quick_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers",
         "translation": "每次从传过来的轮抽卡包中选一张牌，这些牌会加入你的收藏，你将使用这些牌加上基本地来构筑40张的套牌开始游戏。你将得到的奖励取决于你的胜场!\n\n人机轮抽～与AI进行轮抽，无需等待，也不限制选牌时间"
+    },
+    "Events/Event_Desc_MID_Sealed": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Midnight Hunt</i> Sealed: Open six packs and add basic lands to make a 40-card deck, then play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Midnight Hunt</i> Sealed: Open six packs and add basic lands to make a 40-card deck, then play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
     },
     "Events/Event_Desc_MID_Trad_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players </b>",
@@ -15884,8 +16044,8 @@
         "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players </b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Knights </b> Knights have assembled from around the multiverse! Keeping a steady supply of these gallant creatures will help press your advantage each turn.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Graveyard </b> Mill everyone. Your forces will improve with more strategies and greater power as each graveyard fills.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Sacrifice </b> Desperate times call for desperate measures. Sacrifice your artifacts and creatures to pave a path to victory.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Battles </b> Get ready to liberate your favorite plane from the Phyrexians! Prioritize Battles, Magic's newest card type, and smash through opposing defenses to save the day.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> +1/+1 Counters </b> It's time to buff up! Arm your creatures with +1/+1 counters to outclass the opposition.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Phyrexian </b> Looking to play the villain? Seek out Phyrexians of all sorts to take advantage of them and their swarms of little hatching Incubator tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Convoke </b> Your creatures are here to help withstand the invasion. Build an army early and they'll help you cast powerful spells with convoke.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Incubate </b> Go big and generate tons of mana to play bigger creatures and incubate larger tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Backup </b> Find a good partner and tag-team those Phyrexians. Use the backup mechanic to find the right combination of abilities to build toward your victory each turn.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Transform </b> Life is always more fun with some change. Take your cards to the next level by winning battles and turning Incubator tokens and creatures into their Phyrexian selves."
     },
     "Events/Event_Desc_MWM_3Sets": {
-        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is On the Edge: Bring a 60-card deck using only cards from <i>Dominaria United</i>, <i>The Brothers' War</i>, and <i>Phyrexia: All Will Be One</i>. With only three Standard sets to work with, you'll need cutting-edge strategies to find victory! \n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
-        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is On the Edge: Bring a 60-card deck using only cards from <i>Dominaria United</i>, <i>The Brothers' War</i>, and <i>Phyrexia: All Will Be One</i>. With only three Standard sets to work with, you'll need cutting-edge strategies to find victory! \n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is On the Edge: Bring a 60-card deck using only cards from <i>The Brothers' War</i>, <i>Phyrexia: All Will Be One</i>. and <i>March of the Machine</i> Including <i>March of the Machine: The Aftermath</i>, , With only three Standard sets to work with, you'll need cutting-edge strategies to find victory! \n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is On the Edge: Bring a 60-card deck using only cards from <i>The Brothers' War</i>, <i>Phyrexia: All Will Be One</i>. and <i>March of the Machine</i> Including <i>March of the Machine: The Aftermath</i>, , With only three Standard sets to work with, you'll need cutting-edge strategies to find victory! \n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
     },
     "Events/Event_Desc_MWM_Alchemy": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Alchemy: Bring a 60-card Alchemy deck. Break out the latest and greatest from the lab, or maybe find a new favorite!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
@@ -16088,8 +16248,8 @@
         "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Slow Start: Going first is always such a treat, but sometimes it's nice to go second instead. To help smooth things out, the player who goes first will have their first land enter the battlefield tapped. Just take it easy for a turn!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
     },
     "Events/Event_Desc_MWM_Standard": {
-        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Standard: Bring a 60-card Standard deck, battle against the competition, and claim victory in the premier constructed format!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
-        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Standard: Bring a 60-card Standard deck, battle against the competition, and claim victory in the premier constructed format!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Streets of New Capenna</i> Bot Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.\n\n\n<b>The Five Families</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> The Obscura: Craft the perfect draws and use superior intelligence over a long game to engineer a route to victory. Use the family's connive mechanic to draw, then discard - giving your creatures +1/+1 counters along the way!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> The Maestros: Hire expendable underlings as your family's muscle on the streets. Then use the casualty mechanic to sacrifice those minions, copy your spells, and blast your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> The Riveteers: The Riveteers rumble with large creatures. Give your creatures haste with the blitz mechanic, then sacrifice them at the end of your turn to draw a card. Keep that pressure up! Then press your advantage to crush your opponents.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> The Cabaretti: Flood the board with tokens and small creatures to overwhelm the opposition. The family knows how to collaborate for greater gain: alliance abilities give you additional effects whenever another creature enters the battlefield under your control.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> The Brokers: The Brokers are always ready to take down your opponents one notch at a time. Attack relentlessly to deal small amounts of damage, and mount an impenetrable defense - legal or otherwise! - by amassing shield counters on your creatures.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Streets of New Capenna</i> Bot Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.\n\n\n<b>The Five Families</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> The Obscura: Craft the perfect draws and use superior intelligence over a long game to engineer a route to victory. Use the family's connive mechanic to draw, then discard - giving your creatures +1/+1 counters along the way!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> The Maestros: Hire expendable underlings as your family's muscle on the streets. Then use the casualty mechanic to sacrifice those minions, copy your spells, and blast your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> The Riveteers: The Riveteers rumble with large creatures. Give your creatures haste with the blitz mechanic, then sacrifice them at the end of your turn to draw a card. Keep that pressure up! Then press your advantage to crush your opponents.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> The Cabaretti: Flood the board with tokens and small creatures to overwhelm the opposition. The family knows how to collaborate for greater gain: alliance abilities give you additional effects whenever another creature enters the battlefield under your control.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> The Brokers: The Brokers are always ready to take down your opponents one notch at a time. Attack relentlessly to deal small amounts of damage, and mount an impenetrable defense - legal or otherwise! - by amassing shield counters on your creatures."
     },
     "Events/Event_Desc_MWM_StandardShakeup": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Standard Shakeup: We're removing some of Standard's most popular and powerful cards. Search for new strategies and bring the best 60-card deck you can create!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
@@ -16264,12 +16424,16 @@
         "translation": "参加活动，抢先体验<i>艾卓王权</i>！在此特殊活动中，你将从四副预组套牌中选择一副，加入我们最新的赛制～争锋！\n\n选择一位特殊的传奇生物或鹏洛客当作你的指挥官，并围绕它构筑一副套牌，而后与另一位牌手进行双人对战！欲知争锋赛制的更多信息，敬请<u></b><link=https://magic.wizards.com/mtga-brawl>点按此处</link></b></u>。\n\n争锋套牌不会加入牌手的收藏当中，但显示在赛事奖励中给出的<i>艾卓王权</i>卡牌可在9月9日开始的「2020标准赛」赛事活动中使用，并从9月26日开始可以在其他赛事活动中使用。"
     },
     "Events/Event_Desc_QualifierPlayIn_Bo1": {
-        "oracleText": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom <i>March of the Machine</i> Sealed with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
-        "translation": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom <i>March of the Machine</i> Sealed with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>"
+        "oracleText": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Historic with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
+        "translation": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Historic with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_QualifierPlayIn_Bo3": {
-        "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Traditional Explorer with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
-        "translation": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Traditional Explorer with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>"
+        "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom <i>March of the Machine</i> Sealed with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
+        "translation": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom <i>March of the Machine</i> Sealed with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>"
+    },
+    "Events/Event_Desc_QualifierPlayIn_Bo320230609": {
+        "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Traditional Historic with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
+        "translation": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Traditional Historic with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_QualifierWeekend_Day1": {
         "oracleText": "Congratulations on earning your way to Qualifier Weekend! Sign up for this Day 1 event and get all 7 wins to qualify for Day 2! You may join each day only once.\n\nPlayers can only join Day 1 and (if qualified) Day 2 events between 6 a.m. PT - 8 a.m. PT.\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
@@ -16550,6 +16714,10 @@
     "Events/Event_Desc_Spark_Ladder": {
         "oracleText": "Play against other Planeswalkers here to level up, earn rewards, and harness your spark!",
         "translation": "Play against other Planeswalkers here to level up, earn rewards, and harness your spark!"
+    },
+    "Events/Event_Desc_SparkyChallenge": {
+        "oracleText": "Welcome to Sparky's Challenge, where you challenge...me! This is a Preconstructed event where I've given you a choice of some of my favorite starter decks to play with against me as you become more familiar with your Planeswalker spark! <br><br><color #ED5922>This event has no entry fee</color>, so you can keep challenging me, your greatest test yet! That is until you've won three games and I've decided you're ready to face even greater competition, Planeswalker!",
+        "translation": "Welcome to Sparky's Challenge, where you challenge...me! This is a Preconstructed event where I've given you a choice of some of my favorite starter decks to play with against me as you become more familiar with your Planeswalker spark! <br><br><color #ED5922>This event has no entry fee</color>, so you can keep challenging me, your greatest test yet! That is until you've won three games and I've decided you're ready to face even greater competition, Planeswalker!"
     },
     "Events/Event_Desc_Standard_Challenge": {
         "oracleText": "Bring your Standard deck and play best-of-three matches! You'll receive rewards based on how many matches you win.",
@@ -17911,6 +18079,10 @@
         "oracleText": "Festival: Flash Forward",
         "translation": "活动节：闪电战"
     },
+    "Events/Event_Title_Festival_MAT_TreasuredHistoricSingleton": {
+        "oracleText": "Festival: Treasured Historic Singleton",
+        "translation": "Festival: Treasured Historic Singleton"
+    },
     "Events/Event_Title_Festival_MID_Emblem": {
         "oracleText": "Festival: Harvest Bash",
         "translation": "活动节：丰收狂欢"
@@ -18359,6 +18531,10 @@
         "oracleText": "Traditional Draft Core Set 2021",
         "translation": "核心系列2021三盘轮抽"
     },
+    "Events/Event_Title_MAT_Premier_Draft": {
+        "oracleText": "Premier Draft March of the Machine: The Aftermath",
+        "translation": "Premier Draft March of the Machine: The Aftermath"
+    },
     "Events/Event_Title_MID_Premier_Draft": {
         "oracleText": "Premier Draft Midnight Hunt",
         "translation": "黯夜猎踪竞技轮抽"
@@ -18366,6 +18542,10 @@
     "Events/Event_Title_MID_Quick_Draft": {
         "oracleText": "Quick Draft Midnight Hunt",
         "translation": "黯夜猎踪快速轮抽"
+    },
+    "Events/Event_Title_MID_Sealed": {
+        "oracleText": "Midweek Magic: Phantom Sealed",
+        "translation": "Midweek Magic: Phantom Sealed"
     },
     "Events/Event_Title_MID_Trad_Draft": {
         "oracleText": "Traditional Draft Midnight Hunt",
@@ -19054,6 +19234,10 @@
     "Events/Event_Title_Spark_Ladder": {
         "oracleText": "Spark Ranked",
         "translation": "火花段位"
+    },
+    "Events/Event_Title_SparkyChallenge": {
+        "oracleText": "Sparky's Challenge",
+        "translation": "Sparky's Challenge"
     },
     "Events/Event_Title_Standard_Challenge": {
         "oracleText": "Standard Metagame Challenge",
@@ -20723,6 +20907,10 @@
         "oracleText": "Join between 6am and 8am Pacific on May 13",
         "translation": "Join between 6am and 8am Pacific on May 13"
     },
+    "Events/Tokens/QualifierDay1TokenDescription20230610": {
+        "oracleText": "Join between 6am and 8am Pacific on June 10",
+        "translation": "Join between 6am and 8am Pacific on June 10"
+    },
     "Events/Tokens/QualifierDay1TokenPlural": {
         "oracleText": "Qualifier Weekend Token",
         "translation": "资格赛周末门票"
@@ -20754,6 +20942,14 @@
     "Events/Tokens/QualifierDay2TokenDescription20230409": {
         "oracleText": "Join between 6am and 8am Pacific on April 9",
         "translation": "Join between 6am and 8am Pacific on April 9"
+    },
+    "Events/Tokens/QualifierDay2TokenDescription20230514": {
+        "oracleText": "Join between 6am and 8am Pacific on May 14",
+        "translation": "Join between 6am and 8am Pacific on May 14"
+    },
+    "Events/Tokens/QualifierDay2TokenDescription20230611": {
+        "oracleText": "Join between 6am and 8am Pacific on June 11",
+        "translation": "Join between 6am and 8am Pacific on June 11"
     },
     "Events/Tokens/QualifierDay2TokenPlural": {
         "oracleText": "Qualifier Day 2",
@@ -21066,6 +21262,10 @@
     "General/Sets/M21": {
         "oracleText": "Core Set 2021",
         "translation": "核心系列2021"
+    },
+    "General/Sets/MAT": {
+        "oracleText": "March of the Machine: The Aftermath",
+        "translation": "March of the Machine: The Aftermath"
     },
     "General/Sets/MID": {
         "oracleText": "Innistrad: Midnight Hunt",
@@ -25571,6 +25771,18 @@
         "oracleText": "Ugin Exquisite Sleeve",
         "translation": "乌金精饰牌套"
     },
+    "MainNav/DeckBuilder/Sleeves/CardBack_MAT_433815": {
+        "oracleText": "PLACEHOLDER SLEEVE NAME <CardBack_MAT_433815>",
+        "translation": "PLACEHOLDER SLEEVE NAME <CardBack_MAT_433815>"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_MAT_433816": {
+        "oracleText": "PLACEHOLDER SLEEVE NAME <CardBack_MAT_433816>",
+        "translation": "PLACEHOLDER SLEEVE NAME <CardBack_MAT_433816>"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_MAT_436337": {
+        "oracleText": "Nashi, Moon's Legacy Sleeve",
+        "translation": "Nashi, Moon's Legacy Sleeve"
+    },
     "MainNav/DeckBuilder/Sleeves/CardBack_MID_419512": {
         "oracleText": "Ominous Roost Sleeve",
         "translation": "恶兆宿巢牌套"
@@ -26050,6 +26262,18 @@
     "MainNav/DeckBuilder/Sleeves/CardBack_RD_420787": {
         "oracleText": "Livia Prima Olivia, Mobilized for War Sleeve",
         "translation": "Livia Prima版蓄威奥莉薇亚牌套"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_420852": {
+        "oracleText": "Alayna Danner Sunblast Angel Sleeve",
+        "translation": "Alayna Danner Sunblast Angel Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_420854": {
+        "oracleText": "Alayna Danner Linvala, Keeper of Silence Sleeve",
+        "translation": "Alayna Danner Linvala, Keeper of Silence Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_420857": {
+        "oracleText": "Alayna Danner Emeria, the Sky Ruin Sleeve",
+        "translation": "Alayna Danner Emeria, the Sky Ruin Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_RD_420881": {
         "oracleText": "Victor Adame Minguez Knight Exemplar Sleeve",
@@ -26715,6 +26939,22 @@
         "oracleText": "Veil of Summer Manga Sleeve",
         "translation": "*夏色帘幕*漫画牌套"
     },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_433849": {
+        "oracleText": "Llawan, Cephalid Empress Sleeve",
+        "translation": "Llawan, Cephalid Empress Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_433850": {
+        "oracleText": "Thassa's Oracle Sleeve",
+        "translation": "Thassa's Oracle Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_433851": {
+        "oracleText": "Thassa, Deep-Dwelling Sleeve",
+        "translation": "Thassa, Deep-Dwelling Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_433852": {
+        "oracleText": "Master of Waves Sleeve",
+        "translation": "Master of Waves Sleeve"
+    },
     "MainNav/DeckBuilder/Sleeves/CardBack_RD_433856": {
         "oracleText": "Arcades Sabboth Stained Glass Sleeve",
         "translation": "*阿卡迪萨巴斯*花窗牌套"
@@ -26746,6 +26986,22 @@
     "MainNav/DeckBuilder/Sleeves/CardBack_RD_434024": {
         "oracleText": "Tezzeret, Agent of Bolas Sleeve",
         "translation": "波拉斯特务泰兹瑞牌套"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_434673": {
+        "oracleText": "Nature's Will Sleeve",
+        "translation": "Nature's Will Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_434674": {
+        "oracleText": "Yeva, Nature's Herald Sleeve",
+        "translation": "Yeva, Nature's Herald Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_434675": {
+        "oracleText": "Joraga Treespeaker Sleeve",
+        "translation": "Joraga Treespeaker Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_434676": {
+        "oracleText": "Ulvenwald Tracker Sleeve",
+        "translation": "Ulvenwald Tracker Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_RD_434681": {
         "oracleText": "Ghalta, Primal Hunger Sleeve",
@@ -26807,9 +27063,33 @@
         "oracleText": "Post Malone Forest Sleeve",
         "translation": "Post Malone Forest Sleeve"
     },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_437453": {
+        "oracleText": "Utvara Hellkite Sleeve",
+        "translation": "Utvara Hellkite Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_437455": {
+        "oracleText": "Nyxbloom Ancient Sleeve",
+        "translation": "Nyxbloom Ancient Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_437459": {
+        "oracleText": "Olivia Voldaren Sleeve",
+        "translation": "Olivia Voldaren Sleeve"
+    },
     "MainNav/DeckBuilder/Sleeves/CardBack_RD_437931": {
         "oracleText": "Lathliss, Dragon Queen Sleeve",
         "translation": "Lathliss, Dragon Queen Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_438556": {
+        "oracleText": "Higure, the Still Wind Sleeve",
+        "translation": "Higure, the Still Wind Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_438557": {
+        "oracleText": "Kogla Sleeve",
+        "translation": "Kogla Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_448842": {
+        "oracleText": "Alayna Danner Seraph Sanctuary Sleeve",
+        "translation": "Alayna Danner Seraph Sanctuary Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_RIX_402889": {
         "oracleText": "Huatli Radiant Champion Sleeve",
@@ -27607,6 +27887,10 @@
         "oracleText": "Last Call",
         "translation": "最后通话"
     },
+    "MainNav/DeckFormat/MOM": {
+        "oracleText": "March of the Machine Constructed",
+        "translation": "March of the Machine Constructed"
+    },
     "MainNav/DeckFormat/MidnightHunt": {
         "oracleText": "Midnight Hunt Constructed",
         "translation": "黯夜猎踪构筑"
@@ -27730,6 +28014,10 @@
     "MainNav/DeckFormat/TreasureSingleton": {
         "oracleText": "Treasure Singleton",
         "translation": "珍宝单张"
+    },
+    "MainNav/DeckFormat/TreasuredHistoricSingleton": {
+        "oracleText": "Treasured Historic Singleton",
+        "translation": "Treasured Historic Singleton"
     },
     "MainNav/DeckFormat/Tripleton": {
         "oracleText": "Tripleton",
@@ -29062,6 +29350,10 @@
     "MainNav/EventRewards/M19_3Rare": {
         "oracleText": "Cards will be at least 3 M19 rares",
         "translation": "牌张奖励：至少3张M19的稀有牌"
+    },
+    "MainNav/EventRewards/MOMSleeve": {
+        "oracleText": "Archangel Awakening Sleeve",
+        "translation": "Archangel Awakening Sleeve"
     },
     "MainNav/EventRewards/MWCs": {
         "oracleText": "{number1} Mythic Wildcards",
@@ -30659,6 +30951,14 @@
         "oracleText": "The March of the Machine has begun!",
         "translation": "The March of the Machine has begun!"
     },
+    "MainNav/HomePage/Carousel/2023_26_Store_Desc": {
+        "oracleText": "Sift through the remains of the Store to find new Avatar bundles, Sleeve bundles, and more!",
+        "translation": "Sift through the remains of the Store to find new Avatar bundles, Sleeve bundles, and more!"
+    },
+    "MainNav/HomePage/Carousel/2023_26_Store_Title": {
+        "oracleText": "What treasures will you uncover in the Aftermath?",
+        "translation": "What treasures will you uncover in the Aftermath?"
+    },
     "MainNav/HomePage/Carousel/2023_ONE_PreOrder_Desc": {
         "oracleText": "Preorders have a compleatly new look! Pick up the Pack Bundle, Play Bundle, or the new Pass Bundle before ONE releases to help ensure your victory against the threat of Phyrexia.",
         "translation": "Preorders have a compleatly new look! Pick up the Pack Bundle, Play Bundle, or the new Pass Bundle before ONE releases to help ensure your victory against the threat of Phyrexia."
@@ -30919,6 +31219,14 @@
         "oracleText": "Arena Championship 2",
         "translation": "Arena Championship 2"
     },
+    "MainNav/HomePage/Carousel/ArenaChampionship3Watch_Desc": {
+        "oracleText": "Arena Championship 3 starts streaming on Saturday, May 27th @ 9a PT. Get ready to watch players as they compete for their share of $200,000 and a seat at the Magic World Championship!",
+        "translation": "Arena Championship 3 starts streaming on Saturday, May 27th @ 9a PT. Get ready to watch players as they compete for their share of $200,000 and a seat at the Magic World Championship!"
+    },
+    "MainNav/HomePage/Carousel/ArenaChampionship3Watch_Title": {
+        "oracleText": "Arena Championship 3",
+        "translation": "Arena Championship 3"
+    },
     "MainNav/HomePage/Carousel/ArenaChampionship_1_Title": {
         "oracleText": "Arena Championship 1",
         "translation": "竞技场冠军赛 1"
@@ -31126,6 +31434,14 @@
     "MainNav/HomePage/Carousel/Chromatic_Cube_Title": {
         "oracleText": "Chromatic Cube Draft",
         "translation": "五彩方盒轮抽"
+    },
+    "MainNav/HomePage/Carousel/CodexOfTheMultiverse_Desc": {
+        "oracleText": "Explore the Codex of the Multiverse to learn the basics of Magic: The Gathering, and much more!",
+        "translation": "Explore the Codex of the Multiverse to learn the basics of Magic: The Gathering, and much more!"
+    },
+    "MainNav/HomePage/Carousel/CodexOfTheMultiverse_Title": {
+        "oracleText": "Codex of the Multiverse",
+        "translation": "Codex of the Multiverse"
     },
     "MainNav/HomePage/Carousel/Collection_Progress_Desc": {
         "oracleText": "Have  you ever wondered how close you are to being set-complete? Check out your progress in the Player Profile!",
@@ -31946,6 +32262,10 @@
     "MainNav/HomePage/Carousel/Jumpstart_Title": {
         "oracleText": "Jumpstart!",
         "translation": "速战速决！"
+    },
+    "MainNav/HomePage/Carousel/June_PotM_Here_Desc": {
+        "oracleText": "It's a cat! It's a dragon! It has...fangs? Whatever it is, Azizi is the perfect companion to join you on the battlefield! Stop by the Store and take it home today!",
+        "translation": "It's a cat! It's a dragon! It has...fangs? Whatever it is, Azizi is the perfect companion to join you on the battlefield! Stop by the Store and take it home today!"
     },
     "MainNav/HomePage/Carousel/KHM_Sealed_Desc": {
         "oracleText": "Play some sealed deck with packs of Magic's latest set!",
@@ -33326,6 +33646,14 @@
     "MainNav/HomePage/Carousel/Set_Mastery_ONE_Title": {
         "oracleText": "Phyrexia: All Will Be One Set Mastery",
         "translation": "非瑞克西亚：万界归一精研通行证"
+    },
+    "MainNav/HomePage/Carousel/SocialMedia_Discord_Desc": {
+        "oracleText": "Connect with others and don't miss out on the fun! Join the official Magic: The Gathering Discord to stay up to date on announcements, events, and more!",
+        "translation": "Connect with others and don't miss out on the fun! Join the official Magic: The Gathering Discord to stay up to date on announcements, events, and more!"
+    },
+    "MainNav/HomePage/Carousel/SocialMedia_Discord_Title": {
+        "oracleText": "Join Our Discord!",
+        "translation": "Join Our Discord!"
     },
     "MainNav/HomePage/Carousel/SocialMedia_TikTok_Desc": {
         "oracleText": "Your favorite MTG content in short video form.",
@@ -34735,6 +35063,14 @@
         "oracleText": "Unfinite Fools Day!",
         "translation": "Unfinite Fools Day!"
     },
+    "MainNav/Mailbox/ArenaChampionship3_Day1Watch_Desc": {
+        "oracleText": "Who will advance to the top 8 of Arena Championship 3? Come watch and cheer on your favorite players as they compete for their share of $200,000 and a seat at the Magic World Championship!",
+        "translation": "Who will advance to the top 8 of Arena Championship 3? Come watch and cheer on your favorite players as they compete for their share of $200,000 and a seat at the Magic World Championship!"
+    },
+    "MainNav/Mailbox/ArenaChampionship3_Day2Watch_Desc": {
+        "oracleText": "Who will be the victors of Arena Championship 3? Come watch and cheer on your favorite players as they compete for their share of $200,000 and a seat at the Magic World Championship!",
+        "translation": "Who will be the victors of Arena Championship 3? Come watch and cheer on your favorite players as they compete for their share of $200,000 and a seat at the Magic World Championship!"
+    },
     "MainNav/Mailbox/Button_Claim": {
         "oracleText": "Claim",
         "translation": "收取"
@@ -34784,16 +35120,16 @@
         "translation": "准备竞技场十项全能决赛！"
     },
     "MainNav/Mailbox/EndOfSeasonReward_Top1200_Description": {
-        "oracleText": "Congratulations on your Mythic ranking! Because of your incredible Magic skills, you've qualified for this months Qualifier Play-In! \n\nClick the link below to learn more about the Qualifier Play-Ins and Premier Play system, or check your email for more information on your ranking! \n\nClaim your Play-In Points now, and be sure to join during one of the upcoming Qualifier Play-Ins to fully redeem your tokens. Good luck!",
-        "translation": "Congratulations on your Mythic ranking! Because of your incredible Magic skills, you've qualified for this months Qualifier Play-In! \n\nClick the link below to learn more about the Qualifier Play-Ins and Premier Play system, or check your email for more information on your ranking! \n\nClaim your Play-In Points now, and be sure to join during one of the upcoming Qualifier Play-Ins to fully redeem your tokens. Good luck!"
+        "oracleText": "Congratulations on your Mythic ranking! Because of your incredible Magic skills, you've qualified for this months Qualifier Play-In! \n\nClick the link below to learn more about the Qualifier Play-Ins and Premier Play system, or check your email for more information on your ranking! \n\nClaim your Play-In Points now, and be sure to join during one of the upcoming Qualifier Play-Ins to fully redeem your tokens.",
+        "translation": "Congratulations on your Mythic ranking! Because of your incredible Magic skills, you've qualified for this months Qualifier Play-In! \n\nClick the link below to learn more about the Qualifier Play-Ins and Premier Play system, or check your email for more information on your ranking! \n\nClaim your Play-In Points now, and be sure to join during one of the upcoming Qualifier Play-Ins to fully redeem your tokens."
     },
     "MainNav/Mailbox/EndOfSeasonReward_Top1200_Title": {
         "oracleText": "You placed in the top 1,200 this past Season!",
         "translation": "你于刚结束赛季中跻身前1200名！"
     },
     "MainNav/Mailbox/EndOfSeasonReward_Top250_Description": {
-        "oracleText": "Congratulations on your Mythic ranking! Because of your incredible Magic skills, you've qualified for this months Qualifier Weekend! \n\nClick the link below to learn more about the Qualifier Weekend and Premier Play system, or check your email for more information on your ranking! \n\nClaim your Qualifier Weekend Token now, and be sure to join during the Qualifier Weekend Entry Window to fully redeem your token. Good luck!",
-        "translation": "Congratulations on your Mythic ranking! Because of your incredible Magic skills, you've qualified for this months Qualifier Weekend! \n\nClick the link below to learn more about the Qualifier Weekend and Premier Play system, or check your email for more information on your ranking! \n\nClaim your Qualifier Weekend Token now, and be sure to join during the Qualifier Weekend Entry Window to fully redeem your token. Good luck!"
+        "oracleText": "Congratulations on your Mythic ranking! Because of your incredible Magic skills, you've qualified for this months Qualifier Weekend! \n\nClick the link below to learn more about the Qualifier Weekend and Premier Play system, or check your email for more information on your ranking! \n\nClaim your Qualifier Weekend Token now, and be sure to join during the Qualifier Weekend Entry Window to fully redeem your token.",
+        "translation": "Congratulations on your Mythic ranking! Because of your incredible Magic skills, you've qualified for this months Qualifier Weekend! \n\nClick the link below to learn more about the Qualifier Weekend and Premier Play system, or check your email for more information on your ranking! \n\nClaim your Qualifier Weekend Token now, and be sure to join during the Qualifier Weekend Entry Window to fully redeem your token."
     },
     "MainNav/Mailbox/EndOfSeasonReward_Top250_Title": {
         "oracleText": "You placed in the top 250 this past Season!",
@@ -34838,6 +35174,14 @@
     "MainNav/Mailbox/JoinPremierEvent_Title": {
         "oracleText": "A Reminder for your Upcoming Event!",
         "translation": "A Reminder for your Upcoming Event!"
+    },
+    "MainNav/Mailbox/MAT_Announcement_Description": {
+        "oracleText": "The multiverse is safe from the Phyrexian threat, but there's still work to be done. Click the link below to see what's already been rebuilt and how people across the planes are celebrating!",
+        "translation": "The multiverse is safe from the Phyrexian threat, but there's still work to be done. Click the link below to see what's already been rebuilt and how people across the planes are celebrating!"
+    },
+    "MainNav/Mailbox/MAT_Announcement_Title": {
+        "oracleText": "The Machine has been defeated!",
+        "translation": "The Machine has been defeated!"
     },
     "MainNav/Mailbox/MOMPatchNotes_Description": {
         "oracleText": "We've intercepted the Phrexian plans for multiversal invasion. Take a look at what's coming and team up with legends from across the Multiverse to defend your home and end Phyrexia once and for all!",
@@ -35176,8 +35520,8 @@
         "translation": "金币可通过不断进行游戏、完成任务来获得"
     },
     "MainNav/NavBar/Learn_Tooltip": {
-        "oracleText": "Learn More",
-        "translation": "了解更多"
+        "oracleText": "Codex of the Multiverse",
+        "translation": "Codex of the Multiverse"
     },
     "MainNav/NavBar/Mailbox_Tooltip": {
         "oracleText": "Mail",
@@ -35312,8 +35656,8 @@
         "translation": "黄金补充包包含6张稀有牌，每张有正常的概率升级成为秘稀稀有度。"
     },
     "MainNav/PackProgressMeter/CallToAction": {
-        "oracleText": "Purchase {remaining} more March of the Machine packs to earn a Golden Pack.",
-        "translation": "Purchase {remaining} more March of the Machine packs to earn a Golden Pack."
+        "oracleText": "Purchase {remaining} more March of the Machine: The Aftermath and March of the Machine packs to earn a Golden Pack.",
+        "translation": "Purchase {remaining} more March of the Machine: The Aftermath and March of the Machine packs to earn a Golden Pack."
     },
     "MainNav/PackProgressMeter/FullDetailsLink": {
         "oracleText": "Full Details",
@@ -35594,6 +35938,10 @@
     "MainNav/PetNames/MOM_Mastery_3": {
         "oracleText": "Furnace-Host Akki",
         "translation": "Furnace-Host Akki"
+    },
+    "MainNav/PetNames/MOM_Preorder": {
+        "oracleText": "Fblthp",
+        "translation": "Fblthp"
     },
     "MainNav/PetNames/MOM_Preorder_1": {
         "oracleText": "Fblthp",
@@ -36483,6 +36831,14 @@
         "oracleText": "Arvad",
         "translation": "亚瓦德"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_BorborygmosFblthp_MOM_Bio": {
+        "oracleText": "When the Machine Legion invades Ravnica, two unlikely heroes rise to defend it: Borborygmos, the enormous cyclopean leader of the Gruul clans, and Fblthp, a tiny homunculus with the worst sense of direction in the Multiverse. They're opposites in many ways, but when it comes to protecting Ravnica, they see perfectly eye to eye.",
+        "translation": "When the Machine Legion invades Ravnica, two unlikely heroes rise to defend it: Borborygmos, the enormous cyclopean leader of the Gruul clans, and Fblthp, a tiny homunculus with the worst sense of direction in the Multiverse. They're opposites in many ways, but when it comes to protecting Ravnica, they see perfectly eye to eye."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_BorborygmosFblthp_MOM_Name": {
+        "oracleText": "Borborygmos and Fblthp",
+        "translation": "Borborygmos and Fblthp"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_FalcoSpara_SNC_Bio": {
         "oracleText": "Falco Spara is the head of the Brokers and one of the few in New Capenna old enough to remember the city's founding. With his ironclad contracts, Falco and his Brokers provide the highest order of protection to clients in need—provided they can shell out the cash.",
         "translation": "冯柯斯帕拉是扶济社的头儿，也是新卡佩纳为数不多的、足以记住这座城市成立的老人之一。冯柯斯帕拉和他的扶济社通过他的铁定合同，为有需要的客户提供最高级别的保护--只要他们能拿出钱来。"
@@ -36506,6 +36862,14 @@
     "MainNav/Profile/Avatars/Avatar_Basic_LilGiri_Name": {
         "oracleText": "Li'l Giri",
         "translation": "Li'l Giri"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Nashi_MOM_Bio": {
+        "oracleText": "Nashi witnessed in horror as his adoptive mother, Tamiyo, fell to Phyrexian <i>compleation</i>. Tamiyo was killed during the invasion, but an echo of her former self—preserved through her scroll magic—arose to comfort her grieving son. Nashi resolved to continue his mother's legacy as a story-seeker, with the aid of Tamiyo's guiding wisdom.",
+        "translation": "Nashi witnessed in horror as his adoptive mother, Tamiyo, fell to Phyrexian <i>compleation</i>. Tamiyo was killed during the invasion, but an echo of her former self—preserved through her scroll magic—arose to comfort her grieving son. Nashi resolved to continue his mother's legacy as a story-seeker, with the aid of Tamiyo's guiding wisdom."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Nashi_MOM_Name": {
+        "oracleText": "Nashi, Moon's Legacy",
+        "translation": "Nashi, Moon's Legacy"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Niambi_DMU_Bio": {
         "oracleText": "Niambi is daughter to the Planeswalker Teferi and a legend in her own right, having served as an advisor and healer throughout Jamuraa. It is her sincere hope that, through diplomacy and compassion, she can mend the wounds that divide her fellow Dominarians in time to unite them.",
@@ -37888,8 +38252,8 @@
         "translation": "装备错误"
     },
     "MainNav/Rewards/EventRewards/ClaimPrizeButton": {
-        "oracleText": "Claim Prize",
-        "translation": "领取奖品"
+        "oracleText": "Claim",
+        "translation": "Claim"
     },
     "MainNav/Rewards/EventRewards/ClaimRedeemedButton": {
         "oracleText": "Claim",
@@ -38160,44 +38524,44 @@
         "translation": "2020年10月"
     },
     "MainNav/Season/Season23Name": {
-        "oracleText": "\"November 2020\"",
-        "translation": "2020年11月"
+        "oracleText": "November 2020",
+        "translation": "November 2020"
     },
     "MainNav/Season/Season24Name": {
         "oracleText": "20-Dec",
         "translation": "2020年12月"
     },
     "MainNav/Season/Season25Name": {
-        "oracleText": "\"January 2021\"",
-        "translation": "2021年1月"
+        "oracleText": "January 2021",
+        "translation": "January 2021"
     },
     "MainNav/Season/Season26Name": {
-        "oracleText": "\"February 2021\"",
-        "translation": "2021年2月"
+        "oracleText": "February 2021",
+        "translation": "February 2021"
     },
     "MainNav/Season/Season27Name": {
-        "oracleText": "\"March 2021\"",
-        "translation": "2021年3月"
+        "oracleText": "March 2021",
+        "translation": "March 2021"
     },
     "MainNav/Season/Season28Name": {
-        "oracleText": "\"April 2021\"",
-        "translation": "2021年4月"
+        "oracleText": "April 2021",
+        "translation": "April 2021"
     },
     "MainNav/Season/Season29Name": {
-        "oracleText": "\"May 2021\"",
-        "translation": "2021年5月"
+        "oracleText": "May 2021",
+        "translation": "May 2021"
     },
     "MainNav/Season/Season2Name": {
         "oracleText": "Preseason 2",
         "translation": "第2预热赛季"
     },
     "MainNav/Season/Season30Name": {
-        "oracleText": "\"June 2021\"",
-        "translation": "2021年6月"
+        "oracleText": "June 2021",
+        "translation": "June 2021"
     },
     "MainNav/Season/Season31Name": {
-        "oracleText": "\"July 2021\"",
-        "translation": "2021年7月"
+        "oracleText": "July 2021",
+        "translation": "July 2021"
     },
     "MainNav/Season/Season32Name": {
         "oracleText": "21-Aug",
@@ -40943,6 +41307,82 @@
         "oracleText": "Teferi Showcase Bundle",
         "translation": "泰菲力展览套装"
     },
+    "MainNav/Store/Bundles/Bundle_MAT_Avatars_Desc": {
+        "oracleText": "Kiora Avatar\nNahiri Avatar\nOb Nixilis Avatar\nSarkhan Avatar",
+        "translation": "Kiora Avatar\nNahiri Avatar\nOb Nixilis Avatar\nSarkhan Avatar"
+    },
+    "MainNav/Store/Bundles/Bundle_MAT_Avatars_Name": {
+        "oracleText": "What a Long Strange Trip It's Been",
+        "translation": "What a Long Strange Trip It's Been"
+    },
+    "MainNav/Store/Bundles/Bundle_MAT_Fblthp_Desc": {
+        "oracleText": "Borborygmos and Fblthp Avatar\nFblthp Pet\nFblthp Sleeve",
+        "translation": "Borborygmos and Fblthp Avatar\nFblthp Pet\nFblthp Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_MAT_Fblthp_Desc_Alt": {
+        "oracleText": "Borborygmos and Fblthp Avatar\nFblthp Companion\nFblthp Sleeve",
+        "translation": "Borborygmos and Fblthp Avatar\nFblthp Companion\nFblthp Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_MAT_Fblthp_Name": {
+        "oracleText": "Borborygmos and Fblthp Bundle",
+        "translation": "Borborygmos and Fblthp Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_MAT_Nashi_Desc": {
+        "oracleText": "Nashi, Moon's Legacy Avatar\nNashi, Moon's Legacy Sleeve\nNashi, Moon's Legacy Card Style",
+        "translation": "Nashi, Moon's Legacy Avatar\nNashi, Moon's Legacy Sleeve\nNashi, Moon's Legacy Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_MAT_Nashi_Name": {
+        "oracleText": "Nashi, Moon's Legacy Bundle",
+        "translation": "Nashi, Moon's Legacy Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_MAT_Styles1_Desc": {
+        "oracleText": "Nissa, Resurgent Animist Card Style\nKarn, Legacy Reforged Card Style\nOb Nixilis, Captive Kingpin Card Style\nCalix, Guided by Fate Card Style\nKiora, Sovereign of the Deep Card Style",
+        "translation": "Nissa, Resurgent Animist Card Style\nKarn, Legacy Reforged Card Style\nOb Nixilis, Captive Kingpin Card Style\nCalix, Guided by Fate Card Style\nKiora, Sovereign of the Deep Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_MAT_Styles1_Name": {
+        "oracleText": "The Aftermath: Unsparked",
+        "translation": "The Aftermath: Unsparked"
+    },
+    "MainNav/Store/Bundles/Bundle_MAT_Styles2_Desc": {
+        "oracleText": "Nahiri, Forged in Fury Card Style\nSamut, Vizier of Naktamun Card Style \nTyvar the Bellicose Card Style\nNarset, Enlightened Exile Card Style\nSarkhan, Soul Aflame Card Style",
+        "translation": "Nahiri, Forged in Fury Card Style\nSamut, Vizier of Naktamun Card Style \nTyvar the Bellicose Card Style\nNarset, Enlightened Exile Card Style\nSarkhan, Soul Aflame Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_MAT_Styles2_Name": {
+        "oracleText": "The Aftermath: Unbroken",
+        "translation": "The Aftermath: Unbroken"
+    },
+    "MainNav/Store/Bundles/Bundle_MAT_Styles3_Desc": {
+        "oracleText": "Spark Rupture Card Style\nDeification Card Style\nThe Kenriths' Royal Funeral Card Style\nLeyline Immersion Card Style\nTolarian Contempt Card Style\nNahiri's Resolve Card Style\nFeast of the Victorious Dead Card Style\nTraining Grounds Card Style",
+        "translation": "Spark Rupture Card Style\nDeification Card Style\nThe Kenriths' Royal Funeral Card Style\nLeyline Immersion Card Style\nTolarian Contempt Card Style\nNahiri's Resolve Card Style\nFeast of the Victorious Dead Card Style\nTraining Grounds Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_MAT_Styles3_Name": {
+        "oracleText": "The Aftermath: Journey's End",
+        "translation": "The Aftermath: Journey's End"
+    },
+    "MainNav/Store/Bundles/Bundle_MAT_Styles4_Desc": {
+        "oracleText": "Jolrael, Voice of Zhalfir Card Style\nNiv-Mizzet, Supreme Card Style\nRocco, Street Chef Card Style\nJirina, Dauntless General Card Style\nSigarda, Font of Blessings Card Style\nUrborg Scavengers Card Style\nVesuvan Drifter Card Style\nCoppercoat Vanguard Card Style\nMarkov Baron Card Style",
+        "translation": "Jolrael, Voice of Zhalfir Card Style\nNiv-Mizzet, Supreme Card Style\nRocco, Street Chef Card Style\nJirina, Dauntless General Card Style\nSigarda, Font of Blessings Card Style\nUrborg Scavengers Card Style\nVesuvan Drifter Card Style\nCoppercoat Vanguard Card Style\nMarkov Baron Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_MAT_Styles4_Name": {
+        "oracleText": "The Aftermath: Resolved",
+        "translation": "The Aftermath: Resolved"
+    },
+    "MainNav/Store/Bundles/Bundle_MAT_Styles5_Desc": {
+        "oracleText": "Danitha, New Benalia's Light Card Style\nTazri, Stalwart Survivor Card Style\nPia Nalaar, Consul of Revival Card Style\nArni Metalbrow Card Style\nPlargg and Nassari Card Style\nMetropolis Reformer Card Style\nDeath-Rattle Oni Card Style\nAyara's Oathsworn Card Style\nKolaghan Warmonger Card Style",
+        "translation": "Danitha, New Benalia's Light Card Style\nTazri, Stalwart Survivor Card Style\nPia Nalaar, Consul of Revival Card Style\nArni Metalbrow Card Style\nPlargg and Nassari Card Style\nMetropolis Reformer Card Style\nDeath-Rattle Oni Card Style\nAyara's Oathsworn Card Style\nKolaghan Warmonger Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_MAT_Styles5_Name": {
+        "oracleText": "The Aftermath: Reforged",
+        "translation": "The Aftermath: Reforged"
+    },
+    "MainNav/Store/Bundles/Bundle_MAT_Styles6_Desc": {
+        "oracleText": "Animist's Might Card Style\nOpen the Way Card Style\nUndercity Upheaval Card Style\nRebuild the City Card Style\nReckless Handling Card Style\nCosmic Rebirth Card Style\nCampus Renovation Card Style\nBlot Out Card Style\nDrannith Ruins Card Style",
+        "translation": "Animist's Might Card Style\nOpen the Way Card Style\nUndercity Upheaval Card Style\nRebuild the City Card Style\nReckless Handling Card Style\nCosmic Rebirth Card Style\nCampus Renovation Card Style\nBlot Out Card Style\nDrannith Ruins Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_MAT_Styles6_Name": {
+        "oracleText": "The Aftermath: New Beginnings",
+        "translation": "The Aftermath: New Beginnings"
+    },
     "MainNav/Store/Bundles/Bundle_MID_ENLands_Desc": {
         "oracleText": "Eternal Night Full Art Basic Plains\nEternal Night Full Art Basic Plains\nEternal Night Full Art Basic Island\nEternal Night Full Art Basic Island\nEternal Night Full Art Basic Swamp\nEternal Night Full Art Basic Swamp\nEternal Night Full Art Basic Mountain\nEternal Night Full Art Basic Mountain\nEternal Night Full Art Basic Forest\nEternal Night Full Art Basic Forest",
         "translation": "永恒之夜大画基本平原\n永恒之夜大画基本平原\n永恒之夜大画基本海岛\n永恒之夜大画基本海岛\n永恒之夜大画基本沼泽\n永恒之夜大画基本沼泽\n永恒之夜大画基本山脉\n永恒之夜大画基本山脉\n永恒之夜大画基本树林\n永恒之夜大画基本树林"
@@ -41415,6 +41855,14 @@
         "oracleText": "Secret Lair: The '90s Binder Experience",
         "translation": "Secret Lair: The '90s Binder Experience"
     },
+    "MainNav/Store/Bundles/Bundle_SL_AlaynaDanner_Desc": {
+        "oracleText": "Sunblast Angel Sleeve\nLinvala, Keeper of Silence Sleeve\nSeraph Sanctuary Sleeve\nEmeria, the Sky Ruin Sleeve",
+        "translation": "Sunblast Angel Sleeve\nLinvala, Keeper of Silence Sleeve\nSeraph Sanctuary Sleeve\nEmeria, the Sky Ruin Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_SL_AlaynaDanner_Name": {
+        "oracleText": "Secret Lair: Alayna Danner Artist Series Sleeves",
+        "translation": "Secret Lair: Alayna Danner Artist Series Sleeves"
+    },
     "MainNav/Store/Bundles/Bundle_SL_CitySleeves_Desc": {
         "oracleText": "Sakashima the Impostor Secret Lair Sleeve\nMassacre Girl Secret Lair Sleeve\nAzusa, Lost but Seeking Secret Lair Sleeve\nTeysa Karlov Secret Lair Sleeve\nParadise Mantle Secret Lair Sleeve",
         "translation": "冒名客逆岛 秘室珍品牌套\n杀戮女郎 秘室珍品牌套\n云游者梓纱 秘室珍品牌套\n泰莎卡洛夫 秘室珍品牌套\n天堂羽披风 秘室珍品牌套"
@@ -41422,6 +41870,14 @@
     "MainNav/Store/Bundles/Bundle_SL_CitySleeves_Name": {
         "oracleText": "Secret Lair: City Styles",
         "translation": "秘室珍品：城市样式"
+    },
+    "MainNav/Store/Bundles/Bundle_SL_CoolOcean_Desc": {
+        "oracleText": "Llawan, Cephalid Empress Sleeve\nThassa's Oracle Sleeve\nThassa, Deep-Dwelling Sleeve\nMaster of Waves Sleeve",
+        "translation": "Llawan, Cephalid Empress Sleeve\nThassa's Oracle Sleeve\nThassa, Deep-Dwelling Sleeve\nMaster of Waves Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_SL_CoolOcean_Name": {
+        "oracleText": "Secret Lair: Cool Ocean Breeze Sleeves",
+        "translation": "Secret Lair: Cool Ocean Breeze Sleeves"
     },
     "MainNav/Store/Bundles/Bundle_SL_DraculaLands_Desc": {
         "oracleText": "Dracula Full Art Basic Plains\nDracula Full Art Basic Island\nDracula Full Art Basic Swamp\nDracula Full Art Basic Mountain\nDracula Full Art Basic Forest",
@@ -41447,6 +41903,14 @@
         "oracleText": "KOZYNDAN Basic Lands",
         "translation": "KOZYNDAN基本地"
     },
+    "MainNav/Store/Bundles/Bundle_SL_MOM_Desc": {
+        "oracleText": "Olivia Voldaren Sleeve\nHigure, the Still Wind Sleeve\nUtvara Hellkite Sleeve\nKogla Sleeve\nNyxborn Ancient Sleeve",
+        "translation": "Olivia Voldaren Sleeve\nHigure, the Still Wind Sleeve\nUtvara Hellkite Sleeve\nKogla Sleeve\nNyxborn Ancient Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_SL_MOM_Name": {
+        "oracleText": "Secret Lair: March of the Machine Showcase Sleeves",
+        "translation": "Secret Lair: March of the Machine Showcase Sleeves"
+    },
     "MainNav/Store/Bundles/Bundle_SL_MeaningOfLife_Sleeves_Desc": {
         "oracleText": "Forced Fruition Sleeve\nFuture Sight Sleeve\nMental Misstep Sleeve\nMind's Dilation Sleeve\nWell of Lost Dreams Sleeve",
         "translation": "Forced Fruition Sleeve\nFuture Sight Sleeve\nMental Misstep Sleeve\nMind's Dilation Sleeve\nWell of Lost Dreams Sleeve"
@@ -41462,6 +41926,14 @@
     "MainNav/Store/Bundles/Bundle_SL_Milk_Sleeves_Name": {
         "oracleText": "Secret Lair: Just Add Milk Sleeves",
         "translation": "Secret Lair: Just Add Milk Sleeves"
+    },
+    "MainNav/Store/Bundles/Bundle_SL_NatureAdorable_Desc": {
+        "oracleText": "Nature's Will Sleeve\nYeva, Nature's Herald Sleeve\nJoraga Treespeaker Sleeve\nUlvenwald Tracker Sleeve",
+        "translation": "Nature's Will Sleeve\nYeva, Nature's Herald Sleeve\nJoraga Treespeaker Sleeve\nUlvenwald Tracker Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_SL_NatureAdorable_Name": {
+        "oracleText": "Secret Lair: Nature is Adorable Sleeves",
+        "translation": "Secret Lair: Nature is Adorable Sleeves"
     },
     "MainNav/Store/Bundles/Bundle_SL_PixelSnowLands_Desc": {
         "oracleText": "Snow-Covered Plains (pixel art)\nSnow-Covered Island (pixel art)\nSnow-Covered Swamp (pixel art)\nSnow-Covered Mountain (pixel art)\nSnow-Covered Forest (pixel art)",
@@ -42079,13 +42551,17 @@
         "oracleText": "Life and Death Showcase Bundle",
         "translation": "生与死展览套装"
     },
+    "MainNav/Store/Bundles/ExemplarStoreContent_Name": {
+        "oracleText": "Exemplar Store Content",
+        "translation": "Exemplar Store Content"
+    },
     "MainNav/Store/Bundles/PreOrder_AvailableDate": {
-        "oracleText": "Available on April 18, 2023",
-        "translation": "Available on April 18, 2023"
+        "oracleText": "Available on May 30, 2023",
+        "translation": "Available on May 30, 2023"
     },
     "MainNav/Store/Bundles/PreOrder_Available_Purchasable": {
-        "oracleText": "Available for purchase until April 18, 2023",
-        "translation": "Available for purchase until April 18, 2023"
+        "oracleText": "Available for purchase until May 30, 2023",
+        "translation": "Available for purchase until May 30, 2023"
     },
     "MainNav/Store/Bundles/Voucher_Available_CLBPreRelease": {
         "oracleText": "Available on July 7, 2022",
@@ -44340,8 +44816,8 @@
         "translation": "A Phyrexianized Nahiri has returned to Zendikar to use the Skyclaves to convert the entire plane. It's now up to Zendikar's residents, and Zendikar's Roil to stop her..."
     },
     "Match/QueueTips/Queue_Tip_176s": {
-        "oracleText": "xe・ťəəmøn・'štžɒɒðuʁ lučquɬul,・loxuφ čǩaaqøq\\nφlφyrxvrtolkktɒmt・ɢløǆfam.・^'elš norn.",
-        "translation": "xe・ťəəmøn・'štžɒɒðuʁ lučquɬul,・loxuφ čǩaaqøq\\nφlφyrxvrtolkktɒmt・ɢløǆfam.・^'elš norn."
+        "oracleText": "\"xe・ťəəmøn・'štžɒɒðuʁ・lučquɬul,loxuφ\nčǩaaqøq・φlφyrxvrtolkktɒmt\nɢløǆfam.,^'elš・norn.",
+        "translation": "\"xe・ťəəmøn・'štžɒɒðuʁ・lučquɬul,loxuφ\nčǩaaqøq・φlφyrxvrtolkktɒmt\nɢløǆfam.,^'elš・norn."
     },
     "Match/QueueTips/Queue_Tip_177s": {
         "oracleText": "^ǩaπa・'əţə''jnaķm・χtønu.",
