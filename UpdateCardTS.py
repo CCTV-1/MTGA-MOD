@@ -33,6 +33,7 @@ if __name__ == "__main__":
 
     TSInfo = TSFile.loadTSInfo(
         '{0}/CardTS.json'.format(Config.RESOUCE_DIR), TSFile.TSFileType.JSON)
+    TSChangeInfo = collections.OrderedDict()
     DBDir = pathlib.Path('{0}/Downloads/Raw/'.format(Config.WINDOWS_DATA_DIR))
     DBPath = ''
     for assetFile in DBDir.iterdir():
@@ -72,8 +73,12 @@ if __name__ == "__main__":
             if not TSInfo.__contains__(strKey):
                 TSInfo[strKey] = {'oracleText': rawValue['enUS'],
                                   'translation': rawValue['enUS']}
+                TSChangeInfo[strKey] = {'oracleText': rawValue['enUS'],
+                                  'translation': rawValue['enUS']}
             elif TSInfo[strKey]['oracleText'] != rawValue['enUS']:
                 TSInfo[strKey] = {'oracleText': rawValue['enUS'],
+                                  'translation': rawValue['enUS']}
+                TSChangeInfo[strKey] = {'oracleText': rawValue['enUS'],
                                   'translation': rawValue['enUS']}
 
             rawValue['jaJP'] = TSInfo[strKey]['translation']
@@ -105,3 +110,4 @@ if __name__ == "__main__":
         sortTS[i] = TSInfo[i]
 
     TSFile.SaveTSInfo(sortTS, 'CardTS', TSFile.TSFileType.JSON)
+    TSFile.SaveTSInfo(TSChangeInfo, 'CardTSChange', TSFile.TSFileType.JSON)

@@ -20,6 +20,7 @@ if __name__ == "__main__":
 
     TSInfo = TSFile.loadTSInfo(
         '{0}/UITS.json'.format(Config.RESOUCE_DIR), TSFile.TSFileType.JSON)
+    TSChangeInfo = collections.OrderedDict()
     RawData = collections.OrderedDict()
     DBDir = pathlib.Path('{0}/Downloads/Raw/'.format(Config.WINDOWS_DATA_DIR))
     DBPath = ''
@@ -53,9 +54,13 @@ if __name__ == "__main__":
             if not TSInfo.__contains__(rawKey):
                 TSInfo[rawKey] = {'oracleText': rawValue['enUS'],
                                   'translation': rawValue['enUS']}
+                TSChangeInfo[rawKey] = {'oracleText': rawValue['enUS'],
+                                  'translation': rawValue['enUS']}
                 rawValue['jaJP'] = rawValue['enUS']
             elif TSInfo[rawKey]['oracleText'] != rawValue['enUS']:
                 TSInfo[rawKey] = {'oracleText': rawValue['enUS'],
+                                  'translation': rawValue['enUS']}
+                TSChangeInfo[rawKey] = {'oracleText': rawValue['enUS'],
                                   'translation': rawValue['enUS']}
                 rawValue['jaJP'] = rawValue['enUS']
             else:
@@ -133,3 +138,4 @@ if __name__ == "__main__":
     for i in sorted(TSInfo):
         sortTS[i] = TSInfo[i]
     TSFile.SaveTSInfo(sortTS, 'UITS', TSFile.TSFileType.JSON)
+    TSFile.SaveTSInfo(TSChangeInfo, 'UITSChange', TSFile.TSFileType.JSON)
