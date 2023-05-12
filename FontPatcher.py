@@ -19,7 +19,7 @@ WINDOWS_FONT_RULES: dict[str:list] = {
     '{0}/Downloads/AssetBundle/Bucket_Card.FieldFont_0_b3f2ed3b-413bfb56f3485872c9b23d4d6741351d.mtga'.format(Config.WINDOWS_DATA_DIR): [
         'Font_Default', 'Font_Title', 'Font_Default_JP', 'Font_Title_JP'
     ],
-    '{0}/Downloads/AssetBundle/Fonts_74cf022e-dc23b8680cad19bff8d0b816951b9a4c.mtga'.format(Config.WINDOWS_DATA_DIR): [
+    '{0}/Downloads/AssetBundle/Fonts_7b44ef66-5ebc819f0eec8883e474c58f77ff73fb.mtga'.format(Config.WINDOWS_DATA_DIR): [
         'Font_Default_USERNAME', 'Font_Title_USERNAME'
     ]
 }
@@ -28,11 +28,11 @@ WINDOWS_MATERIAL_RULES: dict[str:list] = {
     '{0}/resources.assets'.format(Config.WINDOWS_DATA_DIR): [
         'Font_Title - DropShadow', 'Font_Title_JP - DropShadow', 'Font_Default - DropShadow'
     ],
-    '{0}/Downloads/AssetBundle/Bucket_Card.FontMaterialSettings_0_4f215c05-ad748795afad20d6bd21bd987887f31b.mtga'.format(
+    '{0}/Downloads/AssetBundle/Bucket_Card.FontMaterialSettings_0_87d6503d-131f1cc2b58e25523a8c46d74b5297bc.mtga'.format(
         Config.WINDOWS_DATA_DIR): [
             'Font_Title - DropShadow', 'Font_Title_JP - DropShadow'
     ],
-    '{0}/Downloads/AssetBundle/Fonts_74cf022e-dc23b8680cad19bff8d0b816951b9a4c.mtga'.format(
+    '{0}/Downloads/AssetBundle/Fonts_7b44ef66-5ebc819f0eec8883e474c58f77ff73fb.mtga'.format(
         Config.WINDOWS_DATA_DIR): [
             'Font_Default - DropShadow'
     ]
@@ -48,7 +48,7 @@ MACOS_FONT_RULES: dict[str:list] = {
     '{0}/Downloads/AssetBundle/Bucket_Card.FieldFont_0_ff4d82a5-413bfb56f3485872c9b23d4d6741351d.mtga'.format(Config.MACOS_DATA_DIR): [
         'Font_Default', 'Font_Title', 'Font_Default_JP', 'Font_Title_JP'
     ],
-    '{0}/Downloads/AssetBundle/Fonts_c86d2478-dc23b8680cad19bff8d0b816951b9a4c.mtga'.format(Config.MACOS_DATA_DIR): [
+    '{0}/Downloads/AssetBundle/Fonts_9a23651f-5ebc819f0eec8883e474c58f77ff73fb.mtga'.format(Config.MACOS_DATA_DIR): [
         'Font_Default_USERNAME', 'Font_Title_USERNAME'
     ]
 }
@@ -57,11 +57,11 @@ MACOS_MATERIAL_RULES: dict[str:list] = {
     '{0}/resources.assets'.format(Config.MACOS_RES_DIR): [
         'Font_Title - DropShadow', 'Font_Title_JP - DropShadow', 'Font_Default - DropShadow'
     ],
-    '{0}/Downloads/AssetBundle/Bucket_Card.FontMaterialSettings_0_8b0503b0-ad748795afad20d6bd21bd987887f31b.mtga'.format(
+    '{0}/Downloads/AssetBundle/Bucket_Card.FontMaterialSettings_0_3d861a2d-131f1cc2b58e25523a8c46d74b5297bc.mtga'.format(
         Config.MACOS_DATA_DIR): [
             'Font_Title - DropShadow', 'Font_Title_JP - DropShadow'
     ],
-    '{0}/Downloads/AssetBundle/Fonts_c86d2478-dc23b8680cad19bff8d0b816951b9a4c.mtga'.format(
+    '{0}/Downloads/AssetBundle/Fonts_9a23651f-5ebc819f0eec8883e474c58f77ff73fb.mtga'.format(
         Config.MACOS_DATA_DIR): [
             'Font_Default - DropShadow'
     ]
@@ -84,7 +84,7 @@ ANDROID_FONT_RULES: dict[str:list] = {
     '{0}/AssetBundle/Bucket_Card.FieldFont_0_72085a10-413bfb56f3485872c9b23d4d6741351d.mtga'.format(Config.ANDROID_DATA_DIR): [
         'Font_Default', 'Font_Title', 'Font_Default_JP', 'Font_Title_JP'
     ],
-    '{0}/AssetBundle/Fonts_1523c475-dc23b8680cad19bff8d0b816951b9a4c.mtga'.format(Config.ANDROID_DATA_DIR): [
+    '{0}/AssetBundle/Fonts_73d11ef7-5ebc819f0eec8883e474c58f77ff73fb.mtga'.format(Config.ANDROID_DATA_DIR): [
         'Font_Title_USERNAME', 'Font_Default_USERNAME'
     ]
 }
@@ -100,11 +100,11 @@ ANDROID_MATERIAL_RULES: dict[str:list] = {
     '{0}/351f23bf48c7814428089374c54eefa9'.format(Config.ANDROID_DATA_DIR): [
         'Font_Default - DropShadow'
     ],
-    '{0}/AssetBundle/Bucket_Card.FontMaterialSettings_0_c8e6c923-ad748795afad20d6bd21bd987887f31b.mtga'.format(
+    '{0}/AssetBundle/Bucket_Card.FontMaterialSettings_0_e29921e2-131f1cc2b58e25523a8c46d74b5297bc.mtga'.format(
         Config.ANDROID_DATA_DIR): [
             'Font_Title - DropShadow', 'Font_Title_JP - DropShadow'
     ],
-    '{0}/AssetBundle/Fonts_1523c475-dc23b8680cad19bff8d0b816951b9a4c.mtga'.format(
+    '{0}/AssetBundle/Fonts_73d11ef7-5ebc819f0eec8883e474c58f77ff73fb.mtga'.format(
         Config.ANDROID_DATA_DIR): [
             'Font_Default - DropShadow'
     ]
