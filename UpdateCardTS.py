@@ -106,8 +106,11 @@ if __name__ == "__main__":
         cardDBConnect.commit()
 
     sortTS = collections.OrderedDict()
+    sortChanges = collections.OrderedDict()
     for i in sorted(TSInfo, key=lambda x: int(x)):
         sortTS[i] = TSInfo[i]
+    for i in sorted(TSChangeInfo, key=lambda x: int(x)):
+        sortChanges[i] = TSChangeInfo[i]
 
     TSFile.SaveTSInfo(sortTS, 'CardTS', TSFile.TSFileType.JSON)
-    TSFile.SaveTSInfo(TSChangeInfo, 'CardTSChange', TSFile.TSFileType.JSON)
+    TSFile.SaveTSInfo(sortChanges, 'CardTSChange', TSFile.TSFileType.JSON)

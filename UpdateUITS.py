@@ -135,7 +135,10 @@ if __name__ == "__main__":
         f.write(assetEnv.file.save())
 
     sortTS = collections.OrderedDict()
+    sortChanges = collections.OrderedDict()
     for i in sorted(TSInfo):
         sortTS[i] = TSInfo[i]
+    for i in sorted(TSChangeInfo):
+        sortChanges[i] = TSChangeInfo[i]
     TSFile.SaveTSInfo(sortTS, 'UITS', TSFile.TSFileType.JSON)
-    TSFile.SaveTSInfo(TSChangeInfo, 'UITSChange', TSFile.TSFileType.JSON)
+    TSFile.SaveTSInfo(sortChanges, 'UITSChange', TSFile.TSFileType.JSON)
