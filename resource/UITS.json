@@ -3,6 +3,14 @@
         "oracleText": "When two creatures fight each deals noncombat damage equal to its power to the other.",
         "translation": "两个生物各向对方造成等同于本身力量的伤害。"
     },
+    "AbilityHanger/AbilityType/Goad_Body": {
+        "oracleText": "Until your next turn, a goaded creature attacks each combat if able. In games with more than two players, it attacks a player other than you if able.",
+        "translation": "Until your next turn, a goaded creature attacks each combat if able. In games with more than two players, it attacks a player other than you if able."
+    },
+    "AbilityHanger/AbilityType/Goad_Title": {
+        "oracleText": "Goad",
+        "translation": "Goad"
+    },
     "AbilityHanger/AbilityType/WinsTheFight_Body": {
         "oracleText": "If two creatures fight, each deals noncombat damage equal to its power to the other. A creature wins the fight if it is the only one that survives this damage.",
         "translation": "如果两个生物互斗，它们各向对方造成等同于本身力量的非战斗伤害。如果仅有一个生物存活，该生物赢得互斗。"
@@ -287,6 +295,14 @@
         "oracleText": "If your starting deck meets the companion's restriction you may choose it to be your companion. Once per game you may pay {o3} any time you could cast a sorcery to put your chosen companion into your hand.",
         "translation": "如果你的起始套牌满足行侣条件，你可以将它选为你的行侣。每盘游戏限一次，于法术时机，你可以支付{o3}来将它置于你手上。"
     },
+    "AbilityHanger/Designation/RingBearer_Body": {
+        "oracleText": "This permanent is your Ring-bearer.",
+        "translation": "This permanent is your Ring-bearer."
+    },
+    "AbilityHanger/Designation/RingBearer_Title": {
+        "oracleText": "Ring-Bearer",
+        "translation": "Ring-Bearer"
+    },
     "AbilityHanger/Keyword/Accept_Body": {
         "oracleText": "Choose one of three random offers, then one of three random conditions.",
         "translation": "选择三个随机提议中的一个，然后选择三个随机条件中的一个。（8选3）"
@@ -388,44 +404,84 @@
         "translation": "在一个由你操控的军队上放置一个+1/+1指示物。如果你未操控军队，则先派出一个0/0黑色灵俑／军队衍生生物。"
     },
     "AbilityHanger/Keyword/Amass1_Title": {
-        "oracleText": "Amass 1",
-        "translation": "囤兵1"
+        "oracleText": "Amass Zombies 1",
+        "translation": "Amass Zombies 1"
     },
     "AbilityHanger/Keyword/Amass2": {
         "oracleText": "Put two +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.",
         "translation": "在一个由你操控的军队上放置两个+1/+1指示物。如果你未操控军队，则先派出一个0/0黑色灵俑／军队衍生生物。"
     },
     "AbilityHanger/Keyword/Amass2_Title": {
-        "oracleText": "Amass 2",
-        "translation": "囤兵2"
+        "oracleText": "Amass Zombies 2",
+        "translation": "Amass Zombies 2"
     },
     "AbilityHanger/Keyword/Amass3": {
         "oracleText": "Put three +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.",
         "translation": "在一个由你操控的军队上放置三个+1/+1指示物。如果你未操控军队，则先派出一个0/0黑色灵俑／军队衍生生物。"
     },
     "AbilityHanger/Keyword/Amass3_Title": {
-        "oracleText": "Amass 3",
-        "translation": "囤兵3"
+        "oracleText": "Amass Zombies 3",
+        "translation": "Amass Zombies 3"
     },
     "AbilityHanger/Keyword/Amass4": {
         "oracleText": "Put four +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.",
         "translation": "在一个由你操控的军队上放置四个+1/+1指示物。如果你未操控军队，则先派出一个0/0黑色灵俑／军队衍生生物。"
     },
     "AbilityHanger/Keyword/Amass4_Title": {
-        "oracleText": "Amass 4",
-        "translation": "囤兵4"
+        "oracleText": "Amass Zombies 4",
+        "translation": "Amass Zombies 4"
+    },
+    "AbilityHanger/Keyword/AmassOrcs1": {
+        "oracleText": "Put a +1/+1 counter on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.",
+        "translation": "Put a +1/+1 counter on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first."
+    },
+    "AbilityHanger/Keyword/AmassOrcs1_Title": {
+        "oracleText": "Amass Orcs 1",
+        "translation": "Amass Orcs 1"
+    },
+    "AbilityHanger/Keyword/AmassOrcs2": {
+        "oracleText": "Put two +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.",
+        "translation": "Put two +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first."
+    },
+    "AbilityHanger/Keyword/AmassOrcs2_Title": {
+        "oracleText": "Amass Orcs 2",
+        "translation": "Amass Orcs 2"
+    },
+    "AbilityHanger/Keyword/AmassOrcs3": {
+        "oracleText": "Put three +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.",
+        "translation": "Put three +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first."
+    },
+    "AbilityHanger/Keyword/AmassOrcs3_Title": {
+        "oracleText": "Amass Orcs 3",
+        "translation": "Amass Orcs 3"
+    },
+    "AbilityHanger/Keyword/AmassOrcs4": {
+        "oracleText": "Put four +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.",
+        "translation": "Put four +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first."
+    },
+    "AbilityHanger/Keyword/AmassOrcs4_Title": {
+        "oracleText": "Amass Orcs 4",
+        "translation": "Amass Orcs 4"
+    },
+    "AbilityHanger/Keyword/AmassOrcsX": {
+        "oracleText": "Put X +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.",
+        "translation": "Put X +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first."
+    },
+    "AbilityHanger/Keyword/AmassOrcsX_Title": {
+        "oracleText": "Amass Orcs X",
+        "translation": "Amass Orcs X"
     },
     "AbilityHanger/Keyword/AmassX": {
         "oracleText": "Put X +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.",
         "translation": "在一个由你操控的军队上放置X个+1/+1指示物。如果你未操控军队，则先派出一个0/0黑色灵俑／军队衍生生物。"
     },
     "AbilityHanger/Keyword/AmassX_Title": {
-        "oracleText": "Amass X",
-        "translation": "囤兵X"
+        "oracleText": "Amass Zombies X",
+        "translation": "Amass Zombies X"
     },
     "AbilityHanger/Keyword/Amass_Title": {
-        "oracleText": "Amass",
-        "translation": "囤兵"
+        "oracleText": "Amass Zombies",
+        "translation": "Amass Zombies"
     },
     "AbilityHanger/Keyword/Backup1_Body": {
         "oracleText": "When this creature enters the battlefield, put a +1/+1 counter on target creature. If that's another creature, it also gains the abilities printed below this one until end of turn.",
@@ -1043,6 +1099,14 @@
         "oracleText": "Living Weapon",
         "translation": "活化武器"
     },
+    "AbilityHanger/Keyword/LongListEnts_Body": {
+        "oracleText": "When you cast your next creature spell of that type this turn, that creature enters the battlefield with an additional +1/+1 counter on it. {linkedInfoItems}",
+        "translation": "When you cast your next creature spell of that type this turn, that creature enters the battlefield with an additional +1/+1 counter on it. {linkedInfoItems}"
+    },
+    "AbilityHanger/Keyword/LongListEnts_Title": {
+        "oracleText": "Noted Creature Types",
+        "translation": "Noted Creature Types"
+    },
     "AbilityHanger/Keyword/Madness": {
         "oracleText": "If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.",
         "translation": "若你将弃掉此牌，则改为将其弃到放逐区，若你如此作，可以通过支付其疯魔费用来施放之，若你未以此法施放则将此牌置入坟墓场。"
@@ -1190,6 +1254,14 @@
     "AbilityHanger/Keyword/ProtectionFromChosenCard": {
         "oracleText": "You can't be targeted, dealt damage, or enchanted by anything with the chosen name.",
         "translation": "你不能被选定名字的任何东西指定为目标，造成伤害或结附。"
+    },
+    "AbilityHanger/Keyword/ProtectionFromChosenCardTypeBody": {
+        "oracleText": "A player or permanent with protection from a card type can't be blocked, targeted, dealt damage, enchanted, or equipped by anything with that type.",
+        "translation": "A player or permanent with protection from a card type can't be blocked, targeted, dealt damage, enchanted, or equipped by anything with that type."
+    },
+    "AbilityHanger/Keyword/ProtectionFromChosenCardTypeTitle": {
+        "oracleText": "Protection from a Card Type",
+        "translation": "Protection from a Card Type"
     },
     "AbilityHanger/Keyword/ProtectionFromChosenNumber": {
         "oracleText": "This permanent can't be blocked, targeted, dealt damage, enchanted, or equipped by anything with a mana value other than the chosen number.",
@@ -1384,8 +1456,8 @@
         "translation": "如果你从手上施放此咒语，于它结算时将之放逐。在你的下一个维持开始时，你可以从放逐区施放此牌，且不需支付其法术力费用。"
     },
     "AbilityHanger/Keyword/Rebound_Referenced_Body": {
-        "oracleText": "If you cast a spell with rebound from your hand hand, exile it as it resolves. At the beginning of your next upkeep, you may cast that card from exile without paying its mana cost.",
-        "translation": "如果具有弹回异能的咒语是从你手上施放，于它结算时将之放逐。在你的下一个维持开始时，你可以从放逐区施放此牌，且不需支付其法术力费用。"
+        "oracleText": "If you cast a spell with rebound from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast that card from exile without paying its mana cost.",
+        "translation": "If you cast a spell with rebound from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast that card from exile without paying its mana cost."
     },
     "AbilityHanger/Keyword/Reconfigure_Body": {
         "oracleText": "{abilityCost}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.",
@@ -1574,6 +1646,14 @@
     "AbilityHanger/Keyword/Swampwalk": {
         "oracleText": "This creature can't be blocked as long as defending player controls a Swamp.",
         "translation": "只要防御牌手操控沼泽，此生物就不能被阻挡。"
+    },
+    "AbilityHanger/Keyword/TheRingTemptsYou_Body": {
+        "oracleText": "As the Ring tempts you, you get an emblem named The Ring if you don't have one. Then your emblem gains its next ability and you choose a creature you control to become or remain your Ring-bearer.",
+        "translation": "As the Ring tempts you, you get an emblem named The Ring if you don't have one. Then your emblem gains its next ability and you choose a creature you control to become or remain your Ring-bearer."
+    },
+    "AbilityHanger/Keyword/TheRingTemptsYou_Title": {
+        "oracleText": "The Ring Tempts You",
+        "translation": "The Ring Tempts You"
     },
     "AbilityHanger/Keyword/Training_Body": {
         "oracleText": "Whenever this creature attacks with another creature with greater power, put a +1/+1 counter on this creature.",
@@ -2098,6 +2178,14 @@
     "AbilityHanger/SpecialHangers/InformationVisibility/Public_Header": {
         "oracleText": "Public Information",
         "translation": "公开信息"
+    },
+    "AbilityHanger/SpecialHangers/LegendaryInstant/Body": {
+        "oracleText": "You may cast a legendary instant only if you control a legendary creature or planeswalker.",
+        "translation": "You may cast a legendary instant only if you control a legendary creature or planeswalker."
+    },
+    "AbilityHanger/SpecialHangers/LegendaryInstant/Header": {
+        "oracleText": "Legendary Instant",
+        "translation": "Legendary Instant"
     },
     "AbilityHanger/SpecialHangers/LegendarySorcery/Body": {
         "oracleText": "You can cast a legendary sorcery only if you control a legendary creature or planeswalker.",
@@ -2927,6 +3015,58 @@
         "oracleText": "4 copies of a rare from <i>Kaldheim</i> Theme Booster.",
         "translation": "4 份稀有<i>凯德海姆</i>主题补充包。"
     },
+    "BattlePass/Rewards/LTR_Level1": {
+        "oracleText": "Gandalf Avatar, Summer Ent Pet, and Frodo the Ringbearer Sleeve",
+        "translation": "Gandalf Avatar, Summer Ent Pet, and Frodo the Ringbearer Sleeve"
+    },
+    "BattlePass/Rewards/LTR_Level1_Alt": {
+        "oracleText": "Gandalf Avatar, Summer Ent Companion, and Frodo the Ringbearer Sleeve",
+        "translation": "Gandalf Avatar, Summer Ent Companion, and Frodo the Ringbearer Sleeve"
+    },
+    "BattlePass/Rewards/LTR_Pet2_And_Orb": {
+        "oracleText": "1 Set Mastery Orb & Autumn Ent Pet",
+        "translation": "1 Set Mastery Orb & Autumn Ent Pet"
+    },
+    "BattlePass/Rewards/LTR_Pet2_And_Orb_Alt": {
+        "oracleText": "1 Set Mastery Orb & Autumn Ent Companion",
+        "translation": "1 Set Mastery Orb & Autumn Ent Companion"
+    },
+    "BattlePass/Rewards/LTR_Pet3_And_Orb": {
+        "oracleText": "1 Set Mastery Orb & Winter Ent Pet",
+        "translation": "1 Set Mastery Orb & Winter Ent Pet"
+    },
+    "BattlePass/Rewards/LTR_Pet3_And_Orb_Alt": {
+        "oracleText": "1 Set Mastery Orb & Winter Ent Companion",
+        "translation": "1 Set Mastery Orb & Winter Ent Companion"
+    },
+    "BattlePass/Rewards/LTR_Pet_Hover": {
+        "oracleText": "Winter Ent: Mastery Pass Level 60",
+        "translation": "Winter Ent: Mastery Pass Level 60"
+    },
+    "BattlePass/Rewards/LTR_Web_Avatar_Aragorn": {
+        "oracleText": "Aragorn Avatar",
+        "translation": "Aragorn Avatar"
+    },
+    "BattlePass/Rewards/LTR_Web_Avatar_Eowyn": {
+        "oracleText": "Éowyn Avatar",
+        "translation": "Éowyn Avatar"
+    },
+    "BattlePass/Rewards/LTR_Web_Avatar_FrodoAndSam": {
+        "oracleText": "Frodo and Sam Avatar",
+        "translation": "Frodo and Sam Avatar"
+    },
+    "BattlePass/Rewards/LTR_Web_Avatar_Galadriel": {
+        "oracleText": "Galadriel Avatar",
+        "translation": "Galadriel Avatar"
+    },
+    "BattlePass/Rewards/LTR_Web_Avatar_Gollum": {
+        "oracleText": "Gollum Avatar",
+        "translation": "Gollum Avatar"
+    },
+    "BattlePass/Rewards/LTR_Web_Avatar_Legolas": {
+        "oracleText": "Legolas Avatar",
+        "translation": "Legolas Avatar"
+    },
     "BattlePass/Rewards/M20_Level_1": {
         "oracleText": "Earn an Avatar, M20 Chandra Sleeve, and Common Elemental Cat",
         "translation": "获得头像、M20茜卓牌套和普通元素灵猫"
@@ -3619,6 +3759,22 @@
         "oracleText": "Instant and sorcery cards in your graveyard: {quantity}",
         "translation": "你坟墓场中的法术和瞬间牌总数为：{quantity}"
     },
+    "Card/Textbox/RingBearer_Body_1": {
+        "oracleText": "As your Ring-bearer this is legendary and can't be blocked by creatures with greater power.",
+        "translation": "As your Ring-bearer this is legendary and can't be blocked by creatures with greater power."
+    },
+    "Card/Textbox/RingBearer_Body_2": {
+        "oracleText": "Whenever this attacks, draw a card, then discard a card.",
+        "translation": "Whenever this attacks, draw a card, then discard a card."
+    },
+    "Card/Textbox/RingBearer_Body_3": {
+        "oracleText": "Whenever this becomes blocked by a creature, that creature's controller sacrifices it at end of combat.",
+        "translation": "Whenever this becomes blocked by a creature, that creature's controller sacrifices it at end of combat."
+    },
+    "Card/Textbox/RingBearer_Body_4": {
+        "oracleText": "Whenever this deals combat damage to a player, each opponent loses 3 life.",
+        "translation": "Whenever this deals combat damage to a player, each opponent loses 3 life."
+    },
     "Card/TitleOverride/DavrielsCondition": {
         "oracleText": "Davriel's Condition",
         "translation": "达夫黎的条件"
@@ -3972,8 +4128,8 @@
         "translation": "<color #ED5922>While those are the 4 main constructed formats, on Arena, that's not all:"
     },
     "Codex/WaysToPlay/Formats/Constructed_Alchemy_A": {
-        "oracleText": "<indent=5%><color #E9E9F6><b>Alchemy</b><color #CCCCCC> is a rotating format similar to Standard except for one key difference: players can also play with digital cards not present in paper! This could be cards from Standard that have been \"rebalanced\" to allow for new strategies, or even entirely new cards released in each set's Alchemy drop. These cards do things on MTG Arena that aren't possible in paper and might have you approaching this format differently. That combined with our ability to balance cards that aren't seeing a lot of play (or too much play), make Alchemy an ever-changing format! But a great place to start would be 10 Starter Decks and adding in digital-first cards!",
-        "translation": "<indent=5%><color #E9E9F6><b>Alchemy</b><color #CCCCCC> is a rotating format similar to Standard except for one key difference: players can also play with digital cards not present in paper! This could be cards from Standard that have been \"rebalanced\" to allow for new strategies, or even entirely new cards released in each set's Alchemy drop. These cards do things on MTG Arena that aren't possible in paper and might have you approaching this format differently. That combined with our ability to balance cards that aren't seeing a lot of play (or too much play), make Alchemy an ever-changing format! But a great place to start would be 10 Starter Decks and adding in digital-first cards!"
+        "oracleText": "<indent=5%><color #E9E9F6><b>Alchemy</b><color #CCCCCC> is a rotating format similar to Standard except for one main difference: players can also play with digital cards not present in paper! This could be cards from Standard that have been \"rebalanced\" to allow for new strategies, or even entirely new cards released in each set's Alchemy drop. These cards do things on MTG Arena that aren't possible in paper and might have you approaching this format differently. That combined with our ability to balance cards that aren't seeing a lot of play (or too much play), make Alchemy an ever-changing format!<br><br><color #ED5922>A change new to 2023 is that while Standard rotates every three years, Alchemy still rotates only every two years. <color #CCCCCC>When <i>Wilds of Eldraine</i> releases in September of 2023, Alchemy will rotate, thus making it a \"smaller\" format than Standard! A great place to start would be playing with any of the 10 Starter Decks and adding in any digital-first cards you may come across!",
+        "translation": "<indent=5%><color #E9E9F6><b>Alchemy</b><color #CCCCCC> is a rotating format similar to Standard except for one main difference: players can also play with digital cards not present in paper! This could be cards from Standard that have been \"rebalanced\" to allow for new strategies, or even entirely new cards released in each set's Alchemy drop. These cards do things on MTG Arena that aren't possible in paper and might have you approaching this format differently. That combined with our ability to balance cards that aren't seeing a lot of play (or too much play), make Alchemy an ever-changing format!<br><br><color #ED5922>A change new to 2023 is that while Standard rotates every three years, Alchemy still rotates only every two years. <color #CCCCCC>When <i>Wilds of Eldraine</i> releases in September of 2023, Alchemy will rotate, thus making it a \"smaller\" format than Standard! A great place to start would be playing with any of the 10 Starter Decks and adding in any digital-first cards you may come across!"
     },
     "Codex/WaysToPlay/Formats/Constructed_Alchemy_Header": {
         "oracleText": "<indent=5%>Alchemy",
@@ -4048,12 +4204,16 @@
         "translation": "预组套牌"
     },
     "Codex/WaysToPlay/Formats/Constructed_Standard_A": {
-        "oracleText": "<indent=5%><color #E9E9F6><b>Standard</b><color #CCCCCC> is Magic: The Gathering's flagship format and is the most widely sanctioned format at all levels of organized play. It's comprised of cards from sets released in the last year or two that haven't rotated out yet and is the same format whether you play it on MTG Arena, or on tabletop with paper cards. <color #E9E9F6><b>Rotation</b><color #CCCCCC> is an event usually every year where older cards \"rotate\" out and are no longer legal, while newer cards can still be played! That way the format is always \"fresh\" and new strategies and discoveries are always happening. On MTG Arena, we call it \"<color #E9E9F6><b>Renewal</b><color #CCCCCC>\" and celebrate this process with gifts and updates that come with the yearly Renewal Egg!",
-        "translation": "<indent=5%><color #E9E9F6><b>Standard</b><color #CCCCCC> is Magic: The Gathering's flagship format and is the most widely sanctioned format at all levels of organized play. It's comprised of cards from sets released in the last year or two that haven't rotated out yet and is the same format whether you play it on MTG Arena, or on tabletop with paper cards. <color #E9E9F6><b>Rotation</b><color #CCCCCC> is an event usually every year where older cards \"rotate\" out and are no longer legal, while newer cards can still be played! That way the format is always \"fresh\" and new strategies and discoveries are always happening. On MTG Arena, we call it \"<color #E9E9F6><b>Renewal</b><color #CCCCCC>\" and celebrate this process with gifts and updates that come with the yearly Renewal Egg!"
+        "oracleText": "<indent=5%><color #E9E9F6><b>Standard</b><color #CCCCCC> is Magic: The Gathering's flagship format and is the most widely sanctioned format at all levels of organized play. It's comprised of cards from most sets released in the last three years and is the same format whether you play it on MTG Arena, or on tabletop with paper cards. <color #E9E9F6><b>Rotation</b><color #CCCCCC> is an event usually every year where older cards \"rotate\" out and are no longer legal, while newer cards can still be played! That way the format is always \"fresh\" and new strategies and discoveries are always happening. On MTG Arena, we call it \"<color #E9E9F6><b>Renewal</b><color #CCCCCC>\" and celebrate this process with gifts and updates that come with the yearly Renewal Egg!<br><br><color #ED5922>Note: For 2023, Standard will not rotate, to allow cards in Standard to remain legal for the full three years. But the Renewal Egg will still make its grand appearance!",
+        "translation": "<indent=5%><color #E9E9F6><b>Standard</b><color #CCCCCC> is Magic: The Gathering's flagship format and is the most widely sanctioned format at all levels of organized play. It's comprised of cards from most sets released in the last three years and is the same format whether you play it on MTG Arena, or on tabletop with paper cards. <color #E9E9F6><b>Rotation</b><color #CCCCCC> is an event usually every year where older cards \"rotate\" out and are no longer legal, while newer cards can still be played! That way the format is always \"fresh\" and new strategies and discoveries are always happening. On MTG Arena, we call it \"<color #E9E9F6><b>Renewal</b><color #CCCCCC>\" and celebrate this process with gifts and updates that come with the yearly Renewal Egg!<br><br><color #ED5922>Note: For 2023, Standard will not rotate, to allow cards in Standard to remain legal for the full three years. But the Renewal Egg will still make its grand appearance!"
     },
     "Codex/WaysToPlay/Formats/Constructed_Standard_Header": {
         "oracleText": "<indent=5%>Standard",
         "translation": "<indent=5%>标准"
+    },
+    "Codex/WaysToPlay/Formats/JumpIn/JumpIn_A": {
+        "oracleText": "<indent=5%><color #E9E9F6><b>Jump In!</b><color #CCCCCC> is an easy to play format that's perfect for newly sparked Planeswalkers to...well...<color #E9E9F6><b>Jump into!</b><color #CCCCCC> In fact, you only need to make two choices before you get right into playing: selecting two different half-decks from a variety of cool themes. Combine them, and you'll have decks with names like <color #E9E9F6><b>\"High-Tech Knights\"</b><color #CCCCCC> or <color #E9E9F6><b>\"Oily Vampires\"</b><color #CCCCCC> ready to go!<br><br>You might have earned some <b>\"Jump-In Tokens\"</b><color #CCCCCC> during your journey and here's where you can cash them in! MTG Arena takes care of what lands to play, and while you'll even earn a prize for winning a game, you can play with your deck as many times as you'd like.<br><br>This format uses cards legal in <color #E9E9F6><b>Alchemy</b><color #CCCCCC>, and is a good first step toward playing other formats like <color #E9E9F6><b>Draft</b><color #CCCCCC> and <color #E9E9F6><b>Sealed</b><color #CCCCCC>. What are those? Keep playing and you're sure to find out!",
+        "translation": "<indent=5%><color #E9E9F6><b>Jump In!</b><color #CCCCCC> is an easy to play format that's perfect for newly sparked Planeswalkers to...well...<color #E9E9F6><b>Jump into!</b><color #CCCCCC> In fact, you only need to make two choices before you get right into playing: selecting two different half-decks from a variety of cool themes. Combine them, and you'll have decks with names like <color #E9E9F6><b>\"High-Tech Knights\"</b><color #CCCCCC> or <color #E9E9F6><b>\"Oily Vampires\"</b><color #CCCCCC> ready to go!<br><br>You might have earned some <b>\"Jump-In Tokens\"</b><color #CCCCCC> during your journey and here's where you can cash them in! MTG Arena takes care of what lands to play, and while you'll even earn a prize for winning a game, you can play with your deck as many times as you'd like.<br><br>This format uses cards legal in <color #E9E9F6><b>Alchemy</b><color #CCCCCC>, and is a good first step toward playing other formats like <color #E9E9F6><b>Draft</b><color #CCCCCC> and <color #E9E9F6><b>Sealed</b><color #CCCCCC>. What are those? Keep playing and you're sure to find out!"
     },
     "Codex/WaysToPlay/Formats/Limited_A": {
         "oracleText": "<color #E9E9F6><b>Limited</b><color #CCCCCC> events are where you open up packs during the event itself and build a deck out of what you find! You're able to use as many basic lands as you'd like, and the minimum number of cards for these decks is 40, with players playing around 17 lands, but MTG Arena will take care of this for you.",
@@ -5035,6 +5195,10 @@
         "oracleText": "Vivien's Hunt",
         "translation": "薇薇安的狩猎"
     },
+    "Decks/Precon/LTR_Celebration": {
+        "oracleText": "Servant of the Secret Fire",
+        "translation": "Servant of the Secret Fire"
+    },
     "Decks/Precon/MWM_Brawl_Hofri": {
         "oracleText": "Hofri Ghostforge",
         "translation": "铸魂霍非"
@@ -5558,6 +5722,46 @@
     "Decks/Precon/Precon_EPP2023_WU_Desc": {
         "oracleText": "Smite foes with your glorious angels as they fly over your opponent's creatures to count up the wins!",
         "translation": "用你光荣的天使粉碎敌人，当他们飞过你的对手的生物时，就可以计算出胜利的数量了！"
+    },
+    "Decks/Precon/Precon_EPP2024_BG": {
+        "oracleText": "Savage Scavengers",
+        "translation": "Savage Scavengers"
+    },
+    "Decks/Precon/Precon_EPP2024_BW": {
+        "oracleText": "Legions of Phyrexia",
+        "translation": "Legions of Phyrexia"
+    },
+    "Decks/Precon/Precon_EPP2024_RB": {
+        "oracleText": "Scrapyard Sacrifice",
+        "translation": "Scrapyard Sacrifice"
+    },
+    "Decks/Precon/Precon_EPP2024_RG": {
+        "oracleText": "Charging Ahead",
+        "translation": "Charging Ahead"
+    },
+    "Decks/Precon/Precon_EPP2024_RW": {
+        "oracleText": "Rebel Armory",
+        "translation": "Rebel Armory"
+    },
+    "Decks/Precon/Precon_EPP2024_UB": {
+        "oracleText": "Grave Secrets",
+        "translation": "Grave Secrets"
+    },
+    "Decks/Precon/Precon_EPP2024_UG": {
+        "oracleText": "Sylvan Wisdom",
+        "translation": "Sylvan Wisdom"
+    },
+    "Decks/Precon/Precon_EPP2024_UR": {
+        "oracleText": "Arcane Aggression",
+        "translation": "Arcane Aggression"
+    },
+    "Decks/Precon/Precon_EPP2024_UW": {
+        "oracleText": "High-Flying Valor",
+        "translation": "High-Flying Valor"
+    },
+    "Decks/Precon/Precon_EPP2024_WG": {
+        "oracleText": "Growing Hope",
+        "translation": "Growing Hope"
     },
     "Decks/Precon/Precon_EPP_BG": {
         "oracleText": "Golgari Swarm",
@@ -7327,6 +7531,14 @@
         "oracleText": "Drag cards to order them.",
         "translation": "拖动牌张以决定其顺序。"
     },
+    "DuelScene/Browsers/OrderRequest_Targets_Header": {
+        "oracleText": "Order Targets",
+        "translation": "Order Targets"
+    },
+    "DuelScene/Browsers/OrderRequest_Targets_SubHeader": {
+        "oracleText": "Drag targets to choose resolution order",
+        "translation": "Drag targets to choose resolution order"
+    },
     "DuelScene/Browsers/OrderRequest_Top_Header": {
         "oracleText": "Order Cards",
         "translation": "排列牌张"
@@ -8335,6 +8547,10 @@
         "oracleText": "{StartingPlayerName} was the starting player.",
         "translation": "{StartingPlayerName}是先手牌手。"
     },
+    "DuelScene/FaceHanger/TheRing": {
+        "oracleText": "The Ring",
+        "translation": "The Ring"
+    },
     "DuelScene/FaceHanger/Token": {
         "oracleText": "Creates Token",
         "translation": "派出衍生物"
@@ -8406,6 +8622,14 @@
     "DuelScene/Interaction/OptionalAction/Option_Lose5Life": {
         "oracleText": "Lose 5 Life",
         "translation": "失去5点生命"
+    },
+    "DuelScene/Interaction/OptionalAction/Option_LoseLife": {
+        "oracleText": "Lose Life",
+        "translation": "Lose Life"
+    },
+    "DuelScene/Interaction/OptionalAction/Option_OpponentDrawsCard": {
+        "oracleText": "Opponent Draws a Card",
+        "translation": "Opponent Draws a Card"
     },
     "DuelScene/Interaction/OptionalAction/Option_RemovePerpetualEffects": {
         "oracleText": "Remove Perpetual Effects",
@@ -10080,8 +10304,8 @@
         "translation": "速学！门票"
     },
     "EPP/RewardTrack/6_JumpIn_Runs": {
-        "oracleText": "1000 Coins",
-        "translation": "1000枚硬币"
+        "oracleText": "2000 Gold",
+        "translation": "2000 Gold"
     },
     "EPP/RewardTrack/Avatar": {
         "oracleText": "{avatarName} Avatar",
@@ -10104,8 +10328,8 @@
         "translation": "{cardName}卡牌样式"
     },
     "EPP/RewardTrack/Complete_1_Color_Challenge": {
-        "oracleText": "Embossed Sleeve & Starter Deck Duel",
-        "translation": "Embossed Sleeve & Starter Deck Duel"
+        "oracleText": "Embossed Sleeve & Sparky's Challenge",
+        "translation": "Embossed Sleeve & Sparky's Challenge"
     },
     "EPP/RewardTrack/Complete_5_Color_Challenge": {
         "oracleText": "Zendikar Rising Sleeve",
@@ -10116,8 +10340,8 @@
         "translation": "600宝石和薇薇安牌套"
     },
     "EPP/RewardTrack/Complete_Spark_Rank": {
-        "oracleText": "Jace Sleeve & 5 Jump In! Tokens",
-        "translation": "杰斯牌套和5个速学门票"
+        "oracleText": "Jace Sleeve",
+        "translation": "Jace Sleeve"
     },
     "EPP/RewardTrack/Complete_Sparky_Challenge": {
         "oracleText": "Stained Glass Sleeve",
@@ -10392,8 +10616,8 @@
         "translation": "If you'd like to know even more about Magic: the Gathering, then follow me!"
     },
     "EPP/Sparky/Codex_02": {
-        "oracleText": "Welcome to The Codex of the Multiverse! This is your place to ignite your curiosity around Magic, and how to play it here.",
-        "translation": "Welcome to The Codex of the Multiverse! This is your place to ignite your curiosity around Magic, and how to play it here."
+        "oracleText": "Welcome to The Codex of the Multiverse! This is your place to ignite your curiosity around Magic, and learn how to play it.",
+        "translation": "Welcome to The Codex of the Multiverse! This is your place to ignite your curiosity around Magic, and learn how to play it."
     },
     "EPP/Sparky/Codex_03": {
         "oracleText": "The secrets of the Multiverse await you, and the more you play, the more entries you'll unlock.",
@@ -10436,8 +10660,8 @@
         "translation": "This is where you can find your current rank in Spark Ranked!"
     },
     "EPP/Sparky/SparkRank_02": {
-        "oracleText": "As you'll play, you'll level up through the four tiers. I wonder what happens when you complete tier 1? Hmm...",
-        "translation": "As you'll play, you'll level up through the four tiers. I wonder what happens when you complete tier 1? Hmm..."
+        "oracleText": "As you play, you'll level up through the four tiers. I wonder what happens when you complete Tier 1? Hmm...",
+        "translation": "As you play, you'll level up through the four tiers. I wonder what happens when you complete Tier 1? Hmm..."
     },
     "EPP/Sparky/SparkRank_03": {
         "oracleText": "Then climb your way up the tiers of Spark Ranked play as you master your Planeswalker spark!",
@@ -10476,12 +10700,12 @@
         "translation": "如果你能打败我三次，你就证明了你已经准备好进入更大的世界了。所以我们走吧！"
     },
     "EPP/Sparky/StarterDeckDuel_01": {
-        "oracleText": "Wow, you've unlocked your first event: Starter Deck Duel!",
-        "translation": "Wow, you've unlocked your first event: Starter Deck Duel!"
+        "oracleText": "Nice work! I think you're ready to face other Planeswalkers in a new event: Starter Deck Duel!",
+        "translation": "Nice work! I think you're ready to face other Planeswalkers in a new event: Starter Deck Duel!"
     },
     "EPP/Sparky/StarterDeckDuel_02": {
-        "oracleText": "Here, you'll choose one of 10 two-color Starter Decks to battle other Planeswalkers.",
-        "translation": "Here, you'll choose one of 10 two-color Starter Decks to battle other Planeswalkers."
+        "oracleText": "Here, you'll choose from one of 10 two-color Starter Decks to battle other Planeswalkers.",
+        "translation": "Here, you'll choose from one of 10 two-color Starter Decks to battle other Planeswalkers."
     },
     "EPP/Sparky/StarterDeckDuel_03": {
         "oracleText": "And here's the best part: If you win with a deck, you'll add it to your collection!",
@@ -14840,8 +15064,8 @@
         "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for Day 1 is Historic with single-game matches, and then Traditional Historic with best-of-three matches using sideboards for Day 2. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo1": {
-        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i>March of the Machine</i> Sealed with single-game matches. The Day 2 event will use Traditional <i>March of the Machine</i>  Draft with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i>March of the Machine</i> Sealed with single-game matches. The Day 2 event will use Traditional <i>March of the Machine</i>  Draft with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i>The Lord of the Rings: Tales of Middle-earth</i> Sealed with single-game matches. The Day 2 event will use Traditional <i>The Lord of the Rings: Tales of Middle-earth</i>  Draft with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i>The Lord of the Rings: Tales of Middle-earth</i> Sealed with single-game matches. The Day 2 event will use Traditional <i>The Lord of the Rings: Tales of Middle-earth</i>  Draft with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo1_Alt": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Standard with single-game matches. The Day 2 event will use Traditional Standard with best-of-three matches using sideboards. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>",
@@ -14852,8 +15076,8 @@
         "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i>Kaldheim</i> Sealed with single-game matches. The Day 2 event will use two Traditional <i>Kaldheim</i> Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo3": {
-        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional  <i>March of the Machine</i> Sealed with best-of-three matches using sideboards and individual timers. The Day 2 event will also be Traditional  <i>March of the Machine</i> Sealed with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional  <i>March of the Machine</i> Sealed with best-of-three matches using sideboards and individual timers. The Day 2 event will also be Traditional  <i>March of the Machine</i> Sealed with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional  <i>The Lord of the Rings: Tales of Middle-earth</i> Sealed with best-of-three matches using sideboards and individual timers. The Day 2 event will also be Traditional  <i>The Lord of the Rings: Tales of Middle-earth</i> Sealed with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional  <i>The Lord of the Rings: Tales of Middle-earth</i> Sealed with best-of-three matches using sideboards and individual timers. The Day 2 event will also be Traditional  <i>The Lord of the Rings: Tales of Middle-earth</i> Sealed with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo3_Alt": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 match wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional Standard with best-of-three matches using sideboards. The Day 2 event will also be Traditional Standard with best-of-three matches using sideboards. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>",
@@ -14872,8 +15096,8 @@
         "translation": "<size=150%><color=#e1a154>Compete for monetary rewards playing MTG Arena!</size></color>\n\nThis second day of competition is open only to qualified players from Day 1. Players must join the Day 2 event between 6 a.m. PT/2 p.m. UTC and 8 a.m. PT/4 p.m. UTC.\n\nThe Day 2 format is Traditional Standard with best-of-three matches using sideboards. Players may only enter once, even if they have qualified multiple times. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftOne": {
-        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 12 p.m. PT. Winning all four matches will allow for a second loss in the second draft.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>March of the Machine</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 12 p.m. PT. Winning all four matches will allow for a second loss in the second draft.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>March of the Machine</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 12 p.m. PT. Winning all four matches will allow for a second loss in the second draft.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>The Lord of the Rings: Tales of Middle-earth</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 12 p.m. PT. Winning all four matches will allow for a second loss in the second draft.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>The Lord of the Rings: Tales of Middle-earth</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftOne_KHM": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 12 p.m. PT. Winning all four matches will allow for a second loss in the second draft.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Kaldheim</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
@@ -14884,16 +15108,16 @@
         "translation": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Dominaria United</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftTwoA": {
-        "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 4 wins in the first draft, this draft is double elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>March of the Machine</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 4 wins in the first draft, this draft is double elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>March of the Machine</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 4 wins in the first draft, this draft is double elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>The Lord of the Rings: Tales of Middle-earth</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 4 wins in the first draft, this draft is double elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>The Lord of the Rings: Tales of Middle-earth</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftTwoA_KHM": {
         "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 4 wins in the first draft, this draft is double elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Kaldheim</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
         "translation": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 4 wins in the first draft, this draft is double elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Kaldheim</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftTwoB": {
-        "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 3 wins in the first draft, this draft is single elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>March of the Machine</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 3 wins in the first draft, this draft is single elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>March of the Machine</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 3 wins in the first draft, this draft is single elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>The Lord of the Rings: Tales of Middle-earth</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 3 wins in the first draft, this draft is single elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>The Lord of the Rings: Tales of Middle-earth</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftTwoB_KHM": {
         "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 3 wins in the first draft, this draft is single elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Kaldheim</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
@@ -15603,6 +15827,10 @@
         "oracleText": "<i>Listen now to the </i>Festival of Tales<i>! Hear stories from across the World Tree, the bridge between the realms!\n\nFrom the halls of Starnheim to the mists of Littjara, it is the World Tree that links Kaldheim together. Those who know it can travel across the realms - as long as the god Esika sees fit to let them! She was born of the Tree, and she keeps it well. She shares the Tree with the clever Cosmos beast Toski, her messenger and spy, who hears all and brings new secrets to her.\n\nIf you ever find yourself between the realms, give your thanks to Esika, and prepare yourself to become a part of the next tale we tell!</i>\n\nSelect from among the event's preconstructed decks and play as much as you like. Change decks whenever you choose.",
         "translation": "<i>Listen now to the </i>Festival of Tales<i>! Hear stories from across the World Tree, the bridge between the realms!\n\nFrom the halls of Starnheim to the mists of Littjara, it is the World Tree that links Kaldheim together. Those who know it can travel across the realms - as long as the god Esika sees fit to let them! She was born of the Tree, and she keeps it well. She shares the Tree with the clever Cosmos beast Toski, her messenger and spy, who hears all and brings new secrets to her.\n\nIf you ever find yourself between the realms, give your thanks to Esika, and prepare yourself to become a part of the next tale we tell!</i>\n\nSelect from among the event's preconstructed decks and play as much as you like. Change decks whenever you choose."
     },
+    "Events/Event_Desc_Festival_LTR_Brawl": {
+        "oracleText": "Your favorite legendary creature from <i>The Lord of the Rings: Tales of Middle-earth</i> is ready to command your deck into battle!\n\nBring a 60-card Alchemy-legal Brawl deck with a twist: Legendary creatures and planeswalkers are banned except those from <i>The Lord of the Rings: Tales of Middle-earth</i>. Play and change decks as much as you want until the event ends!\n\n\"To Isengard!\" the Ents cried in many voices. \"To Isengard!\" <i>To Isengard\n Though Isengard be ringed and barred with doors of stone;\nThough Isengard be strong and hard, as cold as stone and bare as bone,\nWe go, we go, we go to war, to hew the stone and break the door;\nFor bole and bough are burning now, the furnace roars – we go to war!\nTo land of gloom with tramp of doom, with roll of drum, we come, we come;\nTo Isengard with doom we come!\nWith doom we come, with doom we come!</i>\nSo they sang as they marched southwards\n-- The Ends, Book 2, pg 485",
+        "translation": "Your favorite legendary creature from <i>The Lord of the Rings: Tales of Middle-earth</i> is ready to command your deck into battle!\n\nBring a 60-card Alchemy-legal Brawl deck with a twist: Legendary creatures and planeswalkers are banned except those from <i>The Lord of the Rings: Tales of Middle-earth</i>. Play and change decks as much as you want until the event ends!\n\n\"To Isengard!\" the Ents cried in many voices. \"To Isengard!\" <i>To Isengard\n Though Isengard be ringed and barred with doors of stone;\nThough Isengard be strong and hard, as cold as stone and bare as bone,\nWe go, we go, we go to war, to hew the stone and break the door;\nFor bole and bough are burning now, the furnace roars – we go to war!\nTo land of gloom with tramp of doom, with roll of drum, we come, we come;\nTo Isengard with doom we come!\nWith doom we come, with doom we come!</i>\nSo they sang as they marched southwards\n-- The Ends, Book 2, pg 485"
+    },
     "Events/Event_Desc_Festival_M21_HistoricSingleton": {
         "oracleText": "For this week's <i>Festival of Time</i> event, you'll need to weave together more cards than ever, calling in aid from many times and places. Can you bring the past into the present? The future may depend upon it.\n\nYour deck must be at least 100 cards from all of MTG Arena, but you can only use a single copy of any card that isn't a basic land, and you cannot use a sideboard or companion.\n\nThe following cards are not allowed:\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Nexus of Fate\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Oko, Thief of Crowns",
         "translation": "欢迎来到本周的<i>时光活动节</i>，你需要聚集的卡牌远超从前，从各个多重宇宙呼唤援助。你能否将过去带至当下？未来或许取决于此。\n\n你的牌组必须有至少100张牌，你可以使用MTGA中的所有卡牌，但除基本地外每张牌都只能使用一张，你不能使用备牌区和行侣。\n\n以下卡牌被禁止使用：\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\">龙命连结点\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\">窃冠瓯柯"
@@ -15907,6 +16135,10 @@
         "oracleText": "Welcome to the world of MTG Arena! Here you can explore popular cards and strategies, and maybe even find a new favorite. It's time to <b>Jump In!</b>\n\nWhen you join this event, you will get to select two different half-decks from a variety of themes in Alchemy. Combine them, and you'll have a deck that's ready to go. Play as much as you want here, or use the cards to build new decks for other modes - they're yours to keep!\n\n<color=\"green\"><b>Resign at any time if you wish to rejoin and pick new packets. You will have to pay the entry again, but you will keep all cards from the decks you choose.</b></color>",
         "translation": "欢迎来到万智牌竞技场的世界！在这里，你可以探索流行的卡牌和策略，甚至可以找到新的最爱。是时候<b>加入了！</b>\n\n当你参加这个活动时，你将可以从炼金术的各种主题中选择两个不同的半套牌。将它们结合起来，你就会有一套可以使用的套牌。在这里，你可以碎心所欲地玩，或者用这些卡牌为其它模式建立新的套牌--它们都是你的。\n\n<color=\"green\"><b>如果你想重新加入并挑选新的主题包，可以在任何时候退出。你需要重新支付参赛门票，但之前选择的套牌中的所有卡牌均会保留。</b></color>"
     },
+    "Events/Event_Desc_Jump_In_LTR": {
+        "oracleText": "Ready to start playing <i>The Lord of the Rings: Tales of Middle-earth</i> on MTG Arena? You can explore different strategies while playing and collecting cards from this new set.\n\nWhen you join this event, you will get to select two different half-decks from a variety of themes. They'll be combined and you will have a deck ready to go. Play as much as you want here, or use the cards to build new decks for other modes - they're yours to keep!\n\n<b><color=\"green\">Resign at any time if you wish to rejoin and pick new packets. You will have to pay the entry again, but you will keep all cards from the decks you choose.</color></b>\n\n\"The world is indeed full of peril, and in it there are many dark places; but still there is much that is fair, and though in all lands love is now mingled with grief, it grows perhaps the greater.\" – Haldir (Book 1, pg 349)",
+        "translation": "Ready to start playing <i>The Lord of the Rings: Tales of Middle-earth</i> on MTG Arena? You can explore different strategies while playing and collecting cards from this new set.\n\nWhen you join this event, you will get to select two different half-decks from a variety of themes. They'll be combined and you will have a deck ready to go. Play as much as you want here, or use the cards to build new decks for other modes - they're yours to keep!\n\n<b><color=\"green\">Resign at any time if you wish to rejoin and pick new packets. You will have to pay the entry again, but you will keep all cards from the decks you choose.</color></b>\n\n\"The world is indeed full of peril, and in it there are many dark places; but still there is much that is fair, and though in all lands love is now mingled with grief, it grows perhaps the greater.\" – Haldir (Book 1, pg 349)"
+    },
     "Events/Event_Desc_Jumpstart_J21": {
         "oracleText": "Welcome to Jumpstart: Historic Horizons!\n\nWhen you join this event, you will get to select two different half-decks from a variety of themes inspired by Magic's history and the <i>Modern Horizons</i> sets. Combine them, and you'll have a deck that's ready to go! You'll keep all the cards from your deck, and you can play with it as much as you want.\n\n<color=\"green\"><b>Resign at any time if you wish to rejoin and pick new packets. You will have to pay the entry again, but you can also earn all rewards again as well.</b></color>",
         "translation": "欢迎来到速战：史迹新篇！\n\n当你加入此赛事时，你可以从发源于万智牌历史的各种主题，以及<i>摩登新篇</i>主题中选择两个不同的「半套牌」补充包，将它们混合起来，你就有一副可以立刻开玩的套牌了！这些牌会全数加入你的收藏，并且你想玩几局都可以！\n\n<color=\"green\"><b>如果你想重选新的主题包，你可以随时退出赛事。你需要重新支付入场费，但你也可以再次获得各种奖励。</b></color>"
@@ -15942,6 +16174,18 @@
     "Events/Event_Desc_KLR_Trad_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>",
         "translation": "每次从传过来的轮抽卡包中选一张牌，这些牌会加入你的收藏，你将使用这些牌加上基本地来构筑40张的套牌进行bo3对战。你将得到的奖励取决于你的胜场！\n\n<b>真人轮抽～和其他七位玩家共同进行的限时轮抽</b> "
+    },
+    "Events/Event_Desc_LTR_Premier_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> \"Draw Two\" Humans </b> Defend the citadel  ! Drawing two cards every turn will ensure you never run out of reinforcements. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Amass Control </b> Grow a massive Orc Army   , then wield Saruman's mighty suite of spells to turn the tide of battle in your favor. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Amass Aggro </b> The forces of Mordor will rush out of your hands and through the enemy's defenses with this aggressive strategy, sacrificing themselves for the glory of Sauron.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Power Matters </b> The wilds of Middle-earth™ are home to many of its strongest denizens, such as Ents, Trolls, and the noble Rangers. Use them to overwhelm your opponent with great numbers.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Food </b> Never underestimate a Hobbit! This low-to-the-ground aggressive deck uses Food tokens for a lot more than the occasional second-refreshment.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Tokens </b> From earthen Treasures to soaring Spirits    and everything in-between, this strategy revolves around going wide and eventually overwhelming the opponent.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Spells </b> Draw on the knowledge and magic of Middle-earth's most powerful Wizards to cast a stream of increasingly impressive instants and sorceries.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Sacrifice </b> Repurpose and recycle your creatures to summon a frightening assortment of terrors, including the Nazgûl and their Fell Beasts.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Go-Wide Humans </b> Answer the call and charge into battle! These Humans combine to create a force capable of slicing through any foe.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Scry </b> Elvish magic offers you a glimpse at many possible futures. Choose wisely and you'll find victory waiting at the top of your deck.",
+        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> \"Draw Two\" Humans </b> Defend the citadel  ! Drawing two cards every turn will ensure you never run out of reinforcements. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Amass Control </b> Grow a massive Orc Army   , then wield Saruman's mighty suite of spells to turn the tide of battle in your favor. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Amass Aggro </b> The forces of Mordor will rush out of your hands and through the enemy's defenses with this aggressive strategy, sacrificing themselves for the glory of Sauron.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Power Matters </b> The wilds of Middle-earth™ are home to many of its strongest denizens, such as Ents, Trolls, and the noble Rangers. Use them to overwhelm your opponent with great numbers.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Food </b> Never underestimate a Hobbit! This low-to-the-ground aggressive deck uses Food tokens for a lot more than the occasional second-refreshment.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Tokens </b> From earthen Treasures to soaring Spirits    and everything in-between, this strategy revolves around going wide and eventually overwhelming the opponent.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Spells </b> Draw on the knowledge and magic of Middle-earth's most powerful Wizards to cast a stream of increasingly impressive instants and sorceries.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Sacrifice </b> Repurpose and recycle your creatures to summon a frightening assortment of terrors, including the Nazgûl and their Fell Beasts.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Go-Wide Humans </b> Answer the call and charge into battle! These Humans combine to create a force capable of slicing through any foe.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Scry </b> Elvish magic offers you a glimpse at many possible futures. Choose wisely and you'll find victory waiting at the top of your deck."
+    },
+    "Events/Event_Desc_LTR_Quick_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers",
+        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers"
+    },
+    "Events/Event_Desc_LTR_Trad_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players </b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> \"Draw Two\" Humans </b> Defend the citadel  ! Drawing two cards every turn will ensure you never run out of reinforcements. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Amass Control </b> Grow a massive Orc Army   , then wield Saruman's mighty suite of spells to turn the tide of battle in your favor. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Amass Aggro </b> The forces of Mordor will rush out of your hands and through the enemy's defenses with this aggressive strategy, sacrificing themselves for the glory of Sauron.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Power Matters </b> The wilds of Middle-earth™ are home to many of its strongest denizens, such as Ents, Trolls, and the noble Rangers. Use them to overwhelm your opponent with great numbers.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Food </b> Never underestimate a Hobbit! This low-to-the-ground aggressive deck uses Food tokens for a lot more than the occasional second-refreshment.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Tokens </b> From earthen Treasures to soaring Spirits    and everything in-between, this strategy revolves around going wide and eventually overwhelming the opponent.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Spells </b> Draw on the knowledge and magic of Middle-earth's most powerful Wizards to cast a stream of increasingly impressive instants and sorceries.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Sacrifice </b> Repurpose and recycle your creatures to summon a frightening assortment of terrors, including the Nazgûl and their Fell Beasts.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Go-Wide Humans </b> Answer the call and charge into battle! These Humans combine to create a force capable of slicing through any foe.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Scry </b> Elvish magic offers you a glimpse at many possible futures. Choose wisely and you'll find victory waiting at the top of your deck.",
+        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players </b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> \"Draw Two\" Humans </b> Defend the citadel  ! Drawing two cards every turn will ensure you never run out of reinforcements. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Amass Control </b> Grow a massive Orc Army   , then wield Saruman's mighty suite of spells to turn the tide of battle in your favor. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Amass Aggro </b> The forces of Mordor will rush out of your hands and through the enemy's defenses with this aggressive strategy, sacrificing themselves for the glory of Sauron.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Power Matters </b> The wilds of Middle-earth™ are home to many of its strongest denizens, such as Ents, Trolls, and the noble Rangers. Use them to overwhelm your opponent with great numbers.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Food </b> Never underestimate a Hobbit! This low-to-the-ground aggressive deck uses Food tokens for a lot more than the occasional second-refreshment.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Tokens </b> From earthen Treasures to soaring Spirits    and everything in-between, this strategy revolves around going wide and eventually overwhelming the opponent.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Spells </b> Draw on the knowledge and magic of Middle-earth's most powerful Wizards to cast a stream of increasingly impressive instants and sorceries.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Sacrifice </b> Repurpose and recycle your creatures to summon a frightening assortment of terrors, including the Nazgûl and their Fell Beasts.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Go-Wide Humans </b> Answer the call and charge into battle! These Humans combine to create a force capable of slicing through any foe.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Scry </b> Elvish magic offers you a glimpse at many possible futures. Choose wisely and you'll find victory waiting at the top of your deck."
     },
     "Events/Event_Desc_Ladder": {
         "oracleText": "Standard uses cards only from recent sets. Results will affect your Constructed rank.",
@@ -16136,8 +16380,8 @@
         "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Future Alchemy: Get a jump on next year's format! Bring a 60-card deck using only cards from the last year of Alchemy, starting with <i>Innistrad: Midnight Hunt</i>, whether they're in your collection or not. Out with the old and in with the new!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
     },
     "Events/Event_Desc_MWM_FuturePrecon": {
-        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nToday's event is Future Precons: These preconstructed decks are gearing up for the future, using only cards from the last year of sets! Change decks as often as you like.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
-        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nToday's event is Future Precons: These preconstructed decks are gearing up for the future, using only cards from the last year of sets! Change decks as often as you like.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nToday's event is Future Precons: These preconstructed decks are gearing up for the future, using only cards from the last year of sets! Change decks as often as you like.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nToday's event is Future Precons: These preconstructed decks are gearing up for the future, using only cards from the last year of sets! Change decks as often as you like.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
     },
     "Events/Event_Desc_MWM_HBG_BotDraft": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Alchemy Horizons: Baldur's Gate</i> Bot Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
@@ -16190,6 +16434,14 @@
     "Events/Event_Desc_MWM_JumpIn": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is phantom Jump In! You will get to select two different half-decks from a variety of themes in Alchemy. Combine them, and you'll have a deck that's ready to go. Unlike regular Jump In, cards from this event will not be added to your collection.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
         "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is phantom Jump In! You will get to select two different half-decks from a variety of themes in Alchemy. Combine them, and you'll have a deck that's ready to go. Unlike regular Jump In, cards from this event will not be added to your collection.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+    },
+    "Events/Event_Desc_MWM_LTRConstructed": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>The Lord of the Rings: Tales of Middle-earth</i> constructed: Bring a 60-card deck with only cards from the most recent set and demonstrate your compleat mastery of the new cards!\n\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>The Lord of the Rings: Tales of Middle-earth</i> constructed: Bring a 60-card deck with only cards from the most recent set and demonstrate your compleat mastery of the new cards!\n\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+    },
+    "Events/Event_Desc_MWM_LTR_Sealed": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>The Lord of the Rings: Tales of Middle-earth</i> Sealed: Open six packs and add basic lands to make a 40-card deck, then play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>The Lord of the Rings: Tales of Middle-earth</i> Sealed: Open six packs and add basic lands to make a 40-card deck, then play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
     },
     "Events/Event_Desc_MWM_LastCall": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Last Call: Bid farewell to our departing sets by bringing a 60-card Alchemy deck that only contains cards from <i>Zendikar Rising</i>, <i>Kaldheim</i>, <i>Strixhaven</i>, and <i>Adventures in the Forgotten Realms</i>. This event is All Access, meaning you can use cards that aren't in your collection!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
@@ -16268,8 +16520,8 @@
         "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Slow Start: Going first is always such a treat, but sometimes it's nice to go second instead. To help smooth things out, the player who goes first will have their first land enter the battlefield tapped. Just take it easy for a turn!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
     },
     "Events/Event_Desc_MWM_Standard": {
-        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Streets of New Capenna</i> Bot Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.\n\n\n<b>The Five Families</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> The Obscura: Craft the perfect draws and use superior intelligence over a long game to engineer a route to victory. Use the family's connive mechanic to draw, then discard - giving your creatures +1/+1 counters along the way!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> The Maestros: Hire expendable underlings as your family's muscle on the streets. Then use the casualty mechanic to sacrifice those minions, copy your spells, and blast your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> The Riveteers: The Riveteers rumble with large creatures. Give your creatures haste with the blitz mechanic, then sacrifice them at the end of your turn to draw a card. Keep that pressure up! Then press your advantage to crush your opponents.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> The Cabaretti: Flood the board with tokens and small creatures to overwhelm the opposition. The family knows how to collaborate for greater gain: alliance abilities give you additional effects whenever another creature enters the battlefield under your control.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> The Brokers: The Brokers are always ready to take down your opponents one notch at a time. Attack relentlessly to deal small amounts of damage, and mount an impenetrable defense - legal or otherwise! - by amassing shield counters on your creatures.",
-        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Streets of New Capenna</i> Bot Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.\n\n\n<b>The Five Families</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> The Obscura: Craft the perfect draws and use superior intelligence over a long game to engineer a route to victory. Use the family's connive mechanic to draw, then discard - giving your creatures +1/+1 counters along the way!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> The Maestros: Hire expendable underlings as your family's muscle on the streets. Then use the casualty mechanic to sacrifice those minions, copy your spells, and blast your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> The Riveteers: The Riveteers rumble with large creatures. Give your creatures haste with the blitz mechanic, then sacrifice them at the end of your turn to draw a card. Keep that pressure up! Then press your advantage to crush your opponents.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> The Cabaretti: Flood the board with tokens and small creatures to overwhelm the opposition. The family knows how to collaborate for greater gain: alliance abilities give you additional effects whenever another creature enters the battlefield under your control.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> The Brokers: The Brokers are always ready to take down your opponents one notch at a time. Attack relentlessly to deal small amounts of damage, and mount an impenetrable defense - legal or otherwise! - by amassing shield counters on your creatures."
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Standard: Bring a 60-card Standard deck, battle against the competition, and claim victory in the premier constructed format!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Standard: Bring a 60-card Standard deck, battle against the competition, and claim victory in the premier constructed format!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
     },
     "Events/Event_Desc_MWM_StandardShakeup": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Standard Shakeup: We're removing some of Standard's most popular and powerful cards. Search for new strategies and bring the best 60-card deck you can create!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
@@ -16444,12 +16696,12 @@
         "translation": "参加活动，抢先体验<i>艾卓王权</i>！在此特殊活动中，你将从四副预组套牌中选择一副，加入我们最新的赛制～争锋！\n\n选择一位特殊的传奇生物或鹏洛客当作你的指挥官，并围绕它构筑一副套牌，而后与另一位牌手进行双人对战！欲知争锋赛制的更多信息，敬请<u></b><link=https://magic.wizards.com/mtga-brawl>点按此处</link></b></u>。\n\n争锋套牌不会加入牌手的收藏当中，但显示在赛事奖励中给出的<i>艾卓王权</i>卡牌可在9月9日开始的「2020标准赛」赛事活动中使用，并从9月26日开始可以在其他赛事活动中使用。"
     },
     "Events/Event_Desc_QualifierPlayIn_Bo1": {
-        "oracleText": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Historic with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
-        "translation": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Historic with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>"
+        "oracleText": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom <i>The Lord of the Rings: Tales of Middle-earth</i> Sealed with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
+        "translation": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom <i>The Lord of the Rings: Tales of Middle-earth</i> Sealed with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_QualifierPlayIn_Bo3": {
-        "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom <i>March of the Machine</i> Sealed with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
-        "translation": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom <i>March of the Machine</i> Sealed with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>"
+        "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom <i>The Lord of the Rings: Tales of Middle-earth</i> Sealed with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
+        "translation": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom <i>The Lord of the Rings: Tales of Middle-earth</i> Sealed with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_QualifierPlayIn_Bo320230609": {
         "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Traditional Historic with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
@@ -16618,6 +16870,10 @@
     "Events/Event_Desc_Sealed_KLR": {
         "oracleText": "You'll receive 6 fourteen-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!",
         "translation": "你将获得6个14张的补充包。 这些牌会加入你的收藏。 你将使用这些牌加上基本地来构筑40张的套牌进行游戏。 你将得到的奖励取决于你的胜场!"
+    },
+    "Events/Event_Desc_Sealed_LTR": {
+        "oracleText": "You'll receive 6 <i>The Lord of the Rings: Tales of Middle-earth</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> \"Draw Two\" Humans </b> Defend the citadel  ! Drawing two cards every turn will ensure you never run out of reinforcements. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Amass Control </b> Grow a massive Orc Army   , then wield Saruman's mighty suite of spells to turn the tide of battle in your favor. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Amass Aggro </b> The forces of Mordor will rush out of your hands and through the enemy's defenses with this aggressive strategy, sacrificing themselves for the glory of Sauron.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Power Matters </b> The wilds of Middle-earth™ are home to many of its strongest denizens, such as Ents, Trolls, and the noble Rangers. Use them to overwhelm your opponent with great numbers.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Food </b> Never underestimate a Hobbit! This low-to-the-ground aggressive deck uses Food tokens for a lot more than the occasional second-refreshment.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Tokens </b> From earthen Treasures to soaring Spirits    and everything in-between, this strategy revolves around going wide and eventually overwhelming the opponent.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Spells </b> Draw on the knowledge and magic of Middle-earth's most powerful Wizards to cast a stream of increasingly impressive instants and sorceries.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Sacrifice </b> Repurpose and recycle your creatures to summon a frightening assortment of terrors, including the Nazgûl and their Fell Beasts.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Go-Wide Humans </b> Answer the call and charge into battle! These Humans combine to create a force capable of slicing through any foe.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Scry </b> Elvish magic offers you a glimpse at many possible futures. Choose wisely and you'll find victory waiting at the top of your deck.",
+        "translation": "You'll receive 6 <i>The Lord of the Rings: Tales of Middle-earth</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> \"Draw Two\" Humans </b> Defend the citadel  ! Drawing two cards every turn will ensure you never run out of reinforcements. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Amass Control </b> Grow a massive Orc Army   , then wield Saruman's mighty suite of spells to turn the tide of battle in your favor. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Amass Aggro </b> The forces of Mordor will rush out of your hands and through the enemy's defenses with this aggressive strategy, sacrificing themselves for the glory of Sauron.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Power Matters </b> The wilds of Middle-earth™ are home to many of its strongest denizens, such as Ents, Trolls, and the noble Rangers. Use them to overwhelm your opponent with great numbers.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Food </b> Never underestimate a Hobbit! This low-to-the-ground aggressive deck uses Food tokens for a lot more than the occasional second-refreshment.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Tokens </b> From earthen Treasures to soaring Spirits    and everything in-between, this strategy revolves around going wide and eventually overwhelming the opponent.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Spells </b> Draw on the knowledge and magic of Middle-earth's most powerful Wizards to cast a stream of increasingly impressive instants and sorceries.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Sacrifice </b> Repurpose and recycle your creatures to summon a frightening assortment of terrors, including the Nazgûl and their Fell Beasts.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Go-Wide Humans </b> Answer the call and charge into battle! These Humans combine to create a force capable of slicing through any foe.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Scry </b> Elvish magic offers you a glimpse at many possible futures. Choose wisely and you'll find victory waiting at the top of your deck."
     },
     "Events/Event_Desc_Sealed_M19": {
         "oracleText": "You'll receive 6 fifteen-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win",
@@ -16832,8 +17088,8 @@
         "translation": "你将获得6个15张的补充包。这些牌会加入你的收藏。你将使用这些牌加上基本地来构筑40张的套牌进行bo3对战。你将得到的奖励取决于你的胜场！"
     },
     "Events/Event_Desc_Trad_Sealed_LTR": {
-        "oracleText": "You'll receive 6 <i>The Lord of the Rings: Tales of Middle-earth</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\nArchetypes TBD",
-        "translation": "You'll receive 6 <i>The Lord of the Rings: Tales of Middle-earth</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\nArchetypes TBD"
+        "oracleText": "You'll receive 6 <i>The Lord of the Rings: Tales of Middle-earth</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> \"Draw Two\" Humans </b> Defend the citadel  ! Drawing two cards every turn will ensure you never run out of reinforcements. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Amass Control </b> Grow a massive Orc Army   , then wield Saruman's mighty suite of spells to turn the tide of battle in your favor. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Amass Aggro </b> The forces of Mordor will rush out of your hands and through the enemy's defenses with this aggressive strategy, sacrificing themselves for the glory of Sauron.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Power Matters </b> The wilds of Middle-earth™ are home to many of its strongest denizens, such as Ents, Trolls, and the noble Rangers. Use them to overwhelm your opponent with great numbers.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Food </b> Never underestimate a Hobbit! This low-to-the-ground aggressive deck uses Food tokens for a lot more than the occasional second-refreshment.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Tokens </b> From earthen Treasures to soaring Spirits    and everything in-between, this strategy revolves around going wide and eventually overwhelming the opponent.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Spells </b> Draw on the knowledge and magic of Middle-earth's most powerful Wizards to cast a stream of increasingly impressive instants and sorceries.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Sacrifice </b> Repurpose and recycle your creatures to summon a frightening assortment of terrors, including the Nazgûl and their Fell Beasts.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Go-Wide Humans </b> Answer the call and charge into battle! These Humans combine to create a force capable of slicing through any foe.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Scry </b> Elvish magic offers you a glimpse at many possible futures. Choose wisely and you'll find victory waiting at the top of your deck.",
+        "translation": "You'll receive 6 <i>The Lord of the Rings: Tales of Middle-earth</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> \"Draw Two\" Humans </b> Defend the citadel  ! Drawing two cards every turn will ensure you never run out of reinforcements. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Amass Control </b> Grow a massive Orc Army   , then wield Saruman's mighty suite of spells to turn the tide of battle in your favor. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Amass Aggro </b> The forces of Mordor will rush out of your hands and through the enemy's defenses with this aggressive strategy, sacrificing themselves for the glory of Sauron.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Power Matters </b> The wilds of Middle-earth™ are home to many of its strongest denizens, such as Ents, Trolls, and the noble Rangers. Use them to overwhelm your opponent with great numbers.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Food </b> Never underestimate a Hobbit! This low-to-the-ground aggressive deck uses Food tokens for a lot more than the occasional second-refreshment.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Tokens </b> From earthen Treasures to soaring Spirits    and everything in-between, this strategy revolves around going wide and eventually overwhelming the opponent.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Spells </b> Draw on the knowledge and magic of Middle-earth's most powerful Wizards to cast a stream of increasingly impressive instants and sorceries.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Sacrifice </b> Repurpose and recycle your creatures to summon a frightening assortment of terrors, including the Nazgûl and their Fell Beasts.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Go-Wide Humans </b> Answer the call and charge into battle! These Humans combine to create a force capable of slicing through any foe.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Scry </b> Elvish magic offers you a glimpse at many possible futures. Choose wisely and you'll find victory waiting at the top of your deck."
     },
     "Events/Event_Desc_Trad_Sealed_MID": {
         "oracleText": "You'll receive 6 fourteen-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!",
@@ -18091,6 +18347,22 @@
         "oracleText": "Festival: Tales of Kaldheim",
         "translation": "活动节：凯德海姆传说"
     },
+    "Events/Event_Title_Festival_LTR_Brawl": {
+        "oracleText": "The Lord of The Rings: The Two (Command) Towers",
+        "translation": "The Lord of The Rings: The Two (Command) Towers"
+    },
+    "Events/Event_Title_Festival_LTR_Brawl_Alt": {
+        "oracleText": "The Lord of The Rings: The Two Commanders",
+        "translation": "The Lord of The Rings: The Two Commanders"
+    },
+    "Events/Event_Title_Festival_LTR_Brawl_Alt2": {
+        "oracleText": "The Lord of The Rings Brawl",
+        "translation": "The Lord of The Rings Brawl"
+    },
+    "Events/Event_Title_Festival_LTR_Brawl_Alt3": {
+        "oracleText": "Brawl: The Lord of The Rings",
+        "translation": "Brawl: The Lord of The Rings"
+    },
     "Events/Event_Title_Festival_M21_HistoricSingleton": {
         "oracleText": "Festival: Super-Singleton",
         "translation": "活动节：超级-单张"
@@ -18423,6 +18695,14 @@
         "oracleText": "Jump Into Middle-earth",
         "translation": "Jump Into Middle-earth"
     },
+    "Events/Event_Title_Jump_In_LTR_Alt": {
+        "oracleText": "Jump Into The Lord of the Rings: Tales of Middle-earth",
+        "translation": "Jump Into The Lord of the Rings: Tales of Middle-earth"
+    },
+    "Events/Event_Title_Jump_In_LTR_Alt2": {
+        "oracleText": "Jump In: The Lord of the Rings: Tales of Middle-earth",
+        "translation": "Jump In: The Lord of the Rings: Tales of Middle-earth"
+    },
     "Events/Event_Title_Jumpstart_J21": {
         "oracleText": "Jumpstart: Historic Horizons",
         "translation": "速战：史迹新篇"
@@ -18454,6 +18734,30 @@
     "Events/Event_Title_KLR_Trad_Draft": {
         "oracleText": "Traditional Draft Kaladesh Remastered",
         "translation": "卡拉德许重铸三盘轮抽"
+    },
+    "Events/Event_Title_LTR_Premier_Draft": {
+        "oracleText": "Premier Draft The Lord of the Rings: Tales of Middle-earth",
+        "translation": "Premier Draft The Lord of the Rings: Tales of Middle-earth"
+    },
+    "Events/Event_Title_LTR_Premier_Draft_Alt": {
+        "oracleText": "Premier Draft The Lord of the Rings",
+        "translation": "Premier Draft The Lord of the Rings"
+    },
+    "Events/Event_Title_LTR_Quick_Draft": {
+        "oracleText": "Quick Draft The Lord of the Rings: Tales of Middle-earth",
+        "translation": "Quick Draft The Lord of the Rings: Tales of Middle-earth"
+    },
+    "Events/Event_Title_LTR_Quick_Draft_Alt": {
+        "oracleText": "Quick Draft The Lord of the Rings",
+        "translation": "Quick Draft The Lord of the Rings"
+    },
+    "Events/Event_Title_LTR_Trad_Draft": {
+        "oracleText": "Traditional Draft The Lord of the Rings: Tales of Middle-earth",
+        "translation": "Traditional Draft The Lord of the Rings: Tales of Middle-earth"
+    },
+    "Events/Event_Title_LTR_Trad_Draft_Alt": {
+        "oracleText": "Traditional Draft The Lord of the Rings",
+        "translation": "Traditional Draft The Lord of the Rings"
     },
     "Events/Event_Title_Ladder": {
         "oracleText": "Standard Ranked",
@@ -18722,6 +19026,14 @@
     "Events/Event_Title_MWM_JumpIn": {
         "oracleText": "Midweek Magic: Jump In!",
         "translation": "周中万智牌：速学！"
+    },
+    "Events/Event_Title_MWM_LTRConstructed": {
+        "oracleText": "Midweek Magic: The Lord of the Rings: Tales of Middle-earth Constructed",
+        "translation": "Midweek Magic: The Lord of the Rings: Tales of Middle-earth Constructed"
+    },
+    "Events/Event_Title_MWM_LTR_Sealed": {
+        "oracleText": "Midweek Magic: Phantom Sealed",
+        "translation": "Midweek Magic: Phantom Sealed"
     },
     "Events/Event_Title_MWM_LastCall": {
         "oracleText": "Midweek Magic: Last Call",
@@ -19163,6 +19475,14 @@
         "oracleText": "Sealed Kaladesh Remastered",
         "translation": "卡拉德许重铸现开"
     },
+    "Events/Event_Title_Sealed_LTR": {
+        "oracleText": "Sealed The Lord of the Rings: Tales of Middle-earth",
+        "translation": "Sealed The Lord of the Rings: Tales of Middle-earth"
+    },
+    "Events/Event_Title_Sealed_LTR_Alt": {
+        "oracleText": "Sealed The Lord of the Rings",
+        "translation": "Sealed The Lord of the Rings"
+    },
     "Events/Event_Title_Sealed_M19": {
         "oracleText": "Sealed Core Set 2019",
         "translation": "现开：2019核心系列"
@@ -19418,6 +19738,14 @@
     "Events/Event_Title_Trad_Sealed_KHM": {
         "oracleText": "Traditional Sealed Kaldheim",
         "translation": "凯德海姆三盘现开"
+    },
+    "Events/Event_Title_Trad_Sealed_LTR": {
+        "oracleText": "Traditional Sealed The Lord of the Rings: Tales of Middle-earth",
+        "translation": "Traditional Sealed The Lord of the Rings: Tales of Middle-earth"
+    },
+    "Events/Event_Title_Trad_Sealed_LTR_Alt": {
+        "oracleText": "Traditional Sealed The Lord of the Rings",
+        "translation": "Traditional Sealed The Lord of the Rings"
     },
     "Events/Event_Title_Trad_Sealed_MID": {
         "oracleText": "Traditional Sealed Midnight Hunt",
@@ -20451,6 +20779,86 @@
         "oracleText": "Knights",
         "translation": "骑士"
     },
+    "Events/Packets/SJMP_PacketName_LTR_Amass": {
+        "oracleText": "Amass",
+        "translation": "Amass"
+    },
+    "Events/Packets/SJMP_PacketName_LTR_Breakfast": {
+        "oracleText": "Breakfast",
+        "translation": "Breakfast"
+    },
+    "Events/Packets/SJMP_PacketName_LTR_Elves": {
+        "oracleText": "Elves",
+        "translation": "Elves"
+    },
+    "Events/Packets/SJMP_PacketName_LTR_Humans": {
+        "oracleText": "Humans",
+        "translation": "Humans"
+    },
+    "Events/Packets/SJMP_PacketName_LTR_Insight": {
+        "oracleText": "Insight",
+        "translation": "Insight"
+    },
+    "Events/Packets/SJMP_PacketName_LTR_Moria": {
+        "oracleText": "Moria",
+        "translation": "Moria"
+    },
+    "Events/Packets/SJMP_PacketName_LTR_SUP_Adorned": {
+        "oracleText": "Adorned",
+        "translation": "Adorned"
+    },
+    "Events/Packets/SJMP_PacketName_LTR_SUP_Blighted": {
+        "oracleText": "Blighted",
+        "translation": "Blighted"
+    },
+    "Events/Packets/SJMP_PacketName_LTR_SUP_Captain": {
+        "oracleText": "Captain",
+        "translation": "Captain"
+    },
+    "Events/Packets/SJMP_PacketName_LTR_SUP_Foul": {
+        "oracleText": "Foul",
+        "translation": "Foul"
+    },
+    "Events/Packets/SJMP_PacketName_LTR_SUP_Greedy": {
+        "oracleText": "Greedy",
+        "translation": "Greedy"
+    },
+    "Events/Packets/SJMP_PacketName_LTR_SUP_Horde": {
+        "oracleText": "Horde",
+        "translation": "Horde"
+    },
+    "Events/Packets/SJMP_PacketName_LTR_SUP_Rallying": {
+        "oracleText": "Rallying",
+        "translation": "Rallying"
+    },
+    "Events/Packets/SJMP_PacketName_LTR_SUP_Stalwart": {
+        "oracleText": "Stalwart",
+        "translation": "Stalwart"
+    },
+    "Events/Packets/SJMP_PacketName_LTR_SUP_Treefolk": {
+        "oracleText": "Treefolk",
+        "translation": "Treefolk"
+    },
+    "Events/Packets/SJMP_PacketName_LTR_SUP_Wizard": {
+        "oracleText": "Wizard",
+        "translation": "Wizard"
+    },
+    "Events/Packets/SJMP_PacketName_LTR_Saurons": {
+        "oracleText": "Sauron's",
+        "translation": "Sauron's"
+    },
+    "Events/Packets/SJMP_PacketName_LTR_Shire": {
+        "oracleText": "Shire",
+        "translation": "Shire"
+    },
+    "Events/Packets/SJMP_PacketName_LTR_Tokens": {
+        "oracleText": "Tokens",
+        "translation": "Tokens"
+    },
+    "Events/Packets/SJMP_PacketName_LTR_Wild": {
+        "oracleText": "Wild",
+        "translation": "Wild"
+    },
     "Events/Packets/SJMP_PacketName_Landfall": {
         "oracleText": "Landfall",
         "translation": "地落(Landfall)"
@@ -20939,6 +21347,14 @@
         "oracleText": "Join between 6am and 8am Pacific on June 10",
         "translation": "Join between 6am and 8am Pacific on June 10"
     },
+    "Events/Tokens/QualifierDay1TokenDescription20230715": {
+        "oracleText": "Join between 6am and 8am Pacific on July 15",
+        "translation": "Join between 6am and 8am Pacific on July 15"
+    },
+    "Events/Tokens/QualifierDay1TokenDescription20230812": {
+        "oracleText": "Join between 6am and 8am Pacific on August 12",
+        "translation": "Join between 6am and 8am Pacific on August 12"
+    },
     "Events/Tokens/QualifierDay1TokenPlural": {
         "oracleText": "Qualifier Weekend Token",
         "translation": "资格赛周末门票"
@@ -20978,6 +21394,10 @@
     "Events/Tokens/QualifierDay2TokenDescription20230611": {
         "oracleText": "Join between 6am and 8am Pacific on June 11",
         "translation": "Join between 6am and 8am Pacific on June 11"
+    },
+    "Events/Tokens/QualifierDay2TokenDescription20230716": {
+        "oracleText": "Join between 6am and 8am Pacific on July 16",
+        "translation": "Join between 6am and 8am Pacific on July 16"
     },
     "Events/Tokens/QualifierDay2TokenPlural": {
         "oracleText": "Qualifier Day 2",
@@ -21278,6 +21698,10 @@
     "General/Sets/KLR": {
         "oracleText": "Kaladesh Remastered",
         "translation": "卡拉德许重铸"
+    },
+    "General/Sets/LTR": {
+        "oracleText": "The Lord of the Rings: Tales of Middle-earth",
+        "translation": "The Lord of the Rings: Tales of Middle-earth"
     },
     "General/Sets/M19": {
         "oracleText": "Core Set 2019",
@@ -21979,6 +22403,14 @@
         "oracleText": "Kaldheim",
         "translation": "凯德海姆"
     },
+    "MainNav/BattlePass/BattlePass_LTR": {
+        "oracleText": "The Lord of the Rings: Tales of Middle-earth",
+        "translation": "The Lord of the Rings: Tales of Middle-earth"
+    },
+    "MainNav/BattlePass/BattlePass_LTR_Alt": {
+        "oracleText": "Lord of the Rings Mastery",
+        "translation": "Lord of the Rings Mastery"
+    },
     "MainNav/BattlePass/BattlePass_M20": {
         "oracleText": "Core Set",
         "translation": "核心系列"
@@ -22291,6 +22723,14 @@
         "oracleText": "Alchemy Horizons: Baldur's Gate Set Mastery",
         "translation": "「炼金新篇：博德之门」精研通行证"
     },
+    "MainNav/BattlePass/MasteryListingTitle_LTR": {
+        "oracleText": "The Lord of the Rings: Tales of Middle-earth Set Mastery",
+        "translation": "The Lord of the Rings: Tales of Middle-earth Set Mastery"
+    },
+    "MainNav/BattlePass/MasteryListingTitle_LTR_Alt": {
+        "oracleText": "Lord of the Rings Set Mastery",
+        "translation": "Lord of the Rings Set Mastery"
+    },
     "MainNav/BattlePass/MasteryListingTitle_MOM": {
         "oracleText": "March of the Machine Set Mastery",
         "translation": "邪军压境精研通行证"
@@ -22326,6 +22766,10 @@
     "MainNav/BattlePass/Mastery_Header_HBG": {
         "oracleText": "Alchemy Horizons: Baldur's Gate Mastery Pass",
         "translation": "「炼金新篇：博德之门」精研通行证"
+    },
+    "MainNav/BattlePass/Mastery_Header_LTR": {
+        "oracleText": "The Lord of the Rings: Tales of Middle-earth Mastery",
+        "translation": "The Lord of the Rings: Tales of Middle-earth Mastery"
     },
     "MainNav/BattlePass/Mastery_Header_MID": {
         "oracleText": "Innistrad: Midnight Hunt Mastery Pass",
@@ -24767,6 +25211,10 @@
         "oracleText": "Ancient Red Dragon Exquisite Sleeve",
         "translation": "上古红龙精饰牌套"
     },
+    "MainNav/DeckBuilder/Sleeves/CardBack_AFR_421874": {
+        "oracleText": "Dragon Hoard Sleeve",
+        "translation": "Dragon Hoard Sleeve"
+    },
     "MainNav/DeckBuilder/Sleeves/CardBack_AKH_401255": {
         "oracleText": "Hapatra Vizier of Poisons Sleeve",
         "translation": "司毒维齐尔哈芭恰牌套"
@@ -25715,17 +26163,37 @@
         "oracleText": "Thopter Sleeve",
         "translation": "振翼机牌套"
     },
+    "MainNav/DeckBuilder/Sleeves/CardBack_LTR_424834": {
+        "oracleText": "The Shield of Gondor Sleeve",
+        "translation": "The Shield of Gondor Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_LTR_424923": {
+        "oracleText": "The White Hand of Saruman Sleeve",
+        "translation": "The White Hand of Saruman Sleeve"
+    },
     "MainNav/DeckBuilder/Sleeves/CardBack_LTR_424944": {
         "oracleText": "Gandalf the White Sleeve",
         "translation": "Gandalf the White Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_LTR_430647": {
+        "oracleText": "Gandalf's Fall Sleeve",
+        "translation": "Gandalf's Fall Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_LTR_431877": {
         "oracleText": "Sauron Sleeve",
         "translation": "Sauron Sleeve"
     },
+    "MainNav/DeckBuilder/Sleeves/CardBack_LTR_431881": {
+        "oracleText": "Galadriel Exquisite Sleeve",
+        "translation": "Galadriel Exquisite Sleeve"
+    },
     "MainNav/DeckBuilder/Sleeves/CardBack_LTR_432463": {
         "oracleText": "Aragorn, the Uniter Sleeve",
         "translation": "Aragorn, the Uniter Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_LTR_438027": {
+        "oracleText": "Frodo the Ringbearer Sleeve",
+        "translation": "Frodo the Ringbearer Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_LocketAzorius": {
         "oracleText": "Azorious Locket Sleeve",
@@ -27699,6 +28167,14 @@
         "oracleText": "Worlds Sleeve",
         "translation": "世界牌套"
     },
+    "MainNav/DeckBuilder/Sleeves/LTR_Generic": {
+        "oracleText": "Lord of the Rings Sleeve",
+        "translation": "Lord of the Rings Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/LTR_Mastery_Sleeve_Generic": {
+        "oracleText": "Lord of the Rings Mastery Sleeve",
+        "translation": "Lord of the Rings Mastery Sleeve"
+    },
     "MainNav/DeckBuilder/Sleeves/MTGA_CardBack_ExtraLife_2020_Logo": {
         "oracleText": "Extra Life 2020 Sleeve",
         "translation": "额外生命2020牌套"
@@ -27930,6 +28406,18 @@
     "MainNav/DeckFormat/Kaldheim": {
         "oracleText": "Kaldheim Constructed",
         "translation": "凯德海姆构筑"
+    },
+    "MainNav/DeckFormat/LTR": {
+        "oracleText": "The Lord of the Rings: Tales of Middle-earth Constructed",
+        "translation": "The Lord of the Rings: Tales of Middle-earth Constructed"
+    },
+    "MainNav/DeckFormat/LTRAlt": {
+        "oracleText": "The Lord of the Rings Constructed",
+        "translation": "The Lord of the Rings Constructed"
+    },
+    "MainNav/DeckFormat/LTRBrawl": {
+        "oracleText": "The Lord of The Rings Brawl",
+        "translation": "The Lord of The Rings Brawl"
     },
     "MainNav/DeckFormat/LastCall": {
         "oracleText": "Last Call",
@@ -29731,6 +30219,22 @@
         "oracleText": "White Dragon Bored Sticker Emote",
         "translation": "白龙无聊贴纸表情"
     },
+    "MainNav/EventRewards/Sticker_LTR_Generic": {
+        "oracleText": "Lord of the Rings Sticker Emote",
+        "translation": "Lord of the Rings Sticker Emote"
+    },
+    "MainNav/EventRewards/Sticker_LTR_MerryPippin_GG": {
+        "oracleText": "Merry & Pippin Sticker Emote",
+        "translation": "Merry & Pippin Sticker Emote"
+    },
+    "MainNav/EventRewards/Sticker_LTR_Saruman_Ponder": {
+        "oracleText": "Saruman Sticker Emote",
+        "translation": "Saruman Sticker Emote"
+    },
+    "MainNav/EventRewards/Sticker_LTR_Tom_Question": {
+        "oracleText": "Tom Bombadil Sticker Emote",
+        "translation": "Tom Bombadil Sticker Emote"
+    },
     "MainNav/EventRewards/Sticker_MOM_Chandra_Smoked": {
         "oracleText": "Chandra Smoked Sticker Emote",
         "translation": "Chandra Smoked Sticker Emote"
@@ -31015,9 +31519,17 @@
         "oracleText": "What treasures will you uncover in the Aftermath?",
         "translation": "What treasures will you uncover in the Aftermath?"
     },
+    "MainNav/HomePage/Carousel/2023_27_0_STORE_Desc": {
+        "oracleText": "It's time to fight against the darkness! Bolster your decks with heroic new Avatars, Sleeves, and more available in the Store!",
+        "translation": "It's time to fight against the darkness! Bolster your decks with heroic new Avatars, Sleeves, and more available in the Store!"
+    },
     "MainNav/HomePage/Carousel/2023_27_0_STORE_Desc_Alternative": {
         "oracleText": "Just because The Ring can't tempt you, doesn't mean these offers won't! Check out the store today to find new Avatars, Sleeves, and more!",
         "translation": "Just because The Ring can't tempt you, doesn't mean these offers won't! Check out the store today to find new Avatars, Sleeves, and more!"
+    },
+    "MainNav/HomePage/Carousel/2023_27_0_STORE_Title": {
+        "oracleText": "New Store Items have arrived!",
+        "translation": "New Store Items have arrived!"
     },
     "MainNav/HomePage/Carousel/2023_ONE_PreOrder_Desc": {
         "oracleText": "Preorders have a compleatly new look! Pick up the Pack Bundle, Play Bundle, or the new Pass Bundle before ONE releases to help ensure your victory against the threat of Phyrexia.",
@@ -32311,6 +32823,14 @@
         "oracleText": "Update 0.11 Rundown",
         "translation": "0.11更新概要"
     },
+    "MainNav/HomePage/Carousel/July_PotM_Here_Desc": {
+        "oracleText": "Want a beautiful, burly bear to accompany you on the battlefield? Bjorn may look cuddly, but he's got the tough hide required to keep you safe! Stop by the Store to pick him up today!",
+        "translation": "Want a beautiful, burly bear to accompany you on the battlefield? Bjorn may look cuddly, but he's got the tough hide required to keep you safe! Stop by the Store to pick him up today!"
+    },
+    "MainNav/HomePage/Carousel/July_PotM_Here_Title": {
+        "oracleText": "Bjorn is Back!",
+        "translation": "Bjorn is Back!"
+    },
     "MainNav/HomePage/Carousel/Jumpstart_Desc": {
         "oracleText": "Combine two themes together in this fun new way to play Magic!",
         "translation": "将两个主题的套牌组合在一起，以这种有趣而独特的方式游玩万智牌！"
@@ -32378,6 +32898,22 @@
     "MainNav/HomePage/Carousel/LTR_Previews_Title": {
         "oracleText": "The Lord of the Rings Previews!",
         "translation": "The Lord of the Rings Previews!"
+    },
+    "MainNav/HomePage/Carousel/LTR_Set_Mastery_Here_Desc": {
+        "oracleText": "The journey begins! Complete epic quests to earn packs, avatars, and more as you ascend the fiery steps of the Set Mastery!",
+        "translation": "The journey begins! Complete epic quests to earn packs, avatars, and more as you ascend the fiery steps of the Set Mastery!"
+    },
+    "MainNav/HomePage/Carousel/LTR_Set_Mastery_Here_Title": {
+        "oracleText": "The Lord of the Rings: Tales of Middle-earth Set Mastery has arrived!",
+        "translation": "The Lord of the Rings: Tales of Middle-earth Set Mastery has arrived!"
+    },
+    "MainNav/HomePage/Carousel/LTR_WPN_Magic_Celebration_Desc": {
+        "oracleText": "There's never been a better time to start playing Magic. Jump in with your friends to the celebration event and get rewards in-store* and a deck on MTG: Arena. *While supplies last.",
+        "translation": "There's never been a better time to start playing Magic. Jump in with your friends to the celebration event and get rewards in-store* and a deck on MTG: Arena. *While supplies last."
+    },
+    "MainNav/HomePage/Carousel/LTR_WPN_Magic_Celebration_Title": {
+        "oracleText": "Join in the Magic Celebration Event July 7-9.",
+        "translation": "Join in the Magic Celebration Event July 7-9."
     },
     "MainNav/HomePage/Carousel/Latest_Previews_AFR_Desc": {
         "oracleText": "It's time to roll your perception check and spot the latest preview cards for the next Magic set!",
@@ -35259,6 +35795,38 @@
         "oracleText": "A Reminder for your Upcoming Event!",
         "translation": "A Reminder for your Upcoming Event!"
     },
+    "MainNav/Mailbox/LTRAnnouncement_Description": {
+        "oracleText": "Become a part of the Fellowship as you journey across Middle-earth to destroy the One Ring. The path will be perilous, but fear not! We have 3 packs to aid you on this quest. Claim them now!",
+        "translation": "Become a part of the Fellowship as you journey across Middle-earth to destroy the One Ring. The path will be perilous, but fear not! We have 3 packs to aid you on this quest. Claim them now!"
+    },
+    "MainNav/Mailbox/LTRAnnouncement_Title": {
+        "oracleText": "The Lord of the Rings is on Arena!",
+        "translation": "The Lord of the Rings is on Arena!"
+    },
+    "MainNav/Mailbox/LTRFastFollowPatchNotes_Description": {
+        "oracleText": "Do you have the courage and wisdom to peer into the Mirror of Galadriel? If you be strong of heart, click the link below to see things that were, are, and will come to be in Arena!",
+        "translation": "Do you have the courage and wisdom to peer into the Mirror of Galadriel? If you be strong of heart, click the link below to see things that were, are, and will come to be in Arena!"
+    },
+    "MainNav/Mailbox/LTRFastFollowPatchNotes_Title": {
+        "oracleText": "2023.27.10 Patch Notes Are Here!",
+        "translation": "2023.27.10 Patch Notes Are Here!"
+    },
+    "MainNav/Mailbox/LTRMagicCelebration_FARM_Description": {
+        "oracleText": "Join in the fun on MTG Arena with your 60-card, Alchemy legal deck! Claim it below and start playing!",
+        "translation": "Join in the fun on MTG Arena with your 60-card, Alchemy legal deck! Claim it below and start playing!"
+    },
+    "MainNav/Mailbox/LTRMagicCelebration_FARM_Title": {
+        "oracleText": "Thank you for playing in The Lord of the Rings Magic Celebration Event!",
+        "translation": "Thank you for playing in The Lord of the Rings Magic Celebration Event!"
+    },
+    "MainNav/Mailbox/LTRPatchNotes_Description": {
+        "oracleText": "\"'I have prepared practically everything. There are\nfive ponies in a stable across the fields; stores and tackle are all packed' \" - Merry, Book 1, Page 107.\n\nIt's a long road ahead, and you must be prepared for what changes are to come. Click the link below to see everything new in MTG: Arena!",
+        "translation": "\"'I have prepared practically everything. There are\nfive ponies in a stable across the fields; stores and tackle are all packed' \" - Merry, Book 1, Page 107.\n\nIt's a long road ahead, and you must be prepared for what changes are to come. Click the link below to see everything new in MTG: Arena!"
+    },
+    "MainNav/Mailbox/LTRPatchNotes_Title": {
+        "oracleText": "2023.27.0 Patch Notes Are Here!",
+        "translation": "2023.27.0 Patch Notes Are Here!"
+    },
     "MainNav/Mailbox/LTRPreOrderPatchNotes_Description": {
         "oracleText": "What wonders await you in Middle-earth? The journey is about to begin–take a look at the Patch Notes to help you prepare for the various dangers and splendors ahead!",
         "translation": "What wonders await you in Middle-earth? The journey is about to begin–take a look at the Patch Notes to help you prepare for the various dangers and splendors ahead!"
@@ -35560,8 +36128,8 @@
         "translation": "即将停机"
     },
     "MainNav/Mailbox/VAT_Update_Description": {
-        "oracleText": "Starting with the update on May 18, Magic: The Gathering Arena is making some adjustments to its storefront in order to create pricing parity across devices and platforms throughout Europe to better account for value-added tax. \n\nFirst, players who are paying in Euros on PC will see approximately a 10% increase in prices. This will bring PC prices closer to being in line with mobile prices, which will not change. \n\nAdditionally, we will be removing the ability to switch between paying in Euros and Dollars. Players in Europe will now only be able to pay in Euros. \n\nAs an example, here are the price updates for Gem packages: \n\n750 gems: 4.99 USD/EUR -> 5.49 EUR \n1,600 gems: 9.99 USD/EUR -> 10.99 EUR \n3,400 gems: 19.99 USD/EUR -> 21.99 EUR \n9,200 gems: 49.99 USD/EUR -> 53.99 EUR \n10,000 gems: 99.99 USD/EUR -> 107.99 EUR \n\nThese changes are effective immediately and will not affect other regions.",
-        "translation": "Starting with the update on May 18, Magic: The Gathering Arena is making some adjustments to its storefront in order to create pricing parity across devices and platforms throughout Europe to better account for value-added tax. \n\nFirst, players who are paying in Euros on PC will see approximately a 10% increase in prices. This will bring PC prices closer to being in line with mobile prices, which will not change. \n\nAdditionally, we will be removing the ability to switch between paying in Euros and Dollars. Players in Europe will now only be able to pay in Euros. \n\nAs an example, here are the price updates for Gem packages: \n\n750 gems: 4.99 USD/EUR -> 5.49 EUR \n1,600 gems: 9.99 USD/EUR -> 10.99 EUR \n3,400 gems: 19.99 USD/EUR -> 21.99 EUR \n9,200 gems: 49.99 USD/EUR -> 53.99 EUR \n10,000 gems: 99.99 USD/EUR -> 107.99 EUR \n\nThese changes are effective immediately and will not affect other regions."
+        "oracleText": "Starting with the update on May 18, Magic: The Gathering Arena is making some adjustments to its storefront in order to create pricing parity across devices and platforms throughout Europe to better account for value-added tax. \n\nFirst, players who are paying in Euros on PC will see approximately a 10% increase in prices. This will bring PC prices closer to being in line with mobile prices, which will not change. \n\nAdditionally, we will be removing the ability to switch between paying in Euros and Dollars. Players in Europe will now only be able to pay in Euros. \n\nAs an example, here are the price updates for Gem packages: \n\n750 gems: 4.99 USD/EUR -> 5.49 EUR \n1,600 gems: 9.99 USD/EUR -> 10.99 EUR \n3,400 gems: 19.99 USD/EUR -> 21.99 EUR \n9,200 gems: 49.99 USD/EUR -> 53.99 EUR \n20,000 gems: 99.99 USD/EUR -> 107.99 EUR \n\nThese changes are effective immediately and will not affect other regions.",
+        "translation": "Starting with the update on May 18, Magic: The Gathering Arena is making some adjustments to its storefront in order to create pricing parity across devices and platforms throughout Europe to better account for value-added tax. \n\nFirst, players who are paying in Euros on PC will see approximately a 10% increase in prices. This will bring PC prices closer to being in line with mobile prices, which will not change. \n\nAdditionally, we will be removing the ability to switch between paying in Euros and Dollars. Players in Europe will now only be able to pay in Euros. \n\nAs an example, here are the price updates for Gem packages: \n\n750 gems: 4.99 USD/EUR -> 5.49 EUR \n1,600 gems: 9.99 USD/EUR -> 10.99 EUR \n3,400 gems: 19.99 USD/EUR -> 21.99 EUR \n9,200 gems: 49.99 USD/EUR -> 53.99 EUR \n20,000 gems: 99.99 USD/EUR -> 107.99 EUR \n\nThese changes are effective immediately and will not affect other regions."
     },
     "MainNav/Mailbox/VAT_Update_Description_Alt": {
         "oracleText": "These changes are effective May 18, 2023, and will not affect other regions.",
@@ -35570,6 +36138,14 @@
     "MainNav/Mailbox/VAT_Update_Title": {
         "oracleText": "Europe Arena Pricing Update",
         "translation": "Europe Arena Pricing Update"
+    },
+    "MainNav/Mailbox/WPN_LTR_NewPlayerEvent_Description": {
+        "oracleText": "Join us at your local WPN store from July 7th - 9th to Celebrate Magic, with just 3 easy steps!\n\n• Register and Jump In! The first 30 players to register and play Jumpstart at the Magic Celebration event will get a collectible dice set!\n• Form Your Fellowship! Bring up to eight friends and all of you will get a special promo card!\n• Claim Something Precious! Use your Companion account to get a special Ready-to-play deck on Arena!\n\nClick the link below to find the closest participating store!",
+        "translation": "Join us at your local WPN store from July 7th - 9th to Celebrate Magic, with just 3 easy steps!\n\n• Register and Jump In! The first 30 players to register and play Jumpstart at the Magic Celebration event will get a collectible dice set!\n• Form Your Fellowship! Bring up to eight friends and all of you will get a special promo card!\n• Claim Something Precious! Use your Companion account to get a special Ready-to-play deck on Arena!\n\nClick the link below to find the closest participating store!"
+    },
+    "MainNav/Mailbox/WPN_LTR_NewPlayerEvent_Title": {
+        "oracleText": "You are Cordially Invited to a Party of Great Importance",
+        "translation": "You are Cordially Invited to a Party of Great Importance"
     },
     "MainNav/Mailbox/Weekly_Blog_Description_Generic": {
         "oracleText": "New Announcements just dropped! Click the link to find the latest updates for MTG Arena, including upcoming events and what's next on the Premier Play schedule!",
@@ -35792,8 +36368,8 @@
         "translation": "黄金补充包包含6张稀有牌，每张有正常的概率升级成为秘稀稀有度。"
     },
     "MainNav/PackProgressMeter/CallToAction": {
-        "oracleText": "Purchase {remaining} more March of the Machine: The Aftermath and March of the Machine packs to earn a Golden Pack.",
-        "translation": "购买{remaining}或更多个邪军压境：终战回响或邪军压境补充包将获得一个黄金补充包。"
+        "oracleText": "Purchase {remaining} more The Lord of the Rings: Tales of Middle-earth, March of the Machine: The Aftermath, and March of the Machine packs to earn a Golden Pack.",
+        "translation": "Purchase {remaining} more The Lord of the Rings: Tales of Middle-earth, March of the Machine: The Aftermath, and March of the Machine packs to earn a Golden Pack."
     },
     "MainNav/PackProgressMeter/FullDetailsLink": {
         "oracleText": "Full Details",
@@ -36002,6 +36578,18 @@
     "MainNav/PetNames/Kunoros2": {
         "oracleText": "Kunoros: Pre-orders' Promotion",
         "translation": "库诺罗斯：预购促销"
+    },
+    "MainNav/PetNames/LTR_Mastery_1": {
+        "oracleText": "Summer Ent",
+        "translation": "Summer Ent"
+    },
+    "MainNav/PetNames/LTR_Mastery_2": {
+        "oracleText": "Autumn Ent",
+        "translation": "Autumn Ent"
+    },
+    "MainNav/PetNames/LTR_Mastery_3": {
+        "oracleText": "Winter Ent",
+        "translation": "Winter Ent"
     },
     "MainNav/PetNames/LTR_Preorder": {
         "oracleText": "The One Ring",
@@ -36967,6 +37555,14 @@
         "oracleText": "Oracle of the Alpha",
         "translation": "阿尔法先知"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_Aragorn_LTR_Bio": {
+        "oracleText": "Aragorn, legendary Ranger of the North, is a man of many destinies. As the descendant of Isildur, Aragorn wields his ancestor's reforged blade and joined the Fellowship of the Ring to settle his family's legacy. After the war, he claims the throne of Gondor and weds Arwen, his true love.",
+        "translation": "Aragorn, legendary Ranger of the North, is a man of many destinies. As the descendant of Isildur, Aragorn wields his ancestor's reforged blade and joined the Fellowship of the Ring to settle his family's legacy. After the war, he claims the throne of Gondor and weds Arwen, his true love."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Aragorn_LTR_Name": {
+        "oracleText": "Aragorn",
+        "translation": "Aragorn"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_Arvad_DMU_Bio": {
         "oracleText": "Once a proud Benalish knight, Arvad was turned into a vampire by a descendent of the notorious Sengir line. Wielding the same holy magic that lets him withstand sunlight and suppress his hunger for blood, Arvad guards his companions aboard the Weatherlight from the Phyrexian invaders.",
         "translation": "亚瓦德曾经是一名骄傲的宾纳里亚骑士，被臭名昭著的森吉尔家族的后裔变成了吸血鬼。挥舞着同样的神圣魔法，让他能够抵御阳光并抑制对血液的渴望，亚瓦德守护着他在晴空号上的同伴们，使他们免受非瑞克西亚入侵者的侵扰。"
@@ -36983,6 +37579,22 @@
         "oracleText": "Borborygmos and Fblthp",
         "translation": "咕噜力莫和夫毕佐"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_Boromir_LTR_Bio": {
+        "oracleText": "Boromir, the eldest son of the Steward of Gondor, is a proud fighter and a member of the Fellowship of the Ring. Tempted by the Ring's power, he attempts and fails to seize it from Frodo. When Uruk-hai attack the Fellowship at Amon Hen, Boromir meets a tragic end.",
+        "translation": "Boromir, the eldest son of the Steward of Gondor, is a proud fighter and a member of the Fellowship of the Ring. Tempted by the Ring's power, he attempts and fails to seize it from Frodo. When Uruk-hai attack the Fellowship at Amon Hen, Boromir meets a tragic end."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Boromir_LTR_Name": {
+        "oracleText": "Boromir",
+        "translation": "Boromir"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Eowyn_LTR_Bio": {
+        "oracleText": "Éowyn protects her homeland of Rohan as a skilled rider and a shieldmaiden. At the Battle of the Pelennor Fields, Éowyn demonstrates her prowess by slaying the Witch-king of Angmar, the Lord of the Nazgûl.",
+        "translation": "Éowyn protects her homeland of Rohan as a skilled rider and a shieldmaiden. At the Battle of the Pelennor Fields, Éowyn demonstrates her prowess by slaying the Witch-king of Angmar, the Lord of the Nazgûl."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Eowyn_LTR_Name": {
+        "oracleText": "Éowyn",
+        "translation": "Éowyn"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_FalcoSpara_SNC_Bio": {
         "oracleText": "Falco Spara is the head of the Brokers and one of the few in New Capenna old enough to remember the city's founding. With his ironclad contracts, Falco and his Brokers provide the highest order of protection to clients in need—provided they can shell out the cash.",
         "translation": "冯柯斯帕拉是扶济社的头儿，也是新卡佩纳为数不多的、足以记住这座城市成立的老人之一。冯柯斯帕拉和他的扶济社通过他的铁定合同，为有需要的客户提供最高级别的保护--只要他们能拿出钱来。"
@@ -36991,6 +37603,38 @@
         "oracleText": "Falco Spara, Pactweaver",
         "translation": "织契魔冯柯斯帕拉"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_Frodo_LTR_Bio": {
+        "oracleText": "Frodo and Sam are two Hobbits from the Shire who selflessly volunteer to destroy the One Ring in the fires of Mount Doom. They brave near-impossible odds throughout their quest, relying on the strength of their friendship to survive.",
+        "translation": "Frodo and Sam are two Hobbits from the Shire who selflessly volunteer to destroy the One Ring in the fires of Mount Doom. They brave near-impossible odds throughout their quest, relying on the strength of their friendship to survive."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Frodo_LTR_Name": {
+        "oracleText": "Frodo and Sam",
+        "translation": "Frodo and Sam"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Galadriel_LTR_Bio": {
+        "oracleText": "Galadriel carries one of the Three Rings of the Elves and is nearly as old as Middle-earth itself. She rules the forest of Lothlórien with her husband Celeborn and provides aid to the Fellowship of the Ring after their escape from Moria.",
+        "translation": "Galadriel carries one of the Three Rings of the Elves and is nearly as old as Middle-earth itself. She rules the forest of Lothlórien with her husband Celeborn and provides aid to the Fellowship of the Ring after their escape from Moria."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Galadriel_LTR_Name": {
+        "oracleText": "Galadriel",
+        "translation": "Galadriel"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Gandalf_LTR_Bio": {
+        "oracleText": "Gandalf is an ancient Wizard sent to Middle-earth in the Third Age to prevent Sauron's return to power. Centuries of wandering endeared him to the peoples of the land as a trusted sage. As the leader of the Fellowship of the Ring, he sets out to guide Frodo to destroy the One Ring.",
+        "translation": "Gandalf is an ancient Wizard sent to Middle-earth in the Third Age to prevent Sauron's return to power. Centuries of wandering endeared him to the peoples of the land as a trusted sage. As the leader of the Fellowship of the Ring, he sets out to guide Frodo to destroy the One Ring."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Gandalf_LTR_Name": {
+        "oracleText": "Gandalf",
+        "translation": "Gandalf"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Gollum_LTR_Bio": {
+        "oracleText": "Sméagol, also called Gollum, was once a Hobbit who discovered the One Ring and fell under its thrall. He accompanies Frodo and Sam as their guide into Mordor, all the while fighting an internal battle to help the Hobbits or seize the Ring for himself once more.",
+        "translation": "Sméagol, also called Gollum, was once a Hobbit who discovered the One Ring and fell under its thrall. He accompanies Frodo and Sam as their guide into Mordor, all the while fighting an internal battle to help the Hobbits or seize the Ring for himself once more."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Gollum_LTR_Name": {
+        "oracleText": "Gollum",
+        "translation": "Gollum"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_Jetmir_SNC_Bio": {
         "oracleText": "Living large and in charge of the Cabaretti is Jetmir, the affable emcee of New Capenna. Once a druid leonin and now a social butterfly, Jetmir provides the music, the dancing, and the halo to the people, and the people are happy to oblige.",
         "translation": "新卡佩纳和蔼可亲的司仪杰米尔是乐舞会的负责人。杰米尔曾经是狮族德鲁伊，现在则是一只社交“蝴蝶”，他为人们提供音乐、舞蹈和金圆，人们也乐意为之效劳。"
@@ -36998,6 +37642,14 @@
     "MainNav/Profile/Avatars/Avatar_Basic_Jetmir_SNC_Name": {
         "oracleText": "Jetmir, Nexus of Revels",
         "translation": "欢宴魔杰米尔"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Legolas_LTR_Bio": {
+        "oracleText": "Legolas, son of King Thranduil, is a member of the Fellowship of the Ring and an expert Elven archer. His keen senses can spot danger from a distance, which proves invaluable as the Fellowship crosses Middle-earth. He forms strong bonds with the party, especially the Dwarf warrior Gimli.",
+        "translation": "Legolas, son of King Thranduil, is a member of the Fellowship of the Ring and an expert Elven archer. His keen senses can spot danger from a distance, which proves invaluable as the Fellowship crosses Middle-earth. He forms strong bonds with the party, especially the Dwarf warrior Gimli."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Legolas_LTR_Name": {
+        "oracleText": "Legolas",
+        "translation": "Legolas"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_LilGiri_Bio": {
         "oracleText": "A brave li'l warrior from a distant li'l plane, Li'l Giri is a protector of those who can't protect themselves. He has a strong sense of justice, deft sword skills, and an unknown filling.",
@@ -37102,6 +37754,14 @@
     "MainNav/Profile/Avatars/Avatar_Basic_UNVorthos_Name": {
         "oracleText": "Vorthos, Steward of Myth",
         "translation": "神话管理者沃尔托斯"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Ugluk_LTR_Bio": {
+        "oracleText": "Uglúk, a fearsome captain of the Uruk-hai, leads the war party that slew Boromir at Amon Hen and attempts to take the Hobbits Pippin and Merry to Isengard. Near Fangorn Forest, the Rohirrim attack the Uruk-hai, killing Uglúk and freeing the Hobbits.",
+        "translation": "Uglúk, a fearsome captain of the Uruk-hai, leads the war party that slew Boromir at Amon Hen and attempts to take the Hobbits Pippin and Merry to Isengard. Near Fangorn Forest, the Rohirrim attack the Uruk-hai, killing Uglúk and freeing the Hobbits."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Ugluk_LTR_Name": {
+        "oracleText": "Uglúk",
+        "translation": "Uglúk"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Xander_SNC_Bio": {
         "oracleText": "At the top of the food chain for the Maestros is Lord Xander, an eternal vampire with a powerful demonic blessing. He positions himself as a curator and collector of Old Capenna's historical relics. The crown jewel in his collection? Himself, of course.",
@@ -38931,6 +39591,10 @@
         "oracleText": "1 Card Back",
         "translation": "1包补充包"
     },
+    "MainNav/Season/SparkRankReward_JumpIn_3": {
+        "oracleText": "3 Jump In! Tokens",
+        "translation": "3 Jump In! Tokens"
+    },
     "MainNav/Season/SparkRankReward_JumpIn_5": {
         "oracleText": "5 Jump In! Tokens",
         "translation": "5个速学门票"
@@ -38942,6 +39606,10 @@
     "MainNav/Season/SparkRankReward_Tier1": {
         "oracleText": "Tier 1 Rewards",
         "translation": "1段奖励"
+    },
+    "MainNav/Season/SparkRankReward_Tier1Single": {
+        "oracleText": "Tier 1 Reward",
+        "translation": "Tier 1 Reward"
     },
     "MainNav/Season/SparkRankReward_Tier2": {
         "oracleText": "Tier 2 Reward",
@@ -38955,9 +39623,17 @@
         "oracleText": "Tier 4 Reward",
         "translation": "4段奖励"
     },
+    "MainNav/Season/SparkRankReward_Tier4Plural": {
+        "oracleText": "Tier 4 Rewards",
+        "translation": "Tier 4 Rewards"
+    },
     "MainNav/Season/SparkRankReward_UnlockAllModes": {
         "oracleText": "Unlock All Modes",
         "translation": "解锁所有模式"
+    },
+    "MainNav/Season/SparkRankReward_UnlockJumpIn": {
+        "oracleText": "Unlock Jump In! Event",
+        "translation": "Unlock Jump In! Event"
     },
     "MainNav/SetAnnouncements/AnnounceEnterButton": {
         "oracleText": "Explore",
@@ -39982,6 +40658,14 @@
     "MainNav/Store/Bundle_SLD_BloodBowl_Name": {
         "oracleText": "Secret Lair x Warhammer: Blood Bowl Sleeves",
         "translation": "秘室珍品 x 战锤：怒火橄榄球牌套"
+    },
+    "MainNav/Store/Bundles/BundleLTR_Name_Generic1": {
+        "oracleText": "Lord of the Rings Bundle",
+        "translation": "Lord of the Rings Bundle"
+    },
+    "MainNav/Store/Bundles/BundleLTR_Name_Generic2": {
+        "oracleText": "Lord of the Rings Card Style Bundle",
+        "translation": "Lord of the Rings Card Style Bundle"
     },
     "MainNav/Store/Bundles/Bundle_AFR_A_Desc": {
         "oracleText": "Drizzt Do'Urden Card Style\nShessra, Death's Whisper Card Style\nKalain, Reclusive Painter Card Style\nLurking Roper Card Style\nMind Flayer Card Style\nBaleful Beholder Card Style",
@@ -41310,6 +41994,78 @@
     "MainNav/Store/Bundles/Bundle_KLR_Thopter_Name": {
         "oracleText": "Thopter Bundle",
         "translation": "振翼机套装"
+    },
+    "MainNav/Store/Bundles/Bundle_LTR_Boromir_Desc": {
+        "oracleText": "Boromir Avatar\nThe Shield of Gondor Sleeve",
+        "translation": "Boromir Avatar\nThe Shield of Gondor Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_LTR_Boromir_Name": {
+        "oracleText": "Boromir Avatar Bundle",
+        "translation": "Boromir Avatar Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_LTR_FF_Desc": {
+        "oracleText": "Minas Tirith Borderless Card Style\nRivendell Borderless Card Style\nBarad-dûr Borderless Card Style\nMines of Moria Borderless Card Style\nThe Shire Borderless Card Style\nMount Doom Borderless Card Style",
+        "translation": "Minas Tirith Borderless Card Style\nRivendell Borderless Card Style\nBarad-dûr Borderless Card Style\nMines of Moria Borderless Card Style\nThe Shire Borderless Card Style\nMount Doom Borderless Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_LTR_FF_Name": {
+        "oracleText": "Borderless Legendary Lands",
+        "translation": "Borderless Legendary Lands"
+    },
+    "MainNav/Store/Bundles/Bundle_LTR_MapLands_Desc": {
+        "oracleText": "Full Art Plains\nFull Art Plains\nFull Art Island\nFull Art Island\nFull Art Swamp\nFull Art Swamp\nFull Art Mountain\nFull Art Mountain\nFull Art Forest\nFull Art Forest",
+        "translation": "Full Art Plains\nFull Art Plains\nFull Art Island\nFull Art Island\nFull Art Swamp\nFull Art Swamp\nFull Art Mountain\nFull Art Mountain\nFull Art Forest\nFull Art Forest"
+    },
+    "MainNav/Store/Bundles/Bundle_LTR_MapLands_Name": {
+        "oracleText": "Full Art Map Lands",
+        "translation": "Full Art Map Lands"
+    },
+    "MainNav/Store/Bundles/Bundle_LTR_SH1_Desc": {
+        "oracleText": "Aragorn, Company Leader Card Style\nBoromir, Warden of the Tower Card Style\nFrodo Baggins Card Style\nGandalf the Grey Card Style\nGimli, Mournful Avenger Card Style\nLegolas, Master Archer Card Style\nMeriadoc Brandybuck Card Style\nPeregrin Took Card Style\nSamwise Gamgee Card Style",
+        "translation": "Aragorn, Company Leader Card Style\nBoromir, Warden of the Tower Card Style\nFrodo Baggins Card Style\nGandalf the Grey Card Style\nGimli, Mournful Avenger Card Style\nLegolas, Master Archer Card Style\nMeriadoc Brandybuck Card Style\nPeregrin Took Card Style\nSamwise Gamgee Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_LTR_SH1_Name": {
+        "oracleText": "The Fellowship Begins",
+        "translation": "The Fellowship Begins"
+    },
+    "MainNav/Store/Bundles/Bundle_LTR_SH2_Desc": {
+        "oracleText": "Gollum, Patient Plotter Card Style\nSaruman of Many Colors Card Style\nSauron, the Dark Lord Card Style\nSauron, the Necromancer Card Style\nSméagol, Helpful Guide Card Style\nWitch-king of Angmar Card Style",
+        "translation": "Gollum, Patient Plotter Card Style\nSaruman of Many Colors Card Style\nSauron, the Dark Lord Card Style\nSauron, the Necromancer Card Style\nSméagol, Helpful Guide Card Style\nWitch-king of Angmar Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_LTR_SH2_Name": {
+        "oracleText": "The Forces of Darkness",
+        "translation": "The Forces of Darkness"
+    },
+    "MainNav/Store/Bundles/Bundle_LTR_SH3_Desc": {
+        "oracleText": "Elrond, Lord of Rivendell Card Style\nElrond, Master of Healing Card Style\nFaramir, Field Commander Card Style\nFaramir, Prince of Ithilien Card Style\nGaladriel of Lothlórien Card Style\nGandalf, Friend of the Shire Card Style\nTom Bombadil Card Style",
+        "translation": "Elrond, Lord of Rivendell Card Style\nElrond, Master of Healing Card Style\nFaramir, Field Commander Card Style\nFaramir, Prince of Ithilien Card Style\nGaladriel of Lothlórien Card Style\nGandalf, Friend of the Shire Card Style\nTom Bombadil Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_LTR_SH3_Name": {
+        "oracleText": "The Free Folk",
+        "translation": "The Free Folk"
+    },
+    "MainNav/Store/Bundles/Bundle_LTR_SH4_Desc": {
+        "oracleText": "Aragorn, the Uniter Card Style\nFrodo, Sauron's Bane Card Style\nGandalf the White Card Style\nGimli, Counter of Kills Card Style\nLegolas, Counter of Kills Card Style\nMerry, Esquire of Rohan Card Style\nPippin, Guard of the Citadel Card Style\nSamwise the Stouthearted Card Style",
+        "translation": "Aragorn, the Uniter Card Style\nFrodo, Sauron's Bane Card Style\nGandalf the White Card Style\nGimli, Counter of Kills Card Style\nLegolas, Counter of Kills Card Style\nMerry, Esquire of Rohan Card Style\nPippin, Guard of the Citadel Card Style\nSamwise the Stouthearted Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_LTR_SH4_Name": {
+        "oracleText": "The Saviors of Middle-earth",
+        "translation": "The Saviors of Middle-earth"
+    },
+    "MainNav/Store/Bundles/Bundle_LTR_Stickers_Desc": {
+        "oracleText": "Saruman Sticker Emote\nTom Bombadil Sticker Emote\nMerry & Pippin Sticker Emote",
+        "translation": "Saruman Sticker Emote\nTom Bombadil Sticker Emote\nMerry & Pippin Sticker Emote"
+    },
+    "MainNav/Store/Bundles/Bundle_LTR_Stickers_Name": {
+        "oracleText": "Lord of the Rings Sticker Bundle",
+        "translation": "Lord of the Rings Sticker Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_LTR_Ugluk_Desc": {
+        "oracleText": "Uglúk Avatar\nThe White Hand of Saruman Sleeve",
+        "translation": "Uglúk Avatar\nThe White Hand of Saruman Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_LTR_Ugluk_Name": {
+        "oracleText": "Uglúk Avatar Bundle",
+        "translation": "Uglúk Avatar Bundle"
     },
     "MainNav/Store/Bundles/Bundle_LandLovers_Desc": {
         "oracleText": "Terravore Card Style\nDragonmaster Outcast Card Style\nGhost Quarter Card Style\nKnight of the Reliquary Card Style\nBojuka Bog Card Style",
@@ -45011,9 +45767,53 @@
         "oracleText": "^ǩaπa・'əţə''jnaķm・χtønu.",
         "translation": "^ǩaπa・'əţə''jnaķm・χtønu."
     },
+    "Match/QueueTips/Queue_Tip_178": {
+        "oracleText": "To show only cards from The Lord of the Rings: Tales of Middle-earth in the deckbuilder, type \"set:LTR\" into the search bar. Each set has a unique 3-letter-code.",
+        "translation": "To show only cards from The Lord of the Rings: Tales of Middle-earth in the deckbuilder, type \"set:LTR\" into the search bar. Each set has a unique 3-letter-code."
+    },
+    "Match/QueueTips/Queue_Tip_179": {
+        "oracleText": "\"All we have to decide is what to do with the time that is given us.\" —Gandalf",
+        "translation": "\"All we have to decide is what to do with the time that is given us.\" —Gandalf"
+    },
     "Match/QueueTips/Queue_Tip_18": {
         "oracleText": "Press 'CTRL' key ('CMD'key on Mac) to use Full Control for the next action, and 'SHIFT+CTRL' keys ('SHIFT+CMD' keys on Mac) to use Full Control until you turn it off.",
         "translation": "按下Ctrl键(Mac为'CMD'键)便可为下次行动时启用「完全掌控」，而按下Shift+Ctrl键(Mac为'SHIFT'+'CMD'键)便会一直启用「完全掌控」，直到你关闭为止。"
+    },
+    "Match/QueueTips/Queue_Tip_180": {
+        "oracleText": "\"I am a servant of the Secret Fire, wielder of the flame of Anor. You cannot pass. The dark fire will not avail you, flame of Udûn. Go back to the Shadow! You cannot pass.\" -Gandalf",
+        "translation": "\"I am a servant of the Secret Fire, wielder of the flame of Anor. You cannot pass. The dark fire will not avail you, flame of Udûn. Go back to the Shadow! You cannot pass.\" -Gandalf"
+    },
+    "Match/QueueTips/Queue_Tip_181": {
+        "oracleText": "\"'He stands not alone,' said Legolas, bending his bow and fitting an arrow with hands that moved quicker than sight. 'You would die before your stroke fell.'\" —Legolas, to Éomer",
+        "translation": "\"'He stands not alone,' said Legolas, bending his bow and fitting an arrow with hands that moved quicker than sight. 'You would die before your stroke fell.'\" —Legolas, to Éomer"
+    },
+    "Match/QueueTips/Queue_Tip_182": {
+        "oracleText": "‘Faithless is he that says farewell when the road darkens,' -Gimli",
+        "translation": "‘Faithless is he that says farewell when the road darkens,' -Gimli"
+    },
+    "Match/QueueTips/Queue_Tip_183": {
+        "oracleText": "\"It is useless to meet revenge with revenge: it will heal nothing.\" —Frodo",
+        "translation": "\"It is useless to meet revenge with revenge: it will heal nothing.\" —Frodo"
+    },
+    "Match/QueueTips/Queue_Tip_184": {
+        "oracleText": "\"For the Quest is achieved, and now all is over. I am glad you are here with me. Here at the end of all things, Sam.\" —Frodo, to Sam",
+        "translation": "\"For the Quest is achieved, and now all is over. I am glad you are here with me. Here at the end of all things, Sam.\" —Frodo, to Sam"
+    },
+    "Match/QueueTips/Queue_Tip_185": {
+        "oracleText": "\"Arise now, arise, Riders of Théoden! Dire deeds awake, dark is it eastward. Let horse be bridled, horn be sounded! Forth Eorlingas!\" —Théoden",
+        "translation": "\"Arise now, arise, Riders of Théoden! Dire deeds awake, dark is it eastward. Let horse be bridled, horn be sounded! Forth Eorlingas!\" —Théoden"
+    },
+    "Match/QueueTips/Queue_Tip_186": {
+        "oracleText": "\"I do not love the bright sword for its sharpness, nor the arrow for its swiftness, nor the warrior for his glory. I love only that which they defend...\" —Faramir",
+        "translation": "\"I do not love the bright sword for its sharpness, nor the arrow for its swiftness, nor the warrior for his glory. I love only that which they defend...\" —Faramir"
+    },
+    "Match/QueueTips/Queue_Tip_187": {
+        "oracleText": "\"In sorrow we must go, but not in despair. Behold! we are not bound for ever to the circles of the world, and beyond them is more than memory.\" —Aragorn",
+        "translation": "\"In sorrow we must go, but not in despair. Behold! we are not bound for ever to the circles of the world, and beyond them is more than memory.\" —Aragorn"
+    },
+    "Match/QueueTips/Queue_Tip_188": {
+        "oracleText": "\"For thus is it spoken: Oft hope is born, when all is forlorn.\" —Legolas, to Aragorn",
+        "translation": "\"For thus is it spoken: Oft hope is born, when all is forlorn.\" —Legolas, to Aragorn"
     },
     "Match/QueueTips/Queue_Tip_189": {
         "oracleText": "Right click a card during a game to zoom in, giving you more information!",
@@ -47959,6 +48759,10 @@
         "oracleText": "Competitive",
         "translation": "竞技"
     },
+    "PlayBlade/Filters/Dynamic/LTRLimitedTitle": {
+        "oracleText": "The Lord of The Rings Limited",
+        "translation": "The Lord of The Rings Limited"
+    },
     "PlayBlade/Filters/Dynamic/MOMLimitedTitle": {
         "oracleText": "March of the Machine Limited",
         "translation": "邪军压境限制赛"
@@ -48663,6 +49467,86 @@
         "oracleText": "These sets will be playable only in Historic play modes.",
         "translation": "这些系列只能在史迹模式中使用。"
     },
+    "SJMP_PacketName_LTR_Amass": {
+        "oracleText": "Amass",
+        "translation": "Amass"
+    },
+    "SJMP_PacketName_LTR_Breakfast": {
+        "oracleText": "Breakfast",
+        "translation": "Breakfast"
+    },
+    "SJMP_PacketName_LTR_Elves": {
+        "oracleText": "Elves",
+        "translation": "Elves"
+    },
+    "SJMP_PacketName_LTR_Humans": {
+        "oracleText": "Humans",
+        "translation": "Humans"
+    },
+    "SJMP_PacketName_LTR_Insight": {
+        "oracleText": "Insight",
+        "translation": "Insight"
+    },
+    "SJMP_PacketName_LTR_Moria": {
+        "oracleText": "Moria",
+        "translation": "Moria"
+    },
+    "SJMP_PacketName_LTR_SUP_Adorned": {
+        "oracleText": "Adorned",
+        "translation": "Adorned"
+    },
+    "SJMP_PacketName_LTR_SUP_Blighted": {
+        "oracleText": "Blighted",
+        "translation": "Blighted"
+    },
+    "SJMP_PacketName_LTR_SUP_Captain": {
+        "oracleText": "Captain",
+        "translation": "Captain"
+    },
+    "SJMP_PacketName_LTR_SUP_Foul": {
+        "oracleText": "Foul",
+        "translation": "Foul"
+    },
+    "SJMP_PacketName_LTR_SUP_Greedy": {
+        "oracleText": "Greedy",
+        "translation": "Greedy"
+    },
+    "SJMP_PacketName_LTR_SUP_Horde": {
+        "oracleText": "Horde",
+        "translation": "Horde"
+    },
+    "SJMP_PacketName_LTR_SUP_Rallying": {
+        "oracleText": "Rallying",
+        "translation": "Rallying"
+    },
+    "SJMP_PacketName_LTR_SUP_Stalwart": {
+        "oracleText": "Stalwart",
+        "translation": "Stalwart"
+    },
+    "SJMP_PacketName_LTR_SUP_Treefolk": {
+        "oracleText": "Treefolk",
+        "translation": "Treefolk"
+    },
+    "SJMP_PacketName_LTR_SUP_Wizard": {
+        "oracleText": "Wizard",
+        "translation": "Wizard"
+    },
+    "SJMP_PacketName_LTR_Saurons": {
+        "oracleText": "Sauron's",
+        "translation": "Sauron's"
+    },
+    "SJMP_PacketName_LTR_Shire": {
+        "oracleText": "Shire",
+        "translation": "Shire"
+    },
+    "SJMP_PacketName_LTR_Tokens": {
+        "oracleText": "Tokens",
+        "translation": "Tokens"
+    },
+    "SJMP_PacketName_LTR_Wild": {
+        "oracleText": "Wild",
+        "translation": "Wild"
+    },
     "Social/Challenge/Request_Message": {
         "oracleText": "{playerName} is challenging you to a match!",
         "translation": "{playerName}向你发出对战请求！"
@@ -49144,8 +50028,8 @@
         "translation": "我们将在90分钟后关闭系统以进行例行维护。欲了解详情，请访问 https://magicthegatheringarena.statuspage.io。维护开始前60分钟，牌手便无法开始新对局或登录游戏。"
     },
     "SystemMessage/System_Access_Denied_Permission_Text": {
-        "oracleText": "Access Denied - You do not currently have permission to connect",
-        "translation": "拒绝访问 - 你当前无权连接"
+        "oracleText": "Please wait or check online for more information.",
+        "translation": "Please wait or check online for more information."
     },
     "SystemMessage/System_Account_Banned": {
         "oracleText": "Account is banned",
@@ -49528,8 +50412,8 @@
         "translation": "宝石数量不足，无法完成此次购买。需要购买宝石吗？"
     },
     "SystemMessage/System_Insufficient_Roles": {
-        "oracleText": "You do not have the right roles for this action.",
-        "translation": "角色错误，无法完成此操作。"
+        "oracleText": "Your client version isn't currently available.",
+        "translation": "Your client version isn't currently available."
     },
     "SystemMessage/System_Invalid_Client_Version_Text": {
         "oracleText": "An update is required for compatibility. Please run MTGALauncher.exe to update to the latest version of MTG Arena and log in again.",
