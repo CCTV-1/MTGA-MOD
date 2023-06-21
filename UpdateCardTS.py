@@ -50,8 +50,14 @@ if __name__ == "__main__":
     with sqlite3.connect(DBPath) as cardDBConnect:
         cardDBCursor = cardDBConnect.cursor()
         for rawRow in cardDBCursor.execute('SELECT LocId,Formatted,KnownTitleId,enUS,jaJP,phyrexian FROM Localizations;'):
+            # if Formatted == 0,the oracle text maybe contain non-ASCII character.
+            # if Formatted == 1,the oracle text maybe contain style label and non-ASCII character.
+            # if Formatted == 2,the oracle text is ASCII string.
+            # client only use Formatted == 1 entry to display.
+            # if a entry 0,1,2 text is equal,its maybe only have 1.
+            # for convenience(this will cause lose style label) we just keep last entry then set it Formatted = 1.
             RawData[rawRow[0]] = {
-                'Formatted': rawRow[1],
+                'Formatted': 1,
                 'KnownTitleId': rawRow[2],
                 'enUS': rawRow[3],
                 'jaJP': rawRow[4],
