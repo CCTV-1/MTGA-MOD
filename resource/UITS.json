@@ -2143,6 +2143,10 @@
         "oracleText": "Exiled Under",
         "translation": "被放逐中"
     },
+    "AbilityHanger/SpecialHangers/FaceDownIdentifier": {
+        "oracleText": "Face down permanent {faceDownId}.",
+        "translation": "面朝下的永久物：{faceDownId}。"
+    },
     "AbilityHanger/SpecialHangers/FlavorTextHeader": {
         "oracleText": "Flavor Text",
         "translation": "背景叙述"
@@ -2363,6 +2367,10 @@
         "oracleText": "An opponent has more life than you.",
         "translation": "有对手拥有比你更多的生命。"
     },
+    "AbilityHanger/SpecialHangers/TempBanned_Body": {
+        "oracleText": "This card is temporarily prohibited and not legal in any format.",
+        "translation": "这张牌被临时禁用，在任何赛制都不合法。"
+    },
     "AbilityHanger/SpecialHangers/TokenAffinity_Body": {
         "oracleText": "This spell costs <sprite=\"SpriteSheet_ManaIcons\" name=\"x1\"> less to cast for each token you control.",
         "translation": "你每操控一个衍生物，此咒语便减少<sprite=\"SpriteSheet_ManaIcons\" name=\"x1\"> 来施放。"
@@ -2468,12 +2476,12 @@
         "translation": "莱埃泽尔游玩预购"
     },
     "Apple/Preorder_Jun23_ShortName": {
-        "oracleText": "Play Pre-order",
-        "translation": "Play Pre-order"
+        "oracleText": "Hylda Play Pre-order",
+        "translation": "Hylda Play Pre-order"
     },
     "Apple/Preorder_LTR_1_ShortName": {
-        "oracleText": "Aragorn Pack Pre-order",
-        "translation": "Aragorn Pack Pre-order"
+        "oracleText": "Agatha Pack Pre-order",
+        "translation": "Agatha Pack Pre-order"
     },
     "Apple/Preorder_LTR_2_ShortName": {
         "oracleText": "Gandalf Pass Pre-order",
@@ -2587,6 +2595,22 @@
         "oracleText": "Sorin Play Pre-order",
         "translation": "索霖游玩预购"
     },
+    "Apple/Preorder_WOE_1_ShortName": {
+        "oracleText": "Agatha Pack Pre-order",
+        "translation": "Agatha Pack Pre-order"
+    },
+    "Apple/Preorder_WOE_2_ShortName": {
+        "oracleText": "Eriette Pass Pre-order",
+        "translation": "Eriette Pass Pre-order"
+    },
+    "Apple/Preorder_WOE_3_ShortName": {
+        "oracleText": "Eriette Pass Pre-order",
+        "translation": "Eriette Pass Pre-order"
+    },
+    "Apple/Preorder_WOE_ShortName": {
+        "oracleText": "Hylda Play Pre-order",
+        "translation": "Hylda Play Pre-order"
+    },
     "Apple/bundle_wildcards_15_0_ShortDesc": {
         "oracleText": "12 Rares, 4 Mythic Rares",
         "translation": "12张稀有，4张秘稀"
@@ -2680,19 +2704,19 @@
         "translation": "2颗精研法珠"
     },
     "BattlePass/Rewards/AFR_Level1": {
-        "oracleText": "Ellywick Tumblestrum Avatar & Tiamat Sleeve & Red Dragon Pet",
+        "oracleText": "Ellywick Tumblestrum Avatar & Tiamat Sleeve & Red Dragon Companion",
         "translation": "艾利薇鼓琴头像 & 提亚玛特牌套  & 红龙宠物"
     },
     "BattlePass/Rewards/AFR_PetBlue_And_Orb": {
-        "oracleText": "1 Set Mastery Orb & Blue Dragon Pet",
+        "oracleText": "1 Set Mastery Orb & Blue Dragon Companion",
         "translation": "1颗精研法珠 & 蓝龙宠物"
     },
     "BattlePass/Rewards/AFR_PetGreen_And_Orb": {
-        "oracleText": "1 Set Mastery Orb & Green Dragon Pet",
+        "oracleText": "1 Set Mastery Orb & Green Dragon Companion",
         "translation": "1颗精研法珠 & 绿龙宠物"
     },
     "BattlePass/Rewards/AFR_PetWhite_And_Orb": {
-        "oracleText": "1 Set Mastery Orb & White Dragon Pet",
+        "oracleText": "1 Set Mastery Orb & White Dragon Companion",
         "translation": "1颗精研法珠 & 白龙宠物"
     },
     "BattlePass/Rewards/Avatar": {
@@ -2700,15 +2724,15 @@
         "translation": "{AvatarName}头像"
     },
     "BattlePass/Rewards/BRO_Level1": {
-        "oracleText": "Urzan Automaton Avatar, Common Urzan Soldier Pet, and The Brothers' War Sleeve",
+        "oracleText": "Urzan Automaton Avatar, Common Urzan Soldier Companion, and The Brothers' War Sleeve",
         "translation": "克撒的自动械头像、普通克撒的士兵宠物、以及兄弟之战牌套"
     },
     "BattlePass/Rewards/BRO_Pet2_And_Orb": {
-        "oracleText": "1 Set Mastery Orb & Uncommon Urzan Soldier Pet",
+        "oracleText": "1 Set Mastery Orb & Uncommon Urzan Soldier Companion",
         "translation": "1颗精研法珠 & 非凡克撒的士兵宠物"
     },
     "BattlePass/Rewards/BRO_Pet3_And_Orb": {
-        "oracleText": "1 Set Mastery Orb & Rare Urzan Soldier Pet",
+        "oracleText": "1 Set Mastery Orb & Rare Urzan Soldier Companion",
         "translation": "1颗精研法珠 & 稀有克撒的士兵宠物"
     },
     "BattlePass/Rewards/BRO_Pet_Hover": {
@@ -2732,15 +2756,15 @@
         "translation": "1颗精研法珠 & 1 张卡牌"
     },
     "BattlePass/Rewards/DMU_Level1": {
-        "oracleText": "Jaya, Fiery Negotiator Avatar, Rundvelt Goblin Pet, and Dominaria United Sleeve",
+        "oracleText": "Jaya, Fiery Negotiator Avatar, Rundvelt Goblin Companion, and Dominaria United Sleeve",
         "translation": "烈火来使雅亚头像、温德汶鬼怪宠物、以及多明纳里亚：众志成城牌套"
     },
     "BattlePass/Rewards/DMU_Pet2_And_Orb": {
-        "oracleText": "1 Set Mastery Orb & Caliman Goblin Pet",
+        "oracleText": "1 Set Mastery Orb & Caliman Goblin Companion",
         "translation": "1颗精研法珠 & 卡利曼鬼怪宠物"
     },
     "BattlePass/Rewards/DMU_Pet3_And_Orb": {
-        "oracleText": "1 Set Mastery Orb & Otarian Goblin Pet",
+        "oracleText": "1 Set Mastery Orb & Otarian Goblin Companion",
         "translation": "1颗精研法珠 & 欧塔利亚鬼怪宠物"
     },
     "BattlePass/Rewards/DMU_Pet_Hover": {
@@ -2868,15 +2892,15 @@
         "translation": "{count}枚金币"
     },
     "BattlePass/Rewards/HBG_Level1": {
-        "oracleText": "Minsc & Boo Avatar, Bronze Dragon Pet, and Minsc & Boo Sleeve",
+        "oracleText": "Minsc & Boo Avatar, Bronze Dragon Companion, and Minsc & Boo Sleeve",
         "translation": "明斯克与布布头像、青铜龙宠物、以及明斯克与布布牌套"
     },
     "BattlePass/Rewards/HBG_Pet2_And_Orb": {
-        "oracleText": "1 Set Mastery Orb & Silver Dragon Pet",
+        "oracleText": "1 Set Mastery Orb & Silver Dragon Companion",
         "translation": "1颗精研法珠 & 银龙宠物"
     },
     "BattlePass/Rewards/HBG_Pet3_And_Orb": {
-        "oracleText": "1 Set Mastery Orb & Gold Dragon Pet",
+        "oracleText": "1 Set Mastery Orb & Gold Dragon Companion",
         "translation": "1颗精研法珠 & 金龙宠物"
     },
     "BattlePass/Rewards/HBG_Pet_Hover": {
@@ -2932,7 +2956,7 @@
         "translation": "凯德海姆的荣耀精饰牌套"
     },
     "BattlePass/Rewards/KHM_Level1": {
-        "oracleText": "Beskir, Elven, & Littjara Bear Pets, Niko Aris Avatar, & The World Tree Sleeve",
+        "oracleText": "Beskir, Elven, & Littjara Bear Companions, Niko Aris Avatar, & The World Tree Sleeve",
         "translation": "稀有-贝斯奇妖精利雅拉-熊宠物，尼科阿理斯头像，& 世界树牌套"
     },
     "BattlePass/Rewards/KHM_Lvl11_DA_Orb": {
@@ -3016,11 +3040,11 @@
         "translation": "1颗精研法珠 & 冰冻烈焰埃加尔卡牌样式"
     },
     "BattlePass/Rewards/KHM_PetTier2_And_Orb": {
-        "oracleText": "1 Set Mastery Orb & Uncommon Beskir, Elven, & Littjara Bear Pets",
+        "oracleText": "1 Set Mastery Orb & Uncommon Beskir, Elven, & Littjara Bear Companions",
         "translation": "1颗精研法珠 & 非凡-贝斯奇妖精利雅拉-熊宠物"
     },
     "BattlePass/Rewards/KHM_PetTier3_And_Orb": {
-        "oracleText": "1 Set Mastery Orb & Rare Beskir, Elven, & Littjara Bear Pets",
+        "oracleText": "1 Set Mastery Orb & Rare Beskir, Elven, & Littjara Bear Companions",
         "translation": "1颗精研法珠 & 稀有-贝斯奇妖精利雅拉-熊宠物"
     },
     "BattlePass/Rewards/KHM_ThemeRare_Desc": {
@@ -3028,7 +3052,7 @@
         "translation": "4 份稀有<i>凯德海姆</i>主题补充包。"
     },
     "BattlePass/Rewards/LTR_Level1": {
-        "oracleText": "Gandalf Avatar, Summer Ent Pet, and Frodo the Ringbearer Sleeve",
+        "oracleText": "Gandalf Avatar, Summer Ent Companion, and Frodo the Ringbearer Sleeve",
         "translation": "甘道夫头像、盛夏恩特宠物以及弗罗多牌套"
     },
     "BattlePass/Rewards/LTR_Level1_Alt": {
@@ -3036,7 +3060,7 @@
         "translation": "甘道夫头像、盛夏恩特伙伴以及弗罗多牌套"
     },
     "BattlePass/Rewards/LTR_Pet2_And_Orb": {
-        "oracleText": "1 Set Mastery Orb & Autumn Ent Pet",
+        "oracleText": "1 Set Mastery Orb & Autumn Ent Companion",
         "translation": "1颗精研法珠 & 暮秋恩特宠物"
     },
     "BattlePass/Rewards/LTR_Pet2_And_Orb_Alt": {
@@ -3044,7 +3068,7 @@
         "translation": "1颗精研法珠 & 暮秋恩特伙伴"
     },
     "BattlePass/Rewards/LTR_Pet3_And_Orb": {
-        "oracleText": "1 Set Mastery Orb & Winter Ent Pet",
+        "oracleText": "1 Set Mastery Orb & Winter Ent Companion",
         "translation": "1颗精研法珠 & 凛冬恩特宠物"
     },
     "BattlePass/Rewards/LTR_Pet3_And_Orb_Alt": {
@@ -3176,15 +3200,15 @@
         "translation": "1包补充包 & 温顺的小狗"
     },
     "BattlePass/Rewards/MID_Level1": {
-        "oracleText": "Wrenn and Seven Avatar & The Drifter Pet & Midnight Hunt Sleeve",
+        "oracleText": "Wrenn and Seven Avatar & The Drifter Companion & Midnight Hunt Sleeve",
         "translation": "芮恩与七树妖 & 流浪者宠物 & 黯夜猎踪牌套"
     },
     "BattlePass/Rewards/MID_Pet2_And_Orb": {
-        "oracleText": "1 Set Mastery Orb & The Noble Pet",
+        "oracleText": "1 Set Mastery Orb & The Noble Companion",
         "translation": "1颗精研法珠 & The Noble宠物"
     },
     "BattlePass/Rewards/MID_Pet3_And_Orb": {
-        "oracleText": "1 Set Mastery Orb & The Fisherman Pet",
+        "oracleText": "1 Set Mastery Orb & The Fisherman Companion",
         "translation": "1颗精研法珠 & 渔夫宠物"
     },
     "BattlePass/Rewards/MID_Pet_Hover": {
@@ -3192,16 +3216,16 @@
         "translation": "渔夫：精研通行证等级达到40"
     },
     "BattlePass/Rewards/MOM_Level1": {
-        "oracleText": "Archangel Elspeth Avatar, Noxious Stinger Pet, and March of the Machine Sleeve",
-        "translation": "Archangel Elspeth Avatar, Noxious Stinger Pet, and March of the Machine Sleeve"
+        "oracleText": "Archangel Elspeth Avatar, Noxious Stinger Companion, and March of the Machine Sleeve",
+        "translation": "Archangel Elspeth Avatar, Noxious Stinger Companion, and March of the Machine Sleeve"
     },
     "BattlePass/Rewards/MOM_Pet2_And_Orb": {
-        "oracleText": "1 Set Mastery Orb & Ichorous Bearhino Pet",
-        "translation": "1 Set Mastery Orb & Ichorous Bearhino Pet"
+        "oracleText": "1 Set Mastery Orb & Ichorous Bearhino Companion",
+        "translation": "1 Set Mastery Orb & Ichorous Bearhino Companion"
     },
     "BattlePass/Rewards/MOM_Pet3_And_Orb": {
-        "oracleText": "1 Set Mastery Orb & Furnace-Host Akki Pet",
-        "translation": "1 Set Mastery Orb & Furnace-Host Akki Pet"
+        "oracleText": "1 Set Mastery Orb & Furnace-Host Akki Companion",
+        "translation": "1 Set Mastery Orb & Furnace-Host Akki Companion"
     },
     "BattlePass/Rewards/MOM_Pet_Hover": {
         "oracleText": "Furnace-Host Akki: Mastery Pass Level 50",
@@ -3220,11 +3244,11 @@
         "translation": "魁渡头像 & 彩虹锦鲤 & 宰辅威权牌套"
     },
     "BattlePass/Rewards/NEO_Pet2_And_Orb": {
-        "oracleText": "1 Set Mastery Orb & Golden Koi Pet",
+        "oracleText": "1 Set Mastery Orb & Golden Koi Companion",
         "translation": "1颗精研法珠 & 黄金锦鲤宠物"
     },
     "BattlePass/Rewards/NEO_Pet3_And_Orb": {
-        "oracleText": "1 Set Mastery Orb & Infrared Koi Pet",
+        "oracleText": "1 Set Mastery Orb & Infrared Koi Companion",
         "translation": "1颗精研法珠 & 红外锦鲤宠物"
     },
     "BattlePass/Rewards/NEO_Pet_Hover": {
@@ -3232,15 +3256,15 @@
         "translation": "红外锦鲤：精研通行证等级达到60"
     },
     "BattlePass/Rewards/ONE_Level1": {
-        "oracleText": "Koth Avatar, Furnace Mite Pet, and Myr Convert Sleeve",
+        "oracleText": "Koth Avatar, Furnace Mite Companion, and Myr Convert Sleeve",
         "translation": "寇斯头像，熔炉虫械宠物，以及移志秘耳牌套"
     },
     "BattlePass/Rewards/ONE_Pet2_And_Orb": {
-        "oracleText": "1 Set Mastery Orb & Progress Mite Pet",
+        "oracleText": "1 Set Mastery Orb & Progress Mite Companion",
         "translation": "1颗精研法珠 & 进展虫械宠物"
     },
     "BattlePass/Rewards/ONE_Pet3_And_Orb": {
-        "oracleText": "1 Set Mastery Orb & Porcelain Mite Pet",
+        "oracleText": "1 Set Mastery Orb & Porcelain Mite Companion",
         "translation": "1颗精研法珠 & 瓷体虫械宠物"
     },
     "BattlePass/Rewards/ONE_Pet_Hover": {
@@ -3324,15 +3348,15 @@
         "translation": "稀有牌奖励"
     },
     "BattlePass/Rewards/SNC_Level1": {
-        "oracleText": "Ob Nixilis Avatar & Adversary Construct Pet & Giada, Font of Hope Sleeve",
+        "oracleText": "Ob Nixilis Avatar & Adversary Construct Companion & Giada, Font of Hope Sleeve",
         "translation": "欧尼希兹头像 仇敌组构体宠物 & 希望圣源吉娅妲牌套"
     },
     "BattlePass/Rewards/SNC_Pet2_And_Orb": {
-        "oracleText": "1 Set Mastery Orb & Rustic Construct Pet",
+        "oracleText": "1 Set Mastery Orb & Rustic Construct Companion",
         "translation": "1颗精研法珠 & 锈色组构体宠物"
     },
     "BattlePass/Rewards/SNC_Pet3_And_Orb": {
-        "oracleText": "1 Set Mastery Orb & Demonic Construct Pet",
+        "oracleText": "1 Set Mastery Orb & Demonic Construct Companion",
         "translation": "1颗精研法珠 & 恶魔组构体宠物"
     },
     "BattlePass/Rewards/SNC_Pet_Hover": {
@@ -3364,43 +3388,43 @@
         "translation": "1张斯翠海文秘典卡牌"
     },
     "BattlePass/Rewards/STX_Level1": {
-        "oracleText": "Silverquill Tome Pet & Professor of Zoomancy Sleeve",
+        "oracleText": "Silverquill Tome Companion & Professor of Zoomancy Sleeve",
         "translation": "银毫卷册宠物 & 动物术教授牌套"
     },
     "BattlePass/Rewards/STX_Level3_Pet_and_Orb": {
-        "oracleText": "Quandrix Tome Pet & 1 Set Mastery Orb",
+        "oracleText": "Quandrix Tome Companion & 1 Set Mastery Orb",
         "translation": "量析卷册宠物 & 1颗精研法珠"
     },
     "BattlePass/Rewards/STX_Level50_Pet_and_Orb": {
-        "oracleText": "Uncommon Witherbloom Tome Pet & 1 Set Mastery Orb",
+        "oracleText": "Uncommon Witherbloom Tome Companion & 1 Set Mastery Orb",
         "translation": "非凡靡华卷册宠物 & 1颗精研法珠"
     },
     "BattlePass/Rewards/STX_Level55_Pet_and_Orb": {
-        "oracleText": "Uncommon Prismari Tome Pet & 1 Set Mastery Orb",
+        "oracleText": "Uncommon Prismari Tome Companion & 1 Set Mastery Orb",
         "translation": "非凡粹丽卷册宠物 & 1颗精研法珠"
     },
     "BattlePass/Rewards/STX_Level5_Pet": {
-        "oracleText": "Lorehold Tome Pet",
+        "oracleText": "Lorehold Tome Companion",
         "translation": "衡鉴卷册宠物"
     },
     "BattlePass/Rewards/STX_Level60_Pet_and_Orb": {
-        "oracleText": "Uncommon Lorehold Tome Pet & 1 Set Mastery Orb",
+        "oracleText": "Uncommon Lorehold Tome Companion & 1 Set Mastery Orb",
         "translation": "非凡衡鉴卷册宠物 & 1颗精研法珠"
     },
     "BattlePass/Rewards/STX_Level65_Pet": {
-        "oracleText": "Uncommon Quandrix Tome Pet",
+        "oracleText": "Uncommon Quandrix Tome Companion",
         "translation": "非凡量析卷册宠物"
     },
     "BattlePass/Rewards/STX_Level70_Pet_and_Orb": {
-        "oracleText": "Uncommon Silverquill Tome Pet & 1 Set Mastery Orb",
+        "oracleText": "Uncommon Silverquill Tome Companion & 1 Set Mastery Orb",
         "translation": "非凡银毫卷册宠物 & 1颗精研法珠"
     },
     "BattlePass/Rewards/STX_Level7_Pet": {
-        "oracleText": "Prismari Tome Pet",
+        "oracleText": "Prismari Tome Companion",
         "translation": "粹丽之书宠物"
     },
     "BattlePass/Rewards/STX_Level9_Pet": {
-        "oracleText": "Witherbloom Tome Pet",
+        "oracleText": "Witherbloom Tome Companion",
         "translation": "靡华卷册宠物"
     },
     "BattlePass/Rewards/STX_Web_Avatar_Dina": {
@@ -3520,15 +3544,15 @@
         "translation": "{number1}张赞迪卡再起非凡牌奖励"
     },
     "BattlePass/Rewards/VOW_Level1": {
-        "oracleText": "Sorin Avatar & Black Bat Pet & Chandra, Dressed to Kill Sleeve",
+        "oracleText": "Sorin Avatar & Black Bat Companion & Chandra, Dressed to Kill Sleeve",
         "translation": "索霖头像 & 黑蝙蝠宠物 & 盛装茜卓牌套"
     },
     "BattlePass/Rewards/VOW_Pet2_And_Orb": {
-        "oracleText": "1 Set Mastery Orb & Brown Bat Pet",
+        "oracleText": "1 Set Mastery Orb & Brown Bat Companion",
         "translation": "1颗精研法珠 & 棕蝙蝠宠物"
     },
     "BattlePass/Rewards/VOW_Pet3_And_Orb": {
-        "oracleText": "1 Set Mastery Orb & White Bat Pet",
+        "oracleText": "1 Set Mastery Orb & White Bat Companion",
         "translation": "1颗精研法珠 & 白蝙蝠宠物"
     },
     "BattlePass/Rewards/VOW_Pet_Hover": {
@@ -4032,8 +4056,8 @@
         "translation": "<color #E9E9F6><b>Constructed</b><color #CCCCCC> formats are where you bring your own deck such as <color #E9E9F6><b>Standard</b><color #CCCCCC>, <color #E9E9F6><b>Alchemy</b><color #CCCCCC>, <color #E9E9F6><b>Explorer</b><color #CCCCCC>, and <color #E9E9F6><b>Historic</b><color #CCCCCC>. You can only use cards legal in that format, but the \"rules\" for the game are the same in all of these constructed formats. Your results in these formats only affect your rank if you play in the ranked queue. Most events and the play queue let you battle with no pressure!"
     },
     "Codex/Profile_Intro": {
-        "oracleText": "<color #CCCCCC>The <color #E9E9F6><b>Profile</b> <color #CCCCCC>scene shows you all the information about, well, you! You can also customize your default <color #E9E9F6><b>Emotes</b>, <b>Pets</b>, <b>Sleeves</b>, and <color #E9E9F6><b>Avatar</b><color #CCCCCC>! Any changes you make to specific decks will take priority over your defaults set here.",
-        "translation": "<color #CCCCCC>The <color #E9E9F6><b>Profile</b> <color #CCCCCC>scene shows you all the information about, well, you! You can also customize your default <color #E9E9F6><b>Emotes</b>, <b>Pets</b>, <b>Sleeves</b>, and <color #E9E9F6><b>Avatar</b><color #CCCCCC>! Any changes you make to specific decks will take priority over your defaults set here."
+        "oracleText": "<color #CCCCCC>The <color #E9E9F6><b>Profile</b> <color #CCCCCC>scene shows you all the information about, well, you! You can also customize your default <color #E9E9F6><b>Emotes</b>, <b>Companions</b>, <b>Sleeves</b>, and <color #E9E9F6><b>Avatar</b><color #CCCCCC>! Any changes you make to specific decks will take priority over your defaults set here.",
+        "translation": "<color #CCCCCC>The <color #E9E9F6><b>Profile</b> <color #CCCCCC>scene shows you all the information about, well, you! You can also customize your default <color #E9E9F6><b>Emotes</b>, <b>Companions</b>, <b>Sleeves</b>, and <color #E9E9F6><b>Avatar</b><color #CCCCCC>! Any changes you make to specific decks will take priority over your defaults set here."
     },
     "Codex/Profile_Limited": {
         "oracleText": "<color #E9E9F6><b>Limited</b><color #CCCCCC> formats are where you build your deck during the event, such as <color #E9E9F6><b>Draft</b><color #CCCCCC> or <color #E9E9F6><b>Sealed</b><color #CCCCCC>. <color #E9E9F6><b>Premier Draft</b><color #CCCCCC>, <color #E9E9F6><b>Quick Draft</b><color #CCCCCC>, and <color #E9E9F6><b>Sealed</b><color #CCCCCC> affect your limited rating, while <color #E9E9F6><b>Traditional Draft</b><color #CCCCCC> does not.",
@@ -6493,11 +6517,19 @@
     },
     "Decks/Precon/Precon_Starter2023_LTR_BR": {
         "oracleText": "The Might of Mordor",
-        "translation": "The Might of Mordor"
+        "translation": "魔多之力"
     },
     "Decks/Precon/Precon_Starter2023_LTR_GW": {
         "oracleText": "The Fellowship of the Ring",
-        "translation": "The Fellowship of the Ring"
+        "translation": "魔戒远征军"
+    },
+    "Decks/Precon/Precon_Starter2023_WOE_GW": {
+        "oracleText": "Backup Beatdown",
+        "translation": "备用打击"
+    },
+    "Decks/Precon/Precon_Starter2023_WOE_UR": {
+        "oracleText": "Day of the Dragon",
+        "translation": "巨龙之日"
     },
     "Decks/Precon/Precon_StarterAmazon2021_BG": {
         "oracleText": "Rough and Tumble",
@@ -15312,8 +15344,8 @@
         "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for Day 1 is Historic with single-game matches, and then Traditional Historic with best-of-three matches using sideboards for Day 2. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo1": {
-        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i>The Lord of the Rings: Tales of Middle-earth</i> Sealed with single-game matches. The Day 2 event will use Traditional <i>The Lord of the Rings: Tales of Middle-earth</i>  Draft with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i>The Lord of the Rings: Tales of Middle-earth</i> Sealed with single-game matches. The Day 2 event will use Traditional <i>The Lord of the Rings: Tales of Middle-earth</i>  Draft with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i>Arena Cube</i> Draft with single-game matches. The Day 2 event will use two Traditional <i>Arena Cube</i> Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i>Arena Cube</i> Draft with single-game matches. The Day 2 event will use two Traditional <i>Arena Cube</i> Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=http://magic.wizards.com/mtga-69960-toc>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo1_Alt": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Standard with single-game matches. The Day 2 event will use Traditional Standard with best-of-three matches using sideboards. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>",
@@ -15324,8 +15356,8 @@
         "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i>Kaldheim</i> Sealed with single-game matches. The Day 2 event will use two Traditional <i>Kaldheim</i> Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo3": {
-        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional  <i>The Lord of the Rings: Tales of Middle-earth</i> Sealed with best-of-three matches using sideboards and individual timers. The Day 2 event will also be Traditional  <i>The Lord of the Rings: Tales of Middle-earth</i> Sealed with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional  <i>The Lord of the Rings: Tales of Middle-earth</i> Sealed with best-of-three matches using sideboards and individual timers. The Day 2 event will also be Traditional  <i>The Lord of the Rings: Tales of Middle-earth</i> Sealed with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional <i>Arena Cube</i> Draft with best-of-three matches using sideboards and individual timers. The Day 2 event will use two Traditional <i>Arena Cube</i> Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional <i>Arena Cube</i> Draft with best-of-three matches using sideboards and individual timers. The Day 2 event will use two Traditional <i>Arena Cube</i> Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo3_Alt": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 match wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional Standard with best-of-three matches using sideboards. The Day 2 event will also be Traditional Standard with best-of-three matches using sideboards. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>",
@@ -15344,8 +15376,8 @@
         "translation": "<size=150%><color=#e1a154>Compete for monetary rewards playing MTG Arena!</size></color>\n\nThis second day of competition is open only to qualified players from Day 1. Players must join the Day 2 event between 6 a.m. PT/2 p.m. UTC and 8 a.m. PT/4 p.m. UTC.\n\nThe Day 2 format is Traditional Standard with best-of-three matches using sideboards. Players may only enter once, even if they have qualified multiple times. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftOne": {
-        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 12 p.m. PT. Winning all four matches will allow for a second loss in the second draft.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>The Lord of the Rings: Tales of Middle-earth</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 12 p.m. PT. Winning all four matches will allow for a second loss in the second draft.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>The Lord of the Rings: Tales of Middle-earth</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 12 p.m. PT. Winning all four matches will allow for a second loss in the second draft.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Arena Cube</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times.\n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 12 p.m. PT. Winning all four matches will allow for a second loss in the second draft.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Arena Cube</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times.\n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftOne_KHM": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 12 p.m. PT. Winning all four matches will allow for a second loss in the second draft.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Kaldheim</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
@@ -15356,16 +15388,16 @@
         "translation": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Dominaria United</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftTwoA": {
-        "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 4 wins in the first draft, this draft is double elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>The Lord of the Rings: Tales of Middle-earth</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 4 wins in the first draft, this draft is double elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>The Lord of the Rings: Tales of Middle-earth</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 4 wins in the first draft, this draft is double elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Arena Cube</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times.\n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 4 wins in the first draft, this draft is double elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Arena Cube</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times.\n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftTwoA_KHM": {
         "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 4 wins in the first draft, this draft is double elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Kaldheim</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
         "translation": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 4 wins in the first draft, this draft is double elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Kaldheim</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftTwoB": {
-        "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 3 wins in the first draft, this draft is single elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>The Lord of the Rings: Tales of Middle-earth</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 3 wins in the first draft, this draft is single elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>The Lord of the Rings: Tales of Middle-earth</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 3 wins in the first draft, this draft is single elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Arena Cube</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times.\n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 3 wins in the first draft, this draft is single elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Arena Cube</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times.\n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftTwoB_KHM": {
         "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 3 wins in the first draft, this draft is single elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Kaldheim</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
@@ -15768,8 +15800,8 @@
         "translation": "每次从传过来的轮抽卡包中选一张牌，这些牌会加入你的收藏，你将使用这些牌加上基本地来构筑40张的套牌进行bo3对战。你将得到的奖励取决于你的胜场！"
     },
     "Events/Event_Desc_ELD_Premier_Draft": {
-        "oracleText": "<b><color=\"red\">This set is only legal in Historic and Explorer.</color></b>\n\nSelect one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\nArchetypes TBD",
-        "translation": "<b><color=\"red\">This set is only legal in Historic and Explorer.</color></b>\n\nSelect one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\nArchetypes TBD"
+        "oracleText": "<b><color=\"red\">This set is only legal in Historic and Explorer.</color></b>\n\nSelect one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>",
+        "translation": "<b><color=\"red\">This set is only legal in Historic and Explorer.</color></b>\n\nSelect one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>"
     },
     "Events/Event_Desc_ELD_Quick_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers",
@@ -21855,6 +21887,10 @@
         "oracleText": "Play as much as you like this weekend",
         "translation": "本周末想玩多久就玩多久吧"
     },
+    "Events/Tokens/Token_QualifierWeekend_Day1_20230930": {
+        "oracleText": "Join between 6am and 8am Pacific on September 30",
+        "translation": "Join between 6am and 8am Pacific on September 30"
+    },
     "Events/Unification_Courses_Warning_NoRestart": {
         "oracleText": "<b><color=red>Be sure to complete your event course by August 12! That day's maintenance will end this event.</color></b>",
         "translation": "<b><color=red>请务必 8月12日之前完成你的赛事进程！当天的维护将结束此赛事。</color></b>"
@@ -22116,15 +22152,15 @@
         "translation": "50 Packs\n5 Golden Packs\n2 Cards\n2 Card Styles\n1 Sleeve"
     },
     "Google/Preorder_BRO_2_Generic_Desc": {
-        "oracleText": "Set Mastery Pass\n5 Play-In Points\n3 Player Draft Tokens\n1 Sealed Token\n2 Cards\n2 Card Styles\n1 Sleeve\n1 Pet",
-        "translation": "Set Mastery Pass\n5 Play-In Points\n3 Player Draft Tokens\n1 Sealed Token\n2 Cards\n2 Card Styles\n1 Sleeve\n1 Pet"
+        "oracleText": "Set Mastery Pass\n5 Play-In Points\n3 Player Draft Tokens\n1 Sealed Token\n2 Cards\n2 Card Styles\n1 Sleeve\n1 Companion",
+        "translation": "Set Mastery Pass\n5 Play-In Points\n3 Player Draft Tokens\n1 Sealed Token\n2 Cards\n2 Card Styles\n1 Sleeve\n1 Companion"
     },
     "Google/Preorder_Generic_1_Description": {
         "oracleText": "50 Boosters\n1x Card\n1x Card Style\n1x Sleeve",
         "translation": "50x 补充包\n1x 牌\n1x 卡牌样式\n1x 牌套"
     },
     "Google/Preorder_Generic_2_Description": {
-        "oracleText": "Set Mastery Pass\n3x Player Draft Token\n1x Sealed Token\n1x Card\n1x Card Style\n1x Sleeve\n1x Pet",
+        "oracleText": "Set Mastery Pass\n3x Player Draft Token\n1x Sealed Token\n1x Card\n1x Card Style\n1x Sleeve\n1x Companion",
         "translation": "精研通行证\n3x 真人轮抽门票\n1x 现开门票\n1x 牌\n1x 卡牌样式\n1x 牌套\n1x 宠物"
     },
     "Google/Preorder_HBG_1_Description": {
@@ -22132,7 +22168,7 @@
         "translation": "50x 补充包\n5x 秘稀补充包\n1x 牌\n1x 卡牌样式\n1x 牌套"
     },
     "Google/Preorder_HBG_2_Description": {
-        "oracleText": "Set Mastery Pass\n+10 Mastery Levels\n3x Player Draft Token\n1x Sealed Token\n1x Card\n1x Card Style\n1x Sleeve\n1x Pet",
+        "oracleText": "Set Mastery Pass\n+10 Mastery Levels\n3x Player Draft Token\n1x Sealed Token\n1x Card\n1x Card Style\n1x Sleeve\n1x Companion",
         "translation": "精研通行证\n+10 精研等级\n3x 真人轮抽门票\n1x 现开门票\n1x 牌\n1x 卡牌样式\n1x 牌套\n1x 宠物"
     },
     "Google/Preorder_Jun23_Generic_Desc": {
@@ -22144,12 +22180,12 @@
         "translation": "雅琳包预购：\n50x 「依尼翠：黯夜猎踪」补充包\n1x [狼群之望雅琳]\n[狼群之望雅琳] 卡牌样式\n[皎月之怒]牌套"
     },
     "Google/Preorder_MID_2_Description": {
-        "oracleText": "Wrenn Play Pre-order:\nInnistrad: Midnight Hunt Mastery Pass\n3x Player Draft Token\n1x Sealed Token\n1x Wrenn and Seven\nWrenn and Seven Card Style\nWrenn and Seven Sleeve\nThe Jailer Pet",
+        "oracleText": "Wrenn Play Pre-order:\nInnistrad: Midnight Hunt Mastery Pass\n3x Player Draft Token\n1x Sealed Token\n1x Wrenn and Seven\nWrenn and Seven Card Style\nWrenn and Seven Sleeve\nThe Jailer Companion",
         "translation": "芮恩包预购：\n「依尼翠：黯夜猎踪」精研通行证\n3x 真人轮抽门票\n1x 现开门票\n1x [芮恩与七树妖]\n[芮恩与七树妖] 卡牌样式\n[芮恩与七树妖] 牌套\n狱卒 宠物"
     },
     "Google/Preorder_MOM_2_Generic_Desc": {
-        "oracleText": "2 Player Draft Tokens\n1 Sealed Token\n5 Play-In Points\n1 Card\n1 Card Style\n1 Sleeve\n1 Pet",
-        "translation": "2 Player Draft Tokens\n1 Sealed Token\n5 Play-In Points\n1 Card\n1 Card Style\n1 Sleeve\n1 Pet"
+        "oracleText": "2 Player Draft Tokens\n1 Sealed Token\n5 Play-In Points\n1 Card\n1 Card Style\n1 Sleeve\n1 Companion",
+        "translation": "2 Player Draft Tokens\n1 Sealed Token\n5 Play-In Points\n1 Card\n1 Card Style\n1 Sleeve\n1 Companion"
     },
     "Google/Preorder_MOM_2_Generic_Desc_Alt": {
         "oracleText": "2 Player Draft Tokens\n1 Sealed Token\n5 Play-In Points\n1 Card\n1 Card Style\n1 Sleeve\n1 Pet",
@@ -22164,7 +22200,7 @@
         "translation": "飘萍包预购：\n50x 「神河：霓朝纪」补充包\n1x [飘萍皇]\n[飘萍皇] 卡牌样式\n[飘萍皇] 牌套"
     },
     "Google/Preorder_NEO_2_Description": {
-        "oracleText": "Kaito Play Pre-order:\nKamigawa: Neon Dynasty Set Mastery Pass\n3x Player Draft Token\n1x Sealed Token\n1x Kaito Shizuki\nKaito Shizuki Card Style\nKaito Shizuki Sleeve\nFolded Koi Pet",
+        "oracleText": "Kaito Play Pre-order:\nKamigawa: Neon Dynasty Set Mastery Pass\n3x Player Draft Token\n1x Sealed Token\n1x Kaito Shizuki\nKaito Shizuki Card Style\nKaito Shizuki Sleeve\nFolded Koi Companion",
         "translation": "魁渡游玩预购：\n50x 「神河：霓朝纪」补充包\n3x 真人轮抽门票\n1x 现开门票\n1x [漆月魁渡]\n[漆月魁渡] 卡牌样式\n[漆月魁渡] 牌套\n折纸锦鲤 宠物"
     },
     "Google/Preorder_ONE_1_Generic_Desc": {
@@ -22188,7 +22224,7 @@
         "translation": "艾紫培包预购：\n50x 「新卡佩纳：喧嚣黑街」补充包\n1x [飘萍皇]\n[飘萍皇] 卡牌样式\n[飘萍皇] 牌套"
     },
     "Google/Preorder_SNC_2_Description": {
-        "oracleText": "Ob Nixilis Play Pre-order:\nStreets of New Capenna Set Mastery Pass\n3x Player Draft Token\n1x Sealed Token\n1x Ob Nixilis, the Adversary\nOb Nixilis, the Adversary Card Style\nOb Nixilis, the Adversary Sleeve\nAngelic Construct Pet",
+        "oracleText": "Ob Nixilis Play Pre-order:\nStreets of New Capenna Set Mastery Pass\n3x Player Draft Token\n1x Sealed Token\n1x Ob Nixilis, the Adversary\nOb Nixilis, the Adversary Card Style\nOb Nixilis, the Adversary Sleeve\nAngelic Construct Companion",
         "translation": "欧尼希兹游玩预购：\n「新卡佩纳：喧嚣黑街」精研通行证\n3x 真人轮抽门票\n1x 现开门票\n1x [魔头欧尼希兹]\n[魔头欧尼希兹] 卡牌样式\n[魔头欧尼希兹] 牌套\n天使组构体 宠物"
     },
     "Google/Preorder_VOW_1_Description": {
@@ -22196,8 +22232,12 @@
         "translation": "奥莉薇亚包预购：\n50x 「依尼翠：腥红婚誓」补充包\n1x [绯红新娘奥莉薇亚]\n[绯红新娘奥莉薇亚] 卡牌样式\n[绯红新娘] 牌套"
     },
     "Google/Preorder_VOW_2_Description": {
-        "oracleText": "Sorin Play Pre-order:\nInnistrad: Crimson Vow Mastery Pass\n3x Player Draft Token\n1x Sealed Token\n1x Sorin the Mirthless\nSorin the Mirthless Card Style\nSorin the Mirthless Sleeve\nBlood Bat Pet",
+        "oracleText": "Sorin Play Pre-order:\nInnistrad: Crimson Vow Mastery Pass\n3x Player Draft Token\n1x Sealed Token\n1x Sorin the Mirthless\nSorin the Mirthless Card Style\nSorin the Mirthless Sleeve\nBlood Bat Companion",
         "translation": "索霖游玩预购：\n「依尼翠：腥红婚誓」精研通行证\n3x 真人轮抽门票\n1x 现开门票\n1x [阴郁的索霖]\n[阴郁的索霖] 卡牌样式\n[阴郁的索霖] 牌套\n血蝙蝠 宠物"
+    },
+    "Google/Preorder_WOE_2_Generic_Desc": {
+        "oracleText": "2 Player Draft Tokens\n1 Sealed Token\n5 Play-In Points\n1 Card\n1 Card Style\n1 Sleeve\n1 Companion",
+        "translation": "2 Player Draft Tokens\n1 Sealed Token\n5 Play-In Points\n1 Card\n1 Card Style\n1 Sleeve\n1 Companion"
     },
     "Google/StarterBundle_Desc": {
         "oracleText": "5 Assorted Standard Packs, 2500 Gems",
@@ -23116,7 +23156,7 @@
         "translation": "第{current}<color=#717171>／{total}页"
     },
     "MainNav/BattlePass/Pet_Toggle": {
-        "oracleText": "Display Pet on battlefield",
+        "oracleText": "Display Companion on battlefield",
         "translation": "在战场上显示元素宠物。"
     },
     "MainNav/BattlePass/PremiumTrack_PurchaseLabel": {
@@ -23367,6 +23407,10 @@
         "oracleText": "Open All",
         "translation": "全部打开"
     },
+    "MainNav/BoosterChamber/RevealAll": {
+        "oracleText": "Reveal All",
+        "translation": "展示所有"
+    },
     "MainNav/BoosterChamber/WildcardRewards_Pack": {
         "oracleText": "pack",
         "translation": "补充包"
@@ -23579,6 +23623,14 @@
         "oracleText": "Collection",
         "translation": "牌张收藏"
     },
+    "MainNav/Collection/FormatLegal": {
+        "oracleText": "Format Legal",
+        "translation": "合法赛制"
+    },
+    "MainNav/Collection/FormatNotLegal": {
+        "oracleText": "Format Not Legal",
+        "translation": "不合法赛制"
+    },
     "MainNav/Collection/Illegal": {
         "oracleText": "Illegal",
         "translation": "不合法"
@@ -23586,6 +23638,10 @@
     "MainNav/Collection/In_Deck": {
         "oracleText": "In Deck",
         "translation": "在套牌中"
+    },
+    "MainNav/Collection/Legal": {
+        "oracleText": "— Legal",
+        "translation": "— 合法"
     },
     "MainNav/Collection/Not_Collected": {
         "oracleText": "Not Collected",
@@ -23595,9 +23651,25 @@
         "oracleText": "Not Collected but in Deck",
         "translation": "未收集，但在套牌中"
     },
+    "MainNav/Collection/Not_Legal": {
+        "oracleText": "— Not Legal",
+        "translation": "— 不合法"
+    },
     "MainNav/Collection/Preview": {
         "oracleText": "Preview",
         "translation": "预览"
+    },
+    "MainNav/Collection/Rebalanced": {
+        "oracleText": "Rebalanced",
+        "translation": "再平衡"
+    },
+    "MainNav/Collection/Traditional": {
+        "oracleText": "Traditional",
+        "translation": "传统"
+    },
+    "MainNav/Collection/Traditional_Bo3": {
+        "oracleText": "Traditional (Best-of-3)",
+        "translation": "传统（BO3）"
     },
     "MainNav/Collection/Unlimited": {
         "oracleText": "Unlimited",
@@ -23708,15 +23780,15 @@
         "translation": "此套牌目前不可修改。"
     },
     "MainNav/Cosmetics/PetSelect_Title_Deck": {
-        "oracleText": "Select Deck Pet",
+        "oracleText": "Select Deck Companion",
         "translation": "选择套牌宠物"
     },
     "MainNav/Cosmetics/PetSelect_Title_Generic": {
-        "oracleText": "Select Pet",
+        "oracleText": "Select Companion",
         "translation": "选择宠物"
     },
     "MainNav/Cosmetics/PetSelect_Title_Profile": {
-        "oracleText": "Select Default Pet",
+        "oracleText": "Select Default Companion",
         "translation": "选择默认宠物"
     },
     "MainNav/Cosmetics/SetDefault": {
@@ -25130,6 +25202,10 @@
     "MainNav/DeckBuilder/DeckBuilder_InvalidDeckReasons_HasSideboardLoadingCardWithoutSideboard": {
         "oracleText": "{[OffendingCardTitle]} requires the deck to have a sideboard.",
         "translation": "{[OffendingCardTitle]}要求套牌必须有备牌。"
+    },
+    "MainNav/DeckBuilder/DeckBuilder_InvalidDeckReasons_HasTempBannedCards": {
+        "oracleText": "Deck contains temporarily prohibited cards.",
+        "translation": "套牌中包含被临时禁用的牌张。"
     },
     "MainNav/DeckBuilder/DeckBuilder_InvalidDeckReasons_HasUnowned": {
         "oracleText": "Deck contains cards not in your collection.",
@@ -28287,6 +28363,18 @@
         "oracleText": "Finale of Promise Sleeve",
         "translation": "允诺终时牌套"
     },
+    "MainNav/DeckBuilder/Sleeves/CardBack_WOE_434616": {
+        "oracleText": "Hylda of the Icy Crown Sleeve",
+        "translation": "Hylda of the Icy Crown Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_WOE_434643": {
+        "oracleText": "Agatha's Soul Cauldron Sleeve",
+        "translation": "Agatha's Soul Cauldron Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_WOE_439898": {
+        "oracleText": "Eriette's Tempting Apple Sleeve",
+        "translation": "Eriette's Tempting Apple Sleeve"
+    },
     "MainNav/DeckBuilder/Sleeves/CardBack_WorldChampionshipXXVI": {
         "oracleText": "World Championship XXVI Sleeve",
         "translation": "第二十六届世界万智牌冠军赛牌套"
@@ -28950,6 +29038,30 @@
     "MainNav/DeckFormat/ZombieStandard": {
         "oracleText": "Zombie Standard",
         "translation": "僵尸标准"
+    },
+    "MainNav/DeckFormatInfo/Alchemy": {
+        "oracleText": "Play with cards from the last two years, including digital-only cards and rebalanced cards!",
+        "translation": "使用最近两年的牌张，包含大量极度不平衡的牌张且能随意改牌不给与任何补偿的赛制！"
+    },
+    "MainNav/DeckFormatInfo/Brawl": {
+        "oracleText": "Build a singleton deck of recent cards centered around your Commander: a Legendary creature or planeswalker!",
+        "translation": "构筑一套以你的指挥官为核心的每张非基本地牌限一的60张套牌（牌张须为标准赛制可用）：指挥官可以是传奇生物或鹏洛客！"
+    },
+    "MainNav/DeckFormatInfo/Explorer": {
+        "oracleText": "Play with an expanded set of cards in this true-to-paper format!",
+        "translation": "可以使用先驱合法且已经于MTGA上线的所有牌张的赛制！"
+    },
+    "MainNav/DeckFormatInfo/Historic": {
+        "oracleText": "Play with (nearly) all cards available on Magic: The Gathering Arena!",
+        "translation": "可以使用MTGA上几乎所有牌张的赛制！"
+    },
+    "MainNav/DeckFormatInfo/HistoricBrawl": {
+        "oracleText": "Build a 100-card singleton deck of eternally-legal cards centered around a Legendary creature or planeswalker: your Commander!",
+        "translation": "构筑一套以你的指挥官为核心的每张非基本地牌限一的100张套牌（MTGA上的牌张几乎都可用）：指挥官可以是传奇生物或鹏洛客！"
+    },
+    "MainNav/DeckFormatInfo/Standard": {
+        "oracleText": "Play with cards from the last three years. Magic: The Gathering's flagship format!",
+        "translation": "可以使用最近三年的牌张。"
     },
     "MainNav/DeckManager/Add_Deck_Text": {
         "oracleText": "Deck successfully added to your inventory.",
@@ -30060,7 +30172,7 @@
         "translation": "神秘饰品"
     },
     "MainNav/EventRewards/FNMCosmeticDesc": {
-        "oracleText": "Cosmetic will be a sleeve, pet, or avatar.",
+        "oracleText": "Cosmetic will be a sleeve, companion, or avatar.",
         "translation": "饰品可能是牌套、宠物、头像。"
     },
     "MainNav/EventRewards/FaithlessLooting": {
@@ -30203,6 +30315,10 @@
         "oracleText": "Graveyard Trespasser Card Style",
         "translation": "*墓地擅闯客*卡牌样式"
     },
+    "MainNav/EventRewards/HaloFountainSleeve": {
+        "oracleText": "Halo Fountain Sleeve",
+        "translation": "*金圆喷泉*牌套"
+    },
     "MainNav/EventRewards/Harvesttide_Infiltrator": {
         "oracleText": "Harvesttide Infiltrator Card Style",
         "translation": "*收成节渗透人*卡牌样式"
@@ -30226,6 +30342,10 @@
     "MainNav/EventRewards/JinGitaxias_Reward": {
         "oracleText": "Jin-Gitaxias, Progress Tyrant Card Style",
         "translation": "*进展暴君金吉塔厦*卡牌样式"
+    },
+    "MainNav/EventRewards/JourneyAheadSleeve": {
+        "oracleText": "The Journey Ahead Sleeve",
+        "translation": "The Journey Ahead Sleeve"
     },
     "MainNav/EventRewards/Katilda_Dawnhart_Prime": {
         "oracleText": "Katilda, Dawnhart Prime Card Style",
@@ -30372,7 +30492,7 @@
         "translation": "{number1}个补充包和{number2}经验"
     },
     "MainNav/EventRewards/Pet": {
-        "oracleText": "Pet",
+        "oracleText": "Companion",
         "translation": "宠物"
     },
     "MainNav/EventRewards/Phyrexian_Obliterator": {
@@ -31772,7 +31892,7 @@
         "translation": "赞迪卡再起已上架!"
     },
     "MainNav/HomePage/Carousel/1_13_Store_Desc": {
-        "oracleText": "The legendary Black Lotus arrives in MTG Arena as a pet and exquisite sleeve! Plus, 15 gorgeous Euro Lands that will add some old-school flair to your deck.",
+        "oracleText": "The legendary Black Lotus arrives in MTG Arena as a companion and exquisite sleeve! Plus, 15 gorgeous Euro Lands that will add some old-school flair to your deck.",
         "translation": "传说中的黑莲花作为宠物和精饰牌套抵达万智牌竞技场！此外，15 个华丽的欧元地将为你的套牌增添一些老派风格。"
     },
     "MainNav/HomePage/Carousel/1_13_Store_Name": {
@@ -31788,7 +31908,7 @@
         "translation": "卡拉德许回归"
     },
     "MainNav/HomePage/Carousel/1_15_Store_Desc": {
-        "oracleText": "Share some festive joy with the Food Golem Sleeve. Be sure to check out our available bundles for sweet pets, lands, and sleeves.",
+        "oracleText": "Share some festive joy with the Food Golem Sleeve. Be sure to check out our available bundles for sweet companions, lands, and sleeves.",
         "translation": "用食品魔像牌套分享节日的欢乐。请务必查看我们提供的甜蜜宠物、地牌和牌套的套装。"
     },
     "MainNav/HomePage/Carousel/1_15_Store_Desc_Alt": {
@@ -31812,7 +31932,7 @@
         "translation": "商店里的甜蜜销售！"
     },
     "MainNav/HomePage/Carousel/2019_DragonWhelp_Desc": {
-        "oracleText": "New! Inspired by the card from <i>Magic</i>'s first set, the Dragon Whelp pet is now available in the Store!",
+        "oracleText": "New! Inspired by the card from <i>Magic</i>'s first set, the Dragon Whelp companion is now available in the Store!",
         "translation": "全新！受 <i>Magic</i> 第一套卡牌的启发，小龙宠物现已在商店中发售！"
     },
     "MainNav/HomePage/Carousel/2019_DragonWhelp_Name": {
@@ -31932,8 +32052,8 @@
         "translation": "A new Historic Anthology and Explorer Anthology have arrived! Come see what's entering Historic and pick up Depth Art for it in the Store today!"
     },
     "MainNav/HomePage/Carousel/2023_28_0_STORE_SummerSale_Desc": {
-        "oracleText": "It's back and hotter than ever! No need to sweat over missed cosmetics; pick up favorite Sleeves, Lands, and Pets, as well as all new Summer-themed Cosmetics in the Store today!",
-        "translation": "It's back and hotter than ever! No need to sweat over missed cosmetics; pick up favorite Sleeves, Lands, and Pets, as well as all new Summer-themed Cosmetics in the Store today!"
+        "oracleText": "It's back and hotter than ever! No need to sweat over missed cosmetics; pick up favorite Sleeves, Lands, and Companions, as well as all new Summer-themed Cosmetics in the Store today!",
+        "translation": "It's back and hotter than ever! No need to sweat over missed cosmetics; pick up favorite Sleeves, Lands, and Companions, as well as all new Summer-themed Cosmetics in the Store today!"
     },
     "MainNav/HomePage/Carousel/2023_28_0_STORE_SummerSale_Title": {
         "oracleText": "The Summer Sale Returns!",
@@ -31942,6 +32062,14 @@
     "MainNav/HomePage/Carousel/2023_28_0_STORE_Title": {
         "oracleText": "Historic Anthology 7!",
         "translation": "史迹合集7！"
+    },
+    "MainNav/HomePage/Carousel/2023_28_40_STORE_Desc": {
+        "oracleText": "The Wicked Slumber grows ever closer. Keep your eyes open and stay prepared with three Pre-orders, availalbe now in the Store!",
+        "translation": "The Wicked Slumber grows ever closer. Keep your eyes open and stay prepared with three Pre-orders, availalbe now in the Store!"
+    },
+    "MainNav/HomePage/Carousel/2023_28_40_STORE_Title": {
+        "oracleText": "Don't get caught sleeping...",
+        "translation": "Don't get caught sleeping..."
     },
     "MainNav/HomePage/Carousel/2023_ONE_PreOrder_Desc": {
         "oracleText": "Preorders have a compleatly new look! Pick up the Pack Bundle, Play Bundle, or the new Pass Bundle before ONE releases to help ensure your victory against the threat of Phyrexia.",
@@ -31960,7 +32088,7 @@
         "translation": "<i>凯德海姆</i>已上架！"
     },
     "MainNav/HomePage/Carousel/21_03_Store_Desc": {
-        "oracleText": "Historic Anthology 4 has arrived, featuring Death's Shadow, Sword of Body and Mind, and more! Check it out along with the new Amonkhet Cat pet!",
+        "oracleText": "Historic Anthology 4 has arrived, featuring Death's Shadow, Sword of Body and Mind, and more! Check it out along with the new Amonkhet Cat companion!",
         "translation": "史迹合集4已经到来，其中包含死亡阴影、身灵剑和灵思等等！和新的阿芒凯猫宠物一起来看看吧！"
     },
     "MainNav/HomePage/Carousel/21_03_Store_Title": {
@@ -31968,7 +32096,7 @@
         "translation": "4x 史迹合集4"
     },
     "MainNav/HomePage/Carousel/21_04_Store_Desc": {
-        "oracleText": "Enroll in Strixhaven University with New Booster Packs, Set Mastery Pass, Stickers, Pets, Showcase Bundles, and more!",
+        "oracleText": "Enroll in Strixhaven University with New Booster Packs, Set Mastery Pass, Stickers, Companions, Showcase Bundles, and more!",
         "translation": "办理斯翠海文大学入学手续，获得新的补充包、精研通行证、贴纸、宠物、展示套装等！"
     },
     "MainNav/HomePage/Carousel/21_04_Store_Title": {
@@ -31992,7 +32120,7 @@
         "translation": "速战模式已经回归"
     },
     "MainNav/HomePage/Carousel/21_07_Store_Desc": {
-        "oracleText": "New Booster Packs, Set Mastery, Stickers, Pets, Showcase Bundles, and more. Adventure awaits!",
+        "oracleText": "New Booster Packs, Set Mastery, Stickers, Companions, Showcase Bundles, and more. Adventure awaits!",
         "translation": "新的补充包、精研通行证、贴纸、宠物、展示套装等等。冒险在等着你！"
     },
     "MainNav/HomePage/Carousel/21_07_Store_Title": {
@@ -32056,7 +32184,7 @@
         "translation": "「新卡佩纳：喧嚣黑街」现已发售！"
     },
     "MainNav/HomePage/Carousel/22_16_Store_Desc": {
-        "oracleText": "Fresh goods have dropped in the New Capenna Store, including the Angelic Construct Pet and new Mythic Packs!",
+        "oracleText": "Fresh goods have dropped in the New Capenna Store, including the Angelic Construct Companion and new Mythic Packs!",
         "translation": "新卡佩纳的商店已经上架全新商品，包括天使组构体宠物和秘稀包！"
     },
     "MainNav/HomePage/Carousel/22_16_Store_Title": {
@@ -32064,7 +32192,7 @@
         "translation": "「炼金：新卡佩纳」就在这里!"
     },
     "MainNav/HomePage/Carousel/22_17_Store_Desc": {
-        "oracleText": "Find your favorite loot among many new treasures in the store, including dragon pets and magical card styles!",
+        "oracleText": "Find your favorite loot among many new treasures in the store, including dragon companions and magical card styles!",
         "translation": "商店中有许多新宝物，包括宠物龙和充满魔法的卡牌样式！快来挑选你最爱的战利品。"
     },
     "MainNav/HomePage/Carousel/22_17_Store_Title": {
@@ -32080,7 +32208,7 @@
         "translation": "史迹合集6"
     },
     "MainNav/HomePage/Carousel/22_18_Store_SummerSale_Desc": {
-        "oracleText": "Stop by the Store to find limited-time offers on favorite returning Avatars, Pets, and Stickers, as well as new Sleeves and Card Styles!",
+        "oracleText": "Stop by the Store to find limited-time offers on favorite returning Avatars, Companions, and Stickers, as well as new Sleeves and Card Styles!",
         "translation": "快光临商店，限时优惠中，寻找你最喜欢的回归头像、宠物和贴纸以及新牌套和卡牌样式！"
     },
     "MainNav/HomePage/Carousel/22_18_Store_SummerSale_Title": {
@@ -32128,7 +32256,7 @@
         "translation": "被遗忘国度战记现开"
     },
     "MainNav/HomePage/Carousel/AFR_Set_Mastery_Desc": {
-        "oracleText": "Venture into dungeons and earn some dragon pets with the Adventures in the Forgotten Realms Set Mastery!",
+        "oracleText": "Venture into dungeons and earn some dragon companions with the Adventures in the Forgotten Realms Set Mastery!",
         "translation": "深入地牢并通过被遗忘国度战记精研通行证获取一些龙宠物！"
     },
     "MainNav/HomePage/Carousel/AFR_Set_Mastery_Title": {
@@ -32504,11 +32632,11 @@
         "translation": "MTGA比赛体系"
     },
     "MainNav/HomePage/Carousel/ConstructPet_LastChance_Desc": {
-        "oracleText": "Show your resolve with the Angelic Construct Pet Bundle before it crumbles from the store!",
+        "oracleText": "Show your resolve with the Angelic Construct Companion Bundle before it crumbles from the store!",
         "translation": "在天使组构体宠物套装从商店里下架之前，展示你的决心！"
     },
     "MainNav/HomePage/Carousel/ConstructPet_LastChance_Title": {
-        "oracleText": "Angelic Construct Pet Bundle!",
+        "oracleText": "Angelic Construct Companion Bundle!",
         "translation": "天使组构体宠物套装！"
     },
     "MainNav/HomePage/Carousel/Constructed_KHM_Desc": {
@@ -33188,7 +33316,7 @@
         "translation": "真人轮抽已经到来"
     },
     "MainNav/HomePage/Carousel/IKO_Preorder_Desc": {
-        "oracleText": "<i>Ikoria: Lair of Behemoths</i> looms on the horizon. Check out the <b>Godzilla Series Monster Card Styles</b> and <b>Azizi Pet</b> promotions in the Store! Offer ends April 16, 2020.",
+        "oracleText": "<i>Ikoria: Lair of Behemoths</i> looms on the horizon. Check out the <b>Godzilla Series Monster Card Styles</b> and <b>Azizi Companion</b> promotions in the Store! Offer ends April 16, 2020.",
         "translation": "<i>依克黎：巨兽时空</i>现已上线！快来看看商店中的<b>哥斯拉系列怪物卡牌样式</b>和<b>Azizi 宠物</b>促销活动！优惠于2020 年 4 月 16 日结束。"
     },
     "MainNav/HomePage/Carousel/IKO_Preorder_Title": {
@@ -33264,7 +33392,7 @@
         "translation": "速战速决！"
     },
     "MainNav/HomePage/Carousel/June_PotM_Here_Desc": {
-        "oracleText": "It's a cat! It's a dragon! It has...fangs? Whatever it is, Azizi is the perfect pet to join you on the battlefield! Stop by the Store and take it home today!",
+        "oracleText": "It's a cat! It's a dragon! It has...fangs? Whatever it is, Azizi is the perfect companion to join you on the battlefield! Stop by the Store and take it home today!",
         "translation": "它是猫！它是巨龙！它有……爪子？管它是什么呢，Azizi是你在战场上的完美伙伴！快光临商店，把它带回家吧！"
     },
     "MainNav/HomePage/Carousel/KHM_Sealed_Desc": {
@@ -33276,7 +33404,7 @@
         "translation": "凯德海姆现开"
     },
     "MainNav/HomePage/Carousel/KHM_Set_Mastery_Desc": {
-        "oracleText": "Travel the 10 realms of Kaldheim. Battle alongside gods, trolls, giants, and more for glory! Claim three brawny bear pets that are sure to intimidate your foes.",
+        "oracleText": "Travel the 10 realms of Kaldheim. Battle alongside gods, trolls, giants, and more for glory! Claim three brawny bear companions that are sure to intimidate your foes.",
         "translation": "游历凯德海姆的10个领域。与众神、巨魔、巨人和更多的人并肩作战，争夺荣耀! 声称有三个彪悍的熊伙伴，肯定会吓到你的敌人。"
     },
     "MainNav/HomePage/Carousel/KHM_Set_Mastery_Title": {
@@ -33292,11 +33420,11 @@
         "translation": "发明先行！"
     },
     "MainNav/HomePage/Carousel/KoiPetBundle_Desc": {
-        "oracleText": "The Folded Koi Pet is back for a limited time, with an all-new Living Breakthrough sleeve!",
+        "oracleText": "The Folded Koi companion is back for a limited time, with an all-new Living Breakthrough sleeve!",
         "translation": "折纸锦鲤宠物限时回归，全新突破具像牌套上线！"
     },
     "MainNav/HomePage/Carousel/KoiPetBundle_Title": {
-        "oracleText": "Koi Pet Bundle",
+        "oracleText": "Koi Companion Bundle",
         "translation": "锦鲤宠物套装"
     },
     "MainNav/HomePage/Carousel/LTR_EarlyAccess_Desc": {
@@ -33396,7 +33524,7 @@
         "translation": "精研技艺"
     },
     "MainNav/HomePage/Carousel/Login_Thopter_Desc": {
-        "oracleText": "Claim your very own Thopter pet, simply by logging in to MTG Arena on a mobile device!",
+        "oracleText": "Claim your very own Thopter companion, simply by logging in to MTG Arena on a mobile device!",
         "translation": "只需在移动设备上登录MTGA，即可获得你自己的振翼机宠物！"
     },
     "MainNav/HomePage/Carousel/Login_Thopter_Title": {
@@ -33532,7 +33660,7 @@
         "translation": "公会装饰～以及更多！"
     },
     "MainNav/HomePage/Carousel/M21_Preorder_Desc": {
-        "oracleText": "<i>Core Set 2021</i> is coming to the Store soon! Purchase both Pre-orders and receive the dashing pet: Darius Osworth Gerhardt IV.",
+        "oracleText": "<i>Core Set 2021</i> is coming to the Store soon! Purchase both Pre-orders and receive the dashing companion: Darius Osworth Gerhardt IV.",
         "translation": "<i>2021核心系列</i>即将上架商店！购买两个预购并获得潇洒的宠物：大流士奥斯沃斯格哈特四世。"
     },
     "MainNav/HomePage/Carousel/M21_Preorder_Title": {
@@ -33572,7 +33700,7 @@
         "translation": "现开<i>依尼翠：黯夜猎踪</i>"
     },
     "MainNav/HomePage/Carousel/MID_Set_Mastery_Desc": {
-        "oracleText": "Become what you fear with new Geist pets in the set mastery!",
+        "oracleText": "Become what you fear with new Geist companion in the set mastery!",
         "translation": "在精研通行证中使用新的游魂宠物成为你所害怕的！"
     },
     "MainNav/HomePage/Carousel/MID_Set_Mastery_Title": {
@@ -33644,7 +33772,7 @@
         "translation": "你的魔法纪年"
     },
     "MainNav/HomePage/Carousel/Mastery_M21_Desc": {
-        "oracleText": "This Set Mastery Pass is packed with rewards to prepare you for rotation. Collect all the dog pets and form your pack!",
+        "oracleText": "This Set Mastery Pass is packed with rewards to prepare you for rotation. Collect all the dog companions and form your pack!",
         "translation": "此套装精研通行证包含丰富的奖励，让你为轮换做好准备。收集所有的狗宠物并组成你的包！"
     },
     "MainNav/HomePage/Carousel/Mastery_M21_Title": {
@@ -33728,7 +33856,7 @@
         "translation": "「神河：霓朝纪」现开"
     },
     "MainNav/HomePage/Carousel/NEO_Set_Mastery_Desc": {
-        "oracleText": "Energize circuits to earn koi pets, mech sleeves and much more!",
+        "oracleText": "Energize circuits to earn koi companions, mech sleeves and much more!",
         "translation": "激活电路，获取锦鲤宠物、机甲牌套和更多内容！"
     },
     "MainNav/HomePage/Carousel/NEO_Set_Mastery_Title": {
@@ -33780,11 +33908,11 @@
         "translation": "走出阴影"
     },
     "MainNav/HomePage/Carousel/Pet_Of_The_Month_Desc": {
-        "oracleText": "Stop by the store to find a returning favorite pet for a discounted price!",
+        "oracleText": "Stop by the store to find a returning favorite Companion for a discounted price!",
         "translation": "快光临商店，限时优惠中，寻找你最喜欢的宠物！"
     },
     "MainNav/HomePage/Carousel/Pet_Of_The_Month_Title": {
-        "oracleText": "The Pet of the Month is here!",
+        "oracleText": "The Companion of the Month is here!",
         "translation": "月份宠物在这里！"
     },
     "MainNav/HomePage/Carousel/Planecation1_Desc": {
@@ -33856,12 +33984,12 @@
         "translation": "这个无所畏惧的狸猫宠物有专属的牌套和贴纸表情！"
     },
     "MainNav/HomePage/Carousel/Pomponchan_Title": {
-        "oracleText": "Pompon-chan Pet Bundle",
+        "oracleText": "Pompon-chan Companion Bundle",
         "translation": "Pompon-chan宠物套装"
     },
     "MainNav/HomePage/Carousel/PotM_Here_April_Desc": {
-        "oracleText": "Don't let the sharp edges fool you! The Hedron Guardian is the perfect pet to protect you on the battlefield. Stop by the store and pick it up today!",
-        "translation": "Don't let the sharp edges fool you! The Hedron Guardian is the perfect pet to protect you on the battlefield. Stop by the store and pick it up today!"
+        "oracleText": "Don't let the sharp edges fool you! The Hedron Guardian is the perfect companion to protect you on the battlefield. Stop by the store and pick it up today!",
+        "translation": "Don't let the sharp edges fool you! The Hedron Guardian is the perfect companion to protect you on the battlefield. Stop by the store and pick it up today!"
     },
     "MainNav/HomePage/Carousel/PotM_Here_April_Desc_Alt": {
         "oracleText": "Don't let the sharp edges fool you! The Hedron Guardian is the perfect companion to protect you on the battlefield. Stop by the store and pick it up today!",
@@ -33932,7 +34060,7 @@
         "translation": "准备历险！"
     },
     "MainNav/HomePage/Carousel/PreorderIKO_Desc": {
-        "oracleText": "<i>Ikoria: Lair of Behemoths</i> looms on the horizon. Check out the <b>Godzilla Series Monster Card Styles</b> and <b>Azizi Pet</b> promotions in the Store! Offer ends April 16, 2020.",
+        "oracleText": "<i>Ikoria: Lair of Behemoths</i> looms on the horizon. Check out the <b>Godzilla Series Monster Card Styles</b> and <b>Azizi Companion</b> promotions in the Store! Offer ends April 16, 2020.",
         "translation": "<i>依克黎：巨兽时空</i>现已上线！快来看看商店中的<b>哥斯拉系列怪物卡牌样式</b>和<b>Azizi 宠物</b>促销活动！优惠于2020 年 4 月 16 日结束。"
     },
     "MainNav/HomePage/Carousel/PreorderIKO_Title": {
@@ -33948,11 +34076,11 @@
         "translation": "先行准备–M20预购套装"
     },
     "MainNav/HomePage/Carousel/PreorderTHB_Desc": {
-        "oracleText": "Purchase both <i>Theros Beyond Death</i> Pre-orders and unlock the Kunoros pet. Offer ends January 16, 2020.",
+        "oracleText": "Purchase both <i>Theros Beyond Death</i> Pre-orders and unlock the Kunoros companion. Offer ends January 16, 2020.",
         "translation": "预购<i>塞洛斯：冥途求生</i>并解锁库诺罗斯宠物。优惠于 2020 年 1 月 16 日结束。"
     },
     "MainNav/HomePage/Carousel/PreorderTHB_Desc2": {
-        "oracleText": "Purchase both <i>Theros Beyond Death</i> Pre-orders and unlock the Kunoros pet.",
+        "oracleText": "Purchase both <i>Theros Beyond Death</i> Pre-orders and unlock the Kunoros companion.",
         "translation": "预购<i>塞洛斯：冥途求生</i>并解锁库诺罗斯宠物。"
     },
     "MainNav/HomePage/Carousel/PreorderTHB_Title": {
@@ -34216,7 +34344,7 @@
         "translation": "「新卡佩纳：喧嚣黑街」现开"
     },
     "MainNav/HomePage/Carousel/SNC_Set_Mastery_Desc": {
-        "oracleText": "Join the family to earn dignified Construct Pets, Boss Avatars and much more!",
+        "oracleText": "Join the family to earn dignified Construct Companions, Boss Avatars and much more!",
         "translation": "加入大家庭，赢取尊贵的构装宠物、Boss头像等等！"
     },
     "MainNav/HomePage/Carousel/SNC_Set_Mastery_Title": {
@@ -34788,7 +34916,7 @@
         "translation": "成为本地商店冠军"
     },
     "MainNav/HomePage/Carousel/Store_Codie_Leaving_Desc": {
-        "oracleText": "A cuddly book that likes sharing knowledge by the fire, Codie the Codex is the perfect pet for any Planeswalker. Be sure to pick up Codie from the store before the next pet comes around for adoption!",
+        "oracleText": "A cuddly book that likes sharing knowledge by the fire, Codie the Codex is the perfect companion for any Planeswalker. Be sure to pick up Codie from the store before the next companion comes around for adoption!",
         "translation": "阿典是一本喜欢在火边分享知识的可爱书籍，是任何鹏洛客的完美宠物。 一定要在下一只宠物上线之前从商店接走阿典！"
     },
     "MainNav/HomePage/Carousel/Store_Pack_Purchase_Value_Meter_Desc": {
@@ -34808,11 +34936,11 @@
         "translation": "万物终将合为一体"
     },
     "MainNav/HomePage/Carousel/Store_PotM_Leaving_Title": {
-        "oracleText": "The Pet of the Month is about to rotate!",
-        "translation": "The Pet of the Month is about to rotate!"
+        "oracleText": "The Companion of the Month is about to rotate!",
+        "translation": "月份宠物即将轮换！"
     },
     "MainNav/HomePage/Carousel/Store_Puppet_Jace_Leaving_Desc": {
-        "oracleText": "There's no illusion here, this pet will definitively pull at your heartstrings! Be sure to pick up Puppet Jace from the store before the next petcomes around for adoption!",
+        "oracleText": "There's no illusion here, this companion will definitively pull at your heartstrings! Be sure to pick up Puppet Jace from the store before the next companion comes around for adoption!",
         "translation": "这里没有任何虚影，这只宠物绝对会牵动您的心弦！ 一定要在下一只宠物上线之前去商店接走木偶杰斯！"
     },
     "MainNav/HomePage/Carousel/Store_SpacicLand_LastChance_Desc": {
@@ -34959,6 +35087,14 @@
         "oracleText": "VML - A League for People of Marginalized Genders",
         "translation": "VML - 边缘化性别人士联盟"
     },
+    "MainNav/HomePage/Carousel/VML_2023_Desc": {
+        "oracleText": "Watch 24 of the best players of marginalised gender in the world as they compete to punch their ticket to the Pro Tour!",
+        "translation": "Watch 24 of the best players of marginalised gender in the world as they compete to punch their ticket to the Pro Tour!"
+    },
+    "MainNav/HomePage/Carousel/VML_2023_Title": {
+        "oracleText": "The VML Championships - broadcasting 19/20 August!",
+        "translation": "The VML Championships - broadcasting 19/20 August!"
+    },
     "MainNav/HomePage/Carousel/VOW_Sealed_Desc": {
         "oracleText": "RSVP for Olivia's wedding by building a 40-card sealed deck with 6 packs of Magic's latest set!",
         "translation": "用最新系列的6包万智牌构建一副40张牌的现开套牌，为奥莉薇亚的婚礼做个回复吧!"
@@ -34968,7 +35104,7 @@
         "translation": "<i>依尼翠：腥红婚誓</i>现开"
     },
     "MainNav/HomePage/Carousel/VOW_Set_Mastery_Desc": {
-        "oracleText": "Write your name on the Mastery Pass Guest List to earn a colony of bat pets, a coven of vampire sleeves and much more!",
+        "oracleText": "Write your name on the Mastery Pass Guest List to earn a colony of bat companions, a coven of vampire sleeves and much more!",
         "translation": "把你的名字写在精研通行证的客人名单上，就可以获得一个蝙蝠宠物，一张吸血鬼集会牌套，以及更多的东西！"
     },
     "MainNav/HomePage/Carousel/VOW_Set_Mastery_Title": {
@@ -34998,6 +35134,26 @@
     "MainNav/HomePage/Carousel/WAR_Set_Announce_Title": {
         "oracleText": "War of the Spark - Available now!",
         "translation": "火花之战 - 现已上市！"
+    },
+    "MainNav/HomePage/Carousel/WOE_EarlyAccess_Desc": {
+        "oracleText": "Watch Standard, Sealed, Draft, and more as your favorite streamers face off against each other in head-to-head matches in a special early-access event this Thursday, August 31st!",
+        "translation": "Watch Standard, Sealed, Draft, and more as your favorite streamers face off against each other in head-to-head matches in a special early-access event this Thursday, August 31st!"
+    },
+    "MainNav/HomePage/Carousel/WOE_EarlyAccess_Title": {
+        "oracleText": "Excited to play WOE? So are our streamers!",
+        "translation": "Excited to play WOE? So are our streamers!"
+    },
+    "MainNav/HomePage/Carousel/WOE_PreRelease_Title": {
+        "oracleText": "Your first opportunity to play Wilds of Eldraine!",
+        "translation": "Your first opportunity to play Wilds of Eldraine!"
+    },
+    "MainNav/HomePage/Carousel/WOE_Previews_Desc": {
+        "oracleText": "What wonders await in Eldraine? Get a sneak peek at new Legendary Creatures, Enchantments, and more by clicking here!",
+        "translation": "What wonders await in Eldraine? Get a sneak peek at new Legendary Creatures, Enchantments, and more by clicking here!"
+    },
+    "MainNav/HomePage/Carousel/WOE_Previews_Title": {
+        "oracleText": "Wilds of Eldraine Previews!",
+        "translation": "Wilds of Eldraine Previews!"
     },
     "MainNav/HomePage/Carousel/Weekend_Brawl_Desc": {
         "oracleText": "Play in Magic Weekend: Brawl at your local store and receive a code via email for Arena rewards. Find a store here!",
@@ -35072,7 +35228,7 @@
         "translation": "赞迪卡再起竞技轮抽"
     },
     "MainNav/HomePage/Carousel/ZNR_Preorder_Desc": {
-        "oracleText": "<i>Zendikar Rising</i> is getting ready to emerge! Purchase both Pre-orders and receive the sharp-looking pet<i><b>Rock</b></i>.",
+        "oracleText": "<i>Zendikar Rising</i> is getting ready to emerge! Purchase both Pre-orders and receive the sharp-looking companion <i><b>Rock</b></i>.",
         "translation": "<i>赞迪卡再起</i>即将登场！购买两个预购并获得外观锐利的宠物 <i><b>岩石</b></i>。 "
     },
     "MainNav/HomePage/Carousel/ZNR_Preorder_Title": {
@@ -35893,11 +36049,11 @@
     },
     "MainNav/Login/ResetPasswordTitle": {
         "oracleText": "Password reset required",
-        "translation": "Password reset required"
+        "translation": "请求重置密码"
     },
     "MainNav/Login/Rotation_Body": {
-        "oracleText": "The following sets are now only playable in Historic play modes.",
-        "translation": "The following sets are now only playable in Historic play modes."
+        "oracleText": "The following sets are now only playable in Standard or Historic play modes.",
+        "translation": "以下系列现在只能在标准或史记赛制使用。"
     },
     "MainNav/Login/Rotation_Header": {
         "oracleText": "Rotation",
@@ -36180,12 +36336,12 @@
         "translation": "准备竞技场十项全能决赛！"
     },
     "MainNav/Mailbox/EarlyAccessGeneric_Desc": {
-        "oracleText": "Watch Alchemy, Sealed, and Draft as your favorite streamers face off against each other in head-to-head matches in a special early-access event happening now!",
-        "translation": "Watch Alchemy, Sealed, and Draft as your favorite streamers face off against each other in head-to-head matches in a special early-access event happening now!"
+        "oracleText": "Watch Standard, Sealed, and Draft as your favorite streamers face off against each other in head-to-head matches in a special early-access event happening now!",
+        "translation": "Watch Standard, Sealed, and Draft as your favorite streamers face off against each other in head-to-head matches in a special early-access event happening now!"
     },
     "MainNav/Mailbox/EarlyAccess_Gift_ForParticipators_Desc": {
-        "oracleText": "We're so excited to have you here! As a courtesy to other players, please let your games finish naturally, so that everyone can get to experience as much of the set as possible.  \n\nIn your Invite Email, there is a link to join the Early Access event Discord, which is the best place to reach out about any technical troubleshooting or updates. \n\nThank you again for participating in Early Access!",
-        "translation": "We're so excited to have you here! As a courtesy to other players, please let your games finish naturally, so that everyone can get to experience as much of the set as possible.  \n\nIn your Invite Email, there is a link to join the Early Access event Discord, which is the best place to reach out about any technical troubleshooting or updates. \n\nThank you again for participating in Early Access!"
+        "oracleText": "We're so excited to have you here! As a courtesy to other players, please let your games finish naturally, so that everyone can get to experience as much of the set as possible.\n\nIn your Invite Email, there is a link to join the Early Access event Discord, which is the best place to reach out about any technical troubleshooting or updates.\n\nThank you again for participating in Early Access!",
+        "translation": "We're so excited to have you here! As a courtesy to other players, please let your games finish naturally, so that everyone can get to experience as much of the set as possible.\n\nIn your Invite Email, there is a link to join the Early Access event Discord, which is the best place to reach out about any technical troubleshooting or updates.\n\nThank you again for participating in Early Access!"
     },
     "MainNav/Mailbox/EarlyAccess_Gift_ForParticipators_Title": {
         "oracleText": "Thank you for joining Early Access!",
@@ -36611,6 +36767,26 @@
         "oracleText": "Europe Arena Pricing Update",
         "translation": "Europe Arena Pricing Update"
     },
+    "MainNav/Mailbox/WOEPreOrderPatchNotes_Description": {
+        "oracleText": "The Wilds of Eldraine is encroaching! Take a look at the patch notes below to see what's on the horizon and prepare for the wonders ahead!",
+        "translation": "The Wilds of Eldraine is encroaching! Take a look at the patch notes below to see what's on the horizon and prepare for the wonders ahead!"
+    },
+    "MainNav/Mailbox/WOEPreOrderPatchNotes_Title": {
+        "oracleText": "2023.28.40 Patch Notes Are Here!",
+        "translation": "2023.28.40 Patch Notes Are Here!"
+    },
+    "MainNav/Mailbox/WOE_EarlyAccess_Title": {
+        "oracleText": "Excited to play WOE in MTG Arena? So are our streamers",
+        "translation": "Excited to play WOE in MTG Arena? So are our streamers"
+    },
+    "MainNav/Mailbox/WOE_Release_Notes_Desc": {
+        "oracleText": "Get a glimpse into the mechanics, features, and more coming with WOE by clicking the link below!",
+        "translation": "Get a glimpse into the mechanics, features, and more coming with WOE by clicking the link below!"
+    },
+    "MainNav/Mailbox/WOE_Release_Notes_Title": {
+        "oracleText": "The Wilds of Eldraine Release Notes are Here!",
+        "translation": "The Wilds of Eldraine Release Notes are Here!"
+    },
     "MainNav/Mailbox/WPN_LTR_NewPlayerEvent_Description": {
         "oracleText": "Join us at your local WPN store from July 7th - 9th to Celebrate Magic, with just 3 easy steps!\n\n• Register and Jump In! The first 30 players to register and play Jumpstart at the Magic Celebration event will get a collectible dice set!\n• Form Your Fellowship! Bring up to eight friends and all of you will get a special promo card!\n• Claim Something Precious! Use your Companion account to get a special Ready-to-play deck on Arena!\n\nClick the link below to find the closest participating store!",
         "translation": "Join us at your local WPN store from July 7th - 9th to Celebrate Magic, with just 3 easy steps!\n\n• Register and Jump In! The first 30 players to register and play Jumpstart at the Magic Celebration event will get a collectible dice set!\n• Form Your Fellowship! Bring up to eight friends and all of you will get a special promo card!\n• Claim Something Precious! Use your Companion account to get a special Ready-to-play deck on Arena!\n\nClick the link below to find the closest participating store!"
@@ -36652,12 +36828,12 @@
         "translation": "<font=\"Font_Default_Phyrexian\"><lowercase>^lo φyrxkeθəɢð'ɒjbť ẅɬnesuš</font>"
     },
     "MainNav/Mailbox/Yargle_Day_Desc": {
-        "oracleText": "GLANRNALAJELAI ALAJEHHHHH ARLAGH IBLARREKLDNNDN GHRAAEHEHAHERIBBIT",
-        "translation": "GLANRNALAJELAI ALAJEHHHHH ARLAGH IBLARREKLDNNDN GHRAAEHEHAHERIBBIT"
+        "oracleText": "Rejoice, all who celebrate our powerful Yargle! May our cries of joy echo across the world as loudly as Yargle's glorious rumbling stomach. In his own magnificent words: NRRRRAGHASHARIBBIT",
+        "translation": "Rejoice, all who celebrate our powerful Yargle! May our cries of joy echo across the world as loudly as Yargle's glorious rumbling stomach. In his own magnificent words: NRRRRAGHASHARIBBIT"
     },
     "MainNav/Mailbox/Yargle_Day_Title": {
-        "oracleText": "YAHAAR",
-        "translation": "YAHAAR"
+        "oracleText": "Hrahhrgppy Ygghhargle Dphhhay",
+        "translation": "Hrahhrgppy Ygghhargle Dphhhay"
     },
     "MainNav/NavBar/BetaIcon_Tooltip": {
         "oracleText": "BETA",
@@ -36888,23 +37064,23 @@
         "translation": "黑檀死神"
     },
     "MainNav/PetNames/AFR_Dragon_Skin1": {
-        "oracleText": "Red Dragon Pet",
+        "oracleText": "Red Dragon",
         "translation": "红龙宠物"
     },
     "MainNav/PetNames/AFR_Dragon_Skin2": {
-        "oracleText": "Green Dragon Pet",
+        "oracleText": "Green Dragon",
         "translation": "绿龙宠物"
     },
     "MainNav/PetNames/AFR_Dragon_Skin3": {
-        "oracleText": "Blue Dragon Pet",
+        "oracleText": "Blue Dragon",
         "translation": "蓝龙宠物"
     },
     "MainNav/PetNames/AFR_Dragon_Skin4": {
-        "oracleText": "White Dragon Pet",
+        "oracleText": "White Dragon",
         "translation": "白龙宠物"
     },
     "MainNav/PetNames/AFR_Dragon_Skin5": {
-        "oracleText": "Black Dragon Pet",
+        "oracleText": "Black Dragon",
         "translation": "黑龙宠物"
     },
     "MainNav/PetNames/BRO_Mastery_1": {
@@ -36976,19 +37152,19 @@
         "translation": "振翼机"
     },
     "MainNav/PetNames/HBG_Mastery_Dragon": {
-        "oracleText": "Metallic Dragon Pet",
+        "oracleText": "Metallic Dragon",
         "translation": "金属龙宠物"
     },
     "MainNav/PetNames/HBG_Mastery_Dragon_1": {
-        "oracleText": "Bronze Dragon Pet",
+        "oracleText": "Bronze Dragon",
         "translation": "青铜龙宠物"
     },
     "MainNav/PetNames/HBG_Mastery_Dragon_2": {
-        "oracleText": "Silver Dragon Pet",
+        "oracleText": "Silver Dragon",
         "translation": "银龙宠物"
     },
     "MainNav/PetNames/HBG_Mastery_Dragon_3": {
-        "oracleText": "Golden Dragon Pet",
+        "oracleText": "Golden Dragon",
         "translation": "金龙宠物"
     },
     "MainNav/PetNames/HBG_Preorder_Dragon": {
@@ -37161,10 +37337,10 @@
     },
     "MainNav/PetNames/MOM_Preorder_1": {
         "oracleText": "Fblthp",
-        "translation": "Fblthp"
+        "translation": "夫毕佐"
     },
     "MainNav/PetNames/NEO_Koi": {
-        "oracleText": "Digital Koi Pet",
+        "oracleText": "Digital Koi",
         "translation": "彩虹锦鲤宠物"
     },
     "MainNav/PetNames/NEO_Koi_1": {
@@ -37208,19 +37384,19 @@
         "translation": "木偶杰斯"
     },
     "MainNav/PetNames/SNC_Mastery": {
-        "oracleText": "Construct Pet",
+        "oracleText": "Construct",
         "translation": "组构体宠物"
     },
     "MainNav/PetNames/SNC_Mastery_1": {
-        "oracleText": "Adversary Construct Pet",
+        "oracleText": "Adversary Construct",
         "translation": "仇敌组构体宠物"
     },
     "MainNav/PetNames/SNC_Mastery_2": {
-        "oracleText": "Rustic Construct Pet",
+        "oracleText": "Rustic Construct",
         "translation": "锈色组构体宠物"
     },
     "MainNav/PetNames/SNC_Mastery_3": {
-        "oracleText": "Demonic Construct Pet",
+        "oracleText": "Demonic Construct",
         "translation": "恶魔组构体宠物"
     },
     "MainNav/PetNames/SNC_Preorder": {
@@ -37348,7 +37524,7 @@
         "translation": "冠军赛奖杯"
     },
     "MainNav/PetNames/VOW_Bat": {
-        "oracleText": "Bat Pet",
+        "oracleText": "Bat",
         "translation": "蝙蝠宠物"
     },
     "MainNav/PetNames/VOW_Bat_1": {
@@ -37374,6 +37550,10 @@
     "MainNav/PetNames/VOW_WinterFox": {
         "oracleText": "Winter Fox",
         "translation": "冬日狐"
+    },
+    "MainNav/PetNames/WOE_Preorder_1": {
+        "oracleText": "The Goose Mother",
+        "translation": "鹅鹅妈宠物"
     },
     "MainNav/PetNames/ZNR_Akoum": {
         "oracleText": "Akoum Elemental",
@@ -39788,7 +39968,7 @@
         "translation": "更换头像"
     },
     "MainNav/Profile/ChangePet": {
-        "oracleText": "Pet",
+        "oracleText": "Companion",
         "translation": "宠物"
     },
     "MainNav/Profile/CurrentRanks_Title": {
@@ -39892,15 +40072,15 @@
         "translation": "具参赛资格"
     },
     "MainNav/Profile/PetSelect": {
-        "oracleText": "Pets",
+        "oracleText": "Companions",
         "translation": "宠物选择"
     },
     "MainNav/Profile/PetSelect/NoPet": {
-        "oracleText": "No Pet",
+        "oracleText": "No Companion",
         "translation": "没有宠物"
     },
     "MainNav/Profile/PetsTitle": {
-        "oracleText": "Pets",
+        "oracleText": "Companions",
         "translation": "宠物"
     },
     "MainNav/Profile/Progression/Bubble/Set_Title": {
@@ -41608,11 +41788,11 @@
         "translation": "登出"
     },
     "MainNav/Store/AFR_Beholder_Desc": {
-        "oracleText": "Beholder Pet",
+        "oracleText": "Beholder Companion",
         "translation": "眼魔宠物"
     },
     "MainNav/Store/AFR_Preorder_Desc": {
-        "oracleText": "Ebondeath Pet",
+        "oracleText": "Ebondeath Companion",
         "translation": "黑檀死神宠物"
     },
     "MainNav/Store/AetherRevolt": {
@@ -41640,8 +41820,8 @@
         "translation": "等待验证"
     },
     "MainNav/Store/BRO_Preorder_Desc": {
-        "oracleText": "Urzan Sentinel Pet",
-        "translation": "Urzan Sentinel Pet"
+        "oracleText": "Urzan Sentinel Companion",
+        "translation": "克撒的哨卫宠物"
     },
     "MainNav/Store/BattlePass_M20_Desc": {
         "oracleText": "Unlocks the ability to earn up to:\n50 M20 Card Styles\n20 Booster Packs\n10 Mythic Card Rewards\nUnique Sleeves\n3 visuals of the Elemental Cat\nand more!",
@@ -41804,7 +41984,7 @@
         "translation": "浏览补充包产品"
     },
     "MainNav/Store/BrowsePets": {
-        "oracleText": "Browse Pets",
+        "oracleText": "Browse Companions",
         "translation": "浏览宠物列表"
     },
     "MainNav/Store/BrowseSales": {
@@ -41920,8 +42100,8 @@
         "translation": "Extra Life 2022 Sleeve Bundle**"
     },
     "MainNav/Store/Bundle_LTR_TheOneRing_Desc": {
-        "oracleText": "The One Ring Pet\nSauron Sleeve",
-        "translation": "The One Ring Pet\nSauron Sleeve"
+        "oracleText": "The One Ring Companion\nSauron Sleeve",
+        "translation": "The One Ring Companion\nSauron Sleeve"
     },
     "MainNav/Store/Bundle_LTR_TheOneRing_Desc_Alt": {
         "oracleText": "The One Ring Companion\nSauron Sleeve",
@@ -41932,7 +42112,7 @@
         "translation": "The One Ring Bundle"
     },
     "MainNav/Store/Bundle_NEO_Tanuki_Desc": {
-        "oracleText": "Pompon-chan Pet\nPompon-chan Sleeve\n3x Pompon-chan Sticker Emotes",
+        "oracleText": "Pompon-chan Companion\nPompon-chan Sleeve\n3x Pompon-chan Sticker Emotes",
         "translation": "Pompon-chan宠物\nPompon-chan牌套\n3x Pompon-chan贴纸表情"
     },
     "MainNav/Store/Bundle_NEO_Tanuki_Name": {
@@ -41972,7 +42152,7 @@
         "translation": "史诗冒险套装"
     },
     "MainNav/Store/Bundles/Bundle_AFR_Beholder_Desc": {
-        "oracleText": "Beholder Pet\nXanathar, Guild Kingpin Sleeve",
+        "oracleText": "Beholder Companion\nXanathar, Guild Kingpin Sleeve",
         "translation": "眼魔宠物\n公会首领札那瑟牌套"
     },
     "MainNav/Store/Bundles/Bundle_AFR_Beholder_Name": {
@@ -42476,11 +42656,11 @@
         "translation": "赞迪卡扩画鹏洛客"
     },
     "MainNav/Store/Bundles/Bundle_BRO_Pet_Desc": {
-        "oracleText": "Urzan Sentinel Pet\nSpectrum Sentinel Sleeve",
+        "oracleText": "Urzan Sentinel Companion\nSpectrum Sentinel Sleeve",
         "translation": "克撒的哨卫宠物\n光谱哨卫牌套"
     },
     "MainNav/Store/Bundles/Bundle_BRO_Pet_Name": {
-        "oracleText": "Urzan Sentinel Pet Bundle",
+        "oracleText": "Urzan Sentinel Companion Bundle",
         "translation": "克撒的哨卫宠物套装"
     },
     "MainNav/Store/Bundles/Bundle_BasicLands_AKH_Desc": {
@@ -42524,7 +42704,7 @@
         "translation": "火花之战基本地样式"
     },
     "MainNav/Store/Bundles/Bundle_BlackLotus_Desc": {
-        "oracleText": "Black Lotus Pet\nBlack Lotus Exquisite Sleeve",
+        "oracleText": "Black Lotus Companion\nBlack Lotus Exquisite Sleeve",
         "translation": "黑莲花宠物\n黑莲花精饰牌套"
     },
     "MainNav/Store/Bundles/Bundle_BlackLotus_Name": {
@@ -42532,11 +42712,11 @@
         "translation": "黑莲花套装"
     },
     "MainNav/Store/Bundles/Bundle_Brushwagg_Desc": {
-        "oracleText": "Brushwagg Pet\nBrushwagg Sleeve",
+        "oracleText": "Brushwagg Companion\nBrushwagg Sleeve",
         "translation": "丛枝兽宠物\n丛枝兽牌套"
     },
     "MainNav/Store/Bundles/Bundle_Brushwagg_Name": {
-        "oracleText": "Brushwagg Pet Bundle",
+        "oracleText": "Brushwagg Companion Bundle",
         "translation": "丛枝兽宠物套装"
     },
     "MainNav/Store/Bundles/Bundle_CasttasticSpells_Description": {
@@ -42660,11 +42840,11 @@
         "translation": "纪念：*雅亚巴拉德*牌套"
     },
     "MainNav/Store/Bundles/Bundle_DMU_Squee_Desc": {
-        "oracleText": "Squee Avatar\nSquee the Immortal Pet\nSquee, Dubious Monarch Sleeve",
+        "oracleText": "Squee Avatar\nSquee the Immortal Companion\nSquee, Dubious Monarch Sleeve",
         "translation": "斯奎头像\n不死斯奎宠物\n*伪王斯奎*牌套"
     },
     "MainNav/Store/Bundles/Bundle_DMU_Squee_Name": {
-        "oracleText": "Squee Pet Bundle",
+        "oracleText": "Squee Companion Bundle",
         "translation": "斯奎宠物套装"
     },
     "MainNav/Store/Bundles/Bundle_DMU_StainedGlassLands_Desc": {
@@ -43172,7 +43352,7 @@
         "translation": "Heroes of Baldur's Gate"
     },
     "MainNav/Store/Bundles/Bundle_HBG_ChardalynDragon_Desc": {
-        "oracleText": "Chardalyn Dragon Pet\nChardalyn Dragon Sleeve",
+        "oracleText": "Chardalyn Dragon Companion\nChardalyn Dragon Sleeve",
         "translation": "卡达林魔晶龙宠物\n卡达林魔晶龙牌套"
     },
     "MainNav/Store/Bundles/Bundle_HBG_ChardalynDragon_Name": {
@@ -43180,11 +43360,11 @@
         "translation": "卡达林魔晶龙套装"
     },
     "MainNav/Store/Bundles/Bundle_HBG_ChromaticDragons_Desc": {
-        "oracleText": "Red Dragon Pet\nGreen Dragon Pet\nWhite Dragon Pet\nBlue Dragon Pet\n<b>NEW</b> Black Dragon Pet",
+        "oracleText": "Red Dragon Companion\nGreen Dragon Companion\nWhite Dragon Companion\nBlue Dragon Companion\n<b>NEW</b> Black Dragon Companion",
         "translation": "红龙宠物\n绿龙宠物\n白龙宠物\n蓝龙宠物\n<b>新</b> 黑龙宠物"
     },
     "MainNav/Store/Bundles/Bundle_HBG_ChromaticDragons_Name": {
-        "oracleText": "Chromatic Dragons Pet Bundle",
+        "oracleText": "Chromatic Dragons Companion Bundle",
         "translation": "五彩龙宠物合集"
     },
     "MainNav/Store/Bundles/Bundle_HBG_DragonStyles_Desc": {
@@ -43260,7 +43440,7 @@
         "translation": "史迹本殿套装"
     },
     "MainNav/Store/Bundles/Bundle_Holiday_Fox_Desc": {
-        "oracleText": "Holiday Fox Pet\nHoliday Fox Sleeve",
+        "oracleText": "Holiday Fox Companion\nHoliday Fox Sleeve",
         "translation": "节庆野狐宠物\n节庆野狐牌套"
     },
     "MainNav/Store/Bundles/Bundle_Holiday_Fox_Name": {
@@ -43356,7 +43536,7 @@
         "translation": "卡拉德许发明样式套装"
     },
     "MainNav/Store/Bundles/Bundle_KLR_Thopter_Desc": {
-        "oracleText": "Thopter Pet\nThopter Sleeve",
+        "oracleText": "Thopter Companion\nThopter Sleeve",
         "translation": "振翼机宠物\n振翼机牌套"
     },
     "MainNav/Store/Bundles/Bundle_KLR_Thopter_Name": {
@@ -43596,7 +43776,7 @@
         "translation": "这是一次多么漫长且奇怪的旅行"
     },
     "MainNav/Store/Bundles/Bundle_MAT_Fblthp_Desc": {
-        "oracleText": "Borborygmos and Fblthp Avatar\nFblthp Pet\nFblthp Sleeve",
+        "oracleText": "Borborygmos and Fblthp Avatar\nFblthp Companion\nFblthp Sleeve",
         "translation": "咕噜力莫和夫毕佐头像\n夫毕佐宠物\n夫毕佐牌套"
     },
     "MainNav/Store/Bundles/Bundle_MAT_Fblthp_Desc_Alt": {
@@ -43696,7 +43876,7 @@
         "translation": "黯夜猎踪扩画地套装"
     },
     "MainNav/Store/Bundles/Bundle_MID_Halloween_Desc": {
-        "oracleText": "Jack-o'-Lantern Sleeve\nPumpkin Cerberus Pet",
+        "oracleText": "Jack-o'-Lantern Sleeve\nPumpkin Cerberus Companion",
         "translation": "南瓜灯牌套\n南瓜灯宠物"
     },
     "MainNav/Store/Bundles/Bundle_MID_Halloween_Name": {
@@ -43808,11 +43988,11 @@
         "translation": "扩画传奇地"
     },
     "MainNav/Store/Bundles/Bundle_NEO_KoiPet_Desc": {
-        "oracleText": "Folded Koi Pet\nLiving Breakthrough Sleeve",
+        "oracleText": "Folded Koi Companion\nLiving Breakthrough Sleeve",
         "translation": "折纸锦鲤宠物\n突破具像牌套"
     },
     "MainNav/Store/Bundles/Bundle_NEO_KoiPet_Name": {
-        "oracleText": "Koi Pet Bundle",
+        "oracleText": "Koi Companion Bundle",
         "translation": "锦鲤宠物套装"
     },
     "MainNav/Store/Bundles/Bundle_NEO_Neon1_Desc": {
@@ -43864,11 +44044,11 @@
         "translation": "柔光：武士样式"
     },
     "MainNav/Store/Bundles/Bundle_NEO_ShibePet_Desc": {
-        "oracleText": "Spirited Companion Pet\nSpirited Companion Sleeve",
+        "oracleText": "Spirited Companion Companion\nSpirited Companion Sleeve",
         "translation": "灵念伴侣宠物\n灵念伴侣牌套"
     },
     "MainNav/Store/Bundles/Bundle_NEO_ShibePet_Name": {
-        "oracleText": "Spirited Companion Pet Bundle",
+        "oracleText": "Spirited Companion Companion Bundle",
         "translation": "灵念伴侣宠物套装"
     },
     "MainNav/Store/Bundles/Bundle_NEO_Stickers_Desc": {
@@ -43984,11 +44164,11 @@
         "translation": "升华物灵师妮莎头像套装"
     },
     "MainNav/Store/Bundles/Bundle_ONE_Pet_Desc": {
-        "oracleText": "Flensing Raptor Pet\nFlensing Raptor Sleeve",
+        "oracleText": "Flensing Raptor Companion\nFlensing Raptor Sleeve",
         "translation": "剖脂猛禽宠物\n剖脂猛禽牌套"
     },
     "MainNav/Store/Bundles/Bundle_ONE_Pet_Name": {
-        "oracleText": "Flensing Raptor Pet Bundle",
+        "oracleText": "Flensing Raptor Companion Bundle",
         "translation": "剖脂猛禽宠物套装"
     },
     "MainNav/Store/Bundles/Bundle_ONE_Stickers_Desc": {
@@ -44112,16 +44292,16 @@
         "translation": "贴纸表情大套装"
     },
     "MainNav/Store/Bundles/Bundle_S23_PhyrexianPets_Desc": {
-        "oracleText": "Flensing Raptor Pet\nFurnace Mite Pet\nProgress Mite Pet\nPorcelain Mite Pet\nNoxious Stinger Pet\nIchorous Bearhino Pet\nFurnace-Host Akki Pet",
-        "translation": "Flensing Raptor Pet\nFurnace Mite Pet\nProgress Mite Pet\nPorcelain Mite Pet\nNoxious Stinger Pet\nIchorous Bearhino Pet\nFurnace-Host Akki Pet"
+        "oracleText": "Flensing Raptor Companion\nFurnace Mite Companion\nProgress Mite Companion\nPorcelain Mite Companion\nNoxious Stinger Companion\nIchorous Bearhino Companion\nFurnace-Host Akki Companion",
+        "translation": "Flensing Raptor Companion\nFurnace Mite Companion\nProgress Mite Companion\nPorcelain Mite Companion\nNoxious Stinger Companion\nIchorous Bearhino Companion\nFurnace-Host Akki Companion"
     },
     "MainNav/Store/Bundles/Bundle_S23_PhyrexianPets_Name": {
         "oracleText": "Phyrexian Creature Invasion",
         "translation": "Phyrexian Creature Invasion"
     },
     "MainNav/Store/Bundles/Bundle_S23_PoolParty_Desc": {
-        "oracleText": "Kiora Lifeguard Avatar\nBeach Ball Pet\nLifeguard Kiora Sticker Emote\nKarn Sunbathing Sticker Emote\nPool Party Sleeve\nPool Party Sleeve",
-        "translation": "Kiora Lifeguard Avatar\nBeach Ball Pet\nLifeguard Kiora Sticker Emote\nKarn Sunbathing Sticker Emote\nPool Party Sleeve\nPool Party Sleeve"
+        "oracleText": "Kiora Lifeguard Avatar\nBeach Ball Companion\nLifeguard Kiora Sticker Emote\nKarn Sunbathing Sticker Emote\nPool Party Sleeve",
+        "translation": "Kiora Lifeguard Avatar\nBeach Ball Companion\nLifeguard Kiora Sticker Emote\nKarn Sunbathing Sticker Emote\nPool Party Sleeve"
     },
     "MainNav/Store/Bundles/Bundle_S23_PoolParty_Name": {
         "oracleText": "Summer Pool Party",
@@ -44416,7 +44596,7 @@
         "translation": "黄金时代：秘闻帮套装"
     },
     "MainNav/Store/Bundles/Bundle_SNC_Pet_Desc": {
-        "oracleText": "Angelic Construct Pet\nCelestial Regulator Sleeve",
+        "oracleText": "Angelic Construct Companion\nCelestial Regulator Sleeve",
         "translation": "天使组构体宠物\n*天界制限使*牌套"
     },
     "MainNav/Store/Bundles/Bundle_SNC_Pet_Name": {
@@ -44496,7 +44676,7 @@
         "translation": "扩画创院巨龙套装"
     },
     "MainNav/Store/Bundles/Bundle_STX_Fox_Desc": {
-        "oracleText": "Mila Pet\nMila, Crafty Companion Sleeve",
+        "oracleText": "Mila Companion\nMila, Crafty Companion Sleeve",
         "translation": "米拉宠物\n*灵巧行侣米拉*牌套"
     },
     "MainNav/Store/Bundles/Bundle_STX_Fox_Name": {
@@ -44536,11 +44716,11 @@
         "translation": "法术力牌套套装"
     },
     "MainNav/Store/Bundles/Bundle_SolRingPet_Desc": {
-        "oracleText": "Sol Ring Pet\nSol Ring Exquisite Sleeve",
+        "oracleText": "Sol Ring Companion\nSol Ring Exquisite Sleeve",
         "translation": "阳光戒宠物\n阳光戒精饰牌套"
     },
     "MainNav/Store/Bundles/Bundle_SolRingPet_Name": {
-        "oracleText": "Sol Ring Pet Bundle",
+        "oracleText": "Sol Ring Companion Bundle",
         "translation": "阳光戒宠物套装"
     },
     "MainNav/Store/Bundles/Bundle_Standard2020_Desc": {
@@ -44648,7 +44828,7 @@
         "translation": "莎利雅样式套装"
     },
     "MainNav/Store/Bundles/Bundle_Thopter_Desc": {
-        "oracleText": "Thopter Pet\nThopter Bordered Sleeve",
+        "oracleText": "Thopter Companion\nThopter Bordered Sleeve",
         "translation": "振翼机宠物\n振翼机镶边牌套"
     },
     "MainNav/Store/Bundles/Bundle_Thopter_Name": {
@@ -44756,11 +44936,11 @@
         "translation": "腥红婚誓扩画双色地套装"
     },
     "MainNav/Store/Bundles/Bundle_VOW_Grolnok_Desc": {
-        "oracleText": "Grolnok Pet\nGrolnok, the Omnivore Sleeve",
+        "oracleText": "Grolnok Companion\nGrolnok, the Omnivore Sleeve",
         "translation": "葛诺克宠物\n全能噬蛙葛诺克牌套"
     },
     "MainNav/Store/Bundles/Bundle_VOW_Grolnok_Name": {
-        "oracleText": "Grolnok Pet Bundle",
+        "oracleText": "Grolnok Companion Bundle",
         "translation": "葛诺克宠物套装"
     },
     "MainNav/Store/Bundles/Bundle_VOW_Olivia_Desc": {
@@ -44932,12 +45112,12 @@
         "translation": "Exemplar Store Content"
     },
     "MainNav/Store/Bundles/PreOrder_AvailableDate": {
-        "oracleText": "Available on June 20, 2023",
-        "translation": "Available on June 20, 2023"
+        "oracleText": "Available on September 5, 2023",
+        "translation": "Available on September 5, 2023"
     },
     "MainNav/Store/Bundles/PreOrder_Available_Purchasable": {
-        "oracleText": "Available for purchase until June 20, 2023",
-        "translation": "Available for purchase until June 20, 2023"
+        "oracleText": "Available for purchase until September 5, 2023",
+        "translation": "Available for purchase until September 5, 2023"
     },
     "MainNav/Store/Bundles/Voucher_Available_CLBPreRelease": {
         "oracleText": "Available on July 7, 2022",
@@ -45076,7 +45256,7 @@
         "translation": "美元"
     },
     "MainNav/Store/DMU_Preorder_Desc": {
-        "oracleText": "Squee the Immortal Pet",
+        "oracleText": "Squee the Immortal Companion",
         "translation": "不死斯奎宠物"
     },
     "MainNav/Store/DailyDraftToken": {
@@ -45324,7 +45504,7 @@
         "translation": "烽会拉尼卡"
     },
     "MainNav/Store/HBG_Preorder_Desc": {
-        "oracleText": "Chardalyn Dragon Pet",
+        "oracleText": "Chardalyn Dragon Companion",
         "translation": "卡达林魔晶龙宠物"
     },
     "MainNav/Store/HistoricAlert": {
@@ -45360,8 +45540,8 @@
         "translation": "幻灭时刻"
     },
     "MainNav/Store/InfectiousFlenser_Desc": {
-        "oracleText": "Flensing Raptor Pet",
-        "translation": "Flensing Raptor Pet"
+        "oracleText": "Flensing Raptor Companion",
+        "translation": "Flensing Raptor Companion"
     },
     "MainNav/Store/InitializationFailureReason/AppNotKnown": {
         "oracleText": "Store Initialization Failed App Not Known",
@@ -45392,16 +45572,16 @@
         "translation": "卡拉德许"
     },
     "MainNav/Store/KunorosPetDesc": {
-        "oracleText": "Individual purchase of the Pre-order promotional Pet.",
+        "oracleText": "Individual purchase of the Pre-order promotional companion.",
         "translation": "单独购买预购促销宠物。"
     },
     "MainNav/Store/LTR_Preorder_Desc": {
-        "oracleText": "The One Ring Pet",
-        "translation": "The One Ring Pet"
+        "oracleText": "The One Ring Companion",
+        "translation": "至尊戒宠物"
     },
     "MainNav/Store/LTR_Preorder_Desc_Alt": {
         "oracleText": "The One Ring Companion",
-        "translation": "The One Ring Companion"
+        "translation": "至尊戒宠物"
     },
     "MainNav/Store/LimitedOffer_GodzillaStyles": {
         "oracleText": "Until May 21, 2020 get bonus Godzilla Series Monster card styles with IKO pack bundles!",
@@ -45416,28 +45596,28 @@
         "translation": "大流士奥斯沃斯格哈特四世"
     },
     "MainNav/Store/MID_Halloween_Desc": {
-        "oracleText": "Pumpkin Cerberus Pet",
+        "oracleText": "Pumpkin Cerberus Companion",
         "translation": "南瓜灯宠物"
     },
     "MainNav/Store/MID_Preorder_Desc": {
-        "oracleText": "The Jailer Pet",
+        "oracleText": "The Jailer Companion",
         "translation": "狱卒宠物"
     },
     "MainNav/Store/MOM_Preorder_Desc": {
-        "oracleText": "Fblthp Pet",
-        "translation": "Fblthp Pet"
+        "oracleText": "Fblthp Companion",
+        "translation": "夫毕佐宠物"
     },
     "MainNav/Store/MOM_Preorder_Desc_Alt": {
         "oracleText": "Fblthp Companion",
-        "translation": "Fblthp Companion"
+        "translation": "夫毕佐宠物"
     },
     "MainNav/Store/NEO_Preorder_Desc": {
-        "oracleText": "Folded Koi Pet",
+        "oracleText": "Folded Koi Companion",
         "translation": "折纸锦鲤宠物"
     },
     "MainNav/Store/NEO_Tanuki_Desc": {
-        "oracleText": "Pompon-chan Pet",
-        "translation": "Pompon-chan Pet"
+        "oracleText": "Pompon-chan companion",
+        "translation": "Pompon-chan companion"
     },
     "MainNav/Store/NoItemsToDisplay": {
         "oracleText": "No Items Available",
@@ -45500,8 +45680,8 @@
         "translation": "避免重复"
     },
     "MainNav/Store/Popups/Pet/DuplicateWarning_Description": {
-        "oracleText": "This Pet is also a promotional unlock with the purchase of both Pre-orders.",
-        "translation": "This Pet is also a promotional unlock with the purchase of both Pre-orders."
+        "oracleText": "This Companion is also a promotional unlock with the purchase of both Pre-orders.",
+        "translation": "This Companion is also a promotional unlock with the purchase of both Pre-orders."
     },
     "MainNav/Store/Popups/Pet/DuplicateWarning_Title": {
         "oracleText": "Important Notice",
@@ -45596,8 +45776,8 @@
         "translation": "{prefix} ({month})"
     },
     "MainNav/Store/PreorderBonusPet": {
-        "oracleText": "Buy both and get bonus Pet!",
-        "translation": "Buy both and get bonus Pet!"
+        "oracleText": "Buy both and get bonus companion!",
+        "translation": "Buy both and get bonus companion!"
     },
     "MainNav/Store/PreorderELD_Description": {
         "oracleText": "Pre-order Throne of Eldraine today and receive the following items on September 26: \n\n50x Throne of Eldraine Boosters \n1x Garruk, Cursed Huntsman Card\nGarruk, Cursed Huntsman Card Style \n\nWhen purchased, you will immediately receive the Gingerbread Exquisite Sleeve.",
@@ -45708,7 +45888,7 @@
         "translation": "预购：娜希丽游玩套装"
     },
     "MainNav/Store/Preorder_KHM_Pet_Desc": {
-        "oracleText": "Bjorn Pet",
+        "oracleText": "Bjorn Companion",
         "translation": "比约恩宠物"
     },
     "MainNav/Store/Pretax_Text": {
@@ -45900,11 +46080,11 @@
         "translation": "决胜依夏兰"
     },
     "MainNav/Store/SNC_Preorder_Desc": {
-        "oracleText": "Angelic Construct Pet",
+        "oracleText": "Angelic Construct Companion",
         "translation": "天使组构体宠物"
     },
     "MainNav/Store/STX_Preorder_Desc": {
-        "oracleText": "Codie the Codex Pet",
+        "oracleText": "Codie the Codex Companion",
         "translation": "抄本阿典宠物"
     },
     "MainNav/Store/Sales_SubText": {
@@ -45940,7 +46120,7 @@
         "translation": "结算错误"
     },
     "MainNav/Store/ShibaDog_Desc": {
-        "oracleText": "Spirited Companion Pet",
+        "oracleText": "Spirited Companion Companion",
         "translation": "灵念伴侣宠物"
     },
     "MainNav/Store/Skin_Disclaimer": {
@@ -46032,12 +46212,12 @@
         "translation": "Beach Ball Companion"
     },
     "MainNav/Store/Summer2023_Store_Desc": {
-        "oracleText": "Beach Ball Pet",
-        "translation": "Beach Ball Pet"
+        "oracleText": "Beach Ball Companion",
+        "translation": "Beach Ball Companion"
     },
     "MainNav/Store/THBPreorder/BuyBothAndPet": {
-        "oracleText": "Buy both and get a bonus Pet!",
-        "translation": "Buy both and get a bonus Pet!"
+        "oracleText": "Buy both and get a bonus companion!",
+        "translation": "Buy both and get a bonus companion!"
     },
     "MainNav/Store/THBPreorder/BuyBothAndPet_Alt": {
         "oracleText": "Buy both and unlock Kunoros!",
@@ -46196,11 +46376,11 @@
         "translation": "{number1}%超值！"
     },
     "MainNav/Store/Tags/PetOfTheMonth": {
-        "oracleText": "Pet of the Month",
+        "oracleText": "Companion of the Month",
         "translation": "月份宠物"
     },
     "MainNav/Store/Tags/PetOnly": {
-        "oracleText": "Pet Only",
+        "oracleText": "Companion Only",
         "translation": "仅限宠物"
     },
     "MainNav/Store/Tags/Preorder": {
@@ -46280,15 +46460,15 @@
         "translation": "总金额：{amount}"
     },
     "MainNav/Store/VOW_Frog_Desc": {
-        "oracleText": "Grolnok Pet",
+        "oracleText": "Grolnok Companion",
         "translation": "葛诺克宠物"
     },
     "MainNav/Store/VOW_Preorder_Desc": {
-        "oracleText": "Blood Bat Pet",
+        "oracleText": "Blood Bat Companion",
         "translation": "血蝙蝠宠物"
     },
     "MainNav/Store/VOW_WinterFox": {
-        "oracleText": "Winter Fox Pet",
+        "oracleText": "Winter Fox Companion",
         "translation": "冬日狐宠物"
     },
     "MainNav/Store/Verifying_Purchase": {
@@ -46298,6 +46478,10 @@
     "MainNav/Store/View_Cards_In_Bundle_Title": {
         "oracleText": "View Cards in Bundle",
         "translation": "查看套装中的牌张"
+    },
+    "MainNav/Store/WOE_Preorder_Desc": {
+        "oracleText": "The Goose Mother Companion",
+        "translation": "鹅鹅妈宠物"
     },
     "MainNav/Store/WelcomeBundle": {
         "oracleText": "Welcome Bundle",
@@ -46356,7 +46540,7 @@
         "translation": "预购：罗丝包套装"
     },
     "MainNav/Store/mtga_preorder_afr_play_Desc": {
-        "oracleText": "Pre-order <i>Adventures in the Forgotten Realms</i> today and receive the following items on July 8, 2021:\n\n<i>Adventures in the Forgotten Realms</i> Set Mastery Pass\n3x Player Draft Token\n1x Sealed Token\n1x Ellywick Tumblestrum\nEllywick Tumblestrum Card Style\n\nWhen purchased, you will immediately receive the Ellywick Sleeve and Ebondeath Pet.",
+        "oracleText": "Pre-order <i>Adventures in the Forgotten Realms</i> today and receive the following items on July 8, 2021:\n\n<i>Adventures in the Forgotten Realms</i> Set Mastery Pass\n3x Player Draft Token\n1x Sealed Token\n1x Ellywick Tumblestrum\nEllywick Tumblestrum Card Style\n\nWhen purchased, you will immediately receive the Ellywick Sleeve and Ebondeath Companion.",
         "translation": "今天预购<i>被遗忘国度战记</i>，可在2021年7月8日收到以下物品：\n\n<i>被遗忘国度战记</i>精研通行证\n3x 真人轮抽门票\n1x 现开门票\n1x *艾利薇鼓琴*\n*艾利薇鼓琴*卡牌样式\n\n购买后，你将立即收到*艾利薇*牌套和黑檀死神宠物。"
     },
     "MainNav/Store/mtga_preorder_afr_play_Name": {
@@ -46372,8 +46556,8 @@
         "translation": "Pre-order: Mishra Pack Bundle"
     },
     "MainNav/Store/mtga_preorder_bro_play_Desc": {
-        "oracleText": "Pre-order <i>The Brothers' War</i> today and receive the following items on November 15, 2022:\n\n<i>The Brothers' War</i> Set Mastery Pass\n5 Play-In Points\n3 Player Draft Tokens\n1 Sealed Token\n1 Urza, Lord Protector Card\n1 The Mightstone and Weakstone Card\nUrza, Lord Protector Card Style\nThe Mightstone and Weakstone Card Style\n\nWhen purchased, you will immediately receive the Urza Sleeve and the Urzan Sentinel Pet.",
-        "translation": "Pre-order <i>The Brothers' War</i> today and receive the following items on November 15, 2022:\n\n<i>The Brothers' War</i> Set Mastery Pass\n5 Play-In Points\n3 Player Draft Tokens\n1 Sealed Token\n1 Urza, Lord Protector Card\n1 The Mightstone and Weakstone Card\nUrza, Lord Protector Card Style\nThe Mightstone and Weakstone Card Style\n\nWhen purchased, you will immediately receive the Urza Sleeve and the Urzan Sentinel Pet."
+        "oracleText": "Pre-order <i>The Brothers' War</i> today and receive the following items on November 15, 2022:\n\n<i>The Brothers' War</i> Set Mastery Pass\n5 Play-In Points\n3 Player Draft Tokens\n1 Sealed Token\n1 Urza, Lord Protector Card\n1 The Mightstone and Weakstone Card\nUrza, Lord Protector Card Style\nThe Mightstone and Weakstone Card Style\n\nWhen purchased, you will immediately receive the Urza Sleeve and the Urzan Sentinel Companion.",
+        "translation": "Pre-order <i>The Brothers' War</i> today and receive the following items on November 15, 2022:\n\n<i>The Brothers' War</i> Set Mastery Pass\n5 Play-In Points\n3 Player Draft Tokens\n1 Sealed Token\n1 Urza, Lord Protector Card\n1 The Mightstone and Weakstone Card\nUrza, Lord Protector Card Style\nThe Mightstone and Weakstone Card Style\n\nWhen purchased, you will immediately receive the Urza Sleeve and the Urzan Sentinel Companion."
     },
     "MainNav/Store/mtga_preorder_bro_play_Name": {
         "oracleText": "Pre-order: Urza Play Bundle",
@@ -46388,7 +46572,7 @@
         "translation": "预购：莉莲娜包套装"
     },
     "MainNav/Store/mtga_preorder_dmu_play_Desc": {
-        "oracleText": "Pre-order <i>Dominaria United</i> today and receive the following items on September 1, 2022:\n\n<i>Dominaria United</i>Set Mastery Pass\n+10 Mastery Levels\n3x Player Draft Token\n1x Sealed Token\n1x Jaya, Fiery Negotiator\nJaya, Fiery Negotiator Card Style\n\nWhen purchased, you will immediately receive the Jaya, Fiery Negotiator Sleeve and the Squee the Immortal Pet.",
+        "oracleText": "Pre-order <i>Dominaria United</i> today and receive the following items on September 1, 2022:\n\n<i>Dominaria United</i>Set Mastery Pass\n+10 Mastery Levels\n3x Player Draft Token\n1x Sealed Token\n1x Jaya, Fiery Negotiator\nJaya, Fiery Negotiator Card Style\n\nWhen purchased, you will immediately receive the Jaya, Fiery Negotiator Sleeve and the Squee the Immortal Companion.",
         "translation": "今天立即预购 <i>多明纳里亚：众志成城</i>，在2022年9月1日收到以下物品：\n\n<i>多明纳里亚：众志成城</i>精研通行证\n+10 精研等级\n3x 真人轮抽门票\n1x 现开门票\n1x *烈火来使雅亚*\n*烈火来使雅亚*卡牌样式\n\n购买后，你将立即收到 *烈火来使雅亚*牌套和不死斯奎宠物 。"
     },
     "MainNav/Store/mtga_preorder_dmu_play_Name": {
@@ -46404,7 +46588,7 @@
         "translation": "预购：威迩包套装"
     },
     "MainNav/Store/mtga_preorder_hbg_play_Desc": {
-        "oracleText": "Pre-order <i>Alchemy Horizons: Baldur's Gate</i> today and receive the following items on July 7, 2022:\n\n<i>Alchemy Horizons: Baldur's Gate</i>Set Mastery Pass\n+10 Mastery Levels\n3x Player Draft Token\n1x Sealed Token\n1x Lae'zel, Githyanki Warrior\nLae'zel, Githyanki Warrior Card Style\n\nWhen purchased, you will immediately receive the Lae'zel, Githyanki Warrior Sleeve and the Chardalyn Dragon Pet.",
+        "oracleText": "Pre-order <i>Alchemy Horizons: Baldur's Gate</i> today and receive the following items on July 7, 2022:\n\n<i>Alchemy Horizons: Baldur's Gate</i>Set Mastery Pass\n+10 Mastery Levels\n3x Player Draft Token\n1x Sealed Token\n1x Lae'zel, Githyanki Warrior\nLae'zel, Githyanki Warrior Card Style\n\nWhen purchased, you will immediately receive the Lae'zel, Githyanki Warrior Sleeve and the Chardalyn Dragon Companion.",
         "translation": "今天预购<i>炼金新篇：博德之门</i>，可在2022年7月7日收到以下物品：\n\n<i>炼金新篇：博德之门</i>精研通行证\n+10 精研等级\n3x 真人轮抽门票\n1x 现开门票\n1x *吉斯洋基战士莱埃泽尔*\n*吉斯洋基战士莱埃泽尔*卡牌样式\n\n购买后，你将立即收到*吉斯洋基战士莱埃泽尔*牌套和卡达林魔晶龙宠物。"
     },
     "MainNav/Store/mtga_preorder_hbg_play_Name": {
@@ -46444,7 +46628,7 @@
         "translation": "预购：雅琳包套装"
     },
     "MainNav/Store/mtga_preorder_mid_play_Desc": {
-        "oracleText": "Pre-order <i>Innistrad: Midnight Hunt</i> today and receive the following items on September 16, 2021:\n\n<i>Innistrad: Midnight Hunt</i> Set Mastery Pass\n3x Player Draft Token\n1x Sealed Token\n1x Wrenn and Seven\nWrenn and Seven Card Style\n\nWhen purchased, you will immediately receive the Wrenn and Seven Sleeve and The Jailer Pet.",
+        "oracleText": "Pre-order <i>Innistrad: Midnight Hunt</i> today and receive the following items on September 16, 2021:\n\n<i>Innistrad: Midnight Hunt</i> Set Mastery Pass\n3x Player Draft Token\n1x Sealed Token\n1x Wrenn and Seven\nWrenn and Seven Card Style\n\nWhen purchased, you will immediately receive the Wrenn and Seven Sleeve and The Jailer Companion.",
         "translation": "今天预购<i>依尼翠：黯夜猎踪</i>，可在2021年9月16日收到以下物品：\n\n<i>依尼翠：黯夜猎踪</i>精研通行证\n3x 真人轮抽门票\n1x 现开门票\n1x *芮恩与七树妖*\n*芮恩与七树妖*卡牌样式\n\n购买后，你将立即收到*芮恩与七树妖*牌套和狱卒宠物。"
     },
     "MainNav/Store/mtga_preorder_mid_play_Name": {
@@ -46468,8 +46652,8 @@
         "translation": "Pre-order: Elspeth Pass Bundle"
     },
     "MainNav/Store/mtga_preorder_mom_play_Desc": {
-        "oracleText": "Pre-order <i>March of the Machine</i> today and receive the following items on April 18, 2023:\n\n2 Player Draft Tokens\n1 Sealed Token\n5 Play-In Points\n1 Wrenn and Realmbreaker Card\nWrenn and Realmbreaker Card Style\n\nWhen purchased, you will immediately receive the Wrenn and Realmbreaker Sleeve and the Fblthp Pet.",
-        "translation": "Pre-order <i>March of the Machine</i> today and receive the following items on April 18, 2023:\n\n2 Player Draft Tokens\n1 Sealed Token\n5 Play-In Points\n1 Wrenn and Realmbreaker Card\nWrenn and Realmbreaker Card Style\n\nWhen purchased, you will immediately receive the Wrenn and Realmbreaker Sleeve and the Fblthp Pet."
+        "oracleText": "Pre-order <i>March of the Machine</i> today and receive the following items on April 18, 2023:\n\n2 Player Draft Tokens\n1 Sealed Token\n5 Play-In Points\n1 Wrenn and Realmbreaker Card\nWrenn and Realmbreaker Card Style\n\nWhen purchased, you will immediately receive the Wrenn and Realmbreaker Sleeve and the Fblthp Companion.",
+        "translation": "Pre-order <i>March of the Machine</i> today and receive the following items on April 18, 2023:\n\n2 Player Draft Tokens\n1 Sealed Token\n5 Play-In Points\n1 Wrenn and Realmbreaker Card\nWrenn and Realmbreaker Card Style\n\nWhen purchased, you will immediately receive the Wrenn and Realmbreaker Sleeve and the Fblthp Companion."
     },
     "MainNav/Store/mtga_preorder_mom_play_Desc_Alt": {
         "oracleText": "Pre-order <i>March of the Machine</i> today and receive the following items on April 18, 2023:\n\n2 Player Draft Tokens\n1 Sealed Token\n5 Play-In Points\n1 Wrenn and Realmbreaker Card\nWrenn and Realmbreaker Card Style\n\nWhen purchased, you will immediately receive the Wrenn and Realmbreaker Sleeve and the Fblthp Companion.",
@@ -46488,7 +46672,7 @@
         "translation": "预购：飘萍包套装"
     },
     "MainNav/Store/mtga_preorder_neo_play_Desc": {
-        "oracleText": "Pre-order <i>Kamigawa: Neon Dynasty</i> today and receive the following items on February 10, 2022:\n\n<i>Kamigawa: Neon Dynasty</i> Set Mastery Pass\n3x Player Draft Token\n1x Sealed Token\n1x Kaito Shizuki\nKaito Shizuki Card Style\n\nWhen purchased, you will immediately receive the Kaito Shizuki Sleeve and the Folded Koi Pet.",
+        "oracleText": "Pre-order <i>Kamigawa: Neon Dynasty</i> today and receive the following items on February 10, 2022:\n\n<i>Kamigawa: Neon Dynasty</i> Set Mastery Pass\n3x Player Draft Token\n1x Sealed Token\n1x Kaito Shizuki\nKaito Shizuki Card Style\n\nWhen purchased, you will immediately receive the Kaito Shizuki Sleeve and the Folded Koi Companion.",
         "translation": "今天预购<i>神河：霓朝纪</i>，可在2022年2月10日收到以下物品：\n\n<i>神河：霓朝纪</i>精研通行证\n3x 真人轮抽门票\n1x 现开门票\n1x *漆月魁渡*\n*漆月魁渡*卡牌样式\n\n购买后，你将立即收到*漆月魁渡*牌套和折纸锦鲤宠物。"
     },
     "MainNav/Store/mtga_preorder_neo_play_Name": {
@@ -46504,8 +46688,8 @@
         "translation": "Pre-order: Jace Pack Bundle"
     },
     "MainNav/Store/mtga_preorder_one_pass_Desc": {
-        "oracleText": "Pre-order <i>Phyrexia: All Will Be One</i> today and receive the following items on  February 7, 2023:\n\n<i>Phyrexia: All Will Be One</i> Set Mastery Pass\n1 Elesh Norn, Mother of Machines Card\nElesh Norn, Mother of Machines Card Style\n\nWhen purchased, you will immediately receive the Mother of Machines Sleeve and the Flensing Raptor Pet.",
-        "translation": "Pre-order <i>Phyrexia: All Will Be One</i> today and receive the following items on  February 7, 2023:\n\n<i>Phyrexia: All Will Be One</i> Set Mastery Pass\n1 Elesh Norn, Mother of Machines Card\nElesh Norn, Mother of Machines Card Style\n\nWhen purchased, you will immediately receive the Mother of Machines Sleeve and the Flensing Raptor Pet."
+        "oracleText": "Pre-order <i>Phyrexia: All Will Be One</i> today and receive the following items on  February 7, 2023:\n\n<i>Phyrexia: All Will Be One</i> Set Mastery Pass\n1 Elesh Norn, Mother of Machines Card\nElesh Norn, Mother of Machines Card Style\n\nWhen purchased, you will immediately receive the Mother of Machines Sleeve and the Flensing Raptor Companion.",
+        "translation": "Pre-order <i>Phyrexia: All Will Be One</i> today and receive the following items on  February 7, 2023:\n\n<i>Phyrexia: All Will Be One</i> Set Mastery Pass\n1 Elesh Norn, Mother of Machines Card\nElesh Norn, Mother of Machines Card Style\n\nWhen purchased, you will immediately receive the Mother of Machines Sleeve and the Flensing Raptor Companion."
     },
     "MainNav/Store/mtga_preorder_one_pass_Name": {
         "oracleText": "Pre-order: Elesh Norn Pass Bundle",
@@ -46536,7 +46720,7 @@
         "translation": "预购：艾紫培包套装"
     },
     "MainNav/Store/mtga_preorder_snc_play_Desc": {
-        "oracleText": "Pre-order <i>Streets of New Capenna</i> today and receive the following items on April 28, 2022:\n\n<i>Streets of New Capenna</i> Set Mastery Pass\n3x Player Draft Token\n1x Sealed Token\n1x Ob Nixilis, the Adversary\nOb Nixilis, the Adversary Card Style\n\nWhen purchased, you will immediately receive the Ob Nixilis, the Adversary Sleeve and the Angelic Construct Pet.",
+        "oracleText": "Pre-order <i>Streets of New Capenna</i> today and receive the following items on April 28, 2022:\n\n<i>Streets of New Capenna</i> Set Mastery Pass\n3x Player Draft Token\n1x Sealed Token\n1x Ob Nixilis, the Adversary\nOb Nixilis, the Adversary Card Style\n\nWhen purchased, you will immediately receive the Ob Nixilis, the Adversary Sleeve and the Angelic Construct Companion.",
         "translation": "今天预购<i>新卡佩纳：喧嚣黑街</i>，可在2022年4月28日收到以下物品：\n\n<i>新卡佩纳：喧嚣黑街</i>精研通行证\n3x 真人轮抽门票\n1x 现开门票\n1x *魔头欧尼希兹*\n*魔头欧尼希兹*卡牌样式\n\n购买后，你将立即收到*魔头欧尼希兹*牌套和天使组构体宠物。"
     },
     "MainNav/Store/mtga_preorder_snc_play_Name": {
@@ -46552,7 +46736,7 @@
         "translation": "预购：克蜜娜包套装"
     },
     "MainNav/Store/mtga_preorder_stx_play_Desc": {
-        "oracleText": "Pre-order <i>Strixhaven</i> today and receive the following items on 4/15/2021\n\n<i>Strixhaven</i> Set Mastery Pass\n3x Player Draft Token\n1x Sealed Token\n1x Professor Onyx Card\n1x Professor Onyx Style\n\nWhen purchased, you will immediately receive the Professor Onyx Sleeve and Codie the Codex Pet.",
+        "oracleText": "Pre-order <i>Strixhaven</i> today and receive the following items on 4/15/2021\n\n<i>Strixhaven</i> Set Mastery Pass\n3x Player Draft Token\n1x Sealed Token\n1x Professor Onyx Card\n1x Professor Onyx Style\n\nWhen purchased, you will immediately receive the Professor Onyx Sleeve and Codie the Codex Companion.",
         "translation": "今天预购<i>斯翠海文</i>，可在2021年4月15日收到以下物品：\n\n<i>斯翠海文</i>精研通行证\n3x 真人轮抽门票\n1x 现开门票\n1x *黑玉教授*\n*黑玉教授尔*卡牌样式\n\n购买后，你将立即收到*黑玉教授*牌套和抄本阿典宠物。"
     },
     "MainNav/Store/mtga_preorder_stx_play_Name": {
@@ -46568,12 +46752,36 @@
         "translation": "预购：奥莉薇亚包套装"
     },
     "MainNav/Store/mtga_preorder_vow_play_Desc": {
-        "oracleText": "Pre-order <i>Innistrad: Crimson Vow</i> today and receive the following items on November 11, 2021:\n\n<i>Innistrad: Crimson Vow</i> Set Mastery Pass\n3x Player Draft Token\n1x Sealed Token\n1x Sorin the Mirthless\nSorin the Mirthless Card Style\n\nWhen purchased, you will immediately receive the Sorin the Mirthless Sleeve and the Blood Bat Pet.",
+        "oracleText": "Pre-order <i>Innistrad: Crimson Vow</i> today and receive the following items on November 11, 2021:\n\n<i>Innistrad: Crimson Vow</i> Set Mastery Pass\n3x Player Draft Token\n1x Sealed Token\n1x Sorin the Mirthless\nSorin the Mirthless Card Style\n\nWhen purchased, you will immediately receive the Sorin the Mirthless Sleeve and the Blood Bat Companion.",
         "translation": "今天预购<i>依尼翠：腥红婚誓</i>，可在2021年11月11日收到以下物品：\n\n<i>依尼翠：腥红婚誓</i>精研通行证\n3x 真人轮抽门票\n1x 现开门票\n1x *阴郁的索霖*\n*阴郁的索霖*卡牌样式\n\n购买后，你将立即收到*阴郁的索霖*牌套和血蝙蝠宠物。"
     },
     "MainNav/Store/mtga_preorder_vow_play_Name": {
         "oracleText": "Pre-order: Sorin Play Bundle",
         "translation": "预购：索霖游玩套装"
+    },
+    "MainNav/Store/mtga_preorder_woe_pack_Desc": {
+        "oracleText": "Pre-order <i>Wilds of Eldraine</i> today and receive the following items on September 5, 2023:\n\n50 <i>Wilds of Eldraine</i> Packs\n5 Golden Packs\n1 Agatha of the Vile Cauldron Card\nAgatha of the Vile Cauldron Card Style\n\nWhen purchased, you will immediately receive the Agatha's Soul Cauldron Sleeve.",
+        "translation": "Pre-order <i>Wilds of Eldraine</i> today and receive the following items on September 5, 2023:\n\n50 <i>Wilds of Eldraine</i> Packs\n5 Golden Packs\n1 Agatha of the Vile Cauldron Card\nAgatha of the Vile Cauldron Card Style\n\nWhen purchased, you will immediately receive the Agatha's Soul Cauldron Sleeve."
+    },
+    "MainNav/Store/mtga_preorder_woe_pack_Name": {
+        "oracleText": "Pre-order: Agatha Pack Bundle",
+        "translation": "Pre-order: Agatha Pack Bundle"
+    },
+    "MainNav/Store/mtga_preorder_woe_pass_Desc": {
+        "oracleText": "Pre-order <i>Wilds of Eldraine</i> today and receive the following items on September 5, 2023:\n\n<i>Wilds of Eldraine</i> Set Mastery Pass\n1x Eriette of the Charmed Apple Card\nEriette of the Charmed Apple Card Style\n\nWhen purchased, you will immediately receive the Eriette's Tempting Apple Sleeve.",
+        "translation": "Pre-order <i>Wilds of Eldraine</i> today and receive the following items on September 5, 2023:\n\n<i>Wilds of Eldraine</i> Set Mastery Pass\n1x Eriette of the Charmed Apple Card\nEriette of the Charmed Apple Card Style\n\nWhen purchased, you will immediately receive the Eriette's Tempting Apple Sleeve."
+    },
+    "MainNav/Store/mtga_preorder_woe_pass_Name": {
+        "oracleText": "Pre-order: Eriette Pass Bundle",
+        "translation": "Pre-order: Eriette Pass Bundle"
+    },
+    "MainNav/Store/mtga_preorder_woe_play_Desc": {
+        "oracleText": "Pre-order <i>Wilds of Eldraine</i> today and receive the following items on September 5, 2023:\n\n2 Player Draft Tokens\n1 Sealed Token\n5 Play-In Points\n1x Hylda of the Icy Crown Card\nHylda of the Icy Crown Card Style\n\nWhen purchased, you will immediately receive the Hylda of the Icy Crown Sleeve and The Goose Mother Companion.",
+        "translation": "Pre-order <i>Wilds of Eldraine</i> today and receive the following items on September 5, 2023:\n\n2 Player Draft Tokens\n1 Sealed Token\n5 Play-In Points\n1x Hylda of the Icy Crown Card\nHylda of the Icy Crown Card Style\n\nWhen purchased, you will immediately receive the Hylda of the Icy Crown Sleeve and The Goose Mother Companion."
+    },
+    "MainNav/Store/mtga_preorder_woe_play_Name": {
+        "oracleText": "Pre-order: Hylda Play Bundle",
+        "translation": "Pre-order: Hylda Play Bundle"
     },
     "MainNav/Store/preorder_stx_pack_Desc": {
         "oracleText": "Pre-order <i>Strixhaven</i> today and receive the following items on 4/15/2021\n\n50x <i>Strixhaven</i> Boosters\n1x Kasmina, Enigma Sage\n1x Kasmina, Enigma Sage Style\n\nWhen purchased, you will immediately receive the Enigma Sage Sleeve.",
@@ -46584,8 +46792,8 @@
         "translation": "预购：克蜜娜包套装"
     },
     "MainNav/Store/preorder_stx_play_Desc": {
-        "oracleText": "Pre-order <i>Strixhaven</i> today and receive the following items on 4/15/2021\n\n<i>Strixhaven</i> Set Mastery Pass\n3x Player Draft Token\n1x Sealed Token\n1x Professor Onyx Card\n1x Professor Onyx Style\n\nWhen purchased, you will immediately receive the Professor Onyx Sleeve and Codie the Codex Pet.",
-        "translation": "今天预购<i>斯翠海文</i>，可在2021年4月15日收到以下物品：\n\n<i>斯翠海文</i>精研通行证\n3x 真人轮抽门票\n1x 现开门票\n1x *黑玉教授*\n*黑玉教授尔*卡牌样式\n\n购买后，你将立即收到*黑玉教授*牌套和抄本阿典宠物。"
+        "oracleText": "Pre-order <i>Strixhaven</i> today and receive the following items on 4/15/2021\n\n<i>Strixhaven</i> Set Mastery Pass\n3x Player Draft Token\n1x Sealed Token\n1x Professor Onyx Card\n1x Professor Onyx Style\n\nWhen purchased, you will immediately receive the Professor Onyx Sleeve and Codie the Codex Companion.",
+        "translation": "Pre-order <i>Strixhaven</i> today and receive the following items on 4/15/2021\n\n<i>Strixhaven</i> Set Mastery Pass\n3x Player Draft Token\n1x Sealed Token\n1x Professor Onyx Card\n1x Professor Onyx Style\n\nWhen purchased, you will immediately receive the Professor Onyx Sleeve and Codie the Codex Companion."
     },
     "MainNav/Store/preorder_stx_play_Name": {
         "oracleText": "Pre-order: Professor Onyx Play Bundle",
@@ -46620,8 +46828,8 @@
         "translation": "https://company.wizards.com/legal/code-conduct"
     },
     "MainNav/WebLink/CustomerSupport": {
-        "oracleText": "https://mtgarena-support.wizards.com/hc/en-us",
-        "translation": "https://mtgarena-support.wizards.com/hc/en-us"
+        "oracleText": "https://mtgarena-support.wizards.com/hc/en-us/requests/new",
+        "translation": "https://mtgarena-support.wizards.com/hc/en-us/requests/new"
     },
     "MainNav/WebLink/DeleteAccount": {
         "oracleText": "https://mtgarena-support.wizards.com/hc/en-us/requests/new?ticket_form_id=4413121329940",
@@ -46634,6 +46842,10 @@
     "MainNav/WebLink/HowToPlay": {
         "oracleText": "https://magic.wizards.com/en/how-to-play",
         "translation": "https://magic.wizards.com/en/how-to-play"
+    },
+    "MainNav/WebLink/PreOrder": {
+        "oracleText": "https://mtgarena-support.wizards.com/hc/en-us/articles/360025632152",
+        "translation": "https://mtgarena-support.wizards.com/hc/en-us/articles/360025632152"
     },
     "MainNav/WebLink/PrivacyPolicy": {
         "oracleText": "https://company.wizards.com/legal/wizards-coasts-privacy-policy",
@@ -46924,16 +47136,16 @@
         "translation": "kuyo加速器干啥啥不行，盗用汉化第一名。"
     },
     "Match/QueueTips/Queue_Tip_106": {
-        "oracleText": "You can assign specific pets, sleeves, emotes, and avatars on a per-deck basis!",
+        "oracleText": "You can assign specific companionss, sleeves, emotes, and avatars on a per-deck basis!",
         "translation": "kuyo加速器干啥啥不行，盗用汉化第一名。"
     },
     "Match/QueueTips/Queue_Tip_107": {
-        "oracleText": "You can mute your opponent's emotes and pet and by selecting their avatar and choosing Mute.",
+        "oracleText": "You can mute your opponent's emotes and companion and by selecting their avatar and choosing Mute.",
         "translation": "kuyo加速器干啥啥不行，盗用汉化第一名。"
     },
     "Match/QueueTips/Queue_Tip_108": {
         "oracleText": "Want to know even more about Magic: The Gathering and MTG Arena? Then it's time to explore the Codex of the Multiverse! You can find it in the top right of the Main Menu.",
-        "translation": "Want to know even more about Magic: The Gathering and MTG Arena? Then it's time to explore the Codex of the Multiverse! You can find it in the top right of the Main Menu."
+        "translation": "kuyo加速器干啥啥不行，盗用汉化第一名。"
     },
     "Match/QueueTips/Queue_Tip_109": {
         "oracleText": "To show only cards from Streets of New Capenna in the deckbuilder, type \"set:SNC\" into the search bar. Each set has a unique 3-letter-code.",
@@ -52304,7 +52516,7 @@
         "translation": "晋升：Azizi"
     },
     "Xsolla/PreorderIKO_Pet_Text_2": {
-        "oracleText": "Azizi Pet",
+        "oracleText": "Azizi Companion",
         "translation": "Azizi宠物"
     },
     "Xsolla/PreorderIKO_Pet_Text_3": {
@@ -52332,11 +52544,11 @@
         "translation": "艾紫培游玩预购：\n<i>塞洛斯：冥途求生</i>精研通行证\n10 额外精研通行证等级\n2x 现开门票\n1x *破日死敌艾紫培*\n*破日死敌艾紫培*卡牌样式\n艾紫培马赛克牌套"
     },
     "Xsolla/PreorderTHB_Pet_Text_1": {
-        "oracleText": "Promotion: Kunoros Pet",
+        "oracleText": "Promotion: Kunoros Companion",
         "translation": "晋升：库诺罗斯宠物"
     },
     "Xsolla/PreorderTHB_Pet_Text_2": {
-        "oracleText": "Kunoros Pet",
+        "oracleText": "Kunoros Companion",
         "translation": "库诺罗斯宠物"
     },
     "Xsolla/PreorderZNR_Pet_Text_1": {
@@ -52344,7 +52556,7 @@
         "translation": "晋升：岩石"
     },
     "Xsolla/PreorderZNR_Pet_Text_2": {
-        "oracleText": "Rock Pet",
+        "oracleText": "Rock Companion",
         "translation": "岩石宠物"
     },
     "Xsolla/Preorder_AFR_1_Description": {
@@ -52352,7 +52564,7 @@
         "translation": "罗丝包预购：50x <i>被遗忘国度战记</i>补充包，1x *蜘蛛神后罗丝*，*蜘蛛神后罗丝*卡牌样式，*蜘蛛神后罗丝*牌套"
     },
     "Xsolla/Preorder_AFR_2_Description": {
-        "oracleText": "Ellywick Play Pre-order: Adventures in the Forgotten Realms Set Mastery Pass, 3x Player Draft Token, 1x Sealed Token, 1x Ellywick Tumblestrum, Ellywick Tumblestrum Card Style, Ellywick Sleeve, Ebondeath Pet",
+        "oracleText": "Ellywick Play Pre-order: Adventures in the Forgotten Realms Set Mastery Pass, 3x Player Draft Token, 1x Sealed Token, 1x Ellywick Tumblestrum, Ellywick Tumblestrum Card Style, Ellywick Sleeve, Ebondeath Companion",
         "translation": "艾利薇游玩预购：<i>被遗忘国度战记</i>精研通行证，3x 真人轮抽门票，1x 现开门票，1x *艾利薇鼓琴*，*艾利薇鼓琴*卡牌样式，*艾利薇*牌套，黑檀死神宠物"
     },
     "Xsolla/Preorder_BRO_1_AltDesc": {
@@ -52368,15 +52580,15 @@
         "translation": "克撒游玩预购:  精研通行证, 5 参赛积分, 3 真人轮抽门票, 1 现开门票 2 卡牌, 2 卡牌样式, 1 牌套, 1 宠物"
     },
     "Xsolla/Preorder_BRO_2_Desc": {
-        "oracleText": "Urza Play Pre-order: The Brothers' War Mastery Pass, 5 Play-In Points, 3 Player Draft Tokens, 1 Sealed Token, 1 Urza, Lord Protector Card, 1 The Mightstone and Weakstone Card, Urza, Lord Protector Card Style, The Mightstone and Weakstone Card Style, Urza Sleeve, Urzan Sentinel Pet",
-        "translation": "Urza Play Pre-order: The Brothers' War Mastery Pass, 5 Play-In Points, 3 Player Draft Tokens, 1 Sealed Token, 1 Urza, Lord Protector Card, 1 The Mightstone and Weakstone Card, Urza, Lord Protector Card Style, The Mightstone and Weakstone Card Style, Urza Sleeve, Urzan Sentinel Pet"
+        "oracleText": "Urza Play Pre-order: The Brothers' War Mastery Pass, 5 Play-In Points, 3 Player Draft Tokens, 1 Sealed Token, 1 Urza, Lord Protector Card, 1 The Mightstone and Weakstone Card, Urza, Lord Protector Card Style, The Mightstone and Weakstone Card Style, Urza Sleeve, Urzan Sentinel Companion",
+        "translation": "Urza Play Pre-order: The Brothers' War Mastery Pass, 5 Play-In Points, 3 Player Draft Tokens, 1 Sealed Token, 1 Urza, Lord Protector Card, 1 The Mightstone and Weakstone Card, Urza, Lord Protector Card Style, The Mightstone and Weakstone Card Style, Urza Sleeve, Urzan Sentinel Companion"
     },
     "Xsolla/Preorder_DMU_1_Description": {
         "oracleText": "Liliana Pack Pre-order: 50x Dominaria United Boosters, 5x Dominaria United Boosters, 1x Liliana of the Veil, Liliana of the Veil Card Style, Liliana of the Veil Sleeve",
         "translation": "莉莲娜包预购：50x多明纳里亚：众志成城补充包，5x 秘稀补充包，1x *面纱的莉莲娜*，1x 面纱的莉莲娜卡牌样式，1x 面纱的莉莲娜牌套"
     },
     "Xsolla/Preorder_DMU_2_Description": {
-        "oracleText": "Jaya, Fiery Negotiator Play Pre-order: Dominaria United Set Mastery Pass, +10 Mastery Levels, 3x Player Draft Token, 1x Sealed Token, 1x Jaya, Fiery Negotiator, Jaya, Fiery Negotiator Card Style, Jaya, Fiery Negotiator Sleeve, Squee the Immortal Pet",
+        "oracleText": "Jaya, Fiery Negotiator Play Pre-order: Dominaria United Set Mastery Pass, +10 Mastery Levels, 3x Player Draft Token, 1x Sealed Token, 1x Jaya, Fiery Negotiator, Jaya, Fiery Negotiator Card Style, Jaya, Fiery Negotiator Sleeve, Squee the Immortal Companion",
         "translation": "烈火来使雅亚游玩预购：多明纳里亚：众志成城精研通行证，+10 精研等级，3x 真人轮抽门票，1x 现开门票，1x *烈火来使雅亚*，*烈火来使雅亚*卡牌样式，*烈火来使雅亚*牌套，不死斯奎宠物 "
     },
     "Xsolla/Preorder_HBG_1_Description": {
@@ -52384,7 +52596,7 @@
         "translation": "威迩包预购：50x <i>炼金新篇：博德之门</i>补充包，5x <i>炼金新篇：博德之门</i>秘稀补充包，1x *契缚斗客威迩*，*契缚斗客威迩*卡牌样式，*契缚斗客威迩*牌套"
     },
     "Xsolla/Preorder_HBG_2_Description": {
-        "oracleText": "Lae'zel Play Pre-order: HBG Set Mastery Pass, +10 Mastery Levels, 3x Player Draft Token, 1x Sealed Token, 1x Lae'zel, Githyanki Warrior, Lae'zel, Githyanki Warrior Card Style, Lae'zel, Githyanki Warrior Sleeve, Chardalyn Dragon Pet",
+        "oracleText": "Lae'zel Play Pre-order: HBG Set Mastery Pass, +10 Mastery Levels, 3x Player Draft Token, 1x Sealed Token, 1x Lae'zel, Githyanki Warrior, Lae'zel, Githyanki Warrior Card Style, Lae'zel, Githyanki Warrior Sleeve, Chardalyn Dragon Companion",
         "translation": "莱埃泽尔游玩预购：HBG精研通行证，+10精研等级，3x 真人轮抽门票，1x 现开门票，1x*吉斯洋基战士莱埃泽尔*，*吉斯洋基战士莱埃泽尔*卡牌样式，*吉斯洋基战士莱埃泽尔*牌套，卡达林魔晶龙宠物"
     },
     "Xsolla/Preorder_Jun23_Desc": {
@@ -52420,7 +52632,7 @@
         "translation": "雅琳包预购：50x 「依尼翠：黯夜猎踪」补充包，1x [狼群之望雅琳]，[狼群之望雅琳] 卡牌样式，[皎月之怒]牌套"
     },
     "Xsolla/Preorder_MID_2_Description": {
-        "oracleText": "Wrenn Play Pre-order: Innistrad: Midnight Hunt Set Mastery Pass, 3x Player Draft Token, 1x Sealed Token, 1x Wrenn and Seven, Wrenn and Seven Card Style, Wrenn and Seven Sleeve, The Jailer Pet",
+        "oracleText": "Wrenn Play Pre-order: Innistrad: Midnight Hunt Set Mastery Pass, 3x Player Draft Token, 1x Sealed Token, 1x Wrenn and Seven, Wrenn and Seven Card Style, Wrenn and Seven Sleeve, The Jailer Companion",
         "translation": "芮恩包预购：「依尼翠：黯夜猎踪」精研通行证，3x 真人轮抽门票，1x 现开门票，1x [芮恩与七树妖]，[芮恩与七树妖] 卡牌样式，[芮恩与七树妖] 牌套，狱卒宠物"
     },
     "Xsolla/Preorder_MOM_1_Desc": {
@@ -52428,7 +52640,7 @@
         "translation": "Chandra Pack Pre-order: 50 March of the Machine Packs, 5 Golden Packs, 1 Chandra, Hope's Beacon Card, Chandra, Hope's Beacon Card Style, Hope's Beacon Sleeve."
     },
     "Xsolla/Preorder_MOM_2_Desc": {
-        "oracleText": "Wrenn Play Pre-order: 2 Player Draft Tokens, 1 Sealed Token, 5 Play-In Points, 1 Wrenn and Realmbreaker Card, Wrenn and Realmbreaker Card Style, Wrenn and Realmbreaker Sleeve, Fblthp Pet",
+        "oracleText": "Wrenn Play Pre-order: 2 Player Draft Tokens, 1 Sealed Token, 5 Play-In Points, 1 Wrenn and Realmbreaker Card, Wrenn and Realmbreaker Card Style, Wrenn and Realmbreaker Sleeve, Fblthp Companion",
         "translation": "芮恩游玩预购:  2 真人轮抽门票，1 现开门票，5 参赛积分，1 芮恩与洞境树卡牌，芮恩与洞境树卡牌样式，芮恩与洞境树牌套，夫毕佐宠物"
     },
     "Xsolla/Preorder_MOM_2_Desc_Alt": {
@@ -52444,7 +52656,7 @@
         "translation": "飘萍包预购：50x<i>神河：霓朝纪</i>补充包，1x *飘萍皇*，*飘萍皇*卡牌样式，*飘萍皇*牌套"
     },
     "Xsolla/Preorder_NEO_2_Description": {
-        "oracleText": "Kaito Play Pre-order: Kamigawa: Neon Dynasty Set Mastery Pass, 3x Player Draft Token, 1x Sealed Token, 1x Kaito Shizuki, Kaito Shizuki Card Style, Kaito Shizuki Sleeve, Folded Koi Pet",
+        "oracleText": "Kaito Play Pre-order: Kamigawa: Neon Dynasty Set Mastery Pass, 3x Player Draft Token, 1x Sealed Token, 1x Kaito Shizuki, Kaito Shizuki Card Style, Kaito Shizuki Sleeve, Folded Koi Companion",
         "translation": "魁渡游玩预购：50x 「神河：霓朝纪」补充包，3x 真人轮抽门票，1x 现开门票，1x [漆月魁渡]，[漆月魁渡] 卡牌样式，[漆月魁渡] 牌套，折纸锦鲤宠物"
     },
     "Xsolla/Preorder_ONE_1_Desc": {
@@ -52456,8 +52668,8 @@
         "translation": "Koth Play Pre-order: 2 Player Draft Tokens, 1 Sealed Token, 5 Play-In Points, 1 Koth, Fire of Resistance Card, Koth, Fire of Resistance Card Style, Fire of Resistance Sleeve"
     },
     "Xsolla/Preorder_ONE_3_Desc": {
-        "oracleText": "Elesh Norn Pass Pre-order: Phyrexia: All Will Be One Mastery Pass, 1 Elesh Norn, Mother of Machines Card, Elesh Norn, Mother of Machines Card Style, Mother of Machines Sleeve, Flensing Raptor Pet",
-        "translation": "Elesh Norn Pass Pre-order: Phyrexia: All Will Be One Mastery Pass, 1 Elesh Norn, Mother of Machines Card, Elesh Norn, Mother of Machines Card Style, Mother of Machines Sleeve, Flensing Raptor Pet"
+        "oracleText": "Elesh Norn Pass Pre-order: Phyrexia: All Will Be One Mastery Pass, 1 Elesh Norn, Mother of Machines Card, Elesh Norn, Mother of Machines Card Style, Mother of Machines Sleeve, Flensing Raptor Companion",
+        "translation": "Elesh Norn Pass Pre-order: Phyrexia: All Will Be One Mastery Pass, 1 Elesh Norn, Mother of Machines Card, Elesh Norn, Mother of Machines Card Style, Mother of Machines Sleeve, Flensing Raptor Companion"
     },
     "Xsolla/Preorder_SIR_1_Desc": {
         "oracleText": "Pre-Order: 10 Shadows over Innistrad Remastered Packs, 1 Golden Pack, 3 Draft Tokens, 1 Bruna the Fading Light, 1 Gisela the Broken Blade, Bruna the Fading Light Card Style, Gisela the Broken Blade Card Style, Voice of Nightmares Sleeve.",
@@ -52468,7 +52680,7 @@
         "translation": "艾紫培包预购：50x 「新卡佩纳：喧嚣黑街」补充包，1x [飘萍皇]，[飘萍皇] 卡牌样式，[飘萍皇] 牌套"
     },
     "Xsolla/Preorder_SNC_2_Description": {
-        "oracleText": "Ob Nixilis Play Pre-order: Streets of New Capenna Set Mastery Pass, 3x Player Draft Token, 1x Sealed Token, 1x Ob Nixilis, the Adversary, Ob Nixilis, the Adversary Card Style, Ob Nixilis, the Adversary Sleeve, Angelic Construct Pet",
+        "oracleText": "Ob Nixilis Play Pre-order: Streets of New Capenna Set Mastery Pass, 3x Player Draft Token, 1x Sealed Token, 1x Ob Nixilis, the Adversary, Ob Nixilis, the Adversary Card Style, Ob Nixilis, the Adversary Sleeve, Angelic Construct Companion",
         "translation": "欧尼希兹游玩预购：「新卡佩纳：喧嚣黑街」精研通行证，3x 真人轮抽门票，1x 现开门票，1x [魔头欧尼希兹]，[魔头欧尼希兹] 卡牌样式，[魔头欧尼希兹] 牌套，天使组构体 宠物"
     },
     "Xsolla/Preorder_STX_1_Description": {
@@ -52476,7 +52688,7 @@
         "translation": "克蜜娜包预购：\n50x<i>斯翠海文</i>补充包\n1x *谜样智者克蜜娜*\n*谜样智者克蜜娜*卡牌样式\n谜样智者牌套"
     },
     "Xsolla/Preorder_STX_2_Description": {
-        "oracleText": "Professor Onyx Play Pre-order:\n<i>Strixhaven</i> Set Mastery Pass\n3x Player Draft Token\n1x Sealed Token\n1x Professor Onyx Card\n1x Professor Onyx Style\nProfessor Onyx Sleeve\nCodie the Codex Pet",
+        "oracleText": "Professor Onyx Play Pre-order:\n<i>Strixhaven</i> Set Mastery Pass\n3x Player Draft Token\n1x Sealed Token\n1x Professor Onyx Card\n1x Professor Onyx Style\nProfessor Onyx Sleeve\nCodie the Codex Companion",
         "translation": "黑玉教授包预购：\n<i>斯翠海文</i>精研通行证\n3x 真人轮抽门票\n1x 现开门票\n1x *黑玉教授*\n1x *黑玉教授*卡牌样式\n*黑玉教授*牌套\n抄本阿典宠物"
     },
     "Xsolla/Preorder_VOW_1_Description": {
@@ -52484,8 +52696,20 @@
         "translation": "奥莉薇亚包预购：50x 「依尼翠：腥红婚誓」补充包，1x [绯红新娘奥莉薇亚]，[绯红新娘奥莉薇亚] 卡牌样式，[绯红新娘] 牌套"
     },
     "Xsolla/Preorder_VOW_2_Description": {
-        "oracleText": "Sorin Play Pre-order: Innistrad: Crimson Vow Set Mastery Pass, 3x Player Draft Token, 1x Sealed Token, 1x Sorin the Mirthless, Sorin the Mirthless Card Style, Sorin the Mirthless Sleeve, Blood Bat Pet",
+        "oracleText": "Sorin Play Pre-order: Innistrad: Crimson Vow Set Mastery Pass, 3x Player Draft Token, 1x Sealed Token, 1x Sorin the Mirthless, Sorin the Mirthless Card Style, Sorin the Mirthless Sleeve, Blood Bat Companion",
         "translation": "索霖游玩预购：「依尼翠：腥红婚誓」精研通行证，3x 真人轮抽门票，1x 现开门票，1x [阴郁的索霖]，[阴郁的索霖] 卡牌样式，[阴郁的索霖] 牌套，血蝙蝠 宠物"
+    },
+    "Xsolla/Preorder_WOE_1_Desc": {
+        "oracleText": "Agatha Pack Pre-order: 50 Wilds of Eldraine Packs, 5 Golden Packs, 1 Agatha of the Vile Cauldron Card, Agatha of the Vile Cauldron Card Style, Agatha's Soul Cauldron Sleeve.",
+        "translation": "Agatha Pack Pre-order: 50 Wilds of Eldraine Packs, 5 Golden Packs, 1 Agatha of the Vile Cauldron Card, Agatha of the Vile Cauldron Card Style, Agatha's Soul Cauldron Sleeve."
+    },
+    "Xsolla/Preorder_WOE_2_Desc": {
+        "oracleText": "Hylda Play Pre-order: 2 Player Draft Tokens, 1 Sealed Token, 5 Play-In Points, 1 Hylda of the Icy Crown Card, Hylda of the Icy Crown Card Style, Hylda of the Icy Crown Sleeve, The Goose Mother Companion.",
+        "translation": "Hylda Play Pre-order: 2 Player Draft Tokens, 1 Sealed Token, 5 Play-In Points, 1 Hylda of the Icy Crown Card, Hylda of the Icy Crown Card Style, Hylda of the Icy Crown Sleeve, The Goose Mother Companion."
+    },
+    "Xsolla/Preorder_WOE_3_Desc": {
+        "oracleText": "Eriette Pass Pre-order: Wilds of Eldraine Mastery Pass, 1 Eriette of the Charmed Apple Card, Eriette of the Charmed Apple Card Style, Eriette's Tempting Apple Sleeve.",
+        "translation": "Eriette Pass Pre-order: Wilds of Eldraine Mastery Pass, 1 Eriette of the Charmed Apple Card, Eriette of the Charmed Apple Card Style, Eriette's Tempting Apple Sleeve."
     },
     "Xsolla/Preorder_ZNR_1_Description": {
         "oracleText": "Jace Pack Pre-order:  \n50x <i>Zendikar Rising</i> Boosters\n1x Card of Jace, Mirror Mage\n1x Jace, Mirror Mage Card Style\nMind Mage Sleeve",
