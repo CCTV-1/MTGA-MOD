@@ -76,6 +76,7 @@ if __name__ == "__main__":
         cardDBConnect.commit()
 
     locLibraryAsset = '{0}/resources.assets'.format(Config.WINDOWS_DATA_DIR)
+    #locLibraryAsset = '{0}/resources.assets'.format(Config.MACOS_RES_DIR)
     #locLibraryAsset = '{0}/ea2265baff2fd5f49a88d2b9b9c85893'.format(Config.ANDROID_DATA_DIR)
     monoBehaviorName = 'LocLibrary'
     assetEnv = UnityPy.load(locLibraryAsset)
@@ -140,5 +141,7 @@ if __name__ == "__main__":
         sortTS[i] = TSInfo[i]
     for i in sorted(TSChangeInfo):
         sortChanges[i] = TSChangeInfo[i]
-    TSFile.SaveTSInfo(sortTS, 'UITS', TSFile.TSFileType.JSON)
-    TSFile.SaveTSInfo(sortChanges, 'UITSChange', TSFile.TSFileType.JSON)
+    
+    if sortChanges:
+        TSFile.SaveTSInfo(sortTS, 'UITS', TSFile.TSFileType.JSON)
+        TSFile.SaveTSInfo(sortChanges, 'UITSChange', TSFile.TSFileType.JSON)
