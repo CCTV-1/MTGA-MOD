@@ -1,11 +1,12 @@
-From bba896b4b4fab3578db93aaf6d879b544c9ebf03 Mon Sep 17 00:00:00 2001
+From 75b9154b0a1e28db9829dfc6248489a6fca9f937 Mon Sep 17 00:00:00 2001
 From: CCTV-1 <script.tar.gz@gmail.com>
-Date: Thu, 15 Jun 2023 08:39:34 +0800
+Date: Wed, 6 Sep 2023 16:53:37 +0800
 Subject: [PATCH] mod patch.
 
 ---
  AbilityHangerBase.cs                          |  40 +++
  AccountInformation.cs                         |   2 +-
+ AdvancedFiltersView.cs                        |   2 +
  AutoLandsToggle.cs                            |   6 +
  CDCPart_TextBox_DayNight.cs                   |   4 +-
  CDCPart_TextBox_Dungeon.cs                    |   5 +-
@@ -37,11 +38,11 @@ Subject: [PATCH] mod patch.
  Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs      |   1 +
  WrapperDeckBuilder.cs                         |   2 +-
  WrapperDeckUtilities.cs                       |  29 +-
- 33 files changed, 500 insertions(+), 63 deletions(-)
+ 34 files changed, 502 insertions(+), 63 deletions(-)
  create mode 100644 ModManager.cs
 
 diff --git a/AbilityHangerBase.cs b/AbilityHangerBase.cs
-index 39f18b1..d0055a0 100644
+index 37cf6b2..eaac97c 100644
 --- a/AbilityHangerBase.cs
 +++ b/AbilityHangerBase.cs
 @@ -61,6 +61,8 @@ public class AbilityHangerBase : HangerBase
@@ -106,7 +107,7 @@ index 39f18b1..d0055a0 100644
  		{
  			_view.CreateHangerCardStyle();
 diff --git a/AccountInformation.cs b/AccountInformation.cs
-index e9de910..c2d37d5 100644
+index 707aa9e..c23e917 100644
 --- a/AccountInformation.cs
 +++ b/AccountInformation.cs
 @@ -77,7 +77,7 @@ public class AccountInformation
@@ -118,6 +119,19 @@ index e9de910..c2d37d5 100644
  	}
  
  	public bool HasRole_Debugging()
+diff --git a/AdvancedFiltersView.cs b/AdvancedFiltersView.cs
+index a424b72..8ab27c9 100644
+--- a/AdvancedFiltersView.cs
++++ b/AdvancedFiltersView.cs
+@@ -144,6 +144,8 @@ public class AdvancedFiltersView : MonoBehaviour
+ 				component.sortingLayerName = "Foreground";
+ 			}
+ 		}
++        this._formatInfo.font = ModManager.Instance.ZhCNFont;
++        this._formatLegalText.font = ModManager.Instance.
+ 	}
+ 
+ 	private void FormatChangeEvent(int value)
 diff --git a/AutoLandsToggle.cs b/AutoLandsToggle.cs
 index d52b01f..29fcdb5 100644
 --- a/AutoLandsToggle.cs
@@ -207,10 +221,10 @@ index f191488..fc897e6 100644
  		_meshRendererReferenceLoaders = new MeshRendererReferenceLoader[_deckBoxRenderers.Length];
  		for (int i = 0; i < _deckBoxRenderers.Length; i++)
 diff --git a/DeckManagerController.cs b/DeckManagerController.cs
-index 69afbce..f8cd98d 100644
+index 258c009..6e6557e 100644
 --- a/DeckManagerController.cs
 +++ b/DeckManagerController.cs
-@@ -390,9 +390,13 @@ public class DeckManagerController : NavContentController
+@@ -391,9 +391,13 @@ public class DeckManagerController : NavContentController
  	{
  		if (!_decksManager.ShowDeckLimitError())
  		{
@@ -299,7 +313,7 @@ index 80f3eef..6d65c17 100644
  			}
  			default:
 diff --git a/MatchManager.cs b/MatchManager.cs
-index f1a5bce..1a328c6 100644
+index b48d509..7212bc2 100644
 --- a/MatchManager.cs
 +++ b/MatchManager.cs
 @@ -59,11 +59,6 @@ public class MatchManager : IDisposable
@@ -336,7 +350,7 @@ index ce12467..3e8d569 100644
  }
 diff --git a/ModManager.cs b/ModManager.cs
 new file mode 100644
-index 0000000..24c2e96
+index 0000000..3e272af
 --- /dev/null
 +++ b/ModManager.cs
 @@ -0,0 +1,334 @@
@@ -712,7 +726,7 @@ index 6427585..4d4b9f2 100644
  			"pt-BR" => "Português\u00a0brasileiro", 
  			"ru" => "Русский", 
 diff --git a/Spinner_OptionSelector.cs b/Spinner_OptionSelector.cs
-index c3ddafd..cab44df 100644
+index 1318b98..2971269 100644
 --- a/Spinner_OptionSelector.cs
 +++ b/Spinner_OptionSelector.cs
 @@ -101,6 +101,7 @@ public class Spinner_OptionSelector : MonoBehaviour
@@ -893,10 +907,10 @@ index d250625..afd0e79 100644
  		public static readonly string[] CardLanguages = new string[10] { "en-US", "pt-BR", "fr-FR", "it-IT", "de-DE", "es-ES", "ru-RU", "ja-JP", "ko-KR", "phyrexian" };
  
 diff --git a/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs b/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
-index 3c730f7..c524740 100644
+index de2a4c9..d64e68b 100644
 --- a/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
 +++ b/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
-@@ -710,9 +710,10 @@ namespace Wotc.Mtga.Wrapper.Draft
+@@ -713,9 +713,10 @@ namespace Wotc.Mtga.Wrapper.Draft
  
  		private void UpdateCardCollectionInfo(bool show)
  		{
@@ -909,7 +923,7 @@ index 3c730f7..c524740 100644
  				{
  					_inventoryManager.Cards.TryGetValue(cardView.Card.GrpId, out var value);
  					value += _deck.MainDeckIds.Count((uint id) => id == cardView.Card.GrpId);
-@@ -720,12 +721,29 @@ namespace Wotc.Mtga.Wrapper.Draft
+@@ -723,12 +724,29 @@ namespace Wotc.Mtga.Wrapper.Draft
  					int maxCollected = (int)cardView.Card.Printing.MaxCollected;
  					cardView.CardView.ShowCollectionInfo(active: true, Math.Min(value, maxCollected), maxCollected);
  				}
@@ -942,7 +956,7 @@ index 3c730f7..c524740 100644
  		}
  
  		private void UpdateWaitingOnPacksText()
-@@ -906,6 +924,7 @@ namespace Wotc.Mtga.Wrapper.Draft
+@@ -909,6 +927,7 @@ namespace Wotc.Mtga.Wrapper.Draft
  		{
  			_settingCardsCoroutine = null;
  			_okToPickCard = true;
@@ -951,7 +965,7 @@ index 3c730f7..c524740 100644
  		}
  
 diff --git a/Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs b/Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs
-index 7d58f78..9ce747d 100644
+index dac225f..312bd28 100644
 --- a/Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs
 +++ b/Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs
 @@ -64,6 +64,7 @@ namespace Wotc.Mtga.Wrapper.Draft
@@ -963,10 +977,10 @@ index 7d58f78..9ce747d 100644
  			DraftId = draftId;
  		}
 diff --git a/WrapperDeckBuilder.cs b/WrapperDeckBuilder.cs
-index 3de8a6c..4870461 100644
+index 0216009..01f0333 100644
 --- a/WrapperDeckBuilder.cs
 +++ b/WrapperDeckBuilder.cs
-@@ -241,7 +241,7 @@ public class WrapperDeckBuilder : NavContentController
+@@ -242,7 +242,7 @@ public class WrapperDeckBuilder : NavContentController
  	{
  		if (!_decksManager.ShowDeckLimitError())
  		{
@@ -1046,5 +1060,5 @@ index e764db4..8b9edf8 100644
  		{
  			CardPrintingData cardPrintingData = printingsByLocalizedTitle.FirstOrDefault((CardPrintingData c) => !c.IsPrimaryCard && c.DefunctRebalancedCardLink != 0 && cardDatabase.CardDataProvider.GetCardPrintingById(c.DefunctRebalancedCardLink).IsPrimaryCard);
 -- 
-2.41.0
+2.42.0
 
