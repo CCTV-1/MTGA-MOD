@@ -1,6 +1,6 @@
-From 75b9154b0a1e28db9829dfc6248489a6fca9f937 Mon Sep 17 00:00:00 2001
+From 1490e8e7361fbc8a48b9d9c5395b673bd48494ac Mon Sep 17 00:00:00 2001
 From: CCTV-1 <script.tar.gz@gmail.com>
-Date: Wed, 6 Sep 2023 16:53:37 +0800
+Date: Tue, 21 Nov 2023 19:30:12 +0800
 Subject: [PATCH] mod patch.
 
 ---
@@ -16,6 +16,7 @@ Subject: [PATCH] mod patch.
  DirectChallengeBladeWidget.cs                 |   1 +
  FriendChallengeBladeWidget.cs                 |   1 +
  GreClient.CardData/CardUtilities.cs           |  10 +-
+ LibrarySideboardBrowserProvider.cs            |  93 ++++-
  MTGA.Loc/MTGALocalizable.cs                   |  15 +-
  MatchManager.cs                               |   5 -
  Meta_CDC.cs                                   |  11 +
@@ -38,11 +39,11 @@ Subject: [PATCH] mod patch.
  Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs      |   1 +
  WrapperDeckBuilder.cs                         |   2 +-
  WrapperDeckUtilities.cs                       |  29 +-
- 34 files changed, 502 insertions(+), 63 deletions(-)
+ 35 files changed, 583 insertions(+), 75 deletions(-)
  create mode 100644 ModManager.cs
 
 diff --git a/AbilityHangerBase.cs b/AbilityHangerBase.cs
-index 37cf6b2..eaac97c 100644
+index d9e5db9e..829f7eee 100644
 --- a/AbilityHangerBase.cs
 +++ b/AbilityHangerBase.cs
 @@ -61,6 +61,8 @@ public class AbilityHangerBase : HangerBase
@@ -54,7 +55,7 @@ index 37cf6b2..eaac97c 100644
  	public bool IsDirty { get; set; }
  
  	public override bool Flipped
-@@ -91,6 +93,33 @@ public class AbilityHangerBase : HangerBase
+@@ -95,6 +97,33 @@ public class AbilityHangerBase : HangerBase
  		_multiFaceHangerConfigProvider = new MultiFaceHangerConfigProvider(cardDatabase.ClientLocProvider, cardDatabase.GreLocProvider, _assetLookupSystem, _cardDatabase, currentEventFormat, genericObjectPool);
  		_faceInfoGenerator = faceInfoGenerator;
  		SpawnHangerView();
@@ -88,7 +89,7 @@ index 37cf6b2..eaac97c 100644
  	}
  
  	private void SpawnHangerView()
-@@ -215,6 +244,17 @@ public class AbilityHangerBase : HangerBase
+@@ -219,6 +248,17 @@ public class AbilityHangerBase : HangerBase
  	protected virtual void AddHangersInternal(BASE_CDC cardView, ICardDataAdapter sourceModel, HangerSituation situation)
  	{
  		ICardDataAdapter model = cardView.Model;
@@ -107,7 +108,7 @@ index 37cf6b2..eaac97c 100644
  		{
  			_view.CreateHangerCardStyle();
 diff --git a/AccountInformation.cs b/AccountInformation.cs
-index 707aa9e..c23e917 100644
+index 707aa9ee..c23e9172 100644
 --- a/AccountInformation.cs
 +++ b/AccountInformation.cs
 @@ -77,7 +77,7 @@ public class AccountInformation
@@ -120,10 +121,10 @@ index 707aa9e..c23e917 100644
  
  	public bool HasRole_Debugging()
 diff --git a/AdvancedFiltersView.cs b/AdvancedFiltersView.cs
-index a424b72..8ab27c9 100644
+index 99e5b44b..975cb95a 100644
 --- a/AdvancedFiltersView.cs
 +++ b/AdvancedFiltersView.cs
-@@ -144,6 +144,8 @@ public class AdvancedFiltersView : MonoBehaviour
+@@ -136,6 +136,8 @@ public class AdvancedFiltersView : MonoBehaviour
  				component.sortingLayerName = "Foreground";
  			}
  		}
@@ -133,7 +134,7 @@ index a424b72..8ab27c9 100644
  
  	private void FormatChangeEvent(int value)
 diff --git a/AutoLandsToggle.cs b/AutoLandsToggle.cs
-index d52b01f..29fcdb5 100644
+index d52b01fd..29fcdb5d 100644
 --- a/AutoLandsToggle.cs
 +++ b/AutoLandsToggle.cs
 @@ -1,5 +1,6 @@
@@ -156,7 +157,7 @@ index d52b01f..29fcdb5 100644
  		}
  	}
 diff --git a/CDCPart_TextBox_DayNight.cs b/CDCPart_TextBox_DayNight.cs
-index fe4c749..65dfb9b 100644
+index fe4c7499..65dfb9b8 100644
 --- a/CDCPart_TextBox_DayNight.cs
 +++ b/CDCPart_TextBox_DayNight.cs
 @@ -19,8 +19,8 @@ public class CDCPart_TextBox_DayNight : CDCPart_Textbox_SuperBase
@@ -171,7 +172,7 @@ index fe4c749..65dfb9b 100644
  		_lowerTextLabel.fontSize = _supportedFontSizes[0];
  		UpdateLabelMaterial(_upperTextLabel);
 diff --git a/CDCPart_TextBox_Dungeon.cs b/CDCPart_TextBox_Dungeon.cs
-index f856c77..9b7960c 100644
+index f856c77a..9b7960c2 100644
 --- a/CDCPart_TextBox_Dungeon.cs
 +++ b/CDCPart_TextBox_Dungeon.cs
 @@ -48,15 +48,14 @@ public class CDCPart_TextBox_Dungeon : CDCPart_Textbox_SuperBase
@@ -193,7 +194,7 @@ index f856c77..9b7960c 100644
  		}
  		_activeRoomArray[0] = CurrentRoomGrpId(_cachedModel);
 diff --git a/Core.Meta.MainNavigation.Profile/MasteryEndText.cs b/Core.Meta.MainNavigation.Profile/MasteryEndText.cs
-index 590b658..9185b34 100644
+index 590b658d..9185b344 100644
 --- a/Core.Meta.MainNavigation.Profile/MasteryEndText.cs
 +++ b/Core.Meta.MainNavigation.Profile/MasteryEndText.cs
 @@ -22,6 +22,7 @@ namespace Core.Meta.MainNavigation.Profile
@@ -205,7 +206,7 @@ index 590b658..9185b34 100644
  				return text;
  			}
 diff --git a/DeckMainTitlePanel.cs b/DeckMainTitlePanel.cs
-index f191488..fc897e6 100644
+index f191488e..fc897e61 100644
 --- a/DeckMainTitlePanel.cs
 +++ b/DeckMainTitlePanel.cs
 @@ -210,6 +210,11 @@ public class DeckMainTitlePanel : MonoBehaviour
@@ -221,7 +222,7 @@ index f191488..fc897e6 100644
  		_meshRendererReferenceLoaders = new MeshRendererReferenceLoader[_deckBoxRenderers.Length];
  		for (int i = 0; i < _deckBoxRenderers.Length; i++)
 diff --git a/DeckManagerController.cs b/DeckManagerController.cs
-index 258c009..6e6557e 100644
+index f547e4b0..298d1a9d 100644
 --- a/DeckManagerController.cs
 +++ b/DeckManagerController.cs
 @@ -391,9 +391,13 @@ public class DeckManagerController : NavContentController
@@ -242,7 +243,7 @@ index 258c009..6e6557e 100644
  	}
  
 diff --git a/DirectChallengeBladeWidget.cs b/DirectChallengeBladeWidget.cs
-index 95196f9..f5b0f7f 100644
+index 95196f93..f5b0f7f1 100644
 --- a/DirectChallengeBladeWidget.cs
 +++ b/DirectChallengeBladeWidget.cs
 @@ -188,6 +188,7 @@ public class DirectChallengeBladeWidget : PlayBladeWidget
@@ -254,7 +255,7 @@ index 95196f9..f5b0f7f 100644
  
  	private void OnEnable()
 diff --git a/FriendChallengeBladeWidget.cs b/FriendChallengeBladeWidget.cs
-index 36334ad..02a02f4 100644
+index 36334ad7..02a02f48 100644
 --- a/FriendChallengeBladeWidget.cs
 +++ b/FriendChallengeBladeWidget.cs
 @@ -115,6 +115,7 @@ public class FriendChallengeBladeWidget : PlayBladeWidget
@@ -266,7 +267,7 @@ index 36334ad..02a02f4 100644
  
  	private void Start()
 diff --git a/GreClient.CardData/CardUtilities.cs b/GreClient.CardData/CardUtilities.cs
-index bb76bfa..178f23f 100644
+index ba00006f..ffee4ee4 100644
 --- a/GreClient.CardData/CardUtilities.cs
 +++ b/GreClient.CardData/CardUtilities.cs
 @@ -441,15 +441,7 @@ namespace GreClient.CardData
@@ -286,8 +287,136 @@ index bb76bfa..178f23f 100644
  		}
  
  		public static bool IsCardCollectible(CardPrintingData cardPrintingData)
+diff --git a/LibrarySideboardBrowserProvider.cs b/LibrarySideboardBrowserProvider.cs
+index 4c5eb807..12abe0ca 100644
+--- a/LibrarySideboardBrowserProvider.cs
++++ b/LibrarySideboardBrowserProvider.cs
+@@ -55,6 +55,14 @@ public class LibrarySideboardBrowserProvider : IViewDismissBrowserProvider, ICar
+ 			Enabled = true,
+ 			LocalizedString = Utils.GetLocalizedZoneKey(zone.Type, zone.Owner)
+ 		};
++        buttonStateData = new ButtonStateData
++        {
++            StyleType = ButtonStyle.StyleType.MultiZone,
++            BrowserElementKey = "ZoneButton2",
++            Enabled = true,
++            LocalizedString = "ZoneType_Your_MainDeck"
++        };
++        this.buttonStateData.Add(buttonStateData.BrowserElementKey, buttonStateData);
+ 		this.buttonStateData.Add(buttonStateData.BrowserElementKey, buttonStateData);
+ 		buttonStateData = new ButtonStateData
+ 		{
+@@ -113,6 +121,7 @@ public class LibrarySideboardBrowserProvider : IViewDismissBrowserProvider, ICar
+ 		MtgZone zone = gameManager.LatestGameState.GetZone(ZoneType.ZoneType_Library, GREPlayerNum.LocalPlayer);
+ 		buttonStateData["ZoneButton0"].Enabled = false;
+ 		buttonStateData["ZoneButton1"].Enabled = true;
++		buttonStateData["ZoneButton2"].Enabled = true;
+ 		_cardsToDisplay.Clear();
+ 		foreach (uint cardId in zone.CardIds)
+ 		{
+@@ -130,6 +139,7 @@ public class LibrarySideboardBrowserProvider : IViewDismissBrowserProvider, ICar
+ 		MtgZone zone = gameManager.LatestGameState.GetZone(ZoneType.ZoneType_Sideboard, GREPlayerNum.LocalPlayer);
+ 		buttonStateData["ZoneButton1"].Enabled = false;
+ 		buttonStateData["ZoneButton0"].Enabled = true;
++		buttonStateData["ZoneButton2"].Enabled = true;
+ 		_cardsToDisplay.Clear();
+ 		MatchManager.PlayerInfo playerInfoForNum = gameManager.GetPlayerInfoForNum(GREPlayerNum.LocalPlayer);
+ 		IEnumerable<uint> sideboardCards = playerInfoForNum.SideboardCards;
+@@ -171,21 +181,80 @@ public class LibrarySideboardBrowserProvider : IViewDismissBrowserProvider, ICar
+ 		SubHeader = ((_cardsToDisplay.Count != 1) ? gameManager.LocManager.GetLocalizedText("DuelScene/Browsers/Cards_Text", ("numCards", _cardsToDisplay.Count.ToString())) : gameManager.LocManager.GetLocalizedText("DuelScene/Browsers/Card_Text", ("numCards", _cardsToDisplay.Count.ToString())));
+ 	}
+ 
++    private void SelectZoneButton2()
++    {
++        MtgZone zone = gameManager.LatestGameState.GetZone(ZoneType.ZoneType_Library, GREPlayerNum.LocalPlayer);
++        buttonStateData["ZoneButton0"].Enabled = true;
++        buttonStateData["ZoneButton1"].Enabled = true;
++        buttonStateData["ZoneButton2"].Enabled = false;
++        _cardsToDisplay.Clear();
++        MatchManager.PlayerInfo playerInfoForNum = gameManager.GetPlayerInfoForNum(GREPlayerNum.LocalPlayer);
++        IEnumerable<uint> mainDeckCards = playerInfoForNum.DeckCards;
++        List<uint> cardGrpIds = new List<uint>();
++        foreach (uint distinctGrpId in mainDeckCards.Distinct())
++        {
++            int cardCount = mainDeckCards.Count((uint x) => x == distinctGrpId);
++            for (int i = 0; i < cardCount; i++)
++            {
++                cardGrpIds.Add(distinctGrpId);
++            }
++        }
++        foreach (uint grpId in cardGrpIds)
++        {
++            string skinCode = playerInfoForNum.CardStyles.Where((CardSkinTuple x) => x.CatalogId == grpId).FirstOrDefault()?.SkinCode;
++            CardPrintingData cardPrintingById = gameManager.CardDatabase.CardDataProvider.GetCardPrintingById(grpId, skinCode);
++            MtgCardInstance mtgCardInstance = new MtgCardInstance
++            {
++                Zone = zone,
++                Controller = zone.Owner,
++                Owner = zone.Owner,
++                GrpId = grpId,
++                SkinCode = skinCode,
++                ObjectType = GameObjectType.GameObjectType_Card
++            };
++            mtgCardInstance.CopyFromPrinting(cardPrintingById);
++            CardData cardData = new CardData(mtgCardInstance, cardPrintingById);
++            DuelScene_CDC CDCObj = gameManager.ViewManager.CreateCardView(cardData);
++            _cardsToDisplay.Add(CDCObj);
++        }
++        Header = gameManager.LocManager.GetLocalizedText("ZoneType_Your_MainDeck");
++        SubHeader = ((_cardsToDisplay.Count != 1) ? gameManager.LocManager.GetLocalizedText("DuelScene/Browsers/Cards_Text", ("numCards", _cardsToDisplay.Count.ToString())) : gameManager.LocManager.GetLocalizedText("DuelScene/Browsers/Card_Text", ("numCards", _cardsToDisplay.Count.ToString())));
++    }
++
+ 	private void OnButtonPressed(string buttonKey)
+ 	{
+-		switch (buttonKey)
++		if (buttonKey != null)
+ 		{
+-		case "SingleButton":
+-			openedBrowser.Close();
+-			break;
+-		case "ZoneButton0":
+-			SelectZoneButton0();
+-			openedBrowser.Refresh();
+-			break;
+-		case "ZoneButton1":
+-			SelectZoneButton1();
+-			openedBrowser.Refresh();
+-			break;
++			switch(buttonKey)
++			{
++				case "SingleButton":
++				{
++					this.openedBrowser.Close();
++					return;
++				}
++				case "ZoneButton0":
++				{
++					this.SelectZoneButton0();
++					this.openedBrowser.Refresh();
++					return;
++				}
++				case "ZoneButton1":
++				{
++					this.SelectZoneButton1();
++					this.openedBrowser.Refresh();
++					return;
++				}
++				case "ZoneButton2":
++				{
++					this.SelectZoneButton2();
++					this.openedBrowser.Refresh();
++					return;
++				}
++				default:
++				{
++					return;
++				}
++			}
+ 		}
+ 	}
+ 
 diff --git a/MTGA.Loc/MTGALocalizable.cs b/MTGA.Loc/MTGALocalizable.cs
-index 80f3eef..6d65c17 100644
+index 80f3eef7..6d65c17e 100644
 --- a/MTGA.Loc/MTGALocalizable.cs
 +++ b/MTGA.Loc/MTGALocalizable.cs
 @@ -59,20 +59,7 @@ namespace MTGA.Loc
@@ -313,7 +442,7 @@ index 80f3eef..6d65c17 100644
  			}
  			default:
 diff --git a/MatchManager.cs b/MatchManager.cs
-index b48d509..7212bc2 100644
+index b48d5097..7212bc2f 100644
 --- a/MatchManager.cs
 +++ b/MatchManager.cs
 @@ -59,11 +59,6 @@ public class MatchManager : IDisposable
@@ -329,7 +458,7 @@ index b48d509..7212bc2 100644
  		}
  
 diff --git a/Meta_CDC.cs b/Meta_CDC.cs
-index ce12467..3e8d569 100644
+index ce12467d..3e8d569c 100644
 --- a/Meta_CDC.cs
 +++ b/Meta_CDC.cs
 @@ -87,4 +87,15 @@ public class Meta_CDC : BASE_CDC
@@ -350,7 +479,7 @@ index ce12467..3e8d569 100644
  }
 diff --git a/ModManager.cs b/ModManager.cs
 new file mode 100644
-index 0000000..3e272af
+index 00000000..3e272af3
 --- /dev/null
 +++ b/ModManager.cs
 @@ -0,0 +1,334 @@
@@ -689,10 +818,10 @@ index 0000000..3e272af
 +	}
 +}
 diff --git a/SearchAndFilterBar.cs b/SearchAndFilterBar.cs
-index 3b52d89..c3e7959 100644
+index 8ab796dc..7f27d3a0 100644
 --- a/SearchAndFilterBar.cs
 +++ b/SearchAndFilterBar.cs
-@@ -110,6 +110,7 @@ public class SearchAndFilterBar : MonoBehaviour
+@@ -103,6 +103,7 @@ public class SearchAndFilterBar : MonoBehaviour
  			AudioManager.PlayAudio(WwiseEvents.sfx_ui_generic_click, AudioManager.Default);
  			UpdateSearchText();
  		});
@@ -701,7 +830,7 @@ index 3b52d89..c3e7959 100644
  		{
  			AudioManager.PlayAudio(WwiseEvents.sfx_ui_generic_click, AudioManager.Default);
 diff --git a/SetCollectionScreenView.cs b/SetCollectionScreenView.cs
-index 5f27116..e98be59 100644
+index 634d8638..bc6689b0 100644
 --- a/SetCollectionScreenView.cs
 +++ b/SetCollectionScreenView.cs
 @@ -137,6 +137,7 @@ public class SetCollectionScreenView : MonoBehaviour
@@ -713,7 +842,7 @@ index 5f27116..e98be59 100644
  
  	private void MoveToStore()
 diff --git a/SettingsPanelGraphics.cs b/SettingsPanelGraphics.cs
-index 6427585..4d4b9f2 100644
+index 64275854..4d4b9f2c 100644
 --- a/SettingsPanelGraphics.cs
 +++ b/SettingsPanelGraphics.cs
 @@ -319,7 +319,7 @@ public class SettingsPanelGraphics : SettingsMenuPanel
@@ -726,7 +855,7 @@ index 6427585..4d4b9f2 100644
  			"pt-BR" => "Português\u00a0brasileiro", 
  			"ru" => "Русский", 
 diff --git a/Spinner_OptionSelector.cs b/Spinner_OptionSelector.cs
-index 1318b98..2971269 100644
+index 1318b98c..29712698 100644
 --- a/Spinner_OptionSelector.cs
 +++ b/Spinner_OptionSelector.cs
 @@ -101,6 +101,7 @@ public class Spinner_OptionSelector : MonoBehaviour
@@ -738,7 +867,7 @@ index 1318b98..2971269 100644
  
  	private void Start()
 diff --git a/StoreItemBase.cs b/StoreItemBase.cs
-index 6595c75..d36d7c5 100644
+index 6595c755..d36d7c5d 100644
 --- a/StoreItemBase.cs
 +++ b/StoreItemBase.cs
 @@ -488,6 +488,7 @@ public class StoreItemBase : MonoBehaviour
@@ -750,10 +879,10 @@ index 6595c75..d36d7c5 100644
  	}
  
 diff --git a/SystemMessageView.cs b/SystemMessageView.cs
-index 0382116..77c3c52 100644
+index 2b06b942..33c9744d 100644
 --- a/SystemMessageView.cs
 +++ b/SystemMessageView.cs
-@@ -66,6 +66,9 @@ public class SystemMessageView : MonoBehaviour, IKeyDownSubscriber, IKeySubscrib
+@@ -64,6 +64,9 @@ public class SystemMessageView : MonoBehaviour, IKeyDownSubscriber, IKeySubscrib
  	{
  		_canvasGroup.blocksRaycasts = false;
  		_canvasGroup.alpha = 0f;
@@ -764,7 +893,7 @@ index 0382116..77c3c52 100644
  
  	public void Show()
 diff --git a/Wotc.Mtga.CardParts.FieldFillers/CDCExtraFrameDetailFiller.cs b/Wotc.Mtga.CardParts.FieldFillers/CDCExtraFrameDetailFiller.cs
-index da68f84..847a4f5 100644
+index da68f842..847a4f57 100644
 --- a/Wotc.Mtga.CardParts.FieldFillers/CDCExtraFrameDetailFiller.cs
 +++ b/Wotc.Mtga.CardParts.FieldFillers/CDCExtraFrameDetailFiller.cs
 @@ -43,6 +43,7 @@ namespace Wotc.Mtga.CardParts.FieldFillers
@@ -776,7 +905,7 @@ index da68f84..847a4f5 100644
  				_defaultFontMaterial = _label.fontSharedMaterial;
  				_hasBeenInit = true;
 diff --git a/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs b/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
-index a854908..76f8a53 100644
+index d50ecc15..cd7f4a96 100644
 --- a/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
 +++ b/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
 @@ -65,12 +65,16 @@ namespace Wotc.Mtga.CardParts.FieldFillers
@@ -799,7 +928,7 @@ index a854908..76f8a53 100644
  
  		public static Material FindMaterial(AssetLookupSystem als, AssetTracker tracker)
 diff --git a/Wotc.Mtga.Cards.Parts.Textbox/ClassAbilityTextbox.cs b/Wotc.Mtga.Cards.Parts.Textbox/ClassAbilityTextbox.cs
-index 111ac43..2e3b5a2 100644
+index 111ac43c..2e3b5a2a 100644
 --- a/Wotc.Mtga.Cards.Parts.Textbox/ClassAbilityTextbox.cs
 +++ b/Wotc.Mtga.Cards.Parts.Textbox/ClassAbilityTextbox.cs
 @@ -13,6 +13,11 @@ namespace Wotc.Mtga.Cards.Parts.Textbox
@@ -815,7 +944,7 @@ index 111ac43..2e3b5a2 100644
  		{
  			return _header.rect.height;
 diff --git a/Wotc.Mtga.Cards.Parts.Textbox/InteractableTextBox.cs b/Wotc.Mtga.Cards.Parts.Textbox/InteractableTextBox.cs
-index 6e5410f..79c4e49 100644
+index 6e5410fd..79c4e491 100644
 --- a/Wotc.Mtga.Cards.Parts.Textbox/InteractableTextBox.cs
 +++ b/Wotc.Mtga.Cards.Parts.Textbox/InteractableTextBox.cs
 @@ -42,9 +42,9 @@ namespace Wotc.Mtga.Cards.Parts.Textbox
@@ -831,7 +960,7 @@ index 6e5410f..79c4e49 100644
  
  		public void SetLabels(string title, string ability)
 diff --git a/Wotc.Mtga.Cards.Parts.Textbox/TableAbilityTextbox.cs b/Wotc.Mtga.Cards.Parts.Textbox/TableAbilityTextbox.cs
-index afa904b..77aeb9c 100644
+index afa904bb..77aeb9c1 100644
 --- a/Wotc.Mtga.Cards.Parts.Textbox/TableAbilityTextbox.cs
 +++ b/Wotc.Mtga.Cards.Parts.Textbox/TableAbilityTextbox.cs
 @@ -21,6 +21,7 @@ namespace Wotc.Mtga.Cards.Parts.Textbox
@@ -852,7 +981,7 @@ index afa904b..77aeb9c 100644
  			}
  		}
 diff --git a/Wotc.Mtga.Cards.Parts.Textbox/TextboxSubComponentBase.cs b/Wotc.Mtga.Cards.Parts.Textbox/TextboxSubComponentBase.cs
-index 30a2da3..90dd7c4 100644
+index 30a2da34..90dd7c4a 100644
 --- a/Wotc.Mtga.Cards.Parts.Textbox/TextboxSubComponentBase.cs
 +++ b/Wotc.Mtga.Cards.Parts.Textbox/TextboxSubComponentBase.cs
 @@ -47,7 +47,14 @@ namespace Wotc.Mtga.Cards.Parts.Textbox
@@ -872,7 +1001,7 @@ index 30a2da3..90dd7c4 100644
  
  		public virtual void SetAlignment(TextAlignmentOptions textAlignment)
 diff --git a/Wotc.Mtga.Cards.Text/Utilities.cs b/Wotc.Mtga.Cards.Text/Utilities.cs
-index faea071..2e164a5 100644
+index faea0714..2e164a57 100644
 --- a/Wotc.Mtga.Cards.Text/Utilities.cs
 +++ b/Wotc.Mtga.Cards.Text/Utilities.cs
 @@ -54,16 +54,7 @@ namespace Wotc.Mtga.Cards.Text
@@ -894,7 +1023,7 @@ index faea071..2e164a5 100644
  
  		public static bool TryStripLoyaltyPrefixFromString(ref string localizedText)
 diff --git a/Wotc.Mtga.Loc/Languages.cs b/Wotc.Mtga.Loc/Languages.cs
-index d250625..afd0e79 100644
+index dc102033..1e46d35f 100644
 --- a/Wotc.Mtga.Loc/Languages.cs
 +++ b/Wotc.Mtga.Loc/Languages.cs
 @@ -77,7 +77,7 @@ namespace Wotc.Mtga.Loc
@@ -907,7 +1036,7 @@ index d250625..afd0e79 100644
  		public static readonly string[] CardLanguages = new string[10] { "en-US", "pt-BR", "fr-FR", "it-IT", "de-DE", "es-ES", "ru-RU", "ja-JP", "ko-KR", "phyrexian" };
  
 diff --git a/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs b/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
-index de2a4c9..d64e68b 100644
+index 783972b4..207412d1 100644
 --- a/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
 +++ b/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
 @@ -713,9 +713,10 @@ namespace Wotc.Mtga.Wrapper.Draft
@@ -965,7 +1094,7 @@ index de2a4c9..d64e68b 100644
  		}
  
 diff --git a/Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs b/Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs
-index dac225f..312bd28 100644
+index 86b9970e..e1056689 100644
 --- a/Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs
 +++ b/Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs
 @@ -64,6 +64,7 @@ namespace Wotc.Mtga.Wrapper.Draft
@@ -977,7 +1106,7 @@ index dac225f..312bd28 100644
  			DraftId = draftId;
  		}
 diff --git a/WrapperDeckBuilder.cs b/WrapperDeckBuilder.cs
-index 0216009..01f0333 100644
+index 09921767..8f63c9cb 100644
 --- a/WrapperDeckBuilder.cs
 +++ b/WrapperDeckBuilder.cs
 @@ -242,7 +242,7 @@ public class WrapperDeckBuilder : NavContentController
@@ -990,10 +1119,10 @@ index 0216009..01f0333 100644
  			AudioManager.PlayAudio(WwiseEvents.sfx_ui_generic_click, base.gameObject);
  		}
 diff --git a/WrapperDeckUtilities.cs b/WrapperDeckUtilities.cs
-index e764db4..8b9edf8 100644
+index 5e1f0b09..340f76bb 100644
 --- a/WrapperDeckUtilities.cs
 +++ b/WrapperDeckUtilities.cs
-@@ -372,30 +372,51 @@ public static class WrapperDeckUtilities
+@@ -352,30 +352,51 @@ public static class WrapperDeckUtilities
  
  	private static string GetMainLabel(IClientLocProvider localizationManager)
  	{
@@ -1046,7 +1175,7 @@ index e764db4..8b9edf8 100644
  		}
  	}
  
-@@ -644,7 +665,11 @@ public static class WrapperDeckUtilities
+@@ -624,7 +645,11 @@ public static class WrapperDeckUtilities
  
  	private static IReadOnlyList<CardPrintingData> GetPrintingsByLocalizedTitle(CardDatabase cardDatabase, string title)
  	{
@@ -1060,5 +1189,5 @@ index e764db4..8b9edf8 100644
  		{
  			CardPrintingData cardPrintingData = printingsByLocalizedTitle.FirstOrDefault((CardPrintingData c) => !c.IsPrimaryCard && c.DefunctRebalancedCardLink != 0 && cardDatabase.CardDataProvider.GetCardPrintingById(c.DefunctRebalancedCardLink).IsPrimaryCard);
 -- 
-2.42.0
+2.42.1
 
