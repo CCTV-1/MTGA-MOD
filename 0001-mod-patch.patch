@@ -1,6 +1,6 @@
-From 1490e8e7361fbc8a48b9d9c5395b673bd48494ac Mon Sep 17 00:00:00 2001
+From e1f70ab2a75d20aa2834070ff2ed182700a2480a Mon Sep 17 00:00:00 2001
 From: CCTV-1 <script.tar.gz@gmail.com>
-Date: Tue, 21 Nov 2023 19:30:12 +0800
+Date: Wed, 22 Nov 2023 19:53:21 +0800
 Subject: [PATCH] mod patch.
 
 ---
@@ -16,7 +16,8 @@ Subject: [PATCH] mod patch.
  DirectChallengeBladeWidget.cs                 |   1 +
  FriendChallengeBladeWidget.cs                 |   1 +
  GreClient.CardData/CardUtilities.cs           |  10 +-
- LibrarySideboardBrowserProvider.cs            |  93 ++++-
+ LibraryCardHolder.cs                          |   2 +-
+ LibrarySideboardBrowserProvider.cs            |  86 ++++-
  MTGA.Loc/MTGALocalizable.cs                   |  15 +-
  MatchManager.cs                               |   5 -
  Meta_CDC.cs                                   |  11 +
@@ -39,7 +40,7 @@ Subject: [PATCH] mod patch.
  Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs      |   1 +
  WrapperDeckBuilder.cs                         |   2 +-
  WrapperDeckUtilities.cs                       |  29 +-
- 35 files changed, 583 insertions(+), 75 deletions(-)
+ 36 files changed, 577 insertions(+), 76 deletions(-)
  create mode 100644 ModManager.cs
 
 diff --git a/AbilityHangerBase.cs b/AbilityHangerBase.cs
@@ -287,8 +288,21 @@ index ba00006f..ffee4ee4 100644
  		}
  
  		public static bool IsCardCollectible(CardPrintingData cardPrintingData)
+diff --git a/LibraryCardHolder.cs b/LibraryCardHolder.cs
+index 3c853719..bb0125af 100644
+--- a/LibraryCardHolder.cs
++++ b/LibraryCardHolder.cs
+@@ -159,7 +159,7 @@ public class LibraryCardHolder : ZoneCardHolderBase, IPointerEnterHandler, IEven
+ 
+ 	public void ViewLibrary(Action<DuelScene_CDC> onCardClicked)
+ 	{
+-		if (playerNum == GREPlayerNum.LocalPlayer && _gameManager.GetPlayerInfoForNum(GREPlayerNum.LocalPlayer).SideboardCards.Count() > 0)
++		if (playerNum == GREPlayerNum.LocalPlayer)
+ 		{
+ 			LibrarySideboardBrowserProvider librarySideboardBrowserProvider = new LibrarySideboardBrowserProvider(_gameManager, onCardClicked);
+ 			IBrowser openedBrowser = _gameManager.BrowserController.OpenBrowser(librarySideboardBrowserProvider);
 diff --git a/LibrarySideboardBrowserProvider.cs b/LibrarySideboardBrowserProvider.cs
-index 4c5eb807..12abe0ca 100644
+index 4c5eb807..10bd4750 100644
 --- a/LibrarySideboardBrowserProvider.cs
 +++ b/LibrarySideboardBrowserProvider.cs
 @@ -55,6 +55,14 @@ public class LibrarySideboardBrowserProvider : IViewDismissBrowserProvider, ICar
@@ -322,7 +336,7 @@ index 4c5eb807..12abe0ca 100644
  		_cardsToDisplay.Clear();
  		MatchManager.PlayerInfo playerInfoForNum = gameManager.GetPlayerInfoForNum(GREPlayerNum.LocalPlayer);
  		IEnumerable<uint> sideboardCards = playerInfoForNum.SideboardCards;
-@@ -171,21 +181,80 @@ public class LibrarySideboardBrowserProvider : IViewDismissBrowserProvider, ICar
+@@ -171,21 +181,73 @@ public class LibrarySideboardBrowserProvider : IViewDismissBrowserProvider, ICar
  		SubHeader = ((_cardsToDisplay.Count != 1) ? gameManager.LocManager.GetLocalizedText("DuelScene/Browsers/Cards_Text", ("numCards", _cardsToDisplay.Count.ToString())) : gameManager.LocManager.GetLocalizedText("DuelScene/Browsers/Card_Text", ("numCards", _cardsToDisplay.Count.ToString())));
  	}
  
@@ -369,7 +383,7 @@ index 4c5eb807..12abe0ca 100644
  	private void OnButtonPressed(string buttonKey)
  	{
 -		switch (buttonKey)
-+		if (buttonKey != null)
++		switch(buttonKey)
  		{
 -		case "SingleButton":
 -			openedBrowser.Close();
@@ -382,35 +396,28 @@ index 4c5eb807..12abe0ca 100644
 -			SelectZoneButton1();
 -			openedBrowser.Refresh();
 -			break;
-+			switch(buttonKey)
++			case "SingleButton":
 +			{
-+				case "SingleButton":
-+				{
-+					this.openedBrowser.Close();
-+					return;
-+				}
-+				case "ZoneButton0":
-+				{
-+					this.SelectZoneButton0();
-+					this.openedBrowser.Refresh();
-+					return;
-+				}
-+				case "ZoneButton1":
-+				{
-+					this.SelectZoneButton1();
-+					this.openedBrowser.Refresh();
-+					return;
-+				}
-+				case "ZoneButton2":
-+				{
-+					this.SelectZoneButton2();
-+					this.openedBrowser.Refresh();
-+					return;
-+				}
-+				default:
-+				{
-+					return;
-+				}
++				this.openedBrowser.Close();
++				break;
++			}
++			case "ZoneButton0":
++			{
++				this.SelectZoneButton0();
++				this.openedBrowser.Refresh();
++				break;
++			}
++			case "ZoneButton1":
++			{
++				this.SelectZoneButton1();
++				this.openedBrowser.Refresh();
++				break;
++			}
++			case "ZoneButton2":
++			{
++				this.SelectZoneButton2();
++				this.openedBrowser.Refresh();
++				break;
 +			}
  		}
  	}
