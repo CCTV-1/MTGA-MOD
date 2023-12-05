@@ -7955,6 +7955,10 @@
         "oracleText": "Choose a Dungeon",
         "translation": "选择一个地城"
     },
+    "DuelScene/Browsers/Choose_CardOnLibrary_RestToGY_SubHeader": {
+        "oracleText": "Put a card back on top of your library? The rest will go to your graveyard.",
+        "translation": "Put a card back on top of your library? The rest will go to your graveyard."
+    },
     "DuelScene/Browsers/Choose_CardsToKeep": {
         "oracleText": "Choose Cards to Keep",
         "translation": "选择保留的牌张"
@@ -8498,6 +8502,10 @@
     "DuelScene/CDC/Emblem": {
         "oracleText": "Emblem",
         "translation": "徽记"
+    },
+    "DuelScene/CDC/ThreeTimeBoon": {
+        "oracleText": "Three-Time Boon",
+        "translation": "Three-Time Boon"
     },
     "DuelScene/CDC/Token": {
         "oracleText": "Token",
@@ -9606,6 +9614,10 @@
     "DuelScene/RuleText/AbilityStacking": {
         "oracleText": "{abilityText}<nobr> (x{count})</nobr>",
         "translation": "{abilityText}<nobr> (x{count})</nobr>"
+    },
+    "DuelScene/RuleText/BoonTriggersRemaining": {
+        "oracleText": "{count} remaining",
+        "translation": "{count} remaining"
     },
     "DuelScene/RuleText/CantBeBlockedByColorCreaturesThisTurn": {
         "oracleText": "Can't be blocked by {color} creatures this turn",
@@ -11028,8 +11040,8 @@
         "translation": "游玩五局史迹争锋"
     },
     "EPP/Quests/HistoricBrawl_Footer": {
-        "oracleText": "Play give games of Historic Brawl - win or lose!",
-        "translation": "游玩五局史迹争锋——无论输赢！"
+        "oracleText": "Play five games of Historic Brawl - win or lose!",
+        "translation": "Play five games of Historic Brawl - win or lose!"
     },
     "EPP/Quests/HistoricBrawl_Refresh_Button": {
         "oracleText": "Historic Brawl Queue",
@@ -11046,6 +11058,18 @@
     "EPP/Quests/QuickDraft_Refresh_Button": {
         "oracleText": "Quick Draft",
         "translation": "快速轮抽"
+    },
+    "EPP/Quests/Reach_Bronze_Rank_Tier1": {
+        "oracleText": "Reach Bronze Tier 1 Constructed Rank",
+        "translation": "Reach Bronze Tier 1 Constructed Rank"
+    },
+    "EPP/Quests/Reach_Bronze_Rank_Tier2": {
+        "oracleText": "Reach Bronze Tier 2 Constructed Rank",
+        "translation": "Reach Bronze Tier 2 Constructed Rank"
+    },
+    "EPP/Quests/Reach_Bronze_Rank_Tier3": {
+        "oracleText": "Reach Bronze Tier 3 Constructed Rank",
+        "translation": "Reach Bronze Tier 3 Constructed Rank"
     },
     "EPP/Quests/Reach_Silver_Rank": {
         "oracleText": "Reach Silver Rank in Constructed",
@@ -11220,8 +11244,8 @@
         "translation": "金币"
     },
     "EPP/RewardTrack/RewardMythicWildcards": {
-        "oracleText": "Mythic Rare Wildcard",
-        "translation": "秘稀万用牌"
+        "oracleText": "Mythic Wildcard",
+        "translation": "Mythic Wildcard"
     },
     "EPP/RewardTrack/RewardOrb": {
         "oracleText": "Mastery Orb",
@@ -11702,6 +11726,26 @@
     "EPP/Sparky/StarterDeckDuel_08": {
         "oracleText": "Once you win three games, you'll unlock something else too! Are you up for the challenge?",
         "translation": "Once you win three games, you'll unlock something else too! Are you up for the challenge?"
+    },
+    "EPP/Sparky/Wildcards_01": {
+        "oracleText": "Hey, you got a wildcard! Follow me to find out how to use them to craft new cards!",
+        "translation": "Hey, you got a wildcard! Follow me to find out how to use them to craft new cards!"
+    },
+    "EPP/Sparky/Wildcards_02": {
+        "oracleText": "Wildcards can be redeemed for any card of the same rarity.",
+        "translation": "Wildcards can be redeemed for any card of the same rarity."
+    },
+    "EPP/Sparky/Wildcards_03": {
+        "oracleText": "You can earn wildcards primarily by opening packs. This will progress your vault and wildcard tracks, but packs can also just contain wildcards themselves!",
+        "translation": "You can earn wildcards primarily by opening packs. This will progress your vault and wildcard tracks, but packs can also just contain wildcards themselves!"
+    },
+    "EPP/Sparky/Wildcards_04": {
+        "oracleText": "Now that you have one, why not go to your Decks, and craft a new card? A great place to start is to clone a Starter Deck and modify it to make it yours!",
+        "translation": "Now that you have one, why not go to your Decks, and craft a new card? A great place to start is to clone a Starter Deck and modify it to make it yours!"
+    },
+    "EPP/Sparky/Wildcards_04_alt": {
+        "oracleText": "Now that you have a Rare Wildcard, why not make a new deck with any rare card you like!",
+        "translation": "Now that you have a Rare Wildcard, why not make a new deck with any rare card you like!"
     },
     "EPP/Sparky/challengesDone_01": {
         "oracleText": "Wow, you've beaten all of the Color Challenges.",
@@ -16579,6 +16623,10 @@
         "oracleText": "Wizards of the Coast is donating $25,000 to Extra Life to support healing local kids. We're also raising money through a charity stream this weekend from 8am Pacific Time on October 19 to 11:59pm Pacific Time on October 20. Tune in and consider joining us in donating to this worthy cause if you are able. To celebrate, we're running this special event for the weekend! Each turn, click on Momir on the left side of your battlefield, pay X mana, and discard a card to create a random token copy of a creature from all of MTG Arena with converted mana cost X. No deck required, we'll provide deck of 12 copies each of the five basic lands. And since this is in support of Extra Life, players will begin with 21 life.",
         "translation": "威世智将向「Extra Life」捐赠25000美元，为当地儿童医疗事业尽一份绵薄之力。在本周末，即太平洋时间10月19日上午8时到10月20日下午11时59分期间，我们还将举办慈善直播活动募集善款。敬请准时关注，如果您行有余力，也可以考虑一同为这一崇高事业献上心意。为纪念这一筹款活动，我们将在本周末举办这一特殊赛事！在每个回合中，你都可以点击位于战场左侧的莫秘维，支付X点法术力并弃一张牌，游戏便会从万智牌竞技场所有总法术力费用为X的生物当中随机挑选一个，为你派出该生物之复制品衍生物。无需事先构筑套牌，游戏会为牌手备好一副每种基本地各12张的套牌。由于这是为支持「Extra Life」而举办的特殊活动，所有牌手的起始生命值都是21点。"
     },
+    "Events/Event_Desc_FIAB_ChaosSealed_Bo1": {
+        "oracleText": "<size=150%><color=#e1a154>The prizes for this event are only available to players in the United States.</color></size>\n\nSign up for this event and get all 6 wins to win a Physical Festival in a Box: Las Vegas 2023 delivered to you.\n\nThe format for this event is 9 packs of Chaos Sealed with single-game matches. You'll receive 9 packs:\n\n1x Dominaria United Draft\n1x The Brothers' War Draft\n1x Streets of New Capenna Draft\n1x Kamigawa: Neon Dynasty Draft\n1x Wilds of Eldraine Draft\n1x March of the Machine Draft\n1x Phyrexia: All Will Be One Draft\n1x Innistrad: Crimson Vow Draft\n1x Innistrad: Midnight Hunt Draft\n\nThe cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-one-game matches and receive prizes based on how many matches you win!\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving physical rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/festival-in-a-box-event-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>The prizes for this event are only available to players in the United States.</color></size>\n\nSign up for this event and get all 6 wins to win a Physical Festival in a Box: Las Vegas 2023 delivered to you.\n\nThe format for this event is 9 packs of Chaos Sealed with single-game matches. You'll receive 9 packs:\n\n1x Dominaria United Draft\n1x The Brothers' War Draft\n1x Streets of New Capenna Draft\n1x Kamigawa: Neon Dynasty Draft\n1x Wilds of Eldraine Draft\n1x March of the Machine Draft\n1x Phyrexia: All Will Be One Draft\n1x Innistrad: Crimson Vow Draft\n1x Innistrad: Midnight Hunt Draft\n\nThe cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-one-game matches and receive prizes based on how many matches you win!\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving physical rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/festival-in-a-box-event-terms-and-conditions>here</link></u> for full details.</color></b>"
+    },
     "Events/Event_Desc_FNM_100C_HistoricBrawl": {
         "oracleText": "Connect with your local game store and keep yourself and others safe by playing Friday Night Magic (FNM) at home on <i>MTG Arena</i>!\n\nToday's event is Historic Brawl: Bring a 100-card Brawl deck using any cards in <i>MTG Arena</i>, led by your favorite legendary creature or planeswalker!\n\nYou can receive a code for an Arena FNM Promo Pack containing two cosmetic items when you share your results with your local game store. Find out how, as well as a list of banned cards <u><link=https://magic.wizards.com/mtga-fnm-play-home-1>here</link></u>.\n\n*Note: While supplies last. Not all stores are participating.",
         "translation": "通过<i>MTGA</i>线上玩星期五晚上魔术(FNM)，与你当地的游戏商店保持联系，同时确保自己和他人的安全！\n\n本周赛事是史迹争锋：构筑一副100张的争锋套牌，<i>MTGA</i>任何可用的牌都可以。由你最喜欢的传奇生物或鹏洛客带领！\n\n当你与当地游戏商店分享你的结果时，你会收到包含两个装饰品的竞技场FNM推广包的代码。了解更多使用信息，点击<u><link=https://magic.wizards.com/mtga-fnm-play-home-1>这里</link></u>。\n\n*注：送完为止。并非所有商店都参与。"
@@ -18419,6 +18467,10 @@
         "oracleText": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Artifacts</b> Phyrexia is filled with glorious artifacts.  Gather as many of these artifacts as you can to outmaneuver your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Proliferate Control</b> Use proliferate to spread the glory of Phyrexia—oil counters, poison counters, and loyalty counters are all ready to be proliferated.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Oil Counters & Sacrifice</b> All Phyrexians are valuable, even (and sometimes especially) in death.  Use your creatures and artifacts to generate oil counters when they die.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Oil Counters Midrange</b> The more things with oil counters you have, the merrier.  Use these oil counters to get the biggest, smashiest creatures you can.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Toxic Aggro</b> Take advantage of small toxic creatures, especially Mite tokens, to swarm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Corrupted</b> Give your opponent three or more poison counters, then your corrupted cards become even more powerful.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Oil Counters & Noncreature Spells</b> Build up your oil counters and overwhelm your opponent by casting a variety of artifacts, enchantments, instants, sorceries, and yes, even planeswalkers!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Poison Victory</b> You have the biggest baddest creature with toxic.  Use them to get your opponent to 10 poison counters.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>For Mirrodin! Equipment</b> Someone's got to fight against the Phyrexians!  Your rebels can use equipment to stave them off!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Proliferate & Poison</b> Two great tastes that go great together.  Use green creatures with toxic to deal out serious poison counters, then proliferate to finish the job.",
         "translation": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Artifacts</b> Phyrexia is filled with glorious artifacts.  Gather as many of these artifacts as you can to outmaneuver your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Proliferate Control</b> Use proliferate to spread the glory of Phyrexia—oil counters, poison counters, and loyalty counters are all ready to be proliferated.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Oil Counters & Sacrifice</b> All Phyrexians are valuable, even (and sometimes especially) in death.  Use your creatures and artifacts to generate oil counters when they die.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Oil Counters Midrange</b> The more things with oil counters you have, the merrier.  Use these oil counters to get the biggest, smashiest creatures you can.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Toxic Aggro</b> Take advantage of small toxic creatures, especially Mite tokens, to swarm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Corrupted</b> Give your opponent three or more poison counters, then your corrupted cards become even more powerful.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Oil Counters & Noncreature Spells</b> Build up your oil counters and overwhelm your opponent by casting a variety of artifacts, enchantments, instants, sorceries, and yes, even planeswalkers!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Poison Victory</b> You have the biggest baddest creature with toxic.  Use them to get your opponent to 10 poison counters.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>For Mirrodin! Equipment</b> Someone's got to fight against the Phyrexians!  Your rebels can use equipment to stave them off!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Proliferate & Poison</b> Two great tastes that go great together.  Use green creatures with toxic to deal out serious poison counters, then proliferate to finish the job."
     },
+    "Events/Event_Desc_Y24LCI_Premier_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Oltec Ingenuity </b> Buy time with blockers, removal, and lifegain while you assemble an array of wondrous artifacts to take over the late game.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Echoes of the Dead </b> Set up to block while you fill your graveyard, then drag your opponent into the deep end with high-cost creatures, card draw, and recursive threats.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Going Down! </b> Keep your creatures growing by attacking viciously to make your opponent block or throwing permanents into the graveyard yourself. Then keep them down with creature removal.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Dinosaurs of the Sun Empire </b> Summon gigantic dinosaurs to crush the opposition, supporting them with ways to make more mana or break through blockers.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Malamet Tactics </b> Keep the pressure on with low-cost creatures. When your opponent tries to set up a defense, it's time to pounce by powering up your forces.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Dusk Legion Pilgrimage </b> Sacrifice little creatures and artifacts for the glory of Aclazotz (and additional resources). Once you smell blood, seal their fate with a few larger creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Pirates' Plunder </b> Set sail with a rowdy crew and their haul of Equipment and Treasure. When those landlubbers try to stop you, fly over the top or throw their blockers overboard.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Fungal Festering </b> Muck up the battlefield with sticky creatures while you fill your graveyard. Once you've descended enough to power your side up, start grinding your way through the opposing blockers.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Thousand-Moon Legion </b> Launch your military campaign with lots of small creatures and artifacts, then tactically tap those resources to activate your forces and rout the invaders.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> River Herald Expedition </b> Go exploring to stock your side with lands and powerful creatures, then sink your extra mana into activated abilities and card draw to drown the opposition in value.",
+        "translation": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Oltec Ingenuity </b> Buy time with blockers, removal, and lifegain while you assemble an array of wondrous artifacts to take over the late game.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Echoes of the Dead </b> Set up to block while you fill your graveyard, then drag your opponent into the deep end with high-cost creatures, card draw, and recursive threats.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Going Down! </b> Keep your creatures growing by attacking viciously to make your opponent block or throwing permanents into the graveyard yourself. Then keep them down with creature removal.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Dinosaurs of the Sun Empire </b> Summon gigantic dinosaurs to crush the opposition, supporting them with ways to make more mana or break through blockers.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Malamet Tactics </b> Keep the pressure on with low-cost creatures. When your opponent tries to set up a defense, it's time to pounce by powering up your forces.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Dusk Legion Pilgrimage </b> Sacrifice little creatures and artifacts for the glory of Aclazotz (and additional resources). Once you smell blood, seal their fate with a few larger creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Pirates' Plunder </b> Set sail with a rowdy crew and their haul of Equipment and Treasure. When those landlubbers try to stop you, fly over the top or throw their blockers overboard.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Fungal Festering </b> Muck up the battlefield with sticky creatures while you fill your graveyard. Once you've descended enough to power your side up, start grinding your way through the opposing blockers.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Thousand-Moon Legion </b> Launch your military campaign with lots of small creatures and artifacts, then tactically tap those resources to activate your forces and rout the invaders.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> River Herald Expedition </b> Go exploring to stock your side with lands and powerful creatures, then sink your extra mana into activated abilities and card draw to drown the opposition in value."
+    },
     "Events/Event_Desc_Y24WOE_Premier_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> The Frost Queen </b> Control the flow of combat by tapping your opponent's creatures and taking to the sky with fliers.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Enchanting Slumber </b> Assemble a team of flying Faeries and support them with tricky spells and creature removal to win the long game.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> The Dark Piper </b> Create a massive number of Rat tokens to swarm past your opponent's defenses. Be aggressive and take advantage of cards that reward you for your attackers trading off in combat.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Ruby and the Wolf </b> Call forth what lurks in the wilderness of Eldraine , summoning high-powered creatures or enhancing your small creatures with Roles and combat tricks.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Armont and the Beasts </b> Gather an army of creatures and get bonuses for enchanting them with Roles and other Auras, then go all-out when you have the upper hand.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Pale as Snow </b> Make use of the bargain and Role mechanics and get rewarded for your creatures and enchantments going to the graveyard.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> The Magician's Misstep </b> Go aggressive or be more controlling with a flurry of bewitching instants and sorceries to keep your opponent off balance.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Greta, Witch Hunter </b> Creature removal and life gain will help stave off your opponent's attacks until you're able to command the board with big creatures and Food rewards.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Brawl at the Grand Ball </b> Enhance your creatures with Roles and take advantage of the celebration mechanic with low-mana aggressive creatures and spells.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> The Kingdom of Storms </b> Use defensive creatures and spells to buy time while you build up your lands. Reward yourself by casting spells that cost five mana or more to dominate the late game.",
         "translation": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> The Frost Queen </b> Control the flow of combat by tapping your opponent's creatures and taking to the sky with fliers.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Enchanting Slumber </b> Assemble a team of flying Faeries and support them with tricky spells and creature removal to win the long game.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> The Dark Piper </b> Create a massive number of Rat tokens to swarm past your opponent's defenses. Be aggressive and take advantage of cards that reward you for your attackers trading off in combat.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Ruby and the Wolf </b> Call forth what lurks in the wilderness of Eldraine , summoning high-powered creatures or enhancing your small creatures with Roles and combat tricks.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Armont and the Beasts </b> Gather an army of creatures and get bonuses for enchanting them with Roles and other Auras, then go all-out when you have the upper hand.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Pale as Snow </b> Make use of the bargain and Role mechanics and get rewarded for your creatures and enchantments going to the graveyard.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> The Magician's Misstep </b> Go aggressive or be more controlling with a flurry of bewitching instants and sorceries to keep your opponent off balance.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Greta, Witch Hunter </b> Creature removal and life gain will help stave off your opponent's attacks until you're able to command the board with big creatures and Food rewards.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Brawl at the Grand Ball </b> Enhance your creatures with Roles and take advantage of the celebration mechanic with low-mana aggressive creatures and spells.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> The Kingdom of Storms </b> Use defensive creatures and spells to buy time while you build up your lands. Reward yourself by casting spells that cost five mana or more to dominate the late game."
@@ -19250,6 +19302,10 @@
     "Events/Event_Title_Extra_Life_Momir": {
         "oracleText": "Extra Life Momir's Madness",
         "translation": "额外生命疯狂莫秘维"
+    },
+    "Events/Event_Title_FIAB_ChaosSealed_Bo1": {
+        "oracleText": "Festival in a Box Chaos Sealed",
+        "translation": "Festival in a Box Chaos Sealed"
     },
     "Events/Event_Title_FNM_100C_HistoricBrawl": {
         "oracleText": "FNM at Home: 100-Card Historic Brawl",
@@ -20106,6 +20162,14 @@
     "Events/Event_Title_MWM_Cascade": {
         "oracleText": "Midweek Magic: Cascade",
         "translation": "周中万智牌：倾曳"
+    },
+    "Events/Event_Title_MWM_Cascade_Alchemy_Desc": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Cascade Alchemy: The first time you cast a spell each turn, you'll get to cast another, less expensive card from your library without paying its mana cost. What a bargain! All you'll need to play is a 60-card Alchemy deck.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Cascade Alchemy: The first time you cast a spell each turn, you'll get to cast another, less expensive card from your library without paying its mana cost. What a bargain! All you'll need to play is a 60-card Alchemy deck.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+    },
+    "Events/Event_Title_MWM_Cascade_Alchemy_Name": {
+        "oracleText": "Midweek Magic: Cascade Alchemy",
+        "translation": "Midweek Magic: Cascade Alchemy"
     },
     "Events/Event_Title_MWM_ChallengerDecks": {
         "oracleText": "Midweek Magic: Challenger Showcase",
@@ -21215,6 +21279,10 @@
         "oracleText": "Premier Draft All Will Be One Alchemy",
         "translation": "万界归一炼金竞技轮抽"
     },
+    "Events/Event_Title_Y24LCI_Premier_Draft": {
+        "oracleText": "Premier Draft Lost Caverns of Ixalan Alchemy",
+        "translation": "Premier Draft Lost Caverns of Ixalan Alchemy"
+    },
     "Events/Event_Title_Y24WOE_Premier_Draft": {
         "oracleText": "Premier Draft Wilds of Eldraine Alchemy",
         "translation": "艾卓仙踪炼金竞技轮抽"
@@ -21370,6 +21438,10 @@
     "Events/Event_Title_white05": {
         "oracleText": "Challenge V – White vs ???",
         "translation": "挑战 V – 白色 vs 旗鼓相当的对手"
+    },
+    "Events/FIAB_Notice": {
+        "oracleText": "This token denotes that you are eligible to receive a physical Festival in a Box",
+        "translation": "This token denotes that you are eligible to receive a physical Festival in a Box"
     },
     "Events/FirstHistoric_Tag_A": {
         "oracleText": "Historic Anthology 3",
@@ -22571,6 +22643,18 @@
         "oracleText": "{quantity} Draft Token",
         "translation": "{quantity}轮抽门票"
     },
+    "Events/Tokens/FIAB_20231208_Desc": {
+        "oracleText": "Congratulations, you've won a Festival in a Box! Wizards of the Coast will contact you with information about how to claim your prize.",
+        "translation": "Congratulations, you've won a Festival in a Box! Wizards of the Coast will contact you with information about how to claim your prize."
+    },
+    "Events/Tokens/FIAB_20231208_RewardPlural": {
+        "oracleText": "Festival in a Box",
+        "translation": "Festival in a Box"
+    },
+    "Events/Tokens/FIAB_20231208_RewardSingular": {
+        "oracleText": "Festival in a Box",
+        "translation": "Festival in a Box"
+    },
     "Events/Tokens/InvitationTokenDescription": {
         "oracleText": "Congratulations! Wizards of the Coast will contact you with more information about this event.",
         "translation": "恭喜！威世智将与你联系以提供有关此赛事的更多信息。"
@@ -23230,6 +23314,10 @@
     "General/Sets/Y23-ONE": {
         "oracleText": "Alchemy: Phyrexia",
         "translation": "炼金：非瑞克西亚"
+    },
+    "General/Sets/Y24-LCI": {
+        "oracleText": "Alchemy: Ixalan",
+        "translation": "Alchemy: Ixalan"
     },
     "General/Sets/Y24-WOE": {
         "oracleText": "Alchemy: Eldraine",
@@ -31567,6 +31655,10 @@
         "oracleText": "Evolved Spinoderm Card Style",
         "translation": "蜕变斯宾驼登卡牌样式"
     },
+    "MainNav/EventRewards/FIAB": {
+        "oracleText": "Festival in a Box",
+        "translation": "Festival in a Box"
+    },
     "MainNav/EventRewards/FNMCosmetic": {
         "oracleText": "Mystery Cosmetic",
         "translation": "神秘饰品"
@@ -32737,7 +32829,7 @@
     },
     "MainNav/General/MythicRareWildcard": {
         "oracleText": "Mythic Rare Wildcard",
-        "translation": "秘稀万用牌"
+        "translation": "Mythic Rare Wildcard"
     },
     "MainNav/General/NonStandardPack_Desc": {
         "oracleText": "Packs will be of a random non-Standard set on MTG Arena",
@@ -33539,6 +33631,10 @@
         "oracleText": "New splendors have arrived!",
         "translation": "新商品已上架！"
     },
+    "MainNav/HomePage/Carousel/2023_32_0_STORE_Desc": {
+        "oracleText": "Alchemy: Ixalan is here, and with it are new packs and cosmetics! Stop by the store to see all the new goodies!",
+        "translation": "Alchemy: Ixalan is here, and with it are new packs and cosmetics! Stop by the store to see all the new goodies!"
+    },
     "MainNav/HomePage/Carousel/2023_ONE_PreOrder_Desc": {
         "oracleText": "Preorders have a compleatly new look! Pick up the Pack Bundle, Play Bundle, or the new Pass Bundle before ONE releases to help ensure your victory against the threat of Phyrexia.",
         "translation": "Preorders have a compleatly new look! Pick up the Pack Bundle, Play Bundle, or the new Pass Bundle before ONE releases to help ensure your victory against the threat of Phyrexia."
@@ -34322,6 +34418,14 @@
     "MainNav/HomePage/Carousel/Event_DragonsAndDungeons_Title": {
         "oracleText": "Dragons & Dungeons!",
         "translation": "龙与地下城！"
+    },
+    "MainNav/HomePage/Carousel/Event_FestivalInABox_2023_Desc": {
+        "oracleText": "Come play our Festival in a Box event for an opportunity to win a Festival in a Box! Limited to participants in the United States. Click here for more info.",
+        "translation": "Come play our Festival in a Box event for an opportunity to win a Festival in a Box! Limited to participants in the United States. Click here for more info."
+    },
+    "MainNav/HomePage/Carousel/Event_FestivalInABox_2023_Title": {
+        "oracleText": "Win a Festival in a Box!",
+        "translation": "Win a Festival in a Box!"
     },
     "MainNav/HomePage/Carousel/Event_Final_Showdown_Desc": {
         "oracleText": "Who will reign supreme? Come play with four Omniscience decks that represent a different Magic player Archetype and find your style to show off!",
@@ -38491,6 +38595,22 @@
         "oracleText": "Oops! Pardon the Goblins!",
         "translation": "Oops! Pardon the Goblins!"
     },
+    "MainNav/Mailbox/TempBan_International_MultipleCards_Description": {
+        "oracleText": "We are working to resolve these issues, and will send another Letter here when functionality is restored and all cards are correctly legal again in all formats.\n\nDetails can be found at the link below.",
+        "translation": "We are working to resolve these issues, and will send another Letter here when functionality is restored and all cards are correctly legal again in all formats.\n\nDetails can be found at the link below."
+    },
+    "MainNav/Mailbox/TempBan_International_MultipleCards_Title": {
+        "oracleText": "Multiple cards have been temporarily prohibited in all formats.",
+        "translation": "Multiple cards have been temporarily prohibited in all formats."
+    },
+    "MainNav/Mailbox/TempBan_International_SingleCard_Description": {
+        "oracleText": "We are working to resolve an issue, and will send another Letter here when functionality is restored and it is correctly legal again in all formats.\n\nDetails can be found at the link below.",
+        "translation": "We are working to resolve an issue, and will send another Letter here when functionality is restored and it is correctly legal again in all formats.\n\nDetails can be found at the link below."
+    },
+    "MainNav/Mailbox/TempBan_International_SingleCard_Title": {
+        "oracleText": "A card has been temporarily prohibited in all formats.",
+        "translation": "A card has been temporarily prohibited in all formats."
+    },
     "MainNav/Mailbox/Unplanned_Downtime_Description": {
         "oracleText": "We have a swarm of mischievous pixies incoming and need to shut down the servers for a bit to make sure they don't do too much damage! We apologize for any inconvenience!",
         "translation": "我们有一群调皮的皮克精来了，需要关闭服务器一段时间，以确保他们不会造成太大的损害！我们对造成的不便表示歉意。"
@@ -38614,6 +38734,30 @@
     "MainNav/Mailbox/Y23_ONE_Release_Title": {
         "oracleText": "<font=\"Font_Default_Phyrexian\"><lowercase>^lo φyrxkeθəɢð'ɒjbť ẅɬnesuš</font>",
         "translation": "<font=\"Font_Default_Phyrexian\"><lowercase>^lo φyrxkeθəɢð'ɒjbť ẅɬnesuš</font>"
+    },
+    "MainNav/Mailbox/Y24LCI_Announcement_Description": {
+        "oracleText": "We've only just begun to find the true depth of treasures that Ixalan holds! Take these 3 packs to help you delve even deeper into the wonders that reside beneath the surface!",
+        "translation": "We've only just begun to find the true depth of treasures that Ixalan holds! Take these 3 packs to help you delve even deeper into the wonders that reside beneath the surface!"
+    },
+    "MainNav/Mailbox/Y24LCI_Announcement_Title": {
+        "oracleText": "There's More to Explore!",
+        "translation": "There's More to Explore!"
+    },
+    "MainNav/Mailbox/Y24LCI_PatchNotes_Description": {
+        "oracleText": "Are there no end to the depths of the caverns? Peer into the dark and get a glimpse of changes coming to Arena by clicking the link below!",
+        "translation": "Are there no end to the depths of the caverns? Peer into the dark and get a glimpse of changes coming to Arena by clicking the link below!"
+    },
+    "MainNav/Mailbox/Y24LCI_PatchNotes_Title": {
+        "oracleText": "2023.32.0 Patch Notes Are Here!",
+        "translation": "2023.32.0 Patch Notes Are Here!"
+    },
+    "MainNav/Mailbox/Y24LCI_WebReleaseNotes_Description": {
+        "oracleText": "Get a glimpse into the mechanics, features, and more coming with Alchemy: Ixalan by clicking the link below!",
+        "translation": "Get a glimpse into the mechanics, features, and more coming with Alchemy: Ixalan by clicking the link below!"
+    },
+    "MainNav/Mailbox/Y24LCI_WebReleaseNotes_Title": {
+        "oracleText": "Alchemy: Ixalan Release Notes are Here!",
+        "translation": "Alchemy: Ixalan Release Notes are Here!"
     },
     "MainNav/Mailbox/Y24WOE_Announcement_Description": {
         "oracleText": "Even though the Wicked Slumber has been overcome, we can't rest just yet! Take these 3 packs to help get you out of the woods for good.",
@@ -38844,8 +38988,8 @@
         "translation": "黄金补充包包含6张稀有牌，每张有正常的概率升级成为秘稀稀有度。"
     },
     "MainNav/PackProgressMeter/CallToAction": {
-        "oracleText": "Purchase {remaining} more <i>The Lost Caverns of Ixalan</i> packs to earn a Golden Pack.",
-        "translation": "购买{remaining}或更多<i>依夏兰迷窟</i>补充包将获得一个黄金包。"
+        "oracleText": "Purchase {remaining} more <i>Alchemy: Ixalan</i> and <i>The Lost Caverns of Ixalan</i> packs to earn a Golden Pack.",
+        "translation": "Purchase {remaining} more <i>Alchemy: Ixalan</i> and <i>The Lost Caverns of Ixalan</i> packs to earn a Golden Pack."
     },
     "MainNav/PackProgressMeter/FullDetailsLink": {
         "oracleText": "Full Details",
@@ -41260,12 +41404,12 @@
         "translation": "艾蕾侬"
     },
     "MainNav/Profile/Avatars/Ellywick_AFR_Bio": {
-        "oracleText": "Ellywick Tumblestrum",
-        "translation": "艾利薇鼓琴"
+        "oracleText": "A lucky draw from the Deck of Many Things made Ellywick Tumblestrum the greatest bard in the multiverse. Her enchanting music so moved the Summer Queen and the Queen of Air and Darkness that they gifted the bard with her instrument, Morningmist.",
+        "translation": "A lucky draw from the Deck of Many Things made Ellywick Tumblestrum the greatest bard in the multiverse. Her enchanting music so moved the Summer Queen and the Queen of Air and Darkness that they gifted the bard with her instrument, Morningmist."
     },
     "MainNav/Profile/Avatars/Ellywick_AFR_Name": {
-        "oracleText": "A lucky draw from the Deck of Many Things made Ellywick Tumblestrum the greatest bard in the multiverse. Her enchanting music so moved the Summer Queen and the Queen of Air and Darkness that they gifted the bard with her instrument, Morningmist.",
-        "translation": "从万象无常牌中的幸运一抽，使艾利薇鼓琴成为多重宇宙中最伟大的吟游诗人。她迷人的音乐让夏日女王和空气与黑暗女王非常感动，她们把她的乐器--晨雾送给了吟游诗人。"
+        "oracleText": "Ellywick Tumblestrum",
+        "translation": "Ellywick Tumblestrum"
     },
     "MainNav/Profile/Avatars/Elspeth_MOM_Bio": {
         "oracleText": "If anyone else had been dealt the full force of a sylex blast in the Blind Eternities, they'd be gone for good—but not Elspeth Tirel. Split from her physical body, Elspeth's true form awakened, transforming her into a planeswalking angel. Her only goal is to find Elesh Norn and deliver a bit of divine butt kicking. <i>Compleat</i> this!",
@@ -44351,6 +44495,14 @@
         "oracleText": "20x <i>Alchemy: Innistrad</i> Boosters",
         "translation": "20包「炼金：依尼翠」"
     },
+    "MainNav/Store/Bundles/Bundle_Alchemist_LCI_Desc": {
+        "oracleText": "20x Alchemy: Ixalan Boosters",
+        "translation": "20x Alchemy: Ixalan Boosters"
+    },
+    "MainNav/Store/Bundles/Bundle_Alchemist_LCI_Name": {
+        "oracleText": "Alchemist Bundle",
+        "translation": "Alchemist Bundle"
+    },
     "MainNav/Store/Bundles/Bundle_Alchemist_NEO_Desc": {
         "oracleText": "20x <i>Alchemy: Kamigawa</i> Boosters",
         "translation": "20包「炼金：神河」"
@@ -45542,6 +45694,14 @@
     "MainNav/Store/Bundles/Bundle_LCI_FF3_Name": {
         "oracleText": "Forgotten Perils: Borderless Card Styles",
         "translation": "被遗忘的危险：扩画卡牌样式"
+    },
+    "MainNav/Store/Bundles/Bundle_LCI_FF4_Desc": {
+        "oracleText": "Itzquinth, Firstborn of Gishath Borderless Card Style\nGhalta, Stampede Tyrant Borderless Card Style\nGishath, Sun's Avatar Borderless Card Style\nQuintorius Kand Borderless Card Style",
+        "translation": "Itzquinth, Firstborn of Gishath Borderless Card Style\nGhalta, Stampede Tyrant Borderless Card Style\nGishath, Sun's Avatar Borderless Card Style\nQuintorius Kand Borderless Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_LCI_FF4_Name": {
+        "oracleText": "Echoes of Ixalan: Borderless Card Styles",
+        "translation": "Echoes of Ixalan: Borderless Card Styles"
     },
     "MainNav/Store/Bundles/Bundle_LCI_Sleeves_Desc": {
         "oracleText": "Plains Travel Poster Sleeve\nIsland Travel Poster Sleeve\nSwamp Travel Poster Sleeve\nMountain Travel Poster Sleeve\nForest Travel Poster Sleeve",
@@ -47226,6 +47386,38 @@
     "MainNav/Store/Bundles/Bundle_Y23ONE_DA3_Name": {
         "oracleText": "Alchemy Styles: Monstrous Evolution",
         "translation": "炼金样式：野蛮进化"
+    },
+    "MainNav/Store/Bundles/Bundle_Y24LCI_DA1_Desc": {
+        "oracleText": "Chitinous Crawler Depth Art Card Style\nPropagator Primordium  Depth Art Card Style\nMycoid Resurrection  Depth Art Card Style\nLegion Reconsecrator Depth Art Card Style\nLegion's Chant Depth Art Card Style\nDusk's Landing Depth Art Card Style\nHigh Marshal Arguel Depth Art Card Style",
+        "translation": "Chitinous Crawler Depth Art Card Style\nPropagator Primordium  Depth Art Card Style\nMycoid Resurrection  Depth Art Card Style\nLegion Reconsecrator Depth Art Card Style\nLegion's Chant Depth Art Card Style\nDusk's Landing Depth Art Card Style\nHigh Marshal Arguel Depth Art Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y24LCI_DA1_Name": {
+        "oracleText": "Alchemy Styles: Dusk Descends",
+        "translation": "Alchemy Styles: Dusk Descends"
+    },
+    "MainNav/Store/Bundles/Bundle_Y24LCI_DA2_Desc": {
+        "oracleText": "Landlore Navigator Depth Art Card Style\nPlunderer's Prize Depth Art Card Style\nCogwork Progenitor Depth Art Card Style\nTan Jolom, the Worldwalker Depth Art Card Style\nScalesoul Gnome Depth Art Card Style\nBrazen Boarding Depth Art Card Style\nPirate's Landing Depth Art Card Style\nKamachal, Ship's Mascot Depth Art Card Style",
+        "translation": "Landlore Navigator Depth Art Card Style\nPlunderer's Prize Depth Art Card Style\nCogwork Progenitor Depth Art Card Style\nTan Jolom, the Worldwalker Depth Art Card Style\nScalesoul Gnome Depth Art Card Style\nBrazen Boarding Depth Art Card Style\nPirate's Landing Depth Art Card Style\nKamachal, Ship's Mascot Depth Art Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y24LCI_DA2_Name": {
+        "oracleText": "Alchemy Styles: Perilous Plunder",
+        "translation": "Alchemy Styles: Perilous Plunder"
+    },
+    "MainNav/Store/Bundles/Bundle_Y24LCI_DA3_Desc": {
+        "oracleText": "Mycelic Ballad Depth Art Card Style\nRibald Shanty Depth Art Card Style\nHymn to the Ages Depth Art Card Style\nPhantasmal Extraction Depth Art Card Style\nRadiant Smite Depth Art Card Style\nReflection Net Depth Art Card Style\nValiant Batrider Depth Art Card Style\nMerfolk Tunnel-Guide Depth Art Card Style\nHerald's Reveille Depth Art Card Style",
+        "translation": "Mycelic Ballad Depth Art Card Style\nRibald Shanty Depth Art Card Style\nHymn to the Ages Depth Art Card Style\nPhantasmal Extraction Depth Art Card Style\nRadiant Smite Depth Art Card Style\nReflection Net Depth Art Card Style\nValiant Batrider Depth Art Card Style\nMerfolk Tunnel-Guide Depth Art Card Style\nHerald's Reveille Depth Art Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y24LCI_DA3_Name": {
+        "oracleText": "Alchemy Styles: Ancient Knowledge",
+        "translation": "Alchemy Styles: Ancient Knowledge"
+    },
+    "MainNav/Store/Bundles/Bundle_Y24LCI_DA4_Desc": {
+        "oracleText": "Wingbane Vantasaur Depth Art Card Style\nScalespeaker Shepherd Depth Art Card Style\nStalwart Speartail Depth Art Card Style\nColossal Chorus Depth Art Card Style\nMythweaver Poq Depth Art Card Style\nCaldera Breaker Depth Art Card Style",
+        "translation": "Wingbane Vantasaur Depth Art Card Style\nScalespeaker Shepherd Depth Art Card Style\nStalwart Speartail Depth Art Card Style\nColossal Chorus Depth Art Card Style\nMythweaver Poq Depth Art Card Style\nCaldera Breaker Depth Art Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y24LCI_DA4_Name": {
+        "oracleText": "Alchemy Styles: Primal Might",
+        "translation": "Alchemy Styles: Primal Might"
     },
     "MainNav/Store/Bundles/Bundle_Y24WOE_DA1_Desc": {
         "oracleText": "Porcine Portent Card Style\nFirst Little Pig Card Style\nSecond Little Pig Card Style\nThird Little Pig Card Style\nDrover of the Swine Card Style\nSwine Rebellion Card Style\nOvercooked Card Style",
