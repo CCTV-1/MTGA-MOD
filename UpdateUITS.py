@@ -10,6 +10,11 @@ import UnityPy
 import Config
 import TSFile
 
+# key : new row
+ExtraLocalizationTexts: dict[str:dict[str, str]] = {
+    'ZoneType_Your_MainDeck': {'Bundle': '', 'enUS': 'Your Main Deck', 'jaJP': '你的主牌'},
+}
+
 if __name__ == "__main__":
     if not Config.BACKUP_DIR.is_dir():
         Config.BACKUP_DIR.unlink(missing_ok=True)
@@ -69,6 +74,11 @@ if __name__ == "__main__":
             # write data to database
             cardDBCursor.execute('INSERT INTO Loc(Key,Bundle,enUS,jaJP) VALUES(:Key,:Bundle,:enUS,:jaJP);',
                                  {'Key': rawKey, 'Bundle': rawValue['Bundle'], 'enUS': rawValue['enUS'], 'jaJP': rawValue['jaJP']})
+
+        # patch extra loc texts
+        for extraKey, extraValue in ExtraLocalizationTexts.items():
+            cardDBCursor.execute('INSERT INTO Loc(Key,Bundle,enUS,jaJP) VALUES(:Key,:Bundle,:enUS,:jaJP);',
+                                 {'Key': extraKey, 'Bundle': extraValue['Bundle'], 'enUS': extraValue['enUS'], 'jaJP': extraValue['jaJP']})
 
         # 'GC' database file
         cardDBConnect.isolation_level = None
