@@ -969,7 +969,7 @@
     },
     "AbilityHanger/Keyword/Emerge": {
         "oracleText": "You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.",
-        "translation": "你可以牺牲一个生物并支付化生费用用来施放此咒语，此时总费用会扣除该生物之总法术力费用。"
+        "translation": "你可以牺牲一个生物并支付化生费用用来施放此咒语，此时总费用会扣除该生物之法术力值。"
     },
     "AbilityHanger/Keyword/Enlist_Body": {
         "oracleText": "As this creature attacks, you may tap a nonattacking creature you control without summoning sickness. When you do, add its power to this creature's until end of turn.",
@@ -1461,11 +1461,11 @@
     },
     "AbilityHanger/Keyword/ProtectionFromChosenNumber": {
         "oracleText": "This permanent can't be blocked, targeted, dealt damage, enchanted, or equipped by anything with a mana value other than the chosen number.",
-        "translation": "此永久物不能被总法术力费用为所选数字以外的东西阻挡，指定为目标，造成伤害，结附或是装备。"
+        "translation": "此永久物不能被法术力值为所选数字以外的东西阻挡，指定为目标，造成伤害，结附或是装备。"
     },
     "AbilityHanger/Keyword/ProtectionFromChosenNumberN": {
         "oracleText": "This permanent can't be blocked, targeted, dealt damage, enchanted, or equipped by anything with a mana value other than {0}.",
-        "translation": "此永久物不能被总法术力费用为{0}以外的东西阻挡，指定为目标，造成伤害，结附或是装备。"
+        "translation": "此永久物不能被法术力值为{0}以外的东西阻挡，指定为目标，造成伤害，结附或是装备。"
     },
     "AbilityHanger/Keyword/ProtectionFromChosenNumber_Title": {
         "oracleText": "Protection from ...",
@@ -1525,19 +1525,19 @@
     },
     "AbilityHanger/Keyword/ProtectionFromEven": {
         "oracleText": "This permanent can't be blocked, targeted, dealt damage, enchanted, or equipped by anything with an even mana value.",
-        "translation": "此永久物不能被总法术力费用为偶数的所有东西阻挡，指定为目标，造成伤害，结附或是装备。"
+        "translation": "此永久物不能被法术力值为偶数的所有东西阻挡，指定为目标，造成伤害，结附或是装备。"
     },
     "AbilityHanger/Keyword/ProtectionFromEvenOrOdd": {
         "oracleText": "This permanent can't be blocked, targeted, dealt damage, enchanted, or equipped by anything with either an odd or even mana value.",
-        "translation": "此永久物不能被总法术力费用为奇数或偶数的所有东西阻挡，指定为目标，造成伤害，结附或是装备。"
+        "translation": "此永久物不能被法术力值为奇数或偶数的所有东西阻挡，指定为目标，造成伤害，结附或是装备。"
     },
     "AbilityHanger/Keyword/ProtectionFromEvenText": {
         "oracleText": "Protection from even mana values.",
-        "translation": "反偶数总法术力费用保护。"
+        "translation": "反偶数法术力值保护。"
     },
     "AbilityHanger/Keyword/ProtectionFromEvenTitle": {
         "oracleText": "Protection from Even Mana Values",
-        "translation": "反偶数总法术力费用保护"
+        "translation": "反偶数法术力值保护"
     },
     "AbilityHanger/Keyword/ProtectionFromEverything_Player": {
         "oracleText": "A player with protection from everything can't be targeted, dealt damage, or enchanted.",
@@ -1577,15 +1577,15 @@
     },
     "AbilityHanger/Keyword/ProtectionFromOdd": {
         "oracleText": "This permanent can't be blocked, targeted, dealt damage, enchanted, or equipped by anything with an odd mana value.",
-        "translation": "此永久物不能被总法术力费用为奇数的任何东西阻挡，指定为目标，造成伤害，结附或是装备。"
+        "translation": "此永久物不能被法术力值为奇数的任何东西阻挡，指定为目标，造成伤害，结附或是装备。"
     },
     "AbilityHanger/Keyword/ProtectionFromOddText": {
         "oracleText": "Protection from odd mana values.",
-        "translation": "反奇数总法术力费用保护。"
+        "translation": "反奇数法术力值保护。"
     },
     "AbilityHanger/Keyword/ProtectionFromOddTitle": {
         "oracleText": "Protection from Odd Mana Values",
-        "translation": "反奇数总法术力费用保护"
+        "translation": "反奇数法术力值保护"
     },
     "AbilityHanger/Keyword/ProtectionFromPlaneswalkers": {
         "oracleText": "This creature can't be blocked, targeted, or dealt damage by planeswalkers.",
@@ -2537,7 +2537,7 @@
     },
     "AbilityHanger/SpecialHangers/PayLifeInsteadOfManaCost": {
         "oracleText": "You may play this card, if you do pay life equal to its mana value rather than pay its mana cost.",
-        "translation": "你可以使用此牌，但须支付等同其总法术力费用的生命，而不支付其法术力费用。"
+        "translation": "你可以使用此牌，但须支付等同其法术力值的生命，而不支付其法术力费用。"
     },
     "AbilityHanger/SpecialHangers/PermanentsDealtDamageLastTurn_Body": {
         "oracleText": "Permanents that dealt damage to you last turn:",
@@ -16225,7 +16225,7 @@
     },
     "Events/Event_Desc_Cascade_Constructed": {
         "oracleText": "Bring your Standard deck and play games, with a twist: The first spell you cast each turn will let you cast another spell from your deck without paying its mana cost! The following cards are banned in this event:\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> Deafening Silence\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> Rule of Law\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Lavinia, Azorius Renegade\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Teferi, Time Raveler",
-        "translation": "在「倾曳构筑」中，当你每回合首度施放咒语时，从你的牌库顶开始放逐牌，直到放逐一张总法术力费用比所施放之咒语低的非地咒语为止，然后你可以施放该牌且不需支付其法术力费用！以此法展示但未施放的牌会去到你的牌库底。\n\n使用事先组好的60张套牌，充分利用此规则，享受游戏乐趣，最后根据胜场数量赢得奖励。以下为本赛事的禁牌表：\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\">震撼寂静\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\">依法治理\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\">俄佐立变节者拉温妮\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\">理时泰菲力"
+        "translation": "在「倾曳构筑」中，当你每回合首度施放咒语时，从你的牌库顶开始放逐牌，直到放逐一张法术力值比所施放之咒语低的非地咒语为止，然后你可以施放该牌且不需支付其法术力费用！以此法展示但未施放的牌会去到你的牌库底。\n\n使用事先组好的60张套牌，充分利用此规则，享受游戏乐趣，最后根据胜场数量赢得奖励。以下为本赛事的禁牌表：\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\">震撼寂静\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\">依法治理\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\">俄佐立变节者拉温妮\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\">理时泰菲力"
     },
     "Events/Event_Desc_ChaosClash_Core": {
         "oracleText": "When you play with chaos, you never know what you'll get! In this event, you'll be given a deck full of mystery cards from <i>Magic: The Gathering Arena</i>, and it's up to you to find the path to victory. Discover what tools you have to work with and the best ways to use them!",
@@ -16417,7 +16417,7 @@
     },
     "Events/Event_Desc_DOM_Cascade_Draft": {
         "oracleText": "Select one card at a time from rotating 14-card draft packs, but with a twist: The first spell you cast each turn will first have you reveal cards from the top of your library until you find a nonland card with a lower converted mana cost. You can cast that card without paying its mana cost. Two spells for the price of one! You'll keep all cards drafted, then play games and receive prizes based on how many games you win.",
-        "translation": "14张牌的轮抽用补充包在桌上轮转，你每次需从中选择一张牌。不过这次有些不一样：你每回合施放的第一个咒语会先从你的牌库顶开始展示牌，直到展示出一张总法术力费用比它低的非地牌为止。你可以施放该牌，且不需支付其法术力费用。付一得二！你所有抽到的牌都归你所有，不断进行对战，最后根据你的胜场数量赢得奖励。"
+        "translation": "14张牌的轮抽用补充包在桌上轮转，你每次需从中选择一张牌。不过这次有些不一样：你每回合施放的第一个咒语会先从你的牌库顶开始展示牌，直到展示出一张法术力值比它低的非地牌为止。你可以施放该牌，且不需支付其法术力费用。付一得二！你所有抽到的牌都归你所有，不断进行对战，最后根据你的胜场数量赢得奖励。"
     },
     "Events/Event_Desc_DOM_Comp_Draft": {
         "oracleText": "Select one card at a time from rotating 14-card draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three matches and receive prizes based on how many matches you win!",
@@ -16649,7 +16649,7 @@
     },
     "Events/Event_Desc_Extra_Life_Momir": {
         "oracleText": "Wizards of the Coast is donating $25,000 to Extra Life to support healing local kids. We're also raising money through a charity stream this weekend from 8am Pacific Time on October 19 to 11:59pm Pacific Time on October 20. Tune in and consider joining us in donating to this worthy cause if you are able. To celebrate, we're running this special event for the weekend! Each turn, click on Momir on the left side of your battlefield, pay X mana, and discard a card to create a random token copy of a creature from all of MTG Arena with converted mana cost X. No deck required, we'll provide deck of 12 copies each of the five basic lands. And since this is in support of Extra Life, players will begin with 21 life.",
-        "translation": "威世智将向「Extra Life」捐赠25000美元，为当地儿童医疗事业尽一份绵薄之力。在本周末，即太平洋时间10月19日上午8时到10月20日下午11时59分期间，我们还将举办慈善直播活动募集善款。敬请准时关注，如果您行有余力，也可以考虑一同为这一崇高事业献上心意。为纪念这一筹款活动，我们将在本周末举办这一特殊赛事！在每个回合中，你都可以点击位于战场左侧的莫秘维，支付X点法术力并弃一张牌，游戏便会从万智牌竞技场所有总法术力费用为X的生物当中随机挑选一个，为你派出该生物之复制品衍生物。无需事先构筑套牌，游戏会为牌手备好一副每种基本地各12张的套牌。由于这是为支持「Extra Life」而举办的特殊活动，所有牌手的起始生命值都是21点。"
+        "translation": "威世智将向「Extra Life」捐赠25000美元，为当地儿童医疗事业尽一份绵薄之力。在本周末，即太平洋时间10月19日上午8时到10月20日下午11时59分期间，我们还将举办慈善直播活动募集善款。敬请准时关注，如果您行有余力，也可以考虑一同为这一崇高事业献上心意。为纪念这一筹款活动，我们将在本周末举办这一特殊赛事！在每个回合中，你都可以点击位于战场左侧的莫秘维，支付X点法术力并弃一张牌，游戏便会从万智牌竞技场所有法术力值为X的生物当中随机挑选一个，为你派出该生物之复制品衍生物。无需事先构筑套牌，游戏会为牌手备好一副每种基本地各12张的套牌。由于这是为支持「Extra Life」而举办的特殊活动，所有牌手的起始生命值都是21点。"
     },
     "Events/Event_Desc_FIAB_ChaosSealed_Bo1": {
         "oracleText": "<size=150%><color=#e1a154>The prizes for this event are only available to players in the United States.</color></size>\n\nSign up for this event and get all 6 wins to win a Physical Festival in a Box: Las Vegas 2023 delivered to you.\n\nThe format for this event is 9 packs of Chaos Sealed with single-game matches. You'll receive 9 packs:\n\n1x Dominaria United Draft\n1x The Brothers' War Draft\n1x Streets of New Capenna Draft\n1x Kamigawa: Neon Dynasty Draft\n1x Wilds of Eldraine Draft\n1x March of the Machine Draft\n1x Phyrexia: All Will Be One Draft\n1x Innistrad: Crimson Vow Draft\n1x Innistrad: Midnight Hunt Draft\n\nThe cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-one-game matches and receive prizes based on how many matches you win!\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving physical rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/festival-in-a-box-event-terms-and-conditions>here</link></u> for full details.</color></b>",
@@ -17041,7 +17041,7 @@
     },
     "Events/Event_Desc_GRN_Cascade_Draft": {
         "oracleText": "Select one card at a time from rotating 15-card draft packs, but with a twist: The first spell you cast each turn will first have you reveal cards from the top of your library until you find a card with a lower converted mana cost. You can cast that card without paying its mana cost. Two spells for the price of one! You'll keep all cards drafted, then play games and receive prizes based on how many games you win.",
-        "translation": "15张牌的轮抽用补充包在桌上轮转，你每次需从中选择一张牌。但这次有些不一样：你每回合施放的第一个咒语会先从你的牌库顶开始展示牌，直到展示出一张总法术力费用比它低的牌为止。你可以施放该牌，且不需支付其法术力费用。付一得二！你所有抽到的牌都归你所有，不断进行对战，最后根据你的胜场数量赢得奖励。"
+        "translation": "15张牌的轮抽用补充包在桌上轮转，你每次需从中选择一张牌。但这次有些不一样：你每回合施放的第一个咒语会先从你的牌库顶开始展示牌，直到展示出一张法术力值比它低的牌为止。你可以施放该牌，且不需支付其法术力费用。付一得二！你所有抽到的牌都归你所有，不断进行对战，最后根据你的胜场数量赢得奖励。"
     },
     "Events/Event_Desc_GRN_Comp_Draft": {
         "oracleText": "Select one card at a time from rotating 15-card draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three matches and receive prizes based on how many matches you win!",
@@ -17081,7 +17081,7 @@
     },
     "Events/Event_Desc_Giant_Monsters": {
         "oracleText": "In Giant Monsters, whenever you cast a creature spell with mana value of four or greater, draw a card! Narset, Parter of Veils and Nexus of Fate are banned in this format.",
-        "translation": "在「威凛巨兽」规则下，每当你施放总法术力费用等于或大于四的生物时，你便抓一张牌！揭帷娜尔施和龙命连结点在此赛制中禁用。"
+        "translation": "在「威凛巨兽」规则下，每当你施放法术力值等于或大于四的生物时，你便抓一张牌！揭帷娜尔施和龙命连结点在此赛制中禁用。"
     },
     "Events/Event_Desc_GladiatorSpotlight": {
         "oracleText": "Welcome to Gladiator, one of the most popular fan formats for MTG Arena!\n\nGladiator uses 100-card singleton Historic decks with a minimal banned list. You then face off in best-of-three matches, giving you the chance to see a wide range of possibilities from both players' decks. There are no sideboards, so what you bring is what you've got!\n\nTo learn more about Gladiator and and its community, click <u><link=https://magic.wizards.com/en/articles/archive/magic-digital/community-spotlight-gladiator-august-2022>here</link></u>.",
@@ -17325,7 +17325,7 @@
     },
     "Events/Event_Desc_M19_Cascade_Draft": {
         "oracleText": "Select one card at a time from rotating 15-card draft packs, but with a twist: The first spell you cast each turn will first have you reveal cards from the top of your library until you find a card with a lower converted mana cost. You can cast that card without paying its mana cost. Two spells for the price of one! You'll keep all cards drafted, then play games and receive prizes based on how many games you win.",
-        "translation": "15张牌的轮抽用补充包在桌上轮转，你每次需从中选择一张牌。但这次有些不一样：你每回合施放的第一个咒语会先从你的牌库顶开始展示牌，直到展示出一张总法术力费用比它低的牌为止。你可以施放该牌，且不需支付其法术力费用。付一得二！你所有抽到的牌都归你所有，不断进行对战，最后根据你的胜场数量赢得奖励。"
+        "translation": "15张牌的轮抽用补充包在桌上轮转，你每次需从中选择一张牌。但这次有些不一样：你每回合施放的第一个咒语会先从你的牌库顶开始展示牌，直到展示出一张法术力值比它低的牌为止。你可以施放该牌，且不需支付其法术力费用。付一得二！你所有抽到的牌都归你所有，不断进行对战，最后根据你的胜场数量赢得奖励。"
     },
     "Events/Event_Desc_M19_Comp_Draft": {
         "oracleText": "Select one card at a time from rotating 15-card draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three matches and receive prizes based on how many matches you win!",
@@ -17709,7 +17709,7 @@
     },
     "Events/Event_Desc_Momir": {
         "oracleText": "Each turn, click on Momir on the left side of your battlefield, pay X mana, and discard a card to create a random token copy of a creature from all of MTG Arena with mana value X. No deck required, we'll provide a deck of 12 copies each of the five basic lands. Give in to Momir's Madness, won't you?",
-        "translation": "在每个回合中，你都可以点击位于战场左侧的莫秘维，支付X点法术力并弃一张牌，游戏便会从万智牌竞技场所有总法术力费用为X的生物当中随机挑选一个，为你派出该生物之复制品衍生物。无需事先构筑套牌，游戏会为备好一副每种基本地各12张的套牌。你会不会屈从于莫秘维的疯狂呢？"
+        "translation": "在每个回合中，你都可以点击位于战场左侧的莫秘维，支付X点法术力并弃一张牌，游戏便会从万智牌竞技场所有法术力值为X的生物当中随机挑选一个，为你派出该生物之复制品衍生物。无需事先构筑套牌，游戏会为备好一副每种基本地各12张的套牌。你会不会屈从于莫秘维的疯狂呢？"
     },
     "Events/Event_Desc_Momir_PW": {
         "oracleText": "In this event, we'll provide a deck for you to play consisting of basic lands and planeswalkers. Use the Momir emblem to generate creature tokens. You can cast planeswalkers normally as spells, or discard them to activate the Momir emblem.",
@@ -18213,7 +18213,7 @@
     },
     "Events/Event_Desc_Streamer_Kibler": {
         "oracleText": "We're giving Constructed new house rules with Brian Kibler (twitch.tv/bmkibler). Kibler loves putting big creatures on the battlefield. So together we created KIBLER'S GIANT MONSTERS, where every time you cast a creature with converted mana cost of four or greater, you draw a card. That's more value for your powerful critters! Bring a 60-card deck full of larger creatures that take advantage of the card draw and put it to the test!",
-        "translation": "我们与Brian Kibler（twitch.tv/bmkibler）一道，为构筑赛事拟定全新自订规则。Kibler钟爱派出巨怪猛兽主宰战场。由此我们特别推出「Kibler的威凛巨兽」规则。在此规则下，每当你施放总法术力费用等于或大于四的生物时，你便抓一张牌。强劲生物价值更增一分！本次请善用大生物进战场带来的额外抓牌效应，利用事先组好的60张套牌迎接对手挑战！"
+        "translation": "我们与Brian Kibler（twitch.tv/bmkibler）一道，为构筑赛事拟定全新自订规则。Kibler钟爱派出巨怪猛兽主宰战场。由此我们特别推出「Kibler的威凛巨兽」规则。在此规则下，每当你施放法术力值等于或大于四的生物时，你便抓一张牌。强劲生物价值更增一分！本次请善用大生物进战场带来的额外抓牌效应，利用事先组好的60张套牌迎接对手挑战！"
     },
     "Events/Event_Desc_Streamer_Kripp": {
         "oracleText": "We're giving Draft new house rules with Kripp (twitch.tv/nl_kripp). Kripp loves playing decks using three or four colors. So together we created KRIPP'S TREASURE DRAFT. Draft Guilds of Ravnica like normal and then play a game of Magic with unique rules. At the beginning of your turn you get a new Treasure Token, which is an artifact that can be sacrificed for one mana of any color. The combination of Guilds of Ravnica multicolor cards and an extra mana of any color each turn makes three or four colors an inevitability in your 40-card deck.",
@@ -18221,7 +18221,7 @@
     },
     "Events/Event_Desc_Streamer_Nox": {
         "oracleText": "We're giving Constructed new house rules with Nox (twitch.tv/professornoxlive). Nox loves brewing wacky decks and loves Sunbird's Invocation. So together we created CASCADE CONSTRUCTED, where the first card you play each turn has Cascade: when you cast that card, you exile cards from the top of your library until you exile a nonland permanent with a converted mana cost less than the spell you cast, then you get to play that card without paying its mana cost and put all other exiled cards on the bottom of your library. That's two cards for the mana cost of one! Build a 60-card deck that can take advantage of Cascade and put it to the test!",
-        "translation": "我们与Nox（twitch.tv/professornoxlive）一道，为构筑赛事拟定全新自订规则。Nox喜欢自创思路奇特的套牌，尤其钟爱阳禽祝愿这张牌。由此我们特别推出「倾曳构筑」。在此玩法中，你每回合施放的第一个咒语具有倾曳异能：当你施放该咒语时，从你的牌库顶开始放逐牌，直到放逐一张总法术力费用比所施放之咒语小的非地牌为止，然后你可以施放该牌且不需支付其法术力费用，并将所有其他以此法放逐的牌置于你的牌库底。付一得二！构筑一副60张的套牌，充分发挥倾曳优势，迎接对手挑战！"
+        "translation": "我们与Nox（twitch.tv/professornoxlive）一道，为构筑赛事拟定全新自订规则。Nox喜欢自创思路奇特的套牌，尤其钟爱阳禽祝愿这张牌。由此我们特别推出「倾曳构筑」。在此玩法中，你每回合施放的第一个咒语具有倾曳异能：当你施放该咒语时，从你的牌库顶开始放逐牌，直到放逐一张法术力值比所施放之咒语小的非地牌为止，然后你可以施放该牌且不需支付其法术力费用，并将所有其他以此法放逐的牌置于你的牌库底。付一得二！构筑一副60张的套牌，充分发挥倾曳优势，迎接对手挑战！"
     },
     "Events/Event_Desc_StressTest_Constructed": {
         "oracleText": "A special event for our July 20 stress test, this event awards cards as you earn up to seven wins, and even packs at higher win counts. A loss will end your progress, but you don't need gold or gems to play to join again! Each uncommon card reward can get upgraded to a rare or mythic (15%).",
