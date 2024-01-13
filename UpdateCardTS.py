@@ -8,12 +8,15 @@ import TSFile
 
 # LocId : new row
 ExtraLocalizationTexts: dict[int:dict[str, str]] = {
+    #subtype text
     9000000: {'enUS': 'Dragon Turtle', 'jaJP': '龙／龟'},
     9000001: {'enUS': 'Manticore', 'jaJP': '翼狮'},
     9000002: {'enUS': 'Zombie Ogre', 'jaJP': '灵俑／食人魔'},
     9000003: {'enUS': 'Skeleton Archer', 'jaJP': '骷髅妖／弓箭手'},
     9000004: {'enUS': 'Dragon Egg', 'jaJP': '龙／蛋'},
-    9000005: {'enUS': 'Phyrexian Pegasus', 'jaJP': '非瑞人／飞马'}
+    9000005: {'enUS': 'Phyrexian Pegasus', 'jaJP': '非瑞人／飞马'},
+    #title text
+    10000000: {'enUS': 'Charge', 'jaJP': '冲锋'},
 }
 
 # old SubtypeTextId : new SubtypeTextId
@@ -24,6 +27,11 @@ SubtypeTextPatchRules: dict[int:int] = {
     229573: 9000003,
     42935: 9000004,
     704311: 9000005
+}
+
+# old TitleId : new TitleId
+TitleIDPatchRules: dict[int:int] = {
+    58106: 10000000
 }
 
 if __name__ == "__main__":
@@ -105,6 +113,10 @@ if __name__ == "__main__":
         for oldKey, NewKey in SubtypeTextPatchRules.items():
             cardDBCursor.execute('UPDATE Cards SET SubtypeTextId = ? WHERE SubtypeTextId = ?;', (NewKey, oldKey))
             cardDBCursor.execute('UPDATE Enums SET LocId = ? WHERE LocId = ?;', (NewKey, oldKey))
+
+        # patch the conflicting TitleId
+        for oldKey, NewKey in TitleIDPatchRules.items():
+            cardDBCursor.execute('UPDATE Cards SET TitleId = ? WHERE TitleId = ?;', (NewKey, oldKey))
 
         # 'GC' database file
         cardDBConnect.isolation_level = None
