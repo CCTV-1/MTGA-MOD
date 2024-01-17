@@ -544,6 +544,46 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 
 15. 安卓端禁用商店以支持无GooglePlay设备进入游戏：使用`Il2CppDumper`或类似工具将符号恢复到`IDA Pro`中。搜索函数`StoreManager$$RefreshStoreDataYield`(不同工具生成的名称会略有不同)。通过`CODE XREF`找到`WrapperController::Coroutine_StartupSequence::MoveNext`函数中对`StoreManager$$RefreshStoreDataYield`的调用并将其`NOP`。例如在`2022/4/28`更新的客户端中：`0x172B564` `BL StoreManager$$RefreshStoreDataYield`(19 3F F8 97) => `NOP`(1F 20 03 D5)
 
+
+16. 安卓端强制启用图像设置：与15类似，搜索函数`SettingsMenu::Open`。将`settingsPanel.Hide`检测无效即可(也可以想办法调用`QualitySettingsUtil::ApplyVSync`)。
+	```csharp
+		public void Open(bool allowLogout, bool allowExit, bool allowGameConcession, bool allowMatchConcession, bool allowSkipTutorial, bool allowSkipOnboarding, bool allowDebug)
+		{
+			_canvasGroup.alpha = 1f;
+			_canvasGroup.interactable = true;
+			_canvasGroup.blocksRaycasts = true;
+			base.gameObject.UpdateActive(active: true);
+			foreach (SettingsPanel settingsPanel in _settingsPanels)
+			{
+				bool flag = !settingsPanel.DebugOnly || allowDebug;
+				if (settingsPanel.Hide)
+				{
+					flag = false;
+				}
+				settingsPanel.Button.gameObject.SetActive(flag);
+				bool activeSelf = settingsPanel.Panel.gameObject.activeSelf;
+				if (!flag && activeSelf)
+				{
+					settingsPanel.Panel.HidePanel();
+					settingsPanel.Panel.gameObject.SetActive(value: false);
+				}
+			}
+			LogoutButton.SetActive(allowLogout);
+			ExitGameButton.SetActive(allowExit);
+			_allowMatchConcession = allowMatchConcession;
+			ConcedeButton.SetActive(allowGameConcession || allowMatchConcession);
+			SkipTutorialButton.SetActive(value: false);
+			ExperimentalSkipTutorialButton.SetActive(allowSkipTutorial);
+			SkipOnboardingButton.SetActive(allowSkipOnboarding);
+			if (PlatformUtils.IsHandheld())
+			{
+				DetailedLoggingToggle.gameObject.SetActive(allowDebug);
+			}
+			GoToMainMenu();
+			IsOpen = true;
+		}
+	```
+
 # 四、 自动生成牌张样式MOD
 
 参见[脚本](./ArtModGen.py)(编写教程时客户端已去除了常规启动时对资源文件的`crc`校验,所以无需另外禁用校验。)
