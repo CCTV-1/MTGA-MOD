@@ -7,6 +7,7 @@ import UnityPy
 
 import Config
 
+GAME_UNITY_VERSION_STRING: str = "2021.3.14f1"
 
 # asset path : monoBehavior name list
 WINDOWS_FONT_RULES: dict[str:list] = {
@@ -118,7 +119,7 @@ class FontContent():
         self.fontMaterial = material
 
 
-def loadTMPFont(assetPath: str, monoBehaviorName: str) -> FontContent:
+def loadTMPFont(assetPath: str, monoBehaviorName: str, unityVersionStr: str = GAME_UNITY_VERSION_STRING) -> FontContent:
     """
         if you want load splitN asset,and edit it,code as follows(you can also use\ 
         other tools to binray merge files,then use `UnityPy.load(path)`):
@@ -165,7 +166,7 @@ def loadTMPFont(assetPath: str, monoBehaviorName: str) -> FontContent:
             #    "name": "m_SomeNode",
             #    "meta_flag": 0
             # }]
-            with open('{0}/TMPFontAssetTypeTree.json'.format(Config.RESOUCE_DIR), 'r', encoding='UTF-8') as f:
+            with open('{0}/TMPFontAssetTypeTree.{1}.json'.format(Config.RESOUCE_DIR, unityVersionStr), 'r', encoding='UTF-8') as f:
                 typeTree = json.load(f)
             objData.serialized_type.nodes = typeTree
         objTree = objData.read_typetree()
@@ -206,7 +207,7 @@ def loadTMPFont(assetPath: str, monoBehaviorName: str) -> FontContent:
     return FontContent(texture, monoBehavior, material)
 
 
-def replaceTMPFont(assetPath: str, monoBehaviorNames: list[str], newFontContent: FontContent, replaceMaterial: bool = False):
+def replaceTMPFont(assetPath: str, monoBehaviorNames: list[str], newFontContent: FontContent, replaceMaterial: bool = False, unityVersionStr: str = GAME_UNITY_VERSION_STRING):
     """
         if you want load splitN asset,and edit it,code as follows(you can also use\ 
         other tools to binray merge files,then use `UnityPy.load(path)`):
@@ -235,7 +236,7 @@ def replaceTMPFont(assetPath: str, monoBehaviorNames: list[str], newFontContent:
             continue
         if not objData.serialized_type.nodes:
             # see function:LoadTMPFont Notes
-            with open('{0}/TMPFontAssetTypeTree.json'.format(Config.RESOUCE_DIR), 'r', encoding='UTF-8') as f:
+            with open('{0}/TMPFontAssetTypeTree.{1}.json'.format(Config.RESOUCE_DIR, unityVersionStr), 'r', encoding='UTF-8') as f:
                 typeTree = json.load(f)
             objData.serialized_type.nodes = typeTree
 
@@ -286,7 +287,7 @@ def replaceTMPFont(assetPath: str, monoBehaviorNames: list[str], newFontContent:
                     continue
                 objData = obj.read()
                 if not objData.serialized_type.nodes:
-                    with open('{0}/TMPFontMaterialTypeTree.json'.format(Config.RESOUCE_DIR), 'r', encoding='UTF-8') as f:
+                    with open('{0}/TMPFontMaterialTypeTree.{1}.json'.format(Config.RESOUCE_DIR, unityVersionStr), 'r', encoding='UTF-8') as f:
                         typeTree = json.load(f)
                     objData.serialized_type.nodes = typeTree
                 objTree = objData.read_typetree()
@@ -295,7 +296,7 @@ def replaceTMPFont(assetPath: str, monoBehaviorNames: list[str], newFontContent:
                         assetPath, objData.name))
 
                 newFontContent.fontMaterial['m_Name'] = objTree['m_Name']
-                newFontContent.fontMaterial['m_ShaderKeywords'] = objTree['m_ShaderKeywords']
+                #newFontContent.fontMaterial['m_ShaderKeywords'] = objTree['m_ShaderKeywords']
                 newFontContent.fontMaterial['m_Shader']['m_FileID'] = objTree['m_Shader']['m_FileID']
                 newFontContent.fontMaterial['m_Shader']['m_PathID'] = objTree['m_Shader']['m_PathID']
 
@@ -319,14 +320,14 @@ def replaceTMPFont(assetPath: str, monoBehaviorNames: list[str], newFontContent:
     shutil.copy('{0}/{1}'.format(Config.OUT_DIR, assetName), assetPath)
 
 
-def replaceTMPMaterial(assetPath: str, materialNames: str, newFontContent: FontContent):
+def replaceTMPMaterial(assetPath: str, materialNames: str, newFontContent: FontContent, unityVersionStr: str = GAME_UNITY_VERSION_STRING):
     assetEnv = UnityPy.load(assetPath)
     for obj in assetEnv.objects:
         if obj.type != UnityPy.enums.ClassIDType.Material:
             continue
         objData = obj.read()
         if not objData.serialized_type.nodes:
-            with open('{0}/TMPFontMaterialTypeTree.json'.format(Config.RESOUCE_DIR), 'r', encoding='UTF-8') as f:
+            with open('{0}/TMPFontMaterialTypeTree.{1}.json'.format(Config.RESOUCE_DIR, unityVersionStr), 'r', encoding='UTF-8') as f:
                 typeTree = json.load(f)
             objData.serialized_type.nodes = typeTree
         if objData.name not in materialNames:
@@ -358,6 +359,10 @@ def replaceTMPMaterial(assetPath: str, materialNames: str, newFontContent: FontC
 
 
 if __name__ == '__main__':
+    from UnityPy.helpers import TypeTreeHelper
+    TypeTreeHelper.read_typetree_c = False
+    UnityPy.config.FALLBACK_UNITY_VERSION = GAME_UNITY_VERSION_STRING
+    
     if not Config.BACKUP_DIR.is_dir():
         Config.BACKUP_DIR.unlink(missing_ok=True)
         Config.BACKUP_DIR.mkdir(parents=True, exist_ok=True)
