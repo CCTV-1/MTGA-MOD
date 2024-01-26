@@ -545,7 +545,7 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 15. 安卓端禁用商店以支持无GooglePlay设备进入游戏：使用`Il2CppDumper`或类似工具将符号恢复到`IDA Pro`中。搜索函数`StoreManager$$RefreshStoreDataYield`(不同工具生成的名称会略有不同)。通过`CODE XREF`找到`WrapperController::Coroutine_StartupSequence::MoveNext`函数中对`StoreManager$$RefreshStoreDataYield`的调用并将其`NOP`。例如在`2022/4/28`更新的客户端中：`0x172B564` `BL StoreManager$$RefreshStoreDataYield`(19 3F F8 97) => `NOP`(1F 20 03 D5)
 
 
-16. 安卓端强制启用图像设置：与15类似，搜索函数`SettingsMenu::Open`。将`settingsPanel.Hide`检测无效即可(也可以想办法调用`QualitySettingsUtil::ApplyVSync`)。
+16. 安卓端强制启用图像设置：与15类似，搜索函数`SettingsMenu::Open`。将`settingsPanel.Hide`检测无效即可。
 	```csharp
 		public void Open(bool allowLogout, bool allowExit, bool allowGameConcession, bool allowMatchConcession, bool allowSkipTutorial, bool allowSkipOnboarding, bool allowDebug)
 		{
@@ -583,6 +583,8 @@ PS: 在`IL2CPP`构建的ARM设备上使用此方案会比通过各种hook手段�
 			IsOpen = true;
 		}
 	```
+
+17. 安卓端强制设置帧率：通过修改`QualitySettingsUtil::IsCustomTier::get`为总是返回`true`，并使用`CODE XREF`找到`QualitySettingsUtil::LazyLoadQualityModifiers`中创建的FPS设置函数，使其总是设置为特定的帧率即可。
 
 # 四、 自动生成牌张样式MOD
 
