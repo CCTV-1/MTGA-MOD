@@ -45,19 +45,19 @@
     },
     "AbilityHanger/AbilityWord/CollectEvidence_Body": {
         "oracleText": "To collect evidence {numeral}, exile cards with total mana value {numeral} or greater from your graveyard.",
-        "translation": "To collect evidence {numeral}, exile cards with total mana value {numeral} or greater from your graveyard."
+        "translation": "要搜证{numeral}，从你坟墓场中放逐任意数量的牌，这些牌的法术力值加总须达到{numeral}更多。"
     },
     "AbilityHanger/AbilityWord/CollectEvidence_Title": {
         "oracleText": "Collect Evidence {numeral}",
-        "translation": "Collect Evidence {numeral}"
+        "translation": "搜证{numeral}"
     },
     "AbilityHanger/AbilityWord/CollectEvidence_X_Body": {
         "oracleText": "To collect evidence X, exile cards with total mana value X or greater from your graveyard.",
-        "translation": "To collect evidence X, exile cards with total mana value X or greater from your graveyard."
+        "translation": "要搜证X，从你坟墓场中放逐任意数量的牌，这些牌的法术力值加总须达到X更多。"
     },
     "AbilityHanger/AbilityWord/CollectEvidence_X_Title": {
         "oracleText": "Collect Evidence X",
-        "translation": "Collect Evidence X"
+        "translation": "搜证X"
     },
     "AbilityHanger/AbilityWord/Constellation": {
         "oracleText": "This ability triggers when an enchantment enters the battlefield under your control.",
@@ -141,27 +141,27 @@
     },
     "AbilityHanger/AbilityWord/Suspect_Body": {
         "oracleText": "A suspected creature has menace and can't block.",
-        "translation": "A suspected creature has menace and can't block."
+        "translation": "已遭疑的生物具有威慑异能且不能进行阻挡。"
     },
     "AbilityHanger/AbilityWord/Suspect_Title": {
         "oracleText": "Suspect a Creature",
-        "translation": "Suspect a Creature"
+        "translation": "怀疑一个生物"
     },
     "AbilityHanger/AbilityWord/Suspected_Body": {
         "oracleText": "This is a suspect! It has menace and can't block.",
-        "translation": "This is a suspect! It has menace and can't block."
+        "translation": "它是嫌犯！它具有威慑且不能进行阻挡。"
     },
     "AbilityHanger/AbilityWord/Suspected_Title": {
         "oracleText": "Suspect",
-        "translation": "Suspect"
+        "translation": "怀疑"
     },
     "AbilityHanger/AbilityWord/Suspend_Body": {
         "oracleText": "Rather than cast this card from your hand, you may pay {abilityCost} and exile it with {numeral} time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost",
-        "translation": "Rather than cast this card from your hand, you may pay {abilityCost} and exile it with {numeral} time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost"
+        "translation": "除了从你手上施放此牌，你可以支付{abilityCost}并将它放逐，且上面有{numeral}个计时指示物。在你的维持开始时，从其上移去一个计时指示物。当移去最后一个时，你可以施放它且不需支付其法术力费用。"
     },
     "AbilityHanger/AbilityWord/Suspend_Title": {
         "oracleText": "Suspend {numeral}—",
-        "translation": "Suspend {numeral}—"
+        "translation": "延缓{numeral}～"
     },
     "AbilityHanger/AbilityWord/Toxic_Body": {
         "oracleText": "A player dealt combat damage by a creature with toxic also gets poison counters equal to that creature's total toxic value.",
@@ -349,7 +349,7 @@
     },
     "AbilityHanger/Designation/Solved_Title": {
         "oracleText": "Case Solved",
-        "translation": "Case Solved"
+        "translation": "侦结"
     },
     "AbilityHanger/Entwine_Body": {
         "oracleText": "You may pay an additional cost to choose both.",
@@ -561,11 +561,11 @@
     },
     "AbilityHanger/Keyword/BasicLandcycling_Body": {
         "oracleText": "{abilityCost}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
-        "translation": "{abilityCost}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle."
+        "translation": "{abilityCost}，弃掉此牌：从你的牌库中搜寻一张基本地牌，展示该牌，将它置于你手上，然后洗牌。"
     },
     "AbilityHanger/Keyword/BasicLandcycling_Title": {
         "oracleText": "Basic Landcycling",
-        "translation": "Basic Landcycling"
+        "translation": "循环基本地"
     },
     "AbilityHanger/Keyword/BattleCryReference_Body": {
         "oracleText": "Whenever a creature with battle cry attacks, each other attacking creature gets +1/+0 until end of turn.",
@@ -649,11 +649,11 @@
     },
     "AbilityHanger/Keyword/Cloak_Body": {
         "oracleText": "To cloak a card, put it onto the battlefield face down as a 2/2 creature with ward o2. Turn it face up any time for its mana cost if it's a creature card.",
-        "translation": "To cloak a card, put it onto the battlefield face down as a 2/2 creature with ward o2. Turn it face up any time for its mana cost if it's a creature card."
+        "translation": "匿伏某牌的流程，是将该牌牌面朝下地放进战场，当成 2/2、具守护2的生物。如果该牌是生物牌，则可随时支付其法术力费用使其翻回正面。"
     },
     "AbilityHanger/Keyword/Cloak_Title": {
         "oracleText": "Cloak",
-        "translation": "Cloak"
+        "translation": "匿伏"
     },
     "AbilityHanger/Keyword/Compleated_Body": {
         "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"{manaCombined}\"> can be paid with <sprite=\"SpriteSheet_ManaIcons\" name=\"{manaType0}\">, <sprite=\"SpriteSheet_ManaIcons\" name=\"{manaType1}\">, or 2 life. If life was paid, this planeswalker enters with two fewer loyalty counters.",
@@ -997,11 +997,11 @@
     },
     "AbilityHanger/Keyword/Disguise_Body": {
         "oracleText": "You may cast this card face down for o3 as a 2/2 creature with ward o2. Turn it face up any time for its disguise cost.",
-        "translation": "You may cast this card face down for o3 as a 2/2 creature with ward o2. Turn it face up any time for its disguise cost."
+        "translation": "你可以牌面朝下地施放此牌并支付o3，将其当成 2/2、具守护2的生物。可随时支付其伪装费用使其翻回正面。"
     },
     "AbilityHanger/Keyword/Disguise_Title": {
         "oracleText": "Disguise",
-        "translation": "Disguise"
+        "translation": "伪装"
     },
     "AbilityHanger/Keyword/Disturb": {
         "oracleText": "You may cast this card from your graveyard transformed for its disturb cost.",
@@ -1321,11 +1321,11 @@
     },
     "AbilityHanger/Keyword/Is_Cloaked_Body": {
         "oracleText": "It's controller may turn it face up at any time for its mana cost if it's a creature card.",
-        "translation": "It's controller may turn it face up at any time for its mana cost if it's a creature card."
+        "translation": "如果该牌是生物牌，则其操控者可随时支付其法术力费用使其翻回正面。"
     },
     "AbilityHanger/Keyword/Is_Cloaked_Title": {
         "oracleText": "This Permanent is Cloaked",
-        "translation": "This Permanent is Cloaked"
+        "translation": "此永久物处于匿伏状态"
     },
     "AbilityHanger/Keyword/Islandcycling_Body": {
         "oracleText": "{abilityCost}, Discard this card: Search your library for a Island card, reveal it, put it into your hand, then shuffle.",
@@ -2029,15 +2029,15 @@
     },
     "AbilityHanger/Keyword/Wither_Body": {
         "oracleText": "This deals damage to creatures in the form of -1/-1 counters.",
-        "translation": "This deals damage to creatures in the form of -1/-1 counters."
+        "translation": "对生物所造成的伤害，并不会标记在该生物上。而是使伤害来源的操控者将该数量的-1/-1指示物放置在该生物上。"
     },
     "AbilityHanger/Keyword/Wither_Referenced_Body": {
         "oracleText": "A source with wither deals damage to creatures in the form of -1/-1 counters.",
-        "translation": "A source with wither deals damage to creatures in the form of -1/-1 counters."
+        "translation": "具有干枯异能的伤害源会以-1/-1指示物的方式对生物造成伤害。"
     },
     "AbilityHanger/Keyword/Wither_Title": {
         "oracleText": "Wither",
-        "translation": "Wither"
+        "translation": "干枯"
     },
     "AbilityHanger/Keyword/YoungHeroRole_Body": {
         "oracleText": "Enchanted creature has \"Whenever this creature attacks, if its toughness is 3 or less, put a +1/+1 counter on it.\"",
@@ -2373,7 +2373,7 @@
     },
     "AbilityHanger/Qualification/CantTurnFaceUp_Title": {
         "oracleText": "Can't Be Turned Face Up",
-        "translation": "Can't Be Turned Face Up"
+        "translation": "不能翻转至牌面朝上"
     },
     "AbilityHanger/Qualification/CantUntap_Title": {
         "oracleText": "Doesn't Untap",
@@ -3681,19 +3681,19 @@
     },
     "BattlePass/Rewards/MKM_Companion2": {
         "oracleText": "Gumshoe Guide",
-        "translation": "Gumshoe Guide"
+        "translation": "侦探向导"
     },
     "BattlePass/Rewards/MKM_Companion3": {
         "oracleText": "Tunnel Tipster",
-        "translation": "Tunnel Tipster"
+        "translation": "隧道情报贩"
     },
     "BattlePass/Rewards/MKM_Companion_Hover": {
         "oracleText": "Tunnel Tipster: Mastery Pass Level 52",
-        "translation": "Tunnel Tipster: Mastery Pass Level 52"
+        "translation": "隧道情报贩：精研通行证等级达到52"
     },
     "BattlePass/Rewards/MKM_Level1": {
         "oracleText": "Kaya Avatar, Archivist Advisor Companion, and Karlov Manor Sleeve",
-        "translation": "Kaya Avatar, Archivist Advisor Companion, and Karlov Manor Sleeve"
+        "translation": "卡娅头像，档案参谋宠物，以及卡洛夫庄园牌背"
     },
     "BattlePass/Rewards/MOM_Level1": {
         "oracleText": "Archangel Elspeth Avatar, Noxious Stinger Companion, and March of the Machine Sleeve",
@@ -4769,7 +4769,7 @@
     },
     "Codex/WaysToPlay/Formats/Constructed_AdditionalFormats": {
         "oracleText": "<color #ED5922>While those are the 5 main constructed formats, on Arena, that's not all:",
-        "translation": "<color #ED5922>While those are the 5 main constructed formats, on Arena, that's not all:"
+        "translation": "<color #ED5922>这是《万智牌竞技场》中最主要的五个构筑赛制，但并不是全部："
     },
     "Codex/WaysToPlay/Formats/Constructed_Alchemy_A": {
         "oracleText": "<indent=5%><color #E9E9F6><b>Alchemy</b><color #CCCCCC> is a rotating format similar to Standard except for one main difference: players can also play with digital cards not present in paper! This could be cards from Standard that have been \"rebalanced\" to allow for new strategies, or even entirely new cards released in each set's Alchemy drop. These cards do things on MTG Arena that aren't possible in paper and might have you approaching this format differently. That combined with our ability to balance cards that aren't seeing a lot of play (or too much play), make Alchemy an ever-changing format!<br><br><color #ED5922>A change new to 2023 is that while Standard rotates every three years, Alchemy still rotates only every two years. <color #CCCCCC>When <i>Wilds of Eldraine</i> releases in September of 2023, Alchemy will rotate, thus making it a \"smaller\" format than Standard! A great place to start would be playing with any of the 10 Starter Decks and adding in any digital-first cards you may come across!",
@@ -6901,27 +6901,27 @@
     },
     "Decks/Precon/Precon_MKM_Story_CrimeScene": {
         "oracleText": "Crime Scenes & Seances",
-        "translation": "Crime Scenes & Seances"
+        "translation": "犯罪现场&招灵会"
     },
     "Decks/Precon/Precon_MKM_Story_Criminology": {
         "oracleText": "Minored in Criminology",
-        "translation": "Minored in Criminology"
+        "translation": "辅修犯罪学"
     },
     "Decks/Precon/Precon_MKM_Story_Elementary": {
         "oracleText": "It's Elementary",
-        "translation": "It's Elementary"
+        "translation": "这是基本演绎法"
     },
     "Decks/Precon/Precon_MKM_Story_Paths": {
         "oracleText": "Paths and Pacts",
-        "translation": "Paths and Pacts"
+        "translation": "路径和协议"
     },
     "Decks/Precon/Precon_MKM_Story_RedBranched": {
         "oracleText": "Caught Red Branched",
-        "translation": "Caught Red Branched"
+        "translation": "当场抓获"
     },
     "Decks/Precon/Precon_MKM_Story_Schemes": {
         "oracleText": "Sideline Schemes",
-        "translation": "Sideline Schemes"
+        "translation": "边缘计划"
     },
     "Decks/Precon/Precon_NPE_GRN_BG": {
         "oracleText": "Saproling Swarm",
@@ -8097,7 +8097,7 @@
     },
     "DuelScene/Browsers/BrowserCardInfo_Disguise": {
         "oracleText": "Disguise",
-        "translation": "Disguise"
+        "translation": "伪装"
     },
     "DuelScene/Browsers/BrowserCardInfo_PlayWith": {
         "oracleText": "Play With",
@@ -8245,11 +8245,11 @@
     },
     "DuelScene/Browsers/Cloak_ManaCost_Text": {
         "oracleText": "Cloak {manaCost}",
-        "translation": "Cloak {manaCost}"
+        "translation": "匿伏{manaCost}"
     },
     "DuelScene/Browsers/Cloak_Text": {
         "oracleText": "Cloak",
-        "translation": "Cloak"
+        "translation": "匿伏"
     },
     "DuelScene/Browsers/ColorSelectHeader": {
         "oracleText": "Choose Colors",
@@ -16285,7 +16285,7 @@
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo1": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i> Murders at Karlov Manor</i> Sealed with single-game matches. The Day 2 event will use two Traditional <i> Murders at Karlov Manor</i>  Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i> Murders at Karlov Manor</i> Sealed with single-game matches. The Day 2 event will use two Traditional <i> Murders at Karlov Manor</i>  Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
+        "translation": "<size=150%><color=#e1a154>为现金奖励而战！</color></size>\n\n报名参加本第1天赛事并获得全部7场胜利，即可获得第 2 天赛事参赛资格。（第2天赛事排名前列的优胜者将赢得现金奖励！）玩家可以任意多次参加第1天赛事，但即使他们多次通过第1天赛事获取了第2天赛事参赛资格，第2天赛事也仅能参加一次。\n\n本第1天赛事的赛制是<i>卡洛夫庄园谋杀案</i>BO1现开。第2天赛事是两轮<i>卡洛夫庄园谋杀案</i>BO3传统轮抓，需使用备牌和个人计时器。点击<u><link=http://magic.wizards.com/mtga-69960>此处</link></u>联系客户服务获取帮助。\n\n<b><color=red>必须年满18周岁才能参加。并非在所有地区/领地都可用。禁止地区无效。领取现金奖励需要创建或拥有现有的Wizards、DCI和i-Payout账户。请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>此处</link></u>了解完整详情。</color></b> "
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo1_Alt": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Standard with single-game matches. The Day 2 event will use Traditional Standard with best-of-three matches using sideboards. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>",
@@ -16297,7 +16297,7 @@
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo3": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional <i>Murders at Karlov Manor</i> Sealed with best-of-three matches using sideboards and individual timers. The Day 2 event will use two Traditional <i>Murders at Karlov Manor</i> Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional <i>Murders at Karlov Manor</i> Sealed with best-of-three matches using sideboards and individual timers. The Day 2 event will use two Traditional <i>Murders at Karlov Manor</i> Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
+        "translation": "<size=150%><color=#e1a154>为现金奖励而战！</color></size>\n\n报名参加本第1天赛事并获得全部4场胜利，即可获得第 2 天赛事参赛资格。（第2天赛事排名前列的优胜者将赢得现金奖励！）玩家可以任意多次参加第1天赛事，但即使他们多次通过第1天赛事获取了第2天赛事参赛资格，第2天赛事也仅能参加一次。\n\n本第1天赛事的赛制是<i>卡洛夫庄园谋杀案</i>BO3传统现开，需使用备牌和个人计时器。第2天赛事是两轮<i>卡洛夫庄园谋杀案</i>BO3传统轮抓，需使用备牌和个人计时器。点击<u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>此处</link></u>联系客户服务获取帮助。\n\n<b><color=red>必须年满18周岁才能参加。并非在所有地区/领地都可用。禁止地区无效。领取现金奖励需要创建或拥有现有的Wizards、DCI和i-Payout账户。请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>此处</link></u>了解完整详情。</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo3_Alt": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 match wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional Standard with best-of-three matches using sideboards. The Day 2 event will also be Traditional Standard with best-of-three matches using sideboards. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>",
@@ -16317,7 +16317,7 @@
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftOne": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 12 p.m. PT. Winning all four matches will allow for a second loss in the second draft.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Murders at Karlov Manor</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 12 p.m. PT. Winning all four matches will allow for a second loss in the second draft.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Murders at Karlov Manor</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
+        "translation": "<size=150%><color=#e1a154>为现金奖励而战！\n\n玩家必须在太平洋时间上午6点至8点之间参加第一轮轮抓并在12点之前完成对局。赢得全部4场对局的玩家在第二轮轮抓中多一次负场容错。</size></color>\n\n<size=150%><color=#e1a154>玩家必须在太平洋时间下午12点至2点之间参加第二轮轮抓并在下午6点之前完成对局。</size></color>\n\n本第2天赛事仅对从第1天赛事获取入围资格的玩家开放。\n\n第2天赛事的赛制是<b>两轮</b><i>卡洛夫庄园谋杀案</i>BO3传统轮抓，需使用备牌和个人计时器。玩家即使多次通过第1天赛事入围，也仅能参加一次。\n\n点击<u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>此处</link></u>联系客户服务获取帮助。\n\n<b><color=red>必须年满18周岁才能参加。并非在所有地区/领地都可用。禁止地区无效。领取现金奖励需要创建或拥有现有的Wizards、DCI和i-Payout账户。请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>此处</link></u>了解完整详情。</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftOne_KHM": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 12 p.m. PT. Winning all four matches will allow for a second loss in the second draft.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Kaldheim</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
@@ -16329,7 +16329,7 @@
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftTwoA": {
         "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 4 wins in the first draft, this draft is double elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Murders at Karlov Manor</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 4 wins in the first draft, this draft is double elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Murders at Karlov Manor</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
+        "translation": "<size=150%><color=#e1a154>玩家必须在太平洋时间下午12点至2点之间参加第二轮轮抓并在下午6点之前完成对局。因你在第一轮轮抓中赢得4胜，故此轮轮抓为双败淘汰制。</size></color>\n\n本第2天赛事仅对从第1天赛事获取入围资格的玩家开放。\n\n第2天赛事的赛制是<b>两轮</b><i>卡洛夫庄园谋杀案</i>BO3传统轮抓，需使用备牌和个人计时器。玩家即使多次通过第1天赛事入围，也仅能参加一次。\n\n点击<u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>此处</link></u>联系客户服务获取帮助。\n\n<b><color=red>必须年满18周岁才能参加。并非在所有地区/领地都可用。禁止地区无效。领取现金奖励需要创建或拥有现有的Wizards、DCI和i-Payout账户。请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>此处</link></u>了解完整详情。</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftTwoA_KHM": {
         "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 4 wins in the first draft, this draft is double elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Kaldheim</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
@@ -16337,7 +16337,7 @@
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftTwoB": {
         "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 3 wins in the first draft, this draft is single elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Murders at Karlov Manor</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 3 wins in the first draft, this draft is single elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Murders at Karlov Manor</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
+        "translation": "<size=150%><color=#e1a154>玩家必须在太平洋时间下午12点至2点之间参加第二轮轮抓并在下午6点之前完成对局。因你在第一轮轮抓中赢得3胜，故此轮轮抓为单败淘汰制。</size></color>\n\n本第2天赛事仅对从第1天赛事获取入围资格的玩家开放。\n\n第2天赛事的赛制是<b>两轮</b><i>卡洛夫庄园谋杀案</i>BO3传统轮抓，需使用备牌和个人计时器。玩家即使多次通过第1天赛事入围，也仅能参加一次。\n\n点击<u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>此处</link></u>联系客户服务获取帮助。\n\n<b><color=red>必须年满18周岁才能参加。并非在所有地区/领地都可用。禁止地区无效。领取现金奖励需要创建或拥有现有的Wizards、DCI和i-Payout账户。请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>此处</link></u>了解完整详情。</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftTwoB_KHM": {
         "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 3 wins in the first draft, this draft is single elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Kaldheim</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
@@ -17097,7 +17097,7 @@
     },
     "Events/Event_Desc_Festival_MKM_Storydecks": {
         "oracleText": "Collect some of your Favorite Card Style in this Block Festival!\n\nPlay out the story with 60-card decks containing only <i>Murders at Karlov Manor</i> cards usable in Standard. Change decks as often as you like.",
-        "translation": "Collect some of your Favorite Card Style in this Block Festival!\n\nPlay out the story with 60-card decks containing only <i>Murders at Karlov Manor</i> cards usable in Standard. Change decks as often as you like."
+        "translation": "在本街区活动节中收集一些你最爱的卡牌样式！\n\n用一副60张的套牌演绎故事，套牌中仅能包含<i>卡洛夫庄园谋杀案</i>中标准合法的卡牌。你可以随时更换套牌。"
     },
     "Events/Event_Desc_Festival_MOM_HistoricArtisan": {
         "oracleText": "Collect your Favorite Team-Up Card Style in this Historic Artisan Festival!\n\nBring a 60-card deck using only commons, uncommons, and basic lands from any set in <i>MTG Arena</i>. Without rares, the common folk can truly be heard!",
@@ -17585,15 +17585,15 @@
     },
     "Events/Event_Desc_MKM_Premier_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Detectives </b> Get on your opponent's case with this fast midrange strategy. Leverage Detective typal bonuses to overwhelm your opponent's defenses, and sacrifice Clues to refill your hand in the late game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Clues Control </b> Use defensive spells to extend the game and generate Clues, then turn the excess mana into a card advantage that will bury your opponent in a mountain of value. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Suspect Aggro </b> Suspected creatures have menace and can't block. Keep attacking with your suspicious characters, and your opponents will be helpless to stop them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Big Disguise </b> Spend the early game accelerating your mana and setting up a face-down board state, then beat down your opponent's side of the board by flipping over haymaker after haymaker. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>  Go-Wide Disguise </b> Flood the battlefield with face-down creatures and accrue impressive rewards whenever they're turned face up. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Pint-Size Disguise </b> Face-down creatures bolster your strategy, which rewards playing creatures with power 2 or less and boosting them to become more impressive attackers. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Artifact Sacrifice </b> Generate and sacrifice Clue tokens strategically to gain a massive card advantage over your opponent. Then, chip away at their defenses by attacking with evasive Thopters that bring death from above. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Gravebreak </b> Use the collect evidence mechanic and raise the dead to support a long-game strategy that gives you extra value whenever a creature card leaves your graveyard. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Battalion </b> This classic Ravnican strategy adds extra punch to aggressive red and white creatures by providing a bonus whenever you attack with three or more of them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Collect Evidence </b> Rapidly fill up your graveyard and collect evidence to power up your spells while amassing permanents that reward you each time you do so.",
-        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Detectives </b> Get on your opponent's case with this fast midrange strategy. Leverage Detective typal bonuses to overwhelm your opponent's defenses, and sacrifice Clues to refill your hand in the late game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Clues Control </b> Use defensive spells to extend the game and generate Clues, then turn the excess mana into a card advantage that will bury your opponent in a mountain of value. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Suspect Aggro </b> Suspected creatures have menace and can't block. Keep attacking with your suspicious characters, and your opponents will be helpless to stop them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Big Disguise </b> Spend the early game accelerating your mana and setting up a face-down board state, then beat down your opponent's side of the board by flipping over haymaker after haymaker. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>  Go-Wide Disguise </b> Flood the battlefield with face-down creatures and accrue impressive rewards whenever they're turned face up. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Pint-Size Disguise </b> Face-down creatures bolster your strategy, which rewards playing creatures with power 2 or less and boosting them to become more impressive attackers. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Artifact Sacrifice </b> Generate and sacrifice Clue tokens strategically to gain a massive card advantage over your opponent. Then, chip away at their defenses by attacking with evasive Thopters that bring death from above. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Gravebreak </b> Use the collect evidence mechanic and raise the dead to support a long-game strategy that gives you extra value whenever a creature card leaves your graveyard. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Battalion </b> This classic Ravnican strategy adds extra punch to aggressive red and white creatures by providing a bonus whenever you attack with three or more of them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Collect Evidence </b> Rapidly fill up your graveyard and collect evidence to power up your spells while amassing permanents that reward you each time you do so."
+        "translation": "从传过来的轮抽补充包中一次选一张牌。这些牌会加入你的收藏。你将使用这些牌加上基本地来构筑一套40张的套牌。进行游戏并基于你的胜场获得奖励！\n\n<b>真人轮抽～和其他七位玩家共同进行的限时轮抽</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><b>集结侦探</b> 以这种快节奏中速策略来解决对手：充分利用侦探特有的额外价值压垮对手的防线并在游戏后期牺牲线索补充手牌。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><b>线索控制</b> 使用防御咒语拉长战线并派出线索，然后将多余的法术力转化成手牌优势最终以海量资源埋葬对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><b>怀疑快攻</b> 遭疑生物具有威慑异能且不能阻挡。用遭疑角色持续进攻，在他们的攻势下你的对手会陷入绝望。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><b>巨型伪装</b> 在游戏前期加速法术力并将匿伏生物铺满你的版图，接着将它们翻面施以拳拳重击击倒对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><b>铺场伪装</b> 召唤海量匿伏生物，每当他们翻面时，不断获取惊人回报。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><b>微型伪装</b> 通过匿伏生物帮助实现你的计策：通过打出力量等于或小于2的生物获得回报并增强他们使之成为更有力的进攻者。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><b>神器牺牲</b> 机智地派出和牺牲线索衍生物来赢得巨大的卡差优势，然后用带穿透的振翼机进攻蚕食对手防线，从空中击败对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><b>破坟而出</b> 利用搜证机制和掘坟来支撑该长盘战略：每当一张生物牌离开你的坟场时给予你额外价值。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><b>集结军队</b> 每当你以三个或更多生物攻击时能提供额外价值——这种经典的拉尼卡策略让本身就极具进攻性的红白生物如虎添翼。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><b>搜集证据</b> 快速填充你的坟场并通过搜证强化你的咒语，同时积攒让你每次搜证获得回报的永久物。"
     },
     "Events/Event_Desc_MKM_Quick_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Detectives </b> Get on your opponent's case with this fast midrange strategy. Leverage Detective typal bonuses to overwhelm your opponent's defenses, and sacrifice Clues to refill your hand in the late game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Clues Control </b> Use defensive spells to extend the game and generate Clues, then turn the excess mana into a card advantage that will bury your opponent in a mountain of value. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Suspect Aggro </b> Suspected creatures have menace and can't block. Keep attacking with your suspicious characters, and your opponents will be helpless to stop them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Big Disguise </b> Spend the early game accelerating your mana and setting up a face-down board state, then beat down your opponent's side of the board by flipping over haymaker after haymaker. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>  Go-Wide Disguise </b> Flood the battlefield with face-down creatures and accrue impressive rewards whenever they're turned face up. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Pint-Size Disguise </b> Face-down creatures bolster your strategy, which rewards playing creatures with power 2 or less and boosting them to become more impressive attackers. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Artifact Sacrifice </b> Generate and sacrifice Clue tokens strategically to gain a massive card advantage over your opponent. Then, chip away at their defenses by attacking with evasive Thopters that bring death from above. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Gravebreak </b> Use the collect evidence mechanic and raise the dead to support a long-game strategy that gives you extra value whenever a creature card leaves your graveyard. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Battalion </b> This classic Ravnican strategy adds extra punch to aggressive red and white creatures by providing a bonus whenever you attack with three or more of them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Collect Evidence </b> Rapidly fill up your graveyard and collect evidence to power up your spells while amassing permanents that reward you each time you do so.",
-        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Detectives </b> Get on your opponent's case with this fast midrange strategy. Leverage Detective typal bonuses to overwhelm your opponent's defenses, and sacrifice Clues to refill your hand in the late game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Clues Control </b> Use defensive spells to extend the game and generate Clues, then turn the excess mana into a card advantage that will bury your opponent in a mountain of value. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Suspect Aggro </b> Suspected creatures have menace and can't block. Keep attacking with your suspicious characters, and your opponents will be helpless to stop them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Big Disguise </b> Spend the early game accelerating your mana and setting up a face-down board state, then beat down your opponent's side of the board by flipping over haymaker after haymaker. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>  Go-Wide Disguise </b> Flood the battlefield with face-down creatures and accrue impressive rewards whenever they're turned face up. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Pint-Size Disguise </b> Face-down creatures bolster your strategy, which rewards playing creatures with power 2 or less and boosting them to become more impressive attackers. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Artifact Sacrifice </b> Generate and sacrifice Clue tokens strategically to gain a massive card advantage over your opponent. Then, chip away at their defenses by attacking with evasive Thopters that bring death from above. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Gravebreak </b> Use the collect evidence mechanic and raise the dead to support a long-game strategy that gives you extra value whenever a creature card leaves your graveyard. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Battalion </b> This classic Ravnican strategy adds extra punch to aggressive red and white creatures by providing a bonus whenever you attack with three or more of them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Collect Evidence </b> Rapidly fill up your graveyard and collect evidence to power up your spells while amassing permanents that reward you each time you do so."
+        "translation": "从传过来的轮抽补充包中一次选一张牌。这些牌会加入你的收藏。你将使用这些牌加上基本地来构筑一套40张的套牌。进行游戏并基于你的胜场获得奖励！\n\n人机轮抽～与AI进行轮抽，无需等待，也不限制选牌时间\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><b>集结侦探</b> 以这种快节奏中速策略来解决对手：充分利用侦探特有的额外价值压垮对手的防线并在游戏后期牺牲线索补充手牌。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><b>线索控制</b> 使用防御咒语拉长战线并派出线索，然后将多余的法术力转化成手牌优势最终以海量资源埋葬对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><b>怀疑快攻</b> 遭疑生物具有威慑异能且不能阻挡。用遭疑角色持续进攻，在他们的攻势下你的对手会陷入绝望。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><b>巨型伪装</b> 在游戏前期加速法术力并将匿伏生物铺满你的版图，接着将它们翻面施以拳拳重击击倒对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><b>铺场伪装</b> 召唤海量匿伏生物，每当他们翻面时，不断获取惊人回报。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><b>微型伪装</b> 通过匿伏生物帮助实现你的计策：通过打出力量等于或小于2的生物获得回报并增强他们使之成为更有力的进攻者。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><b>神器牺牲</b> 机智地派出和牺牲线索衍生物来赢得巨大的卡差优势，然后用带穿透的振翼机进攻蚕食对手防线，从空中击败对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><b>破坟而出</b> 利用搜证机制和掘坟来支撑该长盘战略：每当一张生物牌离开你的坟场时给予你额外价值。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><b>集结军队</b> 每当你以三个或更多生物攻击时能提供额外价值——这种经典的拉尼卡策略让本身就极具进攻性的红白生物如虎添翼。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><b>搜集证据</b> 快速填充你的坟场并通过搜证强化你的咒语，同时积攒让你每次搜证获得回报的永久物。"
     },
     "Events/Event_Desc_MKM_Trad_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Detectives </b> Get on your opponent's case with this fast midrange strategy. Leverage Detective typal bonuses to overwhelm your opponent's defenses, and sacrifice Clues to refill your hand in the late game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Clues Control </b> Use defensive spells to extend the game and generate Clues, then turn the excess mana into a card advantage that will bury your opponent in a mountain of value. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Suspect Aggro </b> Suspected creatures have menace and can't block. Keep attacking with your suspicious characters, and your opponents will be helpless to stop them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Big Disguise </b> Spend the early game accelerating your mana and setting up a face-down board state, then beat down your opponent's side of the board by flipping over haymaker after haymaker. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>  Go-Wide Disguise </b> Flood the battlefield with face-down creatures and accrue impressive rewards whenever they're turned face up. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Pint-Size Disguise </b> Face-down creatures bolster your strategy, which rewards playing creatures with power 2 or less and boosting them to become more impressive attackers. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Artifact Sacrifice </b> Generate and sacrifice Clue tokens strategically to gain a massive card advantage over your opponent. Then, chip away at their defenses by attacking with evasive Thopters that bring death from above. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Gravebreak </b> Use the collect evidence mechanic and raise the dead to support a long-game strategy that gives you extra value whenever a creature card leaves your graveyard. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Battalion </b> This classic Ravnican strategy adds extra punch to aggressive red and white creatures by providing a bonus whenever you attack with three or more of them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Collect Evidence </b> Rapidly fill up your graveyard and collect evidence to power up your spells while amassing permanents that reward you each time you do so.",
-        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Detectives </b> Get on your opponent's case with this fast midrange strategy. Leverage Detective typal bonuses to overwhelm your opponent's defenses, and sacrifice Clues to refill your hand in the late game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Clues Control </b> Use defensive spells to extend the game and generate Clues, then turn the excess mana into a card advantage that will bury your opponent in a mountain of value. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Suspect Aggro </b> Suspected creatures have menace and can't block. Keep attacking with your suspicious characters, and your opponents will be helpless to stop them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Big Disguise </b> Spend the early game accelerating your mana and setting up a face-down board state, then beat down your opponent's side of the board by flipping over haymaker after haymaker. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>  Go-Wide Disguise </b> Flood the battlefield with face-down creatures and accrue impressive rewards whenever they're turned face up. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Pint-Size Disguise </b> Face-down creatures bolster your strategy, which rewards playing creatures with power 2 or less and boosting them to become more impressive attackers. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Artifact Sacrifice </b> Generate and sacrifice Clue tokens strategically to gain a massive card advantage over your opponent. Then, chip away at their defenses by attacking with evasive Thopters that bring death from above. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Gravebreak </b> Use the collect evidence mechanic and raise the dead to support a long-game strategy that gives you extra value whenever a creature card leaves your graveyard. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Battalion </b> This classic Ravnican strategy adds extra punch to aggressive red and white creatures by providing a bonus whenever you attack with three or more of them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Collect Evidence </b> Rapidly fill up your graveyard and collect evidence to power up your spells while amassing permanents that reward you each time you do so."
+        "translation": "从传过来的轮抽补充包中一次选一张牌。这些牌会加入你的收藏。你将使用这些牌加上基本地来构筑一套40张的套牌。进行三局两胜游戏并基于你的胜场获得奖励！\n\n<b>真人轮抽～和其他七位玩家共同进行的限时轮抽</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><b>集结侦探</b> 以这种快节奏中速策略来解决对手：充分利用侦探特有的额外价值压垮对手的防线并在游戏后期牺牲线索补充手牌。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><b>线索控制</b> 使用防御咒语拉长战线并派出线索，然后将多余的法术力转化成手牌优势最终以海量资源埋葬对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><b>怀疑快攻</b> 遭疑生物具有威慑异能且不能阻挡。用遭疑角色持续进攻，在他们的攻势下你的对手会陷入绝望。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><b>巨型伪装</b> 在游戏前期加速法术力并将匿伏生物铺满你的版图，接着将它们翻面施以拳拳重击击倒对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><b>铺场伪装</b> 召唤海量匿伏生物，每当他们翻面时，不断获取惊人回报。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><b>微型伪装</b> 通过匿伏生物帮助实现你的计策：通过打出力量等于或小于2的生物获得回报并增强他们使之成为更有力的进攻者。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><b>神器牺牲</b> 机智地派出和牺牲线索衍生物来赢得巨大的卡差优势，然后用带穿透的振翼机进攻蚕食对手防线，从空中击败对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><b>破坟而出</b> 利用搜证机制和掘坟来支撑该长盘战略：每当一张生物牌离开你的坟场时给予你额外价值。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><b>集结军队</b> 每当你以三个或更多生物攻击时能提供额外价值——这种经典的拉尼卡策略让本身就极具进攻性的红白生物如虎添翼。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><b>搜集证据</b> 快速填充你的坟场并通过搜证强化你的咒语，同时积攒让你每次搜证获得回报的永久物。"
     },
     "Events/Event_Desc_MOM_Premier_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Knights </b> Knights have assembled from around the multiverse! Keeping a steady supply of these gallant creatures will help press your advantage each turn.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Graveyard </b> Mill everyone. Your forces will improve with more strategies and greater power as each graveyard fills.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Sacrifice </b> Desperate times call for desperate measures. Sacrifice your artifacts and creatures to pave a path to victory.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Battles </b> Get ready to liberate your favorite plane from the Phyrexians! Prioritize Battles, Magic's newest card type, and smash through opposing defenses to save the day.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> +1/+1 Counters </b> It's time to buff up! Arm your creatures with +1/+1 counters to outclass the opposition.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Phyrexian </b> Looking to play the villain? Seek out Phyrexians of all sorts to take advantage of them and their swarms of little hatching Incubator tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Convoke </b> Your creatures are here to help withstand the invasion. Build an army early and they'll help you cast powerful spells with convoke.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Incubate </b> Go big and generate tons of mana to play bigger creatures and incubate larger tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Backup </b> Find a good partner and tag-team those Phyrexians. Use the backup mechanic to find the right combination of abilities to build toward your victory each turn.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Transform </b> Life is always more fun with some change. Take your cards to the next level by winning battles and turning Incubator tokens and creatures into their Phyrexian selves.",
@@ -17609,7 +17609,7 @@
     },
     "Events/Event_Desc_MWM_3Sets": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is On the Edge: Bring a 60-card deck using only cards from <i>Wilds of Eldraine</i>, <i> Lost Caverns of Ixalan</i>, and <i> Murders at Karlov Manor</i>. With only three Standard sets to work with, you'll need cutting-edge strategies to find victory! \n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
-        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is On the Edge: Bring a 60-card deck using only cards from <i>Wilds of Eldraine</i>, <i> Lost Caverns of Ixalan</i>, and <i> Murders at Karlov Manor</i>. With only three Standard sets to work with, you'll need cutting-edge strategies to find victory! \n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+        "translation": "欢迎来到周中万智牌！每周尝试一个不同的方式来游玩万智牌竞技场！\n\n本周活动是剑走偏锋：使用 <i>艾卓仙踪</i>, <i>依夏兰迷窟</i>  和 <i>卡洛夫庄园谋杀案</i> 这三个标准最新的系列，构筑一套60张的套牌。你需要尖端的策略来取得胜利！\n\n了解有关本次万智牌周中活动以及后续周中活动的详细信息：<u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
     },
     "Events/Event_Desc_MWM_Alchemy": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Alchemy: Bring a 60-card Alchemy deck. Break out the latest and greatest from the lab, or maybe find a new favorite!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
@@ -17681,11 +17681,11 @@
     },
     "Events/Event_Desc_MWM_DisguiseDual": {
         "oracleText": "TBD",
-        "translation": "TBD"
+        "translation": "待定"
     },
     "Events/Event_Desc_MWM_DisguiseDuel": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Disguise Duel: all players have a preconstructed deck containing only creatures that can Disguise themselves.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>.",
-        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Disguise Duel: all players have a preconstructed deck containing only creatures that can Disguise themselves.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic>HERE</link></u>."
+        "translation": "欢迎来到周中万智牌！每周尝试一个不同的方式来游玩万智牌竞技场！\n\n本周赛事是伪装对决：所有牌手都有一套只存在具有伪装异能生物的预组套牌。\n\n更多关于本活动及即将到来的周中万智牌赛事信息，请查看<u><link=https://magic.wizards.com/mtga-midweek-magic>这里</link></u>。"
     },
     "Events/Event_Desc_MWM_Explorer": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Explorer: Bring a 60-card Explorer deck. Break out the latest and greatest from the lab, or maybe find a new favorite!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
@@ -17757,7 +17757,7 @@
     },
     "Events/Event_Desc_MWM_JumpIn_MKM": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is phantom Jump In featuring only cards from <i>Murders at Karlov Manor</i>! You will get to select two different half-decks from a variety of themes in Alchemy. Combine them, and you'll have a deck that's ready to go. Unlike regular Jump In, cards from this event will not be added to your collection.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
-        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is phantom Jump In featuring only cards from <i>Murders at Karlov Manor</i>! You will get to select two different half-decks from a variety of themes in Alchemy. Combine them, and you'll have a deck that's ready to go. Unlike regular Jump In, cards from this event will not be added to your collection.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+        "translation": "欢迎来到周中万智牌！每周尝试一个不同的方式来游玩万智牌竞技场！\n\n本周赛事是<i>卡洛夫庄园谋杀案</i>的幻影速学！你可以炼金赛制的各种主题中选择两个不同的「半套牌」补充包，将它们混合起来，你就有一副可以立刻开玩的套牌了！但与通常的速学赛事不同的是，你所选的套牌不会添加到你的收藏当中。\n\n更多关于本活动及即将到来的周中万智牌赛事信息，请查看<u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>这里</link></u>。"
     },
     "Events/Event_Desc_MWM_KTKConstructed": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Khans of Tarkir</i> Constructed: Bring a 60-card deck with only cards from the most recent set and demonstrate your mastery of the new cards!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
@@ -17789,7 +17789,7 @@
     },
     "Events/Event_Desc_MWM_MKMConstructed": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Murders at Karlov Manor</i> Constructed: Bring a 60-card deck with only cards from the most recent set and demonstrate your mastery of the new cards!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
-        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Murders at Karlov Manor</i> Constructed: Bring a 60-card deck with only cards from the most recent set and demonstrate your mastery of the new cards!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+        "translation": "欢迎来到周中万智牌！每周尝试一个不同的方式来游玩万智牌竞技场！\n\n本周活动是 <i>拉罗夫庄园谋杀案</i> 构筑: 带上一副 60 张卡片，其中仅包含最新系列的卡牌，并展示您对新牌的理解！\n\n了解有关本次魔术周中活动以及即将举行的周中万智牌活动的更多详细信息 <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>这里</link></u>."
     },
     "Events/Event_Desc_MWM_MOMConstructed": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>March of the Machine</i> constructed: Bring a 60-card deck with only cards from the most recent set and demonstrate your compleat mastery of the new cards!\n\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
@@ -18073,7 +18073,7 @@
     },
     "Events/Event_Desc_QualifierPlayIn_Bo1": {
         "oracleText": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom <i>Murders at Karlov Manor</i> Sealed with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>\n\n<b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.</color></b>",
-        "translation": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom <i>Murders at Karlov Manor</i> Sealed with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>\n\n<b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.</color></b>"
+        "translation": "本月的资格赛周末即将来临！如果你还未获得资格，在本入围赛事中赢取6胜来获得你的资格赛周末席位。\n\n本入围赛事的赛制是<i>卡洛夫庄园谋杀案</i>BO1幻影现开，需使用个人计时器。如果你能赢取6胜，一定记得下周回来参加资格赛周末！\n\n<size=100%><b><color=\"red\">必须年满18岁才能参加。并非在所有地区/领地都可用。禁止地区无效。附加条款和条件适用。请参阅<u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>此处</link></u>了解完整详情。</color></b></size>\n\n<b><color=\"red\">这是一场幻影赛事。卡牌不会加入到你的收藏中。</color></b>"
     },
     "Events/Event_Desc_QualifierPlayIn_Bo120231111": {
         "oracleText": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Historic with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
@@ -18085,11 +18085,11 @@
     },
     "Events/Event_Desc_QualifierPlayIn_Bo1_20240210": {
         "oracleText": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom <i>Murders at Karlov Manor</i> Sealed with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>\n\n<b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.</color></b>",
-        "translation": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom <i>Murders at Karlov Manor</i> Sealed with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>\n\n<b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.</color></b>"
+        "translation": "本月的资格赛周末即将来临！如果你还未获得资格，在本入围赛事中赢取6胜来获得你的资格赛周末席位。\n\n本入围赛事的赛制是<i>卡洛夫庄园谋杀案</i>BO1幻影现开，需使用个人计时器。如果你能赢取6胜，一定记得下周回来参加资格赛周末！\n\n<size=100%><b><color=\"red\">必须年满18岁才能参加。并非在所有地区/领地都可用。禁止地区无效。附加条款和条件适用。请参阅<u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>此处</link></u>了解完整详情。</color></b></size>\n\n<b><color=\"red\">这是一场幻影赛事。卡牌不会加入到你的收藏中。</color></b>"
     },
     "Events/Event_Desc_QualifierPlayIn_Bo3": {
         "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom Traditional <i>Murders at Karlov Manor</i> Sealed with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>\n\n<b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.</color></b>",
-        "translation": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom Traditional <i>Murders at Karlov Manor</i> Sealed with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>\n\n<b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.</color></b>"
+        "translation": "本月的资格赛周末即将来临！如果你还未获得资格，在本入围赛事中赢取4胜来获得你的资格赛周末席位。\n\n本入围赛事的赛制是<i>卡洛夫庄园谋杀案</i>BO3幻影现开，需使用备牌和个人计时器。如果你能赢取4胜，一定记得明天回来参加资格赛周末！\n\n<size=100%><b><color=\"red\">必须年满18岁才能参加。并非在所有地区/领地都可用。禁止地区无效。附加条款和条件适用。请参阅<u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>此处</link></u>了解完整详情。</color></b></size>\n\n<b><color=\"red\">是一场幻影赛事。卡牌不会加入到你的收藏中。</color></b>"
     },
     "Events/Event_Desc_QualifierPlayIn_Bo320230609": {
         "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Traditional Historic with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
@@ -18097,11 +18097,11 @@
     },
     "Events/Event_Desc_QualifierPlayIn_Bo3_20231208": {
         "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom Traditional <i>Murders at Karlov Manor</i> Sealed with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>\n\n<b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.</color></b>",
-        "translation": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom Traditional <i>Murders at Karlov Manor</i> Sealed with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>\n\n<b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.</color></b>"
+        "translation": "本月的资格赛周末即将来临！如果你还未获得资格，在本入围赛事中赢取4胜来获得你的资格赛周末席位。\n\n本入围赛事的赛制是<i>卡洛夫庄园谋杀案</i>BO3幻影现开，需使用备牌和个人计时器。如果你能赢取4胜，一定记得明天回来参加资格赛周末！\n\n<size=100%><b><color=\"red\">必须年满18岁才能参加。并非在所有地区/领地都可用。禁止地区无效。附加条款和条件适用。请参阅<u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>此处</link></u>了解完整详情。</color></b></size>\n\n<b><color=\"red\">是一场幻影赛事。卡牌不会加入到你的收藏中。</color></b>"
     },
     "Events/Event_Desc_QualifierPlayIn_Bo3_20240216": {
         "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom Traditional <i>Murders at Karlov Manor</i> Sealed with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>\n\n<b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.</color></b>",
-        "translation": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom Traditional <i>Murders at Karlov Manor</i> Sealed with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>\n\n<b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.</color></b>"
+        "translation": "本月的资格赛周末即将来临！如果你还未获得资格，在本入围赛事中赢取4胜来获得你的资格赛周末席位。\n\n本入围赛事的赛制是<i>卡洛夫庄园谋杀案</i>BO3幻影现开，需使用备牌和个人计时器。如果你能赢取4胜，一定记得明天回来参加资格赛周末！\n\n<size=100%><b><color=\"red\">必须年满18岁才能参加。并非在所有地区/领地都可用。禁止地区无效。附加条款和条件适用。请参阅<u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>此处</link></u>了解完整详情。</color></b></size>\n\n<b><color=\"red\">是一场幻影赛事。卡牌不会加入到你的收藏中。</color></b>"
     },
     "Events/Event_Desc_QualifierWeekend_Day1": {
         "oracleText": "Congratulations on earning your way to Qualifier Weekend! Sign up for this Day 1 event and get all 7 wins to qualify for Day 2! You may join each day only once.\n\nPlayers can only join Day 1 and (if qualified) Day 2 events between 6 a.m. PT - 8 a.m. PT.\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
@@ -18313,7 +18313,7 @@
     },
     "Events/Event_Desc_Sealed_MKM": {
         "oracleText": "You'll receive 6 Murders at Karlov Manor packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Detectives </b> Get on your opponent's case with this fast midrange strategy. Leverage Detective typal bonuses to overwhelm your opponent's defenses, and sacrifice Clues to refill your hand in the late game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Clues Control </b> Use defensive spells to extend the game and generate Clues, then turn the excess mana into a card advantage that will bury your opponent in a mountain of value. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Suspect Aggro </b> Suspected creatures have menace and can't block. Keep attacking with your suspicious characters, and your opponents will be helpless to stop them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Big Disguise </b> Spend the early game accelerating your mana and setting up a face-down board state, then beat down your opponent's side of the board by flipping over haymaker after haymaker. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>  Go-Wide Disguise </b> Flood the battlefield with face-down creatures and accrue impressive rewards whenever they're turned face up. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Pint-Size Disguise </b> Face-down creatures bolster your strategy, which rewards playing creatures with power 2 or less and boosting them to become more impressive attackers. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Artifact Sacrifice </b> Generate and sacrifice Clue tokens strategically to gain a massive card advantage over your opponent. Then, chip away at their defenses by attacking with evasive Thopters that bring death from above. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Gravebreak </b> Use the collect evidence mechanic and raise the dead to support a long-game strategy that gives you extra value whenever a creature card leaves your graveyard. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Battalion </b> This classic Ravnican strategy adds extra punch to aggressive red and white creatures by providing a bonus whenever you attack with three or more of them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Collect Evidence </b> Rapidly fill up your graveyard and collect evidence to power up your spells while amassing permanents that reward you each time you do so.",
-        "translation": "You'll receive 6 Murders at Karlov Manor packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Detectives </b> Get on your opponent's case with this fast midrange strategy. Leverage Detective typal bonuses to overwhelm your opponent's defenses, and sacrifice Clues to refill your hand in the late game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Clues Control </b> Use defensive spells to extend the game and generate Clues, then turn the excess mana into a card advantage that will bury your opponent in a mountain of value. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Suspect Aggro </b> Suspected creatures have menace and can't block. Keep attacking with your suspicious characters, and your opponents will be helpless to stop them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Big Disguise </b> Spend the early game accelerating your mana and setting up a face-down board state, then beat down your opponent's side of the board by flipping over haymaker after haymaker. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>  Go-Wide Disguise </b> Flood the battlefield with face-down creatures and accrue impressive rewards whenever they're turned face up. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Pint-Size Disguise </b> Face-down creatures bolster your strategy, which rewards playing creatures with power 2 or less and boosting them to become more impressive attackers. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Artifact Sacrifice </b> Generate and sacrifice Clue tokens strategically to gain a massive card advantage over your opponent. Then, chip away at their defenses by attacking with evasive Thopters that bring death from above. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Gravebreak </b> Use the collect evidence mechanic and raise the dead to support a long-game strategy that gives you extra value whenever a creature card leaves your graveyard. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Battalion </b> This classic Ravnican strategy adds extra punch to aggressive red and white creatures by providing a bonus whenever you attack with three or more of them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Collect Evidence </b> Rapidly fill up your graveyard and collect evidence to power up your spells while amassing permanents that reward you each time you do so."
+        "translation": "你将获得6包卡洛夫庄园谋杀案补充包。这些牌会加入你的收藏。你将使用这些牌加上基本地来构筑一套40张的套牌。进行游戏并基于你的胜场获得奖励！\n\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><b>集结侦探</b> 以这种快节奏中速策略来解决对手：充分利用侦探特有的额外价值压垮对手的防线并在游戏后期牺牲线索补充手牌。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><b>线索控制</b> 使用防御咒语拉长战线并派出线索，然后将多余的法术力转化成手牌优势最终以海量资源埋葬对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><b>怀疑快攻</b> 遭疑生物具有威慑异能且不能阻挡。用遭疑角色持续进攻，在他们的攻势下你的对手会陷入绝望。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><b>巨型伪装</b> 在游戏前期加速法术力并将匿伏生物铺满你的版图，接着将它们翻面施以拳拳重击击倒对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><b>铺场伪装</b> 召唤海量匿伏生物，每当他们翻面时，不断获取惊人回报。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><b>微型伪装</b> 通过匿伏生物帮助实现你的计策：通过打出力量等于或小于2的生物获得回报并增强他们使之成为更有力的进攻者。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><b>神器牺牲</b> 机智地派出和牺牲线索衍生物来赢得巨大的卡差优势，然后用带穿透的振翼机进攻蚕食对手防线，从空中击败对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><b>破坟而出</b> 利用搜证机制和掘坟来支撑该长盘战略：每当一张生物牌离开你的坟场时给予你额外价值。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><b>集结军队</b> 每当你以三个或更多生物攻击时能提供额外价值——这种经典的拉尼卡策略让本身就极具进攻性的红白生物如虎添翼。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><b>搜集证据</b> 快速填充你的坟场并通过搜证强化你的咒语，同时积攒让你每次搜证获得回报的永久物。"
     },
     "Events/Event_Desc_Sealed_MOM": {
         "oracleText": "You'll receive 6 <i>March of the Machine</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Knights </b> Knights have assembled from around the multiverse! Keeping a steady supply of these gallant creatures will help press your advantage each turn.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Graveyard </b> Mill everyone. Your forces will improve with more strategies and greater power as each graveyard fills.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Sacrifice </b> Desperate times call for desperate measures. Sacrifice your artifacts and creatures to pave a path to victory.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Battles </b> Get ready to liberate your favorite plane from the Phyrexians! Prioritize Battles, Magic's newest card type, and smash through opposing defenses to save the day.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> +1/+1 Counters </b> It's time to buff up! Arm your creatures with +1/+1 counters to outclass the opposition.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Phyrexian </b> Looking to play the villain? Seek out Phyrexians of all sorts to take advantage of them and their swarms of little hatching Incubator tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Convoke </b> Your creatures are here to help withstand the invasion. Build an army early and they'll help you cast powerful spells with convoke.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Incubate </b> Go big and generate tons of mana to play bigger creatures and incubate larger tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Backup </b> Find a good partner and tag-team those Phyrexians. Use the backup mechanic to find the right combination of abilities to build toward your victory each turn.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Transform </b> Life is always more fun with some change. Take your cards to the next level by winning battles and turning Incubator tokens and creatures into their Phyrexian selves.",
@@ -18541,7 +18541,7 @@
     },
     "Events/Event_Desc_Trad_Sealed_MKM": {
         "oracleText": "You'll receive 6 Murders at Karlov Manor packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Detectives </b> Get on your opponent's case with this fast midrange strategy. Leverage Detective typal bonuses to overwhelm your opponent's defenses, and sacrifice Clues to refill your hand in the late game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Clues Control </b> Use defensive spells to extend the game and generate Clues, then turn the excess mana into a card advantage that will bury your opponent in a mountain of value. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Suspect Aggro </b> Suspected creatures have menace and can't block. Keep attacking with your suspicious characters, and your opponents will be helpless to stop them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Big Disguise </b> Spend the early game accelerating your mana and setting up a face-down board state, then beat down your opponent's side of the board by flipping over haymaker after haymaker. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>  Go-Wide Disguise </b> Flood the battlefield with face-down creatures and accrue impressive rewards whenever they're turned face up. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Pint-Size Disguise </b> Face-down creatures bolster your strategy, which rewards playing creatures with power 2 or less and boosting them to become more impressive attackers. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Artifact Sacrifice </b> Generate and sacrifice Clue tokens strategically to gain a massive card advantage over your opponent. Then, chip away at their defenses by attacking with evasive Thopters that bring death from above. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Gravebreak </b> Use the collect evidence mechanic and raise the dead to support a long-game strategy that gives you extra value whenever a creature card leaves your graveyard. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Battalion </b> This classic Ravnican strategy adds extra punch to aggressive red and white creatures by providing a bonus whenever you attack with three or more of them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Collect Evidence </b> Rapidly fill up your graveyard and collect evidence to power up your spells while amassing permanents that reward you each time you do so.",
-        "translation": "You'll receive 6 Murders at Karlov Manor packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Detectives </b> Get on your opponent's case with this fast midrange strategy. Leverage Detective typal bonuses to overwhelm your opponent's defenses, and sacrifice Clues to refill your hand in the late game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Clues Control </b> Use defensive spells to extend the game and generate Clues, then turn the excess mana into a card advantage that will bury your opponent in a mountain of value. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Suspect Aggro </b> Suspected creatures have menace and can't block. Keep attacking with your suspicious characters, and your opponents will be helpless to stop them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Big Disguise </b> Spend the early game accelerating your mana and setting up a face-down board state, then beat down your opponent's side of the board by flipping over haymaker after haymaker. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>  Go-Wide Disguise </b> Flood the battlefield with face-down creatures and accrue impressive rewards whenever they're turned face up. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Pint-Size Disguise </b> Face-down creatures bolster your strategy, which rewards playing creatures with power 2 or less and boosting them to become more impressive attackers. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Artifact Sacrifice </b> Generate and sacrifice Clue tokens strategically to gain a massive card advantage over your opponent. Then, chip away at their defenses by attacking with evasive Thopters that bring death from above. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Gravebreak </b> Use the collect evidence mechanic and raise the dead to support a long-game strategy that gives you extra value whenever a creature card leaves your graveyard. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Battalion </b> This classic Ravnican strategy adds extra punch to aggressive red and white creatures by providing a bonus whenever you attack with three or more of them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Collect Evidence </b> Rapidly fill up your graveyard and collect evidence to power up your spells while amassing permanents that reward you each time you do so."
+        "translation": "你将获得6包卡洛夫庄园谋杀案补充包。这些牌会加入你的收藏。你将使用这些牌加上基本地来构筑一套40张的套牌。进行三局两胜游戏并基于你的胜场获得奖励！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><b>集结侦探</b> 以这种快节奏中速策略来解决对手：充分利用侦探特有的额外价值压垮对手的防线并在游戏后期牺牲线索补充手牌。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><b>线索控制</b> 使用防御咒语拉长战线并派出线索，然后将多余的法术力转化成手牌优势最终以海量资源埋葬对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><b>怀疑快攻</b> 遭疑生物具有威慑异能且不能阻挡。用遭疑角色持续进攻，在他们的攻势下你的对手会陷入绝望。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><b>巨型伪装</b> 在游戏前期加速法术力并将匿伏生物铺满你的版图，接着将它们翻面施以拳拳重击击倒对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><b>铺场伪装</b> 召唤海量匿伏生物，每当他们翻面时，不断获取惊人回报。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><b>微型伪装</b> 通过匿伏生物帮助实现你的计策：通过打出力量等于或小于2的生物获得回报并增强他们使之成为更有力的进攻者。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><b>神器牺牲</b> 机智地派出和牺牲线索衍生物来赢得巨大的卡差优势，然后用带穿透的振翼机进攻蚕食对手防线，从空中击败对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><b>破坟而出</b> 利用搜证机制和掘坟来支撑该长盘战略：每当一张生物牌离开你的坟场时给予你额外价值。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><b>集结军队</b> 每当你以三个或更多生物攻击时能提供额外价值——这种经典的拉尼卡策略让本身就极具进攻性的红白生物如虎添翼。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><b>搜集证据</b> 快速填充你的坟场并通过搜证强化你的咒语，同时积攒让你每次搜证获得回报的永久物。"
     },
     "Events/Event_Desc_Trad_Sealed_MOM": {
         "oracleText": "You'll receive 6 <i>March of the Machine</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Knights </b> Knights have assembled from around the multiverse! Keeping a steady supply of these gallant creatures will help press your advantage each turn.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Graveyard </b> Mill everyone. Your forces will improve with more strategies and greater power as each graveyard fills.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Sacrifice </b> Desperate times call for desperate measures. Sacrifice your artifacts and creatures to pave a path to victory.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Battles </b> Get ready to liberate your favorite plane from the Phyrexians! Prioritize Battles, Magic's newest card type, and smash through opposing defenses to save the day.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> +1/+1 Counters </b> It's time to buff up! Arm your creatures with +1/+1 counters to outclass the opposition.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Phyrexian </b> Looking to play the villain? Seek out Phyrexians of all sorts to take advantage of them and their swarms of little hatching Incubator tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Convoke </b> Your creatures are here to help withstand the invasion. Build an army early and they'll help you cast powerful spells with convoke.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Incubate </b> Go big and generate tons of mana to play bigger creatures and incubate larger tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Backup </b> Find a good partner and tag-team those Phyrexians. Use the backup mechanic to find the right combination of abilities to build toward your victory each turn.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Transform </b> Life is always more fun with some change. Take your cards to the next level by winning battles and turning Incubator tokens and creatures into their Phyrexian selves.",
@@ -19889,7 +19889,7 @@
     },
     "Events/Event_Title_Festival_MKM_Storydecks": {
         "oracleText": "Festival: Murders at Karlov Manor Story Decks",
-        "translation": "Festival: Murders at Karlov Manor Story Decks"
+        "translation": "活动节：卡洛夫庄园谋杀案剧情套牌"
     },
     "Events/Event_Title_Festival_MOM_HistoricArtisan": {
         "oracleText": "Festival: Historic Artisan",
@@ -20429,15 +20429,15 @@
     },
     "Events/Event_Title_MKM_Premier_Draft": {
         "oracleText": "Premier Draft Murders at Karlov Manor",
-        "translation": "Premier Draft Murders at Karlov Manor"
+        "translation": "卡洛夫庄园谋杀案竞技轮抽"
     },
     "Events/Event_Title_MKM_Quick_Draft": {
         "oracleText": "Quick Draft Murders at Karlov Manor",
-        "translation": "Quick Draft Murders at Karlov Manor"
+        "translation": "卡洛夫庄园谋杀案快速轮抽"
     },
     "Events/Event_Title_MKM_Trad_Draft": {
         "oracleText": "Traditional Draft Murders at Karlov Manor",
-        "translation": "Traditional Draft Murders at Karlov Manor"
+        "translation": "卡洛夫庄园谋杀案三盘轮抽"
     },
     "Events/Event_Title_MOM_Premier_Draft": {
         "oracleText": "Premier Draft March of the Machine",
@@ -20533,11 +20533,11 @@
     },
     "Events/Event_Title_MWM_DisguiseDual": {
         "oracleText": "Midweek Magic: Disguise Dual",
-        "translation": "Midweek Magic: Disguise Dual"
+        "translation": "周中万智牌：双面伪装"
     },
     "Events/Event_Title_MWM_DisguiseDuel": {
         "oracleText": "Midweek Magic: Disguise Duel",
-        "translation": "Midweek Magic: Disguise Duel"
+        "translation": "周中万智牌：卧底决斗"
     },
     "Events/Event_Title_MWM_Explorer": {
         "oracleText": "Midweek Magic: Explorer",
@@ -20613,7 +20613,7 @@
     },
     "Events/Event_Title_MWM_JumpIn_MKM": {
         "oracleText": "Midweek Magic: Jump Into Murders at Karlov Manor",
-        "translation": "Midweek Magic: Jump Into Murders at Karlov Manor"
+        "translation": "周中万智牌：匆匆来到卡洛夫庄园谋杀案"
     },
     "Events/Event_Title_MWM_KTKConstructed": {
         "oracleText": "Midweek Magic: Khans of Tarkir Constructed",
@@ -20645,7 +20645,7 @@
     },
     "Events/Event_Title_MWM_MKMConstructed": {
         "oracleText": "Midweek Magic: Murders at Karlov Manor Constructed",
-        "translation": "Midweek Magic: Murders at Karlov Manor Constructed"
+        "translation": "周中万智牌：卡洛夫庄园谋杀案环境构筑"
     },
     "Events/Event_Title_MWM_MOMConstructed": {
         "oracleText": "Midweek Magic: March of the Machine Constructed",
@@ -21173,7 +21173,7 @@
     },
     "Events/Event_Title_Sealed_MKM": {
         "oracleText": "Sealed Murders at Karlov Manor",
-        "translation": "Sealed Murders at Karlov Manor"
+        "translation": "卡洛夫庄园谋杀案现开"
     },
     "Events/Event_Title_Sealed_MOM": {
         "oracleText": "Sealed March of the Machine",
@@ -21461,7 +21461,7 @@
     },
     "Events/Event_Title_Trad_Sealed_MKM": {
         "oracleText": "Traditional Sealed Murders at Karlov Manor",
-        "translation": "Traditional Sealed Murders at Karlov Manor"
+        "translation": "卡洛夫庄园谋杀案三盘现开"
     },
     "Events/Event_Title_Trad_Sealed_MOM": {
         "oracleText": "Traditional Sealed March of the Machine",
@@ -22665,43 +22665,43 @@
     },
     "Events/Packets/SJMP_PacketName_MKM_Battalion": {
         "oracleText": "Battalion",
-        "translation": "Battalion"
+        "translation": "协战（Battalion）"
     },
     "Events/Packets/SJMP_PacketName_MKM_Detectives": {
         "oracleText": "Detectives",
-        "translation": "Detectives"
+        "translation": "侦探（Detectives）"
     },
     "Events/Packets/SJMP_PacketName_MKM_Disguised": {
         "oracleText": "Disguised",
-        "translation": "Disguised"
+        "translation": "伪装（Disguised）"
     },
     "Events/Packets/SJMP_PacketName_MKM_Elusive": {
         "oracleText": "Elusive",
-        "translation": "Elusive"
+        "translation": "捉摸不定（Elusive）"
     },
     "Events/Packets/SJMP_PacketName_MKM_Evidence": {
         "oracleText": "Evidence",
-        "translation": "Evidence"
+        "translation": "证据（Elusive）"
     },
     "Events/Packets/SJMP_PacketName_MKM_Forensics": {
         "oracleText": "Forensics",
-        "translation": "Forensics"
+        "translation": "鉴证（Forensics）"
     },
     "Events/Packets/SJMP_PacketName_MKM_Gadgets": {
         "oracleText": "Gadgets",
-        "translation": "Gadgets"
+        "translation": "小工具（Gadgets）"
     },
     "Events/Packets/SJMP_PacketName_MKM_Scrappy": {
         "oracleText": "Scrappy",
-        "translation": "Scrappy"
+        "translation": "杂乱（Scrappy）"
     },
     "Events/Packets/SJMP_PacketName_MKM_Suspects": {
         "oracleText": "Suspects",
-        "translation": "Suspects"
+        "translation": "嫌犯（Suspects）"
     },
     "Events/Packets/SJMP_PacketName_MKM_Undercover": {
         "oracleText": "Undercover",
-        "translation": "Undercover"
+        "translation": "卧底（Undercover）"
     },
     "Events/Packets/SJMP_PacketName_Maestros": {
         "oracleText": "Maestros",
@@ -22817,7 +22817,7 @@
     },
     "Events/Packets/SJMP_PacketName_SPG_Slime_Against_Humanity": {
         "oracleText": "Slime Against Humanity",
-        "translation": "Slime Against Humanity"
+        "translation": "反人淤泥"
     },
     "Events/Packets/SJMP_PacketName_Saboteurs": {
         "oracleText": "Saboteurs",
@@ -23281,15 +23281,15 @@
     },
     "Events/Tokens/QualifierDay1TokenDescription20240217": {
         "oracleText": "Join between 6am and 8am Pacific on February 17",
-        "translation": "Join between 6am and 8am Pacific on February 17"
+        "translation": "在太平洋时间2月17日的早上六点到八点加入"
     },
     "Events/Tokens/QualifierDay1TokenDescription20240323": {
         "oracleText": "Join between 6am and 8am Pacific on March 23",
-        "translation": "Join between 6am and 8am Pacific on March 23"
+        "translation": "在太平洋时间3月23日的早上六点到八点加入"
     },
     "Events/Tokens/QualifierDay1TokenDescription20240420": {
         "oracleText": "Join between 6am and 8am Pacific on April 13",
-        "translation": "Join between 6am and 8am Pacific on April 13"
+        "translation": "在太平洋时间4月13日的早上六点到八点加入"
     },
     "Events/Tokens/QualifierDay1TokenPlural": {
         "oracleText": "Qualifier Weekend Token",
@@ -23357,7 +23357,7 @@
     },
     "Events/Tokens/QualifierDay2TokenDescription20240218": {
         "oracleText": "Join between 6am and 8am Pacific on February 18",
-        "translation": "Join between 6am and 8am Pacific on February 18"
+        "translation": "在太平洋时间2月18日的早上六点到八点加入"
     },
     "Events/Tokens/QualifierDay2TokenPlural": {
         "oracleText": "Qualifier Day 2",
@@ -23749,7 +23749,7 @@
     },
     "General/Sets/MKM": {
         "oracleText": "Murders at Karlov Manor",
-        "translation": "Murders at Karlov Manor"
+        "translation": "卡洛夫庄园谋杀案"
     },
     "General/Sets/MOM": {
         "oracleText": "March of the Machine",
@@ -23789,7 +23789,7 @@
     },
     "General/Sets/SPG": {
         "oracleText": "Special Guests",
-        "translation": "Special Guests"
+        "translation": "特邀嘉宾"
     },
     "General/Sets/STA": {
         "oracleText": "Mystical Archive",
@@ -24577,7 +24577,7 @@
     },
     "MainNav/BattlePass/BattlePass_MKM": {
         "oracleText": "Murders at Karlov Manor",
-        "translation": "Murders at Karlov Manor"
+        "translation": "卡洛夫庄园谋杀案"
     },
     "MainNav/BattlePass/BattlePass_MOM": {
         "oracleText": "March of the Machine",
@@ -24889,7 +24889,7 @@
     },
     "MainNav/BattlePass/MasteryListingTitle_MKM": {
         "oracleText": "Murders at Karlov Manor Set Mastery",
-        "translation": "Murders at Karlov Manor Set Mastery"
+        "translation": "卡洛夫庄园谋杀案精研通行证"
     },
     "MainNav/BattlePass/MasteryListingTitle_MOM": {
         "oracleText": "March of the Machine Set Mastery",
@@ -24945,7 +24945,7 @@
     },
     "MainNav/BattlePass/Mastery_Header_MKM": {
         "oracleText": "Murders at Karlov Manor Mastery",
-        "translation": "Murders at Karlov Manor Mastery"
+        "translation": "卡洛夫庄园谋杀案精研通行证"
     },
     "MainNav/BattlePass/Mastery_Header_MOM": {
         "oracleText": "March of the Machine Mastery Pass",
@@ -28673,15 +28673,15 @@
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MKM_439044": {
         "oracleText": "Coerced to Kill Exquisite Sleeve",
-        "translation": "Coerced to Kill Exquisite Sleeve"
+        "translation": "受迫杀人精饰牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MKM_439080": {
         "oracleText": "Izoni Suspect Sleeve",
-        "translation": "Izoni Suspect Sleeve"
+        "translation": "遭疑依佐妮牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MKM_439080_Alt": {
         "oracleText": "Izoni Sleeve",
-        "translation": "Izoni Sleeve"
+        "translation": "依佐妮牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MKM_439087": {
         "oracleText": "Alquist Proft Sleeve",
@@ -28693,35 +28693,35 @@
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MKM_442877_A": {
         "oracleText": "Aurelia Suspect Sleeve",
-        "translation": "Aurelia Suspect Sleeve"
+        "translation": "遭疑欧瑞梨牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MKM_442877_A_Alt": {
         "oracleText": "Aurelia Sleeve",
-        "translation": "Aurelia Sleeve"
+        "translation": "欧瑞梨牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MKM_442877_E": {
         "oracleText": "Etrata Suspect Sleeve",
-        "translation": "Etrata Suspect Sleeve"
+        "translation": "遭疑艾庄塔牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MKM_442877_E_Alt": {
         "oracleText": "Etrata Sleeve",
-        "translation": "Etrata Sleeve"
+        "translation": "艾庄塔牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MKM_442877_J": {
         "oracleText": "Judith Suspect Sleeve",
-        "translation": "Judith Suspect Sleeve"
+        "translation": "遭疑裘蒂丝牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MKM_442877_J_Alt": {
         "oracleText": "Juri Sleeve",
-        "translation": "Juri Sleeve"
+        "translation": "裘里牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MKM_442877_K": {
         "oracleText": "Kylox Suspect Sleeve",
-        "translation": "Kylox Suspect Sleeve"
+        "translation": "遭疑奇洛兹牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MKM_442877_K_Alt": {
         "oracleText": "Kylox Sleeve",
-        "translation": "Kylox Sleeve"
+        "translation": "奇洛兹牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MKM_442877_M": {
         "oracleText": "Massacre Girl Sleeve",
@@ -28729,7 +28729,7 @@
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MKM_451611": {
         "oracleText": "Karlov Manor Sleeve",
-        "translation": "Karlov Manor Sleeve"
+        "translation": "卡洛夫庄园牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MOM_429433": {
         "oracleText": "Archangel Elspeth Sleeve",
@@ -31093,7 +31093,7 @@
     },
     "MainNav/DeckFormat/MKM": {
         "oracleText": "Murders at Karlov Manor Constructed",
-        "translation": "Murders at Karlov Manor Constructed"
+        "translation": "卡洛夫庄园谋杀案环境构筑"
     },
     "MainNav/DeckFormat/MOM": {
         "oracleText": "March of the Machine Constructed",
@@ -31309,7 +31309,7 @@
     },
     "MainNav/DeckFormatInfo/TraditionalTimeless": {
         "oracleText": "Play with every card on MTG Arena.",
-        "translation": "Play with every card on MTG Arena."
+        "translation": "使用《万智牌竞技场》中的所有牌进行游戏。"
     },
     "MainNav/DeckImporter/Metadata": {
         "oracleText": "About",
@@ -32001,7 +32001,7 @@
     },
     "MainNav/EventRewards/CardBack_MKM_439083": {
         "oracleText": "Warleader's Call Sleeve",
-        "translation": "Warleader's Call Sleeve"
+        "translation": "战领召令牌套"
     },
     "MainNav/EventRewards/CardSleeve": {
         "oracleText": "1 Card Sleeve",
@@ -33025,15 +33025,15 @@
     },
     "MainNav/EventRewards/Sticker_MKM_Sticker_Connect": {
         "oracleText": "Connect the Dots Sticker Emote",
-        "translation": "Connect the Dots Sticker Emote"
+        "translation": "连点成线贴纸表情"
     },
     "MainNav/EventRewards/Sticker_MKM_Sticker_Investigate": {
         "oracleText": "Investigate Sticker Emote",
-        "translation": "Investigate Sticker Emote"
+        "translation": "探查贴纸表情"
     },
     "MainNav/EventRewards/Sticker_MKM_Sticker_Unmask": {
         "oracleText": "Unmasking Sticker Emote",
-        "translation": "Unmasking Sticker Emote"
+        "translation": "揭露贴纸表情"
     },
     "MainNav/EventRewards/Sticker_MOM_Chandra_Smoked": {
         "oracleText": "Chandra Smoked Sticker Emote",
@@ -34457,11 +34457,11 @@
     },
     "MainNav/HomePage/Carousel/2024_34_0_Store_Desc": {
         "oracleText": "Chaos and intrigue abounds! Put on your investigator hat and grab full art lands, stickers, packs, and more from the Store!",
-        "translation": "Chaos and intrigue abounds! Put on your investigator hat and grab full art lands, stickers, packs, and more from the Store!"
+        "translation": "混乱与阴谋无处不在！ 戴上你的调查员帽，从商店获取完整的大画基本地、贴纸表情、补充包等！"
     },
     "MainNav/HomePage/Carousel/2024_34_0_Store_Title": {
         "oracleText": "A Murder Most Foul!",
-        "translation": "A Murder Most Foul!"
+        "translation": "最恶毒的谋杀案！"
     },
     "MainNav/HomePage/Carousel/21_01_Store_Desc": {
         "oracleText": "Take part in the epic Saga of Kaldheim. New Boosters Packs, new Set Mastery Pass, new Showcase Bundles, and more!",
@@ -36237,11 +36237,11 @@
     },
     "MainNav/HomePage/Carousel/MKM_SetMastery_Desc": {
         "oracleText": "It's time to track down some suspects! Complete quests to earn packs, companions, and more as you uncover all the mysteries of the Mastery Track!",
-        "translation": "It's time to track down some suspects! Complete quests to earn packs, companions, and more as you uncover all the mysteries of the Mastery Track!"
+        "translation": "是时候追查一些嫌疑人了！ 当你揭开精研之路的所有奥秘时，完成任务即可获得补充包、宠物等奖励！"
     },
     "MainNav/HomePage/Carousel/MKM_SetMastery_Title": {
         "oracleText": "The Murders at Karlov Manor Set Mastery has arrived!",
-        "translation": "The Murders at Karlov Manor Set Mastery has arrived!"
+        "translation": "卡洛夫庄园谋杀案精研通行证已上线！"
     },
     "MainNav/HomePage/Carousel/MOM_EarlyAccess_Desc": {
         "oracleText": "Watch Standard, Sealed, Draft, and more as your favorite streamers face off against each other in head-to-head matches in a special early-access event this Thursday, April 13th!",
@@ -36301,11 +36301,11 @@
     },
     "MainNav/HomePage/Carousel/March_Companion_Of_The_March_Desc": {
         "oracleText": "The Combat Canine! This precious pup is the perfect best friend to take to the battlefield. Stop by the store to adopt him today!",
-        "translation": "The Combat Canine! This precious pup is the perfect best friend to take to the battlefield. Stop by the store to adopt him today!"
+        "translation": "战斗犬！这只珍贵的小狗是适合带去战场的最佳朋友。今天就来店里领养它吧！"
     },
     "MainNav/HomePage/Carousel/March_Companion_Of_The_March_Title": {
         "oracleText": "Who's a Good Pup?",
-        "translation": "Who's a Good Pup?"
+        "translation": "谁是无辜者？"
     },
     "MainNav/HomePage/Carousel/MarketingMailer_Desc": {
         "oracleText": "Sign-up for Wizards' promotional emails to receive your <i>MTG Arena</i> end of year stats – and more!",
@@ -38897,19 +38897,19 @@
     },
     "MainNav/Mailbox/2024_34_0_MKM_Announcement_Description": {
         "oracleText": "Can you help hunt down the killer? There's no shortage of suspects, murder weapons, or motives. Start investigating with these 3 packs and basic lands before more harm can befall Ravnica!",
-        "translation": "Can you help hunt down the killer? There's no shortage of suspects, murder weapons, or motives. Start investigating with these 3 packs and basic lands before more harm can befall Ravnica!"
+        "translation": "你能追到凶手吗？这里可不缺嫌疑人、凶器和动机！在拉尼卡遭受重创之前，使用这3包补充包和基本地开始调查吧！"
     },
     "MainNav/Mailbox/2024_34_0_MKM_Announcement_Title": {
         "oracleText": "There's Been a Murder at Karlov Manor!",
-        "translation": "There's Been a Murder at Karlov Manor!"
+        "translation": "卡洛夫庄园发生谋杀案！"
     },
     "MainNav/Mailbox/2024_35_0_MKM_StudioXPuzzle_Description": {
         "oracleText": "Highly impressive. Looks like this is case closed. \n\nYour work has intrigued me for quite some time. You, like me, are an artist. You wield the brush of logic, the chisel of observation, the knife of deduction. You delight in unraveling the deceptions that cloud the truth. But will you prove to be an asset or a rival? That remains to be seen—and I'll enjoy finding out. \n\nFor now, take this token of my admiration. You've certainly earned it. \n\nUntil we meet again, \n\nA.P.",
-        "translation": "Highly impressive. Looks like this is case closed. \n\nYour work has intrigued me for quite some time. You, like me, are an artist. You wield the brush of logic, the chisel of observation, the knife of deduction. You delight in unraveling the deceptions that cloud the truth. But will you prove to be an asset or a rival? That remains to be seen—and I'll enjoy finding out. \n\nFor now, take this token of my admiration. You've certainly earned it. \n\nUntil we meet again, \n\nA.P."
+        "translation": "令人印象非常深刻。 看起来这个案子已经结案了。\n\n你的工作引起了我相当长一段时间的兴趣。 你和我一样，都是一位艺术家。 你挥舞着逻辑的画笔、观察的凿子、演绎的刀。 你乐于揭开掩盖真相的谎言。 但你会证明自己是一位朋友还是一位竞争对手？ 这还有待观察——我很乐意找出答案。\n\n现在，请收下我的钦佩之物。 你已经赢得了它。\n\n直到我们再次见面，\n\nA.P."
     },
     "MainNav/Mailbox/2024_35_0_MKM_StudioXPuzzle_Title": {
         "oracleText": "From the desk of Alquist Proft, Genius Detective",
-        "translation": "From the desk of Alquist Proft, Genius Detective"
+        "translation": "来自天才侦探阿奎斯波费的讯息"
     },
     "MainNav/Mailbox/AnnualSatisfactionSurveyCTA_Description": {
         "oracleText": "We hope you are enjoying MTG Arena! If you have a few minutes, we would love to hear your thoughts in our feedback survey.\n\nThank you for all your help and see you in the game!",
@@ -39289,15 +39289,15 @@
     },
     "MainNav/Mailbox/MKM_FastFollow_PatchNotes_Title": {
         "oracleText": "2024.34.10 Patch Notes Are Here!",
-        "translation": "2024.34.10 Patch Notes Are Here!"
+        "translation": "2024.34.10 补丁说明在这里！"
     },
     "MainNav/Mailbox/MKM_PatchNotes_Description": {
         "oracleText": "What clues can be uncovered at the crime scene? Come see mysteries can be uncovered by taking a look at the patch notes below!",
-        "translation": "What clues can be uncovered at the crime scene? Come see mysteries can be uncovered by taking a look at the patch notes below!"
+        "translation": "在罪案现场能发现什么线索？快来看看下面的补丁说明，揭开神秘的面纱吧！"
     },
     "MainNav/Mailbox/MKM_PatchNotes_Title": {
         "oracleText": "2024.34.0 Patch Notes Are Here!",
-        "translation": "2024.34.0 Patch Notes Are Here!"
+        "translation": "2024.34.0 补丁说明在这里！"
     },
     "MainNav/Mailbox/MKM_Release_Notes_Title": {
         "oracleText": "Murders at Karlov Manor Release Notes are Here!",
@@ -39629,11 +39629,11 @@
     },
     "MainNav/Mailbox/ValentinesGift_Description": {
         "oracleText": "Will you be our Valentine? Love is in the air, so take this XP as a special gift from all of us on the MTG Arena Team to you!",
-        "translation": "Will you be our Valentine? Love is in the air, so take this XP as a special gift from all of us on the MTG Arena Team to you!"
+        "translation": "你是我们命中注定的人吗？空气中弥漫着爱的气息，所以请收下这些经验值，作为我们《万智牌竞技场》团队送给你的特别礼物！"
     },
     "MainNav/Mailbox/ValentinesGift_Title": {
         "oracleText": "Happy Valentines Day!",
-        "translation": "Happy Valentines Day!"
+        "translation": "情人节快乐！"
     },
     "MainNav/Mailbox/WOEPreOrderPatchNotes_Description": {
         "oracleText": "The Wilds of Eldraine is encroaching! Take a look at the patch notes below to see what's on the horizon and prepare for the wonders ahead!",
@@ -39985,7 +39985,7 @@
     },
     "MainNav/PackProgressMeter/CallToAction": {
         "oracleText": "Purchase {remaining} more <i>Murders at Karlov Manor</i> packs to earn a Golden Pack.",
-        "translation": "Purchase {remaining} more <i>Murders at Karlov Manor</i> packs to earn a Golden Pack."
+        "translation": "再购买{remaining}包 <i>卡洛夫庄园谋杀案</i> 补充包便可获得一个黄金补充包。"
     },
     "MainNav/PackProgressMeter/FullDetailsLink": {
         "oracleText": "Full Details",
@@ -40293,15 +40293,15 @@
     },
     "MainNav/PetNames/MKM_Mastery_1": {
         "oracleText": "Archivist Advisor",
-        "translation": "Archivist Advisor"
+        "translation": "书库参谋"
     },
     "MainNav/PetNames/MKM_Mastery_2": {
         "oracleText": "Gumshoe Guide",
-        "translation": "Gumshoe Guide"
+        "translation": "侦探向导"
     },
     "MainNav/PetNames/MKM_Mastery_3": {
         "oracleText": "Tunnel Tipster",
-        "translation": "Tunnel Tipster"
+        "translation": "隧道情报贩"
     },
     "MainNav/PetNames/MKM_Preorder_1": {
         "oracleText": "Forensic Thopter",
@@ -41685,11 +41685,11 @@
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Kaya_MKM_Bio": {
         "oracleText": "Kaya is a human Planeswalker with the ability to become incorporeal, a technique she utilizes to hunt and destroy ghosts across the Multiverse. Formerly the Orzhov Syndicate guildmaster on Ravnica, she's now investigating a mysterious killer... whose sights are set on prominent members of Ravnica's guilds.",
-        "translation": "Kaya is a human Planeswalker with the ability to become incorporeal, a technique she utilizes to hunt and destroy ghosts across the Multiverse. Formerly the Orzhov Syndicate guildmaster on Ravnica, she's now investigating a mysterious killer... whose sights are set on prominent members of Ravnica's guilds."
+        "translation": "卡娅是一名人类鹏洛客，拥有灵体化的能力，她利用这种技能在多元宇宙中狩猎和消灭幽灵。 她曾是拉尼卡的欧佐夫公会会长，现在正在调查一名神秘杀手……而那个杀手的目标是拉尼卡公会的杰出成员。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Kaya_MKM_Name": {
         "oracleText": "Kaya, Spirits' Justice",
-        "translation": "Kaya, Spirits' Justice"
+        "translation": "灵魂判官卡娅"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Kaya_Name": {
         "oracleText": "Kaya",
@@ -47225,99 +47225,99 @@
     },
     "MainNav/Store/Bundles/Bundle_MKM_Dossier1_Desc": {
         "oracleText": "Judith, Carnage Connoisseur Card Style\nMassacre Girl, Known Killer Card Style\nKrenko, Baron of Tin Street Card Style\nTolsimir, Midnight's Light Card Style\nThe Pride of Hull Clade Card Style\nAgrus Kos, Spirit of Justice Card Style",
-        "translation": "Judith, Carnage Connoisseur Card Style\nMassacre Girl, Known Killer Card Style\nKrenko, Baron of Tin Street Card Style\nTolsimir, Midnight's Light Card Style\nThe Pride of Hull Clade Card Style\nAgrus Kos, Spirit of Justice Card Style"
+        "translation": "品戮佳人裘蒂丝卡牌样式\n知名凶手杀戮女郎卡牌样式\n锡街爵主克仑可卡牌样式\n午夜明光托西密卡牌样式\n壳进化组所傲卡牌样式\n正义之魂阿固寇斯卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_MKM_Dossier1_Name": {
         "oracleText": "Unusual Suspects",
-        "translation": "Unusual Suspects"
+        "translation": "异常嫌疑人"
     },
     "MainNav/Store/Bundles/Bundle_MKM_Dossier2_Desc": {
         "oracleText": "Alquist Proft, Master Sleuth Card Style\nWojek Investigator Card Style\nForensic Gadgeteer Card Style\nGleaming Geardrake Card Style\nMagnetic Snuffler Card Style\nPersuasive Interrogators Card Style\nCurious Cadaver Card Style\nEzrim, Agency Chief Card Style",
-        "translation": "Alquist Proft, Master Sleuth Card Style\nWojek Investigator Card Style\nForensic Gadgeteer Card Style\nGleaming Geardrake Card Style\nMagnetic Snuffler Card Style\nPersuasive Interrogators Card Style\nCurious Cadaver Card Style\nEzrim, Agency Chief Card Style"
+        "translation": "大侦探阿奎斯波费卡牌样式\n沃耶克调查员卡牌样式\n法证灵械师卡牌样式\n光亮金械龙兽卡牌样式\n磁性嗅探械卡牌样式\n诱导诘问者卡牌样式\n好奇尸身卡牌样式\n魔调局局长伊泽霖卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_MKM_Dossier2_Name": {
         "oracleText": "Masters of Deduction",
-        "translation": "Masters of Deduction"
+        "translation": "推理大师"
     },
     "MainNav/Store/Bundles/Bundle_MKM_Dossier3_Desc": {
         "oracleText": "Vein Ripper Card Style\nConspiracy Unraveler Card Style\nIncinerator of the Guilty Card Style\nAurelia's Vindicator Card Style\nCulvert Ambusher Card Style\nKraul Whipcracker Card Style\nAnzrag, the Quake-Mole Card Style",
-        "translation": "Vein Ripper Card Style\nConspiracy Unraveler Card Style\nIncinerator of the Guilty Card Style\nAurelia's Vindicator Card Style\nCulvert Ambusher Card Style\nKraul Whipcracker Card Style\nAnzrag, the Quake-Mole Card Style"
+        "translation": "血脉开膛手卡牌样式\n曝谋史芬斯卡牌样式\n罪人焚龙卡牌样式\n欧瑞梨的雪恨使卡牌样式\n阴沟伏击兽卡牌样式\n刻洛藤鞭手卡牌样式\n地动鼹鼠安札格卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_MKM_Dossier3_Name": {
         "oracleText": "Deadly Dangers",
-        "translation": "Deadly Dangers"
+        "translation": "致命威胁"
     },
     "MainNav/Store/Bundles/Bundle_MKM_Dossier4_Desc": {
         "oracleText": "Delney, Streetwise Lookout Card Style\nMeddling Youths Card Style\nNeighborhood Guardian Card Style\nWispdrinker Vampire Card Style\nFrantic Scapegoat Card Style\nDoorkeeper Thrull Card Style\nFugitive Codebreaker Card Style\nSharp-Eyed Rookie Card Style",
-        "translation": "Delney, Streetwise Lookout Card Style\nMeddling Youths Card Style\nNeighborhood Guardian Card Style\nWispdrinker Vampire Card Style\nFrantic Scapegoat Card Style\nDoorkeeper Thrull Card Style\nFugitive Codebreaker Card Style\nSharp-Eyed Rookie Card Style"
+        "translation": "街头监哨德雷尼卡牌样式\n误时青年卡牌样式\n邻里守护兽卡牌样式\n饮灵吸血鬼卡牌样式\n狂乱替罪羊卡牌样式\n索尔兽门卫卡牌样式\n漂泊破码客卡牌样式\n眼尖新手卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_MKM_Dossier4_Name": {
         "oracleText": "Streets Ahead",
-        "translation": "Streets Ahead"
+        "translation": "前方街道"
     },
     "MainNav/Store/Bundles/Bundle_MKM_FFLands_Desc": {
         "oracleText": "Meticulous Archive Card Style\nUndercity Sewers Card Style\nRaucous Theater Card Style\nCommercial District Card Style\nLush Portico Card Style\nShadowy Backstreet Card Style\nThundering Falls Card Style\nUnderground Mortuary Card Style\nElegant Parlor Card Style\nHedge Maze Card Style",
-        "translation": "Meticulous Archive Card Style\nUndercity Sewers Card Style\nRaucous Theater Card Style\nCommercial District Card Style\nLush Portico Card Style\nShadowy Backstreet Card Style\nThundering Falls Card Style\nUnderground Mortuary Card Style\nElegant Parlor Card Style\nHedge Maze Card Style"
+        "translation": "整洁档案库卡牌样式\n地底城水道卡牌样式\n喧闹剧院卡牌样式\n商贸城区卡牌样式\n葱郁门廊卡牌样式\n暗影后巷卡牌样式\n雷鸣瀑布卡牌样式\n地下殓房卡牌样式\n优雅客厅卡牌样式\n树篱迷宫卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_MKM_FFLands_Name": {
         "oracleText": "Borderless Dual Lands",
-        "translation": "Borderless Dual Lands"
+        "translation": "扩画双色地"
     },
     "MainNav/Store/Bundles/Bundle_MKM_FFLegends_Desc": {
         "oracleText": "Kellan, Inquisitive Prodigy Card Style\nKaya, Spirits' Justice Card Style",
-        "translation": "Kellan, Inquisitive Prodigy Card Style\nKaya, Spirits' Justice Card Style"
+        "translation": "奇探逸才凯澜卡牌样式\n灵魂判官卡娅卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_MKM_FFLegends_Name": {
         "oracleText": "Borderless Heroes",
-        "translation": "Borderless Heroes"
+        "translation": "扩画英雄"
     },
     "MainNav/Store/Bundles/Bundle_MKM_FullArtLands_Desc": {
         "oracleText": "Full Art Land Plains\nFull Art Land Island\nFull Art Land Swamp\nFull Art Land Mountain\nFull Art Land Forest",
-        "translation": "Full Art Land Plains\nFull Art Land Island\nFull Art Land Swamp\nFull Art Land Mountain\nFull Art Land Forest"
+        "translation": "大画平原\n大画海岛\n大画沼泽\n大画山脉\n大画树林"
     },
     "MainNav/Store/Bundles/Bundle_MKM_FullArtLands_Name": {
         "oracleText": "Impossible Lands Bundle",
-        "translation": "Impossible Lands Bundle"
+        "translation": "不可能之地套装"
     },
     "MainNav/Store/Bundles/Bundle_MKM_GuildMasters_Desc": {
         "oracleText": "Lazav, Wearer of Faces Card Style\nTeysa, Opulent Oligarch Card Style\nAurelia, the Law Above Card Style\nNiv-Mizzet, Guildpact Card Style\nRakdos, Patron of Chaos Card Style\nTrostani, Three Whispers Card Style\nVannifar, Evolved Enigma Card Style",
-        "translation": "Lazav, Wearer of Faces Card Style\nTeysa, Opulent Oligarch Card Style\nAurelia, the Law Above Card Style\nNiv-Mizzet, Guildpact Card Style\nRakdos, Patron of Chaos Card Style\nTrostani, Three Whispers Card Style\nVannifar, Evolved Enigma Card Style"
+        "translation": "千面变换拉札夫卡牌样式\n阔绰寡头泰莎卡牌样式\n苍天铁律欧瑞梨卡牌样式\n十会盟尼米捷卡牌样式\n混沌护主拉铎司卡牌样式\n三人传音卓塔妮卡牌样式\n进化谜团凡妮法卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_MKM_GuildMasters_Name": {
         "oracleText": "Rogues' Gallery",
-        "translation": "Rogues' Gallery"
+        "translation": "罪犯图册"
     },
     "MainNav/Store/Bundles/Bundle_MKM_Stickers_Desc": {
         "oracleText": "Investigate Sticker Emote\nConnect the Dots Sticker Emote\nUnmasking Sticker Emote",
-        "translation": "Investigate Sticker Emote\nConnect the Dots Sticker Emote\nUnmasking Sticker Emote"
+        "translation": "探查贴纸表情\n连点成线贴纸表情\n揭开面纱贴纸表情"
     },
     "MainNav/Store/Bundles/Bundle_MKM_Stickers_Name": {
         "oracleText": "Sticker Bundle",
-        "translation": "Sticker Bundle"
+        "translation": "贴纸套装"
     },
     "MainNav/Store/Bundles/Bundle_MKM_Story1_Desc": {
         "oracleText": "Deadly Complication Card Style\nSlice from the Shadows Card Style\nCoerced to Kill Card Style\nDramatic Accusation Card Style\nMakeshift Binding Card Style\nMurder Card Style\nNot on My Watch Card Style\nUnauthorized Exit Card Style\nAnzrag's Rampage Card Style",
-        "translation": "Deadly Complication Card Style\nSlice from the Shadows Card Style\nCoerced to Kill Card Style\nDramatic Accusation Card Style\nMakeshift Binding Card Style\nMurder Card Style\nNot on My Watch Card Style\nUnauthorized Exit Card Style\nAnzrag's Rampage Card Style"
+        "translation": "夺命难题卡牌样式\n暗中杀出卡牌样式\n受迫杀人卡牌样式\n戏剧性指控卡牌样式\n临时束缚卡牌样式\n谋杀卡牌样式\n所视必管卡牌样式\n擅自脱逃卡牌样式\n安札格的狂愤卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_MKM_Story1_Name": {
         "oracleText": "There's Been a Murder!",
-        "translation": "There's Been a Murder!"
+        "translation": "发生了一场谋杀案！"
     },
     "MainNav/Store/Bundles/Bundle_MKM_Story2_Desc": {
         "oracleText": "Soul Enervation Card Style\nAnalyze the Pollen Card Style\nIntrude on the Mind Card Style\nWorldsoul's Rage Card Style\nDeduce Card Style\nOfficious Interrogation Card Style\nInsidious Roots Card Style",
-        "translation": "Soul Enervation Card Style\nAnalyze the Pollen Card Style\nIntrude on the Mind Card Style\nWorldsoul's Rage Card Style\nDeduce Card Style\nOfficious Interrogation Card Style\nInsidious Roots Card Style"
+        "translation": "灵魂衰弱卡牌样式\n分析花粉卡牌样式\n入侵心灵卡牌样式\n世界之魂怒火卡牌样式\n常理推断卡牌样式\n官式讯问卡牌样式\n潜伏繁根卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_MKM_Story2_Name": {
         "oracleText": "Uncover the Truth",
-        "translation": "Uncover the Truth"
+        "translation": "揭开真相"
     },
     "MainNav/Store/Bundles/Bundle_MKM_Story3_Desc": {
         "oracleText": "Convenient Target Card Style\nFae Flight Card Style\nAssemble the Players Card Style\nThe Chase Is On Card Style\nWarleader's Call Card Style\nAuspicious Arrival Card Style\nOn the Job Card Style\nExpose the Culprit Card Style\nAudience with Trostani Card Style",
-        "translation": "Convenient Target Card Style\nFae Flight Card Style\nAssemble the Players Card Style\nThe Chase Is On Card Style\nWarleader's Call Card Style\nAuspicious Arrival Card Style\nOn the Job Card Style\nExpose the Culprit Card Style\nAudience with Trostani Card Style"
+        "translation": "便捷目标卡牌样式\n仙儿飞空卡牌样式\n召集选手卡牌样式\n追逐开始卡牌样式\n战领召令卡牌样式\n朗报到来卡牌样式\n任务出动卡牌样式\n暴露罪犯卡牌样式\n面会卓塔妮卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_MKM_Story3_Name": {
         "oracleText": "Climactic Confrontation",
-        "translation": "Climactic Confrontation"
+        "translation": "高潮对峙"
     },
     "MainNav/Store/Bundles/Bundle_MOM_FullArtLands_Desc": {
         "oracleText": "Full Art Plains\nFull Art Plains\nFull Art Island \nFull Art Island\nFull Art Swamp\nFull Art Swamp\nFull Art Mountain\nFull Art Mountain\nFull Art Forest\nFull Art Forest",
@@ -51437,15 +51437,15 @@
     },
     "Match/QueueTips/Queue_Tip_224": {
         "oracleText": "To show only cards from Murder at Karlov Manor in the deckbuilder, type \"set:MKM\" into the search bar. Each set has a unique 3-letter-code.",
-        "translation": "To show only cards from Murder at Karlov Manor in the deckbuilder, type \"set:MKM\" into the search bar. Each set has a unique 3-letter-code."
+        "translation": "想让组牌器只显示卡洛夫庄园谋杀案的卡，在搜索栏输入 \"set:MKM\" 或者 \"e:MKM\" 。每个系列有一个独有的3字缩写。"
     },
     "Match/QueueTips/Queue_Tip_225": {
         "oracleText": "The Azorius Senate is responsible for establishing, refining, and enforcing the extensive legal code by which all of Ravnica abides.",
-        "translation": "The Azorius Senate is responsible for establishing, refining, and enforcing the extensive legal code by which all of Ravnica abides."
+        "translation": "俄佐立元老院负责制定、完善和执行全拉尼卡都要遵守的全面法律规范。"
     },
     "Match/QueueTips/Queue_Tip_226": {
         "oracleText": "Behind the facades of religious hierarchy and banking operations, The Orzhov Syndicate is, at heart, an organized crime ring with its fingers in every business across the plane.",
-        "translation": "Behind the facades of religious hierarchy and banking operations, The Orzhov Syndicate is, at heart, an organized crime ring with its fingers in every business across the plane."
+        "translation": "在宗教等级制度和银行业务的表象背后，欧佐夫集团本质上是一个有组织的犯罪团伙，涉足整个位面的每一项业务。"
     },
     "Match/QueueTips/Queue_Tip_227": {
         "oracleText": "The spies and secretkeepers of the Dimir once ran the information trade in Ravnica. Since the Phyrexian invasion, they have retreated into the shadows--some even claim they don't exist any more.",
@@ -51457,7 +51457,7 @@
     },
     "Match/QueueTips/Queue_Tip_229": {
         "oracleText": "The Cult of Rakdos are entertainers, satirists, and circus acrobats who revel in unrestrained hedonism; often to the point of risking their lives. They regularly mock and undermine the other guilds, whom they believe take themselves too seriously.",
-        "translation": "The Cult of Rakdos are entertainers, satirists, and circus acrobats who revel in unrestrained hedonism; often to the point of risking their lives. They regularly mock and undermine the other guilds, whom they believe take themselves too seriously."
+        "translation": "拉铎司教派是一群陶醉于无拘无束的享乐主义的艺人、讽刺作家和马戏杂技演员；往往到了冒着生命危险的程度。 他们经常嘲笑和损害其他公会，因为他们认为其他公会把自己看得太重了。"
     },
     "Match/QueueTips/Queue_Tip_23": {
         "oracleText": "Players with \"Mythic Orange\" names are MTG Arena team members.",
@@ -51477,7 +51477,7 @@
     },
     "Match/QueueTips/Queue_Tip_233": {
         "oracleText": "The Selesnya Conclave is part commune, part naturalistic church, and are united by the will of the Worldsoul. They dream of embracing all of Ravnica in a harmonious union of nature and civilization.",
-        "translation": "The Selesnya Conclave is part commune, part naturalistic church, and are united by the will of the Worldsoul. They dream of embracing all of Ravnica in a harmonious union of nature and civilization."
+        "translation": "瑟雷尼亚盟会一半是公社，一半是自然主义教会，并通过言灵的意志联合起来。 他们梦想着将整个拉尼卡融入自然与文明的和谐统一之中。"
     },
     "Match/QueueTips/Queue_Tip_234": {
         "oracleText": "The Simic Combine is Ravnica's steward of nature and the wild; the guild uses magic to coax new morphologies from existing creatures, as well as to combine traits from multiple organisms in one.",
@@ -54413,7 +54413,7 @@
     },
     "PlayBlade/Filters/Dynamic/MKMLimitedTitle": {
         "oracleText": "Murders at Karlov Manor Limited",
-        "translation": "Murders at Karlov Manor Limited"
+        "translation": "卡洛夫庄园谋杀案限制赛"
     },
     "PlayBlade/Filters/Dynamic/MOMLimitedTitle": {
         "oracleText": "March of the Machine Limited",
