@@ -48,10 +48,13 @@ if __name__ == "__main__":
                 'jaJP': rawRow[3],
             }
 
-        # remove useless rows
+        # remove useless column data(Core.Meta.Cards::DeckImportParser::GetLocalizedNames need these column exist)
         cardDBCursor.execute('DROP TABLE Loc')
         cardDBCursor.execute('CREATE TABLE Loc(Key TEXT PRIMARY KEY UNIQUE NOT NULL,Bundle'
-                             ' TEXT,enUS TEXT,jaJP TEXT);')
+                             ' TEXT,enUS TEXT,jaJP TEXT,ptBR TEXT DEFAULT (\'\'), frFR TEXT '
+                             'DEFAULT (\'\'), itIT TEXT DEFAULT (\'\'), deDE TEXT DEFAULT (\'\')'
+                             ', esES TEXT DEFAULT (\'\'), ruRU TEXT DEFAULT (\'\'), koKR TEXT'
+                             ' DEFAULT (\'\'), zhCN TEXT DEFAULT (\'\'), zhTW TEXT DEFAULT (\'\'));')
         cardDBCursor.execute('CREATE UNIQUE INDEX Key ON Loc (Key);')
 
         for rawKey, rawValue in RawData.items():
