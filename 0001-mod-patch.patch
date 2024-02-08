@@ -1,6 +1,6 @@
-From 990c2e0b0d75a3524240c5bfd72b78930864f552 Mon Sep 17 00:00:00 2001
+From eeeb9c148324b03c410fe05e2add519a28dbb929 Mon Sep 17 00:00:00 2001
 From: CCTV-1 <script.tar.gz@gmail.com>
-Date: Sat, 9 Dec 2023 10:25:21 +0800
+Date: Thu, 8 Feb 2024 12:13:50 +0800
 Subject: [PATCH] mod patch.
 
 ---
@@ -36,16 +36,16 @@ Subject: [PATCH] mod patch.
  .../TableAbilityTextbox.cs                    |   3 +-
  .../TextboxSubComponentBase.cs                |   9 +-
  Wotc.Mtga.Cards.Text/Utilities.cs             |  11 +-
- Wotc.Mtga.Loc/Languages.cs                    |   2 +-
+ Wotc.Mtga.Loc/Languages.cs                    |  16 +-
  .../DraftContentController.cs                 |  29 +-
  Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs      |   1 +
  WrapperDeckBuilder.cs                         |   2 +-
  WrapperDeckUtilities.cs                       |  29 +-
- 37 files changed, 606 insertions(+), 76 deletions(-)
+ 37 files changed, 609 insertions(+), 87 deletions(-)
  create mode 100644 ModManager.cs
 
 diff --git a/AbilityHangerBase.cs b/AbilityHangerBase.cs
-index d9e5db9..829f7ee 100644
+index f1cf7ab..3bb15e9 100644
 --- a/AbilityHangerBase.cs
 +++ b/AbilityHangerBase.cs
 @@ -61,6 +61,8 @@ public class AbilityHangerBase : HangerBase
@@ -57,7 +57,7 @@ index d9e5db9..829f7ee 100644
  	public bool IsDirty { get; set; }
  
  	public override bool Flipped
-@@ -95,6 +97,33 @@ public class AbilityHangerBase : HangerBase
+@@ -97,6 +99,33 @@ public class AbilityHangerBase : HangerBase
  		_multiFaceHangerConfigProvider = new MultiFaceHangerConfigProvider(cardDatabase.ClientLocProvider, cardDatabase.GreLocProvider, _assetLookupSystem, _cardDatabase, currentEventFormat, genericObjectPool);
  		_faceInfoGenerator = faceInfoGenerator;
  		SpawnHangerView();
@@ -91,7 +91,7 @@ index d9e5db9..829f7ee 100644
  	}
  
  	private void SpawnHangerView()
-@@ -219,6 +248,17 @@ public class AbilityHangerBase : HangerBase
+@@ -221,6 +250,17 @@ public class AbilityHangerBase : HangerBase
  	protected virtual void AddHangersInternal(BASE_CDC cardView, ICardDataAdapter sourceModel, HangerSituation situation)
  	{
  		ICardDataAdapter model = cardView.Model;
@@ -224,7 +224,7 @@ index f191488..fc897e6 100644
  		_meshRendererReferenceLoaders = new MeshRendererReferenceLoader[_deckBoxRenderers.Length];
  		for (int i = 0; i < _deckBoxRenderers.Length; i++)
 diff --git a/DeckManagerController.cs b/DeckManagerController.cs
-index f547e4b..298d1a9 100644
+index 3bdce0a..fe8b566 100644
 --- a/DeckManagerController.cs
 +++ b/DeckManagerController.cs
 @@ -391,9 +391,13 @@ public class DeckManagerController : NavContentController
@@ -269,7 +269,7 @@ index 36334ad..02a02f4 100644
  
  	private void Start()
 diff --git a/GreClient.CardData/CardUtilities.cs b/GreClient.CardData/CardUtilities.cs
-index ba00006..ffee4ee 100644
+index 380487d..449d7e2 100644
 --- a/GreClient.CardData/CardUtilities.cs
 +++ b/GreClient.CardData/CardUtilities.cs
 @@ -441,15 +441,7 @@ namespace GreClient.CardData
@@ -883,10 +883,10 @@ index 634d863..bc6689b 100644
  
  	private void MoveToStore()
 diff --git a/SettingsPanelGraphics.cs b/SettingsPanelGraphics.cs
-index 6427585..4d4b9f2 100644
+index cbfd274..476c267 100644
 --- a/SettingsPanelGraphics.cs
 +++ b/SettingsPanelGraphics.cs
-@@ -319,7 +319,7 @@ public class SettingsPanelGraphics : SettingsMenuPanel
+@@ -330,7 +330,7 @@ public class SettingsPanelGraphics : SettingsMenuPanel
  			"es" => "Español", 
  			"fr" => "Français", 
  			"it" => "Italiano", 
@@ -1036,7 +1036,7 @@ index afa904b..77aeb9c 100644
  			}
  		}
 diff --git a/Wotc.Mtga.Cards.Parts.Textbox/TextboxSubComponentBase.cs b/Wotc.Mtga.Cards.Parts.Textbox/TextboxSubComponentBase.cs
-index 30a2da3..90dd7c4 100644
+index 4cfdf5c..811f725 100644
 --- a/Wotc.Mtga.Cards.Parts.Textbox/TextboxSubComponentBase.cs
 +++ b/Wotc.Mtga.Cards.Parts.Textbox/TextboxSubComponentBase.cs
 @@ -47,7 +47,14 @@ namespace Wotc.Mtga.Cards.Parts.Textbox
@@ -1078,23 +1078,40 @@ index faea071..2e164a5 100644
  
  		public static bool TryStripLoyaltyPrefixFromString(ref string localizedText)
 diff --git a/Wotc.Mtga.Loc/Languages.cs b/Wotc.Mtga.Loc/Languages.cs
-index dc10203..1e46d35 100644
+index dc10203..fdbc9fc 100644
 --- a/Wotc.Mtga.Loc/Languages.cs
 +++ b/Wotc.Mtga.Loc/Languages.cs
-@@ -77,7 +77,7 @@ namespace Wotc.Mtga.Loc
- 			"zh-TW"
- 		};
+@@ -65,21 +65,13 @@ namespace Wotc.Mtga.Loc
+ 
+ 		public const string PHYREXIAN = "phyrexian";
+ 
+-		public static readonly string[] AllLanguages = new string[12]
+-		{
+-			"en-US", "pt-BR", "fr-FR", "it-IT", "de-DE", "es-ES", "ru-RU", "ja-JP", "ko-KR", "zh-CN",
+-			"zh-TW", "phyrexian"
+-		};
++		public static readonly string[] AllLanguages = new string[3] { "en-US", "ja-JP", "phyrexian"};
+ 
+-		public static readonly string[] ClientLanguages = new string[11]
+-		{
+-			"en-US", "pt-BR", "fr-FR", "it-IT", "de-DE", "es-ES", "ru-RU", "ja-JP", "ko-KR", "zh-CN",
+-			"zh-TW"
+-		};
++		public static readonly string[] ClientLanguages = new string[2] { "en-US", "ja-JP"};
  
 -		public static readonly string[] ExternalLanguages = new string[9] { "en-US", "pt-BR", "fr-FR", "it-IT", "de-DE", "es-ES", "ru-RU", "ja-JP", "ko-KR" };
-+		public static readonly string[] ExternalLanguages = new string[9] { "en-US", "ja-JP" };
++		public static readonly string[] ExternalLanguages = new string[2] { "en-US", "ja-JP" };
  
- 		public static readonly string[] CardLanguages = new string[10] { "en-US", "pt-BR", "fr-FR", "it-IT", "de-DE", "es-ES", "ru-RU", "ja-JP", "ko-KR", "phyrexian" };
+-		public static readonly string[] CardLanguages = new string[10] { "en-US", "pt-BR", "fr-FR", "it-IT", "de-DE", "es-ES", "ru-RU", "ja-JP", "ko-KR", "phyrexian" };
++		public static readonly string[] CardLanguages = new string[3] { "en-US", "ja-JP", "phyrexian"};
+ 
+ 		public const string BULLET_EN = "• ";
  
 diff --git a/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs b/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
-index 286430e..d51f2ae 100644
+index 93351cb..9e74e71 100644
 --- a/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
 +++ b/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
-@@ -713,9 +713,10 @@ namespace Wotc.Mtga.Wrapper.Draft
+@@ -712,9 +712,10 @@ namespace Wotc.Mtga.Wrapper.Draft
  
  		private void UpdateCardCollectionInfo(bool show)
  		{
@@ -1107,7 +1124,7 @@ index 286430e..d51f2ae 100644
  				{
  					_inventoryManager.Cards.TryGetValue(cardView.Card.GrpId, out var value);
  					value += _deck.MainDeckIds.Count((uint id) => id == cardView.Card.GrpId);
-@@ -723,12 +724,29 @@ namespace Wotc.Mtga.Wrapper.Draft
+@@ -722,12 +723,29 @@ namespace Wotc.Mtga.Wrapper.Draft
  					int maxCollected = (int)cardView.Card.Printing.MaxCollected;
  					cardView.CardView.ShowCollectionInfo(active: true, Math.Min(value, maxCollected), maxCollected);
  				}
@@ -1140,7 +1157,7 @@ index 286430e..d51f2ae 100644
  		}
  
  		private void UpdateWaitingOnPacksText()
-@@ -909,6 +927,7 @@ namespace Wotc.Mtga.Wrapper.Draft
+@@ -908,6 +926,7 @@ namespace Wotc.Mtga.Wrapper.Draft
  		{
  			_settingCardsCoroutine = null;
  			_okToPickCard = true;
@@ -1161,10 +1178,10 @@ index f09becd..37b81da 100644
  			DraftId = draftId;
  		}
 diff --git a/WrapperDeckBuilder.cs b/WrapperDeckBuilder.cs
-index 0992176..8f63c9c 100644
+index ee12fd9..a0d2f48 100644
 --- a/WrapperDeckBuilder.cs
 +++ b/WrapperDeckBuilder.cs
-@@ -242,7 +242,7 @@ public class WrapperDeckBuilder : NavContentController
+@@ -251,7 +251,7 @@ public class WrapperDeckBuilder : NavContentController
  	{
  		if (!_decksManager.ShowDeckLimitError())
  		{
@@ -1174,10 +1191,10 @@ index 0992176..8f63c9c 100644
  			AudioManager.PlayAudio(WwiseEvents.sfx_ui_generic_click, base.gameObject);
  		}
 diff --git a/WrapperDeckUtilities.cs b/WrapperDeckUtilities.cs
-index e816ba5..d8d909f 100644
+index ed96dcb..89963c8 100644
 --- a/WrapperDeckUtilities.cs
 +++ b/WrapperDeckUtilities.cs
-@@ -352,30 +352,51 @@ public static class WrapperDeckUtilities
+@@ -354,30 +354,51 @@ public static class WrapperDeckUtilities
  
  	private static string GetMainLabel(IClientLocProvider localizationManager)
  	{
@@ -1230,7 +1247,7 @@ index e816ba5..d8d909f 100644
  		}
  	}
  
-@@ -624,7 +645,11 @@ public static class WrapperDeckUtilities
+@@ -613,7 +634,11 @@ public static class WrapperDeckUtilities
  
  	private static IReadOnlyList<CardPrintingData> GetPrintingsByLocalizedTitle(CardDatabase cardDatabase, string title)
  	{
