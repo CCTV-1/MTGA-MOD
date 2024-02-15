@@ -2463,6 +2463,10 @@
         "oracleText": "This creature has taken {ammount} damage",
         "translation": "此生物已受到{ammount}点伤害"
     },
+    "AbilityHanger/SpecialHangers/Damaged_Body_NonCreature": {
+        "oracleText": "This permanent has taken {ammount} damage",
+        "translation": "此永久物已受到{ammount}点伤害"
+    },
     "AbilityHanger/SpecialHangers/Damaged_Title": {
         "oracleText": "Damaged",
         "translation": "已受伤害"
@@ -44862,6 +44866,18 @@
     "MainNav/Settings/ReportABug/Support_URL": {
         "oracleText": "https://mtgarena-support.wizards.com/hc/en-us/requests/new",
         "translation": "https://mtgarena-support.wizards.com/hc/en-us/requests/new"
+    },
+    "MainNav/Settings/ReportABug/ValidateBundles_Body": {
+        "oracleText": "This will cause your client to restart and your assets will be revalidated. This may take several minutes, but could help repair asset errors.",
+        "translation": "这将会重启客户端并对你的资源文件进行重新验证。这个过程可能至少需要数分钟。但可以修正资源文件损坏带来的错误。"
+    },
+    "MainNav/Settings/ReportABug/ValidateBundles_Button": {
+        "oracleText": "Validate Bundles",
+        "translation": "验证资源文件"
+    },
+    "MainNav/Settings/ReportABug/ValidateBundles_Title": {
+        "oracleText": "Are you sure?",
+        "translation": "你确定吗？"
     },
     "MainNav/Settings/ReportABug/Version": {
         "oracleText": "Version {version}",
