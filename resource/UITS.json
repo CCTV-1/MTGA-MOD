@@ -231,9 +231,25 @@
         "oracleText": "This permanent is {colors}.",
         "translation": "此永久物为{colors}。"
     },
+    "AbilityHanger/ColorChange/ColorModified_Body_Plural_Card": {
+        "oracleText": "This card is {colors}.",
+        "translation": "This card is {colors}."
+    },
+    "AbilityHanger/ColorChange/ColorModified_Body_Plural_Spell": {
+        "oracleText": "This spell is {colors}.",
+        "translation": "This spell is {colors}."
+    },
     "AbilityHanger/ColorChange/ColorModified_Body_Singular": {
         "oracleText": "This permanent is {color}.",
         "translation": "此永久物为{color}。"
+    },
+    "AbilityHanger/ColorChange/ColorModified_Body_Singular_Card": {
+        "oracleText": "This card is {color}.",
+        "translation": "This card is {color}."
+    },
+    "AbilityHanger/ColorChange/ColorModified_Body_Singular_Spell": {
+        "oracleText": "This spell is {color}.",
+        "translation": "This spell is {color}."
     },
     "AbilityHanger/ColorChange/ColorModified_Header": {
         "oracleText": "Color Modified",
@@ -1250,6 +1266,14 @@
     "AbilityHanger/Keyword/Improvise": {
         "oracleText": "Your artifacts can help you cast this spell. Each artifact you tap pays for {o1}.",
         "translation": "你的神器能协助你施放此咒语。你起动完法术力异能之后每横置一个神器，就能为此咒语支付{o1}。"
+    },
+    "AbilityHanger/Keyword/Incorporate_Body": {
+        "oracleText": "A card incorporated this way costs {abilityCost} more to cast and is {color} in addition to its other colors.",
+        "translation": "A card incorporated this way costs {abilityCost} more to cast and is {color} in addition to its other colors."
+    },
+    "AbilityHanger/Keyword/Incorporate_Title": {
+        "oracleText": "Incorporate",
+        "translation": "Incorporate"
     },
     "AbilityHanger/Keyword/Incubate1_Body": {
         "oracleText": "Create an Incubator token with a +1/+1 counter on it and \"{o2}: Transform this artifact.\" It transforms into a 0/0 Phyrexian artifact creature.",
@@ -3039,6 +3063,30 @@
         "oracleText": "Hylda Play Pre-order",
         "translation": "Hylda Play Pre-order"
     },
+    "Apple/bundle_pip_dogmeat_ShortDesc": {
+        "oracleText": "Includes Companion and Sticker Emote",
+        "translation": "Includes Companion and Sticker Emote"
+    },
+    "Apple/bundle_pip_dogmeat_ShortName": {
+        "oracleText": "Fallout Companion Bundle",
+        "translation": "Fallout Companion Bundle"
+    },
+    "Apple/bundle_pip_lands_ShortDesc": {
+        "oracleText": "Includes 10 Full Art Basic Lands",
+        "translation": "Includes 10 Full Art Basic Lands"
+    },
+    "Apple/bundle_pip_lands_ShortName": {
+        "oracleText": "Fallout Full Art Lands",
+        "translation": "Fallout Full Art Lands"
+    },
+    "Apple/bundle_pip_sleeves_ShortDesc": {
+        "oracleText": "Includes 7 Fallout Sleeves",
+        "translation": "Includes 7 Fallout Sleeves"
+    },
+    "Apple/bundle_pip_sleeves_ShortName": {
+        "oracleText": "Fallout Sleeves",
+        "translation": "Fallout Sleeves"
+    },
     "Apple/bundle_wildcards_15_0_ShortDesc": {
         "oracleText": "12 Rares, 4 Mythic Rares",
         "translation": "12张稀有，4张秘稀"
@@ -4251,6 +4299,10 @@
         "oracleText": "Scroll For More",
         "translation": "滚动继续查看"
     },
+    "Card/SecretlyChosenValue": {
+        "oracleText": "Secretly chosen value: {LinkInfoAmount}",
+        "translation": "Secretly chosen value: {LinkInfoAmount}"
+    },
     "Card/SiegeAbilityOverrideText": {
         "oracleText": "When the last defense counter is removed from this permanent, exile it, then you may cast it transformed without paying its mana cost.",
         "translation": "当移去此永久物上最后一个布防指示物时，将之放逐，然后你可以施放已转化的它且不需支付其法术力费用。"
@@ -5103,6 +5155,10 @@
         "oracleText": "Associate Digital Product Manager",
         "translation": "联合数字产品管理者"
     },
+    "Credits/Role/AssociateProductionArtist": {
+        "oracleText": "Associate Production Artist",
+        "translation": "Associate Production Artist"
+    },
     "Credits/Role/AssociateSoftwareDeveloper": {
         "oracleText": "Associate Software Development Engineer",
         "translation": "联合软件开发工程师"
@@ -5202,6 +5258,10 @@
     "Credits/Role/PrincipalSoftwareDeveloper": {
         "oracleText": "Principal Software Development Engineer",
         "translation": "主要软件开发工程师"
+    },
+    "Credits/Role/ProductionArtManager": {
+        "oracleText": "Production Art Manager",
+        "translation": "Production Art Manager"
     },
     "Credits/Role/Senior2DArtist": {
         "oracleText": "Senior 2D Artist",
@@ -5462,6 +5522,26 @@
     "Decks/Precon/2022_WC/Player_ZhiY": {
         "oracleText": "Zhi Yimin",
         "translation": "Zhi Yimin"
+    },
+    "Decks/Precon/Alchemy_MKM_AirborneArtifacts": {
+        "oracleText": "Airborne Artifacts",
+        "translation": "Airborne Artifacts"
+    },
+    "Decks/Precon/Alchemy_MKM_BattalionBruisers": {
+        "oracleText": "Battalion Bruisers",
+        "translation": "Battalion Bruisers"
+    },
+    "Decks/Precon/Alchemy_MKM_ExpendableEnchantments": {
+        "oracleText": "Expendable Enchantments",
+        "translation": "Expendable Enchantments"
+    },
+    "Decks/Precon/Alchemy_MKM_IncorporateInsidiously": {
+        "oracleText": "Incorporate Insidiously",
+        "translation": "Incorporate Insidiously"
+    },
+    "Decks/Precon/Alchemy_MKM_MulticolorMagecraft": {
+        "oracleText": "Multicolor Magecraft",
+        "translation": "Multicolor Magecraft"
     },
     "Decks/Precon/Alchemy_NEO_BR": {
         "oracleText": "Blood Bowl",
@@ -7430,6 +7510,26 @@
     "Decks/Precon/Standard_LCI_Storydecks_OneSonforaThousandMoons": {
         "oracleText": "One Sun for a Thousand Moons",
         "translation": "千月一阳"
+    },
+    "Decks/Precon/TimelessDarkRitual": {
+        "oracleText": "Mono-Black Ritual",
+        "translation": "Mono-Black Ritual"
+    },
+    "Decks/Precon/TimelessJegantha": {
+        "oracleText": "Jegantha, the Wellspring",
+        "translation": "Jegantha, the Wellspring"
+    },
+    "Decks/Precon/TimelessPhoenix": {
+        "oracleText": "Mono-Red Phoenix",
+        "translation": "Mono-Red Phoenix"
+    },
+    "Decks/Precon/TimelessPrimeTime": {
+        "oracleText": "Mono-Green Primeval Titan",
+        "translation": "Mono-Green Primeval Titan"
+    },
+    "Decks/Precon/TimelessShadow": {
+        "oracleText": "Death's Shadow",
+        "translation": "Death's Shadow"
     },
     "Decks/Precon/TurfBrawls_Brokers": {
         "oracleText": "Rigo, Streetwise Mentor",
@@ -16283,6 +16383,10 @@
         "oracleText": "Play ANY Deck, Win EVERY Card!\n\nWin 12 games before your second loss and receive the top reward, a copy of EVERY card in Standard plus a Sealed Event Token! All participants earn rewards, <u><link=http://magic.wizards.com/mtga-win-every-card>click here to see the full event rewards.</link></u>\n\n<b>Note:</b> We strongly recommend you join and play your games as early as possible. We want to make sure everyone can try for 12 wins before the event ends.",
         "translation": "玩任何套牌，赢任意卡牌！\n\n在第二次失败之前赢得12场比赛即可获得最高奖励，即标准版所有卡牌的副本和一枚密封赛事代币！所有参与者都能获得奖励，<u><link=http://magic.wizards.com/mtga-win-every-card>点击这里查看全部赛事奖励。</link></u>。\n\n<b>注意：</b>我们强烈建议你尽可能早地加入并进行比赛。我们希望确保每个人都能在活动结束前尝试获得12场胜利。"
     },
+    "Events/Event_Desc_April_Fools_2024": {
+        "oracleText": "Happy April Fools' Day! Enjoy this silly, chaotic experience by playing <i> Golden Booster Sealed </i> with twelve boosters. Add basic lands to make a 40-card deck, then play against other players as much as you want!\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>",
+        "translation": "Happy April Fools' Day! Enjoy this silly, chaotic experience by playing <i> Golden Booster Sealed </i> with twelve boosters. Add basic lands to make a 40-card deck, then play against other players as much as you want!\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>"
+    },
     "Events/Event_Desc_ArenaOpen_Day1": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for Day 1 is Historic with single-game matches, and then Traditional Historic with best-of-three matches using sideboards for Day 2. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>",
         "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for Day 1 is Historic with single-game matches, and then Traditional Historic with best-of-three matches using sideboards for Day 2. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>"
@@ -17595,6 +17699,14 @@
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Detectives </b> Get on your opponent's case with this fast midrange strategy. Leverage Detective typal bonuses to overwhelm your opponent's defenses, and sacrifice Clues to refill your hand in the late game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Clues Control </b> Use defensive spells to extend the game and generate Clues, then turn the excess mana into a card advantage that will bury your opponent in a mountain of value. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Suspect Aggro </b> Suspected creatures have menace and can't block. Keep attacking with your suspicious characters, and your opponents will be helpless to stop them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Big Disguise </b> Spend the early game accelerating your mana and setting up a face-down board state, then beat down your opponent's side of the board by flipping over haymaker after haymaker. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>  Go-Wide Disguise </b> Flood the battlefield with face-down creatures and accrue impressive rewards whenever they're turned face up. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Pint-Size Disguise </b> Face-down creatures bolster your strategy, which rewards playing creatures with power 2 or less and boosting them to become more impressive attackers. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Artifact Sacrifice </b> Generate and sacrifice Clue tokens strategically to gain a massive card advantage over your opponent. Then, chip away at their defenses by attacking with evasive Thopters that bring death from above. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Gravebreak </b> Use the collect evidence mechanic and raise the dead to support a long-game strategy that gives you extra value whenever a creature card leaves your graveyard. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Battalion </b> This classic Ravnican strategy adds extra punch to aggressive red and white creatures by providing a bonus whenever you attack with three or more of them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Collect Evidence </b> Rapidly fill up your graveyard and collect evidence to power up your spells while amassing permanents that reward you each time you do so.",
         "translation": "从传过来的轮抽补充包中一次选一张牌。这些牌会加入你的收藏。你将使用这些牌加上基本地来构筑一套40张的套牌。进行游戏并基于你的胜场获得奖励！\n\n人机轮抽～与AI进行轮抽，无需等待，也不限制选牌时间\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><b>集结侦探</b> 以这种快节奏中速策略来解决对手：充分利用侦探特有的额外价值压垮对手的防线并在游戏后期牺牲线索补充手牌。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><b>线索控制</b> 使用防御咒语拉长战线并派出线索，然后将多余的法术力转化成手牌优势最终以海量资源埋葬对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><b>怀疑快攻</b> 遭疑生物具有威慑异能且不能阻挡。用遭疑角色持续进攻，在他们的攻势下你的对手会陷入绝望。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><b>巨型伪装</b> 在游戏前期加速法术力并将匿伏生物铺满你的版图，接着将它们翻面施以拳拳重击击倒对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><b>铺场伪装</b> 召唤海量匿伏生物，每当他们翻面时，不断获取惊人回报。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><b>微型伪装</b> 通过匿伏生物帮助实现你的计策：通过打出力量等于或小于2的生物获得回报并增强他们使之成为更有力的进攻者。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><b>神器牺牲</b> 机智地派出和牺牲线索衍生物来赢得巨大的卡差优势，然后用带穿透的振翼机进攻蚕食对手防线，从空中击败对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><b>破坟而出</b> 利用搜证机制和掘坟来支撑该长盘战略：每当一张生物牌离开你的坟场时给予你额外价值。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><b>集结军队</b> 每当你以三个或更多生物攻击时能提供额外价值——这种经典的拉尼卡策略让本身就极具进攻性的红白生物如虎添翼。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><b>搜集证据</b> 快速填充你的坟场并通过搜证强化你的咒语，同时积攒让你每次搜证获得回报的永久物。"
     },
+    "Events/Event_Desc_MKM_SecretEvent": {
+        "oracleText": "Welcome!  We were not expecting guests, but as long as you are here you should pull up a chair!\n\nThis is the place where Decks end up after their Event ends on Arena.  You never know what might end up down here.\n\nPlay as much as you like, but only the first few wins will provide a reward!",
+        "translation": "Welcome!  We were not expecting guests, but as long as you are here you should pull up a chair!\n\nThis is the place where Decks end up after their Event ends on Arena.  You never know what might end up down here.\n\nPlay as much as you like, but only the first few wins will provide a reward!"
+    },
+    "Events/Event_Desc_MKM_SecretEvent_Hint": {
+        "oracleText": "Welcome!  We were not expecting guests, but as long as you are here you should pull up a chair!\n\nThis is the place where Decks end up after their Event ends on Arena.  You never know what might end up down here.\n\nPlay as much as you like, but only the first few wins will provide a reward!\n\nOne last thing, please don't go putting in just any random text into that Code Redemption box, we don't want it getting overloaded.  We have not needed to fix it since the Year the set <i>Ravnica: City of Guilds</i> was released...",
+        "translation": "Welcome!  We were not expecting guests, but as long as you are here you should pull up a chair!\n\nThis is the place where Decks end up after their Event ends on Arena.  You never know what might end up down here.\n\nPlay as much as you like, but only the first few wins will provide a reward!\n\nOne last thing, please don't go putting in just any random text into that Code Redemption box, we don't want it getting overloaded.  We have not needed to fix it since the Year the set <i>Ravnica: City of Guilds</i> was released..."
+    },
     "Events/Event_Desc_MKM_Trad_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Detectives </b> Get on your opponent's case with this fast midrange strategy. Leverage Detective typal bonuses to overwhelm your opponent's defenses, and sacrifice Clues to refill your hand in the late game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Clues Control </b> Use defensive spells to extend the game and generate Clues, then turn the excess mana into a card advantage that will bury your opponent in a mountain of value. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Suspect Aggro </b> Suspected creatures have menace and can't block. Keep attacking with your suspicious characters, and your opponents will be helpless to stop them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Big Disguise </b> Spend the early game accelerating your mana and setting up a face-down board state, then beat down your opponent's side of the board by flipping over haymaker after haymaker. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>  Go-Wide Disguise </b> Flood the battlefield with face-down creatures and accrue impressive rewards whenever they're turned face up. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Pint-Size Disguise </b> Face-down creatures bolster your strategy, which rewards playing creatures with power 2 or less and boosting them to become more impressive attackers. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Artifact Sacrifice </b> Generate and sacrifice Clue tokens strategically to gain a massive card advantage over your opponent. Then, chip away at their defenses by attacking with evasive Thopters that bring death from above. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Gravebreak </b> Use the collect evidence mechanic and raise the dead to support a long-game strategy that gives you extra value whenever a creature card leaves your graveyard. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Battalion </b> This classic Ravnican strategy adds extra punch to aggressive red and white creatures by providing a bonus whenever you attack with three or more of them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Collect Evidence </b> Rapidly fill up your graveyard and collect evidence to power up your spells while amassing permanents that reward you each time you do so.",
         "translation": "从传过来的轮抽补充包中一次选一张牌。这些牌会加入你的收藏。你将使用这些牌加上基本地来构筑一套40张的套牌。进行三局两胜游戏并基于你的胜场获得奖励！\n\n<b>真人轮抽～和其他七位玩家共同进行的限时轮抽</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><b>集结侦探</b> 以这种快节奏中速策略来解决对手：充分利用侦探特有的额外价值压垮对手的防线并在游戏后期牺牲线索补充手牌。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><b>线索控制</b> 使用防御咒语拉长战线并派出线索，然后将多余的法术力转化成手牌优势最终以海量资源埋葬对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><b>怀疑快攻</b> 遭疑生物具有威慑异能且不能阻挡。用遭疑角色持续进攻，在他们的攻势下你的对手会陷入绝望。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><b>巨型伪装</b> 在游戏前期加速法术力并将匿伏生物铺满你的版图，接着将它们翻面施以拳拳重击击倒对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><b>铺场伪装</b> 召唤海量匿伏生物，每当他们翻面时，不断获取惊人回报。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><b>微型伪装</b> 通过匿伏生物帮助实现你的计策：通过打出力量等于或小于2的生物获得回报并增强他们使之成为更有力的进攻者。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><b>神器牺牲</b> 机智地派出和牺牲线索衍生物来赢得巨大的卡差优势，然后用带穿透的振翼机进攻蚕食对手防线，从空中击败对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><b>破坟而出</b> 利用搜证机制和掘坟来支撑该长盘战略：每当一张生物牌离开你的坟场时给予你额外价值。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><b>集结军队</b> 每当你以三个或更多生物攻击时能提供额外价值——这种经典的拉尼卡策略让本身就极具进攻性的红白生物如虎添翼。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><b>搜集证据</b> 快速填充你的坟场并通过搜证强化你的咒语，同时积攒让你每次搜证获得回报的永久物。"
@@ -17638,6 +17750,10 @@
     "Events/Event_Desc_MWM_Artisan": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Artisan: Bring a 60-card Alchemy deck, but using only commons, uncommons, and basic lands. Without rares, the common folk can truly be heard!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
         "translation": "欢迎来到周中万智牌！每周尝试一个不同的方式来游玩万智牌竞技场！\n\n本周赛事是银铁：构筑一副60张的炼金套牌，但只使用普通牌、非凡牌和基本地。没有稀有，才能真正听到普通人的声音！\n\n更多关于本活动及即将到来的周中万智牌赛事信息，请查看<u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>这里</link></u>。"
+    },
+    "Events/Event_Desc_MWM_ArtisanBrawl": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Artisan Brawl: Bring a 100-card Brawl deck using only commons, uncommons, and basic lands. What new ideas will you brew up in this unique format?\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Artisan Brawl: Bring a 100-card Brawl deck using only commons, uncommons, and basic lands. What new ideas will you brew up in this unique format?\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
     },
     "Events/Event_Desc_MWM_BRO_BotDraft": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is The Brothers' War Bot Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
@@ -17706,6 +17822,10 @@
     "Events/Event_Desc_MWM_FuturePrecon": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nToday's event is Future Precons: These preconstructed decks are gearing up for the future, using only cards from the last year of sets! Change decks as often as you like.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
         "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nToday's event is Future Precons: These preconstructed decks are gearing up for the future, using only cards from the last year of sets! Change decks as often as you like.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+    },
+    "Events/Event_Desc_MWM_GladiatorPrecons": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nWelcome to Gladiator, one of the most popular fan formats for MTG Arena!\n\nGladiator uses 100-card singleton Historic decks with a minimal banned list. You then face off in best-of-three matches, giving you the chance to see a wide range of possibilities from both players' decks. There are no sideboards, so what you bring is what you've got!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nWelcome to Gladiator, one of the most popular fan formats for MTG Arena!\n\nGladiator uses 100-card singleton Historic decks with a minimal banned list. You then face off in best-of-three matches, giving you the chance to see a wide range of possibilities from both players' decks. There are no sideboards, so what you bring is what you've got!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
     },
     "Events/Event_Desc_MWM_HBG_BotDraft": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Alchemy Horizons: Baldur's Gate</i> Bot Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
@@ -17795,6 +17915,10 @@
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Murders at Karlov Manor</i> Constructed: Bring a 60-card deck with only cards from the most recent set and demonstrate your mastery of the new cards!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
         "translation": "欢迎来到周中万智牌！每周尝试一个不同的方式来游玩万智牌竞技场！\n\n本周活动是 <i>拉罗夫庄园谋杀案</i> 构筑: 带上一副 60 张卡片，其中仅包含最新系列的卡牌，并展示您对新牌的理解！\n\n了解有关本次魔术周中活动以及即将举行的周中万智牌活动的更多详细信息 <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>这里</link></u>."
     },
+    "Events/Event_Desc_MWM_MKM_Sealed": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Murders at Karlov Manor</i> Sealed: Open six packs and add basic lands to make a 40-card deck, then play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Murders at Karlov Manor</i> Sealed: Open six packs and add basic lands to make a 40-card deck, then play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+    },
     "Events/Event_Desc_MWM_MOMConstructed": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>March of the Machine</i> constructed: Bring a 60-card deck with only cards from the most recent set and demonstrate your compleat mastery of the new cards!\n\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
         "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>March of the Machine</i> constructed: Bring a 60-card deck with only cards from the most recent set and demonstrate your compleat mastery of the new cards!\n\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
@@ -17830,6 +17954,10 @@
     "Events/Event_Desc_MWM_Omniscience": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Omniscience: We'll provide a deck for you to play... but it has no lands in it. Instead, every card can be cast for free! You only get a three-card opening hand, so make them count!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
         "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Omniscience: We'll provide a deck for you to play... but it has no lands in it. Instead, every card can be cast for free! You only get a three-card opening hand, so make them count!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+    },
+    "Events/Event_Desc_MWM_OmniscienceDraft": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Omniscience Draft! Sit down with seven bots and pick one card at a time from rotating packs of mixed-up cards from all throughout MTG Arena. Build a 40-card deck to take on other drafters, but all of your spells can be cast for no mana! \n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Omniscience Draft! Sit down with seven bots and pick one card at a time from rotating packs of mixed-up cards from all throughout MTG Arena. Build a 40-card deck to take on other drafters, but all of your spells can be cast for no mana! \n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
     },
     "Events/Event_Desc_MWM_OmniscienceEnchantments": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Omniscience: We'll provide a deck for you to play... but it has no lands in it. Instead, every card can be cast for free! You only get a three-card opening hand, so make them count!\n\nThis Omniscience deck is focused on <b>enchantments</b>. Assemble Shrines, stack Sagas, and ensorcell creatures (and players) with Auras!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
@@ -17887,6 +18015,10 @@
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\n\n\nThis week's event is the new format, Timeless. Bring a 60-card Timeless deck that can include any card on Arena. Get 4 wins and receive a bonus <i>Khans of Tarkir</i> Booster Pack to celebrate for the release of this new format.\n\n\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
         "translation": "欢迎来到周中万智牌！每周尝试一种不同的方式来游玩万智牌竞技场！\n\n\n\n本周活动是新赛制永恒。带上一副 60 张的永恒套牌，竞技场上任意牌张可用。为庆祝新赛制的发布赢得4胜会额外奖励一包<i>鞑契可汗</i>补充包。\n\n\n\n点击<u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>>此处</link></u>了解有关本次周中活动以及未来周中万智牌活动的更多详细信息 。"
     },
+    "Events/Event_Desc_MWM_TimelessPrecons": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Timeless Showcase: Take these Timeless preconstructed decks for a spin, and see if you find a new favorite! Change decks as often as you like.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Timeless Showcase: Take these Timeless preconstructed decks for a spin, and see if you find a new favorite! Change decks as often as you like.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+    },
     "Events/Event_Desc_MWM_UltimateShowdown2022": {
         "oracleText": "<i>For years, the different player types have lived together in harmony. But today, everything changes. Today, it's time to stop being polite and start learning the empirically correct, clearly superior, and unambiguously best way to play the game.\n\nBut who will reign supreme? Will it be Timmy, master of monsters? Johnny, the ingenious inventor? Cutthroat card-slinger Spike? Or perhaps the lore-loving Vorthos? Each of these iconic archetypes has brought their own deck to this contest, and we've ripped the mana costs off so they can get right down to business. Welcome to the Ultimate Showdown!</i>\n\nIn this Omniscience event, each deck brings the essence of a player archetype to the table. Play as much as you want and change decks whenever you like. And if you find the archetype that truly speaks to your soul, you can add their avatar and sleeve to your collection in the Store!",
         "translation": "<i>多年来，不同类型的玩家和谐共处。但今天，一切都变了。今天，是时候停止客气，开始学习经验上正确的、明显优越的、毫不含糊的最佳游戏方式了。\n\n但谁将统治至高无上？会是怪物大师蒂米吗？天才发明家强尼？残酷的卡牌投掷者斯派克？或者也许是热爱绝杀的沃尔托斯？这些标志性的原型都带来了他们自己的卡组参加这次比赛，而且我们已经取消了法力成本，所以他们可以直接开展业务了。欢迎来到终极对决！</i>\n\n在这个全知全能的赛事中，每一副牌都会将一个玩家原型的精髓带到桌上。想玩多少就玩多少，想换牌就换牌。如果你找到了真正与你的灵魂对话的原型，你可以在商店里把他们的头像和牌套添加到你的收藏中！"
@@ -17926,6 +18058,10 @@
     "Events/Event_Desc_Metagame_Challenge": {
         "oracleText": "Bring your Standard deck and play best-of-three matches! You'll receive rewards based on how many matches you win.",
         "translation": "使用标准构筑套牌与对手进行三盘两胜的对局！最后根据胜局数量赢得奖励。"
+    },
+    "Events/Event_Desc_MixedUp_Ravnica_Premier_Draft": {
+        "oracleText": "Chaos Drafts feature booster packs from many different sets in one event! This draft event features only cards from sets on the plane of Ravnica sets: <i>Guilds of Ravnica</i>, <i>Ravnica Allegiance </i>, and <i>Murders at Karlov Manor</i>.\n\nSelect one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>",
+        "translation": "Chaos Drafts feature booster packs from many different sets in one event! This draft event features only cards from sets on the plane of Ravnica sets: <i>Guilds of Ravnica</i>, <i>Ravnica Allegiance </i>, and <i>Murders at Karlov Manor</i>.\n\nSelect one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>"
     },
     "Events/Event_Desc_Momir": {
         "oracleText": "Each turn, click on Momir on the left side of your battlefield, pay X mana, and discard a card to create a random token copy of a creature from all of MTG Arena with mana value X. No deck required, we'll provide a deck of 12 copies each of the five basic lands. Give in to Momir's Madness, won't you?",
@@ -18091,6 +18227,14 @@
         "oracleText": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom <i>Murders at Karlov Manor</i> Sealed with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>\n\n<b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.</color></b>",
         "translation": "本月的资格赛周末即将来临！如果你还未获得资格，在本入围赛事中赢取6胜来获得你的资格赛周末席位。\n\n本入围赛事的赛制是<i>卡洛夫庄园谋杀案</i>BO1幻影现开，需使用个人计时器。如果你能赢取6胜，一定记得下周回来参加资格赛周末！\n\n<size=100%><b><color=\"red\">必须年满18岁才能参加。并非在所有地区/领地都可用。禁止地区无效。附加条款和条件适用。请参阅<u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>此处</link></u>了解完整详情。</color></b></size>\n\n<b><color=\"red\">这是一场幻影赛事。卡牌不会加入到你的收藏中。</color></b>"
     },
+    "Events/Event_Desc_QualifierPlayIn_Bo1_Alchemy": {
+        "oracleText": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Alchemy with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
+        "translation": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Alchemy with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>"
+    },
+    "Events/Event_Desc_QualifierPlayIn_Bo1_Standard": {
+        "oracleText": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Standard with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
+        "translation": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Standard with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>"
+    },
     "Events/Event_Desc_QualifierPlayIn_Bo3": {
         "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom Traditional <i>Murders at Karlov Manor</i> Sealed with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>\n\n<b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.</color></b>",
         "translation": "本月的资格赛周末即将来临！如果你还未获得资格，在本入围赛事中赢取4胜来获得你的资格赛周末席位。\n\n本入围赛事的赛制是<i>卡洛夫庄园谋杀案</i>BO3幻影现开，需使用备牌和个人计时器。如果你能赢取4胜，一定记得明天回来参加资格赛周末！\n\n<size=100%><b><color=\"red\">必须年满18岁才能参加。并非在所有地区/领地都可用。禁止地区无效。附加条款和条件适用。请参阅<u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>此处</link></u>了解完整详情。</color></b></size>\n\n<b><color=\"red\">是一场幻影赛事。卡牌不会加入到你的收藏中。</color></b>"
@@ -18106,6 +18250,14 @@
     "Events/Event_Desc_QualifierPlayIn_Bo3_20240216": {
         "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom Traditional <i>Murders at Karlov Manor</i> Sealed with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>\n\n<b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.</color></b>",
         "translation": "本月的资格赛周末即将来临！如果你还未获得资格，在本入围赛事中赢取4胜来获得你的资格赛周末席位。\n\n本入围赛事的赛制是<i>卡洛夫庄园谋杀案</i>BO3幻影现开，需使用备牌和个人计时器。如果你能赢取4胜，一定记得明天回来参加资格赛周末！\n\n<size=100%><b><color=\"red\">必须年满18岁才能参加。并非在所有地区/领地都可用。禁止地区无效。附加条款和条件适用。请参阅<u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>此处</link></u>了解完整详情。</color></b></size>\n\n<b><color=\"red\">是一场幻影赛事。卡牌不会加入到你的收藏中。</color></b>"
+    },
+    "Events/Event_Desc_QualifierPlayIn_Bo3_Alchemy": {
+        "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Alchemy with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
+        "translation": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Alchemy with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>"
+    },
+    "Events/Event_Desc_QualifierPlayIn_Bo3_Standard": {
+        "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Standard with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
+        "translation": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Standard with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_QualifierWeekend_Day1": {
         "oracleText": "Congratulations on earning your way to Qualifier Weekend! Sign up for this Day 1 event and get all 7 wins to qualify for Day 2! You may join each day only once.\n\nPlayers can only join Day 1 and (if qualified) Day 2 events between 6 a.m. PT - 8 a.m. PT.\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
@@ -18163,6 +18315,10 @@
         "oracleText": "Bring your deck and see how high you can rank up!",
         "translation": "使用事先组好的套牌进行对战，不断提高你的段位！"
     },
+    "Events/Event_Desc_Ravnica_Constructed_AA": {
+        "oracleText": "Collect some of your Favorite Card Style in this Block Festival! \n\nCreate a 60 card deck using only cards from the plane of Ravnica from sets <i> Guilds of Ravnica </i>, <i> Ravnica Allegiance </i>, <i>War of the Spark</i>, and <i> Murders at Karlov Manor</i>.\n\nThis event is All-Access, meaning you can even use cards outside of your collection.",
+        "translation": "Collect some of your Favorite Card Style in this Block Festival! \n\nCreate a 60 card deck using only cards from the plane of Ravnica from sets <i> Guilds of Ravnica </i>, <i> Ravnica Allegiance </i>, <i>War of the Spark</i>, and <i> Murders at Karlov Manor</i>.\n\nThis event is All-Access, meaning you can even use cards outside of your collection."
+    },
     "Events/Event_Desc_Ravnica_Remix": {
         "oracleText": "Select one card at a time from rotating draft packs. Each pack contains a mix of cards from Guilds of Ravnica and Ravnica Allegiance! The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!",
         "translation": "Select one card at a time from rotating draft packs. Each pack contains a mix of cards from Guilds of Ravnica and Ravnica Allegiance! The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!"
@@ -18170,6 +18326,14 @@
     "Events/Event_Desc_RebalancedHistoric": {
         "oracleText": "<i>What would the world be like if a villain were a hero instead? If you turned left instead of right? The Multiverse is a huge place, but it can't contain every possibility, and even small changes can lead to big results. Come step through the mirror to another world where not everything is as you remember it...</i>\n\nWe're through the looking glass! In this event, some of Historic's most wanted are back in action, but in slightly different forms. To see all of these cards, search for <b>\"e:ANC\"</b> in the deckbuilder or click <u><link=https://magic.wizards.com/mtga-stx-mirror-mirror>HERE</link></u>.\n\nYou can play these or any other cards from Historic in this event, regardless of whether they are in your collection! Enjoy!",
         "translation": "<i>What would the world be like if a villain were a hero instead? If you turned left instead of right? The Multiverse is a huge place, but it can't contain every possibility, and even small changes can lead to big results. Come step through the mirror to another world where not everything is as you remember it...</i>\n\nWe're through the looking glass! In this event, some of Historic's most wanted are back in action, but in slightly different forms. To see all of these cards, search for <b>\"e:ANC\"</b> in the deckbuilder or click <u><link=https://magic.wizards.com/mtga-stx-mirror-mirror>HERE</link></u>.\n\nYou can play these or any other cards from Historic in this event, regardless of whether they are in your collection! Enjoy!"
+    },
+    "Events/Event_Desc_RemixDraftArtifact_Premier_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\nWelcome to Remix Draft, a new Limited format pulling from across all sets on Arena! This is Remix Draft: Artifacts, where the spotlight is on artifacts across the multiverse.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> All-in Artifacts </b> Fill your deck with artifacts, stretch your colors, and attack in the air or with giant artifact creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Go Big Control </b> Control the game with defensive spells and land one devastating play.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Artifact Sacrifice </b> Sacrifice artifacts to empower your spells and disrupt your opponent's plan.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Modified Midrange </b> Put equipment or +1/+1 counters on your creatures to make them even better.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>  +1/+1 Counters </b> Fill your board with creatures, put +1/+1 counters on them, and smash your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Attrition Sacrifice </b> Accumulate value over time, sacrifice your creatures for more value, and win the long game.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Pirate Artifact Aggro </b> Play artifacts, play pirates, plunder, profit.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Food Midrange </b> Make food to power up your cards that care about artifacts, tokens, and sacrifice.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Modified Aggro </b> Attack with Modular creatures and self-equipping equipment.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Collect Evidence </b> Just like with food, generate clues to fuel your other cards or crack them for card advantage.",
+        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\nWelcome to Remix Draft, a new Limited format pulling from across all sets on Arena! This is Remix Draft: Artifacts, where the spotlight is on artifacts across the multiverse.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> All-in Artifacts </b> Fill your deck with artifacts, stretch your colors, and attack in the air or with giant artifact creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Go Big Control </b> Control the game with defensive spells and land one devastating play.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Artifact Sacrifice </b> Sacrifice artifacts to empower your spells and disrupt your opponent's plan.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Modified Midrange </b> Put equipment or +1/+1 counters on your creatures to make them even better.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>  +1/+1 Counters </b> Fill your board with creatures, put +1/+1 counters on them, and smash your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Attrition Sacrifice </b> Accumulate value over time, sacrifice your creatures for more value, and win the long game.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Pirate Artifact Aggro </b> Play artifacts, play pirates, plunder, profit.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Food Midrange </b> Make food to power up your cards that care about artifacts, tokens, and sacrifice.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Modified Aggro </b> Attack with Modular creatures and self-equipping equipment.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Collect Evidence </b> Just like with food, generate clues to fuel your other cards or crack them for card advantage."
+    },
+    "Events/Event_Desc_RemixDraft_Artifacts_Trad_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\nWelcome to Remix Draft, a new Limited format pulling from across all sets on Arena! This is Remix Draft: Artifacts, where the spotlight is on artifacts across the multiverse.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> All-in Artifacts </b> Fill your deck with artifacts, stretch your colors, and attack in the air or with giant artifact creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Go Big Control </b> Control the game with defensive spells and land one devastating play.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Artifact Sacrifice </b> Sacrifice artifacts to empower your spells and disrupt your opponent's plan.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Modified Midrange </b> Put equipment or +1/+1 counters on your creatures to make them even better.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>  +1/+1 Counters </b> Fill your board with creatures, put +1/+1 counters on them, and smash your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Attrition Sacrifice </b> Accumulate value over time, sacrifice your creatures for more value, and win the long game.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Pirate Artifact Aggro </b> Play artifacts, play pirates, plunder, profit.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Food Midrange </b> Make food to power up your cards that care about artifacts, tokens, and sacrifice.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Modified Aggro </b> Attack with Modular creatures and self-equipping equipment.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Collect Evidence </b> Just like with food, generate clues to fuel your other cards or crack them for card advantage.Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\nWelcome to Remix Draft, a new Limited format pulling from across all sets on Arena! This is Remix Draft: Artifacts, where the spotlight is on artifacts across the multiverse.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> All-in Artifacts </b> Fill your deck with artifacts, stretch your colors, and attack in the air or with giant artifact creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Go Big Control </b> Control the game with defensive spells and land one devastating play.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Artifact Sacrifice </b> Sacrifice artifacts to empower your spells and disrupt your opponent's plan.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Modified Midrange </b> Put equipment or +1/+1 counters on your creatures to make them even better.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>  +1/+1 Counters </b> Fill your board with creatures, put +1/+1 counters on them, and smash your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Attrition Sacrifice </b> Accumulate value over time, sacrifice your creatures for more value, and win the long game.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Pirate Artifact Aggro </b> Play artifacts, play pirates, plunder, profit.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Food Midrange </b> Make food to power up your cards that care about artifacts, tokens, and sacrifice.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Modified Aggro </b> Attack with Modular creatures and self-equipping equipment.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Collect Evidence </b> Just like with food, generate clues to fuel your other cards or crack them for card advantage.",
+        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\nWelcome to Remix Draft, a new Limited format pulling from across all sets on Arena! This is Remix Draft: Artifacts, where the spotlight is on artifacts across the multiverse.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> All-in Artifacts </b> Fill your deck with artifacts, stretch your colors, and attack in the air or with giant artifact creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Go Big Control </b> Control the game with defensive spells and land one devastating play.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Artifact Sacrifice </b> Sacrifice artifacts to empower your spells and disrupt your opponent's plan.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Modified Midrange </b> Put equipment or +1/+1 counters on your creatures to make them even better.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>  +1/+1 Counters </b> Fill your board with creatures, put +1/+1 counters on them, and smash your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Attrition Sacrifice </b> Accumulate value over time, sacrifice your creatures for more value, and win the long game.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Pirate Artifact Aggro </b> Play artifacts, play pirates, plunder, profit.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Food Midrange </b> Make food to power up your cards that care about artifacts, tokens, and sacrifice.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Modified Aggro </b> Attack with Modular creatures and self-equipping equipment.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Collect Evidence </b> Just like with food, generate clues to fuel your other cards or crack them for card advantage.Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\nWelcome to Remix Draft, a new Limited format pulling from across all sets on Arena! This is Remix Draft: Artifacts, where the spotlight is on artifacts across the multiverse.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> All-in Artifacts </b> Fill your deck with artifacts, stretch your colors, and attack in the air or with giant artifact creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Go Big Control </b> Control the game with defensive spells and land one devastating play.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Artifact Sacrifice </b> Sacrifice artifacts to empower your spells and disrupt your opponent's plan.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Modified Midrange </b> Put equipment or +1/+1 counters on your creatures to make them even better.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>  +1/+1 Counters </b> Fill your board with creatures, put +1/+1 counters on them, and smash your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Attrition Sacrifice </b> Accumulate value over time, sacrifice your creatures for more value, and win the long game.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Pirate Artifact Aggro </b> Play artifacts, play pirates, plunder, profit.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Food Midrange </b> Make food to power up your cards that care about artifacts, tokens, and sacrifice.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Modified Aggro </b> Attack with Modular creatures and self-equipping equipment.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Collect Evidence </b> Just like with food, generate clues to fuel your other cards or crack them for card advantage."
     },
     "Events/Event_Desc_RoadToWorlds_2020": {
         "oracleText": "<i>Magic</i> World Championship XXVI is happening this Friday through Sunday!\n\nTo celebrate, we're giving you a chance to play some of the decks Standard decks from last year that <i>Magic</i> World Championship XXVI players used on their way to qualifying. To learn more about the event and how to watch coverage, click <u><b><link=REDIRECT_LINK_HERE>here</link></b></u>.",
@@ -18791,6 +18955,10 @@
         "oracleText": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Oltec Ingenuity </b> Buy time with blockers, removal, and lifegain while you assemble an array of wondrous artifacts to take over the late game.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Echoes of the Dead </b> Set up to block while you fill your graveyard, then drag your opponent into the deep end with high-cost creatures, card draw, and recursive threats.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Going Down! </b> Keep your creatures growing by attacking viciously to make your opponent block or throwing permanents into the graveyard yourself. Then keep them down with creature removal.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Dinosaurs of the Sun Empire </b> Summon gigantic dinosaurs to crush the opposition, supporting them with ways to make more mana or break through blockers.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Malamet Tactics </b> Keep the pressure on with low-cost creatures. When your opponent tries to set up a defense, it's time to pounce by powering up your forces.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Dusk Legion Pilgrimage </b> Sacrifice little creatures and artifacts for the glory of Aclazotz (and additional resources). Once you smell blood, seal their fate with a few larger creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Pirates' Plunder </b> Set sail with a rowdy crew and their haul of Equipment and Treasure. When those landlubbers try to stop you, fly over the top or throw their blockers overboard.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Fungal Festering </b> Muck up the battlefield with sticky creatures while you fill your graveyard. Once you've descended enough to power your side up, start grinding your way through the opposing blockers.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Thousand-Moon Legion </b> Launch your military campaign with lots of small creatures and artifacts, then tactically tap those resources to activate your forces and rout the invaders.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> River Herald Expedition </b> Go exploring to stock your side with lands and powerful creatures, then sink your extra mana into activated abilities and card draw to drown the opposition in value.",
         "translation": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Oltec Ingenuity </b> Buy time with blockers, removal, and lifegain while you assemble an array of wondrous artifacts to take over the late game.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Echoes of the Dead </b> Set up to block while you fill your graveyard, then drag your opponent into the deep end with high-cost creatures, card draw, and recursive threats.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Going Down! </b> Keep your creatures growing by attacking viciously to make your opponent block or throwing permanents into the graveyard yourself. Then keep them down with creature removal.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Dinosaurs of the Sun Empire </b> Summon gigantic dinosaurs to crush the opposition, supporting them with ways to make more mana or break through blockers.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Malamet Tactics </b> Keep the pressure on with low-cost creatures. When your opponent tries to set up a defense, it's time to pounce by powering up your forces.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Dusk Legion Pilgrimage </b> Sacrifice little creatures and artifacts for the glory of Aclazotz (and additional resources). Once you smell blood, seal their fate with a few larger creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Pirates' Plunder </b> Set sail with a rowdy crew and their haul of Equipment and Treasure. When those landlubbers try to stop you, fly over the top or throw their blockers overboard.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Fungal Festering </b> Muck up the battlefield with sticky creatures while you fill your graveyard. Once you've descended enough to power your side up, start grinding your way through the opposing blockers.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Thousand-Moon Legion </b> Launch your military campaign with lots of small creatures and artifacts, then tactically tap those resources to activate your forces and rout the invaders.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> River Herald Expedition </b> Go exploring to stock your side with lands and powerful creatures, then sink your extra mana into activated abilities and card draw to drown the opposition in value."
     },
+    "Events/Event_Desc_Y24MKM_Premier_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Detectives </b> Get on your opponent's case with this fast midrange strategy. Leverage Detective typal bonuses to overwhelm your opponent's defenses, and sacrifice Clues to refill your hand in the late game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Clues Control </b> Use defensive spells to extend the game and generate Clues, then turn the excess mana into a card advantage that will bury your opponent in a mountain of value. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Suspect Aggro </b> Suspected creatures have menace and can't block. Keep attacking with your suspicious characters, and your opponents will be helpless to stop them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Big Disguise </b> Spend the early game accelerating your mana and setting up a face-down board state, then beat down your opponent's side of the board by flipping over haymaker after haymaker. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>  Go-Wide Disguise </b> Flood the battlefield with face-down creatures and accrue impressive rewards whenever they're turned face up. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Pint-Size Disguise </b> Face-down creatures bolster your strategy, which rewards playing creatures with power 2 or less and boosting them to become more impressive attackers. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Artifact Sacrifice </b> Generate and sacrifice Clue tokens strategically to gain a massive card advantage over your opponent. Then, chip away at their defenses by attacking with evasive Thopters that bring death from above. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Gravebreak </b> Use the collect evidence mechanic and raise the dead to support a long-game strategy that gives you extra value whenever a creature card leaves your graveyard. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Battalion </b> This classic Ravnican strategy adds extra punch to aggressive red and white creatures by providing a bonus whenever you attack with three or more of them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Collect Evidence </b> Rapidly fill up your graveyard and collect evidence to power up your spells while amassing permanents that reward you each time you do so.",
+        "translation": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Detectives </b> Get on your opponent's case with this fast midrange strategy. Leverage Detective typal bonuses to overwhelm your opponent's defenses, and sacrifice Clues to refill your hand in the late game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Clues Control </b> Use defensive spells to extend the game and generate Clues, then turn the excess mana into a card advantage that will bury your opponent in a mountain of value. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Suspect Aggro </b> Suspected creatures have menace and can't block. Keep attacking with your suspicious characters, and your opponents will be helpless to stop them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Big Disguise </b> Spend the early game accelerating your mana and setting up a face-down board state, then beat down your opponent's side of the board by flipping over haymaker after haymaker. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>  Go-Wide Disguise </b> Flood the battlefield with face-down creatures and accrue impressive rewards whenever they're turned face up. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Pint-Size Disguise </b> Face-down creatures bolster your strategy, which rewards playing creatures with power 2 or less and boosting them to become more impressive attackers. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Artifact Sacrifice </b> Generate and sacrifice Clue tokens strategically to gain a massive card advantage over your opponent. Then, chip away at their defenses by attacking with evasive Thopters that bring death from above. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Gravebreak </b> Use the collect evidence mechanic and raise the dead to support a long-game strategy that gives you extra value whenever a creature card leaves your graveyard. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Battalion </b> This classic Ravnican strategy adds extra punch to aggressive red and white creatures by providing a bonus whenever you attack with three or more of them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Collect Evidence </b> Rapidly fill up your graveyard and collect evidence to power up your spells while amassing permanents that reward you each time you do so."
+    },
     "Events/Event_Desc_Y24WOE_Premier_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> The Frost Queen </b> Control the flow of combat by tapping your opponent's creatures and taking to the sky with fliers.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Enchanting Slumber </b> Assemble a team of flying Faeries and support them with tricky spells and creature removal to win the long game.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> The Dark Piper </b> Create a massive number of Rat tokens to swarm past your opponent's defenses. Be aggressive and take advantage of cards that reward you for your attackers trading off in combat.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Ruby and the Wolf </b> Call forth what lurks in the wilderness of Eldraine , summoning high-powered creatures or enhancing your small creatures with Roles and combat tricks.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Armont and the Beasts </b> Gather an army of creatures and get bonuses for enchanting them with Roles and other Auras, then go all-out when you have the upper hand.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Pale as Snow </b> Make use of the bargain and Role mechanics and get rewarded for your creatures and enchantments going to the graveyard.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> The Magician's Misstep </b> Go aggressive or be more controlling with a flurry of bewitching instants and sorceries to keep your opponent off balance.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Greta, Witch Hunter </b> Creature removal and life gain will help stave off your opponent's attacks until you're able to command the board with big creatures and Food rewards.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Brawl at the Grand Ball </b> Enhance your creatures with Roles and take advantage of the celebration mechanic with low-mana aggressive creatures and spells.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> The Kingdom of Storms </b> Use defensive creatures and spells to buy time while you build up your lands. Reward yourself by casting spells that cost five mana or more to dominate the late game.",
         "translation": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> The Frost Queen </b> Control the flow of combat by tapping your opponent's creatures and taking to the sky with fliers.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Enchanting Slumber </b> Assemble a team of flying Faeries and support them with tricky spells and creature removal to win the long game.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> The Dark Piper </b> Create a massive number of Rat tokens to swarm past your opponent's defenses. Be aggressive and take advantage of cards that reward you for your attackers trading off in combat.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Ruby and the Wolf </b> Call forth what lurks in the wilderness of Eldraine , summoning high-powered creatures or enhancing your small creatures with Roles and combat tricks.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Armont and the Beasts </b> Gather an army of creatures and get bonuses for enchanting them with Roles and other Auras, then go all-out when you have the upper hand.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Pale as Snow </b> Make use of the bargain and Role mechanics and get rewarded for your creatures and enchantments going to the graveyard.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> The Magician's Misstep </b> Go aggressive or be more controlling with a flurry of bewitching instants and sorceries to keep your opponent off balance.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Greta, Witch Hunter </b> Creature removal and life gain will help stave off your opponent's attacks until you're able to command the board with big creatures and Food rewards.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Brawl at the Grand Ball </b> Enhance your creatures with Roles and take advantage of the celebration mechanic with low-mana aggressive creatures and spells.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> The Kingdom of Storms </b> Use defensive creatures and spells to buy time while you build up your lands. Reward yourself by casting spells that cost five mana or more to dominate the late game."
@@ -19074,6 +19242,10 @@
     "Events/Event_Title_AllAccess_Finals_Alt2": {
         "oracleText": "Win Every Card Challenge",
         "translation": "赢任意卡牌挑战"
+    },
+    "Events/Event_Title_April_Fools_2024": {
+        "oracleText": "April Fools' Day Golden Sealed",
+        "translation": "April Fools' Day Golden Sealed"
     },
     "Events/Event_Title_ArenaOpen_Day1": {
         "oracleText": "The Arena Open - Day 1",
@@ -20439,6 +20611,10 @@
         "oracleText": "Quick Draft Murders at Karlov Manor",
         "translation": "卡洛夫庄园谋杀案快速轮抽"
     },
+    "Events/Event_Title_MKM_SecretEvent": {
+        "oracleText": "Totally Normal Event",
+        "translation": "Totally Normal Event"
+    },
     "Events/Event_Title_MKM_Trad_Draft": {
         "oracleText": "Traditional Draft Murders at Karlov Manor",
         "translation": "卡洛夫庄园谋杀案三盘轮抽"
@@ -20482,6 +20658,10 @@
     "Events/Event_Title_MWM_Artisan": {
         "oracleText": "Midweek Magic: Artisan",
         "translation": "周中万智牌：银铁"
+    },
+    "Events/Event_Title_MWM_ArtisanBrawl": {
+        "oracleText": "Midweek Magic: Artisan Brawl",
+        "translation": "Midweek Magic: Artisan Brawl"
     },
     "Events/Event_Title_MWM_BRO_BotDraft": {
         "oracleText": "Midweek Magic: Phantom Bot Draft",
@@ -20562,6 +20742,10 @@
     "Events/Event_Title_MWM_FuturePrecon": {
         "oracleText": "Midweek Magic: Future Precons",
         "translation": "周中万智牌：未来预案"
+    },
+    "Events/Event_Title_MWM_GladiatorPrecons": {
+        "oracleText": "Midweek Magic: Gladiator Community Spotlight",
+        "translation": "Midweek Magic: Gladiator Community Spotlight"
     },
     "Events/Event_Title_MWM_HBG_BotDraft": {
         "oracleText": "Midweek Magic: Phantom Bot Draft",
@@ -20687,6 +20871,10 @@
         "oracleText": "Midweek Magic: Omniscience",
         "translation": "周中万智牌：全知全能"
     },
+    "Events/Event_Title_MWM_OmniscienceDraft": {
+        "oracleText": "Midweek Magic: Omniscience Draft",
+        "translation": "Midweek Magic: Omniscience Draft"
+    },
     "Events/Event_Title_MWM_Omniscience_Dragons": {
         "oracleText": "Midweek Magic: Omniscience Dragons",
         "translation": "周中万智牌：全知全能龙"
@@ -20715,6 +20903,10 @@
         "oracleText": "Midweek Magic: Phantom Bot Draft",
         "translation": "周中万智牌：幻影人机轮抽"
     },
+    "Events/Event_Title_MWM_Sealed": {
+        "oracleText": "Midweek Magic: Phantom Sealed",
+        "translation": "Midweek Magic: Phantom Sealed"
+    },
     "Events/Event_Title_MWM_Singleton": {
         "oracleText": "Midweek Magic: Singleton",
         "translation": "周中万智牌：单卡构筑"
@@ -20734,6 +20926,10 @@
     "Events/Event_Title_MWM_Timeless": {
         "oracleText": "Midweek Magic: Introducing Timeless!",
         "translation": "周中万智牌：迈入永恒！"
+    },
+    "Events/Event_Title_MWM_TimelessPrecons": {
+        "oracleText": "Midweek Magic: Timeless Showcase",
+        "translation": "Midweek Magic: Timeless Showcase"
     },
     "Events/Event_Title_MWM_UltimateShowdown2022": {
         "oracleText": "The Ultimate Showdown",
@@ -20774,6 +20970,10 @@
     "Events/Event_Title_Metagame_Challenge": {
         "oracleText": "Standard Metagame Challenge",
         "translation": "标准环境挑战"
+    },
+    "Events/Event_Title_MixedUp_Ravnica_Premier_Draft": {
+        "oracleText": "Premier Chaos Draft Ravnica",
+        "translation": "Premier Chaos Draft Ravnica"
     },
     "Events/Event_Title_Momir": {
         "oracleText": "Momir's Madness",
@@ -21043,6 +21243,10 @@
         "oracleText": "Standard 2022 Ranked",
         "translation": "标准2022天梯"
     },
+    "Events/Event_Title_Ravnica_Constructed_AA": {
+        "oracleText": "Festival: Ravnica Constructed All-Access",
+        "translation": "Festival: Ravnica Constructed All-Access"
+    },
     "Events/Event_Title_Ravnica_Remix": {
         "oracleText": "Draft Ravnica Remix",
         "translation": "拉尼卡混合轮抽"
@@ -21050,6 +21254,14 @@
     "Events/Event_Title_RebalancedHistoric": {
         "oracleText": "Mirror, Mirror",
         "translation": "魔镜，魔镜"
+    },
+    "Events/Event_Title_RemixDraftArtifact_Premier_Draft": {
+        "oracleText": "Premier Remix Draft: Artifacts",
+        "translation": "Premier Remix Draft: Artifacts"
+    },
+    "Events/Event_Title_RemixDraft_Artifacts_Trad_Draft": {
+        "oracleText": "Traditional Remix Draft: Artifacts",
+        "translation": "Traditional Remix Draft: Artifacts"
     },
     "Events/Event_Title_RoadToWorlds_2020": {
         "oracleText": "Road to Worlds",
@@ -21714,6 +21926,10 @@
     "Events/Event_Title_Y24LCI_Premier_Draft": {
         "oracleText": "Premier Draft Lost Caverns of Ixalan Alchemy",
         "translation": "炼金依夏兰迷窟炼金竞技轮抽"
+    },
+    "Events/Event_Title_Y24MKM_Premier_Draft": {
+        "oracleText": "Premier Draft Murders at Karlov Manor Alchemy",
+        "translation": "Premier Draft Murders at Karlov Manor Alchemy"
     },
     "Events/Event_Title_Y24WOE_Premier_Draft": {
         "oracleText": "Premier Draft Wilds of Eldraine Alchemy",
@@ -23363,6 +23579,14 @@
         "oracleText": "Join between 6am and 8am Pacific on February 18",
         "translation": "在太平洋时间2月18日的早上六点到八点加入"
     },
+    "Events/Tokens/QualifierDay2TokenDescription20240324": {
+        "oracleText": "Join between 6am and 8am Pacific on March 24",
+        "translation": "Join between 6am and 8am Pacific on March 24"
+    },
+    "Events/Tokens/QualifierDay2TokenDescription20240414": {
+        "oracleText": "Join between 6am and 8am Pacific on April 14",
+        "translation": "Join between 6am and 8am Pacific on April 14"
+    },
     "Events/Tokens/QualifierDay2TokenPlural": {
         "oracleText": "Qualifier Day 2",
         "translation": "资格赛 第二天"
@@ -23386,6 +23610,22 @@
     "Events/Tokens/QuickDraftTokenSingular": {
         "oracleText": "Quick Draft Token",
         "translation": "快速轮抽门票"
+    },
+    "Events/Tokens/ScavengerHunt_SecretEvent_Desc": {
+        "oracleText": "You cracked the case! This token unlocks a secret Event somewhere on Arena...",
+        "translation": "You cracked the case! This token unlocks a secret Event somewhere on Arena..."
+    },
+    "Events/Tokens/ScavengerHunt_SecretEvent_Title": {
+        "oracleText": "Totally Normal Event Token",
+        "translation": "Totally Normal Event Token"
+    },
+    "Events/Tokens/ScavengerHunt_SecretEvent_TitlePlural": {
+        "oracleText": "Totally Normal Event Tokens",
+        "translation": "Totally Normal Event Tokens"
+    },
+    "Events/Tokens/ScavengerHunt_SecretEvent_TitleSingular": {
+        "oracleText": "Totally Normal Event Token",
+        "translation": "Totally Normal Event Token"
     },
     "Events/Tokens/SealedTokenDescription": {
         "oracleText": "Use to enter a Sealed or Traditional Sealed event",
@@ -23859,6 +24099,10 @@
         "oracleText": "Alchemy: Ixalan",
         "translation": "炼金：依夏兰"
     },
+    "General/Sets/Y24-MKM": {
+        "oracleText": "Alchemy: Karlov Manor",
+        "translation": "Alchemy: Karlov Manor"
+    },
     "General/Sets/Y24-WOE": {
         "oracleText": "Alchemy: Eldraine",
         "translation": "炼金：艾卓仙踪"
@@ -23986,6 +24230,18 @@
     "Google/StarterBundle_Desc": {
         "oracleText": "5 Assorted Standard Packs, 2500 Gems",
         "translation": "5个各式标准补充包，2500颗宝石"
+    },
+    "Google/bundle_pip_dogmeat_Desc": {
+        "oracleText": "Dogmeat Companion\nDogmeat Sticker Emote\n© 2024 ZMI",
+        "translation": "Dogmeat Companion\nDogmeat Sticker Emote\n© 2024 ZMI"
+    },
+    "Google/bundle_pip_lands_Desc": {
+        "oracleText": "Full Art Plains (2 appearances)\nFull Art Island (2 appearances)\nFull Art Swamp (2 appearances)\nFull Art Mountain (2 appearances)\nFull Art Forest (2 appearances)\n© 2024 ZMI",
+        "translation": "Full Art Plains (2 appearances)\nFull Art Island (2 appearances)\nFull Art Swamp (2 appearances)\nFull Art Mountain (2 appearances)\nFull Art Forest (2 appearances)\n© 2024 ZMI"
+    },
+    "Google/bundle_pip_sleeves_Desc": {
+        "oracleText": "7 Sleeves:\nStrength Bobblehead \nPerception Bobblehead \nEndurance Bobblehead \nCharisma Bobblehead \nIntelligence Bobblehead \nAgility Bobblehead \nLuck Bobblehead \n© 2024 ZMI",
+        "translation": "7 Sleeves:\nStrength Bobblehead \nPerception Bobblehead \nEndurance Bobblehead \nCharisma Bobblehead \nIntelligence Bobblehead \nAgility Bobblehead \nLuck Bobblehead \n© 2024 ZMI"
     },
     "Google/bundle_wildcards_15_0_Description": {
         "oracleText": "Wildcard Bundle:\n12 Rare Wildcards\n4 Mythic Wildcards",
@@ -27835,6 +28091,10 @@
         "oracleText": "Sundering Titan Silver Sleeve",
         "translation": "裂地泰坦白银牌套"
     },
+    "MainNav/DeckBuilder/Sleeves/CardBack_DGM_146774": {
+        "oracleText": "Teysa, Envoy of Ghosts Sleeve",
+        "translation": "Teysa, Envoy of Ghosts Sleeve"
+    },
     "MainNav/DeckBuilder/Sleeves/CardBack_DG_100693": {
         "oracleText": "Damnation Exquisite Sleeve",
         "translation": "诅咒精饰牌套"
@@ -28695,6 +28955,10 @@
         "oracleText": "Spirits' Justice Sleeve",
         "translation": "灵魂判官牌套"
     },
+    "MainNav/DeckBuilder/Sleeves/CardBack_MKM_441453": {
+        "oracleText": "Forensic Thopter Sleeve",
+        "translation": "Forensic Thopter Sleeve"
+    },
     "MainNav/DeckBuilder/Sleeves/CardBack_MKM_442877_A": {
         "oracleText": "Aurelia Suspect Sleeve",
         "translation": "遭疑欧瑞梨牌套"
@@ -28994,6 +29258,34 @@
     "MainNav/DeckBuilder/Sleeves/CardBack_ORI_161828": {
         "oracleText": "Origins Nissa Sleeve",
         "translation": "起源妮莎牌套"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_PIP_437695": {
+        "oracleText": "Strength Bobblehead Sleeve",
+        "translation": "Strength Bobblehead Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_PIP_437696": {
+        "oracleText": "Perception Bobblehead Sleeve",
+        "translation": "Perception Bobblehead Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_PIP_437697": {
+        "oracleText": "Endurance Bobblehead Sleeve",
+        "translation": "Endurance Bobblehead Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_PIP_437700": {
+        "oracleText": "Charisma Bobblehead Sleeve",
+        "translation": "Charisma Bobblehead Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_PIP_437701": {
+        "oracleText": "Intelligence Bobblehead Sleeve",
+        "translation": "Intelligence Bobblehead Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_PIP_437702": {
+        "oracleText": "Agility Bobblehead Sleeve",
+        "translation": "Agility Bobblehead Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_PIP_437703": {
+        "oracleText": "Luck Bobblehead Sleeve",
+        "translation": "Luck Bobblehead Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_PoolParty": {
         "oracleText": "Pool Party Sleeve",
@@ -29576,8 +29868,8 @@
         "translation": "*魂魅拘禁*镶金闪牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_RD_430888": {
-        "oracleText": "Nicol Bolas Stained Glass Sleeve",
-        "translation": "*尼可波拉斯*花窗牌套"
+        "oracleText": "Hall of the Bandit Lord Showcase Sleeve",
+        "translation": "Hall of the Bandit Lord Showcase Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_RD_430889": {
         "oracleText": "Freed from the Real Showcase Sleeve",
@@ -30879,6 +31171,10 @@
         "oracleText": " ",
         "translation": " "
     },
+    "MainNav/DeckFormat/ArtisanBrawl": {
+        "oracleText": "Artisan Brawl",
+        "translation": "Artisan Brawl"
+    },
     "MainNav/DeckFormat/ArtisanFuture": {
         "oracleText": "Future Artisan",
         "translation": "未来银铁"
@@ -31142,6 +31438,14 @@
     "MainNav/DeckFormat/Ravnica": {
         "oracleText": "Ravnica Block",
         "translation": "拉尼卡环境"
+    },
+    "MainNav/DeckFormat/RavnicaALL": {
+        "oracleText": "Ravnica Constructed",
+        "translation": "Ravnica Constructed"
+    },
+    "MainNav/DeckFormat/RavnicaConstructed": {
+        "oracleText": "Ravnica Constructed",
+        "translation": "Ravnica Constructed"
     },
     "MainNav/DeckFormat/RebalancedHistoric": {
         "oracleText": "Mirror, Mirror",
@@ -31436,8 +31740,8 @@
         "translation": "输入的字符串中含有无法收集的牌张：{cardName}"
     },
     "MainNav/DeckManager/Import_Deck_Text": {
-        "oracleText": "Deck successfully imported from clipboard.",
-        "translation": "已成功从剪贴板导入套牌"
+        "oracleText": "Deck \"{name}\" successfully imported from clipboard.",
+        "translation": "Deck \"{name}\" successfully imported from clipboard."
     },
     "MainNav/DeckManager/Import_Deck_Title": {
         "oracleText": "Import Deck",
@@ -32451,6 +32755,10 @@
         "oracleText": "Cosmetic will be a sleeve, companion, or avatar.",
         "translation": "饰品可能是牌套、宠物、头像。"
     },
+    "MainNav/EventRewards/FNMCosmetic_And_Clue": {
+        "oracleText": "Mystery Cosmetic and A Clue",
+        "translation": "Mystery Cosmetic and A Clue"
+    },
     "MainNav/EventRewards/FaithlessLooting": {
         "oracleText": "Faithless Looting",
         "translation": "丧信掠夺"
@@ -33070,6 +33378,10 @@
     "MainNav/EventRewards/Sticker_ONE_Vorinclex_Meal": {
         "oracleText": "Vorinclex Interrupted Sticker Emote",
         "translation": "弗霖凯打断贴纸表情"
+    },
+    "MainNav/EventRewards/Sticker_PIP_Dogmeat_Salute": {
+        "oracleText": "Dogmeat Sticker Emote",
+        "translation": "Dogmeat Sticker Emote"
     },
     "MainNav/EventRewards/Sticker_Posty_Karn_Crowdsurf": {
         "oracleText": "Karn Crowd Surfing Sticker Emote",
@@ -34467,6 +34779,14 @@
         "oracleText": "A Murder Most Foul!",
         "translation": "最恶毒的谋杀案！"
     },
+    "MainNav/HomePage/Carousel/2024_35_0_Store_Desc": {
+        "oracleText": "The case is far from over! Gather more intel in the Store now!",
+        "translation": "The case is far from over! Gather more intel in the Store now!"
+    },
+    "MainNav/HomePage/Carousel/2024_35_0_Store_Title": {
+        "oracleText": "The Mystery Deepens...",
+        "translation": "The Mystery Deepens..."
+    },
     "MainNav/HomePage/Carousel/21_01_Store_Desc": {
         "oracleText": "Take part in the epic Saga of Kaldheim. New Boosters Packs, new Set Mastery Pass, new Showcase Bundles, and more!",
         "translation": "参加史诗般的凯德海姆传奇。新的补充包、新的精研通行证、新的展示套装等等！"
@@ -34706,6 +35026,14 @@
     "MainNav/HomePage/Carousel/Announcements_Title": {
         "oracleText": "MTG Arena Announcements",
         "translation": "MTGA公告"
+    },
+    "MainNav/HomePage/Carousel/April_Companion_Of_The_Month_Desc": {
+        "oracleText": "It's no joke! Squee is back and is ready to join you on the battlefield. Stop by the Store today to check him out.",
+        "translation": "It's no joke! Squee is back and is ready to join you on the battlefield. Stop by the Store today to check him out."
+    },
+    "MainNav/HomePage/Carousel/April_Companion_Of_The_Month_Title": {
+        "oracleText": "Bow Before Squee!",
+        "translation": "Bow Before Squee!"
     },
     "MainNav/HomePage/Carousel/April_PotM_Leaving_Desc": {
         "oracleText": "The Hedron Guardian is about to move back into its containment position. Grab this gritty and gravelly Guardian to keep you safe on the battlefield before it crumbles from the Store.",
@@ -38891,6 +39219,26 @@
         "oracleText": "Your 1k xp reward",
         "translation": "你的 1000 经验奖励"
     },
+    "MainNav/Mailbox/2023_35_0_Y24MKM_AnnouncementWithPacks_Description": {
+        "oracleText": "Just when we thought the case was wrapping up, we've discovered more clues! Take these 3 packs to see if you can string them together and solve the mysterious case of \"How Will These Cards Fit Into My Alchemy Deck\". Enjoy!",
+        "translation": "Just when we thought the case was wrapping up, we've discovered more clues! Take these 3 packs to see if you can string them together and solve the mysterious case of \"How Will These Cards Fit Into My Alchemy Deck\". Enjoy!"
+    },
+    "MainNav/Mailbox/2023_35_0_Y24MKM_AnnouncementWithPacks_Title": {
+        "oracleText": "Alchemy: Karlov Manor Is Here!",
+        "translation": "Alchemy: Karlov Manor Is Here!"
+    },
+    "MainNav/Mailbox/2023_35_0_Y24MKM_PatchNotes_Title": {
+        "oracleText": "2024.35.0 Patch Notes Are Here!",
+        "translation": "2024.35.0 Patch Notes Are Here!"
+    },
+    "MainNav/Mailbox/2023_35_0_Y24MKM_WebReleaseNotes_Description": {
+        "oracleText": "Get a glimpse into the decisions, features, and more for Alchemy: Karlov Manor on Arena by clicking the link below!",
+        "translation": "Get a glimpse into the decisions, features, and more for Alchemy: Karlov Manor on Arena by clicking the link below!"
+    },
+    "MainNav/Mailbox/2023_35_0_Y24MKM_WebReleaseNotes_Title": {
+        "oracleText": "Alchemy: Karlov Manor Release Notes are Here!",
+        "translation": "Alchemy: Karlov Manor Release Notes are Here!"
+    },
     "MainNav/Mailbox/2024_33_60_DP_InboxTest_Desc": {
         "oracleText": "Sign up for the latest news and stay in the loop on redeemable codes delivered straight to your inbox. Active players get their statistics at the end of every set cycle!",
         "translation": "Sign up for the latest news and stay in the loop on redeemable codes delivered straight to your inbox. Active players get their statistics at the end of every set cycle!"
@@ -39759,6 +40107,50 @@
         "oracleText": "Alchemy: Ixalan Release Notes are Here!",
         "translation": "Alchemy: Ixalan Release Notes are Here!"
     },
+    "MainNav/Mailbox/Y24MKM_FastFollowPatchNotes_Title": {
+        "oracleText": "2024.35.10 Patch Notes Are Here!",
+        "translation": "2024.35.10 Patch Notes Are Here!"
+    },
+    "MainNav/Mailbox/Y24MKM_ScavengerHunt_1_Description": {
+        "oracleText": "Hello, detective. It's a pleasure to make your acquaintance.\n\nA mysterious figure has been leaving cryptic clues all over Arena. We'll need your help to crack the case.\n\nSolve the riddle below, and enter the Code in the store for a prize!\n\nThe first clue we found is easy: <b>\"Who is known as the ‘Master Sleuth' on Ravnica?\" </b>\n\nGood luck, detective! More clues may appear in Arena over the next few days, so stay vigilant. We must solve all five clues before we leave Ravnica on April 9th.\n\n--A Friend\n\nPS - Remember! Your code phrases cannot contain spaces.",
+        "translation": "Hello, detective. It's a pleasure to make your acquaintance.\n\nA mysterious figure has been leaving cryptic clues all over Arena. We'll need your help to crack the case.\n\nSolve the riddle below, and enter the Code in the store for a prize!\n\nThe first clue we found is easy: <b>\"Who is known as the ‘Master Sleuth' on Ravnica?\" </b>\n\nGood luck, detective! More clues may appear in Arena over the next few days, so stay vigilant. We must solve all five clues before we leave Ravnica on April 9th.\n\n--A Friend\n\nPS - Remember! Your code phrases cannot contain spaces."
+    },
+    "MainNav/Mailbox/Y24MKM_ScavengerHunt_1_Title": {
+        "oracleText": "Your First Clue!",
+        "translation": "Your First Clue!"
+    },
+    "MainNav/Mailbox/Y24MKM_ScavengerHunt_2_Description": {
+        "oracleText": "Good work tracking down clues so far, detective.\n\nThe only lead we have right now is what you just found in the Store. It's the Dossier card style of a fellow sleuth.\n\n<b>How does it describe the Homicide Investigator's approach to solving crime?</b>\n\nRemember, once you have the answer, enter it as a Code to get a reward. Best of luck.\n\n--A Friend\n\nPS - Remember! Your code phrases cannot contain spaces.",
+        "translation": "Good work tracking down clues so far, detective.\n\nThe only lead we have right now is what you just found in the Store. It's the Dossier card style of a fellow sleuth.\n\n<b>How does it describe the Homicide Investigator's approach to solving crime?</b>\n\nRemember, once you have the answer, enter it as a Code to get a reward. Best of luck.\n\n--A Friend\n\nPS - Remember! Your code phrases cannot contain spaces."
+    },
+    "MainNav/Mailbox/Y24MKM_ScavengerHunt_3_Description": {
+        "oracleText": "Congratulations, detective. You've found the next clue. A mysterious figure left this for us to find outside of Karlov Manor:\n\n<i>\"Across Ravnica, fear has been nurtured,\n\nand an evil plot have been furthered,</i>\n\n<b> as poor Teysa Karlov has been tragically '________'\"</b>\n\nWho would write such a horrible rhyme? Remember once you have the answer to enter it as a Code to get a reward. Good luck, detective! And stay safe.\n\n--A Friend\n\nPS - Remember! Your code phrases cannot contain spaces.",
+        "translation": "Congratulations, detective. You've found the next clue. A mysterious figure left this for us to find outside of Karlov Manor:\n\n<i>\"Across Ravnica, fear has been nurtured,\n\nand an evil plot have been furthered,</i>\n\n<b> as poor Teysa Karlov has been tragically '________'\"</b>\n\nWho would write such a horrible rhyme? Remember once you have the answer to enter it as a Code to get a reward. Good luck, detective! And stay safe.\n\n--A Friend\n\nPS - Remember! Your code phrases cannot contain spaces."
+    },
+    "MainNav/Mailbox/Y24MKM_ScavengerHunt_4_Description": {
+        "oracleText": "Hello again, detective. Thank you for your tireless hunt—we wouldn't be making much headway without you. Here's the next clue:\n\n<b>Enter the passphrase 'Ravnica Lineup' in the Deckbuilder.</b> You will be presented with a number of notable figures. The high and mighty of our fair city. But someone is missing. What is the pattern, and <b>who--or what--is not included in this rogues' gallery?</b>\n\nSubmit your answer into the Code entry in the store, and you'll be well on your way to cracking this case!\n\n<i>PS - If you're stumped, make sure to filter for unowned cards to see all 9 Ravnica legends! And remember, your code phrases cannot contain spaces.</i>\n\n-- A Friend",
+        "translation": "Hello again, detective. Thank you for your tireless hunt—we wouldn't be making much headway without you. Here's the next clue:\n\n<b>Enter the passphrase 'Ravnica Lineup' in the Deckbuilder.</b> You will be presented with a number of notable figures. The high and mighty of our fair city. But someone is missing. What is the pattern, and <b>who--or what--is not included in this rogues' gallery?</b>\n\nSubmit your answer into the Code entry in the store, and you'll be well on your way to cracking this case!\n\n<i>PS - If you're stumped, make sure to filter for unowned cards to see all 9 Ravnica legends! And remember, your code phrases cannot contain spaces.</i>\n\n-- A Friend"
+    },
+    "MainNav/Mailbox/Y24MKM_ScavengerHunt_5_Description": {
+        "oracleText": "Welcome back, detective. Our hunt is almost at its end.\n\n<i>Trostani is really three sisters\nCim, Oba, and Ses\nWithin Vitu-Ghazi discord festers\nAnd one dryad must confess</i>\n \n<i>Blooms burning in rage\nWith a sickly aroma\nThe sweet pollen shows</i>\n<b>That the killer was ___</b>\n\nOnce you have the answer, enter it as a Code for your final reward.\n\n--A Friend\n\nPS - Remember! Your code phrases cannot contain spaces.",
+        "translation": "Welcome back, detective. Our hunt is almost at its end.\n\n<i>Trostani is really three sisters\nCim, Oba, and Ses\nWithin Vitu-Ghazi discord festers\nAnd one dryad must confess</i>\n \n<i>Blooms burning in rage\nWith a sickly aroma\nThe sweet pollen shows</i>\n<b>That the killer was ___</b>\n\nOnce you have the answer, enter it as a Code for your final reward.\n\n--A Friend\n\nPS - Remember! Your code phrases cannot contain spaces."
+    },
+    "MainNav/Mailbox/Y24MKM_ScavengerHunt_5_Title": {
+        "oracleText": "Your Final Clue",
+        "translation": "Your Final Clue"
+    },
+    "MainNav/Mailbox/Y24MKM_ScavengerHunt_AlmostGotIt_Description": {
+        "oracleText": "You almost got the right answer! You're close, detective, don't give up.\n\nTry finding a synonym to what you've already entered. You've got this!\n\n--A Friend\n\nPS - Remember! Your code phrases cannot contain spaces.",
+        "translation": "You almost got the right answer! You're close, detective, don't give up.\n\nTry finding a synonym to what you've already entered. You've got this!\n\n--A Friend\n\nPS - Remember! Your code phrases cannot contain spaces."
+    },
+    "MainNav/Mailbox/Y24MKM_ScavengerHunt_AlmostGotIt_Title": {
+        "oracleText": "Almost There!",
+        "translation": "Almost There!"
+    },
+    "MainNav/Mailbox/Y24MKM_ScavengerHunt_Generic_Title": {
+        "oracleText": "Your Next Clue",
+        "translation": "Your Next Clue"
+    },
     "MainNav/Mailbox/Y24WOE_Announcement_Description": {
         "oracleText": "Even though the Wicked Slumber has been overcome, we can't rest just yet! Take these 3 packs to help get you out of the woods for good.",
         "translation": "Even though the Wicked Slumber has been overcome, we can't rest just yet! Take these 3 packs to help get you out of the woods for good."
@@ -39988,8 +40380,8 @@
         "translation": "黄金补充包包含6张稀有牌，每张有正常的概率升级成为秘稀稀有度。"
     },
     "MainNav/PackProgressMeter/CallToAction": {
-        "oracleText": "Purchase {remaining} more <i>Murders at Karlov Manor</i> packs to earn a Golden Pack.",
-        "translation": "再购买{remaining}包 <i>卡洛夫庄园谋杀案</i> 补充包便可获得一个黄金补充包。"
+        "oracleText": "Purchase {remaining} more <i>Alchemy: Karlov Manor</i> and <i>Murders at Karlov Manor</i> packs to earn a Golden Pack.",
+        "translation": "Purchase {remaining} more <i>Alchemy: Karlov Manor</i> and <i>Murders at Karlov Manor</i> packs to earn a Golden Pack."
     },
     "MainNav/PackProgressMeter/FullDetailsLink": {
         "oracleText": "Full Details",
@@ -40366,6 +40758,10 @@
     "MainNav/PetNames/ONE_Mastery_3": {
         "oracleText": "Porcelain Mite",
         "translation": "瓷体虫械"
+    },
+    "MainNav/PetNames/PIP_Dogmeat_1": {
+        "oracleText": "Dogmeat",
+        "translation": "Dogmeat"
     },
     "MainNav/PetNames/PuppetJace": {
         "oracleText": "Puppet Jace",
@@ -45611,6 +46007,14 @@
         "oracleText": "Alchemist Bundle",
         "translation": "炼金师套装"
     },
+    "MainNav/Store/Bundles/Bundle_Alchemist_MKM_Desc": {
+        "oracleText": "20x <i>Alchemy: Karlov Manor</i> Boosters",
+        "translation": "20x <i>Alchemy: Karlov Manor</i> Boosters"
+    },
+    "MainNav/Store/Bundles/Bundle_Alchemist_MKM_Name": {
+        "oracleText": "Alchemist Bundle",
+        "translation": "Alchemist Bundle"
+    },
     "MainNav/Store/Bundles/Bundle_Alchemist_NEO_Desc": {
         "oracleText": "20x <i>Alchemy: Kamigawa</i> Boosters",
         "translation": "20包「炼金：神河」"
@@ -47303,6 +47707,14 @@
         "oracleText": "Rogues' Gallery",
         "translation": "罪犯图册"
     },
+    "MainNav/Store/Bundles/Bundle_MKM_Shocklands_Desc": {
+        "oracleText": "Hallowed Fountain Borderless Card Style\nWatery Grave Borderless Card Style\nBlood Crypt Borderless Card Style\nStomping Ground Borderless Card Style\nTemple Garden Borderless Card Style\nGodless Shrine Borderless Card Style\nSteam Vents Borderless Card Style\nOvergrown Tomb Borderless Card Style\nSacred Foundry Borderless Card Style\nBreeding Pool Borderless Card Style",
+        "translation": "Hallowed Fountain Borderless Card Style\nWatery Grave Borderless Card Style\nBlood Crypt Borderless Card Style\nStomping Ground Borderless Card Style\nTemple Garden Borderless Card Style\nGodless Shrine Borderless Card Style\nSteam Vents Borderless Card Style\nOvergrown Tomb Borderless Card Style\nSacred Foundry Borderless Card Style\nBreeding Pool Borderless Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_MKM_Shocklands_Name": {
+        "oracleText": "Borderless Shocklands",
+        "translation": "Borderless Shocklands"
+    },
     "MainNav/Store/Bundles/Bundle_MKM_Stickers_Desc": {
         "oracleText": "Investigate Sticker Emote\nConnect the Dots Sticker Emote\nUnmasking Sticker Emote",
         "translation": "探查贴纸表情\n连点成线贴纸表情\n揭开面纱贴纸表情"
@@ -47334,6 +47746,14 @@
     "MainNav/Store/Bundles/Bundle_MKM_Story3_Name": {
         "oracleText": "Climactic Confrontation",
         "translation": "高潮对峙"
+    },
+    "MainNav/Store/Bundles/Bundle_MKM_Thopter_Desc": {
+        "oracleText": "Forensic Thopter Companion\nForensic Thopter Sleeve",
+        "translation": "Forensic Thopter Companion\nForensic Thopter Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_MKM_Thopter_Name": {
+        "oracleText": "Forensic Thopter Bundle",
+        "translation": "Forensic Thopter Bundle"
     },
     "MainNav/Store/Bundles/Bundle_MOM_FullArtLands_Desc": {
         "oracleText": "Full Art Plains\nFull Art Plains\nFull Art Island \nFull Art Island\nFull Art Swamp\nFull Art Swamp\nFull Art Mountain\nFull Art Mountain\nFull Art Forest\nFull Art Forest",
@@ -48735,6 +49155,54 @@
         "oracleText": "Alchemy Styles: Primal Might",
         "translation": "炼金样式：原初之力"
     },
+    "MainNav/Store/Bundles/Bundle_Y24MKM_DA1_Desc": {
+        "oracleText": "Construction Arsonist Depth Art Card Style\nGuildpact Greenwalker Depth Art Card Style\nLurking Spinecrawler Depth Art Card Style\nMapping the Maze Depth Art Card Style\nScrutiny of the Guildpact Depth Art Card Style",
+        "translation": "Construction Arsonist Depth Art Card Style\nGuildpact Greenwalker Depth Art Card Style\nLurking Spinecrawler Depth Art Card Style\nMapping the Maze Depth Art Card Style\nScrutiny of the Guildpact Depth Art Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y24MKM_DA1_Name": {
+        "oracleText": "Mysteries Incorporated",
+        "translation": "Mysteries Incorporated"
+    },
+    "MainNav/Store/Bundles/Bundle_Y24MKM_DA2_Desc": {
+        "oracleText": "Roalesk, Prime Specimen Depth Art Card Style\nTajic, Legion's Valor Depth Art Card Style\nEmmara, Voice of the Conclave Depth Art Card Style\nRampaging Ursaguana Depth Art Card Style\nSleuth Instructor Depth Art Card Style\nSproutwatch Dryad Depth Art Card Style",
+        "translation": "Roalesk, Prime Specimen Depth Art Card Style\nTajic, Legion's Valor Depth Art Card Style\nEmmara, Voice of the Conclave Depth Art Card Style\nRampaging Ursaguana Depth Art Card Style\nSleuth Instructor Depth Art Card Style\nSproutwatch Dryad Depth Art Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y24MKM_DA2_Name": {
+        "oracleText": "Shady Characters",
+        "translation": "Shady Characters"
+    },
+    "MainNav/Store/Bundles/Bundle_Y24MKM_DA3_Desc": {
+        "oracleText": "Excogitator Sphinx Depth Art Card Style\nOminous Lockbox Depth Art Card Style\nRelics of the Rubblebelt Depth Art Card Style\nEmporium Thopterist Depth Art Card Style\nScour the Scene Depth Art Card Style\nWoodland Investigation Depth Art Card Style",
+        "translation": "Excogitator Sphinx Depth Art Card Style\nOminous Lockbox Depth Art Card Style\nRelics of the Rubblebelt Depth Art Card Style\nEmporium Thopterist Depth Art Card Style\nScour the Scene Depth Art Card Style\nWoodland Investigation Depth Art Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y24MKM_DA3_Name": {
+        "oracleText": "Tools of Investigation",
+        "translation": "Tools of Investigation"
+    },
+    "MainNav/Store/Bundles/Bundle_Y24MKM_DA4_Desc": {
+        "oracleText": "Perforator Crocodile Depth Art Card Style\nCackling Observer Depth Art Card Style\nFurgul, Quag Nurturer Depth Art Card Style\nSpotlight Falcon Depth Art Card Style\nVeko, Death's Doorkeeper Depth Art Card Style\nSnarlfang Vermin Depth Art Card Style",
+        "translation": "Perforator Crocodile Depth Art Card Style\nCackling Observer Depth Art Card Style\nFurgul, Quag Nurturer Depth Art Card Style\nSpotlight Falcon Depth Art Card Style\nVeko, Death's Doorkeeper Depth Art Card Style\nSnarlfang Vermin Depth Art Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y24MKM_DA4_Name": {
+        "oracleText": "Deadly Business",
+        "translation": "Deadly Business"
+    },
+    "MainNav/Store/Bundles/Bundle_Y24MKM_DA5_Desc": {
+        "oracleText": "Juggle the Performance Depth Art Card Style\nIzzet Polarizer Depth Art Card Style\nThought-String Analyst Depth Art Card Style\nConcert Kaboomist Depth Art Card Style\nShove Aside Depth Art Card Style",
+        "translation": "Juggle the Performance Depth Art Card Style\nIzzet Polarizer Depth Art Card Style\nThought-String Analyst Depth Art Card Style\nConcert Kaboomist Depth Art Card Style\nShove Aside Depth Art Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y24MKM_DA5_Name": {
+        "oracleText": "Sinister Spellcraft",
+        "translation": "Sinister Spellcraft"
+    },
+    "MainNav/Store/Bundles/Bundle_Y24MKM_ScavengerHuntStyle_Desc": {
+        "oracleText": "Homicide Investigator Dossier Card Style\nA Clue?",
+        "translation": "Homicide Investigator Dossier Card Style\nA Clue?"
+    },
+    "MainNav/Store/Bundles/Bundle_Y24MKM_ScavengerHuntStyle_Name": {
+        "oracleText": "Homicide Investigator Mystery Bundle",
+        "translation": "Homicide Investigator Mystery Bundle"
+    },
     "MainNav/Store/Bundles/Bundle_Y24WOE_DA1_Desc": {
         "oracleText": "Porcine Portent Card Style\nFirst Little Pig Card Style\nSecond Little Pig Card Style\nThird Little Pig Card Style\nDrover of the Swine Card Style\nSwine Rebellion Card Style\nOvercooked Card Style",
         "translation": "Porcine Portent Card Style\nFirst Little Pig Card Style\nSecond Little Pig Card Style\nThird Little Pig Card Style\nDrover of the Swine Card Style\nSwine Rebellion Card Style\nOvercooked Card Style"
@@ -48838,6 +49306,30 @@
     "MainNav/Store/Bundles/WAR_PreOrder_Description": {
         "oracleText": "50 War of the Spark Packs\nWar of the Spark Sleeve\n1x Liliana, Dreadhorde General\nLiliana, Dreadhorde General Card Style",
         "translation": "50个火花之战补充包\n火花之战牌套\n1x震惧军将莉莲娜\n震惧军将莉莲娜卡牌外观"
+    },
+    "MainNav/Store/Bundles/bundle_pip_dogmeat_Desc": {
+        "oracleText": "Dogmeat Companion\nDogmeat Sticker Emote\n© 2024 ZMI",
+        "translation": "Dogmeat Companion\nDogmeat Sticker Emote\n© 2024 ZMI"
+    },
+    "MainNav/Store/Bundles/bundle_pip_dogmeat_Name": {
+        "oracleText": "<i>Fallout</i>: Dogmeat Bundle",
+        "translation": "<i>Fallout</i>: Dogmeat Bundle"
+    },
+    "MainNav/Store/Bundles/bundle_pip_lands_Desc": {
+        "oracleText": "<i>Fallout</i> Full Art Plains (2 appearances)\n<i>Fallout</i> Full Art Island (2 appearances)\n<i>Fallout</i> Full Art Swamp (2 appearances)\n<i>Fallout</i> Full Art Mountain (2 appearances)\n<i>Fallout</i> Full Art Forest (2 appearances)\n© 2024 ZMI",
+        "translation": "<i>Fallout</i> Full Art Plains (2 appearances)\n<i>Fallout</i> Full Art Island (2 appearances)\n<i>Fallout</i> Full Art Swamp (2 appearances)\n<i>Fallout</i> Full Art Mountain (2 appearances)\n<i>Fallout</i> Full Art Forest (2 appearances)\n© 2024 ZMI"
+    },
+    "MainNav/Store/Bundles/bundle_pip_lands_Name": {
+        "oracleText": "<i>Fallout</i>: Full Art Lands Bundle",
+        "translation": "<i>Fallout</i>: Full Art Lands Bundle"
+    },
+    "MainNav/Store/Bundles/bundle_pip_sleeves_Desc": {
+        "oracleText": "Strength Bobblehead Sleeve\nPerception Bobblehead Sleeve\nEndurance Bobblehead Sleeve\nCharisma Bobblehead Sleeve\nIntelligence Bobblehead Sleeve\nAgility Bobblehead Sleeve\nLuck Bobblehead Sleeve\n© 2024 ZMI",
+        "translation": "Strength Bobblehead Sleeve\nPerception Bobblehead Sleeve\nEndurance Bobblehead Sleeve\nCharisma Bobblehead Sleeve\nIntelligence Bobblehead Sleeve\nAgility Bobblehead Sleeve\nLuck Bobblehead Sleeve\n© 2024 ZMI"
+    },
+    "MainNav/Store/Bundles/bundle_pip_sleeves_Name": {
+        "oracleText": "<i>Fallout</i>: Sleeves Bundle",
+        "translation": "<i>Fallout</i>: Sleeves Bundle"
     },
     "MainNav/Store/Bundles/bundle_wildcards_15_0_Desc": {
         "oracleText": "12 Rare Wildcards\n4 Mythic Wildcards",
@@ -49998,6 +50490,10 @@
     "MainNav/Store/Tags/9Styles": {
         "oracleText": "+9 Card Styles",
         "translation": "+9张卡牌样式"
+    },
+    "MainNav/Store/Tags/AClue": {
+        "oracleText": "A Clue?",
+        "translation": "A Clue?"
     },
     "MainNav/Store/Tags/AprilOnly": {
         "oracleText": "April Only",
@@ -51460,8 +51956,8 @@
         "translation": "俄佐立元老院负责制定、完善和执行全拉尼卡都要遵守的全面法律规范。"
     },
     "Match/QueueTips/Queue_Tip_226": {
-        "oracleText": "Behind the facades of religious hierarchy and banking operations, The Orzhov Syndicate is, at heart, an organized crime ring with its fingers in every business across the plane.",
-        "translation": "在宗教等级制度和银行业务的表象背后，欧佐夫集团本质上是一个有组织的犯罪团伙，涉足整个位面的每一项业务。"
+        "oracleText": "Behind the facade of religious hierarchy, the Orzhov Syndicate is at heart an organized crime ring with connections to every business across the plane.",
+        "translation": "Behind the facade of religious hierarchy, the Orzhov Syndicate is at heart an organized crime ring with connections to every business across the plane."
     },
     "Match/QueueTips/Queue_Tip_227": {
         "oracleText": "The spies and secretkeepers of the Dimir once ran the information trade in Ravnica. Since the Phyrexian invasion, they have retreated into the shadows--some even claim they don't exist any more.",
@@ -56758,6 +57254,18 @@
     "Xsolla/XL_Legal": {
         "oracleText": "**Charity Item: Net proceeds donated to Extra Life benefiting Seattle Children's Hospital; purchase price less transaction fees.",
         "translation": "**慈善项目：捐赠给额外生命的净收益，将使西雅图儿童医院受益；购买价格减去交易费用。"
+    },
+    "Xsolla/bundle_pip_dogmeat_Desc": {
+        "oracleText": "Fallout Dogmeat Bundle: Dogmeat Companion, Dogmeat Sticker Emote",
+        "translation": "Fallout Dogmeat Bundle: Dogmeat Companion, Dogmeat Sticker Emote"
+    },
+    "Xsolla/bundle_pip_lands_Desc": {
+        "oracleText": "Fallout Full Art Basic Lands: Full Art Plains, Full Art Island, Full Art Swamp, Full Art Mountain, Full Art Forest (2 appearances for each)",
+        "translation": "Fallout Full Art Basic Lands: Full Art Plains, Full Art Island, Full Art Swamp, Full Art Mountain, Full Art Forest (2 appearances for each)"
+    },
+    "Xsolla/bundle_pip_sleeves_Desc": {
+        "oracleText": "Fallout Sleeves: Strength Bobblehead Sleeve. Perception Bobblehead Sleeve, Endurance Bobblehead Sleeve, Charisma Bobblehead Sleeve, Intelligence Bobblehead Sleeve, Agility Bobblehead Sleeve, Luck Bobblehead Sleeve",
+        "translation": "Fallout Sleeves: Strength Bobblehead Sleeve. Perception Bobblehead Sleeve, Endurance Bobblehead Sleeve, Charisma Bobblehead Sleeve, Intelligence Bobblehead Sleeve, Agility Bobblehead Sleeve, Luck Bobblehead Sleeve"
     },
     "Xsolla/bundle_wildcards_15_0_Description": {
         "oracleText": "Wildcard Bundle: 12 Rare Wildcards, 4 Mythic Wildcards",
