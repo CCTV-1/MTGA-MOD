@@ -1,6 +1,6 @@
-From eeeb9c148324b03c410fe05e2add519a28dbb929 Mon Sep 17 00:00:00 2001
+From 8904c59c1febfb97be5551b6290820075ff8d6cb Mon Sep 17 00:00:00 2001
 From: CCTV-1 <script.tar.gz@gmail.com>
-Date: Thu, 8 Feb 2024 12:13:50 +0800
+Date: Mon, 8 Apr 2024 19:35:17 +0800
 Subject: [PATCH] mod patch.
 
 ---
@@ -21,7 +21,7 @@ Subject: [PATCH] mod patch.
  MTGA.Loc/MTGALocalizable.cs                   |  15 +-
  MatchManager.cs                               |  31 +-
  Meta_CDC.cs                                   |  11 +
- ModManager.cs                                 | 334 ++++++++++++++++++
+ ModManager.cs                                 | 336 ++++++++++++++++++
  SearchAndFilterBar.cs                         |   1 +
  SetCollectionScreenView.cs                    |   1 +
  SettingsPanelGraphics.cs                      |   2 +-
@@ -29,6 +29,7 @@ Subject: [PATCH] mod patch.
  Spinner_OptionSelector.cs                     |   1 +
  StoreItemBase.cs                              |   1 +
  SystemMessageView.cs                          |   3 +
+ Wizards.Mtga/NetDeckFolderDataProvider.cs     |  11 +-
  .../CDCExtraFrameDetailFiller.cs              |   1 +
  .../FieldFillerUtils.cs                       |   8 +-
  .../ClassAbilityTextbox.cs                    |   5 +
@@ -41,11 +42,11 @@ Subject: [PATCH] mod patch.
  Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs      |   1 +
  WrapperDeckBuilder.cs                         |   2 +-
  WrapperDeckUtilities.cs                       |  29 +-
- 37 files changed, 609 insertions(+), 87 deletions(-)
+ 38 files changed, 620 insertions(+), 89 deletions(-)
  create mode 100644 ModManager.cs
 
 diff --git a/AbilityHangerBase.cs b/AbilityHangerBase.cs
-index f1cf7ab..3bb15e9 100644
+index dbeb24d..ab11ffd 100644
 --- a/AbilityHangerBase.cs
 +++ b/AbilityHangerBase.cs
 @@ -61,6 +61,8 @@ public class AbilityHangerBase : HangerBase
@@ -57,7 +58,7 @@ index f1cf7ab..3bb15e9 100644
  	public bool IsDirty { get; set; }
  
  	public override bool Flipped
-@@ -97,6 +99,33 @@ public class AbilityHangerBase : HangerBase
+@@ -98,6 +100,33 @@ public class AbilityHangerBase : HangerBase
  		_multiFaceHangerConfigProvider = new MultiFaceHangerConfigProvider(cardDatabase.ClientLocProvider, cardDatabase.GreLocProvider, _assetLookupSystem, _cardDatabase, currentEventFormat, genericObjectPool);
  		_faceInfoGenerator = faceInfoGenerator;
  		SpawnHangerView();
@@ -91,7 +92,7 @@ index f1cf7ab..3bb15e9 100644
  	}
  
  	private void SpawnHangerView()
-@@ -221,6 +250,17 @@ public class AbilityHangerBase : HangerBase
+@@ -222,6 +251,17 @@ public class AbilityHangerBase : HangerBase
  	protected virtual void AddHangersInternal(BASE_CDC cardView, ICardDataAdapter sourceModel, HangerSituation situation)
  	{
  		ICardDataAdapter model = cardView.Model;
@@ -123,10 +124,10 @@ index 707aa9e..c23e917 100644
  
  	public bool HasRole_Debugging()
 diff --git a/AdvancedFiltersView.cs b/AdvancedFiltersView.cs
-index 99e5b44..975cb95 100644
+index 8db34a8..2e2aa4a 100644
 --- a/AdvancedFiltersView.cs
 +++ b/AdvancedFiltersView.cs
-@@ -136,6 +136,8 @@ public class AdvancedFiltersView : MonoBehaviour
+@@ -137,6 +137,8 @@ public class AdvancedFiltersView : MonoBehaviour
  				component.sortingLayerName = "Foreground";
  			}
  		}
@@ -224,7 +225,7 @@ index f191488..fc897e6 100644
  		_meshRendererReferenceLoaders = new MeshRendererReferenceLoader[_deckBoxRenderers.Length];
  		for (int i = 0; i < _deckBoxRenderers.Length; i++)
 diff --git a/DeckManagerController.cs b/DeckManagerController.cs
-index 3bdce0a..fe8b566 100644
+index 5f4842a..5f89bd5 100644
 --- a/DeckManagerController.cs
 +++ b/DeckManagerController.cs
 @@ -391,9 +391,13 @@ public class DeckManagerController : NavContentController
@@ -257,7 +258,7 @@ index 95196f9..f5b0f7f 100644
  
  	private void OnEnable()
 diff --git a/FriendChallengeBladeWidget.cs b/FriendChallengeBladeWidget.cs
-index 36334ad..02a02f4 100644
+index ea5e6fa..6eb61ce 100644
 --- a/FriendChallengeBladeWidget.cs
 +++ b/FriendChallengeBladeWidget.cs
 @@ -115,6 +115,7 @@ public class FriendChallengeBladeWidget : PlayBladeWidget
@@ -520,10 +521,10 @@ index ce12467..3e8d569 100644
  }
 diff --git a/ModManager.cs b/ModManager.cs
 new file mode 100644
-index 0000000..3e272af
+index 0000000..21d8d42
 --- /dev/null
 +++ b/ModManager.cs
-@@ -0,0 +1,334 @@
+@@ -0,0 +1,336 @@
 +using System;
 +using System.Collections.Generic;
 +using System.IO;
@@ -802,6 +803,8 @@ index 0000000..3e272af
 +		public DraftDeckColor draftDeckColor = DraftDeckColor.NONE;
 +
 +		public bool alwayExportEnglishDeck = false;
++
++        public bool displayNetDeckFolders = true;
 +	}
 +
 +	[Serializable]
@@ -896,10 +899,10 @@ index cbfd274..476c267 100644
  			"pt-BR" => "Português\u00a0brasileiro", 
  			"ru" => "Русский", 
 diff --git a/SideboardInterface.cs b/SideboardInterface.cs
-index 89133a5..03de197 100644
+index 686f53f..b8219d3 100644
 --- a/SideboardInterface.cs
 +++ b/SideboardInterface.cs
-@@ -114,6 +114,9 @@ public class SideboardInterface : MonoBehaviour
+@@ -119,6 +119,9 @@ public class SideboardInterface : MonoBehaviour
  
  	private void OnDestroy()
  	{
@@ -947,6 +950,28 @@ index 2b06b94..33c9744 100644
  	}
  
  	public void Show()
+diff --git a/Wizards.Mtga/NetDeckFolderDataProvider.cs b/Wizards.Mtga/NetDeckFolderDataProvider.cs
+index f4596e6..67a13cb 100644
+--- a/Wizards.Mtga/NetDeckFolderDataProvider.cs
++++ b/Wizards.Mtga/NetDeckFolderDataProvider.cs
+@@ -54,8 +54,15 @@ namespace Wizards.Mtga
+ 			{
+ 				SimpleLog.LogError("Attempting to get NetDeckFolders before NetDeckFolderDataProvider is initialized.");
+ 			}
+-			IEnumerable<NetDeckFolder> netDeckFolders = _netDeckFolders;
+-			return netDeckFolders ?? Enumerable.Empty<NetDeckFolder>();
++			if (ModManager.Instance.config.displayNetDeckFolders)
++			{
++				IEnumerable<NetDeckFolder> netDeckFolders = _netDeckFolders;
++				return netDeckFolders ?? Enumerable.Empty<NetDeckFolder>();
++			}
++			else
++			{
++				return Enumerable.Empty<NetDeckFolder>();
++			}
+ 		}
+ 	}
+ }
 diff --git a/Wotc.Mtga.CardParts.FieldFillers/CDCExtraFrameDetailFiller.cs b/Wotc.Mtga.CardParts.FieldFillers/CDCExtraFrameDetailFiller.cs
 index da68f84..847a4f5 100644
 --- a/Wotc.Mtga.CardParts.FieldFillers/CDCExtraFrameDetailFiller.cs
@@ -1178,7 +1203,7 @@ index f09becd..37b81da 100644
  			DraftId = draftId;
  		}
 diff --git a/WrapperDeckBuilder.cs b/WrapperDeckBuilder.cs
-index ee12fd9..a0d2f48 100644
+index dddc300..f8aa97b 100644
 --- a/WrapperDeckBuilder.cs
 +++ b/WrapperDeckBuilder.cs
 @@ -251,7 +251,7 @@ public class WrapperDeckBuilder : NavContentController
@@ -1191,10 +1216,10 @@ index ee12fd9..a0d2f48 100644
  			AudioManager.PlayAudio(WwiseEvents.sfx_ui_generic_click, base.gameObject);
  		}
 diff --git a/WrapperDeckUtilities.cs b/WrapperDeckUtilities.cs
-index ed96dcb..89963c8 100644
+index e1b17b9..4e8ece2 100644
 --- a/WrapperDeckUtilities.cs
 +++ b/WrapperDeckUtilities.cs
-@@ -354,30 +354,51 @@ public static class WrapperDeckUtilities
+@@ -356,30 +356,51 @@ public static class WrapperDeckUtilities
  
  	private static string GetMainLabel(IClientLocProvider localizationManager)
  	{
@@ -1242,12 +1267,12 @@ index ed96dcb..89963c8 100644
  		foreach (CardInDeck item in cardCollection)
  		{
  			CardPrintingData cardPrintingById = db.CardDataProvider.GetCardPrintingById(item.Id);
--			builder.AppendLine(string.Format("{0} {1} ({2}) {3}", item.Quantity, (Languages.CurrentLanguage == "ja-JP") ? RemoveFurigana(db.GreLocProvider.GetLocalizedText(cardPrintingById.TitleId, null, formatted: false)) : db.GreLocProvider.GetLocalizedText(cardPrintingById.TitleId, null, formatted: false), cardPrintingById.ExpansionCode, cardPrintingById.CollectorNumber));
-+			builder.AppendLine(string.Format("{0} {1} ({2}) {3}", item.Quantity, (Languages.CurrentLanguage == "ja-JP") ? RemoveFurigana(db.GreLocProvider.GetLocalizedText(cardPrintingById.TitleId, overrideLanguageCode, formatted: false)) : db.GreLocProvider.GetLocalizedText(cardPrintingById.TitleId, overrideLanguageCode, formatted: false), cardPrintingById.ExpansionCode, cardPrintingById.CollectorNumber));
+-			builder.AppendLine($"{item.Quantity} {db.GreLocProvider.GetLocalizedText(cardPrintingById.TitleId, null, formatted: false)} ({cardPrintingById.ExpansionCode}) {cardPrintingById.CollectorNumber}");
++			builder.AppendLine($"{item.Quantity} {db.GreLocProvider.GetLocalizedText(cardPrintingById.TitleId, overrideLanguageCode, formatted: false)} ({cardPrintingById.ExpansionCode}) {cardPrintingById.CollectorNumber}");
  		}
  	}
  
-@@ -613,7 +634,11 @@ public static class WrapperDeckUtilities
+@@ -619,7 +640,11 @@ public static class WrapperDeckUtilities
  
  	private static IReadOnlyList<CardPrintingData> GetPrintingsByLocalizedTitle(CardDatabase cardDatabase, string title)
  	{
@@ -1261,5 +1286,5 @@ index ed96dcb..89963c8 100644
  		{
  			CardPrintingData cardPrintingData = printingsByLocalizedTitle.FirstOrDefault((CardPrintingData c) => !c.IsPrimaryCard && c.DefunctRebalancedCardLink != 0 && cardDatabase.CardDataProvider.GetCardPrintingById(c.DefunctRebalancedCardLink).IsPrimaryCard);
 -- 
-2.43.0
+2.44.0
 
