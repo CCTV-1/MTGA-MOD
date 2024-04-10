@@ -15,6 +15,7 @@ ExtraLocalizationTexts: dict[int:dict[str, str]] = {
     9000003: {'enUS': 'Skeleton Archer', 'jaJP': '骷髅妖／弓箭手'},
     9000004: {'enUS': 'Dragon Egg', 'jaJP': '龙／蛋'},
     9000005: {'enUS': 'Phyrexian Pegasus', 'jaJP': '非瑞人／飞马'},
+    9000006: {'enUS': 'Giant Beaver', 'jaJP': '巨人／河狸'},
     #title text
     10000000: {'enUS': 'Charge', 'jaJP': '冲锋'},
 }
