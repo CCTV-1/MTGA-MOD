@@ -1,10 +1,10 @@
-From a255ed0042238fb2cd46ccf98aeefcb296a329c8 Mon Sep 17 00:00:00 2001
+From a0c09efc6dee3cd2a98cb529cb838e59b6103daf Mon Sep 17 00:00:00 2001
 From: CCTV-1 <script.tar.gz@gmail.com>
-Date: Wed, 10 Apr 2024 11:46:52 +0800
+Date: Wed, 10 Apr 2024 14:55:50 +0800
 Subject: [PATCH] mod patch.
 
 ---
- AbilityHangerBase.cs                          |  40 +++
+ AbilityHangerBase.cs                          |  40 ++
  AccountInformation.cs                         |   2 +-
  AdvancedFiltersView.cs                        |   2 +
  AutoLandsToggle.cs                            |   6 +
@@ -21,7 +21,7 @@ Subject: [PATCH] mod patch.
  MTGA.Loc/MTGALocalizable.cs                   |  15 +-
  MatchManager.cs                               |  31 +-
  Meta_CDC.cs                                   |  11 +
- ModManager.cs                                 | 338 ++++++++++++++++++
+ ModManager.cs                                 | 349 ++++++++++++++++++
  SearchAndFilterBar.cs                         |   1 +
  SetCollectionScreenView.cs                    |   1 +
  SettingsPanelGraphics.cs                      |   2 +-
@@ -37,13 +37,13 @@ Subject: [PATCH] mod patch.
  .../TableAbilityTextbox.cs                    |   3 +-
  .../TextboxSubComponentBase.cs                |   9 +-
  Wotc.Mtga.Cards.Text/Utilities.cs             |  16 +-
- .../AutoTargetingSolution.cs                  |  16 +
+ .../AutoTargetingSolution.cs                  |  27 ++
  Wotc.Mtga.Loc/Languages.cs                    |  16 +-
  .../DraftContentController.cs                 |  29 +-
  Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs      |   1 +
  WrapperDeckBuilder.cs                         |   2 +-
  WrapperDeckUtilities.cs                       |  29 +-
- 39 files changed, 638 insertions(+), 94 deletions(-)
+ 39 files changed, 660 insertions(+), 94 deletions(-)
  create mode 100644 ModManager.cs
 
 diff --git a/AbilityHangerBase.cs b/AbilityHangerBase.cs
@@ -522,10 +522,10 @@ index ce12467..3e8d569 100644
  }
 diff --git a/ModManager.cs b/ModManager.cs
 new file mode 100644
-index 0000000..3162b4f
+index 0000000..c5a1136
 --- /dev/null
 +++ b/ModManager.cs
-@@ -0,0 +1,338 @@
+@@ -0,0 +1,349 @@
 +using System;
 +using System.Collections.Generic;
 +using System.IO;
@@ -564,6 +564,10 @@ index 0000000..3162b4f
 +							{
 +								ModManager.instance.config.draftDeckColor = DraftDeckColor.NONE;
 +							}
++                            if (instance.config.autoSelectPlayer > SelectPlayer.OPPONENT)
++                            {
++                                instance.config.autoSelectPlayer = SelectPlayer.INVALID;
++                            }
 +
 +							if (ModManager.instance.config.userSkillLevel != UserSkillLevel.NONE)
 +							{
@@ -764,6 +768,13 @@ index 0000000..3162b4f
 +		WUBRG
 +	}
 +
++    public enum SelectPlayer : uint
++    {
++        INVALID = 0,
++        SELF = 1,
++        OPPONENT = 2,
++    }
++
 +	public struct DraftInfo
 +	{
 +		public DraftInfo(double iwdValue, double pickValue)
@@ -807,7 +818,7 @@ index 0000000..3162b4f
 +
 +        public bool displayNetDeckFolders = true;
 +
-+		public int autoSelectPlayer = -1;
++        public SelectPlayer autoSelectPlayer = SelectPlayer.INVALID;
 +	}
 +
 +	[Serializable]
@@ -1111,27 +1122,38 @@ index 229eee8..26ed898 100644
  
  		public static bool TryStripLoyaltyPrefixFromString(ref string localizedText)
 diff --git a/Wotc.Mtga.DuelScene.Interactions.SelectTargets/AutoTargetingSolution.cs b/Wotc.Mtga.DuelScene.Interactions.SelectTargets/AutoTargetingSolution.cs
-index 01edb2d..d8591c7 100644
+index 01edb2d..15a5160 100644
 --- a/Wotc.Mtga.DuelScene.Interactions.SelectTargets/AutoTargetingSolution.cs
 +++ b/Wotc.Mtga.DuelScene.Interactions.SelectTargets/AutoTargetingSolution.cs
-@@ -43,6 +43,22 @@ namespace Wotc.Mtga.DuelScene.Interactions.SelectTargets
+@@ -43,6 +43,33 @@ namespace Wotc.Mtga.DuelScene.Interactions.SelectTargets
  			{
  				return _singleTarget.TryAutoTarget(targetSelection, targetSource, out target);
  			}
-+			if(ModManager.Instance.config.autoSelectPlayer == 0 || ModManager.Instance.config.autoSelectPlayer == 1)
++			if(ModManager.Instance.config.autoSelectPlayer > ModManager.SelectPlayer.INVALID)
 +            {
++                var gameState = this._getLatestGameState();
++                uint opponentID = gameState.Opponent.InstanceId;
++                uint selfID = gameState.LocalPlayer.InstanceId;
 +                if (targetSelection.Targets.Count == 2)
 +                {
 +                    foreach (Target target in targetSelection.Targets)
 +                    {
-+                        if (target.TargetInstanceId != 1U && target.TargetInstanceId != 2U)
++                        if (target.TargetInstanceId != opponentID && target.TargetInstanceId != selfID)
 +                        {
 +                            outTarget = null;
 +                            return false;
 +                        }
 +                    }
-+                    outTarget = targetSelection.Targets[ModManager.Instance.config.autoSelectPlayer];
-+                    return true;
++                    uint selectID = (ModManager.Instance.config.autoSelectPlayer == ModManager.SelectPlayer.SELF) ? selfID : opponentID;
++
++                    foreach (Target target in targetSelection.Targets)
++                    {
++                        if (target.TargetInstanceId == selectID)
++                        {
++                            outTarget = target;
++                            return true;
++                        }
++                    }
 +                }
 +            }
  			return _null.TryAutoTarget(targetSelection, targetSource, out target);
