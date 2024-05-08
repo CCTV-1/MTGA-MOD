@@ -1195,6 +1195,14 @@
         "oracleText": "A creature with haste can attack and {oT} as soon as it comes under your control.",
         "translation": "具敏捷异能的生物受你操控时便能攻击与{oT}。"
     },
+    "AbilityHanger/Keyword/Heist_Body": {
+        "oracleText": "Look at three random nonland cards from target opponent's library. Exile one of them face down. You may cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any type to cast that spell.",
+        "translation": "Look at three random nonland cards from target opponent's library. Exile one of them face down. You may cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any type to cast that spell."
+    },
+    "AbilityHanger/Keyword/Heist_Title": {
+        "oracleText": "Heist",
+        "translation": "Heist"
+    },
     "AbilityHanger/Keyword/Hexproof": {
         "oracleText": "A player or permanent with Hexproof can't be the target of spells or abilities your opponents control.",
         "translation": "具辟邪异能的牌手或永久物不能成为由对手操控之咒语或异能的目标。"
@@ -1731,6 +1739,14 @@
         "oracleText": "This permanent can't be blocked, targeted, or dealt damage by Humans.",
         "translation": "该永久物不能被人类阻挡，指定为目标或造成伤害。"
     },
+    "AbilityHanger/Keyword/ProtectionFromInstants_Body": {
+        "oracleText": "A player or permanent with protection from instants can't be targeted or dealt damage by instant spells.",
+        "translation": "A player or permanent with protection from instants can't be targeted or dealt damage by instant spells."
+    },
+    "AbilityHanger/Keyword/ProtectionFromInstants_Title": {
+        "oracleText": "Protection From Instants",
+        "translation": "Protection From Instants"
+    },
     "AbilityHanger/Keyword/ProtectionFromMulticolored": {
         "oracleText": "This permanent can't be blocked, targeted, dealt damage, enchanted, or equipped by anything multicolored.",
         "translation": "此永久物不能被多色的任何东西阻挡，指定为目标，造成伤害，结附或是装备。"
@@ -1766,6 +1782,14 @@
     "AbilityHanger/Keyword/ProtectionFromRed_Title": {
         "oracleText": "Protection from Red",
         "translation": "反红保护"
+    },
+    "AbilityHanger/Keyword/ProtectionFromSorceries_Body": {
+        "oracleText": "A player or permanent with protection from sorceries can't be targeted or dealt damage by sorcery spells.",
+        "translation": "A player or permanent with protection from sorceries can't be targeted or dealt damage by sorcery spells."
+    },
+    "AbilityHanger/Keyword/ProtectionFromSorceries_Title": {
+        "oracleText": "Protection From Sorceries",
+        "translation": "Protection From Sorceries"
     },
     "AbilityHanger/Keyword/ProtectionFromVampires_Body": {
         "oracleText": "This permanent can't be blocked, targeted, or dealt damage by Vampires.",
@@ -2651,6 +2675,10 @@
         "oracleText": "Legendary Sorcery",
         "translation": "传奇法术"
     },
+    "AbilityHanger/SpecialHangers/ManaValueIdentifier": {
+        "oracleText": "Mana Value: {manaCost}",
+        "translation": "Mana Value: {manaCost}"
+    },
     "AbilityHanger/SpecialHangers/MultipleFaceHangers/Body": {
         "oracleText": "Right-click for more information.",
         "translation": "右击查看详细信息。"
@@ -3174,6 +3202,22 @@
     "Apple/bundle_pip_sleeves_ShortName": {
         "oracleText": "Fallout Sleeves",
         "translation": "辐射牌套"
+    },
+    "Apple/bundle_pip_styles1_ShortDesc": {
+        "oracleText": "Includes 10 Card Styles",
+        "translation": "Includes 10 Card Styles"
+    },
+    "Apple/bundle_pip_styles1_ShortName": {
+        "oracleText": "Fallout: Brawl Styles",
+        "translation": "Fallout: Brawl Styles"
+    },
+    "Apple/bundle_pip_styles2_ShortDesc": {
+        "oracleText": "Includes 10 Card Styles",
+        "translation": "Includes 10 Card Styles"
+    },
+    "Apple/bundle_pip_styles2_ShortName": {
+        "oracleText": "Fallout: Dual Land Styles",
+        "translation": "Fallout: Dual Land Styles"
     },
     "Apple/bundle_wildcards_15_0_ShortDesc": {
         "oracleText": "12 Rares, 4 Mythic Rares",
@@ -5726,6 +5770,30 @@
     "Decks/Precon/Alchemy_ONE_WB": {
         "oracleText": "We Are Legion",
         "translation": "We Are Legion"
+    },
+    "Decks/Precon/Alchemy_OTJ_BG": {
+        "oracleText": "Varmint's Vengeance",
+        "translation": "Varmint's Vengeance"
+    },
+    "Decks/Precon/Alchemy_OTJ_Grixis": {
+        "oracleText": "The Great Card Heist",
+        "translation": "The Great Card Heist"
+    },
+    "Decks/Precon/Alchemy_OTJ_Naya": {
+        "oracleText": "Ferocious Four",
+        "translation": "Ferocious Four"
+    },
+    "Decks/Precon/Alchemy_OTJ_RW": {
+        "oracleText": "Ruby-tinted Goggles",
+        "translation": "Ruby-tinted Goggles"
+    },
+    "Decks/Precon/Alchemy_OTJ_Sultai": {
+        "oracleText": "Vraska and Jace, Not Alone",
+        "translation": "Vraska and Jace, Not Alone"
+    },
+    "Decks/Precon/Alchemy_OTJ_WB": {
+        "oracleText": "Drain Robbery",
+        "translation": "Drain Robbery"
     },
     "Decks/Precon/Alchemy_SNC_BRG": {
         "oracleText": "Shock Troops",
@@ -8666,6 +8734,10 @@
     "DuelScene/Browsers/Graveyard_Browser_Title": {
         "oracleText": "Graveyard",
         "translation": "坟墓场"
+    },
+    "DuelScene/Browsers/Heist_SubHeader": {
+        "oracleText": "Heist a card.",
+        "translation": "Heist a card."
     },
     "DuelScene/Browsers/Learn_Browser_Title": {
         "oracleText": "Learn",
@@ -16800,8 +16872,8 @@
         "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for Day 1 is Historic with single-game matches, and then Traditional Historic with best-of-three matches using sideboards for Day 2. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo1": {
-        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i>Outlaws of Thunder Junction</i> Sealed with single-game matches. The Day 2 event will use two Traditional <i> Outlaws of Thunder Junction</i>  Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=http://magic.wizards.com/mtga-69960>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>为现金奖励而战！</color></size>\n\n报名参加本第1天赛事并获得全部7场胜利，即可获得第 2 天赛事参赛资格。（第2天赛事排名前列的优胜者将赢得现金奖励！）玩家可以任意多次参加第1天赛事，但即使他们多次通过第1天赛事获取了第2天赛事参赛资格，第2天赛事也仅能参加一次。\n\n本第1天赛事的赛制是<i>光雷驿镖客</i>BO1现开。第2天赛事是两轮<i>光雷驿镖客</i>BO3传统轮抓，需使用备牌和个人计时器。点击<u><link=http://magic.wizards.com/mtga-69960>此处</link></u>联系客户服务获取帮助。\n\n<b><color=red>必须年满18周岁才能参加。并非在所有地区/领地都可用。禁止地区无效。领取现金奖励需要创建或拥有现有的Wizards、DCI和i-Payout账户。请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>此处</link></u>了解完整详情。</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i> Outlaws of Thunder Junction</i> Sealed with single-game matches. The Day 2 event will use two Traditional <i> Outlaws of Thunder Junction</i>  Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i> Outlaws of Thunder Junction</i> Sealed with single-game matches. The Day 2 event will use two Traditional <i> Outlaws of Thunder Junction</i>  Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo1_Alt": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Standard with single-game matches. The Day 2 event will use Traditional Standard with best-of-three matches using sideboards. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>",
@@ -18203,6 +18275,14 @@
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Brawl: Bring a 60-card deck led by your favorite legendary creature or planeswalker in Standard. Choose your champion and fight to the top of the heap!\n\nYou can receive a code for a Midweek Magic Promo Pack containing two cosmetic items when you share your results with your local game store. Find out how <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.\n\n*Note: While supplies last. Not all stores are participating.",
         "translation": "欢迎来到周中万智牌！每周尝试一个不同的方式来游玩万智牌竞技场！\n\n本周赛事是争锋：构筑一副60张的标准套牌。由你最喜欢的传奇生物或鹏洛客带领！选择你的冠军，并战斗到顶峰!\n\n当你与当地游戏商店分享你的结果时，你会收到包含两个装饰品的周中万智牌推广包的代码。了解更多使用信息，点击<u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>这里</link></u>。\n\n*注：送完为止。并非所有商店都参与"
     },
+    "Events/Event_Desc_MWM_BrawlBuilderChallenge": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Brawl Builder Challenge: choose one our potential Commanders and build a 100-card Brawl deck using any cards in MTG Arena!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Brawl Builder Challenge: choose one our potential Commanders and build a 100-card Brawl deck using any cards in MTG Arena!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+    },
+    "Events/Event_Desc_MWM_BrawlBuilderChallenge_20240514": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Brawl Builder Challenge: choose one our potential Commanders and build a 100-card Brawl deck using any cards in MTG Arena!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.\n\n\n\nThe following Commanders are allowed for this event:\n\nAkul the Unrepentant\nAlbiorix, Goose Tyrant\nAnnie Flash, the Veteran\nBaron Bertram Graywater\nBonny Pall, Clearcutter\nBreeches, the Blastmaker\nBristly Bill, Spine Sower\nBruse Tarl, Roving Rancher\nCalamity, Galloping Inferno\nDoc Aurlock, Grizzled Genius\nEmperor Apatzec Intli IV\nEriette, the Beguiler\nErtha Jo, Frontier Mentor\nFblthp, Lost on the Range\nFortune, Loyal Steed\nGeralf, the Fleshwright\nGhired, Mirror of the Wilds\nGisa, the Hellraiser\nGonti, Canny Acquisitor\nGrenzo, Crooked Jailer\nHonest Rutstein\nJace Reawakened\nJem Lightfoote, Sky Explorer\nJessie Zane, Fangbringer\nJolene, Plundering Pugilist\nKaervek, the Punisher\nKambal, Profiteering Mayor\nKellan, the Kid\nKraum, Violent Cacophony\nLaughing Jasper Flint\nLazav, Familiar Stranger\nLilah, Undefeated Slickshot\nMagda, the Hoardmaster\nMalcolm, the Eyes\nMarchesa, Dealer of Death\nMiriam, Herd Whisperer\nNashi, Illusion Gadgeteer\nObeka, Splitter of Seconds\nOko, the Ringleader\nOlivia, Opulent Outlaw\nRakdos, the Muscle\nRankle, Pitiless Trickster\nRiku of Many Paths\nRoxanne, Starfall Savant\nSaint Elenda\nSatoru, the Infiltrator\nSelvala, Eager Trailblazer\nStella Lee, Wild Card\nTaii Wakeen, Perfect Shot\nTeysa of the Ghost Council\nThe Gitrog, Ravenous Ride\nTinybones, the Pickpocket\nVadmir, New Blood\nVial Smasher, Gleeful Grenadier\nVona de Iedo, the Antifex\nVraska, the Silencer\nWylie Duke, Atiin Hero\nYuma, Proud Protector",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Brawl Builder Challenge: choose one our potential Commanders and build a 100-card Brawl deck using any cards in MTG Arena!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.\n\n\n\nThe following Commanders are allowed for this event:\n\nAkul the Unrepentant\nAlbiorix, Goose Tyrant\nAnnie Flash, the Veteran\nBaron Bertram Graywater\nBonny Pall, Clearcutter\nBreeches, the Blastmaker\nBristly Bill, Spine Sower\nBruse Tarl, Roving Rancher\nCalamity, Galloping Inferno\nDoc Aurlock, Grizzled Genius\nEmperor Apatzec Intli IV\nEriette, the Beguiler\nErtha Jo, Frontier Mentor\nFblthp, Lost on the Range\nFortune, Loyal Steed\nGeralf, the Fleshwright\nGhired, Mirror of the Wilds\nGisa, the Hellraiser\nGonti, Canny Acquisitor\nGrenzo, Crooked Jailer\nHonest Rutstein\nJace Reawakened\nJem Lightfoote, Sky Explorer\nJessie Zane, Fangbringer\nJolene, Plundering Pugilist\nKaervek, the Punisher\nKambal, Profiteering Mayor\nKellan, the Kid\nKraum, Violent Cacophony\nLaughing Jasper Flint\nLazav, Familiar Stranger\nLilah, Undefeated Slickshot\nMagda, the Hoardmaster\nMalcolm, the Eyes\nMarchesa, Dealer of Death\nMiriam, Herd Whisperer\nNashi, Illusion Gadgeteer\nObeka, Splitter of Seconds\nOko, the Ringleader\nOlivia, Opulent Outlaw\nRakdos, the Muscle\nRankle, Pitiless Trickster\nRiku of Many Paths\nRoxanne, Starfall Savant\nSaint Elenda\nSatoru, the Infiltrator\nSelvala, Eager Trailblazer\nStella Lee, Wild Card\nTaii Wakeen, Perfect Shot\nTeysa of the Ghost Council\nThe Gitrog, Ravenous Ride\nTinybones, the Pickpocket\nVadmir, New Blood\nVial Smasher, Gleeful Grenadier\nVona de Iedo, the Antifex\nVraska, the Silencer\nWylie Duke, Atiin Hero\nYuma, Proud Protector"
+    },
     "Events/Event_Desc_MWM_BrawlPrecon": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Brawl Showcase: Take these Brawl preconstructed decks for a spin, and see if you find a new favorite! Change decks as often as you like.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
         "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Brawl Showcase: Take these Brawl preconstructed decks for a spin, and see if you find a new favorite! Change decks as often as you like.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
@@ -18643,6 +18723,14 @@
         "oracleText": "Timeless uses every card on MTG Arena.",
         "translation": "永恒赛制可以使用所有存在于MTGA上的牌张。"
     },
+    "Events/Event_Desc_Playtest1": {
+        "oracleText": "Hello and time-appropriate greeting! This is a playtest event!",
+        "translation": "Hello and time-appropriate greeting! This is a playtest event!"
+    },
+    "Events/Event_Desc_Playtest2": {
+        "oracleText": "Salutations! This event is for when we need a SECOND playtest event. Unless you're specifically looking for the SECOND playtest event, please go to Zach's Playtest Event #1.",
+        "translation": "Salutations! This event is for when we need a SECOND playtest event. Unless you're specifically looking for the SECOND playtest event, please go to Zach's Playtest Event #1."
+    },
     "Events/Event_Desc_Playtest_League": {
         "oracleText": "Have fun playtesting!",
         "translation": "祝你测试愉快！"
@@ -18698,6 +18786,10 @@
     "Events/Event_Desc_QualifierPlayIn_Bo3_20240216": {
         "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom Traditional <i>Murders at Karlov Manor</i> Sealed with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>\n\n<b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.</color></b>",
         "translation": "本月的资格赛周末即将来临！如果你还未获得资格，在本入围赛事中赢取4胜来获得你的资格赛周末席位。\n\n本入围赛事的赛制是<i>卡洛夫庄园谋杀案</i>BO3幻影现开，需使用备牌和个人计时器。如果你能赢取4胜，一定记得明天回来参加资格赛周末！\n\n<size=100%><b><color=\"red\">必须年满18岁才能参加。并非在所有地区/领地都可用。禁止地区无效。附加条款和条件适用。请参阅<u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>此处</link></u>了解完整详情。</color></b></size>\n\n<b><color=\"red\">是一场幻影赛事。卡牌不会加入到你的收藏中。</color></b>"
+    },
+    "Events/Event_Desc_QualifierPlayIn_Bo3_20240510": {
+        "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom Traditional <i>Outlaws of Thunder Junction</i> Sealed with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>\n\n<b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.</color></b>",
+        "translation": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom Traditional <i>Outlaws of Thunder Junction</i> Sealed with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>\n\n<b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.</color></b>"
     },
     "Events/Event_Desc_QualifierPlayIn_Bo3_Alchemy": {
         "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Alchemy with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
@@ -19414,6 +19506,10 @@
     "Events/Event_Desc_Y24MKM_Premier_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Detectives </b> Get on your opponent's case with this fast midrange strategy. Leverage Detective typal bonuses to overwhelm your opponent's defenses, and sacrifice Clues to refill your hand in the late game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Clues Control </b> Use defensive spells to extend the game and generate Clues, then turn the excess mana into a card advantage that will bury your opponent in a mountain of value. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Suspect Aggro </b> Suspected creatures have menace and can't block. Keep attacking with your suspicious characters, and your opponents will be helpless to stop them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Big Disguise </b> Spend the early game accelerating your mana and setting up a face-down board state, then beat down your opponent's side of the board by flipping over haymaker after haymaker. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>  Go-Wide Disguise </b> Flood the battlefield with face-down creatures and accrue impressive rewards whenever they're turned face up. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Pint-Size Disguise </b> Face-down creatures bolster your strategy, which rewards playing creatures with power 2 or less and boosting them to become more impressive attackers. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Artifact Sacrifice </b> Generate and sacrifice Clue tokens strategically to gain a massive card advantage over your opponent. Then, chip away at their defenses by attacking with evasive Thopters that bring death from above. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Gravebreak </b> Use the collect evidence mechanic and raise the dead to support a long-game strategy that gives you extra value whenever a creature card leaves your graveyard. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Battalion </b> This classic Ravnican strategy adds extra punch to aggressive red and white creatures by providing a bonus whenever you attack with three or more of them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Collect Evidence </b> Rapidly fill up your graveyard and collect evidence to power up your spells while amassing permanents that reward you each time you do so.",
         "translation": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Detectives </b> Get on your opponent's case with this fast midrange strategy. Leverage Detective typal bonuses to overwhelm your opponent's defenses, and sacrifice Clues to refill your hand in the late game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Clues Control </b> Use defensive spells to extend the game and generate Clues, then turn the excess mana into a card advantage that will bury your opponent in a mountain of value. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Suspect Aggro </b> Suspected creatures have menace and can't block. Keep attacking with your suspicious characters, and your opponents will be helpless to stop them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Big Disguise </b> Spend the early game accelerating your mana and setting up a face-down board state, then beat down your opponent's side of the board by flipping over haymaker after haymaker. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>  Go-Wide Disguise </b> Flood the battlefield with face-down creatures and accrue impressive rewards whenever they're turned face up. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Pint-Size Disguise </b> Face-down creatures bolster your strategy, which rewards playing creatures with power 2 or less and boosting them to become more impressive attackers. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Artifact Sacrifice </b> Generate and sacrifice Clue tokens strategically to gain a massive card advantage over your opponent. Then, chip away at their defenses by attacking with evasive Thopters that bring death from above. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Gravebreak </b> Use the collect evidence mechanic and raise the dead to support a long-game strategy that gives you extra value whenever a creature card leaves your graveyard. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Battalion </b> This classic Ravnican strategy adds extra punch to aggressive red and white creatures by providing a bonus whenever you attack with three or more of them. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Collect Evidence </b> Rapidly fill up your graveyard and collect evidence to power up your spells while amassing permanents that reward you each time you do so."
+    },
+    "Events/Event_Desc_Y24OTJ_Premier_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Take a Break</b> Keep your guard up. Use the plot mechanic and cards with flash to pass your turn with mana available, ready for anything.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Crimes</b> Keep targeting your opponents and their stuff turn after turn. You're looking to play a long game, but your constant heists will leave your opponents less than prepared.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Outlaws </b> Assemble a crew of Assassins, Mercenaries, Pirates, Rogues, and Warlocks. This motley crew of outlaws will find ways to work together to wear down your opponents.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Power 4+</b> Big creatures are usually their own reward, but this set steps it up. Boost your forces with spells or Mercenary tokens and let the onslaught begin.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Mount </b> There's a whole stable of Mounts eager to charge into battle. Every time a Mount attacks backed by some skilled riders, you'll reap more rewards. Saddle up!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Attrition</b> Your permanents are here for a good time, not a long time. Sacrifice shamelessly, block fearlessly, and attack aggressively. Every loss is another opportunity for a larger gain.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Second Spell</b> Sling your spells in one-two bursts. Low mana value cards and plotted cards enable combinations of two or more spells in a turn, unlocking a flurry of bonuses.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Creatures in the Graveyard</b> You only live once? Hardly. Your cards can bring fallen creatures back to the fray or simply take advantage of the number of creature cards in your graveyard.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Mercenary Aggro</b> You might not have the biggest creatures, but you have the most aggressive ones. Mercenary tokens will pump the power of your creatures so you can keep making good attacks when opposition arrives.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Plot</b> Set your mastermind plans into motion with the plot mechanic. Your opponents may see them coming but that doesn't mean they'll be able to stop them. Control the battlefield and strike when the time is right.",
+        "translation": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Take a Break</b> Keep your guard up. Use the plot mechanic and cards with flash to pass your turn with mana available, ready for anything.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Crimes</b> Keep targeting your opponents and their stuff turn after turn. You're looking to play a long game, but your constant heists will leave your opponents less than prepared.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Outlaws </b> Assemble a crew of Assassins, Mercenaries, Pirates, Rogues, and Warlocks. This motley crew of outlaws will find ways to work together to wear down your opponents.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Power 4+</b> Big creatures are usually their own reward, but this set steps it up. Boost your forces with spells or Mercenary tokens and let the onslaught begin.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Mount </b> There's a whole stable of Mounts eager to charge into battle. Every time a Mount attacks backed by some skilled riders, you'll reap more rewards. Saddle up!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Attrition</b> Your permanents are here for a good time, not a long time. Sacrifice shamelessly, block fearlessly, and attack aggressively. Every loss is another opportunity for a larger gain.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Second Spell</b> Sling your spells in one-two bursts. Low mana value cards and plotted cards enable combinations of two or more spells in a turn, unlocking a flurry of bonuses.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Creatures in the Graveyard</b> You only live once? Hardly. Your cards can bring fallen creatures back to the fray or simply take advantage of the number of creature cards in your graveyard.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Mercenary Aggro</b> You might not have the biggest creatures, but you have the most aggressive ones. Mercenary tokens will pump the power of your creatures so you can keep making good attacks when opposition arrives.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Plot</b> Set your mastermind plans into motion with the plot mechanic. Your opponents may see them coming but that doesn't mean they'll be able to stop them. Control the battlefield and strike when the time is right."
     },
     "Events/Event_Desc_Y24WOE_Premier_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> The Frost Queen </b> Control the flow of combat by tapping your opponent's creatures and taking to the sky with fliers.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Enchanting Slumber </b> Assemble a team of flying Faeries and support them with tricky spells and creature removal to win the long game.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> The Dark Piper </b> Create a massive number of Rat tokens to swarm past your opponent's defenses. Be aggressive and take advantage of cards that reward you for your attackers trading off in combat.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Ruby and the Wolf </b> Call forth what lurks in the wilderness of Eldraine , summoning high-powered creatures or enhancing your small creatures with Roles and combat tricks.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Armont and the Beasts </b> Gather an army of creatures and get bonuses for enchanting them with Roles and other Auras, then go all-out when you have the upper hand.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Pale as Snow </b> Make use of the bargain and Role mechanics and get rewarded for your creatures and enchantments going to the graveyard.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> The Magician's Misstep </b> Go aggressive or be more controlling with a flurry of bewitching instants and sorceries to keep your opponent off balance.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Greta, Witch Hunter </b> Creature removal and life gain will help stave off your opponent's attacks until you're able to command the board with big creatures and Food rewards.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Brawl at the Grand Ball </b> Enhance your creatures with Roles and take advantage of the celebration mechanic with low-mana aggressive creatures and spells.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> The Kingdom of Storms </b> Use defensive creatures and spells to buy time while you build up your lands. Reward yourself by casting spells that cost five mana or more to dominate the late game.",
@@ -21159,6 +21255,10 @@
         "oracleText": "Midweek Magic: Brawl",
         "translation": "周中万智牌：争锋"
     },
+    "Events/Event_Title_MWM_BrawlBuilderChallenge": {
+        "oracleText": "Midweek Magic: Brawl Builder Challenge",
+        "translation": "Midweek Magic: Brawl Builder Challenge"
+    },
     "Events/Event_Title_MWM_BrawlPrecon": {
         "oracleText": "Midweek Magic: Brawl Showcase",
         "translation": "周中万智牌：争锋展览"
@@ -21642,6 +21742,14 @@
     "Events/Event_Title_Play_Timeless_Beta": {
         "oracleText": "Timeless Play Beta",
         "translation": "永恒匹配测试"
+    },
+    "Events/Event_Title_Playtest1": {
+        "oracleText": "Playtest Event #1",
+        "translation": "Playtest Event #1"
+    },
+    "Events/Event_Title_Playtest2": {
+        "oracleText": "Playtest Event #2",
+        "translation": "Playtest Event #2"
     },
     "Events/Event_Title_Playtest_League": {
         "oracleText": "Playtest League",
@@ -22430,6 +22538,10 @@
     "Events/Event_Title_Y24MKM_Premier_Draft": {
         "oracleText": "Premier Draft Murders at Karlov Manor Alchemy",
         "translation": "卡洛夫庄园谋杀案炼金竞技轮抽"
+    },
+    "Events/Event_Title_Y24OTJ_Premier_Draft": {
+        "oracleText": "Premier Draft Outlaws of Thunder Junction Alchemy",
+        "translation": "Premier Draft Outlaws of Thunder Junction Alchemy"
     },
     "Events/Event_Title_Y24WOE_Premier_Draft": {
         "oracleText": "Premier Draft Outlaws of Thunder Junction Alchemy",
@@ -24135,6 +24247,14 @@
         "oracleText": "Join between 6am and 8am Pacific on April 14",
         "translation": "在太平洋时间的4月14日早上六点到八点加入"
     },
+    "Events/Tokens/QualifierDay2TokenDescription20240512": {
+        "oracleText": "Join between 6am and 8am Pacific on May 12",
+        "translation": "Join between 6am and 8am Pacific on May 12"
+    },
+    "Events/Tokens/QualifierDay2TokenDescription20240616": {
+        "oracleText": "Join between 6am and 8am Pacific on June 16",
+        "translation": "Join between 6am and 8am Pacific on June 16"
+    },
     "Events/Tokens/QualifierDay2TokenPlural": {
         "oracleText": "Qualifier Day 2",
         "translation": "资格赛 第二天"
@@ -24663,9 +24783,17 @@
         "oracleText": "Alchemy: Karlov Manor",
         "translation": "炼金：卡洛夫庄园"
     },
+    "General/Sets/Y24-OTJ": {
+        "oracleText": "Alchemy: Thunder Junction",
+        "translation": "Alchemy: Thunder Junction"
+    },
     "General/Sets/Y24-WOE": {
         "oracleText": "Alchemy: Eldraine",
         "translation": "炼金：艾卓仙踪"
+    },
+    "General/Sets/Y24OTJ": {
+        "oracleText": "Alchemy: Thunder Junction",
+        "translation": "Alchemy: Thunder Junction"
     },
     "General/Sets/ZNR": {
         "oracleText": "Zendikar Rising",
@@ -24802,6 +24930,14 @@
     "Google/bundle_pip_sleeves_Desc": {
         "oracleText": "7 Sleeves:\nStrength Bobblehead \nPerception Bobblehead \nEndurance Bobblehead \nCharisma Bobblehead \nIntelligence Bobblehead \nAgility Bobblehead \nLuck Bobblehead \n© 2024 ZMI",
         "translation": "7种牌套\n力量摇头娃娃牌套\n感知摇头娃娃牌套\n耐力摇头娃娃牌套\n魅力摇头娃娃牌套\n智力摇头娃娃牌套\n敏捷摇头娃娃牌套\n运气摇头娃娃牌套\n© 2024 ZMI"
+    },
+    "Google/bundle_pip_styles1_Desc": {
+        "oracleText": "Fallout: Brawl Styles: 10 Card Styles",
+        "translation": "Fallout: Brawl Styles: 10 Card Styles"
+    },
+    "Google/bundle_pip_styles2_Desc": {
+        "oracleText": "Fallout: Dual Land Styles: 10 Card Styles",
+        "translation": "Fallout: Dual Land Styles: 10 Card Styles"
     },
     "Google/bundle_wildcards_15_0_Description": {
         "oracleText": "Wildcard Bundle:\n12 Rare Wildcards\n4 Mythic Wildcards",
@@ -31947,6 +32083,10 @@
         "oracleText": "100-Card Historic Brawl",
         "translation": "100张史迹争锋"
     },
+    "MainNav/DeckFormat/HistoricBrawlWithAllowList_20240514": {
+        "oracleText": "Midweek Magic: Brawl Builder",
+        "translation": "Midweek Magic: Brawl Builder"
+    },
     "MainNav/DeckFormat/HistoricNBL": {
         "oracleText": "No-Ban Historic",
         "translation": "无禁史迹"
@@ -32855,6 +32995,10 @@
         "oracleText": "1 Avatar & {number1} Draft Tokens",
         "translation": "1个头像和{number1}个轮抽门票"
     },
+    "MainNav/EventRewards/Avatar_Basic_Fblthp_OTJ": {
+        "oracleText": "Fblthp, Lost on the Range Avatar",
+        "translation": "Fblthp, Lost on the Range Avatar"
+    },
     "MainNav/EventRewards/Basic_Land": {
         "oracleText": "Basic Land",
         "translation": "基本地"
@@ -33482,6 +33626,14 @@
     "MainNav/EventRewards/Gems_Sleeve_Day2": {
         "oracleText": "{number1} Gems, Card Sleeve, & Day 2 Token",
         "translation": "{number1}颗宝石和牌套和第二天门票"
+    },
+    "MainNav/EventRewards/Gems_and_Day1_Invite": {
+        "oracleText": "{number1} Gems & Invitation to next Month's Qualifier Weekend - Day 1",
+        "translation": "{number1} Gems & Invitation to next Month's Qualifier Weekend - Day 1"
+    },
+    "MainNav/EventRewards/Gems_and_Day2_Invite": {
+        "oracleText": "{number1} Gems & Invitation to next Month's Qualifier Weekend - Day 2",
+        "translation": "{number1} Gems & Invitation to next Month's Qualifier Weekend - Day 2"
     },
     "MainNav/EventRewards/Geth_Thane_of_Contracts": {
         "oracleText": "Geth, Thane of Contracts Card Style",
@@ -35475,6 +35627,14 @@
         "oracleText": "Howdy Partner!",
         "translation": "你好 伙伴！"
     },
+    "MainNav/HomePage/Carousel/2024_37_0_Store_Desc": {
+        "oracleText": "Stop by the Store to see a whole heists worth of shiny new treasures!",
+        "translation": "Stop by the Store to see a whole heists worth of shiny new treasures!"
+    },
+    "MainNav/HomePage/Carousel/2024_37_0_Store_Title": {
+        "oracleText": "New Loot!",
+        "translation": "New Loot!"
+    },
     "MainNav/HomePage/Carousel/21_01_Store_Desc": {
         "oracleText": "Take part in the epic Saga of Kaldheim. New Boosters Packs, new Set Mastery Pass, new Showcase Bundles, and more!",
         "translation": "参加史诗般的凯德海姆传奇。新的补充包、新的精研通行证、新的展示套装等等！"
@@ -36890,6 +37050,14 @@
     "MainNav/HomePage/Carousel/Jumpstart_Title": {
         "oracleText": "Jumpstart!",
         "translation": "速战速决！"
+    },
+    "MainNav/HomePage/Carousel/June_Companion_Of_The_Month_Desc": {
+        "oracleText": "It's not fishy, it's just the Rainbow Koi! Stop by the Store to see it glimmer on the battlefield today.",
+        "translation": "It's not fishy, it's just the Rainbow Koi! Stop by the Store to see it glimmer on the battlefield today."
+    },
+    "MainNav/HomePage/Carousel/June_Companion_Of_The_Month_Title": {
+        "oracleText": "No Need To Be Koi",
+        "translation": "No Need To Be Koi"
     },
     "MainNav/HomePage/Carousel/June_PotM_Here_Desc": {
         "oracleText": "It's a cat! It's a dragon! It has...fangs? Whatever it is, Azizi is the perfect companion to join you on the battlefield! Stop by the Store and take it home today!",
@@ -39999,6 +40167,14 @@
         "oracleText": "From the desk of Alquist Proft, Genius Detective",
         "translation": "来自天才侦探阿奎斯波费的讯息"
     },
+    "MainNav/Mailbox/2024_35_0_Y24OTJ_WebReleaseNotes_Description": {
+        "oracleText": "Get a glimpse into the decisions, features, and more for Alchemy: Thunder Junction on Arena by clicking the link below!",
+        "translation": "Get a glimpse into the decisions, features, and more for Alchemy: Thunder Junction on Arena by clicking the link below!"
+    },
+    "MainNav/Mailbox/2024_35_0_Y24OTJ_WebReleaseNotes_Title": {
+        "oracleText": "Alchemy: Thunder Junction Release Notes are Here!",
+        "translation": "Alchemy: Thunder Junction Release Notes are Here!"
+    },
     "MainNav/Mailbox/2024_35_60_AC5_Day1_Desc": {
         "oracleText": "Who will advance to the top 8 of Arena Championship 5? Come watch and cheer on your favorite players as they compete for their share of $200,000 and a seat at the Magic World Championship!",
         "translation": "Who will advance to the top 8 of Arena Championship 5? Come watch and cheer on your favorite players as they compete for their share of $200,000 and a seat at the Magic World Championship!"
@@ -40022,6 +40198,22 @@
     "MainNav/Mailbox/2024_36_0_OTJ_Announcement_Title": {
         "oracleText": "Outlaws of Thunder Junction Just Broke Into Arena!",
         "translation": "Outlaws of Thunder Junction Just Broke Into Arena!"
+    },
+    "MainNav/Mailbox/2024_37_0_Y24OTJ_AnnouncementWithPacks_Description": {
+        "oracleText": "Don't ride off into the sunset just yet! Take these 3 packs and continue exploring Thunder Junction. Enjoy!",
+        "translation": "Don't ride off into the sunset just yet! Take these 3 packs and continue exploring Thunder Junction. Enjoy!"
+    },
+    "MainNav/Mailbox/2024_37_0_Y24OTJ_AnnouncementWithPacks_Title": {
+        "oracleText": "Alchemy: Thunder Junction Is Here!",
+        "translation": "Alchemy: Thunder Junction Is Here!"
+    },
+    "MainNav/Mailbox/2024_37_0_Y24OTJ_FastFollow_PatchNotes_Title": {
+        "oracleText": "2024.37.10 Patch Notes Are Here!",
+        "translation": "2024.37.10 Patch Notes Are Here!"
+    },
+    "MainNav/Mailbox/2024_37_0_Y24OTJ_PatchNotes_Title": {
+        "oracleText": "2024.37.0 Patch Notes Are Here!",
+        "translation": "2024.37.0 Patch Notes Are Here!"
     },
     "MainNav/Mailbox/2024_AprilFoolsDay_Gift_Desc": {
         "oracleText": "APRIL FOOLS! Just kidding, there's no Card Warranty. There's also Nothing attached to this message. Don't bother clicking ‘Claim' below. \n\nSeriously, it's Nothing.",
@@ -41176,8 +41368,8 @@
         "translation": "黄金补充包包含6张稀有牌，每张有正常的概率升级成为秘稀稀有度。"
     },
     "MainNav/PackProgressMeter/CallToAction": {
-        "oracleText": "Purchase {remaining} more <i>Outlaws of Thunder Junction</i> packs to earn a Golden Pack.",
-        "translation": "再购买{remaining}包 <i>光雷驿镖客</i> 补充包便可获得一个黄金补充包。"
+        "oracleText": "Purchase {remaining} more <i>Alchemy: Thunder Junction</i> and <i>Outlaws of Thunder Junction</i> packs to earn a Golden Pack.",
+        "translation": "Purchase {remaining} more <i>Alchemy: Thunder Junction</i> and <i>Outlaws of Thunder Junction</i> packs to earn a Golden Pack."
     },
     "MainNav/PackProgressMeter/FullDetailsLink": {
         "oracleText": "Full Details",
@@ -44883,6 +45075,10 @@
         "oracleText": "Apply Now",
         "translation": "马上使用"
     },
+    "MainNav/Rewards/CurrencyPrizeWall_Button": {
+        "oracleText": "Visit Hideaway",
+        "translation": "Visit Hideaway"
+    },
     "MainNav/Rewards/DecathlonTokenDescription": {
         "oracleText": "Earn 3+ unique Decathlon tokens to reach the Finals.",
         "translation": "赚取3个以上单独的十项全能门票以进入总决赛。"
@@ -46898,6 +47094,18 @@
     "MainNav/Store/Bundles/Bundle_Alchemist_ONE_Name": {
         "oracleText": "Alchemist Bundle",
         "translation": "炼金套装"
+    },
+    "MainNav/Store/Bundles/Bundle_Alchemist_OTJ_Desc": {
+        "oracleText": "20x <i>Alchemy: Thunder Junction</i> Boosters",
+        "translation": "20x <i>Alchemy: Thunder Junction</i> Boosters"
+    },
+    "MainNav/Store/Bundles/Bundle_Alchemist_OTJ_Name": {
+        "oracleText": "Alchemist Bundle",
+        "translation": "Alchemist Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_Alchemist_OTJ_Name_Desc": {
+        "oracleText": "20x <i>Alchemy: Thunder Junction</i> Boosters",
+        "translation": "20x <i>Alchemy: Thunder Junction</i> Boosters"
     },
     "MainNav/Store/Bundles/Bundle_Alchemist_SNC_Desc": {
         "oracleText": "20x Alchemy: New Capenna Boosters",
@@ -48995,6 +49203,14 @@
         "oracleText": "Sticker Emotes Bundle",
         "translation": "贴纸表情套装"
     },
+    "MainNav/Store/Bundles/Bundle_OTJ_Tinybones_Desc": {
+        "oracleText": "Tinybones Companion\nTinybones Sleeve\nTinybones Avatar",
+        "translation": "Tinybones Companion\nTinybones Sleeve\nTinybones Avatar"
+    },
+    "MainNav/Store/Bundles/Bundle_OTJ_Tinybones_Name": {
+        "oracleText": "Tinybones Bundle",
+        "translation": "Tinybones Bundle"
+    },
     "MainNav/Store/Bundles/Bundle_OTJ_Vraska_Desc": {
         "oracleText": "Vraska Avatar\nThe Silencer Sleeve",
         "translation": "瓦丝卡头像\n销音蛇妖牌套"
@@ -50155,6 +50371,46 @@
         "oracleText": "Homicide Investigator Mystery Bundle",
         "translation": "凶案遍侦员之谜套装"
     },
+    "MainNav/Store/Bundles/Bundle_Y24OTJ_DA1_Desc": {
+        "oracleText": "Solitary Defiance Card Style\nCathartic Operation Card Style\nIntruder's Inquisition Card Style\nResolute Rejection Card Style\nSilent Extraction Card Style\nWeave the Nightmare Card Style",
+        "translation": "Solitary Defiance Card Style\nCathartic Operation Card Style\nIntruder's Inquisition Card Style\nResolute Rejection Card Style\nSilent Extraction Card Style\nWeave the Nightmare Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y24OTJ_DA1_Name": {
+        "oracleText": "The Ballad of Jace and Vraska",
+        "translation": "The Ballad of Jace and Vraska"
+    },
+    "MainNav/Store/Bundles/Bundle_Y24OTJ_DA2_Desc": {
+        "oracleText": "Grave Expectations Card Style\nGrenzo, Crooked Jailer Card Style\nImpetuous Lootmonger Card Style\nThieving Aven Card Style\nTriumphant Getaway Card Style",
+        "translation": "Grave Expectations Card Style\nGrenzo, Crooked Jailer Card Style\nImpetuous Lootmonger Card Style\nThieving Aven Card Style\nTriumphant Getaway Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y24OTJ_DA2_Name": {
+        "oracleText": "Thrilling Heist",
+        "translation": "Thrilling Heist"
+    },
+    "MainNav/Store/Bundles/Bundle_Y24OTJ_DA3_Desc": {
+        "oracleText": "Emerald Collector Card Style\nJet Collector Card Style\nPearl Collector Card Style\nRuby Collector Card Style\nSapphire Collector Card Style\nRunecarved Obelisk Card Style",
+        "translation": "Emerald Collector Card Style\nJet Collector Card Style\nPearl Collector Card Style\nRuby Collector Card Style\nSapphire Collector Card Style\nRunecarved Obelisk Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y24OTJ_DA3_Name": {
+        "oracleText": "We Just Think They're Neat",
+        "translation": "We Just Think They're Neat"
+    },
+    "MainNav/Store/Bundles/Bundle_Y24OTJ_DA4_Desc": {
+        "oracleText": "Rankle, Pitiless Trickster Card Style\nStalwart Realmwarden Card Style\nVona de Iedo, the Antifex Card Style\nWagon Wrecker Card Style\nSwitchgrass Grazer Card Style\nNashi, Illusion Gadgeteer Card Style",
+        "translation": "Rankle, Pitiless Trickster Card Style\nStalwart Realmwarden Card Style\nVona de Iedo, the Antifex Card Style\nWagon Wrecker Card Style\nSwitchgrass Grazer Card Style\nNashi, Illusion Gadgeteer Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y24OTJ_DA4_Name": {
+        "oracleText": "Criminal Mischief",
+        "translation": "Criminal Mischief"
+    },
+    "MainNav/Store/Bundles/Bundle_Y24OTJ_DA5_Desc": {
+        "oracleText": "Jessie Zane, Fangbringer Card Style\nAlbiorix, Goose Tyrant Card Style\nTeysa of the Ghost Council Card Style\nEmperor Apatzec Intli IV Card Style\nPrairie Survivalist Card Style\nSaint Elenda Card Style\nBlooming Cactusfolk Card Style",
+        "translation": "Jessie Zane, Fangbringer Card Style\nAlbiorix, Goose Tyrant Card Style\nTeysa of the Ghost Council Card Style\nEmperor Apatzec Intli IV Card Style\nPrairie Survivalist Card Style\nSaint Elenda Card Style\nBlooming Cactusfolk Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y24OTJ_DA5_Name": {
+        "oracleText": "Stronger Together",
+        "translation": "Stronger Together"
+    },
     "MainNav/Store/Bundles/Bundle_Y24WOE_DA1_Desc": {
         "oracleText": "Porcine Portent Card Style\nFirst Little Pig Card Style\nSecond Little Pig Card Style\nThird Little Pig Card Style\nDrover of the Swine Card Style\nSwine Rebellion Card Style\nOvercooked Card Style",
         "translation": "Porcine Portent Card Style\nFirst Little Pig Card Style\nSecond Little Pig Card Style\nThird Little Pig Card Style\nDrover of the Swine Card Style\nSwine Rebellion Card Style\nOvercooked Card Style"
@@ -50282,6 +50538,22 @@
     "MainNav/Store/Bundles/bundle_pip_sleeves_Name": {
         "oracleText": "<i>Fallout</i>: Sleeves Bundle",
         "translation": "<i>辐射</i>：牌套套装"
+    },
+    "MainNav/Store/Bundles/bundle_pip_styles1_desc": {
+        "oracleText": "Arcane Signet Card Style\nCommand Tower Card Style\nCultivate Card Style\nMind Stone Card Style\nSwords to Plowshares Card Style\nSwiftfoot Boots Card Style\nCasualties of War Card Style\nEvolving Wilds Card Style\nSolemn Simulacrum Card Style\nHeroic Intervention Card Style\n© 2024 ZMI",
+        "translation": "Arcane Signet Card Style\nCommand Tower Card Style\nCultivate Card Style\nMind Stone Card Style\nSwords to Plowshares Card Style\nSwiftfoot Boots Card Style\nCasualties of War Card Style\nEvolving Wilds Card Style\nSolemn Simulacrum Card Style\nHeroic Intervention Card Style\n© 2024 ZMI"
+    },
+    "MainNav/Store/Bundles/bundle_pip_styles1_name": {
+        "oracleText": "Fallout: Brawl Styles",
+        "translation": "Fallout: Brawl Styles"
+    },
+    "MainNav/Store/Bundles/bundle_pip_styles2_desc": {
+        "oracleText": "Clifftop Retreat Card Style\nDragonskull Summit Card Style\nDrowned Catacomb Card Style\nGlacial Fortress Card Style\nHinterland Harbor Card Style\nIsolated Chapel Card Style\nRootbound Crag Card Style\nSulfur Falls Card Style\nSunpetal Grove Card Style\nWoodland Cemetery Card Style\n© 2024 ZMI",
+        "translation": "Clifftop Retreat Card Style\nDragonskull Summit Card Style\nDrowned Catacomb Card Style\nGlacial Fortress Card Style\nHinterland Harbor Card Style\nIsolated Chapel Card Style\nRootbound Crag Card Style\nSulfur Falls Card Style\nSunpetal Grove Card Style\nWoodland Cemetery Card Style\n© 2024 ZMI"
+    },
+    "MainNav/Store/Bundles/bundle_pip_styles2_name": {
+        "oracleText": "Fallout: Dual Land Styles",
+        "translation": "Fallout: Dual Land Styles"
     },
     "MainNav/Store/Bundles/bundle_wildcards_15_0_Desc": {
         "oracleText": "12 Rare Wildcards\n4 Mythic Wildcards",
@@ -55923,6 +56195,14 @@
         "oracleText": "New Events",
         "translation": "新赛事"
     },
+    "PlayBlade/Filters/Dynamic/ArenaCubeDraftDescription": {
+        "oracleText": "Draft the Arena Cube!",
+        "translation": "Draft the Arena Cube!"
+    },
+    "PlayBlade/Filters/Dynamic/ArenaCubeDraftTitle": {
+        "oracleText": "Arena Cube Draft",
+        "translation": "Arena Cube Draft"
+    },
     "PlayBlade/Filters/Dynamic/ArenaOpen": {
         "oracleText": "Arena Open Day 1",
         "translation": "竞技场公开赛第一天"
@@ -56022,6 +56302,14 @@
     "PlayBlade/Filters/Dynamic/SIRLimitedTitle": {
         "oracleText": "Shadows Remastered",
         "translation": "暗影重铸"
+    },
+    "PlayBlade/Filters/Dynamic/SpecialLimitedDescription": {
+        "oracleText": "Special Limited Format Events",
+        "translation": "Special Limited Format Events"
+    },
+    "PlayBlade/Filters/Dynamic/SpecialLimitedTitle": {
+        "oracleText": "Special Limited Events",
+        "translation": "Special Limited Events"
     },
     "PlayBlade/Filters/Dynamic/WOELimitedTitle": {
         "oracleText": "Wilds of Eldraine Limited",
@@ -56702,6 +56990,22 @@
     "RestrictedAnnouncement/Restricted_Craft_Warning_Title": {
         "oracleText": "Restricted Card Warning!",
         "translation": "限用牌警告！"
+    },
+    "Rotation/CheckInbox": {
+        "oracleText": "Check your Inbox for more information.",
+        "translation": "Check your Inbox for more information."
+    },
+    "Rotation/Description": {
+        "oracleText": "Rotation is when old sets rotate out and new sets rotate in. Keeping formats fresh and fun for everyone!",
+        "translation": "Rotation is when old sets rotate out and new sets rotate in. Keeping formats fresh and fun for everyone!"
+    },
+    "Rotation/Header": {
+        "oracleText": "2024 Rotation",
+        "translation": "2024 Rotation"
+    },
+    "Rotation/Subheader": {
+        "oracleText": "July 30",
+        "translation": "July 30"
     },
     "SJMP_PacketName_LTR_Amass": {
         "oracleText": "Amass",
@@ -58318,6 +58622,14 @@
     "Xsolla/bundle_pip_sleeves_Desc": {
         "oracleText": "Fallout Sleeves: Strength Bobblehead Sleeve. Perception Bobblehead Sleeve, Endurance Bobblehead Sleeve, Charisma Bobblehead Sleeve, Intelligence Bobblehead Sleeve, Agility Bobblehead Sleeve, Luck Bobblehead Sleeve",
         "translation": "辐射牌套：力量摇头娃娃牌套、感知摇头娃娃牌套、耐力摇头娃娃牌套、魅力摇头娃娃牌套、智力摇头娃娃牌套、敏捷摇头娃娃牌套、运气摇头娃娃牌套"
+    },
+    "Xsolla/bundle_pip_styles1_Desc": {
+        "oracleText": "Fallout: Brawl Styles: 10 Card Styles",
+        "translation": "Fallout: Brawl Styles: 10 Card Styles"
+    },
+    "Xsolla/bundle_pip_styles2_Desc": {
+        "oracleText": "Fallout: Dual Land Styles: 10 Card Styles",
+        "translation": "Fallout: Dual Land Styles: 10 Card Styles"
     },
     "Xsolla/bundle_wildcards_15_0_Description": {
         "oracleText": "Wildcard Bundle: 12 Rare Wildcards, 4 Mythic Wildcards",
