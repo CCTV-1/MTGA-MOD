@@ -1,10 +1,10 @@
-From a0c09efc6dee3cd2a98cb529cb838e59b6103daf Mon Sep 17 00:00:00 2001
+From ab4024bc7ced816357d5f8c137f020c6e685d4dd Mon Sep 17 00:00:00 2001
 From: CCTV-1 <script.tar.gz@gmail.com>
-Date: Wed, 10 Apr 2024 14:55:50 +0800
+Date: Wed, 8 May 2024 13:16:16 +0800
 Subject: [PATCH] mod patch.
 
 ---
- AbilityHangerBase.cs                          |  40 ++
+ AbilityHangerBase.cs                          |  40 +++
  AccountInformation.cs                         |   2 +-
  AdvancedFiltersView.cs                        |   2 +
  AutoLandsToggle.cs                            |   6 +
@@ -21,7 +21,7 @@ Subject: [PATCH] mod patch.
  MTGA.Loc/MTGALocalizable.cs                   |  15 +-
  MatchManager.cs                               |  31 +-
  Meta_CDC.cs                                   |  11 +
- ModManager.cs                                 | 349 ++++++++++++++++++
+ ModManager.cs                                 | 319 ++++++++++++++++++
  SearchAndFilterBar.cs                         |   1 +
  SetCollectionScreenView.cs                    |   1 +
  SettingsPanelGraphics.cs                      |   2 +-
@@ -43,11 +43,11 @@ Subject: [PATCH] mod patch.
  Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs      |   1 +
  WrapperDeckBuilder.cs                         |   2 +-
  WrapperDeckUtilities.cs                       |  29 +-
- 39 files changed, 660 insertions(+), 94 deletions(-)
+ 39 files changed, 630 insertions(+), 94 deletions(-)
  create mode 100644 ModManager.cs
 
 diff --git a/AbilityHangerBase.cs b/AbilityHangerBase.cs
-index dbeb24d..ab11ffd 100644
+index 8b5bf0e..e2edc25 100644
 --- a/AbilityHangerBase.cs
 +++ b/AbilityHangerBase.cs
 @@ -61,6 +61,8 @@ public class AbilityHangerBase : HangerBase
@@ -125,7 +125,7 @@ index 707aa9e..c23e917 100644
  
  	public bool HasRole_Debugging()
 diff --git a/AdvancedFiltersView.cs b/AdvancedFiltersView.cs
-index 64c1d36..75aa9e2 100644
+index c6d0803..6ad8a61 100644
 --- a/AdvancedFiltersView.cs
 +++ b/AdvancedFiltersView.cs
 @@ -137,6 +137,8 @@ public class AdvancedFiltersView : MonoBehaviour
@@ -176,7 +176,7 @@ index fe4c749..65dfb9b 100644
  		_lowerTextLabel.fontSize = _supportedFontSizes[0];
  		UpdateLabelMaterial(_upperTextLabel);
 diff --git a/CDCPart_TextBox_Dungeon.cs b/CDCPart_TextBox_Dungeon.cs
-index f856c77..9b7960c 100644
+index 1b103ca..0cc408a 100644
 --- a/CDCPart_TextBox_Dungeon.cs
 +++ b/CDCPart_TextBox_Dungeon.cs
 @@ -48,15 +48,14 @@ public class CDCPart_TextBox_Dungeon : CDCPart_Textbox_SuperBase
@@ -226,10 +226,10 @@ index f191488..fc897e6 100644
  		_meshRendererReferenceLoaders = new MeshRendererReferenceLoader[_deckBoxRenderers.Length];
  		for (int i = 0; i < _deckBoxRenderers.Length; i++)
 diff --git a/DeckManagerController.cs b/DeckManagerController.cs
-index 5f4842a..5f89bd5 100644
+index bbd6c70..29f67b7 100644
 --- a/DeckManagerController.cs
 +++ b/DeckManagerController.cs
-@@ -391,9 +391,13 @@ public class DeckManagerController : NavContentController
+@@ -393,9 +393,13 @@ public class DeckManagerController : NavContentController
  	{
  		if (!_decksManager.ShowDeckLimitError())
  		{
@@ -247,10 +247,10 @@ index 5f4842a..5f89bd5 100644
  	}
  
 diff --git a/DirectChallengeBladeWidget.cs b/DirectChallengeBladeWidget.cs
-index 95196f9..f5b0f7f 100644
+index 5381171..0f40005 100644
 --- a/DirectChallengeBladeWidget.cs
 +++ b/DirectChallengeBladeWidget.cs
-@@ -188,6 +188,7 @@ public class DirectChallengeBladeWidget : PlayBladeWidget
+@@ -190,6 +190,7 @@ public class DirectChallengeBladeWidget : PlayBladeWidget
  		_selectDeckSlot.OnClick.AddListener(OnSelectDeckClicked);
  		_selectDeckButton.OnClick.AddListener(OnSelectDeckClicked);
  		LocalUsernameOutputter.onClick.AddListener(OnYourName_Clicked);
@@ -259,10 +259,10 @@ index 95196f9..f5b0f7f 100644
  
  	private void OnEnable()
 diff --git a/FriendChallengeBladeWidget.cs b/FriendChallengeBladeWidget.cs
-index facf7b8..bbafcf4 100644
+index c61cb07..4738fdb 100644
 --- a/FriendChallengeBladeWidget.cs
 +++ b/FriendChallengeBladeWidget.cs
-@@ -115,6 +115,7 @@ public class FriendChallengeBladeWidget : PlayBladeWidget
+@@ -119,6 +119,7 @@ public class FriendChallengeBladeWidget : PlayBladeWidget
  			Languages.ActiveLocProvider.GetLocalizedText("MainNav/PrivateGame/Settings/StartingPlayer_Opponent")
  		});
  		_startingPlayerSpinner.SelectOption(0);
@@ -292,7 +292,7 @@ index 380487d..449d7e2 100644
  
  		public static bool IsCardCollectible(CardPrintingData cardPrintingData)
 diff --git a/LibraryCardHolder.cs b/LibraryCardHolder.cs
-index 3c85371..bb0125a 100644
+index 7adf42f..39c6438 100644
 --- a/LibraryCardHolder.cs
 +++ b/LibraryCardHolder.cs
 @@ -159,7 +159,7 @@ public class LibraryCardHolder : ZoneCardHolderBase, IPointerEnterHandler, IEven
@@ -305,7 +305,7 @@ index 3c85371..bb0125a 100644
  			LibrarySideboardBrowserProvider librarySideboardBrowserProvider = new LibrarySideboardBrowserProvider(_gameManager, onCardClicked);
  			IBrowser openedBrowser = _gameManager.BrowserController.OpenBrowser(librarySideboardBrowserProvider);
 diff --git a/LibrarySideboardBrowserProvider.cs b/LibrarySideboardBrowserProvider.cs
-index 4c5eb80..10bd475 100644
+index 8d8cb30..fb1deec 100644
 --- a/LibrarySideboardBrowserProvider.cs
 +++ b/LibrarySideboardBrowserProvider.cs
 @@ -55,6 +55,14 @@ public class LibrarySideboardBrowserProvider : IViewDismissBrowserProvider, ICar
@@ -324,7 +324,7 @@ index 4c5eb80..10bd475 100644
  		buttonStateData = new ButtonStateData
  		{
 @@ -113,6 +121,7 @@ public class LibrarySideboardBrowserProvider : IViewDismissBrowserProvider, ICar
- 		MtgZone zone = gameManager.LatestGameState.GetZone(ZoneType.ZoneType_Library, GREPlayerNum.LocalPlayer);
+ 		MtgZone zone = gameManager.LatestGameState.GetZone(ZoneType.Library, GREPlayerNum.LocalPlayer);
  		buttonStateData["ZoneButton0"].Enabled = false;
  		buttonStateData["ZoneButton1"].Enabled = true;
 +		buttonStateData["ZoneButton2"].Enabled = true;
@@ -332,7 +332,7 @@ index 4c5eb80..10bd475 100644
  		foreach (uint cardId in zone.CardIds)
  		{
 @@ -130,6 +139,7 @@ public class LibrarySideboardBrowserProvider : IViewDismissBrowserProvider, ICar
- 		MtgZone zone = gameManager.LatestGameState.GetZone(ZoneType.ZoneType_Sideboard, GREPlayerNum.LocalPlayer);
+ 		MtgZone zone = gameManager.LatestGameState.GetZone(ZoneType.Sideboard, GREPlayerNum.LocalPlayer);
  		buttonStateData["ZoneButton1"].Enabled = false;
  		buttonStateData["ZoneButton0"].Enabled = true;
 +		buttonStateData["ZoneButton2"].Enabled = true;
@@ -345,7 +345,7 @@ index 4c5eb80..10bd475 100644
  
 +    private void SelectZoneButton2()
 +    {
-+        MtgZone zone = gameManager.LatestGameState.GetZone(ZoneType.ZoneType_Library, GREPlayerNum.LocalPlayer);
++        MtgZone zone = gameManager.LatestGameState.GetZone(ZoneType.Library, GREPlayerNum.LocalPlayer);
 +        buttonStateData["ZoneButton0"].Enabled = true;
 +        buttonStateData["ZoneButton1"].Enabled = true;
 +        buttonStateData["ZoneButton2"].Enabled = false;
@@ -372,7 +372,7 @@ index 4c5eb80..10bd475 100644
 +                Owner = zone.Owner,
 +                GrpId = grpId,
 +                SkinCode = skinCode,
-+                ObjectType = GameObjectType.GameObjectType_Card
++                ObjectType = GameObjectType.Card
 +            };
 +            mtgCardInstance.CopyFromPrinting(cardPrintingById);
 +            CardData cardData = new CardData(mtgCardInstance, cardPrintingById);
@@ -452,7 +452,7 @@ index 80f3eef..6d65c17 100644
  			}
  			default:
 diff --git a/MatchManager.cs b/MatchManager.cs
-index b48d509..2a20f06 100644
+index 913b401..e1d3130 100644
 --- a/MatchManager.cs
 +++ b/MatchManager.cs
 @@ -59,11 +59,6 @@ public class MatchManager : IDisposable
@@ -522,10 +522,10 @@ index ce12467..3e8d569 100644
  }
 diff --git a/ModManager.cs b/ModManager.cs
 new file mode 100644
-index 0000000..c5a1136
+index 0000000..48eb13d
 --- /dev/null
 +++ b/ModManager.cs
-@@ -0,0 +1,349 @@
+@@ -0,0 +1,319 @@
 +using System;
 +using System.Collections.Generic;
 +using System.IO;
@@ -536,237 +536,237 @@ index 0000000..c5a1136
 +
 +public class ModManager
 +{
-+	private ModManager()
-+	{
-+	}
++    private ModManager()
++    {
++    }
 +
-+	public static ModManager Instance
-+	{
-+		get
-+		{
-+			lock (ModManager.lockObj)
-+			{
-+				if (ModManager.instance == null)
-+				{
-+					ModManager.instance = new ModManager();
-+					if (ModManager.instance.config == null)
-+					{
-+						try
-+						{
-+							string configContent = File.ReadAllText(ModManager.configFilePath, Encoding.UTF8);
-+							ModManager.instance.config = JsonUtility.FromJson<ModManager.ModConfig>(configContent);
++    public static ModManager Instance
++    {
++        get
++        {
++            lock (lockObj)
++            {
++                if (instance == null)
++                {
++                    instance = new ModManager();
++                    if (instance.config == null)
++                    {
++                        try
++                        {
++                            string configContent = File.ReadAllText(configFilePath, Encoding.UTF8);
++                            instance.config = JsonUtility.FromJson<ModConfig>(configContent);
 +
-+							if (ModManager.instance.config.userSkillLevel > UserSkillLevel.top)
-+							{
-+								ModManager.instance.config.userSkillLevel = UserSkillLevel.NONE;
-+							}
-+							if (ModManager.instance.config.draftDeckColor > DraftDeckColor.WUBRG)
-+							{
-+								ModManager.instance.config.draftDeckColor = DraftDeckColor.NONE;
-+							}
++                            if (instance.config.userSkillLevel > UserSkillLevel.top)
++                            {
++                                instance.config.userSkillLevel = UserSkillLevel.NONE;
++                            }
++                            if (instance.config.draftDeckColor > DraftDeckColor.WUBRG)
++                            {
++                                instance.config.draftDeckColor = DraftDeckColor.NONE;
++                            }
 +                            if (instance.config.autoSelectPlayer > SelectPlayer.OPPONENT)
 +                            {
 +                                instance.config.autoSelectPlayer = SelectPlayer.INVALID;
 +                            }
 +
-+							if (ModManager.instance.config.userSkillLevel != UserSkillLevel.NONE)
-+							{
-+								ModManager.apiUri = string.Format("{0}&user_group={1}", new object[]
-+								{
-+									ModManager.apiUri,
-+									ModManager.instance.config.userSkillLevel.ToString("G")
-+								});
-+							}
-+							if (ModManager.instance.config.draftDeckColor != DraftDeckColor.NONE)
-+							{
-+								ModManager.apiUri = string.Format("{0}&colors={1}", new object[]
-+								{
-+									ModManager.apiUri,
-+									ModManager.instance.config.draftDeckColor.ToString("G")
-+								});
-+							}
-+						}
-+						catch (Exception)
-+						{
-+							ModManager.instance.config = new ModManager.ModConfig();
-+						}
-+					}
-+				}
-+			}
-+			return ModManager.instance;
-+		}
-+	}
++                            if (instance.config.userSkillLevel != UserSkillLevel.NONE)
++                            {
++                                apiUri = string.Format("{0}&user_group={1}", new object[]
++                                {
++                                    apiUri,
++                                    instance.config.userSkillLevel.ToString("G")
++                                });
++                            }
++                            if (instance.config.draftDeckColor != DraftDeckColor.NONE)
++                            {
++                                apiUri = string.Format("{0}&colors={1}", new object[]
++                                {
++                                    apiUri,
++                                    instance.config.draftDeckColor.ToString("G")
++                                });
++                            }
++                        }
++                        catch (Exception)
++                        {
++                            instance.config = new ModConfig();
++                        }
++                    }
++                }
++            }
++            return instance;
++        }
++    }
 +
-+	public Dictionary<string, ModManager.DraftInfo> getCardRankMap(string setCode, string draftType)
-+	{
-+		if (!this.config.displayIWDText)
-+		{
-+			return null;
-+		}
-+		if (!this.cardRankMap.TryGetValue(setCode + "_" + draftType, out Dictionary<string, ModManager.DraftInfo> eventCardRankMap))
-+		{
-+			bool exist = false;
-+			lock (ModManager.lockObj)
-+			{
-+				exist = this.fetchingTask.ContainsKey(setCode + "_" + draftType);
-+				if (!exist)
-+				{
-+					this.fetchingTask[setCode + "_" + draftType] = true;
-+					this.fetchCardRankInfo(setCode, draftType);
-+				}
-+			}
-+			return null;
-+		}
-+		return eventCardRankMap;
-+	}
++    public Dictionary<string, DraftInfo> GetCardRankMap(string setCode, string draftType)
++    {
++        if (!this.config.displayIWDText)
++        {
++            return null;
++        }
++        if (!this.cardRankMap.TryGetValue(setCode + "_" + draftType, out Dictionary<string, DraftInfo> eventCardRankMap))
++        {
++            lock (lockObj)
++            {
++                bool exist = this.fetchingTask.ContainsKey(setCode + "_" + draftType);
++                if (!exist)
++                {
++                    this.fetchingTask[setCode + "_" + draftType] = true;
++                    this.FetchCardRankInfo(setCode, draftType);
++                }
++            }
++            return null;
++        }
++        return eventCardRankMap;
++    }
 +
-+	public async void fetchCardRankInfo(string setCode, string draftModeName)
-+	{
-+		string requestUrl = string.Format(ModManager.apiUri, new object[]
-+		{
-+			setCode,
-+			draftModeName,
-+			ModManager.startDate,
-+			ModManager.endDate
-+		});
++    public async void FetchCardRankInfo(string setCode, string draftModeName)
++    {
++        string requestUrl = string.Format(apiUri, new object[]
++        {
++            setCode,
++            draftModeName,
++            startDate,
++            endDate
++        });
 +
-+		try
-+		{
-+			string responseBody = await this.client.GetStringAsync(requestUrl);
-+			responseBody = string.Format("{{ \"data\": {0}}}", responseBody);
-+			ModManager.CardInfoList rankList = JsonUtility.FromJson<ModManager.CardInfoList>(responseBody);
-+			if (rankList != null)
-+			{
-+				Dictionary<string, ModManager.DraftInfo> eventCardRankMap = new Dictionary<string, ModManager.DraftInfo>();
-+				foreach (ModManager.CardInfo cardInfo in rankList.data)
-+				{
-+					//discard untrusted data
-+					if ((cardInfo.ever_drawn_game_count >= this.config.maxUntrustedIWDDataAmount) || (cardInfo.never_drawn_game_count >= this.config.maxUntrustedIWDDataAmount))
-+					{
-+						double iwd = (cardInfo.ever_drawn_win_rate - cardInfo.never_drawn_win_rate) * 100.0;
-+						eventCardRankMap[cardInfo.name] = new ModManager.DraftInfo(iwd, cardInfo.avg_pick);
-+					}
-+				}
-+				this.cardRankMap[setCode + "_" + draftModeName] = eventCardRankMap;
-+			}
-+		}
-+		catch (HttpRequestException e)
-+		{
-+			Debug.LogWarning("fetch " + setCode + "_" + draftModeName + "card rank info failure.");
-+		}
-+		lock (ModManager.lockObj)
-+		{
-+			this.fetchingTask.Remove(setCode + "_" + draftModeName);
-+		}
-+	}
++        try
++        {
++            string responseBody = await this.client.GetStringAsync(requestUrl);
++            responseBody = string.Format("{{ \"data\": {0}}}", responseBody);
++            CardInfoList rankList = JsonUtility.FromJson<CardInfoList>(responseBody);
++            if (rankList != null)
++            {
++                Dictionary<string, DraftInfo> eventCardRankMap = new Dictionary<string, DraftInfo>();
++                foreach (CardInfo cardInfo in rankList.data)
++                {
++                    //discard untrusted data
++                    if ((cardInfo.ever_drawn_game_count >= this.config.maxUntrustedIWDDataAmount) || (cardInfo.never_drawn_game_count >= this.config.maxUntrustedIWDDataAmount))
++                    {
++                        double iwd = (cardInfo.ever_drawn_win_rate - cardInfo.never_drawn_win_rate) * 100.0;
++                        eventCardRankMap[cardInfo.name] = new DraftInfo(iwd, cardInfo.avg_pick);
++                    }
++                }
++                this.cardRankMap[setCode + "_" + draftModeName] = eventCardRankMap;
++            }
++        }
++        catch (HttpRequestException)
++        {
++            Debug.LogWarning("fetch " + setCode + "_" + draftModeName + "card rank info failure.");
++        }
++        lock (lockObj)
++        {
++            this.fetchingTask.Remove(setCode + "_" + draftModeName);
++        }
++    }
 +
-+	public string getCardAvgPickInfo(string cardName)
-+	{
-+		string text = "";
-+		foreach (KeyValuePair<string, Dictionary<string, ModManager.DraftInfo>> keyValuePair in this.cardRankMap)
-+		{
-+			if (keyValuePair.Value != null && keyValuePair.Value.Count != 0)
-+			{
-+				ModManager.DraftInfo draftInfo;
-+				keyValuePair.Value.TryGetValue(cardName, out draftInfo);
-+				text = string.Concat(new string[]
-+				{
-+					text,
-+					"\n",
-+					keyValuePair.Key,
-+					"平均抓位：",
-+					draftInfo.avgPick.ToString()
-+				});
-+			}
-+		}
-+		return text;
-+	}
++    public string GetCardAvgPickInfo(string cardName)
++    {
++        string text = "";
++        foreach (KeyValuePair<string, Dictionary<string, DraftInfo>> keyValuePair in this.cardRankMap)
++        {
++            if (keyValuePair.Value != null && keyValuePair.Value.Count != 0)
++            {
++                if (keyValuePair.Value.TryGetValue(cardName, out DraftInfo draftInfo))
++                {
++                    text = string.Concat(new string[]
++                    {
++                        text,
++                        "\n",
++                        keyValuePair.Key,
++                        "平均抓位：",
++                        draftInfo.avgPick.ToString("F1")
++                });
++                }
++            }
++        }
++        return text;
++    }
 +
-+	public TMP_FontAsset zhCNFont
-+	{
-+		get
-+		{
-+			if (this.modFont == null)
-+			{
-+				string fontFileName = this.config.fontName;
-+				AssetBundle assetBundle = AssetBundle.LoadFromFile(Application.dataPath + "/" + fontFileName);
-+				if (assetBundle == null)
-+				{
-+					this.modFont = TMP_Settings.defaultFontAsset;
-+					Debug.LogWarning(string.Format("{0}/{1} don't exist,use game default font:\"{2}\".", new object[]{
-+						Application.dataPath,
-+						fontFileName,
-+						this.modFont.name
-+					}));
-+				}
-+				else
-+				{
-+					this.modFont = assetBundle.LoadAsset<TMP_FontAsset>(fontFileName + " SDF");
-+				}
-+			}
++    public TMP_FontAsset ZhCNFont
++    {
++        get
++        {
++            if (this.modFont == null)
++            {
++                string fontFileName = this.config.fontName;
++                AssetBundle assetBundle = AssetBundle.LoadFromFile(Application.dataPath + "/" + fontFileName);
++                if (assetBundle == null)
++                {
++                    this.modFont = TMP_Settings.defaultFontAsset;
++                    Debug.LogWarning(string.Format("{0}/{1} don't exist,use game default font:\"{2}\".", new object[]{
++                        Application.dataPath,
++                        fontFileName,
++                        this.modFont.name
++                    }));
++                }
++                else
++                {
++                    this.modFont = assetBundle.LoadAsset<TMP_FontAsset>(fontFileName + " SDF");
++                }
++            }
 +
-+			return this.modFont;
-+		}
-+	}
++            return this.modFont;
++        }
++    }
 +
-+	public ModManager.ModConfig config;
++    public ModConfig config;
 +
-+	private static ModManager instance = null;
-+	private static readonly object lockObj = new object();
-+	private static string configFilePath = Application.dataPath + "/modconfig.json";
-+	private static string startDate = "2016-09-01";
-+	private static string endDate = DateTime.Now.ToString("yyyy-MM-dd");
-+	private static string apiUri = "https://www.17lands.com/card_ratings/data?expansion={0}&format={1}&start_date={2}&end_date={3}";
++    private static ModManager instance = null;
++    private static readonly object lockObj = new object();
++    private static readonly string configFilePath = Application.dataPath + "/modconfig.json";
++    private static readonly string startDate = "2016-09-01";
++    private static readonly string endDate = DateTime.Now.ToString("yyyy-MM-dd");
++    private static string apiUri = "https://www.17lands.com/card_ratings/data?expansion={0}&format={1}&start_date={2}&end_date={3}";
 +
-+	private TMP_FontAsset modFont = null;
-+	// <eventName, <cardName, DraftInfo>>
-+	private Dictionary<string, Dictionary<string, ModManager.DraftInfo>> cardRankMap = new Dictionary<string, Dictionary<string, ModManager.DraftInfo>>();
-+	private Dictionary<string, bool> fetchingTask = new Dictionary<string, bool>();
-+	private HttpClient client = new HttpClient();
++    private TMP_FontAsset modFont = null;
++    // <eventName, <cardName, DraftInfo>>
++    private readonly Dictionary<string, Dictionary<string, DraftInfo>> cardRankMap = new Dictionary<string, Dictionary<string, DraftInfo>>();
++    private readonly Dictionary<string, bool> fetchingTask = new Dictionary<string, bool>();
++    private readonly HttpClient client = new HttpClient();
 +
-+	public enum UserSkillLevel : uint
-+	{
-+		NONE = 0,
-+		bottom = 1,
-+		middle = 2,
-+		top = 3,
-+	}
++    public enum UserSkillLevel : uint
++    {
++        NONE = 0,
++        bottom = 1,
++        middle = 2,
++        top = 3,
++    }
 +
-+	public enum DraftDeckColor : uint
-+	{
-+		NONE = 0,
-+		W,
-+		U,
-+		B,
-+		R,
-+		G,
-+		WU,
-+		WB,
-+		WR,
-+		WG,
-+		UB,
-+		UR,
-+		UG,
-+		BR,
-+		BG,
-+		RG,
-+		WUB,
-+		WUR,
-+		WUG,
-+		WBR,
-+		WBG,
-+		WRG,
-+		UBR,
-+		UBG,
-+		URG,
-+		BRG,
-+		WUBR,
-+		WUBG,
-+		WURG,
-+		WBRG,
-+		UBRG,
-+		WUBRG
-+	}
++    public enum DraftDeckColor : uint
++    {
++        NONE = 0,
++        W,
++        U,
++        B,
++        R,
++        G,
++        WU,
++        WB,
++        WR,
++        WG,
++        UB,
++        UR,
++        UG,
++        BR,
++        BG,
++        RG,
++        WUB,
++        WUR,
++        WUG,
++        WBR,
++        WBG,
++        WRG,
++        UBR,
++        UBG,
++        URG,
++        BRG,
++        WUBR,
++        WUBG,
++        WURG,
++        WBRG,
++        UBRG,
++        WUBRG
++    }
 +
 +    public enum SelectPlayer : uint
 +    {
@@ -775,105 +775,75 @@ index 0000000..c5a1136
 +        OPPONENT = 2,
 +    }
 +
-+	public struct DraftInfo
-+	{
-+		public DraftInfo(double iwdValue, double pickValue)
-+		{
-+			this.iwd = iwdValue;
-+			this.avgPick = pickValue;
-+		}
++    public struct DraftInfo
++    {
++        public DraftInfo(double iwdValue, double pickValue)
++        {
++            this.iwd = iwdValue;
++            this.avgPick = pickValue;
++        }
 +
-+		public double iwd;
-+		public double avgPick;
-+	}
++        public double iwd;
++        public double avgPick;
++    }
 +
-+	[Serializable]
-+	public class ModConfig
-+	{
-+		public string fontName = "sourcehansans-medium";
++    [Serializable]
++    public class ModConfig
++    {
++        public string fontName = "sourcehansans-medium";
 +
-+		public uint plainsId = 81179U;
++        public string defaultFormatName = "Standard";
 +
-+		public uint islandId = 81180U;
++        public bool displayIWDText = true;
 +
-+		public uint swampId = 81181U;
++        public uint maxUntrustedIWDDataAmount = 200;
 +
-+		public uint mountainId = 81182U;
++        public UserSkillLevel userSkillLevel = UserSkillLevel.NONE;
 +
-+		public uint forestId = 81183U;
++        public DraftDeckColor draftDeckColor = DraftDeckColor.NONE;
 +
-+		public uint wasteId = 62531U;
++        public bool alwayExportEnglishDeck = false;
 +
-+		public string defaultFormatName = "Standard";
-+
-+		public bool displayIWDText = true;
-+
-+		public uint maxUntrustedIWDDataAmount = 200;
-+
-+		public UserSkillLevel userSkillLevel = UserSkillLevel.NONE;
-+
-+		public DraftDeckColor draftDeckColor = DraftDeckColor.NONE;
-+
-+		public bool alwayExportEnglishDeck = false;
++        public bool displayAbilityHangerExtraInfo = true;
 +
 +        public bool displayNetDeckFolders = true;
 +
 +        public SelectPlayer autoSelectPlayer = SelectPlayer.INVALID;
-+	}
++    }
 +
-+	[Serializable]
-+	private class CardInfo
-+	{
-+		public int seen_count;
++    [Serializable]
++    private class CardInfo
++    {
++        public int seen_count;
++        public double avg_seen;
++        public int pick_count;
++        public double avg_pick;
++        public int game_count;
++        public int pool_count;
++        public double play_rate;
++        public double win_rate;
++        public int opening_hand_game_count;
++        public double opening_hand_win_rate;
++        public int drawn_game_count;
++        public double drawn_win_rate;
++        public int ever_drawn_game_count;
++        public double ever_drawn_win_rate;
++        public int never_drawn_game_count;
++        public double never_drawn_win_rate;
++        public double drawn_improvement_win_rate;
++        public string name;
++        public int mtga_id;
++        public string color;
++        public string rarity;
++        public string url;
++        public string url_back;
++    }
 +
-+		public int pick_count;
-+
-+		public int game_count;
-+
-+		public int sideboard_game_count;
-+
-+		public int opening_hand_game_count;
-+
-+		public int drawn_game_count;
-+
-+		public int ever_drawn_game_count;
-+
-+		public int never_drawn_game_count;
-+
-+		public string name;
-+
-+		public string color;
-+
-+		public string rarity;
-+
-+		public string url;
-+
-+		public string url_back;
-+
-+		public double avg_seen;
-+
-+		public double avg_pick;
-+
-+		public double win_rate;
-+
-+		public double sideboard_win_rate;
-+
-+		public double opening_hand_win_rate;
-+
-+		public double drawn_win_rate;
-+
-+		public double ever_drawn_win_rate;
-+
-+		public double never_drawn_win_rate;
-+
-+		public double drawn_improvement_win_rate;
-+	}
-+
-+	[Serializable]
-+	private class CardInfoList
-+	{
-+		public List<ModManager.CardInfo> data;
-+	}
++    [Serializable]
++    private class CardInfoList
++    {
++        public List<CardInfo> data;
++    }
 +}
 diff --git a/SearchAndFilterBar.cs b/SearchAndFilterBar.cs
 index 8ab796d..7f27d3a 100644
@@ -939,7 +909,7 @@ index 1318b98..2971269 100644
  
  	private void Start()
 diff --git a/StoreItemBase.cs b/StoreItemBase.cs
-index 6595c75..d36d7c5 100644
+index 1bc6143..704eb00 100644
 --- a/StoreItemBase.cs
 +++ b/StoreItemBase.cs
 @@ -488,6 +488,7 @@ public class StoreItemBase : MonoBehaviour
@@ -999,7 +969,7 @@ index da68f84..847a4f5 100644
  				_defaultFontMaterial = _label.fontSharedMaterial;
  				_hasBeenInit = true;
 diff --git a/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs b/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
-index d50ecc1..cd7f4a9 100644
+index 0bfea23..c4f6174 100644
 --- a/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
 +++ b/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
 @@ -65,12 +65,16 @@ namespace Wotc.Mtga.CardParts.FieldFillers
@@ -1122,7 +1092,7 @@ index 229eee8..26ed898 100644
  
  		public static bool TryStripLoyaltyPrefixFromString(ref string localizedText)
 diff --git a/Wotc.Mtga.DuelScene.Interactions.SelectTargets/AutoTargetingSolution.cs b/Wotc.Mtga.DuelScene.Interactions.SelectTargets/AutoTargetingSolution.cs
-index 01edb2d..15a5160 100644
+index 4021a2e..4c1c51c 100644
 --- a/Wotc.Mtga.DuelScene.Interactions.SelectTargets/AutoTargetingSolution.cs
 +++ b/Wotc.Mtga.DuelScene.Interactions.SelectTargets/AutoTargetingSolution.cs
 @@ -43,6 +43,33 @@ namespace Wotc.Mtga.DuelScene.Interactions.SelectTargets
@@ -1260,10 +1230,10 @@ index f09becd..37b81da 100644
  			DraftId = draftId;
  		}
 diff --git a/WrapperDeckBuilder.cs b/WrapperDeckBuilder.cs
-index dddc300..f8aa97b 100644
+index 5ab65d7..440ffc4 100644
 --- a/WrapperDeckBuilder.cs
 +++ b/WrapperDeckBuilder.cs
-@@ -251,7 +251,7 @@ public class WrapperDeckBuilder : NavContentController
+@@ -256,7 +256,7 @@ public class WrapperDeckBuilder : NavContentController
  	{
  		if (!_decksManager.ShowDeckLimitError())
  		{
@@ -1273,7 +1243,7 @@ index dddc300..f8aa97b 100644
  			AudioManager.PlayAudio(WwiseEvents.sfx_ui_generic_click, base.gameObject);
  		}
 diff --git a/WrapperDeckUtilities.cs b/WrapperDeckUtilities.cs
-index e1b17b9..4e8ece2 100644
+index 25e69eb..7d0e5a1 100644
 --- a/WrapperDeckUtilities.cs
 +++ b/WrapperDeckUtilities.cs
 @@ -356,30 +356,51 @@ public static class WrapperDeckUtilities
@@ -1343,5 +1313,5 @@ index e1b17b9..4e8ece2 100644
  		{
  			CardPrintingData cardPrintingData = printingsByLocalizedTitle.FirstOrDefault((CardPrintingData c) => !c.IsPrimaryCard && c.DefunctRebalancedCardLink != 0 && cardDatabase.CardDataProvider.GetCardPrintingById(c.DefunctRebalancedCardLink).IsPrimaryCard);
 -- 
-2.44.0
+2.45.0
 
