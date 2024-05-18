@@ -1,10 +1,10 @@
-From ab4024bc7ced816357d5f8c137f020c6e685d4dd Mon Sep 17 00:00:00 2001
+From 351960f23269656fab9a2e765531bdac669de4ce Mon Sep 17 00:00:00 2001
 From: CCTV-1 <script.tar.gz@gmail.com>
-Date: Wed, 8 May 2024 13:16:16 +0800
+Date: Sat, 18 May 2024 08:51:23 +0800
 Subject: [PATCH] mod patch.
 
 ---
- AbilityHangerBase.cs                          |  40 +++
+ AbilityHangerBase.cs                          |  41 +++
  AccountInformation.cs                         |   2 +-
  AdvancedFiltersView.cs                        |   2 +
  AutoLandsToggle.cs                            |   6 +
@@ -43,11 +43,11 @@ Subject: [PATCH] mod patch.
  Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs      |   1 +
  WrapperDeckBuilder.cs                         |   2 +-
  WrapperDeckUtilities.cs                       |  29 +-
- 39 files changed, 630 insertions(+), 94 deletions(-)
+ 39 files changed, 631 insertions(+), 94 deletions(-)
  create mode 100644 ModManager.cs
 
 diff --git a/AbilityHangerBase.cs b/AbilityHangerBase.cs
-index 8b5bf0e..e2edc25 100644
+index 8b5bf0e..4205909 100644
 --- a/AbilityHangerBase.cs
 +++ b/AbilityHangerBase.cs
 @@ -61,6 +61,8 @@ public class AbilityHangerBase : HangerBase
@@ -93,18 +93,19 @@ index 8b5bf0e..e2edc25 100644
  	}
  
  	private void SpawnHangerView()
-@@ -222,6 +251,17 @@ public class AbilityHangerBase : HangerBase
+@@ -222,6 +251,18 @@ public class AbilityHangerBase : HangerBase
  	protected virtual void AddHangersInternal(BASE_CDC cardView, ICardDataAdapter sourceModel, HangerSituation situation)
  	{
  		ICardDataAdapter model = cardView.Model;
 +		if (ModManager.Instance.config.displayAbilityHangerExtraInfo)
 +		{
-+			string body = string.Format("系列代码：{0}\n稀有度：{1}\n内部编号：{2}{3}", new object[]
++			string body = string.Format("系列代码：{0}\n稀有度：{1}\n内部编号：{2}\n实例编号：{3}{4}", new object[]
 +			{
-+				model.ExpansionCode,
-+				this.rarityNameMap[model.Rarity],
-+				model.GrpId,
-+				ModManager.Instance.getCardAvgPickInfo(this._cardDatabase.CardTitleProvider.GetCardTitle(model.GrpId, true, "en-US"))
++				sourceModel.ExpansionCode,
++				this.rarityNameMap[sourceModel.Rarity],
++				sourceModel.GrpId,
++				sourceModel.InstanceId,
++				ModManager.Instance.getCardAvgPickInfo(this._cardDatabase.CardTitleProvider.GetCardTitle(sourceModel.GrpId, true, "en-US"))
 +			});
 +			this._view.CreateHangerItem("Mod额外信息", false, body, false, "", false, null, 0, false, false, false);
 +		}
@@ -1313,5 +1314,5 @@ index 25e69eb..7d0e5a1 100644
  		{
  			CardPrintingData cardPrintingData = printingsByLocalizedTitle.FirstOrDefault((CardPrintingData c) => !c.IsPrimaryCard && c.DefunctRebalancedCardLink != 0 && cardDatabase.CardDataProvider.GetCardPrintingById(c.DefunctRebalancedCardLink).IsPrimaryCard);
 -- 
-2.45.0
+2.45.1
 
