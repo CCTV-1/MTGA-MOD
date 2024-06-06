@@ -33,27 +33,27 @@
     },
     "AbilityHanger/AbilityWord/Annihilator_1_Body": {
         "oracleText": "Whenever this creature attacks, defending player sacrifices a permanent.",
-        "translation": "Whenever this creature attacks, defending player sacrifices a permanent."
+        "translation": "每当此生物攻击时，防御牌手牺牲一个永久物。"
     },
     "AbilityHanger/AbilityWord/Annihilator_1_Title": {
         "oracleText": "Annihilator 1",
-        "translation": "Annihilator 1"
+        "translation": "歼灭1"
     },
     "AbilityHanger/AbilityWord/Annihilator_N_Body": {
         "oracleText": "Whenever this creature attacks, defending player sacrifices {numeral} permanents.",
-        "translation": "Whenever this creature attacks, defending player sacrifices {numeral} permanents."
+        "translation": "每当此生物攻击时，防御牌手牺牲{numeral}个永久物。"
     },
     "AbilityHanger/AbilityWord/Annihilator_N_Title": {
         "oracleText": "Annihilator {numeral}",
-        "translation": "Annihilator {numeral}"
+        "translation": "歼灭{numeral}"
     },
     "AbilityHanger/AbilityWord/Annihilator_X_Body": {
         "oracleText": "Whenever this creature attacks, defending player sacrifices X permanents.",
-        "translation": "Whenever this creature attacks, defending player sacrifices X permanents."
+        "translation": "每当此生物攻击时，防御牌手牺牲X个永久物。"
     },
     "AbilityHanger/AbilityWord/Annihilator_X_Title": {
         "oracleText": "Annihilator X",
-        "translation": "Annihilator X"
+        "translation": "歼灭X"
     },
     "AbilityHanger/AbilityWord/Ascend": {
         "oracleText": "If you control ten or more permanents, you get the city's blessing for the rest of the game.",
@@ -305,7 +305,7 @@
     },
     "AbilityHanger/CostChange/CostModified_Body": {
         "oracleText": "This spell's mana cost modified to {newCost}",
-        "translation": "This spell's mana cost modified to {newCost}"
+        "translation": "此咒语的施放费用改为{newCost}"
     },
     "AbilityHanger/CostChange/CostModified_Header": {
         "oracleText": "Cost Modified",
@@ -445,11 +445,11 @@
     },
     "AbilityHanger/Keyword/Adapt_Body": {
         "oracleText": "If this creature has no +1/+1 counters on it, put {numeral} +1/+1 counters on it.",
-        "translation": "If this creature has no +1/+1 counters on it, put {numeral} +1/+1 counters on it."
+        "translation": "如果此生物上没有+1/+1指示物，则在其上放置{numeral}个+1/+1指示物。"
     },
     "AbilityHanger/Keyword/Adapt_Title": {
         "oracleText": "Adapt {numeral}",
-        "translation": "Adapt {numeral}"
+        "translation": "演化{numeral}"
     },
     "AbilityHanger/Keyword/AffinityForOutlaws_Body": {
         "oracleText": "This spell costs {o1} less to cast for each Assassin, Mercenary, Pirate, Rogue, and/or Warlock you control.",
@@ -641,11 +641,11 @@
     },
     "AbilityHanger/Keyword/Bestow_Body": {
         "oracleText": "If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached.",
-        "translation": "If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached."
+        "translation": "如果你支付此牌的神授费用来施放它，则它便是具「结附于生物」的灵气咒语。如果它未贴附，就会再度成为生物。"
     },
     "AbilityHanger/Keyword/Bestow_Title": {
         "oracleText": "Bestow",
-        "translation": "Bestow"
+        "translation": "神授"
     },
     "AbilityHanger/Keyword/Blitz_Body": {
         "oracleText": "If you cast this spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.",
@@ -1101,11 +1101,11 @@
     },
     "AbilityHanger/Keyword/Dredge_Body": {
         "oracleText": "If you would draw a card you may instead mill {numeral} cards and return a card with dredge {numeral} from your graveyard to your hand.",
-        "translation": "If you would draw a card you may instead mill {numeral} cards and return a card with dredge {numeral} from your graveyard to your hand."
+        "translation": "若你将要抓一张牌，你可以改为磨{numeral}张牌，且将一张具有发掘{numeral}的牌从你的坟墓场移回你手上。"
     },
     "AbilityHanger/Keyword/Dredge_Title": {
         "oracleText": "Dredge {numeral}",
-        "translation": "Dredge {numeral}"
+        "translation": "发掘{numeral}"
     },
     "AbilityHanger/Keyword/Echo_Body": {
         "oracleText": "At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.",
@@ -1121,11 +1121,11 @@
     },
     "AbilityHanger/Keyword/EmergeFromArtifact_Body": {
         "oracleText": "You may cast this spell by sacrificing an artifact and paying the emerge cost reduced by that artifact's mana value.",
-        "translation": "You may cast this spell by sacrificing an artifact and paying the emerge cost reduced by that artifact's mana value."
+        "translation": "你可以牺牲一个神器并支付化生费用来施放此咒语，此时总费用会扣除该神器之法术力值。"
     },
     "AbilityHanger/Keyword/EmergeFromArtifact_Title": {
         "oracleText": "Emerge From Artifact",
-        "translation": "Emerge From Artifact"
+        "translation": "神器化生"
     },
     "AbilityHanger/Keyword/Enlist_Body": {
         "oracleText": "As this creature attacks, you may tap a nonattacking creature you control without summoning sickness. When you do, add its power to this creature's until end of turn.",
@@ -1157,7 +1157,7 @@
     },
     "AbilityHanger/Keyword/Exalted": {
         "oracleText": "Whenever a creature you control attacks alone, it gets +1/+1 until end of turn for each instance of exalted among permanents you control.",
-        "translation": "Whenever a creature you control attacks alone, it gets +1/+1 until end of turn for each instance of exalted among permanents you control."
+        "translation": "每当一个由你操控的生物单独攻击时，由你操控的永久物的每个颂威异能使该生物得+1/+1直到回合结束。"
     },
     "AbilityHanger/Keyword/Exalted_Body": {
         "oracleText": "Whenever a creature you control attacks alone, it gets +1/+1 until end of turn for each instance of exalted among permanents you control.",
@@ -1289,11 +1289,11 @@
     },
     "AbilityHanger/Keyword/HexproofFromEachColor_Body": {
         "oracleText": "A permanent with hexproof from each color can't be the target of spells or abilities your opponents control that are one or more colors.",
-        "translation": "A permanent with hexproof from each color can't be the target of spells or abilities your opponents control that are one or more colors."
+        "translation": "具有反五色辟邪的永久物不能成为由对手所操控之单色或多色咒语或异能的目标。"
     },
     "AbilityHanger/Keyword/HexproofFromEachColor_Title": {
         "oracleText": "Hexproof From Each Color",
-        "translation": "Hexproof From Each Color"
+        "translation": "反五色辟邪"
     },
     "AbilityHanger/Keyword/HexproofFromGreen_Body": {
         "oracleText": "This permanent can't be the target of green spells or abilities your opponents control.",
@@ -1313,11 +1313,11 @@
     },
     "AbilityHanger/Keyword/Hexproof_from_Abilities_Body": {
         "oracleText": "A permanent with hexproof from activated and triggered abilities can't be the target of abilities your opponents control.",
-        "translation": "A permanent with hexproof from activated and triggered abilities can't be the target of abilities your opponents control."
+        "translation": "具有反起动式和触发式异能辟邪的永久物不能成为由对手所操控之异能的目标。"
     },
     "AbilityHanger/Keyword/Hexproof_from_Abilities_Title": {
         "oracleText": "Hexproof From Abilities",
-        "translation": "Hexproof From Abilities"
+        "translation": "反异能辟邪"
     },
     "AbilityHanger/Keyword/Hexproof_from_Artifacts_and_Enchantments_Body": {
         "oracleText": "A permanent with hexproof from artifacts and enchantments can't be the target of abilities from artifacts or enchantments your opponents control, or Auras your opponents cast.",
@@ -1509,19 +1509,19 @@
     },
     "AbilityHanger/Keyword/Manifest_Body": {
         "oracleText": "To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.",
-        "translation": "To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card."
+        "translation": "显化某张牌的流程，是将该牌面朝下地放进战场，当成 2/2 生物。如果该牌是生物牌，则可随时支付其法术力费用使其翻回正面。 "
     },
     "AbilityHanger/Keyword/Manifest_Title": {
         "oracleText": "Manifest",
-        "translation": "Manifest"
+        "translation": "显化"
     },
     "AbilityHanger/Keyword/Manifested_Body": {
         "oracleText": "It's controller may turn it face up at any time for its mana cost if it's a creature card.",
-        "translation": "It's controller may turn it face up at any time for its mana cost if it's a creature card."
+        "translation": "如果该牌是生物牌，则其操控者可随时支付其法术力费用使其翻回正面。"
     },
     "AbilityHanger/Keyword/Manifested_Title": {
         "oracleText": "This Permanent is Manifested",
-        "translation": "This Permanent is Manifested"
+        "translation": "此永久物处于已显化状态"
     },
     "AbilityHanger/Keyword/Menace": {
         "oracleText": "A creature with menace can't be blocked except by two or more creatures.",
@@ -1681,11 +1681,11 @@
     },
     "AbilityHanger/Keyword/Populate_Body": {
         "oracleText": "To populate, create a token that's a copy of a creature token you control.",
-        "translation": "To populate, create a token that's a copy of a creature token you control."
+        "translation": "殖民的流程是：派出一个衍生物，此衍生物为由你操控的某衍生生物之复制品。"
     },
     "AbilityHanger/Keyword/Populate_Title": {
         "oracleText": "Populate",
-        "translation": "Populate"
+        "translation": "殖民"
     },
     "AbilityHanger/Keyword/Proliferate": {
         "oracleText": "Choose any number of permanents and/or players, then give each another counter of each kind already there.",
@@ -1913,11 +1913,11 @@
     },
     "AbilityHanger/Keyword/Protection_Body": {
         "oracleText": "Can't be blocked, targeted, dealt damage, enchanted, or equipped by spells or by permanents that were cast this turn.",
-        "translation": "Can't be blocked, targeted, dealt damage, enchanted, or equipped by spells or by permanents that were cast this turn."
+        "translation": "不能被阻挡、指定为目标、造成伤害、结附或是装备。"
     },
     "AbilityHanger/Keyword/Protection_Title": {
         "oracleText": "Protection",
-        "translation": "Protection"
+        "translation": "保护"
     },
     "AbilityHanger/Keyword/Prototype_Body": {
         "oracleText": "You may cast this spell with different mana cost, color, power, and toughness. It keeps its abilities and types.",
@@ -1977,19 +1977,19 @@
     },
     "AbilityHanger/Keyword/Reinforce_Body_Parameter": {
         "oracleText": "{abilityCost}, Discard this card: Put two +1/+1 counters on target creature.",
-        "translation": "{abilityCost}, Discard this card: Put two +1/+1 counters on target creature."
+        "translation": "{abilityCost}，弃掉此牌：在目标生物上放置 N 个+1/+1 指示物。"
     },
     "AbilityHanger/Keyword/Reinforce_Title_Parameter": {
         "oracleText": "Reinforce {numeral}",
-        "translation": "Reinforce {numeral}"
+        "translation": "补强{numeral}"
     },
     "AbilityHanger/Keyword/Replicate_Body": {
         "oracleText": "When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies",
-        "translation": "When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies"
+        "translation": "当你施放此咒语时，若支付过其覆诵费用，则每支付过一次覆诵费用，就可以将它复制一次。若此咒语需要目标，你可以为任意数量之复制选择新的目标。"
     },
     "AbilityHanger/Keyword/Replicate_Title": {
         "oracleText": "Replicate",
-        "translation": "Replicate"
+        "translation": "覆诵"
     },
     "AbilityHanger/Keyword/Retrace": {
         "oracleText": "You may cast this card from your graveyard by discarding a land card in addition to paying its other costs.",
@@ -1997,7 +1997,7 @@
     },
     "AbilityHanger/Keyword/RetraceReference_Body": {
         "oracleText": "You may cast a card with retrace from your graveyard by discarding a land card in addition to paying its other costs.",
-        "translation": "You may cast a card with retrace from your graveyard by discarding a land card in addition to paying its other costs."
+        "translation": "你可以从你的坟墓场施放具有追溯异能的牌，但必须支付其所需费用并额外弃一张地牌。"
     },
     "AbilityHanger/Keyword/Riot": {
         "oracleText": "A creature with riot enters the battlefield with your choice of a +1/+1 counter or haste.",
@@ -2217,11 +2217,11 @@
     },
     "AbilityHanger/Keyword/UmbraArmor_Body": {
         "oracleText": "If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.",
-        "translation": "If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura."
+        "translation": "若该永久物将被消灭，便会改为消灭该灵气。"
     },
     "AbilityHanger/Keyword/UmbraArmor_Title": {
         "oracleText": "Umbra Armor",
-        "translation": "Umbra Armor"
+        "translation": "本影甲"
     },
     "AbilityHanger/Keyword/Undying_Body": {
         "oracleText": "When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.",
@@ -2241,15 +2241,15 @@
     },
     "AbilityHanger/Keyword/Vanishing1_Body": {
         "oracleText": "This permanent enters the battlefield with 1 time counter on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
-        "translation": "This permanent enters the battlefield with 1 time counter on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it."
+        "translation": "此生物进战场时上面有1个计时指示物。在你的维持开始时，从其上移去一个计时指示物。当移去最后一个时，将它牺牲。"
     },
     "AbilityHanger/Keyword/VanishingN_Body": {
         "oracleText": "This permanent enters the battlefield with {numeral} time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.",
-        "translation": "This permanent enters the battlefield with {numeral} time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it."
+        "translation": "此生物进战场时上面有{numeral}个计时指示物。在你的维持开始时，从其上移去一个计时指示物。当移去最后一个时，将它牺牲。"
     },
     "AbilityHanger/Keyword/Vanishing_Title": {
         "oracleText": "Vanishing {numeral}",
-        "translation": "Vanishing {numeral}"
+        "translation": "消逝{numeral}"
     },
     "AbilityHanger/Keyword/VentureIntoTheDungeon": {
         "oracleText": "Enter the first room of a dungeon. If already in a dungeon advance to the next room instead.",
@@ -7125,43 +7125,43 @@
     },
     "Decks/Precon/Precon_EPP2025_BG": {
         "oracleText": "Snack Time",
-        "translation": "Snack Time"
+        "translation": "零食时间"
     },
     "Decks/Precon/Precon_EPP2025_BW": {
         "oracleText": "Power to the People",
-        "translation": "Power to the People"
+        "translation": "众人之力"
     },
     "Decks/Precon/Precon_EPP2025_RB": {
         "oracleText": "Outlaw Posse",
-        "translation": "Outlaw Posse"
+        "translation": "亡命之徒"
     },
     "Decks/Precon/Precon_EPP2025_RG": {
         "oracleText": "Dino Might",
-        "translation": "Dino Might"
+        "translation": "暴龙之力"
     },
     "Decks/Precon/Precon_EPP2025_RW": {
         "oracleText": "Ancient Discovery",
-        "translation": "Ancient Discovery"
+        "translation": "探寻古物"
     },
     "Decks/Precon/Precon_EPP2025_UB": {
         "oracleText": "Faerie Pranks",
-        "translation": "Faerie Pranks"
+        "translation": "仙灵恶戏"
     },
     "Decks/Precon/Precon_EPP2025_UG": {
         "oracleText": "Desert Oasis",
-        "translation": "Desert Oasis"
+        "translation": "沙漠绿洲"
     },
     "Decks/Precon/Precon_EPP2025_UR": {
         "oracleText": "Second Chance",
-        "translation": "Second Chance"
+        "translation": "重来一次"
     },
     "Decks/Precon/Precon_EPP2025_UW": {
         "oracleText": "Crack the Case",
-        "translation": "Crack the Case"
+        "translation": "明察秋毫"
     },
     "Decks/Precon/Precon_EPP2025_WG": {
         "oracleText": "Saddle Up",
-        "translation": "Saddle Up"
+        "translation": "乘上座驾"
     },
     "Decks/Precon/Precon_EPP_BG": {
         "oracleText": "Golgari Swarm",
@@ -8781,7 +8781,7 @@
     },
     "DuelScene/Browsers/Bestow_Header": {
         "oracleText": "Bestow",
-        "translation": "Bestow"
+        "translation": "神授"
     },
     "DuelScene/Browsers/BrowserCardInfo_ActivateAbility": {
         "oracleText": "Activate Ability",
@@ -8813,7 +8813,7 @@
     },
     "DuelScene/Browsers/BrowserCardInfo_Cloak": {
         "oracleText": "Cloak",
-        "translation": "Cloak"
+        "translation": "匿伏"
     },
     "DuelScene/Browsers/BrowserCardInfo_Disguise": {
         "oracleText": "Disguise",
@@ -8821,11 +8821,11 @@
     },
     "DuelScene/Browsers/BrowserCardInfo_Manifest": {
         "oracleText": "Manifest",
-        "translation": "Manifest"
+        "translation": "显化"
     },
     "DuelScene/Browsers/BrowserCardInfo_Morph": {
         "oracleText": "Morph",
-        "translation": "Morph"
+        "translation": "变身"
     },
     "DuelScene/Browsers/BrowserCardInfo_PlayAsTypeWith": {
         "oracleText": "Play as {type} With",
@@ -9013,7 +9013,7 @@
     },
     "DuelScene/Browsers/EmergeFromArtifact_Header": {
         "oracleText": "Emerge From Artifact",
-        "translation": "Emerge From Artifact"
+        "translation": "神器化生"
     },
     "DuelScene/Browsers/EndingPhase": {
         "oracleText": "End, Cleanup",
@@ -9069,7 +9069,7 @@
     },
     "DuelScene/Browsers/Manifest_ManaCost_Text": {
         "oracleText": "Manifest {manaCost}",
-        "translation": "Manifest {manaCost}"
+        "translation": "显化{manaCost}"
     },
     "DuelScene/Browsers/Multi_Browser_SubTitle": {
         "oracleText": "Click on one option below to select it.",
@@ -9109,7 +9109,7 @@
     },
     "DuelScene/Browsers/NotACreatureConfirmation_Subheader": {
         "oracleText": "{cardTitle} is not a creature card.",
-        "translation": "{cardTitle} is not a creature card."
+        "translation": "{cardTitle}不是一张生物牌。"
     },
     "DuelScene/Browsers/Opponent": {
         "oracleText": "Opponent",
@@ -9533,7 +9533,7 @@
     },
     "DuelScene/ClientPrompt/ChooseX_Replicate": {
         "oracleText": "Replicate {quantity}",
-        "translation": "Replicate {quantity}"
+        "translation": "覆诵{quantity}"
     },
     "DuelScene/ClientPrompt/ChooseX_Sacrifice": {
         "oracleText": "Sacrifice {quantity}",
@@ -10353,7 +10353,7 @@
     },
     "DuelScene/Interaction/SelectReplacement/Draw": {
         "oracleText": "Draw",
-        "translation": "Draw"
+        "translation": "抓牌"
     },
     "DuelScene/KeywordSelection/Fuse": {
         "oracleText": "Fuse",
@@ -18713,7 +18713,7 @@
     },
     "Events/Event_Desc_MWM_Brawl": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\n\nThis week's event is Brawl: Bring a 100-card Brawl deck using any cards in MTG Arena, led by your favorite legendary creature or planeswalker!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
-        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\n\nThis week's event is Brawl: Bring a 100-card Brawl deck using any cards in MTG Arena, led by your favorite legendary creature or planeswalker!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+        "translation": "欢迎来到周中万智牌！每周尝试一种不同的方式来游玩万智牌竞技场！\n\n\n本周活动是争锋：围绕你最喜爱的传奇生物或鹏洛客，使用万智牌竞技场中任意可用牌张构筑一副100张的争锋套牌！\n\n点击<u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>此处</link></u>了解有关本次周中活动以及未来周中万智牌活动的更多详细信息 。"
     },
     "Events/Event_Desc_MWM_BrawlBuilderChallenge": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Brawl Builder Challenge: choose one our potential Commanders and build a 100-card Brawl deck using any cards in MTG Arena!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
@@ -18853,7 +18853,7 @@
     },
     "Events/Event_Desc_MWM_MH3Constructed": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Modern Horizons 3</i> Constructed: Bring a 60-card deck with only cards from the most recent set and demonstrate your mastery of the new cards!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
-        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Modern Horizons 3</i> Constructed: Bring a 60-card deck with only cards from the most recent set and demonstrate your mastery of the new cards!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+        "translation": "欢迎来到周中万智牌！每周尝试一种不同的方式来游玩万智牌竞技场！\n\n本周活动是<i>摩登新篇3</i>构筑：仅使用来自最新系列的卡牌构筑一副60张套牌并展示你对新牌的深刻理解！\n\n点击<u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>此处</link></u>了解有关本次周中活动以及未来周中万智牌活动的更多详细信息 。"
     },
     "Events/Event_Desc_MWM_MID_Sealed": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Midnight Hunt</i> vs <i>Crimson Vow</i> Sealed: Open six packs of <i>Midnight Hunt</i> and add basic lands to make a 40-card deck, then play against other players who are playing <i>Crimson Vow</i>!\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
@@ -21645,15 +21645,15 @@
     },
     "Events/Event_Title_MH3_Premier_Draft": {
         "oracleText": "Premier Draft Modern Horizons 3",
-        "translation": "Premier Draft Modern Horizons 3"
+        "translation": "摩登新篇3竞技轮抽"
     },
     "Events/Event_Title_MH3_Quick_Draft": {
         "oracleText": "Quick Draft Modern Horizons 3",
-        "translation": "Quick Draft Modern Horizons 3"
+        "translation": "摩登新篇3快速轮抽"
     },
     "Events/Event_Title_MH3_Trad_Draft": {
         "oracleText": "Traditional Draft Modern Horizons 3",
-        "translation": "Traditional Draft Modern Horizons 3"
+        "translation": "摩登新篇3三盘轮抽"
     },
     "Events/Event_Title_MID_Premier_Draft": {
         "oracleText": "Premier Draft Midnight Hunt",
@@ -21905,7 +21905,7 @@
     },
     "Events/Event_Title_MWM_MH3Constructed": {
         "oracleText": "Midweek Magic: Modern Horizons 3 Constructed",
-        "translation": "Midweek Magic: Modern Horizons 3 Constructed"
+        "translation": "周中万智牌：摩登新篇3环境构筑"
     },
     "Events/Event_Title_MWM_MID_Sealed": {
         "oracleText": "Midweek Magic: Phantom Sealed Faceoff - Midnight Hunt",
@@ -22493,7 +22493,7 @@
     },
     "Events/Event_Title_Sealed_MH3": {
         "oracleText": "Sealed Modern Horizons 3",
-        "translation": "Sealed Modern Horizons 3"
+        "translation": "摩登新篇3现开"
     },
     "Events/Event_Title_Sealed_MID": {
         "oracleText": "Sealed Midnight Hunt",
@@ -22789,7 +22789,7 @@
     },
     "Events/Event_Title_Trad_Sealed_MH3": {
         "oracleText": "Traditional Sealed Modern Horizons 3",
-        "translation": "Traditional Sealed Modern Horizons 3"
+        "translation": "摩登新篇3三盘现开"
     },
     "Events/Event_Title_Trad_Sealed_MID": {
         "oracleText": "Traditional Sealed Midnight Hunt",
@@ -25197,7 +25197,7 @@
     },
     "General/Sets/MH3": {
         "oracleText": "Modern Horizons 3",
-        "translation": "Modern Horizons 3"
+        "translation": "摩登新篇3"
     },
     "General/Sets/MID": {
         "oracleText": "Innistrad: Midnight Hunt",
@@ -28461,7 +28461,7 @@
     },
     "MainNav/DeckBuilder/CardStylesButton": {
         "oracleText": "Card Styles",
-        "translation": "Card Styles"
+        "translation": "卡牌样式"
     },
     "MainNav/DeckBuilder/ChooseOne": {
         "oracleText": "Choose One",
@@ -30169,7 +30169,7 @@
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MH3_442682": {
         "oracleText": "Emrakul, the World Anew Sleeve",
-        "translation": "Emrakul, the World Anew Sleeve"
+        "translation": "世界一新伊莫库牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MH3_442707": {
         "oracleText": "Sorin of House Markov Sleeve",
@@ -36373,7 +36373,7 @@
     },
     "MainNav/HomePage/Carousel/2024_38_0_Store_Title": {
         "oracleText": "Modern Horizons 3!",
-        "translation": "Modern Horizons 3!"
+        "translation": "摩登新篇3！"
     },
     "MainNav/HomePage/Carousel/21_01_Store_Desc": {
         "oracleText": "Take part in the epic Saga of Kaldheim. New Boosters Packs, new Set Mastery Pass, new Showcase Bundles, and more!",
@@ -42213,7 +42213,7 @@
     },
     "MainNav/PackProgressMeter/CallToAction": {
         "oracleText": "Purchase {remaining} more <i>Modern Horizons 3</i>, <i>Alchemy: Thunder Junction</i>, and <i>Outlaws of Thunder Junction</i> packs to earn a Golden Pack.",
-        "translation": "Purchase {remaining} more <i>Modern Horizons 3</i>, <i>Alchemy: Thunder Junction</i>, and <i>Outlaws of Thunder Junction</i> packs to earn a Golden Pack."
+        "translation": "再购买{remaining}包 <i>摩登新篇3</i>和 <i>炼金：光雷驿</i>和 <i>光雷驿镖客</i> 补充包便可获得一个黄金补充包。"
     },
     "MainNav/PackProgressMeter/FullDetailsLink": {
         "oracleText": "Full Details",
@@ -49633,7 +49633,7 @@
     },
     "MainNav/Store/Bundles/Bundle_MH3_Evoke_Name": {
         "oracleText": "Retro Elementals",
-        "translation": "Retro Elementals"
+        "translation": "复古元素"
     },
     "MainNav/Store/Bundles/Bundle_MH3_Fetchlands_Desc": {
         "oracleText": "Bloodstained Mire (2 Card Styles)\nFlooded Strand (2 Card Styles)\nPolluted Delta (2 Card Styles)\nWindswept Heath (2 Card Styles)\nWooded Foothills (2 Card Styles)\nNote: These styles only apply to the MH3 versions of these cards.",
@@ -49641,7 +49641,7 @@
     },
     "MainNav/Store/Bundles/Bundle_MH3_Fetchlands_Name": {
         "oracleText": "Borderless and Retro Fetch Lands",
-        "translation": "Borderless and Retro Fetch Lands"
+        "translation": "扩画复古找地地"
     },
     "MainNav/Store/Bundles/Bundle_MH3_Flares_Desc": {
         "oracleText": "Flare of Fortitude (2 Card Styles)\nFlare of Denial (2 Card Styles) \nFlare of Malice (2 Card Styles)\nFlare of Duplication (2 Card Styles)\nFlare of Cultivation (2 Card Styles)",
@@ -49657,7 +49657,7 @@
     },
     "MainNav/Store/Bundles/Bundle_MH3_FullArtLands_Name": {
         "oracleText": "Full Art Eldrazi Lands",
-        "translation": "Full Art Eldrazi Lands"
+        "translation": "大画奥札奇地"
     },
     "MainNav/Store/Bundles/Bundle_MH3_Legends_Desc": {
         "oracleText": "Ashling, Flame Dancer (2 Card Styles)\nEmrakul, the World Anew (2 Card Styles)\nImskir Iron-Eater (2 Card Styles)\nKudo, King Among Bears (2 Card Styles)\nRosheen, Roaring Prophet (2 Card Styles)\nSix (2 Card Styles)\nUlamog, the Defiler (2 Card Styles)",
@@ -52837,7 +52837,7 @@
     },
     "MainNav/Store/Store_Decks": {
         "oracleText": "Decks",
-        "translation": "Decks"
+        "translation": "套牌"
     },
     "MainNav/Store/Store_Header_Title": {
         "oracleText": "Store",
@@ -52917,7 +52917,7 @@
     },
     "MainNav/Store/Tags/AlchemyLegal": {
         "oracleText": "Legal in Alchemy",
-        "translation": "Legal in Alchemy"
+        "translation": "炼金赛制可用"
     },
     "MainNav/Store/Tags/AprilFools": {
         "oracleText": "April Fools!",
@@ -52945,7 +52945,7 @@
     },
     "MainNav/Store/Tags/ExplorerLegal": {
         "oracleText": "Legal in Explorer",
-        "translation": "Legal in Explorer"
+        "translation": "探险赛制可用"
     },
     "MainNav/Store/Tags/FebruaryOnly": {
         "oracleText": "February Only",
@@ -52957,7 +52957,7 @@
     },
     "MainNav/Store/Tags/HistoricLegal": {
         "oracleText": "Legal in Historic",
-        "translation": "Legal in Historic"
+        "translation": "史迹赛制可用"
     },
     "MainNav/Store/Tags/JanuaryOnly": {
         "oracleText": "January Only",
@@ -53089,7 +53089,7 @@
     },
     "MainNav/Store/Tags/StandardLegal": {
         "oracleText": "Legal in Standard",
-        "translation": "Legal in Standard"
+        "translation": "标准赛制可用"
     },
     "MainNav/Store/Tags/SummerSale": {
         "oracleText": "SUMMER SALE",
@@ -57465,7 +57465,7 @@
     },
     "PlayBlade/Filters/Dynamic/MH3LimitedTitle": {
         "oracleText": "Modern Horizons 3 Limited",
-        "translation": "Modern Horizons 3 Limited"
+        "translation": "摩登新篇3限制赛"
     },
     "PlayBlade/Filters/Dynamic/MKMLimitedTitle": {
         "oracleText": "Murders at Karlov Manor Limited",
