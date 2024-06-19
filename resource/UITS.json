@@ -18959,6 +18959,10 @@
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Standard: Bring a 60-card Standard deck, battle against the competition, and claim victory in the premier constructed format!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
         "translation": "欢迎来到周中万智牌！每周尝试一个不同的方式来游玩万智牌竞技场！\n\n本周赛事是标准：带上一副60的标准套牌，与竞争对手一决高下，并在首屈一指的构筑赛制中取得胜利！\n\n更多关于本活动及即将到来的周中万智牌赛事信息，请查看<u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>这里</link></u>。"
     },
+    "Events/Event_Desc_MWM_StandardBrawl": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Brawl: Bring a 60-card deck led by your favorite legendary creature or planeswalker in Standard. Choose your champion and fight to the top of the heap!\n\nYou can receive a code for a Midweek Magic Promo Pack containing two cosmetic items when you share your results with your local game store. Find out how <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.\n\n*Note: While supplies last. Not all stores are participating.",
+        "translation": "欢迎来到周中万智牌！每周尝试一种不同的方式来游玩万智牌竞技场！\n\n\n本周活动是争锋：围绕你最喜爱的传奇生物或鹏洛客，使用标准赛制中中任意可用牌张构筑一副60张的争锋套牌！\n\n点击<u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>此处</link></u>了解有关本次周中活动以及未来周中万智牌活动的更多详细信息 。"
+    },
     "Events/Event_Desc_MWM_StandardShakeup": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Standard Shakeup: We're removing some of Standard's most popular and powerful cards. Search for new strategies and bring the best 60-card deck you can create!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
         "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Standard Shakeup: We're removing some of Standard's most popular and powerful cards. Search for new strategies and bring the best 60-card deck you can create!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
@@ -24462,6 +24466,14 @@
     "Events/Tokens/ArenaDay2Singular": {
         "oracleText": "{quantity} Day Two Token",
         "translation": "{quantity}第二天门票"
+    },
+    "Events/Tokens/ArenaDirect_MH3_PLAYPlural": {
+        "oracleText": "{quantity} Modern Horizons 3 Play Booster Boxes",
+        "translation": "{quantity}摩登新牌3补充包"
+    },
+    "Events/Tokens/ArenaDirect_MH3_PLAYSingular": {
+        "oracleText": "{quantity} Modern Horizons 3 Play Booster Box",
+        "translation": "{quantity}摩登新牌3补充包"
     },
     "Events/Tokens/CashTokenDescription": {
         "oracleText": "Wizards of the Coast will contact eligible players earning this award after the event.",
@@ -33663,13 +33675,17 @@
         "oracleText": "Adventurous Impulse Card Style",
         "translation": "「冒险冲动」卡牌样式"
     },
+    "MainNav/EventRewards/ArenaDirect_MH3_PLAY": {
+        "oracleText": "{number1} Modern Horizons 3 Play Booster Box",
+        "translation": "{number1}摩登新篇3补充包"
+    },
     "MainNav/EventRewards/ArenaDirect_MH3_PLAYPlural": {
         "oracleText": "{quantity} Modern Horizons 3 Play Booster Boxes",
-        "translation": "{quantity} Modern Horizons 3 Play Booster Boxes"
+        "translation": "{quantity}摩登新篇3补充包"
     },
     "MainNav/EventRewards/ArenaDirect_MH3_PLAYSingular": {
         "oracleText": "{quantity} Modern Horizons 3 Play Booster Box",
-        "translation": "{quantity} Modern Horizons 3 Play Booster Box"
+        "translation": "{quantity}摩登新篇3补充包"
     },
     "MainNav/EventRewards/AtraxaAvatar": {
         "oracleText": "Atraxa Avatar",
@@ -33805,15 +33821,15 @@
     },
     "MainNav/EventRewards/Card_And_XP": {
         "oracleText": "1 Card & {number1} Mastery XP",
-        "translation": "1 Card & {number1} Mastery XP"
+        "translation": "1张牌和{number1}通行证经验"
     },
     "MainNav/EventRewards/Card_And_XP_MH3Alt": {
         "oracleText": "1 Card & {number1} Mastery XP & 1 Ticket",
-        "translation": "1 Card & {number1} Mastery XP & 1 Ticket"
+        "translation": "1张牌和{number1}通行证经验和1个Tickets"
     },
     "MainNav/EventRewards/Card_And_XP_MH3AltPlural": {
-        "oracleText": "1 Card & {number1} Mastery XP & {number3} Tickets",
-        "translation": "1 Card & {number1} Mastery XP & {number3} Tickets"
+        "oracleText": "1 Card & {number1} Mastery XP & {number2} Tickets",
+        "translation": "1张牌和{number1}通行证经验和{number2}Tickets"
     },
     "MainNav/EventRewards/Card_Reward_Common": {
         "oracleText": "Card will be at least Common",
@@ -52292,8 +52308,8 @@
         "translation": "重要消息：它只能在史记赛制中使用。"
     },
     "MainNav/Store/Popups/SetRotation/RotatingOutSoonAlchemy_Message": {
-        "oracleText": "Warning: Cards from this set will rotate out of Alchemy in the fall. They will remain playable in Standard.",
-        "translation": "警告：这个系列中的牌张将于今年秋季在炼金赛制中被轮替。它们依旧可以在标准赛制中使用。"
+        "oracleText": "Warning: Cards from this set will rotate out of Alchemy in the fall.",
+        "translation": "警告：这个系列中的牌张将于今年秋季在炼金赛制中被轮替。"
     },
     "MainNav/Store/Popups/SetRotation/RotatingOutSoonStandard_Message": {
         "oracleText": "Warning: Cards from this set will rotate out of Standard in the fall. They will remain playable in Explorer and Historic.",
@@ -52364,8 +52380,8 @@
         "translation": "精研技艺"
     },
     "MainNav/Store/Popups/SetRotation/Warning_Message": {
-        "oracleText": "Warning: Cards from this set will rotate out of Alchemy in the fall. They will remain playable in Standard.",
-        "translation": "警告：这个系列的牌张将于今年秋季从炼金赛制中被轮替。它们依旧可以在标准赛制中使用。"
+        "oracleText": "Warning: Cards from this set will rotate out of Alchemy in the fall.",
+        "translation": "警告：这个系列的牌张将于今年秋季从炼金赛制中被轮替。"
     },
     "MainNav/Store/Popups/SetRotation/Warning_Purchase": {
         "oracleText": "Purchase",
@@ -58156,12 +58172,12 @@
         "translation": "{dateTime}"
     },
     "Renewal/UpcomingRenewal_SubTitleDate": {
-        "oracleText": "September 5th",
-        "translation": "九月五日"
+        "oracleText": "July 30",
+        "translation": "七月三十日"
     },
     "Renewal/UpcomingRenewal_Timing": {
-        "oracleText": "Opens when <i>Wilds of Eldraine</i> releases in September.",
-        "translation": "到九月份<i>艾卓幻野</i>发售时可以打开。"
+        "oracleText": "Opens when <i>Bloomburrow</i> releases in July.",
+        "translation": "到七月份<i>斑隆洛</i>发售时可以打开。"
     },
     "Renewal/UpcomingRenewal_Title": {
         "oracleText": "Upcoming Renewal",
