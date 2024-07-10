@@ -3055,6 +3055,22 @@
         "oracleText": "Claim All",
         "translation": "收取全部"
     },
+    "Apple/ACR_Cosmetics_ShortDesc": {
+        "oracleText": "Includes 1 Avatar and 9 Sleeves",
+        "translation": "Includes 1 Avatar and 9 Sleeves"
+    },
+    "Apple/ACR_Cosmetics_ShortName": {
+        "oracleText": "Assassin's Creed® Cosmetics",
+        "translation": "Assassin's Creed® Cosmetics"
+    },
+    "Apple/ACR_Lands_ShortDesc": {
+        "oracleText": "Includes 10 Full Art Basic Lands",
+        "translation": "Includes 10 Full Art Basic Lands"
+    },
+    "Apple/ACR_Lands_ShortName": {
+        "oracleText": "Assassin's Creed® Lands",
+        "translation": "Assassin's Creed® Lands"
+    },
     "Apple/Bundle_REX_FullArtLands_ShortDesc": {
         "oracleText": "Includes 10 Basic Lands",
         "translation": "包含十张基本地"
@@ -3119,6 +3135,18 @@
         "oracleText": "Ellywick Play Pre-order",
         "translation": "艾利薇 游玩预购"
     },
+    "Apple/Preorder_BLB_1_ShortName": {
+        "oracleText": "Pre-order: Ral Pack Bundle",
+        "translation": "Pre-order: Ral Pack Bundle"
+    },
+    "Apple/Preorder_BLB_2_ShortName": {
+        "oracleText": "Pre-order: Mabel Play Bundle",
+        "translation": "Pre-order: Mabel Play Bundle"
+    },
+    "Apple/Preorder_BLB_3_ShortName": {
+        "oracleText": "Pre-order: Hugs Pass Bundle",
+        "translation": "Pre-order: Hugs Pass Bundle"
+    },
     "Apple/Preorder_BRO_1_ShortName": {
         "oracleText": "Mishra Pack Pre-order",
         "translation": "米斯拉包预购"
@@ -3154,6 +3182,18 @@
     "Apple/Preorder_Generic_3_ShortDesc": {
         "oracleText": "Includes Set Mastery",
         "translation": "Includes Set Mastery"
+    },
+    "Apple/Preorder_Generic_Pack_ShortName": {
+        "oracleText": "Pre-order: Pack Bundle",
+        "translation": "Pre-order: Pack Bundle"
+    },
+    "Apple/Preorder_Generic_Pass_ShortName": {
+        "oracleText": "Pre-order: Pass Bundle",
+        "translation": "Pre-order: Pass Bundle"
+    },
+    "Apple/Preorder_Generic_Play_ShortName": {
+        "oracleText": "Pre-order: Play Bundle",
+        "translation": "Pre-order: Play Bundle"
     },
     "Apple/Preorder_HBG_1_ShortDesc": {
         "oracleText": "Includes 50x Boosters",
@@ -5104,8 +5144,8 @@
         "translation": "<color #CCCCCC>If your ranking is displayed before the name of a queue or event, then your results there will affect your ranking. Is it time to prove that your new brew has what it takes, or that it's correct to play that 41st card?"
     },
     "Codex/Profile_Season": {
-        "oracleText": "<color #CCCCCC>You can compete to improve your ranking in each <color #E9E9F6><b>Season</b><color #CCCCCC> and they reset at the end of each month. And the best part is you can earn rewards based on how you finish! Rewards will be given for both ranks, and you can select your rank to find out exactly how much you are able to earn.",
-        "translation": "<color #CCCCCC>You can compete to improve your ranking in each <color #E9E9F6><b>Season</b><color #CCCCCC> and they reset at the end of each month. And the best part is you can earn rewards based on how you finish! Rewards will be given for both ranks, and you can select your rank to find out exactly how much you are able to earn."
+        "oracleText": "<color #CCCCCC>You can compete to improve your ranking in each <color #E9E9F6><b>Season</b><color #CCCCCC> and they reset at the end of each month. And the best part is you can earn rewards based on how you finish! Rewards will be given for both ranks, and you can select your rank to find out exactly how much you are able to earn.  <u><link=https://magic.wizards.com/en/news/mtg-arena/ranked-season>Click Here to see this Season's Rewards</link></u>",
+        "translation": "<color #CCCCCC>You can compete to improve your ranking in each <color #E9E9F6><b>Season</b><color #CCCCCC> and they reset at the end of each month. And the best part is you can earn rewards based on how you finish! Rewards will be given for both ranks, and you can select your rank to find out exactly how much you are able to earn.  <u><link=https://magic.wizards.com/en/news/mtg-arena/ranked-season>Click Here to see this Season's Rewards</link></u>"
     },
     "Codex/Profile_SeasonalRank": {
         "oracleText": "<color #CCCCCC>Here is also where you see your <color #E9E9F6><b>Seasonal Rank</b><color #CCCCCC>. You have two ranks: <color #E9E9F6><b>Constructed</b><color #CCCCCC> and <color #E9E9F6><b>Limited</b><color #CCCCCC>. All ranked Constructed events will impact your singular Constructed rank, and likewise, the same is true for Limited. If you're just starting off on your journey, you might just have one rank here: <color #E9E9F6><b>Spark Rank</b><color #CCCCCC>! There is much for you to explore and learn as you rank up...",
@@ -5115,29 +5155,73 @@
         "oracleText": "<color #E9E9F6><b>Renewal</b> is an event that happens every fall here on MTG Arena. It is a time of change and new beginnings as we rotate cards out of Standard and Alchemy, and roll in celebratory gifts for all players in the form of the yearly <b>Renewal Egg</b>!",
         "translation": "<color #E9E9F6><b>Renewal</b> is an event that happens every fall here on MTG Arena. It is a time of change and new beginnings as we rotate cards out of Standard and Alchemy, and roll in celebratory gifts for all players in the form of the yearly <b>Renewal Egg</b>!"
     },
+    "Codex/RotationRenewal_10b": {
+        "oracleText": "<color #E9E9F6>Additional Rotation Information",
+        "translation": "<color #E9E9F6>Additional Rotation Information"
+    },
+    "Codex/RotationRenewal_11b": {
+        "oracleText": "<color #E9E9F6><b>Renewal</b> is also our time to update various play modes such as <b>Jump In!</b>, <b>Quick Draft</b>, and the 10 two-color <b>Starter Decks</b> with cards from the newest sets. So be sure to come celebrate with us here on MTG Arena as we rotate out the old, ring in the new, and explore even more corners of the Multiverse!",
+        "translation": "<color #E9E9F6><b>Renewal</b> is also our time to update various play modes such as <b>Jump In!</b>, <b>Quick Draft</b>, and the 10 two-color <b>Starter Decks</b> with cards from the newest sets. So be sure to come celebrate with us here on MTG Arena as we rotate out the old, ring in the new, and explore even more corners of the Multiverse!"
+    },
+    "Codex/RotationRenewal_1b": {
+        "oracleText": "<color #E9E9F6><b>Renewal</b> is an event that happens every fall here on MTG Arena. It is a time of change and new beginnings as we rotate cards out of Standard and Alchemy, and roll in celebratory gifts for all players in the form of the yearly <b>Renewal Egg</b>!",
+        "translation": "<color #E9E9F6><b>Renewal</b> is an event that happens every fall here on MTG Arena. It is a time of change and new beginnings as we rotate cards out of Standard and Alchemy, and roll in celebratory gifts for all players in the form of the yearly <b>Renewal Egg</b>!"
+    },
     "Codex/RotationRenewal_2": {
         "oracleText": "<color #E9E9F6>During <b>Renewal Season</b>, both MTG Arena and tabletop Magic: The Gathering will rotate. Upon the release of the autumn set, around four or so of the \"oldest\" sets in <b>Standard</b> and <b>Alchemy</b> will \"rotate\" out, which means they will no longer be legal in those formats. However they will remain legal in MTG Arena's non-rotating game modes like <b>Historic</b>, <b>Explorer</b>, and <b>Historic Brawl</b>.",
         "translation": "<color #E9E9F6>During <b>Renewal Season</b>, both MTG Arena and tabletop Magic: The Gathering will rotate. Upon the release of the autumn set, around four or so of the \"oldest\" sets in <b>Standard</b> and <b>Alchemy</b> will \"rotate\" out, which means they will no longer be legal in those formats. However they will remain legal in MTG Arena's non-rotating game modes like <b>Historic</b>, <b>Explorer</b>, and <b>Historic Brawl</b>."
+    },
+    "Codex/RotationRenewal_2b": {
+        "oracleText": "<color #E9E9F6>During <b>Renewal Season</b>, both MTG Arena and tabletop Magic: The Gathering will rotate. Upon the release of the autumn set, around four or so of the \"oldest\" sets in <b>Standard</b> and <b>Alchemy</b> will \"rotate\" out, which means they will no longer be legal in those formats. However, they will remain legal in MTG Arena's non-rotating game modes like <b>Explorer</b>, <b>Historic</b>, <b>Brawl</b> and <b>Timeless</b>.",
+        "translation": "<color #E9E9F6>During <b>Renewal Season</b>, both MTG Arena and tabletop Magic: The Gathering will rotate. Upon the release of the autumn set, around four or so of the \"oldest\" sets in <b>Standard</b> and <b>Alchemy</b> will \"rotate\" out, which means they will no longer be legal in those formats. However, they will remain legal in MTG Arena's non-rotating game modes like <b>Explorer</b>, <b>Historic</b>, <b>Brawl</b> and <b>Timeless</b>."
     },
     "Codex/RotationRenewal_3": {
         "oracleText": "<color #E9E9F6>More importantly, you will see the <b>Renewal Egg</b> on your <b>Profile</b>! This is both a reminder that rotation is coming up and it holds a package containing some special rewards that will help kick off the new year! Hovering over the <b>Egg</b> will show how much time is left until rotation when the <b>Egg</b> will open.",
         "translation": "<color #E9E9F6>More importantly, you will see the <b>Renewal Egg</b> on your <b>Profile</b>! This is both a reminder that rotation is coming up and it holds a package containing some special rewards that will help kick off the new year! Hovering over the <b>Egg</b> will show how much time is left until rotation when the <b>Egg</b> will open."
     },
+    "Codex/RotationRenewal_3b": {
+        "oracleText": "<color #E9E9F6>For the duration of the <b>Renewal Season</b>, you will see the <b>Renewal Egg</b> and Rotation details within your Inbox! These serve both as a reminder that rotation is coming up and, in regard to the Egg, informs the player of the special rewards they'll receive to kick off the new year!",
+        "translation": "<color #E9E9F6>For the duration of the <b>Renewal Season</b>, you will see the <b>Renewal Egg</b> and Rotation details within your Inbox! These serve both as a reminder that rotation is coming up and, in regard to the Egg, informs the player of the special rewards they'll receive to kick off the new year!"
+    },
     "Codex/RotationRenewal_4": {
         "oracleText": "<color #ED5922>Note: In 2023, <b>Standard</b> will not rotate. Cards will rotate out of <b>Alchemy</b> like normal, which will maintain <b>Alchemy's</b> two years worth of cards, while expanding <b>Standard</b> to three years!",
         "translation": "<color #ED5922>Note: In 2023, <b>Standard</b> will not rotate. Cards will rotate out of <b>Alchemy</b> like normal, which will maintain <b>Alchemy's</b> two years worth of cards, while expanding <b>Standard</b> to three years!"
+    },
+    "Codex/RotationRenewal_4b": {
+        "oracleText": "<color #E9E9F6>Standard Rotation",
+        "translation": "<color #E9E9F6>Standard Rotation"
     },
     "Codex/RotationRenewal_5": {
         "oracleText": "<color #E9E9F6>This means that when Rotation occurs in 2023 with the release of <i>Wilds of Eldraine</i> in September, these five sets will no longer be legal in <b>Alchemy</b>, but will remain legal in <b>Standard</b> until <b>Rotation</b> occurs again in 2024!",
         "translation": "<color #E9E9F6>This means that when Rotation occurs in 2023 with the release of <i>Wilds of Eldraine</i> in September, these five sets will no longer be legal in <b>Alchemy</b>, but will remain legal in <b>Standard</b> until <b>Rotation</b> occurs again in 2024!"
     },
+    "Codex/RotationRenewal_5b": {
+        "oracleText": "<color #E9E9F6>In 2024, with the release of <i>Bloomburrow</i> on July 30th, these 4 sets will no longer be legal in <b>Standard</b>:",
+        "translation": "<color #E9E9F6>In 2024, with the release of <i>Bloomburrow</i> on July 30th, these 4 sets will no longer be legal in <b>Standard</b>:"
+    },
     "Codex/RotationRenewal_6": {
         "oracleText": "<color #E9E9F6><i><indent=5%>• Innistrad: Crimson Vow<br><indent=5%>• Innistrad: Midnight Hunt<br><indent=5%>• Kamigawa: Neon Dynasty<br><indent=5%>• Streets of New Capenna<br><indent=5%>• Alchemy Horizons: Baldur's Gate</i>",
         "translation": "<color #E9E9F6><i><indent=5%>• Innistrad: Crimson Vow<br><indent=5%>• Innistrad: Midnight Hunt<br><indent=5%>• Kamigawa: Neon Dynasty<br><indent=5%>• Streets of New Capenna<br><indent=5%>• Alchemy Horizons: Baldur's Gate</i>"
     },
+    "Codex/RotationRenewal_6b": {
+        "oracleText": "<color #E9E9F6><i><indent=5%>• Innistrad: Crimson Vow<br><indent=5%>• Innistrad: Midnight Hunt<br><indent=5%>• Kamigawa: Neon Dynasty<br><indent=5%>• Streets of New Capenna<br>",
+        "translation": "<color #E9E9F6><i><indent=5%>• Innistrad: Crimson Vow<br><indent=5%>• Innistrad: Midnight Hunt<br><indent=5%>• Kamigawa: Neon Dynasty<br><indent=5%>• Streets of New Capenna<br>"
+    },
     "Codex/RotationRenewal_7": {
         "oracleText": "<color #E9E9F6><b>Renewal</b> also is our time to update various play modes such as <b>Jump In!</b>, <b>Quick Draft</b>, and the 10 two-color <b>Starter Decks</b> with cards from the newest sets. So be sure to come celebrate with us here on MTG Arena as we rotate out the old, ring in the new, and explore even more corners of the Multiverse!",
         "translation": "<color #E9E9F6><b>Renewal</b> also is our time to update various play modes such as <b>Jump In!</b>, <b>Quick Draft</b>, and the 10 two-color <b>Starter Decks</b> with cards from the newest sets. So be sure to come celebrate with us here on MTG Arena as we rotate out the old, ring in the new, and explore even more corners of the Multiverse!"
+    },
+    "Codex/RotationRenewal_7b": {
+        "oracleText": "<color #E9E9F6>Alchemy Rotation",
+        "translation": "<color #E9E9F6>Alchemy Rotation"
+    },
+    "Codex/RotationRenewal_8b": {
+        "oracleText": "<color #E9E9F6>In 2024, with the release of <i>Bloomburrow</i> on July 30th, these 6 sets (along with their appropriate Alchemy drops) will no longer be legal in <b>Alchemy</b>:",
+        "translation": "<color #E9E9F6>In 2024, with the release of <i>Bloomburrow</i> on July 30th, these 6 sets (along with their appropriate Alchemy drops) will no longer be legal in <b>Alchemy</b>:"
+    },
+    "Codex/RotationRenewal_9b": {
+        "oracleText": "<color #E9E9F6><i><indent=5%>• Dominaria United<br><indent=5%>• The Brothers' War<br><indent=5%>• Phyrexia: All Will Be One<br><indent=5%>• March of the Machine<br><indent=5%>• March of the Machine: The Aftermath<br><indent=5%>• The Lord of the Rings: Tales of Middle-earth<br>",
+        "translation": "<color #E9E9F6><i><indent=5%>• Dominaria United<br><indent=5%>• The Brothers' War<br><indent=5%>• Phyrexia: All Will Be One<br><indent=5%>• March of the Machine<br><indent=5%>• March of the Machine: The Aftermath<br><indent=5%>• The Lord of the Rings: Tales of Middle-earth<br>"
     },
     "Codex/RotationRenewal_Header": {
         "oracleText": "Renewal & Rotation",
@@ -5232,8 +5316,8 @@
         "translation": "<color #ED5922>这是《万智牌竞技场》中最主要的五个构筑赛制，但并不是全部："
     },
     "Codex/WaysToPlay/Formats/Constructed_Alchemy_A": {
-        "oracleText": "<indent=5%><color #E9E9F6><b>Alchemy</b><color #CCCCCC> is a rotating format similar to Standard except for one key difference: players can also play with digital cards not present in paper! This could be cards from Standard that have been \"rebalanced\" to allow for new strategies, or even entirely new cards released in each set's Alchemy drop. These cards do things on MTG Arena that aren't possible in paper and might have you approaching this format differently. That combined with our ability to balance cards that aren't seeing a lot of play (or too much play), make Alchemy an ever-changing format! But a great place to start would be 10 Starter Decks and adding in digital-first cards!",
-        "translation": "<indent=5%><color #E9E9F6><b>Alchemy</b><color #CCCCCC> is a rotating format similar to Standard except for one key difference: players can also play with digital cards not present in paper! This could be cards from Standard that have been \"rebalanced\" to allow for new strategies, or even entirely new cards released in each set's Alchemy drop. These cards do things on MTG Arena that aren't possible in paper and might have you approaching this format differently. That combined with our ability to balance cards that aren't seeing a lot of play (or too much play), make Alchemy an ever-changing format! But a great place to start would be 10 Starter Decks and adding in digital-first cards!"
+        "oracleText": "<indent=5%><color #E9E9F6><b>Alchemy</b><color #CCCCCC> is a rotating format similar to Standard except for one main difference: players can also play with digital cards not present in paper! This could be cards from Standard that have been \"rebalanced\" to allow for new strategies, or even entirely new cards released in each set's Alchemy drop. These cards do things on MTG Arena that aren't possible in paper and might have you approaching this format differently. That combined with our ability to balance cards that aren't seeing a lot of play (or too much play), make Alchemy an ever-changing format!<br><br>Like Standard, when <i>Bloomburrow</i> releases in July of 2024, Alchemy will rotate. Alchemy only uses sets from the last two years making it a \"smaller\" format than Standard!  A great place to start would be playing with any of the 10 Starter Decks and adding in any digital-first cards you may come across!",
+        "translation": "<indent=5%><color #E9E9F6><b>Alchemy</b><color #CCCCCC> is a rotating format similar to Standard except for one main difference: players can also play with digital cards not present in paper! This could be cards from Standard that have been \"rebalanced\" to allow for new strategies, or even entirely new cards released in each set's Alchemy drop. These cards do things on MTG Arena that aren't possible in paper and might have you approaching this format differently. That combined with our ability to balance cards that aren't seeing a lot of play (or too much play), make Alchemy an ever-changing format!<br><br>Like Standard, when <i>Bloomburrow</i> releases in July of 2024, Alchemy will rotate. Alchemy only uses sets from the last two years making it a \"smaller\" format than Standard!  A great place to start would be playing with any of the 10 Starter Decks and adding in any digital-first cards you may come across!"
     },
     "Codex/WaysToPlay/Formats/Constructed_Alchemy_Header": {
         "oracleText": "<indent=5%>Alchemy",
@@ -5308,8 +5392,8 @@
         "translation": "预组套牌"
     },
     "Codex/WaysToPlay/Formats/Constructed_Standard_A": {
-        "oracleText": "<indent=5%><color #E9E9F6><b>Standard</b><color #CCCCCC> is Magic: The Gathering's flagship format and is the most widely sanctioned format at all levels of organized play. It's comprised of cards from sets released in the last year or two that haven't rotated out yet and is the same format whether you play it on MTG Arena, or on tabletop with paper cards. <color #E9E9F6><b>Rotation</b><color #CCCCCC> is an event usually every year where older cards \"rotate\" out and are no longer legal, while newer cards can still be played! That way the format is always \"fresh\" and new strategies and discoveries are always happening. On MTG Arena, we call it \"<color #E9E9F6><b>Renewal</b><color #CCCCCC>\" and celebrate this process with gifts and updates that come with the yearly Renewal Egg!",
-        "translation": "<indent=5%><color #E9E9F6><b>Standard</b><color #CCCCCC> is Magic: The Gathering's flagship format and is the most widely sanctioned format at all levels of organized play. It's comprised of cards from sets released in the last year or two that haven't rotated out yet and is the same format whether you play it on MTG Arena, or on tabletop with paper cards. <color #E9E9F6><b>Rotation</b><color #CCCCCC> is an event usually every year where older cards \"rotate\" out and are no longer legal, while newer cards can still be played! That way the format is always \"fresh\" and new strategies and discoveries are always happening. On MTG Arena, we call it \"<color #E9E9F6><b>Renewal</b><color #CCCCCC>\" and celebrate this process with gifts and updates that come with the yearly Renewal Egg!"
+        "oracleText": "<indent=5%><color #E9E9F6><b>Standard</b><color #CCCCCC> is Magic: The Gathering's flagship format and is the most widely sanctioned format at all levels of organized play. It's comprised of cards from most sets released in the last three years and is the same format whether you play it on MTG Arena, or on tabletop with paper cards. <color #E9E9F6><b>Rotation</b><color #CCCCCC> is an event usually every year where older cards \"rotate\" out and are no longer legal, while newer cards can still be played! That way the format is always \"fresh\" and new strategies and discoveries are always happening. On MTG Arena, we call it \"<color #E9E9F6><b>Renewal</b><color #CCCCCC>\" and celebrate this process with gifts and updates that come with the yearly Renewal Egg!<br>",
+        "translation": "<indent=5%><color #E9E9F6><b>Standard</b><color #CCCCCC> is Magic: The Gathering's flagship format and is the most widely sanctioned format at all levels of organized play. It's comprised of cards from most sets released in the last three years and is the same format whether you play it on MTG Arena, or on tabletop with paper cards. <color #E9E9F6><b>Rotation</b><color #CCCCCC> is an event usually every year where older cards \"rotate\" out and are no longer legal, while newer cards can still be played! That way the format is always \"fresh\" and new strategies and discoveries are always happening. On MTG Arena, we call it \"<color #E9E9F6><b>Renewal</b><color #CCCCCC>\" and celebrate this process with gifts and updates that come with the yearly Renewal Egg!<br>"
     },
     "Codex/WaysToPlay/Formats/Constructed_Standard_Header": {
         "oracleText": "<indent=5%>Standard",
@@ -6198,6 +6282,30 @@
     "Decks/Precon/DragonBrawl_Ziatora": {
         "oracleText": "Ziatora, the Incinerator",
         "translation": "焚炎魔齐朵拉"
+    },
+    "Decks/Precon/Explorer_MH3_BR": {
+        "oracleText": "Rakdos Sorin and Tell",
+        "translation": "索霖教诲"
+    },
+    "Decks/Precon/Explorer_MH3_GG": {
+        "oracleText": "Monogreen Devotion",
+        "translation": "大绿献力"
+    },
+    "Decks/Precon/Explorer_MH3_GW": {
+        "oracleText": "Collected Angels",
+        "translation": "征召天使"
+    },
+    "Decks/Precon/Explorer_MH3_RW": {
+        "oracleText": "Boros Heroic",
+        "translation": "红白勇行"
+    },
+    "Decks/Precon/Explorer_MH3_UR": {
+        "oracleText": "Izzet Phoenix",
+        "translation": "伊捷凤凰"
+    },
+    "Decks/Precon/Explorer_MH3_WU": {
+        "oracleText": "Azorius Control",
+        "translation": "蓝白控制"
     },
     "Decks/Precon/FNM_Adventure": {
         "oracleText": "Final Adventure",
@@ -7127,41 +7235,81 @@
         "oracleText": "Snack Time",
         "translation": "零食时间"
     },
+    "Decks/Precon/Precon_EPP2025_BG_desc": {
+        "oracleText": "The sugary monstrosities of Sweettooth village hunger for victory. Create food tokens to generate value, then take a bite out the competition!",
+        "translation": "The sugary monstrosities of Sweettooth village hunger for victory. Create food tokens to generate value, then take a bite out the competition!"
+    },
     "Decks/Precon/Precon_EPP2025_BW": {
         "oracleText": "Power to the People",
         "translation": "众人之力"
+    },
+    "Decks/Precon/Precon_EPP2025_BW_desc": {
+        "oracleText": "Slip through your opponent's defenses with a squad of unassuming – but deadly – creatures.",
+        "translation": "Slip through your opponent's defenses with a squad of unassuming – but deadly – creatures."
     },
     "Decks/Precon/Precon_EPP2025_RB": {
         "oracleText": "Outlaw Posse",
         "translation": "亡命之徒"
     },
+    "Decks/Precon/Precon_EPP2025_RB_desc": {
+        "oracleText": "The most ruthless outlaws in the multiverse are on your side... for now. Use every underhanded trick at your disposal and you'll soon find out why crime pays!",
+        "translation": "The most ruthless outlaws in the multiverse are on your side... for now. Use every underhanded trick at your disposal and you'll soon find out why crime pays!"
+    },
     "Decks/Precon/Precon_EPP2025_RG": {
         "oracleText": "Dino Might",
         "translation": "暴龙之力"
+    },
+    "Decks/Precon/Precon_EPP2025_RG_desc": {
+        "oracleText": "Awaken the awesome power of dinosaurs and trample your enemies underfoot!",
+        "translation": "Awaken the awesome power of dinosaurs and trample your enemies underfoot!"
     },
     "Decks/Precon/Precon_EPP2025_RW": {
         "oracleText": "Ancient Discovery",
         "translation": "探寻古物"
     },
+    "Decks/Precon/Precon_EPP2025_RW_desc": {
+        "oracleText": "Plumb the depths of your deck for trinkets, treasures, and terrors! Who knows what you might discover?",
+        "translation": "Plumb the depths of your deck for trinkets, treasures, and terrors! Who knows what you might discover?"
+    },
     "Decks/Precon/Precon_EPP2025_UB": {
         "oracleText": "Faerie Pranks",
         "translation": "仙灵恶戏"
+    },
+    "Decks/Precon/Precon_EPP2025_UB_desc": {
+        "oracleText": "Take to the skies with mischievous faeries, then outmaneuver the opposition with instant-speed disruption!",
+        "translation": "Take to the skies with mischievous faeries, then outmaneuver the opposition with instant-speed disruption!"
     },
     "Decks/Precon/Precon_EPP2025_UG": {
         "oracleText": "Desert Oasis",
         "translation": "沙漠绿洲"
     },
+    "Decks/Precon/Precon_EPP2025_UG_desc": {
+        "oracleText": "Scour the desert for extra land cards, then use your excess mana to cast haymaker after haymaker!",
+        "translation": "Scour the desert for extra land cards, then use your excess mana to cast haymaker after haymaker!"
+    },
     "Decks/Precon/Precon_EPP2025_UR": {
         "oracleText": "Second Chance",
         "translation": "重来一次"
+    },
+    "Decks/Precon/Precon_EPP2025_UR_desc": {
+        "oracleText": "What's the point of winning if you can't do it in style? Sling two spells in a turn for double the value and double the flair!",
+        "translation": "What's the point of winning if you can't do it in style? Sling two spells in a turn for double the value and double the flair!"
     },
     "Decks/Precon/Precon_EPP2025_UW": {
         "oracleText": "Crack the Case",
         "translation": "明察秋毫"
     },
+    "Decks/Precon/Precon_EPP2025_UW_desc": {
+        "oracleText": "Assemble a team of Detectives, then use clues and cunning to stay one step ahead of your enemies!",
+        "translation": "Assemble a team of Detectives, then use clues and cunning to stay one step ahead of your enemies!"
+    },
     "Decks/Precon/Precon_EPP2025_WG": {
         "oracleText": "Saddle Up",
         "translation": "乘上座驾"
+    },
+    "Decks/Precon/Precon_EPP2025_WG_desc": {
+        "oracleText": "Charge into battle on your trusty mount creatures backed by spells to power them up!",
+        "translation": "Charge into battle on your trusty mount creatures backed by spells to power them up!"
     },
     "Decks/Precon/Precon_EPP_BG": {
         "oracleText": "Golgari Swarm",
@@ -7926,6 +8074,14 @@
     "Decks/Precon/Precon_Starter2023_WOE_UR": {
         "oracleText": "Day of the Dragon",
         "translation": "巨龙之日"
+    },
+    "Decks/Precon/Precon_Starter2024_GW": {
+        "oracleText": "Hare Raising",
+        "translation": "饲养野兔"
+    },
+    "Decks/Precon/Precon_Starter2024_UR": {
+        "oracleText": "Otter Limits",
+        "translation": "极限水獭"
     },
     "Decks/Precon/Precon_StarterAmazon2021_BG": {
         "oracleText": "Rough and Tumble",
@@ -15255,6 +15411,10 @@
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!",
         "translation": "轮抽用补充包在桌上轮转，你每次需从中选择一张牌。这些牌张将加入你的收藏，而你将使用它们和基本地来构筑一副40张的套牌。不断进行对战，最后根据你的胜场数量赢得奖励！"
     },
+    "Event_Desc_MWM_Chimil_Historic": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Chimil, the Inner Sun Historic: at the end of <i>each</i> of your turns, Discover a spell with cost 5 or lower! What a bargain! All you'll need to play is a 60-card Historic deck.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Chimil, the Inner Sun Historic: at the end of <i>each</i> of your turns, Discover a spell with cost 5 or lower! What a bargain! All you'll need to play is a 60-card Historic deck.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+    },
     "Event_Desc_RIX_Quick_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!",
         "translation": "轮抽用补充包在桌上轮转，你每次需从中选择一张牌。这些牌张将加入你的收藏，而你将使用它们和基本地来构筑一副40张的套牌。不断进行对战，最后根据你的胜场数量赢得奖励！"
@@ -15282,6 +15442,10 @@
     "Events/ArenaDirect_MH3_String": {
         "oracleText": "This token denotes that you are eligible to receive a physical Modern Horizons 3 Play Booster Box",
         "translation": "This token denotes that you are eligible to receive a physical Modern Horizons 3 Play Booster Box"
+    },
+    "Events/ArenaDirect_OTJ_String": {
+        "oracleText": "This token denotes that you are eligible to receive 2 physical Outlaws of Thunder Junction Play Booster Boxes",
+        "translation": "This token denotes that you are eligible to receive 2 physical Outlaws of Thunder Junction Play Booster Boxes"
     },
     "Events/Banned_Cards_Tag_A": {
         "oracleText": "Standard Shakeup",
@@ -17199,6 +17363,10 @@
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>",
         "translation": "每次从传过来的轮抽卡包中选一张牌，这些牌会加入你的收藏，你将使用这些牌加上基本地来构筑40张的套牌开始游戏。你将得到的奖励取决于你的胜场!\n\n<b>真人轮抽～和其他七位玩家共同进行的限时轮抽</b>"
     },
+    "Events/Event_Desc_AFR_Premier_Draft_Flashback": {
+        "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<b><color=red> This set is not legal in Standard.</color></b>",
+        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<b><color=red> This set is not legal in Standard.</color></b>"
+    },
     "Events/Event_Desc_AFR_Quick_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers",
         "translation": "每次从传过来的轮抽卡包中选一张牌，这些牌会加入你的收藏，你将使用这些牌加上基本地来构筑40张的套牌开始游戏。你将得到的奖励取决于你的胜场!\n\n人机轮抽～与AI进行轮抽，无需等待，也不限制选牌时间"
@@ -17283,13 +17451,17 @@
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\n Sign up for this event and get all 6 wins to win a physical Modern Horizons 3 Play Booster Box delivered to you.\n\n The format for this event is 6 packs of <i>Modern Horizons 3</i> Sealed with single-game matches. \n\n <b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-mh3-terms-and-conditions>here</link></u> for full details.</color></b>",
         "translation": "<size=150%><color=#e1a154>为实体奖励而战！</color></size>\n\n报名参加本赛事并赢得全部6场胜利，将会邮寄给你一盒实体摩登新篇3常规补充包。\n\n本赛事的赛制是<i>摩登新篇3</i>BO1现开。\n\n<b><color=red>必须年满18周岁才能参加。并非在所有地区/领地都可用。禁止地区无效。领取现金奖励需要创建或拥有现有的Wizards、DCI和i-Payout账户。请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-mh3-terms-and-conditions>此处</link></u>了解完整详情。</color></b>"
     },
+    "Events/Event_Desc_ArenaDirect_OTJ_Sealed": {
+        "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win a physical Outlaws of Thunder Junction Play Booster Box delivered to you.\n\nThe format for this event is 6 packs of <i>Outlaws of Thunder Junction</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-mh3-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win a physical Outlaws of Thunder Junction Play Booster Box delivered to you.\n\nThe format for this event is 6 packs of <i>Outlaws of Thunder Junction</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-mh3-terms-and-conditions>here</link></u> for full details.</color></b>"
+    },
     "Events/Event_Desc_ArenaOpen_Day1": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for Day 1 is Historic with single-game matches, and then Traditional Historic with best-of-three matches using sideboards for Day 2. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>",
         "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for Day 1 is Historic with single-game matches, and then Traditional Historic with best-of-three matches using sideboards for Day 2. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo1": {
-        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i>Modern Horizons 3</i> Sealed with single-game matches. The Day 2 event will use two Traditional <i>Modern Horizons 3</i> Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>为现金奖励而战！</color></size>\n\n报名参加本第1天赛事并赢得全部7场胜利，即可获得第 2 天赛事参赛资格。（第2天赛事排名前列的优胜者将赢得现金奖励！）玩家可以任意多次参加第1天赛事，但即使他们多次通过第1天赛事获取了第2天赛事参赛资格，第2天赛事也仅能参加一次。\n\n本第1天赛事的赛制是<i>摩登新篇3</i>BO1现开。第2天赛事是两轮<i>摩登新篇3</i>BO3传统轮抓，需使用备牌和个人计时器。点击<u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>此处</link></u>联系客户服务获取帮助。\n\n<b><color=red>必须年满18周岁才能参加。并非在所有地区/领地都可用。禁止地区无效。领取现金奖励需要创建或拥有现有的Wizards、DCI和i-Payout账户。请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>此处</link></u>了解完整详情。</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i>Modern Horizons 3</i> Sealed with single-game matches. The Day 2 event will use two Traditional <i>Modern Horizons 3</i>  Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i>Modern Horizons 3</i> Sealed with single-game matches. The Day 2 event will use two Traditional <i>Modern Horizons 3</i>  Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo1_Alt": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Standard with single-game matches. The Day 2 event will use Traditional Standard with best-of-three matches using sideboards. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>",
@@ -17738,6 +17910,66 @@
     "Events/Event_Desc_DualColorPrecons": {
         "oracleText": "Welcome to Starter Deck Duel, a Preconstructed event where you choose one of 10 two-color Starter Decks to battle other players!<br><br>If you win with your chosen deck, it will be added to your collection to play in places like Spark Rank.<br><br><color #ED5922>This event has no entry fee</color>, so try out as many decks as you like until you find the two colors that speak to you. Then you can upgrade it and make it yours for the battles to come! Win three games to continue mastering your spark!",
         "translation": "Welcome to Starter Deck Duel, a Preconstructed event where you choose one of 10 two-color Starter Decks to battle other players!<br><br>If you win with your chosen deck, it will be added to your collection to play in places like Spark Rank.<br><br><color #ED5922>This event has no entry fee</color>, so try out as many decks as you like until you find the two colors that speak to you. Then you can upgrade it and make it yours for the battles to come! Win three games to continue mastering your spark!"
+    },
+    "Events/Event_Desc_EFStop1DescA": {
+        "oracleText": "Fblthp wandered off from our convoy and we need to find him.  Let's setup camp for the evening, worst case scenario Fblthp knows to come back to the convoy before it gets to dark... I hope.\n\nWhere do you want to look first?\n\nSpend your Event Token... [Explain how it works]",
+        "translation": "Fblthp wandered off from our convoy and we need to find him.  Let's setup camp for the evening, worst case scenario Fblthp knows to come back to the convoy before it gets to dark... I hope.\n\nWhere do you want to look first?\n\nSpend your Event Token... [Explain how it works]"
+    },
+    "Events/Event_Desc_EFStop1DescB": {
+        "oracleText": "Everyone loves a nice dip in the pool, Fblthp is probably just looking for a little relief from the desert sun.",
+        "translation": "Everyone loves a nice dip in the pool, Fblthp is probably just looking for a little relief from the desert sun."
+    },
+    "Events/Event_Desc_EFStop1DescC": {
+        "oracleText": "In his search for shade and a drink, Fblthp may have wandered into Hellspur territory. Let's get after him!",
+        "translation": "In his search for shade and a drink, Fblthp may have wandered into Hellspur territory. Let's get after him!"
+    },
+    "Events/Event_Desc_EFStop1DescD": {
+        "oracleText": "A dubious choice, but if Fblthp has a lot of experience getting lost. I'm sure he knows best...",
+        "translation": "A dubious choice, but if Fblthp has a lot of experience getting lost. I'm sure he knows best..."
+    },
+    "Events/Event_Desc_EFStop2DescA": {
+        "oracleText": "As you approach you notice non other than Oko leaning against a rock.\n\n\"Hey Oko, have to seen Fblthp around here?\"\n\nOko glances up at you and thinks for a moment.  \"I heard they needed a sherrif down by the Saloon and Fblthp's been obsessed with that toy sherrif's badge that Ral gave him\"\n\nWhere to from here?",
+        "translation": "As you approach you notice non other than Oko leaning against a rock.\n\n\"Hey Oko, have to seen Fblthp around here?\"\n\nOko glances up at you and thinks for a moment.  \"I heard they needed a sherrif down by the Saloon and Fblthp's been obsessed with that toy sherrif's badge that Ral gave him\"\n\nWhere to from here?"
+    },
+    "Events/Event_Desc_EFStop2DescB": {
+        "oracleText": "Is Fblthp is going to let that badge go to his head?",
+        "translation": "Is Fblthp is going to let that badge go to his head?"
+    },
+    "Events/Event_Desc_EFStop2DescC": {
+        "oracleText": "If the Law is getting involved you don't want to go anywhere near the saloon.  I'm sure you'll hear all about it when Fblthp comes home.",
+        "translation": "If the Law is getting involved you don't want to go anywhere near the saloon.  I'm sure you'll hear all about it when Fblthp comes home."
+    },
+    "Events/Event_Desc_EFStop3DescA": {
+        "oracleText": "Fblthp's been talking a big game, and Rakdos is coming to duel him in the streets!\n\nEveryone in the saloon looks nervous. What are you going to do?",
+        "translation": "Fblthp's been talking a big game, and Rakdos is coming to duel him in the streets!\n\nEveryone in the saloon looks nervous. What are you going to do?"
+    },
+    "Events/Event_Desc_EFStop3DescB": {
+        "oracleText": "Rakdos is pretty big, but you can dream bigger. Tap into that blue mana and cast yourself an illusion army to spook the big demon.",
+        "translation": "Rakdos is pretty big, but you can dream bigger. Tap into that blue mana and cast yourself an illusion army to spook the big demon."
+    },
+    "Events/Event_Desc_EFStop3DescC": {
+        "oracleText": "The demonic guildmaster is scary, but you're not alone! Summon your posse and duke it out!",
+        "translation": "The demonic guildmaster is scary, but you're not alone! Summon your posse and duke it out!"
+    },
+    "Events/Event_Desc_EFStop3DescD": {
+        "oracleText": "Fblthp wants to be the sheriff of these parts, eh? Better back him up.",
+        "translation": "Fblthp wants to be the sheriff of these parts, eh? Better back him up."
+    },
+    "Events/Event_Desc_EFStop4DescA": {
+        "oracleText": "The little guy was so brave! The day is saved! Let's head back to camp for some serious shut-eye.",
+        "translation": "The little guy was so brave! The day is saved! Let's head back to camp for some serious shut-eye."
+    },
+    "Events/Event_Desc_EFStop5DescA": {
+        "oracleText": "You did it! Let's head back to camp.",
+        "translation": "You did it! Let's head back to camp."
+    },
+    "Events/Event_Desc_EFStop6DescA": {
+        "oracleText": "The illusions you summoned did the job! Rakdos thought it was best to start trouble elsewhere and stomped off.\n\nFblthp is safe once again. Let's head back to camp, pardner.",
+        "translation": "The illusions you summoned did the job! Rakdos thought it was best to start trouble elsewhere and stomped off.\n\nFblthp is safe once again. Let's head back to camp, pardner."
+    },
+    "Events/Event_Desc_EFStopFinalDescA": {
+        "oracleText": "Hope you had some exitement today, if you want to see more of the story just join this event to go back to the start!",
+        "translation": "Hope you had some exitement today, if you want to see more of the story just join this event to go back to the start!"
     },
     "Events/Event_Desc_ELD_Comp_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!",
@@ -18735,6 +18967,10 @@
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is the 2022 Challenger Decks! These iconic archetypes are available now, and you can take them for a spin right here. Choose your favorite strategy and seize victory!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
         "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is the 2022 Challenger Decks! These iconic archetypes are available now, and you can take them for a spin right here. Choose your favorite strategy and seize victory!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
     },
+    "Events/Event_Desc_MWM_Chimil_Historic": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Chimil, the Inner Sun Historic: at the end of <i>each</i> of your turns, Discover a spell with cost 5 or lower! What a bargain! All you'll need to play is a 60-card Historic deck.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Chimil, the Inner Sun Historic: at the end of <i>each</i> of your turns, Discover a spell with cost 5 or lower! What a bargain! All you'll need to play is a 60-card Historic deck.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+    },
     "Events/Event_Desc_MWM_Cube_BotDraft": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Chromatic Cube Bot Draft: Try out the biggest and boldest curated draft format on MTG Arena! Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
         "translation": "欢迎来到周中万智牌！每周尝试一个不同的方式来游玩万智牌竞技场！\n\n本周赛事是五彩方盒人机轮抽：在MTGA上尝试最新的精选轮抽赛制！轮抽用补充包在桌上轮转，你每次需从中选择一张牌以对抗AI，无需等待，也无需选择计时器。而你将使用它们和基本地来构筑一副40张的套牌，不断进行对战随你所愿！\n\n<b><color=\"red\">这是一个幻影活动。你所抓取的牌张不会添加到你的收藏当中。</color></b>\n\n更多关于本活动及即将到来的周中万智牌赛事信息，请查看<u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>这里</link></u>。"
@@ -18754,6 +18990,10 @@
     "Events/Event_Desc_MWM_Explorer": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Explorer: Bring a 60-card Explorer deck. Break out the latest and greatest from the lab, or maybe find a new favorite!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
         "translation": "欢迎来到周中万智牌！每周尝试一种不同的方式来游玩万智牌竞技场！\n\n本周活动是探险：带上一副60张的探险套牌。从实验室获悉最新最强的套牌，也许能发现新的最爱！\n\n点击<u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>>此处</link></u>了解有关本次周中活动以及未来周中万智牌活动的更多详细信息 。"
+    },
+    "Events/Event_Desc_MWM_ExplorerPrecons": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Explorer Showcase: Take these Explorer preconstructed decks for a spin, and see if you find a new favorite! Change decks as often as you like.\n\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Explorer Showcase: Take these Explorer preconstructed decks for a spin, and see if you find a new favorite! Change decks as often as you like.\n\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
     },
     "Events/Event_Desc_MWM_Explorer_AllAccess": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Explorer All Access: While you'll still bring an Explorer deck, you won't need the cards! Try out that new deck you've had your eye on, or create something new! \n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
@@ -18854,6 +19094,10 @@
     "Events/Event_Desc_MWM_MH3Constructed": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Modern Horizons 3</i> Constructed: Bring a 60-card deck with only cards from the most recent set and demonstrate your mastery of the new cards!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
         "translation": "欢迎来到周中万智牌！每周尝试一种不同的方式来游玩万智牌竞技场！\n\n本周活动是<i>摩登新篇3</i>构筑：仅使用来自最新系列的卡牌构筑一副60张套牌并展示你对新牌的深刻理解！\n\n点击<u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>此处</link></u>了解有关本次周中活动以及未来周中万智牌活动的更多详细信息 。"
+    },
+    "Events/Event_Desc_MWM_MH3_BotDraft": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Modern Horizons 3</i> Bot Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Modern Horizons 3</i> Bot Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
     },
     "Events/Event_Desc_MWM_MID_Sealed": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Midnight Hunt</i> vs <i>Crimson Vow</i> Sealed: Open six packs of <i>Midnight Hunt</i> and add basic lands to make a 40-card deck, then play against other players who are playing <i>Crimson Vow</i>!\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
@@ -19266,6 +19510,10 @@
     "Events/Event_Desc_QualifierPlayIn_Bo3_Explorer": {
         "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Explorer with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
         "translation": "本月的资格赛周末即将来临！如果你还未获得资格，在本入围赛事中赢取4胜来获得你的资格赛周末席位。\n\n本入围赛事的赛制是BO3探险构筑，需使用备牌和个人计时器。如果你能赢取4胜，一定记得明天回来参加资格赛周末！\n\n<size=100%><b><color=\"red\">必须年满18岁才能参加。并非在所有地区/领地都可用。禁止地区无效。附加条款和条件适用。请参阅<u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>此处</link></u>了解完整详情。</color></b></size>"
+    },
+    "Events/Event_Desc_QualifierPlayIn_Bo3_Historic": {
+        "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Historic with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
+        "translation": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Historic with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_QualifierPlayIn_Bo3_Standard": {
         "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Standard with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
@@ -20283,6 +20531,10 @@
         "oracleText": "Arena Direct - Sealed Modern Horizons 3",
         "translation": "Arena Direct - Sealed Modern Horizons 3"
     },
+    "Events/Event_Title_ArenaDirect_OTJ_Sealed": {
+        "oracleText": "Arena Direct - Sealed Outlaws of Thunder Junction",
+        "translation": "Arena Direct - Sealed Outlaws of Thunder Junction"
+    },
     "Events/Event_Title_ArenaOpen_Day1": {
         "oracleText": "The Arena Open - Day 1",
         "translation": "竞技场公开赛 - 第一天"
@@ -20746,6 +20998,66 @@
     "Events/Event_Title_DualColorPrecons": {
         "oracleText": "Starter Deck Duel",
         "translation": "新手套牌对决"
+    },
+    "Events/Event_Title_EFStop1TitleA": {
+        "oracleText": "Introduction: Fblthp is Lost On the range!",
+        "translation": "Introduction: Fblthp is Lost On the range!"
+    },
+    "Events/Event_Title_EFStop1TitleB": {
+        "oracleText": "The Oasis",
+        "translation": "The Oasis"
+    },
+    "Events/Event_Title_EFStop1TitleC": {
+        "oracleText": "The Saloon",
+        "translation": "The Saloon"
+    },
+    "Events/Event_Title_EFStop1TitleD": {
+        "oracleText": "Wait Until Nightfall",
+        "translation": "Wait Until Nightfall"
+    },
+    "Events/Event_Title_EFStop2TitleA": {
+        "oracleText": "The Oasis - Oko's got a clue!",
+        "translation": "The Oasis - Oko's got a clue!"
+    },
+    "Events/Event_Title_EFStop2TitleB": {
+        "oracleText": "The Saloon",
+        "translation": "The Saloon"
+    },
+    "Events/Event_Title_EFStop2TitleC": {
+        "oracleText": "Go back to Camp until Nightfall",
+        "translation": "Go back to Camp until Nightfall"
+    },
+    "Events/Event_Title_EFStop3TitleA": {
+        "oracleText": "The Saloon - Rakdos is coming to Town!",
+        "translation": "The Saloon - Rakdos is coming to Town!"
+    },
+    "Events/Event_Title_EFStop3TitleB": {
+        "oracleText": "Summon an Illusion Army",
+        "translation": "Summon an Illusion Army"
+    },
+    "Events/Event_Title_EFStop3TitleC": {
+        "oracleText": "Call for Aid",
+        "translation": "Call for Aid"
+    },
+    "Events/Event_Title_EFStop3TitleD": {
+        "oracleText": "Let Fblthp Handle It",
+        "translation": "Let Fblthp Handle It"
+    },
+    "Events/Event_Title_EFStop4TitleA": {
+        "oracleText": "Conclusion: Fblthp Handled It",
+        "translation": "Conclusion: Fblthp Handled It"
+    },
+    "Events/Event_Title_EFStop5TitleA": {
+        "oracleText": "Conclusion: Summon your Allies",
+        "translation": "Conclusion: Summon your Allies"
+    },
+    "Events/Event_Title_EFStop6TitleA": {
+        "oracleText": "Conclusion: Scare Off Rakdos",
+        "translation": "Conclusion: Scare Off Rakdos"
+    },
+    "Events/Event_Title_EFStopFinalTitleA": {
+        "oracleText": "What an Adventure Indeed",
+        "translation": "What an Adventure Indeed"
     },
     "Events/Event_Title_ELD_Comp_Draft": {
         "oracleText": "Traditional Draft Throne of Eldraine",
@@ -21783,6 +22095,10 @@
         "oracleText": "Midweek Magic: Challenger Showcase",
         "translation": "周中万智牌：挑战者套牌展览"
     },
+    "Events/Event_Title_MWM_Chimil_Historic": {
+        "oracleText": "Midweek Magic: Chimil, the Inner Sun Historic",
+        "translation": "周中万智牌：内阳史迹"
+    },
     "Events/Event_Title_MWM_Cube_BotDraft": {
         "oracleText": "Midweek Magic: Phantom Bot Draft",
         "translation": "周中万智牌：幻影人机轮抽"
@@ -21802,6 +22118,10 @@
     "Events/Event_Title_MWM_Explorer": {
         "oracleText": "Midweek Magic: Explorer",
         "translation": "周中万智牌：探险"
+    },
+    "Events/Event_Title_MWM_ExplorerPrecons": {
+        "oracleText": "Midweek Magic: Explorer Showcase",
+        "translation": "周中万智牌：探险套牌展"
     },
     "Events/Event_Title_MWM_Explorer_AllAccess": {
         "oracleText": "Midweek Magic: Explorer",
@@ -21910,6 +22230,10 @@
     "Events/Event_Title_MWM_MH3Constructed": {
         "oracleText": "Midweek Magic: Modern Horizons 3 Constructed",
         "translation": "周中万智牌：摩登新篇3环境构筑"
+    },
+    "Events/Event_Title_MWM_MH3_BotDraft": {
+        "oracleText": "Midweek Magic: Phantom Bot Draft",
+        "translation": "周中万智牌：幻影快速轮抽"
     },
     "Events/Event_Title_MWM_MID_Sealed": {
         "oracleText": "Midweek Magic: Phantom Sealed Faceoff - Midnight Hunt",
@@ -24598,6 +24922,118 @@
     "Events/Tokens/OpenDay2TokenSingular": {
         "oracleText": "Arena Open Day 2",
         "translation": "竞技场公开赛第二天"
+    },
+    "Events/Tokens/Path1ADesc": {
+        "oracleText": "Your story starts here...",
+        "translation": "Your story starts here..."
+    },
+    "Events/Tokens/Path1ATitleSingular": {
+        "oracleText": "Totally Lost Story Token",
+        "translation": "Totally Lost Story Token"
+    },
+    "Events/Tokens/Path1BDesc": {
+        "oracleText": "Token Path1B",
+        "translation": "Token Path1B"
+    },
+    "Events/Tokens/Path1BTitleSingular": {
+        "oracleText": "Token Path1B",
+        "translation": "Token Path1B"
+    },
+    "Events/Tokens/Path1CDesc": {
+        "oracleText": "Token Path1C",
+        "translation": "Token Path1C"
+    },
+    "Events/Tokens/Path1CTitleSingular": {
+        "oracleText": "Token Path1C",
+        "translation": "Token Path1C"
+    },
+    "Events/Tokens/Path1DDesc": {
+        "oracleText": "Token Path1D",
+        "translation": "Token Path1D"
+    },
+    "Events/Tokens/Path1DTitleSingular": {
+        "oracleText": "Token Path1D",
+        "translation": "Token Path1D"
+    },
+    "Events/Tokens/Path2ADesc": {
+        "oracleText": "Let's see what this Trickster has to say...",
+        "translation": "Let's see what this Trickster has to say..."
+    },
+    "Events/Tokens/Path2ATitleSingular": {
+        "oracleText": "Totally Lost - Oko's Clue",
+        "translation": "Totally Lost - Oko's Clue"
+    },
+    "Events/Tokens/Path2BDesc": {
+        "oracleText": "Token Path2B",
+        "translation": "Token Path2B"
+    },
+    "Events/Tokens/Path2BTitleSingular": {
+        "oracleText": "Token Path2B",
+        "translation": "Token Path2B"
+    },
+    "Events/Tokens/Path2CDesc": {
+        "oracleText": "Token Path2C",
+        "translation": "Token Path2C"
+    },
+    "Events/Tokens/Path2CTitleSingular": {
+        "oracleText": "Token Path2C",
+        "translation": "Token Path2C"
+    },
+    "Events/Tokens/Path3ADesc": {
+        "oracleText": "Totally Lost - Rakdos is coming!",
+        "translation": "Totally Lost - Rakdos is coming!"
+    },
+    "Events/Tokens/Path3ATitleSingular": {
+        "oracleText": "Token Path3A",
+        "translation": "Token Path3A"
+    },
+    "Events/Tokens/Path3BDesc": {
+        "oracleText": "Token Path3B",
+        "translation": "Token Path3B"
+    },
+    "Events/Tokens/Path3BTitleSingular": {
+        "oracleText": "The big guy is almost here! What do you do?",
+        "translation": "The big guy is almost here! What do you do?"
+    },
+    "Events/Tokens/Path3CDesc": {
+        "oracleText": "Token Path3C",
+        "translation": "Token Path3C"
+    },
+    "Events/Tokens/Path3CTitleSingular": {
+        "oracleText": "Token Path3C",
+        "translation": "Token Path3C"
+    },
+    "Events/Tokens/Path4ADesc": {
+        "oracleText": "Let's see how the big guy likes this!",
+        "translation": "Let's see how the big guy likes this!"
+    },
+    "Events/Tokens/Path4ATitleSingular": {
+        "oracleText": "Totally Lost - Fblthp v. Rakdos",
+        "translation": "Totally Lost - Fblthp v. Rakdos"
+    },
+    "Events/Tokens/Path5ADesc": {
+        "oracleText": "Let's see how the big guy likes this!",
+        "translation": "Let's see how the big guy likes this!"
+    },
+    "Events/Tokens/Path5ATitleSingular": {
+        "oracleText": "Totally Lost - Scare Off Rakdos",
+        "translation": "Totally Lost - Scare Off Rakdos"
+    },
+    "Events/Tokens/Path6ADesc": {
+        "oracleText": "Let's see how the big guy likes this!",
+        "translation": "Let's see how the big guy likes this!"
+    },
+    "Events/Tokens/Path6ATitleSingular": {
+        "oracleText": "Totally Lost - Scare Off Rakdos",
+        "translation": "Totally Lost - Scare Off Rakdos"
+    },
+    "Events/Tokens/PathFinalADesc": {
+        "oracleText": "Time to head back to camp...",
+        "translation": "Time to head back to camp..."
+    },
+    "Events/Tokens/PathFinalATitleSingular": {
+        "oracleText": "Totally Lost - Conclusion",
+        "translation": "Totally Lost - Conclusion"
     },
     "Events/Tokens/PlayInTokenDescription": {
         "oracleText": "Use 20 Play-In Points to enter a Qualifier Play-In event",
@@ -28931,6 +29367,42 @@
         "oracleText": "PLACEHOLDER SLEEVE NAME <CardBack_6ED_001988>",
         "translation": "PLACEHOLDER SLEEVE NAME <CardBack_6ED_001988>"
     },
+    "MainNav/DeckBuilder/Sleeves/CardBack_ACR_439699": {
+        "oracleText": "Bayek of Siwa Sleeve",
+        "translation": "Bayek of Siwa Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_ACR_439700": {
+        "oracleText": "Evie Frye Sleeve",
+        "translation": "Evie Frye Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_ACR_439701": {
+        "oracleText": "Ezio Auditore da Firenze Sleeve",
+        "translation": "Ezio Auditore da Firenze Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_ACR_439704": {
+        "oracleText": "Altair Ibn-La'Ahad Sleeve",
+        "translation": "Altair Ibn-La'Ahad Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_ACR_439705": {
+        "oracleText": "Edward Kenway Sleeve",
+        "translation": "Edward Kenway Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_ACR_439706": {
+        "oracleText": "Kassandra, Eagle Bearer Sleeve",
+        "translation": "Kassandra, Eagle Bearer Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_ACR_439708": {
+        "oracleText": "Ratonhnhaké:ton Sleeve",
+        "translation": "Ratonhnhaké:ton Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_ACR_439711": {
+        "oracleText": "Aveline de Grandpre Sleeve",
+        "translation": "Aveline de Grandpre Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_ACR_441725": {
+        "oracleText": "Shay Cormac Sleeve",
+        "translation": "Shay Cormac Sleeve"
+    },
     "MainNav/DeckBuilder/Sleeves/CardBack_AFR_418774": {
         "oracleText": "Half-Elf Monk Sleeve",
         "translation": "半精灵武僧牌套"
@@ -28994,6 +29466,18 @@
     "MainNav/DeckBuilder/Sleeves/CardBack_ALC_409796": {
         "oracleText": "Holiday Fox Sleeve",
         "translation": "节庆野狐牌套"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_BLB_440848": {
+        "oracleText": "Hugs, Grisly Guardian Sleeve",
+        "translation": "Hugs, Grisly Guardian Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_BLB_440854": {
+        "oracleText": "Ral, Crackling Wit Sleeve",
+        "translation": "Ral, Crackling Wit Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_BLB_449844": {
+        "oracleText": "Mabel, Heir to Cragflame Sleeve",
+        "translation": "Mabel, Heir to Cragflame Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_BRO_430034": {
         "oracleText": "Kayla's Command Sleeve",
@@ -29930,6 +30414,10 @@
     "MainNav/DeckBuilder/Sleeves/CardBack_J21_423992": {
         "oracleText": "Freyalise, Skyshroud Partisan Sleeve",
         "translation": "天帷守护妃雅丽兹牌套"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_J21_424001": {
+        "oracleText": "Reckless Ringleader Sleeve",
+        "translation": "Reckless Ringleader Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_KHM_416670": {
         "oracleText": "Esikas Chariot Sleeve",
@@ -33687,6 +34175,18 @@
         "oracleText": "{quantity} Modern Horizons 3 Play Booster Box",
         "translation": "{quantity}摩登新篇3补充包"
     },
+    "MainNav/EventRewards/ArenaDirect_OTJ_PLAY": {
+        "oracleText": "2 Outlaws of Thunder Junction Play Booster Boxs",
+        "translation": "2 Outlaws of Thunder Junction Play Booster Boxs"
+    },
+    "MainNav/EventRewards/ArenaDirect_OTJ_PLAYPlural": {
+        "oracleText": "{quantity} Outlaws of Thunder Junction Play Booster Boxes",
+        "translation": "{quantity} Outlaws of Thunder Junction Play Booster Boxes"
+    },
+    "MainNav/EventRewards/ArenaDirect_OTJ_PLAYSingular": {
+        "oracleText": "2 Outlaws of Thunder Junction Play Booster Boxes",
+        "translation": "2 Outlaws of Thunder Junction Play Booster Boxes"
+    },
     "MainNav/EventRewards/AtraxaAvatar": {
         "oracleText": "Atraxa Avatar",
         "translation": "亚崔夏头像"
@@ -33846,6 +34346,10 @@
     "MainNav/EventRewards/Card_Reward_Uncommon": {
         "oracleText": "Card will be at least Uncommon",
         "translation": "牌张奖励：至少1张非凡牌"
+    },
+    "MainNav/EventRewards/Cardback_J21_134407": {
+        "oracleText": "Blade Splicer Sleeve",
+        "translation": "Blade Splicer Sleeve"
     },
     "MainNav/EventRewards/Cards": {
         "oracleText": "{number1} Cards",
@@ -36327,6 +36831,22 @@
         "oracleText": "Arena Championship 5",
         "translation": "竞技场冠军赛 5"
     },
+    "MainNav/HomePage/Carousel/2024_07_09_UltraPro_Desc": {
+        "oracleText": "Iconic symbols, premium tabletop accessories.",
+        "translation": "Iconic symbols, premium tabletop accessories."
+    },
+    "MainNav/HomePage/Carousel/2024_07_09_UltraPro_Title": {
+        "oracleText": "Anything but Basic.",
+        "translation": "Anything but Basic."
+    },
+    "MainNav/HomePage/Carousel/2024_07_20_AC6_Desc": {
+        "oracleText": "The pinnacle of competitive Magic in MTG Arena starts July 13th! Watch as players compete for their share of $200,000 and a spot at the Magic World Championship!",
+        "translation": "The pinnacle of competitive Magic in MTG Arena starts July 13th! Watch as players compete for their share of $200,000 and a spot at the Magic World Championship!"
+    },
+    "MainNav/HomePage/Carousel/2024_07_20_AC6_Title": {
+        "oracleText": "Arena Championship 6",
+        "translation": "Arena Championship 6"
+    },
     "MainNav/HomePage/Carousel/2024_33_60_Store_Desc": {
         "oracleText": "Get ready to solve some crimes! Get the best tools for when the investigation begins with three Pre-orders, available now in the Store!",
         "translation": "准备好侦破一些犯罪案件！ 通过三款预购，获得开始调查时的最佳工具，现已在商店中上架！"
@@ -36390,6 +36910,14 @@
     "MainNav/HomePage/Carousel/2024_38_0_Store_Title": {
         "oracleText": "Modern Horizons 3!",
         "translation": "摩登新篇3！"
+    },
+    "MainNav/HomePage/Carousel/2024_38_40_Store_Desc": {
+        "oracleText": "Grab these 3 preorders to prepare for any upcoming Calamity!",
+        "translation": "Grab these 3 preorders to prepare for any upcoming Calamity!"
+    },
+    "MainNav/HomePage/Carousel/2024_38_40_Store_Title": {
+        "oracleText": "The Seasons are Changing!",
+        "translation": "The Seasons are Changing!"
     },
     "MainNav/HomePage/Carousel/21_01_Store_Desc": {
         "oracleText": "Take part in the epic Saga of Kaldheim. New Boosters Packs, new Set Mastery Pass, new Showcase Bundles, and more!",
@@ -36754,6 +37282,22 @@
     "MainNav/HomePage/Carousel/August_PotM_Here_Title": {
         "oracleText": "The Black Lotus has Bloomed!",
         "translation": "黑莲花绽放！"
+    },
+    "MainNav/HomePage/Carousel/BLB_PreRelease_Title": {
+        "oracleText": "Your first opportunity to play Bloomburrow!",
+        "translation": "Your first opportunity to play Bloomburrow!"
+    },
+    "MainNav/HomePage/Carousel/BLB_Previews_Desc": {
+        "oracleText": "Catch a glimpse of all the critters coming to the battlefield by clicking here!",
+        "translation": "Catch a glimpse of all the critters coming to the battlefield by clicking here!"
+    },
+    "MainNav/HomePage/Carousel/BLB_Previews_Title": {
+        "oracleText": "Bloomburrow Previews!",
+        "translation": "Bloomburrow Previews!"
+    },
+    "MainNav/HomePage/Carousel/BLB_StreamerEvent_Title": {
+        "oracleText": "Excited to play BLB? So are our Streamers!",
+        "translation": "Excited to play BLB? So are our Streamers!"
     },
     "MainNav/HomePage/Carousel/BRO_Previews_Title": {
         "oracleText": "Brothers' War Previews",
@@ -40147,6 +40691,14 @@
         "oracleText": "<i>Zendikar Rising</i> Set Mastery Overview",
         "translation": "<i>赞迪卡再起</i>精研通行证预览"
     },
+    "MainNav/Inbox/RenewalRewardA": {
+        "oracleText": "Renewal Rewards",
+        "translation": "轮替奖励"
+    },
+    "MainNav/Inbox/RenewalRewardB": {
+        "oracleText": "July 30",
+        "translation": "7月30日"
+    },
     "MainNav/Killswitch/PopupError_Message": {
         "oracleText": "This is currently unavailable, please try again later",
         "translation": "当前不可用，请稍后尝试"
@@ -41035,6 +41587,30 @@
         "oracleText": "Introducing the Psychic Frog's Horizon Hideaway!",
         "translation": "Introducing the Psychic Frog's Horizon Hideaway!"
     },
+    "MainNav/Mailbox/2024_38_40_AC6_Day1_Desc": {
+        "oracleText": "Who will advance to the top 8 of Arena Championship 6? Come watch and cheer on your favorite players as they compete for their share of $200,000 and a seat at the Magic World Championship!",
+        "translation": "Who will advance to the top 8 of Arena Championship 6? Come watch and cheer on your favorite players as they compete for their share of $200,000 and a seat at the Magic World Championship!"
+    },
+    "MainNav/Mailbox/2024_38_40_AC6_Day1_Title": {
+        "oracleText": "Arena Championship 6 - Day 1!",
+        "translation": "Arena Championship 6 - Day 1!"
+    },
+    "MainNav/Mailbox/2024_38_40_AC6_Day2_Desc": {
+        "oracleText": "Who will be the victor of Arena Championship 6? Come watch and cheer on your favorite players as they compete for their share of $200,000 and a seat at the Magic World Championship!",
+        "translation": "Who will be the victor of Arena Championship 6? Come watch and cheer on your favorite players as they compete for their share of $200,000 and a seat at the Magic World Championship!"
+    },
+    "MainNav/Mailbox/2024_38_40_AC6_Day2_Title": {
+        "oracleText": "Arena Championship 6 - Day 2!",
+        "translation": "Arena Championship 6 - Day 2!"
+    },
+    "MainNav/Mailbox/2024_38_40_BLB_PreOrder_PatchNotes_Description": {
+        "oracleText": "What adventures await you in Valley? Take a look at what changes are coming by clicking the link below!",
+        "translation": "What adventures await you in Valley? Take a look at what changes are coming by clicking the link below!"
+    },
+    "MainNav/Mailbox/2024_38_40_BLB_PreOrder_PatchNotes_Title": {
+        "oracleText": "2024.38.40 Patch Notes Are Here!",
+        "translation": "2024.38.40 Patch Notes Are Here!"
+    },
     "MainNav/Mailbox/2024_AprilFoolsDay_Gift_Desc": {
         "oracleText": "APRIL FOOLS! Just kidding, there's no Card Warranty. There's also Nothing attached to this message. Don't bother clicking ‘Claim' below. \n\nSeriously, it's Nothing.",
         "translation": "APRIL FOOLS! Just kidding, there's no Card Warranty. There's also Nothing attached to this message. Don't bother clicking ‘Claim' below. \n\nSeriously, it's Nothing."
@@ -41042,6 +41618,22 @@
     "MainNav/Mailbox/2024_AprilFoolsDay_Gift_Title": {
         "oracleText": "We've Been Trying To Reach You About Your Card's Extended Warranty",
         "translation": "We've Been Trying To Reach You About Your Card's Extended Warranty"
+    },
+    "MainNav/Mailbox/2024_RenewalRotation_Alchemy_InboxTitle": {
+        "oracleText": "Alchemy Rotation Coming Soon!",
+        "translation": "炼金赛制即将轮替！"
+    },
+    "MainNav/Mailbox/2024_RenewalRotation_Alchemy_Inbox_Desc": {
+        "oracleText": "With the release of <i>Bloomburrow</i>, Alchemy will be getting some changes as part of our yearly Rotation effort! Rotation is the time of year where we rotate out old sets of a format to keep things fresh and foster deck diversity for play.\n\nFor Alchemy, the following sets will no longer be legal in the format starting July 30th, 2024:\n\n- <i>Dominaria United</i>\n- <i>Alchemy: Dominaria</i>\n- <i>The Brothers' War</i>\n- <i>Alchemy: The Brothers' War</i>\n- <i>Phyrexia: All Will Be One</i>\n- <i>Alchemy: Phyrexia</i>\n- <i>March of the Machine</i>\n- <i>March of the Machine: The Aftermath</i>\n- <i>The Lord of the Rings: Tales of Middle-earth</i>",
+        "translation": "With the release of <i>Bloomburrow</i>, Alchemy will be getting some changes as part of our yearly Rotation effort! Rotation is the time of year where we rotate out old sets of a format to keep things fresh and foster deck diversity for play.\n\nFor Alchemy, the following sets will no longer be legal in the format starting July 30th, 2024:\n\n- <i>Dominaria United</i>\n- <i>Alchemy: Dominaria</i>\n- <i>The Brothers' War</i>\n- <i>Alchemy: The Brothers' War</i>\n- <i>Phyrexia: All Will Be One</i>\n- <i>Alchemy: Phyrexia</i>\n- <i>March of the Machine</i>\n- <i>March of the Machine: The Aftermath</i>\n- <i>The Lord of the Rings: Tales of Middle-earth</i>"
+    },
+    "MainNav/Mailbox/2024_RenewalRotation_Standard_Inbox_Desc": {
+        "oracleText": "With the release of <i>Bloomburrow</i>, Standard will be getting some changes as part of our yearly Rotation effort! Rotation is the time of year where we rotate out old sets of a format to keep things fresh and foster deck diversity for play.\n\nFor Standard, the following sets will no longer be legal in the format starting July 30th, 2024:\n\n- <i>Innistrad: Crimson Vow</i>\n- <i>Innistrad: Midnight Hunt</i>\n- <i>Kamigawa: Neon Dynasty</i>\n- <i>Streets of New Capenna</i>",
+        "translation": "With the release of <i>Bloomburrow</i>, Standard will be getting some changes as part of our yearly Rotation effort! Rotation is the time of year where we rotate out old sets of a format to keep things fresh and foster deck diversity for play.\n\nFor Standard, the following sets will no longer be legal in the format starting July 30th, 2024:\n\n- <i>Innistrad: Crimson Vow</i>\n- <i>Innistrad: Midnight Hunt</i>\n- <i>Kamigawa: Neon Dynasty</i>\n- <i>Streets of New Capenna</i>"
+    },
+    "MainNav/Mailbox/2024_RenewalRotation_Standard_Inbox_Title": {
+        "oracleText": "Standard Rotation Coming Soon!",
+        "translation": "标准赛制即将轮替！"
     },
     "MainNav/Mailbox/AnnualSatisfactionSurveyCTA_Description": {
         "oracleText": "We hope you are enjoying MTG Arena! If you have a few minutes, we would love to hear your thoughts in our feedback survey.\n\nThank you for all your help and see you in the game!",
@@ -41074,6 +41666,14 @@
     "MainNav/Mailbox/ArenaChampionship4_Day2Watch_Desc": {
         "oracleText": "Who will be the victors of Arena Championship 4? Come watch and cheer on your favorite players as they compete for their share of $200,000 and a seat at the Magic World Championship!",
         "translation": "谁将成为竞技场冠军赛4的胜利者？快来观看并为你最喜爱的选手加油助威，他们将争夺200000美元的奖金和一个万智牌世界冠军赛的席位！"
+    },
+    "MainNav/Mailbox/BLB_EarlyAccess_Title": {
+        "oracleText": "Excited to play BLB in MTG Arena? So are our streamers!",
+        "translation": "Excited to play BLB in MTG Arena? So are our streamers!"
+    },
+    "MainNav/Mailbox/BLB_Release_Notes_Title": {
+        "oracleText": "Bloomburrow Release Notes are Here!",
+        "translation": "Bloomburrow Release Notes are Here!"
     },
     "MainNav/Mailbox/Button_Claim": {
         "oracleText": "Claim",
@@ -42286,6 +42886,10 @@
     "MainNav/PetNames/AFR_Dragon_Skin5": {
         "oracleText": "Black Dragon",
         "translation": "黑龙宠物"
+    },
+    "MainNav/PetNames/BLB_Preorder_1": {
+        "oracleText": "Mabel",
+        "translation": "Mabel"
     },
     "MainNav/PetNames/BRO_Mastery_1": {
         "oracleText": "Common Urzan Soldier",
@@ -43782,6 +44386,14 @@
     "MainNav/Profile/Avatars/Avatar_Basic_Eternal_Soldier_Name": {
         "oracleText": "Eternal Army",
         "translation": "永生军团"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Ezio_ACR_Bio": {
+        "oracleText": "Ezio Auditore da Firenze grew up a spirited young noble during the rise of the Italian Renaissance. Set down a path of vengeance after a family tragedy, Ezio would eventually spearhead Italy's liberation from Templar rule and earn the mantle of Master Assassin.",
+        "translation": "Ezio Auditore da Firenze grew up a spirited young noble during the rise of the Italian Renaissance. Set down a path of vengeance after a family tragedy, Ezio would eventually spearhead Italy's liberation from Templar rule and earn the mantle of Master Assassin."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Ezio_ACR_Name": {
+        "oracleText": "Ezio",
+        "translation": "Ezio"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_FalcoSpara_SNC_Bio": {
         "oracleText": "Falco Spara is the head of the Brokers and one of the few in New Capenna old enough to remember the city's founding. With his ironclad contracts, Falco and his Brokers provide the highest order of protection to clients in need—provided they can shell out the cash.",
@@ -51664,12 +52276,12 @@
         "translation": "Unlock Psychic Frog's Horizon Hideaway to spend your Tickets on Modern Horizons 3 Packs, Avatars, Sleeves, and more!"
     },
     "MainNav/Store/Bundles/PreOrder_AvailableDate": {
-        "oracleText": "Available on June 11, 2024",
-        "translation": "Available on June 11, 2024"
+        "oracleText": "Available on July 30, 2024",
+        "translation": "Available on July 30, 2024"
     },
     "MainNav/Store/Bundles/PreOrder_Available_Purchasable": {
-        "oracleText": "Available for purchase until June 11, 2024",
-        "translation": "Available for purchase until June 11, 2024"
+        "oracleText": "Available for purchase until July 30, 2024",
+        "translation": "Available for purchase until July 30, 2024"
     },
     "MainNav/Store/Bundles/Rowan Avatar Bundle_Desc": {
         "oracleText": "Rowan Avatar\nRowan, Scion of War Sleeve",
@@ -52307,9 +52919,17 @@
         "oracleText": "Important Note: This can only be played in Historic formats.",
         "translation": "重要消息：它只能在史记赛制中使用。"
     },
+    "MainNav/Store/Popups/SetRotation/RotatingOutGeneric_Message": {
+        "oracleText": "Warning: Cards from this set will rotate out of one or more rotating formats this fall.",
+        "translation": "警告：这个系列中的牌张即将于秋季在一个或多个赛制中被轮替。"
+    },
     "MainNav/Store/Popups/SetRotation/RotatingOutSoonAlchemy_Message": {
-        "oracleText": "Warning: Cards from this set will rotate out of Alchemy in the fall.",
-        "translation": "警告：这个系列中的牌张将于今年秋季在炼金赛制中被轮替。"
+        "oracleText": "Warning: Cards from this set will rotate out of one or more rotating formats this fall.",
+        "translation": "警告：这个系列中的牌张即将于秋季在一个或多个赛制中被轮替。"
+    },
+    "MainNav/Store/Popups/SetRotation/RotatingOutSoonAlchemy_MessageAlt": {
+        "oracleText": "Warning: Cards from this set will rotate out of one or more rotating formats this fall.",
+        "translation": "警告：这个系列中的牌张即将于秋季在一个或多个赛制中被轮替。"
     },
     "MainNav/Store/Popups/SetRotation/RotatingOutSoonStandard_Message": {
         "oracleText": "Warning: Cards from this set will rotate out of Standard in the fall. They will remain playable in Explorer and Historic.",
@@ -52380,8 +53000,8 @@
         "translation": "精研技艺"
     },
     "MainNav/Store/Popups/SetRotation/Warning_Message": {
-        "oracleText": "Warning: Cards from this set will rotate out of Alchemy in the fall.",
-        "translation": "警告：这个系列的牌张将于今年秋季从炼金赛制中被轮替。"
+        "oracleText": "Warning: Cards from this set will rotate out of one or more rotating formats this fall.",
+        "translation": "警告：这个系列中的牌张即将于秋季在一个或多个赛制中被轮替。"
     },
     "MainNav/Store/Popups/SetRotation/Warning_Purchase": {
         "oracleText": "Purchase",
@@ -53075,6 +53695,10 @@
         "oracleText": "Pre-order",
         "translation": "预购"
     },
+    "MainNav/Store/Tags/PreorderToday": {
+        "oracleText": "Pre-order Today!",
+        "translation": "Pre-order Today!"
+    },
     "MainNav/Store/Tags/PurchaseLimitVariable": {
         "oracleText": "Purchase Limit: {number1}",
         "translation": "购买限制：{number1}"
@@ -53211,6 +53835,22 @@
         "oracleText": "Rock",
         "translation": "岩石"
     },
+    "MainNav/Store/bundle_acr_cosmetics_Desc": {
+        "oracleText": "Ezio Avatar\nAltaïr Ibn-La'Ahad Sleeve\nAveline de Grandpre Sleeve\nBayek of Siwa Sleeve\nEdward Kenway Sleeve\nEvie Frye Sleeve\nEzio Auditore da Firenze Sleeve\nKassandra, Eagle Bearer Sleeve\nRatonhnhaké:ton Sleeve\nShay Cormac Sleeve\nAssassin's Creed®",
+        "translation": "Ezio Avatar\nAltaïr Ibn-La'Ahad Sleeve\nAveline de Grandpre Sleeve\nBayek of Siwa Sleeve\nEdward Kenway Sleeve\nEvie Frye Sleeve\nEzio Auditore da Firenze Sleeve\nKassandra, Eagle Bearer Sleeve\nRatonhnhaké:ton Sleeve\nShay Cormac Sleeve\nAssassin's Creed®"
+    },
+    "MainNav/Store/bundle_acr_cosmetics_Name": {
+        "oracleText": "Assassin's Creed Cosmetics Bundle",
+        "translation": "Assassin's Creed Cosmetics Bundle"
+    },
+    "MainNav/Store/bundle_acr_lands_Desc": {
+        "oracleText": "Full Art Plains (2 appearances)\nFull Art Island (2 appearances)\nFull Art Swamp (2 appearances)\nFull Art Mountain (2 appearances)\nFull Art Forest (2 appearances)\nAssassin's Creed®",
+        "translation": "Full Art Plains (2 appearances)\nFull Art Island (2 appearances)\nFull Art Swamp (2 appearances)\nFull Art Mountain (2 appearances)\nFull Art Forest (2 appearances)\nAssassin's Creed®"
+    },
+    "MainNav/Store/bundle_acr_lands_Name": {
+        "oracleText": "Assassin's Creed Lands Bundle",
+        "translation": "Assassin's Creed Lands Bundle"
+    },
     "MainNav/Store/bundle_wildcards_4M_Desc": {
         "oracleText": "4x Mythic Wildcards",
         "translation": "4张秘稀万用牌"
@@ -53242,6 +53882,30 @@
     "MainNav/Store/mtga_preorder_afr_play_Name": {
         "oracleText": "Pre-order: Ellywick Play Bundle",
         "translation": "预购：艾利薇游玩套装"
+    },
+    "MainNav/Store/mtga_preorder_blb_pack_Desc": {
+        "oracleText": "Pre-order <i>Bloomburrow</i> today and receive the following items on July 30, 2024:\n\n50 <i>Bloomburrow</i> Packs\n5 Golden Packs\n1 Ral, Crackling Wit Card\nRal, Crackling Wit Card Style\n\nWhen purchased, you will immediately receive the Ral, Crackling Wit Sleeve.",
+        "translation": "Pre-order <i>Bloomburrow</i> today and receive the following items on July 30, 2024:\n\n50 <i>Bloomburrow</i> Packs\n5 Golden Packs\n1 Ral, Crackling Wit Card\nRal, Crackling Wit Card Style\n\nWhen purchased, you will immediately receive the Ral, Crackling Wit Sleeve."
+    },
+    "MainNav/Store/mtga_preorder_blb_pack_Name": {
+        "oracleText": "Ral Pack Bundle",
+        "translation": "Ral Pack Bundle"
+    },
+    "MainNav/Store/mtga_preorder_blb_pass_Desc": {
+        "oracleText": "Pre-order <i>Bloomburrow</i> today and receive the following items on July 30, 2024:\n\n<i>Bloomburrow</i> Set Mastery Pass\n1x Hugs, Grisly Guardian Card\nHugs, Grisly Guardian Card Style\n\nWhen purchased, you will immediately receive the Hugs, Grisly Guardian Sleeve.",
+        "translation": "Pre-order <i>Bloomburrow</i> today and receive the following items on July 30, 2024:\n\n<i>Bloomburrow</i> Set Mastery Pass\n1x Hugs, Grisly Guardian Card\nHugs, Grisly Guardian Card Style\n\nWhen purchased, you will immediately receive the Hugs, Grisly Guardian Sleeve."
+    },
+    "MainNav/Store/mtga_preorder_blb_pass_Name": {
+        "oracleText": "Hugs Pass Bundle",
+        "translation": "Hugs Pass Bundle"
+    },
+    "MainNav/Store/mtga_preorder_blb_play_Desc": {
+        "oracleText": "Pre-order <i>Bloomburrow</i> today and receive the following items on July 30, 2024:\n\n2 Player Draft Tokens\n1 Sealed Token\n5 Play-In Points\n1x Mabel, Heir to Cragflame Card\nMabel, Heir to Cragflame Card Style\n\nWhen purchased, you will immediately receive the Mabel, Heir to Cragflame Sleeve and the Mabel Companion.",
+        "translation": "Pre-order <i>Bloomburrow</i> today and receive the following items on July 30, 2024:\n\n2 Player Draft Tokens\n1 Sealed Token\n5 Play-In Points\n1x Mabel, Heir to Cragflame Card\nMabel, Heir to Cragflame Card Style\n\nWhen purchased, you will immediately receive the Mabel, Heir to Cragflame Sleeve and the Mabel Companion."
+    },
+    "MainNav/Store/mtga_preorder_blb_play_Name": {
+        "oracleText": "Mabel Play Bundle",
+        "translation": "Mabel Play Bundle"
     },
     "MainNav/Store/mtga_preorder_bro_pack_Desc": {
         "oracleText": "Pre-order <i>The Brothers' War</i> today and receive the following items on November 15, 2022:\n\n50 <i>The Brothers' War</i> Packs\n5 Golden Packs\n1 Mishra, Claimed by Gix Card\n1 Phyrexian Dragon Engine Card\nMishra, Claimed by Gix Card Style\nPhyrexian Dragon Engine Card Style\n\nWhen purchased, you will immediately receive the Mishra Sleeve.",
@@ -57463,6 +58127,70 @@
         "oracleText": "Competitive",
         "translation": "竞技"
     },
+    "PlayBlade/Filters/Dynamic/EFSealedLeagueDesc": {
+        "oracleText": "7 Weeks, 7 Decks, 7 Chances for Prize Tix? Maybe?",
+        "translation": "7 Weeks, 7 Decks, 7 Chances for Prize Tix? Maybe?"
+    },
+    "PlayBlade/Filters/Dynamic/EFSealedLeagueTitle": {
+        "oracleText": "MH3 Sealed League",
+        "translation": "MH3 Sealed League"
+    },
+    "PlayBlade/Filters/Dynamic/EFStop1Desc": {
+        "oracleText": "Your tale starts here, read the Introduction to learn more.",
+        "translation": "Your tale starts here, read the Introduction to learn more."
+    },
+    "PlayBlade/Filters/Dynamic/EFStop1Title": {
+        "oracleText": "Totally Lost (on the Range)",
+        "translation": "Totally Lost (on the Range)"
+    },
+    "PlayBlade/Filters/Dynamic/EFStop2Desc": {
+        "oracleText": "A cool breeze cuts through intense heat as you look for Fblthp.  They have to be here somewhere...",
+        "translation": "A cool breeze cuts through intense heat as you look for Fblthp.  They have to be here somewhere..."
+    },
+    "PlayBlade/Filters/Dynamic/EFStop2Title": {
+        "oracleText": "The Oasis",
+        "translation": "The Oasis"
+    },
+    "PlayBlade/Filters/Dynamic/EFStop3Desc": {
+        "oracleText": "What in tarnation is going on here!",
+        "translation": "What in tarnation is going on here!"
+    },
+    "PlayBlade/Filters/Dynamic/EFStop3Title": {
+        "oracleText": "The Saloon",
+        "translation": "The Saloon"
+    },
+    "PlayBlade/Filters/Dynamic/EFStop4Desc": {
+        "oracleText": "For a small guy he sure can stand his ground... some of the time. Rakdos looked a little confused, but he did head for more lawless pastures, so we'll count that as a win.",
+        "translation": "For a small guy he sure can stand his ground... some of the time. Rakdos looked a little confused, but he did head for more lawless pastures, so we'll count that as a win."
+    },
+    "PlayBlade/Filters/Dynamic/EFStop4Title": {
+        "oracleText": "Fblthp's a Hero!",
+        "translation": "Fblthp's a Hero!"
+    },
+    "PlayBlade/Filters/Dynamic/EFStop5Desc": {
+        "oracleText": "Just in time to chase Rakdos off",
+        "translation": "Just in time to chase Rakdos off"
+    },
+    "PlayBlade/Filters/Dynamic/EFStop5Title": {
+        "oracleText": "Allies Arrived",
+        "translation": "Allies Arrived"
+    },
+    "PlayBlade/Filters/Dynamic/EFStop6Desc": {
+        "oracleText": "How cool was that!",
+        "translation": "How cool was that!"
+    },
+    "PlayBlade/Filters/Dynamic/EFStop6Title": {
+        "oracleText": "What an illusion!",
+        "translation": "What an illusion!"
+    },
+    "PlayBlade/Filters/Dynamic/EFStopFinalDesc": {
+        "oracleText": "What a day it's been, thanks for coming along, pardner.",
+        "translation": "What a day it's been, thanks for coming along, pardner."
+    },
+    "PlayBlade/Filters/Dynamic/EFStopFinalTitle": {
+        "oracleText": "The Dust Settles",
+        "translation": "The Dust Settles"
+    },
     "PlayBlade/Filters/Dynamic/KhansofTarkirEventFilterDescription": {
         "oracleText": "Khans of Tarkir Limited Format Events",
         "translation": "鞑契可汗限制赛赛事"
@@ -59547,6 +60275,14 @@
         "oracleText": "Throne of Eldraine Pre-order",
         "translation": "艾卓王权预购"
     },
+    "Xsolla/ACR_Cosmetics_Desc": {
+        "oracleText": "Assassin's Creed® Cosmetics: Includes 1 Avatar and 9 Sleeves",
+        "translation": "Assassin's Creed® Cosmetics: Includes 1 Avatar and 9 Sleeves"
+    },
+    "Xsolla/ACR_Lands_Desc": {
+        "oracleText": "Assassin's Creed® Lands: Includes 10 Full Art Basic Lands",
+        "translation": "Assassin's Creed® Lands: Includes 10 Full Art Basic Lands"
+    },
     "Xsolla/Bundle/Rotation2019_Desc": {
         "oracleText": "Contains:\n2x Guilds of Ravnica Packs\n2x Ravnica Allegiance Packs\n2x War of the Spark Packs\n2x Core Set 2020 Packs\n2x Throne of Eldraine Packs\n1000 Gems",
         "translation": "包含：\n2包烽会拉尼卡补充包\n2包效忠拉尼卡补充包\n2包火花之战补充包\n2包核心系列2020补充包\n2包艾卓王权补充包\n1000颗宝石"
@@ -59642,6 +60378,18 @@
     "Xsolla/Preorder_AFR_2_Description": {
         "oracleText": "Ellywick Play Pre-order: Adventures in the Forgotten Realms Set Mastery Pass, 3x Player Draft Token, 1x Sealed Token, 1x Ellywick Tumblestrum, Ellywick Tumblestrum Card Style, Ellywick Sleeve, Ebondeath Companion",
         "translation": "艾利薇游玩预购：<i>被遗忘国度战记</i>精研通行证，3x 真人轮抽门票，1x 现开门票，1x *艾利薇鼓琴*，*艾利薇鼓琴*卡牌样式，*艾利薇*牌套，黑檀死神宠物"
+    },
+    "Xsolla/Preorder_BLB_1_Desc": {
+        "oracleText": "Ral Pack Pre-order: 50 Bloomburrow Packs, 5 Golden Packs, 1 Ral, Crackling Wit Card, Ral, Crackling Wit Card Style, Ral, Crackling Wit Sleeve.",
+        "translation": "Ral Pack Pre-order: 50 Bloomburrow Packs, 5 Golden Packs, 1 Ral, Crackling Wit Card, Ral, Crackling Wit Card Style, Ral, Crackling Wit Sleeve."
+    },
+    "Xsolla/Preorder_BLB_2_Desc": {
+        "oracleText": "Mabel Play Pre-order: 2 Player Draft Tokens, 1 Sealed Token, 5 Play-In Points, 1 Mabel, Heir to Cragflame Card, Mabel, Heir to Cragflame Card Style, Mabel, Heir to Cragflame Sleeve, Mabel Companion.",
+        "translation": "Mabel Play Pre-order: 2 Player Draft Tokens, 1 Sealed Token, 5 Play-In Points, 1 Mabel, Heir to Cragflame Card, Mabel, Heir to Cragflame Card Style, Mabel, Heir to Cragflame Sleeve, Mabel Companion."
+    },
+    "Xsolla/Preorder_BLB_3_Desc": {
+        "oracleText": "Hugs Pass Pre-order: Bloomburrow Mastery Pass, 1 Hugs, Grisly Guardian Card, Hugs, Grisly Guardian Card Style, Hugs Sleeve.",
+        "translation": "Hugs Pass Pre-order: Bloomburrow Mastery Pass, 1 Hugs, Grisly Guardian Card, Hugs, Grisly Guardian Card Style, Hugs Sleeve."
     },
     "Xsolla/Preorder_BRO_1_AltDesc": {
         "oracleText": "Mishra Pack Pre-order: 50 Packs, 5 Golden Packs, 2 Cards, 2 Styles, 1 Sleeve",
