@@ -148,6 +148,11 @@ if __name__ == "__main__":
     with open('{0}/{1}'.format(Config.OUT_DIR, assetName), "wb") as f:
         f.write(assetEnv.file.save())
 
+    # remove unused entry
+    for rawKey in list(TSInfo.keys()):
+        if not RawData.__contains__(rawKey):
+            TSInfo.pop(rawKey)
+
     sortTS = collections.OrderedDict()
     sortChanges = collections.OrderedDict()
     for i in sorted(TSInfo):

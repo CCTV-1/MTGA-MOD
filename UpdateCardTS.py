@@ -108,7 +108,7 @@ if __name__ == "__main__":
                                  {'LocId': locId, 'Formatted': 1, 'KnownTitleId': 1, 'enUS': row['enUS'], 'jaJP': row['jaJP'], "phyrexian": ""})
 
         # remove pre-8ed card style
-        cardDBCursor.execute('UPDATE Cards SET AdditionalFrameDetails  = \'\' WHERE ExpansionCode = "BRR";')
+        # cardDBCursor.execute('UPDATE Cards SET AdditionalFrameDetails  = \'\' WHERE ExpansionCode = "BRR";')
 
         # patch the conflicting SubtypeTextId
         for oldKey, NewKey in SubtypeTextPatchRules.items():
@@ -123,6 +123,12 @@ if __name__ == "__main__":
         cardDBConnect.isolation_level = None
         cardDBCursor.execute('VACUUM')
         cardDBConnect.commit()
+
+    # remove unused entry
+    for rawKey in list(TSInfo.keys()):
+        intKey = int(rawKey)
+        if not RawData.__contains__(intKey):
+            TSInfo.pop(rawKey)
 
     sortTS = collections.OrderedDict()
     sortChanges = collections.OrderedDict()
