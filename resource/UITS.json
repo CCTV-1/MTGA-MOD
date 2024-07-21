@@ -103,6 +103,38 @@
         "oracleText": "For Mirrodin!",
         "translation": "秘罗万岁！"
     },
+    "AbilityHanger/AbilityWord/Gift_Card_Body": {
+        "oracleText": "You may promise an opponent a gift as you cast this spell. If you do, they draw a card before its other effects.",
+        "translation": "You may promise an opponent a gift as you cast this spell. If you do, they draw a card before its other effects."
+    },
+    "AbilityHanger/AbilityWord/Gift_Card_Title": {
+        "oracleText": "Gift a Card",
+        "translation": "Gift a Card"
+    },
+    "AbilityHanger/AbilityWord/Gift_Fish_Body": {
+        "oracleText": "You may promise an opponent a gift as you cast this spell. If you do, they create a tapped Fish token before its other effects.",
+        "translation": "You may promise an opponent a gift as you cast this spell. If you do, they create a tapped Fish token before its other effects."
+    },
+    "AbilityHanger/AbilityWord/Gift_Fish_Title": {
+        "oracleText": "Gift a Tapped Fish",
+        "translation": "Gift a Tapped Fish"
+    },
+    "AbilityHanger/AbilityWord/Gift_Food_Body": {
+        "oracleText": "You may promise an opponent a gift as you cast this spell. If you do, they create a Food token before its other effects.",
+        "translation": "You may promise an opponent a gift as you cast this spell. If you do, they create a Food token before its other effects."
+    },
+    "AbilityHanger/AbilityWord/Gift_Food_Title": {
+        "oracleText": "Gift a Food",
+        "translation": "Gift a Food"
+    },
+    "AbilityHanger/AbilityWord/Gift_Treasure_Body": {
+        "oracleText": "You may promise an opponent a gift as you cast this spell. If you do, they create a Treasure token before its other effects.",
+        "translation": "You may promise an opponent a gift as you cast this spell. If you do, they create a Treasure token before its other effects."
+    },
+    "AbilityHanger/AbilityWord/Gift_Treasure_Title": {
+        "oracleText": "Gift a Treasure",
+        "translation": "Gift a Treasure"
+    },
     "AbilityHanger/AbilityWord/InstantSorcerySpellsCast": {
         "oracleText": "Currently {spellsCast} instant/sorcery cards.",
         "translation": "当前是第{spellsCast}张瞬间／法术牌。"
@@ -134,6 +166,14 @@
     "AbilityHanger/AbilityWord/Magecraft_Title": {
         "oracleText": "Magecraft",
         "translation": "魔艺"
+    },
+    "AbilityHanger/AbilityWord/Offspring_Body": {
+        "oracleText": "You may pay an additional {abilityCost} as you cast this spell. If you do, when this creature enters, create a 1/1 copy of it.",
+        "translation": "You may pay an additional {abilityCost} as you cast this spell. If you do, when this creature enters, create a 1/1 copy of it."
+    },
+    "AbilityHanger/AbilityWord/Offspring_Title": {
+        "oracleText": "Offspring",
+        "translation": "Offspring"
     },
     "AbilityHanger/AbilityWord/OtherInstantSourcerySpellsCast": {
         "oracleText": "Currently {spellsCast} other instant/sorcery cards.",
@@ -1167,6 +1207,14 @@
         "oracleText": "An exerted creature won't untap during your next untap step.",
         "translation": "已耗竭的生物于你的下一个重置步骤中不能重置。"
     },
+    "AbilityHanger/Keyword/Expend_Four_Body": {
+        "oracleText": "You expend 4 as you spend your fourth total mana to cast spells during a turn.",
+        "translation": "You expend 4 as you spend your fourth total mana to cast spells during a turn."
+    },
+    "AbilityHanger/Keyword/Expend_Four_Title": {
+        "oracleText": "Expend 4",
+        "translation": "Expend 4"
+    },
     "AbilityHanger/Keyword/Exploit_Body": {
         "oracleText": "When this creature enters the battlefield, you may sacrifice a creature.",
         "translation": "当此生物进战场时，你可以牺牲一个生物。"
@@ -1230,6 +1278,14 @@
     "AbilityHanger/Keyword/Flying": {
         "oracleText": "A creature with flying can't be blocked except by creatures with flying or reach.",
         "translation": "具飞行异能的生物只能被具飞行或延势异能的生物阻挡。"
+    },
+    "AbilityHanger/Keyword/Forage_Body": {
+        "oracleText": "To forage, exile three cards from your graveyard or sacrifice a Food.",
+        "translation": "To forage, exile three cards from your graveyard or sacrifice a Food."
+    },
+    "AbilityHanger/Keyword/Forage_Title": {
+        "oracleText": "Forage",
+        "translation": "Forage"
     },
     "AbilityHanger/Keyword/Forestcycling_Body": {
         "oracleText": "{abilityCost}, Discard this card: Search your library for a Forest card, reveal it, put it into your hand, then shuffle.",
@@ -2088,7 +2144,7 @@
         "translation": "掏"
     },
     "AbilityHanger/Keyword/Shroud_Body": {
-        "oracleText": "A player or permanent with shroud can't be the target of spells of abilities.",
+        "oracleText": "A player or permanent with shroud can't be the target of spells or abilities.",
         "translation": "具有帷幕的牌手或永久物不能成为咒语或异能的目标。"
     },
     "AbilityHanger/Keyword/Siege_Body": {
@@ -3519,6 +3575,10 @@
         "oracleText": "{Date} Card Ban Announcement",
         "translation": "{Date}牌张禁用公告"
     },
+    "Batfolk/Correction": {
+        "oracleText": "Deploy an army of flying Bats and reap rewards for gaining or losing life during your turn. Mix in some good blockers and defensive spells to slow your opponent down while you attack in the air.",
+        "translation": "Deploy an army of flying Bats and reap rewards for gaining or losing life during your turn. Mix in some good blockers and defensive spells to slow your opponent down while you attack in the air."
+    },
     "BattlePass/Rewards/2Orb": {
         "oracleText": "2 Set Mastery Orbs",
         "translation": "2颗精研法珠"
@@ -3542,6 +3602,22 @@
     "BattlePass/Rewards/Avatar": {
         "oracleText": "{AvatarName} Avatar",
         "translation": "{AvatarName}头像"
+    },
+    "BattlePass/Rewards/BLB_Companion2_AndOrb": {
+        "oracleText": "1 Set Mastery Orb & Thistledown Sentinel Companion",
+        "translation": "1 Set Mastery Orb & Thistledown Sentinel Companion"
+    },
+    "BattlePass/Rewards/BLB_Companion3_AndOrb": {
+        "oracleText": "1 Set Mastery Orb & Bramblewarden Hero Companion",
+        "translation": "1 Set Mastery Orb & Bramblewarden Hero Companion"
+    },
+    "BattlePass/Rewards/BLB_Companion_Hover": {
+        "oracleText": "Bramblewarden Hero: Mastery Pass Level 40",
+        "translation": "Bramblewarden Hero: Mastery Pass Level 40"
+    },
+    "BattlePass/Rewards/BLB_Level1": {
+        "oracleText": "Hugs Avatar, Whiskervale Duelist Companion, and Otter Offspring Sleeve",
+        "translation": "Hugs Avatar, Whiskervale Duelist Companion, and Otter Offspring Sleeve"
     },
     "BattlePass/Rewards/BRO_Level1": {
         "oracleText": "Urzan Automaton Avatar, Common Urzan Soldier Companion, and The Brothers' War Sleeve",
@@ -3791,6 +3867,18 @@
         "oracleText": "Half Mastery Level",
         "translation": "半级精研通行证等级"
     },
+    "BattlePass/Rewards/ICR_BLB_M": {
+        "oracleText": "Bloomburrow Mythic Card Reward",
+        "translation": "Bloomburrow Mythic Card Reward"
+    },
+    "BattlePass/Rewards/ICR_BLB_M_Plural": {
+        "oracleText": "{number1} Bloomburrow Mythic Card Rewards",
+        "translation": "{number1} Bloomburrow Mythic Card Rewards"
+    },
+    "BattlePass/Rewards/ICR_BLB_U": {
+        "oracleText": "Bloomburrow Uncommon Card Reward",
+        "translation": "Bloomburrow Uncommon Card Reward"
+    },
     "BattlePass/Rewards/IKO_Level1": {
         "oracleText": "Lukka Avatar, Greatshark Sleeve, & Regal Cub",
         "translation": "卢卡头像、硕鲨牌套、& 威严幼兽"
@@ -3810,6 +3898,14 @@
     "BattlePass/Rewards/IKO_Pet5_And_Orb": {
         "oracleText": "2 Set Mastery Orbs & Skycat Cub",
         "translation": "2颗精研法珠 & 翔狮幼兽"
+    },
+    "BattlePass/Rewards/JumpIn_Token": {
+        "oracleText": "Jump In! Token",
+        "translation": "Jump In! Token"
+    },
+    "BattlePass/Rewards/JumpIn_TokenPlural": {
+        "oracleText": "{number1} Jump In! Tokens",
+        "translation": "{number1} Jump In! Tokens"
     },
     "BattlePass/Rewards/KHM_ExquisiteSleeve": {
         "oracleText": "Glory of Kaldheim Exquisite Sleeve",
@@ -4230,6 +4326,10 @@
     "BattlePass/Rewards/Orb_And_CardStyle": {
         "oracleText": "1 Set Mastery Orb & {cardName} Card Style",
         "translation": "1颗精研法珠 & {cardName} 卡牌样式"
+    },
+    "BattlePass/Rewards/Orb_And_CardStylePlural": {
+        "oracleText": "{number1} Set Mastery Orbs & {cardName} Card Style",
+        "translation": "{number1} Set Mastery Orbs & {cardName} Card Style"
     },
     "BattlePass/Rewards/Orb_And_Gems": {
         "oracleText": "1 Set Mastery Orb & {number1} Gems",
@@ -8763,6 +8863,26 @@
         "oracleText": "Zilortha, Strength Incarnate",
         "translation": "雄威化身兹罗塔"
     },
+    "Decks/StoreDecks/Wave1/Brawl_RWRaiyuu": {
+        "oracleText": "Foundation Deck: Brawl Raiyuu, Storm's Edge",
+        "translation": "Foundation Deck: Brawl Raiyuu, Storm's Edge"
+    },
+    "Decks/StoreDecks/Wave1/Brawl_RZada": {
+        "oracleText": "Starter Deck: Brawl Zada, Hedron Grinder",
+        "translation": "Starter Deck: Brawl Zada, Hedron Grinder"
+    },
+    "Decks/StoreDecks/Wave1/Brawl_WBEriette": {
+        "oracleText": "Foundation Deck: Brawl Eriette of the Charmed Apple",
+        "translation": "Foundation Deck: Brawl Eriette of the Charmed Apple"
+    },
+    "Decks/StoreDecks/Wave1/Standard_BantToxic": {
+        "oracleText": "Champion Deck: Standard Bant Toxic",
+        "translation": "Champion Deck: Standard Bant Toxic"
+    },
+    "Decks/StoreDecks/Wave1/Standard_RGDinos": {
+        "oracleText": "Foundation Deck: Standard Red-Green Dinosaurs",
+        "translation": "Foundation Deck: Standard Red-Green Dinosaurs"
+    },
     "Draft/Autopicking_Button": {
         "oracleText": "Return to Draft",
         "translation": "回到轮抽"
@@ -8983,6 +9103,10 @@
         "oracleText": "Morph",
         "translation": "变身"
     },
+    "DuelScene/Browsers/BrowserCardInfo_PayWith": {
+        "oracleText": "Pay With",
+        "translation": "Pay With"
+    },
     "DuelScene/Browsers/BrowserCardInfo_PlayAsTypeWith": {
         "oracleText": "Play as {type} With",
         "translation": "通过{type}使用"
@@ -9026,6 +9150,18 @@
     "DuelScene/Browsers/ChooseColorPair": {
         "oracleText": "Choose a card for each color pair.",
         "translation": "为每组双色色组各选择一张卡牌。"
+    },
+    "DuelScene/Browsers/ChooseMode_Header": {
+        "oracleText": "Choose Modes",
+        "translation": "Choose Modes"
+    },
+    "DuelScene/Browsers/ChooseMode_Subheader": {
+        "oracleText": "You may choose the same option more than once.",
+        "translation": "You may choose the same option more than once."
+    },
+    "DuelScene/Browsers/ChooseThree_Header": {
+        "oracleText": "Choose 3",
+        "translation": "Choose 3"
     },
     "DuelScene/Browsers/Choose_A_Dungeon": {
         "oracleText": "Choose a Dungeon",
@@ -9195,6 +9331,10 @@
         "oracleText": "First Main",
         "translation": "第一个行动阶段"
     },
+    "DuelScene/Browsers/Forage_Subheader": {
+        "oracleText": "Exile three cards or sacrifice a Food",
+        "translation": "Exile three cards or sacrifice a Food"
+    },
     "DuelScene/Browsers/Foretell_Special_Action_Body": {
         "oracleText": "During your turn, you may pay {o2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost {foretellCost}.",
         "translation": "在你的回合中，你可以支付{o2}并将这张牌从你手牌中面朝下放逐。在之后的回合中以预示费用{foretellCost}来施放他。"
@@ -9307,6 +9447,10 @@
         "oracleText": "Put three +1/+1 counters on {cardname}",
         "translation": "在{cardname}上放置三个+1/+1指示物"
     },
+    "DuelScene/Browsers/OrderRequest_Abilities": {
+        "oracleText": "Order Abilities",
+        "translation": "Order Abilities"
+    },
     "DuelScene/Browsers/OrderRequest_Bottom_Header": {
         "oracleText": "Order Cards",
         "translation": "排列牌张"
@@ -9334,6 +9478,10 @@
     "DuelScene/Browsers/OrderRequest_Generic_SubHeader": {
         "oracleText": "Drag cards to order them.",
         "translation": "拖动牌张以决定其顺序。"
+    },
+    "DuelScene/Browsers/OrderRequest_Spells": {
+        "oracleText": "Order Spells",
+        "translation": "Order Spells"
     },
     "DuelScene/Browsers/OrderRequest_Targets_Header": {
         "oracleText": "Order Targets",
@@ -9927,6 +10075,10 @@
         "oracleText": "Concede Match and Exit",
         "translation": "认输对局并退出"
     },
+    "DuelScene/ClientPrompt/GiftedCoilingRebirthTargetingLegendaryCard": {
+        "oracleText": "This creature is legendary. Do you want to promise a Gift anyway?",
+        "translation": "This creature is legendary. Do you want to promise a Gift anyway?"
+    },
     "DuelScene/ClientPrompt/GreConnectionError": {
         "oracleText": "Connection Error",
         "translation": "连接错误"
@@ -10067,10 +10219,6 @@
         "oracleText": "Transform {RecipientCardName}?",
         "translation": "转化{RecipientCardName}？"
     },
-    "DuelScene/ClientPrompt/Prompt_Transform": {
-        "oracleText": "Transform {CardName} into {BackFaceName}?",
-        "translation": "是否要将{CardName}转化为{BackFaceName}？"
-    },
     "DuelScene/ClientPrompt/Remaining_Selection_Prompt": {
         "oracleText": "({count} remaining)",
         "translation": "（还剩{count}个）"
@@ -10126,6 +10274,10 @@
     "DuelScene/ClientPrompt/Submit_N": {
         "oracleText": "Submit {submitCount}",
         "translation": "提交{submitCount}项"
+    },
+    "DuelScene/ClientPrompt/Submit_N_Rottenmouth_Viper": {
+        "oracleText": "Lose {lifeToLose} Life",
+        "translation": "Lose {lifeToLose} Life"
     },
     "DuelScene/ClientPrompt/Take_Action": {
         "oracleText": "Take Action",
@@ -12176,8 +12328,8 @@
         "translation": "完成火花段位。"
     },
     "EPP/Quests/Complete_Spark_Rank_Footer": {
-        "oracleText": "Rank up and upgrade your decks!",
-        "translation": "提升你的段位与套牌！"
+        "oracleText": "Win matches to reach higher ranks!",
+        "translation": "Win matches to reach higher ranks!"
     },
     "EPP/Quests/Complete_Sparky_Challenge_Description": {
         "oracleText": "Complete Sparky's Challenge",
@@ -12959,10 +13111,6 @@
         "oracleText": "You can earn ten new decks by completing it.",
         "translation": "你可以通过完成它来获得十个新套牌。"
     },
-    "EPP/Sparky/colorChallengeIntro_01": {
-        "oracleText": "You'll upgrade your decks by beating Color Challenges.",
-        "translation": "您将通过完成颜色挑战来升级你的套牌。"
-    },
     "EPP/Sparky/colorChallengeIntro_02": {
         "oracleText": "You're well on your way to being a great planeswalker.",
         "translation": "你正在成为一名伟大的鹏洛客。"
@@ -13062,6 +13210,62 @@
     "EPP/Sparky/removingbotxp_167": {
         "oracleText": "I always thought you were amazing, but now the whole multiverse will know.",
         "translation": "你在我心目中一直是颗耀眼明星，该让整个多重宇宙见识你的实力。"
+    },
+    "Emotes/BLB/Full/Caw": {
+        "oracleText": "Caw! Caw!",
+        "translation": "Caw! Caw!"
+    },
+    "Emotes/BLB/Full/Hiss": {
+        "oracleText": "Hissssssss!",
+        "translation": "Hissssssss!"
+    },
+    "Emotes/BLB/Full/Meow": {
+        "oracleText": "Meow!",
+        "translation": "Meow!"
+    },
+    "Emotes/BLB/Full/Rats": {
+        "oracleText": "Rats.",
+        "translation": "Rats."
+    },
+    "Emotes/BLB/Full/Ribbit": {
+        "oracleText": "Ribbit.",
+        "translation": "Ribbit."
+    },
+    "Emotes/BLB/Full/Squeak": {
+        "oracleText": "Squeak!",
+        "translation": "Squeak!"
+    },
+    "Emotes/BLB/Full/Woof": {
+        "oracleText": "Woof.",
+        "translation": "Woof."
+    },
+    "Emotes/BLB/Mini/Caw": {
+        "oracleText": "Caw! Caw!",
+        "translation": "Caw! Caw!"
+    },
+    "Emotes/BLB/Mini/Hiss": {
+        "oracleText": "Hissssssss!",
+        "translation": "Hissssssss!"
+    },
+    "Emotes/BLB/Mini/Meow": {
+        "oracleText": "Meow!",
+        "translation": "Meow!"
+    },
+    "Emotes/BLB/Mini/Rats": {
+        "oracleText": "Rats.",
+        "translation": "Rats."
+    },
+    "Emotes/BLB/Mini/Ribbit": {
+        "oracleText": "Ribbit.",
+        "translation": "Ribbit."
+    },
+    "Emotes/BLB/Mini/Squeak": {
+        "oracleText": "Squeak!",
+        "translation": "Squeak!"
+    },
+    "Emotes/BLB/Mini/Woof": {
+        "oracleText": "Woof.",
+        "translation": "Woof."
     },
     "Emotes/MH3/Full/GreetDeath": {
         "oracleText": "Greet death with sword in hand.",
@@ -15444,8 +15648,8 @@
         "translation": "This token denotes that you are eligible to receive a physical Modern Horizons 3 Play Booster Box"
     },
     "Events/ArenaDirect_OTJ_String": {
-        "oracleText": "This token denotes that you are eligible to receive 2 physical Outlaws of Thunder Junction Play Booster Boxes",
-        "translation": "This token denotes that you are eligible to receive 2 physical Outlaws of Thunder Junction Play Booster Boxes"
+        "oracleText": "This token denotes that you are eligible to receive 2 physical Outlaws of Thunder Junction Play Booster Boxes",
+        "translation": "This token denotes that you are eligible to receive 2 physical Outlaws of Thunder Junction Play Booster Boxes"
     },
     "Events/Banned_Cards_Tag_A": {
         "oracleText": "Standard Shakeup",
@@ -17463,6 +17667,10 @@
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i>Modern Horizons 3</i> Sealed with single-game matches. The Day 2 event will use two Traditional <i>Modern Horizons 3</i>  Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
         "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i>Modern Horizons 3</i> Sealed with single-game matches. The Day 2 event will use two Traditional <i>Modern Horizons 3</i>  Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
+    "Events/Event_Desc_ArenaOpen_Day1_Bo1_20240817": {
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i>Bloomburrow</i> Sealed with single-game matches. The Day 2 event will use two Traditional <i>Bloomburrow</i>  Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i>Bloomburrow</i> Sealed with single-game matches. The Day 2 event will use two Traditional <i>Bloomburrow</i>  Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
+    },
     "Events/Event_Desc_ArenaOpen_Day1_Bo1_Alt": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Standard with single-game matches. The Day 2 event will use Traditional Standard with best-of-three matches using sideboards. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>",
         "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Standard with single-game matches. The Day 2 event will use Traditional Standard with best-of-three matches using sideboards. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>"
@@ -17474,6 +17682,10 @@
     "Events/Event_Desc_ArenaOpen_Day1_Bo3": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional <i>Modern Horizons 3</i> Sealed with best-of-three matches using sideboards and individual timers. The Day 2 event will use two Traditional <i>Modern Horizons 3</i> Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
         "translation": "<size=150%><color=#e1a154>为现金奖励而战！</color></size>\n\n报名参加本第1天赛事并赢得全部4场胜利，即可获得第 2 天赛事参赛资格。（第2天赛事排名前列的优胜者将赢得现金奖励！）玩家可以任意多次参加第1天赛事，但即使他们多次通过第1天赛事获取了第2天赛事参赛资格，第2天赛事也仅能参加一次。\n\n本第1天赛事的赛制是<i>摩登新篇3</i>BO3传统现开，需使用备牌和个人计时器。第2天赛事是两轮<i>摩登新篇3</i>BO3传统轮抓，需使用备牌和个人计时器。点击<u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>此处</link></u>联系客户服务获取帮助。\n\n<b><color=red>必须年满18周岁才能参加。并非在所有地区/领地都可用。禁止地区无效。领取现金奖励需要创建或拥有现有的Wizards、DCI和i-Payout账户。请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>此处</link></u>了解完整详情。</color></b>"
+    },
+    "Events/Event_Desc_ArenaOpen_Day1_Bo3_20240817": {
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional <i>Bloomburrow</i> Sealed with best-of-three matches using sideboards and individual timers. The Day 2 event will use two Traditional <i>Bloomburrow</i> Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional <i>Bloomburrow</i> Sealed with best-of-three matches using sideboards and individual timers. The Day 2 event will use two Traditional <i>Bloomburrow</i> Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo3_Alt": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 match wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional Standard with best-of-three matches using sideboards. The Day 2 event will also be Traditional Standard with best-of-three matches using sideboards. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>",
@@ -17492,8 +17704,8 @@
         "translation": "<size=150%><color=#e1a154>Compete for monetary rewards playing MTG Arena!</size></color>\n\nThis second day of competition is open only to qualified players from Day 1. Players must join the Day 2 event between 6 a.m. PT/2 p.m. UTC and 8 a.m. PT/4 p.m. UTC.\n\nThe Day 2 format is Traditional Standard with best-of-three matches using sideboards. Players may only enter once, even if they have qualified multiple times. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftOne": {
-        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 12 p.m. PT. Winning all four matches will allow for a second loss in the second draft.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Modern Horizons 3</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>为现金奖励而战！\n\n玩家必须在太平洋时间上午6点至8点之间参加第一轮轮抓并在12点之前完成对局。赢得全部4场对局的玩家在第二轮轮抓中多一次负场容错。</size></color>\n\n<size=150%><color=#e1a154>玩家必须在太平洋时间下午12点至2点之间参加第二轮轮抓并在下午6点之前完成对局。</size></color>\n\n本第2天赛事仅对从第1天赛事获取入围资格的玩家开放。\n\n第2天赛事的赛制是<b>两轮</b><i>摩登新篇3</i>BO3传统轮抓，需使用备牌和个人计时器。玩家即使多次通过第1天赛事入围，也仅能参加一次。\n\n点击<u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>此处</link></u>联系客户服务获取帮助。\n\n<b><color=red>必须年满18周岁才能参加。并非在所有地区/领地都可用。禁止地区无效。领取现金奖励需要创建或拥有现有的Wizards、DCI和i-Payout账户。请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>此处</link></u>了解完整详情。</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 12 p.m. PT. Winning all four matches will allow for a second loss in the second draft.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Bloomburrow</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 12 p.m. PT. Winning all four matches will allow for a second loss in the second draft.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Bloomburrow</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftOne_KHM": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!\n\nPlayers must join the first draft between 6 a.m. PT - 8 a.m. PT and play their matches by 12 p.m. PT. Winning all four matches will allow for a second loss in the second draft.</size></color>\n\n<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Kaldheim</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
@@ -17504,16 +17716,16 @@
         "translation": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. </size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Dominaria United</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftTwoA": {
-        "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 4 wins in the first draft, this draft is double elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Modern Horizons 3</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>玩家必须在太平洋时间下午12点至2点之间参加第二轮轮抓并在下午6点之前完成对局。因你在第一轮轮抓中赢得4胜，故此轮轮抓为双败淘汰制。</size></color>\n\n本第2天赛事仅对从第1天赛事获取入围资格的玩家开放。\n\n第2天赛事的赛制是<b>两轮</b><i>摩登新篇3</i>BO3传统轮抓，需使用备牌和个人计时器。玩家即使多次通过第1天赛事入围，也仅能参加一次。\n\n点击<u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>此处</link></u>联系客户服务获取帮助。\n\n<b><color=red>必须年满18周岁才能参加。并非在所有地区/领地都可用。禁止地区无效。领取现金奖励需要创建或拥有现有的Wizards、DCI和i-Payout账户。请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>此处</link></u>了解完整详情。</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 4 wins in the first draft, this draft is double elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Bloomburrow</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 4 wins in the first draft, this draft is double elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Bloomburrow</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftTwoA_KHM": {
         "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 4 wins in the first draft, this draft is double elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Kaldheim</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
         "translation": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 4 wins in the first draft, this draft is double elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Kaldheim</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftTwoB": {
-        "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 3 wins in the first draft, this draft is single elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Modern Horizons 3</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>玩家必须在太平洋时间下午12点至2点之间参加第二轮轮抓并在下午6点之前完成对局。因你在第一轮轮抓中赢得3胜，故此轮轮抓为单败淘汰制。</size></color>\n\n本第2天赛事仅对从第1天赛事获取入围资格的玩家开放。\n\n第2天赛事的赛制是<b>两轮</b><i>摩登新篇3</i>BO3传统轮抓，需使用备牌和个人计时器。玩家即使多次通过第1天赛事入围，也仅能参加一次。\n\n点击<u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>此处</link></u>联系客户服务获取帮助。\n\n<b><color=red>必须年满18周岁才能参加。并非在所有地区/领地都可用。禁止地区无效。领取现金奖励需要创建或拥有现有的Wizards、DCI和i-Payout账户。请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>此处</link></u>了解完整详情。</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 3 wins in the first draft, this draft is single elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Bloomburrow</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 3 wins in the first draft, this draft is single elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Bloomburrow</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftTwoB_KHM": {
         "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 3 wins in the first draft, this draft is single elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Kaldheim</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
@@ -17538,6 +17750,18 @@
     "Events/Event_Desc_ArenaTeamEvent": {
         "oracleText": "Thank you for all your hard work!",
         "translation": "感谢你的努力！"
+    },
+    "Events/Event_Desc_BLB_Premier_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Birdfolk</b> Birds bring bonuses! Cast fliers who air-drop buffs on your non-flying creatures. Make sure to have a healthy balance of fliers and non-fliers so you always have a target. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Ratfolk</b> Slow down your opponent with strong blockers and creature removal. Fill up your graveyard to unlock your Rats' Threshold abilities, then use them to close out the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Lizardfolk</b> Start small and go big. This BR deck uses a variety of artifact synergies, including the infamous affinity, to summon powerhouses from Magic's past and future. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Raccoonfolk</b> Ramp up your mana early to cast big Raccoons that dominate the battlefield. Include a few extra cards with high mana values to help trigger the Expend ability, but not so many that you fall behind early in the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Rabbitfolk</b> Assemble as many Rabbits and Rabbit tokens as you can. Look for spells and effects that reward you for having lots of creatures in play or pump up your whole team in combat.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Batfolk</b> Deploy an army of flying Bats and reap rewards for gaining or losing life during your turn. Mix in some good blockers and defensive spells to slow your opponent down while you attack in the air.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Otterfolk </b> Otters love when you cast instant and sorcery spells and will reward you for doing so. Aim for fewer creatures and varied spells, especially ones that help you control the battlefield. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Squirrelfolk </b> Dominate the mid game with big creatures and creature removal spells. Look for ways to fill your graveyard and create Food to take advantage of the Squirrels' Forage mechanic. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Mousefolk</b> Mice always prefer to be on the attack, so include plenty of aggressive, low mana value creatures. Support them with Equipment and combat-enhancing spells and abilities to trigger the Valiant ability. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Frogfolk</b> Make use of creatures with abilities that trigger when they enter the battlefield. Many Frogs have ways of blinking creatures or returning them to your hand. With all that extra value, you'll be strong in the late game.",
+        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Birdfolk</b> Birds bring bonuses! Cast fliers who air-drop buffs on your non-flying creatures. Make sure to have a healthy balance of fliers and non-fliers so you always have a target. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Ratfolk</b> Slow down your opponent with strong blockers and creature removal. Fill up your graveyard to unlock your Rats' Threshold abilities, then use them to close out the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Lizardfolk</b> Start small and go big. This BR deck uses a variety of artifact synergies, including the infamous affinity, to summon powerhouses from Magic's past and future. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Raccoonfolk</b> Ramp up your mana early to cast big Raccoons that dominate the battlefield. Include a few extra cards with high mana values to help trigger the Expend ability, but not so many that you fall behind early in the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Rabbitfolk</b> Assemble as many Rabbits and Rabbit tokens as you can. Look for spells and effects that reward you for having lots of creatures in play or pump up your whole team in combat.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Batfolk</b> Deploy an army of flying Bats and reap rewards for gaining or losing life during your turn. Mix in some good blockers and defensive spells to slow your opponent down while you attack in the air.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Otterfolk </b> Otters love when you cast instant and sorcery spells and will reward you for doing so. Aim for fewer creatures and varied spells, especially ones that help you control the battlefield. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Squirrelfolk </b> Dominate the mid game with big creatures and creature removal spells. Look for ways to fill your graveyard and create Food to take advantage of the Squirrels' Forage mechanic. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Mousefolk</b> Mice always prefer to be on the attack, so include plenty of aggressive, low mana value creatures. Support them with Equipment and combat-enhancing spells and abilities to trigger the Valiant ability. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Frogfolk</b> Make use of creatures with abilities that trigger when they enter the battlefield. Many Frogs have ways of blinking creatures or returning them to your hand. With all that extra value, you'll be strong in the late game."
+    },
+    "Events/Event_Desc_BLB_Quick_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Birdfolk</b> Birds bring bonuses! Cast fliers who air-drop buffs on your non-flying creatures. Make sure to have a healthy balance of fliers and non-fliers so you always have a target. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Ratfolk</b> Slow down your opponent with strong blockers and creature removal. Fill up your graveyard to unlock your Rats' Threshold abilities, then use them to close out the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Lizardfolk</b> Start small and go big. This BR deck uses a variety of artifact synergies, including the infamous affinity, to summon powerhouses from Magic's past and future. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Raccoonfolk</b> Ramp up your mana early to cast big Raccoons that dominate the battlefield. Include a few extra cards with high mana values to help trigger the Expend ability, but not so many that you fall behind early in the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Rabbitfolk</b> Assemble as many Rabbits and Rabbit tokens as you can. Look for spells and effects that reward you for having lots of creatures in play or pump up your whole team in combat.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Batfolk</b> Deploy an army of flying Bats and reap rewards for gaining or losing life during your turn. Mix in some good blockers and defensive spells to slow your opponent down while you attack in the air.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Otterfolk </b> Otters love when you cast instant and sorcery spells and will reward you for doing so. Aim for fewer creatures and varied spells, especially ones that help you control the battlefield. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Squirrelfolk </b> Dominate the mid game with big creatures and creature removal spells. Look for ways to fill your graveyard and create Food to take advantage of the Squirrels' Forage mechanic. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Mousefolk</b> Mice always prefer to be on the attack, so include plenty of aggressive, low mana value creatures. Support them with Equipment and combat-enhancing spells and abilities to trigger the Valiant ability. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Frogfolk</b> Make use of creatures with abilities that trigger when they enter the battlefield. Many Frogs have ways of blinking creatures or returning them to your hand. With all that extra value, you'll be strong in the late game.",
+        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Birdfolk</b> Birds bring bonuses! Cast fliers who air-drop buffs on your non-flying creatures. Make sure to have a healthy balance of fliers and non-fliers so you always have a target. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Ratfolk</b> Slow down your opponent with strong blockers and creature removal. Fill up your graveyard to unlock your Rats' Threshold abilities, then use them to close out the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Lizardfolk</b> Start small and go big. This BR deck uses a variety of artifact synergies, including the infamous affinity, to summon powerhouses from Magic's past and future. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Raccoonfolk</b> Ramp up your mana early to cast big Raccoons that dominate the battlefield. Include a few extra cards with high mana values to help trigger the Expend ability, but not so many that you fall behind early in the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Rabbitfolk</b> Assemble as many Rabbits and Rabbit tokens as you can. Look for spells and effects that reward you for having lots of creatures in play or pump up your whole team in combat.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Batfolk</b> Deploy an army of flying Bats and reap rewards for gaining or losing life during your turn. Mix in some good blockers and defensive spells to slow your opponent down while you attack in the air.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Otterfolk </b> Otters love when you cast instant and sorcery spells and will reward you for doing so. Aim for fewer creatures and varied spells, especially ones that help you control the battlefield. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Squirrelfolk </b> Dominate the mid game with big creatures and creature removal spells. Look for ways to fill your graveyard and create Food to take advantage of the Squirrels' Forage mechanic. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Mousefolk</b> Mice always prefer to be on the attack, so include plenty of aggressive, low mana value creatures. Support them with Equipment and combat-enhancing spells and abilities to trigger the Valiant ability. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Frogfolk</b> Make use of creatures with abilities that trigger when they enter the battlefield. Many Frogs have ways of blinking creatures or returning them to your hand. With all that extra value, you'll be strong in the late game."
+    },
+    "Events/Event_Desc_BLB_Trad_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Birdfolk</b> Birds bring bonuses! Cast fliers who air-drop buffs on your non-flying creatures. Make sure to have a healthy balance of fliers and non-fliers so you always have a target. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Ratfolk</b> Slow down your opponent with strong blockers and creature removal. Fill up your graveyard to unlock your Rats' Threshold abilities, then use them to close out the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Lizardfolk</b> Start small and go big. This BR deck uses a variety of artifact synergies, including the infamous affinity, to summon powerhouses from Magic's past and future. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Raccoonfolk</b> Ramp up your mana early to cast big Raccoons that dominate the battlefield. Include a few extra cards with high mana values to help trigger the Expend ability, but not so many that you fall behind early in the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Rabbitfolk</b> Assemble as many Rabbits and Rabbit tokens as you can. Look for spells and effects that reward you for having lots of creatures in play or pump up your whole team in combat.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Batfolk</b> Deploy an army of flying Bats and reap rewards for gaining or losing life during your turn. Mix in some good blockers and defensive spells to slow your opponent down while you attack in the air.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Otterfolk </b> Otters love when you cast instant and sorcery spells and will reward you for doing so. Aim for fewer creatures and varied spells, especially ones that help you control the battlefield. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Squirrelfolk </b> Dominate the mid game with big creatures and creature removal spells. Look for ways to fill your graveyard and create Food to take advantage of the Squirrels' Forage mechanic. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Mousefolk</b> Mice always prefer to be on the attack, so include plenty of aggressive, low mana value creatures. Support them with Equipment and combat-enhancing spells and abilities to trigger the Valiant ability. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Frogfolk</b> Make use of creatures with abilities that trigger when they enter the battlefield. Many Frogs have ways of blinking creatures or returning them to your hand. With all that extra value, you'll be strong in the late game.",
+        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Birdfolk</b> Birds bring bonuses! Cast fliers who air-drop buffs on your non-flying creatures. Make sure to have a healthy balance of fliers and non-fliers so you always have a target. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Ratfolk</b> Slow down your opponent with strong blockers and creature removal. Fill up your graveyard to unlock your Rats' Threshold abilities, then use them to close out the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Lizardfolk</b> Start small and go big. This BR deck uses a variety of artifact synergies, including the infamous affinity, to summon powerhouses from Magic's past and future. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Raccoonfolk</b> Ramp up your mana early to cast big Raccoons that dominate the battlefield. Include a few extra cards with high mana values to help trigger the Expend ability, but not so many that you fall behind early in the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Rabbitfolk</b> Assemble as many Rabbits and Rabbit tokens as you can. Look for spells and effects that reward you for having lots of creatures in play or pump up your whole team in combat.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Batfolk</b> Deploy an army of flying Bats and reap rewards for gaining or losing life during your turn. Mix in some good blockers and defensive spells to slow your opponent down while you attack in the air.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Otterfolk </b> Otters love when you cast instant and sorcery spells and will reward you for doing so. Aim for fewer creatures and varied spells, especially ones that help you control the battlefield. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Squirrelfolk </b> Dominate the mid game with big creatures and creature removal spells. Look for ways to fill your graveyard and create Food to take advantage of the Squirrels' Forage mechanic. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Mousefolk</b> Mice always prefer to be on the attack, so include plenty of aggressive, low mana value creatures. Support them with Equipment and combat-enhancing spells and abilities to trigger the Valiant ability. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Frogfolk</b> Make use of creatures with abilities that trigger when they enter the battlefield. Many Frogs have ways of blinking creatures or returning them to your hand. With all that extra value, you'll be strong in the late game."
     },
     "Events/Event_Desc_BRO_Premier_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Soldiers</b> Gather your Soldiers and overwhelm your opponent on the ground and in the skies.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Draw Power</b> Draw a multitude of cards from your deck to keep the knowledge flowing and strengthen your creatures at the same time!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Artifact Sacrifice</b> Fuel the fight by sacrificing artifacts. Powerstones rev your engines and can later be sacrificed for more power! Don't forget artifacts with unearth can be sacrificed twice!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Mechanized Stompy</b> Use Powerstones to deploy your biggest threats quickly. Back them up with power-boosting spells to dominate every fight!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Artifacts Enter the Battlefield</b> Assemble your crew of creatures that are enhanced when artifacts enter the battlefield, then use Powerstones, Soldier tokens, and unearthed creatures to power up your attacks.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Scrappy Swarm</b> Deploy your army early, but don't be afraid to fill the graveyard. Creatures with mana value three or less offer more than you might expect, alive or dead.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Prowess Aggro</b> Round up a squad of inventors and wizards that can utilize cheap artifacts, instants, and sorcery spells to press their advantage.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Graveyard Counter</b> In an endless war, your creatures that rely on a populated graveyard will be pleased as their power increases well into the late game.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Unearth Aggro</b> Start your aggression early, and the second wave that comes back with Unearth may just be the last you need.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Powerstone Ramp</b> Accumulate Powerstones to help build your defenses, and soon no one will stand a chance against your colossal army of colossuses.",
@@ -18923,6 +19147,18 @@
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Artisan Brawl: Bring a 100-card Brawl deck using only commons, uncommons, and basic lands. What new ideas will you brew up in this unique format?\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
         "translation": "欢迎来到周中万智牌！每周尝试一个不同的方式来游玩万智牌竞技场！\n\n本周赛事是银铁争锋：只用普通、非凡和基本地构筑一套100张的争锋套牌。你会以这种独特的形式酝酿出什么新想法？\n\n更多关于本活动及即将到来的周中万智牌赛事信息，请查看<u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>这里</link></u>。"
     },
+    "Events/Event_Desc_MWM_BLBConstructed": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Bloomburrow</i> Constructed: Bring a 60-card deck with only cards from the most recent set and demonstrate your mastery of the new cards!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Bloomburrow</i> Constructed: Bring a 60-card deck with only cards from the most recent set and demonstrate your mastery of the new cards!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+    },
+    "Events/Event_Desc_MWM_BLB_GoldenSealed": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's enjoy this silly, chaotic experience by playing <i>Golden Booster Sealed </i> with twelve boosters. Add basic lands to make a 40-card deck, then play against other players as much as you want!\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's enjoy this silly, chaotic experience by playing <i>Golden Booster Sealed </i> with twelve boosters. Add basic lands to make a 40-card deck, then play against other players as much as you want!\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+    },
+    "Events/Event_Desc_MWM_BLB_Sealed": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Bloomburrow</i> Sealed: Open six packs and add basic lands to make a 40-card deck, then play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Bloomburrow</i> Sealed: Open six packs and add basic lands to make a 40-card deck, then play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+    },
     "Events/Event_Desc_MWM_BRO_BotDraft": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is The Brothers' War Bot Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
         "translation": "欢迎来到周中万智牌！每周尝试一个不同的方式来游玩万智牌竞技场！\n\n本周活动是兄弟之战快速轮抽: 从轮换的卡包中一次选择一张卡牌，与AI进行轮抽，无需等待，也无选牌时间限制。 添加基本地以组成 40 张牌的牌组，并随心所欲地与其他玩家对战。\n\n<b><color=\"red\">这是一个幻影活动。你所抓取的牌张不会添加到你的收藏当中。</color></b>\n\n了解有关本次魔术周中活动以及即将举行的周中万智牌活动的更多详细信息<u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
@@ -19251,6 +19487,10 @@
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is the Standard decks from this year's Worlds competitors! Choose a player and deck from among <i>Magic</i>'s best, then catch them in action during World Championship XXVII this Friday through Sunday! Find out everything you need to know <u><link=https://magic.wizards.com/mtga-mwm-worlds>right here</link></u>.\n\nYou can receive a code for a Midweek Magic Promo Pack containing two cosmetic items when you share your results with your local game store. Find out how <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.\n\n*Note: While supplies last. Not all stores are participating.",
         "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is the Standard decks from this year's Worlds competitors! Choose a player and deck from among <i>Magic</i>'s best, then catch them in action during World Championship XXVII this Friday through Sunday! Find out everything you need to know <u><link=https://magic.wizards.com/mtga-mwm-worlds>right here</link></u>.\n\nYou can receive a code for a Midweek Magic Promo Pack containing two cosmetic items when you share your results with your local game store. Find out how <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.\n\n*Note: While supplies last. Not all stores are participating."
     },
+    "Events/Event_Desc_MWM_YargleDay2024": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is GNSHAAGHKKAPPHRIIBITGNSHAAGHKKAPPHRIIBIT\n\n<i>When Belzenlok's lieutenant Yar-Kul grew too ambitious, the Demonlord transformed him into a maggot. The frog that ate the maggot grew and grew, until a ravenous spirit burst from its body. Today, we celebrate that spirit, everyone's pal, Yargle!</i>\n\nWhat?! Yargle has consumed Midweek Magic, turning it into an All Access Brawl Frog Free-For-All!! Choose any legendary frog (or Toad Rider) on Arena and build a Brawl deck without needing the cards! <i>And</i> Yargle's magic makes all of your frogs better than ever: they're cheaper to play and are hungry for power.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is GNSHAAGHKKAPPHRIIBITGNSHAAGHKKAPPHRIIBIT\n\n<i>When Belzenlok's lieutenant Yar-Kul grew too ambitious, the Demonlord transformed him into a maggot. The frog that ate the maggot grew and grew, until a ravenous spirit burst from its body. Today, we celebrate that spirit, everyone's pal, Yargle!</i>\n\nWhat?! Yargle has consumed Midweek Magic, turning it into an All Access Brawl Frog Free-For-All!! Choose any legendary frog (or Toad Rider) on Arena and build a Brawl deck without needing the cards! <i>And</i> Yargle's magic makes all of your frogs better than ever: they're cheaper to play and are hungry for power.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+    },
     "Events/Event_Desc_MadScience_VOW": {
         "oracleText": "<i>This was never the plan. The machine was intended to capture energy from spellcasting so it could be reused, put to better purpose. Creating zombies bent to your will was not the purpose you had in mind - but then again, who's to say it's not a better one after all? Think of the good you could do, the recognition you could earn, the doubters who who would finally eat those words...or be eaten, if necessary...</i>\n\nIn this event, your Alchemy deck will let you show them all! When you cast an instant or sorcery, you will create a Zombie Army token based on its mana value. The more spells you cast, the larger your creation will grow, until your legion covers the countryside! When your mad rampage comes to an end, you'll receive Eternal Night card styles from <i>Innistrad: Crimson Vow</i>. There are 12 styles to collect!\n\nFor more details on this format, including a full list of card styles your experiments can uncover, click <u><link=https://magic.wizards.com/mtga-vow-mad-science>here</link></u>.",
         "translation": "<i>This was never the plan. The machine was intended to capture energy from spellcasting so it could be reused, put to better purpose. Creating zombies bent to your will was not the purpose you had in mind - but then again, who's to say it's not a better one after all? Think of the good you could do, the recognition you could earn, the doubters who who would finally eat those words...or be eaten, if necessary...</i>\n\nIn this event, your Alchemy deck will let you show them all! When you cast an instant or sorcery, you will create a Zombie Army token based on its mana value. The more spells you cast, the larger your creation will grow, until your legion covers the countryside! When your mad rampage comes to an end, you'll receive Eternal Night card styles from <i>Innistrad: Crimson Vow</i>. There are 12 styles to collect!\n\nFor more details on this format, including a full list of card styles your experiments can uncover, click <u><link=https://magic.wizards.com/mtga-vow-mad-science>here</link></u>."
@@ -19463,6 +19703,10 @@
         "oracleText": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom <i>Modern Horizons 3</i> Sealed with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>\n\n<b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.</color></b>",
         "translation": "本月的资格赛周末即将来临！如果你还未获得资格，在本入围赛事中赢取6胜来获得你的资格赛周末席位。\n\n本入围赛事的赛制是<i>摩登新篇3</i>BO1幻影现开，需使用个人计时器。如果你能赢取6胜，一定记得下周回来参加资格赛周末！\n\n<size=100%><b><color=\"red\">必须年满18岁才能参加。并非在所有地区/领地都可用。禁止地区无效。附加条款和条件适用。请参阅<u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>此处</link></u>了解完整详情。</color></b></size>\n\n<b><color=\"red\">这是一场幻影赛事。卡池中的卡牌不会加入你的收藏。</color></b>"
     },
+    "Events/Event_Desc_QualifierPlayIn_Bo1_20240803": {
+        "oracleText": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom <i>Bloomburrow</i> Sealed with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>\n\n<b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.</color></b>",
+        "translation": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom <i>Bloomburrow</i> Sealed with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>\n\n<b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.</color></b>"
+    },
     "Events/Event_Desc_QualifierPlayIn_Bo1_Alchemy": {
         "oracleText": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Alchemy with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
         "translation": "本月的资格赛周末即将来临！如果你还未获得资格，在本入围赛事中赢取6胜来获得你的资格赛周末席位。\n\n本入围赛事的赛制是BO1炼金构筑，需使用个人计时器。如果你能赢取6胜，一定记得下周回来参加资格赛周末！\n\n<size=100%><b><color=\"red\">必须年满18岁才能参加。并非在所有地区/领地都可用。禁止地区无效。附加条款和条件适用。请参阅<u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>此处</link></u>了解完整详情。</color></b></size>"
@@ -19483,6 +19727,10 @@
         "oracleText": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Standard with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
         "translation": "本月的资格赛周末即将来临！如果你还未获得资格，在本入围赛事中赢取6胜来获得你的资格赛周末席位。\n\n本入围赛事的赛制是BO1标准构筑，需使用个人计时器。如果你能赢取6胜，一定记得下周回来参加资格赛周末！\n\n<size=100%><b><color=\"red\">必须年满18岁才能参加。并非在所有地区/领地都可用。禁止地区无效。附加条款和条件适用。请参阅<u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>此处</link></u>了解完整详情。</color></b></size>"
     },
+    "Events/Event_Desc_QualifierPlayIn_Bo1_Timeless": {
+        "oracleText": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Timeless with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
+        "translation": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Timeless with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>"
+    },
     "Events/Event_Desc_QualifierPlayIn_Bo3": {
         "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom Traditional <i>Murders at Karlov Manor</i> Sealed with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>\n\n<b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.</color></b>",
         "translation": "本月的资格赛周末即将来临！如果你还未获得资格，在本入围赛事中赢取4胜来获得你的资格赛周末席位。\n\n本入围赛事的赛制是<i>卡洛夫庄园谋杀案</i>BO3幻影现开，需使用备牌和个人计时器。如果你能赢取4胜，一定记得明天回来参加资格赛周末！\n\n<size=100%><b><color=\"red\">必须年满18岁才能参加。并非在所有地区/领地都可用。禁止地区无效。附加条款和条件适用。请参阅<u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>此处</link></u>了解完整详情。</color></b></size>\n\n<b><color=\"red\">是一场幻影赛事。卡牌不会加入到你的收藏中。</color></b>"
@@ -19502,6 +19750,10 @@
     "Events/Event_Desc_QualifierPlayIn_Bo3_20240510": {
         "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom Traditional <i>Outlaws of Thunder Junction</i> Sealed with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>\n\n<b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.</color></b>",
         "translation": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom Traditional <i>Outlaws of Thunder Junction</i> Sealed with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>\n\n<b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.</color></b>"
+    },
+    "Events/Event_Desc_QualifierPlayIn_Bo3_20240809": {
+        "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom Traditional <i>Bloomburrow</i> Sealed with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>\n\n<b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.</color></b>",
+        "translation": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom Traditional <i>Bloomburrow</i> Sealed with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>\n\n<b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.</color></b>"
     },
     "Events/Event_Desc_QualifierPlayIn_Bo3_Alchemy": {
         "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Alchemy with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
@@ -19670,6 +19922,10 @@
     "Events/Event_Desc_Sealed_AKR": {
         "oracleText": "You'll receive 6 fifteen-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!",
         "translation": "你将得到6包15张牌的补充包。补充包内的牌张都会加入你的收藏，而你将利用这些牌外加基本地来构筑一副40张的套牌进行游戏。不断进行对战，最后根据你的胜场数量赢得奖励！"
+    },
+    "Events/Event_Desc_Sealed_BLB": {
+        "oracleText": "You'll receive 6 <i>Bloomburrow</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Birdfolk</b> Birds bring bonuses! Cast fliers who air-drop buffs on your non-flying creatures. Make sure to have a healthy balance of fliers and non-fliers so you always have a target. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Ratfolk</b> Slow down your opponent with strong blockers and creature removal. Fill up your graveyard to unlock your Rats' Threshold abilities, then use them to close out the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Lizardfolk</b> Start small and go big. This BR deck uses a variety of artifact synergies, including the infamous affinity, to summon powerhouses from Magic's past and future. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Raccoonfolk</b> Ramp up your mana early to cast big Raccoons that dominate the battlefield. Include a few extra cards with high mana values to help trigger the Expend ability, but not so many that you fall behind early in the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Rabbitfolk</b> Assemble as many Rabbits and Rabbit tokens as you can. Look for spells and effects that reward you for having lots of creatures in play or pump up your whole team in combat.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Batfolk</b> Deploy an army of flying Bats and reap rewards for gaining or losing life during your turn. Mix in some good blockers and defensive spells to slow your opponent down while you attack in the air.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Otterfolk </b> Otters love when you cast instant and sorcery spells and will reward you for doing so. Aim for fewer creatures and varied spells, especially ones that help you control the battlefield. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Squirrelfolk </b> Dominate the mid game with big creatures and creature removal spells. Look for ways to fill your graveyard and create Food to take advantage of the Squirrels' Forage mechanic. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Mousefolk</b> Mice always prefer to be on the attack, so include plenty of aggressive, low mana value creatures. Support them with Equipment and combat-enhancing spells and abilities to trigger the Valiant ability. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Frogfolk</b> Make use of creatures with abilities that trigger when they enter the battlefield. Many Frogs have ways of blinking creatures or returning them to your hand. With all that extra value, you'll be strong in the late game.",
+        "translation": "You'll receive 6 <i>Bloomburrow</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Birdfolk</b> Birds bring bonuses! Cast fliers who air-drop buffs on your non-flying creatures. Make sure to have a healthy balance of fliers and non-fliers so you always have a target. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Ratfolk</b> Slow down your opponent with strong blockers and creature removal. Fill up your graveyard to unlock your Rats' Threshold abilities, then use them to close out the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Lizardfolk</b> Start small and go big. This BR deck uses a variety of artifact synergies, including the infamous affinity, to summon powerhouses from Magic's past and future. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Raccoonfolk</b> Ramp up your mana early to cast big Raccoons that dominate the battlefield. Include a few extra cards with high mana values to help trigger the Expend ability, but not so many that you fall behind early in the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Rabbitfolk</b> Assemble as many Rabbits and Rabbit tokens as you can. Look for spells and effects that reward you for having lots of creatures in play or pump up your whole team in combat.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Batfolk</b> Deploy an army of flying Bats and reap rewards for gaining or losing life during your turn. Mix in some good blockers and defensive spells to slow your opponent down while you attack in the air.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Otterfolk </b> Otters love when you cast instant and sorcery spells and will reward you for doing so. Aim for fewer creatures and varied spells, especially ones that help you control the battlefield. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Squirrelfolk </b> Dominate the mid game with big creatures and creature removal spells. Look for ways to fill your graveyard and create Food to take advantage of the Squirrels' Forage mechanic. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Mousefolk</b> Mice always prefer to be on the attack, so include plenty of aggressive, low mana value creatures. Support them with Equipment and combat-enhancing spells and abilities to trigger the Valiant ability. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Frogfolk</b> Make use of creatures with abilities that trigger when they enter the battlefield. Many Frogs have ways of blinking creatures or returning them to your hand. With all that extra value, you'll be strong in the late game."
     },
     "Events/Event_Desc_Sealed_BRO": {
         "oracleText": "You'll receive 6 <i>The Brothers' War</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Soldiers</b> Gather your Soldiers and overwhelm your opponent on the ground and in the skies.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Draw Power</b> Draw a multitude of cards from your deck to keep the knowledge flowing and strengthen your creatures at the same time!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Artifact Sacrifice</b> Fuel the fight by sacrificing artifacts. Powerstones rev your engines and can later be sacrificed for more power! Don't forget artifacts with unearth can be sacrificed twice!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Mechanized Stompy</b> Use Powerstones to deploy your biggest threats quickly. Back them up with power-boosting spells to dominate every fight!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Artifacts Enter the Battlefield</b> Assemble your crew of creatures that are enhanced when artifacts enter the battlefield, then use Powerstones, Soldier tokens, and unearthed creatures to power up your attacks.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Scrappy Swarm</b> Deploy your army early, but don't be afraid to fill the graveyard. Creatures with mana value three or less offer more than you might expect, alive or dead.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Prowess Aggro</b> Round up a squad of inventors and wizards that can utilize cheap artifacts, instants, and sorcery spells to press their advantage.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Graveyard Counter</b> In an endless war, your creatures that rely on a populated graveyard will be pleased as their power increases well into the late game.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Unearth Aggro</b> Start your aggression early, and the second wave that comes back with Unearth may just be the last you need.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Powerstone Ramp</b> Accumulate Powerstones to help build your defenses, and soon no one will stand a chance against your colossal army of colossuses.",
@@ -19938,6 +20194,10 @@
     "Events/Event_Desc_Trad_Sealed_AFR": {
         "oracleText": "You'll receive 6 fourteen-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!",
         "translation": "你将获得6个14张的补充包。 这些牌会加入你的收藏。 你将使用这些牌加上基本地来构筑40张的套牌进行bo3对战。 你将得到的奖励取决于你的胜场!"
+    },
+    "Events/Event_Desc_Trad_Sealed_BLB": {
+        "oracleText": "You'll receive 6 <i>Bloomburrow</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Birdfolk</b> Birds bring bonuses! Cast fliers who air-drop buffs on your non-flying creatures. Make sure to have a healthy balance of fliers and non-fliers so you always have a target. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Ratfolk</b> Slow down your opponent with strong blockers and creature removal. Fill up your graveyard to unlock your Rats' Threshold abilities, then use them to close out the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Lizardfolk</b> Start small and go big. This BR deck uses a variety of artifact synergies, including the infamous affinity, to summon powerhouses from Magic's past and future. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Raccoonfolk</b> Ramp up your mana early to cast big Raccoons that dominate the battlefield. Include a few extra cards with high mana values to help trigger the Expend ability, but not so many that you fall behind early in the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Rabbitfolk</b> Assemble as many Rabbits and Rabbit tokens as you can. Look for spells and effects that reward you for having lots of creatures in play or pump up your whole team in combat.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Batfolk</b> Deploy an army of flying Bats and reap rewards for gaining or losing life during your turn. Mix in some good blockers and defensive spells to slow your opponent down while you attack in the air.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Otterfolk </b> Otters love when you cast instant and sorcery spells and will reward you for doing so. Aim for fewer creatures and varied spells, especially ones that help you control the battlefield. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Squirrelfolk </b> Dominate the mid game with big creatures and creature removal spells. Look for ways to fill your graveyard and create Food to take advantage of the Squirrels' Forage mechanic. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Mousefolk</b> Mice always prefer to be on the attack, so include plenty of aggressive, low mana value creatures. Support them with Equipment and combat-enhancing spells and abilities to trigger the Valiant ability. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Frogfolk</b> Make use of creatures with abilities that trigger when they enter the battlefield. Many Frogs have ways of blinking creatures or returning them to your hand. With all that extra value, you'll be strong in the late game.",
+        "translation": "You'll receive 6 <i>Bloomburrow</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Birdfolk</b> Birds bring bonuses! Cast fliers who air-drop buffs on your non-flying creatures. Make sure to have a healthy balance of fliers and non-fliers so you always have a target. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Ratfolk</b> Slow down your opponent with strong blockers and creature removal. Fill up your graveyard to unlock your Rats' Threshold abilities, then use them to close out the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Lizardfolk</b> Start small and go big. This BR deck uses a variety of artifact synergies, including the infamous affinity, to summon powerhouses from Magic's past and future. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Raccoonfolk</b> Ramp up your mana early to cast big Raccoons that dominate the battlefield. Include a few extra cards with high mana values to help trigger the Expend ability, but not so many that you fall behind early in the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Rabbitfolk</b> Assemble as many Rabbits and Rabbit tokens as you can. Look for spells and effects that reward you for having lots of creatures in play or pump up your whole team in combat.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Batfolk</b> Deploy an army of flying Bats and reap rewards for gaining or losing life during your turn. Mix in some good blockers and defensive spells to slow your opponent down while you attack in the air.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Otterfolk </b> Otters love when you cast instant and sorcery spells and will reward you for doing so. Aim for fewer creatures and varied spells, especially ones that help you control the battlefield. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Squirrelfolk </b> Dominate the mid game with big creatures and creature removal spells. Look for ways to fill your graveyard and create Food to take advantage of the Squirrels' Forage mechanic. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Mousefolk</b> Mice always prefer to be on the attack, so include plenty of aggressive, low mana value creatures. Support them with Equipment and combat-enhancing spells and abilities to trigger the Valiant ability. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Frogfolk</b> Make use of creatures with abilities that trigger when they enter the battlefield. Many Frogs have ways of blinking creatures or returning them to your hand. With all that extra value, you'll be strong in the late game."
     },
     "Events/Event_Desc_Trad_Sealed_BRO": {
         "oracleText": "You'll receive 6 <i>The Brothers' War</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Soldiers</b> Gather your Soldiers and overwhelm your opponent on the ground and in the skies.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Draw Power</b> Draw a multitude of cards from your deck to keep the knowledge flowing and strengthen your creatures at the same time!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Artifact Sacrifice</b> Fuel the fight by sacrificing artifacts. Powerstones rev your engines and can later be sacrificed for more power! Don't forget artifacts with unearth can be sacrificed twice!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Mechanized Stompy</b> Use Powerstones to deploy your biggest threats quickly. Back them up with power-boosting spells to dominate every fight!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Artifacts Enter the Battlefield</b> Assemble your crew of creatures that are enhanced when artifacts enter the battlefield, then use Powerstones, Soldier tokens, and unearthed creatures to power up your attacks.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Scrappy Swarm</b> Deploy your army early, but don't be afraid to fill the graveyard. Creatures with mana value three or less offer more than you might expect, alive or dead.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Prowess Aggro</b> Round up a squad of inventors and wizards that can utilize cheap artifacts, instants, and sorcery spells to press their advantage.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Graveyard Counter</b> In an endless war, your creatures that rely on a populated graveyard will be pleased as their power increases well into the late game.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Unearth Aggro</b> Start your aggression early, and the second wave that comes back with Unearth may just be the last you need.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Powerstone Ramp</b> Accumulate Powerstones to help build your defenses, and soon no one will stand a chance against your colossal army of colossuses.",
@@ -20594,6 +20854,18 @@
     "Events/Event_Title_ArenaTeamEvent": {
         "oracleText": "Arena Team Release Day",
         "translation": "MTGA团队发布日"
+    },
+    "Events/Event_Title_BLB_Premier_Draft": {
+        "oracleText": "Premier Draft Bloomburrow",
+        "translation": "Premier Draft Bloomburrow"
+    },
+    "Events/Event_Title_BLB_Quick_Draft": {
+        "oracleText": "Quick Draft Bloomburrow",
+        "translation": "Quick Draft Bloomburrow"
+    },
+    "Events/Event_Title_BLB_Trad_Draft": {
+        "oracleText": "Traditional Draft Bloomburrow",
+        "translation": "Traditional Draft Bloomburrow"
     },
     "Events/Event_Title_BRO_Premier_Draft": {
         "oracleText": "Premier Draft The Brothers' War",
@@ -22047,6 +22319,10 @@
         "oracleText": "Midweek Magic: Artisan Brawl",
         "translation": "周中万智牌：银铁争锋"
     },
+    "Events/Event_Title_MWM_BLBConstructed": {
+        "oracleText": "Midweek Magic: Bloomburrow Constructed",
+        "translation": "Midweek Magic: Bloomburrow Constructed"
+    },
     "Events/Event_Title_MWM_BRO_BotDraft": {
         "oracleText": "Midweek Magic: Phantom Bot Draft",
         "translation": "周中万智牌：幻影人机轮抽"
@@ -22142,6 +22418,10 @@
     "Events/Event_Title_MWM_GladiatorPrecons": {
         "oracleText": "Midweek Magic: Gladiator Community Spotlight",
         "translation": "周中万智牌：角斗士社区焦点"
+    },
+    "Events/Event_Title_MWM_GoldenSealed": {
+        "oracleText": "Midweek Magic: Phantom Golden Sealed",
+        "translation": "Midweek Magic: Phantom Golden Sealed"
     },
     "Events/Event_Title_MWM_HBG_BotDraft": {
         "oracleText": "Midweek Magic: Phantom Bot Draft",
@@ -22370,6 +22650,10 @@
     "Events/Event_Title_MWM_WorldsShowcase": {
         "oracleText": "Midweek Magic: Worlds Showcase",
         "translation": "周中万智牌：世界展览"
+    },
+    "Events/Event_Title_MWM_YargleDay2024": {
+        "oracleText": "Midweek Magic: GNSHAAGHKKAPPHRIIBIT",
+        "translation": "Midweek Magic: GNSHAAGHKKAPPHRIIBIT"
     },
     "Events/Event_Title_MadScience_VOW": {
         "oracleText": "Mad Science",
@@ -22755,6 +23039,10 @@
         "oracleText": "Sealed Amonkhet Remastered",
         "translation": "阿芒凯重铸现开"
     },
+    "Events/Event_Title_Sealed_BLB": {
+        "oracleText": "Sealed Bloomburrow",
+        "translation": "Sealed Bloomburrow"
+    },
     "Events/Event_Title_Sealed_BRO": {
         "oracleText": "Sealed The Brothers' War",
         "translation": "兄弟之战现开"
@@ -23079,6 +23367,10 @@
         "oracleText": "Traditional Sealed Forgotten Realms",
         "translation": "被遗忘国度三盘现开"
     },
+    "Events/Event_Title_Trad_Sealed_BLB": {
+        "oracleText": "Traditional Sealed Bloomburrow",
+        "translation": "Traditional Sealed Bloomburrow"
+    },
     "Events/Event_Title_Trad_Sealed_BRO": {
         "oracleText": "Traditional Sealed The Brothers' War",
         "translation": "兄弟之战三盘现开"
@@ -23308,10 +23600,6 @@
         "translation": "工坊：依克黎的英雄"
     },
     "Events/Event_Title_Workshop_Draft_THB": {
-        "oracleText": "Workshop: Heroes of Theros",
-        "translation": "工坊：塞洛斯的英雄"
-    },
-    "Events/Event_Title_Workshop_Draft_THB\t": {
         "oracleText": "Workshop: Heroes of Theros",
         "translation": "工坊：塞洛斯的英雄"
     },
@@ -24010,6 +24298,46 @@
     "Events/Packets/SJMP_PacketName_Armory": {
         "oracleText": "Armory",
         "translation": "军械库(Armory)"
+    },
+    "Events/Packets/SJMP_PacketName_BLB_Bats": {
+        "oracleText": "Bats",
+        "translation": "Bats"
+    },
+    "Events/Packets/SJMP_PacketName_BLB_Exploring": {
+        "oracleText": "Exploring",
+        "translation": "Exploring"
+    },
+    "Events/Packets/SJMP_PacketName_BLB_Frogs": {
+        "oracleText": "Frogs",
+        "translation": "Frogs"
+    },
+    "Events/Packets/SJMP_PacketName_BLB_Lizards": {
+        "oracleText": "Lizards",
+        "translation": "Lizards"
+    },
+    "Events/Packets/SJMP_PacketName_BLB_Mice": {
+        "oracleText": "Mice",
+        "translation": "Mice"
+    },
+    "Events/Packets/SJMP_PacketName_BLB_Otters": {
+        "oracleText": "Otters",
+        "translation": "Otters"
+    },
+    "Events/Packets/SJMP_PacketName_BLB_Rabbits": {
+        "oracleText": "Rabbits",
+        "translation": "Rabbits"
+    },
+    "Events/Packets/SJMP_PacketName_BLB_Rats": {
+        "oracleText": "Rats",
+        "translation": "Rats"
+    },
+    "Events/Packets/SJMP_PacketName_BLB_Squirrels": {
+        "oracleText": "Squirrels",
+        "translation": "Squirrels"
+    },
+    "Events/Packets/SJMP_PacketName_BLB_Threshold": {
+        "oracleText": "Threshold",
+        "translation": "Threshold"
     },
     "Events/Packets/SJMP_PacketName_BR_Sacrifice": {
         "oracleText": "Sacrifice",
@@ -25147,6 +25475,18 @@
         "oracleText": "Join between 6am and 8am Pacific on June 15",
         "translation": "在太平洋时间的6月15日早上六点到八点加入"
     },
+    "Events/Tokens/QualifierDay1TokenDescription20240810": {
+        "oracleText": "Join between 6am and 8am Pacific on August 10",
+        "translation": "Join between 6am and 8am Pacific on August 10"
+    },
+    "Events/Tokens/QualifierDay1TokenDescription20240914": {
+        "oracleText": "Join between 6am and 8am Pacific on September 14",
+        "translation": "Join between 6am and 8am Pacific on September 14"
+    },
+    "Events/Tokens/QualifierDay1TokenDescription20241019": {
+        "oracleText": "Join between 6am and 8am Pacific on October 19",
+        "translation": "Join between 6am and 8am Pacific on October 19"
+    },
     "Events/Tokens/QualifierDay1TokenPlural": {
         "oracleText": "Qualifier Weekend Token",
         "translation": "资格赛周末门票"
@@ -25238,6 +25578,18 @@
     "Events/Tokens/QualifierDay2TokenDescription20240714": {
         "oracleText": "Join between 6am and 8am Pacific on July 14",
         "translation": "在太平洋时间7月14日的早上六点到八点加入"
+    },
+    "Events/Tokens/QualifierDay2TokenDescription20240811": {
+        "oracleText": "Join between 6am and 8am Pacific on August 11",
+        "translation": "Join between 6am and 8am Pacific on August 11"
+    },
+    "Events/Tokens/QualifierDay2TokenDescription20240915": {
+        "oracleText": "Join between 6am and 8am Pacific on September 15",
+        "translation": "Join between 6am and 8am Pacific on September 15"
+    },
+    "Events/Tokens/QualifierDay2TokenDescription20241020": {
+        "oracleText": "Join between 6am and 8am Pacific on October 20",
+        "translation": "Join between 6am and 8am Pacific on October 20"
     },
     "Events/Tokens/QualifierDay2TokenPlural": {
         "oracleText": "Qualifier Day 2",
@@ -25546,6 +25898,10 @@
     "General/Sets/BIG": {
         "oracleText": "The Big Score",
         "translation": "满载而归"
+    },
+    "General/Sets/BLB": {
+        "oracleText": "Bloomburrow",
+        "translation": "Bloomburrow"
     },
     "General/Sets/BRO": {
         "oracleText": "The Brothers' War",
@@ -26455,6 +26811,10 @@
         "oracleText": "Dungeons & Dragons: Adventures in the Forgotten Realms",
         "translation": "龙与地下城：被遗忘国度战记"
     },
+    "MainNav/BattlePass/BattlePass_BLB": {
+        "oracleText": "Bloomburrow",
+        "translation": "Bloomburrow"
+    },
     "MainNav/BattlePass/BattlePass_BRO": {
         "oracleText": "The Brothers' War",
         "translation": "兄弟之战"
@@ -26502,10 +26862,6 @@
     "MainNav/BattlePass/BattlePass_LTR": {
         "oracleText": "The Lord of the Rings: Tales of Middle-earth",
         "translation": "魔戒：中洲传说"
-    },
-    "MainNav/BattlePass/BattlePass_LTR_Alt": {
-        "oracleText": "Lord of the Rings Mastery",
-        "translation": "魔戒精研通行证"
     },
     "MainNav/BattlePass/BattlePass_M20": {
         "oracleText": "Core Set",
@@ -26819,6 +27175,10 @@
         "oracleText": "(Mastery ends in {minutes} minutes)",
         "translation": "（精研通行证将于{minutes}分钟后结束）"
     },
+    "MainNav/BattlePass/MasteryListingTitle_BLB": {
+        "oracleText": "Bloomburrow Set Mastery",
+        "translation": "Bloomburrow Set Mastery"
+    },
     "MainNav/BattlePass/MasteryListingTitle_BRO": {
         "oracleText": "The Brothers' War Set Mastery",
         "translation": "兄弟之战精研通行证"
@@ -26838,10 +27198,6 @@
     "MainNav/BattlePass/MasteryListingTitle_LTR": {
         "oracleText": "The Lord of the Rings: Tales of Middle-earth Set Mastery",
         "translation": "魔戒：中洲传说精研通行证"
-    },
-    "MainNav/BattlePass/MasteryListingTitle_LTR_Alt": {
-        "oracleText": "Lord of the Rings Set Mastery",
-        "translation": "魔戒精研通行证"
     },
     "MainNav/BattlePass/MasteryListingTitle_MKM": {
         "oracleText": "Murders at Karlov Manor Set Mastery",
@@ -26878,6 +27234,10 @@
     "MainNav/BattlePass/Mastery_Header_AFR": {
         "oracleText": "Adventures in the Forgotten Realms Mastery Pass",
         "translation": "被遗忘国度战记精研通行证"
+    },
+    "MainNav/BattlePass/Mastery_Header_BLB": {
+        "oracleText": "Bloomburrow Mastery",
+        "translation": "Bloomburrow Mastery"
     },
     "MainNav/BattlePass/Mastery_Header_BRO": {
         "oracleText": "The Brothers' War Mastery Pass",
@@ -29171,10 +29531,6 @@
         "oracleText": "This deck and cosmetics are locked.",
         "translation": "此套牌和皮肤已锁定。"
     },
-    "MainNav/DeckBuilder/DeckLocked ": {
-        "oracleText": "This deck and cosmetics are locked.",
-        "translation": "此套牌和皮肤已锁定。"
-    },
     "MainNav/DeckBuilder/DeckStats/Average": {
         "oracleText": "Average:",
         "translation": "平均费用："
@@ -29380,8 +29736,8 @@
         "translation": "Ezio Auditore da Firenze Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_ACR_439704": {
-        "oracleText": "Altair Ibn-La'Ahad Sleeve",
-        "translation": "Altair Ibn-La'Ahad Sleeve"
+        "oracleText": "Altaïr Ibn-La'Ahad Sleeve",
+        "translation": "Altaïr Ibn-La'Ahad Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_ACR_439705": {
         "oracleText": "Edward Kenway Sleeve",
@@ -29467,6 +29823,18 @@
         "oracleText": "Holiday Fox Sleeve",
         "translation": "节庆野狐牌套"
     },
+    "MainNav/DeckBuilder/Sleeves/CardBack_BLB_439456": {
+        "oracleText": "Helga, Skittish Seer Sleeve",
+        "translation": "Helga, Skittish Seer Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_BLB_439495": {
+        "oracleText": "Gev, Scaled Scorch Sleeve",
+        "translation": "Gev, Scaled Scorch Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_BLB_439496": {
+        "oracleText": "Zoraline, Cosmos Caller Sleeve",
+        "translation": "Zoraline, Cosmos Caller Sleeve"
+    },
     "MainNav/DeckBuilder/Sleeves/CardBack_BLB_440848": {
         "oracleText": "Hugs, Grisly Guardian Sleeve",
         "translation": "Hugs, Grisly Guardian Sleeve"
@@ -29474,6 +29842,50 @@
     "MainNav/DeckBuilder/Sleeves/CardBack_BLB_440854": {
         "oracleText": "Ral, Crackling Wit Sleeve",
         "translation": "Ral, Crackling Wit Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_BLB_440855": {
+        "oracleText": "The Infamous Cruelclaw Sleeve",
+        "translation": "The Infamous Cruelclaw Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_BLB_440856": {
+        "oracleText": "Finneas, Ace Archer Sleeve",
+        "translation": "Finneas, Ace Archer Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_BLB_446899": {
+        "oracleText": "Dawn's Truce Exquisite Sleeve",
+        "translation": "Dawn's Truce Exquisite Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_BLB_447006": {
+        "oracleText": "Renewal 2024 Sleeve",
+        "translation": "Renewal 2024 Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_BLB_447197": {
+        "oracleText": "Nissa, Who Shakes the World Valley Sleeve",
+        "translation": "Nissa, Who Shakes the World Valley Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_BLB_447201": {
+        "oracleText": "Liliana, Dreadhorde General Valley Sleeve",
+        "translation": "Liliana, Dreadhorde General Valley Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_BLB_447202": {
+        "oracleText": "Jace, the Mind Sculptor Valley Sleeve",
+        "translation": "Jace, the Mind Sculptor Valley Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_BLB_447203": {
+        "oracleText": "Elspeth, Sun's Champion Valley Sleeve",
+        "translation": "Elspeth, Sun's Champion Valley Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_BLB_447205": {
+        "oracleText": "Domri, Anarch of Bolas Valley Sleeve",
+        "translation": "Domri, Anarch of Bolas Valley Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_BLB_449009": {
+        "oracleText": "Otter Offspring Sleeve",
+        "translation": "Otter Offspring Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_BLB_449100": {
+        "oracleText": "Calamitous Conflict Sleeve",
+        "translation": "Calamitous Conflict Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_BLB_449844": {
         "oracleText": "Mabel, Heir to Cragflame Sleeve",
@@ -30679,6 +31091,22 @@
         "oracleText": "Tamiyo, Seasoned Scholar Sleeve",
         "translation": "Tamiyo, Seasoned Scholar Sleeve"
     },
+    "MainNav/DeckBuilder/Sleeves/CardBack_MH3_442733": {
+        "oracleText": "Pearl Medallion Sleeve",
+        "translation": "Pearl Medallion Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_MH3_442736": {
+        "oracleText": "Ruby Medallion Sleeve",
+        "translation": "Ruby Medallion Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_MH3_442737": {
+        "oracleText": "Emerald Medallion Sleeve",
+        "translation": "Emerald Medallion Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_MH3_445089": {
+        "oracleText": "Jet Medallion Sleeve",
+        "translation": "Jet Medallion Sleeve"
+    },
     "MainNav/DeckBuilder/Sleeves/CardBack_MH3_445777": {
         "oracleText": "Phelia, Exuberant Herder Sleeve",
         "translation": "Phelia, Exuberant Herder Sleeve"
@@ -30706,6 +31134,10 @@
     "MainNav/DeckBuilder/Sleeves/CardBack_MH3_446195": {
         "oracleText": "Arna Kennerüd, Skycaptain Sleeve",
         "translation": "Arna Kennerüd, Skycaptain Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_MH3_446526": {
+        "oracleText": "Sapphire Medallion Sleeve",
+        "translation": "Sapphire Medallion Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MID_419512": {
         "oracleText": "Ominous Roost Sleeve",
@@ -31194,6 +31626,10 @@
     "MainNav/DeckBuilder/Sleeves/CardBack_PoolParty2": {
         "oracleText": "Pool Party Sleeve",
         "translation": "Pool Party Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_1128": {
+        "oracleText": "Huatli, Radiant Champion Sleeve",
+        "translation": "Huatli, Radiant Champion Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_RD_414680": {
         "oracleText": "Arcbound Ravager Sleeve",
@@ -32391,6 +32827,22 @@
         "oracleText": "Alayna Danner Seraph Sanctuary Sleeve",
         "translation": "Alayna Danner Seraph Sanctuary Sleeve"
     },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_451124": {
+        "oracleText": "Sorin Markov Sleeve",
+        "translation": "Sorin Markov Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_451125": {
+        "oracleText": "Kiora, Behemoth Beckoner Sleeve",
+        "translation": "Kiora, Behemoth Beckoner Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_451126": {
+        "oracleText": "Tezzeret, Master of the Bridge Sleeve",
+        "translation": "Tezzeret, Master of the Bridge Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_451127": {
+        "oracleText": "Vraska, Golgari Queen Sleeve",
+        "translation": "Vraska, Golgari Queen Sleeve"
+    },
     "MainNav/DeckBuilder/Sleeves/CardBack_REX_440587": {
         "oracleText": "Dilophosaurus Sleeve",
         "translation": "Dilophosaurus Sleeve"
@@ -33059,14 +33511,6 @@
         "oracleText": "Worlds Sleeve",
         "translation": "世界牌套"
     },
-    "MainNav/DeckBuilder/Sleeves/LTR_Generic": {
-        "oracleText": "Lord of the Rings Sleeve",
-        "translation": "魔戒牌套"
-    },
-    "MainNav/DeckBuilder/Sleeves/LTR_Mastery_Sleeve_Generic": {
-        "oracleText": "Lord of the Rings Mastery Sleeve",
-        "translation": "魔戒通行证牌套"
-    },
     "MainNav/DeckBuilder/Sleeves/MTGA_CardBack_ExtraLife_2020_Logo": {
         "oracleText": "Extra Life 2020 Sleeve",
         "translation": "额外生命2020牌套"
@@ -33130,6 +33574,10 @@
     "MainNav/DeckFormat/ArtisanStandard": {
         "oracleText": "Artisan",
         "translation": "银铁"
+    },
+    "MainNav/DeckFormat/BLB": {
+        "oracleText": "Bloomburrow Constructed",
+        "translation": "Bloomburrow Constructed"
     },
     "MainNav/DeckFormat/BaldursGate": {
         "oracleText": "Baldur's Gate Constructed",
@@ -34167,17 +34615,33 @@
         "oracleText": "{number1} Modern Horizons 3 Play Booster Box",
         "translation": "{number1}摩登新篇3补充包"
     },
-    "MainNav/EventRewards/ArenaDirect_MH3_PLAYPlural": {
-        "oracleText": "{quantity} Modern Horizons 3 Play Booster Boxes",
-        "translation": "{quantity}摩登新篇3补充包"
+    "MainNav/EventRewards/ArenaDirect_MKM_PLAYDesc": {
+        "oracleText": "This token denotes that you are eligible to receive a physical Murders at Karlov Manor Play Booster Box",
+        "translation": "This token denotes that you are eligible to receive a physical Murders at Karlov Manor Play Booster Box"
     },
-    "MainNav/EventRewards/ArenaDirect_MH3_PLAYSingular": {
-        "oracleText": "{quantity} Modern Horizons 3 Play Booster Box",
-        "translation": "{quantity}摩登新篇3补充包"
+    "MainNav/EventRewards/ArenaDirect_MKM_PLAYPlural": {
+        "oracleText": "{quantity} Murders at Karlov Manor Play Booster Boxes",
+        "translation": "{quantity} Murders at Karlov Manor Play Booster Boxes"
+    },
+    "MainNav/EventRewards/ArenaDirect_MKM_PLAYSingular": {
+        "oracleText": "{quantity} Murders at Karlov Manor Play Booster Box",
+        "translation": "{quantity} Murders at Karlov Manor Play Booster Box"
+    },
+    "MainNav/EventRewards/ArenaDirect_OTJ_COLLDesc": {
+        "oracleText": "This token denotes that you are eligible to receive a physical Outlaws of Thunder Junction Collector Booster Box",
+        "translation": "This token denotes that you are eligible to receive a physical Outlaws of Thunder Junction Collector Booster Box"
+    },
+    "MainNav/EventRewards/ArenaDirect_OTJ_COLLPlural": {
+        "oracleText": "{quantity} Outlaws of Thunder Junction Collector Booster Boxes",
+        "translation": "{quantity} Outlaws of Thunder Junction Collector Booster Boxes"
+    },
+    "MainNav/EventRewards/ArenaDirect_OTJ_COLLSingular": {
+        "oracleText": "{quantity} Outlaws of Thunder Junction Collector Booster Box",
+        "translation": "{quantity} Outlaws of Thunder Junction Collector Booster Box"
     },
     "MainNav/EventRewards/ArenaDirect_OTJ_PLAY": {
-        "oracleText": "2 Outlaws of Thunder Junction Play Booster Boxs",
-        "translation": "2 Outlaws of Thunder Junction Play Booster Boxs"
+        "oracleText": "2 Outlaws of Thunder Junction Play Booster Boxes",
+        "translation": "2 Outlaws of Thunder Junction Play Booster Boxes"
     },
     "MainNav/EventRewards/ArenaDirect_OTJ_PLAYPlural": {
         "oracleText": "{quantity} Outlaws of Thunder Junction Play Booster Boxes",
@@ -34186,6 +34650,18 @@
     "MainNav/EventRewards/ArenaDirect_OTJ_PLAYSingular": {
         "oracleText": "2 Outlaws of Thunder Junction Play Booster Boxes",
         "translation": "2 Outlaws of Thunder Junction Play Booster Boxes"
+    },
+    "MainNav/EventRewards/ArenaDirect_WOE_SETDesc": {
+        "oracleText": "This token denotes that you are eligible to receive a physical Wilds of Eldraine Set Booster Box",
+        "translation": "This token denotes that you are eligible to receive a physical Wilds of Eldraine Set Booster Box"
+    },
+    "MainNav/EventRewards/ArenaDirect_WOE_SETPlural": {
+        "oracleText": "{quantity} Wilds of Eldraine Set Booster Boxes",
+        "translation": "{quantity} Wilds of Eldraine Set Booster Boxes"
+    },
+    "MainNav/EventRewards/ArenaDirect_WOE_SETSingular": {
+        "oracleText": "{quantity} Wilds of Eldraine Set Booster Box",
+        "translation": "{quantity} Wilds of Eldraine Set Booster Box"
     },
     "MainNav/EventRewards/AtraxaAvatar": {
         "oracleText": "Atraxa Avatar",
@@ -34202,6 +34678,10 @@
     "MainNav/EventRewards/Avatar_Basic_Fblthp_OTJ": {
         "oracleText": "Fblthp, Lost on the Range Avatar",
         "translation": "Fblthp, Lost on the Range Avatar"
+    },
+    "MainNav/EventRewards/Avatar_Basic_Jace_BLB": {
+        "oracleText": "Jace, the Mind Sculptor Avatar",
+        "translation": "Jace, the Mind Sculptor Avatar"
     },
     "MainNav/EventRewards/Basic_Land": {
         "oracleText": "Basic Land",
@@ -34298,6 +34778,10 @@
     "MainNav/EventRewards/CardAndRankedPvP": {
         "oracleText": "{number1} Card Style & Unlock Ranked PvP",
         "translation": "{number1卡牌样式和解锁天梯匹配"
+    },
+    "MainNav/EventRewards/CardBack_BLB_449100": {
+        "oracleText": "Calamitous Conflict Sleeve",
+        "translation": "Calamitous Conflict Sleeve"
     },
     "MainNav/EventRewards/CardBack_MH3_442629": {
         "oracleText": "Power Balance Sleeve",
@@ -35271,6 +35755,18 @@
         "oracleText": "Start",
         "translation": "开始"
     },
+    "MainNav/EventRewards/Sticker_BLB_Laughing_Lizard": {
+        "oracleText": "Laughing Lizard Sticker Emote",
+        "translation": "Laughing Lizard Sticker Emote"
+    },
+    "MainNav/EventRewards/Sticker_BLB_Plotting_Racoon": {
+        "oracleText": "Devious Raccoon Sticker Emote",
+        "translation": "Devious Raccoon Sticker Emote"
+    },
+    "MainNav/EventRewards/Sticker_BLB_Valiant_Mouse": {
+        "oracleText": "Valiant Mouse Sticker Emote",
+        "translation": "Valiant Mouse Sticker Emote"
+    },
     "MainNav/EventRewards/Sticker_BRO_Mishra_Salute": {
         "oracleText": "Mishra Weakstone Salute Sticker Emote",
         "translation": "米斯拉弱能石致敬贴纸表情"
@@ -35346,10 +35842,6 @@
     "MainNav/EventRewards/Sticker_LCI_Puppy_Headscratch": {
         "oracleText": "Mischevious Pup Sticker Emote",
         "translation": "恼人幼犬贴纸表情"
-    },
-    "MainNav/EventRewards/Sticker_LTR_Generic": {
-        "oracleText": "Lord of the Rings Sticker Emote",
-        "translation": "魔戒贴纸表情"
     },
     "MainNav/EventRewards/Sticker_LTR_MerryPippin_GG": {
         "oracleText": "Merry & Pippin Sticker Emote",
@@ -36919,6 +37411,14 @@
         "oracleText": "The Seasons are Changing!",
         "translation": "The Seasons are Changing!"
     },
+    "MainNav/HomePage/Carousel/2024_39_0_Store_Desc": {
+        "oracleText": "Check out the bountiful harvest of lands, emotes, and styles in the Store today!",
+        "translation": "Check out the bountiful harvest of lands, emotes, and styles in the Store today!"
+    },
+    "MainNav/HomePage/Carousel/2024_39_0_Store_Title": {
+        "oracleText": "It's a Season of Prosperity!",
+        "translation": "It's a Season of Prosperity!"
+    },
     "MainNav/HomePage/Carousel/21_01_Store_Desc": {
         "oracleText": "Take part in the epic Saga of Kaldheim. New Boosters Packs, new Set Mastery Pass, new Showcase Bundles, and more!",
         "translation": "参加史诗般的凯德海姆传奇。新的补充包、新的精研通行证、新的展示套装等等！"
@@ -37294,6 +37794,14 @@
     "MainNav/HomePage/Carousel/BLB_Previews_Title": {
         "oracleText": "Bloomburrow Previews!",
         "translation": "Bloomburrow Previews!"
+    },
+    "MainNav/HomePage/Carousel/BLB_SetMastery_Desc": {
+        "oracleText": "Complete quests to grow packs, companions, and more from the Mastery!",
+        "translation": "Complete quests to grow packs, companions, and more from the Mastery!"
+    },
+    "MainNav/HomePage/Carousel/BLB_SetMastery_Title": {
+        "oracleText": "The Bloomburrow Set Mastery has Sprouted!",
+        "translation": "The Bloomburrow Set Mastery has Sprouted!"
     },
     "MainNav/HomePage/Carousel/BLB_StreamerEvent_Title": {
         "oracleText": "Excited to play BLB? So are our Streamers!",
@@ -41611,6 +42119,14 @@
         "oracleText": "2024.38.40 Patch Notes Are Here!",
         "translation": "2024.38.40 Patch Notes Are Here!"
     },
+    "MainNav/Mailbox/2024_39_0_BLB_Announcement_Description": {
+        "oracleText": "There's so many adventures to be had in Valley! Will you spend your days playing Otterball, going on heroic journeys, or simply tending your crops for the other animalfolk? Regardless of where this set takes you, have these 3 packs and some basic lands to help you face down any Calamity!",
+        "translation": "There's so many adventures to be had in Valley! Will you spend your days playing Otterball, going on heroic journeys, or simply tending your crops for the other animalfolk? Regardless of where this set takes you, have these 3 packs and some basic lands to help you face down any Calamity!"
+    },
+    "MainNav/Mailbox/2024_39_0_BLB_Announcement_Title": {
+        "oracleText": "Bloomburrow Has Blossomed!",
+        "translation": "Bloomburrow Has Blossomed!"
+    },
     "MainNav/Mailbox/2024_AprilFoolsDay_Gift_Desc": {
         "oracleText": "APRIL FOOLS! Just kidding, there's no Card Warranty. There's also Nothing attached to this message. Don't bother clicking ‘Claim' below. \n\nSeriously, it's Nothing.",
         "translation": "APRIL FOOLS! Just kidding, there's no Card Warranty. There's also Nothing attached to this message. Don't bother clicking ‘Claim' below. \n\nSeriously, it's Nothing."
@@ -41670,6 +42186,18 @@
     "MainNav/Mailbox/BLB_EarlyAccess_Title": {
         "oracleText": "Excited to play BLB in MTG Arena? So are our streamers!",
         "translation": "Excited to play BLB in MTG Arena? So are our streamers!"
+    },
+    "MainNav/Mailbox/BLB_FastFollow_PatchNotes_Title": {
+        "oracleText": "2024.39.10 Patch Notes Are Here!",
+        "translation": "2024.39.10 Patch Notes Are Here!"
+    },
+    "MainNav/Mailbox/BLB_PatchNotes_Title": {
+        "oracleText": "2024.39.0 Patch Notes Are Here!",
+        "translation": "2024.39.0 Patch Notes Are Here!"
+    },
+    "MainNav/Mailbox/BLB_Patch_Notes_Description": {
+        "oracleText": "The Frogfolk and Batfolk aren't the only ones with the power to see the future. Check out the patch notes with the link below to see what new changes are coming to Arena!",
+        "translation": "The Frogfolk and Batfolk aren't the only ones with the power to see the future. Check out the patch notes with the link below to see what new changes are coming to Arena!"
     },
     "MainNav/Mailbox/BLB_Release_Notes_Title": {
         "oracleText": "Bloomburrow Release Notes are Here!",
@@ -42828,8 +43356,8 @@
         "translation": "黄金补充包包含6张稀有牌，每张有正常的概率升级成为秘稀稀有度。"
     },
     "MainNav/PackProgressMeter/CallToAction": {
-        "oracleText": "Purchase {remaining} more <i>Modern Horizons 3</i>, <i>Alchemy: Thunder Junction</i>, and <i>Outlaws of Thunder Junction</i> packs to earn a Golden Pack.",
-        "translation": "再购买{remaining}包 <i>摩登新篇3</i>和 <i>炼金：光雷驿</i>和 <i>光雷驿镖客</i> 补充包便可获得一个黄金补充包。"
+        "oracleText": "Purchase {remaining} more <i>Bloomburrow</i> and <i>Modern Horizons 3</i> packs to earn a Golden Pack.",
+        "translation": "Purchase {remaining} more <i>Bloomburrow</i> and <i>Modern Horizons 3</i> packs to earn a Golden Pack."
     },
     "MainNav/PackProgressMeter/FullDetailsLink": {
         "oracleText": "Full Details",
@@ -42886,6 +43414,18 @@
     "MainNav/PetNames/AFR_Dragon_Skin5": {
         "oracleText": "Black Dragon",
         "translation": "黑龙宠物"
+    },
+    "MainNav/PetNames/BLB_Mastery_1": {
+        "oracleText": "Whiskervale Duelist",
+        "translation": "Whiskervale Duelist"
+    },
+    "MainNav/PetNames/BLB_Mastery_2": {
+        "oracleText": "Thistledown Sentinel",
+        "translation": "Thistledown Sentinel"
+    },
+    "MainNav/PetNames/BLB_Mastery_3": {
+        "oracleText": "Bramblewarden Hero",
+        "translation": "Bramblewarden Hero"
     },
     "MainNav/PetNames/BLB_Preorder_1": {
         "oracleText": "Mabel",
@@ -44015,6 +44555,10 @@
         "oracleText": "Waiting for <USERNAME WILL BE SUBBED IN> to challenge you back.",
         "translation": "正在等待<USERNAME WILL BE SUBBED IN>向你回发对战请求。"
     },
+    "MainNav/PrizeWall/Hideaway_Header_BLB": {
+        "oracleText": "Bloomburrow Mastery Emporium",
+        "translation": "Bloomburrow Mastery Emporium"
+    },
     "MainNav/PrizeWall/Hideaway_Header_MH3": {
         "oracleText": "Psychic Frog's Horizon Hideaway",
         "translation": "Psychic Frog's Horizon Hideaway"
@@ -44219,6 +44763,14 @@
         "oracleText": "Basri Ket",
         "translation": "巴席利柯特"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_Baylen_BLB_Bio": {
+        "oracleText": "When their farm came under attack by Calamity Beasts, Baylen's only option was to repurpose their scythe for combat. Many seasons later, they've honed their warrior talents with magic from the lizardfolk, channeling fiery passion with every swing of the blade.",
+        "translation": "When their farm came under attack by Calamity Beasts, Baylen's only option was to repurpose their scythe for combat. Many seasons later, they've honed their warrior talents with magic from the lizardfolk, channeling fiery passion with every swing of the blade."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Baylen_BLB_Name": {
+        "oracleText": "Baylen",
+        "translation": "Baylen"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_Bolas_DragonGod_Bio": {
         "oracleText": "A force of villainous destruction, crushing all that stand in his way.  Elder dragon and tyrant of worlds, Nicol Bolas is one of the oldest known beings in the Multiverse.",
         "translation": "龙族的长老，世界的暴君；尼可波拉斯是多重宇宙中已知的最古老人物之一。他掌握着邪恶的毁灭力量，能够粉碎一切敢阻止他的魔法和生灵。"
@@ -44290,6 +44842,14 @@
     "MainNav/Profile/Avatars/Avatar_Basic_CourtKnight_ELD_Name": {
         "oracleText": "Court Knight",
         "translation": "庭园骑士"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Cruelclaw_BLB_Bio": {
+        "oracleText": "Few dare to cross Cruelclaw, a weasel mercenary-for-hire who won't question a job or the client behind it. He brags that he's never lost a fight, which is true—but he's also never fought a fair one.",
+        "translation": "Few dare to cross Cruelclaw, a weasel mercenary-for-hire who won't question a job or the client behind it. He brags that he's never lost a fight, which is true—but he's also never fought a fair one."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Cruelclaw_BLB_Name": {
+        "oracleText": "The Infamous Cruelclaw",
+        "translation": "The Infamous Cruelclaw"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Danitha_DMU_Bio": {
         "oracleText": "Danitha, heir of House Capashen, is a brave and brash knight who can always be found at the front of a melee. Trained from a young age in both diplomacy and sword-play, Danitha has taken over command of the knights once loyal to her fallen father—now she fights not just for Benalia, but Dominaria.",
@@ -44419,6 +44979,14 @@
         "oracleText": "Fblthp",
         "translation": "夫毕佐"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_Finneas_BLB_Bio": {
+        "oracleText": "If crackshot archer Finneas ever misses a shot, he's only off by a hare. He's a consecutive-year winner of his village's archery contest and takes pride in his skill, but for this adventure, he may be in over his head.",
+        "translation": "If crackshot archer Finneas ever misses a shot, he's only off by a hare. He's a consecutive-year winner of his village's archery contest and takes pride in his skill, but for this adventure, he may be in over his head."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Finneas_BLB_Name": {
+        "oracleText": "Finneas",
+        "translation": "Finneas"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_Freyalise_J21_Bio": {
         "oracleText": "A half-elven Planeswalker from a bygone era, Freyalise was a leader of elven clans who used her incredible power to protect their forest home. She heroically sacrificed her life to save her people and prevented a catastrophe that threatened to destroy Dominaria.",
         "translation": "妃雅丽兹是一位来自过去时代的半精灵鹏洛客，她是精灵部族的领袖，用她难以置信的力量来保护他们的森林家园。她英勇地牺牲了自己的生命来拯救她的人民，并阻止了一场有可能摧毁多明纳里亚的灾难。"
@@ -44467,6 +45035,14 @@
         "oracleText": "Garruk, Cursed Huntsman",
         "translation": "遭诅猎人贾路"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_Gev_BLB_Bio": {
+        "oracleText": "Gev is a lizard with a lot on his mind, and no issues speaking it. He can be cruel to his enemies—or just about anyone if the pay is good enough. An exception is the burly badger Hugs, who Gev considers a true friend.",
+        "translation": "Gev is a lizard with a lot on his mind, and no issues speaking it. He can be cruel to his enemies—or just about anyone if the pay is good enough. An exception is the burly badger Hugs, who Gev considers a true friend."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Gev_BLB_Name": {
+        "oracleText": "Gev",
+        "translation": "Gev"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_GideonJura_Bio": {
         "oracleText": "A powerful warrior-mage with the ability to make himself invulnerable, Gideon is fiercely loyal, unyielding, just, charismatic and never hesitates to enter combat to defend the innocent.",
         "translation": "基定是擅使法术的强大战士，身怀战而无伤之力。他尽节竭诚、坚定不屈、刚正坚贞而又富有魅力，总会毫不犹豫地冲入战团以保卫无辜者。"
@@ -44499,6 +45075,14 @@
         "oracleText": "Grist",
         "translation": "Grist"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_Helga_BLB_Bio": {
+        "oracleText": "Helga is a gifted seer and spellcaster but lacks self-assurance in her abilities. She studied under the wizard Glarb but struggled to live up to his impossible expectations, deeply affecting her demeanor and confidence. With enough encouragement, she may still make leaps in progress.",
+        "translation": "Helga is a gifted seer and spellcaster but lacks self-assurance in her abilities. She studied under the wizard Glarb but struggled to live up to his impossible expectations, deeply affecting her demeanor and confidence. With enough encouragement, she may still make leaps in progress."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Helga_BLB_Name": {
+        "oracleText": "Helga",
+        "translation": "Helga"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_Huatli_Bio": {
         "oracleText": "Under instruction from her Emperor, Huatli adventures in search of the Golden City, the Immortal Sun, and to secure her title as Warrior-Poet of the Sun Empire.",
         "translation": "受帝国皇帝之令，华特莉率部进发寻找黄金城与永生圣阳，守护自己「烈阳帝国战士诗人」头衔。"
@@ -44515,6 +45099,14 @@
         "oracleText": "Huatli",
         "translation": "华特莉"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_Hugs_BLB_Bio": {
+        "oracleText": "Little is known about Hugs, because his arms usually do the speaking for him—along with his chatty companion Gev. Friends of Hugs know him to be kind when he's up close. Enemies of Hugs have a very different experience.",
+        "translation": "Little is known about Hugs, because his arms usually do the speaking for him—along with his chatty companion Gev. Friends of Hugs know him to be kind when he's up close. Enemies of Hugs have a very different experience."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Hugs_BLB_Name": {
+        "oracleText": "Hugs, Grisly Gurdian",
+        "translation": "Hugs, Grisly Gurdian"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_JaceBeleren_Bio": {
         "oracleText": "Jace Beleren is a master of mental magic: spells of illusion, deception, and mind reading. His powers allow him to manipulate enemies by countering their magic or turning their spells against them.",
         "translation": "杰斯擅长心灵魔法：幻影、欺瞒，以及读取心灵的咒语。他的力量让他能反击敌对法师的魔法，或以其道反治其身。"
@@ -44522,6 +45114,14 @@
     "MainNav/Profile/Avatars/Avatar_Basic_JaceBeleren_Name": {
         "oracleText": "Jace",
         "translation": "杰斯"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Jace_BLB_Bio": {
+        "oracleText": "If Jace Beleren were to visit the plane of Bloomburrow—which he has, according to Ral—he would take the form of a cunning fox. Less certain is what the mind mage was doing there . . .",
+        "translation": "If Jace Beleren were to visit the plane of Bloomburrow—which he has, according to Ral—he would take the form of a cunning fox. Less certain is what the mind mage was doing there . . ."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Jace_BLB_Name": {
+        "oracleText": "Jace, the Mind Sculptor",
+        "translation": "Jace, the Mind Sculptor"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Jace_ONE_Bio": {
         "oracleText": "Jace Beleren's power to manipulate minds finally met its match when he found his own consciousness dominated by the shadowy thrall of New Phyrexia. With Jace compleated, is any mind safe? All will be one.",
@@ -44935,14 +45535,6 @@
         "oracleText": "Rowan, Scion of War",
         "translation": "尚武后裔萝婉"
     },
-    "MainNav/Profile/Avatars/Avatar_Basic_STX_ ProfessorOnyx_Bio": {
-        "oracleText": "An alumna of Witherbloom, Professor Onyx has returned to her alma mater as a teacher. She is researching a way to return the dead to life. The good professor is definitely not the planeswalker Liliana Vess. Look, no headdress. Totally a different person.",
-        "translation": "作为靡华的校友，黑玉教授已经回到母校当黑魔法防御课老师了。她正在研究一种让死者复生的方法。这位好教授绝对不是鹏洛客莉莲娜维斯。看，没有头饰。完全是一个不同的人。"
-    },
-    "MainNav/Profile/Avatars/Avatar_Basic_STX_ ProfessorOnyx_Name": {
-        "oracleText": "Professor Onyx",
-        "translation": "黑玉教授"
-    },
     "MainNav/Profile/Avatars/Avatar_Basic_STX_ProfessorOnyx_Bio": {
         "oracleText": "An alumna of Witherbloom, Professor Onyx has returned to her alma mater as a teacher. She is researching a way to return the dead to life. The good professor is definitely not the planeswalker Liliana Vess. Look, no headdress. Totally a different person.",
         "translation": "作为靡华的校友，黑玉教授已经回到母校当黑魔法防御课老师了。她正在研究一种让死者复生的方法。这位好教授绝对不是鹏洛客莉莲娜维斯。看，没有头饰。完全是一个不同的人。"
@@ -45038,6 +45630,14 @@
     "MainNav/Profile/Avatars/Avatar_Basic_Squee_DMU_Name": {
         "oracleText": "Squee",
         "translation": "斯奎"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Stormsplitter_BLB_Bio": {
+        "oracleText": "Stormsplitters are otters who can harness lightning to duplicate themselves, serving as diversion forces against Calamity Beasts. Their reckless bravery is born from a tradition of stormchasing, repurposing otter sport techniques into combat artistry.",
+        "translation": "Stormsplitters are otters who can harness lightning to duplicate themselves, serving as diversion forces against Calamity Beasts. Their reckless bravery is born from a tradition of stormchasing, repurposing otter sport techniques into combat artistry."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Stormsplitter_BLB_Name": {
+        "oracleText": "Stormsplitter",
+        "translation": "Stormsplitter"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Talion_WOE_Bio": {
         "oracleText": "As the lord of the faeries and the self-appointed ruler of Eldraine, Talion partnered with three powerful witch sisters to save the plane from the Phyrexian invasion. But curious effects of their spell still linger, prompting Talion to suspect the witches of foul play.",
@@ -45311,6 +45911,14 @@
         "oracleText": "Vraska, the Silencer",
         "translation": "销音蛇妖瓦丝卡"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_Vren_BLB_Bio": {
+        "oracleText": "If a dead body sinks into the marshes, Vren and his ratfolk gang will find it. He works closely with his underlings but holds no sentimentality for their wellbeing. In a pinch, he'll leave them high and dry—or at the bottom of the swamp.",
+        "translation": "If a dead body sinks into the marshes, Vren and his ratfolk gang will find it. He works closely with his underlings but holds no sentimentality for their wellbeing. In a pinch, he'll leave them high and dry—or at the bottom of the swamp."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Vren_BLB_Name": {
+        "oracleText": "Vren",
+        "translation": "Vren"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_Will_WOE_Bio": {
         "oracleText": "To reunite the broken Realm of Eldraine after the Phyrexian assault that killed both his parents, Will claimed his father's title of High King of the five courts. Now he tirelessly seeks to calm the chaotic land, quelling rebellions through diplomacy or bloodshed.",
         "translation": "在非瑞克西亚人的侵袭中不幸失去双亲后，为统一破碎的艾卓王国，威尔继承了父亲五廷至高王的头衔。如今他通过外交或血刃镇压反叛军，不倦地寻求安定这片混乱的土地的计策。"
@@ -45366,6 +45974,14 @@
     "MainNav/Profile/Avatars/Avatar_Basic_Zimone_STX_Name": {
         "oracleText": "Zimone, Quandrix Prodigy",
         "translation": "量析逸才琦梦"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Zoraline_BLB_Bio": {
+        "oracleText": "As a nocturnal creature, Zoraline would rather be asleep when the rest of her companions are out saving Valley. She's also as much of an astronomer as she is a cleric, attuning herself to the cryptic and auspicious movements of the stars.",
+        "translation": "As a nocturnal creature, Zoraline would rather be asleep when the rest of her companions are out saving Valley. She's also as much of an astronomer as she is a cleric, attuning herself to the cryptic and auspicious movements of the stars."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Zoraline_BLB_Name": {
+        "oracleText": "Zoraline",
+        "translation": "Zoraline"
     },
     "MainNav/Profile/Avatars/Basri_M21_Bio": {
         "oracleText": "For most of his life, Basri Ket was utterly devoted to Oketra, god of loyalty and solidarity. When she was slain in the Hour of Devastation, his world was shattered. But rather than let it break him, he took up one of her massive arrows as a spear and vowed to champion her ideals across the Multiverse.",
@@ -47499,10 +48115,6 @@
         "oracleText": "Automatically taps mana sources and spends mana when paying costs.",
         "translation": "在你支付费用的时候自动横置法术力源并支付法术力。"
     },
-    "MainNav/Settings/Gameplay/AutoPay_ToolTip ": {
-        "oracleText": "Automatically taps mana sources and spends mana when paying costs.",
-        "translation": "Automatically taps mana sources and spends mana when paying costs."
-    },
     "MainNav/Settings/Gameplay/AutoTap_Label": {
         "oracleText": "Auto Tap",
         "translation": "自动横置"
@@ -47556,10 +48168,6 @@
         "translation": "隐藏现实世界的饰品"
     },
     "MainNav/Settings/Gameplay/HideRealWorldCosmetics_DisabledTooltip": {
-        "oracleText": "Editable outside of match",
-        "translation": "对局外才能修改"
-    },
-    "MainNav/Settings/Gameplay/HideRealWorldCosmetics_DisabledTooltip ": {
         "oracleText": "Editable outside of match",
         "translation": "对局外才能修改"
     },
@@ -48019,6 +48627,26 @@
         "oracleText": "Pinkie Pie Avatar**",
         "translation": "萍琪派头像**"
     },
+    "MainNav/Store/Avatars//Avatar_Basic_Zoraline_BLB": {
+        "oracleText": "Zoraline Avatar",
+        "translation": "Zoraline Avatar"
+    },
+    "MainNav/Store/Avatars/Avatar_Basic_Cruelclaw_BLB": {
+        "oracleText": "The Infamous Cruelclaw Avatar",
+        "translation": "The Infamous Cruelclaw Avatar"
+    },
+    "MainNav/Store/Avatars/Avatar_Basic_Finneas_BLB": {
+        "oracleText": "Finneas Avatar",
+        "translation": "Finneas Avatar"
+    },
+    "MainNav/Store/Avatars/Avatar_Basic_Gev_BLB": {
+        "oracleText": "Gev Avatar",
+        "translation": "Gev Avatar"
+    },
+    "MainNav/Store/Avatars/Avatar_Basic_Helga_BLB": {
+        "oracleText": "Helga Avatar",
+        "translation": "Helga Avatar"
+    },
     "MainNav/Store/Await_Verification_Text": {
         "oracleText": "AWAITING VERIFICATION",
         "translation": "等待验证"
@@ -48346,14 +48974,6 @@
     "MainNav/Store/Bundle_Spark50_Name": {
         "oracleText": "MTGA Planeswalker Bundle",
         "translation": "MTGA Planeswalker Bundle"
-    },
-    "MainNav/Store/Bundles/BundleLTR_Name_Generic1": {
-        "oracleText": "Lord of the Rings Bundle",
-        "translation": "魔戒套装"
-    },
-    "MainNav/Store/Bundles/BundleLTR_Name_Generic2": {
-        "oracleText": "Lord of the Rings Card Style Bundle",
-        "translation": "Lord of the Rings Card Style Bundle"
     },
     "MainNav/Store/Bundles/Bundle_AFR_A_Desc": {
         "oracleText": "Drizzt Do'Urden Card Style\nShessra, Death's Whisper Card Style\nKalain, Reclusive Painter Card Style\nLurking Roper Card Style\nMind Flayer Card Style\nBaleful Beholder Card Style",
@@ -48782,6 +49402,142 @@
     "MainNav/Store/Bundles/Bundle_Avatar_Vorthos_Name": {
         "oracleText": "Vorthos, Steward of Myth Bundle",
         "translation": "*神话管理者沃尔托斯*套装"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_BloomLegends_Desc": {
+        "oracleText": "Alania, Divergent Storm Card Style\nCamellia, the Seedmiser Card Style\nClement, the Worrywort Card Style\nFinneas, Ace Archer Card Style\nKastral, the Windcrested Card Style\nMabel, Heir to Cragflame Card Style",
+        "translation": "Alania, Divergent Storm Card Style\nCamellia, the Seedmiser Card Style\nClement, the Worrywort Card Style\nFinneas, Ace Archer Card Style\nKastral, the Windcrested Card Style\nMabel, Heir to Cragflame Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_BloomLegends_Name": {
+        "oracleText": "Legends of Bloomburrow",
+        "translation": "Legends of Bloomburrow"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_Cruelclaw_Desc": {
+        "oracleText": "Cruelclaw Avatar\nThe Infamous Cruelclaw Sleeve",
+        "translation": "Cruelclaw Avatar\nThe Infamous Cruelclaw Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_Cruelclaw_Name": {
+        "oracleText": "Cruelclaw Avatar Bundle",
+        "translation": "Cruelclaw Avatar Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_FieldNotes_Desc": {
+        "oracleText": "Beza, the Bounding Spring Card Style\nDragonhawk, Fate's Tempest Card Style\nEluge, the Shoreless Sea Card Style\nLumra, Bellow of the Woods Card Style\nMaha, Its Feathers Night Card Style\nRottenmouth Viper Card Style\nSunspine Lynx Card Style\nYgra, Eater of All Card Style",
+        "translation": "Beza, the Bounding Spring Card Style\nDragonhawk, Fate's Tempest Card Style\nEluge, the Shoreless Sea Card Style\nLumra, Bellow of the Woods Card Style\nMaha, Its Feathers Night Card Style\nRottenmouth Viper Card Style\nSunspine Lynx Card Style\nYgra, Eater of All Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_FieldNotes_Name": {
+        "oracleText": "Borderless Field Notes",
+        "translation": "Borderless Field Notes"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_Finneas_Desc": {
+        "oracleText": "Finneas Avatar\nFinneas, Ace Archer Sleeve",
+        "translation": "Finneas Avatar\nFinneas, Ace Archer Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_Finneas_Name": {
+        "oracleText": "Finneas Avatar Bundle",
+        "translation": "Finneas Avatar Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_Gev_Desc": {
+        "oracleText": "Gev Avatar\nGev, Scaled Scorch Sleeve",
+        "translation": "Gev Avatar\nGev, Scaled Scorch Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_Gev_Name": {
+        "oracleText": "Gev Avatar Bundle",
+        "translation": "Gev Avatar Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_Helga_Desc": {
+        "oracleText": "Helga Avatar\nHelga, Skittish Seer Sleeve",
+        "translation": "Helga Avatar\nHelga, Skittish Seer Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_Helga_Name": {
+        "oracleText": "Helga Avatar Bundle",
+        "translation": "Helga Avatar Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_LandsFall_Desc": {
+        "oracleText": "Full Art Land Plains\nFull Art Land Island\nFull Art Land Swamp\nFull Art Land Mountain\nFull Art Land Forest",
+        "translation": "Full Art Land Plains\nFull Art Land Island\nFull Art Land Swamp\nFull Art Land Mountain\nFull Art Land Forest"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_LandsFall_Name": {
+        "oracleText": "Full Art Lands: Fall",
+        "translation": "Full Art Lands: Fall"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_LandsSpring_Desc": {
+        "oracleText": "Full Art Land Plains\nFull Art Land Island\nFull Art Land Swamp\nFull Art Land Mountain\nFull Art Land Forest",
+        "translation": "Full Art Land Plains\nFull Art Land Island\nFull Art Land Swamp\nFull Art Land Mountain\nFull Art Land Forest"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_LandsSpring_Name": {
+        "oracleText": "Full Art Lands: Spring",
+        "translation": "Full Art Lands: Spring"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_LandsSummer_Desc": {
+        "oracleText": "Full Art Land Plains\nFull Art Land Island\nFull Art Land Swamp\nFull Art Land Mountain\nFull Art Land Forest",
+        "translation": "Full Art Land Plains\nFull Art Land Island\nFull Art Land Swamp\nFull Art Land Mountain\nFull Art Land Forest"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_LandsSummer_Name": {
+        "oracleText": "Full Art Lands: Summer",
+        "translation": "Full Art Lands: Summer"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_LandsWinter_Desc": {
+        "oracleText": "Full Art Land Plains\nFull Art Land Island\nFull Art Land Swamp\nFull Art Land Mountain\nFull Art Land Forest",
+        "translation": "Full Art Land Plains\nFull Art Land Island\nFull Art Land Swamp\nFull Art Land Mountain\nFull Art Land Forest"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_LandsWinter_Name": {
+        "oracleText": "Full Art Lands: Winter",
+        "translation": "Full Art Lands: Winter"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_Phrases_Desc": {
+        "oracleText": "\"Caw! Caw!\" Phrase Emote\n\"Squeak!\" Phrase Emote\n\"Ribbit.\" Phrase Emote\n\"Hissssssss!\" Phrase Emote\n\"Meow!\" Phrase Emote\n'Woof.\" Phrase Emote\n\"Rats.\" Phrase Emote",
+        "translation": "\"Caw! Caw!\" Phrase Emote\n\"Squeak!\" Phrase Emote\n\"Ribbit.\" Phrase Emote\n\"Hissssssss!\" Phrase Emote\n\"Meow!\" Phrase Emote\n'Woof.\" Phrase Emote\n\"Rats.\" Phrase Emote"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_Phrases_Name": {
+        "oracleText": "Phrases Bundle",
+        "translation": "Phrases Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_Seasons_Desc": {
+        "oracleText": "Season of Gathering Card Style\nSeason of Loss Card Style\nSeason of the Bold Card Style\nSeason of the Burrow Card Style\nSeason of Weaving Card Style",
+        "translation": "Season of Gathering Card Style\nSeason of Loss Card Style\nSeason of the Bold Card Style\nSeason of the Burrow Card Style\nSeason of Weaving Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_Seasons_Name": {
+        "oracleText": "Borderless Seasons",
+        "translation": "Borderless Seasons"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_Stickers_Desc": {
+        "oracleText": "Devious Raccoon Sticker Emote\nValiant Mouse Sticker Emote\nLaughing Lizard Sticker Emote",
+        "translation": "Devious Raccoon Sticker Emote\nValiant Mouse Sticker Emote\nLaughing Lizard Sticker Emote"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_Stickers_Name": {
+        "oracleText": "Sticker Bundle",
+        "translation": "Sticker Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_ThreeTreeCity_Desc": {
+        "oracleText": "Three Tree City Card Style (Spring)\nThree Tree City Card Style (Summer)\nThree Tree City Card Style (Autumn)\nThree Tree City Card Style (Winter)",
+        "translation": "Three Tree City Card Style (Spring)\nThree Tree City Card Style (Summer)\nThree Tree City Card Style (Autumn)\nThree Tree City Card Style (Winter)"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_ThreeTreeCity_Name": {
+        "oracleText": "Borderless Three Tree City",
+        "translation": "Borderless Three Tree City"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_WoodlandCallers_Desc": {
+        "oracleText": "Valley Flamecaller Card Style\nValley Floodcaller Card Style\nValley Mightcaller Card Style\nValley Questcaller Card Style\nValley Rotcaller Card Style",
+        "translation": "Valley Flamecaller Card Style\nValley Floodcaller Card Style\nValley Mightcaller Card Style\nValley Questcaller Card Style\nValley Rotcaller Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_WoodlandCallers_Name": {
+        "oracleText": "Showcase Callers",
+        "translation": "Showcase Callers"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_WoodlandLegends_Desc": {
+        "oracleText": "Alania, Divergent Storm Card Style\nCamellia, the Seedmiser Card Style\nClement, the Worrywort Card Style\nFinneas, Ace Archer Card Style\nKastral, the Windcrested Card Style\nMabel, Heir to Cragflame Card Style",
+        "translation": "Alania, Divergent Storm Card Style\nCamellia, the Seedmiser Card Style\nClement, the Worrywort Card Style\nFinneas, Ace Archer Card Style\nKastral, the Windcrested Card Style\nMabel, Heir to Cragflame Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_WoodlandLegends_Name": {
+        "oracleText": "Showcase Legends",
+        "translation": "Showcase Legends"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_Zoraline_Desc": {
+        "oracleText": "Zoraline Avatar\nZoraline, Cosmos Caller Sleeve",
+        "translation": "Zoraline Avatar\nZoraline, Cosmos Caller Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_BLB_Zoraline_Name": {
+        "oracleText": "Zoraline Avatar Bundle",
+        "translation": "Zoraline Avatar Bundle"
     },
     "MainNav/Store/Bundles/Bundle_BPW_AFR_Desc": {
         "oracleText": "Lolth, Spider Queen Card Style\nEllywick Tumblestrum Card Style\nZariel, Archduke of Avernus Card Style\nMordenkainen Card Style\nGrand Master of Flowers Card Style",
@@ -51203,6 +51959,22 @@
         "oracleText": "Secrets of Innistrad Sleeve Bundle",
         "translation": "Secrets of Innistrad Sleeve Bundle"
     },
+    "MainNav/Store/Bundles/Bundle_SLD_BLB_Sleeves_Desc": {
+        "oracleText": "Sorin Markov Sleeve\nKiora, Behemoth Beckoner Sleeve\nTezzeret, Master of the Bridge Sleeve\nVraska, Golgari Queen Sleeve\nHuatli, Radiant Champion Sleeve",
+        "translation": "Sorin Markov Sleeve\nKiora, Behemoth Beckoner Sleeve\nTezzeret, Master of the Bridge Sleeve\nVraska, Golgari Queen Sleeve\nHuatli, Radiant Champion Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_SLD_BLB_Sleeves_Name": {
+        "oracleText": "Secret Lair Showcase: Bloomburrow Sleeves",
+        "translation": "Secret Lair Showcase: Bloomburrow Sleeves"
+    },
+    "MainNav/Store/Bundles/Bundle_SLD_BLB_Styles_Desc": {
+        "oracleText": "Sorin Markov Card Style\nKiora, Behemoth Beckoner Card Style\nTezzeret, Master of the Bridge Card Style\nVraska, Golgari Queen Card Style\nHuatli, Radiant Champion Card Style",
+        "translation": "Sorin Markov Card Style\nKiora, Behemoth Beckoner Card Style\nTezzeret, Master of the Bridge Card Style\nVraska, Golgari Queen Card Style\nHuatli, Radiant Champion Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_SLD_BLB_Styles_Name": {
+        "oracleText": "Secret Lair Showcase: Bloomburrow Styles",
+        "translation": "Secret Lair Showcase: Bloomburrow Styles"
+    },
     "MainNav/Store/Bundles/Bundle_SLD_JulieBell_Desc": {
         "oracleText": "Soul Warden Sleeve\nShivan Dragon Sleeve\nElves of Deep Shadow Sleeve\nGood-Fortune Unicorn Sleeve\nCoat of Arms Sleeve",
         "translation": "Soul Warden Sleeve\nShivan Dragon Sleeve\nElves of Deep Shadow Sleeve\nGood-Fortune Unicorn Sleeve\nCoat of Arms Sleeve"
@@ -52283,6 +53055,14 @@
         "oracleText": "Available for purchase until July 30, 2024",
         "translation": "Available for purchase until July 30, 2024"
     },
+    "MainNav/Store/Bundles/PrizeWall_BLBMastery_Sorin_Desc": {
+        "oracleText": "4x Sorin Markov",
+        "translation": "4x Sorin Markov"
+    },
+    "MainNav/Store/Bundles/PrizeWall_BLBMastery_Sorin_Name": {
+        "oracleText": "Sorin Markov Playset",
+        "translation": "Sorin Markov Playset"
+    },
     "MainNav/Store/Bundles/Rowan Avatar Bundle_Desc": {
         "oracleText": "Rowan Avatar\nRowan, Scion of War Sleeve",
         "translation": "萝婉头像\n尚武后裔萝婉牌套"
@@ -52498,6 +53278,66 @@
     "MainNav/Store/DailyXP1000": {
         "oracleText": "1000 XP",
         "translation": "1000经验"
+    },
+    "MainNav/Store/Decks/Contents_Click": {
+        "oracleText": "Click to see contents.",
+        "translation": "Click to see contents."
+    },
+    "MainNav/Store/Decks/Contents_Tap": {
+        "oracleText": "Tap to see contents.",
+        "translation": "Tap to see contents."
+    },
+    "MainNav/Store/Decks/Corner_Tooltip_Click": {
+        "oracleText": "Cards already in your collection reduce this deck's price. Click deckbox to see contents.",
+        "translation": "Cards already in your collection reduce this deck's price. Click deckbox to see contents."
+    },
+    "MainNav/Store/Decks/Corner_Tooltip_Tap": {
+        "oracleText": "Cards already in your collection reduce this deck's price. Tap deckbox to see contents.",
+        "translation": "Cards already in your collection reduce this deck's price. Tap deckbox to see contents."
+    },
+    "MainNav/Store/Decks/Deck_Wave1_Brawl_RWRaiyuu_Desc": {
+        "oracleText": "Raiyuu, Storm's Edge Brawl Deck",
+        "translation": "Raiyuu, Storm's Edge Brawl Deck"
+    },
+    "MainNav/Store/Decks/Deck_Wave1_Brawl_RWRaiyuu_Name": {
+        "oracleText": "Foundation Deck: Raiyuu, Storm's Edge",
+        "translation": "Foundation Deck: Raiyuu, Storm's Edge"
+    },
+    "MainNav/Store/Decks/Deck_Wave1_Brawl_RZada_Desc": {
+        "oracleText": "Zada, Hedron Grinder Brawl Deck",
+        "translation": "Zada, Hedron Grinder Brawl Deck"
+    },
+    "MainNav/Store/Decks/Deck_Wave1_Brawl_RZada_Name": {
+        "oracleText": "Starter Deck: Zada, Hedron Grinder Brawl",
+        "translation": "Starter Deck: Zada, Hedron Grinder Brawl"
+    },
+    "MainNav/Store/Decks/Deck_Wave1_Brawl_WBEriette_Desc": {
+        "oracleText": "Eriette of the Charmed Apple Brawl Deck",
+        "translation": "Eriette of the Charmed Apple Brawl Deck"
+    },
+    "MainNav/Store/Decks/Deck_Wave1_Brawl_WBEriette_Name": {
+        "oracleText": "Foundation Deck: Eriette of the Charmed Apple Brawl",
+        "translation": "Foundation Deck: Eriette of the Charmed Apple Brawl"
+    },
+    "MainNav/Store/Decks/Deck_Wave1_Standard_BantToxic_Desc": {
+        "oracleText": "Toxic Standard Deck",
+        "translation": "Toxic Standard Deck"
+    },
+    "MainNav/Store/Decks/Deck_Wave1_Standard_BantToxic_Name": {
+        "oracleText": "Champion Deck: Standard Toxic",
+        "translation": "Champion Deck: Standard Toxic"
+    },
+    "MainNav/Store/Decks/Deck_Wave1_Standard_RGDinos_Desc": {
+        "oracleText": "Dinosaurs Standard Deck",
+        "translation": "Dinosaurs Standard Deck"
+    },
+    "MainNav/Store/Decks/Deck_Wave1_Standard_RGDinos_Name": {
+        "oracleText": "Foundation Deck: Standard Dinosaurs",
+        "translation": "Foundation Deck: Standard Dinosaurs"
+    },
+    "MainNav/Store/Decks/Proration_Description": {
+        "oracleText": "The following cards are already in your collection and are not included when determining the final price:",
+        "translation": "The following cards are already in your collection and are not included when determining the final price:"
     },
     "MainNav/Store/Deferred": {
         "oracleText": "Deferred",
@@ -53147,6 +53987,14 @@
         "oracleText": "Pretax: {amount}",
         "translation": "税前：{amount}"
     },
+    "MainNav/Store/PrizeWall/EarnSubHeader": {
+        "oracleText": "{day}d {hour}h to earn.",
+        "translation": "{day}d {hour}h to earn."
+    },
+    "MainNav/Store/PrizeWall/EarnTabTimer": {
+        "oracleText": "{day}d {hour}h to Earn",
+        "translation": "{day}d {hour}h to Earn"
+    },
     "MainNav/Store/PrizeWall/Header_MH3": {
         "oracleText": "Psychic Frog's Horizon Hideaway",
         "translation": "Psychic Frog's Horizon Hideaway"
@@ -53154,6 +54002,14 @@
     "MainNav/Store/PrizeWall/MH3_Unlock": {
         "oracleText": "Unlock Psychic Frog's Horizon Hideaway",
         "translation": "Unlock Psychic Frog's Horizon Hideaway"
+    },
+    "MainNav/Store/PrizeWall/SpendSubHeader": {
+        "oracleText": "{day}d {hour}h to spend.\nUnspent currency after expiration will be lost.",
+        "translation": "{day}d {hour}h to spend.\nUnspent currency after expiration will be lost."
+    },
+    "MainNav/Store/PrizeWall/SpendTabTimer": {
+        "oracleText": "{day}d {hour}h to Spend",
+        "translation": "{day}d {hour}h to Spend"
     },
     "MainNav/Store/PrizeWall/SubHeader": {
         "oracleText": "{day}d {hour}h remaining.\nUnspent currency after expiration will be lost.",
@@ -53254,6 +54110,10 @@
     "MainNav/Store/Purchase_Cosmetics": {
         "oracleText": "Purchase Cosmetics",
         "translation": "购买饰品"
+    },
+    "MainNav/Store/Purchase_Decks": {
+        "oracleText": "Purchase Decks",
+        "translation": "Purchase Decks"
     },
     "MainNav/Store/Purchase_Done_Text": {
         "oracleText": "DONE WITH PURCHASE",
@@ -55203,9 +56063,53 @@
         "oracleText": "Normally a guildmaster on Ravnica, the demon Rakdos has taken a holiday to the plane of Thunder Junction to wreak as much havoc as possible. His joy at pure chaos and destruction makes him the perfect \"Muscle\" of the group.",
         "translation": "恶魔拉铎司通常是拉尼卡的公会会长，但他却在光雷驿时空休假，以尽可能地造成破坏。 他对纯粹的混乱和破坏的喜悦使他成为团伙中完美的“帮凶”。"
     },
+    "Match/QueueTips/Queue_Tip_246_BLB_SetCode": {
+        "oracleText": "To show only cards from Bloomburrow in the deckbuilder, type \"set:BLB\" into the search bar. Each set has a unique 3-letter-code.",
+        "translation": "To show only cards from Bloomburrow in the deckbuilder, type \"set:BLB\" into the search bar. Each set has a unique 3-letter-code."
+    },
+    "Match/QueueTips/Queue_Tip_247_BLB_Birdfolk": {
+        "oracleText": "Birdfolk of Valley make their homes in the skies, helping to connect all the other animalfolk by transporting mail, aid, and sometimes even the other animals!",
+        "translation": "Birdfolk of Valley make their homes in the skies, helping to connect all the other animalfolk by transporting mail, aid, and sometimes even the other animals!"
+    },
+    "Match/QueueTips/Queue_Tip_248_BLB_Ratfolk": {
+        "oracleText": "Ratfolk are self-reliant loners who value building their own skills over interpersonal relationships. Many others in Valley view them as standoffish, but they see themselves as keeping all the animalfolks secrets' from falling into the wrong hands.",
+        "translation": "Ratfolk are self-reliant loners who value building their own skills over interpersonal relationships. Many others in Valley view them as standoffish, but they see themselves as keeping all the animalfolks secrets' from falling into the wrong hands."
+    },
+    "Match/QueueTips/Queue_Tip_249_BLB_Lizardfolk": {
+        "oracleText": "Lizardfolk of Valley are passionate artists who know that art is meant to inspire awe and wonder. As soon as they feel bored by their art, they will destroy it and use the pieces to create something new.",
+        "translation": "Lizardfolk of Valley are passionate artists who know that art is meant to inspire awe and wonder. As soon as they feel bored by their art, they will destroy it and use the pieces to create something new."
+    },
     "Match/QueueTips/Queue_Tip_25": {
         "oracleText": "If you don't like your opening hand, you can \"mulligan\": drawing a new opening hand with one fewer card.",
         "translation": "如果你不喜欢你的起手牌，你可以选择「再调度」：重抓一副新的起手牌，但张数会比之前少一张。"
+    },
+    "Match/QueueTips/Queue_Tip_250_BLB_Racconfolk": {
+        "oracleText": "Racoonfolk are wanderers, allowing their whims and desire for self-discovery to take them on adventures all over Valley. Though they don't tend to make stable homes, they keep mementos from all their travels with them so they can reminisce.",
+        "translation": "Racoonfolk are wanderers, allowing their whims and desire for self-discovery to take them on adventures all over Valley. Though they don't tend to make stable homes, they keep mementos from all their travels with them so they can reminisce."
+    },
+    "Match/QueueTips/Queue_Tip_251_BLB_Rabbitfolk": {
+        "oracleText": "Rabbitfolk are industrious farmers and talented chefs, providing Valley with the bulk of its food. Even if other animalfolk view them as ‘boring' for their stable lives, the Rabbitfolk are treated with respect for all the hard work they do.",
+        "translation": "Rabbitfolk are industrious farmers and talented chefs, providing Valley with the bulk of its food. Even if other animalfolk view them as ‘boring' for their stable lives, the Rabbitfolk are treated with respect for all the hard work they do."
+    },
+    "Match/QueueTips/Queue_Tip_252_BLB_Batfolk": {
+        "oracleText": "Batfolk of Valley live their lives within rigid hierarchies, concerning themselves with balance on a cosmic scale. Being nocturnal, they also view themselves as the protectors of Valley during nighttime when other animalfolk rest.",
+        "translation": "Batfolk of Valley live their lives within rigid hierarchies, concerning themselves with balance on a cosmic scale. Being nocturnal, they also view themselves as the protectors of Valley during nighttime when other animalfolk rest."
+    },
+    "Match/QueueTips/Queue_Tip_253_BLB_Otterfolk": {
+        "oracleText": "Otterfolk are playful, curious, and excitable storm-chasers. When not out adventuring and chasing down calamity beasts, their most popular game is Otterball, a sport that's played largely on the water and whose exact rules are always changing.",
+        "translation": "Otterfolk are playful, curious, and excitable storm-chasers. When not out adventuring and chasing down calamity beasts, their most popular game is Otterball, a sport that's played largely on the water and whose exact rules are always changing."
+    },
+    "Match/QueueTips/Queue_Tip_254_BLB_Squirrelfolk": {
+        "oracleText": "Squirrelfolk are the pragmatic stewards of Valley's cycles of life and death. They take on the role of burying calamity beast remains, rejuvenating farmed soil, and preserving food for when harsh seasonal changes strike.",
+        "translation": "Squirrelfolk are the pragmatic stewards of Valley's cycles of life and death. They take on the role of burying calamity beast remains, rejuvenating farmed soil, and preserving food for when harsh seasonal changes strike."
+    },
+    "Match/QueueTips/Queue_Tip_255_BLB_Mousefolk": {
+        "oracleText": "Mousefolk are known for their heroic actions and glorious adventuring parties. They carry a deep sense of familial pride, and do not shy away from danger, even if others may view their actions as unnecessarily risky or impulsive.",
+        "translation": "Mousefolk are known for their heroic actions and glorious adventuring parties. They carry a deep sense of familial pride, and do not shy away from danger, even if others may view their actions as unnecessarily risky or impulsive."
+    },
+    "Match/QueueTips/Queue_Tip_256_BLB_Frogfolk": {
+        "oracleText": "Frogfolk of Valley are augurs, using their alignment with nature to divine the shifts in seasons and predict the movements of Calamity Beasts. This can lead them towards dramatic proclamations of doom, but it never prevents them from using their skills to help keep Valley and other animals safe.",
+        "translation": "Frogfolk of Valley are augurs, using their alignment with nature to divine the shifts in seasons and predict the movements of Calamity Beasts. This can lead them towards dramatic proclamations of doom, but it never prevents them from using their skills to help keep Valley and other animals safe."
     },
     "Match/QueueTips/Queue_Tip_26": {
         "oracleText": "If you're able to cast a spell without paying its mana cost, and there's an X in that cost, X must be zero.",
@@ -58114,6 +59018,10 @@
     "PlayBlade/Filters/Dynamic/ArenaOpenDescription": {
         "oracleText": "Play in either Best-of-1 or Best-of-3 Events to Qualify for Day 2!",
         "translation": "Play in either Best-of-1 or Best-of-3 Events to Qualify for Day 2!"
+    },
+    "PlayBlade/Filters/Dynamic/BLBLimitedTitle": {
+        "oracleText": "Bloomburrow  Limited",
+        "translation": "Bloomburrow  Limited"
     },
     "PlayBlade/Filters/Dynamic/ChromaticCubeDraftDescription": {
         "oracleText": "In the Chromatic Cube, not only are the decks splashy, but the colors are too!",
