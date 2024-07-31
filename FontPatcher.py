@@ -20,7 +20,7 @@ WINDOWS_FONT_RULES: dict[str:list] = {
     '{0}/Downloads/AssetBundle/Bucket_Card.FieldFont_0_142dcc4e-e1a9a14eeab7618b03e59e3e516373c4.mtga'.format(Config.WINDOWS_DATA_DIR): [
         'Font_Default', 'Font_Title', 'Font_Default_JP', 'Font_Title_JP'
     ],
-    '{0}/Downloads/AssetBundle/Fonts_d84f7990-6458c34da7a428e95360292284c0c069.mtga'.format(Config.WINDOWS_DATA_DIR): [
+    '{0}/Downloads/AssetBundle/Fonts_5d204f61-541e4bc40c1eefb9e0f5bbf8abab2dd5.mtga'.format(Config.WINDOWS_DATA_DIR): [
         'Font_Default_USERNAME', 'Font_Title_USERNAME'
     ]
 }
@@ -33,7 +33,7 @@ WINDOWS_MATERIAL_RULES: dict[str:list] = {
         Config.WINDOWS_DATA_DIR): [
             'Font_Title - DropShadow', 'Font_Title_JP - DropShadow'
     ],
-    '{0}/Downloads/AssetBundle/Fonts_d84f7990-6458c34da7a428e95360292284c0c069.mtga'.format(
+    '{0}/Downloads/AssetBundle/Fonts_5d204f61-541e4bc40c1eefb9e0f5bbf8abab2dd5.mtga'.format(
         Config.WINDOWS_DATA_DIR): [
             'Font_Default - DropShadow'
     ]
@@ -85,7 +85,7 @@ ANDROID_FONT_RULES: dict[str:list] = {
     '{0}/AssetBundle/Bucket_Card.FieldFont_0_680c8e56-e1a9a14eeab7618b03e59e3e516373c4.mtga'.format(Config.ANDROID_DATA_DIR): [
         'Font_Default', 'Font_Title', 'Font_Default_JP', 'Font_Title_JP'
     ],
-    '{0}/AssetBundle/Fonts_a4baf6a2-6458c34da7a428e95360292284c0c069.mtga'.format(Config.ANDROID_DATA_DIR): [
+    '{0}/AssetBundle/Fonts_543b6599-541e4bc40c1eefb9e0f5bbf8abab2dd5.mtga'.format(Config.ANDROID_DATA_DIR): [
         'Font_Title_USERNAME', 'Font_Default_USERNAME'
     ]
 }
@@ -105,7 +105,7 @@ ANDROID_MATERIAL_RULES: dict[str:list] = {
         Config.ANDROID_DATA_DIR): [
             'Font_Title - DropShadow', 'Font_Title_JP - DropShadow'
     ],
-    '{0}/AssetBundle/Fonts_a4baf6a2-6458c34da7a428e95360292284c0c069.mtga'.format(
+    '{0}/AssetBundle/Fonts_543b6599-541e4bc40c1eefb9e0f5bbf8abab2dd5.mtga'.format(
         Config.ANDROID_DATA_DIR): [
             'Font_Default - DropShadow'
     ]
