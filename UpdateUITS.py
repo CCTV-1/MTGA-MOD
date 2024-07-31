@@ -91,57 +91,35 @@ if __name__ == "__main__":
     locLibraryAsset = '{0}/resources.assets'.format(Config.WINDOWS_DATA_DIR)
     #locLibraryAsset = '{0}/resources.assets'.format(Config.MACOS_RES_DIR)
     #locLibraryAsset = '{0}/ea2265baff2fd5f49a88d2b9b9c85893'.format(Config.ANDROID_DATA_DIR)
-    monoBehaviorName = 'LocLibrary'
+    assetObjectName = 'LocLibraryData'
     assetEnv = UnityPy.load(locLibraryAsset)
     for obj in assetEnv.objects:
-        if obj.type != UnityPy.enums.ClassIDType.MonoBehaviour:
+        if obj.type != UnityPy.enums.ClassIDType.TextAsset:
             continue
 
         objData = obj.read()
-        if objData.name != monoBehaviorName:
+        if objData.name != assetObjectName:
             continue
-        if not objData.serialized_type.nodes:
-            # hook(or other method) AssetStudio::MonoBehaviourConverter::ConvertToTypeTree dump TypeTree::m_Nodes
-            # when AssetStudio choose target monoBehaviour,the function will be called
-            # then converter to UnityPy::helpers::TypeTreeHelper.py::read_typetree need format:
-            # [{
-            #    "level": 0,
-            #    "type": "MonoBehaviour",
-            #    "name": "Base",
-            #    "meta_flag": 0
-            # },
-            # {
-            #    "level": 1,
-            #    "type": "int",
-            #    "name": "m_SomeNode",
-            #    "meta_flag": 0
-            # }]
-            with open('{0}/LocLibraryAssetTypeTree.json'.format(Config.RESOUCE_DIR), 'r', encoding='UTF-8') as f:
-                typeTree = json.load(f)
-            objData.serialized_type.nodes = typeTree
 
-        objTree = objData.read_typetree()
-        if not objTree:
-            raise NotImplementedError('cannot found typetree in {0}:{1}'.format(
-                locLibraryAsset, monoBehaviorName))
+        LocJsonData = json.loads(objData.script)
+        for LocText in LocJsonData:
+            if not TSInfo.__contains__(LocText['Key']):
+                TSInfo[LocText['Key']] = {'oracleText': LocText['Translations'][0]
+                                          ['Translation'], 'translation': LocText['Translations'][0]['Translation']}
+            elif TSInfo[LocText['Key']]['oracleText'] != LocText['Translations'][0]['Translation']:
+                TSInfo[LocText['Key']] = {'oracleText': LocText['Translations'][0]
+                                          ['Translation'], 'translation': LocText['Translations'][0]['Translation']}
 
-        for LocText in objTree['_texts']:
-            if not TSInfo.__contains__(LocText['key']):
-                TSInfo[LocText['key']] = {'oracleText': LocText['translations'][0]
-                                          ['translation'], 'translation': LocText['translations'][0]['translation']}
-            elif TSInfo[LocText['key']]['oracleText'] != LocText['translations'][0]['translation']:
-                TSInfo[LocText['key']] = {'oracleText': LocText['translations'][0]
-                                          ['translation'], 'translation': LocText['translations'][0]['translation']}
-
-            enNode = copy.deepcopy(LocText['translations'][0])
+            enNode = copy.deepcopy(LocText['Translations'][0])
             zhNode = copy.deepcopy(enNode)
-            zhNode['lang'] = 'ja-JP'
-            zhNode['translation'] = TSInfo[LocText['key']]['translation']
-            LocText['translations'].clear()
-            LocText['translations'].append(enNode)
-            LocText['translations'].append(zhNode)
+            zhNode['Language'] = 'ja-JP'
+            zhNode['Translation'] = TSInfo[LocText['Key']]['translation']
+            LocText['Translations'].clear()
+            LocText['Translations'].append(enNode)
+            LocText['Translations'].append(zhNode)
 
-        obj.save_typetree(objTree)
+        objData.script = bytes(json.dumps(LocJsonData), encoding='utf-8')
+        objData.save()
 
     shutil.copy(locLibraryAsset, Config.BACKUP_DIR)
     assetName = pathlib.Path(locLibraryAsset).name
