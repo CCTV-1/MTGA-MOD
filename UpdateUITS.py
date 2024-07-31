@@ -90,7 +90,7 @@ if __name__ == "__main__":
 
     locLibraryAsset = '{0}/resources.assets'.format(Config.WINDOWS_DATA_DIR)
     #locLibraryAsset = '{0}/resources.assets'.format(Config.MACOS_RES_DIR)
-    #locLibraryAsset = '{0}/ea2265baff2fd5f49a88d2b9b9c85893'.format(Config.ANDROID_DATA_DIR)
+    #locLibraryAsset = '{0}/cdaf79762ab211d4a99121c50d2507bc'.format(Config.ANDROID_DATA_DIR)
     assetObjectName = 'LocLibraryData'
     assetEnv = UnityPy.load(locLibraryAsset)
     for obj in assetEnv.objects:
