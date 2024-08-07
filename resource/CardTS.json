@@ -931,6 +931,10 @@
         "oracleText": "Wrath of God",
         "translation": "神之愤怒"
     },
+    "404": {
+        "oracleText": "PHCT202",
+        "translation": "PHCT202"
+    },
     "411": {
         "oracleText": "Urza's Mine",
         "translation": "克撒的矿脉"
@@ -161941,7 +161945,7 @@
     },
     "760341": {
         "oracleText": "Choose target creature or planeswalker. You get {oEoEoE}, then you may pay any amount of {oE}. CARDNAME deals that much damage to that permanent.",
-        "translation": "选择目标生物或鹏洛客。你得到{oEoEoE}，然后你可以支付任意数量的{oE}。电流涌射对该永久物造成等量的伤害。"
+        "translation": "选择目标生物或鹏洛客。你得到{oEoEoE}，然后你可以支付任意数量的{oE}。CARDNAME对该永久物造成等量的伤害。"
     },
     "760342": {
         "oracleText": "Choose target creature or planeswalker. You get {oEoEoE}, then you may pay any amount of {oE}. Galvanic Discharge deals that much damage to that permanent.",
@@ -164426,10 +164430,6 @@
     "765848": {
         "oracleText": "Sacrifice a suspected creature.",
         "translation": "牺牲一个已遭疑的生物。"
-    },
-    "792057": {
-        "oracleText": "Discard two cards",
-        "translation": "弃两张牌"
     },
     "793324": {
         "oracleText": "Scrutiny of the Guildpact",
@@ -169834,10 +169834,6 @@
     "811941": {
         "oracleText": "Target an instant or sorcery card with mana value equal to the number of coin counters on {1, CardId}.",
         "translation": "指定一张法术力值等同于{1, CardId}上钱币指示物数量的瞬间或法术牌为目标。"
-    },
-    "811942": {
-        "oracleText": "Discard a nonland card",
-        "translation": "弃一张非地牌"
     },
     "811943": {
         "oracleText": "Sacrifice any number of nonland permanents.",
@@ -191382,5 +191378,49 @@
     "878728": {
         "oracleText": "PlaceholderSubType443",
         "translation": "PlaceholderSubType443"
+    },
+    "879582": {
+        "oracleText": "PHCT200",
+        "translation": "PHCT200"
+    },
+    "879583": {
+        "oracleText": "PHCT201",
+        "translation": "PHCT201"
+    },
+    "879584": {
+        "oracleText": "PHCT203",
+        "translation": "PHCT203"
+    },
+    "880831": {
+        "oracleText": "A-Galvanic Discharge",
+        "translation": "炼-电流涌射"
+    },
+    "880832": {
+        "oracleText": "Choose target creature or planeswalker. You get {oEoE}, then you may pay any amount of {oE}. CARDNAME deals that much damage to that permanent.",
+        "translation": "选择目标生物或鹏洛客。你得到{oEoE}，然后你可以支付任意数量的{oE}。CARDNAME对该永久物造成等量的伤害。"
+    },
+    "880833": {
+        "oracleText": "Choose target creature or planeswalker. You get {oEoE}, then you may pay any amount of {oE}. Galvanic Discharge deals that much damage to that permanent.",
+        "translation": "选择目标生物或鹏洛客。你得到{oEoE}，然后你可以支付任意数量的{oE}。电流涌射对该永久物造成等量的伤害。"
+    },
+    "880834": {
+        "oracleText": "A-Guide of Souls",
+        "translation": "炼-导灵僧"
+    },
+    "880835": {
+        "oracleText": "Whenever you attack, you may pay {oEoEoEoE}. When you do, put two +1/+1 counters and a flying counter on target attacking creature. It becomes an Angel in addition to its other types.",
+        "translation": "每当你攻击时，你可以支付{oEoEoEoE}。当你如此作时，在目标进行攻击的生物上放置两个+1/+1指示物和一个飞行指示物。它成为天使，且仍具有原本类别。"
+    },
+    "880836": {
+        "oracleText": "A-Ocelot Pride",
+        "translation": "炼-豹猫群"
+    },
+    "880938": {
+        "oracleText": "Put two +1/+1 counters and a flying counter on target attacking creature. It becomes an Angel in addition to its other types.",
+        "translation": "在目标进行攻击的生物上放置两个+1/+1指示物和一个飞行指示物。它成为天使，且仍具有原本类别。"
+    },
+    "880939": {
+        "oracleText": "Pay {oEoEoEoE}?",
+        "translation": "是否要支付{oEoEoEoE}？"
     }
 }

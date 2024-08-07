@@ -15643,6 +15643,10 @@
         "oracleText": "Treasure Constructed",
         "translation": "珍宝构筑"
     },
+    "Events/ArenaDirect_BLB_String": {
+        "oracleText": "This token denotes that you are eligible to receive a physical Bloomburrow Play Booster Box",
+        "translation": "This token denotes that you are eligible to receive a physical Bloomburrow Play Booster Box"
+    },
     "Events/ArenaDirect_MH3_String": {
         "oracleText": "This token denotes that you are eligible to receive a physical Modern Horizons 3 Play Booster Box",
         "translation": "This token denotes that you are eligible to receive a physical Modern Horizons 3 Play Booster Box"
@@ -17650,6 +17654,10 @@
     "Events/Event_Desc_April_Fools_2024": {
         "oracleText": "Happy April Fools' Day! Enjoy this silly, chaotic experience by playing <i> Golden Booster Sealed </i> with twelve boosters. Add basic lands to make a 40-card deck, then play against other players as much as you want!\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>",
         "translation": "愚人节快乐！ 玩带有 12 个补充包的 <i> 黄金补充包现开</i>，享受这种愚蠢而混乱的体验。 添加基本地以组成 40 张牌的牌组，然后随心所欲地与其他玩家对战！\n\n<b><color=\"red\">这是一个幻影活动。你所抓取的牌张不会添加到你的收藏当中。</color></b>"
+    },
+    "Events/Event_Desc_ArenaDirect_BLB_Sealed": {
+        "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win a physical Bloomburrow Play Booster Box delivered to you.\n\nThe format for this event is 6 packs of <i>Bloomburrow</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-BLB-Play-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win a physical Bloomburrow Play Booster Box delivered to you.\n\nThe format for this event is 6 packs of <i>Bloomburrow</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-BLB-Play-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaDirect_MH3_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\n Sign up for this event and get all 6 wins to win a physical Modern Horizons 3 Play Booster Box delivered to you.\n\n The format for this event is 6 packs of <i>Modern Horizons 3</i> Sealed with single-game matches. \n\n <b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-mh3-terms-and-conditions>here</link></u> for full details.</color></b>",
@@ -20786,6 +20794,10 @@
     "Events/Event_Title_April_Fools_2024": {
         "oracleText": "April Fools' Day Golden Sealed",
         "translation": "愚人节黄金现开"
+    },
+    "Events/Event_Title_ArenaDirect_BLB_Sealed": {
+        "oracleText": "Arena Direct - Sealed Bloomburrow",
+        "translation": "Arena Direct - Sealed Bloomburrow"
     },
     "Events/Event_Title_ArenaDirect_MH3_Sealed": {
         "oracleText": "Arena Direct - Sealed Modern Horizons 3",
@@ -25118,6 +25130,14 @@
     "Events/Tokens/ArenaDay2Singular": {
         "oracleText": "{quantity} Day Two Token",
         "translation": "{quantity}第二天门票"
+    },
+    "Events/Tokens/ArenaDirect_BLB_PLAYPlural": {
+        "oracleText": "{quantity} Bloomburrow Play Booster Boxes",
+        "translation": "{quantity} Bloomburrow Play Booster Boxes"
+    },
+    "Events/Tokens/ArenaDirect_BLB_PLAYSingular": {
+        "oracleText": "{quantity} Bloomburrow Play Booster Box",
+        "translation": "{quantity} Bloomburrow Play Booster Box"
     },
     "Events/Tokens/ArenaDirect_MH3_PLAYPlural": {
         "oracleText": "{quantity} Modern Horizons 3 Play Booster Boxes",
@@ -34610,6 +34630,10 @@
     "MainNav/EventRewards/Adventurous_Impulse": {
         "oracleText": "Adventurous Impulse Card Style",
         "translation": "「冒险冲动」卡牌样式"
+    },
+    "MainNav/EventRewards/ArenaDirect_BLB_PLAY": {
+        "oracleText": "{number1} Bloomburrow Play Booster Boxes",
+        "translation": "{number1} Bloomburrow Play Booster Boxes"
     },
     "MainNav/EventRewards/ArenaDirect_MH3_PLAY": {
         "oracleText": "{number1} Modern Horizons 3 Play Booster Box",
