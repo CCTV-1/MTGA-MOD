@@ -2,19 +2,19 @@
 
 ## 方案1：注入代码使游戏加载并使用自己制作的字体(以`MONO`构建的情况为例)
 ### 手动注入代码
-1. 使用`dnSpy`给`Assembly-CSharp.dll`插入类[ModManager](./ModManager.cs)。
+1. 使用`dnSpy`给`Core.dll`插入类[ModManager](./ModManager.cs)。
 2. 在合适的位置修改各处TMP_Text对象(直接或间接使用)的`font`成员为`ModManager.Instance.zhCNFont`([当前修补的位置](./0001-mod-patch.patch))。若想精细控制具体区域使用什么字体，只需要向`ModManager`类添加`TMP_FontAsset`类型的成员并加载相关字体，然后在设置`font`成员的各处改为想设置的字体(`ModManager.Instance.TitleFont`、`ModManager.Instance.RuleTextFont`之类的)即可。
-3. 使用与MTGA同样的Unity版本(`2021.3.14 f1`)制作字体。放于`ModManager`类要求的位置。
+3. 使用与MTGA同样的Unity版本(`2022.3.42 f1`)制作字体。放于`ModManager`类要求的位置。
 
 ### 自动注入代码
-1. 安装`.NET SDK`(当前的LTS版)，然后`cd`到`Assembly-CSharp.Mod.mm`文件夹。
-2. `dotnet build`编译生成`Assembly-CSharp.Mod.mm.dll`。
-3. 按[MonoMod](https://github.com/MonoMod/MonoMod)的说明生成修补后的`MONOMODDED_Assembly-CSharp.dll`备份原`Assembly-CSharp.dll`后将其改为`Assembly-CSharp.dll`即可。
+1. 安装`.NET SDK`(当前的LTS版)，然后`cd`到`Core.Mod.mm`文件夹。
+2. `dotnet build`编译生成`Core.Mod.mm.dll`。
+3. 按[MonoMod](https://github.com/MonoMod/MonoMod)的说明生成修补后的`MONOMODDED_Core.dll`备份原`Core.dll`后将其改为`Core.dll`即可。
 
 PS: 对于使用了使用`IL2CPP`构建的平台，如果`BepInEx`、`MelonLoader`以及其他类似物可用，可以使用他们提供的API在运行时替换字体和修补代码以减少工作量。
 
 ## 方案2：通过修改资源文件将游戏已有的字体替换为自己制作的字体
-1. 使用与MTGA同样的Unity版本(`2021.3.14 f1`)制作字体`msyh`(取个名字方便下文指代，不一定要是这个名字)。
+1. 使用与MTGA同样的Unity版本(`2022.3.42 f1`)制作字体`msyh`(取个名字方便下文指代，不一定要是这个名字)。
 2. 接下来以手动修改安卓端字体为例：于安卓安装包的`/assets/bin/Data/`(其他平台可能在其他路径或需安装好MTGA后在安装目录下查找)下找到`sharedassets0.assets`文件(有些平台会将`sharedassets0.assets`拆分，但是在使用`UABEA`编辑时`UABEA`会提示生成合并后的文件。操作好后用生成的`sharedassets0.assets`即可。无须再次拆分。)。
 3. 使用`Cpp2IL.exe`、`Il2CppDumper`等工具之一生成虚拟`dll`用于支持`UABEA`反序列`MonoBehaviour`对象(使用了`IL2CPP`构建的情况下才需要进行这一步)。
 4. 使用`UABEA`打开`sharedassets0.assets`，找到`Font_Default(MonoBehaviour)`和`Font_Default Atlas(Texture2D)`，将`Font_Default`给`Export Dump`。(之所以是Font_Default，是因为TMP_Setting记录的默认字体为Font_Default)

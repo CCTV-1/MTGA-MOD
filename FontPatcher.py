@@ -7,7 +7,7 @@ import UnityPy
 
 import Config
 
-GAME_UNITY_VERSION_STRING: str = "2021.3.14f1"
+GAME_UNITY_VERSION_STRING: str = "2022.3.42f1"
 
 # asset path : monoBehavior name list
 WINDOWS_FONT_RULES: dict[str:list] = {
@@ -17,10 +17,10 @@ WINDOWS_FONT_RULES: dict[str:list] = {
     '{0}/sharedassets0.assets'.format(Config.WINDOWS_DATA_DIR): [
         'Font_Default', 'Font_Title'
     ],
-    '{0}/Downloads/AssetBundle/Bucket_Card.FieldFont_0_142dcc4e-e1a9a14eeab7618b03e59e3e516373c4.mtga'.format(Config.WINDOWS_DATA_DIR): [
+    '{0}/Downloads/AssetBundle/Bucket_Card.FieldFont_0_e0ec3571-742c2a0970f279cf50aa208a41178ef4.mtga'.format(Config.WINDOWS_DATA_DIR): [
         'Font_Default', 'Font_Title', 'Font_Default_JP', 'Font_Title_JP'
     ],
-    '{0}/Downloads/AssetBundle/Fonts_5d204f61-541e4bc40c1eefb9e0f5bbf8abab2dd5.mtga'.format(Config.WINDOWS_DATA_DIR): [
+    '{0}/Downloads/AssetBundle/Fonts_5708ee82-636e1ebfc54dbe1ebbb5931bfb138891.mtga'.format(Config.WINDOWS_DATA_DIR): [
         'Font_Default_USERNAME', 'Font_Title_USERNAME'
     ]
 }
@@ -33,7 +33,7 @@ WINDOWS_MATERIAL_RULES: dict[str:list] = {
         Config.WINDOWS_DATA_DIR): [
             'Font_Title - DropShadow', 'Font_Title_JP - DropShadow'
     ],
-    '{0}/Downloads/AssetBundle/Fonts_5d204f61-541e4bc40c1eefb9e0f5bbf8abab2dd5.mtga'.format(
+    '{0}/Downloads/AssetBundle/Fonts_5708ee82-636e1ebfc54dbe1ebbb5931bfb138891.mtga'.format(
         Config.WINDOWS_DATA_DIR): [
             'Font_Default - DropShadow'
     ]
@@ -82,10 +82,10 @@ ANDROID_FONT_RULES: dict[str:list] = {
     '{0}/sharedassets0.assets'.format(Config.ANDROID_DATA_DIR): [
         'Font_Default', 'Font_Title'
     ],
-    '{0}/AssetBundle/Bucket_Card.FieldFont_0_680c8e56-e1a9a14eeab7618b03e59e3e516373c4.mtga'.format(Config.ANDROID_DATA_DIR): [
+    '{0}/AssetBundle/Bucket_Card.FieldFont_0_435575ec-742c2a0970f279cf50aa208a41178ef4.mtga'.format(Config.ANDROID_DATA_DIR): [
         'Font_Default', 'Font_Title', 'Font_Default_JP', 'Font_Title_JP'
     ],
-    '{0}/AssetBundle/Fonts_543b6599-541e4bc40c1eefb9e0f5bbf8abab2dd5.mtga'.format(Config.ANDROID_DATA_DIR): [
+    '{0}/AssetBundle/Fonts_ec2b53ea-636e1ebfc54dbe1ebbb5931bfb138891.mtga'.format(Config.ANDROID_DATA_DIR): [
         'Font_Title_USERNAME', 'Font_Default_USERNAME'
     ]
 }
@@ -105,7 +105,7 @@ ANDROID_MATERIAL_RULES: dict[str:list] = {
         Config.ANDROID_DATA_DIR): [
             'Font_Title - DropShadow', 'Font_Title_JP - DropShadow'
     ],
-    '{0}/AssetBundle/Fonts_543b6599-541e4bc40c1eefb9e0f5bbf8abab2dd5.mtga'.format(
+    '{0}/AssetBundle/Fonts_ec2b53ea-636e1ebfc54dbe1ebbb5931bfb138891.mtga'.format(
         Config.ANDROID_DATA_DIR): [
             'Font_Default - DropShadow'
     ]
