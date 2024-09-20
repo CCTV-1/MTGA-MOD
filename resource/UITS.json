@@ -145,11 +145,11 @@
     },
     "AbilityHanger/AbilityWord/Impending_Body": {
         "oracleText": "If you cast this spell for its impending cost, it enters with {numeral} time counters and isn't a creature until the last is removed. At the beginning of your end step, remove a time counter from it.",
-        "translation": "If you cast this spell for its impending cost, it enters with {numeral} time counters and isn't a creature until the last is removed. At the beginning of your end step, remove a time counter from it."
+        "translation": "如果你支付此咒语的隐现费用来施放之，则它进场时上面有{numeral}个计时指示物，且直到移去最后一个为止都不是生物。在你的结束步骤开始时，从其上移去一个计时指示物。"
     },
     "AbilityHanger/AbilityWord/Impending_Header": {
         "oracleText": "Impending {numeral}",
-        "translation": "Impending {numeral}"
+        "translation": "隐现{numeral}"
     },
     "AbilityHanger/AbilityWord/InstantSorcerySpellsCast": {
         "oracleText": "Currently {spellsCast} instant/sorcery cards.",
@@ -1585,11 +1585,11 @@
     },
     "AbilityHanger/Keyword/ManifestDread_Body": {
         "oracleText": "To Manifest Dread, look at the top two cards of your library. Put one onto the battlefield face down as a 2/2 creature and the other into your graveyard. Turn it face up any time for its mana cost if it's a creature card.",
-        "translation": "To Manifest Dread, look at the top two cards of your library. Put one onto the battlefield face down as a 2/2 creature and the other into your graveyard. Turn it face up any time for its mana cost if it's a creature card."
+        "translation": "显化惧象的流程是：检视你牌库顶的两张牌。将其中一张牌面朝下地放进战场，当成2/2生物，另一张则置入你的坟墓场。如果该牌是生物牌，则可随时支付其法术力费用使其翻回正面。"
     },
     "AbilityHanger/Keyword/ManifestDread_Title": {
         "oracleText": "Manifest Dread",
-        "translation": "Manifest Dread"
+        "translation": "显化惧象"
     },
     "AbilityHanger/Keyword/Manifest_Body": {
         "oracleText": "To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.",
@@ -2105,11 +2105,11 @@
     },
     "AbilityHanger/Keyword/Room_Body": {
         "oracleText": "You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.",
-        "translation": "You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it."
+        "translation": "你可以施放任意一边。该扇偏门会在战场上解锁。你可以支付已上锁之偏门的法术力费用来解锁之，但仅限法术时机。"
     },
     "AbilityHanger/Keyword/Room_Title": {
         "oracleText": "Room",
-        "translation": "Room"
+        "translation": "隔间"
     },
     "AbilityHanger/Keyword/RoyalRole_Body": {
         "oracleText": "Enchanted creature gets +1/+1 and has ward {o1}.",
@@ -2837,19 +2837,19 @@
     },
     "AbilityHanger/SpecialHangers/Delirium/Body_Empty": {
         "oracleText": "Your graveyard is empty.",
-        "translation": "Your graveyard is empty."
+        "translation": "你的坟墓场是空的。"
     },
     "AbilityHanger/SpecialHangers/Delirium/Body_MultipleTypes": {
         "oracleText": "You have the following card types in your graveyard:",
-        "translation": "You have the following card types in your graveyard:"
+        "translation": "你的坟墓场中有以下牌张类别："
     },
     "AbilityHanger/SpecialHangers/Delirium/Body_OneType": {
         "oracleText": "You have the following card type in your graveyard:",
-        "translation": "You have the following card type in your graveyard:"
+        "translation": "你的坟墓场中有以下牌张类别："
     },
     "AbilityHanger/SpecialHangers/Delirium/Title_Count": {
         "oracleText": "Delirium <#FF9C01>{0}/4</color>",
-        "translation": "Delirium <#FF9C01>{0}/4</color>"
+        "translation": "躁狂<#FF9C01>{0}/4</color>"
     },
     "AbilityHanger/SpecialHangers/EnteredBattlefieldThisTurn": {
         "oracleText": "Entered the Battlefield this turn.",
@@ -3105,11 +3105,11 @@
     },
     "AbilityHanger/SpecialHangers/RoomState/Body": {
         "oracleText": "{cardName} is locked.",
-        "translation": "{cardName} is locked."
+        "translation": "{cardName}已上锁。"
     },
     "AbilityHanger/SpecialHangers/RoomState/Header": {
         "oracleText": "Locked",
-        "translation": "Locked"
+        "translation": "已上锁"
     },
     "AbilityHanger/SpecialHangers/Satoru_Umezawa_Body": {
         "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"x2\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\">, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.",
@@ -3749,23 +3749,23 @@
     },
     "BattlePass/Rewards/DSK_Companion_Hover": {
         "oracleText": "Merry Beastie: Mastery Pass Level 40",
-        "translation": "Merry Beastie: Mastery Pass Level 40"
+        "translation": "快乐兽伴：精研通行证等级达到40"
     },
     "BattlePass/Rewards/DSK_Level1": {
         "oracleText": "Winter Avatar, Builder Beastie Companion, and Nashi, Searcher in the Dark Sleeve",
-        "translation": "Winter Avatar, Builder Beastie Companion, and Nashi, Searcher in the Dark Sleeve"
+        "translation": "温特头像、筑匠兽伴宠物和黯境寻客哪失牌套"
     },
     "BattlePass/Rewards/DSK_Pet2_And_Orb": {
         "oracleText": "1 Set Mastery Orb & Raucous Beastie Companion",
-        "translation": "1 Set Mastery Orb & Raucous Beastie Companion"
+        "translation": "1颗精研法珠 & 嘈杂兽伴宠物"
     },
     "BattlePass/Rewards/DSK_Pet3_And_Orb": {
         "oracleText": "1 Set Mastery Orb & Merry Beastie Companion",
-        "translation": "1 Set Mastery Orb & Merry Beastie Companion"
+        "translation": "1颗精研法珠 & 快乐兽伴宠物"
     },
     "BattlePass/Rewards/DSK_Pet_Hover": {
         "oracleText": "Merry Beastie: Mastery Pass Level 40",
-        "translation": "Merry Beastie: Mastery Pass Level 40"
+        "translation": "快乐兽伴：精研通行证等级达到40"
     },
     "BattlePass/Rewards/DraftToken": {
         "oracleText": "{count} Draft Token",
@@ -3981,19 +3981,19 @@
     },
     "BattlePass/Rewards/ICR_DSK_M": {
         "oracleText": "Duskmourn: House of Horror Mythic Card Reward",
-        "translation": "Duskmourn: House of Horror Mythic Card Reward"
+        "translation": "暮悲邸：鬼屋惊魂秘稀卡牌奖励"
     },
     "BattlePass/Rewards/ICR_DSK_M_Plural": {
         "oracleText": "{number1} Duskmourn: House of Horror Mythic Card Rewards",
-        "translation": "{number1} Duskmourn: House of Horror Mythic Card Rewards"
+        "translation": "{number1}张暮悲邸：鬼屋惊魂秘稀卡牌奖励"
     },
     "BattlePass/Rewards/ICR_DSKshort_M": {
         "oracleText": "Duskmourn Mythic Card Reward",
-        "translation": "Duskmourn Mythic Card Reward"
+        "translation": "暮悲邸秘稀卡牌奖励"
     },
     "BattlePass/Rewards/ICR_DSKshort_M_Plural": {
         "oracleText": "{number1} Duskmourn Mythic Card Rewards",
-        "translation": "{number1} Duskmourn Mythic Card Rewards"
+        "translation": "{number1}张暮悲邸秘稀卡牌奖励"
     },
     "BattlePass/Rewards/IKO_Level1": {
         "oracleText": "Lukka Avatar, Greatshark Sleeve, & Regal Cub",
@@ -9021,23 +9021,23 @@
     },
     "Decks/StoreDecks/DSK/Wave1/BrawlFreyaliseSkyshroudPartisan": {
         "oracleText": "Foundation Deck: Brawl Freyalise, Skyshroud Partisan",
-        "translation": "Foundation Deck: Brawl Freyalise, Skyshroud Partisan"
+        "translation": "基础套牌：争锋天帷守护妃雅丽兹"
     },
     "Decks/StoreDecks/DSK/Wave1/Brawl_EtaliPrimalConqueror": {
         "oracleText": "Champion Deck: Brawl Etali, Primal Conqueror",
-        "translation": "Champion Deck: Brawl Etali, Primal Conqueror"
+        "translation": "夺冠套牌：争锋始霸埃泰力"
     },
     "Decks/StoreDecks/DSK/Wave1/Brawl_GisaandGeralf": {
         "oracleText": "Starter Deck: Brawl Gisa and Geralf",
-        "translation": "Starter Deck: Brawl Gisa and Geralf"
+        "translation": "起始套牌：争锋基沙与基拉夫"
     },
     "Decks/StoreDecks/DSK/Wave1/Historic_GElves": {
         "oracleText": "Foundation Deck: Historic Monogreen Elves",
-        "translation": "Foundation Deck: Historic Monogreen Elves"
+        "translation": "基础套牌：史迹纯绿妖精"
     },
     "Decks/StoreDecks/DSK/Wave1/Historic_GUMerfolk": {
         "oracleText": "Foundation Deck: Historic Merfolk",
-        "translation": "Foundation Deck: Historic Merfolk"
+        "translation": "基础套牌：史迹人鱼"
     },
     "Decks/StoreDecks/Wave1/Brawl_RWRaiyuu": {
         "oracleText": "Foundation Deck: Brawl Raiyuu, Storm's Edge",
@@ -9561,11 +9561,11 @@
     },
     "DuelScene/Browsers/ManifestDread_ManaCost_Text": {
         "oracleText": "Manifest Dread {manaCost}",
-        "translation": "Manifest Dread {manaCost}"
+        "translation": "显化惧象{manaCost}"
     },
     "DuelScene/Browsers/ManifestDread_SubHeader": {
         "oracleText": "Choose a card to manifest as a face down 2/2 creature. If you choose a creature card you can turn it face up later for its mana cost.",
-        "translation": "Choose a card to manifest as a face down 2/2 creature. If you choose a creature card you can turn it face up later for its mana cost."
+        "translation": "选择一张牌当成牌面朝下的 2/2 生物以显化。如果你选择了生物牌，则可在之后支付其法术力费用使其翻回正面。"
     },
     "DuelScene/Browsers/Manifest_ManaCost_Text": {
         "oracleText": "Manifest {manaCost}",
@@ -10045,7 +10045,7 @@
     },
     "DuelScene/ClientPrompt/ChooseX_Sacrifice": {
         "oracleText": "Sacrifice {submitCount}",
-        "translation": "Sacrifice {submitCount}"
+        "translation": "牺牲{submitCount}"
     },
     "DuelScene/ClientPrompt/ChooseX_Value": {
         "oracleText": "X = {quantity}",
@@ -10277,11 +10277,11 @@
     },
     "DuelScene/ClientPrompt/Expropriate_Vote_Money": {
         "oracleText": "Money",
-        "translation": "Money"
+        "translation": "金钱"
     },
     "DuelScene/ClientPrompt/Expropriate_Vote_Time": {
         "oracleText": "Time",
-        "translation": "Time"
+        "translation": "时间"
     },
     "DuelScene/ClientPrompt/Forfeit_Match": {
         "oracleText": "Concede Match and Exit",
@@ -10301,7 +10301,7 @@
     },
     "DuelScene/ClientPrompt/LockRoom": {
         "oracleText": "Lock",
-        "translation": "Lock"
+        "translation": "上锁"
     },
     "DuelScene/ClientPrompt/OptionalAction_Reveal": {
         "oracleText": "Reveal",
@@ -10449,7 +10449,7 @@
     },
     "DuelScene/ClientPrompt/Sacrifice_Ability_Target_Confirm": {
         "oracleText": "Do you want to sacrifice the target of this ability?",
-        "translation": "Do you want to sacrifice the target of this ability?"
+        "translation": "你是否要牺牲此异能的目标？"
     },
     "DuelScene/ClientPrompt/Sacrifice_Pile_Number_Confirmation": {
         "oracleText": "Sacrifice Pile {pileNum}?",
@@ -10457,7 +10457,7 @@
     },
     "DuelScene/ClientPrompt/Sacrifice_Spell_Target_Confirm": {
         "oracleText": "Do you want to sacrifice the target of this spell?",
-        "translation": "Do you want to sacrifice the target of this spell?"
+        "translation": "你是否要牺牲此咒语的目标？"
     },
     "DuelScene/ClientPrompt/ScryEffectResultsEmote": {
         "oracleText": "{source}: {topCount} top, {bottomCount} bottom.",
@@ -10521,7 +10521,7 @@
     },
     "DuelScene/ClientPrompt/UnlockRoom": {
         "oracleText": "Unlock",
-        "translation": "Unlock"
+        "translation": "解锁"
     },
     "DuelScene/ClientPrompt/UntapTarget": {
         "oracleText": "Untap Target",
@@ -10881,7 +10881,7 @@
     },
     "DuelScene/Interaction/OptionalAction/Option_TakeDamage": {
         "oracleText": "Take Damage",
-        "translation": "Take Damage"
+        "translation": "受到伤害"
     },
     "DuelScene/Interaction/OptionalAction/Option_Untap": {
         "oracleText": "Untap",
@@ -11241,7 +11241,7 @@
     },
     "DuelScene/RuleText/UnlockRoomManaCost": {
         "oracleText": "Unlock: {cost}",
-        "translation": "Unlock: {cost}"
+        "translation": "解锁：{cost}"
     },
     "DuelScene/ScreenSpace/ManaPool/FromSnowSourceTooltip": {
         "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xS\"> Mana from a snow source",
@@ -13509,51 +13509,51 @@
     },
     "Emotes/DSK/Full/Phrase_DSK_Alive": {
         "oracleText": "It's alive! ALIVE!!",
-        "translation": "It's alive! ALIVE!!"
+        "translation": "它活了！活了！！"
     },
     "Emotes/DSK/Full/Phrase_DSK_Boo": {
         "oracleText": "BOO!",
-        "translation": "BOO!"
+        "translation": "吼！"
     },
     "Emotes/DSK/Full/Phrase_DSK_Door": {
         "oracleText": "Don't open that door!",
-        "translation": "Don't open that door!"
+        "translation": "别开那扇门！"
     },
     "Emotes/DSK/Full/Phrase_DSK_Groovy": {
         "oracleText": "Groovy!",
-        "translation": "Groovy!"
+        "translation": "绝妙！"
     },
     "Emotes/DSK/Full/Phrase_DSK_Run": {
         "oracleText": "Run...",
-        "translation": "Run..."
+        "translation": "快跑…"
     },
     "Emotes/DSK/Full/Phrase_DSK_WantGame": {
         "oracleText": "Want to play a game?",
-        "translation": "Want to play a game?"
+        "translation": "想玩个游戏？"
     },
     "Emotes/DSK/Mini/Phrase_DSK_Alive": {
         "oracleText": "It's alive!!",
-        "translation": "It's alive!!"
+        "translation": "它活了！"
     },
     "Emotes/DSK/Mini/Phrase_DSK_Boo": {
         "oracleText": "BOO!",
-        "translation": "BOO!"
+        "translation": "吼！"
     },
     "Emotes/DSK/Mini/Phrase_DSK_Door": {
         "oracleText": "Don't open that door!",
-        "translation": "Don't open that door!"
+        "translation": "别开那扇门！"
     },
     "Emotes/DSK/Mini/Phrase_DSK_Groovy": {
         "oracleText": "Groovy!",
-        "translation": "Groovy!"
+        "translation": "绝妙！"
     },
     "Emotes/DSK/Mini/Phrase_DSK_Run": {
         "oracleText": "Run...",
-        "translation": "Run..."
+        "translation": "快跑…"
     },
     "Emotes/DSK/Mini/Phrase_DSK_WantGame": {
         "oracleText": "Want to play a game?",
-        "translation": "Want to play a game?"
+        "translation": "想玩个游戏？"
     },
     "Emotes/MH3/Full/GreetDeath": {
         "oracleText": "Greet death with sword in hand.",
@@ -17953,7 +17953,7 @@
     },
     "Events/Event_Desc_ArenaDirect_DSK_Play_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win two physical Duskmourn: House of Horror Play Booster Boxes delivered to you.\n\nThe format for this event is 6 packs of <i>Duskmourn: House of Horror</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-BLB-Play-terms-and-conditions>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win two physical Duskmourn: House of Horror Play Booster Boxes delivered to you.\n\nThe format for this event is 6 packs of <i>Duskmourn: House of Horror</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-BLB-Play-terms-and-conditions>here</link></u> for full details.</color></b>"
+        "translation": "<size=150%><color=#e1a154>参加赛事，竞夺卡盒！</color></size>\n\n报名参加此赛事，赢得全部6胜就能获得两盒实体暮悲邸：鬼屋惊魂常规补充包邮寄到家。\n\n本赛事的赛制为6包补充包的<i>暮悲邸：鬼屋惊魂</i>BO1现开赛。\n\n<b><color=red>须年满18周岁方能参加。部分地区／地域不能参加本赛事。在法律禁止的地区无效。须创建或具现有威世智、DCI及i-Payout帐户方能领取奖金。完整详细信息，请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-BLB-Play-terms-and-conditions>此处</link></u>。</color></b>"
     },
     "Events/Event_Desc_ArenaDirect_LCI_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win a pair of The Lost Caverns of Ixalan Set Booster Box delivered to you.\n\nThe format for this event is 6 packs of <i>The Lost Caverns of Ixalan</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-LCI-terms-and-conditions>here</link></u> for full details.</color></b>",
@@ -17981,7 +17981,7 @@
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo1_20240817": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i>Duskmourn: House of Horror</i> Sealed with single-game matches. The Day 2 event will use two Traditional <i>Duskmourn: House of Horror</i>  Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is <i>Duskmourn: House of Horror</i> Sealed with single-game matches. The Day 2 event will use two Traditional <i>Duskmourn: House of Horror</i>  Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
+        "translation": "<size=150%><color=#e1a154>参加赛事，竞夺奖金！</color></size>\n\n报名参加此「第1天」赛事，赢得全部7胜就能获得参加「第2天」赛事角逐的资格。若在第2天赛事中取得优异成绩，更能够获得现金奖励！牌手参加第1天赛事的次数不设限制，但就算多次经第1天赢得资格，也只能参加一次第2天赛事。\n\n第1天的赛制为<i>暮悲邸：鬼屋惊魂</i>BO1现开赛，然后第2天的赛制为可更换备牌且牌手个别计时的<i>暮悲邸：鬼屋惊魂</i>BO3传统轮抽赛。若需协助，请点按<u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>此处</link></u>联系客户支持。\n\n<b><color=red>须年满18周岁方能参加。部分地区／地域不能参加本赛事。在法律禁止的地区无效。须创建或具现有威世智、DCI及i-Payout帐户方能领取奖金。完整详细信息，请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>此处</link></u>。</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo1_Alt": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Standard with single-game matches. The Day 2 event will use Traditional Standard with best-of-three matches using sideboards. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>",
@@ -17997,7 +17997,7 @@
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo3_20240817": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional <i>Duskmourn: House of Horror</i> Sealed with best-of-three matches using sideboards and individual timers. The Day 2 event will use two Traditional <i>Duskmourn: House of Horror</i> Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional <i>Duskmourn: House of Horror</i> Sealed with best-of-three matches using sideboards and individual timers. The Day 2 event will use two Traditional <i>Duskmourn: House of Horror</i> Drafts with best-of-three matches using sideboards and individual timers. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
+        "translation": "<size=150%><color=#e1a154>参加赛事，竞夺奖金！</color></size>\n\n报名参加此「第1天」赛事，赢得全部4胜就能获得参加「第2天」赛事角逐的资格。若在第2天赛事中取得优异成绩，更能够获得现金奖励！牌手参加第1天赛事的次数不设限制，但就算多次经第1天赢得资格，也只能参加一次第2天赛事。\n\n第1天的赛制为可更换备牌且牌手个别计时的<i>暮悲邸：鬼屋惊魂</i>BO3传统现开赛，然后第2天的赛制为可更换备牌且牌手个别计时的<i>暮悲邸：鬼屋惊魂</i>BO3传统轮抽赛。若需协助，请点按<u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>此处</link></u>联系客户支持。\n\n<b><color=red>须年满18周岁方能参加。部分地区／地域不能参加本赛事。在法律禁止的地区无效。须创建或具现有威世智、DCI及i-Payout帐户方能领取奖金。完整详细信息，请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>此处</link></u>。</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day1_Bo3_Alt": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 4 match wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for this Day 1 event is Traditional Standard with best-of-three matches using sideboards. The Day 2 event will also be Traditional Standard with best-of-three matches using sideboards. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>",
@@ -18029,7 +18029,7 @@
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftTwoA": {
         "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 4 wins in the first draft, this draft is double elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Duskmourn: House of Horror</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 4 wins in the first draft, this draft is double elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Duskmourn: House of Horror</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
+        "translation": "<size=150%><color=#e1a154>牌手必须在12 p.m. PT - 2 p.m. PT之间加入第二场轮抽，并在6 p.m. PT之前完成所有对局。由于你在第一场轮抽中获得4胜，因此本场轮抽你双败才会被淘汰。</size></color>\n\n此「第2天」赛事仅向经由「第1天」赛事获得参赛资格的牌手开放。\n\n第2天的赛制为<b>两场</b>可更换备牌且牌手个别计时的<i>暮悲邸：鬼屋惊魂</i>BO3传统轮抽赛。就算牌手多次经第1天赢得资格，也只能参加一次第2天赛事。\n\n若需协助，请点按<u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>此处</link></u>联系客户支持。\n\n<b><color=red>须年满18周岁方能参加。部分地区／地域不能参加本赛事。在法律禁止的地区无效。须创建或具现有威世智、DCI及i-Payout帐户方能领取奖金。完整详细信息，请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>此处</link></u>。</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftTwoA_KHM": {
         "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 4 wins in the first draft, this draft is double elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Kaldheim</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
@@ -18037,7 +18037,7 @@
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftTwoB": {
         "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 3 wins in the first draft, this draft is single elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Duskmourn: House of Horror</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 3 wins in the first draft, this draft is single elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Duskmourn: House of Horror</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>"
+        "translation": "<size=150%><color=#e1a154>牌手必须在12 p.m. PT - 2 p.m. PT之间加入第二场轮抽，并在6 p.m. PT之前完成所有对局。由于你在第一场轮抽中获得3胜，因此本场轮抽你单败就会被淘汰。</size></color>\n\n此「第2天」赛事仅向经由「第1天」赛事获得参赛资格的牌手开放。\n\n第2天的赛制为<b>两场</b>可更换备牌且牌手个别计时的<i>暮悲邸：鬼屋惊魂</i>BO3传统轮抽赛。就算牌手多次经第1天赢得资格，也只能参加一次第2天赛事。\n\n若需协助，请点按<u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>此处</link></u>联系客户支持。\n\n<b><color=red>须年满18周岁方能参加。部分地区／地域不能参加本赛事。在法律禁止的地区无效。须创建或具现有威世智、DCI及i-Payout帐户方能领取奖金。完整详细信息，请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>此处</link></u>。</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day2_DraftTwoB_KHM": {
         "oracleText": "<size=150%><color=#e1a154>Players must join the second draft between 12 p.m. PT - 2 p.m. PT and play their matches by 6 p.m. PT. Because you earned 3 wins in the first draft, this draft is single elimination.</size></color>\n\nThis second day of competition is open only to qualified players from Day 1.\n\nThe Day 2 format is <b>two</b> Traditional <i>Kaldheim</i> Drafts with best-of-three matches using sideboards and individual timers. Players may only enter once, even if they have qualified multiple times. \n\nFor assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b>",
@@ -18345,15 +18345,15 @@
     },
     "Events/Event_Desc_DSK_Premier_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Eerie Investigation </b> Search the House! Play lots of enchantments and unlock Rooms to power up your creatures and get around all the horrifying blockers the house might throw your way. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Eerie Domination </b> Live out your worst nightmares and share them with your opponent, unlocking Rooms and playing enchantments to kill off their creatures and seize control of the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>BR Serial Sacrifice</b> Want to slash through opposing creatures and your opponent with ease? Pay the price for strength by sacrificing your own creatures and old Rooms. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Delirious Rampage</b> Fill your deck with artifact and enchantment creatures (along with other card types), then start attacking early and often. Once you get four different card types into your graveyard, your cards power up. Now go for the jugular! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Survival </b> Utilize all of Duskmourn's tricks to power up your creatures and help them smash their way to safety. Find other ways to tap them and hide until the danger's past. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Cultic Reanimation</b> All hail Valgavoth! Slow your opponent down while you get enormous monsters into your graveyard and then perform the rituals to return them to life. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Room after Room </b> The House never ends! Trap your opponent going in circles as you unlock Rooms to build up control of more and more territory, then unleash the ghosts held within for a frightening finish. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Grinding Delirium</b> Prioritize getting a wide variety of card types, then gum up the board as you fill your graveyard with them. Once you've got four types, grind your opponent to dust by recycling what you've thrown away. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Childhood Fears</b> Fill your deck with toys and clowns that have 2 or less power and start attacking! Smash your opponents swiftly by clearing out their blockers and buffing your little creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Manifest Dread</b> Something's lurking in the shadows. Manifest face-down creatures and get them into combat, then surprise your opponent with their true forms to outsize the competition.",
-        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Eerie Investigation </b> Search the House! Play lots of enchantments and unlock Rooms to power up your creatures and get around all the horrifying blockers the house might throw your way. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Eerie Domination </b> Live out your worst nightmares and share them with your opponent, unlocking Rooms and playing enchantments to kill off their creatures and seize control of the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>BR Serial Sacrifice</b> Want to slash through opposing creatures and your opponent with ease? Pay the price for strength by sacrificing your own creatures and old Rooms. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Delirious Rampage</b> Fill your deck with artifact and enchantment creatures (along with other card types), then start attacking early and often. Once you get four different card types into your graveyard, your cards power up. Now go for the jugular! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Survival </b> Utilize all of Duskmourn's tricks to power up your creatures and help them smash their way to safety. Find other ways to tap them and hide until the danger's past. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Cultic Reanimation</b> All hail Valgavoth! Slow your opponent down while you get enormous monsters into your graveyard and then perform the rituals to return them to life. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Room after Room </b> The House never ends! Trap your opponent going in circles as you unlock Rooms to build up control of more and more territory, then unleash the ghosts held within for a frightening finish. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Grinding Delirium</b> Prioritize getting a wide variety of card types, then gum up the board as you fill your graveyard with them. Once you've got four types, grind your opponent to dust by recycling what you've thrown away. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Childhood Fears</b> Fill your deck with toys and clowns that have 2 or less power and start attacking! Smash your opponents swiftly by clearing out their blockers and buffing your little creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Manifest Dread</b> Something's lurking in the shadows. Manifest face-down creatures and get them into combat, then surprise your opponent with their true forms to outsize the competition."
+        "translation": "轮抽补充包在桌上轮转，你每次需从中选择一张牌。这些牌张将加入你的收藏，而你将使用它们和基本地来构组一副40张的套牌。不断进行对战，最后根据胜场数量赢得奖励！\n\n<b>真人轮抽～与7位其他牌手一同进行轮抽，有抽选时间限制。</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> 异景调查 </b> 搜索这座宅邸！多多使用结界和解锁房间来强化你的生物，绕过宅邸抛给你的所有恐怖阻挡者。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> 异景支配 </b> 体验你最糟糕的噩梦并与对手分享，解锁房间并使用结界来消灭他们的生物，夺取游戏的控制权。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>红黑连环牺牲</b> 想轻松斩杀对手的生物和对手吗？通过牺牲由你操控的生物和旧房间作为代价以换取力量。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>狂暴横行</b> 用神器和结界生物（以及其他牌张类别）填满你的套牌，然后尽早频繁地攻击。一旦你在坟墓场中拥有四种不同的牌张类别，你的牌就会被强化。现在，直击要害吧！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>生还</b>  利用暮悲邸的所有诡计来强化你的生物，帮助他们一路打破阻碍，安全脱身。找到其他方式来横置它们，躲避直到危险过去。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>邪教复生</b>  瓦伽沃万岁！减缓你的对手，同时将巨大的怪物送入你的坟墓场，然后进行仪式将它们复活。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> 房间接着房间 </b> 这座宅邸永无止境！当你解锁房间以建立对更多领地的控制时，让你的对手晕头转向，然后释放其中隐藏的幽灵，迎接恐怖终局。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> 碾磨躁狂 </b> 优先获得各种不同的牌张类别，当你用它们填满坟墓场时，阻碍场面威胁。一旦你拥有四种类别，通过循环利用你丢弃的东西，将对手碾为尘土。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> 童年阴影 </b> 用力量等于或小于2的玩具和小丑填满你的套牌，开始攻击！清除他们的阻挡者并强化你的小生物，迅速击败对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> 显化惧象 </b> 有东西潜伏在阴影中。显化牌面朝下的生物并让它们进入战斗，然后用它们的真面目给对手一个惊喜，扭转胜局。"
     },
     "Events/Event_Desc_DSK_Quick_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Eerie Investigation </b> Search the House! Play lots of enchantments and unlock Rooms to power up your creatures and get around all the horrifying blockers the house might throw your way. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Eerie Domination </b> Live out your worst nightmares and share them with your opponent, unlocking Rooms and playing enchantments to kill off their creatures and seize control of the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>BR Serial Sacrifice</b> Want to slash through opposing creatures and your opponent with ease? Pay the price for strength by sacrificing your own creatures and old Rooms. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Delirious Rampage</b> Fill your deck with artifact and enchantment creatures (along with other card types), then start attacking early and often. Once you get four different card types into your graveyard, your cards power up. Now go for the jugular! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Survival </b> Utilize all of Duskmourn's tricks to power up your creatures and help them smash their way to safety. Find other ways to tap them and hide until the danger's past. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Cultic Reanimation</b> All hail Valgavoth! Slow your opponent down while you get enormous monsters into your graveyard and then perform the rituals to return them to life. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Room after Room </b> The House never ends! Trap your opponent going in circles as you unlock Rooms to build up control of more and more territory, then unleash the ghosts held within for a frightening finish. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Grinding Delirium</b> Prioritize getting a wide variety of card types, then gum up the board as you fill your graveyard with them. Once you've got four types, grind your opponent to dust by recycling what you've thrown away. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Childhood Fears</b> Fill your deck with toys and clowns that have 2 or less power and start attacking! Smash your opponents swiftly by clearing out their blockers and buffing your little creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Manifest Dread</b> Something's lurking in the shadows. Manifest face-down creatures and get them into combat, then surprise your opponent with their true forms to outsize the competition.",
-        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Eerie Investigation </b> Search the House! Play lots of enchantments and unlock Rooms to power up your creatures and get around all the horrifying blockers the house might throw your way. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Eerie Domination </b> Live out your worst nightmares and share them with your opponent, unlocking Rooms and playing enchantments to kill off their creatures and seize control of the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>BR Serial Sacrifice</b> Want to slash through opposing creatures and your opponent with ease? Pay the price for strength by sacrificing your own creatures and old Rooms. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Delirious Rampage</b> Fill your deck with artifact and enchantment creatures (along with other card types), then start attacking early and often. Once you get four different card types into your graveyard, your cards power up. Now go for the jugular! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Survival </b> Utilize all of Duskmourn's tricks to power up your creatures and help them smash their way to safety. Find other ways to tap them and hide until the danger's past. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Cultic Reanimation</b> All hail Valgavoth! Slow your opponent down while you get enormous monsters into your graveyard and then perform the rituals to return them to life. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Room after Room </b> The House never ends! Trap your opponent going in circles as you unlock Rooms to build up control of more and more territory, then unleash the ghosts held within for a frightening finish. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Grinding Delirium</b> Prioritize getting a wide variety of card types, then gum up the board as you fill your graveyard with them. Once you've got four types, grind your opponent to dust by recycling what you've thrown away. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Childhood Fears</b> Fill your deck with toys and clowns that have 2 or less power and start attacking! Smash your opponents swiftly by clearing out their blockers and buffing your little creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Manifest Dread</b> Something's lurking in the shadows. Manifest face-down creatures and get them into combat, then surprise your opponent with their true forms to outsize the competition."
+        "translation": "轮抽补充包在桌上轮转，你每次需从中选择一张牌。这些牌张将加入你的收藏，而你将使用它们和基本地来构组一副40张的套牌。不断进行对战，最后根据胜场数量赢得奖励！\n\n人机轮抽～与AI一同进行轮抽，无需等待，没有抽选时间限制\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> 异景调查 </b> 搜索这座宅邸！多多使用结界和解锁房间来强化你的生物，绕过宅邸抛给你的所有恐怖阻挡者。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> 异景支配 </b> 体验你最糟糕的噩梦并与对手分享，解锁房间并使用结界来消灭他们的生物，夺取游戏的控制权。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>红黑连环牺牲</b> 想轻松斩杀对手的生物和对手吗？通过牺牲由你操控的生物和旧房间作为代价以换取力量。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>狂暴横行</b> 用神器和结界生物（以及其他牌张类别）填满你的套牌，然后尽早频繁地攻击。一旦你在坟墓场中拥有四种不同的牌张类别，你的牌就会被强化。现在，直击要害吧！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>生还</b>  利用暮悲邸的所有诡计来强化你的生物，帮助他们一路打破阻碍，安全脱身。找到其他方式来横置它们，躲避直到危险过去。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>邪教复生</b>  瓦伽沃万岁！减缓你的对手，同时将巨大的怪物送入你的坟墓场，然后进行仪式将它们复活。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> 房间接着房间 </b> 这座宅邸永无止境！当你解锁房间以建立对更多领地的控制时，让你的对手晕头转向，然后释放其中隐藏的幽灵，迎接恐怖终局。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> 碾磨躁狂 </b> 优先获得各种不同的牌张类别，当你用它们填满坟墓场时，阻碍场面威胁。一旦你拥有四种类别，通过循环利用你丢弃的东西，将对手碾为尘土。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> 童年阴影 </b> 用力量等于或小于2的玩具和小丑填满你的套牌，开始攻击！清除他们的阻挡者并强化你的小生物，迅速击败对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> 显化惧象 </b> 有东西潜伏在阴影中。显化牌面朝下的生物并让它们进入战斗，然后用它们的真面目给对手一个惊喜，扭转胜局。"
     },
     "Events/Event_Desc_DSK_Trad_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Eerie Investigation </b> Search the House! Play lots of enchantments and unlock Rooms to power up your creatures and get around all the horrifying blockers the house might throw your way. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Eerie Domination </b> Live out your worst nightmares and share them with your opponent, unlocking Rooms and playing enchantments to kill off their creatures and seize control of the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>BR Serial Sacrifice</b> Want to slash through opposing creatures and your opponent with ease? Pay the price for strength by sacrificing your own creatures and old Rooms. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Delirious Rampage</b> Fill your deck with artifact and enchantment creatures (along with other card types), then start attacking early and often. Once you get four different card types into your graveyard, your cards power up. Now go for the jugular! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Survival </b> Utilize all of Duskmourn's tricks to power up your creatures and help them smash their way to safety. Find other ways to tap them and hide until the danger's past. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Cultic Reanimation</b> All hail Valgavoth! Slow your opponent down while you get enormous monsters into your graveyard and then perform the rituals to return them to life. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Room after Room </b> The House never ends! Trap your opponent going in circles as you unlock Rooms to build up control of more and more territory, then unleash the ghosts held within for a frightening finish. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Grinding Delirium</b> Prioritize getting a wide variety of card types, then gum up the board as you fill your graveyard with them. Once you've got four types, grind your opponent to dust by recycling what you've thrown away. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Childhood Fears</b> Fill your deck with toys and clowns that have 2 or less power and start attacking! Smash your opponents swiftly by clearing out their blockers and buffing your little creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Manifest Dread</b> Something's lurking in the shadows. Manifest face-down creatures and get them into combat, then surprise your opponent with their true forms to outsize the competition.",
-        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Eerie Investigation </b> Search the House! Play lots of enchantments and unlock Rooms to power up your creatures and get around all the horrifying blockers the house might throw your way. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Eerie Domination </b> Live out your worst nightmares and share them with your opponent, unlocking Rooms and playing enchantments to kill off their creatures and seize control of the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>BR Serial Sacrifice</b> Want to slash through opposing creatures and your opponent with ease? Pay the price for strength by sacrificing your own creatures and old Rooms. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Delirious Rampage</b> Fill your deck with artifact and enchantment creatures (along with other card types), then start attacking early and often. Once you get four different card types into your graveyard, your cards power up. Now go for the jugular! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Survival </b> Utilize all of Duskmourn's tricks to power up your creatures and help them smash their way to safety. Find other ways to tap them and hide until the danger's past. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Cultic Reanimation</b> All hail Valgavoth! Slow your opponent down while you get enormous monsters into your graveyard and then perform the rituals to return them to life. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Room after Room </b> The House never ends! Trap your opponent going in circles as you unlock Rooms to build up control of more and more territory, then unleash the ghosts held within for a frightening finish. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Grinding Delirium</b> Prioritize getting a wide variety of card types, then gum up the board as you fill your graveyard with them. Once you've got four types, grind your opponent to dust by recycling what you've thrown away. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Childhood Fears</b> Fill your deck with toys and clowns that have 2 or less power and start attacking! Smash your opponents swiftly by clearing out their blockers and buffing your little creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Manifest Dread</b> Something's lurking in the shadows. Manifest face-down creatures and get them into combat, then surprise your opponent with their true forms to outsize the competition."
+        "translation": "轮抽补充包在桌上轮转，你每次需从中选择一张牌。这些牌张将加入你的收藏，而你将使用它们和基本地来构组一副40张的套牌。不断进行BO3对战，最后根据胜场数量赢得奖励！\n\n<b>真人轮抽～与7位其他牌手一同进行轮抽，有抽选时间限制。</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> 异景调查 </b> 搜索这座宅邸！多多使用结界和解锁房间来强化你的生物，绕过宅邸抛给你的所有恐怖阻挡者。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> 异景支配 </b> 体验你最糟糕的噩梦并与对手分享，解锁房间并使用结界来消灭他们的生物，夺取游戏的控制权。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>红黑连环牺牲</b> 想轻松斩杀对手的生物和对手吗？通过牺牲由你操控的生物和旧房间作为代价以换取力量。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>狂暴横行</b> 用神器和结界生物（以及其他牌张类别）填满你的套牌，然后尽早频繁地攻击。一旦你在坟墓场中拥有四种不同的牌张类别，你的牌就会被强化。现在，直击要害吧！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>生还</b>  利用暮悲邸的所有诡计来强化你的生物，帮助他们一路打破阻碍，安全脱身。找到其他方式来横置它们，躲避直到危险过去。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>邪教复生</b>  瓦伽沃万岁！减缓你的对手，同时将巨大的怪物送入你的坟墓场，然后进行仪式将它们复活。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> 房间接着房间 </b> 这座宅邸永无止境！当你解锁房间以建立对更多领地的控制时，让你的对手晕头转向，然后释放其中隐藏的幽灵，迎接恐怖终局。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> 碾磨躁狂 </b> 优先获得各种不同的牌张类别，当你用它们填满坟墓场时，阻碍场面威胁。一旦你拥有四种类别，通过循环利用你丢弃的东西，将对手碾为尘土。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> 童年阴影 </b> 用力量等于或小于2的玩具和小丑填满你的套牌，开始攻击！清除他们的阻挡者并强化你的小生物，迅速击败对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> 显化惧象 </b> 有东西潜伏在阴影中。显化牌面朝下的生物并让它们进入战斗，然后用它们的真面目给对手一个惊喜，扭转胜局。"
     },
     "Events/Event_Desc_Decathlon10_3Sets": {
         "oracleText": "<b>Welcome to the Arena Decathlon!</b> Come test your abilities in a variety of game modes for a chance at MTG Arena glory!\n\nEvent 10 is On the Edge: Bring a 60-card deck using only cards from <i>Streets of New Capenna</i>, <i>Dominaria United</i>, and <i>The Brothers' War</i>. If you reach maximum wins, you will earn this event's special token. Collect three tokens (or more!) from different events, and you can qualify for the Decathlon Finals! For full details, click <u><link=https://magic.wizards.com/en/news/mtg-arena/2023-arena-decathlon>here</link></u>.",
@@ -19525,7 +19525,7 @@
     },
     "Events/Event_Desc_MWM_BrawlBuilderChallenge_20241008": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\n\nThis week's event is Brawl Builder Challenge: choose one our potential Commanders and build a 100-card Brawl deck using any cards in MTG Arena!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.\n\nThe following Commanders are allowed for this event:\n\nAltanak, the Thrice-Called\nArabella, Abandoned Doll\nKaito, Bane of Nightmares\nKona, Rescue Beastie\nMarina Vendrell\nMarvin, Murderous Mimic\nNashi, Searcher in the Dark\nNiko, Light of Hope\nNorin, Swift Survivalist\nRip, Spawn Hunter\nThe Jolly Balloon Man\nThe Mindskinner\nThe Swarmweaver\nThe Wandering Rescuer\nToby, Beastie Befriender\nTyvar, the Pummeler\nValgavoth, Terror Eater\nVictor, Valgavoth's Seneschal\nWinter, Misanthropic Guide\nZimone, All-Questioning",
-        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\n\nThis week's event is Brawl Builder Challenge: choose one our potential Commanders and build a 100-card Brawl deck using any cards in MTG Arena!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.\n\nThe following Commanders are allowed for this event:\n\nAltanak, the Thrice-Called\nArabella, Abandoned Doll\nKaito, Bane of Nightmares\nKona, Rescue Beastie\nMarina Vendrell\nMarvin, Murderous Mimic\nNashi, Searcher in the Dark\nNiko, Light of Hope\nNorin, Swift Survivalist\nRip, Spawn Hunter\nThe Jolly Balloon Man\nThe Mindskinner\nThe Swarmweaver\nThe Wandering Rescuer\nToby, Beastie Befriender\nTyvar, the Pummeler\nValgavoth, Terror Eater\nVictor, Valgavoth's Seneschal\nWinter, Misanthropic Guide\nZimone, All-Questioning"
+        "translation": "欢迎来到周中万智牌！每周尝试一种不同的方式来游玩万智牌：竞技场！\n\n\n本周的活动是争锋构筑挑战赛：选择一张最有潜力的指挥官，使用万智牌：竞技场中任意可用牌张构筑一副100张的争锋套牌！\n\n点击<u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>此处</link></u>了解有关本次周中活动以及未来周中万智牌活动的更多详细信息 。\n\n以下指挥官在此赛事允用：\n\n三呼现身阿纳克\n遭弃娃娃阿拉贝拉\n梦魇之灾魁渡\n救星兽伴科纳\n玛丽娜樊卓尔\n残暴拟偶马文\n黯境寻客哪失\n希望之光尼科\n机敏求生家诺林\n孽种猎人莉普\n吹气文丑\n剥忆惧魇\n织群窝巢\n救星飘萍\n兽伴挚友托比\n猛击英杰泰瓦\n噬惧魔瓦伽沃\n瓦伽沃总管维克托\n愤世向导温特\n好问琦梦"
     },
     "Events/Event_Desc_MWM_BrawlPrecon": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Brawl Showcase: Take these Brawl preconstructed decks for a spin, and see if you find a new favorite! Change decks as often as you like.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
@@ -19553,7 +19553,7 @@
     },
     "Events/Event_Desc_MWM_DSKConstructed": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\n\nThis week's event is <i>Duskmourn: House of Horror</i> Constructed: Bring a 60-card deck with only cards from the most recent set and demonstrate your mastery of the new cards!\n\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
-        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\n\nThis week's event is <i>Duskmourn: House of Horror</i> Constructed: Bring a 60-card deck with only cards from the most recent set and demonstrate your mastery of the new cards!\n\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+        "translation": "欢迎来到周中万智牌！每周尝试一个不同的方式来游玩万智牌竞技场！\n\n\n本周活动是<i>暮悲邸：鬼屋惊魂</i>构筑赛：带上一副 60 张卡的套牌，其中仅包含最新系列的卡牌，并展示您对新牌的理解！\n\n\n了解有关本次万智牌周中活动以及即将举行的周中万智牌活动的更多详细信息 <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
     },
     "Events/Event_Desc_MWM_DisguiseDual": {
         "oracleText": "TBD",
@@ -20021,7 +20021,7 @@
     },
     "Events/Event_Desc_QualifierPlayIn_Bo1": {
         "oracleText": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom <i>Duskmourn: House of Horror</i> Sealed with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>\n\n<b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.</color></b>",
-        "translation": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is phantom <i>Duskmourn: House of Horror</i> Sealed with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>\n\n<b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.</color></b>"
+        "translation": "本月的资格赛周末即将到来！若你尚未获得参赛资格，便可来此入围赛做最后一搏，全取六胜便可赢得参赛资格。\n\n本入围赛的赛制为<i>暮悲邸：鬼屋惊魂</i>BO1幻影现开赛（牌手个别计时）。如果你赢得六胜，便可于下周回来参加资格赛周末！\n\n<size=100%><b><color=\"red\">须年满18周岁方能参加。部分地区／地域不能参加本赛事。在法律禁止的地区无效。须遵守其他附加条款及细则。欲知完整信息，请<u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>点击此处</u></link>。</color></b></size>\n\n<b><color=\"red\">此赛事为幻影赛事。你抽选的牌张不会加入你的收藏。</color></b>"
     },
     "Events/Event_Desc_QualifierPlayIn_Bo120231111": {
         "oracleText": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Historic with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
@@ -20285,7 +20285,7 @@
     },
     "Events/Event_Desc_Sealed_DSK": {
         "oracleText": "You'll receive 6 <i>Duskmourn: House of Horror</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Eerie Investigation </b> Search the House! Play lots of enchantments and unlock Rooms to power up your creatures and get around all the horrifying blockers the house might throw your way. \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Eerie Domination </b> Live out your worst nightmares and share them with your opponent, unlocking Rooms and playing enchantments to kill off their creatures and seize control of the game. \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>BR Serial Sacrifice</b> Want to slash through opposing creatures and your opponent with ease? Pay the price for strength by sacrificing your own creatures and old Rooms. \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Delirious Rampage</b> Fill your deck with artifact and enchantment creatures (along with other card types), then start attacking early and often. Once you get four different card types into your graveyard, your cards power up. Now go for the jugular! \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Survival </b> Utilize all of Duskmourn's tricks to power up your creatures and help them smash their way to safety. Find other ways to tap them and hide until the danger's past. \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Cultic Reanimation</b> All hail Valgavoth! Slow your opponent down while you get enormous monsters into your graveyard and then perform the rituals to return them to life. \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Room after Room </b> The House never ends! Trap your opponent going in circles as you unlock Rooms to build up control of more and more territory, then unleash the ghosts held within for a frightening finish. \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Grinding Delirium</b> Prioritize getting a wide variety of card types, then gum up the board as you fill your graveyard with them. Once you've got four types, grind your opponent to dust by recycling what you've thrown away. \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Childhood Fears</b> Fill your deck with toys and clowns that have 2 or less power and start attacking! Smash your opponents swiftly by clearing out their blockers and buffing your little creatures.\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Manifest Dread</b> Something's lurking in the shadows. Manifest face-down creatures and get them into combat, then surprise your opponent with their true forms to outsize the competition.",
-        "translation": "You'll receive 6 <i>Duskmourn: House of Horror</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Eerie Investigation </b> Search the House! Play lots of enchantments and unlock Rooms to power up your creatures and get around all the horrifying blockers the house might throw your way. \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Eerie Domination </b> Live out your worst nightmares and share them with your opponent, unlocking Rooms and playing enchantments to kill off their creatures and seize control of the game. \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>BR Serial Sacrifice</b> Want to slash through opposing creatures and your opponent with ease? Pay the price for strength by sacrificing your own creatures and old Rooms. \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Delirious Rampage</b> Fill your deck with artifact and enchantment creatures (along with other card types), then start attacking early and often. Once you get four different card types into your graveyard, your cards power up. Now go for the jugular! \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Survival </b> Utilize all of Duskmourn's tricks to power up your creatures and help them smash their way to safety. Find other ways to tap them and hide until the danger's past. \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Cultic Reanimation</b> All hail Valgavoth! Slow your opponent down while you get enormous monsters into your graveyard and then perform the rituals to return them to life. \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Room after Room </b> The House never ends! Trap your opponent going in circles as you unlock Rooms to build up control of more and more territory, then unleash the ghosts held within for a frightening finish. \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Grinding Delirium</b> Prioritize getting a wide variety of card types, then gum up the board as you fill your graveyard with them. Once you've got four types, grind your opponent to dust by recycling what you've thrown away. \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Childhood Fears</b> Fill your deck with toys and clowns that have 2 or less power and start attacking! Smash your opponents swiftly by clearing out their blockers and buffing your little creatures.\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Manifest Dread</b> Something's lurking in the shadows. Manifest face-down creatures and get them into combat, then surprise your opponent with their true forms to outsize the competition."
+        "translation": "你将得到6包<i>暮悲邸：鬼屋惊魂</i>补充包。这些牌张将加入你的收藏，而你将使用它们和基本地来构组一副40张的套牌。不断进行对战，最后根据胜场数量赢得奖励！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> 异景调查 </b> 搜索这座宅邸！多多使用结界和解锁房间来强化你的生物，绕过宅邸抛给你的所有恐怖阻挡者。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> 异景支配 </b> 体验你最糟糕的噩梦并与对手分享，解锁房间并使用结界来消灭他们的生物，夺取游戏的控制权。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>红黑连环牺牲</b> 想轻松斩杀对手的生物和对手吗？通过牺牲由你操控的生物和旧房间作为代价以换取力量。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>狂暴横行</b> 用神器和结界生物（以及其他牌张类别）填满你的套牌，然后尽早频繁地攻击。一旦你在坟墓场中拥有四种不同的牌张类别，你的牌就会被强化。现在，直击要害吧！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>生还</b>  利用暮悲邸的所有诡计来强化你的生物，帮助他们一路打破阻碍，安全脱身。找到其他方式来横置它们，躲避直到危险过去。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>邪教复生</b>  瓦伽沃万岁！减缓你的对手，同时将巨大的怪物送入你的坟墓场，然后进行仪式将它们复活。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> 房间接着房间 </b> 这座宅邸永无止境！当你解锁房间以建立对更多领地的控制时，让你的对手晕头转向，然后释放其中隐藏的幽灵，迎接恐怖终局。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> 碾磨躁狂 </b> 优先获得各种不同的牌张类别，当你用它们填满坟墓场时，阻碍场面威胁。一旦你拥有四种类别，通过循环利用你丢弃的东西，将对手碾为尘土。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> 童年阴影 </b> 用力量等于或小于2的玩具和小丑填满你的套牌，开始攻击！清除他们的阻挡者并强化你的小生物，迅速击败对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> 显化惧象 </b> 有东西潜伏在阴影中。显化牌面朝下的生物并让它们进入战斗，然后用它们的真面目给对手一个惊喜，扭转胜局。"
     },
     "Events/Event_Desc_Sealed_ELD": {
         "oracleText": "You'll receive 6 fourteen-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win",
@@ -20561,7 +20561,7 @@
     },
     "Events/Event_Desc_Trad_Sealed_DSK": {
         "oracleText": "You'll receive 6 <i>Duskmourn: House of Horror</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Eerie Investigation </b> Search the House! Play lots of enchantments and unlock Rooms to power up your creatures and get around all the horrifying blockers the house might throw your way. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Eerie Domination </b> Live out your worst nightmares and share them with your opponent, unlocking Rooms and playing enchantments to kill off their creatures and seize control of the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>BR Serial Sacrifice</b> Want to slash through opposing creatures and your opponent with ease? Pay the price for strength by sacrificing your own creatures and old Rooms. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Delirious Rampage</b> Fill your deck with artifact and enchantment creatures (along with other card types), then start attacking early and often. Once you get four different card types into your graveyard, your cards power up. Now go for the jugular! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Survival </b> Utilize all of Duskmourn's tricks to power up your creatures and help them smash their way to safety. Find other ways to tap them and hide until the danger's past. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Cultic Reanimation</b> All hail Valgavoth! Slow your opponent down while you get enormous monsters into your graveyard and then perform the rituals to return them to life. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Room after Room </b> The House never ends! Trap your opponent going in circles as you unlock Rooms to build up control of more and more territory, then unleash the ghosts held within for a frightening finish. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Grinding Delirium</b> Prioritize getting a wide variety of card types, then gum up the board as you fill your graveyard with them. Once you've got four types, grind your opponent to dust by recycling what you've thrown away. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Childhood Fears</b> Fill your deck with toys and clowns that have 2 or less power and start attacking! Smash your opponents swiftly by clearing out their blockers and buffing your little creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Manifest Dread</b> Something's lurking in the shadows. Manifest face-down creatures and get them into combat, then surprise your opponent with their true forms to outsize the competition.",
-        "translation": "You'll receive 6 <i>Duskmourn: House of Horror</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Eerie Investigation </b> Search the House! Play lots of enchantments and unlock Rooms to power up your creatures and get around all the horrifying blockers the house might throw your way. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Eerie Domination </b> Live out your worst nightmares and share them with your opponent, unlocking Rooms and playing enchantments to kill off their creatures and seize control of the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>BR Serial Sacrifice</b> Want to slash through opposing creatures and your opponent with ease? Pay the price for strength by sacrificing your own creatures and old Rooms. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Delirious Rampage</b> Fill your deck with artifact and enchantment creatures (along with other card types), then start attacking early and often. Once you get four different card types into your graveyard, your cards power up. Now go for the jugular! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Survival </b> Utilize all of Duskmourn's tricks to power up your creatures and help them smash their way to safety. Find other ways to tap them and hide until the danger's past. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Cultic Reanimation</b> All hail Valgavoth! Slow your opponent down while you get enormous monsters into your graveyard and then perform the rituals to return them to life. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Room after Room </b> The House never ends! Trap your opponent going in circles as you unlock Rooms to build up control of more and more territory, then unleash the ghosts held within for a frightening finish. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Grinding Delirium</b> Prioritize getting a wide variety of card types, then gum up the board as you fill your graveyard with them. Once you've got four types, grind your opponent to dust by recycling what you've thrown away. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Childhood Fears</b> Fill your deck with toys and clowns that have 2 or less power and start attacking! Smash your opponents swiftly by clearing out their blockers and buffing your little creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Manifest Dread</b> Something's lurking in the shadows. Manifest face-down creatures and get them into combat, then surprise your opponent with their true forms to outsize the competition."
+        "translation": "你将得到6包<i>暮悲邸：鬼屋惊魂</i>补充包。这些牌张将加入你的收藏，而你将使用它们和基本地来构组一副40张的套牌。不断进行BO3对战，最后根据胜场数量赢得奖励！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> 异景调查 </b> 搜索这座宅邸！多多使用结界和解锁房间来强化你的生物，绕过宅邸抛给你的所有恐怖阻挡者。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> 异景支配 </b> 体验你最糟糕的噩梦并与对手分享，解锁房间并使用结界来消灭他们的生物，夺取游戏的控制权。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>红黑连环牺牲</b> 想轻松斩杀对手的生物和对手吗？通过牺牲由你操控的生物和旧房间作为代价以换取力量。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>狂暴横行</b> 用神器和结界生物（以及其他牌张类别）填满你的套牌，然后尽早频繁地攻击。一旦你在坟墓场中拥有四种不同的牌张类别，你的牌就会被强化。现在，直击要害吧！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>生还</b>  利用暮悲邸的所有诡计来强化你的生物，帮助他们一路打破阻碍，安全脱身。找到其他方式来横置它们，躲避直到危险过去。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>邪教复生</b>  瓦伽沃万岁！减缓你的对手，同时将巨大的怪物送入你的坟墓场，然后进行仪式将它们复活。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> 房间接着房间 </b> 这座宅邸永无止境！当你解锁房间以建立对更多领地的控制时，让你的对手晕头转向，然后释放其中隐藏的幽灵，迎接恐怖终局。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> 碾磨躁狂 </b> 优先获得各种不同的牌张类别，当你用它们填满坟墓场时，阻碍场面威胁。一旦你拥有四种类别，通过循环利用你丢弃的东西，将对手碾为尘土。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> 童年阴影 </b> 用力量等于或小于2的玩具和小丑填满你的套牌，开始攻击！清除他们的阻挡者并强化你的小生物，迅速击败对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> 显化惧象 </b> 有东西潜伏在阴影中。显化牌面朝下的生物并让它们进入战斗，然后用它们的真面目给对手一个惊喜，扭转胜局。"
     },
     "Events/Event_Desc_Trad_Sealed_HBG": {
         "oracleText": "You'll receive 6 <i>Alchemy Horizons: Baldur's Gate</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Flicker your creatures in and out of play to produce as many triggers as possible!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Control the battlefield and sneak in creatures to deal damage to your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> The real treasure will be the treasure you make along the way.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> DRAGONS!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> The best offense is a good defense? Gain life so you can lower theirs!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Earn bonuses every time your creatures leave the battlefield.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> MORE DRAGONS!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> What's dead may never die... but may live again?\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> Prepare for trouble! Use the new Double Team mechanic to cast creatures with the same name.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> EVEN MORE DRAGONS!",
@@ -21149,7 +21149,7 @@
     },
     "Events/Event_Title_ArenaDirect_DSK_Play_Sealed": {
         "oracleText": "Arena Direct - Sealed Duskmourn: House of Horror",
-        "translation": "Arena Direct - Sealed Duskmourn: House of Horror"
+        "translation": "竞技场直邮赛 - 暮悲邸：鬼屋惊魂现开"
     },
     "Events/Event_Title_ArenaDirect_LCI_Sealed": {
         "oracleText": "Arena Direct - Sealed The Lost Caverns of Ixalan",
@@ -21537,19 +21537,19 @@
     },
     "Events/Event_Title_DSK_Premier_Draft": {
         "oracleText": "Premier Draft Duskmourn: House of Horror",
-        "translation": "Premier Draft Duskmourn: House of Horror"
+        "translation": "暮悲邸：鬼屋惊魂竞技轮抽"
     },
     "Events/Event_Title_DSK_Quick_Draft": {
         "oracleText": "Quick Draft Duskmourn: House of Horror",
-        "translation": "Quick Draft Duskmourn: House of Horror"
+        "translation": "暮悲邸：鬼屋惊魂快速轮抽"
     },
     "Events/Event_Title_DSK_Quick_Draft_Prerelease": {
         "oracleText": "Remote Prerelease: Duskmourn: House of Horror Quick Draft",
-        "translation": "Remote Prerelease: Duskmourn: House of Horror Quick Draft"
+        "translation": "远程售前赛：暮悲邸：鬼屋惊魂快速轮抽"
     },
     "Events/Event_Title_DSK_Trad_Draft": {
         "oracleText": "Traditional Draft Duskmourn: House of Horror",
-        "translation": "Traditional Draft Duskmourn: House of Horror"
+        "translation": "暮悲邸：鬼屋惊魂三盘轮抽"
     },
     "Events/Event_Title_Decathlon10_3Sets": {
         "oracleText": "Decathlon 10: On the Edge",
@@ -22785,7 +22785,7 @@
     },
     "Events/Event_Title_MWM_DSKConstructed": {
         "oracleText": "Midweek Magic: Duskmourn: House of Horror Constructed",
-        "translation": "Midweek Magic: Duskmourn: House of Horror Constructed"
+        "translation": "周中万智牌：暮悲邸：鬼屋惊魂构筑赛"
     },
     "Events/Event_Title_MWM_DisguiseDual": {
         "oracleText": "Midweek Magic: Disguise Dual",
@@ -23461,7 +23461,7 @@
     },
     "Events/Event_Title_Sealed_DSK": {
         "oracleText": "Sealed Duskmourn: House of Horror",
-        "translation": "Sealed Duskmourn: House of Horror"
+        "translation": "暮悲邸：鬼屋惊魂现开"
     },
     "Events/Event_Title_Sealed_ELD": {
         "oracleText": "Sealed Throne of Eldraine",
@@ -23793,7 +23793,7 @@
     },
     "Events/Event_Title_Trad_Sealed_DSK": {
         "oracleText": "Traditional Sealed Duskmourn: House of Horror",
-        "translation": "Traditional Sealed Duskmourn: House of Horror"
+        "translation": "暮悲邸：鬼屋惊魂三盘现开"
     },
     "Events/Event_Title_Trad_Sealed_HBG": {
         "oracleText": "Traditional Sealed Baldur's Gate",
@@ -24825,43 +24825,43 @@
     },
     "Events/Packets/SJMP_PacketName_DSK_Delirium": {
         "oracleText": "Delirium",
-        "translation": "Delirium"
+        "translation": "躁狂(Delirium)"
     },
     "Events/Packets/SJMP_PacketName_DSK_Eerie": {
         "oracleText": "Eerie",
-        "translation": "Eerie"
+        "translation": "异景(Eerie)"
     },
     "Events/Packets/SJMP_PacketName_DSK_Life": {
         "oracleText": "Life",
-        "translation": "Life"
+        "translation": "生命(Life)"
     },
     "Events/Packets/SJMP_PacketName_DSK_Manifest": {
         "oracleText": "Manifest",
-        "translation": "Manifest"
+        "translation": "显化(Manifest)"
     },
     "Events/Packets/SJMP_PacketName_DSK_Revives": {
         "oracleText": "Revives",
-        "translation": "Revives"
+        "translation": "复生(Revives)"
     },
     "Events/Packets/SJMP_PacketName_DSK_Room": {
         "oracleText": "Room",
-        "translation": "Room"
+        "translation": "隔间(Room)"
     },
     "Events/Packets/SJMP_PacketName_DSK_Sacrifice": {
         "oracleText": "Sacrifice",
-        "translation": "Sacrifice"
+        "translation": "牺牲(Sacrifice)"
     },
     "Events/Packets/SJMP_PacketName_DSK_Summoned": {
         "oracleText": "Summoned",
-        "translation": "Summoned"
+        "translation": "召唤(Summoned)"
     },
     "Events/Packets/SJMP_PacketName_DSK_Survival": {
         "oracleText": "Survival",
-        "translation": "Survival"
+        "translation": "生还(Survival)"
     },
     "Events/Packets/SJMP_PacketName_DSK_Teeny": {
         "oracleText": "Teeny",
-        "translation": "Teeny"
+        "translation": "小小(Teeny)"
     },
     "Events/Packets/SJMP_PacketName_Dead_and_Buried": {
         "oracleText": "Dead and Buried",
@@ -25953,7 +25953,7 @@
     },
     "Events/Tokens/QualifierDay1TokenDescription20241123": {
         "oracleText": "Join between 6am and 8am Pacific on November 23",
-        "translation": "Join between 6am and 8am Pacific on November 23"
+        "translation": "在太平洋时间11月23日的早上六点到八点加入"
     },
     "Events/Tokens/QualifierDay1TokenPlural": {
         "oracleText": "Qualifier Weekend Token",
@@ -26061,7 +26061,7 @@
     },
     "Events/Tokens/QualifierDay2TokenDescription20241124": {
         "oracleText": "Join between 6am and 8am Pacific on November 24",
-        "translation": "Join between 6am and 8am Pacific on November 24"
+        "translation": "在太平洋时间11月24日的早上六点到八点加入"
     },
     "Events/Tokens/QualifierDay2TokenPlural": {
         "oracleText": "Qualifier Day 2",
@@ -26393,7 +26393,7 @@
     },
     "General/Sets/DSK": {
         "oracleText": "Duskmourn: House of Horror",
-        "translation": "Duskmourn: House of Horror"
+        "translation": "暮悲邸：鬼屋惊魂"
     },
     "General/Sets/EA1": {
         "oracleText": "Explorer Anthology 1",
@@ -27317,7 +27317,7 @@
     },
     "MainNav/BattlePass/BattlePass_DSK": {
         "oracleText": "Duskmourn: House of Horror",
-        "translation": "Duskmourn: House of Horror"
+        "translation": "暮悲邸：鬼屋惊魂"
     },
     "MainNav/BattlePass/BattlePass_ELD": {
         "oracleText": "Eldraine",
@@ -27677,11 +27677,11 @@
     },
     "MainNav/BattlePass/MasteryListingTitle_DSK": {
         "oracleText": "Duskmourn: House of Horror Set Mastery",
-        "translation": "Duskmourn: House of Horror Set Mastery"
+        "translation": "暮悲邸：鬼屋惊魂精研通行证"
     },
     "MainNav/BattlePass/MasteryListingTitle_DSKshort": {
         "oracleText": "Duskmourn Set Mastery",
-        "translation": "Duskmourn Set Mastery"
+        "translation": "暮悲邸精研通行证"
     },
     "MainNav/BattlePass/MasteryListingTitle_HBG": {
         "oracleText": "Alchemy Horizons: Baldur's Gate Set Mastery",
@@ -27745,11 +27745,11 @@
     },
     "MainNav/BattlePass/Mastery_Header_DSK": {
         "oracleText": "Duskmourn: House of Horror Mastery",
-        "translation": "Duskmourn: House of Horror Mastery"
+        "translation": "暮悲邸：鬼屋惊魂精研通行证"
     },
     "MainNav/BattlePass/Mastery_Header_DSKshort": {
         "oracleText": "Duskmourn Mastery",
-        "translation": "Duskmourn Mastery"
+        "translation": "暮悲邸精研通行证"
     },
     "MainNav/BattlePass/Mastery_Header_HBG": {
         "oracleText": "Alchemy Horizons: Baldur's Gate Mastery Pass",
@@ -30905,11 +30905,11 @@
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_DSK_447754": {
         "oracleText": "Plots That Span Centuries Sleeve",
-        "translation": "Plots That Span Centuries Sleeve"
+        "translation": "伟大计划绵延千年牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_DSK_447844": {
         "oracleText": "Niko, Light of Hope Sleeve",
-        "translation": "Niko, Light of Hope Sleeve"
+        "translation": "希望之光尼科牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_DSK_448136": {
         "oracleText": "Inquisitive Glimmer Sleeve",
@@ -30917,27 +30917,27 @@
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_DSK_448620": {
         "oracleText": "Cathartic Parting Exquisite Sleeve",
-        "translation": "Cathartic Parting Exquisite Sleeve"
+        "translation": "感人分别精饰牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_DSK_449250": {
         "oracleText": "The Wandering Rescuer Sleeve",
-        "translation": "The Wandering Rescuer Sleeve"
+        "translation": "救星飘萍牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_DSK_449274": {
         "oracleText": "Tyvar, the Pummeler Sleeve",
-        "translation": "Tyvar, the Pummeler Sleeve"
+        "translation": "猛击英杰泰瓦牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_DSK_449277": {
         "oracleText": "Zimone, All-Questioning Sleeve",
-        "translation": "Zimone, All-Questioning Sleeve"
+        "translation": "好问琦梦牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_DSK_449281": {
         "oracleText": "Kaito, Bane of Nightmares Sleeve",
-        "translation": "Kaito, Bane of Nightmares Sleeve"
+        "translation": "梦魇克星魁渡牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_DSK_452306": {
         "oracleText": "Nashi, Searcher in the Dark Sleeve",
-        "translation": "Nashi, Searcher in the Dark Sleeve"
+        "translation": "黯境寻客哪失牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_DepthArt_NicolBolasDragonGod": {
         "oracleText": "Nicol Bolas, Dragon-God Exquisite Sleeve",
@@ -34281,7 +34281,7 @@
     },
     "MainNav/DeckFormat/DSK": {
         "oracleText": "Duskmourn: House of Horror Constructed",
-        "translation": "Duskmourn: House of Horror Constructed"
+        "translation": "暮悲邸：鬼屋惊魂构筑赛"
     },
     "MainNav/DeckFormat/DirectGame": {
         "oracleText": "Direct Game",
@@ -34393,7 +34393,7 @@
     },
     "MainNav/DeckFormat/HistoricBrawlWithAllowList_20241008": {
         "oracleText": "Midweek Magic: Brawl Builder",
-        "translation": "Midweek Magic: Brawl Builder"
+        "translation": "周中万智牌：争锋构筑"
     },
     "MainNav/DeckFormat/HistoricNBL": {
         "oracleText": "No-Ban Historic",
@@ -35301,43 +35301,43 @@
     },
     "MainNav/EventRewards/ArenaDirect_DSK_COLLDesc": {
         "oracleText": "This token denotes that you are eligible to receive a physical Duskmourn: House of Horror Collector Booster Box",
-        "translation": "This token denotes that you are eligible to receive a physical Duskmourn: House of Horror Collector Booster Box"
+        "translation": "此代币表示您有资格获得1盒实体暮悲邸：鬼屋惊魂聚珍补充包"
     },
     "MainNav/EventRewards/ArenaDirect_DSK_COLLPlural": {
         "oracleText": "{quantity} Duskmourn: House of Horror Collector Booster Boxes",
-        "translation": "{quantity} Duskmourn: House of Horror Collector Booster Boxes"
+        "translation": "{quantity}盒暮悲邸：鬼屋惊魂聚珍补充包"
     },
     "MainNav/EventRewards/ArenaDirect_DSK_COLLSingular": {
         "oracleText": "{quantity} Duskmourn: House of Horror Collector Booster Box",
-        "translation": "{quantity} Duskmourn: House of Horror Collector Booster Box"
+        "translation": "{quantity}盒暮悲邸：鬼屋惊魂聚珍补充包"
     },
     "MainNav/EventRewards/ArenaDirect_DSK_PLAY": {
         "oracleText": "{number1} Duskmourn: House of Horror Play Booster Boxes",
-        "translation": "{number1} Duskmourn: House of Horror Play Booster Boxes"
+        "translation": "{number1}盒暮悲邸：鬼屋惊魂常规补充包"
     },
     "MainNav/EventRewards/ArenaDirect_DSK_PLAYDesc": {
         "oracleText": "This token denotes that you are eligible to receive a physical Duskmourn: House of Horror Play Booster Box",
-        "translation": "This token denotes that you are eligible to receive a physical Duskmourn: House of Horror Play Booster Box"
+        "translation": "此代币表示您有资格获得1盒实体暮悲邸：鬼屋惊魂常规补充包"
     },
     "MainNav/EventRewards/ArenaDirect_DSK_PLAYPlural": {
         "oracleText": "{quantity} Duskmourn: House of Horror Play Booster Boxes",
-        "translation": "{quantity} Duskmourn: House of Horror Play Booster Boxes"
+        "translation": "{quantity}盒暮悲邸：鬼屋惊魂常规补充包"
     },
     "MainNav/EventRewards/ArenaDirect_DSK_PLAYSingular": {
         "oracleText": "{quantity} Duskmourn: House of Horror Play Booster Box",
-        "translation": "{quantity} Duskmourn: House of Horror Play Booster Box"
+        "translation": "{quantity}盒暮悲邸：鬼屋惊魂常规补充包"
     },
     "MainNav/EventRewards/ArenaDirect_FIABVegas2024_Desc": {
         "oracleText": "This token denotes that you are eligible to receive a physical Festival in a Box: Las Vegas 2024 box",
-        "translation": "This token denotes that you are eligible to receive a physical Festival in a Box: Las Vegas 2024 box"
+        "translation": "此代币表示您有资格获得1盒实体Festival in a Box: Las Vegas 2024产品"
     },
     "MainNav/EventRewards/ArenaDirect_FIABVegas2024_Plural": {
         "oracleText": "{quantity} Festival in a Box: Las Vegas 2024 boxes",
-        "translation": "{quantity} Festival in a Box: Las Vegas 2024 boxes"
+        "translation": "{quantity}盒Festival in a Box: Las Vegas 2024"
     },
     "MainNav/EventRewards/ArenaDirect_FIABVegas2024_Singular": {
         "oracleText": "{quantity} Festival in a Box: Las Vegas 2024 box",
-        "translation": "{quantity} Festival in a Box: Las Vegas 2024 box"
+        "translation": "{quantity}盒Festival in a Box: Las Vegas 2024"
     },
     "MainNav/EventRewards/ArenaDirect_LCI_SETDesc": {
         "oracleText": "This token denotes that you are eligible to receive a physical Lost Caverns of Ixalan Set Booster Box",
@@ -36537,19 +36537,19 @@
     },
     "MainNav/EventRewards/Sticker_DSK_Fiery_Defeat": {
         "oracleText": "Fiery Defeat Sticker Emote",
-        "translation": "Fiery Defeat Sticker Emote"
+        "translation": "火焰败退贴纸表情"
     },
     "MainNav/EventRewards/Sticker_DSK_Gremlin": {
         "oracleText": "Gremlin Belch Sticker Emote",
-        "translation": "Gremlin Belch Sticker Emote"
+        "translation": "怪灵打嗝贴纸表情"
     },
     "MainNav/EventRewards/Sticker_DSK_Meathook_Massacre": {
         "oracleText": "Meathook Massacre Sticker Emote",
-        "translation": "Meathook Massacre Sticker Emote"
+        "translation": "肉钩大屠杀贴纸表情"
     },
     "MainNav/EventRewards/Sticker_DSK_TV_GG": {
         "oracleText": "Haunted TV GG Sticker Emote",
-        "translation": "Haunted TV GG Sticker Emote"
+        "translation": "闹鬼电视GG贴纸表情"
     },
     "MainNav/EventRewards/Sticker_HBG_BlackDragon": {
         "oracleText": "Black Dragon Gloat Sticker Emote",
@@ -38209,19 +38209,19 @@
     },
     "MainNav/HomePage/Carousel/2024_41_0_Store_Desc": {
         "oracleText": "...for all these scary good deals in the Store!",
-        "translation": "...for all these scary good deals in the Store!"
+        "translation": "……店里的这些恐怖好货！"
     },
     "MainNav/HomePage/Carousel/2024_41_0_Store_Title": {
         "oracleText": "LOOK OUT!",
-        "translation": "LOOK OUT!"
+        "translation": "注意！"
     },
     "MainNav/HomePage/Carousel/2024_WizKidsPlushCharms_Wave1_Desc": {
         "oracleText": "Purchase an Arena-inspired Plush Charm and receive a sleeve and a discount on a matching companion in Arena!",
-        "translation": "Purchase an Arena-inspired Plush Charm and receive a sleeve and a discount on a matching companion in Arena!"
+        "translation": "购买一个竞技场风格的毛绒挂件，立刻获得牌套并享有竞技场中对应宠物的折扣！"
     },
     "MainNav/HomePage/Carousel/2024_WizKidsPlushCharms_Wave1_Title": {
         "oracleText": "Arena Plush Charms from WizKids!",
-        "translation": "Arena Plush Charms from WizKids!"
+        "translation": "来自WizKids的竞技场毛绒挂件！"
     },
     "MainNav/HomePage/Carousel/21_01_Store_Desc": {
         "oracleText": "Take part in the epic Saga of Kaldheim. New Boosters Packs, new Set Mastery Pass, new Showcase Bundles, and more!",
@@ -38865,11 +38865,11 @@
     },
     "MainNav/HomePage/Carousel/DSK_GuideToDuskmourn_Desc": {
         "oracleText": "Take a look behind the cursed doors of Duskmourn and click here to learn more about the House!",
-        "translation": "Take a look behind the cursed doors of Duskmourn and click here to learn more about the House!"
+        "translation": "一窥暮悲邸那诅咒之门的背后，点击这里了解更多关于这座宅邸的秘密！"
     },
     "MainNav/HomePage/Carousel/DSK_GuideToDuskmourn_Title": {
         "oracleText": "Planeswalker's Guide To Duskmourn",
-        "translation": "Planeswalker's Guide To Duskmourn"
+        "translation": "暮悲邸鹏洛客指南"
     },
     "MainNav/HomePage/Carousel/DSK_PreRelease_Title": {
         "oracleText": "Your first opportunity to play Duskmourn!",
@@ -38885,11 +38885,11 @@
     },
     "MainNav/HomePage/Carousel/DSK_SetMastery_Desc": {
         "oracleText": "You'll need more than your wits to survive in Duskmourn. Get packs, companions, and more from the Mastery!",
-        "translation": "You'll need more than your wits to survive in Duskmourn. Get packs, companions, and more from the Mastery!"
+        "translation": "仅靠智慧还不足以在暮悲邸中生存。获取补充包、宠物和更多来自精研通行证的物品！"
     },
     "MainNav/HomePage/Carousel/DSK_SetMastery_Title": {
         "oracleText": "Can You Escape the House?",
-        "translation": "Can You Escape the House?"
+        "translation": "你能逃出这座宅邸吗？"
     },
     "MainNav/HomePage/Carousel/DSK_StreamerEvent_Desc": {
         "oracleText": "Watch Sealed, Draft, and more as your favorite streamers face off against each other in head-to-head matches in a special streamer event Wednesday, September 18th!",
@@ -40045,11 +40045,11 @@
     },
     "MainNav/HomePage/Carousel/MC_Vegas_Announcement_2024_Desc": {
         "oracleText": "Join us for MagicCon: Las Vegas from October 25th - 27th for a weekend full of <i>Magic,</i> including #MTGWorlds, the 100K Limited Open, CommandZone, & more! Get your badge today.",
-        "translation": "Join us for MagicCon: Las Vegas from October 25th - 27th for a weekend full of <i>Magic,</i> including #MTGWorlds, the 100K Limited Open, CommandZone, & more! Get your badge today."
+        "translation": "加入我们，参加10月25日至27日在拉斯维加斯举行的MagicCon：Las Vegas，这是一个满是<i>万智牌</i>的周末，包括#MTGWorlds、100K限制公开赛、CommandZone等等，立即购买入场券！"
     },
     "MainNav/HomePage/Carousel/MC_Vegas_Announcement_2024_Title": {
         "oracleText": "Get ready to <i>Gather!</i>",
-        "translation": "Get ready to <i>Gather!</i>"
+        "translation": "做好准备<i>风云</i>齐聚！"
     },
     "MainNav/HomePage/Carousel/MC_Vegas_Announcement_Desc": {
         "oracleText": "Join us for MagicCon: Las Vegas from September 22-24 for a weekend full of Magic, including #MTGWorlds, the 100K Limited Open, CommandZone, & more! Get your badge today.",
@@ -43021,11 +43021,11 @@
     },
     "MainNav/Mailbox/2024_41_0_DSK_Announcement_Description": {
         "oracleText": "One, two, the Razorkin are coming for you.\n\nThree, four, don't open that door!\n\nfive, six, beware the gremlins tricks.\n\nseven, eight, your fears will dominate.\n\nnine, ten, looks like you're lost again!\n\nDon't get spooked! Take these 3 packs and basic lands to help you survive as long as you can!",
-        "translation": "One, two, the Razorkin are coming for you.\n\nThree, four, don't open that door!\n\nfive, six, beware the gremlins tricks.\n\nseven, eight, your fears will dominate.\n\nnine, ten, looks like you're lost again!\n\nDon't get spooked! Take these 3 packs and basic lands to help you survive as long as you can!"
+        "translation": "一呀么二，锐器人就要找来。\n\n三呀么四，打开偏门要出事！\n\n五呀么六，小心怪灵把你诱。\n\n七呀么八，心中恐惧再难压。\n\n九呀么十，暮悲邸里再迷失！\n\n莫要惊慌莫要怕，送上三包护身卡。基本地牌随卡发，助你生还命无涯。"
     },
     "MainNav/Mailbox/2024_41_0_DSK_Announcement_Title": {
         "oracleText": "Heeeeere's Duskmourn!",
-        "translation": "Heeeeere's Duskmourn!"
+        "translation": "暮~~悲~~邸~~来了！"
     },
     "MainNav/Mailbox/2024_AprilFoolsDay_Gift_Desc": {
         "oracleText": "APRIL FOOLS! Just kidding, there's no Card Warranty. There's also Nothing attached to this message. Don't bother clicking ‘Claim' below. \n\nSeriously, it's Nothing.",
@@ -43149,15 +43149,15 @@
     },
     "MainNav/Mailbox/DSK_FastFollow_PatchNotes_Title": {
         "oracleText": "2024.41.10 Patch Notes Are Here!",
-        "translation": "2024.41.10 Patch Notes Are Here!"
+        "translation": "2024.41.10 补丁说明在此！"
     },
     "MainNav/Mailbox/DSK_PatchNotes_Title": {
         "oracleText": "2024.41.0 Patch Notes Are Here!",
-        "translation": "2024.41.0 Patch Notes Are Here!"
+        "translation": "2024.41.0 补丁说明在此！"
     },
     "MainNav/Mailbox/DSK_Patch_Notes_Description": {
         "oracleText": "It might not be safe to peer around the corner, but we promise it's safe to check out these patch notes! Click the link below to get a glimmer into what's new to Arena.",
-        "translation": "It might not be safe to peer around the corner, but we promise it's safe to check out these patch notes! Click the link below to get a glimmer into what's new to Arena."
+        "translation": "也许窥探角落并不安全，但我们保证查看这些补丁说明绝对安全！点击下方链接，一瞥竞技场最新内容中的烁光体。"
     },
     "MainNav/Mailbox/DSK_Release_Notes_Title": {
         "oracleText": "Duskmourn Release Notes are Here!",
@@ -43957,7 +43957,7 @@
     },
     "MainNav/Mailbox/Weekly_Blog_Title": {
         "oracleText": "Arena Weekly Announcements are Here!",
-        "translation": "Arena Weekly Announcements are Here!"
+        "translation": "竞技场每周公告在这里！"
     },
     "MainNav/Mailbox/Y23ONE_PatchNotes_Description": {
         "oracleText": "Patch 2022.24.0 is here with some exciting updates, including Preferred Printing, bug fixes, and more! Check out more details at the link below!",
@@ -44281,7 +44281,7 @@
     },
     "MainNav/PackProgressMeter/CallToAction": {
         "oracleText": "Purchase {remaining} more <i>Duskmourn: House of Horror</i> packs to earn a Golden Pack.",
-        "translation": "Purchase {remaining} more <i>Duskmourn: House of Horror</i> packs to earn a Golden Pack."
+        "translation": "再购买{remaining}包 <i>暮悲邸：鬼屋惊魂</i> 补充包便可获得一个黄金补充包。"
     },
     "MainNav/PackProgressMeter/FullDetailsLink": {
         "oracleText": "Full Details",
@@ -44397,15 +44397,15 @@
     },
     "MainNav/PetNames/DSK_Mastery_1": {
         "oracleText": "Builder Beastie",
-        "translation": "Builder Beastie"
+        "translation": "筑匠兽伴"
     },
     "MainNav/PetNames/DSK_Mastery_2": {
         "oracleText": "Raucous Beastie",
-        "translation": "Raucous Beastie"
+        "translation": "嘈杂兽伴"
     },
     "MainNav/PetNames/DSK_Mastery_3": {
         "oracleText": "Merry Beastie",
-        "translation": "Merry Beastie"
+        "translation": "快乐兽伴"
     },
     "MainNav/PetNames/DSK_Preorder_1": {
         "oracleText": "Patches",
@@ -45501,11 +45501,11 @@
     },
     "MainNav/PrizeWall/Hideaway_Header_DSK": {
         "oracleText": "Duskmourn: House of Horror Mastery Emporium",
-        "translation": "Duskmourn: House of Horror Mastery Emporium"
+        "translation": "暮悲邸：鬼屋惊魂精研通行证商市"
     },
     "MainNav/PrizeWall/Hideaway_Header_DSKshort": {
         "oracleText": "Duskmourn Mastery Emporium",
-        "translation": "Duskmourn Mastery Emporium"
+        "translation": "暮悲邸精研通行证商市"
     },
     "MainNav/PrizeWall/Hideaway_Header_MH3": {
         "oracleText": "Psychic Frog's Horizon Hideaway",
@@ -46885,11 +46885,11 @@
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Winter_DSK_Bio": {
         "oracleText": "Trapped within the house's walls for over a decade, Winter lives a harsh, hardened life where trust is fleeting and altruism spells death. When the team entered Duskmourn, he agreed to help—not out of kindness, but the burning desire to escape at all costs.",
-        "translation": "Trapped within the house's walls for over a decade, Winter lives a harsh, hardened life where trust is fleeting and altruism spells death. When the team entered Duskmourn, he agreed to help—not out of kindness, but the burning desire to escape at all costs."
+        "translation": "被困在暮悲邸的墙内已逾十年，温特过着艰苦卓绝的生活，在那里信任稍纵即逝，而利他主义意味着死亡。当小队进入暮悲邸时，他同意提供帮助——不是出于善意，而是因为他那不惜一切代价逃离的强烈渴望。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Winter_DSK_Name": {
         "oracleText": "Winter",
-        "translation": "Winter"
+        "translation": "温特"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Wrenn_MID_Bio": {
         "oracleText": "Long ago, Wrenn absorbed a raging wildfire to protect an ancient forest. Those flames still burn within her and she must physically merge with especially strong trees to survive. Now, Wrenn and her latest symbiont, Seven, seek a way to quench her inner fire for good.",
@@ -46933,11 +46933,11 @@
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Zimone_DSK_Bio": {
         "oracleText": "Zimone is a brilliant prodigy from Strixhaven, called in to join the Duskmourn mission based on her expertise with Theoretical Extraplanar Spaces and proven combat skill. The mission is risky, but it's also the perfect opportunity for field research on her academic thesis.",
-        "translation": "Zimone is a brilliant prodigy from Strixhaven, called in to join the Duskmourn mission based on her expertise with Theoretical Extraplanar Spaces and proven combat skill. The mission is risky, but it's also the perfect opportunity for field research on her academic thesis."
+        "translation": "琦梦是一位来自斯翠海文的天才，她因在理论外时空空间方面的专长和过硬的战斗技巧被召集加入暮悲邸任务。虽然任务充满风险，但这也是她为学术论文进行实地研究的绝佳机会。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Zimone_DSK_Name": {
         "oracleText": "Zimone Wola",
-        "translation": "Zimone Wola"
+        "translation": "琦梦沃拉"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Zimone_STX_Bio": {
         "oracleText": "Zimone Wola is a young prodigy who was accepted to Strixhaven early. She is a whiz at many forms of mystical arts, but eventually gravitated to the mathematical magic of Quandrix. Dark forces have noticed her considerable talents...",
@@ -49281,7 +49281,7 @@
     },
     "MainNav/Settings/Graphics/QualitySetting_Distortion": {
         "oracleText": "Distortion Effects",
-        "translation": "Distortion Effects"
+        "translation": "失真效果"
     },
     "MainNav/Settings/Graphics/QualitySetting_FPSLimit": {
         "oracleText": "FPS Limit",
@@ -50869,99 +50869,99 @@
     },
     "MainNav/Store/Bundles/Bundle_DSK_FF_Lands_Desc": {
         "oracleText": "Blazemire Verge Card Style\nFloodfarm Verge Card Style\nGloomlake Verge Card Style\nHushwood Verge Card Style\nThornspire Verge Card Style",
-        "translation": "Blazemire Verge Card Style\nFloodfarm Verge Card Style\nGloomlake Verge Card Style\nHushwood Verge Card Style\nThornspire Verge Card Style"
+        "translation": "焰沼边陲卡牌样式\n泛地边陲卡牌样式\n幽湖边陲卡牌样式\n雾林边陲卡牌样式\n刺脊边陲卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_DSK_FF_Lands_Name": {
         "oracleText": "Borderless Dual Lands",
-        "translation": "Borderless Dual Lands"
+        "translation": "扩画双色地"
     },
     "MainNav/Store/Bundles/Bundle_DSK_FF_Monsters_Desc": {
         "oracleText": "Abhorrent Oculus Card Style\nDoomsday Excruciator Card Style\nHauntwoods Shrieker Card Style\nRazorkin Needlehead Card Style\nScreaming Nemesis Card Style\nSilent Hallcreeper Card Style\nUndead Sprinter Card Style",
-        "translation": "Abhorrent Oculus Card Style\nDoomsday Excruciator Card Style\nHauntwoods Shrieker Card Style\nRazorkin Needlehead Card Style\nScreaming Nemesis Card Style\nSilent Hallcreeper Card Style\nUndead Sprinter Card Style"
+        "translation": "恶心眼球怪卡牌样式\n末日拷打魔卡牌样式\n凶林啸鸣兽卡牌样式\n尖头锐器人卡牌样式\n尖鸣宿敌卡牌样式\n静寂伏廊怪卡牌样式\n不死疾步妖卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_DSK_FF_Monsters_Name": {
         "oracleText": "Borderless Mirror Monsters",
-        "translation": "Borderless Mirror Monsters"
+        "translation": "扩画镜像怪物"
     },
     "MainNav/Store/Bundles/Bundle_DSK_FF_Rooms_Desc": {
         "oracleText": "Central Elevator // Promising Stairs Card Style\nCharred Foyer // Warped Space Card Style\nDazzling Theater // Prop Room Card Style\nDollmaker's Shop // Porcelain Gallery Card Style\nFuneral Room // Awakening Hall Card Style\nMirror Room // Fractured Realm Card Style\nRestricted Office // Lecture Hall Card Style\nRoaring Furnace // Steaming Sauna Card Style\nUnholy Annex // Ritual Chamber Card Style\nWalk-In Closet // Forgotten Cellar Card Style",
-        "translation": "Central Elevator // Promising Stairs Card Style\nCharred Foyer // Warped Space Card Style\nDazzling Theater // Prop Room Card Style\nDollmaker's Shop // Porcelain Gallery Card Style\nFuneral Room // Awakening Hall Card Style\nMirror Room // Fractured Realm Card Style\nRestricted Office // Lecture Hall Card Style\nRoaring Furnace // Steaming Sauna Card Style\nUnholy Annex // Ritual Chamber Card Style\nWalk-In Closet // Forgotten Cellar Card Style"
+        "translation": "中央电梯 // 通天阶梯卡牌样式\n焦毁门厅 // 扭曲空间卡牌样式\n眩目剧院 // 道具备间卡牌样式\n人偶工房 // 瓷作展室卡牌样式\n葬仪室 // 觉醒厅卡牌样式\n饰镜房间 // 破碎境域卡牌样式\n禁闯丈室 // 演讲大厅卡牌样式\n热火熔炉间 // 蒸汽桑拿室卡牌样式\n不洁别馆 // 仪式会厅卡牌样式\n衣帽独间 // 遭忘地窖卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_DSK_FF_Rooms_Name": {
         "oracleText": "Borderless Rooms",
-        "translation": "Borderless Rooms"
+        "translation": "扩画隔间"
     },
     "MainNav/Store/Bundles/Bundle_DSK_HauntedTech1_Desc": {
         "oracleText": "Entity Tracker Card Style\nReluctant Role Model Card Style\nFear of Missing Out Card Style\nGhostly Dancers Card Style\nValgavoth's Lair Card Style\nThe Rollercrusher Ride Card Style",
-        "translation": "Entity Tracker Card Style\nReluctant Role Model Card Style\nFear of Missing Out Card Style\nGhostly Dancers Card Style\nValgavoth's Lair Card Style\nThe Rollercrusher Ride Card Style"
+        "translation": "怪体追踪人卡牌样式\n迫任榜样卡牌样式\n患失惧影卡牌样式\n魂魅舞者卡牌样式\n瓦伽沃巢穴卡牌样式\n夺命过山车卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_DSK_HauntedTech1_Name": {
         "oracleText": "Paranormal: Eerie Encounter",
-        "translation": "Paranormal: Eerie Encounter"
+        "translation": "异象：遭遇异景"
     },
     "MainNav/Store/Bundles/Bundle_DSK_HauntedTech2_Desc": {
         "oracleText": "Cursed Recording Card Style\nUnidentified Hovership Card Style\nGhost Vacuum Card Style\nChainsaw Card Style\nHedge Shredder Card Style\nMarina Vendrell's Grimoire Card Style",
-        "translation": "Cursed Recording Card Style\nUnidentified Hovership Card Style\nGhost Vacuum Card Style\nChainsaw Card Style\nHedge Shredder Card Style\nMarina Vendrell's Grimoire Card Style"
+        "translation": "受诅录影卡牌样式\n不明浮空船卡牌样式\n吸魂器卡牌样式\n链锯卡牌样式\n树篱伐木械卡牌样式\n玛丽娜樊卓尔的秘录卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_DSK_HauntedTech2_Name": {
         "oracleText": "Paranormal: Sinister Inventory",
-        "translation": "Paranormal: Sinister Inventory"
+        "translation": "异象：险恶库存"
     },
     "MainNav/Store/Bundles/Bundle_DSK_HauntedTech3_Desc": {
         "oracleText": "Peer Past the Veil Card Style\nInsidious Fungus Card Style\nOmnivorous Flytrap Card Style\nCome Back Wrong Card Style\nUnder the Skin Card Style\nDemonic Counsel Card Style\nBalustrade Wurm Card Style",
-        "translation": "Peer Past the Veil Card Style\nInsidious Fungus Card Style\nOmnivorous Flytrap Card Style\nCome Back Wrong Card Style\nUnder the Skin Card Style\nDemonic Counsel Card Style\nBalustrade Wurm Card Style"
+        "translation": "窥透幕帘卡牌样式\n隐伏真菌卡牌样式\n杂食捕蝇草卡牌样式\n恶念重返卡牌样式\n皮囊之下卡牌样式\n恶魔商议卡牌样式\n栏外亚龙卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_DSK_HauntedTech3_Name": {
         "oracleText": "Paranormal: What Lies Beneath",
-        "translation": "Paranormal: What Lies Beneath"
+        "translation": "异象：潜藏之下"
     },
     "MainNav/Store/Bundles/Bundle_DSK_HauntedTech4_Desc": {
         "oracleText": "Unstoppable Slasher Card Style\nUnwanted Remake Card Style\nWithering Torment Card Style\nWaltz of Rage Card Style\nValgavoth's Onslaught Card Style\nSplit Up Card Style\nMeathook Massacre II Card Style",
-        "translation": "Unstoppable Slasher Card Style\nUnwanted Remake Card Style\nWithering Torment Card Style\nWaltz of Rage Card Style\nValgavoth's Onslaught Card Style\nSplit Up Card Style\nMeathook Massacre II Card Style"
+        "translation": "难阻刀客卡牌样式\n违愿重塑卡牌样式\n凋萎折磨卡牌样式\n狂怒华尔滋卡牌样式\n瓦伽沃的猛攻卡牌样式\n四散分开卡牌样式\n肉钩大屠杀二卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_DSK_HauntedTech4_Name": {
         "oracleText": "Paranormal: Violent Ends",
-        "translation": "Paranormal: Violent Ends"
+        "translation": "异象：暴力终结"
     },
     "MainNav/Store/Bundles/Bundle_DSK_Lands_Desc": {
         "oracleText": "Full Art Land Plains\nFull Art Land Island\nFull Art Land Swamp\nFull Art Land Mountain\nFull Art Land Forest",
-        "translation": "Full Art Land Plains\nFull Art Land Island\nFull Art Land Swamp\nFull Art Land Mountain\nFull Art Land Forest"
+        "translation": "大画平原\n大画海岛\n大画沼泽\n大画山脉\n大画树林"
     },
     "MainNav/Store/Bundles/Bundle_DSK_Lands_Name": {
         "oracleText": "Full Art Manor Basic Lands",
-        "translation": "Full Art Manor Basic Lands"
+        "translation": "大画豪宅基本地"
     },
     "MainNav/Store/Bundles/Bundle_DSK_Phrases_Desc": {
         "oracleText": "\"BOO!\" Phase Emote\n\"Don't open that door!\" Phrase Emote\n\"Want to play a game?\" Phrase Emote\n\"It's alive! ALIVE!!\" Phrase Emote\n\"Groovy!\" Phrase Emote\n\"Run...\" Phrase Emote",
-        "translation": "\"BOO!\" Phase Emote\n\"Don't open that door!\" Phrase Emote\n\"Want to play a game?\" Phrase Emote\n\"It's alive! ALIVE!!\" Phrase Emote\n\"Groovy!\" Phrase Emote\n\"Run...\" Phrase Emote"
+        "translation": "「吼！」短语表情\n「别开那扇门！」短语表情\n「想玩个游戏？」短语表情\n「它活了！活了！！」短语表情\n「绝妙！」短语表情\n「快跑…」短语表情"
     },
     "MainNav/Store/Bundles/Bundle_DSK_Phrases_Name": {
         "oracleText": "Phrases Bundle",
-        "translation": "Phrases Bundle"
+        "translation": "短语套装"
     },
     "MainNav/Store/Bundles/Bundle_DSK_SHJP_Glimmers_Desc": {
         "oracleText": "Enduring Courage Card Style\nEnduring Curiosity Card Style\nEnduring Innocence Card Style\nEnduring Tenacity Card Style\nEnduring Vitality Card Style",
-        "translation": "Enduring Courage Card Style\nEnduring Curiosity Card Style\nEnduring Innocence Card Style\nEnduring Tenacity Card Style\nEnduring Vitality Card Style"
+        "translation": "永续勇气体卡牌样式\n永续好奇体卡牌样式\n永续无瑕体卡牌样式\n永续顽强体卡牌样式\n永续活力体卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_DSK_SHJP_Glimmers_Name": {
         "oracleText": "Showcase Japanese Glimmers",
-        "translation": "Showcase Japanese Glimmers"
+        "translation": "日本特色牌框：烁光体"
     },
     "MainNav/Store/Bundles/Bundle_DSK_SHJP_Overlords_Desc": {
         "oracleText": "Overlord of the Balemurk Card Style\nOverlord of the Boilerbilges Card Style\nOverlord of the Floodpits Card Style\nOverlord of the Hauntwoods Card Style\nOverlord of the Mistmoors Card Style",
-        "translation": "Overlord of the Balemurk Card Style\nOverlord of the Boilerbilges Card Style\nOverlord of the Floodpits Card Style\nOverlord of the Hauntwoods Card Style\nOverlord of the Mistmoors Card Style"
+        "translation": "灾沼霸主卡牌样式\n沸角霸主卡牌样式\n洪坑霸主卡牌样式\n凶林霸主卡牌样式\n雾原霸主卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_DSK_SHJP_Overlords_Name": {
         "oracleText": "Showcase Japanese Overlords",
-        "translation": "Showcase Japanese Overlords"
+        "translation": "日本特色牌框：霸主"
     },
     "MainNav/Store/Bundles/Bundle_DSK_Stickers_Desc": {
         "oracleText": "Fiery Defeat Sticker Emote\nGremlin Belch Sticker Emote\nMeathook Massacre Sticker Emote\nHaunted TV GG Sticker Emote",
-        "translation": "Fiery Defeat Sticker Emote\nGremlin Belch Sticker Emote\nMeathook Massacre Sticker Emote\nHaunted TV GG Sticker Emote"
+        "translation": "火焰败退贴纸表情\n怪灵打嗝贴纸表情\n肉钩大屠杀贴纸表情\n闹鬼电视GG贴纸表情"
     },
     "MainNav/Store/Bundles/Bundle_DSK_Stickers_Name": {
         "oracleText": "Sticker Bundle",
-        "translation": "Sticker Bundle"
+        "translation": "贴纸套装"
     },
     "MainNav/Store/Bundles/Bundle_Draft_WAR_Black_Description": {
         "oracleText": "Eternal Taskmaster Card Style\nOb Nixilis's Cruelty Card Style\nHerald of the Dreadhorde Card Style",
@@ -54545,43 +54545,43 @@
     },
     "MainNav/Store/Decks/Deck_DSK_Wave1_BrawlEtaliPrimalConqueror_Desc": {
         "oracleText": "Etali, Primal Conqueror Brawl Deck",
-        "translation": "Etali, Primal Conqueror Brawl Deck"
+        "translation": "始霸埃泰力争锋套牌"
     },
     "MainNav/Store/Decks/Deck_DSK_Wave1_BrawlEtaliPrimalConqueror_Name": {
         "oracleText": "Champion Deck: Brawl Etali, Primal Conqueror",
-        "translation": "Champion Deck: Brawl Etali, Primal Conqueror"
+        "translation": "夺冠套牌：争锋始霸埃泰力"
     },
     "MainNav/Store/Decks/Deck_DSK_Wave1_BrawlGisaandGeralf_Desc": {
         "oracleText": "Gisa and Geralf Brawl Deck",
-        "translation": "Gisa and Geralf Brawl Deck"
+        "translation": "基沙与基拉夫争锋套牌"
     },
     "MainNav/Store/Decks/Deck_DSK_Wave1_BrawlGisaandGeralf_Name": {
         "oracleText": "Starter Deck: Brawl Gisa and Geralf",
-        "translation": "Starter Deck: Brawl Gisa and Geralf"
+        "translation": "起始套牌：争锋基沙与基拉夫"
     },
     "MainNav/Store/Decks/Deck_DSK_Wave1_FreyaliseSkyshroudPartisan_Desc": {
         "oracleText": "Freyalise, Skyshroud Partisan Brawl Deck",
-        "translation": "Freyalise, Skyshroud Partisan Brawl Deck"
+        "translation": "天帷守护妃雅丽兹争锋套牌"
     },
     "MainNav/Store/Decks/Deck_DSK_Wave1_FreyaliseSkyshroudPartisan_Name": {
         "oracleText": "Foundation Deck: Brawl Freyalise, Skyshroud Partisan",
-        "translation": "Foundation Deck: Brawl Freyalise, Skyshroud Partisan"
+        "translation": "基础套牌：争锋天帷守护妃雅丽兹"
     },
     "MainNav/Store/Decks/Deck_DSK_Wave1_HistoricGElves_Desc": {
         "oracleText": "Historic Elves Deck",
-        "translation": "Historic Elves Deck"
+        "translation": "史迹妖精套牌"
     },
     "MainNav/Store/Decks/Deck_DSK_Wave1_HistoricGElves_Name": {
         "oracleText": "Foundation Deck: Historic Monogreen Elves",
-        "translation": "Foundation Deck: Historic Monogreen Elves"
+        "translation": "基础套牌：史迹纯绿妖精"
     },
     "MainNav/Store/Decks/Deck_DSK_Wave1_HistoricGUMerfolk_Desc": {
         "oracleText": "Historic Merfolk Deck",
-        "translation": "Historic Merfolk Deck"
+        "translation": "史迹人鱼套牌"
     },
     "MainNav/Store/Decks/Deck_DSK_Wave1_HistoricGUMerfolk_Name": {
         "oracleText": "Foundation Deck: Historic Merfolk",
-        "translation": "Foundation Deck: Historic Merfolk"
+        "translation": "基础套牌：史迹人鱼"
     },
     "MainNav/Store/Decks/Deck_Wave1_Brawl_RWRaiyuu_Desc": {
         "oracleText": "Raiyuu, Storm's Edge Brawl Deck",
@@ -57405,15 +57405,15 @@
     },
     "Match/QueueTips/Queue_Tip_257_DSK_SetCode": {
         "oracleText": "To show only cards from Duskmourn in the deckbuilder, type \"set:DSK\" into the search bar. Each set has a unique 3-letter-code.",
-        "translation": "To show only cards from Duskmourn in the deckbuilder, type \"set:DSK\" into the search bar. Each set has a unique 3-letter-code."
+        "translation": "要在组牌器中只显示出自暮悲邸系列的牌张，可在搜索栏中输入「set:DSK」。每个系列都有一个专属的三码代号。"
     },
     "Match/QueueTips/Queue_Tip_258_DSK_Mutemoor": {
         "oracleText": "Rooms in the Mutemoors are vast and echoing, lined with marble statues and white drapes that billow without wind. They typically make up the Attics, Foyers, Patios, or Chapels of the House.",
-        "translation": "Rooms in the Mutemoors are vast and echoing, lined with marble statues and white drapes that billow without wind. They typically make up the Attics, Foyers, Patios, or Chapels of the House."
+        "translation": "雾原中的房间宽广而回声萦绕，四周装饰着大理石雕像和无风也会飘动的白色帷幔。它们通常构成了宅邸的阁楼、大厅、露台或礼拜堂。"
     },
     "Match/QueueTips/Queue_Tip_259_DSK_Floodpit": {
         "oracleText": "Rooms in the Floodpits are filled with physics-defying juxtapositions. Water will hang from the ceiling or soak into the floors in libraries and meat lockers, making inconspicuous portals for glitch ghosts.",
-        "translation": "Rooms in the Floodpits are filled with physics-defying juxtapositions. Water will hang from the ceiling or soak into the floors in libraries and meat lockers, making inconspicuous portals for glitch ghosts."
+        "translation": "洪坑中的房间充满了违背物理法则的反差现象。水会悬挂在天花板上，或渗入图书馆和肉类储藏室的地板中，形成不起眼的入口，供花斑鬼魂穿行。"
     },
     "Match/QueueTips/Queue_Tip_26": {
         "oracleText": "If you're able to cast a spell without paying its mana cost, and there's an X in that cost, X must be zero.",
@@ -57421,35 +57421,35 @@
     },
     "Match/QueueTips/Queue_Tip_260_DSK_Balemurk": {
         "oracleText": "It's said that the path to Valgavoth's lair is somewhere in the Balemurk, but it's nearly impossible to find through all the rotting floorboards and shifting shadows. Basements, bedrooms, crypts, and catacombs are all places within the Balemurk's septic domain.",
-        "translation": "It's said that the path to Valgavoth's lair is somewhere in the Balemurk, but it's nearly impossible to find through all the rotting floorboards and shifting shadows. Basements, bedrooms, crypts, and catacombs are all places within the Balemurk's septic domain."
+        "translation": "据说通往瓦伽沃巢穴的道路位于灾沼的某处，但由于腐烂的地板和变幻的阴影，几乎难以找到。地下室、卧室、墓穴和陵墓都是灾沼这一腐败领域中的场所。"
     },
     "Match/QueueTips/Queue_Tip_261_DSK_Boilerbilge": {
         "oracleText": "The Boilerbilges have some of the most treacherous terrain the House, full of suffocating heat, jagged drops, and vents of fire. Kitchens, furnace rooms, and dining rooms are all prone to destructive earthquakes and eruptions of fire in the Boilerbilges.",
-        "translation": "The Boilerbilges have some of the most treacherous terrain the House, full of suffocating heat, jagged drops, and vents of fire. Kitchens, furnace rooms, and dining rooms are all prone to destructive earthquakes and eruptions of fire in the Boilerbilges."
+        "translation": "沸角拥有宅邸中最危险的地形，充满令人窒息的高温、陡峭的落差和喷射的火焰。厨房、熔炉室和餐厅在沸角中都容易遭受破坏性的地震和火焰喷发。"
     },
     "Match/QueueTips/Queue_Tip_262_DSK_Hauntwood": {
         "oracleText": "The line between interior and exterior blends most in the Hauntwoods. Vegetation invades gyms, greenhouses, and conservatories, choking the structure of the house with twisting hedges, fog, and overgrown plants.",
-        "translation": "The line between interior and exterior blends most in the Hauntwoods. Vegetation invades gyms, greenhouses, and conservatories, choking the structure of the house with twisting hedges, fog, and overgrown plants."
+        "translation": "在凶林中，内外的界限最为模糊。植物侵入了健身房、温室和音乐厅，扭曲的树篱、浓雾和疯长的植物侵蚀了宅邸的结构。"
     },
     "Match/QueueTips/Queue_Tip_263_DSK_ValgavothLair": {
         "oracleText": "Deep within the House is an underground chamber where the demon Valgavoth resides. From there he weaves his way throughout the rest of the House, tormenting survivors and plotting how to extend his reaches into the rest of the Multiverse.",
-        "translation": "Deep within the House is an underground chamber where the demon Valgavoth resides. From there he weaves his way throughout the rest of the House, tormenting survivors and plotting how to extend his reaches into the rest of the Multiverse."
+        "translation": "在宅邸的深处，有一个地下密室，恶魔瓦伽沃就栖息在那里。他从那里暗中游走于宅邸的各个角落，折磨求生者，并设谋将他的触手延伸至整个多重宇宙。"
     },
     "Match/QueueTips/Queue_Tip_264_DSK_Harrowing": {
         "oracleText": "A Harrowing in the House occurs when the demon Valgavoth molts into a new body. This molting causes a surge of malevolence that creates a heightened bloodlust and paranoia in the various entities in the House.",
-        "translation": "A Harrowing in the House occurs when the demon Valgavoth molts into a new body. This molting causes a surge of malevolence that creates a heightened bloodlust and paranoia in the various entities in the House."
+        "translation": "当恶魔瓦伽沃蜕变为新的躯体时，宅邸内便会进入搅魂期。这次蜕变会引发一股强烈的恶意，使宅邸中的各种存在变得更加嗜血和偏执。"
     },
     "Match/QueueTips/Queue_Tip_265_DSK_HowToSurvive": {
         "oracleText": "In order to stay alive, survivors on Duskmourn will rig together tools to protect them. These can be anything from improvised weaponry to devices that help monitor activity in the house. Despite these tools, survivors are often left with nothing but their wits to protect them.",
-        "translation": "In order to stay alive, survivors on Duskmourn will rig together tools to protect them. These can be anything from improvised weaponry to devices that help monitor activity in the house. Despite these tools, survivors are often left with nothing but their wits to protect them."
+        "translation": "为了活下去，暮悲邸中的求生者会拼凑出各种工具来保护自己。这些工具可以是简易武器，也可以是帮助监测宅邸内活动的装置。尽管有这些工具，求生者通常还是只能依靠智慧来保护自己。"
     },
     "Match/QueueTips/Queue_Tip_266_DSK_CultOfValgavoth": {
         "oracleText": "The Cult of Valgavoth is a group of fanatics that promote Valgavoth's glory and tend to the House. Enough time in the cult hollows them out of all emotion, leaving them empty husks that desire only to feed the House.",
-        "translation": "The Cult of Valgavoth is a group of fanatics that promote Valgavoth's glory and tend to the House. Enough time in the cult hollows them out of all emotion, leaving them empty husks that desire only to feed the House."
+        "translation": "瓦伽沃教团是一群狂热的信徒，他们宣扬瓦伽沃的荣耀并照料宅邸。长时间待在教团中会使他们情感尽失，最终变成只渴望供宅邸进食的空壳。"
     },
     "Match/QueueTips/Queue_Tip_267_DSK_Glimmer": {
         "oracleText": "Glimmers are physical manifestations of the survivor's hope and will to live. They protect survivors from succumbing to the House, even if the Glimmer and their survivor get separated.",
-        "translation": "Glimmers are physical manifestations of the survivor's hope and will to live. They protect survivors from succumbing to the House, even if the Glimmer and their survivor get separated."
+        "translation": "烁光体是求生者希望与生存意志的实体具现。即使烁光体与它们的求生者分离，它们仍能保护求生者不屈服于宅邸。"
     },
     "Match/QueueTips/Queue_Tip_27": {
         "oracleText": "Your creatures can attack your opponent or their planeswalkers. When you click a creature to attack with it, click the planeswalker or the opponent to decide what they're attacking.",
@@ -60357,7 +60357,7 @@
     },
     "PlayBlade/Filters/Dynamic/BLBLimitedTitle": {
         "oracleText": "Bloomburrow Limited",
-        "translation": "Bloomburrow Limited"
+        "translation": "班隆洛限制赛"
     },
     "PlayBlade/Filters/Dynamic/ChromaticCubeDraftDescription": {
         "oracleText": "In the Chromatic Cube, not only are the decks splashy, but the colors are too!",
@@ -60373,7 +60373,7 @@
     },
     "PlayBlade/Filters/Dynamic/DSKLimitedTitle": {
         "oracleText": "Duskmourn: House of Horror Limited",
-        "translation": "Duskmourn: House of Horror Limited"
+        "translation": "暮悲邸：鬼屋惊魂限制赛"
     },
     "PlayBlade/Filters/Dynamic/DiscoverCubeDraftDescription": {
         "oracleText": "Draft the Discover Cube!",
