@@ -1,13 +1,13 @@
-From 351960f23269656fab9a2e765531bdac669de4ce Mon Sep 17 00:00:00 2001
+From 3c49e315e6d697e8ee558136d1187dde043af123 Mon Sep 17 00:00:00 2001
 From: CCTV-1 <script.tar.gz@gmail.com>
-Date: Sat, 18 May 2024 08:51:23 +0800
+Date: Fri, 27 Sep 2024 07:17:41 +0800
 Subject: [PATCH] mod patch.
 
 ---
- AbilityHangerBase.cs                          |  41 +++
- AccountInformation.cs                         |   2 +-
+ AbilityHangerBase.cs                          |  41 +
+ AccountInformation.cs                         | 102 ++
  AdvancedFiltersView.cs                        |   2 +
- AutoLandsToggle.cs                            |   6 +
+ AutoLandsToggle.cs                            |   5 +
  CDCPart_TextBox_DayNight.cs                   |   4 +-
  CDCPart_TextBox_Dungeon.cs                    |   5 +-
  .../MasteryEndText.cs                         |   1 +
@@ -15,13 +15,13 @@ Subject: [PATCH] mod patch.
  DeckManagerController.cs                      |  10 +-
  DirectChallengeBladeWidget.cs                 |   1 +
  FriendChallengeBladeWidget.cs                 |   1 +
- GreClient.CardData/CardUtilities.cs           |  10 +-
+ GreClient.CardData/CardUtilities.cs           | 873 ++++++++++++++++++
  LibraryCardHolder.cs                          |   2 +-
- LibrarySideboardBrowserProvider.cs            |  86 ++++-
- MTGA.Loc/MTGALocalizable.cs                   |  15 +-
+ LibrarySideboardBrowserProvider.cs            |  86 +-
+ MTGA.Loc/MTGALocalizable.cs                   |  10 +
  MatchManager.cs                               |  31 +-
  Meta_CDC.cs                                   |  11 +
- ModManager.cs                                 | 319 ++++++++++++++++++
+ ModManager.cs                                 | 342 +++++++
  SearchAndFilterBar.cs                         |   1 +
  SetCollectionScreenView.cs                    |   1 +
  SettingsPanelGraphics.cs                      |   2 +-
@@ -36,21 +36,25 @@ Subject: [PATCH] mod patch.
  .../InteractableTextBox.cs                    |   4 +-
  .../TableAbilityTextbox.cs                    |   3 +-
  .../TextboxSubComponentBase.cs                |   9 +-
- Wotc.Mtga.Cards.Text/Utilities.cs             |  16 +-
- .../AutoTargetingSolution.cs                  |  27 ++
- Wotc.Mtga.Loc/Languages.cs                    |  16 +-
+ Wotc.Mtga.Cards.Text/Utilities.cs             | 176 ++++
+ .../AutoTargetingSolution.cs                  |  27 +
+ Wotc.Mtga.Loc/Languages.cs                    | 216 +++++
  .../DraftContentController.cs                 |  29 +-
  Wotc.Mtga.Wrapper.Draft/HumanDraftPod.cs      |   1 +
  WrapperDeckBuilder.cs                         |   2 +-
  WrapperDeckUtilities.cs                       |  29 +-
- 39 files changed, 631 insertions(+), 94 deletions(-)
+ 39 files changed, 2022 insertions(+), 43 deletions(-)
+ create mode 100644 AccountInformation.cs
+ create mode 100644 GreClient.CardData/CardUtilities.cs
  create mode 100644 ModManager.cs
+ create mode 100644 Wotc.Mtga.Cards.Text/Utilities.cs
+ create mode 100644 Wotc.Mtga.Loc/Languages.cs
 
 diff --git a/AbilityHangerBase.cs b/AbilityHangerBase.cs
-index 8b5bf0e..4205909 100644
+index 27dbb1d..d881f62 100644
 --- a/AbilityHangerBase.cs
 +++ b/AbilityHangerBase.cs
-@@ -61,6 +61,8 @@ public class AbilityHangerBase : HangerBase
+@@ -65,6 +65,8 @@ public class AbilityHangerBase : HangerBase
  
  	private IGreLocProvider _greLocManager;
  
@@ -59,7 +63,7 @@ index 8b5bf0e..4205909 100644
  	public bool IsDirty { get; set; }
  
  	public override bool Flipped
-@@ -98,6 +100,33 @@ public class AbilityHangerBase : HangerBase
+@@ -102,6 +104,33 @@ public class AbilityHangerBase : HangerBase
  		_multiFaceHangerConfigProvider = new MultiFaceHangerConfigProvider(cardDatabase.ClientLocProvider, cardDatabase.GreLocProvider, _assetLookupSystem, _cardDatabase, currentEventFormat, genericObjectPool);
  		_faceInfoGenerator = faceInfoGenerator;
  		SpawnHangerView();
@@ -93,7 +97,7 @@ index 8b5bf0e..4205909 100644
  	}
  
  	private void SpawnHangerView()
-@@ -222,6 +251,18 @@ public class AbilityHangerBase : HangerBase
+@@ -226,6 +255,18 @@ public class AbilityHangerBase : HangerBase
  	protected virtual void AddHangersInternal(BASE_CDC cardView, ICardDataAdapter sourceModel, HangerSituation situation)
  	{
  		ICardDataAdapter model = cardView.Model;
@@ -113,23 +117,118 @@ index 8b5bf0e..4205909 100644
  		{
  			_view.CreateHangerCardStyle();
 diff --git a/AccountInformation.cs b/AccountInformation.cs
-index 707aa9e..c23e917 100644
---- a/AccountInformation.cs
+new file mode 100644
+index 0000000..c23e917
+--- /dev/null
 +++ b/AccountInformation.cs
-@@ -77,7 +77,7 @@ public class AccountInformation
- 
- 	public bool HasRole_MythicOrange()
- 	{
--		return Roles.Contains("WotC_REP", StringComparison.InvariantCultureIgnoreCase);
+@@ -0,0 +1,102 @@
++using System;
++using System.Collections.Generic;
++using WAS;
++using Wizards.Platform.Sdk.Model;
++using Wotc.Mtga.Extensions;
++
++public class AccountInformation
++{
++	public string AccountID;
++
++	public string GameID;
++
++	public string DisplayName;
++
++	public string PersonaID;
++
++	public string AccessToken;
++
++	public string Email;
++
++	public string ExternalID;
++
++	public string Password;
++
++	public DateTime Expiration;
++
++	public Credentials Credentials;
++
++	public TokenState CredentialsState;
++
++	public string[] Roles = Array.Empty<string>();
++
++	public List<SocialIdentity> LinkedAccounts;
++
++	private const string ROLE_MYTHIC_ORANGE = "WotC_REP";
++
++	private const string ROLE_INVITATIONAL_QUALIFIED = "Challenger";
++
++	private const string ROLE_DEBUG = "MTGA_DEBUG";
++
++	private const string ROLE_DEMO = "MTGA_Demo";
++
++	private const string ROLE_MDN_ALPHA = "MDN_ALPHA";
++
++	private const string ROLE_WOTC_ACCESS = "WotC_ACCESS";
++
++	private const string ROLE_FEATURE_TOGGLE = "MTGA_FeatureToggle";
++
++	private const string ROLE_SOURCED_EPIC = "SOURCED_EPIC";
++
++	public AccountTypes AccountType
++	{
++		get
++		{
++			if (string.IsNullOrWhiteSpace(AccountID))
++			{
++				return AccountTypes.Social;
++			}
++			return AccountTypes.WAS;
++		}
++	}
++
++	public bool HasRole_FeatureToggle()
++	{
++		return Roles.Contains("MTGA_FeatureToggle", StringComparison.InvariantCultureIgnoreCase);
++	}
++
++	public bool HasRole_Demo()
++	{
++		return Roles.Contains("MTGA_Demo", StringComparison.InvariantCultureIgnoreCase);
++	}
++
++	public bool HasRole_MDNAlpha()
++	{
++		return Roles.Contains("MDN_ALPHA", StringComparison.InvariantCultureIgnoreCase);
++	}
++
++	public bool HasRole_MythicOrange()
++	{
 +		return true;
- 	}
- 
- 	public bool HasRole_Debugging()
++	}
++
++	public bool HasRole_Debugging()
++	{
++		return Roles.Contains("MTGA_DEBUG", StringComparison.InvariantCultureIgnoreCase);
++	}
++
++	public bool HasRole_WotCAccess()
++	{
++		return Roles.Contains("WotC_ACCESS", StringComparison.InvariantCultureIgnoreCase);
++	}
++
++	public bool HasRole_InvitationalQualified()
++	{
++		return Roles.Contains("Challenger", StringComparison.InvariantCultureIgnoreCase);
++	}
++
++	public bool HasRole_SourcedEpic()
++	{
++		return Roles.Contains("SOURCED_EPIC", StringComparison.InvariantCultureIgnoreCase);
++	}
++}
 diff --git a/AdvancedFiltersView.cs b/AdvancedFiltersView.cs
-index c6d0803..6ad8a61 100644
+index 9be11ce..f5f3e7e 100644
 --- a/AdvancedFiltersView.cs
 +++ b/AdvancedFiltersView.cs
-@@ -137,6 +137,8 @@ public class AdvancedFiltersView : MonoBehaviour
+@@ -147,6 +147,8 @@ public class AdvancedFiltersView : MonoBehaviour
  				component.sortingLayerName = "Foreground";
  			}
  		}
@@ -137,22 +236,15 @@ index c6d0803..6ad8a61 100644
 +        this._formatLegalText.font = ModManager.Instance.
  	}
  
- 	private void FormatChangeEvent(int value)
+ 	private void OnEnable()
 diff --git a/AutoLandsToggle.cs b/AutoLandsToggle.cs
-index d52b01f..29fcdb5 100644
+index 11bbbe8..0cc6ea1 100644
 --- a/AutoLandsToggle.cs
 +++ b/AutoLandsToggle.cs
-@@ -1,5 +1,6 @@
- using System;
- using GreClient.CardData;
-+using TMPro;
- using UnityEngine;
- using Wotc.Mtga.Extensions;
- 
-@@ -42,6 +43,11 @@ public class AutoLandsToggle : MonoBehaviour
- 			deckBuilderWidget.CardRemovedFromMainDeck += _onCardRemovedFromMainDeck;
+@@ -47,6 +47,11 @@ public class AutoLandsToggle : MonoBehaviour
  			filterBar.LandFilterValueChanged += _onFilterValueChanged;
  			cardPoolHolder.OnPageChanged += _onPageChanged;
+ 			_visualUpdater = visualUpdater;
 +			Transform transform = base.transform.FindChild("Text");
 +			if (transform != null)
 +			{
@@ -162,7 +254,7 @@ index d52b01f..29fcdb5 100644
  		}
  	}
 diff --git a/CDCPart_TextBox_DayNight.cs b/CDCPart_TextBox_DayNight.cs
-index fe4c749..65dfb9b 100644
+index f90f578..be65b9d 100644
 --- a/CDCPart_TextBox_DayNight.cs
 +++ b/CDCPart_TextBox_DayNight.cs
 @@ -19,8 +19,8 @@ public class CDCPart_TextBox_DayNight : CDCPart_Textbox_SuperBase
@@ -177,7 +269,7 @@ index fe4c749..65dfb9b 100644
  		_lowerTextLabel.fontSize = _supportedFontSizes[0];
  		UpdateLabelMaterial(_upperTextLabel);
 diff --git a/CDCPart_TextBox_Dungeon.cs b/CDCPart_TextBox_Dungeon.cs
-index 1b103ca..0cc408a 100644
+index bd23325..37936bf 100644
 --- a/CDCPart_TextBox_Dungeon.cs
 +++ b/CDCPart_TextBox_Dungeon.cs
 @@ -48,15 +48,14 @@ public class CDCPart_TextBox_Dungeon : CDCPart_Textbox_SuperBase
@@ -211,10 +303,10 @@ index 590b658..9185b34 100644
  				return text;
  			}
 diff --git a/DeckMainTitlePanel.cs b/DeckMainTitlePanel.cs
-index f191488..fc897e6 100644
+index ce217f2..ac784d8 100644
 --- a/DeckMainTitlePanel.cs
 +++ b/DeckMainTitlePanel.cs
-@@ -210,6 +210,11 @@ public class DeckMainTitlePanel : MonoBehaviour
+@@ -222,6 +222,11 @@ public class DeckMainTitlePanel : MonoBehaviour
  			{
  				AudioManager.PlayAudio(WwiseEvents.sfx_ui_filter_toggle, AudioManager.Default);
  			});
@@ -227,10 +319,10 @@ index f191488..fc897e6 100644
  		_meshRendererReferenceLoaders = new MeshRendererReferenceLoader[_deckBoxRenderers.Length];
  		for (int i = 0; i < _deckBoxRenderers.Length; i++)
 diff --git a/DeckManagerController.cs b/DeckManagerController.cs
-index bbd6c70..29f67b7 100644
+index b754a4b..ac1e37d 100644
 --- a/DeckManagerController.cs
 +++ b/DeckManagerController.cs
-@@ -393,9 +393,13 @@ public class DeckManagerController : NavContentController
+@@ -392,9 +392,13 @@ public class DeckManagerController : NavContentController
  	{
  		if (!_decksManager.ShowDeckLimitError())
  		{
@@ -272,26 +364,884 @@ index c61cb07..4738fdb 100644
  
  	private void Start()
 diff --git a/GreClient.CardData/CardUtilities.cs b/GreClient.CardData/CardUtilities.cs
-index 380487d..449d7e2 100644
---- a/GreClient.CardData/CardUtilities.cs
+new file mode 100644
+index 0000000..449d7e2
+--- /dev/null
 +++ b/GreClient.CardData/CardUtilities.cs
-@@ -441,15 +441,7 @@ namespace GreClient.CardData
- 
- 		public static bool IsCardCraftable(CardPrintingData cardPrintingData)
- 		{
--			if (cardPrintingData == null)
--			{
--				return false;
--			}
--			if (cardPrintingData.IsPrimaryCard && !cardPrintingData.IsBasicLand && !NonCollectibleCardList.Contains(cardPrintingData.GrpId) && !UnreleasedSets.Contains(cardPrintingData.ExpansionCode))
--			{
--				return !NonCraftableCardList.Contains(cardPrintingData.GrpId);
--			}
--			return false;
+@@ -0,0 +1,873 @@
++using System;
++using System.Collections.Generic;
++using System.Globalization;
++using System.Text.RegularExpressions;
++using GreClient.Rules;
++using Wotc.Mtga.Cards.Database;
++using Wotc.Mtga.Extensions;
++using Wotc.Mtgo.Gre.External.Messaging;
++
++namespace GreClient.CardData
++{
++	public static class CardUtilities
++	{
++		public struct RollTableEntry
++		{
++			public uint Min;
++
++			public uint Max;
++
++			public string RangeText;
++
++			public string EffectText;
++
++			public string FormattedText;
++
++			public RollTableEntry(RollTableEntry other)
++			{
++				Min = other.Min;
++				Max = other.Max;
++				RangeText = other.RangeText;
++				EffectText = other.EffectText;
++				FormattedText = other.FormattedText;
++			}
++		}
++
++		public static List<uint> NonCraftableCardList = new List<uint>();
++
++		public static List<uint> NonCollectibleCardList = new List<uint>();
++
++		public static List<string> UnreleasedSets = new List<string>();
++
++		private static IComparer<CardColor> _wubrgComparer = new WUBRGColorComparer();
++
++		private static IComparer<CardColor> _dualColorComparer = new DualColorComparer();
++
++		public static bool IsMDFCCard(ICardDataAdapter model)
++		{
++			if (model == null)
++			{
++				return false;
++			}
++			if (model.ObjectType == GameObjectType.GameObjectType_Ability)
++			{
++				return false;
++			}
++			if (model.LinkedFaceType != LinkedFace.LinkedFace_MDFC_Front && model.LinkedFaceType != LinkedFace.LinkedFace_MDFC_Back)
++			{
++				return false;
++			}
++			return model.LinkedFacePrintings.Count == 1;
++		}
++
++		public static bool IsPrototypeParent(this ICardDataAdapter card)
++		{
++			if (card == null)
++			{
++				return false;
++			}
++			if (card.LinkedFaceType == LinkedFace.LinkedFace_PrototypeChild)
++			{
++				return card.LinkedFacePrintings.Count == 1;
++			}
++			return false;
++		}
++
++		public static bool IsPrototypeChild(this ICardDataAdapter card)
++		{
++			if (card == null)
++			{
++				return false;
++			}
++			if (card.LinkedFaceType == LinkedFace.LinkedFace_PrototypeParent)
++			{
++				return card.LinkedFacePrintings.Count == 1;
++			}
++			return false;
++		}
++
++		public static bool IsWildcard(uint GrpId)
++		{
++			if (GrpId == 9 || GrpId == 8 || GrpId == 7 || GrpId == 6)
++			{
++				return true;
++			}
++			return false;
++		}
++
++		public static bool IsSplitCard(ICardDataAdapter model, bool ignoreInstances = false)
++		{
++			if (model == null)
++			{
++				return false;
++			}
++			if (model.LinkedFaceType != LinkedFace.LinkedFace_SplitHalf)
++			{
++				return false;
++			}
++			if (ignoreInstances || model.Instance == null || model.ObjectType == GameObjectType.GameObjectType_RevealedCard)
++			{
++				foreach (CardPrintingData linkedFacePrinting in model.LinkedFacePrintings)
++				{
++					if (linkedFacePrinting.LinkedFaceType != LinkedFace.LinkedFace_SplitCard)
++					{
++						return false;
++					}
++				}
++				return model.LinkedFacePrintings.Count == 2;
++			}
++			return model.Instance.IsSplitCard();
++		}
++
++		public static bool IsSplitHalf(ICardDataAdapter model, bool ignoreInstances = false)
++		{
++			if (model == null)
++			{
++				return false;
++			}
++			if (model.LinkedFaceType != LinkedFace.LinkedFace_SplitCard)
++			{
++				return false;
++			}
++			if (model.Instance == null)
++			{
++				return model.LinkedFacePrintings.Count == 1;
++			}
++			if (model.ObjectType != GameObjectType.GameObjectType_SplitLeft && model.ObjectType != GameObjectType.GameObjectType_SplitRight)
++			{
++				return false;
++			}
++			if (ignoreInstances)
++			{
++				return model.LinkedFacePrintings.Count == 1;
++			}
++			if (model.Instance.LinkedFaceInstances.Count != 1)
++			{
++				return false;
++			}
++			return model.Instance.Zone.Type == model.Instance.LinkedFaceInstances[0].Zone.Type;
++		}
++
++		public static bool IsAdventureCard(ICardDataAdapter model, bool ignoreInstances = false)
++		{
++			if (model == null)
++			{
++				return false;
++			}
++			if (model.LinkedFaceType != LinkedFace.LinkedFace_AdventureChild)
++			{
++				return false;
++			}
++			if (model.Instance == null)
++			{
++				return model.LinkedFacePrintings.Count == 1;
++			}
++			if (model.ObjectType == GameObjectType.GameObjectType_RevealedCard)
++			{
++				return model.LinkedFacePrintings.Count == 1;
++			}
++			if (model.ObjectType != GameObjectType.GameObjectType_Card && !IsTokenCopy(model))
++			{
++				return false;
++			}
++			if (ignoreInstances)
++			{
++				return model.LinkedFacePrintings.Count == 1;
++			}
++			if (model.Instance.LinkedFaceInstances.Count != 1)
++			{
++				return false;
++			}
++			return model.Instance.Zone.Type == model.Instance.LinkedFaceInstances[0].Zone.Type;
++		}
++
++		public static bool IsAdventureSubCard(ICardDataAdapter model, bool ignoreInstances = false)
++		{
++			if (model == null)
++			{
++				return false;
++			}
++			if (model.LinkedFaceType != LinkedFace.LinkedFace_AdventureParent)
++			{
++				return false;
++			}
++			if (model.Instance == null)
++			{
++				return model.LinkedFacePrintings.Count == 1;
++			}
++			if (model.ObjectType != GameObjectType.GameObjectType_Adventure && !IsTokenCopy(model))
++			{
++				return false;
++			}
++			if (!ignoreInstances)
++			{
++				MtgCardInstance parent = model.Parent;
++				if (parent == null || parent.ObjectType != GameObjectType.GameObjectType_RevealedCard)
++				{
++					if (model.Instance.LinkedFaceInstances.Count != 1)
++					{
++						return false;
++					}
++					return model.Instance.Zone.Type == model.Instance.LinkedFaceInstances[0].Zone.Type;
++				}
++			}
++			return model.LinkedFacePrintings.Count == 1;
++		}
++
++		public static GameObjectType LinkedFaceToObject(LinkedFace linkedFaceType, int faceIndex = 0, bool isAToken = false)
++		{
++			switch (linkedFaceType)
++			{
++			case LinkedFace.LinkedFace_SplitCard:
++				return GameObjectType.GameObjectType_SplitCard;
++			case LinkedFace.LinkedFace_SplitHalf:
++				if (faceIndex != 0)
++				{
++					return GameObjectType.GameObjectType_SplitRight;
++				}
++				return GameObjectType.GameObjectType_SplitLeft;
++			case LinkedFace.LinkedFace_AdventureParent:
++				return GameObjectType.GameObjectType_Card;
++			case LinkedFace.LinkedFace_AdventureChild:
++				return GameObjectType.GameObjectType_Adventure;
++			case LinkedFace.LinkedFace_PrototypeChild:
++				return GameObjectType.GameObjectType_PrototypeFacet;
++			case LinkedFace.LinkedFace_MDFC_Back:
++				return GameObjectType.GameObjectType_MDFCBack;
++			default:
++				if (isAToken)
++				{
++					return GameObjectType.GameObjectType_Token;
++				}
++				return GameObjectType.GameObjectType_Card;
++			}
++		}
++
++		private static bool IsTokenCopy(ICardDataAdapter cardData)
++		{
++			if (cardData == null)
++			{
++				return false;
++			}
++			MtgCardInstance instance = cardData.Instance;
++			if (instance == null)
++			{
++				return false;
++			}
++			if (instance.IsCopy || instance.IsObjectCopy)
++			{
++				return instance.ObjectType == GameObjectType.GameObjectType_Token;
++			}
++			return false;
++		}
++
++		public static ICardDataAdapter CreateAbilityModData(ICardDataAdapter model)
++		{
++			if (CanCreateModData(model))
++			{
++				MtgCardInstance parent = model.Parent;
++				CardPrintingData objectSourcePrinting = model.Instance.ObjectSourcePrinting;
++				ModCardDataWrapper wrappedData = ModCardDataWrapper.GetWrappedData(model);
++				if (parent != null)
++				{
++					while (!parent.IsCardOrToken() && parent.Parent != null)
++					{
++						parent = parent.Parent;
++					}
++					if (parent.IsCardOrToken())
++					{
++						wrappedData.SetParentOverride(parent);
++						return wrappedData;
++					}
++				}
++				else if (objectSourcePrinting != null)
++				{
++					wrappedData.SetSourcePrintingOverride(objectSourcePrinting);
++					return wrappedData;
++				}
++			}
++			return model;
++		}
++
++		private static bool IsCardOrToken(this MtgCardInstance instance)
++		{
++			if (!instance.IsCard())
++			{
++				return instance.IsObjectType(GameObjectType.GameObjectType_Token);
++			}
 +			return true;
- 		}
- 
- 		public static bool IsCardCollectible(CardPrintingData cardPrintingData)
++		}
++
++		private static bool IsObjectType(this MtgCardInstance instance, GameObjectType objectType)
++		{
++			if (instance != null)
++			{
++				return instance.ObjectType == objectType;
++			}
++			return false;
++		}
++
++		public static bool IsCard(this MtgCardInstance instance)
++		{
++			if (instance == null)
++			{
++				return false;
++			}
++			if (instance.ObjectType != GameObjectType.GameObjectType_Card && instance.ObjectType != GameObjectType.GameObjectType_SplitCard && instance.ObjectType != GameObjectType.GameObjectType_SplitLeft)
++			{
++				return instance.ObjectType == GameObjectType.GameObjectType_SplitRight;
++			}
++			return true;
++		}
++
++		private static bool CanCreateModData(ICardDataAdapter model)
++		{
++			if (model?.Instance == null || model.Printing == null || model.ObjectType != GameObjectType.GameObjectType_Ability)
++			{
++				return false;
++			}
++			if (model.Parent == null)
++			{
++				return model.Instance.ObjectSourcePrinting != null;
++			}
++			return true;
++		}
++
++		public static string FormatComplexTitleVertical(string text)
++		{
++			string text2 = string.Empty;
++			int num = 0;
++			int num2 = 1;
++			bool flag = false;
++			float num3 = -0.9f;
++			for (int i = 0; i < text.Length; i++)
++			{
++				if (text[i] == '（')
++				{
++					flag = true;
++					int num4 = text.IndexOf('）', i);
++					num = Math.Max(1, num4 - i - 1);
++					text2 += "<size=SIZE_REPLACE%><font=Font_Hiragana_JP>".Replace("SIZE_REPLACE", Math.Min(100 / num, 30).ToString());
++					num2 = 1;
++				}
++				else if (text[i] == '）')
++				{
++					flag = false;
++					text2 += "</font></size>";
++					if (i != text.Length - 1)
++					{
++						text2 += Environment.NewLine;
++					}
++				}
++				else if (flag)
++				{
++					if (num == 1)
++					{
++						text2 += $"<voffset={num}em>{text[i]}</voffset>";
++						continue;
++					}
++					int num5 = num - num2;
++					text2 += $"<voffset={num5}em>{text[i]}</voffset>";
++					if (num5 >= 1)
++					{
++						text2 = text2 + "<space=" + num3.ToString(CultureInfo.InvariantCulture) + "em>";
++					}
++					num2++;
++				}
++				else
++				{
++					char c = text[i];
++					text2 += ((c == 'ー') ? '┃' : c);
++					int num6 = i + 1;
++					if (text.Length > num6 && text[num6] != '（')
++					{
++						text2 += Environment.NewLine;
++					}
++				}
++			}
++			if (string.IsNullOrEmpty(text2))
++			{
++				return text;
++			}
++			return text2;
++		}
++
++		public static string FormatComplexTitle(string text)
++		{
++			if (text.Contains("（"))
++			{
++				for (int i = 0; i < text.Length; i++)
++				{
++					if (text[i] == '（')
++					{
++						int num = text.IndexOf('）', i);
++						int num2 = num - i - 1;
++						string text2 = "<space=-0.7em><voffset=0.8em><size=SIZE_REPLACE%><font=Font_Hiragana_JP>".Replace("SIZE_REPLACE", Math.Min(100 / num2, 30).ToString());
++						text = new Regex(Regex.Escape("（")).Replace(text, text2, 1);
++						Regex regex = new Regex(Regex.Escape("）"));
++						string text3 = "</font></size></voffset><space=Xem>".Replace("X", ((num - i - 1 == 1) ? 0.6f : 0.3f).ToString());
++						text = regex.Replace(text, text3, 1);
++						i += text2.Length + (num - i - 2) + text3.Length;
++					}
++				}
++			}
++			return text;
++		}
++
++		public static string RemoveHiragana(string cardTitle)
++		{
++			return new Regex("(（\\w+）)").Replace(cardTitle, "");
++		}
++
++		private static IEnumerable<int> AllIndexesOf(this string str, string value)
++		{
++			if (string.IsNullOrEmpty(value))
++			{
++				throw new ArgumentException("the string to find may not be empty", "value");
++			}
++			int index2 = 0;
++			while (true)
++			{
++				index2 = str.IndexOf(value, index2, StringComparison.Ordinal);
++				if (index2 != -1)
++				{
++					yield return index2;
++					index2 += value.Length;
++					continue;
++				}
++				break;
++			}
++		}
++
++		public static bool IsCardCraftable(CardPrintingData cardPrintingData)
++		{
++			return true;
++		}
++
++		public static bool IsCardCollectible(CardPrintingData cardPrintingData)
++		{
++			if (cardPrintingData == null)
++			{
++				return false;
++			}
++			if (cardPrintingData.IsPrimaryCard)
++			{
++				return CanCardExistInDeck(cardPrintingData);
++			}
++			return false;
++		}
++
++		public static bool CanCardExistInDeck(CardPrintingData cardPrintingData)
++		{
++			if (cardPrintingData == null)
++			{
++				return false;
++			}
++			if (!UnreleasedSets.Contains(cardPrintingData.ExpansionCode))
++			{
++				return !NonCollectibleCardList.Contains(cardPrintingData.GrpId);
++			}
++			return false;
++		}
++
++		public static bool IsBasicLand(ICardDataAdapter cardDataAdapter)
++		{
++			if (cardDataAdapter != null)
++			{
++				return IsBasicLand(cardDataAdapter.Instance, cardDataAdapter.Printing);
++			}
++			return false;
++		}
++
++		public static bool IsBasicLand(MtgCardInstance instance, CardPrintingData printing)
++		{
++			if (instance == null && printing == null)
++			{
++				return false;
++			}
++			if (instance?.Abilities != null && instance.Abilities.Count != 0)
++			{
++				if (instance.Abilities.Count != 1)
++				{
++					return false;
++				}
++				AbilityPrintingData abilityPrintingData = instance.Abilities[0];
++				if (abilityPrintingData == null || abilityPrintingData.SubCategory != AbilitySubCategory.AbilitySubCategory_Mana)
++				{
++					return false;
++				}
++			}
++			return printing.IsBasicLand;
++		}
++
++		public static bool IsLand(ICardDataAdapter model)
++		{
++			if (model?.Printing == null)
++			{
++				return false;
++			}
++			if (model.Printing.Types.Count == 1)
++			{
++				return model.Printing.Types[0] == CardType.CardType_Land;
++			}
++			return false;
++		}
++
++		public static List<CardColor> GetFrameColors(MtgCardInstance instance, CardPrintingData printing)
++		{
++			if (instance == null && printing == null)
++			{
++				return new List<CardColor>();
++			}
++			if (printing == null)
++			{
++				return new List<CardColor>(instance.Colors);
++			}
++			if (instance == null)
++			{
++				if (printing.Colors.Count == 0 || printing.Colors.Count > 1)
++				{
++					return new List<CardColor>(printing.FrameColors);
++				}
++				return new List<CardColor>(printing.Colors);
++			}
++			if (instance.Colors.Count == 0 && printing.Colors.Count == 0 && !IsForcedColorless(instance, printing))
++			{
++				if (UsePredictiveManaColorsAsFrameColors(instance, printing))
++				{
++					List<CardColor> list = new List<CardColor>();
++					foreach (ManaColor predictiveActionManaColor in GetPredictiveActionManaColors(instance))
++					{
++						if (predictiveActionManaColor != ManaColor.ManaColor_Colorless)
++						{
++							CardColor item = ConvertManaColorToCardColor(predictiveActionManaColor);
++							if (!list.Contains(item))
++							{
++								list.Add(item);
++							}
++						}
++					}
++					IComparer<CardColor> comparer = ((list.Count == 2) ? _dualColorComparer : _wubrgComparer);
++					list.Sort(comparer);
++					if (list.Count <= 0)
++					{
++						return new List<CardColor>(printing.FrameColors);
++					}
++					return list;
++				}
++				return new List<CardColor>(printing.FrameColors);
++			}
++			List<CardColor> list2 = new List<CardColor>(instance.Colors);
++			list2.Sort(delegate(CardColor lhs, CardColor rhs)
++			{
++				int num = printing.FrameColors.IndexOf(lhs);
++				int num2 = printing.FrameColors.IndexOf(rhs);
++				if (num == -1)
++				{
++					num = int.MaxValue;
++				}
++				if (num2 == -1)
++				{
++					num2 = int.MaxValue;
++				}
++				return num.CompareTo(num2);
++			});
++			return list2;
++		}
++
++		private static bool IsForcedColorless(MtgCardInstance instance, CardPrintingData printing)
++		{
++			if (!printing.IsLand)
++			{
++				foreach (AddedAbilityData abilityAdder in instance.AbilityAdders)
++				{
++					if (abilityAdder.AbilityId == 1152)
++					{
++						return true;
++					}
++				}
++			}
++			return false;
++		}
++
++		private static bool UsePredictiveManaColorsAsFrameColors(MtgCardInstance card, CardPrintingData printing)
++		{
++			if (printing == null || card == null || card.Zone == null)
++			{
++				return false;
++			}
++			if (printing.IsLand && card.Zone.Type == ZoneType.ZoneType_Battlefield)
++			{
++				return HasPredictiveManaColors(card);
++			}
++			return false;
++		}
++
++		private static bool HasPredictiveManaColors(MtgCardInstance card)
++		{
++			return card?.Actions.Exists((ActionInfo x) => x.HasPredictiveManaPaymentOption()) ?? false;
++		}
++
++		private static IEnumerable<ManaColor> GetPredictiveActionManaColors(MtgCardInstance card)
++		{
++			if (card == null)
++			{
++				yield break;
++			}
++			foreach (ActionInfo action in card.Actions)
++			{
++				foreach (ManaColor predictiveManaPaymentColor in action.GetPredictiveManaPaymentColors())
++				{
++					foreach (ManaColor uncombinedColor in ManaUtilities.GetUncombinedColors(predictiveManaPaymentColor))
++					{
++						yield return uncombinedColor;
++					}
++				}
++			}
++		}
++
++		public static CardColor ConvertManaColorToCardColor(ManaColor manaColor)
++		{
++			return manaColor switch
++			{
++				ManaColor.ManaColor_White => CardColor.CardColor_White, 
++				ManaColor.ManaColor_Blue => CardColor.CardColor_Blue, 
++				ManaColor.ManaColor_Black => CardColor.CardColor_Black, 
++				ManaColor.ManaColor_Red => CardColor.CardColor_Red, 
++				ManaColor.ManaColor_Green => CardColor.CardColor_Green, 
++				_ => CardColor.CardColor_Colorless, 
++			};
++		}
++
++		public static CardFrameKey GetPresentationColor(IReadOnlyList<CardColor> colors)
++		{
++			return colors.Count switch
++			{
++				0 => CardFrameKey.Colorless, 
++				1 => colors[0] switch
++				{
++					CardColor.CardColor_White => CardFrameKey.White, 
++					CardColor.CardColor_Blue => CardFrameKey.Blue, 
++					CardColor.CardColor_Black => CardFrameKey.Black, 
++					CardColor.CardColor_Red => CardFrameKey.Red, 
++					CardColor.CardColor_Green => CardFrameKey.Green, 
++					_ => CardFrameKey.Colorless, 
++				}, 
++				_ => CardFrameKey.Gold, 
++			};
++		}
++
++		public static bool HasCastingCost(ICardDataAdapter model)
++		{
++			return model.Printing.CastingCost.Count > 0;
++		}
++
++		public static bool DoesInstanceDifferMeaningfullyFromPrinting(ICardDataAdapter model)
++		{
++			MtgCardInstance instance = model.Instance;
++			CardPrintingData printing = model.Printing;
++			return DoesInstanceDifferMeaningfullyFromPrinting(instance, printing);
++		}
++
++		public static bool DoesInstanceDifferMeaningfullyFromPrinting(MtgCardInstance instance, CardPrintingData printing)
++		{
++			if (instance.IsObjectCopy)
++			{
++				return true;
++			}
++			if (instance.FaceDownState.IsFaceDown && instance.GrpId != printing.GrpId)
++			{
++				return true;
++			}
++			if (instance.ObjectType == GameObjectType.GameObjectType_Emblem)
++			{
++				if (instance.TitleId == printing.TitleId)
++				{
++					return !instance.Abilities.ContainSameIds(printing.Abilities);
++				}
++				return true;
++			}
++			if (instance.TitleId != printing.TitleId)
++			{
++				return true;
++			}
++			if (!instance.Power.Equals(printing.Power))
++			{
++				return true;
++			}
++			if (!instance.Toughness.Equals(printing.Toughness) && !instance.CardTypes.Contains(CardType.CardType_Planeswalker) && !instance.CardTypes.Contains(CardType.CardType_Battle))
++			{
++				return true;
++			}
++			if (instance.Counters.Count > 0)
++			{
++				return true;
++			}
++			if (!instance.CardTypes.ContainSame(printing.Types))
++			{
++				return true;
++			}
++			if (!instance.Subtypes.ContainSame(printing.Subtypes))
++			{
++				return true;
++			}
++			if (!instance.Supertypes.ContainSame(printing.Supertypes))
++			{
++				return true;
++			}
++			if (!instance.Abilities.ContainsId(151u))
++			{
++				if (!printing.IsToken && !instance.Colors.ContainSame(printing.Colors))
++				{
++					return true;
++				}
++				if (printing.IsToken && !instance.Colors.ContainSame(printing.FrameColors))
++				{
++					return true;
++				}
++			}
++			if (instance.MutationChildrenIds.Count > 0)
++			{
++				return true;
++			}
++			if (instance.AbilityAdders.Count > 0 || instance.AbilityRemovers.Count > 0 || instance.AbilityModifications.Count > 0)
++			{
++				return true;
++			}
++			if (!IsBasicLand(instance, printing) && !instance.CardTypes.Contains(CardType.CardType_Battle) && !instance.Abilities.ContainSameIds_ExHiddenAbilities(printing.Abilities))
++			{
++				return true;
++			}
++			if (instance.ClassLevel > 0)
++			{
++				return true;
++			}
++			return false;
++		}
++
++		public static AbilityPrintingData GetAbilityOfCardModel(ICardDataAdapter cardModel, IAbilityDataProvider abilityDataProvider, MtgGameState gameState)
++		{
++			MtgCardInstance instance = cardModel.Instance;
++			if (instance.Parent != null)
++			{
++				foreach (AbilityPrintingData ability in instance.Parent.Abilities)
++				{
++					if (ability.Id == instance.GrpId)
++					{
++						return ability;
++					}
++				}
++			}
++			if (instance.Abilities.Count == 1)
++			{
++				return instance.Abilities[0];
++			}
++			if (instance.CatalogId == WellKnownCatalogId.WellKnownCatalogId_None)
++			{
++				AbilityPrintingData abilityPrintingById = abilityDataProvider.GetAbilityPrintingById(instance.GrpId);
++				if (abilityPrintingById != null)
++				{
++					return abilityPrintingById;
++				}
++			}
++			if (instance.ObjectSourceGrpId > 11)
++			{
++				AbilityPrintingData abilityPrintingById2 = abilityDataProvider.GetAbilityPrintingById(instance.ObjectSourceGrpId);
++				if (abilityPrintingById2 != null)
++				{
++					return abilityPrintingById2;
++				}
++			}
++			if (instance.ExamineSourceId != 0 && gameState != null)
++			{
++				foreach (DelayedTriggerData delayedTriggerAffectee in gameState.DelayedTriggerAffectees)
++				{
++					if (delayedTriggerAffectee.AffectorId == instance.ExamineSourceId)
++					{
++						AbilityPrintingData abilityPrintingById3 = abilityDataProvider.GetAbilityPrintingById(delayedTriggerAffectee.AbilityId);
++						if (abilityPrintingById3 != null)
++						{
++							return abilityPrintingById3;
++						}
++					}
++				}
++			}
++			return AbilityPrintingData.InvalidAbility(cardModel.InstanceId);
++		}
++
++		public static bool TryExtractRollTableFromAbility(string abilityText, out string preambleAbilityText, out RollTableEntry[] rollTable)
++		{
++			preambleAbilityText = null;
++			rollTable = null;
++			MatchCollection matchCollection = Constants.DIE_ROLL_ENTRY_MATCH.Matches(abilityText);
++			if (matchCollection.Count < 2)
++			{
++				return false;
++			}
++			rollTable = new RollTableEntry[matchCollection.Count];
++			for (int i = 0; i < matchCollection.Count; i++)
++			{
++				Match match = matchCollection[i];
++				string[] array = Constants.DIE_ROLL_RANGE_MATCH.Match(match.Groups[1].Value).Groups[1].Value.Split('-', '–', '－');
++				uint num = 0u;
++				uint max = 0u;
++				for (int j = 0; j < array.Length; j++)
++				{
++					uint num2 = 0u;
++					bool flag = true;
++					for (int num3 = array[j].Length - 1; num3 >= 0; num3--)
++					{
++						char c = array[j][num3];
++						if (c != '+' && c != '＋')
++						{
++							int num4 = array[j].Length - 1 - num3 - ((!flag) ? 1 : 0);
++							num2 += (uint)char.GetNumericValue(c) * (uint)Math.Pow(10.0, num4);
++						}
++						else
++						{
++							flag = false;
++						}
++					}
++					if (j == 0)
++					{
++						num = num2;
++						max = (flag ? num : uint.MaxValue);
++					}
++					else
++					{
++						max = (flag ? num2 : uint.MaxValue);
++					}
++				}
++				string value = match.Groups[0].Value;
++				rollTable[i] = new RollTableEntry
++				{
++					Min = num,
++					Max = max,
++					RangeText = match.Groups[1].Value,
++					EffectText = match.Groups[2].Value,
++					FormattedText = value
++				};
++			}
++			preambleAbilityText = abilityText.Remove(abilityText.IndexOf(rollTable[0].RangeText, StringComparison.Ordinal)).Trim();
++			return true;
++		}
++
++		public static bool InstanceHasBaseAbility(ICardDataAdapter source, uint baseAbility)
++		{
++			return (source?.Instance?.Abilities?.Exists((AbilityPrintingData x) => x.BaseId == baseAbility)).GetValueOrDefault();
++		}
++
++		public static CardColor? CardColorFromStringCode(string code)
++		{
++			return code switch
++			{
++				"W" => CardColor.CardColor_White, 
++				"U" => CardColor.CardColor_Blue, 
++				"B" => CardColor.CardColor_Black, 
++				"R" => CardColor.CardColor_Red, 
++				"G" => CardColor.CardColor_Green, 
++				_ => null, 
++			};
++		}
++	}
++}
 diff --git a/LibraryCardHolder.cs b/LibraryCardHolder.cs
 index 7adf42f..39c6438 100644
 --- a/LibraryCardHolder.cs
@@ -427,33 +1377,28 @@ index 8d8cb30..fb1deec 100644
  	}
  
 diff --git a/MTGA.Loc/MTGALocalizable.cs b/MTGA.Loc/MTGALocalizable.cs
-index 80f3eef..6d65c17 100644
+index 80f3eef..12d9dba 100644
 --- a/MTGA.Loc/MTGALocalizable.cs
 +++ b/MTGA.Loc/MTGALocalizable.cs
-@@ -59,20 +59,7 @@ namespace MTGA.Loc
- 				break;
- 			case TargetType.Font:
- 			{
--				FontMaterialMap localizedFont = fontProvider.GetLocalizedFont(locKey);
--				if (localizedFont == null)
--				{
--					break;
--				}
--				tMP_Text.font = localizedFont.font;
--				if (!string.IsNullOrEmpty(materialKey))
--				{
--					Material material = localizedFont.GetMaterial(materialKey);
--					if ((bool)material)
--					{
--						tMP_Text.fontSharedMaterial = material;
--					}
--				}
-+				tMP_Text.font = ModManager.Instance.zhCNFont;
+@@ -73,6 +73,16 @@ namespace MTGA.Loc
+ 						tMP_Text.fontSharedMaterial = material;
+ 					}
+ 				}
++				bool needUsePopMaterial = tMP_Text.fontSharedMaterial.renderQueue == ModManager.Instance.popupMaterialRenderQueue;
++				tMP_Text.font = ModManager.Instance.ZhCNFont;
++				if (needUsePopMaterial)
++				{
++					tMP_Text.fontSharedMaterial = ModManager.Instance.PopupMaterial;
++				}
++				else
++				{
++					tMP_Text.fontSharedMaterial = ModManager.Instance.ZhCNFont.material;
++				}
  				break;
  			}
  			default:
 diff --git a/MatchManager.cs b/MatchManager.cs
-index 913b401..e1d3130 100644
+index cf379c1..c029bde 100644
 --- a/MatchManager.cs
 +++ b/MatchManager.cs
 @@ -59,11 +59,6 @@ public class MatchManager : IDisposable
@@ -523,10 +1468,10 @@ index ce12467..3e8d569 100644
  }
 diff --git a/ModManager.cs b/ModManager.cs
 new file mode 100644
-index 0000000..48eb13d
+index 0000000..9edea5b
 --- /dev/null
 +++ b/ModManager.cs
-@@ -0,0 +1,319 @@
+@@ -0,0 +1,342 @@
 +using System;
 +using System.Collections.Generic;
 +using System.IO;
@@ -534,6 +1479,10 @@ index 0000000..48eb13d
 +using System.Text;
 +using TMPro;
 +using UnityEngine;
++using UnityEngine.Rendering;
++using static NPEController;
++
++#pragma warning disable CS0649
 +
 +public class ModManager
 +{
@@ -710,6 +1659,22 @@ index 0000000..48eb13d
 +        }
 +    }
 +
++    public Material PopupMaterial
++    {
++        get
++        {
++            if (this.popupMaterial == null && this.modFont != null)
++            {
++                this.popupMaterial = new Material(this.modFont.material)
++                {
++                    name = this.modFont.material.name + " - popup",
++                    renderQueue = this.popupMaterialRenderQueue
++                };
++            }
++            return this.popupMaterial;
++        }
++    }
++
 +    public ModConfig config;
 +
 +    private static ModManager instance = null;
@@ -720,6 +1685,9 @@ index 0000000..48eb13d
 +    private static string apiUri = "https://www.17lands.com/card_ratings/data?expansion={0}&format={1}&start_date={2}&end_date={3}";
 +
 +    private TMP_FontAsset modFont = null;
++    private Material popupMaterial = null;
++    private int popupMaterialRenderQueue = (int)RenderQueue.Transparent + 1;
++
 +    // <eventName, <cardName, DraftInfo>>
 +    private readonly Dictionary<string, Dictionary<string, DraftInfo>> cardRankMap = new Dictionary<string, Dictionary<string, DraftInfo>>();
 +    private readonly Dictionary<string, bool> fetchingTask = new Dictionary<string, bool>();
@@ -847,10 +1815,10 @@ index 0000000..48eb13d
 +    }
 +}
 diff --git a/SearchAndFilterBar.cs b/SearchAndFilterBar.cs
-index 8ab796d..7f27d3a 100644
+index 93838f6..e9a0f2c 100644
 --- a/SearchAndFilterBar.cs
 +++ b/SearchAndFilterBar.cs
-@@ -103,6 +103,7 @@ public class SearchAndFilterBar : MonoBehaviour
+@@ -136,6 +136,7 @@ public class SearchAndFilterBar : MonoBehaviour
  			AudioManager.PlayAudio(WwiseEvents.sfx_ui_generic_click, AudioManager.Default);
  			UpdateSearchText();
  		});
@@ -859,7 +1827,7 @@ index 8ab796d..7f27d3a 100644
  		{
  			AudioManager.PlayAudio(WwiseEvents.sfx_ui_generic_click, AudioManager.Default);
 diff --git a/SetCollectionScreenView.cs b/SetCollectionScreenView.cs
-index 634d863..bc6689b 100644
+index 60da646..5b9106b 100644
 --- a/SetCollectionScreenView.cs
 +++ b/SetCollectionScreenView.cs
 @@ -137,6 +137,7 @@ public class SetCollectionScreenView : MonoBehaviour
@@ -884,10 +1852,10 @@ index cbfd274..476c267 100644
  			"pt-BR" => "Português\u00a0brasileiro", 
  			"ru" => "Русский", 
 diff --git a/SideboardInterface.cs b/SideboardInterface.cs
-index 686f53f..b8219d3 100644
+index 751861a..098e7c7 100644
 --- a/SideboardInterface.cs
 +++ b/SideboardInterface.cs
-@@ -119,6 +119,9 @@ public class SideboardInterface : MonoBehaviour
+@@ -120,6 +120,9 @@ public class SideboardInterface : MonoBehaviour
  
  	private void OnDestroy()
  	{
@@ -910,10 +1878,10 @@ index 1318b98..2971269 100644
  
  	private void Start()
 diff --git a/StoreItemBase.cs b/StoreItemBase.cs
-index 1bc6143..704eb00 100644
+index f2cc77c..1f30b95 100644
 --- a/StoreItemBase.cs
 +++ b/StoreItemBase.cs
-@@ -488,6 +488,7 @@ public class StoreItemBase : MonoBehaviour
+@@ -492,6 +492,7 @@ public class StoreItemBase : MonoBehaviour
  
  	public void SetLabelText(MTGALocalizedString text)
  	{
@@ -970,7 +1938,7 @@ index da68f84..847a4f5 100644
  				_defaultFontMaterial = _label.fontSharedMaterial;
  				_hasBeenInit = true;
 diff --git a/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs b/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
-index 0bfea23..c4f6174 100644
+index f24836c..b9b8a86 100644
 --- a/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
 +++ b/Wotc.Mtga.CardParts.FieldFillers/FieldFillerUtils.cs
 @@ -65,12 +65,16 @@ namespace Wotc.Mtga.CardParts.FieldFillers
@@ -1066,37 +2034,192 @@ index 4cfdf5c..811f725 100644
  
  		public virtual void SetAlignment(TextAlignmentOptions textAlignment)
 diff --git a/Wotc.Mtga.Cards.Text/Utilities.cs b/Wotc.Mtga.Cards.Text/Utilities.cs
-index 229eee8..26ed898 100644
---- a/Wotc.Mtga.Cards.Text/Utilities.cs
+new file mode 100644
+index 0000000..26ed898
+--- /dev/null
 +++ b/Wotc.Mtga.Cards.Text/Utilities.cs
-@@ -58,21 +58,7 @@ namespace Wotc.Mtga.Cards.Text
- 
- 		public static string GetBoldedAbilityText(string localizedText)
- 		{
--			if (localizedText.Contains('\u200b'))
--			{
--				string[] array = localizedText.Split('\u200b');
--				return localizedText.Replace(array[0], $"<b>{array[0]}</b>");
--			}
--			if (localizedText.Contains(". "))
--			{
--				return localizedText;
--			}
--			if (localizedText.Contains("—"))
--			{
--				string[] array2 = localizedText.Split('—');
--				return localizedText.Replace(array2[0], $"<b>{array2[0]}</b>");
--			}
--			return $"<b>{localizedText}</b>";
+@@ -0,0 +1,176 @@
++using System.Collections.Generic;
++using System.IO;
++using System.Text.RegularExpressions;
++using GreClient.CardData;
++using Wotc.Mtga.Extensions;
++using Wotc.Mtga.Loc;
++
++namespace Wotc.Mtga.Cards.Text
++{
++	public static class Utilities
++	{
++		public static string AddLineBreaksToBulletPoints(string s)
++		{
++			string text = s.Replace("•", Constants.NEWLINE_BULLET_STR);
++			if (Languages.CurrentLanguage == "ja-JP")
++			{
++				text = text.Replace("• ", "•");
++			}
++			return text;
++		}
++
++		public static string AddLineBreaksToSpreeEntries(string s)
++		{
++			return s.Replace("+ ", Constants.NEWLINE_SPREE_STR);
++		}
++
++		public static string SanitizeParentheticalText(string rulesText)
++		{
++			if (!string.IsNullOrEmpty(rulesText))
++			{
++				string text = getRegexMatch(Constants.ABILITY_PARENTHETICAL_REGEX, rulesText);
++				string text2 = getRegexMatch(Constants.ABILITY_BEFORE_PARENTHESES_REGEX, rulesText);
++				if (!string.IsNullOrEmpty(text) && !string.IsNullOrEmpty(text2))
++				{
++					text = text.Trim();
++					text2 = text2.Trim();
++					if (text.Contains(text2, caseIndependent: true))
++					{
++						return text;
++					}
++				}
++			}
++			return rulesText;
++			static string getRegexMatch(Regex pattern, string input)
++			{
++				Match match = pattern.Match(input);
++				if (match.Success)
++				{
++					if (match.Groups.Count > 0)
++					{
++						return match.Groups[match.Groups.Count - 1].ToString();
++					}
++					return match.Value;
++				}
++				return input;
++			}
++		}
++
++		public static string GetBoldedAbilityText(string localizedText)
++		{
 +			return localizedText;
- 		}
- 
- 		public static bool TryStripLoyaltyPrefixFromString(ref string localizedText)
++		}
++
++		public static bool TryStripLoyaltyPrefixFromString(ref string localizedText)
++		{
++			int num = -1;
++			for (int i = 0; i < 6 && i < localizedText.Length; i++)
++			{
++				if (((IReadOnlyCollection<char>)(object)Constants.COLON_CHARS).Contains(localizedText[i]))
++				{
++					num = i;
++					break;
++				}
++				if (!char.IsWhiteSpace(localizedText[i]) && !char.IsNumber(localizedText[i]) && !((IReadOnlyCollection<char>)(object)Constants.X_CHARS).Contains(localizedText[i]) && !((IReadOnlyCollection<char>)(object)Constants.PLUS_CHARS).Contains(localizedText[i]) && !((IReadOnlyCollection<char>)(object)Constants.MINUS_CHARS).Contains(localizedText[i]))
++				{
++					break;
++				}
++			}
++			if (num > 0)
++			{
++				localizedText = localizedText.Substring(num + 1);
++				localizedText = SanitizeParentheticalText(localizedText);
++				localizedText = localizedText.Trim();
++				return true;
++			}
++			return false;
++		}
++
++		public static bool TryStripChapterPrefixFromString(ref string localizedText)
++		{
++			int num = -1;
++			for (int i = 0; i < 6 && i < localizedText.Length; i++)
++			{
++				if (((IReadOnlyCollection<char>)(object)Constants.DASH_CHARS).Contains(localizedText[i]))
++				{
++					num = i;
++					break;
++				}
++				if (localizedText[i] != 'I' && localizedText[i] != 'V' && !char.IsWhiteSpace(localizedText[i]))
++				{
++					break;
++				}
++			}
++			if (num > 0)
++			{
++				localizedText = localizedText.Substring(num + 1);
++				if (localizedText[0] == '<')
++				{
++					localizedText = localizedText.Remove(0, localizedText.IndexOf('>') + 1);
++				}
++				localizedText = localizedText.Trim();
++				return true;
++			}
++			return false;
++		}
++
++		public static string RemoveHiragana(string cardTitle)
++		{
++			return new Regex("(（\\w+）)").Replace(cardTitle, "");
++		}
++
++		public static StringBackedInt GetLoyaltyAbilityCostFromLocalizedText(string englishLocalizedText)
++		{
++			StringBackedInt result = StringBackedInt.UNDEFINED;
++			int num = englishLocalizedText.IndexOfAny(Constants.COLON_CHARS);
++			if (num > 0 && num < 6)
++			{
++				string text = englishLocalizedText.Remove(num).Trim(' ', '[', ']');
++				result = new StringBackedInt(text);
++			}
++			if (string.IsNullOrWhiteSpace(result.RawText))
++			{
++				throw new InvalidDataException("Localized text was used as a Loyalty ability localization but did not have a valid cost!\n\"" + englishLocalizedText + "\"");
++			}
++			return result;
++		}
++
++		public static string SanitizeText(string text)
++		{
++			text = text.Replace("&#0D&#0A", "\n");
++			text = text.Replace("{1/2}", "½");
++			text = text.Replace("CHAINED ", string.Empty);
++			foreach (Match item in GreClient.CardData.Constants.MANA_MATCHER_FOR_CAPITALIZATION.Matches(text))
++			{
++				if (item.Groups.Count >= 2)
++				{
++					Group group = item.Groups[1];
++					text = text.Remove(group.Index, group.Length);
++					text = text.Insert(group.Index, group.Value.ToUpper());
++				}
++			}
++			foreach (object item2 in GreClient.CardData.Constants.MANA_MATCHER_FOR_SPACE_REPLACEMENT.Matches(text))
++			{
++				text = text.Replace(item2.ToString(), item2.ToString().Replace(" ", string.Empty));
++			}
++			return text;
++		}
++
++		public static string SanitizeArtistCreditText(string text)
++		{
++			text = text.Replace("{1/2}", "½");
++			return text;
++		}
++
++		public static string SanitizeAbilityText(string text)
++		{
++			Match match = new Regex("\\ \\(([^)]*)\\)$").Match(text);
++			if (match.Success)
++			{
++				Group group = match.Groups[0];
++				text = text.Remove(group.Index, group.Length);
++			}
++			return text;
++		}
++	}
++}
 diff --git a/Wotc.Mtga.DuelScene.Interactions.SelectTargets/AutoTargetingSolution.cs b/Wotc.Mtga.DuelScene.Interactions.SelectTargets/AutoTargetingSolution.cs
-index 4021a2e..4c1c51c 100644
+index 02d7f75..94d773e 100644
 --- a/Wotc.Mtga.DuelScene.Interactions.SelectTargets/AutoTargetingSolution.cs
 +++ b/Wotc.Mtga.DuelScene.Interactions.SelectTargets/AutoTargetingSolution.cs
-@@ -43,6 +43,33 @@ namespace Wotc.Mtga.DuelScene.Interactions.SelectTargets
+@@ -42,6 +42,33 @@ namespace Wotc.Mtga.DuelScene.Interactions.SelectTargets
  			{
  				return _singleTarget.TryAutoTarget(targetSelection, targetSource, out target);
  			}
@@ -1131,40 +2254,232 @@ index 4021a2e..4c1c51c 100644
  		}
  
 diff --git a/Wotc.Mtga.Loc/Languages.cs b/Wotc.Mtga.Loc/Languages.cs
-index dc10203..fdbc9fc 100644
---- a/Wotc.Mtga.Loc/Languages.cs
+new file mode 100644
+index 0000000..fdbc9fc
+--- /dev/null
 +++ b/Wotc.Mtga.Loc/Languages.cs
-@@ -65,21 +65,13 @@ namespace Wotc.Mtga.Loc
- 
- 		public const string PHYREXIAN = "phyrexian";
- 
--		public static readonly string[] AllLanguages = new string[12]
--		{
--			"en-US", "pt-BR", "fr-FR", "it-IT", "de-DE", "es-ES", "ru-RU", "ja-JP", "ko-KR", "zh-CN",
--			"zh-TW", "phyrexian"
--		};
+@@ -0,0 +1,216 @@
++using System;
++using System.Collections.Generic;
++using System.Globalization;
++using System.Linq;
++using System.Threading;
++using Wizards.Mtga;
++
++namespace Wotc.Mtga.Loc
++{
++	public static class Languages
++	{
++		private static string _currentLanguage = "en-US";
++
++		private static readonly LanguageChangedSignal _LanguageChangedSignal = new LanguageChangedSignal();
++
++		public static IClientLocProvider ActiveLocProvider = null;
++
++		private static bool _hackIsPreProd = true;
++
++		public const string EN_US = "en-US";
++
++		public const string PT_BR = "pt-BR";
++
++		public const string FR_FR = "fr-FR";
++
++		public const string IT_IT = "it-IT";
++
++		public const string DE_DE = "de-DE";
++
++		public const string ES_ES = "es-ES";
++
++		public const string RU_RU = "ru-RU";
++
++		public const string JA_JP = "ja-JP";
++
++		public const string KO_KR = "ko-KR";
++
++		public const string ZH_CN = "zh-CN";
++
++		public const string ZH_TW = "zh-TW";
++
++		public const string PHY = "phyrexian";
++
++		public const string ENGLISH = "en-US";
++
++		public const string PORTUGUESE = "pt-BR";
++
++		public const string FRENCH = "fr-FR";
++
++		public const string ITALIAN = "it-IT";
++
++		public const string GERMAN = "de-DE";
++
++		public const string SPANISH = "es-ES";
++
++		public const string RUSSIAN = "ru-RU";
++
++		public const string JAPANESE = "ja-JP";
++
++		public const string KOREAN = "ko-KR";
++
++		public const string CHINESE_SIMPLIFIED = "zh-CN";
++
++		public const string CHINESE_TRADITIONAL = "zh-TW";
++
++		public const string PHYREXIAN = "phyrexian";
++
 +		public static readonly string[] AllLanguages = new string[3] { "en-US", "ja-JP", "phyrexian"};
- 
--		public static readonly string[] ClientLanguages = new string[11]
--		{
--			"en-US", "pt-BR", "fr-FR", "it-IT", "de-DE", "es-ES", "ru-RU", "ja-JP", "ko-KR", "zh-CN",
--			"zh-TW"
--		};
++
 +		public static readonly string[] ClientLanguages = new string[2] { "en-US", "ja-JP"};
- 
--		public static readonly string[] ExternalLanguages = new string[9] { "en-US", "pt-BR", "fr-FR", "it-IT", "de-DE", "es-ES", "ru-RU", "ja-JP", "ko-KR" };
++
 +		public static readonly string[] ExternalLanguages = new string[2] { "en-US", "ja-JP" };
- 
--		public static readonly string[] CardLanguages = new string[10] { "en-US", "pt-BR", "fr-FR", "it-IT", "de-DE", "es-ES", "ru-RU", "ja-JP", "ko-KR", "phyrexian" };
++
 +		public static readonly string[] CardLanguages = new string[3] { "en-US", "ja-JP", "phyrexian"};
- 
- 		public const string BULLET_EN = "• ";
- 
++
++		public const string BULLET_EN = "• ";
++
++		public const string BULLET_JP = "•";
++
++		public static readonly Dictionary<string, string> Converter = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
++		{
++			{ "English", "en-US" },
++			{ "Portugese (Brazil)", "pt-BR" },
++			{ "Portugese (Brazil) [pt-BR]", "pt-BR" },
++			{ "French", "fr-FR" },
++			{ "Italian", "it-IT" },
++			{ "German", "de-DE" },
++			{ "Spanish", "es-ES" },
++			{ "Russian", "ru-RU" },
++			{ "Japanese", "ja-JP" },
++			{ "Korean", "ko-KR" },
++			{ "Chinese Simplified", "zh-CN" },
++			{ "Chinese Traditional", "zh-TW" }
++		};
++
++		public static readonly Dictionary<string, string> MTGAtoI2LangCode = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
++		{
++			{ "en-US", "en" },
++			{ "pt-BR", "pt-BR" },
++			{ "de-DE", "de" },
++			{ "es-ES", "es" },
++			{ "fr-FR", "fr" },
++			{ "it-IT", "it" },
++			{ "ru-RU", "ru" },
++			{ "ja-JP", "ja" },
++			{ "ko-KR", "ko" },
++			{ "zh-CN", "zh-CN" },
++			{ "zh-TW", "zh-TW" }
++		};
++
++		public static readonly Dictionary<string, string> MTGAtoWwiseMapping = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
++		{
++			{ "en-US", "English(US)" },
++			{ "pt-BR", "Portuguese (Brazil)" },
++			{ "de-DE", "German" },
++			{ "es-ES", "Spanish" },
++			{ "fr-FR", "French" },
++			{ "it-IT", "Italian" },
++			{ "ru-RU", "Russian" },
++			{ "ja-JP", "Japanese" },
++			{ "ko-KR", "Korean" },
++			{ "zh-CN", "Chinese Simplified" }
++		};
++
++		public static readonly IReadOnlyDictionary<string, string> ShortLangCodes = AllLanguages.ToDictionary((string langCode) => langCode, (string langCode) => langCode.Replace("-", string.Empty));
++
++		public static string CurrentLanguage
++		{
++			get
++			{
++				return _currentLanguage;
++			}
++			set
++			{
++				if (value != _currentLanguage)
++				{
++					_currentLanguage = value;
++					CultureInfo currentCulture;
++					try
++					{
++						currentCulture = CultureInfo.CreateSpecificCulture(value);
++					}
++					catch (Exception)
++					{
++						currentCulture = CultureInfo.InvariantCulture;
++					}
++					Thread.CurrentThread.CurrentCulture = currentCulture;
++					TriggerLocalizationRefresh();
++				}
++			}
++		}
++
++		public static ISignalListen LanguageChangedSignal => _LanguageChangedSignal;
++
++		public static bool HACK_IsPreProd
++		{
++			get
++			{
++				IAccountClient accountClient = Pantry.Get<IAccountClient>();
++				if (accountClient?.AccountInformation != null)
++				{
++					return accountClient.AccountInformation.HasRole_FeatureToggle();
++				}
++				IClientVersionInfo versionInfo = Global.VersionInfo;
++				return versionInfo.IsDevBuild() || versionInfo.ContentVersion.Build >= 900;
++			}
++			set
++			{
++				_hackIsPreProd = value;
++			}
++		}
++
++		public static string DefaultFontName => CurrentLanguage switch
++		{
++			"ja-JP" => "Font_Default_JP", 
++			"ko-KR" => "Font_Default_KR", 
++			"ru-RU" => "Font_Default_RU", 
++			_ => "Font_Default", 
++		};
++
++		public static string DefaultTitleFontName => CurrentLanguage switch
++		{
++			"ja-JP" => "Font_Title_JP", 
++			"ko-KR" => "Font_Title_KR", 
++			"ru-RU" => "Font_Title_RU", 
++			_ => "Font_Title", 
++		};
++
++		public static string GetBullet
++		{
++			get
++			{
++				if (!string.Equals(CurrentLanguage, "ja-JP"))
++				{
++					return "• ";
++				}
++				return "•";
++			}
++		}
++
++		public static string GetCurrentLanguage()
++		{
++			return CurrentLanguage;
++		}
++
++		public static IClientLocProvider GetActiveLocProvider()
++		{
++			return ActiveLocProvider;
++		}
++
++		public static void TriggerLocalizationRefresh()
++		{
++			_LanguageChangedSignal.Dispatch();
++		}
++	}
++}
 diff --git a/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs b/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
-index 93351cb..9e74e71 100644
+index ea6a6c5..ee60b63 100644
 --- a/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
 +++ b/Wotc.Mtga.Wrapper.Draft/DraftContentController.cs
-@@ -712,9 +712,10 @@ namespace Wotc.Mtga.Wrapper.Draft
+@@ -754,9 +754,10 @@ namespace Wotc.Mtga.Wrapper.Draft
  
  		private void UpdateCardCollectionInfo(bool show)
  		{
@@ -1177,7 +2492,7 @@ index 93351cb..9e74e71 100644
  				{
  					_inventoryManager.Cards.TryGetValue(cardView.Card.GrpId, out var value);
  					value += _deck.MainDeckIds.Count((uint id) => id == cardView.Card.GrpId);
-@@ -722,12 +723,29 @@ namespace Wotc.Mtga.Wrapper.Draft
+@@ -764,12 +765,29 @@ namespace Wotc.Mtga.Wrapper.Draft
  					int maxCollected = (int)cardView.Card.Printing.MaxCollected;
  					cardView.CardView.ShowCollectionInfo(active: true, Math.Min(value, maxCollected), maxCollected);
  				}
@@ -1210,7 +2525,7 @@ index 93351cb..9e74e71 100644
  		}
  
  		private void UpdateWaitingOnPacksText()
-@@ -908,6 +926,7 @@ namespace Wotc.Mtga.Wrapper.Draft
+@@ -950,6 +968,7 @@ namespace Wotc.Mtga.Wrapper.Draft
  		{
  			_settingCardsCoroutine = null;
  			_okToPickCard = true;
@@ -1231,10 +2546,10 @@ index f09becd..37b81da 100644
  			DraftId = draftId;
  		}
 diff --git a/WrapperDeckBuilder.cs b/WrapperDeckBuilder.cs
-index 5ab65d7..440ffc4 100644
+index a7c1b2a..193d026 100644
 --- a/WrapperDeckBuilder.cs
 +++ b/WrapperDeckBuilder.cs
-@@ -256,7 +256,7 @@ public class WrapperDeckBuilder : NavContentController
+@@ -235,7 +235,7 @@ public class WrapperDeckBuilder : NavContentController
  	{
  		if (!_decksManager.ShowDeckLimitError())
  		{
@@ -1244,10 +2559,10 @@ index 5ab65d7..440ffc4 100644
  			AudioManager.PlayAudio(WwiseEvents.sfx_ui_generic_click, base.gameObject);
  		}
 diff --git a/WrapperDeckUtilities.cs b/WrapperDeckUtilities.cs
-index 25e69eb..7d0e5a1 100644
+index 61eadfd..749ce75 100644
 --- a/WrapperDeckUtilities.cs
 +++ b/WrapperDeckUtilities.cs
-@@ -356,30 +356,51 @@ public static class WrapperDeckUtilities
+@@ -369,30 +369,51 @@ public static class WrapperDeckUtilities
  
  	private static string GetMainLabel(IClientLocProvider localizationManager)
  	{
@@ -1300,9 +2615,9 @@ index 25e69eb..7d0e5a1 100644
  		}
  	}
  
-@@ -619,7 +640,11 @@ public static class WrapperDeckUtilities
+@@ -632,7 +653,11 @@ public static class WrapperDeckUtilities
  
- 	private static IReadOnlyList<CardPrintingData> GetPrintingsByLocalizedTitle(CardDatabase cardDatabase, string title)
+ 	private static IReadOnlyList<CardPrintingData> GetPrintingsByLocalizedTitle(ICardDatabaseAdapter cardDatabase, string title)
  	{
 -		IReadOnlyList<CardPrintingData> printingsByLocalizedTitle = cardDatabase.DatabaseUtilities.GetPrintingsByLocalizedTitle(title);
 +		IReadOnlyList<CardPrintingData> printingsByLocalizedTitle = cardDatabase.DatabaseUtilities.GetPrintingsByEnglishTitle(title);
@@ -1314,5 +2629,5 @@ index 25e69eb..7d0e5a1 100644
  		{
  			CardPrintingData cardPrintingData = printingsByLocalizedTitle.FirstOrDefault((CardPrintingData c) => !c.IsPrimaryCard && c.DefunctRebalancedCardLink != 0 && cardDatabase.CardDataProvider.GetCardPrintingById(c.DefunctRebalancedCardLink).IsPrimaryCard);
 -- 
-2.45.1
+2.46.1
 
