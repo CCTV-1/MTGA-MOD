@@ -1616,8 +1616,8 @@
         "translation": "循环海岛"
     },
     "AbilityHanger/Keyword/Islandwalk_Body": {
-        "oracleText": "This creature can't be blocked as long as defending player controls a Island.",
-        "translation": "只要防御牌手操控海岛，此生物便不能被阻挡。"
+        "oracleText": "This creature can't be blocked as long as defending player controls an Island.",
+        "translation": "This creature can't be blocked as long as defending player controls an Island."
     },
     "AbilityHanger/Keyword/Jump-start": {
         "oracleText": "You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.",
@@ -8711,6 +8711,10 @@
         "oracleText": "Morbid Machinations",
         "translation": "丧心计谋"
     },
+    "Decks/Precon/Standard_FDN_BR": {
+        "oracleText": "Reckless Raid",
+        "translation": "Reckless Raid"
+    },
     "Decks/Precon/Standard_FDN_BW": {
         "oracleText": "Vampiric Hunger",
         "translation": "吸血饥渴"
@@ -8743,9 +8747,21 @@
         "oracleText": "Arcane Aerialists",
         "translation": "秘法舞空"
     },
+    "Decks/Precon/Standard_FDN_WB": {
+        "oracleText": "Vampiric Hunger",
+        "translation": "Vampiric Hunger"
+    },
     "Decks/Precon/Standard_FDN_WG": {
         "oracleText": "Cat Attack",
         "translation": "猫群突击"
+    },
+    "Decks/Precon/Standard_FDN_WR": {
+        "oracleText": "Might of the Legion",
+        "translation": "Might of the Legion"
+    },
+    "Decks/Precon/Standard_FDN_WU": {
+        "oracleText": "Arcane Aerialists",
+        "translation": "Arcane Aerialists"
     },
     "Decks/Precon/Standard_LCI_Storydecks_BadShrooms": {
         "oracleText": "Bad Shrooms",
@@ -8806,6 +8822,26 @@
     "Decks/Precon/Standard_OTJ_MWM_Deck_8": {
         "oracleText": "Dimir Midrange",
         "translation": "底密尔中速"
+    },
+    "Decks/Precon/Standard_PIO_MWM_Deck1": {
+        "oracleText": "Midweek Magic: Standard Showcase Precon (placeholder)",
+        "translation": "Midweek Magic: Standard Showcase Precon (placeholder)"
+    },
+    "Decks/Precon/Standard_PIO_MWM_Deck2": {
+        "oracleText": "Midweek Magic: Standard Showcase Precon (placeholder)",
+        "translation": "Midweek Magic: Standard Showcase Precon (placeholder)"
+    },
+    "Decks/Precon/Standard_PIO_MWM_Deck3": {
+        "oracleText": "Midweek Magic: Standard Showcase Precon (placeholder)",
+        "translation": "Midweek Magic: Standard Showcase Precon (placeholder)"
+    },
+    "Decks/Precon/Standard_PIO_MWM_Deck4": {
+        "oracleText": "Midweek Magic: Standard Showcase Precon (placeholder)",
+        "translation": "Midweek Magic: Standard Showcase Precon (placeholder)"
+    },
+    "Decks/Precon/Standard_PIO_MWM_Deck5": {
+        "oracleText": "Midweek Magic: Standard Showcase Precon (placeholder)",
+        "translation": "Midweek Magic: Standard Showcase Precon (placeholder)"
     },
     "Decks/Precon/SultaiChannelStorm": {
         "oracleText": "Sultai Channel Storm",
@@ -9422,6 +9458,10 @@
     "Decks/StoreDecks/DSK/Wave2/ChampionRabbits": {
         "oracleText": "Champion Deck: Standard Rabbits",
         "translation": "夺冠套牌：标准兔子"
+    },
+    "Decks/StoreDecks/DSK/Wave2/ChampionRakdosAggro": {
+        "oracleText": "Champion Deck: Explorer Rakdos Aggro",
+        "translation": "Champion Deck: Explorer Rakdos Aggro"
     },
     "Decks/StoreDecks/DSK/Wave2/ChampionRamp": {
         "oracleText": "Champion Deck: Standard Ramp",
@@ -16803,6 +16843,10 @@
         "oracleText": "This token denotes that you are eligible to receive a physical Bloomburrow Play Booster Box",
         "translation": "This token denotes that you are eligible to receive a physical Bloomburrow Play Booster Box"
     },
+    "Events/ArenaDirect_DSK_String": {
+        "oracleText": "This token denotes that you are eligible to receive 2 physical Duskmourn: House of Horror Booster Boxes",
+        "translation": "This token denotes that you are eligible to receive 2 physical Duskmourn: House of Horror Booster Boxes"
+    },
     "Events/ArenaDirect_FDN_String": {
         "oracleText": "This token denotes that you are eligible to receive a physical Magic: The Gathering Foundations Play Booster Box",
         "translation": "此代币表示您有资格获得1盒实体万智牌：基石构筑常规补充包"
@@ -18832,8 +18876,8 @@
         "translation": "<size=150%><color=#e1a154>参加赛事，竞夺卡盒！</color></size>\n\n报名参加此赛事，赢得全部6胜就能获得两盒实体暮悲邸：鬼屋惊魂常规补充包邮寄到家。\n\n本赛事的赛制为3包补充包的<i>暮悲邸：鬼屋惊魂</i>BO1轮抽赛。\n\n<b><color=red>须年满18周岁方能参加。部分地区／地域不能参加本赛事。在法律禁止的地区无效。须创建或具现有威世智、DCI及i-Payout帐户方能领取奖金。完整详细信息，请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-BLB-Play-terms-and-conditions>此处</link></u>。</color></b>"
     },
     "Events/Event_Desc_ArenaDirect_DSK_Play_Sealed": {
-        "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win two physical Duskmourn: House of Horror Play Booster Boxes delivered to you.\n\nThe format for this event is 6 packs of <i>Duskmourn: House of Horror</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-BLB-Play-terms-and-conditions>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>参加赛事，竞夺卡盒！</color></size>\n\n报名参加此赛事，赢得全部6胜就能获得两盒实体暮悲邸：鬼屋惊魂常规补充包邮寄到家。\n\n本赛事的赛制为6包补充包的<i>暮悲邸：鬼屋惊魂</i>BO1现开赛。\n\n<b><color=red>须年满18周岁方能参加。部分地区／地域不能参加本赛事。在法律禁止的地区无效。须创建或具现有威世智、DCI及i-Payout帐户方能领取奖金。完整详细信息，请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-BLB-Play-terms-and-conditions>此处</link></u>。</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win two physical Duskmourn: House of Horror Play Booster Boxes delivered to you.\n\nThe format for this event is 6 packs of <i>Duskmourn: House of Horror</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win two physical Duskmourn: House of Horror Play Booster Boxes delivered to you.\n\nThe format for this event is 6 packs of <i>Duskmourn: House of Horror</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaDirect_FDN_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win two physical <i>Magic: The Gathering Foundations</i> Play Booster Boxes delivered to you.\n\nThe format for this event is 6 packs of <i>Magic: The Gathering Foundations</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-otj-terms-and-conditions>here</link></u> for full details.</color></b>",
@@ -20454,6 +20498,10 @@
     "Events/Event_Desc_MWM_Cascade": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Cascade: The first time you cast a spell each turn, you'll get to cast another, less expensive card from your library without paying its mana cost. What a bargain!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
         "translation": "欢迎来到周中万智牌！每周尝试一个不同的方式来游玩万智牌竞技场！\n\n本周赛事是倾曳：你每回合第一次施放咒语时，你可以从你的牌库中施放另一张更便宜的牌，而无需支付其法术力费用。这真是个便宜货！\n\n更多关于本活动及即将到来的周中万智牌赛事信息，请查看<u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>这里</link></u>。"
+    },
+    "Events/Event_Desc_MWM_CascadeBrawl": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Cascade Brawl: The first time you cast a spell each turn, you'll get to cast another, less expensive card from your library without paying its mana cost. What a bargain! All you'll need to play is a 100-card Brawl deck.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Cascade Brawl: The first time you cast a spell each turn, you'll get to cast another, less expensive card from your library without paying its mana cost. What a bargain! All you'll need to play is a 100-card Brawl deck.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
     },
     "Events/Event_Desc_MWM_ChallengerDecks": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is the 2022 Challenger Decks! These iconic archetypes are available now, and you can take them for a spin right here. Choose your favorite strategy and seize victory!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
@@ -23803,6 +23851,10 @@
         "oracleText": "Midweek Magic: Cascade",
         "translation": "周中万智牌：倾曳"
     },
+    "Events/Event_Title_MWM_CascadeBrawl": {
+        "oracleText": "Midweek Magic: Cascade Brawl",
+        "translation": "Midweek Magic: Cascade Brawl"
+    },
     "Events/Event_Title_MWM_Cascade_Alchemy_Desc": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Cascade Alchemy: The first time you cast a spell each turn, you'll get to cast another, less expensive card from your library without paying its mana cost. What a bargain! All you'll need to play is a 60-card Alchemy deck.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
         "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Cascade Alchemy: The first time you cast a spell each turn, you'll get to cast another, less expensive card from your library without paying its mana cost. What a bargain! All you'll need to play is a 60-card Alchemy deck.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
@@ -24347,9 +24399,41 @@
         "oracleText": "Playtest Event #1",
         "translation": "Playtest Event #1"
     },
+    "Events/Event_Title_Playtest10": {
+        "oracleText": "Playtest Event #10",
+        "translation": "Playtest Event #10"
+    },
     "Events/Event_Title_Playtest2": {
         "oracleText": "Playtest Event #2",
         "translation": "Playtest Event #2"
+    },
+    "Events/Event_Title_Playtest3": {
+        "oracleText": "Playtest Event #3",
+        "translation": "Playtest Event #3"
+    },
+    "Events/Event_Title_Playtest4": {
+        "oracleText": "Playtest Event #4",
+        "translation": "Playtest Event #4"
+    },
+    "Events/Event_Title_Playtest5": {
+        "oracleText": "Playtest Event #5",
+        "translation": "Playtest Event #5"
+    },
+    "Events/Event_Title_Playtest6": {
+        "oracleText": "Playtest Event #6",
+        "translation": "Playtest Event #6"
+    },
+    "Events/Event_Title_Playtest7": {
+        "oracleText": "Playtest Event #7",
+        "translation": "Playtest Event #7"
+    },
+    "Events/Event_Title_Playtest8": {
+        "oracleText": "Playtest Event #8",
+        "translation": "Playtest Event #8"
+    },
+    "Events/Event_Title_Playtest9": {
+        "oracleText": "Playtest Event #9",
+        "translation": "Playtest Event #9"
     },
     "Events/Event_Title_Playtest_League": {
         "oracleText": "Playtest League",
@@ -27323,13 +27407,17 @@
         "oracleText": "Join between 6am and 8am Pacific on December 21",
         "translation": "太平洋时间12月21日上午6点到上午8点之间加入"
     },
-    "Events/Tokens/QualifierDay1TokenDescription20250118": {
-        "oracleText": "Join between 6am and 8am Pacific on January 18",
-        "translation": "太平洋时间1月18日上午6点到上午8点之间加入"
+    "Events/Tokens/QualifierDay1TokenDescription20250125": {
+        "oracleText": "Join between 6am and 8am Pacific on January 25",
+        "translation": "Join between 6am and 8am Pacific on January 25"
     },
     "Events/Tokens/QualifierDay1TokenDescription20250201": {
         "oracleText": "Join between 6am and 8am Pacific on February 1",
         "translation": "太平洋时间2月1日上午6点到上午8点之间加入"
+    },
+    "Events/Tokens/QualifierDay1TokenDescription20250222": {
+        "oracleText": "Join between 6am and 8am Pacific on February 22",
+        "translation": "Join between 6am and 8am Pacific on February 22"
     },
     "Events/Tokens/QualifierDay1TokenPlural": {
         "oracleText": "Qualifier Weekend Token",
@@ -27443,9 +27531,13 @@
         "oracleText": "Join between 6am and 8am Pacific on December 22",
         "translation": "太平洋时间12月22日上午6点到上午8点之间加入"
     },
-    "Events/Tokens/QualifierDay2TokenDescription20250119": {
-        "oracleText": "Join between 6am and 8am Pacific on January 19",
-        "translation": "太平洋时间1月19日上午6点到上午8点之间加入"
+    "Events/Tokens/QualifierDay2TokenDescription20250126": {
+        "oracleText": "Join between 6am and 8am Pacific on January 26",
+        "translation": "Join between 6am and 8am Pacific on January 26"
+    },
+    "Events/Tokens/QualifierDay2TokenDescription20250223": {
+        "oracleText": "Join between 6am and 8am Pacific on February 23",
+        "translation": "Join between 6am and 8am Pacific on February 23"
     },
     "Events/Tokens/QualifierDay2TokenPlural": {
         "oracleText": "Qualifier Day 2",
@@ -32195,6 +32287,18 @@
         "oracleText": "Sundering Titan Silver Sleeve",
         "translation": "裂地泰坦白银牌套"
     },
+    "MainNav/DeckBuilder/Sleeves/CardBack_DFT_450452": {
+        "oracleText": "Loot Sleeve",
+        "translation": "Loot Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_DFT_450515": {
+        "oracleText": "Sita Varma Sleeve",
+        "translation": "Sita Varma Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_DFT_453669": {
+        "oracleText": "Chandra Sleeve",
+        "translation": "Chandra Sleeve"
+    },
     "MainNav/DeckBuilder/Sleeves/CardBack_DGM_146774": {
         "oracleText": "Teysa, Envoy of Ghosts Sleeve",
         "translation": "鬼影特使泰莎牌套"
@@ -35799,6 +35903,10 @@
         "oracleText": "Cascade",
         "translation": "倾曳"
     },
+    "MainNav/DeckFormat/CascadeBrawl": {
+        "oracleText": "Cascade Brawl",
+        "translation": "Cascade Brawl"
+    },
     "MainNav/DeckFormat/CascadeSingleton": {
         "oracleText": "Cascade Singleton",
         "translation": "倾曳单张"
@@ -36860,8 +36968,8 @@
         "translation": "{quantity}盒暮悲邸：鬼屋惊魂聚珍补充包"
     },
     "MainNav/EventRewards/ArenaDirect_DSK_PLAY": {
-        "oracleText": "{number1} Duskmourn: House of Horror Play Booster Boxes",
-        "translation": "{number1}盒暮悲邸：鬼屋惊魂常规补充包"
+        "oracleText": "2 Duskmourn: House of Horror Play Booster Boxes",
+        "translation": "2 Duskmourn: House of Horror Play Booster Boxes"
     },
     "MainNav/EventRewards/ArenaDirect_DSK_PLAYDesc": {
         "oracleText": "This token denotes that you are eligible to receive a physical Duskmourn: House of Horror Play Booster Box",
@@ -36872,8 +36980,8 @@
         "translation": "{quantity}盒暮悲邸：鬼屋惊魂常规补充包"
     },
     "MainNav/EventRewards/ArenaDirect_DSK_PLAYSingular": {
-        "oracleText": "{quantity} Duskmourn: House of Horror Play Booster Box",
-        "translation": "{quantity}盒暮悲邸：鬼屋惊魂常规补充包"
+        "oracleText": "2 Duskmourn: House of Horror Play Booster Boxes",
+        "translation": "2 Duskmourn: House of Horror Play Booster Boxes"
     },
     "MainNav/EventRewards/ArenaDirect_FDN_PLAYPlural": {
         "oracleText": "{number1} Magic: The Gathering Foundations Play Booster Boxes",
@@ -39879,6 +39987,26 @@
         "oracleText": "Be a Pioneer!",
         "translation": "成为先驱！"
     },
+    "MainNav/HomePage/Carousel/2024_44_50_Store_PackBundle_Desc": {
+        "oracleText": "Want new packs as soon as Aetherdrift releases? Check out the Pack Bundle in the store today!",
+        "translation": "Want new packs as soon as Aetherdrift releases? Check out the Pack Bundle in the store today!"
+    },
+    "MainNav/HomePage/Carousel/2024_44_50_Store_PackBundle_Title": {
+        "oracleText": "The Aetherdrift Pack Bundle!",
+        "translation": "The Aetherdrift Pack Bundle!"
+    },
+    "MainNav/HomePage/Carousel/2024_44_50_Store_PassBundle_Title": {
+        "oracleText": "The Aetherdrift Pass Bundle!",
+        "translation": "The Aetherdrift Pass Bundle!"
+    },
+    "MainNav/HomePage/Carousel/2024_44_50_Store_PlayBundle_Desc": {
+        "oracleText": "Get a jump on Draft and Sealed as soon as Aetherdrift releases by checking out the Play Bundle!",
+        "translation": "Get a jump on Draft and Sealed as soon as Aetherdrift releases by checking out the Play Bundle!"
+    },
+    "MainNav/HomePage/Carousel/2024_44_50_Store_PlayBundle_Title": {
+        "oracleText": "The Aetherdrift Play Bundle!",
+        "translation": "The Aetherdrift Play Bundle!"
+    },
     "MainNav/HomePage/Carousel/2024_WizKidsPlushCharms_Wave1_Desc": {
         "oracleText": "Purchase an Arena-inspired Plush Charm and receive a sleeve and a discount on a matching companion in Arena!",
         "translation": "购买一个竞技场风格的毛绒挂件，立刻获得牌套并享有竞技场中对应宠物的折扣！"
@@ -40534,6 +40662,26 @@
     "MainNav/HomePage/Carousel/CubeSealed_Title": {
         "oracleText": "Arena Cube Sealed - A New Kind of Limited Experience!",
         "translation": "竞技场方盒现开：全新的限制赛体验！"
+    },
+    "MainNav/HomePage/Carousel/DFT_PreRelease_Title": {
+        "oracleText": "Your first opportunity to play Aetherdrift!",
+        "translation": "Your first opportunity to play Aetherdrift!"
+    },
+    "MainNav/HomePage/Carousel/DFT_Previews_Desc": {
+        "oracleText": "Catch a glimpse of the latest cards coming to Arena before they zoom past!",
+        "translation": "Catch a glimpse of the latest cards coming to Arena before they zoom past!"
+    },
+    "MainNav/HomePage/Carousel/DFT_Previews_Title": {
+        "oracleText": "Aetherdrift Previews!",
+        "translation": "Aetherdrift Previews!"
+    },
+    "MainNav/HomePage/Carousel/DFT_StreamerEvent_Desc": {
+        "oracleText": "Watch Sealed, Draft, and more as your favorite streamers face off against each other in head-to-head matches in a special streamer event Wednesday, February 5th!",
+        "translation": "Watch Sealed, Draft, and more as your favorite streamers face off against each other in head-to-head matches in a special streamer event Wednesday, February 5th!"
+    },
+    "MainNav/HomePage/Carousel/DFT_StreamerEvent_Title": {
+        "oracleText": "Excited to play DFT? So are our Streamers!",
+        "translation": "Excited to play DFT? So are our Streamers!"
     },
     "MainNav/HomePage/Carousel/DSK_GuideToDuskmourn_Desc": {
         "oracleText": "Take a look behind the cursed doors of Duskmourn and click here to learn more about the House!",
@@ -43043,6 +43191,14 @@
         "oracleText": "Phyrexia: All Will Be One Set Mastery",
         "translation": "非瑞克西亚：万界归一精研通行证"
     },
+    "MainNav/HomePage/Carousel/SocialMedia_Bluesky_Desc": {
+        "oracleText": "MTG Arena is now officially on Bluesky. Follow us for the latest MTG Arena news and nonsense.",
+        "translation": "MTG Arena is now officially on Bluesky. Follow us for the latest MTG Arena news and nonsense."
+    },
+    "MainNav/HomePage/Carousel/SocialMedia_Bluesky_Title": {
+        "oracleText": "Find us on Bluesky!",
+        "translation": "Find us on Bluesky!"
+    },
     "MainNav/HomePage/Carousel/SocialMedia_Discord_Desc": {
         "oracleText": "Connect with others and don't miss out on the fun! Join the official Magic: The Gathering Discord to stay up to date on announcements, events, and more!",
         "translation": "Connect with others and don't miss out on the fun! Join the official Magic: The Gathering Discord to stay up to date on announcements, events, and more!"
@@ -43150,6 +43306,10 @@
     "MainNav/HomePage/Carousel/Store_Pack_Purchase_Value_Meter_Title": {
         "oracleText": "Golden Packs are now available!",
         "translation": "黄金补充包已可用！"
+    },
+    "MainNav/HomePage/Carousel/Store_PassBundle_Generic_Desc": {
+        "oracleText": "Don't pass up this opportunity! Check out the Pass Bundle in the Store today!",
+        "translation": "Don't pass up this opportunity! Check out the Pass Bundle in the Store today!"
     },
     "MainNav/HomePage/Carousel/Store_Phyrexian_Ajani_Desc": {
         "oracleText": "Compleat your Avatar collection by picking up the new Ajani Avatar in the store!",
@@ -44931,6 +45091,14 @@
         "oracleText": "Customer Service Ticket Update",
         "translation": "客户服务票务更新"
     },
+    "MainNav/Mailbox/DFTPreorder_PatchNotes_Title": {
+        "oracleText": "2025.44.50 Patch Notes Are Here!",
+        "translation": "2025.44.50 Patch Notes Are Here!"
+    },
+    "MainNav/Mailbox/DFT_EarlyAccess_Title": {
+        "oracleText": "Excited to play Aetherdrift in MTG Arena? So are our streamers!",
+        "translation": "Excited to play Aetherdrift in MTG Arena? So are our streamers!"
+    },
     "MainNav/Mailbox/DSK_EarlyAccess_Title": {
         "oracleText": "Excited to play DSK in MTG Arena? So are our streamers!",
         "translation": "Excited to play DSK in MTG Arena? So are our streamers!"
@@ -46234,6 +46402,10 @@
     "MainNav/PetNames/Brushwagg_Level1": {
         "oracleText": "Brushwagg",
         "translation": "丛枝兽"
+    },
+    "MainNav/PetNames/DFT_Preorder_1": {
+        "oracleText": "Spikeshell Servo",
+        "translation": "Spikeshell Servo"
     },
     "MainNav/PetNames/DMU_Mastery_1": {
         "oracleText": "Rundvelt Goblin",
@@ -56424,12 +56596,12 @@
         "translation": "Unlock Psychic Frog's Horizon Hideaway to spend your Tickets on Modern Horizons 3 Packs, Avatars, Sleeves, and more!"
     },
     "MainNav/Store/Bundles/PreOrder_AvailableDate": {
-        "oracleText": "Available on November 12, 2024",
-        "translation": "2024年11月12日上市"
+        "oracleText": "Available on February 11, 2025",
+        "translation": "Available on February 11, 2025"
     },
     "MainNav/Store/Bundles/PreOrder_Available_Purchasable": {
-        "oracleText": "Available for purchase until November 12, 2024",
-        "translation": "2024年11月12日前可供购买"
+        "oracleText": "Available for purchase until February 11, 2025",
+        "translation": "Available for purchase until February 11, 2025"
     },
     "MainNav/Store/Bundles/PrizeWall_BLBMastery_Sorin_Desc": {
         "oracleText": "4x Sorin Markov",
@@ -56546,6 +56718,18 @@
     "MainNav/Store/Bundles/mtga_bundle_40k_sleeves_Name": {
         "oracleText": "Warhammer 40,000 Sleeves",
         "translation": "战锤40K牌套"
+    },
+    "MainNav/Store/Bundles/mtga_preorder_dft_pack_Desc": {
+        "oracleText": "Pre-order <i>Aetherdrift</i> today and receive the following items on February 11, 2025:\n\n50 <i>Aetherdrift</i> Packs\n5 Golden Packs\n1 Chandra, Spark Hunter Card\nChandra, Spark Hunter Card Style\n\nWhen purchased, you will immediately receive the Chandra Sleeve.",
+        "translation": "Pre-order <i>Aetherdrift</i> today and receive the following items on February 11, 2025:\n\n50 <i>Aetherdrift</i> Packs\n5 Golden Packs\n1 Chandra, Spark Hunter Card\nChandra, Spark Hunter Card Style\n\nWhen purchased, you will immediately receive the Chandra Sleeve."
+    },
+    "MainNav/Store/Bundles/mtga_preorder_dft_pass_Desc": {
+        "oracleText": "Pre-order <i>Aetherdrift</i> today and receive the following items on February 11, 2025:\n\n<i>Aetherdrift</i> Set Mastery Pass\n1x Sita Varma, Masked Racer Card\nSita Varma, Masked Racer Card Style\n\nWhen purchased, you will immediately receive the Sita Varma Sleeve.",
+        "translation": "Pre-order <i>Aetherdrift</i> today and receive the following items on February 11, 2025:\n\n<i>Aetherdrift</i> Set Mastery Pass\n1x Sita Varma, Masked Racer Card\nSita Varma, Masked Racer Card Style\n\nWhen purchased, you will immediately receive the Sita Varma Sleeve."
+    },
+    "MainNav/Store/Bundles/mtga_preorder_dft_play_Desc": {
+        "oracleText": "Pre-order <i>Aetherdrift</i> today and receive the following items on February 11, 2025:\n\n2 Player Draft Tokens\n1 Sealed Token\n5 Play-In Points\n1x Loot, the Pathfinder Card\nLoot, the Pathfinder Card Style\n\nWhen purchased, you will immediately receive the Loot Sleeve and the Spikeshell Servo Companion.",
+        "translation": "Pre-order <i>Aetherdrift</i> today and receive the following items on February 11, 2025:\n\n2 Player Draft Tokens\n1 Sealed Token\n5 Play-In Points\n1x Loot, the Pathfinder Card\nLoot, the Pathfinder Card Style\n\nWhen purchased, you will immediately receive the Loot Sleeve and the Spikeshell Servo Companion."
     },
     "MainNav/Store/Bundles/mtga_preorder_dsk_pack_Desc": {
         "oracleText": "Pre-order <i>Duskmourn: House of Horror</i> today and receive the following items on September 24, 2024:\n\n50 <i>Duskmourn: House of Horror</i> Packs\n5 Golden Packs\n1 Kaito, Bane of Nightmares Card\nKaito, Bane of Nightmares Card Style\n\nWhen purchased, you will immediately receive the Kaito, Bane of Nightmares Sleeve.",
