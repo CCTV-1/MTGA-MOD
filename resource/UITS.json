@@ -1119,6 +1119,10 @@
         "oracleText": "Detained permanents can't attack or block and their activated abilities can't be activated.",
         "translation": "被拘留的永久物。直到拘留其的咒语或异能之操控者的下一个回合，该永久物不能进行攻击或阻挡，其起动式异能也不能起动。"
     },
+    "AbilityHanger/Keyword/Detain_Body_Updated": {
+        "oracleText": "Until your next turn, detained permanents can't attack or block and their activated abilities can't be activated.",
+        "translation": "Until your next turn, detained permanents can't attack or block and their activated abilities can't be activated."
+    },
     "AbilityHanger/Keyword/Detain_Title": {
         "oracleText": "Detain",
         "translation": "拘留"
@@ -2528,8 +2532,8 @@
         "translation": "{abilityCost}：将此牌从你的坟墓场移回战场。它获得敏捷异能。在下一个结束步骤开始时将它放逐。若它将离开战场则改为将其放逐。破坟的时机视同法术。"
     },
     "AbilityHanger/Keyword/Unearth_Body_Generic": {
-        "oracleText": "To Unearth a card return it from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.",
-        "translation": "破坟将一张牌从你的坟墓场移回战场。它获得敏捷异能。在下一个结束步骤开始时将它放逐。若它将离开战场则改为将其放逐。破坟的时机视同法术。"
+        "oracleText": "As a sorcery you can you pay the unearth cost to return the card to the battlefield. If you do, it gains haste and is exiled at the beginning of the next end step or if it would leave the battlefield.",
+        "translation": "As a sorcery you can you pay the unearth cost to return the card to the battlefield. If you do, it gains haste and is exiled at the beginning of the next end step or if it would leave the battlefield."
     },
     "AbilityHanger/Keyword/Unearth_Title": {
         "oracleText": "Unearth",
@@ -7384,8 +7388,8 @@
         "translation": "各式玩法"
     },
     "Codex/WaysToPlay/Formats/Constructed_AdditionalFormats": {
-        "oracleText": "<color #ED5922>While those are the five main constructed formats, on Arena, that's not all:",
-        "translation": "<color #ED5922>竞技场中除了5种主要的构组赛制之外，还有以下丰富玩法："
+        "oracleText": "<color #ED5922>While those are the 5 main constructed formats, on Arena, that's not all:",
+        "translation": "<color #ED5922>While those are the 5 main constructed formats, on Arena, that's not all:"
     },
     "Codex/WaysToPlay/Formats/Constructed_Alchemy_A": {
         "oracleText": "<indent=5%><color #E9E9F6><b>Alchemy</b><color #CCCCCC> is a rotating format similar to Standard except for one main difference: players can also play with digital cards not present in paper! This could be cards from Standard that have been \"rebalanced\" to allow for new strategies, or even entirely new cards released in each set's Alchemy drop. These cards do things on MTG Arena that aren't possible in paper and might have you approaching this format differently. That combined with our ability to balance cards that aren't seeing a lot of play (or too much play), make Alchemy an ever-changing format!<br><br>Like Standard, when <i>Bloomburrow</i> releases in July of 2024, Alchemy will rotate. Alchemy only uses sets from the last two years making it a \"smaller\" format than Standard!  A great place to start would be playing with any of the 10 Starter Decks and adding in any digital-first cards you may come across!",
@@ -8122,6 +8126,46 @@
     "Decks/Precon/Alchemy_BLB_Squirrel": {
         "oracleText": "Acornucopia",
         "translation": "丰饶橡角"
+    },
+    "Decks/Precon/Alchemy_DFT_MWM_BR": {
+        "oracleText": "Fast, Frenetic, Furious",
+        "translation": "Fast, Frenetic, Furious"
+    },
+    "Decks/Precon/Alchemy_DFT_MWM_GUR": {
+        "oracleText": "Totally Exhausted",
+        "translation": "Totally Exhausted"
+    },
+    "Decks/Precon/Alchemy_DFT_MWM_GW": {
+        "oracleText": "We Ride at Dawn",
+        "translation": "We Ride at Dawn"
+    },
+    "Decks/Precon/Alchemy_DFT_MWM_UR": {
+        "oracleText": "Shiver me Timbers",
+        "translation": "Shiver me Timbers"
+    },
+    "Decks/Precon/Alchemy_DFT_MWM_WU": {
+        "oracleText": "Ready for Takeoff",
+        "translation": "Ready for Takeoff"
+    },
+    "Decks/Precon/Alchemy_DFT_SparkyDay_Ajani": {
+        "oracleText": "Life of the Party",
+        "translation": "Life of the Party"
+    },
+    "Decks/Precon/Alchemy_DFT_SparkyDay_Chandra": {
+        "oracleText": "Growing Flames",
+        "translation": "Growing Flames"
+    },
+    "Decks/Precon/Alchemy_DFT_SparkyDay_Jace": {
+        "oracleText": "Maddening Gifts",
+        "translation": "Maddening Gifts"
+    },
+    "Decks/Precon/Alchemy_DFT_SparkyDay_Kaito": {
+        "oracleText": "Surprise Party!",
+        "translation": "Surprise Party!"
+    },
+    "Decks/Precon/Alchemy_DFT_SparkyDay_Sorin": {
+        "oracleText": "Fangs for the Memories",
+        "translation": "Fangs for the Memories"
     },
     "Decks/Precon/Alchemy_DSK_BRDemons": {
         "oracleText": "Dark Dealings",
@@ -23447,6 +23491,10 @@
         "oracleText": "Welcome to Sparky's Challenge, where you challenge...me! This is a Preconstructed event where I've given you a choice of some of my favorite starter decks to play with against me as you become more familiar with your Planeswalker spark! <br><br><color #ED5922>This event has no entry fee</color>, so you can keep challenging me, your greatest test yet! That is until you've won three games and I've decided you're ready to face even greater competition, Planeswalker!",
         "translation": "欢迎来到火花精灵挑战，在这里你将要挑战我！这是一个预组活动，我给你准备了一些我最喜欢的新手套牌作为选项。<br><br><color #ED5922>这是一个免费活动</color>，你可以一直挑战我，直到你赢得了三次胜利。"
     },
+    "Events/Event_Desc_SparkyDay2025": {
+        "oracleText": "It's Sparky's birthday! After years of helping Planeswalkers get back on their feet, it's time to thank our favorite blue spark with a multiversal celebration!\n\nIn <b>Planeswalker Party!</b>, select a 60-card preconstructed deck helmed by a Planeswalker Commander and ignite some fun! Each planeswalker is bringing an extra color to the festivities, so get ready for some surprises with each battle.",
+        "translation": "It's Sparky's birthday! After years of helping Planeswalkers get back on their feet, it's time to thank our favorite blue spark with a multiversal celebration!\n\nIn <b>Planeswalker Party!</b>, select a 60-card preconstructed deck helmed by a Planeswalker Commander and ignite some fun! Each planeswalker is bringing an extra color to the festivities, so get ready for some surprises with each battle."
+    },
     "Events/Event_Desc_Standard_Challenge": {
         "oracleText": "Bring your Standard deck and play best-of-three matches! You'll receive rewards based on how many matches you win.",
         "translation": "使用标准构筑套牌与对手进行三盘两胜的对局！最后根据胜局数量赢得奖励。"
@@ -23854,6 +23902,10 @@
     "Events/Event_Desc_Y25BLB_Premier_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Birdfolk</b> Birds bring bonuses! Cast fliers who air-drop buffs on your non-flying creatures. Make sure to have a healthy balance of fliers and non-fliers so you always have a target. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Ratfolk</b> Slow down your opponent with strong blockers and creature removal. Fill up your graveyard to unlock your Rats' Threshold abilities, then use them to close out the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Lizardfolk</b> Start small and go big. This BR deck uses a variety of artifact synergies, including the infamous affinity, to summon powerhouses from Magic's past and future. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Raccoonfolk</b> Ramp up your mana early to cast big Raccoons that dominate the battlefield. Include a few extra cards with high mana values to help trigger the Expend ability, but not so many that you fall behind early in the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Rabbitfolk</b> Assemble as many Rabbits and Rabbit tokens as you can. Look for spells and effects that reward you for having lots of creatures in play or pump up your whole team in combat.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Batfolk</b> Deploy an army of flying Bats and reap rewards for gaining or losing life during your turn. Mix in some good blockers and defensive spells to slow your opponent down while you attack in the air.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Otterfolk </b> Otters love when you cast instant and sorcery spells and will reward you for doing so. Aim for fewer creatures and varied spells, especially ones that help you control the battlefield. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Squirrelfolk </b> Dominate the mid game with big creatures and creature removal spells. Look for ways to fill your graveyard and create Food to take advantage of the Squirrels' Forage mechanic. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Mousefolk</b> Mice always prefer to be on the attack, so include plenty of aggressive, low mana value creatures. Support them with Equipment and combat-enhancing spells and abilities to trigger the Valiant ability. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Frogfolk</b> Make use of creatures with abilities that trigger when they enter the battlefield. Many Frogs have ways of blinking creatures or returning them to your hand. With all that extra value, you'll be strong in the late game.",
         "translation": "从传递中的最新炼金系列轮抽补充包中一次选一张牌。这些牌会加入你的收藏。你将使用这些牌加上基本地来构筑一套40张的套牌。进行游戏并基于你的胜场获得奖励！\n\n<b>真人轮抽～和其他七位玩家共同进行的限时轮抽</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><b>鸟民</b> 鸟群的奖赏！施放飞行生物从空中增益你的非飞行生物。确保飞行生物与地面生物之间合理平衡以便你总有可以被增益的目标。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><b>老鼠民</b> 使用强大的阻挡者和生物去除延缓对手。填充坟场来解锁鼠群的门槛异能，然后用它们来终结对局。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><b>蜥蜴民</b> 开局弱小，逐步壮大。这套红黑运用了各种各样的神器配合，包括臭名昭著的神器共鸣，来唤起万智牌未往的强大力量。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><b>浣熊民</b> 尽早跳费以便施放大型浣熊主宰战场。再组进几张能帮助触发花销异能的高费牌，但也不要太多，避免你在游戏早期节奏落后。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><b>兔民</b> 集结尽可能多的兔和兔衍生物。再找些铺场回馈或战斗膨胀全体的咒语和效应。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><b>蝙蝠民</b> 部署飞行的蝙蝠大军并在自己回合获得或失去生命时获取回报。掺入些优质阻挡者和防御咒语以便你从空中进攻同时能拖垮对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><b>水獭民</b> 水獭们喜爱你施放瞬间或法术咒语时的样子并会为此给你回报。加入更少的生物，更多样的咒语，能帮你掌控战局的尤佳。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><b>松鼠民</b> 通过大型生物和生物去除在游戏中期主宰战局。找些填坟和派出食品的手段来充分利用松鼠们的觅粮机制。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><b>家鼠民</b> 家鼠们总是喜欢进攻，所以将大量低费快攻生物组进套牌。再辅以武具和强化战斗咒语来触发英武异能。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><b>蛙民</b> 充分利用带有进场触发异能的生物。许多蛙们能够云移生物或使生物回手。利用这些额外价值，你会在游戏后期变得十分强大。"
+    },
+    "Events/Event_Desc_Y25DFT_Premier_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Artifact Value </b> Build up a board full of artifacts until your rival is overwhelmed by your racing Robot army!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Artifact Bleeder</b> Scare your opponent silly with a combination of Robots and possessed toys that pressure your opponent's life total.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Max Speed Aggro </b> Ensure you reach max speed to drive your rivals into the pavement.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Exhaust Midrange</b> Burn everything in the tank to enhance the Goblin Rocketeers to impressive size!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Vehicles & Mounts Midrange</b> The Alacrian Quickbeasts have skilled pilots who will ride your Mounts and Vehicles across the finish line.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Max Speed Attrition </b> The Champions of Amonkhet keep their feet on the gas to reach max speed and unleash a Zombie onslaught.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Discard Aggro</b> Avast! Cycle and discard away unneeded cards to improve your Pirates so they can throw your opponent overboard.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Graveyard</b> Fill up your graveyard and keep returning your threats to rise above the roadkill.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Vehicles & Mounts Aggro</b> Road rage! Keep driving forward with the Cloudspire crew's offense to make your opponent backpedal. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Exhaust Ramp</b> The Aether Rangers have mana to burn, fueling abilities that grant their creatures a huge burst of power.",
+        "translation": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Artifact Value </b> Build up a board full of artifacts until your rival is overwhelmed by your racing Robot army!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Artifact Bleeder</b> Scare your opponent silly with a combination of Robots and possessed toys that pressure your opponent's life total.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Max Speed Aggro </b> Ensure you reach max speed to drive your rivals into the pavement.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Exhaust Midrange</b> Burn everything in the tank to enhance the Goblin Rocketeers to impressive size!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Vehicles & Mounts Midrange</b> The Alacrian Quickbeasts have skilled pilots who will ride your Mounts and Vehicles across the finish line.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Max Speed Attrition </b> The Champions of Amonkhet keep their feet on the gas to reach max speed and unleash a Zombie onslaught.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Discard Aggro</b> Avast! Cycle and discard away unneeded cards to improve your Pirates so they can throw your opponent overboard.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Graveyard</b> Fill up your graveyard and keep returning your threats to rise above the roadkill.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Vehicles & Mounts Aggro</b> Road rage! Keep driving forward with the Cloudspire crew's offense to make your opponent backpedal. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Exhaust Ramp</b> The Aether Rangers have mana to burn, fueling abilities that grant their creatures a huge burst of power."
     },
     "Events/Event_Desc_Y25DSK_Premier_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Eerie Investigation </b> Search the House! Play lots of enchantments and unlock Rooms to power up your creatures and get around all the horrifying blockers the house might throw your way. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Eerie Domination </b> Live out your worst nightmares and share them with your opponent, unlocking Rooms and playing enchantments to kill off their creatures and seize control of the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>BR Serial Sacrifice</b> Want to slash through opposing creatures and your opponent with ease? Pay the price for strength by sacrificing your own creatures and old Rooms. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Delirious Rampage</b> Fill your deck with artifact and enchantment creatures (along with other card types), then start attacking early and often. Once you get four different card types into your graveyard, your cards power up. Now go for the jugular! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Survival </b> Utilize all of Duskmourn's tricks to power up your creatures and help them smash their way to safety. Find other ways to tap them and hide until the danger's past. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Cultic Reanimation</b> All hail Valgavoth! Slow your opponent down while you get enormous monsters into your graveyard and then perform the rituals to return them to life. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Room after Room </b> The House never ends! Trap your opponent going in circles as you unlock Rooms to build up control of more and more territory, then unleash the ghosts held within for a frightening finish. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Grinding Delirium</b> Prioritize getting a wide variety of card types, then gum up the board as you fill your graveyard with them. Once you've got four types, grind your opponent to dust by recycling what you've thrown away. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Childhood Fears</b> Fill your deck with toys and clowns that have 2 or less power and start attacking! Smash your opponents swiftly by clearing out their blockers and buffing your little creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Manifest Dread</b> Something's lurking in the shadows. Manifest face-down creatures and get them into combat, then surprise your opponent with their true forms to outsize the competition.",
@@ -26763,6 +26815,10 @@
         "oracleText": "Sparky's Challenge",
         "translation": "火花精灵挑战"
     },
+    "Events/Event_Title_SparkyDay2025": {
+        "oracleText": "Sparky Day 2025: Planeswalker Party!",
+        "translation": "Sparky Day 2025: Planeswalker Party!"
+    },
     "Events/Event_Title_Standard_Challenge": {
         "oracleText": "Standard Metagame Challenge",
         "translation": "标准环境挑战"
@@ -27246,6 +27302,10 @@
     "Events/Event_Title_Y25BLB_Premier_Draft": {
         "oracleText": "Premier Draft Bloomburrow Alchemy",
         "translation": "炼金：斑隆洛竞技轮抽"
+    },
+    "Events/Event_Title_Y25DFT_Premier_Draft": {
+        "oracleText": "Premier Draft Aetherdrift Alchemy",
+        "translation": "Premier Draft Aetherdrift Alchemy"
     },
     "Events/Event_Title_Y25DSK_Premier_Draft": {
         "oracleText": "Premier Draft Duskmourn: House of Horror Alchemy",
@@ -30303,6 +30363,10 @@
         "oracleText": "Alchemy: Bloomburrow",
         "translation": "炼金：班隆洛"
     },
+    "General/Sets/Y25-DFT": {
+        "oracleText": "Alchemy: Aetherdrift",
+        "translation": "Alchemy: Aetherdrift"
+    },
     "General/Sets/Y25-DSK": {
         "oracleText": "Alchemy: Duskmourn",
         "translation": "炼金：暮悲邸"
@@ -31942,6 +32006,10 @@
     "MainNav/CardViewer/Crafting/CraftButton": {
         "oracleText": "Craft",
         "translation": "合成"
+    },
+    "MainNav/CardViewer/Crafting/WildcardsConsumed_DifferentWildcard": {
+        "oracleText": "This card requires a {rarity} Wildcard to craft as that is its lowest-rarity printing on MTG Arena.",
+        "translation": "This card requires a {rarity} Wildcard to craft as that is its lowest-rarity printing on MTG Arena."
     },
     "MainNav/CardViewer/Crafting/WildcardsConsumed_Plural": {
         "oracleText": "Crafting will consume {quantity} {rarity} Wildcards.",
@@ -34498,6 +34566,10 @@
     "MainNav/DeckBuilder/Sleeves/CardBack_DFT_445426": {
         "oracleText": "Bestow Greatness Sleeve",
         "translation": "彰显伟绩牌套"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_DFT_450399": {
+        "oracleText": "Spikeshell Harrier Sleeve",
+        "translation": "Spikeshell Harrier Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_DFT_450452": {
         "oracleText": "Loot Sleeve",
@@ -38447,6 +38519,10 @@
         "oracleText": "Arena Pioneer",
         "translation": "竞技场先驱"
     },
+    "MainNav/DeckFormat/PlaneswalkerParty": {
+        "oracleText": "Planeswalker Party",
+        "translation": "Planeswalker Party"
+    },
     "MainNav/DeckFormat/Ravnica": {
         "oracleText": "Ravnica Block",
         "translation": "拉尼卡环境"
@@ -42303,6 +42379,14 @@
         "oracleText": "Ready, Set, Race!",
         "translation": "各就各位，预备，跑！"
     },
+    "MainNav/HomePage/Carousel/2024_46_0_Store_Desc": {
+        "oracleText": "Continue lapping the competition with boosters, styles, and more in the Store!",
+        "translation": "Continue lapping the competition with boosters, styles, and more in the Store!"
+    },
+    "MainNav/HomePage/Carousel/2024_46_0_Store_Title": {
+        "oracleText": "Ready, Set, Race Again!",
+        "translation": "Ready, Set, Race Again!"
+    },
     "MainNav/HomePage/Carousel/2024_WizKidsPlushCharms_Wave1_Desc": {
         "oracleText": "Purchase an Arena-inspired Plush Charm and receive a sleeve and a discount on a matching companion in Arena!",
         "translation": "购买一个竞技场风格的毛绒挂件，立刻获得牌套并享有竞技场中对应宠物的折扣！"
@@ -45559,6 +45643,14 @@
         "oracleText": "Spooky Sleeves",
         "translation": "幽灵形态牌套"
     },
+    "MainNav/HomePage/Carousel/SpotlightSeries_Modern_Desc": {
+        "oracleText": "$50,000, Pro Tour Invites, and more are up for grabs!",
+        "translation": "$50,000, Pro Tour Invites, and more are up for grabs!"
+    },
+    "MainNav/HomePage/Carousel/SpotlightSeries_Modern_Title": {
+        "oracleText": "Sign up today for Spotlight Series Modern!",
+        "translation": "Sign up today for Spotlight Series Modern!"
+    },
     "MainNav/HomePage/Carousel/Standard2020_Bundle_Desc": {
         "oracleText": "Get a one-time deal on 10 boosters across current Standard sets and 1000 Gems.",
         "translation": "10包标准系列补充包和1000颗宝石的超值组合，仅限购买一次。"
@@ -47311,6 +47403,14 @@
         "oracleText": "On Your Mark...Get Set...",
         "translation": "车手就位…蓄势待发…"
     },
+    "MainNav/Mailbox/2025_46_0_Y25DFT_Announcement_Description": {
+        "oracleText": "The race isn't over yet! It's neck and neck for who's going to take the Aetherspark. Take these 3 packs to help stay in the lead!",
+        "translation": "The race isn't over yet! It's neck and neck for who's going to take the Aetherspark. Take these 3 packs to help stay in the lead!"
+    },
+    "MainNav/Mailbox/2025_46_0_Y25DFT_Announcement_Title": {
+        "oracleText": "Keep The Rubber Burning",
+        "translation": "Keep The Rubber Burning"
+    },
     "MainNav/Mailbox/AnnualSatisfactionSurveyCTA_Description": {
         "oracleText": "We hope you are enjoying MTG Arena! If you have a few minutes, we would love to hear your thoughts in our feedback survey.\n\nThank you for all your help and see you in the game!",
         "translation": "We hope you are enjoying MTG Arena! If you have a few minutes, we would love to hear your thoughts in our feedback survey.\n\nThank you for all your help and see you in the game!"
@@ -48458,6 +48558,14 @@
     "MainNav/Mailbox/Y24WOE_WebReleaseNotes_Title": {
         "oracleText": "Alchemy: Eldraine Release Notes are Here!",
         "translation": "Alchemy: Eldraine Release Notes are Here!"
+    },
+    "MainNav/Mailbox/Y25DFT_FastFollow_PatchNotes_Title": {
+        "oracleText": "2025.46.10 Patch Notes Are Here!",
+        "translation": "2025.46.10 Patch Notes Are Here!"
+    },
+    "MainNav/Mailbox/Y25DFT_PatchNotes_Title": {
+        "oracleText": "2025.46.0 Patch Notes Are Here!",
+        "translation": "2025.46.0 Patch Notes Are Here!"
     },
     "MainNav/Mailbox/Y25DSK_FastFollow_PatchNotes_Title": {
         "oracleText": "2024.42.10 Patch Notes Are Here!",
@@ -54775,6 +54883,14 @@
         "oracleText": "Alchemist Bundle",
         "translation": "炼金套装"
     },
+    "MainNav/Store/Bundles/Bundle_Alchemist_DFT_Desc": {
+        "oracleText": "20x <i>Alchemy: Aetherdrift</i> Boosters",
+        "translation": "20x <i>Alchemy: Aetherdrift</i> Boosters"
+    },
+    "MainNav/Store/Bundles/Bundle_Alchemist_DFT_Name": {
+        "oracleText": "Alchemist Bundle",
+        "translation": "Alchemist Bundle"
+    },
     "MainNav/Store/Bundles/Bundle_Alchemist_DMU_Desc": {
         "oracleText": "20x Alchemy: Dominaria boosters",
         "translation": "20x 炼金：多明纳里亚补充包"
@@ -55435,6 +55551,14 @@
         "oracleText": "Showcase Japanese Styles",
         "translation": "日本特色牌框样式"
     },
+    "MainNav/Store/Bundles/Bundle_DFT_Spikeshell_Desc": {
+        "oracleText": "Spikeshell Servo Companion\nSpikeshell Harrier Sleeve",
+        "translation": "Spikeshell Servo Companion\nSpikeshell Harrier Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_DFT_Spikeshell_Name": {
+        "oracleText": "Spikeshell Companion Bundle",
+        "translation": "Spikeshell Companion Bundle"
+    },
     "MainNav/Store/Bundles/Bundle_DFT_Stickers_Desc": {
         "oracleText": "Chandra Oops Sticker Emote \nVnwxt Hype Sticker Emote\nGoblin Turbocharge Sticker Emote",
         "translation": "茜卓哎呀贴纸表情\n维夕特嗨翻贴纸表情\n鬼怪加速贴纸表情"
@@ -56035,6 +56159,46 @@
         "oracleText": "Battle Forged Bundle",
         "translation": "战斗熔铸套装"
     },
+    "MainNav/Store/Bundles/Bundle_HA4_DA1_Desc": {
+        "oracleText": "Adorned Pouncer Card Style\nDeclaration in Stone Card Style\nHamza, Guardian of Arashin Card Style\nThraben Inspector Card Style\nTriumphant Reckoning Card Style",
+        "translation": "Adorned Pouncer Card Style\nDeclaration in Stone Card Style\nHamza, Guardian of Arashin Card Style\nThraben Inspector Card Style\nTriumphant Reckoning Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_HA4_DA1_Name": {
+        "oracleText": "Historic Styles: Proud Protectors",
+        "translation": "Historic Styles: Proud Protectors"
+    },
+    "MainNav/Store/Bundles/Bundle_HA4_DA2_Desc": {
+        "oracleText": "Goblin Gaveleer Card Style\nBlinkmoth Nexus Card Style\nBonesplitter Card Style\nInspiring Statuary Card Style\nSword of Body and Mind Card Style",
+        "translation": "Goblin Gaveleer Card Style\nBlinkmoth Nexus Card Style\nBonesplitter Card Style\nInspiring Statuary Card Style\nSword of Body and Mind Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_HA4_DA2_Name": {
+        "oracleText": "Historic Styles: Battle Forged",
+        "translation": "Historic Styles: Battle Forged"
+    },
+    "MainNav/Store/Bundles/Bundle_HA4_DA3_Desc": {
+        "oracleText": "Collected Conjuring Card Style\nFaith of the Devoted Card Style\nFlameblade Adept Card Style\nThink Twice Card Style\nHarmless Offering Card Style",
+        "translation": "Collected Conjuring Card Style\nFaith of the Devoted Card Style\nFlameblade Adept Card Style\nThink Twice Card Style\nHarmless Offering Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_HA4_DA3_Name": {
+        "oracleText": "Historic Styles: Arcane Mastery",
+        "translation": "Historic Styles: Arcane Mastery"
+    },
+    "MainNav/Store/Bundles/Bundle_HA4_DA4_Desc": {
+        "oracleText": "Abomination of Llanowar Card Style\nAmmit Eternal Card Style\nLys Alana Huntmaster Card Style\nSawtusk Demolisher Card Style\nSpider Spawning Card Style",
+        "translation": "Abomination of Llanowar Card Style\nAmmit Eternal Card Style\nLys Alana Huntmaster Card Style\nSawtusk Demolisher Card Style\nSpider Spawning Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_HA4_DA4_Name": {
+        "oracleText": "Historic Styles: Dark Hunters",
+        "translation": "Historic Styles: Dark Hunters"
+    },
+    "MainNav/Store/Bundles/Bundle_HA4_DA5_Desc": {
+        "oracleText": "Coldsteel Heart Card Style\nDeath's Shadow Card Style\nTorment of Scarabs Card Style\nIceberg Cancrix Card Style\nMarit Lage's Slumber Card Style",
+        "translation": "Coldsteel Heart Card Style\nDeath's Shadow Card Style\nTorment of Scarabs Card Style\nIceberg Cancrix Card Style\nMarit Lage's Slumber Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_HA4_DA5_Name": {
+        "oracleText": "Historic Styles: Frightful Shiver",
+        "translation": "Historic Styles: Frightful Shiver"
+    },
     "MainNav/Store/Bundles/Bundle_HA4_DarkHunters_Desc": {
         "oracleText": "Abomination of Llanowar Card Style\nAmmit Eternal Card Style\nLys Alana Huntmaster Card Style\nSawtusk Demolisher Card Style\nSpider Spawning Card Style",
         "translation": "*罗堰憎恶兽*卡牌样式\n*永生阿米特*卡牌样式\n*黎撒拉那领猎人*卡牌样式\n*锯齿碎木者*卡牌样式\n*蜘蛛孳生*卡牌样式"
@@ -56043,6 +56207,10 @@
         "oracleText": "Dark Hunters Bundle",
         "translation": "暗黑猎手套装"
     },
+    "MainNav/Store/Bundles/Bundle_HA4_Desc": {
+        "oracleText": "4x Abomination of Llanowar \n4x Adorned Pouncer\n4x Ammit Eternal\n4x Blinkmoth Nexus\n4x Bonesplitter\n4x Coldsteel Heart\n4x Collected Conjuring\n4x Death's Shadow\n4x Declaration in Stone\n4x Faith of the Devoted\n4x Flameblade Adept\n4x Goblin Gaveleer\n4x Hamza, Guardian of Arashin\n4x Harmless Offering\n4x Iceberg Cancrix\n4x Inspiring Statuary\n4x Lys Alana Huntmaster\n4x Marit Lage's Slumber\n4x Sawtusk Demolisher\n4x Spider Spawning\n4x Sword of Body and Mind\n4x Think Twice\n4x Thraben Inspector\n4x Torment of Scarabs\n4x Triumphant Reckoning",
+        "translation": "4x Abomination of Llanowar \n4x Adorned Pouncer\n4x Ammit Eternal\n4x Blinkmoth Nexus\n4x Bonesplitter\n4x Coldsteel Heart\n4x Collected Conjuring\n4x Death's Shadow\n4x Declaration in Stone\n4x Faith of the Devoted\n4x Flameblade Adept\n4x Goblin Gaveleer\n4x Hamza, Guardian of Arashin\n4x Harmless Offering\n4x Iceberg Cancrix\n4x Inspiring Statuary\n4x Lys Alana Huntmaster\n4x Marit Lage's Slumber\n4x Sawtusk Demolisher\n4x Spider Spawning\n4x Sword of Body and Mind\n4x Think Twice\n4x Thraben Inspector\n4x Torment of Scarabs\n4x Triumphant Reckoning"
+    },
     "MainNav/Store/Bundles/Bundle_HA4_FrightfulShiver_Desc": {
         "oracleText": "Coldsteel Heart Card Style\nDeath's Shadow Card Style\nTorment of Scarabs Card Style\nIceberg Cancrix Card Style\nMarit Lage's Slumber Card Style",
         "translation": "*寒钢核心*卡牌样式\n*死亡阴影*卡牌样式\n*圣甲虫灾难*卡牌样式\n*冰山蟹兽*卡牌样式\n*玛莉雷基沉眠*卡牌样式"
@@ -56050,6 +56218,10 @@
     "MainNav/Store/Bundles/Bundle_HA4_FrightfulShiver_Name": {
         "oracleText": "Frightful Shiver Bundle",
         "translation": "可怕的颤抖套装"
+    },
+    "MainNav/Store/Bundles/Bundle_HA4_Name": {
+        "oracleText": "Historic Anthology 4",
+        "translation": "Historic Anthology 4"
     },
     "MainNav/Store/Bundles/Bundle_HA4_ProudProtectors_Desc": {
         "oracleText": "Adorned Pouncer Card Style\nDeclaration in Stone Card Style\nHamza, Guardian of Arashin Card Style\nThraben Inspector Card Style\nTriumphant Reckoning Card Style",
@@ -56066,6 +56238,46 @@
     "MainNav/Store/Bundles/Bundle_HA5_AllCards_Name": {
         "oracleText": "Historic Anthology 5",
         "translation": "史迹合集5"
+    },
+    "MainNav/Store/Bundles/Bundle_HA5_DA1_Desc": {
+        "oracleText": "Ichor Wellspring Card Style\nWhirler Rogue Card Style\nVault Skirge Card Style\nReverse Engineer Card Style\nCourt Homunculus Card Style\nStifle Card Style\nUrabrask the Hidden Card Style",
+        "translation": "Ichor Wellspring Card Style\nWhirler Rogue Card Style\nVault Skirge Card Style\nReverse Engineer Card Style\nCourt Homunculus Card Style\nStifle Card Style\nUrabrask the Hidden Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_HA5_DA1_Name": {
+        "oracleText": "Historic Styles: Infernal Instruments",
+        "translation": "Historic Styles: Infernal Instruments"
+    },
+    "MainNav/Store/Bundles/Bundle_HA5_DA2_Desc": {
+        "oracleText": "Grisly Salvage Card Style\nMerfolk Looter Card Style\nSheoldred, Whispering One Card Style\nTrash for Treasure Card Style\nJin-Gitaxias, Core Augur Card Style\nRay of Revelation Card Style\nRelic of Progenitus Card Style",
+        "translation": "Grisly Salvage Card Style\nMerfolk Looter Card Style\nSheoldred, Whispering One Card Style\nTrash for Treasure Card Style\nJin-Gitaxias, Core Augur Card Style\nRay of Revelation Card Style\nRelic of Progenitus Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_HA5_DA2_Name": {
+        "oracleText": "Historic Styles: Grave Whispers",
+        "translation": "Historic Styles: Grave Whispers"
+    },
+    "MainNav/Store/Bundles/Bundle_HA5_DA3_Desc": {
+        "oracleText": "Vorinclex, Voice of Hunger Card Style\nInto the North Card Style\nDragonstorm Card Style\nAncient Grudge Card Style\nElesh Norn, Grand Cenobite Card Style\nIntangible Virtue Card Style",
+        "translation": "Vorinclex, Voice of Hunger Card Style\nInto the North Card Style\nDragonstorm Card Style\nAncient Grudge Card Style\nElesh Norn, Grand Cenobite Card Style\nIntangible Virtue Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_HA5_DA3_Name": {
+        "oracleText": "Historic Styles: Ancient Adversaries",
+        "translation": "Historic Styles: Ancient Adversaries"
+    },
+    "MainNav/Store/Bundles/Bundle_HA5_DA4_Desc": {
+        "oracleText": "Atarka's Command Card Style\nDromoka's Command Card Style\nKolaghan's Command Card Style\nOjutai's Command Card Style\nSilumgar's Command Card Style",
+        "translation": "Atarka's Command Card Style\nDromoka's Command Card Style\nKolaghan's Command Card Style\nOjutai's Command Card Style\nSilumgar's Command Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_HA5_DA4_Name": {
+        "oracleText": "Historic Styles: Draconic Commands",
+        "translation": "Historic Styles: Draconic Commands"
+    },
+    "MainNav/Store/Bundles/Bundle_HA5_Desc": {
+        "oracleText": "4x Ancient Grudge\n4x Atarka's Command\n4x Court Homunculus\n4x Dragonstorm\n4x Dromoka's Command\n4x Elesh Norn, Grand Cenobite\n4x Grisly Salvage\n4x Ichor Wellspring\n4x Intangible Virtue\n4x Into the North\n4x Jin-Gitaxias, Core Augur\n4x Kolaghan's Command\n4x Merfolk Looter\n4x Ojutai's Command\n4x Ray of Revelation\n4x Relic of Progenitus\n4x Reverse Engineer\n4x Sheoldred, Whispering One\n4x Silumgar's Command\n4x Stifle\n4x Trash for Treasure\n4x Urabask the Hidden\n4x Vault Skirge\n4x Vorinclex, Voice of Hunger\n4x Whirler Rogue",
+        "translation": "4x Ancient Grudge\n4x Atarka's Command\n4x Court Homunculus\n4x Dragonstorm\n4x Dromoka's Command\n4x Elesh Norn, Grand Cenobite\n4x Grisly Salvage\n4x Ichor Wellspring\n4x Intangible Virtue\n4x Into the North\n4x Jin-Gitaxias, Core Augur\n4x Kolaghan's Command\n4x Merfolk Looter\n4x Ojutai's Command\n4x Ray of Revelation\n4x Relic of Progenitus\n4x Reverse Engineer\n4x Sheoldred, Whispering One\n4x Silumgar's Command\n4x Stifle\n4x Trash for Treasure\n4x Urabask the Hidden\n4x Vault Skirge\n4x Vorinclex, Voice of Hunger\n4x Whirler Rogue"
+    },
+    "MainNav/Store/Bundles/Bundle_HA5_Name": {
+        "oracleText": "Historic Anthology 5",
+        "translation": "Historic Anthology 5"
     },
     "MainNav/Store/Bundles/Bundle_HA5_Styles1_Desc": {
         "oracleText": "Ichor Wellspring Card Style\nWhirler Rogue Card Style\nVault Skirge Card Style\nReverse Engineer Card Style\nCourt Homunculus Card Style\nStifle Card Style\nUrabrask the Hidden Card Style",
@@ -59058,6 +59270,38 @@
     "MainNav/Store/Bundles/Bundle_Y25BLB_DA3_Name": {
         "oracleText": "Unnatural Selection",
         "translation": "非自然选择"
+    },
+    "MainNav/Store/Bundles/Bundle_Y25DFT_DA1_Desc": {
+        "oracleText": "Sala, Deck Boss Card Style\nSpeedbrood Stalker Card Style\nSupport Skyforge Card Style\nHighway Reaver Card Style\nArius, Flyby Trawler Card Style\nSurge of Acclaim Card Style\nNaktamun Shines Again Card Style",
+        "translation": "Sala, Deck Boss Card Style\nSpeedbrood Stalker Card Style\nSupport Skyforge Card Style\nHighway Reaver Card Style\nArius, Flyby Trawler Card Style\nSurge of Acclaim Card Style\nNaktamun Shines Again Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y25DFT_DA1_Name": {
+        "oracleText": "Alchemy Styles: Blaze of Glory",
+        "translation": "Alchemy Styles: Blaze of Glory"
+    },
+    "MainNav/Store/Bundles/Bundle_Y25DFT_DA2_Desc": {
+        "oracleText": "Chomping Mastasaur Card Style\nMitotic Ultimus Card Style\nTsagan, Raider Warlord Card Style\nFuel Tank Feaster Card Style\nQuickbeast Amulet Card Style\nGreat Fang Chroniclers Card Style\nRouteway Moose Card Style\nTerrors of the Track Card Style",
+        "translation": "Chomping Mastasaur Card Style\nMitotic Ultimus Card Style\nTsagan, Raider Warlord Card Style\nFuel Tank Feaster Card Style\nQuickbeast Amulet Card Style\nGreat Fang Chroniclers Card Style\nRouteway Moose Card Style\nTerrors of the Track Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y25DFT_DA2_Name": {
+        "oracleText": "Alchemy Styles: Perils of Muraganda",
+        "translation": "Alchemy Styles: Perils of Muraganda"
+    },
+    "MainNav/Store/Bundles/Bundle_Y25DFT_DA3_Desc": {
+        "oracleText": "Kari Zev, Crew of Two Card Style\nMasterpiece Vault Card Style\nOrnate Imitations Card Style\nHangarback Assembler Card Style\nTrackhand Trainer Card Style\nWish Good Luck Card Style\nDeviant Skytech Card Style\nMotivated Muralist Card Style",
+        "translation": "Kari Zev, Crew of Two Card Style\nMasterpiece Vault Card Style\nOrnate Imitations Card Style\nHangarback Assembler Card Style\nTrackhand Trainer Card Style\nWish Good Luck Card Style\nDeviant Skytech Card Style\nMotivated Muralist Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y25DFT_DA3_Name": {
+        "oracleText": "Alchemy Styles: Ghirapur Marvels",
+        "translation": "Alchemy Styles: Ghirapur Marvels"
+    },
+    "MainNav/Store/Bundles/Bundle_Y25DFT_DA4_Desc": {
+        "oracleText": "Turbocharged Escape Card Style\nSpectacle of Destruction Card Style\nSmog Smasher Card Style\nBail Out Card Style\nGoblin Crash Pilot Card Style\nUnforgiving Overtake Card Style\nRising Chicane Card Style",
+        "translation": "Turbocharged Escape Card Style\nSpectacle of Destruction Card Style\nSmog Smasher Card Style\nBail Out Card Style\nGoblin Crash Pilot Card Style\nUnforgiving Overtake Card Style\nRising Chicane Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y25DFT_DA4_Name": {
+        "oracleText": "Alchemy Styles: Crash and Burn",
+        "translation": "Alchemy Styles: Crash and Burn"
     },
     "MainNav/Store/Bundles/Bundle_Y25DSK_DA1_Desc": {
         "oracleText": "Chittering Illuminator Card Style\nEager Flameguide Card Style\nEnduring Friendship Card Style\nGilded Ambusher Card Style\nGolden Sidekick Card Style\nMischievous Lookout Card Style\nValiant Emberkin Card Style\nWingbright Thief Card Style",
@@ -62756,8 +63000,8 @@
         "translation": "底密尔的间谍和保密人曾经在拉尼卡经营信息贸易。 自从非瑞克西亚入侵后，他们就隐退到了阴影之中——有些人甚至声称他们已经不存在了。"
     },
     "Match/QueueTips/Queue_Tip_228": {
-        "oracleText": "The Izzet League is in charge of providing solutions for public works projects, such as sewers and boilers. They're also obsessive innovators whose experiments are often...explosive.",
-        "translation": "伊捷联盟负责为下水道和锅炉等公共工程项目提供解决方案。 他们也是偏执的创新者，他们的实验常常是……爆炸性的。"
+        "oracleText": "Many of the best decks don't go over the recommended card limit. Very rarely do you need over 40 cards in your deck for Limited formats or over 60 cards in Constructed formats.",
+        "translation": "Many of the best decks don't go over the recommended card limit. Very rarely do you need over 40 cards in your deck for Limited formats or over 60 cards in Constructed formats."
     },
     "Match/QueueTips/Queue_Tip_229": {
         "oracleText": "The Cult of Rakdos are entertainers, satirists, and circus acrobats who revel in unrestrained hedonism; often to the point of risking their lives. They regularly mock and undermine the other guilds, whom they believe take themselves too seriously.",
