@@ -145,7 +145,7 @@
     },
     "AbilityHanger/AbilityWord/Gift_Rhystic_Study_Body": {
         "oracleText": "You may promise an opponent a gift as you cast this spell. If you do, they conjure a card named Rhystic Study onto the battlefield before its other effects.",
-        "translation": "你施放此咒语时可以应诺礼赠一位对手。如果你如此作，则该牌手在此咒语其他效应之前先变出一张名称为琉晶研究的牌进场。"
+        "translation": "你施放此咒语时可以应诺礼赠一位对手。如果你如此作，则该牌手在此咒语其他效应之前将一张名称为琉晶研究的牌幻变进战场。"
     },
     "AbilityHanger/AbilityWord/Gift_Rhystic_Study_Title": {
         "oracleText": "Gift a Rhystic Study",
@@ -313,11 +313,11 @@
     },
     "AbilityHanger/CantSpecialize/Cant_Specialize_Body": {
         "oracleText": "This permanent does not have specialized faces and can't specialize.",
-        "translation": "此永久物没有专精牌面，无法专精。"
+        "translation": "此永久物不具有精进牌面，无法精进。"
     },
     "AbilityHanger/CantSpecialize/Cant_Specialize_Title": {
         "oracleText": "Can't Specialize",
-        "translation": "无法专精"
+        "translation": "无法精进"
     },
     "AbilityHanger/CantTransform/Cant_Transform_Addendum": {
         "oracleText": "This is not a double-faced card and it can't transform.",
@@ -933,11 +933,11 @@
     },
     "AbilityHanger/Keyword/Conjure_Body": {
         "oracleText": "A conjured card is added to the game.",
-        "translation": "一张变出的牌已添加到对局。"
+        "translation": "将一张牌幻变加入游戏。"
     },
     "AbilityHanger/Keyword/Conjure_Title": {
         "oracleText": "Conjure",
-        "translation": "变出"
+        "translation": "幻变"
     },
     "AbilityHanger/Keyword/ConniveX_Body": {
         "oracleText": "To have a creature connive X, draw X cards, then discard X cards. Put a +1/+1 counter on that creature for each nonland card discarded this way.",
@@ -1293,19 +1293,19 @@
     },
     "AbilityHanger/Keyword/DoubleTeam_Body": {
         "oracleText": "When a creature with double team attacks, if it's not a token, conjure a duplicate into your hand, then both of them perpetually lose double team.",
-        "translation": "当具后继异能的生物攻击时，如果它不为衍生物，变出一张它的复制牌置于你手上，然后两者永久失去后继异能。"
+        "translation": "当一个具双打异能的生物攻击时，若它不是衍生物，则将一个副本幻变进你手上，然后这两者均永久性失去双打异能。"
     },
     "AbilityHanger/Keyword/DoubleTeam_Title": {
         "oracleText": "Double Team",
-        "translation": "后继"
+        "translation": "双打"
     },
     "AbilityHanger/Keyword/DraftFromSpellbook_Body": {
         "oracleText": "To draft from a spellbook select one of three random cards from this card's spellbook to add to your hand.",
-        "translation": "系统从法术书的所有选项中随机给出三张牌，你选择其中一张，将其置于你手上。"
+        "translation": "从法术书中抽选牌的流程为，从该牌的法术书内随机的三张牌中选择一张并加入你的手牌。"
     },
     "AbilityHanger/Keyword/DraftFromSpellbook_Title": {
         "oracleText": "Draft from a Spellbook",
-        "translation": "从法术书中发现一张牌"
+        "translation": "从法术书中抽选牌"
     },
     "AbilityHanger/Keyword/Dredge_Body": {
         "oracleText": "If you would draw a card you may instead mill {numeral} cards and return a card with dredge {numeral} from your graveyard to your hand.",
@@ -1609,11 +1609,11 @@
     },
     "AbilityHanger/Keyword/Incorporate_Body": {
         "oracleText": "A card incorporated this way costs {abilityCost} more to cast and is {color} in addition to its other colors.",
-        "translation": "以此法融入的牌增加{abilityCost}来施放，且额外具有{color}此颜色。"
+        "translation": "以此法添补的牌张增加{abilityCost}来施放，为{color}，且仍具有原本颜色。"
     },
     "AbilityHanger/Keyword/Incorporate_Title": {
         "oracleText": "Incorporate",
-        "translation": "融入"
+        "translation": "添补"
     },
     "AbilityHanger/Keyword/Incubate1_Body": {
         "oracleText": "Create an Incubator token with a +1/+1 counter on it and \"{o2}: Transform this artifact.\" It transforms into a 0/0 Phyrexian artifact creature.",
@@ -2373,11 +2373,11 @@
     },
     "AbilityHanger/Keyword/Seek_Body": {
         "oracleText": "To seek a card, put one at random from your library into your hand.",
-        "translation": "掏一张牌，指从你的牌库中随机将一张牌置于你的手上。"
+        "translation": "取出牌的流程是，随机将一张相应牌张从你的牌库置于你手上。"
     },
     "AbilityHanger/Keyword/Seek_Title": {
         "oracleText": "Seek",
-        "translation": "掏"
+        "translation": "取出"
     },
     "AbilityHanger/Keyword/Shroud_Body": {
         "oracleText": "A player or permanent with shroud can't be the target of spells or abilities.",
@@ -2405,11 +2405,11 @@
     },
     "AbilityHanger/Keyword/Specialize_Body": {
         "oracleText": "{abilityCost}, Choose a color, discard a card of that color or associated basic land type: This creature perpetually specializes into that color. Activate only as a sorcery.",
-        "translation": "{abilityCost}，选择一种颜色，弃一张该颜色或相关基本地类别的牌：此生物永久专精为该颜色。只能于法术时机起动。"
+        "translation": "{abilityCost}，选择一种颜色，弃掉一张该色或与该色关联之基本地类别的牌：此生物永久性精进为改颜色。只能于法术时机起动。"
     },
     "AbilityHanger/Keyword/Specialize_Title": {
         "oracleText": "Specialize",
-        "translation": "专精"
+        "translation": "精进"
     },
     "AbilityHanger/Keyword/Spectacle": {
         "oracleText": "You may cast this spell for its spectacle cost rather than its mana cost if an opponent lost life this turn.",
@@ -2785,7 +2785,7 @@
     },
     "AbilityHanger/PlayWarning/Body_Legendary_Specialize": {
         "oracleText": "You already control a legendary with this name. Specializing into this color will require you to choose which legendary to keep.",
-        "translation": "你已经操控具有该名称的传奇。专精为该颜色会要求你选择保留某个传奇。"
+        "translation": "你已操控一个相同名称的传奇，精进为此颜色的话，你只能选择留下其中一个传奇。"
     },
     "AbilityHanger/PlayWarning/Body_StartingPlayer": {
         "oracleText": "You were the starting player.",
@@ -2869,7 +2869,7 @@
     },
     "AbilityHanger/Qualification/AssignCombatDamageAsThoughWerentBlocked_Title": {
         "oracleText": "Unstoppable",
-        "translation": "未阻"
+        "translation": "径击"
     },
     "AbilityHanger/Qualification/AssignCombatDamageWithToughness_Title": {
         "oracleText": "Backbone",
@@ -4641,7 +4641,7 @@
     },
     "Achievements/Core/Red/TreasureCumulative": {
         "oracleText": "Big Spender",
-        "translation": "散财款爷"
+        "translation": "挥金狂徒"
     },
     "Achievements/Core/Red/TreasureCumulative_desc": {
         "oracleText": "Sacrifice 100 treasure tokens over any number of games.",
@@ -12045,7 +12045,7 @@
     },
     "DuelScene/Browsers/Conjure_Subheader": {
         "oracleText": "Conjure a Card.",
-        "translation": "变出一张牌。"
+        "translation": "幻变一张牌。"
     },
     "DuelScene/Browsers/Delve_Subheader": {
         "oracleText": "Each card you exile from your graveyard pays for <sprite=\"SpriteSheet_ManaIcons\" name=\"x1\" color=\"#FFFFFF\">",
@@ -12417,7 +12417,7 @@
     },
     "DuelScene/Browsers/Specialize_BrowserHeader": {
         "oracleText": "Choose a specialization.",
-        "translation": "选择一项专精。"
+        "translation": "选择一种精进。"
     },
     "DuelScene/Browsers/Spree_BrowserButton_PayMana": {
         "oracleText": "Pay {manaCost}",
@@ -12533,7 +12533,7 @@
     },
     "DuelScene/CDC/Boon": {
         "oracleText": "One-Time Boon",
-        "translation": "一次祝福"
+        "translation": "一次性恩泽"
     },
     "DuelScene/CDC/Emblem": {
         "oracleText": "Emblem",
@@ -12541,7 +12541,7 @@
     },
     "DuelScene/CDC/ThreeTimeBoon": {
         "oracleText": "Three-Time Boon",
-        "translation": "三次祝福"
+        "translation": "三次恩泽"
     },
     "DuelScene/CDC/Token": {
         "oracleText": "Token",
@@ -12549,11 +12549,11 @@
     },
     "DuelScene/CDC/TwelveTimeBoon": {
         "oracleText": "Twelve-Time Boon",
-        "translation": "十二次祝福"
+        "translation": "十二次恩泽"
     },
     "DuelScene/CDC/TwoTimeBoon": {
         "oracleText": "Two-Time Boon",
-        "translation": "两次祝福"
+        "translation": "两次恩泽"
     },
     "DuelScene/ClientPrompt/ActivateAbility": {
         "oracleText": "Activate Ability",
@@ -12837,11 +12837,11 @@
     },
     "DuelScene/ClientPrompt/ExamineSpecialize": {
         "oracleText": "View Specializations",
-        "translation": "查看专精列表"
+        "translation": "查看精进道路"
     },
     "DuelScene/ClientPrompt/ExpedientLesser": {
         "oracleText": "Expedient (Lesser)",
-        "translation": "韬光养晦（更低）"
+        "translation": "权宜之计（更低）"
     },
     "DuelScene/ClientPrompt/Expropriate_Vote_Money": {
         "oracleText": "Money",
@@ -13273,7 +13273,7 @@
     },
     "DuelScene/FaceHanger/Conjure": {
         "oracleText": "Conjures",
-        "translation": "变出"
+        "translation": "幻变"
     },
     "DuelScene/FaceHanger/DFC_Back_TransformsInto": {
         "oracleText": "Transforms Into",
@@ -13337,11 +13337,11 @@
     },
     "DuelScene/FaceHanger/Specialized": {
         "oracleText": "Specialized From",
-        "translation": "专精自"
+        "translation": "精进来自"
     },
     "DuelScene/FaceHanger/SpecializesInto": {
         "oracleText": "Specializes Into",
-        "translation": "专精为"
+        "translation": "精进成为"
     },
     "DuelScene/FaceHanger/Spellbook": {
         "oracleText": "Spellbook",
@@ -13405,7 +13405,7 @@
     },
     "DuelScene/Interaction/CastingTimeOption/SpecializeModalAbilityText": {
         "oracleText": "Specialize {abilityCost}, Discard a {specializeColor} or {specializeLandType} card: This permanent specializes into {specializeColor}. Activate only as a sorcery.",
-        "translation": "专精{abilityCost}，弃一张{specializeColor}或{specializeLandType}牌：此永久物专精为{specializeColor}。只能于法术时机起动。"
+        "translation": "精进{abilityCost}，弃掉一张{specializeColor}或{specializeLandType}牌：此永久物精进成为{specializeColor}。只能于法术时机起动。"
     },
     "DuelScene/Interaction/DeclareAttackers/Attack": {
         "oracleText": "Attack",
@@ -13721,7 +13721,7 @@
     },
     "DuelScene/RuleText/BoonTriggersRemaining": {
         "oracleText": "{count} remaining",
-        "translation": "还剩{count}个"
+        "translation": "还剩{count}次"
     },
     "DuelScene/RuleText/CantBeBlockedByColorCreaturesThisTurn": {
         "oracleText": "Can't be blocked by {color} creatures this turn",
@@ -14421,7 +14421,7 @@
     },
     "EPP/ColorMastery/LossHints/Red03_Title": {
         "oracleText": "Bait out Counterspells",
-        "translation": "骗康"
+        "translation": "诱骗反击"
     },
     "EPP/ColorMastery/LossHints/Red04_Description": {
         "oracleText": "Activate your abilities after blockers are declared. That's the best time to surprise your opponent with extra damage.",
@@ -21621,7 +21621,7 @@
     },
     "Events/Event_Desc_FNM_KHM_Quick_Draft": {
         "oracleText": "Connect with your local game store while keeping yourself and others safe by playing Friday Night Magic (FNM) on MTG Arena!\n\nThis week: Draft Kaldheim! Select one card at a time from rotating draft packs with bots, no waiting, and no pick timers. Add basic lands to make a 40-card deck, and play against other players. You can play as many games as you want with your deck, but you can only draft once.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n\nYou can receive a code for an Arena FNM Promo Pack containing two cosmetic items when you share your results with your local game store. Find out how <u><link=https://magic.wizards.com/mtga-fnm-play-home-1>HERE</link></u>.\n\n*Note: While supplies last. Not all stores are participating.",
-        "translation": "Connect with your local game store while keeping yourself and others safe by playing Friday Night Magic (FNM) on MTG Arena!\n\nThis week: Draft Kaldheim! Select one card at a time from rotating draft packs with bots，no waiting，and no pick timers. Add basic lands to make a 40-card deck，and play against other players. You can play as many games as you want with your deck，but you can only draft once.\n\n<b><color=\"red\">这是一个幻影活动。你所抓取的牌张不会添加到你的收藏当中。</color></b>\n\nYou can receive a code for an Arena FNM Promo Pack containing two cosmetic items when you share your results with your local game store. Find out how <u><link=https://magic.wizards.com/mtga-fnm-play-home-1>HERE</link></u>.\n\n*Note: While supplies last. Not all stores are participating."
+        "translation": "与当地的游戏店家同在，通过《MTG竞技场》参加家中周五认证赛（FNM）保护自己及他人！\n\n本周活动：轮抽：凯德海姆！你将与电脑一道，从在桌上轮转的轮抽补充包中抽选牌张，无需等待，没有抽选时间限制。之后加入基本地构组一副40张的套牌，，并与其他牌手进行对战。你只能轮抽一次，但你利用所成套牌进行游戏的次数并没有限制。\n\n<b><color=\"red\">此赛事为虚拟活动。你抽选的牌张不会加入你的收藏。</color></b>\n\n在你与当地游戏店家共享比赛结果后，你将收到一个可用于兑换竞技场FNM赠品包的代码，可从中获得两件装饰性物品。点击<u><link=https://magic.wizards.com/mtga-fnm-play-home-1>此处</link></u>了解如何共享比赛结果。\n\n*注：送完为止。并非全部店家都参与此活动。"
     },
     "Events/Event_Desc_FNM_Mastermind": {
         "oracleText": "Connect with your local game store while keeping yourself and others safe by playing Friday Night Magic (FNM) on MTG Arena!\n\nThis week: We'll provide a deck for you to play... but it has no lands in it. Instead, discard a card in exchange for a land token that will make any color of mana. Get creative and get wins!\n\nYou can receive a code for an Arena FNM Promo Pack containing two cosmetic items when you share your results with your local game store. Find out how <u><link=https://magic.wizards.com/mtga-fnm-play-home-1>HERE</link></u>.\n\n*Note: While supplies last. Not all stores are participating.",
@@ -28133,7 +28133,7 @@
     },
     "Events/Packets/SJMP_PacketName_Double_Team": {
         "oracleText": "Double Team",
-        "translation": "后继(Double Team)"
+        "translation": "双打(Double Team)"
     },
     "Events/Packets/SJMP_PacketName_Double_Trouble": {
         "oracleText": "Double Trouble",
@@ -31645,11 +31645,11 @@
     },
     "MainNav/BattlePass/SetRotation": {
         "oracleText": "This mastery expires in {daysCount} days. Unspent orbs from this mastery will be lost when the next set's mastery is complete.",
-        "translation": "将于{daysCount}天后系列轮替"
+        "translation": "本次精研通行证将于{daysCount}天后过期。本次未使用的法珠将于下个系列精研通行证完成后消失。"
     },
     "MainNav/BattlePass/SetRotation_FullTime": {
         "oracleText": "This mastery expires in {time}. Unspent orbs from this mastery will be lost when the next set's mastery is complete.",
-        "translation": "将于{time}后系列轮替"
+        "translation": "本次精研通行证将于{time}后过期。本次未使用的法珠将于下个系列精研通行证完成后消失。"
     },
     "MainNav/BattlePass/SetXMastery": {
         "oracleText": "{setName} Mastery",
@@ -38161,7 +38161,7 @@
     },
     "MainNav/DeckBuilder/SpecializeCommander": {
         "oracleText": "When selecting a Commander with Specialize, choose one additional color to use in deck building.",
-        "translation": "当你选择一个具有专精异能的指挥官，需要选择一个用于构建套牌的额外颜色。"
+        "translation": "如果选择具精进异能的指挥官，则在构组套牌时还需额外选择一种颜色。"
     },
     "MainNav/DeckBuilder/UseWildcards": {
         "oracleText": "Use Wildcards",
@@ -49137,7 +49137,7 @@
     },
     "MainNav/PetNames/MID_Geist_2": {
         "oracleText": "The Noble",
-        "translation": "The Noble"
+        "translation": "贵族"
     },
     "MainNav/PetNames/MID_Geist_3": {
         "oracleText": "The Fisherman",
@@ -50029,27 +50029,27 @@
     },
     "MainNav/PrizeWall/Hideaway_Header_BLB": {
         "oracleText": "Bloomburrow Mastery Emporium",
-        "translation": "班隆洛精研通行证商市"
+        "translation": "班隆洛精研通行证商铺"
     },
     "MainNav/PrizeWall/Hideaway_Header_DFT": {
         "oracleText": "Aetherdrift Mastery Emporium",
-        "translation": "乙太飘移精研通行证商市"
+        "translation": "乙太飘移精研通行证商铺"
     },
     "MainNav/PrizeWall/Hideaway_Header_DSK": {
         "oracleText": "Duskmourn: House of Horror Mastery Emporium",
-        "translation": "暮悲邸：鬼屋惊魂精研通行证商市"
+        "translation": "暮悲邸：鬼屋惊魂精研通行证商铺"
     },
     "MainNav/PrizeWall/Hideaway_Header_DSKshort": {
         "oracleText": "Duskmourn Mastery Emporium",
-        "translation": "暮悲邸精研通行证商市"
+        "translation": "暮悲邸精研通行证商铺"
     },
     "MainNav/PrizeWall/Hideaway_Header_FDN": {
         "oracleText": "Magic: The Gathering Foundations Mastery Emporium",
-        "translation": "万智牌：基石构筑精研通行证商市"
+        "translation": "万智牌：基石构筑精研通行证商铺"
     },
     "MainNav/PrizeWall/Hideaway_Header_FDNshort": {
         "oracleText": "Foundations Mastery Emporium",
-        "translation": "基石构筑精研通行证商市"
+        "translation": "基石构筑精研通行证商铺"
     },
     "MainNav/PrizeWall/Hideaway_Header_MH3": {
         "oracleText": "Psychic Frog's Horizon Hideaway",
@@ -52837,7 +52837,7 @@
     },
     "MainNav/Rewards/CurrencyPrizeWallStandalone_Button": {
         "oracleText": "Visit Emporium",
-        "translation": "Visit Emporium"
+        "translation": "访问商铺"
     },
     "MainNav/Rewards/CurrencyPrizeWall_Button": {
         "oracleText": "Visit Hideaway",
@@ -54733,7 +54733,7 @@
     },
     "MainNav/Store/Bundles/Bundle_ALC_MID1_Desc": {
         "oracleText": "Captain Eberhart Card Style\nPatient Zero Card Style\nEthereal Escort Card Style\nGarruk, Wrath of the Wilds Card Style\nAngel of Eternal Dawn Card Style\nDivine Purge Card Style\nGitrog, Horror of Zhava Card Style",
-        "translation": "*队长艾伯哈*卡牌样式\n*零号病人*卡牌样式\n*虚灵护卫*卡牌样式\n*荒野之怒贾路*卡牌样式\n*永恒黎明天使*卡牌样式\n*神圣涤净*卡牌样式\n*扎瓦惧蛙*卡牌样式"
+        "translation": "艾博汉队长卡牌样式\n零号病人卡牌样式\n虚相卫士卡牌样式\n荒野之怒贾路卡牌样式\n恒晓天使卡牌样式\n神圣涤净卡牌样式\n札瓦惧兽噬人蛙卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_ALC_MID1_Name": {
         "oracleText": "Heroes and Horrors",
@@ -54741,7 +54741,7 @@
     },
     "MainNav/Store/Bundles/Bundle_ALC_MID2_Desc": {
         "oracleText": "Oglor, Devoted Assistant Card Style\nAssemble from Parts Card Style\nPuppet Raiser Card Style\nClone Crafter Card Style\nVeteran Ghoulcaller Card Style\nAntique Collector Card Style\nGeist of Regret Card Style",
-        "translation": "*忠诚助手奥葛*卡牌样式\n*散件拼装*卡牌样式\n*傀儡唤师*卡牌样式\n*克隆制造师*卡牌样式\n*老练尸鬼牧者*卡牌样式\n*古董收藏家*卡牌样式\n*悔恨游魂*卡牌样式"
+        "translation": "忠实助手奥葛卡牌样式\n散件重装卡牌样式\n培偶灵俑卡牌样式\n仿生塑师卡牌样式\n尸鬼牧者老手卡牌样式\n古董收集客卡牌样式\n追恨游魂卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_ALC_MID2_Name": {
         "oracleText": "Death and Divination",
@@ -54749,7 +54749,7 @@
     },
     "MainNav/Store/Bundles/Bundle_ALC_MID3_Desc": {
         "oracleText": "Tibalt, Wicked Tormentor Card Style\nFaithful Disciple Card Style\nTireless Angler Card Style\nCursebound Witch Card Style\nArms Scavenger Card Style\nHinterland Chef Card Style\nOminous Traveler Card Style\nIshkanah, Broodmother Card Style",
-        "translation": "*恶毒拷问者提勃*卡牌样式\n*忠诚信徒*卡牌样式\n*不休钓客*卡牌样式\n*咒缚巫婆*卡牌样式\n*武器拾荒客*卡牌样式\n*内陆主厨*卡牌样式\n*恶兆旅人*卡牌样式\n*育母蜘蛛伊什卡娜*卡牌样式"
+        "translation": "邪恶拷问人提勃卡牌样式\n虔心信徒卡牌样式\n不倦钓客卡牌样式\n缠咒巫师卡牌样式\n弃械清理兵卡牌样式\n内陆厨师卡牌样式\n恶兆旅人卡牌样式\n育母蜘蛛伊什卡娜卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_ALC_MID3_Name": {
         "oracleText": "Torment and Trickery",
@@ -54757,7 +54757,7 @@
     },
     "MainNav/Store/Bundles/Bundle_ALC_NEO1_Desc": {
         "oracleText": "Junkyard Scrapper Card Style\nArtillery Enthusiast Card Style\nForgeborn Phoenix Card Style\nFoundry Beetle Card Style\nInchblade Companion Card Style\nSemblance Scanner Card Style\nDragonfly Pilot Card Style\nExperimental Pilot Card Style",
-        "translation": "*垃圾场拆解手*卡牌样式\n*狂热炮手*卡牌样式\n*锻生凤凰*卡牌样式\n*熔炉甲虫*卡牌样式\n*寸刃斗士*卡牌样式\n*近貌巡客*卡牌样式\n*蜻蛉驾手*卡牌样式\n*实验驾手*卡牌样式"
+        "translation": "垃圾场拆解手卡牌样式\n火器狂徒卡牌样式\n锻生凤凰卡牌样式\n铸造厂甲虫卡牌样式\n贴身寸刃卡牌样式\n近貌扫描兽卡牌样式\n蜻蛉驾手卡牌样式\n实验驾手卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_ALC_NEO1_Name": {
         "oracleText": "Armory Raid",
@@ -54765,7 +54765,7 @@
     },
     "MainNav/Store/Bundles/Bundle_ALC_NEO2_Desc": {
         "oracleText": "Better Offer Card Style\nUndercity Plunder Card Style\nFuturist Spellthief Card Style\nMolten Impact Card Style\nPainful Bond Card Style\nFragment Reality Card Style\nRunaway Growth Card Style\nSoul Servitude Card Style",
-        "translation": "*优质献物*卡牌样式\n*地底城劫掠*卡牌样式\n*赛博派窃咒师*卡牌样式\n*热熔冲击*卡牌样式\n*痛苦羁绊*卡牌样式\n*碎片实界*卡牌样式\n*难驭成长*卡牌样式\n*灵魂苦役*卡牌样式"
+        "translation": "啸风食人魔卡牌样式\n母圣树引路人卡牌样式\n噬物邪鬼卡牌样式\n聚力耕者卡牌样式\n竹林神卡牌样式\n悼亡神卡牌样式\n易质神卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_ALC_NEO2_Name": {
         "oracleText": "Undercity Bargains",
@@ -54773,7 +54773,7 @@
     },
     "MainNav/Store/Bundles/Bundle_ALC_NEO3_Desc": {
         "oracleText": "Chronicler of Worship Card Style\nJukai Liberator Card Style\nSaiba Syphoner Card Style\nSwarm Saboteur Card Style\nHolographic Double Card Style\nImperial Blademaster Card Style\nMothrider Cavalry Card Style",
-        "translation": "*崇拜年代史家*卡牌样式\n*树海解放者*卡牌样式\n*赛博派吸魂客*卡牌样式\n*虫群破坏者*卡牌样式\n*全息替身*卡牌样式\n*帝国大剑师*卡牌样式\n*翔蛾骑兵*卡牌样式"
+        "translation": "纪典年代史家卡牌样式\n树海解放者卡牌样式\n赛博派吸魂者卡牌样式\n召虫破坏者卡牌样式\n全息替身卡牌样式\n皇室剑豪卡牌样式\n翔蛾骑兵卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_ALC_NEO3_Name": {
         "oracleText": "Martial Code",
@@ -54789,7 +54789,7 @@
     },
     "MainNav/Store/Bundles/Bundle_ALC_SNC1_Desc": {
         "oracleText": "Diviner of Fates Card Style\nAgent of Raffine Card Style\nNightclub Bouncer Card Style\nChoice of Fortunes Card Style\nObscura Polymorphist Card Style\nBind to Secrecy Card Style",
-        "translation": "命运占卜师卡牌样式\n拉斐茵的密探卡牌样式\n夜店保镖卡牌样式\n命运抉择卡牌样式\n秘闻帮变型术士卡牌样式\n绑守秘密卡牌样式"
+        "translation": "占命先知卡牌样式\n拉斐茵的密探卡牌样式\n夜总会保镖卡牌样式\n命途抉择卡牌样式\n秘闻帮变型师卡牌样式\n强令守密卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_ALC_SNC1_Name": {
         "oracleText": "Inside Information",
@@ -54797,7 +54797,7 @@
     },
     "MainNav/Store/Bundles/Bundle_ALC_SNC2_Desc": {
         "oracleText": "Spelldrain Assassin Card Style\nGraven Archfiend Card Style\nXander's Wake Card Style\nShattering Finale Card Style\nSyndicate Recruiter Card Style\nBank Job Card Style",
-        "translation": "吮咒杀手卡牌样式\n铭刻邪鬼卡牌样式\n为尚夺尔守灵卡牌样式\n粉碎终结卡牌样式\n黑帮征召员卡牌样式\n银行职位卡牌样式"
+        "translation": "汲咒杀手卡牌样式\n铭刻翼邪鬼卡牌样式\n尚夺尔守夜式卡牌样式\n破碎终局卡牌样式\n黑帮招募员卡牌样式\n银行劫案卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_ALC_SNC2_Name": {
         "oracleText": "Dressed to Kill",
@@ -54805,7 +54805,7 @@
     },
     "MainNav/Store/Bundles/Bundle_ALC_SNC3_Desc": {
         "oracleText": "Effluence Devourer Card Style\nPass the Torch Card Style\nBig Spender Card Style\nTraumatic Prank Card Style\nRiveteers Provocateur Card Style\nRacketeer Boss Card Style",
-        "translation": "溢流吞噬鳄卡牌样式\n传递火炬卡牌样式\n散财款爷卡牌样式\n创伤恶戏卡牌样式\n勤工联挑拨师卡牌样式\n诈骗头目卡牌样式"
+        "translation": "污流吞噬鳄卡牌样式\n焰炬相传卡牌样式\n挥金狂徒卡牌样式\n创伤恶戏卡牌样式\n勤工联挑衅者卡牌样式\n行骗头目卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_ALC_SNC3_Name": {
         "oracleText": "Criminal Mischief",
@@ -54813,7 +54813,7 @@
     },
     "MainNav/Store/Bundles/Bundle_ALC_SNC4_Desc": {
         "oracleText": "Back-Alley Gardener Card Style\nLoose in the Park Card Style\nMenagerie Curator Card Style\nGiant Regrowth Card Style\nCabaretti Revels Card Style\nArming Gala Card Style",
-        "translation": "后巷园丁卡牌样式\n公园信步卡牌样式\n兽群监护人卡牌样式\n巨型新芽卡牌样式\n乐舞会欢宴卡牌样式\n武装晚会卡牌样式"
+        "translation": "后巷园丁卡牌样式\n放归林园卡牌样式\n兽群监护使卡牌样式\n变巨再生卡牌样式\n乐舞会欢宴卡牌样式\n武装晚会卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_ALC_SNC4_Name": {
         "oracleText": "Life of the Party",
@@ -54821,7 +54821,7 @@
     },
     "MainNav/Store/Bundles/Bundle_ALC_SNC5_Desc": {
         "oracleText": "Spara's Bodyguard Card Style\nHerald of Vengeance Card Style\nSkyline Savior Card Style\nCelestial Vault Card Style\nRope Line Attendant Card Style\nBrokers' Safeguard Card Style",
-        "translation": "*斯帕拉的保镖*卡牌样式\n*复仇传令使*卡牌样式\n*天际救星*卡牌样式\n*天界宝库*卡牌样式\n*握手会随员*卡牌样式\n*扶济社的保障*卡牌样式"
+        "translation": "斯帕拉的保镖卡牌样式\n复仇传令使卡牌样式\n天际救世使卡牌样式\n天界贮窖卡牌样式\n围绳随员卡牌样式\n扶济社护卫卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_ALC_SNC5_Name": {
         "oracleText": "The Sky's the Limit",
@@ -55249,7 +55249,7 @@
     },
     "MainNav/Store/Bundles/Bundle_BPW_HBG_Desc": {
         "oracleText": "Tasha, Unholy Archmage Card Style\nMinsc & Boo, Timeless Heroes Card Style",
-        "translation": "不洁大法师塔莎卡牌样式\n历时英雄明斯克与布布卡牌样式"
+        "translation": "邪气大法师塔莎卡牌样式\n历时英雄明斯克与布布卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_BPW_HBG_Name": {
         "oracleText": "Borderless Planeswalkers",
@@ -56449,7 +56449,7 @@
     },
     "MainNav/Store/Bundles/Bundle_HBG_RLB1_Desc": {
         "oracleText": "Lae'zel, Githyanki Warrior Rulebook Card Style\nRasaad, Monk of Selûne Rulebook Card Style\nWyll, Pact-Bound Duelist Rulebook Card Style\nKarlach, Raging Tiefling Rulebook Card Style\nGut, Fanatical Priestess Rulebook Card Style\nAmbergris, Citadel Agent Rulebook Card Style\nWilson, Bear Comrade Rulebook Card Style\nJaheira, Harper Emissary Rulebook Card Style",
-        "translation": "吉斯洋基战士莱埃泽尔规则书卡牌样式\n塞伦涅僧侣拉萨德规则书卡牌样式\n契缚斗客威迩规则书卡牌样式\n狂怒魔人卡莱琪规则书卡牌样式\n狂热女祭司古特规则书卡牌样式\n城堡密探安伯格里斯规则书卡牌样式\n战友灰熊威尔逊规则书卡牌样式\n密使竖琴手贾希拉规则书卡牌样式"
+        "translation": "吉斯洋基战士莱埃泽规则书卡牌样式\n塞伦涅武僧拉萨德规则书卡牌样式\n缚约斗客威迩牌套规则书卡牌样式\n狂怒魔人卡莱琪规则书卡牌样式\n狂热司祭古特规则书卡牌样式\n城堡密探安珀葛斯特规则书卡牌样式\n熊战友威尔逊规则书卡牌样式\n竖琴手密使贾希拉规则书卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_HBG_RLB1_Name": {
         "oracleText": "Something Special: Fists and Flame",
@@ -56457,7 +56457,7 @@
     },
     "MainNav/Store/Bundles/Bundle_HBG_RLB2_Desc": {
         "oracleText": "Alora, Rogue Companion Rulebook Card Style\nVhal, Eager Scholar Rulebook Card Style\nImoen, Trickster Friend Rulebook Card Style\nGale, Conduit of the Arcane Rulebook Card Style\nSarevok the Usurper Rulebook Card Style\nViconia, Nightsinger's Disciple Rulebook Card Style\nShadowheart, Sharran Cleric Rulebook Card Style\nLulu, Forgetful Hollyphant Rulebook Card Style",
-        "translation": "浪客伙伴阿罗拉规则书卡牌样式\n热切学者瓦洱规则书卡牌样式\n诡术师伙伴爱蒙规则书卡牌样式\n秘法通法师盖尔规则书卡牌样式\n僭位者沙洛佛克规则书卡牌样式\n夜颂信徒维康妮亚规则书卡牌样式\n莎尔僧侣影心规则书卡牌样式\n健忘飞象路路规则书卡牌样式"
+        "translation": "盗贼旅伴阿罗拉规则书卡牌样式\n热切学者瓦洱规则书卡牌样式\n诡术师好友爱蒙规则书卡牌样式\n奥术通导人盖尔规则书卡牌样式\n僭主沙洛佛克规则书卡牌样式\n夜咏者信徒维康妮亚规则书卡牌样式\n莎尔牧师影心规则书卡牌样式\n健忘圣飞象路路规则书卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_HBG_RLB2_Name": {
         "oracleText": "Something Special: Wits and Wizardry",
@@ -59005,7 +59005,7 @@
     },
     "MainNav/Store/Bundles/Bundle_Y23BRO_DA1_Desc": {
         "oracleText": "Argivian Welcome Depth Art Card Style\nForgefire Automaton Depth Art Card Style\nGixian Recycler Depth Art Card Style\nLegion of Clay Depth Art Card Style\nMelt Through Depth Art Card Style\nPatchplate Resolute Depth Art Card Style\nPenregon Besieged Depth Art Card Style\nPerilous Iteration Depth Art Card Style\nUrza's Construction Drone Depth Art Card Style\nWarzone Duplicator Depth Art Card Style",
-        "translation": "Argivian Welcome Depth Art Card Style\nForgefire Automaton Depth Art Card Style\nGixian Recycler Depth Art Card Style\nLegion of Clay Depth Art Card Style\nMelt Through Depth Art Card Style\nPatchplate Resolute Depth Art Card Style\nPenregon Besieged Depth Art Card Style\nPerilous Iteration Depth Art Card Style\nUrza's Construction Drone Depth Art Card Style\nWarzone Duplicator Depth Art Card Style"
+        "translation": "阿基夫式欢迎视差插画卡牌样式\n锻火机械兽视差插画卡牌样式\n基克斯派回收械视差插画卡牌样式\n黏土军团视差插画卡牌样式\n熔铁滴穿视差插画卡牌样式\n拼合坚毅械视差插画卡牌样式\n围攻潘瑞冈视差插画卡牌样式\n险恶迭代视差插画卡牌样式\n克撒的建造械视差插画卡牌样式\n战区仿形械视差插画卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_Y23BRO_DA1_Name": {
         "oracleText": "Alchemy Styles: Armed and Dangerous",
@@ -59013,7 +59013,7 @@
     },
     "MainNav/Store/Bundles/Bundle_Y23BRO_DA2_Desc": {
         "oracleText": "Assemble the Team Depth Art Card Style\nBy Elspeth's Command Depth Art Card Style\nCrucias, Titan of the Waves Depth Art Card Style\nHurkyl's Prodigy Depth Art Card Style\nJarsyl, Dark Age Scion Depth Art Card Style\nKayla's Kindling Depth Art Card Style\nRaddic, Tal Zealot Depth Art Card Style\nRichlau, Headmaster Depth Art Card Style\nRusko, Clockmaker Depth Art Card Style\nTawnos Endures Depth Art Card Style",
-        "translation": "Assemble the Team Depth Art Card Style\nBy Elspeth's Command Depth Art Card Style\nCrucias, Titan of the Waves Depth Art Card Style\nHurkyl's Prodigy Depth Art Card Style\nJarsyl, Dark Age Scion Depth Art Card Style\nKayla's Kindling Depth Art Card Style\nRaddic, Tal Zealot Depth Art Card Style\nRichlau, Headmaster Depth Art Card Style\nRusko, Clockmaker Depth Art Card Style\nTawnos Endures Depth Art Card Style"
+        "translation": "组建团队视差插画卡牌样式\n承艾紫培之命视差插画卡牌样式\n波涛泰坦格鲁夏视差插画卡牌样式\n河鼓的逸才视差插画卡牌样式\n暗黑时代后裔贾索视差插画卡牌样式\n凯拉的燃焰视差插画卡牌样式\n塔尔教狂信徒拉狄克视差插画卡牌样式\n校长瑞池罗视差插画卡牌样式\n钟表匠拉斯科视差插画卡牌样式\n达硌士的忍耐视差插画卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_Y23BRO_DA2_Name": {
         "oracleText": "Alchemy Styles: Legendary Heroes",
@@ -59021,7 +59021,7 @@
     },
     "MainNav/Store/Bundles/Bundle_Y23BRO_DA3_Desc": {
         "oracleText": "Argothian Uprooting Depth Art Card Style\nFallaji Antiquarian Depth Art Card Style\nFoundry Groundbreaker Depth Art Card Style\nGreat Desert Hellion Depth Art Card Style\nLonely End Depth Art Card Style\nNorn's Disassembly Depth Art Card Style\nPiece It Together Depth Art Card Style\nSylvan Smite Depth Art Card Style\nTomakul Phoenix Depth Art Card Style\nYotian Courier Depth Art Card Style",
-        "translation": "Argothian Uprooting Depth Art Card Style\nFallaji Antiquarian Depth Art Card Style\nFoundry Groundbreaker Depth Art Card Style\nGreat Desert Hellion Depth Art Card Style\nLonely End Depth Art Card Style\nNorn's Disassembly Depth Art Card Style\nPiece It Together Depth Art Card Style\nSylvan Smite Depth Art Card Style\nTomakul Phoenix Depth Art Card Style\nYotian Courier Depth Art Card Style"
+        "translation": "亚格斯起身视差插画卡牌样式\n法拉吉古物学家视差插画卡牌样式\n锻炉撼地械视差插画卡牌样式\n大沙漠地狱兽视差插画卡牌样式\n孤身殒命视差插画卡牌样式\n艾蕾侬的拆解视差插画卡牌样式\n拼串相连视差插画卡牌样式\n森林重击视差插画卡牌样式\n托玛库凤凰视差插画卡牌样式\n佑天讯使视差插画卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_Y23BRO_DA3_Name": {
         "oracleText": "Alchemy Styles: Struggle for Survival",
@@ -59029,7 +59029,7 @@
     },
     "MainNav/Store/Bundles/Bundle_Y23DMU_DA1_Desc": {
         "oracleText": "Ghitu Embercoiler Card Style\nSpellchain Scatter Card Style\nVesuvan Mist Card Style\nPull of the Mist Moon Card Style\nTeferi's Contingency Card Style\nSkywriter Djinn Card Style\nDarigaaz, Shivan Champion Card Style\nVodalian Tide Mage Card Style",
-        "translation": "基图烬火卷取师卡牌样式\n零散咒语链卡牌样式\n维苏瓦迷雾卡牌样式\n雾月牵引卡牌样式\n泰菲力的应变卡牌样式\n天空画家巨灵卡牌样式\n西瓦斗士达里迦卡牌样式\n伏特里亚浪潮法师卡牌样式"
+        "translation": "基图盘烬师卡牌样式\n咒链断裂卡牌样式\n维苏瓦的迷雾卡牌样式\n雾月吸引卡牌样式\n泰菲力的应急术卡牌样式\n空书巨灵卡牌样式\n西瓦斗龙达里迦卡牌样式\n伏特里亚潮法师卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_Y23DMU_DA1_Name": {
         "oracleText": "Alchemy Styles: Time and Tide",
@@ -59037,7 +59037,7 @@
     },
     "MainNav/Store/Bundles/Bundle_Y23DMU_DA2_Desc": {
         "oracleText": "Reezug, the Bonecobbler Card Style\nDiminished Returner Card Style\nNantuko Slicer Card Style\nVinesoul Spider Card Style\nArvad, Weatherlight Smuggler Card Style\nNiambi, Beloved Protector Card Style\nBloodsprout Talisman Card Style",
-        "translation": "骨艺师雷祖格卡牌样式\n渐衰回归者卡牌样式\n切片螳人卡牌样式\n维内苏尔蜘蛛卡牌样式\n晴空号走私贩阿尔瓦德卡牌样式\n挚爱保护者妮安碧卡牌样式\n血芽神符卡牌样式"
+        "translation": "修骨匠瑞泽格卡牌样式\n报酬递减妖卡牌样式\n螳人切割师卡牌样式\n藤魂蜘蛛卡牌样式\n晴空号走私客亚瓦德卡牌样式\n厚爱卫士妮安碧卡牌样式\n血芽饰符卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_Y23DMU_DA2_Name": {
         "oracleText": "Alchemy Styles: Growth and Decay",
@@ -59045,7 +59045,7 @@
     },
     "MainNav/Store/Bundles/Bundle_Y23DMU_DA3_Desc": {
         "oracleText": "Darigaaz's Whelp Card Style\nMarwyn's Kindred Card Style\nWandering Treefolk Card Style\nGoblin Morale Sergeant Card Style\nPriest of Possibility Card Style\nBenalish Knight-Counselor Card Style\nGoblin Influx Array Card Style\nSlimefoot, Thallid Transplant Card Style",
-        "translation": "达里迦幼龙卡牌样式\n玛雯的同族卡牌样式\n漂泊树妖卡牌样式\n鬼怪振励军士长卡牌样式\n拼搏祭司卡牌样式\n宾纳里亚骑士领队卡牌样式\n鬼怪潮涌阵列卡牌样式\n散绿菌移植师黏足卡牌样式"
+        "translation": "达里迦的幼龙卡牌样式\n玛雯亲族卡牌样式\n漂浪树妖卡牌样式\n鬼怪士气官卡牌样式\n愿景僧侣卡牌样式\n宾纳里亚骑士参谋卡牌样式\n鬼怪汹涌阵卡牌样式\n散绿植菌黏足卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_Y23DMU_DA3_Name": {
         "oracleText": "Alchemy Styles: Unite the Coalition",
@@ -59053,7 +59053,7 @@
     },
     "MainNav/Store/Bundles/Bundle_Y23DMU_DA4_Desc": {
         "oracleText": "Coalition Construct Card Style\nSmogbelcher Chariot Card Style\nOracle of the Alpha Card Style\nTrove Mage Card Style\nJuggernaut Peddler Card Style\nTiana, Angelic Mechanic Card Style\nProtean War Engine Card Style",
-        "translation": "联盟组构体卡牌样式\n喷雾战车卡牌样式\n阿尔法先知卡牌样式\n珍品法师卡牌样式\n攻城巨车商贩卡牌样式\n技师天使蒂娅娜卡牌样式\n变幻战争引擎卡牌样式"
+        "translation": "联盟组构体卡牌样式\n喷雾战车卡牌样式\n阿尔法先知卡牌样式\n宝库法师卡牌样式\n攻城巨车小贩卡牌样式\n天使技师蒂娅娜卡牌样式\n变幻战争引擎卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_Y23DMU_DA4_Name": {
         "oracleText": "Alchemy Styles: Arms and Artifice",
@@ -59073,7 +59073,7 @@
     },
     "MainNav/Store/Bundles/Bundle_Y23ONE_DA1_Desc": {
         "oracleText": "Kemba's Outfitter Depth Art Card Style\nInnovative Metatect Depth Art Card Style\nVexyr, Ich-Tekik's Heir Depth Art Card Style\nSurgical Metamorph Depth Art Card Style\nSkullpiercer Gnat Depth Art Card Style\nQuicksilver Servitor Depth Art Card Style\nTezzeret's Reckoning Depth Art Card Style\nGlistening Extractor Depth Art Card Style\nSpawning Pod Depth Art Card Style\nPhyrexian Harvester Depth Art Card Style",
-        "translation": "肯芭的验装兵 扩边卡牌样式\n创新筑金师 扩边卡牌样式\n衣克铁克传人维克谢尔 扩边卡牌样式\n外展变形兽 扩边卡牌样式\n穿颅蚋虫 扩边卡牌样式\n水银随侍 扩边卡牌样式\n泰兹瑞的报复 扩边卡牌样式\n烁光提取器 扩边卡牌样式\n孳生荚 扩边卡牌样式\n非瑞克西亚索命兽 扩边卡牌样式"
+        "translation": "肯芭的验装师视差插画卡牌样式\n创新筑金师视差插画卡牌样式\n衣克铁克传人威克希视差插画卡牌样式\n外展蜕变妖视差插画卡牌样式\n穿颅蚋虫视差插画卡牌样式\n水银随侍视差插画卡牌样式\n泰兹瑞的报复视差插画卡牌样式\n烁油提取械视差插画卡牌样式\n繁生荚视差插画卡牌样式\n非瑞克西亚索命妖视差插画卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_Y23ONE_DA1_Name": {
         "oracleText": "Alchemy Styles: March of Progress",
@@ -59081,7 +59081,7 @@
     },
     "MainNav/Store/Bundles/Bundle_Y23ONE_DA2_Desc": {
         "oracleText": "Ghalma the Shaper Depth Art Card Style\nHexgold Sledge Depth Art Card Style\nBladehold Cleaver Depth Art Card Style\nQuicksilver Lapidary Depth Art Card Style\nPhyrexian Scrapyard Depth Art Card Style\nSheoldred's Assimilator Depth Art Card Style\nNorn's Fetchling Depth Art Card Style\nDarksteel Hydra Depth Art Card Style\nNettling Host Depth Art Card Style\nContagion Dispenser Depth Art Card Style",
-        "translation": "塑金师佳玛 扩边卡牌样式\n金角板锤 扩边卡牌样式\n锐锋城塞大砍刀 扩边卡牌样式\n水银宝石匠 扩边卡牌样式\n非瑞克西亚废品场 扩边卡牌样式\n希欧蕊的同化客 扩边卡牌样式\n艾蕾侬的摄取虫械 扩边卡牌样式\n玄铁多头龙 扩边卡牌样式\n恼怒宿主 扩边卡牌样式\n传染配置械 扩边卡牌样式"
+        "translation": "塑型师佳玛视差插画卡牌样式\n金角板槌视差插画卡牌样式\n锐锋城塞砍刀视差插画卡牌样式\n水银宝石匠视差插画卡牌样式\n非瑞克西亚废品场视差插画卡牌样式\n希欧蕊的同化怪视差插画卡牌样式\n艾蕾侬的寻物虫视差插画卡牌样式\n玄铁多头龙视差插画卡牌样式\n荨麻寄主视差插画卡牌样式\n播染械视差插画卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_Y23ONE_DA2_Name": {
         "oracleText": "Alchemy Styles: Something from Nothing",
@@ -59089,7 +59089,7 @@
     },
     "MainNav/Store/Bundles/Bundle_Y23ONE_DA3_Desc": {
         "oracleText": "Magmatic Scorchwing Depth Art Card Style\nRothga, Bonded Engulfer Depth Art Card Style\nIchor Aberration Depth Art Card Style\nMephidross Slime Depth Art Card Style\nGyox, Brutal Carnivora Depth Art Card Style\nArek, False Goldwarden Depth Art Card Style\nPhyresis Roach Depth Art Card Style\nSeething Skitter-Priest Depth Art Card Style\nBlightwing Whelp Art Card Style\nMarch Toward Perfection Depth Art Card Style",
-        "translation": "岩浆焦翼龙 扩画卡牌样式\n奉从吞噬兽罗斯珈 扩画卡牌样式\n脓水畸变体 扩画卡牌样式\n蔓非沼黏菌 扩画卡牌样式\n蛮野撕肉者究克斯 扩画卡牌样式\n伪金坚卫阿雷克 扩画卡牌样式\n非瑞化蟑螂 扩画卡牌样式\n热血掠行僧 扩画卡牌样式\n枯翼幼龙 扩画卡牌样式\n完美进军 扩画卡牌样式"
+        "translation": "熔岩炙翼龙视差插画卡牌样式\n持绊吞噬兽洛斯佳视差插画卡牌样式\n脓水畸变兽视差插画卡牌样式\n蔓非沼黏菌视差插画卡牌样式\n残暴虐巫吉沃斯视差插画卡牌样式\n假意金坚卫阿列克视差插画卡牌样式\n非瑞化蟑螂视差插画卡牌样式\n翻腾掠行僧视差插画卡牌样式\n枯翼幼魔视差插画卡牌样式\n迈向完美视差插画卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_Y23ONE_DA3_Name": {
         "oracleText": "Alchemy Styles: Monstrous Evolution",
@@ -59097,7 +59097,7 @@
     },
     "MainNav/Store/Bundles/Bundle_Y24LCI_DA1_Desc": {
         "oracleText": "Chitinous Crawler Depth Art Card Style\nPropagator Primordium  Depth Art Card Style\nMycoid Resurrection  Depth Art Card Style\nLegion Reconsecrator Depth Art Card Style\nLegion's Chant Depth Art Card Style\nDusk's Landing Depth Art Card Style\nHigh Marshal Arguel Depth Art Card Style",
-        "translation": "硬壳爬虫扩边卡牌样式\n繁殖原基扩边卡牌样式\n智蕈复生扩边卡牌样式\n军团复圣者扩边卡牌样式\n军团吟颂扩边卡牌样式\n暮影登陆扩边卡牌样式\n高阶元帅阿古尔扩边卡牌样式"
+        "translation": "硬壳爬虫视差插画卡牌样式\n繁殖原基视差插画卡牌样式\n智蕈复生视差插画卡牌样式\n军团再祝兵视差插画卡牌样式\n军团的吟颂视差插画卡牌样式\n暮影登陆视差插画卡牌样式\n高阶元帅阿古尔视差插画卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_Y24LCI_DA1_Name": {
         "oracleText": "Alchemy Styles: Dusk Descends",
@@ -59105,7 +59105,7 @@
     },
     "MainNav/Store/Bundles/Bundle_Y24LCI_DA2_Desc": {
         "oracleText": "Landlore Navigator Depth Art Card Style\nPlunderer's Prize Depth Art Card Style\nCogwork Progenitor Depth Art Card Style\nTan Jolom, the Worldwalker Depth Art Card Style\nScalesoul Gnome Depth Art Card Style\nBrazen Boarding Depth Art Card Style\nPirate's Landing Depth Art Card Style\nKamachal, Ship's Mascot Depth Art Card Style",
-        "translation": "地学领航员扩边卡牌样式\n劫掠者的奖赏扩边卡牌样式\n齿轮先祖扩边卡牌样式\n世间行者谭霍勒姆扩边卡牌样式\n鳞魂地侏扩边卡牌样式\n莽霸登舰扩边卡牌样式\n海盗登陆扩边卡牌样式\n船宠卡玛查尔扩边卡牌样式"
+        "translation": "地舆导航员视差插画卡牌样式\n袭劫者的奖赏视差插画卡牌样式\n齿轮先祖视差插画卡牌样式\n绕世游魂谭友罗视差插画卡牌样式\n鳞魂侏械视差插画卡牌样式\n莽霸登...视差插画卡牌样式\n海盗登陆视差插画卡牌样式\n航船吉宠卡玛查视差插画卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_Y24LCI_DA2_Name": {
         "oracleText": "Alchemy Styles: Perilous Plunder",
@@ -59113,7 +59113,7 @@
     },
     "MainNav/Store/Bundles/Bundle_Y24LCI_DA3_Desc": {
         "oracleText": "Mycelic Ballad Depth Art Card Style\nRibald Shanty Depth Art Card Style\nHymn to the Ages Depth Art Card Style\nPhantasmal Extraction Depth Art Card Style\nRadiant Smite Depth Art Card Style\nReflection Net Depth Art Card Style\nValiant Batrider Depth Art Card Style\nMerfolk Tunnel-Guide Depth Art Card Style\nHerald's Reveille Depth Art Card Style",
-        "translation": "蕈之歌扩边卡牌样式\n粗鄙船歌扩边卡牌样式\n岁月赞歌扩边卡牌样式\n萃取幻象扩边卡牌样式\n辉光一击扩边卡牌样式\n映象网阵扩边卡牌样式\n英勇蝙蝠骑兵扩边卡牌样式\n引隧人鱼扩边卡牌样式\n传令晨号扩边卡牌样式"
+        "translation": "菌丝歌谣视差插画卡牌样式\n粗鄙号曲视差插画卡牌样式\n岁月赞歌视差插画卡牌样式\n幻象摘除视差插画卡牌样式\n辉光重击视差插画卡牌样式\n映射网视差插画卡牌样式\n英勇蝙蝠骑士视差插画卡牌样式\n人鱼隧道向导视差插画卡牌样式\n川流使地晨号视差插画卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_Y24LCI_DA3_Name": {
         "oracleText": "Alchemy Styles: Ancient Knowledge",
@@ -59121,7 +59121,7 @@
     },
     "MainNav/Store/Bundles/Bundle_Y24LCI_DA4_Desc": {
         "oracleText": "Wingbane Vantasaur Depth Art Card Style\nScalespeaker Shepherd Depth Art Card Style\nStalwart Speartail Depth Art Card Style\nColossal Chorus Depth Art Card Style\nMythweaver Poq Depth Art Card Style\nCaldera Breaker Depth Art Card Style",
-        "translation": "克翼高颈龙扩边卡牌样式\n鳞语牧者扩边卡牌样式\n壮硕矛尾龙扩边卡牌样式\n庞巨韵集扩边卡牌样式\n神话织匠波克扩边卡牌样式\n火山口裂地像扩边卡牌样式"
+        "translation": "翼祸高颈龙视差插画卡牌样式\n鳞语牧者视差插画卡牌样式\n壮硕矛尾龙视差插画卡牌样式\n庞巨齐颂视差插画卡牌样式\n织谜谕使视差插画卡牌样式\n火山口破坏械视差插画卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_Y24LCI_DA4_Name": {
         "oracleText": "Alchemy Styles: Primal Might",
@@ -59129,7 +59129,7 @@
     },
     "MainNav/Store/Bundles/Bundle_Y24MKM_DA1_Desc": {
         "oracleText": "Construction Arsonist Depth Art Card Style\nGuildpact Greenwalker Depth Art Card Style\nLurking Spinecrawler Depth Art Card Style\nMapping the Maze Depth Art Card Style\nScrutiny of the Guildpact Depth Art Card Style",
-        "translation": "Construction Arsonist Depth Art Card Style\nGuildpact Greenwalker Depth Art Card Style\nLurking Spinecrawler Depth Art Card Style\nMapping the Maze Depth Art Card Style\nScrutiny of the Guildpact Depth Art Card Style"
+        "translation": "工地纵火鬼视差插画卡牌样式\n十会盟翠行犀视差插画卡牌样式\n伏击匍脊兽视差插画卡牌样式\n图绘迷宫视差插画卡牌样式\n十会盟之鉴视差插画卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_Y24MKM_DA1_Name": {
         "oracleText": "Mysteries Incorporated",
@@ -59137,7 +59137,7 @@
     },
     "MainNav/Store/Bundles/Bundle_Y24MKM_DA2_Desc": {
         "oracleText": "Roalesk, Prime Specimen Depth Art Card Style\nTajic, Legion's Valor Depth Art Card Style\nEmmara, Voice of the Conclave Depth Art Card Style\nRampaging Ursaguana Depth Art Card Style\nSleuth Instructor Depth Art Card Style\nSproutwatch Dryad Depth Art Card Style",
-        "translation": "Roalesk, Prime Specimen Depth Art Card Style\nTajic, Legion's Valor Depth Art Card Style\nEmmara, Voice of the Conclave Depth Art Card Style\nRampaging Ursaguana Depth Art Card Style\nSleuth Instructor Depth Art Card Style\nSproutwatch Dryad Depth Art Card Style"
+        "translation": "首席样本罗列茨视差插画卡牌样式\n教团之勇塔疾克视差插画卡牌样式\n盟会之音艾玛拉视差插画卡牌样式\n莽闯熊蜥怪视差插画卡牌样式\n侦员讲师视差插画卡牌样式\n护芽树灵视差插画卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_Y24MKM_DA2_Name": {
         "oracleText": "Shady Characters",
@@ -59145,7 +59145,7 @@
     },
     "MainNav/Store/Bundles/Bundle_Y24MKM_DA3_Desc": {
         "oracleText": "Excogitator Sphinx Depth Art Card Style\nOminous Lockbox Depth Art Card Style\nRelics of the Rubblebelt Depth Art Card Style\nEmporium Thopterist Depth Art Card Style\nScour the Scene Depth Art Card Style\nWoodland Investigation Depth Art Card Style",
-        "translation": "Excogitator Sphinx Depth Art Card Style\nOminous Lockbox Depth Art Card Style\nRelics of the Rubblebelt Depth Art Card Style\nEmporium Thopterist Depth Art Card Style\nScour the Scene Depth Art Card Style\nWoodland Investigation Depth Art Card Style"
+        "translation": "究探史芬斯视差插画卡牌样式\n恶兆密柜视差插画卡牌样式\n瓦砾区寻珍视差插画卡牌样式\n商铺扑翼师视差插画卡牌样式\n搜遍现场视差插画卡牌样式\n林地调查视差插画卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_Y24MKM_DA3_Name": {
         "oracleText": "Tools of Investigation",
@@ -59153,7 +59153,7 @@
     },
     "MainNav/Store/Bundles/Bundle_Y24MKM_DA4_Desc": {
         "oracleText": "Perforator Crocodile Depth Art Card Style\nCackling Observer Depth Art Card Style\nFurgul, Quag Nurturer Depth Art Card Style\nSpotlight Falcon Depth Art Card Style\nVeko, Death's Doorkeeper Depth Art Card Style\nSnarlfang Vermin Depth Art Card Style",
-        "translation": "Perforator Crocodile Depth Art Card Style\nCackling Observer Depth Art Card Style\nFurgul, Quag Nurturer Depth Art Card Style\nSpotlight Falcon Depth Art Card Style\nVeko, Death's Doorkeeper Depth Art Card Style\nSnarlfang Vermin Depth Art Card Style"
+        "translation": "锐齿鳄鱼视差插画卡牌样式\n咳笑观魔视差插画卡牌样式\n沼地滋养师福古尔视差插画卡牌样式\n探光猎鹰视差插画卡牌样式\n亡者门卫维科视差插画卡牌样式\n吼牙病媒视差插画卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_Y24MKM_DA4_Name": {
         "oracleText": "Deadly Business",
@@ -59161,7 +59161,7 @@
     },
     "MainNav/Store/Bundles/Bundle_Y24MKM_DA5_Desc": {
         "oracleText": "Juggle the Performance Depth Art Card Style\nIzzet Polarizer Depth Art Card Style\nThought-String Analyst Depth Art Card Style\nConcert Kaboomist Depth Art Card Style\nShove Aside Depth Art Card Style",
-        "translation": "Juggle the Performance Depth Art Card Style\nIzzet Polarizer Depth Art Card Style\nThought-String Analyst Depth Art Card Style\nConcert Kaboomist Depth Art Card Style\nShove Aside Depth Art Card Style"
+        "translation": "交织戏码视差插画卡牌样式\n伊捷极化师视差插画卡牌样式\n思缕分析师视差插画卡牌样式\n轰隆演奏鬼视差插画卡牌样式\n挤开视差插画卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_Y24MKM_DA5_Name": {
         "oracleText": "Sinister Spellcraft",
@@ -59217,7 +59217,7 @@
     },
     "MainNav/Store/Bundles/Bundle_Y24WOE_DA1_Desc": {
         "oracleText": "Porcine Portent Card Style\nFirst Little Pig Card Style\nSecond Little Pig Card Style\nThird Little Pig Card Style\nDrover of the Swine Card Style\nSwine Rebellion Card Style\nOvercooked Card Style",
-        "translation": "Porcine Portent Card Style\nFirst Little Pig Card Style\nSecond Little Pig Card Style\nThird Little Pig Card Style\nDrover of the Swine Card Style\nSwine Rebellion Card Style\nOvercooked Card Style"
+        "translation": "小猪征兆卡牌样式\n第一只小猪卡牌样式\n第二只小猪卡牌样式\n第三只小猪卡牌样式\n赶猪人卡牌样式\n野猪叛乱卡牌样式\n焦糊烹饪卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_Y24WOE_DA1_Name": {
         "oracleText": "Alchemy Styles: Rise of the Swine",
@@ -59225,7 +59225,7 @@
     },
     "MainNav/Store/Bundles/Bundle_Y24WOE_DA2_Desc": {
         "oracleText": "Dedicated Dollmaker Card Style\nDunbarrow Revivalist Card Style\nHigh Fae Prankster Card Style\nLoch Larent Card Style\nPaths of Tuinvale Card Style\nTalion's Throneguard Card Style\nUnderbridge Warlock Card Style",
-        "translation": "Dedicated Dollmaker Card Style\nDunbarrow Revivalist Card Style\nHigh Fae Prankster Card Style\nLoch Larent Card Style\nPaths of Tuinvale Card Style\nTalion's Throneguard Card Style\nUnderbridge Warlock Card Style"
+        "translation": "专注娃娃匠卡牌样式\n黯沼野复兴师卡牌样式\n至高仙作恶灵卡牌样式\n拉伦特湖卡牌样式\n图音谷岔路卡牌样式\n塔莱恩的佑皇灵卡牌样式\n桥下邪术师卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_Y24WOE_DA2_Name": {
         "oracleText": "Alchemy Styles: Fae Trickery",
@@ -59233,7 +59233,7 @@
     },
     "MainNav/Store/Bundles/Bundle_Y24WOE_DA3_Desc": {
         "oracleText": "Accident-Prone Apprentice Card Style\nHex, Kellan's Companion Card Style\nSteady Tortoise Card Style\nStormkeld Curator Card Style\nDraconic Debut Card Style\nHeir to Dragonfire Card Style\nTome of Gadwick Card Style",
-        "translation": "Accident-Prone Apprentice Card Style\nHex, Kellan's Companion Card Style\nSteady Tortoise Card Style\nStormkeld Curator Card Style\nDraconic Debut Card Style\nHeir to Dragonfire Card Style\nTome of Gadwick Card Style"
+        "translation": "毛躁学徒卡牌样式\n凯澜旅伴海科司卡牌样式\n稳重龟卡牌样式\n暴风域集物人卡牌样式\n龙威登场卡牌样式\n龙火传人卡牌样式\n盖威克的巨著卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_Y24WOE_DA3_Name": {
         "oracleText": "Alchemy Styles: Thrilling Adventures",
@@ -59241,7 +59241,7 @@
     },
     "MainNav/Store/Bundles/Bundle_Y24WOE_DA4_Desc": {
         "oracleText": "Syr Joshua and Syr Saxon Card Style\nJewel Mine Overseer Card Style\nOutfitted Jouster Card Style\nCerise, Slayer of Fear Card Style\nCaptivating Crossroads Card Style\nGrow Old Together Card Style",
-        "translation": "Syr Joshua and Syr Saxon Card Style\nJewel Mine Overseer Card Style\nOutfitted Jouster Card Style\nCerise, Slayer of Fear Card Style\nCaptivating Crossroads Card Style\nGrow Old Together Card Style"
+        "translation": "约书华爵士与萨克森爵士卡牌样式\n珠宝矿监工卡牌样式\n严装枪骑士卡牌样式\n恐惧克星塞莱斯卡牌样式\n魅惑会所卡牌样式\n携手白头卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_Y24WOE_DA4_Name": {
         "oracleText": "Alchemy Styles: Hero's Journey",
@@ -68481,11 +68481,11 @@
     },
     "Titles/Core/SetComplete": {
         "oracleText": "Collector",
-        "translation": "收集客"
+        "translation": "收藏家"
     },
     "Titles/Core/SetComplete_RewardKey": {
         "oracleText": "\"Collector\" Title",
-        "translation": "「收集客」称号"
+        "translation": "「收藏家」称号"
     },
     "Titles/Core/StandardGamesWon": {
         "oracleText": "Standard Bearer",
