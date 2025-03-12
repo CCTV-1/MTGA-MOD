@@ -6952,16 +6952,16 @@
         "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> 军团威势"
     },
     "Codex/2025/Precon_EPPFDN_UB": {
-        "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Undead Resurgence",
-        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> 不死复生"
+        "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Graveyard Gifts",
+        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Graveyard Gifts"
     },
     "Codex/2025/Precon_EPPFDN_UG": {
         "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Learn from the Land",
         "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> 大地启迪"
     },
     "Codex/2025/Precon_EPPFDN_UR": {
-        "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> Draconic Dominance",
-        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> 龙族霸权"
+        "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> Wondrous Wizardry",
+        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> Wondrous Wizardry"
     },
     "Codex/2025/Precon_EPPFDN_UW": {
         "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Arcane Aerialists",
@@ -9568,12 +9568,16 @@
         "translation": "用一支生物大军和能增强整个队伍的异能压倒对手！"
     },
     "Decks/Precon/Precon_EPPFDN_UB": {
-        "oracleText": "Undead Resurgence",
-        "translation": "不死复生"
+        "oracleText": "Graveyard Gifts",
+        "translation": "Graveyard Gifts"
     },
     "Decks/Precon/Precon_EPPFDN_UB_desc": {
         "oracleText": "Zombies arise! Dredge fill your graveyard with zombie creatures, then use recursive effects to bring them back again and again!",
         "translation": "灵俑崛起！利用发掘效果将灵俑生物填满你的坟墓场，然后递归异能让它们一次又一次地复生！"
+    },
+    "Decks/Precon/Precon_EPPFDN_UB_desc_update": {
+        "oracleText": "Bide your time with removal spells and card filtering, then extract huge value from your well-stocked graveyard!",
+        "translation": "Bide your time with removal spells and card filtering, then extract huge value from your well-stocked graveyard!"
     },
     "Decks/Precon/Precon_EPPFDN_UG": {
         "oracleText": "Learn from the Land",
@@ -9584,12 +9588,16 @@
         "translation": "通过能让你额外放置地牌的异能来加速你的法术力。施放巨大的威胁，超越其他一切！"
     },
     "Decks/Precon/Precon_EPPFDN_UR": {
-        "oracleText": "Draconic Dominance",
-        "translation": "龙族霸权"
+        "oracleText": "Wondrous Wizardry",
+        "translation": "Wondrous Wizardry"
     },
     "Decks/Precon/Precon_EPPFDN_UR_desc": {
         "oracleText": "Bide your time with tricky spells before devastating opponents with an onslaught of ferocious dragons!",
         "translation": "在用一些巧妙的咒语拖延时间后，用一群威猛巨龙来摧毁你的对手！"
+    },
+    "Decks/Precon/Precon_EPPFDN_UR_desc_update": {
+        "oracleText": "Throw caution to the wind by flinging spells at the opponent and overwhelming them with your wizarding ways!",
+        "translation": "Throw caution to the wind by flinging spells at the opponent and overwhelming them with your wizarding ways!"
     },
     "Decks/Precon/Precon_EPPFDN_UW": {
         "oracleText": "Arcane Aerialists",
@@ -23776,8 +23784,8 @@
         "translation": "14张牌的轮抽用补充包在桌上轮转，你每次需从中选择一张牌。你所选择的牌张会加入你的收藏，且你会用你抽到的这些牌加上基本地来构筑一副40张的套牌参赛。不断进行三盘两胜制的对局，最后根据你的胜局数量赢得奖励！"
     },
     "Events/Event_Desc_WAR_Premier_Draft": {
-        "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>",
-        "translation": "每次从传过来的轮抽卡包中选一张牌，这些牌会加入你的收藏，你将使用这些牌加上基本地来构筑40张的套牌开始游戏。你将得到的奖励取决于你的胜场!\n\n<b>真人轮抽～和其他七位玩家共同进行的限时轮抽</b>"
+        "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<color=\"red\"><b>Note: This set is not legal in Standard.</b></color>",
+        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<color=\"red\"><b>Note: This set is not legal in Standard.</b></color>"
     },
     "Events/Event_Desc_WAR_Quick_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Bot Draft - Draft against AI with no waiting & no pick timers</b>",
