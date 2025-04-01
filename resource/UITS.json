@@ -63,6 +63,14 @@
         "oracleText": "Ascend",
         "translation": "登殿"
     },
+    "AbilityHanger/AbilityWord/Behold_Dragon_Body": {
+        "oracleText": "To behold a Dragon, choose a Dragon you control or reveal a Dragon card from your hand.",
+        "translation": "To behold a Dragon, choose a Dragon you control or reveal a Dragon card from your hand."
+    },
+    "AbilityHanger/AbilityWord/Behold_Dragon_Title": {
+        "oracleText": "Behold a Dragon",
+        "translation": "Behold a Dragon"
+    },
     "AbilityHanger/AbilityWord/Channel_Title": {
         "oracleText": "Channel",
         "translation": "魂力"
@@ -290,6 +298,14 @@
     "AbilityHanger/AbilityWord/Suspend_Body": {
         "oracleText": "Rather than cast this card from your hand, you may pay {abilityCost} and exile it with {numeral} time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost",
         "translation": "除了从你手上施放此牌，你可以支付{abilityCost}并将它放逐，且上面有{numeral}个计时指示物。在你的维持开始时，从其上移去一个计时指示物。当移去最后一个时，你可以施放它且不需支付其法术力费用。"
+    },
+    "AbilityHanger/AbilityWord/Suspend_Reference_Body": {
+        "oracleText": "At the beginning of your upkeep, remove a time counter. When the last is removed, you may play it without paying its mana cost. If it's a creature, it has haste.",
+        "translation": "At the beginning of your upkeep, remove a time counter. When the last is removed, you may play it without paying its mana cost. If it's a creature, it has haste."
+    },
+    "AbilityHanger/AbilityWord/Suspend_Reference_Title": {
+        "oracleText": "Suspend",
+        "translation": "Suspend"
     },
     "AbilityHanger/AbilityWord/Suspend_Title": {
         "oracleText": "Suspend {numeral}—",
@@ -1119,6 +1135,10 @@
         "oracleText": "Detained permanents can't attack or block and their activated abilities can't be activated.",
         "translation": "被拘留的永久物。直到拘留其的咒语或异能之操控者的下一个回合，该永久物不能进行攻击或阻挡，其起动式异能也不能起动。"
     },
+    "AbilityHanger/Keyword/Detain_Body_Update": {
+        "oracleText": "Until your next turn, detained permanents can't attack or block and their activated abilities can't be activated.",
+        "translation": "Until your next turn, detained permanents can't attack or block and their activated abilities can't be activated."
+    },
     "AbilityHanger/Keyword/Detain_Body_Updated": {
         "oracleText": "Until your next turn, detained permanents can't attack or block and their activated abilities can't be activated.",
         "translation": "直到你的下一个回合，被拘留的永久物不能进行攻击或阻挡，其起动式异能也不能起动。"
@@ -1339,6 +1359,18 @@
         "oracleText": "Emerge From Artifact",
         "translation": "神器化生"
     },
+    "AbilityHanger/Keyword/Endure1_Body": {
+        "oracleText": "Put 1 +1/+1 counter on this creature or create a 1/1 white Spirit creature token.",
+        "translation": "Put 1 +1/+1 counter on this creature or create a 1/1 white Spirit creature token."
+    },
+    "AbilityHanger/Keyword/EndureN": {
+        "oracleText": "Endure {numeral}",
+        "translation": "Endure {numeral}"
+    },
+    "AbilityHanger/Keyword/EndureN_Body": {
+        "oracleText": "Put {numeral} +1/+1 counters on this creature or create a {numeral}/{numeral} white Spirit creature token.",
+        "translation": "Put {numeral} +1/+1 counters on this creature or create a {numeral}/{numeral} white Spirit creature token."
+    },
     "AbilityHanger/Keyword/Enlist_Body": {
         "oracleText": "As this creature attacks, you may tap a nonattacking creature you control without summoning sickness. When you do, add its power to this creature's until end of turn.",
         "translation": "于此生物攻击时，你可以横置一个由你操控、不具召唤失调且未进行攻击的生物。当你如此作时，将所横置生物的力量加至此生物直到回合结束。"
@@ -1478,6 +1510,14 @@
     "AbilityHanger/Keyword/Foretell": {
         "oracleText": "During your turn, you may pay <sprite=\"SpriteSheet_ManaIcons\" name=\"x2\"> and exile this card from your hand face down. Cast it on a later turn for its foretell cost.",
         "translation": "于你的回合中，你可以支付<sprite=\"SpriteSheet_ManaIcons\" name=\"x2\"> 并将此牌从手上牌面朝下地放逐，在之后的回合你可以施放它并须改为支付其预示费用。"
+    },
+    "AbilityHanger/Keyword/HarmonizeN_Body": {
+        "oracleText": "You may cast this card from your graveyard for {abilityCost}. You may tap a creature you control to reduce that cost by oX, where X is that creature's power. Then exile this spell.",
+        "translation": "You may cast this card from your graveyard for {abilityCost}. You may tap a creature you control to reduce that cost by oX, where X is that creature's power. Then exile this spell."
+    },
+    "AbilityHanger/Keyword/HarmonizeN_Title": {
+        "oracleText": "Harmonize {abilityCost}",
+        "translation": "Harmonize {abilityCost}"
     },
     "AbilityHanger/Keyword/HasFinalityCounter": {
         "oracleText": "If this would go to a graveyard from the battlefield, exile this instead.",
@@ -1786,6 +1826,18 @@
     "AbilityHanger/Keyword/Mill_Title": {
         "oracleText": "Mill",
         "translation": "磨"
+    },
+    "AbilityHanger/Keyword/Mobilize_1_Body": {
+        "oracleText": "Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.",
+        "translation": "Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step."
+    },
+    "AbilityHanger/Keyword/Mobilize_Body": {
+        "oracleText": "Whenever this creature attacks, create {numeral} tapped and attacking 1/1 red Warrior creature tokens. Sacrifice them at the beginning of the next end step.",
+        "translation": "Whenever this creature attacks, create {numeral} tapped and attacking 1/1 red Warrior creature tokens. Sacrifice them at the beginning of the next end step."
+    },
+    "AbilityHanger/Keyword/Mobilize_Title": {
+        "oracleText": "Mobilize {numeral}",
+        "translation": "Mobilize {numeral}"
     },
     "AbilityHanger/Keyword/Modified": {
         "oracleText": "Equipment, Auras you control, and counters are modifications.",
@@ -2591,6 +2643,10 @@
         "oracleText": "Wither",
         "translation": "干枯"
     },
+    "AbilityHanger/Keyword/X": {
+        "oracleText": "X",
+        "translation": "X"
+    },
     "AbilityHanger/Keyword/YoungHeroRole_Body": {
         "oracleText": "Enchanted creature has \"Whenever this creature attacks, if its toughness is 3 or less, put a +1/+1 counter on it.\"",
         "translation": "所结附的生物具有「每当此生物攻击时，若它的防御力等于或小于 3，则在其上放置一个+1/+1指示物。」"
@@ -3210,6 +3266,14 @@
     "AbilityHanger/SpecialHangers/NPE/Tapped_Title": {
         "oracleText": "Tapped",
         "translation": "已横置"
+    },
+    "AbilityHanger/SpecialHangers/Omen_Body": {
+        "oracleText": "You may cast this card as an Omen. After you do, shuffle this card into its owner's library.",
+        "translation": "You may cast this card as an Omen. After you do, shuffle this card into its owner's library."
+    },
+    "AbilityHanger/SpecialHangers/Omen_Header": {
+        "oracleText": "Omen",
+        "translation": "Omen"
     },
     "AbilityHanger/SpecialHangers/OnAnAdventure_Body": {
         "oracleText": "You may cast this card as an Adventure, after you do exile it. You may then cast the {PermanentType} later from exile.",
@@ -4214,6 +4278,10 @@
     "Achievements/Core/Green/CountersOneshot_desc_alt": {
         "oracleText": "Put 25 or more counters on permanents you control in a single game.",
         "translation": "在一场对局中，在你操控的永久物上放置25个或更多指示物。"
+    },
+    "Achievements/Core/Green/CountersOneshot_desc_creatureEnchantment": {
+        "oracleText": "Put 25 or more counters on creatures or enchantments you control in a single game.",
+        "translation": "Put 25 or more counters on creatures or enchantments you control in a single game."
     },
     "Achievements/Core/Green/ElvesHydras": {
         "oracleText": "Growth and Strength",
@@ -5811,6 +5879,14 @@
         "oracleText": "{number1} Foundations Mythic Card Rewards",
         "translation": "{number1}基石构筑秘稀卡牌奖励"
     },
+    "BattlePass/Rewards/ICR_TDM_M": {
+        "oracleText": "Tarkir: Dragonstorm Mythic Card Reward",
+        "translation": "Tarkir: Dragonstorm Mythic Card Reward"
+    },
+    "BattlePass/Rewards/ICR_TDM_M_Plural": {
+        "oracleText": "{number1} Tarkir: Dragonstorm Mythic Card Rewards",
+        "translation": "{number1} Tarkir: Dragonstorm Mythic Card Rewards"
+    },
     "BattlePass/Rewards/IKO_Level1": {
         "oracleText": "Lukka Avatar, Greatshark Sleeve, & Regal Cub",
         "translation": "卢卡头像、硕鲨牌套、& 威严幼兽"
@@ -6438,6 +6514,26 @@
     "BattlePass/Rewards/StickerEmote_ZNRHedron_Sleepy": {
         "oracleText": "Hedron Sleepy Emote",
         "translation": "犯困晶石表情"
+    },
+    "BattlePass/Rewards/TDM_Companion_Hover": {
+        "oracleText": "Sultai Statuette : Mastery Pass Level 57",
+        "translation": "Sultai Statuette : Mastery Pass Level 57"
+    },
+    "BattlePass/Rewards/TDM_Level1": {
+        "oracleText": "Sarkhan Avatar, Jeskai Statuette Companion, and Mardu Warrior Sleeve",
+        "translation": "Sarkhan Avatar, Jeskai Statuette Companion, and Mardu Warrior Sleeve"
+    },
+    "BattlePass/Rewards/TDM_Pet2_And_Orb": {
+        "oracleText": "1 Set Mastery Orb & Mardu Statuette Companion",
+        "translation": "1 Set Mastery Orb & Mardu Statuette Companion"
+    },
+    "BattlePass/Rewards/TDM_Pet3_And_Orb": {
+        "oracleText": "1 Set Mastery Orb & Temur Statuette Companion",
+        "translation": "1 Set Mastery Orb & Temur Statuette Companion"
+    },
+    "BattlePass/Rewards/TDM_Pet4_And_Orb": {
+        "oracleText": "1 Set Mastery Orb & Sultai Statuette Companion",
+        "translation": "1 Set Mastery Orb & Sultai Statuette Companion"
     },
     "BattlePass/Rewards/THB_Level1": {
         "oracleText": "Elspeth Avatar, Elspeth's Nightmare Sleeve, & Common Nyx Owl",
@@ -7388,8 +7484,8 @@
         "translation": "各式玩法"
     },
     "Codex/WaysToPlay/Formats/Constructed_AdditionalFormats": {
-        "oracleText": "<color #ED5922>While those are the five main constructed formats, on Arena, that's not all:",
-        "translation": "<color #ED5922>While those are the five main constructed formats, on Arena, that's not all:"
+        "oracleText": "<color #ED5922>While those are the 5 main constructed formats, on Arena, that's not all:",
+        "translation": "<color #ED5922>While those are the 5 main constructed formats, on Arena, that's not all:"
     },
     "Codex/WaysToPlay/Formats/Constructed_Alchemy_A": {
         "oracleText": "<indent=5%><color #E9E9F6><b>Alchemy</b><color #CCCCCC> is a rotating format similar to Standard except for one main difference: players can also play with digital cards not present in paper! This could be cards from Standard that have been \"rebalanced\" to allow for new strategies, or even entirely new cards released in each set's Alchemy drop. These cards do things on MTG Arena that aren't possible in paper and might have you approaching this format differently. That combined with our ability to balance cards that aren't seeing a lot of play (or too much play), make Alchemy an ever-changing format!<br><br>Like Standard, when <i>Bloomburrow</i> releases in July of 2024, Alchemy will rotate. Alchemy only uses sets from the last two years making it a \"smaller\" format than Standard!  A great place to start would be playing with any of the 10 Starter Decks and adding in any digital-first cards you may come across!",
@@ -7675,6 +7771,10 @@
         "oracleText": "Studio X",
         "translation": "工作室"
     },
+    "Credits/Department/StudioXCardSetCredits": {
+        "oracleText": "Studio X – Card Set Credits",
+        "translation": "Studio X – Card Set Credits"
+    },
     "Credits/Department/TechnologyOperations": {
         "oracleText": "Technology Operations",
         "translation": "技术运营"
@@ -7703,6 +7803,10 @@
         "oracleText": "3D Artist",
         "translation": "3D效果设计师"
     },
+    "Credits/Role/3DEnvironmentArtist": {
+        "oracleText": "3D Environment Artist",
+        "translation": "3D Environment Artist"
+    },
     "Credits/Role/Animator": {
         "oracleText": "Animator",
         "translation": "动画师"
@@ -7719,9 +7823,13 @@
         "oracleText": "Associate Animator",
         "translation": "联合动画师"
     },
+    "Credits/Role/AssociateGameProductionArtist": {
+        "oracleText": "Associate Game Production Artist",
+        "translation": "Associate Game Production Artist"
+    },
     "Credits/Role/AssociateProductManager": {
-        "oracleText": "Associate Digital Product Manager",
-        "translation": "联合数字产品管理者"
+        "oracleText": "Associate Product Manager",
+        "translation": "Associate Product Manager"
     },
     "Credits/Role/AssociateProductionArtist": {
         "oracleText": "Associate Production Artist",
@@ -7847,6 +7955,10 @@
         "oracleText": "Senior 3D Artist",
         "translation": "高级3D效果设计师"
     },
+    "Credits/Role/SeniorAnimator": {
+        "oracleText": "Senior Animator",
+        "translation": "Senior Animator"
+    },
     "Credits/Role/SeniorArtDirector": {
         "oracleText": "Senior Art Director",
         "translation": "高级艺术总监"
@@ -7883,6 +7995,14 @@
         "oracleText": "Senior Technical Artist",
         "translation": "高级技术工程师"
     },
+    "Credits/Role/SeniorTechnicalProductManager": {
+        "oracleText": "Senior Technical Product Manager",
+        "translation": "Senior Technical Product Manager"
+    },
+    "Credits/Role/SeniorTechnicalUIDesigner": {
+        "oracleText": "Senior Technical UI Designer",
+        "translation": "Senior Technical UI Designer"
+    },
     "Credits/Role/SeniorTechnologyProducer": {
         "oracleText": "Senior Technology Producer",
         "translation": "高级技术开发工程师"
@@ -7914,6 +8034,10 @@
     "Credits/Role/TechnicalProductManager": {
         "oracleText": "Technical Product Manager",
         "translation": "技术产品经理"
+    },
+    "Credits/Role/TechnicalUIDesigner": {
+        "oracleText": "Technical UI Designer",
+        "translation": "Technical UI Designer"
     },
     "Credits/Role/TechnologyProducer": {
         "oracleText": "Technology Producer",
@@ -11603,6 +11727,26 @@
         "oracleText": "Champion Deck: Explorer Mono-Green Devotion",
         "translation": "夺冠套牌：探险纯绿献力"
     },
+    "Decks/StoreDecks/TDM/Wave1/Abzan": {
+        "oracleText": "Foundation Deck: Brawl Betor, Ancestor's Voice",
+        "translation": "Foundation Deck: Brawl Betor, Ancestor's Voice"
+    },
+    "Decks/StoreDecks/TDM/Wave1/Jeskai": {
+        "oracleText": "Foundation Deck: Brawl  Elsha, Threefold Master",
+        "translation": "Foundation Deck: Brawl  Elsha, Threefold Master"
+    },
+    "Decks/StoreDecks/TDM/Wave1/Mardu": {
+        "oracleText": "Foundation Deck: Brawl Neriv, Crackling Vanguard",
+        "translation": "Foundation Deck: Brawl Neriv, Crackling Vanguard"
+    },
+    "Decks/StoreDecks/TDM/Wave1/Simic": {
+        "oracleText": "Foundation Deck: Brawl Eshki, Temur's Roar",
+        "translation": "Foundation Deck: Brawl Eshki, Temur's Roar"
+    },
+    "Decks/StoreDecks/TDM/Wave1/Sultai": {
+        "oracleText": "Foundation Deck: Brawl   Kotis, Sibsig Champion",
+        "translation": "Foundation Deck: Brawl   Kotis, Sibsig Champion"
+    },
     "Decks/StoreDecks/Wave1/Brawl_RWRaiyuu": {
         "oracleText": "Foundation Deck: Brawl Raiyuu, Storm's Edge",
         "translation": "基础套牌：争锋风暴利刃雷游"
@@ -12215,6 +12359,10 @@
         "oracleText": "Fabricate 3",
         "translation": "装配3"
     },
+    "DuelScene/Browsers/OptionalActionWorkflow_NoCardRuleText_EndureN": {
+        "oracleText": "Create a {numeral}/{numeral} white Spirit creature token",
+        "translation": "Create a {numeral}/{numeral} white Spirit creature token"
+    },
     "DuelScene/Browsers/OptionalActionWorkflow_NoCardRuleText_Fabricate1": {
         "oracleText": "Create a 1/1 colorless Servo artifact creature token",
         "translation": "派出一个1/1无色自动机衍生神器生物"
@@ -12226,6 +12374,10 @@
     "DuelScene/Browsers/OptionalActionWorkflow_NoCardRuleText_Fabricate3": {
         "oracleText": "Create three 1/1 colorless Servo artifact creature tokens",
         "translation": "派出三个1/1无色自动机衍生神器生物"
+    },
+    "DuelScene/Browsers/OptionalActionWorkflow_YesCardRuleText_EndureN": {
+        "oracleText": "Put {numeral} +1/+1 counters on {CardName}",
+        "translation": "Put {numeral} +1/+1 counters on {CardName}"
     },
     "DuelScene/Browsers/OptionalActionWorkflow_YesCardRuleText_Fabricate1": {
         "oracleText": "Put a +1/+1 counter on {cardname}",
@@ -16607,6 +16759,54 @@
         "oracleText": "Yeehaw",
         "translation": "耶哈"
     },
+    "Emotes/TDM/Full/Phrase_TDM_Abzan": {
+        "oracleText": "For the glory of the Abzan!",
+        "translation": "For the glory of the Abzan!"
+    },
+    "Emotes/TDM/Full/Phrase_TDM_Jeskai": {
+        "oracleText": "For the glory of the Jeskai!",
+        "translation": "For the glory of the Jeskai!"
+    },
+    "Emotes/TDM/Full/Phrase_TDM_Mardu": {
+        "oracleText": "For the glory of the Mardu!",
+        "translation": "For the glory of the Mardu!"
+    },
+    "Emotes/TDM/Full/Phrase_TDM_Rhinos": {
+        "oracleText": "Release the rhinos!",
+        "translation": "Release the rhinos!"
+    },
+    "Emotes/TDM/Full/Phrase_TDM_Sultai": {
+        "oracleText": "For the glory of the Sultai!",
+        "translation": "For the glory of the Sultai!"
+    },
+    "Emotes/TDM/Full/Phrase_TDM_Temur": {
+        "oracleText": "For the glory of the Temur!",
+        "translation": "For the glory of the Temur!"
+    },
+    "Emotes/TDM/Mini/Phrase_TDM_Abzan": {
+        "oracleText": "For the glory of the Abzan!",
+        "translation": "For the glory of the Abzan!"
+    },
+    "Emotes/TDM/Mini/Phrase_TDM_Jeskai": {
+        "oracleText": "For the glory of the Jeskai!",
+        "translation": "For the glory of the Jeskai!"
+    },
+    "Emotes/TDM/Mini/Phrase_TDM_Mardu": {
+        "oracleText": "For the glory of the Mardu!",
+        "translation": "For the glory of the Mardu!"
+    },
+    "Emotes/TDM/Mini/Phrase_TDM_Rhinos": {
+        "oracleText": "Release the rhinos!",
+        "translation": "Release the rhinos!"
+    },
+    "Emotes/TDM/Mini/Phrase_TDM_Sultai": {
+        "oracleText": "For the glory of the Sultai!",
+        "translation": "For the glory of the Sultai!"
+    },
+    "Emotes/TDM/Mini/Phrase_TDM_Temur": {
+        "oracleText": "For the glory of the Temur!",
+        "translation": "For the glory of the Temur!"
+    },
     "Emotes/TEST/Full/Emote_Phrase_TEST_WhatIsThis": {
         "oracleText": "Wow... What's this?",
         "translation": "哇哦...这是什么？"
@@ -18863,6 +19063,14 @@
         "oracleText": "This token denotes that you are eligible to receive 2 physical Outlaws of Thunder Junction Play Booster Boxes",
         "translation": "此代币表示您有资格获得2盒实体光雷驿镖客常规补充包"
     },
+    "Events/ArenaDirect_TDM_COLLECTOR_Prize": {
+        "oracleText": "These tokens denote that you are eligible to receive a physical <i>Tarkir: Dragonstorm</i> Collector Booster Box",
+        "translation": "These tokens denote that you are eligible to receive a physical <i>Tarkir: Dragonstorm</i> Collector Booster Box"
+    },
+    "Events/ArenaDirect_TDM_COLLECTOR_String": {
+        "oracleText": "This token denotes that you are eligible to receive 1 physical <i>Tarkir: Dragonstorm</i> Collector Booster Box",
+        "translation": "This token denotes that you are eligible to receive 1 physical <i>Tarkir: Dragonstorm</i> Collector Booster Box"
+    },
     "Events/Banned_Cards_Tag_A": {
         "oracleText": "Standard Shakeup",
         "translation": "标准非主流"
@@ -20899,6 +21107,10 @@
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win a physical Outlaws of Thunder Junction Play Booster Box delivered to you.\n\nThe format for this event is 6 packs of <i>Outlaws of Thunder Junction</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-mh3-terms-and-conditions>here</link></u> for full details.</color></b>",
         "translation": "<size=150%><color=#e1a154>为实体奖励而战！</color></size>\n\n报名参加本赛事并赢得全部6场胜利，将会邮寄给你一盒实体光雷驿镖客常规补充包。\n\n本赛事的赛制是<i>光雷驿镖客</i>BO1现开。\n\n<b><color=red>必须年满18周岁才能参加。并非在所有地区/领地都可用。禁止地区无效。领取现金奖励需要创建或拥有现有的Wizards、DCI和i-Payout账户。请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-mh3-terms-and-conditions>此处</link></u>了解完整详情。</color></b>"
     },
+    "Events/Event_Desc_ArenaDirect_TDM_Collector_Sealed": {
+        "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win a physical Tarkir: Dragonstorm Collector Booster Box delivered to you.\n\nThe format for this event is 6 packs of <i>Tarkir: Dragonstorm</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win a physical Tarkir: Dragonstorm Collector Booster Box delivered to you.\n\nThe format for this event is 6 packs of <i>Tarkir: Dragonstorm</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>"
+    },
     "Events/Event_Desc_ArenaDirect_WOE_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win a pair of Wilds of Eldraine Set Booster Box delivered to you.\n\nThe format for this event is 6 packs of <i>Wilds of Eldraine</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-WOE-terms-and-conditions>here</link></u> for full details.</color></b>",
         "translation": "<size=150%><color=#e1a154>为实体奖励而战！</color></size>\n\n报名参加本赛事并赢得全部6场胜利，将会邮寄给你一盒实体艾卓仙踪系列补充包。\n\n本赛事的赛制是<i>艾卓仙踪</i>BO1现开。\n\n<b><color=red>必须年满18周岁才能参加。并非在所有地区/领地都可用。禁止地区无效。领取现金奖励需要创建或拥有现有的Wizards、DCI和i-Payout账户。请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-WOE-terms-and-conditions>此处</link></u>了解完整详情。</color></b>"
@@ -22428,8 +22640,8 @@
         "translation": "轮抽补充包在桌上轮转，你每次需从中选择一张牌。这些牌张将加入你的收藏，而你将使用它们和基本地来构组一副40张的套牌。不断进行三盘两胜制的对局，最后根据胜局数量赢得奖励！\n\n<b>牌手轮抽～与7位其他牌手一同进行轮抽，有抽选时间限制。</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>骑士</b>整个多重宇宙的骑士均已集结于此！持续派出这些英勇的生物，助你每回合都能建立优势。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>坟场</b>大家齐磨牌。所有坟墓场中的牌越多，你的手下就有更多选择，也会因此愈加强大。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>牺牲</b>绝望之时更需殊死之策。牺牲神器生物，开辟胜利通途。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>战役</b>准备好从非瑞克西亚人手中拯救自己的最爱时空。优先应对战役这一万智牌中最新的牌张类别，随后洞穿敌人防线，力挽狂澜。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>+1/+1指示物</b>现在是加成时间！用+1/+1指示物武装你的生物，完胜对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>非瑞克西亚</b>想当大反派？留意各类非瑞人，然后充分利用他们和成群待孵化的抚育器衍生物。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>召集</b>你的生物可助你抵御非瑞克西亚大军。早期就构建起庞大军势，之后便可利用它们来协助施放具召集异能的强大咒语。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>抚育</b>积极扩充法术力基础，产生大量的法术力来派遣大型生物或抚育大型衍生物。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>后援</b>寻找合适战友，结伴对抗非瑞克西亚。利用后援机制，探寻正确的异能组合，每回合都迈出踏向胜利的坚实脚步。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>转化</b>有改变，生命才更精彩。打赢战役，或是将抚育器衍生物转化变成非瑞人生物，让牌张强度再上一层楼。"
     },
     "Events/Event_Desc_MWM_3Sets": {
-        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is On the Edge: Bring a 60-card deck using only cards from <i> Lost Caverns of Ixalan</i>, <i> Murders at Karlov Manor</i>, and <i>Outlaws of Thunder Junction</i>. With only three Standard sets to work with, you'll need cutting-edge strategies to find victory! \n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
-        "translation": "欢迎来到周中万智牌！每周尝试一个不同的方式来游玩万智牌竞技场！\n\n本周活动是剑走偏锋：使用 <i>依夏兰迷窟</i>, <i>卡洛夫庄园谋杀案</i> 和<i>光雷驿镖客</i> 这三个标准最新的系列，构筑一套60张的套牌。你需要尖端的策略来取得胜利！\n\n了解有关本次万智牌周中活动以及后续周中活动的详细信息：<u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is On the Edge: Bring a 60-card deck only using cards from <i>Magic: The Gathering Foundations</i> and the last three Standard sets.  That means cards from <i>Duskmourn: House of Horror</i>, <i>Aetherdrift</i>, and <i>Tarkir: Dragonstorm</i> are Legal. With only these Standard sets to work with, you'll need cutting-edge strategies to find victory! \n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is On the Edge: Bring a 60-card deck only using cards from <i>Magic: The Gathering Foundations</i> and the last three Standard sets.  That means cards from <i>Duskmourn: House of Horror</i>, <i>Aetherdrift</i>, and <i>Tarkir: Dragonstorm</i> are Legal. With only these Standard sets to work with, you'll need cutting-edge strategies to find victory! \n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
     },
     "Events/Event_Desc_MWM_Alchemy": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Alchemy: Bring a 60-card Alchemy deck. Break out the latest and greatest from the lab, or maybe find a new favorite!\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
@@ -22660,12 +22872,16 @@
         "translation": "欢迎参加周中万智夜！<i>《MTG竞技场》</i>每周玩法花样百出，次次活动都有全新感受！\n\n本周的活动是往日重现：使用事先组好的60张套牌参赛，但你可以使用<i>万智牌竞技场</i>自公测以来的所有标准系列，上可追溯至<i>依夏兰</i>！多年以来标准赛已经过诸多变革。你是否能够找到经时不衰的必胜策略？\n\n点击<u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>此处</link></u>了解更多关于本次以及后续周中万智夜的安排。"
     },
     "Events/Event_Desc_MWM_JumpIn": {
-        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is phantom Jump! You will get to select two different half-decks from a variety of themes in Alchemy. Combine them, and you'll have a deck that's ready to go. Unlike regular Jump In, cards from this event will not be added to your collection.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
-        "translation": "欢迎来到周中万智牌！每周尝试一个不同的方式来游玩万智牌竞技场！\n\n本周赛事是幻影速学！你可以从炼金赛制的各种主题中选择两个不同的「半套牌」补充包，将它们混合起来，你就有一副可以立刻开玩的套牌了！但与通常的速学赛事不同的是，你所选的套牌不会添加到你的收藏当中。\n\n更多关于本活动及即将到来的周中万智牌赛事信息，请查看<u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>这里</link></u>。"
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is phantom Jump! You will get to select two different half-decks from a variety of themes in <i>Tarkir: Dragonstorm</i>. Combine them, and you'll have a deck that's ready to go. Unlike regular Jump In, cards from this event will not be added to your collection.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is phantom Jump! You will get to select two different half-decks from a variety of themes in <i>Tarkir: Dragonstorm</i>. Combine them, and you'll have a deck that's ready to go. Unlike regular Jump In, cards from this event will not be added to your collection.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
     },
     "Events/Event_Desc_MWM_JumpIn_MKM": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is phantom Jump In featuring only cards from <i>Murders at Karlov Manor</i>! You will get to select two different half-decks from a variety of themes in Alchemy. Combine them, and you'll have a deck that's ready to go. Unlike regular Jump In, cards from this event will not be added to your collection.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
         "translation": "欢迎来到周中万智牌！每周尝试一个不同的方式来游玩万智牌竞技场！\n\n本周赛事是<i>卡洛夫庄园谋杀案</i>的幻影速学！你可以炼金赛制的各种主题中选择两个不同的「半套牌」补充包，将它们混合起来，你就有一副可以立刻开玩的套牌了！但与通常的速学赛事不同的是，你所选的套牌不会添加到你的收藏当中。\n\n更多关于本活动及即将到来的周中万智牌赛事信息，请查看<u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>这里</link></u>。"
+    },
+    "Events/Event_Desc_MWM_JumpIn_TDM": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is phantom Jump! You will get to select two different half-decks from a variety of themes in <i>Tarkir: Dragonstorm</i>. Combine them, and you'll have a deck that's ready to go. Unlike regular Jump In, cards from this event will not be added to your collection.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is phantom Jump! You will get to select two different half-decks from a variety of themes in <i>Tarkir: Dragonstorm</i>. Combine them, and you'll have a deck that's ready to go. Unlike regular Jump In, cards from this event will not be added to your collection.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/mtga-midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>."
     },
     "Events/Event_Desc_MWM_Jumpstart2025": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is phantom Foundations Jumpstart! You will get to select two different half-decks from a variety of themes in Magic: The Gathering Foundations. Combine them, and you'll have a deck that's ready to go. Unlike regular Jump In, cards from this event will not be added to your collection.\n\nFind out more details about this and upcoming Midweek Magic events <u><link=https://magic.wizards.com/en/news/announcements/midweek-magic?utm_medium=product&utm_source=arena>HERE</link></u>.",
@@ -23503,6 +23719,30 @@
         "oracleText": "You'll receive 6 fifteen-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!",
         "translation": "你将得到6包15张牌的补充包。补充包内的牌张都会加入你的收藏，而你将利用这些牌外加基本地来构筑一副40张的套牌进行游戏。不断进行对战，最后根据你的胜场数量赢得奖励！"
     },
+    "Events/Event_Desc_Sealed_TDM": {
+        "oracleText": "You'll receive 6 <i>Tarkir: Dragonstorm</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Mardu Mobilize</b> Create additional tokens to help aid in your attack.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Go Wide Tokens</b> Blitz by your opponent with sheer numbers. Use Mobilize tokens and Flurry rewards to build impressive battlefields.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Jeskai Flurry</b> Cast two (or more!) spells in a single turn to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Two Spells</b> Use Harmonize spells frequently in order to reap the rewards from Flurry.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Temur Harmonize</b> Cast your spells twice with help of your biggest creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Leaves the Graveyard</b> Fill up your graveyard, then use Mobilize or Renew and others to get bonuses for cards leaving your graveyard.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Sultai Renew</b> Use the power of the graveyard to make your creatures stronger.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xBG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><b>Counters</b> Use counters of any kind, not just +1/+1 counters, to make your creatures impressive in combat.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Abzan Endure</b> Your creatures are versatile!  Outsize your opponents with +1/+1 counters or outflank them with spirit tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><b>Sacrifice</b>Sacrifice your extra creatures, such as your temporary creatures from Horde to get extra use out of those creatures.",
+        "translation": "You'll receive 6 <i>Tarkir: Dragonstorm</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Mardu Mobilize</b> Create additional tokens to help aid in your attack.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Go Wide Tokens</b> Blitz by your opponent with sheer numbers. Use Mobilize tokens and Flurry rewards to build impressive battlefields.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Jeskai Flurry</b> Cast two (or more!) spells in a single turn to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Two Spells</b> Use Harmonize spells frequently in order to reap the rewards from Flurry.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Temur Harmonize</b> Cast your spells twice with help of your biggest creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Leaves the Graveyard</b> Fill up your graveyard, then use Mobilize or Renew and others to get bonuses for cards leaving your graveyard.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Sultai Renew</b> Use the power of the graveyard to make your creatures stronger.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xBG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><b>Counters</b> Use counters of any kind, not just +1/+1 counters, to make your creatures impressive in combat.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Abzan Endure</b> Your creatures are versatile!  Outsize your opponents with +1/+1 counters or outflank them with spirit tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><b>Sacrifice</b>Sacrifice your extra creatures, such as your temporary creatures from Horde to get extra use out of those creatures."
+    },
+    "Events/Event_Desc_Sealed_TDM_Abzan": {
+        "oracleText": "You'll receive 4 <i>Tarkir: Dragonstorm</i> packs and 2 special Abzan Clan-themed <i>Tarkir: Dragonstorm</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Abzan Endure</b> Your creatures are versatile!  Outsize your opponents with +1/+1 counters or outflank them with spirit tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Jeskai Flurry</b> Cast two (or more!) spells in a single turn to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Sultai Renew</b> Use the power of the graveyard to make your creatures stronger.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Mardu Mobilize</b> Create additional tokens to help aid in your attack.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Temur Harmonize</b> Cast your spells twice with help of your biggest creatures.",
+        "translation": "You'll receive 4 <i>Tarkir: Dragonstorm</i> packs and 2 special Abzan Clan-themed <i>Tarkir: Dragonstorm</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Abzan Endure</b> Your creatures are versatile!  Outsize your opponents with +1/+1 counters or outflank them with spirit tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Jeskai Flurry</b> Cast two (or more!) spells in a single turn to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Sultai Renew</b> Use the power of the graveyard to make your creatures stronger.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Mardu Mobilize</b> Create additional tokens to help aid in your attack.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Temur Harmonize</b> Cast your spells twice with help of your biggest creatures."
+    },
+    "Events/Event_Desc_Sealed_TDM_Jeskai": {
+        "oracleText": "You'll receive 4 <i>Tarkir: Dragonstorm</i> packs and 2 special Jeskai Clan-themed <i>Tarkir: Dragonstorm</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Jeskai Flurry</b> Cast two (or more!) spells in a single turn to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Sultai Renew</b> Use the power of the graveyard to make your creatures stronger.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Mardu Mobilize</b> Create additional tokens to help aid in your attack.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Temur Harmonize</b> Cast your spells twice with help of your biggest creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Abzan Endure</b> Your creatures are versatile!  Outsize your opponents with +1/+1 counters or outflank them with spirit tokens.",
+        "translation": "You'll receive 4 <i>Tarkir: Dragonstorm</i> packs and 2 special Jeskai Clan-themed <i>Tarkir: Dragonstorm</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Jeskai Flurry</b> Cast two (or more!) spells in a single turn to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Sultai Renew</b> Use the power of the graveyard to make your creatures stronger.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Mardu Mobilize</b> Create additional tokens to help aid in your attack.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Temur Harmonize</b> Cast your spells twice with help of your biggest creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Abzan Endure</b> Your creatures are versatile!  Outsize your opponents with +1/+1 counters or outflank them with spirit tokens."
+    },
+    "Events/Event_Desc_Sealed_TDM_Mardu": {
+        "oracleText": "You'll receive 4 <i>Tarkir: Dragonstorm</i> packs and 2 special Mardu Clan themed <i>Tarkir: Dragonstorm</i> pack. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Mardu Mobilize</b> Create additional tokens to help aid in your attack.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Temur Harmonize</b> Cast your spells twice with help of your biggest creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Abzan Endure</b> Your creatures are versatile!  Outsize your opponents with +1/+1 counters or outflank them with spirit tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Jeskai Flurry</b> Cast two (or more!) spells in a single turn to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Sultai Renew</b> Use the power of the graveyard to make your creatures stronger.",
+        "translation": "You'll receive 4 <i>Tarkir: Dragonstorm</i> packs and 2 special Mardu Clan themed <i>Tarkir: Dragonstorm</i> pack. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Mardu Mobilize</b> Create additional tokens to help aid in your attack.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Temur Harmonize</b> Cast your spells twice with help of your biggest creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Abzan Endure</b> Your creatures are versatile!  Outsize your opponents with +1/+1 counters or outflank them with spirit tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Jeskai Flurry</b> Cast two (or more!) spells in a single turn to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Sultai Renew</b> Use the power of the graveyard to make your creatures stronger."
+    },
+    "Events/Event_Desc_Sealed_TDM_Sultai": {
+        "oracleText": "You'll receive 4 <i>Tarkir: Dragonstorm</i> packs and 2 special Sultai Clan-themed <i>Tarkir: Dragonstorm</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Sultai Renew</b> Use the power of the graveyard to make your creatures stronger.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Mardu Mobilize</b> Create additional tokens to help aid in your attack.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Temur Harmonize</b> Cast your spells twice with help of your biggest creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Abzan Endure</b> Your creatures are versatile!  Outsize your opponents with +1/+1 counters or outflank them with spirit tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Jeskai Flurry</b> Cast two (or more!) spells in a single turn to overwhelm your opponent.",
+        "translation": "You'll receive 4 <i>Tarkir: Dragonstorm</i> packs and 2 special Sultai Clan-themed <i>Tarkir: Dragonstorm</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Sultai Renew</b> Use the power of the graveyard to make your creatures stronger.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Mardu Mobilize</b> Create additional tokens to help aid in your attack.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Temur Harmonize</b> Cast your spells twice with help of your biggest creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Abzan Endure</b> Your creatures are versatile!  Outsize your opponents with +1/+1 counters or outflank them with spirit tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Jeskai Flurry</b> Cast two (or more!) spells in a single turn to overwhelm your opponent."
+    },
+    "Events/Event_Desc_Sealed_TDM_Temur": {
+        "oracleText": "You'll receive 4 <i>Tarkir: Dragonstorm</i> packs and 2 special Temur Clan-themed <i>Tarkir: Dragonstorm</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Temur Harmonize</b> Cast your spells twice with help of your biggest creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Abzan Endure</b> Your creatures are versatile!  Outsize your opponents with +1/+1 counters or outflank them with spirit tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Jeskai Flurry</b> Cast two (or more!) spells in a single turn to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Sultai Renew</b> Use the power of the graveyard to make your creatures stronger.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Mardu Mobilize</b> Create additional tokens to help aid in your attack.",
+        "translation": "You'll receive 4 <i>Tarkir: Dragonstorm</i> packs and 2 special Temur Clan-themed <i>Tarkir: Dragonstorm</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Temur Harmonize</b> Cast your spells twice with help of your biggest creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Abzan Endure</b> Your creatures are versatile!  Outsize your opponents with +1/+1 counters or outflank them with spirit tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Jeskai Flurry</b> Cast two (or more!) spells in a single turn to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Sultai Renew</b> Use the power of the graveyard to make your creatures stronger.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Mardu Mobilize</b> Create additional tokens to help aid in your attack."
+    },
     "Events/Event_Desc_Sealed_THB": {
         "oracleText": "You'll receive 6 fourteen-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win.",
         "translation": "你将得到6包14张牌的补充包。补充包内的牌张都会加入你的收藏，而你将利用这些牌外加基本地来构筑一副40张的套牌进行游戏。不断进行对战，最后根据胜场数量赢得奖励"
@@ -23590,6 +23830,18 @@
     "Events/Event_Desc_StressTest_Constructed": {
         "oracleText": "A special event for our July 20 stress test, this event awards cards as you earn up to seven wins, and even packs at higher win counts. A loss will end your progress, but you don't need gold or gems to play to join again! Each uncommon card reward can get upgraded to a rare or mythic (15%).",
         "translation": "7月20日压力测试特别活动。参赛牌手会随着胜场数的增加而赢得牌张奖励（至多七胜），取得较高胜场的牌手更能赢得补充包。一旦落败便会前功尽废，但不需付出金币或宝石便可重新参赛！所得之非凡牌奖励都有机会升级为稀有或秘稀牌（15%）。"
+    },
+    "Events/Event_Desc_TDM_Premier_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Mardu Mobilize</b> Create additional tokens to help aid in your attack.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Go Wide Tokens</b> Blitz by your opponent with sheer numbers. Use Mobilize tokens and Flurry rewards to build impressive battlefields.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Jeskai Flurry</b> Cast two (or more!) spells in a single turn to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Two Spells</b> Use Harmonize spells frequently in order to reap the rewards from Flurry.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Temur Harmonize</b> Cast your spells twice with help of your biggest creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Leaves the Graveyard</b> Fill up your graveyard, then use Mobilize or Renew and others to get bonuses for cards leaving your graveyard.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Sultai Renew</b> Use the power of the graveyard to make your creatures stronger.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xBG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Counters</b> Use counters of any kind, not just +1/+1 counters, to make your creatures impressive in combat.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Abzan Endure</b> Your creatures are versatile!  Outsize your opponents with +1/+1 counters or outflank them with spirit tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Sacrifice</b>Sacrifice your extra creatures, such as your temporary creatures from Horde to get extra use out of those creatures.",
+        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Mardu Mobilize</b> Create additional tokens to help aid in your attack.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Go Wide Tokens</b> Blitz by your opponent with sheer numbers. Use Mobilize tokens and Flurry rewards to build impressive battlefields.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Jeskai Flurry</b> Cast two (or more!) spells in a single turn to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Two Spells</b> Use Harmonize spells frequently in order to reap the rewards from Flurry.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Temur Harmonize</b> Cast your spells twice with help of your biggest creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Leaves the Graveyard</b> Fill up your graveyard, then use Mobilize or Renew and others to get bonuses for cards leaving your graveyard.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Sultai Renew</b> Use the power of the graveyard to make your creatures stronger.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xBG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Counters</b> Use counters of any kind, not just +1/+1 counters, to make your creatures impressive in combat.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Abzan Endure</b> Your creatures are versatile!  Outsize your opponents with +1/+1 counters or outflank them with spirit tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Sacrifice</b>Sacrifice your extra creatures, such as your temporary creatures from Horde to get extra use out of those creatures."
+    },
+    "Events/Event_Desc_TDM_Quick_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Mardu Mobilize</b> Create additional tokens to help aid in your attack.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Go Wide Tokens</b> Blitz by your opponent with sheer numbers. Use Mobilize tokens and Flurry rewards to build impressive battlefields.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Jeskai Flurry</b> Cast two (or more!) spells in a single turn to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Two Spells</b> Use Harmonize spells frequently in order to reap the rewards from Flurry.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Temur Harmonize</b> Cast your spells twice with help of your biggest creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Leaves the Graveyard</b> Fill up your graveyard, then use Mobilize or Renew and others to get bonuses for cards leaving your graveyard.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Sultai Renew</b> Use the power of the graveyard to make your creatures stronger.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xBG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Counters</b> Use counters of any kind, not just +1/+1 counters, to make your creatures impressive in combat.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Abzan Endure</b> Your creatures are versatile!  Outsize your opponents with +1/+1 counters or outflank them with spirit tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Sacrifice</b>Sacrifice your extra creatures, such as your temporary creatures from Horde to get extra use out of those creatures.",
+        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Mardu Mobilize</b> Create additional tokens to help aid in your attack.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Go Wide Tokens</b> Blitz by your opponent with sheer numbers. Use Mobilize tokens and Flurry rewards to build impressive battlefields.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Jeskai Flurry</b> Cast two (or more!) spells in a single turn to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Two Spells</b> Use Harmonize spells frequently in order to reap the rewards from Flurry.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Temur Harmonize</b> Cast your spells twice with help of your biggest creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Leaves the Graveyard</b> Fill up your graveyard, then use Mobilize or Renew and others to get bonuses for cards leaving your graveyard.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Sultai Renew</b> Use the power of the graveyard to make your creatures stronger.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xBG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Counters</b> Use counters of any kind, not just +1/+1 counters, to make your creatures impressive in combat.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Abzan Endure</b> Your creatures are versatile!  Outsize your opponents with +1/+1 counters or outflank them with spirit tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Sacrifice</b>Sacrifice your extra creatures, such as your temporary creatures from Horde to get extra use out of those creatures."
+    },
+    "Events/Event_Desc_TDM_Trad_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Mardu Mobilize</b> Create additional tokens to help aid in your attack.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Go Wide Tokens</b> Blitz by your opponent with sheer numbers. Use Mobilize tokens and Flurry rewards to build impressive battlefields.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Jeskai Flurry</b> Cast two (or more!) spells in a single turn to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Two Spells</b> Use Harmonize spells frequently in order to reap the rewards from Flurry.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Temur Harmonize</b> Cast your spells twice with help of your biggest creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Leaves the Graveyard</b> Fill up your graveyard, then use Mobilize or Renew and others to get bonuses for cards leaving your graveyard.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Sultai Renew</b> Use the power of the graveyard to make your creatures stronger.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xBG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Counters</b> Use counters of any kind, not just +1/+1 counters, to make your creatures impressive in combat.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Abzan Endure</b> Your creatures are versatile!  Outsize your opponents with +1/+1 counters or outflank them with spirit tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Sacrifice</b>Sacrifice your extra creatures, such as your temporary creatures from Horde to get extra use out of those creatures.",
+        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Mardu Mobilize</b> Create additional tokens to help aid in your attack.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Go Wide Tokens</b> Blitz by your opponent with sheer numbers. Use Mobilize tokens and Flurry rewards to build impressive battlefields.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Jeskai Flurry</b> Cast two (or more!) spells in a single turn to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Two Spells</b> Use Harmonize spells frequently in order to reap the rewards from Flurry.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Temur Harmonize</b> Cast your spells twice with help of your biggest creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Leaves the Graveyard</b> Fill up your graveyard, then use Mobilize or Renew and others to get bonuses for cards leaving your graveyard.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Sultai Renew</b> Use the power of the graveyard to make your creatures stronger.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xBG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Counters</b> Use counters of any kind, not just +1/+1 counters, to make your creatures impressive in combat.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Abzan Endure</b> Your creatures are versatile!  Outsize your opponents with +1/+1 counters or outflank them with spirit tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Sacrifice</b>Sacrifice your extra creatures, such as your temporary creatures from Horde to get extra use out of those creatures."
     },
     "Events/Event_Desc_THB_Comp_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three matches and receive prizes based on how many matches you win!",
@@ -23730,6 +23982,10 @@
     "Events/Event_Desc_Trad_Sealed_STX": {
         "oracleText": "You'll receive 6 fifteen-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!",
         "translation": "你将获得6个15张的补充包。这些牌会加入你的收藏。你将使用这些牌加上基本地来构筑40张的套牌进行bo3对战。你将得到的奖励取决于你的胜场！"
+    },
+    "Events/Event_Desc_Trad_Sealed_TDM": {
+        "oracleText": "You'll receive 6 <i>Tarkir: Dragonstorm</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Mardu Mobilize</b> Create additional tokens to help aid in your attack.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Go Wide Tokens</b> Blitz by your opponent with sheer numbers. Use Mobilize tokens and Flurry rewards to build impressive battlefields.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Jeskai Flurry</b> Cast two (or more!) spells in a single turn to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Two Spells</b> Use Harmonize spells frequently in order to reap the rewards from Flurry.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Temur Harmonize</b> Cast your spells twice with help of your biggest creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Leaves the Graveyard</b> Fill up your graveyard, then use Mobilize or Renew and others to get bonuses for cards leaving your graveyard.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Sultai Renew</b> Use the power of the graveyard to make your creatures stronger.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xBG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Counters</b> Use counters of any kind, not just +1/+1 counters, to make your creatures impressive in combat.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Abzan Endure</b> Your creatures are versatile!  Outsize your opponents with +1/+1 counters or outflank them with spirit tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Sacrifice</b>Sacrifice your extra creatures, such as your temporary creatures from Horde to get extra use out of those creatures.",
+        "translation": "You'll receive 6 <i>Tarkir: Dragonstorm</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Mardu Mobilize</b> Create additional tokens to help aid in your attack.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Go Wide Tokens</b> Blitz by your opponent with sheer numbers. Use Mobilize tokens and Flurry rewards to build impressive battlefields.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Jeskai Flurry</b> Cast two (or more!) spells in a single turn to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Two Spells</b> Use Harmonize spells frequently in order to reap the rewards from Flurry.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Temur Harmonize</b> Cast your spells twice with help of your biggest creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Leaves the Graveyard</b> Fill up your graveyard, then use Mobilize or Renew and others to get bonuses for cards leaving your graveyard.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Sultai Renew</b> Use the power of the graveyard to make your creatures stronger.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xBG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Counters</b> Use counters of any kind, not just +1/+1 counters, to make your creatures impressive in combat.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Abzan Endure</b> Your creatures are versatile!  Outsize your opponents with +1/+1 counters or outflank them with spirit tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Sacrifice</b>Sacrifice your extra creatures, such as your temporary creatures from Horde to get extra use out of those creatures."
     },
     "Events/Event_Desc_Trad_Sealed_VOW": {
         "oracleText": "You'll receive 6 fourteen-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!",
@@ -24268,8 +24524,8 @@
         "translation": "Arena Direct - Sealed Aetherdrift Play Booster"
     },
     "Events/Event_Title_ArenaDirect_DSK_Play_Draft": {
-        "oracleText": "Arena Direct - Draft Duskmourn: House of Horror",
-        "translation": "竞技场直邮赛 - 暮悲邸：鬼屋惊魂轮抽"
+        "oracleText": "Arena Direct - Draft Duskmourn: House of Horror",
+        "translation": "Arena Direct - Draft Duskmourn: House of Horror"
     },
     "Events/Event_Title_ArenaDirect_DSK_Play_Sealed": {
         "oracleText": "Arena Direct - Sealed Duskmourn: House of Horror",
@@ -24290,6 +24546,10 @@
     "Events/Event_Title_ArenaDirect_OTJ_Sealed": {
         "oracleText": "Arena Direct - Sealed Outlaws of Thunder Junction",
         "translation": "竞技场直邮赛 - 光雷驿镖客现开"
+    },
+    "Events/Event_Title_ArenaDirect_TDM_Collector_Sealed": {
+        "oracleText": "Arena Direct - Sealed Tarkir: Dragonstorm Collector Booster",
+        "translation": "Arena Direct - Sealed Tarkir: Dragonstorm Collector Booster"
     },
     "Events/Event_Title_ArenaDirect_WOE_Sealed": {
         "oracleText": "Arena Direct - Sealed Wilds of Eldraine",
@@ -26843,6 +27103,30 @@
         "oracleText": "Sealed Strixhaven",
         "translation": "斯翠海文现开"
     },
+    "Events/Event_Title_Sealed_TDM": {
+        "oracleText": "Sealed Tarkir: Dragonstorm",
+        "translation": "Sealed Tarkir: Dragonstorm"
+    },
+    "Events/Event_Title_Sealed_TDM_Abzan": {
+        "oracleText": "Sealed Tarkir: Dragonstorm - Abzan",
+        "translation": "Sealed Tarkir: Dragonstorm - Abzan"
+    },
+    "Events/Event_Title_Sealed_TDM_Jeskai": {
+        "oracleText": "Sealed Tarkir: Dragonstorm - Jeskai",
+        "translation": "Sealed Tarkir: Dragonstorm - Jeskai"
+    },
+    "Events/Event_Title_Sealed_TDM_Mardu": {
+        "oracleText": "Sealed Tarkir: Dragonstorm - Mardu",
+        "translation": "Sealed Tarkir: Dragonstorm - Mardu"
+    },
+    "Events/Event_Title_Sealed_TDM_Sultai": {
+        "oracleText": "Sealed Tarkir: Dragonstorm - Sultai",
+        "translation": "Sealed Tarkir: Dragonstorm - Sultai"
+    },
+    "Events/Event_Title_Sealed_TDM_Temur": {
+        "oracleText": "Sealed Tarkir: Dragonstorm - Temur",
+        "translation": "Sealed Tarkir: Dragonstorm - Temur"
+    },
     "Events/Event_Title_Sealed_THB": {
         "oracleText": "Sealed Theros Beyond Death",
         "translation": "塞洛斯：冥途求生现开"
@@ -26922,6 +27206,18 @@
     "Events/Event_Title_StressTest_Constructed": {
         "oracleText": "STRESS TEST CONSTRUCTED!",
         "translation": "压力测试构筑"
+    },
+    "Events/Event_Title_TDM_Premier_Draft": {
+        "oracleText": "Premier Draft Tarkir: Dragonstorm",
+        "translation": "Premier Draft Tarkir: Dragonstorm"
+    },
+    "Events/Event_Title_TDM_Quick_Draft": {
+        "oracleText": "Quick Draft Tarkir: Dragonstorm",
+        "translation": "Quick Draft Tarkir: Dragonstorm"
+    },
+    "Events/Event_Title_TDM_Trad_Draft": {
+        "oracleText": "Traditional Draft Tarkir: Dragonstorm",
+        "translation": "Traditional Draft Tarkir: Dragonstorm"
     },
     "Events/Event_Title_THB_Comp_Draft": {
         "oracleText": "Traditional Draft <nobr>Theros Beyond Death</nobr>",
@@ -27142,6 +27438,10 @@
     "Events/Event_Title_Trad_Sealed_STX": {
         "oracleText": "Traditional Sealed Strixhaven",
         "translation": "斯翠海文三盘现开"
+    },
+    "Events/Event_Title_Trad_Sealed_TDM": {
+        "oracleText": "Traditional Sealed Tarkir: Dragonstorm",
+        "translation": "Traditional Sealed Tarkir: Dragonstorm"
     },
     "Events/Event_Title_Trad_Sealed_VOW": {
         "oracleText": "Traditional Sealed Crimson Vow",
@@ -28959,6 +29259,46 @@
         "oracleText": "Synthesized",
         "translation": "融合(Synthesized)"
     },
+    "Events/Packets/SJMP_PacketName_TDM_Abzan": {
+        "oracleText": "Abzan",
+        "translation": "Abzan"
+    },
+    "Events/Packets/SJMP_PacketName_TDM_Discard": {
+        "oracleText": "Discard",
+        "translation": "Discard"
+    },
+    "Events/Packets/SJMP_PacketName_TDM_Encounter": {
+        "oracleText": "Encounter",
+        "translation": "Encounter"
+    },
+    "Events/Packets/SJMP_PacketName_TDM_Graveyard": {
+        "oracleText": "Graveyard",
+        "translation": "Graveyard"
+    },
+    "Events/Packets/SJMP_PacketName_TDM_Jeskai": {
+        "oracleText": "Jeskai",
+        "translation": "Jeskai"
+    },
+    "Events/Packets/SJMP_PacketName_TDM_Mardu": {
+        "oracleText": "Mardu",
+        "translation": "Mardu"
+    },
+    "Events/Packets/SJMP_PacketName_TDM_Mill": {
+        "oracleText": "Mill",
+        "translation": "Mill"
+    },
+    "Events/Packets/SJMP_PacketName_TDM_Sultai": {
+        "oracleText": "Sultai",
+        "translation": "Sultai"
+    },
+    "Events/Packets/SJMP_PacketName_TDM_Temur": {
+        "oracleText": "Temur",
+        "translation": "Temur"
+    },
+    "Events/Packets/SJMP_PacketName_TDM_Tokens": {
+        "oracleText": "Tokens",
+        "translation": "Tokens"
+    },
     "Events/Packets/SJMP_PacketName_Tech": {
         "oracleText": "Tech",
         "translation": "科技(Tech)"
@@ -29575,9 +29915,9 @@
         "oracleText": "Join between 6am and 8am Pacific on April 5",
         "translation": "太平洋时间4月5日上午6点到上午8点之间加入"
     },
-    "Events/Tokens/QualifierDay1TokenDescription20250510": {
-        "oracleText": "Join between 6am and 8am Pacific on May 10",
-        "translation": "Join between 6am and 8am Pacific on May 10"
+    "Events/Tokens/QualifierDay1TokenDescription20250511": {
+        "oracleText": "Join between 6am and 8am Pacific on May 11",
+        "translation": "Join between 6am and 8am Pacific on May 11"
     },
     "Events/Tokens/QualifierDay1TokenPlural": {
         "oracleText": "Qualifier Weekend Token",
@@ -29708,8 +30048,8 @@
         "translation": "太平洋时间4月6日上午6点到上午8点之间加入"
     },
     "Events/Tokens/QualifierDay2TokenDescription20250512": {
-        "oracleText": "Join between 6am and 8am Pacific on May 11",
-        "translation": "Join between 6am and 8am Pacific on May 11"
+        "oracleText": "Join between 6am and 8am Pacific on May 12",
+        "translation": "Join between 6am and 8am Pacific on May 12"
     },
     "Events/Tokens/QualifierDay2TokenPlural": {
         "oracleText": "Qualifier Day 2",
@@ -30374,6 +30714,10 @@
     "General/Sets/STX": {
         "oracleText": "Strixhaven",
         "translation": "斯翠海文"
+    },
+    "General/Sets/TDM": {
+        "oracleText": "Tarkir: Dragonstorm",
+        "translation": "Tarkir: Dragonstorm"
     },
     "General/Sets/THB": {
         "oracleText": "Theros Beyond Death",
@@ -31267,6 +31611,10 @@
         "oracleText": "Strixhaven: School of Mages",
         "translation": "斯翠海文：魔法学校"
     },
+    "MainNav/BattlePass/BattlePass_TDM": {
+        "oracleText": "Tarkir: Dragonstorm",
+        "translation": "Tarkir: Dragonstorm"
+    },
     "MainNav/BattlePass/BattlePass_THB": {
         "oracleText": "Theros",
         "translation": "塞洛斯"
@@ -31571,6 +31919,10 @@
         "oracleText": "Outlaws of Thunder Junction Set Mastery",
         "translation": "光雷驿镖客精研通行证"
     },
+    "MainNav/BattlePass/MasteryListingTitle_TDM": {
+        "oracleText": "Tarkir: Dragonstorm Set Mastery",
+        "translation": "Tarkir: Dragonstorm Set Mastery"
+    },
     "MainNav/BattlePass/MasteryListingTitle_WOE": {
         "oracleText": "Wilds of Eldraine Set Mastery",
         "translation": "艾卓仙踪精研通行证"
@@ -31666,6 +32018,10 @@
     "MainNav/BattlePass/Mastery_Header_STX": {
         "oracleText": "Strixhaven Set Mastery Pass",
         "translation": "斯翠海文精研通行证"
+    },
+    "MainNav/BattlePass/Mastery_Header_TDM": {
+        "oracleText": "Tarkir: Dragonstorm Mastery",
+        "translation": "Tarkir: Dragonstorm Mastery"
     },
     "MainNav/BattlePass/Mastery_Header_VOW": {
         "oracleText": "Innistrad: Crimson Vow Mastery Pass",
@@ -33762,6 +34118,10 @@
     "MainNav/DeckBuilder/DeckBuilder_InvalidDeckReasons_HasInvalidCommander": {
         "oracleText": "Commander must be a legendary creature or Planeswalker.",
         "translation": "指挥官必须是传奇生物或鹏洛客。"
+    },
+    "MainNav/DeckBuilder/DeckBuilder_InvalidDeckReasons_HasInvalidPartner": {
+        "oracleText": "Second Commander must be a legendary creature or Planeswalker with the \"Partner\" ability.",
+        "translation": "Second Commander must be a legendary creature or Planeswalker with the \"Partner\" ability."
     },
     "MainNav/DeckBuilder/DeckBuilder_InvalidDeckReasons_HasNoCommanderButShould": {
         "oracleText": "Deck must have a Commander.",
@@ -37843,6 +38203,10 @@
         "oracleText": "Theros Stargazing: Thassa Sleeve",
         "translation": "塞洛斯观星：塔萨牌套"
     },
+    "MainNav/DeckBuilder/Sleeves/CardBack_TDM_452184": {
+        "oracleText": "Mardu Warrior Sleeve",
+        "translation": "Mardu Warrior Sleeve"
+    },
     "MainNav/DeckBuilder/Sleeves/CardBack_TDM_452671": {
         "oracleText": "Elspeth Sleeve",
         "translation": "艾紫培牌套"
@@ -37851,9 +38215,53 @@
         "oracleText": "Sarkhan Sleeve",
         "translation": "萨坎牌套"
     },
+    "MainNav/DeckBuilder/Sleeves/CardBack_TDM_452678": {
+        "oracleText": "Narset, Jeskai Waymaster Exquisite Sleeve",
+        "translation": "Narset, Jeskai Waymaster Exquisite Sleeve"
+    },
     "MainNav/DeckBuilder/Sleeves/CardBack_TDM_452679": {
         "oracleText": "Ugin Sleeve",
         "translation": "乌金牌套"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_TDM_452705": {
+        "oracleText": "Eerie Ultimatum Sleeve",
+        "translation": "Eerie Ultimatum Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_TDM_452706": {
+        "oracleText": "Emergent Ultimatum Sleeve",
+        "translation": "Emergent Ultimatum Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_TDM_452707": {
+        "oracleText": "Genesis Ultimatum Sleeve",
+        "translation": "Genesis Ultimatum Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_TDM_452708": {
+        "oracleText": "Inspired Ultimatum Sleeve",
+        "translation": "Inspired Ultimatum Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_TDM_452709": {
+        "oracleText": "Ruinous Ultimatum Sleeve",
+        "translation": "Ruinous Ultimatum Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_TDM_453610": {
+        "oracleText": "Neriv Sleeve",
+        "translation": "Neriv Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_TDM_453612": {
+        "oracleText": "Ureni Sleeve",
+        "translation": "Ureni Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_TDM_453614": {
+        "oracleText": "Betor Sleeve",
+        "translation": "Betor Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_TDM_453616": {
+        "oracleText": "Shiko Sleeve",
+        "translation": "Shiko Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_TDM_453618": {
+        "oracleText": "Teval Sleeve",
+        "translation": "Teval Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_THB_411834": {
         "oracleText": "Athreos Shroud Veiled Sleeve",
@@ -38743,6 +39151,10 @@
         "oracleText": "Strixhaven Constructed",
         "translation": "斯翠海文构筑"
     },
+    "MainNav/DeckFormat/TDM": {
+        "oracleText": "Tarkir: Dragonstorm Constructed",
+        "translation": "Tarkir: Dragonstorm Constructed"
+    },
     "MainNav/DeckFormat/Theros": {
         "oracleText": "Theros",
         "translation": "塞洛斯"
@@ -39451,10 +39863,6 @@
         "oracleText": "1 <i>Aetherdrift</i> Collector Booster Box",
         "translation": "1 盒<i>乙太飘移</i>聚珍补充包"
     },
-    "MainNav/EventRewards/ArenaDirect_DFT_PlayPlural": {
-        "oracleText": "{quantity} Aetherdrift Play Booster Boxes",
-        "translation": "{quantity} Aetherdrift Play Booster Boxes"
-    },
     "MainNav/EventRewards/ArenaDirect_DFT_PlaySingular": {
         "oracleText": "2 Aetherdrift Play Booster Boxes",
         "translation": "2盒乙太飘移常规补充包"
@@ -39562,6 +39970,14 @@
     "MainNav/EventRewards/ArenaDirect_OTJ_PLAYSingular": {
         "oracleText": "2 Outlaws of Thunder Junction Play Booster Boxes",
         "translation": "2盒实体光雷驿镖客常规补充包"
+    },
+    "MainNav/EventRewards/ArenaDirect_TDM_COLLECTORPlural": {
+        "oracleText": "{quantity}  <i>Tarkir: Dragonstorm</i> Collector Booster Boxes",
+        "translation": "{quantity}  <i>Tarkir: Dragonstorm</i> Collector Booster Boxes"
+    },
+    "MainNav/EventRewards/ArenaDirect_TDM_COLLECTORSingular": {
+        "oracleText": "1 <i>Tarkir: Dragonstorm</i> Collector Booster Box",
+        "translation": "1 <i>Tarkir: Dragonstorm</i> Collector Booster Box"
     },
     "MainNav/EventRewards/ArenaDirect_WOE_SETDesc": {
         "oracleText": "This token denotes that you are eligible to receive a physical Wilds of Eldraine Set Booster Box",
@@ -40938,6 +41354,22 @@
     "MainNav/EventRewards/Sticker_Summer_Kiora_Lifeguard": {
         "oracleText": "Lifeguard Kiora Sticker Emote",
         "translation": "救生员奇奥拉贴纸表情"
+    },
+    "MainNav/EventRewards/Sticker_TDM_Abzan_Ponder": {
+        "oracleText": "Abzan Ponder Sticker Emote",
+        "translation": "Abzan Ponder Sticker Emote"
+    },
+    "MainNav/EventRewards/Sticker_TDM_Jeskai_Nope": {
+        "oracleText": "Jeskai Nope Sticker Emote",
+        "translation": "Jeskai Nope Sticker Emote"
+    },
+    "MainNav/EventRewards/Sticker_TDM_Mardu_Behold": {
+        "oracleText": "Mardu Behold Sticker Emote",
+        "translation": "Mardu Behold Sticker Emote"
+    },
+    "MainNav/EventRewards/Sticker_TDM_Temur_Stone": {
+        "oracleText": "Temur Stone Sticker Emote",
+        "translation": "Temur Stone Sticker Emote"
     },
     "MainNav/EventRewards/Sticker_WOE_Agatha_Food": {
         "oracleText": "Agatha Food Sticker Emote",
@@ -42558,6 +42990,14 @@
     "MainNav/HomePage/Carousel/2025_46_20_Store_Preorders_Title": {
         "oracleText": "A Storm is Brewing!",
         "translation": "风暴正在酝酿！"
+    },
+    "MainNav/HomePage/Carousel/2025_47_10_Store_Desc": {
+        "oracleText": "Unleash your power with new Packs, Card Styles, and more in the Store!",
+        "translation": "Unleash your power with new Packs, Card Styles, and more in the Store!"
+    },
+    "MainNav/HomePage/Carousel/2025_47_10_Store_Title": {
+        "oracleText": "For the Glory of Tarkir!",
+        "translation": "For the Glory of Tarkir!"
     },
     "MainNav/HomePage/Carousel/2025_WinterSale_Desc": {
         "oracleText": "Warm up with some cool deals in the Store, available now!",
@@ -45975,6 +46415,14 @@
         "oracleText": "Tarkir™: Dragonstorm Previews!",
         "translation": "鞑契龙岚录预览！"
     },
+    "MainNav/HomePage/Carousel/TDM_SetMastery_Desc": {
+        "oracleText": "Play games and complete quests to earn Companions, Sleeves, and more from the Mastery!",
+        "translation": "Play games and complete quests to earn Companions, Sleeves, and more from the Mastery!"
+    },
+    "MainNav/HomePage/Carousel/TDM_SetMastery_Title": {
+        "oracleText": "Choose Your Clan!",
+        "translation": "Choose Your Clan!"
+    },
     "MainNav/HomePage/Carousel/THB_Sealed_Desc": {
         "oracleText": "Get a jump start on your <i>Theros Beyond Death</i> collection with six packs, plus event rewards",
         "translation": "通过六包补充包，加上活动奖励，让你的<i>塞洛斯：冥途求生</i>系列有了一个新的开始。"
@@ -47591,6 +48039,14 @@
         "oracleText": "Keep The Rubber Burning",
         "translation": "就得这么烧胎"
     },
+    "MainNav/Mailbox/2025_47_10_TDM_Announcement_Description": {
+        "oracleText": "It's time for an epic return! Take these 3 packs and some basic lands to help forge your alliances, discover new dragons, and take Tarkir by storm!",
+        "translation": "It's time for an epic return! Take these 3 packs and some basic lands to help forge your alliances, discover new dragons, and take Tarkir by storm!"
+    },
+    "MainNav/Mailbox/2025_47_10_TDM_Announcement_Title": {
+        "oracleText": "Tarkir: Dragonstorm is Here!",
+        "translation": "Tarkir: Dragonstorm is Here!"
+    },
     "MainNav/Mailbox/AnnualSatisfactionSurveyCTA_Description": {
         "oracleText": "We hope you are enjoying MTG Arena! If you have a few minutes, we would love to hear your thoughts in our feedback survey.\n\nThank you for all your help and see you in the game!",
         "translation": "希望你在MTG竞技场中玩得开心！这里有一份简短反馈问卷，如果方便的话希望能够拨冗参加，我们热切期盼能够听到牌手心声。\n\n感谢你的帮助，游戏中见！"
@@ -48483,6 +48939,14 @@
         "oracleText": "Excited to play Tarkir™: Dragonstorm in MTG Arena? So are our streamers!",
         "translation": "已经迫不及待地想在MTGA中玩上鞑契龙岚录了吗？主播们也是如此！"
     },
+    "MainNav/Mailbox/TDM_FastFollow_PatchNotes_Title": {
+        "oracleText": "2025.47.10 Patch Notes Are Here!",
+        "translation": "2025.47.10 Patch Notes Are Here!"
+    },
+    "MainNav/Mailbox/TDM_PatchNotes_Title": {
+        "oracleText": "2025.47.0 Patch Notes Are Here!",
+        "translation": "2025.47.0 Patch Notes Are Here!"
+    },
     "MainNav/Mailbox/Targeted_Login_Grant_Description": {
         "oracleText": "Oh no! Goblins got into our servers and made a mess. Everything is cleaned up now and the goblins are all wrangled. They wanted you to have this as a way of showing their appreciation for sticking with us as we clean up the dust.\n\n(Unclaimed items will be automatically claimed upon message expiration.)",
         "translation": "不好了！鬼怪侵入了我们的服务器并造成了混乱。现在一切都被清理干净了，鬼怪们也都被吓跑了。希望你能收下这个礼物，以表达对你在我们清理灰尘的过程中与我们并肩作战的感激之情。\n\n（无人认领的物品将在消息过期后自动认领。）"
@@ -48614,6 +49078,14 @@
     "MainNav/Mailbox/WPN_LTR_NewPlayerEvent_Title": {
         "oracleText": "You are Cordially Invited to a Party of Great Importance",
         "translation": "诚挚邀请您参加一场盛大派对"
+    },
+    "MainNav/Mailbox/WPN_PreRelease_PackRewards_Description": {
+        "oracleText": "We hope you had fun at the Prerelease and will join us again. We're excited for you to continue the fun here on MTG Arena in the meantime. Here are some packs to kick off even more great games!\n\n*Unclaimed items will be automatically granted upon message expiration",
+        "translation": "We hope you had fun at the Prerelease and will join us again. We're excited for you to continue the fun here on MTG Arena in the meantime. Here are some packs to kick off even more great games!\n\n*Unclaimed items will be automatically granted upon message expiration"
+    },
+    "MainNav/Mailbox/WPN_PreRelease_PackRewards_Title": {
+        "oracleText": "Thank you for playing at a Magic: The Gathering Prerelease!",
+        "translation": "Thank you for playing at a Magic: The Gathering Prerelease!"
     },
     "MainNav/Mailbox/WPN_Reward_Generic_Title": {
         "oracleText": "Your WPN Event Rewards",
@@ -49567,9 +50039,45 @@
         "oracleText": "Beach Ball",
         "translation": "沙滩球"
     },
+    "MainNav/PetNames/TDM_Mastery_1": {
+        "oracleText": "Jeskai Statuette",
+        "translation": "Jeskai Statuette"
+    },
+    "MainNav/PetNames/TDM_Mastery_2": {
+        "oracleText": "Mardu Statuette",
+        "translation": "Mardu Statuette"
+    },
+    "MainNav/PetNames/TDM_Mastery_3": {
+        "oracleText": "Temur Statuette",
+        "translation": "Temur Statuette"
+    },
+    "MainNav/PetNames/TDM_Mastery_4": {
+        "oracleText": "Sultai Statuette",
+        "translation": "Sultai Statuette"
+    },
+    "MainNav/PetNames/TDM_Mastery_Companion_1": {
+        "oracleText": "Jeskai Statuette",
+        "translation": "Jeskai Statuette"
+    },
+    "MainNav/PetNames/TDM_Mastery_Companion_2": {
+        "oracleText": "Mardu Statuette",
+        "translation": "Mardu Statuette"
+    },
+    "MainNav/PetNames/TDM_Mastery_Companion_3": {
+        "oracleText": "Temur Statuette",
+        "translation": "Temur Statuette"
+    },
+    "MainNav/PetNames/TDM_Mastery_Companion_4": {
+        "oracleText": "Sultai Statuette",
+        "translation": "Sultai Statuette"
+    },
     "MainNav/PetNames/TDM_Preorder_1": {
         "oracleText": "Abzan Statuette",
         "translation": "阿布赞雕像"
+    },
+    "MainNav/PetNames/TDM_Preorder_Companion_1": {
+        "oracleText": "Abzan Statuette",
+        "translation": "Abzan Statuette"
     },
     "MainNav/PetNames/THB_BattlePass": {
         "oracleText": "Nyx Owl",
@@ -50259,6 +50767,10 @@
         "oracleText": "Psychic Frog's Horizon Hideaway",
         "translation": "灵能蛙的新篇藏身处"
     },
+    "MainNav/PrizeWall/Hideaway_Header_TDM": {
+        "oracleText": "Tarkir: Dragonstorm Mastery Emporium",
+        "translation": "Tarkir: Dragonstorm Mastery Emporium"
+    },
     "MainNav/ProdcutContent/ProductContent_Back_Text": {
         "oracleText": "BACK",
         "translation": "返回"
@@ -50651,6 +51163,14 @@
         "oracleText": "Elspeth Resplendent",
         "translation": "华辉艾紫培"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_Elspeth_TDM_Bio": {
+        "oracleText": "Planeswalker and archangel, Elspeth Tirel has partnered with Narset to end the dragonstorms throughout Tarkir and the Multiverse, averting further catastrophe. Internally, Elspeth is adjusting to her rebirth as an angelic avatar—in gaining her new form, a part of her humanity was lost.",
+        "translation": "Planeswalker and archangel, Elspeth Tirel has partnered with Narset to end the dragonstorms throughout Tarkir and the Multiverse, averting further catastrophe. Internally, Elspeth is adjusting to her rebirth as an angelic avatar—in gaining her new form, a part of her humanity was lost."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Elspeth_TDM_Name": {
+        "oracleText": "Elspeth, Storm Slayer",
+        "translation": "Elspeth, Storm Slayer"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_Elspeth_THB_Bio": {
         "oracleText": "Elspeth fights for a single core principle: freedom for all. Struck down into the Underworld by a jealous god, she must find a way back to the land of the living—or stay dead trying.",
         "translation": "艾紫培为一个核心原则而战：所有人的自由。她被嫉妒的神明击落到冥界，她必须找到返回活人之地的方法——否则就死定了。"
@@ -50666,6 +51186,14 @@
     "MainNav/Profile/Avatars/Avatar_Basic_Eowyn_LTR_Name": {
         "oracleText": "Éowyn",
         "translation": "伊奥温"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Eshki_TDM_Bio": {
+        "oracleText": "After proving her prowess in a duel, Eshki took up the mantle of Dragonclaw and led the fledgling Temur into their new era. Ureni, spirit dragon of wisdom, provides council and guidance while also being fiercely protective of the Temur and their lands.",
+        "translation": "After proving her prowess in a duel, Eshki took up the mantle of Dragonclaw and led the fledgling Temur into their new era. Ureni, spirit dragon of wisdom, provides council and guidance while also being fiercely protective of the Temur and their lands."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Eshki_TDM_Name": {
+        "oracleText": "Eshki and Ureni",
+        "translation": "Eshki and Ureni"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Eternal_Soldier_Bio": {
         "oracleText": "After death, the warriors of Amonkhet that passed the trials of Gods become part of Bolas's lethal undead fighting force, the Dreadhorde. Embalmed in layers of lazotep to preserve their lifeforce, they lack emotions, hesitation, and disloyalty.",
@@ -50706,6 +51234,14 @@
     "MainNav/Profile/Avatars/Avatar_Basic_Fblthp_OpenBeta_Name": {
         "oracleText": "Fblthp",
         "translation": "夫毕佐"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Felothar_TDM_Bio": {
+        "oracleText": "After encountering an ancestral spirit, Felothar spearheaded her people's rebellion, defeating a dragonlord and becoming the Abzan khan. When the dragon Betor was first summoned, the lost spirits of the Abzan coalesced into their being. They are a manifestation of loyalty, endurance, and independence.",
+        "translation": "After encountering an ancestral spirit, Felothar spearheaded her people's rebellion, defeating a dragonlord and becoming the Abzan khan. When the dragon Betor was first summoned, the lost spirits of the Abzan coalesced into their being. They are a manifestation of loyalty, endurance, and independence."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Felothar_TDM_Name": {
+        "oracleText": "Felothar and Betor",
+        "translation": "Felothar and Betor"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Finneas_BLB_Bio": {
         "oracleText": "If crackshot archer Finneas ever misses a shot, he's only off by a hare. He's a consecutive-year winner of his village's archery contest and takes pride in his skill, but for this adventure, he may be in over his head.",
@@ -51015,6 +51551,14 @@
         "oracleText": "Koth, Fire of Resistance",
         "translation": "志士烈火寇斯"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_Kotis_TDM_Bio": {
+        "oracleText": "Not even death could stop Kotis from serving the Sultai, who revived him as the clan's undead Fangkeeper. The spirit dragon Teval is pragmatic and brutally honest—her primary role is not to lead the Sultai but to arbitrate the clan, monitoring the Fangkeeper's power.",
+        "translation": "Not even death could stop Kotis from serving the Sultai, who revived him as the clan's undead Fangkeeper. The spirit dragon Teval is pragmatic and brutally honest—her primary role is not to lead the Sultai but to arbitrate the clan, monitoring the Fangkeeper's power."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Kotis_TDM_Name": {
+        "oracleText": "Kotis and Teval",
+        "translation": "Kotis and Teval"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_Laezel_HBG_Bio": {
         "oracleText": "Lae'zel is a consummate warrior, ferocious even by the standards of the githyanki. Faced with transforming into the very monster she has sworn to destroy, Lae'zel must prove herself worthy of rejoining her people - if they do not execute her first.",
         "translation": "莱埃泽尔是技艺高超的斗士，即使以一个吉斯洋基养育所的标准来看也非寻常。面临即将转变为自己发誓要消灭的怪物，她必须向自己的同胞证明自己还有作用——如果他们饶她一命的话。"
@@ -51126,6 +51670,22 @@
     "MainNav/Profile/Avatars/Avatar_Basic_Nahiri_ZNR_Name": {
         "oracleText": "Nahiri, Heir of the Ancients",
         "translation": "先民后裔娜希丽"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Narset_Shiko_TDM_Bio": {
+        "oracleText": "Back in her home of Tarkir, the former planeswalker Narset leads the Jeskai, seeking to unite the plane and stop the dragonstorms plaguing the Multiverse. Fighting beside her is the recently summoned spirit dragon, Shiko.",
+        "translation": "Back in her home of Tarkir, the former planeswalker Narset leads the Jeskai, seeking to unite the plane and stop the dragonstorms plaguing the Multiverse. Fighting beside her is the recently summoned spirit dragon, Shiko."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Narset_Shiko_TDM_Name": {
+        "oracleText": "Narset and Shiko",
+        "translation": "Narset and Shiko"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Narset_TDM_Bio": {
+        "oracleText": "After the Phyrexian assault and the loss of her spark, Narset traveled Tarkir, uncovering powerful secrets thought lost to time. Using that power to defeat the tyrannical dragonlords, Narset was appointed Waymaster of the Jeskai and hopes to guide Tarkir toward a better future.",
+        "translation": "After the Phyrexian assault and the loss of her spark, Narset traveled Tarkir, uncovering powerful secrets thought lost to time. Using that power to defeat the tyrannical dragonlords, Narset was appointed Waymaster of the Jeskai and hopes to guide Tarkir toward a better future."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Narset_TDM_Name": {
+        "oracleText": "Narset, Jeskai Waymaster",
+        "translation": "Narset, Jeskai Waymaster"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Nashi_MOM_Bio": {
         "oracleText": "Nashi witnessed in horror as his adoptive mother, Tamiyo, fell to Phyrexian <i>compleation</i>. Tamiyo was killed during the invasion, but an echo of her former self—preserved through her scroll magic—arose to comfort her grieving son. Nashi resolved to continue his mother's legacy as a story-seeker, with the aid of Tamiyo's guiding wisdom.",
@@ -51334,6 +51894,14 @@
     "MainNav/Profile/Avatars/Avatar_Basic_Sarkhan_J21_Name": {
         "oracleText": "Sarkhan",
         "translation": "萨坎"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Sarkhan_TDM_Bio": {
+        "oracleText": "The loss of Sarkhan's spark after the Phyrexian invasion significantly weakened him, and the subsequent fall of the dragonlords has him questioning his place in the Multiverse. Sarkhan believes the dragons of Tarkir are the rightful authority, and he seeks to restore their former glory.",
+        "translation": "The loss of Sarkhan's spark after the Phyrexian invasion significantly weakened him, and the subsequent fall of the dragonlords has him questioning his place in the Multiverse. Sarkhan believes the dragons of Tarkir are the rightful authority, and he seeks to restore their former glory."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Sarkhan_TDM_Name": {
+        "oracleText": "Sarkhan, Dragon Ascendant",
+        "translation": "Sarkhan, Dragon Ascendant"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Serra_MH1_Bio": {
         "oracleText": "A human Planeswalker from the distant past, Serra was a powerful and benevolent healer. She created an artificial plane known as Serra's Realm, where she and her followers lived in peace defended by flights of angels. Though Serra and her realm are long gone, her legacy and teachings have lived on as a beacon of hope throughout the Multiverse.",
@@ -51567,6 +52135,14 @@
         "oracleText": "Ugin, the Spirit Dragon",
         "translation": "灵龙乌金"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_Ugin_TDM_Bio": {
+        "oracleText": "Ugin, twin of Nicol Bolas, aims to balance power rather than accrue it for himself. As a spirit dragon, his energy creates a resonance with Tarkir's dragonstorms. His primary goal is to keep his brother imprisoned in the Meditation Realm, even at Tarkir's expense.",
+        "translation": "Ugin, twin of Nicol Bolas, aims to balance power rather than accrue it for himself. As a spirit dragon, his energy creates a resonance with Tarkir's dragonstorms. His primary goal is to keep his brother imprisoned in the Meditation Realm, even at Tarkir's expense."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Ugin_TDM_Name": {
+        "oracleText": "Ugin, Eye of Storms",
+        "translation": "Ugin, Eye of Storms"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_Ugluk_LTR_Bio": {
         "oracleText": "Uglúk, a fearsome captain of the Uruk-hai, leads the war party that slew Boromir at Amon Hen and attempts to take the Hobbits Pippin and Merry to Isengard. Near Fangorn Forest, the Rohirrim attack the Uruk-hai, killing Uglúk and freeing the Hobbits.",
         "translation": "乌格鲁克是乌鲁克族的可怕队长，他领导的战争党在阿蒙汉山脉杀死了博罗米尔，并试图将霍比特人皮平和梅里带到艾森加德。 在范贡森林附近，洛希尔人袭击了乌鲁克族，杀死了乌格鲁克并释放了霍比特人。"
@@ -51782,6 +52358,14 @@
     "MainNav/Profile/Avatars/Avatar_Basic_Zoraline_BLB_Name": {
         "oracleText": "Zoraline",
         "translation": "佐拉琳"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Zurgo_TDM_Bio": {
+        "oracleText": "The orc warrior known as Zurgo Bellstriker rebelled against his dragonlord. Renamed Zurgo Stormrender, he leads the new Mardu to victory. The spirit dragon Neriv is the clan's vanguard, guiding them across the steppe. He flies into battle with passion, ferocity, and lightning breath.",
+        "translation": "The orc warrior known as Zurgo Bellstriker rebelled against his dragonlord. Renamed Zurgo Stormrender, he leads the new Mardu to victory. The spirit dragon Neriv is the clan's vanguard, guiding them across the steppe. He flies into battle with passion, ferocity, and lightning breath."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Zurgo_TDM_Name": {
+        "oracleText": "Zurgo and Neriv",
+        "translation": "Zurgo and Neriv"
     },
     "MainNav/Profile/Avatars/Basri_M21_Bio": {
         "oracleText": "For most of his life, Basri Ket was utterly devoted to Oketra, god of loyalty and solidarity. When she was slain in the Hour of Devastation, his world was shattered. But rather than let it break him, he took up one of her massive arrows as a spear and vowed to champion her ideals across the Multiverse.",
@@ -55179,6 +55763,14 @@
         "oracleText": "One Time Purchase - Alchemist Bundle",
         "translation": "限购一次～炼金套装"
     },
+    "MainNav/Store/Bundles/Bundle_Alchemist_TDM_Desc": {
+        "oracleText": "20x <i>Alchemy: Tarkir</i> Boosters",
+        "translation": "20x <i>Alchemy: Tarkir</i> Boosters"
+    },
+    "MainNav/Store/Bundles/Bundle_Alchemist_TDM_Name": {
+        "oracleText": "Alchemist Bundle",
+        "translation": "Alchemist Bundle"
+    },
     "MainNav/Store/Bundles/Bundle_Alchemist_WOE_Desc": {
         "oracleText": "20x Alchemy: Eldraine Boosters",
         "translation": "20包 炼金：艾卓补充包"
@@ -56524,52 +57116,52 @@
         "translation": "史迹合集6"
     },
     "MainNav/Store/Bundles/Bundle_HA6_Styles1_Desc": {
-        "oracleText": "Slaughter Games Card Style\nAlesha, Who Smiles at Death Card Style\nSearing Blood Card Style\nTemur Battle Rage Card Style\nTitan's Strength Card Style\nFavored Hoplite Card Style \nSiege Rhino Card Style\nBattlewise Hoplite Card Style",
-        "translation": "*屠杀游戏*卡牌样式\n*蔑死者阿列莎*卡牌样式\n*炙热鲜血*卡牌样式\n*铁木尔战怒*卡牌样式\n*泰坦之力*卡牌样式\n*眷宠重装步兵*卡牌样式\n*攻城犀牛*卡牌样式\n*善战重装步兵*卡牌样式"
+        "oracleText": "Slaughter Games Card Style\nAlesha, Who Smiles at Death Card Style\nSearing Blood Card Style\nTemur Battle Rage Card Style\nTitan's Strength Card Style\nFavored Hoplite Card Style\nSiege Rhino Card Style\nBattlewise Hoplite Card Style",
+        "translation": "Slaughter Games Card Style\nAlesha, Who Smiles at Death Card Style\nSearing Blood Card Style\nTemur Battle Rage Card Style\nTitan's Strength Card Style\nFavored Hoplite Card Style\nSiege Rhino Card Style\nBattlewise Hoplite Card Style"
     },
     "MainNav/Store/Bundles/Bundle_HA6_Styles1_Name": {
-        "oracleText": "Built for Battle",
-        "translation": "造为战斗"
+        "oracleText": "Explorer Styles: Build for Battle",
+        "translation": "Explorer Styles: Build for Battle"
     },
     "MainNav/Store/Bundles/Bundle_HA6_Styles2_Desc": {
-        "oracleText": "Back to Nature Card Style \nTireless Tracker Card Style\nTainted Remedy Card Style\nElvish Mystic Card Style\nKalitas, Traitor of Ghet Card Style\nShadowborn Apostle Card Style",
-        "translation": "*归返自然*卡牌样式\n*不倦追迹人*卡牌样式\n*染毒疗法*卡牌样式\n*妖精秘教徒*卡牌样式\n*劫特叛徒卡力塔*卡牌样式\n*影裔宗徒*卡牌样式"
+        "oracleText": "Back to Nature Card Style\nTireless Tracker Card Style\nTainted Remedy Card Style\nElvish Mystic Card Style \nKalitas, Traitor of Ghet Card Style\nShadowborn Apostle Card Style",
+        "translation": "Back to Nature Card Style\nTireless Tracker Card Style\nTainted Remedy Card Style\nElvish Mystic Card Style \nKalitas, Traitor of Ghet Card Style\nShadowborn Apostle Card Style"
     },
     "MainNav/Store/Bundles/Bundle_HA6_Styles2_Name": {
-        "oracleText": "Fang and Claw",
-        "translation": "牙和爪"
+        "oracleText": "Explorer Styles: Fang and Claw",
+        "translation": "Explorer Styles: Fang and Claw"
     },
     "MainNav/Store/Bundles/Bundle_HA6_Styles3_Desc": {
         "oracleText": "Supreme Verdict Card Style\nMausoleum Wanderer Card Style\nDarksteel Citadel Card Style\nEnsoul Artifact Card Style\nHangarback Walker Card Style\nRally the Ancestors Card Style",
         "translation": "*最高裁决*卡牌样式\n*陵墓游灵*卡牌样式\n*玄铁殿堂*卡牌样式\n*神器缄灵*卡牌样式\n*行走机库*卡牌样式\n*集结先祖*卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_HA6_Styles3_Name": {
-        "oracleText": "Ghosts in the Machine",
-        "translation": "机器中的幽灵"
+        "oracleText": "Explorer Styles: Ghosts in the Machine",
+        "translation": "Explorer Styles: Ghosts in the Machine"
     },
     "MainNav/Store/Bundles/Bundle_HA6_Styles4_Desc": {
         "oracleText": "Go-Shintai of Life's Origin Card Style\nTarmogoyf Card Style\nAvacyn, Angel of Hope Card Style\nLaelia, the Blade Reforged Card Style\nRetrofitter Foundry Card Style",
         "translation": "*命源御神体*卡牌样式\n*塔莫耶夫*卡牌样式\n*希望天使艾维欣*卡牌样式\n*重铸利锋拉耶梨*卡牌样式\n*改良式锻炉*卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_HA6_Styles4_Name": {
-        "oracleText": "Spark of Creation",
-        "translation": "创造的火花"
+        "oracleText": "Historic Styles: Spark of Creation",
+        "translation": "Historic Styles: Spark of Creation"
     },
     "MainNav/Store/Bundles/Bundle_HA6_Styles5_Desc": {
         "oracleText": "Night of Souls' Betrayal Card Style\nOphiomancer Card Style\nChalice of the Void Card Style\nPhyrexian Metamorph Card Style\nGlimpse the Unthinkable Card Style",
         "translation": "*叛魂之夜*卡牌样式\n*蛇术师*卡牌样式\n*虚空圣杯*卡牌样式\n*非瑞克西亚蜕变妖*卡牌样式\n*瞥视恶念*卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_HA6_Styles5_Name": {
-        "oracleText": "Deadly Shadows",
-        "translation": "致命阴影"
+        "oracleText": "Historic Styles: Deadly Shadows",
+        "translation": "Historic Styles: Deadly Shadows"
     },
     "MainNav/Store/Bundles/Bundle_HA6_Styles6_Desc": {
         "oracleText": "Rustvale Bridge Card Style\nSilverbluff Bridge Card Style\nSlagwoods Bridge Card Style\nTanglepool Bridge Card Style\nThornglint Bridge Card Style\nDarkmoss Bridge Card Style\nDrossforge Bridge Card Style\nGoldmire Bridge Card Style\nMistvault Bridge Card Style\nRazortide Bridge Card Style",
         "translation": "*锈谷结桥*卡牌样式\n*银崖结桥*卡牌样式\n*熔林结桥*卡牌样式\n*铜池结桥*卡牌样式\n*荆烁结桥*卡牌样式\n*暗苔结桥*卡牌样式\n*蔓炉结桥*卡牌样式\n*金沼结桥*卡牌样式\n*雾窖结桥*卡牌样式\n*锐潮结桥*卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_HA6_Styles6_Name": {
-        "oracleText": "Bridge to Beyond",
-        "translation": "超越之桥"
+        "oracleText": "Historic Styles: Bridges to Beyond",
+        "translation": "Historic Styles: Bridges to Beyond"
     },
     "MainNav/Store/Bundles/Bundle_HA7_DA1_Desc": {
         "oracleText": "Frost Titan Card Style\nGrave Titan Card Style\nInferno Titan Card Style\nPrimeval Titan Card Style\nSun Titan Card Style\nTooth and Nail Card Style",
@@ -58303,6 +58895,14 @@
         "oracleText": "Secret Lair: Dogs Are Better Than Cats",
         "translation": "秘室珍品：狗比猫好"
     },
+    "MainNav/Store/Bundles/Bundle_SLD_FFCute_Dragonlords_Desc": {
+        "oracleText": "Dragonlord Atarka (2 Card Styles)\nDragonlord Dromoka (2 Card Styles)\nDragonlord Kolaghan (2 Card Styles)\nDragonlord Ojutai (2 Card Styles)\nDragonlord Silumgar (2 Card Styles)",
+        "translation": "Dragonlord Atarka (2 Card Styles)\nDragonlord Dromoka (2 Card Styles)\nDragonlord Kolaghan (2 Card Styles)\nDragonlord Ojutai (2 Card Styles)\nDragonlord Silumgar (2 Card Styles)"
+    },
+    "MainNav/Store/Bundles/Bundle_SLD_FFCute_Dragonlords_Name": {
+        "oracleText": "Secret Lair: They Grow Up So Fast",
+        "translation": "Secret Lair: They Grow Up So Fast"
+    },
     "MainNav/Store/Bundles/Bundle_SLD_JulieBell_Desc": {
         "oracleText": "Soul Warden Sleeve\nShivan Dragon Sleeve\nElves of Deep Shadow Sleeve\nGood-Fortune Unicorn Sleeve\nCoat of Arms Sleeve",
         "translation": "护灵师牌套\n西瓦巨龙牌套\n深黯地精牌套\n好运独角兽牌套\n武装外衣牌套"
@@ -58806,6 +59406,130 @@
     "MainNav/Store/Bundles/Bundle_SuperEnchanted_Name": {
         "oracleText": "Enchanted Super Bundle",
         "translation": "结附超级套装"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_Clans_Desc": {
+        "oracleText": "All-Out Assault Card Style\nBetor, Kin to All Card Style\nDeath Begets Life Card Style\nDragonback Assault Card Style\nJeskai Revelation Card Style\nNeriv, Heart of the Storm Card Style\nPerennation Card Style\nShiko, Paragon of the Way Card Style\nTeval, Arbiter of Virtue Card Style\nUreni, the Song Unending Card Style",
+        "translation": "All-Out Assault Card Style\nBetor, Kin to All Card Style\nDeath Begets Life Card Style\nDragonback Assault Card Style\nJeskai Revelation Card Style\nNeriv, Heart of the Storm Card Style\nPerennation Card Style\nShiko, Paragon of the Way Card Style\nTeval, Arbiter of Virtue Card Style\nUreni, the Song Unending Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_Clans_Name": {
+        "oracleText": "Showcase Clans",
+        "translation": "Showcase Clans"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_Companion_Name": {
+        "oracleText": "Companion Bundle",
+        "translation": "Companion Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_Dragons_Desc": {
+        "oracleText": "Betor, Kin to All Card Style\nCall the Spirit Dragons Card Style\nDracogenesis Card Style\nMox Jasper Card Style\nNeriv, Heart of the Storm Card Style\nShiko, Paragon of the Way Card Style\nStormscale Scion Card Style\nTeval, Arbiter of Virtue Card Style\nUreni, the Song Unending Card Style",
+        "translation": "Betor, Kin to All Card Style\nCall the Spirit Dragons Card Style\nDracogenesis Card Style\nMox Jasper Card Style\nNeriv, Heart of the Storm Card Style\nShiko, Paragon of the Way Card Style\nStormscale Scion Card Style\nTeval, Arbiter of Virtue Card Style\nUreni, the Song Unending Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_Dragons_Name": {
+        "oracleText": "Showcase Dragons",
+        "translation": "Showcase Dragons"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_Eshki_Desc": {
+        "oracleText": "Eshki and Ureni Avatar\nUreni Sleeve",
+        "translation": "Eshki and Ureni Avatar\nUreni Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_Eshki_Name": {
+        "oracleText": "Eshki and Ureni Bundle",
+        "translation": "Eshki and Ureni Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_FFCute_Desc": {
+        "oracleText": "Bloomvine Regent (2 Card Styles)\nClarion Conqueror (2 Card Styles)\nMagmatic Hellkite (2 Card Styles)\nMarang River Regent (2 Card Styles)\nScavenger Regent (2 Card Styles)\nUgin, Eye of the Storms (2 Card Styles)",
+        "translation": "Bloomvine Regent (2 Card Styles)\nClarion Conqueror (2 Card Styles)\nMagmatic Hellkite (2 Card Styles)\nMarang River Regent (2 Card Styles)\nScavenger Regent (2 Card Styles)\nUgin, Eye of the Storms (2 Card Styles)"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_FFCute_Name": {
+        "oracleText": "Borderless Dragons",
+        "translation": "Borderless Dragons"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_FFLands_Desc": {
+        "oracleText": "Cori Mountain Monastery Card Style\nDalkovan Encampment Card Style\nGreat Arashin City Card Style\nKishla Village Card Style\nMistrise Village Card Style",
+        "translation": "Cori Mountain Monastery Card Style\nDalkovan Encampment Card Style\nGreat Arashin City Card Style\nKishla Village Card Style\nMistrise Village Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_FFLands_Name": {
+        "oracleText": "Borderless Lands",
+        "translation": "Borderless Lands"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_FFSagas_Desc": {
+        "oracleText": "Awaken the Honored Dead Card Style\nRediscover the Way Card Style\nRevival of the Ancestors Card Style\nRoar of Endless Song Card Style\nThunder of Unity Card Style",
+        "translation": "Awaken the Honored Dead Card Style\nRediscover the Way Card Style\nRevival of the Ancestors Card Style\nRoar of Endless Song Card Style\nThunder of Unity Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_FFSagas_Name": {
+        "oracleText": "Borderless Sagas",
+        "translation": "Borderless Sagas"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_FFSieges_Desc": {
+        "oracleText": "Barrensteppe Siege Card Style\nFrostcliff Siege Card Style\nGlacierwood Siege Card Style\nHollowmurk Siege Card Style\nWindcrag Siege Card Style",
+        "translation": "Barrensteppe Siege Card Style\nFrostcliff Siege Card Style\nGlacierwood Siege Card Style\nHollowmurk Siege Card Style\nWindcrag Siege Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_FFSieges_Name": {
+        "oracleText": "Borderless Sieges",
+        "translation": "Borderless Sieges"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_Felothar_Desc": {
+        "oracleText": "Felothar and Betor Avatar\nBetor Sleeve",
+        "translation": "Felothar and Betor Avatar\nBetor Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_Felothar_Name": {
+        "oracleText": "Felothar and Betor Bundle",
+        "translation": "Felothar and Betor Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_Kotis_Desc": {
+        "oracleText": "Kotis and Teval Avatar\nTeval Sleeve",
+        "translation": "Kotis and Teval Avatar\nTeval Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_Kotis_Name": {
+        "oracleText": "Kotis and Teval Bundle",
+        "translation": "Kotis and Teval Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_Lands1_Desc": {
+        "oracleText": "Full Art Land Plains\nFull Art Land Island\nFull Art Land Swamp\nFull Art Land Mountain\nFull Art Land Forest",
+        "translation": "Full Art Land Plains\nFull Art Land Island\nFull Art Land Swamp\nFull Art Land Mountain\nFull Art Land Forest"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_Lands1_Name": {
+        "oracleText": "Full Art Basic Lands",
+        "translation": "Full Art Basic Lands"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_Lands2_Desc": {
+        "oracleText": "Full Art Land Plains\nFull Art Land Island\nFull Art Land Swamp\nFull Art Land Mountain\nFull Art Land Forest",
+        "translation": "Full Art Land Plains\nFull Art Land Island\nFull Art Land Swamp\nFull Art Land Mountain\nFull Art Land Forest"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_Lands2_Name": {
+        "oracleText": "Full Art Basic Lands",
+        "translation": "Full Art Basic Lands"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_NarsetShiko_Desc": {
+        "oracleText": "Narset and Shiko Avatar\nShiko Sleeve",
+        "translation": "Narset and Shiko Avatar\nShiko Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_NarsetShiko_Name": {
+        "oracleText": "Narset and Shiko Bundle",
+        "translation": "Narset and Shiko Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_Phrases_Desc": {
+        "oracleText": "Abzan Glory Phrase Emote\nJeskai Glory Phrase Emote\nSultai Glory Phrase Emote\nMardu Glory Phrase Emote\nTemur Glory Phrase Emote\nRelease the Rhinos Phrase Emote",
+        "translation": "Abzan Glory Phrase Emote\nJeskai Glory Phrase Emote\nSultai Glory Phrase Emote\nMardu Glory Phrase Emote\nTemur Glory Phrase Emote\nRelease the Rhinos Phrase Emote"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_Phrases_Name": {
+        "oracleText": "Phrase Emotes",
+        "translation": "Phrase Emotes"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_Stickers_Desc": {
+        "oracleText": "Jeskai Nope Sticker Emote\nAbzan Ponder Sticker Emote\nMardu Behold Sticker Emote\nTemur Stone Sticker Emote",
+        "translation": "Jeskai Nope Sticker Emote\nAbzan Ponder Sticker Emote\nMardu Behold Sticker Emote\nTemur Stone Sticker Emote"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_Stickers_Name": {
+        "oracleText": "Sticker Emotes",
+        "translation": "Sticker Emotes"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_Zurgo_Desc": {
+        "oracleText": "Zurgo and Neriv Avatar\nNeriv Sleeve",
+        "translation": "Zurgo and Neriv Avatar\nNeriv Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_Zurgo_Name": {
+        "oracleText": "Zurgo and Neriv Bundle",
+        "translation": "Zurgo and Neriv Bundle"
     },
     "MainNav/Store/Bundles/Bundle_THB_BeyondTheGrave_Desc": {
         "oracleText": "Aphemia, the Cacophony Card Style\nGravebreaker Lamia Card Style\nMire Triton Card Style",
@@ -63475,9 +64199,53 @@
         "oracleText": "Spells that deal damage to \"any target\" can target planeswalkers and reduce their loyalty just as easily as they damage a creature or player.",
         "translation": "能对「任意一个目标」造成伤害的咒语可以指定鹏洛客为目标。这样会降低鹏洛客的忠诚度，跟对生物和牌手造成伤害类似。"
     },
+    "Match/QueueTips/Queue_Tip_280_TDM_SetCode": {
+        "oracleText": "To show only cards from Tarkir: Dragonstorm in the deckbuilder, type \"set:TDM\" into the search bar. Each set has a unique 3-letter-code.",
+        "translation": "To show only cards from Tarkir: Dragonstorm in the deckbuilder, type \"set:TDM\" into the search bar. Each set has a unique 3-letter-code."
+    },
+    "Match/QueueTips/Queue_Tip_281_TDM_Abzan": {
+        "oracleText": "The Abzan are stalwart warriors who have strong familial bonds that allow them to summon their ancestors' spirits to defend, empower, and guide them.",
+        "translation": "The Abzan are stalwart warriors who have strong familial bonds that allow them to summon their ancestors' spirits to defend, empower, and guide them."
+    },
+    "Match/QueueTips/Queue_Tip_282_TDM_Jeskai": {
+        "oracleText": "The Jeskai are led by monk practitioners who study the Way. They seek unity of thought and consider it their duty to guide Tarkir into a better future.",
+        "translation": "The Jeskai are led by monk practitioners who study the Way. They seek unity of thought and consider it their duty to guide Tarkir into a better future."
+    },
+    "Match/QueueTips/Queue_Tip_283_TDM_Sultai": {
+        "oracleText": "The Sultai are necromancers and agriculturalists. They are expert cultivators, using their talents to renew the earth and raise the dead to help lead and serve their clan.",
+        "translation": "The Sultai are necromancers and agriculturalists. They are expert cultivators, using their talents to renew the earth and raise the dead to help lead and serve their clan."
+    },
+    "Match/QueueTips/Queue_Tip_284_TDM_Mardu": {
+        "oracleText": "The Mardu are nomadic warriors who defend and expand their territory through their superior agility, expert tactics, and advanced technology.",
+        "translation": "The Mardu are nomadic warriors who defend and expand their territory through their superior agility, expert tactics, and advanced technology."
+    },
+    "Match/QueueTips/Queue_Tip_285_TDM_Temur": {
+        "oracleText": "The Temur are a semi-nomadic clan who are expert hunters, gatherers, and herders. They work alongside animal companions, with whom they form tight-knit bonds.",
+        "translation": "The Temur are a semi-nomadic clan who are expert hunters, gatherers, and herders. They work alongside animal companions, with whom they form tight-knit bonds."
+    },
+    "Match/QueueTips/Queue_Tip_286_TDM_Betor": {
+        "oracleText": "The dragon Betor is a manifestation of all the lost and drifting Abzan spirits. They view themselves as a collective consciousness, serving as a link between the living and the dead.",
+        "translation": "The dragon Betor is a manifestation of all the lost and drifting Abzan spirits. They view themselves as a collective consciousness, serving as a link between the living and the dead."
+    },
+    "Match/QueueTips/Queue_Tip_287_TDM_Shiko": {
+        "oracleText": "The dragon Shiko is constantly watching over the Jeskai and helping them work towards a unified Tarkir. In her efforts to remain impartial, she observes from all sides before offering guidance.",
+        "translation": "The dragon Shiko is constantly watching over the Jeskai and helping them work towards a unified Tarkir. In her efforts to remain impartial, she observes from all sides before offering guidance."
+    },
+    "Match/QueueTips/Queue_Tip_288_TDM_Teval": {
+        "oracleText": "The dragon Teval is viewed by the Sultai not as a leader, but an arbiter. She is pragmatic and bluntly honest, acting as a balancing force between the khan and other leaders.",
+        "translation": "The dragon Teval is viewed by the Sultai not as a leader, but an arbiter. She is pragmatic and bluntly honest, acting as a balancing force between the khan and other leaders."
+    },
+    "Match/QueueTips/Queue_Tip_289_TDM_Neriv": {
+        "oracleText": "The dragon Neriv was summoned by the Mardu in the hopes of finding unity through their strength of will. He is their marshal, leading them into new lands for battle, and helping guide them towards retreat when it ensures their survival.",
+        "translation": "The dragon Neriv was summoned by the Mardu in the hopes of finding unity through their strength of will. He is their marshal, leading them into new lands for battle, and helping guide them towards retreat when it ensures their survival."
+    },
     "Match/QueueTips/Queue_Tip_29": {
         "oracleText": "Aggressive (\"aggro\") decks look to win quickly with cheap creatures before the opponent can set up effective defenses.",
         "translation": "强攻（「快攻」）套牌偏好使用费用较低的生物，力争在对手建立起有效防御之前赢得胜利。"
+    },
+    "Match/QueueTips/Queue_Tip_290_TDM_Ureni": {
+        "oracleText": "The dragon Ureni was summoned by the Temur to help heal and reforge their connection to the land. They are fiercely protective, and will not hesitate to drive out intruders that they believe mean harm to their clan.",
+        "translation": "The dragon Ureni was summoned by the Temur to help heal and reforge their connection to the land. They are fiercely protective, and will not hesitate to drive out intruders that they believe mean harm to their clan."
     },
     "Match/QueueTips/Queue_Tip_3": {
         "oracleText": "Drag cards from your hand to the battlefield to play them.",
@@ -66567,6 +67335,10 @@
         "oracleText": "Special Limited Events",
         "translation": "特别限制赛赛事"
     },
+    "PlayBlade/Filters/Dynamic/TDMLimitedTitle": {
+        "oracleText": "Tarkir: Dragonstorm Limited",
+        "translation": "Tarkir: Dragonstorm Limited"
+    },
     "PlayBlade/Filters/Dynamic/WOELimitedTitle": {
         "oracleText": "Wilds of Eldraine Limited",
         "translation": "艾卓仙踪限制赛"
@@ -68274,6 +69046,10 @@
     "SystemMessage/System_Invalid_Redemption_Title": {
         "oracleText": "Unable to Redeem",
         "translation": "无法兑换"
+    },
+    "SystemMessage/System_Invalid_Redemption_Unreleased_Text": {
+        "oracleText": "Cards in unreleased sets cannot be crafted using wildcards.",
+        "translation": "Cards in unreleased sets cannot be crafted using wildcards."
     },
     "SystemMessage/System_Inventory_Get_Error": {
         "oracleText": "Unable to get inventory. Please try again later.",
