@@ -1519,6 +1519,14 @@
         "oracleText": "Harmonize {abilityCost}",
         "translation": "谐颂{abilityCost}"
     },
+    "AbilityHanger/Keyword/HarmonizeReference_Body": {
+        "oracleText": "You may cast a card with Harmonize from your graveyard for its Harmonize cost. You may tap a creature you control to reduce that cost by {oX}, where X is that creature's power. Then exile that spell.",
+        "translation": "You may cast a card with Harmonize from your graveyard for its Harmonize cost. You may tap a creature you control to reduce that cost by {oX}, where X is that creature's power. Then exile that spell."
+    },
+    "AbilityHanger/Keyword/HarmonizeReference_Title": {
+        "oracleText": "Harmonize",
+        "translation": "Harmonize"
+    },
     "AbilityHanger/Keyword/HasFinalityCounter": {
         "oracleText": "If this would go to a graveyard from the battlefield, exile this instead.",
         "translation": "如果它将从战场进入坟墓场，则改为放逐之。"
@@ -3902,10 +3910,6 @@
     "Achievements/Core/Blue/TakeExtraTurn_desc": {
         "oracleText": "Win a matchmade game in which you begin an extra turn.",
         "translation": "开启一个额外回合后，赢得一次匹配对战。"
-    },
-    "Achievements/Core/Blue/TakeExtraTurn_desc_alt": {
-        "oracleText": "Win a game in which you begin an extra turn.",
-        "translation": "开启一个额外回合后，赢得游戏。"
     },
     "Achievements/Core/Blue/TakeTurns": {
         "oracleText": "Walk the Aeons",
@@ -8411,6 +8415,26 @@
         "oracleText": "Flow of Information",
         "translation": "信息流"
     },
+    "Decks/Precon/Alchemy_TDM_MWM_Abzan": {
+        "oracleText": "Abzan Counters",
+        "translation": "Abzan Counters"
+    },
+    "Decks/Precon/Alchemy_TDM_MWM_Jeskai": {
+        "oracleText": "Jeskai Spellslinger",
+        "translation": "Jeskai Spellslinger"
+    },
+    "Decks/Precon/Alchemy_TDM_MWM_Mardu": {
+        "oracleText": "Mardu Midrange",
+        "translation": "Mardu Midrange"
+    },
+    "Decks/Precon/Alchemy_TDM_MWM_Sultai": {
+        "oracleText": "Sultai Control",
+        "translation": "Sultai Control"
+    },
+    "Decks/Precon/Alchemy_TDM_MWM_Temur": {
+        "oracleText": "Temur Dragon Ramp",
+        "translation": "Temur Dragon Ramp"
+    },
     "Decks/Precon/Alchemy_WOE_Adventure": {
         "oracleText": "Adventure into Eldraine",
         "translation": "探寻艾卓"
@@ -11743,13 +11767,13 @@
         "oracleText": "Foundation Deck: Brawl Neriv, Crackling Vanguard",
         "translation": "基础套牌：争锋裂吼先锋涅雳伏"
     },
-    "Decks/StoreDecks/TDM/Wave1/Simic": {
-        "oracleText": "Foundation Deck: Brawl Eshki, Temur's Roar",
-        "translation": "基础套牌：争锋铁木尔之吼艾丝琦"
-    },
     "Decks/StoreDecks/TDM/Wave1/Sultai": {
         "oracleText": "Foundation Deck: Brawl Kotis, Sibsig Champion",
         "translation": "基础套牌：争锋尸虏斗士柯提斯"
+    },
+    "Decks/StoreDecks/TDM/Wave1/Temur": {
+        "oracleText": "Foundation Deck: Brawl Eshki, Temur's Roar",
+        "translation": "Foundation Deck: Brawl Eshki, Temur's Roar"
     },
     "Decks/StoreDecks/Wave1/Brawl_RWRaiyuu": {
         "oracleText": "Foundation Deck: Brawl Raiyuu, Storm's Edge",
@@ -12378,6 +12402,10 @@
     "DuelScene/Browsers/OptionalActionWorkflow_NoCardRuleText_Fabricate3": {
         "oracleText": "Create three 1/1 colorless Servo artifact creature tokens",
         "translation": "派出三个1/1无色自动机衍生神器生物"
+    },
+    "DuelScene/Browsers/OptionalActionWorkflow_YesCardRuleText_Endure1": {
+        "oracleText": "Put a +1/+1 counter on {CardName}",
+        "translation": "Put a +1/+1 counter on {CardName}"
     },
     "DuelScene/Browsers/OptionalActionWorkflow_YesCardRuleText_EndureN": {
         "oracleText": "Put {numeral} +1/+1 counters on {CardName}",
@@ -19043,6 +19071,10 @@
         "oracleText": "This token denotes you are eligible to receive 1 physical Aetherdrift Booster Box",
         "translation": "此代币表示您有资格获得1盒实体乙太飘移补充包"
     },
+    "Events/ArenaDirect_DMU_Set_Prize": {
+        "oracleText": "These tokens denote that you are eligible to receive a physical <i>Dominaria United</i> Set Booster Box",
+        "translation": "These tokens denote that you are eligible to receive a physical <i>Dominaria United</i> Set Booster Box"
+    },
     "Events/ArenaDirect_DSK_String": {
         "oracleText": "This token denotes that you are eligible to receive 2 physical Duskmourn: House of Horror Booster Boxes",
         "translation": "此代币表示您有资格获得2盒实体暮悲邸：鬼屋惊魂常规补充包"
@@ -19074,6 +19106,14 @@
     "Events/ArenaDirect_TDM_COLLECTOR_String": {
         "oracleText": "This token denotes that you are eligible to receive 1 physical <i>Tarkir: Dragonstorm</i> Collector Booster Box",
         "translation": "此代币表示您有资格获得1盒实体<i>鞑契龙岚录</i>聚珍补充包"
+    },
+    "Events/ArenaDirect_TDM_Play_Prize": {
+        "oracleText": "One <i>Tarkir: Dragonstorm </i> Play Booster Box",
+        "translation": "One <i>Tarkir: Dragonstorm </i> Play Booster Box"
+    },
+    "Events/ArenaDirect_TDM_Play_Prize2": {
+        "oracleText": "Two <i>Tarkir: Dragonstorm </i> Play Booster Boxes",
+        "translation": "Two <i>Tarkir: Dragonstorm </i> Play Booster Boxes"
     },
     "Events/Banned_Cards_Tag_A": {
         "oracleText": "Standard Shakeup",
@@ -21087,6 +21127,10 @@
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win 2 physical Aetherdrift Play Booster Boxes delivered to you.\n\nThe format for this event is 6 packs of <i>Aetherdrift</i> Sealed with single-game matches.  \n\n<size=120%><color=#e1a154>Eligibility Rules</color></size>\n\n<b><color=red>Must be 18 years or older to participate.</color></b>\n\n<b><color=red>Not all countries/regions are eligible. Go <u><link=https://mtgarena-support.wizards.com/hc/en-us/articles/31879284566548-Arena-Direct-FAQ>here</link></u> to check yours.</color></b>\n\n<b><color=red>Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>",
         "translation": "<size=150%><color=#e1a154> 参加赛事，竞夺卡盒！</color></size>\n\n报名参加此赛事，赢得全部6胜就能获得两盒实体乙太飘移常规补充包邮寄到家。\n\n本赛事的赛制为6包补充包的<i>乙太飘移</i>BO1现开赛。\n\n<size=120%><color=#e1a154>参赛资格规则</color></size>\n\n<b><color=red>须年满18周岁方能参加。</color></b>\n\n<b><color=red>并非所有国家/地区都可参加。请点击<u><link=https://mtgarena-support.wizards.com/hc/en-us/articles/31879284566548-Arena-Direct-FAQ>此处</link></u>查看你所在地区是否符合资格。</color></b>\n\n<b><color=red>在法律禁止的地区无效。须创建或具现有威世智、DCI及i-Payout帐户方能领取奖金。完整详细信息，请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>此处</link></u>。</color></b>"
     },
+    "Events/Event_Desc_ArenaDirect_DMU_Set_Sealed": {
+        "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win 2 physical <i>Dominaria United </i> Set Booster Boxes delivered to you.\n\nThe format for this event is 6 packs of <i>Dominaria United</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win 2 physical <i>Dominaria United </i> Set Booster Boxes delivered to you.\n\nThe format for this event is 6 packs of <i>Dominaria United</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>"
+    },
     "Events/Event_Desc_ArenaDirect_DSK_Play_Draft": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win 2 physical Duskmourn: House of Horror Play Booster Boxes delivered to you.\n\nThe format for this event is Booster Draft with 3 packs of <i>Duskmourn: House of Horror</i> with single-game matches.  \n\n<size=120%><color=#e1a154>Eligibility Rules</color></size>\n\n<b><color=red>Must be 18 years or older to participate.</color></b>\n\n<b><color=red>Not all countries/regions are eligible. Go <u><link=https://mtgarena-support.wizards.com/hc/en-us/articles/31879284566548-Arena-Direct-FAQ>here</link></u> to check yours.</color></b>\n\n<b><color=red>Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>",
         "translation": "<size=150%><color=#e1a154>参加赛事，竞夺卡盒！</color></size>\n\n报名参加此赛事，赢得全部6胜就能获得两盒实体暮悲邸：鬼屋惊魂常规补充包邮寄到家。\n\n本赛事的赛制为3包补充包的<i>暮悲邸：鬼屋惊魂</i>BO1轮抽赛。\n\n<size=120%><color=#e1a154>参赛资格规则</color></size>\n\n<b><color=red>须年满18周岁方能参加。</color></b>\n\n<b><color=red>并非所有国家/地区都可参加。请点击<u><link=https://mtgarena-support.wizards.com/hc/en-us/articles/31879284566548-Arena-Direct-FAQ>此处</link></u>查看你所在地区是否符合资格。</color></b>\n\n<b><color=red>在法律禁止的地区无效。须创建或具现有威世智、DCI及i-Payout帐户方能领取奖金。完整详细信息，请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>此处</link></u>。</color></b>"
@@ -21114,6 +21158,10 @@
     "Events/Event_Desc_ArenaDirect_TDM_Collector_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win a physical Tarkir: Dragonstorm Collector Booster Box delivered to you.\n\nThe format for this event is 6 packs of <i>Tarkir: Dragonstorm</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>",
         "translation": "<size=150%><color=#e1a154>参加赛事，竞夺卡盒！</color></size>\n\n报名参加此赛事，赢得全部6胜就能获得一盒实体鞑契龙岚录聚珍补充包邮寄到家。\n\n本赛事的赛制为6包补充包的<i>鞑契龙岚录</i>BO1现开赛。\n\n<b><color=red>须年满18周岁方能参加。部分地区／地域不能参加本赛事。在法律禁止的地区无效。须创建或具现有威世智、DCI及i-Payout帐户方能领取奖金。完整详细信息，请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>此处</link></u>。</color></b>"
+    },
+    "Events/Event_Desc_ArenaDirect_TDM_Play_Sealed": {
+        "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and see if you can win physical Tarkir: Dragonstorm Play Booster Boxes delivered to you!\n\nThe format for this event is 6 packs of <i>Tarkir: Dragonstorm</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and see if you can win physical Tarkir: Dragonstorm Play Booster Boxes delivered to you!\n\nThe format for this event is 6 packs of <i>Tarkir: Dragonstorm</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaDirect_WOE_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win a pair of Wilds of Eldraine Set Booster Box delivered to you.\n\nThe format for this event is 6 packs of <i>Wilds of Eldraine</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-WOE-terms-and-conditions>here</link></u> for full details.</color></b>",
@@ -24231,6 +24279,10 @@
         "oracleText": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Eerie Investigation </b> Search the House! Play lots of enchantments and unlock Rooms to power up your creatures and get around all the horrifying blockers the house might throw your way. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Eerie Domination </b> Live out your worst nightmares and share them with your opponent, unlocking Rooms and playing enchantments to kill off their creatures and seize control of the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>BR Serial Sacrifice</b> Want to slash through opposing creatures and your opponent with ease? Pay the price for strength by sacrificing your own creatures and old Rooms. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Delirious Rampage</b> Fill your deck with artifact and enchantment creatures (along with other card types), then start attacking early and often. Once you get four different card types into your graveyard, your cards power up. Now go for the jugular! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Survival </b> Utilize all of Duskmourn's tricks to power up your creatures and help them smash their way to safety. Find other ways to tap them and hide until the danger's past. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Cultic Reanimation</b> All hail Valgavoth! Slow your opponent down while you get enormous monsters into your graveyard and then perform the rituals to return them to life. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Room after Room </b> The House never ends! Trap your opponent going in circles as you unlock Rooms to build up control of more and more territory, then unleash the ghosts held within for a frightening finish. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Grinding Delirium</b> Prioritize getting a wide variety of card types, then gum up the board as you fill your graveyard with them. Once you've got four types, grind your opponent to dust by recycling what you've thrown away. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Childhood Fears</b> Fill your deck with toys and clowns that have 2 or less power and start attacking! Smash your opponents swiftly by clearing out their blockers and buffing your little creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Manifest Dread</b> Something's lurking in the shadows. Manifest face-down creatures and get them into combat, then surprise your opponent with their true forms to outsize the competition.",
         "translation": "轮抽用补充包在桌上轮转，最新炼金系列的牌张也包含其中，你每次需从中选择一张牌。这些牌张将加入你的收藏，而你将使用它们和基本地来构组一副40张的套牌。不断进行对战，最后根据你的胜场数量赢得奖励！\n\n<b>真人轮抽～与7位其他牌手一同进行轮抽，有抽选时间限制。</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> 异景调查 </b> 搜索这座宅邸！多多使用结界和解锁房间来强化你的生物，绕过宅邸抛给你的所有恐怖阻挡者。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> 异景支配 </b> 体验你最糟糕的噩梦并与对手分享，解锁房间并使用结界来消灭他们的生物，夺取游戏的控制权。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>红黑连环牺牲</b> 想轻松斩杀对手的生物和对手吗？通过牺牲由你操控的生物和旧房间作为代价以换取力量。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>狂暴横行</b> 用神器和结界生物（以及其他牌张类别）填满你的套牌，然后尽早频繁地攻击。一旦你在坟墓场中拥有四种不同的牌张类别，你的牌就会被强化。现在，直击要害吧！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>生还</b>  利用暮悲邸的所有诡计来强化你的生物，帮助他们一路打破阻碍，安全脱身。找到其他方式来横置它们，躲避直到危险过去。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>邪教复生</b>  瓦伽沃万岁！减缓你的对手，同时将巨大的怪物送入你的坟墓场，然后进行仪式将它们复活。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> 房间接着房间 </b> 这座宅邸永无止境！当你解锁房间以建立对更多领地的控制时，让你的对手晕头转向，然后释放其中隐藏的幽灵，迎接恐怖终局。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> 碾磨躁狂 </b> 优先获得各种不同的牌张类别，当你用它们填满坟墓场时，阻碍场面威胁。一旦你拥有四种类别，通过循环利用你丢弃的东西，将对手碾为尘土。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> 童年阴影 </b> 用力量等于或小于2的玩具和小丑填满你的套牌，开始攻击！清除他们的阻挡者并强化你的小生物，迅速击败对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> 显化惧象 </b> 有东西潜伏在阴影中。显化牌面朝下的生物并让它们进入战斗，然后用它们的真面目给对手一个惊喜，扭转胜局。"
     },
+    "Events/Event_Desc_Y25TDM_Premier_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Mardu Mobilize</b> Create additional tokens to help aid in your attack.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Go Wide Tokens</b> Blitz by your opponent with sheer numbers. Use Mobilize tokens and Flurry rewards to build impressive battlefields.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Jeskai Flurry</b> Cast two (or more!) spells in a single turn to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Two Spells</b> Use Harmonize spells frequently in order to reap the rewards from Flurry.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Temur Harmonize</b> Cast your spells twice with help of your biggest creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Leaves the Graveyard</b> Fill up your graveyard, then use Mobilize or Renew and others to get bonuses for cards leaving your graveyard.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Sultai Renew</b> Use the power of the graveyard to make your creatures stronger.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Counters</b> Use counters of any kind, not just +1/+1 counters, to make your creatures impressive in combat.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Abzan Endure</b> Your creatures are versatile!  Outsize your opponents with +1/+1 counters or outflank them with spirit tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Sacrifice</b> Sacrifice your extra creatures, such as your temporary creatures from Horde to get extra use out of those creatures.",
+        "translation": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Mardu Mobilize</b> Create additional tokens to help aid in your attack.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Go Wide Tokens</b> Blitz by your opponent with sheer numbers. Use Mobilize tokens and Flurry rewards to build impressive battlefields.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Jeskai Flurry</b> Cast two (or more!) spells in a single turn to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Two Spells</b> Use Harmonize spells frequently in order to reap the rewards from Flurry.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Temur Harmonize</b> Cast your spells twice with help of your biggest creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Leaves the Graveyard</b> Fill up your graveyard, then use Mobilize or Renew and others to get bonuses for cards leaving your graveyard.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Sultai Renew</b> Use the power of the graveyard to make your creatures stronger.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Counters</b> Use counters of any kind, not just +1/+1 counters, to make your creatures impressive in combat.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Abzan Endure</b> Your creatures are versatile!  Outsize your opponents with +1/+1 counters or outflank them with spirit tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Sacrifice</b> Sacrifice your extra creatures, such as your temporary creatures from Horde to get extra use out of those creatures."
+    },
     "Events/Event_Desc_Yargle_Day_2020": {
         "oracleText": "When Belzenlok's lieutenant Yar-Kul grew too ambitious, the Demonlord transformed him into a maggot. The frog that ate the maggot grew and grew, until a ravenous spirit burst from its body. Today, we celebrate that spirit, everyone's pal, Yargle!\n\nWe asked Yargle how best to celebrate, and here's how we interpreted its gurgles and shrieks:\n- Yargle makes the rules! Yargle has provided decks for everyone to use, and we've even cleaned most of the slime off of them.\n- Yargle is the center of attention! Yargle is the only non-common card allowed, and you'll have plenty of extras so you won't run out.\n- Yargle is special! Yargle will be faster to get into the fight, so nobody has to have fun alone.\n\nJoin us for a rip-roaring good time with a spirit of a frog which ate a maggot that was actually a transformed lieutenant of a demon. Happy Yargle Day, everyone!",
         "translation": "贝赞洛的副手雅库开始展露野心，恶魔领主便把他变成一条蛆虫。有只青蛙吞下了这条蛆虫后不断变大，最终贪食的精怪从其体内破膛而出。今天，我们庆祝这种精神，每个人的朋友，雅骨尔！\n\n我们询问了雅骨尔如何最好地庆祝，以下是我们如何解释它的咯咯声和尖叫声：\n- 雅骨尔制定了规则! 雅骨尔提供了套牌供大家使用，我们甚至已经把套牌上的大部分粘液清理干净了。\n- 雅骨尔是关注的焦点! 雅骨尔是唯一允许使用的非普通卡，你会有大量的额外卡，所以你不会用完。\n- 雅骨尔很特别! 雅骨尔会更快地进入战斗，所以没有人必须独自享受乐趣。\n\n加入我们的行列，与一只吃了蛆的青蛙精怪一起度过一段撕心裂肺的美好时光，这只青蛙实际上是一个恶魔的变身副官。各位，雅骨尔日快乐！"
@@ -24527,6 +24579,10 @@
         "oracleText": "Arena Direct - Sealed Aetherdrift Play Booster",
         "translation": "Arena Direct - Sealed Aetherdrift Play Booster"
     },
+    "Events/Event_Title_ArenaDirect_DMU_Set_Sealed": {
+        "oracleText": "Arena Direct - Sealed Dominaria United Set Booster",
+        "translation": "Arena Direct - Sealed Dominaria United Set Booster"
+    },
     "Events/Event_Title_ArenaDirect_DSK_Play_Draft": {
         "oracleText": "Arena Direct - Draft Duskmourn: House of Horror",
         "translation": "竞技场直邮赛 - 暮悲邸：鬼屋惊魂轮抽"
@@ -24554,6 +24610,10 @@
     "Events/Event_Title_ArenaDirect_TDM_Collector_Sealed": {
         "oracleText": "Arena Direct - Sealed Tarkir: Dragonstorm Collector Booster",
         "translation": "竞技场直邮赛 - 鞑契龙岚录现开（聚珍补充包）"
+    },
+    "Events/Event_Title_ArenaDirect_TDM_Play_Sealed": {
+        "oracleText": "Arena Direct - Sealed Tarkir: Dragonstorm Play Booster",
+        "translation": "Arena Direct - Sealed Tarkir: Dragonstorm Play Booster"
     },
     "Events/Event_Title_ArenaDirect_WOE_Sealed": {
         "oracleText": "Arena Direct - Sealed Wilds of Eldraine",
@@ -27691,6 +27751,10 @@
         "oracleText": "Premier Draft Duskmourn: House of Horror Alchemy",
         "translation": "炼金暮悲邸：鬼屋惊魂竞技轮抽"
     },
+    "Events/Event_Title_Y25TDM_Premier_Draft": {
+        "oracleText": "Premier Draft Tarkir: Dragonstorm Alchemy",
+        "translation": "Premier Draft Tarkir: Dragonstorm Alchemy"
+    },
     "Events/Event_Title_Yargle_Day_2020": {
         "oracleText": "Yargle Day!",
         "translation": "雅骨尔日！"
@@ -29923,6 +29987,10 @@
         "oracleText": "Join between 6am and 8am Pacific on May 10",
         "translation": "太平洋时间5月10日上午6点到上午8点之间加入"
     },
+    "Events/Tokens/QualifierDay1TokenDescription20250628": {
+        "oracleText": "Join between 6am and 8am Pacific on June 28",
+        "translation": "Join between 6am and 8am Pacific on June 28"
+    },
     "Events/Tokens/QualifierDay1TokenPlural": {
         "oracleText": "Qualifier Weekend Token",
         "translation": "资格赛周末门票"
@@ -30054,6 +30122,10 @@
     "Events/Tokens/QualifierDay2TokenDescription20250511": {
         "oracleText": "Join between 6am and 8am Pacific on May 11",
         "translation": "在太平洋时间的5月11日早上六点到八点加入"
+    },
+    "Events/Tokens/QualifierDay2TokenDescription20250629": {
+        "oracleText": "Join between 6am and 8am Pacific on June 29",
+        "translation": "Join between 6am and 8am Pacific on June 29"
     },
     "Events/Tokens/QualifierDay2TokenPlural": {
         "oracleText": "Qualifier Day 2",
@@ -30806,6 +30878,10 @@
     "General/Sets/Y25-DSK": {
         "oracleText": "Alchemy: Duskmourn",
         "translation": "炼金：暮悲邸"
+    },
+    "General/Sets/Y25-TDM": {
+        "oracleText": "Alchemy: Tarkir",
+        "translation": "Alchemy: Tarkir"
     },
     "General/Sets/Y25BLB": {
         "oracleText": "Alchemy: Bloomburrow",
@@ -37819,6 +37895,26 @@
         "oracleText": "Vraska, Golgari Queen Sleeve",
         "translation": "葛加理女王瓦丝卡牌套"
     },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_453640": {
+        "oracleText": "Agent of Treachery Sleeve",
+        "translation": "Agent of Treachery Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_453641": {
+        "oracleText": "Priest of Forgotten Gods Sleeve",
+        "translation": "Priest of Forgotten Gods Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_453642": {
+        "oracleText": "Treasonous Ogre Sleeve",
+        "translation": "Treasonous Ogre Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_453643": {
+        "oracleText": "Uncivil Unrest Sleeve",
+        "translation": "Uncivil Unrest Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_453644": {
+        "oracleText": "Marchesa the Black Rose Sleeve",
+        "translation": "Marchesa the Black Rose Sleeve"
+    },
     "MainNav/DeckBuilder/Sleeves/CardBack_RD_454124": {
         "oracleText": "Fell the Mighty Sleeve",
         "translation": "以弱制强牌套"
@@ -37974,6 +38070,46 @@
     "MainNav/DeckBuilder/Sleeves/CardBack_RD_456774": {
         "oracleText": "Astarion, the Decadent Sleeve",
         "translation": "颓废的阿斯代伦牌套"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_457736": {
+        "oracleText": "Lava Spike Sleeve",
+        "translation": "Lava Spike Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_457737": {
+        "oracleText": "Dragon's Rage Channeler Sleeve",
+        "translation": "Dragon's Rage Channeler Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_457738": {
+        "oracleText": "Skewer the Critics Sleeve",
+        "translation": "Skewer the Critics Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_457739": {
+        "oracleText": "Chain Lightning Sleeve",
+        "translation": "Chain Lightning Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_457740": {
+        "oracleText": "Rift Bolt Sleeve",
+        "translation": "Rift Bolt Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_458061": {
+        "oracleText": "Monastery Swiftspear Sleeve",
+        "translation": "Monastery Swiftspear Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_458062": {
+        "oracleText": "Soul-Scar Mage Sleeve",
+        "translation": "Soul-Scar Mage Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_458063": {
+        "oracleText": "Lava Dart Sleeve",
+        "translation": "Lava Dart Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_458064": {
+        "oracleText": "Underworld Breach Sleeve",
+        "translation": "Underworld Breach Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_458065": {
+        "oracleText": "Mishra's Bauble Sleeve",
+        "translation": "Mishra's Bauble Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_REX_440587": {
         "oracleText": "Dilophosaurus Sleeve",
@@ -38206,6 +38342,10 @@
     "MainNav/DeckBuilder/Sleeves/CardBack_Stargazing_Thassa": {
         "oracleText": "Theros Stargazing: Thassa Sleeve",
         "translation": "塞洛斯观星：塔萨牌套"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_TDM_448915": {
+        "oracleText": "Betor Sleeve",
+        "translation": "Betor Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_TDM_452184": {
         "oracleText": "Mardu Warrior Sleeve",
@@ -39875,6 +40015,10 @@
         "oracleText": "2 Aetherdrift Play Booster Boxes",
         "translation": "2盒乙太飘移常规补充包"
     },
+    "MainNav/EventRewards/ArenaDirect_DMU_SetSingular": {
+        "oracleText": "2 Dominaria United Set Booster Box",
+        "translation": "2 Dominaria United Set Booster Box"
+    },
     "MainNav/EventRewards/ArenaDirect_DSK_COLLDesc": {
         "oracleText": "This token denotes that you are eligible to receive a physical Duskmourn: House of Horror Collector Booster Box",
         "translation": "此代币表示您有资格获得1盒实体暮悲邸：鬼屋惊魂聚珍补充包"
@@ -39986,6 +40130,18 @@
     "MainNav/EventRewards/ArenaDirect_TDM_COLLECTORSingular": {
         "oracleText": "1 <i>Tarkir: Dragonstorm</i> Collector Booster Box",
         "translation": "1 盒<i>鞑契龙岚录</i>聚珍补充包"
+    },
+    "MainNav/EventRewards/ArenaDirect_TDM_PlayPlural": {
+        "oracleText": "{quantity} <i>Tarkir: Dragonstorm </i> Play Booster Boxes",
+        "translation": "{quantity} <i>Tarkir: Dragonstorm </i> Play Booster Boxes"
+    },
+    "MainNav/EventRewards/ArenaDirect_TDM_PlaySingular": {
+        "oracleText": "{quantity} <i>Tarkir: Dragonstorm </i> Play Booster Box",
+        "translation": "{quantity} <i>Tarkir: Dragonstorm </i> Play Booster Box"
+    },
+    "MainNav/EventRewards/ArenaDirect_TDM_Token_Desc": {
+        "oracleText": "These tokens represent that you are eligible to receive physical <i>Tarkir: Dragonstorm</i> Play Booster Boxes",
+        "translation": "These tokens represent that you are eligible to receive physical <i>Tarkir: Dragonstorm</i> Play Booster Boxes"
     },
     "MainNav/EventRewards/ArenaDirect_WOE_SETDesc": {
         "oracleText": "This token denotes that you are eligible to receive a physical Wilds of Eldraine Set Booster Box",
@@ -43006,6 +43162,14 @@
     "MainNav/HomePage/Carousel/2025_47_10_Store_Title": {
         "oracleText": "For the Glory of Tarkir!",
         "translation": "为了鞑契荣光！"
+    },
+    "MainNav/HomePage/Carousel/2025_48_10_Store_Desc": {
+        "oracleText": "Continue growing your power with Packs, Card Styles, and more in the Store!",
+        "translation": "Continue growing your power with Packs, Card Styles, and more in the Store!"
+    },
+    "MainNav/HomePage/Carousel/2025_48_10_Store_Title": {
+        "oracleText": "The Battle for Tarkir Continues!",
+        "translation": "The Battle for Tarkir Continues!"
     },
     "MainNav/HomePage/Carousel/2025_WinterSale_Desc": {
         "oracleText": "Warm up with some cool deals in the Store, available now!",
@@ -48055,6 +48219,14 @@
         "oracleText": "Tarkir: Dragonstorm is Here!",
         "translation": "鞑契龙岚录来袭！"
     },
+    "MainNav/Mailbox/2025_48_0_Y25TDM_Announcement_Description": {
+        "oracleText": "Take these 3 packs to help face whatever dangers are to come!",
+        "translation": "Take these 3 packs to help face whatever dangers are to come!"
+    },
+    "MainNav/Mailbox/2025_48_0_Y25TDM_Announcement_Title": {
+        "oracleText": "The Storms Rage On",
+        "translation": "The Storms Rage On"
+    },
     "MainNav/Mailbox/AnnualSatisfactionSurveyCTA_Description": {
         "oracleText": "We hope you are enjoying MTG Arena! If you have a few minutes, we would love to hear your thoughts in our feedback survey.\n\nThank you for all your help and see you in the game!",
         "translation": "希望你在MTG竞技场中玩得开心！这里有一份简短反馈问卷，如果方便的话希望能够拨冗参加，我们热切期盼能够听到牌手心声。\n\n感谢你的帮助，游戏中见！"
@@ -48872,8 +49044,8 @@
         "translation": "依尼翠暗影：重制版发布释疑现已公布！"
     },
     "MainNav/Mailbox/SL_Sale_Link_Description": {
-        "oracleText": "Thank you for buying one of our Sleeve bundles! Did you know the art on those Sleeves is inspired by our Secret Lair cards? \n\nDon't tell them we told you (it is a secret, after all), but you can find physical cards with the same art if you click the link below! There's even more cool stuff in there, including Foils and special collaborations. Check it out!",
-        "translation": "Thank you for buying one of our Sleeve bundles! Did you know the art on those Sleeves is inspired by our Secret Lair cards? \n\nDon't tell them we told you (it is a secret, after all), but you can find physical cards with the same art if you click the link below! There's even more cool stuff in there, including Foils and special collaborations. Check it out!"
+        "oracleText": "Thank you for buying one of our Sleeve bundles! Did you know the art on those Sleeves is inspired by our Secret Lair cards?\nDon't tell them we told you (it is a secret, after all), but you can find physical cards with the same art if you click the link below! There's even more cool stuff in there, including Foils and special collaborations. Check it out!",
+        "translation": "Thank you for buying one of our Sleeve bundles! Did you know the art on those Sleeves is inspired by our Secret Lair cards?\nDon't tell them we told you (it is a secret, after all), but you can find physical cards with the same art if you click the link below! There's even more cool stuff in there, including Foils and special collaborations. Check it out!"
     },
     "MainNav/Mailbox/SL_Sale_Link_Title": {
         "oracleText": "Enjoying the Secret Lair?",
@@ -49250,6 +49422,14 @@
     "MainNav/Mailbox/Y25DSK_PatchNotes_Title": {
         "oracleText": "2024.42.0 Patch Notes Are Here!",
         "translation": "2024.42.0 补丁说明在此！"
+    },
+    "MainNav/Mailbox/Y25TDM_FastFollow_PatchNotes_Title": {
+        "oracleText": "2025.48.10 Patch Notes Are Here!",
+        "translation": "2025.48.10 Patch Notes Are Here!"
+    },
+    "MainNav/Mailbox/Y25TDM_PatchNotes_PatchNotes_Title": {
+        "oracleText": "2025.48.0 Patch Notes Are Here!",
+        "translation": "2025.48.0 Patch Notes Are Here!"
     },
     "MainNav/Mailbox/Yargle_Day_Desc": {
         "oracleText": "Rejoice, all who celebrate our powerful Yargle! May our cries of joy echo across the world as loudly as Yargle's glorious rumbling stomach. In his own magnificent words: NRRRRAGHASHARIBBIT",
@@ -54899,6 +55079,10 @@
         "oracleText": "https://company.wizards.com/legal/wizards-coasts-privacy-policy",
         "translation": "https://company.wizards.com/legal/wizards-coasts-privacy-policy"
     },
+    "MainNav/Settings/PrivacyPolicyDoNotSell": {
+        "oracleText": "Do Not Sell or Share My Personal Information",
+        "translation": "Do Not Sell or Share My Personal Information"
+    },
     "MainNav/Settings/PrivacyPolicy_LastUpdated": {
         "oracleText": "Last Updated February 19, 2021",
         "translation": "最近更新与2021年2月19日"
@@ -57128,8 +57312,8 @@
         "translation": "屠杀游戏卡牌样式\n蔑死者阿列莎卡牌样式\n炙热鲜血卡牌样式\n铁木尔战怒卡牌样式\n泰坦之力卡牌样式\n眷宠重装步兵卡牌样式\n攻城犀牛卡牌样式\n善战重装步兵卡牌样式"
     },
     "MainNav/Store/Bundles/Bundle_HA6_Styles1_Name": {
-        "oracleText": "Explorer Styles: Build for Battle",
-        "translation": "探险样式：为战而生"
+        "oracleText": "Explorer Styles: Built for Battle",
+        "translation": "Explorer Styles: Built for Battle"
     },
     "MainNav/Store/Bundles/Bundle_HA6_Styles2_Desc": {
         "oracleText": "Back to Nature Card Style\nTireless Tracker Card Style\nTainted Remedy Card Style\nElvish Mystic Card Style \nKalitas, Traitor of Ghet Card Style\nShadowborn Apostle Card Style",
@@ -58903,6 +59087,14 @@
         "oracleText": "Secret Lair: Dogs Are Better Than Cats",
         "translation": "秘室珍品：狗比猫好"
     },
+    "MainNav/Store/Bundles/Bundle_SLD_EverythingFire_Desc": {
+        "oracleText": "Lava Spike Sleeve\nDragon's Rage Channeler Sleeve\nSkewer the Critics Sleeve\nChain Lightning Sleeve\nRift Bolt Sleeve",
+        "translation": "Lava Spike Sleeve\nDragon's Rage Channeler Sleeve\nSkewer the Critics Sleeve\nChain Lightning Sleeve\nRift Bolt Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_SLD_EverythingFire_Name": {
+        "oracleText": "Secret Lair: EVERYTHING IS ON FIRE Sleeves",
+        "translation": "Secret Lair: EVERYTHING IS ON FIRE Sleeves"
+    },
     "MainNav/Store/Bundles/Bundle_SLD_FFCute_Dragonlords_Desc": {
         "oracleText": "Dragonlord Atarka (2 Card Styles)\nDragonlord Dromoka (2 Card Styles)\nDragonlord Kolaghan (2 Card Styles)\nDragonlord Ojutai (2 Card Styles)\nDragonlord Silumgar (2 Card Styles)",
         "translation": "龙王安塔卡（2种卡牌样式）\n龙王卓茉卡（2种卡牌样式）\n龙王寇安甘（2种卡牌样式）\n龙王欧祝泰（2种卡牌样式）\n龙王席穆嘉（2种卡牌样式）"
@@ -58910,6 +59102,14 @@
     "MainNav/Store/Bundles/Bundle_SLD_FFCute_Dragonlords_Name": {
         "oracleText": "Secret Lair: They Grow Up So Fast",
         "translation": "秘室珍品：长得真快"
+    },
+    "MainNav/Store/Bundles/Bundle_SLD_JayHowell_Desc": {
+        "oracleText": "Agent of Treachery Sleeve\nPriest of Forgotten Gods Sleeve\nTreasonous Ogre Sleeve\nUncivil Unrest Sleeve\nMarchesa the Black Rose Sleeve",
+        "translation": "Agent of Treachery Sleeve\nPriest of Forgotten Gods Sleeve\nTreasonous Ogre Sleeve\nUncivil Unrest Sleeve\nMarchesa the Black Rose Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_SLD_JayHowell_Name": {
+        "oracleText": "Secret Lair Featuring: Jay Howell Sleeves",
+        "translation": "Secret Lair Featuring: Jay Howell Sleeves"
     },
     "MainNav/Store/Bundles/Bundle_SLD_JulieBell_Desc": {
         "oracleText": "Soul Warden Sleeve\nShivan Dragon Sleeve\nElves of Deep Shadow Sleeve\nGood-Fortune Unicorn Sleeve\nCoat of Arms Sleeve",
@@ -58966,6 +59166,14 @@
     "MainNav/Store/Bundles/Bundle_SLD_StrangeSandsLands_Name": {
         "oracleText": "Secret Lair: Strange Sands Basic Lands",
         "translation": "秘室珍品：奇异沙地基本地"
+    },
+    "MainNav/Store/Bundles/Bundle_SLD_Vroom_Desc": {
+        "oracleText": "Monastery Swiftspear Sleeve\nSoul-Scar Mage Sleeve\nLava Dart Sleeve\nUnderworld Breach Sleeve\nMishra's Bauble Sleeve",
+        "translation": "Monastery Swiftspear Sleeve\nSoul-Scar Mage Sleeve\nLava Dart Sleeve\nUnderworld Breach Sleeve\nMishra's Bauble Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_SLD_Vroom_Name": {
+        "oracleText": "Secret Lair: vroooOOOOMMMMMM! Sleeves",
+        "translation": "Secret Lair: vroooOOOOMMMMMM! Sleeves"
     },
     "MainNav/Store/Bundles/Bundle_SLD_XanatharSleeves_Desc": {
         "oracleText": "Stifle Sleeve\nDelay Sleeve\nBribery Sleeve\nBlood Money Sleeve\nXanathar, Guild Kingpin Sleeve\nDrown in the Loch Sleeve",
@@ -59422,6 +59630,10 @@
     "MainNav/Store/Bundles/Bundle_TDM_Clans_Name": {
         "oracleText": "Showcase Clans",
         "translation": "部族展览"
+    },
+    "MainNav/Store/Bundles/Bundle_TDM_Companion_Desc": {
+        "oracleText": "Abzan Statuette Companion\nBetor Sleeve",
+        "translation": "Abzan Statuette Companion\nBetor Sleeve"
     },
     "MainNav/Store/Bundles/Bundle_TDM_Companion_Name": {
         "oracleText": "Companion Bundle",
@@ -60286,6 +60498,46 @@
     "MainNav/Store/Bundles/Bundle_Y25DSK_DA5_Name": {
         "oracleText": "Bump in the Night",
         "translation": "午夜惊响"
+    },
+    "MainNav/Store/Bundles/Bundle_Y25TDM_DA1_Desc": {
+        "oracleText": "Mardu Thunderkite Card Style\nStormforged Armor Card Style\nThunderbond Vanguard Card Style\nDalkovan Outrider Card Style\nWaystone's Guidance Card Style",
+        "translation": "Mardu Thunderkite Card Style\nStormforged Armor Card Style\nThunderbond Vanguard Card Style\nDalkovan Outrider Card Style\nWaystone's Guidance Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y25TDM_DA1_Name": {
+        "oracleText": "Alchemy Styles: Mardu Thunder",
+        "translation": "Alchemy Styles: Mardu Thunder"
+    },
+    "MainNav/Store/Bundles/Bundle_Y25TDM_DA2_Desc": {
+        "oracleText": "Hamza, Might of the Yathan Card Style\nHardened Bonds Card Style\nAmber-Plate Ainok Card Style\nCall the Crash Card Style\nDesert Cenote Card Style\nTerritorial Strike Card Style",
+        "translation": "Hamza, Might of the Yathan Card Style\nHardened Bonds Card Style\nAmber-Plate Ainok Card Style\nCall the Crash Card Style\nDesert Cenote Card Style\nTerritorial Strike Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y25TDM_DA2_Name": {
+        "oracleText": "Alchemy Styles: Judgment of the Abzan",
+        "translation": "Alchemy Styles: Judgment of the Abzan"
+    },
+    "MainNav/Store/Bundles/Bundle_Y25TDM_DA3_Desc": {
+        "oracleText": "Sibsig's Artisan Card Style\nPampered Loamfrill Card Style\nOasis of Renewal Card Style\nRuneblade Raiser Card Style\nDraconic Fealty Card Style\nCunning Azurescale Card Style",
+        "translation": "Sibsig's Artisan Card Style\nPampered Loamfrill Card Style\nOasis of Renewal Card Style\nRuneblade Raiser Card Style\nDraconic Fealty Card Style\nCunning Azurescale Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y25TDM_DA3_Name": {
+        "oracleText": "Alchemy Styles: Sultai Cunning",
+        "translation": "Alchemy Styles: Sultai Cunning"
+    },
+    "MainNav/Store/Bundles/Bundle_Y25TDM_DA4_Desc": {
+        "oracleText": "Lam, Storm Crane Elder Card Style\nXho Cai, Flickering Talon Card Style\nSwiftspear's Teachings Card Style\nDragonblood Twins Card Style\nIlluminating Lash Card Style\nDragonsoul Prodigy Card Style\nDragon Typhoon Card Style",
+        "translation": "Lam, Storm Crane Elder Card Style\nXho Cai, Flickering Talon Card Style\nSwiftspear's Teachings Card Style\nDragonblood Twins Card Style\nIlluminating Lash Card Style\nDragonsoul Prodigy Card Style\nDragon Typhoon Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y25TDM_DA4_Name": {
+        "oracleText": "Alchemy Styles: The Jeskai Way",
+        "translation": "Alchemy Styles: The Jeskai Way"
+    },
+    "MainNav/Store/Bundles/Bundle_Y25TDM_DA5_Desc": {
+        "oracleText": "Stonehide Ancient Card Style\nAudacious Knuckleblade Card Style\nSong of Seasons Card Style\nUreni's Counsel Card Style\nPearl Lake Warden Card Style\nDragonweave Tapestry Card Style",
+        "translation": "Stonehide Ancient Card Style\nAudacious Knuckleblade Card Style\nSong of Seasons Card Style\nUreni's Counsel Card Style\nPearl Lake Warden Card Style\nDragonweave Tapestry Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y25TDM_DA5_Name": {
+        "oracleText": "Alchemy Styles: Song of the Temur",
+        "translation": "Alchemy Styles: Song of the Temur"
     },
     "MainNav/Store/Bundles/Bundle_YargleDay_Desc": {
         "oracleText": "Opt Card Style\nFatal Push Card Style\nSwords to Plowshares Card Style\nAnger of the Gods Card Style\nExplore Card Style",
@@ -61288,8 +61540,8 @@
         "translation": "起始套牌：标准兔子"
     },
     "MainNav/Store/Decks/Proration_Description": {
-        "oracleText": "The following cards are already in your collection and are not included when determining the final price:",
-        "translation": "以下卡牌已包含在您的收藏中，在确定最终价格时不会重复计算："
+        "oracleText": "Due to your collection, the following cards from the deck will be added to your collection for free, and will not be included when determining the final price.",
+        "translation": "Due to your collection, the following cards from the deck will be added to your collection for free, and will not be included when determining the final price."
     },
     "MainNav/Store/Deferred": {
         "oracleText": "Deferred",
@@ -63150,6 +63402,10 @@
     "MainNav/WebLink/PrivacyPolicy": {
         "oracleText": "https://company.wizards.com/legal/wizards-coasts-privacy-policy",
         "translation": "https://company.wizards.com/legal/wizards-coasts-privacy-policy"
+    },
+    "MainNav/WebLink/PrivacyPolicyDoNotSell": {
+        "oracleText": "https://company.wizards.com/legal/wizards-coasts-privacy-policy#donotsell",
+        "translation": "https://company.wizards.com/legal/wizards-coasts-privacy-policy#donotsell"
     },
     "MainNav/WebLink/Promotions": {
         "oracleText": "https://magic.wizards.com/en/promotions",
@@ -68371,6 +68627,10 @@
         "oracleText": "Available",
         "translation": "可用"
     },
+    "Social/Presence/Button_PackPick_PickX": {
+        "oracleText": "Select ({numberSelected}/{numberToSelect})",
+        "translation": "Select ({numberSelected}/{numberToSelect})"
+    },
     "Social/Presence/Detail_Challengeable": {
         "oracleText": "Challengeable",
         "translation": "可对战"
@@ -68422,6 +68682,10 @@
     "Social/Presence/Detail_PackPick": {
         "oracleText": "Pack {pack} | Pick {pick}",
         "translation": "第{pack}包 | 第{pick}抓"
+    },
+    "Social/Presence/Detail_PackPick_PickX": {
+        "oracleText": "Pack {pack} | Pick {pick} | Select {numberOfCards}",
+        "translation": "Pack {pack} | Pick {pick} | Select {numberOfCards}"
     },
     "Social/Presence/Detail_Rejoining": {
         "oracleText": "Rejoining Match",
