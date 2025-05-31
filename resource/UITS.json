@@ -207,6 +207,14 @@
         "oracleText": "Magecraft",
         "translation": "魔艺"
     },
+    "AbilityHanger/AbilityWord/Melee_Body": {
+        "oracleText": "Whenever this creature attacks, it gets +1/+1 until end of turn for each opponent you attacked this combat.",
+        "translation": "Whenever this creature attacks, it gets +1/+1 until end of turn for each opponent you attacked this combat."
+    },
+    "AbilityHanger/AbilityWord/Melee_Title": {
+        "oracleText": "Melee",
+        "translation": "Melee"
+    },
     "AbilityHanger/AbilityWord/Offspring_Body": {
         "oracleText": "You may pay an additional {abilityCost} as you cast this spell. If you do, when this creature enters, create a 1/1 copy of it.",
         "translation": "你施放此咒语时可以额外支付{abilityCost}。如果你如此作，则当此生物进场时，派出一个为其复制品的1/1衍生物。"
@@ -591,6 +599,14 @@
         "oracleText": "Adapt {numeral}",
         "translation": "演化{numeral}"
     },
+    "AbilityHanger/Keyword/AffinityForBirds_Body": {
+        "oracleText": "This spell costs {o1} less to cast for each Bird you control.",
+        "translation": "This spell costs {o1} less to cast for each Bird you control."
+    },
+    "AbilityHanger/Keyword/AffinityForBirds_Title": {
+        "oracleText": "Affinity for Birds",
+        "translation": "Affinity for Birds"
+    },
     "AbilityHanger/Keyword/AffinityForCitizens_Body": {
         "oracleText": "This spell costs {o1} less to cast for each Citizens you control.",
         "translation": "你每操控一个市民，此咒语便减少{o1}来施放。"
@@ -654,6 +670,14 @@
     "AbilityHanger/Keyword/AffinityForSnowLands_Title": {
         "oracleText": "Affinity for Snow Lands",
         "translation": "雪境地共鸣"
+    },
+    "AbilityHanger/Keyword/AffinityForTowns_Body": {
+        "oracleText": "This spell costs {o1} less to cast for each Town you control.",
+        "translation": "This spell costs {o1} less to cast for each Town you control."
+    },
+    "AbilityHanger/Keyword/AffinityForTowns_Title": {
+        "oracleText": "Affinity for Towns",
+        "translation": "Affinity for Towns"
     },
     "AbilityHanger/Keyword/Afflict": {
         "oracleText": "Whenever this creature becomes blocked, defending player loses {numeral} life.",
@@ -930,6 +954,14 @@
     "AbilityHanger/Keyword/Cloak_Title": {
         "oracleText": "Cloak",
         "translation": "匿伏"
+    },
+    "AbilityHanger/Keyword/CommanderNinjutsu_Body": {
+        "oracleText": "{abilityCost}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand or the command zone tapped and attacking.",
+        "translation": "{abilityCost}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand or the command zone tapped and attacking."
+    },
+    "AbilityHanger/Keyword/CommanderNinjutsu_Title": {
+        "oracleText": "Commander Ninjutsu",
+        "translation": "Commander Ninjutsu"
     },
     "AbilityHanger/Keyword/Compleated_Body": {
         "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"{manaCombined}\"> can be paid with <sprite=\"SpriteSheet_ManaIcons\" name=\"{manaType0}\">, <sprite=\"SpriteSheet_ManaIcons\" name=\"{manaType1}\">, or 2 life. If life was paid, this planeswalker enters with two fewer loyalty counters.",
@@ -1643,6 +1675,14 @@
         "oracleText": "Hexproof from White",
         "translation": "反白辟邪"
     },
+    "AbilityHanger/Keyword/Hideaway4_Body": {
+        "oracleText": "When this permanent enters the battlefield, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.",
+        "translation": "When this permanent enters the battlefield, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order."
+    },
+    "AbilityHanger/Keyword/Hideaway4_Title": {
+        "oracleText": "Hideaway 4",
+        "translation": "Hideaway 4"
+    },
     "AbilityHanger/Keyword/Hideaway5_Body": {
         "oracleText": "When this permanent enters the battlefield, look at the top five cards of your library, exile one face down, then put the rest on the bottom in a random order.",
         "translation": "当此永久物进战场时，检视你牌库顶的五张牌，将其中一张牌面朝下地放逐，然后将其余的牌以随机顺序置于牌库底。"
@@ -1750,6 +1790,14 @@
     "AbilityHanger/Keyword/Islandwalk_Body": {
         "oracleText": "This creature can't be blocked as long as defending player controls an Island.",
         "translation": "只要防御牌手操控海岛，此生物便不能被阻挡。"
+    },
+    "AbilityHanger/Keyword/Job_Select_Body": {
+        "oracleText": "When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.",
+        "translation": "When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it."
+    },
+    "AbilityHanger/Keyword/Job_Select_Title": {
+        "oracleText": "Job Select",
+        "translation": "Job Select"
     },
     "AbilityHanger/Keyword/Jump-start": {
         "oracleText": "You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.",
@@ -1947,6 +1995,10 @@
         "oracleText": "You can have two commanders if both have Partner.",
         "translation": "你可将两个具有拍档异能的生物共同用作指挥官。"
     },
+    "AbilityHanger/Keyword/Partner_Title": {
+        "oracleText": "Partner",
+        "translation": "Partner"
+    },
     "AbilityHanger/Keyword/PermanentTypesInGraveyard_Body": {
         "oracleText": "Permanent types currently in graveyard:{permanentTypes}",
         "translation": "当前在坟墓场中的牌具有的永久物类型为：{permanentTypes}"
@@ -2134,6 +2186,22 @@
     "AbilityHanger/Keyword/ProtectionFromDragons": {
         "oracleText": "This permanent can't be blocked, targeted, or dealt damage by Dragons.",
         "translation": "该永久物不能被龙阻挡，指定为目标或造成伤害。"
+    },
+    "AbilityHanger/Keyword/ProtectionFromEachColor_Body": {
+        "oracleText": "A permanent with protection from each color can't be blocked, targeted, dealt damage, enchanted, or equipped by anything with a color.",
+        "translation": "A permanent with protection from each color can't be blocked, targeted, dealt damage, enchanted, or equipped by anything with a color."
+    },
+    "AbilityHanger/Keyword/ProtectionFromEachColor_Title": {
+        "oracleText": "Protection From Each Color",
+        "translation": "Protection From Each Color"
+    },
+    "AbilityHanger/Keyword/ProtectionFromEachOpponent_Body": {
+        "oracleText": "You can't be dealt damage, enchanted, or targeted by anything controlled by your opponents.",
+        "translation": "You can't be dealt damage, enchanted, or targeted by anything controlled by your opponents."
+    },
+    "AbilityHanger/Keyword/ProtectionFromEachOpponent_Title": {
+        "oracleText": "Protection From Each Opponent",
+        "translation": "Protection From Each Opponent"
     },
     "AbilityHanger/Keyword/ProtectionFromEven": {
         "oracleText": "This permanent can't be blocked, targeted, dealt damage, enchanted, or equipped by anything with an even mana value.",
@@ -2562,6 +2630,14 @@
     "AbilityHanger/Keyword/TheRingTemptsYou_Title": {
         "oracleText": "The Ring Tempts You",
         "translation": "魔戒引诱你"
+    },
+    "AbilityHanger/Keyword/Tiered_Body": {
+        "oracleText": "Choose one mode and pay its additional cost.",
+        "translation": "Choose one mode and pay its additional cost."
+    },
+    "AbilityHanger/Keyword/Tiered_Title": {
+        "oracleText": "Tiered",
+        "translation": "Tiered"
     },
     "AbilityHanger/Keyword/Training_Body": {
         "oracleText": "Whenever this creature attacks with another creature with greater power, put a +1/+1 counter on this creature.",
@@ -3039,6 +3115,10 @@
         "oracleText": "You may cast this card as an Adventure, after you do exile it. You may then cast the artifact later from exile.",
         "translation": "你能将此牌当作历险来施放，之后会将它放逐。稍后你可以从放逐区施放该神器。"
     },
+    "AbilityHanger/SpecialHangers/Adventure_Body_Land": {
+        "oracleText": "You may cast this card as an Adventure, after you do exile it. You may then play the land later from exile.",
+        "translation": "You may cast this card as an Adventure, after you do exile it. You may then play the land later from exile."
+    },
     "AbilityHanger/SpecialHangers/Adventure_Body_Permanent": {
         "oracleText": "You may cast this card as an Adventure, after you do exile it. You may then cast the permanent spell later from exile.",
         "translation": "你能将此牌当作历险来施放，之后会将它放逐。稍后你可以从放逐区施放该永久物咒语。"
@@ -3286,6 +3366,10 @@
     "AbilityHanger/SpecialHangers/OnAnAdventure_Body": {
         "oracleText": "You may cast this card as an Adventure, after you do exile it. You may then cast the {PermanentType} later from exile.",
         "translation": "你可以将这张牌作为历险来施放，于其结算时，该咒语的操控者改为将其放逐，而非置入其拥有者的坟墓场。于该咒语持续被放逐期间，该牌手可以将它当作{PermanentType}咒语来施放。"
+    },
+    "AbilityHanger/SpecialHangers/OnAnAdventure_Land_Body": {
+        "oracleText": "You may cast this card as an Adventure, after you do exile it. You may then play the land later from exile.",
+        "translation": "You may cast this card as an Adventure, after you do exile it. You may then play the land later from exile."
     },
     "AbilityHanger/SpecialHangers/OnAnAdventure_Title": {
         "oracleText": "On an Adventure",
@@ -5795,6 +5879,26 @@
         "oracleText": "Aether Tiger Companion",
         "translation": "乙太虎宠物"
     },
+    "BattlePass/Rewards/FIN_Companion_Hover": {
+        "oracleText": "Chocobo, Awakened Inferno: Mastery Pass Level 40",
+        "translation": "Chocobo, Awakened Inferno: Mastery Pass Level 40"
+    },
+    "BattlePass/Rewards/FIN_Level1": {
+        "oracleText": "Cloud Avatar, Chocobo Companion, and Cloud Sleeve",
+        "translation": "Cloud Avatar, Chocobo Companion, and Cloud Sleeve"
+    },
+    "BattlePass/Rewards/FIN_Pet1": {
+        "oracleText": "Chocobo Companion",
+        "translation": "Chocobo Companion"
+    },
+    "BattlePass/Rewards/FIN_Pet2": {
+        "oracleText": "1 Set Mastery Orb & Chocobo, the Mind Sculptor Companion",
+        "translation": "1 Set Mastery Orb & Chocobo, the Mind Sculptor Companion"
+    },
+    "BattlePass/Rewards/FIN_Pet3": {
+        "oracleText": "1 Set Mastery Orb & Chocobo, Awakened Inferno Companion",
+        "translation": "1 Set Mastery Orb & Chocobo, Awakened Inferno Companion"
+    },
     "BattlePass/Rewards/FIN_Preorder_1": {
         "oracleText": "Moogle Companion",
         "translation": "莫古力宠物"
@@ -5898,6 +6002,14 @@
     "BattlePass/Rewards/ICR_FDNshort_M_Plural": {
         "oracleText": "{number1} Foundations Mythic Card Rewards",
         "translation": "{number1}基石构筑秘稀卡牌奖励"
+    },
+    "BattlePass/Rewards/ICR_FIN_M": {
+        "oracleText": "Magic: The Gathering—FINAL FANTASY  Mythic Card Reward",
+        "translation": "Magic: The Gathering—FINAL FANTASY  Mythic Card Reward"
+    },
+    "BattlePass/Rewards/ICR_FIN_M_Plural": {
+        "oracleText": "{number1} Magic: The Gathering—FINAL FANTASY  Mythic Card Rewards",
+        "translation": "{number1} Magic: The Gathering—FINAL FANTASY  Mythic Card Rewards"
     },
     "BattlePass/Rewards/ICR_TDM_M": {
         "oracleText": "Tarkir: Dragonstorm Mythic Card Reward",
@@ -6514,6 +6626,10 @@
     "BattlePass/Rewards/Skin_and_Orb": {
         "oracleText": "1 Card Style & 1 Set Mastery Orb",
         "translation": "1份卡牌样式和1颗精研法珠"
+    },
+    "BattlePass/Rewards/Skin_and_Orbs": {
+        "oracleText": "1 Card Style & {number1} Set Mastery Orbs",
+        "translation": "1 Card Style & {number1} Set Mastery Orbs"
     },
     "BattlePass/Rewards/StickerEmote_ZNRHedron_Angry": {
         "oracleText": "Hedron Angry Emote",
@@ -10599,6 +10715,14 @@
         "oracleText": "Villains of Darkness",
         "translation": "暗之恶徒"
     },
+    "Decks/Precon/Precon_Starter2025_FINSGF1": {
+        "oracleText": "Warriors of Light",
+        "translation": "Warriors of Light"
+    },
+    "Decks/Precon/Precon_Starter2025_FINSGF2": {
+        "oracleText": "Villains of Darkness",
+        "translation": "Villains of Darkness"
+    },
     "Decks/Precon/Precon_StarterAmazon2021_BG": {
         "oracleText": "Rough and Tumble",
         "translation": "粗暴和翻滚"
@@ -10774,6 +10898,130 @@
     "Decks/Precon/Standard_FDN_WU": {
         "oracleText": "Arcane Aerialists",
         "translation": "秘法舞空"
+    },
+    "Decks/Precon/Standard_FIN_": {
+        "oracleText": "Lightning Aggro",
+        "translation": "Lightning Aggro"
+    },
+    "Decks/Precon/Standard_FIN_AerithMinwuLifegain": {
+        "oracleText": "Aerith and Minwu Lifegain",
+        "translation": "Aerith and Minwu Lifegain"
+    },
+    "Decks/Precon/Standard_FIN_Aggro": {
+        "oracleText": "Aggro",
+        "translation": "Aggro"
+    },
+    "Decks/Precon/Standard_FIN_ArtifactCreatureSacrifice": {
+        "oracleText": "Artifact and Creature Sacrifice",
+        "translation": "Artifact and Creature Sacrifice"
+    },
+    "Decks/Precon/Standard_FIN_Artifacts": {
+        "oracleText": "Artifacts",
+        "translation": "Artifacts"
+    },
+    "Decks/Precon/Standard_FIN_BGRagnarok": {
+        "oracleText": "Ragnarok",
+        "translation": "Ragnarok"
+    },
+    "Decks/Precon/Standard_FIN_BigNoncreatures": {
+        "oracleText": "Big Noncreatures",
+        "translation": "Big Noncreatures"
+    },
+    "Decks/Precon/Standard_FIN_BlackMageAggro": {
+        "oracleText": "Black Mage Aggro",
+        "translation": "Black Mage Aggro"
+    },
+    "Decks/Precon/Standard_FIN_ChocoboLandfall": {
+        "oracleText": "Chocobo Landfall",
+        "translation": "Chocobo Landfall"
+    },
+    "Decks/Precon/Standard_FIN_CloudsArmory": {
+        "oracleText": "Lifegain—W/x deck built around lifegain",
+        "translation": "Lifegain—W/x deck built around lifegain"
+    },
+    "Decks/Precon/Standard_FIN_Control": {
+        "oracleText": "Control",
+        "translation": "Control"
+    },
+    "Decks/Precon/Standard_FIN_DionsKnights": {
+        "oracleText": "Dion's Knights",
+        "translation": "Dion's Knights"
+    },
+    "Decks/Precon/Standard_FIN_Enchantments": {
+        "oracleText": "Enchantments",
+        "translation": "Enchantments"
+    },
+    "Decks/Precon/Standard_FIN_Equipment Aggro": {
+        "oracleText": "Enchantments",
+        "translation": "Enchantments"
+    },
+    "Decks/Precon/Standard_FIN_EquipmentAggro": {
+        "oracleText": "Equipment Aggro",
+        "translation": "Equipment Aggro"
+    },
+    "Decks/Precon/Standard_FIN_GoWide": {
+        "oracleText": "Go Wide",
+        "translation": "Go Wide"
+    },
+    "Decks/Precon/Standard_FIN_GraveyardValue": {
+        "oracleText": "Graveyard Value",
+        "translation": "Graveyard Value"
+    },
+    "Decks/Precon/Standard_FIN_KujahBlackMages": {
+        "oracleText": "Kujah's Army",
+        "translation": "Kujah's Army"
+    },
+    "Decks/Precon/Standard_FIN_LandfallAggro": {
+        "oracleText": "Landfall Aggro",
+        "translation": "Landfall Aggro"
+    },
+    "Decks/Precon/Standard_FIN_Lifegain": {
+        "oracleText": "Lifegain",
+        "translation": "Lifegain"
+    },
+    "Decks/Precon/Standard_FIN_Midrange": {
+        "oracleText": "Midrange",
+        "translation": "Midrange"
+    },
+    "Decks/Precon/Standard_FIN_QuinaTokens": {
+        "oracleText": "Quina's Token Kitchen",
+        "translation": "Quina's Token Kitchen"
+    },
+    "Decks/Precon/Standard_FIN_Ramp": {
+        "oracleText": "Ramp",
+        "translation": "Ramp"
+    },
+    "Decks/Precon/Standard_FIN_RandomEncounters": {
+        "oracleText": "Random Encounters",
+        "translation": "Random Encounters"
+    },
+    "Decks/Precon/Standard_FIN_Summons": {
+        "oracleText": "Summons",
+        "translation": "Summons"
+    },
+    "Decks/Precon/Standard_FIN_TheFinalDays": {
+        "oracleText": "The Final Days",
+        "translation": "The Final Days"
+    },
+    "Decks/Precon/Standard_FIN_Tokens": {
+        "oracleText": "Tokens",
+        "translation": "Tokens"
+    },
+    "Decks/Precon/Standard_FIN_Town Ramp": {
+        "oracleText": "Town Ramp",
+        "translation": "Town Ramp"
+    },
+    "Decks/Precon/Standard_FIN_Towns": {
+        "oracleText": "Towns",
+        "translation": "Towns"
+    },
+    "Decks/Precon/Standard_FIN_VaansCrew": {
+        "oracleText": "Vaan's Crew",
+        "translation": "Vaan's Crew"
+    },
+    "Decks/Precon/Standard_FIN_WARK": {
+        "oracleText": "WARK!",
+        "translation": "WARK!"
     },
     "Decks/Precon/Standard_LCI_Storydecks_BadShrooms": {
         "oracleText": "Bad Shrooms",
@@ -11815,6 +12063,22 @@
         "oracleText": "Champion Deck: Explorer Mono-Green Devotion",
         "translation": "夺冠套牌：探险纯绿献力"
     },
+    "Decks/StoreDecks/FIN/Wave1/FoundationCloud": {
+        "oracleText": "Foundation Deck: Brawl Cloud, Ex-SOLDIER",
+        "translation": "Foundation Deck: Brawl Cloud, Ex-SOLDIER"
+    },
+    "Decks/StoreDecks/FIN/Wave1/FoundationTerra": {
+        "oracleText": "Foundation Deck: Brawl Terra, Herald of Hope",
+        "translation": "Foundation Deck: Brawl Terra, Herald of Hope"
+    },
+    "Decks/StoreDecks/FIN/Wave1/FoundationTidus": {
+        "oracleText": "Foundation Deck: Brawl Tidus, Yuna's Guardian",
+        "translation": "Foundation Deck: Brawl Tidus, Yuna's Guardian"
+    },
+    "Decks/StoreDecks/FIN/Wave1/Foundationyshtola": {
+        "oracleText": "Foundation Deck: Brawl Y'shtola, Night's Blessed",
+        "translation": "Foundation Deck: Brawl Y'shtola, Night's Blessed"
+    },
     "Decks/StoreDecks/TDM/Wave1/Abzan": {
         "oracleText": "Foundation Deck: Brawl Betor, Ancestor's Voice",
         "translation": "基础套牌：争锋先祖之声贝托"
@@ -12299,9 +12563,17 @@
         "oracleText": "Beginning of Combat, Declare Attackers, Declare Blockers, Combat Damage, End of Combat",
         "translation": "战斗开始，宣告攻击者，宣告阻挡者，战斗伤害，战斗结束"
     },
+    "DuelScene/Browsers/Confirmation_SubHeader_ClivesHideaway": {
+        "oracleText": "You do not control four or more legendary creatures.",
+        "translation": "You do not control four or more legendary creatures."
+    },
     "DuelScene/Browsers/Confirmation_SubHeader_PatchworkCrawler": {
         "oracleText": "{CardName} will not gain the activated abilities of creature cards exiled by this ability.",
         "translation": "{CardName}不会获得由此能力放逐的生物的起动式异能。"
+    },
+    "DuelScene/Browsers/Confirmation_SubHeader_ShelldockIsle": {
+        "oracleText": "Each library has more than twenty cards.",
+        "translation": "Each library has more than twenty cards."
     },
     "DuelScene/Browsers/Conjure_Subheader": {
         "oracleText": "Conjure a Card.",
@@ -12778,6 +13050,14 @@
     "DuelScene/Browsers/Surveil_Browser_Title": {
         "oracleText": "Surveil",
         "translation": "刺探"
+    },
+    "DuelScene/Browsers/Tiered_BrowserHeader": {
+        "oracleText": "Tiered",
+        "translation": "Tiered"
+    },
+    "DuelScene/Browsers/Tiered_BrowserSubHeader": {
+        "oracleText": "Choose an additional cost.",
+        "translation": "Choose an additional cost."
     },
     "DuelScene/Browsers/Transform": {
         "oracleText": "Transform?",
@@ -13734,6 +14014,10 @@
     "DuelScene/Interaction/OptionalAction/Option_Untap": {
         "oracleText": "Untap",
         "translation": "重置"
+    },
+    "DuelScene/Interaction/QuantityParameter": {
+        "oracleText": "{quantity}",
+        "translation": "{quantity}"
     },
     "DuelScene/Interaction/SelectCounters/ChooseCounterToRemove": {
         "oracleText": "({cardname}) Choose counter to remove.",
@@ -15563,6 +15847,10 @@
         "oracleText": "{sleeveName} Exquisite Sleeve",
         "translation": "{sleeveName}精饰牌套"
     },
+    "EPP/RewardTrack/FIN_Bonus_Sleeve_Golbez": {
+        "oracleText": "Golbez, Crystal Collector Sleeve",
+        "translation": "Golbez, Crystal Collector Sleeve"
+    },
     "EPP/RewardTrack/Gold_And_Orb": {
         "oracleText": "{number1} Gold & {number2} Orb",
         "translation": "{number1}枚金币和{number2}颗法珠"
@@ -16690,6 +16978,134 @@
     "Emotes/DSK/Mini/Phrase_DSK_WantGame": {
         "oracleText": "Want to play a game?",
         "translation": "想玩个游戏？"
+    },
+    "Emotes/FIN/Full/Phrase_FIN_Booyaka": {
+        "oracleText": "Booyaka!",
+        "translation": "Booyaka!"
+    },
+    "Emotes/FIN/Full/Phrase_FIN_DontUnderestimateMe": {
+        "oracleText": "Don't underestimate me!",
+        "translation": "Don't underestimate me!"
+    },
+    "Emotes/FIN/Full/Phrase_FIN_Doomed": {
+        "oracleText": "Are we doomed? Pretty sure we're doomed.",
+        "translation": "Are we doomed? Pretty sure we're doomed."
+    },
+    "Emotes/FIN/Full/Phrase_FIN_DuhDuhDuh": {
+        "oracleText": "Duh-duh-duh duuun duuun duuun dun duh-duuun!♪",
+        "translation": "Duh-duh-duh duuun duuun duuun dun duh-duuun!♪"
+    },
+    "Emotes/FIN/Full/Phrase_FIN_HearFeelThink": {
+        "oracleText": "Hear... Feel... Think...",
+        "translation": "Hear... Feel... Think..."
+    },
+    "Emotes/FIN/Full/Phrase_FIN_Kupo": {
+        "oracleText": "Kupo!",
+        "translation": "Kupo!"
+    },
+    "Emotes/FIN/Full/Phrase_FIN_Ohohohoho": {
+        "oracleText": "Ohohohohoho!",
+        "translation": "Ohohohohoho!"
+    },
+    "Emotes/FIN/Full/Phrase_FIN_Ready": {
+        "oracleText": "I am ready!",
+        "translation": "I am ready!"
+    },
+    "Emotes/FIN/Full/Phrase_FIN_TakeThis": {
+        "oracleText": "Ow! Take this!",
+        "translation": "Ow! Take this!"
+    },
+    "Emotes/FIN/Full/Phrase_FIN_TimeNotWait": {
+        "oracleText": "Time...it will not wait",
+        "translation": "Time...it will not wait"
+    },
+    "Emotes/FIN/Full/Phrase_FIN_UltimateSpell": {
+        "oracleText": "I have no choice. Witness my ultimate spell!",
+        "translation": "I have no choice. Witness my ultimate spell!"
+    },
+    "Emotes/FIN/Full/Phrase_FIN_Um": {
+        "oracleText": "Um...",
+        "translation": "Um..."
+    },
+    "Emotes/FIN/Full/Phrase_FIN_Ungaahhh": {
+        "oracleText": "Uraaahhh!",
+        "translation": "Uraaahhh!"
+    },
+    "Emotes/FIN/Full/Phrase_FIN_Uwaoo": {
+        "oracleText": "Uwaoo~!",
+        "translation": "Uwaoo~!"
+    },
+    "Emotes/FIN/Full/Phrase_FIN_WhatchaUpTo": {
+        "oracleText": "Whatcha up to?",
+        "translation": "Whatcha up to?"
+    },
+    "Emotes/FIN/Full/Phrase_FIN_WontLetItHappen": {
+        "oracleText": "...I won't let it happen. I won't...!",
+        "translation": "...I won't let it happen. I won't...!"
+    },
+    "Emotes/FIN/Mini/Phrase_FIN_Booyaka": {
+        "oracleText": "Booyaka!",
+        "translation": "Booyaka!"
+    },
+    "Emotes/FIN/Mini/Phrase_FIN_DontUnderestimateMe": {
+        "oracleText": "Don't underestimate me!",
+        "translation": "Don't underestimate me!"
+    },
+    "Emotes/FIN/Mini/Phrase_FIN_Doomed": {
+        "oracleText": "Are we doomed?",
+        "translation": "Are we doomed?"
+    },
+    "Emotes/FIN/Mini/Phrase_FIN_DuhDuhDuh": {
+        "oracleText": "Duh-duh-duuun!♪",
+        "translation": "Duh-duh-duuun!♪"
+    },
+    "Emotes/FIN/Mini/Phrase_FIN_HearFeelThink": {
+        "oracleText": "Hear... Feel... Think...",
+        "translation": "Hear... Feel... Think..."
+    },
+    "Emotes/FIN/Mini/Phrase_FIN_Kupo": {
+        "oracleText": "Kupo!",
+        "translation": "Kupo!"
+    },
+    "Emotes/FIN/Mini/Phrase_FIN_Ohohohoho": {
+        "oracleText": "Ohohohohoho!",
+        "translation": "Ohohohohoho!"
+    },
+    "Emotes/FIN/Mini/Phrase_FIN_Ready": {
+        "oracleText": "I am ready!",
+        "translation": "I am ready!"
+    },
+    "Emotes/FIN/Mini/Phrase_FIN_TakeThis": {
+        "oracleText": "Ow! Take this!",
+        "translation": "Ow! Take this!"
+    },
+    "Emotes/FIN/Mini/Phrase_FIN_TimeNotWait": {
+        "oracleText": "Time...it will not wait",
+        "translation": "Time...it will not wait"
+    },
+    "Emotes/FIN/Mini/Phrase_FIN_UltimateSpell": {
+        "oracleText": "No choice. Ultimate spell!",
+        "translation": "No choice. Ultimate spell!"
+    },
+    "Emotes/FIN/Mini/Phrase_FIN_Um": {
+        "oracleText": "Um...",
+        "translation": "Um..."
+    },
+    "Emotes/FIN/Mini/Phrase_FIN_Ungaahhh": {
+        "oracleText": "Uraaahhh!",
+        "translation": "Uraaahhh!"
+    },
+    "Emotes/FIN/Mini/Phrase_FIN_Uwaoo": {
+        "oracleText": "Uwaoo~!",
+        "translation": "Uwaoo~!"
+    },
+    "Emotes/FIN/Mini/Phrase_FIN_WhatchaUpTo": {
+        "oracleText": "Whatcha up to?",
+        "translation": "Whatcha up to?"
+    },
+    "Emotes/FIN/Mini/Phrase_FIN_WontLetItHappen": {
+        "oracleText": "Won't let it happen!",
+        "translation": "Won't let it happen!"
     },
     "Emotes/MH3/Full/GreetDeath": {
         "oracleText": "Greet death with sword in hand.",
@@ -19143,6 +19559,26 @@
         "oracleText": "This token denotes that you are eligible to receive a physical Magic: The Gathering Foundations Play Booster Box",
         "translation": "此代币表示您有资格获得1盒实体万智牌：基石构筑常规补充包"
     },
+    "Events/ArenaDirect_FIN_COLLECTOR_String": {
+        "oracleText": "This token denotes that you are eligible to receive 1 physical Magic: the Gathering—FINAL FANTASY Collector Booster Box",
+        "translation": "This token denotes that you are eligible to receive 1 physical Magic: the Gathering—FINAL FANTASY Collector Booster Box"
+    },
+    "Events/ArenaDirect_FIN_Play_String": {
+        "oracleText": "This token denotes that you are eligible to receive {number1} physical Magic: the Gathering—FINAL FANTASY Play Booster Box",
+        "translation": "This token denotes that you are eligible to receive {number1} physical Magic: the Gathering—FINAL FANTASY Play Booster Box"
+    },
+    "Events/ArenaDirect_FIN_Set_Prize": {
+        "oracleText": "1 Magic: the Gathering—FINAL FANTASY Play Booster Box",
+        "translation": "1 Magic: the Gathering—FINAL FANTASY Play Booster Box"
+    },
+    "Events/ArenaDirect_FIN_Set_Prize2": {
+        "oracleText": "2 Magic: the Gathering—FINAL FANTASY Play Booster Boxes",
+        "translation": "2 Magic: the Gathering—FINAL FANTASY Play Booster Boxes"
+    },
+    "Events/ArenaDirect_FIN_String": {
+        "oracleText": "This token denotes you are eligible to receive 1 physical Magic: the Gathering—FINAL FANTASY Booster Box",
+        "translation": "This token denotes you are eligible to receive 1 physical Magic: the Gathering—FINAL FANTASY Booster Box"
+    },
     "Events/ArenaDirect_LCI_Set_Prize": {
         "oracleText": "One <i>Lost Caverns of Ixalan </i> Set Booster Box",
         "translation": "一盒<i>依夏兰迷窟</i>系列补充包"
@@ -21211,6 +21647,14 @@
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win two physical <i>Magic: The Gathering Foundations</i> Play Booster Boxes delivered to you.\n\nThe format for this event is 6 packs of <i>Magic: The Gathering Foundations</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-otj-terms-and-conditions>here</link></u> for full details.</color></b>",
         "translation": "<size=150%><color=#e1a154>参加赛事，竞夺卡盒！</color></size>\n\n报名参加此赛事，赢得全部6胜就能获得两盒实体<i>万智牌：基石构筑</i>常规补充包邮寄到家。\n\n本赛事的赛制为6包补充包的<i>万智牌：基石构筑</i>BO1现开赛。\n\n<b><color=red>须年满18周岁方能参加。部分地区／地域不能参加本赛事。在法律禁止的地区无效。须创建或具现有威世智、DCI及i-Payout帐户方能领取奖金。完整详细信息，请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-otj-terms-and-conditions>此处</link></u>。</color></b>"
     },
+    "Events/Event_Desc_ArenaDirect_FIN_Collector_Sealed": {
+        "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 7 wins to win a physical Magic: the Gathering—FINAL FANTASY Collector Booster Box delivered to you.\n\nThe format for this event is 6 packs of <i>Magic: the Gathering—FINAL FANTASY</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 7 wins to win a physical Magic: the Gathering—FINAL FANTASY Collector Booster Box delivered to you.\n\nThe format for this event is 6 packs of <i>Magic: the Gathering—FINAL FANTASY</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>"
+    },
+    "Events/Event_Desc_ArenaDirect_FIN_Play_Sealed": {
+        "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 7 wins to win 2 physical Magic: the Gathering—FINAL FANTASY Play Booster Boxes delivered to you.\n\nThe format for this event is 6 packs of <i>Magic: the Gathering—FINAL FANTASY</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 7 wins to win 2 physical Magic: the Gathering—FINAL FANTASY Play Booster Boxes delivered to you.\n\nThe format for this event is 6 packs of <i>Magic: the Gathering—FINAL FANTASY</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>"
+    },
     "Events/Event_Desc_ArenaDirect_LCI_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win a pair of The Lost Caverns of Ixalan Set Booster Box delivered to you.\n\nThe format for this event is 6 packs of <i>The Lost Caverns of Ixalan</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-LCI-terms-and-conditions>here</link></u> for full details.</color></b>",
         "translation": "<size=150%><color=#e1a154>为实体奖励而战！</color></size>\n\n报名参加本赛事并赢得全部6场胜利，将会邮寄给你一盒实体依夏兰迷窟系列补充包。\n\n本赛事的赛制是<i>依夏兰迷窟</i>BO1现开。\n\n<b><color=red>必须年满18周岁才能参加。并非在所有地区/领地都可用。禁止地区无效。领取现金奖励需要创建或拥有现有的Wizards、DCI和i-Payout账户。请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-LCI-terms-and-conditions>此处</link></u>了解完整详情。</color></b>"
@@ -21931,6 +22375,22 @@
         "oracleText": "<size=150%><color=#e1a154>The prizes for this event are only available to players in the United States.</color></size>\n\nSign up for this event and get all 6 wins to win a Physical Festival in a Box: Las Vegas 2023 delivered to you.\n\nThe format for this event is 9 packs of Chaos Sealed with single-game matches. You'll receive 9 packs:\n\n1x Dominaria United Draft\n1x The Brothers' War Draft\n1x Streets of New Capenna Draft\n1x Kamigawa: Neon Dynasty Draft\n1x Wilds of Eldraine Draft\n1x March of the Machine Draft\n1x Phyrexia: All Will Be One Draft\n1x Innistrad: Crimson Vow Draft\n1x Innistrad: Midnight Hunt Draft\n\nThe cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-one-game matches and receive prizes based on how many matches you win!\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving physical rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/festival-in-a-box-event-terms-and-conditions>here</link></u> for full details.</color></b>",
         "translation": "<size=150%><color=#e1a154>此活动奖励仅向位于美国境内的牌手提供。。</color></size>\n\n报名参加此活动，并全取6胜，便能赢得一套实体Festival in a Box: Las Vegas 2023产品，寄送到府。\n\n本活动的赛制为一盘定胜负的9包混沌现开。你将获得以下9包补充包：\n\n1x多明纳里亚：众志成城\n1x兄弟之战\n1x新卡佩纳：喧嚣黑街\n1x神河霓朝纪\n1x艾卓仙踪\n1x邪军压境\n1x非瑞克西亚：万界归一\n1x依尼翠：腥红婚誓\n1x依尼翠：黯夜猎踪\n\n这些牌张将加入你的收藏，而你将使用它们和基本地来构组一副40张的套牌。不断进行对战，最后根据胜场数量赢得奖励！\n\n<b><color=red>须年满18周岁方能参加。部分地区／地域不能参加本赛事。在法律禁止的地区无效。领取实体奖励需要创建或拥有现有的威世智、DCI和i-Payout账户。欲知完整信息，请<u><link=https://magic.wizards.com/en/news/mtg-arena/festival-in-a-box-event-terms-and-conditions>点击此处</u></link>。</color></b>"
     },
+    "Events/Event_Desc_FIN_Premier_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Artifacts</b> Calling all Machinists! Build up your arsenal by playing artifacts, including artifact creatures and token generating Equipment, then gain extra bonuses for playing those artifacts.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Control</b> Scheme and act in secret. Dominate the long game with strategies like removal spells, card draw, and tricky creatures. Cast flashback spells to crush foes under the weight of the past!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Black Mage Aggro</b> Play the aggressive game with creatures that reward you whenever you cast a noncreature spell. Look for cards that create Wizard tokens and turn those spells into a barrage of damage!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Landfall Aggro</b> Play creatures with landfall abilities, like Chocobos, and earn bonuses as you play lands. Look for ways to play extra lands and strengthen your creatures even further!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Go Wide</b> Call forth a battalion of formidable fighters and play cards that make tokens. Either reinforce your standing army or leverage your high creature count to cast hard-hitting spells!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Artifact and Creature Sacrifice</b> Sacrifice your artifacts and creatures, especially ones with death effects, to steadily gain the upper hand. Token generating Equipment gives you two things to sacrifice!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Big Noncreatures</b> Whenever you cast spells that cost 4 or more mana, you'll gain bonuses in battle. Find ways to generate tokens, like with special Equipment, so that your noncreature spells can add to your forces!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Graveyard Value</b> Slow and steady wins the game! Mill to fill your graveyard early with powerful creatures and flashback spells, then bring them back to the fight late in the game to achieve victory.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Equipment Aggro</b> Grab your favorite iconic weapon and rush into battle! Look for creatures that want to be equipped or cards that reward you for having Equipment, then gear up to outclass your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Town Ramp</b> Travel the overworld! Towns are lands that grant more perks the more of them you have, so play a bunch and reap the rewards. You'll even want to play some Towns that aren't blue or green, so be sure to splash in some other colors, too!",
+        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Artifacts</b> Calling all Machinists! Build up your arsenal by playing artifacts, including artifact creatures and token generating Equipment, then gain extra bonuses for playing those artifacts.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Control</b> Scheme and act in secret. Dominate the long game with strategies like removal spells, card draw, and tricky creatures. Cast flashback spells to crush foes under the weight of the past!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Black Mage Aggro</b> Play the aggressive game with creatures that reward you whenever you cast a noncreature spell. Look for cards that create Wizard tokens and turn those spells into a barrage of damage!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Landfall Aggro</b> Play creatures with landfall abilities, like Chocobos, and earn bonuses as you play lands. Look for ways to play extra lands and strengthen your creatures even further!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Go Wide</b> Call forth a battalion of formidable fighters and play cards that make tokens. Either reinforce your standing army or leverage your high creature count to cast hard-hitting spells!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Artifact and Creature Sacrifice</b> Sacrifice your artifacts and creatures, especially ones with death effects, to steadily gain the upper hand. Token generating Equipment gives you two things to sacrifice!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Big Noncreatures</b> Whenever you cast spells that cost 4 or more mana, you'll gain bonuses in battle. Find ways to generate tokens, like with special Equipment, so that your noncreature spells can add to your forces!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Graveyard Value</b> Slow and steady wins the game! Mill to fill your graveyard early with powerful creatures and flashback spells, then bring them back to the fight late in the game to achieve victory.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Equipment Aggro</b> Grab your favorite iconic weapon and rush into battle! Look for creatures that want to be equipped or cards that reward you for having Equipment, then gear up to outclass your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Town Ramp</b> Travel the overworld! Towns are lands that grant more perks the more of them you have, so play a bunch and reap the rewards. You'll even want to play some Towns that aren't blue or green, so be sure to splash in some other colors, too!"
+    },
+    "Events/Event_Desc_FIN_Quick_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Artifacts</b> Calling all Machinists! Build up your arsenal by playing artifacts, including artifact creatures and token generating Equipment, then gain extra bonuses for playing those artifacts.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Control</b> Scheme and act in secret. Dominate the long game with strategies like removal spells, card draw, and tricky creatures. Cast flashback spells to crush foes under the weight of the past!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Black Mage Aggro</b> Play the aggressive game with creatures that reward you whenever you cast a noncreature spell. Look for cards that create Wizard tokens and turn those spells into a barrage of damage!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Landfall Aggro</b> Play creatures with landfall abilities, like Chocobos, and earn bonuses as you play lands. Look for ways to play extra lands and strengthen your creatures even further!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Go Wide</b> Call forth a battalion of formidable fighters and play cards that make tokens. Either reinforce your standing army or leverage your high creature count to cast hard-hitting spells!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Artifact and Creature Sacrifice</b> Sacrifice your artifacts and creatures, especially ones with death effects, to steadily gain the upper hand. Token generating Equipment gives you two things to sacrifice!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Big Noncreatures</b> Whenever you cast spells that cost 4 or more mana, you'll gain bonuses in battle. Find ways to generate tokens, like with special Equipment, so that your noncreature spells can add to your forces!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Graveyard Value</b> Slow and steady wins the game! Mill to fill your graveyard early with powerful creatures and flashback spells, then bring them back to the fight late in the game to achieve victory.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Equipment Aggro</b> Grab your favorite iconic weapon and rush into battle! Look for creatures that want to be equipped or cards that reward you for having Equipment, then gear up to outclass your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Town Ramp</b> Travel the overworld! Towns are lands that grant more perks the more of them you have, so play a bunch and reap the rewards. You'll even want to play some Towns that aren't blue or green, so be sure to splash in some other colors, too!",
+        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Artifacts</b> Calling all Machinists! Build up your arsenal by playing artifacts, including artifact creatures and token generating Equipment, then gain extra bonuses for playing those artifacts.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Control</b> Scheme and act in secret. Dominate the long game with strategies like removal spells, card draw, and tricky creatures. Cast flashback spells to crush foes under the weight of the past!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Black Mage Aggro</b> Play the aggressive game with creatures that reward you whenever you cast a noncreature spell. Look for cards that create Wizard tokens and turn those spells into a barrage of damage!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Landfall Aggro</b> Play creatures with landfall abilities, like Chocobos, and earn bonuses as you play lands. Look for ways to play extra lands and strengthen your creatures even further!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Go Wide</b> Call forth a battalion of formidable fighters and play cards that make tokens. Either reinforce your standing army or leverage your high creature count to cast hard-hitting spells!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Artifact and Creature Sacrifice</b> Sacrifice your artifacts and creatures, especially ones with death effects, to steadily gain the upper hand. Token generating Equipment gives you two things to sacrifice!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Big Noncreatures</b> Whenever you cast spells that cost 4 or more mana, you'll gain bonuses in battle. Find ways to generate tokens, like with special Equipment, so that your noncreature spells can add to your forces!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Graveyard Value</b> Slow and steady wins the game! Mill to fill your graveyard early with powerful creatures and flashback spells, then bring them back to the fight late in the game to achieve victory.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Equipment Aggro</b> Grab your favorite iconic weapon and rush into battle! Look for creatures that want to be equipped or cards that reward you for having Equipment, then gear up to outclass your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Town Ramp</b> Travel the overworld! Towns are lands that grant more perks the more of them you have, so play a bunch and reap the rewards. You'll even want to play some Towns that aren't blue or green, so be sure to splash in some other colors, too!"
+    },
+    "Events/Event_Desc_FIN_Quick_Draft_Emblem_Omniscience": {
+        "oracleText": "In Omniscience Draft, draft three packs and keep the cards you draft, but with a twist: You don't have to pay the mana costs for spells you cast! No need to put lands in your deck. You'll also get one mana of each color each turn to use for abilities, and every player starts with three cards in their hand instead of seven.\n\nSelect one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Artifacts</b> Calling all Machinists! Build up your arsenal by playing artifacts, including artifact creatures and token generating Equipment, then gain extra bonuses for playing those artifacts.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Control</b> Scheme and act in secret. Dominate the long game with strategies like removal spells, card draw, and tricky creatures. Cast flashback spells to crush foes under the weight of the past!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Black Mage Aggro</b> Play the aggressive game with creatures that reward you whenever you cast a noncreature spell. Look for cards that create Wizard tokens and turn those spells into a barrage of damage!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Landfall Aggro</b> Play creatures with landfall abilities, like Chocobos, and earn bonuses as you play lands. Look for ways to play extra lands and strengthen your creatures even further!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Go Wide</b> Call forth a battalion of formidable fighters and play cards that make tokens. Either reinforce your standing army or leverage your high creature count to cast hard-hitting spells!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Artifact and Creature Sacrifice</b> Sacrifice your artifacts and creatures, especially ones with death effects, to steadily gain the upper hand. Token generating Equipment gives you two things to sacrifice!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Big Noncreatures</b> Whenever you cast spells that cost 4 or more mana, you'll gain bonuses in battle. Find ways to generate tokens, like with special Equipment, so that your noncreature spells can add to your forces!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Graveyard Value</b> Slow and steady wins the game! Mill to fill your graveyard early with powerful creatures and flashback spells, then bring them back to the fight late in the game to achieve victory.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Equipment Aggro</b> Grab your favorite iconic weapon and rush into battle! Look for creatures that want to be equipped or cards that reward you for having Equipment, then gear up to outclass your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Town Ramp</b> Travel the overworld! Towns are lands that grant more perks the more of them you have, so play a bunch and reap the rewards. You'll even want to play some Towns that aren't blue or green, so be sure to splash in some other colors, too!",
+        "translation": "In Omniscience Draft, draft three packs and keep the cards you draft, but with a twist: You don't have to pay the mana costs for spells you cast! No need to put lands in your deck. You'll also get one mana of each color each turn to use for abilities, and every player starts with three cards in their hand instead of seven.\n\nSelect one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Artifacts</b> Calling all Machinists! Build up your arsenal by playing artifacts, including artifact creatures and token generating Equipment, then gain extra bonuses for playing those artifacts.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Control</b> Scheme and act in secret. Dominate the long game with strategies like removal spells, card draw, and tricky creatures. Cast flashback spells to crush foes under the weight of the past!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Black Mage Aggro</b> Play the aggressive game with creatures that reward you whenever you cast a noncreature spell. Look for cards that create Wizard tokens and turn those spells into a barrage of damage!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Landfall Aggro</b> Play creatures with landfall abilities, like Chocobos, and earn bonuses as you play lands. Look for ways to play extra lands and strengthen your creatures even further!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Go Wide</b> Call forth a battalion of formidable fighters and play cards that make tokens. Either reinforce your standing army or leverage your high creature count to cast hard-hitting spells!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Artifact and Creature Sacrifice</b> Sacrifice your artifacts and creatures, especially ones with death effects, to steadily gain the upper hand. Token generating Equipment gives you two things to sacrifice!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Big Noncreatures</b> Whenever you cast spells that cost 4 or more mana, you'll gain bonuses in battle. Find ways to generate tokens, like with special Equipment, so that your noncreature spells can add to your forces!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Graveyard Value</b> Slow and steady wins the game! Mill to fill your graveyard early with powerful creatures and flashback spells, then bring them back to the fight late in the game to achieve victory.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Equipment Aggro</b> Grab your favorite iconic weapon and rush into battle! Look for creatures that want to be equipped or cards that reward you for having Equipment, then gear up to outclass your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Town Ramp</b> Travel the overworld! Towns are lands that grant more perks the more of them you have, so play a bunch and reap the rewards. You'll even want to play some Towns that aren't blue or green, so be sure to splash in some other colors, too!"
+    },
+    "Events/Event_Desc_FIN_Trad_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Artifacts</b> Calling all Machinists! Build up your arsenal by playing artifacts, including artifact creatures and token generating Equipment, then gain extra bonuses for playing those artifacts.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Control</b> Scheme and act in secret. Dominate the long game with strategies like removal spells, card draw, and tricky creatures. Cast flashback spells to crush foes under the weight of the past!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Black Mage Aggro</b> Play the aggressive game with creatures that reward you whenever you cast a noncreature spell. Look for cards that create Wizard tokens and turn those spells into a barrage of damage!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Landfall Aggro</b> Play creatures with landfall abilities, like Chocobos, and earn bonuses as you play lands. Look for ways to play extra lands and strengthen your creatures even further!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Go Wide</b> Call forth a battalion of formidable fighters and play cards that make tokens. Either reinforce your standing army or leverage your high creature count to cast hard-hitting spells!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Artifact and Creature Sacrifice</b> Sacrifice your artifacts and creatures, especially ones with death effects, to steadily gain the upper hand. Token generating Equipment gives you two things to sacrifice!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Big Noncreatures</b> Whenever you cast spells that cost 4 or more mana, you'll gain bonuses in battle. Find ways to generate tokens, like with special Equipment, so that your noncreature spells can add to your forces!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Graveyard Value</b> Slow and steady wins the game! Mill to fill your graveyard early with powerful creatures and flashback spells, then bring them back to the fight late in the game to achieve victory.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Equipment Aggro</b> Grab your favorite iconic weapon and rush into battle! Look for creatures that want to be equipped or cards that reward you for having Equipment, then gear up to outclass your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Town Ramp</b> Travel the overworld! Towns are lands that grant more perks the more of them you have, so play a bunch and reap the rewards. You'll even want to play some Towns that aren't blue or green, so be sure to splash in some other colors, too!",
+        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Artifacts</b> Calling all Machinists! Build up your arsenal by playing artifacts, including artifact creatures and token generating Equipment, then gain extra bonuses for playing those artifacts.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Control</b> Scheme and act in secret. Dominate the long game with strategies like removal spells, card draw, and tricky creatures. Cast flashback spells to crush foes under the weight of the past!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Black Mage Aggro</b> Play the aggressive game with creatures that reward you whenever you cast a noncreature spell. Look for cards that create Wizard tokens and turn those spells into a barrage of damage!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Landfall Aggro</b> Play creatures with landfall abilities, like Chocobos, and earn bonuses as you play lands. Look for ways to play extra lands and strengthen your creatures even further!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Go Wide</b> Call forth a battalion of formidable fighters and play cards that make tokens. Either reinforce your standing army or leverage your high creature count to cast hard-hitting spells!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Artifact and Creature Sacrifice</b> Sacrifice your artifacts and creatures, especially ones with death effects, to steadily gain the upper hand. Token generating Equipment gives you two things to sacrifice!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Big Noncreatures</b> Whenever you cast spells that cost 4 or more mana, you'll gain bonuses in battle. Find ways to generate tokens, like with special Equipment, so that your noncreature spells can add to your forces!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Graveyard Value</b> Slow and steady wins the game! Mill to fill your graveyard early with powerful creatures and flashback spells, then bring them back to the fight late in the game to achieve victory.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Equipment Aggro</b> Grab your favorite iconic weapon and rush into battle! Look for creatures that want to be equipped or cards that reward you for having Equipment, then gear up to outclass your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Town Ramp</b> Travel the overworld! Towns are lands that grant more perks the more of them you have, so play a bunch and reap the rewards. You'll even want to play some Towns that aren't blue or green, so be sure to splash in some other colors, too!"
+    },
     "Events/Event_Desc_FNM_100C_HistoricBrawl": {
         "oracleText": "Connect with your local game store and keep yourself and others safe by playing Friday Night Magic (FNM) at home on <i>MTG Arena</i>!\n\nToday's event is Historic Brawl: Bring a 100-card Brawl deck using any cards in <i>MTG Arena</i>, led by your favorite legendary creature or planeswalker!\n\nYou can receive a code for an Arena FNM Promo Pack containing two cosmetic items when you share your results with your local game store. Find out how, as well as a list of banned cards <u><link=https://magic.wizards.com/mtga-fnm-play-home-1>here</link></u>.\n\n*Note: While supplies last. Not all stores are participating.",
         "translation": "通过<i>MTGA</i>线上玩星期五晚上魔术(FNM)，与你当地的游戏商店保持联系，同时确保自己和他人的安全！\n\n本周赛事是史迹争锋：构筑一副100张的争锋套牌，<i>MTGA</i>任何可用的牌都可以。由你最喜欢的传奇生物或鹏洛客带领！\n\n当你与当地游戏商店分享你的结果时，你会收到包含两个装饰品的竞技场FNM推广包的代码。了解更多使用信息，点击<u><link=https://magic.wizards.com/mtga-fnm-play-home-1>这里</link></u>。\n\n*注：送完为止。并非所有商店都参与。"
@@ -22521,7 +22981,11 @@
     },
     "Events/Event_Desc_Jump_In": {
         "oracleText": "Welcome to the world of MTG Arena! Here you can explore popular cards and strategies, and maybe even find a new favorite. It's time to <b>Jump In!</b>\n\nWhen you join this event, you will get to select two different half-decks from a variety of themes in Alchemy. Combine them, and you'll have a deck that's ready to go. Play as much as you want here, or use the cards to build new decks for other modes - they're yours to keep!\n\n<color=\"green\"><b>Resign at any time if you wish to rejoin and pick new packets. You will have to pay the entry again, but you will keep all cards from the decks you choose.</b></color>",
-        "translation": "欢迎来到万智牌竞技场的世界！在这里，你可以探索流行的卡牌和策略，甚至可以找到新的最爱。是时候<b>加入了！</b>\n\n当你参加这个活动时，你将可以从炼金术的各种主题中选择两个不同的半套牌。将它们结合起来，你就会有一套可以使用的套牌。在这里，你可以碎心所欲地玩，或者用这些卡牌为其它模式建立新的套牌--它们都是你的。\n\n<color=\"green\"><b>如果你想重新加入并挑选新的主题包，可以在任何时候退出。你需要重新支付参赛门票，但之前选择的套牌中的所有卡牌均会保留。</b></color>"
+        "translation": "欢迎来到《万智牌：竞技场》的世界！你能在这里探索热门牌张与流行策略，甚至还有可能发现心头所好。快来加入<b>速学！</b>\n\n加入此活动后，你需要先从各类反映炼金赛不同主题的半副套牌中选择两种。将它们组合一起之后，你就有了一副能够对战的完整套牌。你可以利用此套牌在本活动中尽情对战，也可以利用它们来构组适合其他模式的套牌～其中牌张都归你所有！\n\n<color=\"green\"><b>如果你希望重新参加并另选主题包，也可以随时退出。虽然需要再次支付参加费用，但你能留下你选中套牌中的所有牌张。</b></color>"
+    },
+    "Events/Event_Desc_Jump_In_FIN": {
+        "oracleText": "Ready to start playing <i>Magic: The Gathering—FINAL FANTASY</i> on MTG Arena? You can explore different strategies while playing and collecting cards from this new set.\n\nWhen you join this event, you will get to select two different half-decks from a variety of themes. Combine them, and you'll have a deck that's ready to go. Play as much as you want here, or use the cards to build new decks for other modes - they're yours to keep!  \n\n<color=\"green\"><b>Resign at any time if you wish to rejoin and pick new packets. You will have to pay the entry again, but you will keep all cards from the decks you choose.</b></color>",
+        "translation": "Ready to start playing <i>Magic: The Gathering—FINAL FANTASY</i> on MTG Arena? You can explore different strategies while playing and collecting cards from this new set.\n\nWhen you join this event, you will get to select two different half-decks from a variety of themes. Combine them, and you'll have a deck that's ready to go. Play as much as you want here, or use the cards to build new decks for other modes - they're yours to keep!  \n\n<color=\"green\"><b>Resign at any time if you wish to rejoin and pick new packets. You will have to pay the entry again, but you will keep all cards from the decks you choose.</b></color>"
     },
     "Events/Event_Desc_Jump_In_LTR": {
         "oracleText": "Ready to start playing <i>The Lord of the Rings: Tales of Middle-earth</i> on MTG Arena? You can explore different strategies while playing and collecting cards from this new set.\n\nWhen you join this event, you will get to select two different half-decks from a variety of themes. They'll be combined and you will have a deck ready to go. Play as much as you want here, or use the cards to build new decks for other modes - they're yours to keep!\n\n<b><color=\"green\">Resign at any time if you wish to rejoin and pick new packets. You will have to pay the entry again, but you will keep all cards from the decks you choose.</color></b>\n\n\"The world is indeed full of peril, and in it there are many dark places; but still there is much that is fair, and though in all lands love is now mingled with grief, it grows perhaps the greater.\" – Haldir (Book 1, pg 349)",
@@ -22867,6 +23331,10 @@
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\n\nThis week's event is Brawl Builder Challenge: choose any Commander from <i>Tarkir: Dragonstorm</i>and build a 100-card Brawl deck using any cards in MTG Arena!",
         "translation": "欢迎来到周中万智牌！每周尝试一个不同的方式来游玩万智牌竞技场！\n\n\n本周赛事是争锋构筑挑战赛：选择一张来自<i>鞑契龙岚录</i>的指挥官，使用万智牌竞技场中任意可用牌张构筑一副100张的争锋套牌！"
     },
+    "Events/Event_Desc_MWM_BrawlBuilderChallenge_20250624": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Brawl Builder Challenge: choose any Commander from Magic: the Gathering—FINAL FANTASY and build a 100-card Brawl deck using any cards in MTG Arena!",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Brawl Builder Challenge: choose any Commander from Magic: the Gathering—FINAL FANTASY and build a 100-card Brawl deck using any cards in MTG Arena!"
+    },
     "Events/Event_Desc_MWM_BrawlPrecon": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Brawl Showcase: Take these Brawl preconstructed decks for a spin, and see if you find a new favorite! Change decks as often as you like.",
         "translation": "欢迎参加周中万智夜！《MTG竞技场》每周玩法花样百出，次次活动都有全新感受！\n\n本周的活动是争锋展威：拿上这些争锋预组套牌一试身手，瞧瞧能否找到新的心头好！你可以随心所欲地更换套牌。"
@@ -22942,6 +23410,14 @@
     "Events/Event_Desc_MWM_FDN_Sealed": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Magic the Gathering: Foundations</i> Sealed: Open six packs and add basic lands to make a 40-card deck, then play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>",
         "translation": "欢迎来到周中万智牌！每周尝试一个不同的方式来游玩万智牌竞技场！\n\n本周的活动是 <i>万智牌：基石构筑</i> 现开赛：打开六个卡包，再将基本地加入其中，组成40张的套牌与其他玩家对战，不限对局次数。\n\n<b><color=\"red\">这是一个幻影活动。你所抓取的牌张不会添加到你的收藏当中。</color></b>"
+    },
+    "Events/Event_Desc_MWM_FINConstructed": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Magic: the Gathering—FINAL FANTASY Constructed: Bring a 60-card deck with only cards from the most recent set and demonstrate your mastery of the new cards!\n\n<color=red>This event is All-Access, meaning you can even use cards outside of your collection. </color>",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Magic: the Gathering—FINAL FANTASY Constructed: Bring a 60-card deck with only cards from the most recent set and demonstrate your mastery of the new cards!\n\n<color=red>This event is All-Access, meaning you can even use cards outside of your collection. </color>"
+    },
+    "Events/Event_Desc_MWM_FIN_BotDraft": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is FINAL FANTASY Bot Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\nThis event is phantom. Cards you draft are not added to your collection.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Artifacts</b> Calling all Machinists! Build up your arsenal by playing artifacts, including artifact creatures and token generating Equipment, then gain extra bonuses for playing those artifacts.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Control</b> Scheme and act in secret. Dominate the long game with strategies like removal spells, card draw, and tricky creatures. Cast flashback spells to crush foes under the weight of the past!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Black Mage Aggro</b> Play the aggressive game with creatures that reward you whenever you cast a noncreature spell. Look for cards that create Wizard tokens and turn those spells into a barrage of damage!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Landfall Aggro</b> Play creatures with landfall abilities, like Chocobos, and earn bonuses as you play lands. Look for ways to play extra lands and strengthen your creatures even further!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Go Wide</b> Call forth a battalion of formidable fighters and play cards that make tokens. Either reinforce your standing army or leverage your high creature count to cast hard-hitting spells!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Artifact and Creature Sacrifice</b> Sacrifice your artifacts and creatures, especially ones with death effects, to steadily gain the upper hand. Token generating Equipment gives you two things to sacrifice!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Big Noncreatures</b> Whenever you cast spells that cost 4 or more mana, you'll gain bonuses in battle. Find ways to generate tokens, like with special Equipment, so that your noncreature spells can add to your forces!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Graveyard Value</b> Slow and steady wins the game! Mill to fill your graveyard early with powerful creatures and flashback spells, then bring them back to the fight late in the game to achieve victory.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Equipment Aggro</b> Grab your favorite iconic weapon and rush into battle! Look for creatures that want to be equipped or cards that reward you for having Equipment, then gear up to outclass your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Town Ramp</b> Travel the overworld! Towns are lands that grant more perks the more of them you have, so play a bunch and reap the rewards. You'll even want to play some Towns that aren't blue or green, so be sure to splash in some other colors, too!",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is FINAL FANTASY Bot Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\nThis event is phantom. Cards you draft are not added to your collection.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Artifacts</b> Calling all Machinists! Build up your arsenal by playing artifacts, including artifact creatures and token generating Equipment, then gain extra bonuses for playing those artifacts.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Control</b> Scheme and act in secret. Dominate the long game with strategies like removal spells, card draw, and tricky creatures. Cast flashback spells to crush foes under the weight of the past!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Black Mage Aggro</b> Play the aggressive game with creatures that reward you whenever you cast a noncreature spell. Look for cards that create Wizard tokens and turn those spells into a barrage of damage!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Landfall Aggro</b> Play creatures with landfall abilities, like Chocobos, and earn bonuses as you play lands. Look for ways to play extra lands and strengthen your creatures even further!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Go Wide</b> Call forth a battalion of formidable fighters and play cards that make tokens. Either reinforce your standing army or leverage your high creature count to cast hard-hitting spells!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Artifact and Creature Sacrifice</b> Sacrifice your artifacts and creatures, especially ones with death effects, to steadily gain the upper hand. Token generating Equipment gives you two things to sacrifice!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Big Noncreatures</b> Whenever you cast spells that cost 4 or more mana, you'll gain bonuses in battle. Find ways to generate tokens, like with special Equipment, so that your noncreature spells can add to your forces!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Graveyard Value</b> Slow and steady wins the game! Mill to fill your graveyard early with powerful creatures and flashback spells, then bring them back to the fight late in the game to achieve victory.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Equipment Aggro</b> Grab your favorite iconic weapon and rush into battle! Look for creatures that want to be equipped or cards that reward you for having Equipment, then gear up to outclass your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Town Ramp</b> Travel the overworld! Towns are lands that grant more perks the more of them you have, so play a bunch and reap the rewards. You'll even want to play some Towns that aren't blue or green, so be sure to splash in some other colors, too!"
     },
     "Events/Event_Desc_MWM_FutureAlchemy": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Future Alchemy: Get a jump on next year's format! Bring a 60-card deck using only cards from the last year of Alchemy, starting with <i>Innistrad: Midnight Hunt</i>, whether they're in your collection or not. Out with the old and in with the new!",
@@ -23178,6 +23654,10 @@
     "Events/Event_Desc_MWM_StandardPrecons": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Standard Deck Duels! The latest set of Standard cards is here, and it's time to hit the laboratory! To get things started, we've arranged a few samples that will get you off and running. Give them a try, and you just might find the seed for your next masterpiece!",
         "translation": "欢迎参加周中万智牌！《MTG竞技场》每周玩法花样百出，次次活动都有全新感受！\n\n本周的活动是标准套牌对决。最新标准系列卡牌现已面世，是时候实验一番了！为了让你尽快上手，我们为你准备了一些样本。试一试，说不定就能为你的下一个杰作找到灵感！"
+    },
+    "Events/Event_Desc_MWM_StandardPrecons_FIN": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Magic: the Gathering—FINAL FANTASY Showcase: Take these Magic: the Gathering—FINAL FANTASY preconstructed decks for a spin, and see if you find a new favorite! Change decks as often as you like.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Magic: the Gathering—FINAL FANTASY Showcase: Take these Magic: the Gathering—FINAL FANTASY preconstructed decks for a spin, and see if you find a new favorite! Change decks as often as you like."
     },
     "Events/Event_Desc_MWM_StandardShakeup": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Standard Shakeup: We're removing some of Standard's most popular and powerful cards. Search for new strategies and bring the best 60-card deck you can create!",
@@ -23480,8 +23960,8 @@
         "translation": "本月的资格赛周末即将来临！如果你还未获得资格，在本入围赛事中赢取6胜来获得你的资格赛周末席位。\n\n本入围赛事的赛制是BO1炼金构筑，需使用个人计时器。如果你能赢取6胜，一定记得下周回来参加资格赛周末！\n\n<size=100%><b><color=\"red\">必须年满18岁才能参加。并非在所有地区/领地都可用。禁止地区无效。附加条款和条件适用。请参阅<u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>此处</link></u>了解完整详情。</color></b></size>"
     },
     "Events/Event_Desc_QualifierPlayIn_Bo1_Explorer": {
-        "oracleText": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Explorer with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
-        "translation": "本月的资格赛周末即将到来！若你尚未获得参赛资格，便可来此入围赛做最后一搏，全取六胜便可赢得参赛资格。\n\n本入围赛的赛制为一盘定胜负的探源赛（牌手个别计时）。如果你赢得六胜，便可于下周回来参加资格赛周末！\n\n<size=100%><b><color=\"red\">须年满18周岁方能参加。部分地区／地域不能参加本赛事。在法律禁止的地区无效。须遵守其他附加条款及细则。欲知完整信息，请<u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>点击此处</u></link>。</color></b></size>"
+        "oracleText": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Pioneer with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
+        "translation": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Pioneer with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_QualifierPlayIn_Bo1_Historic": {
         "oracleText": "This month's Qualifier Weekend is coming up! If you're not already qualified, get all six wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Historic with single-game matches using individual timers. If you win six games, come back next week for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
@@ -23540,8 +24020,8 @@
         "translation": "本月的资格赛周末即将来临！如果你还未获得资格，在本入围赛事中赢取4胜来获得你的资格赛周末席位。\n\n本入围赛事的赛制是BO3炼金构筑，需使用备牌和个人计时器。如果你能赢取4胜，一定记得明天回来参加资格赛周末！\n\n<size=100%><b><color=\"red\">必须年满18岁才能参加。并非在所有地区/领地都可用。禁止地区无效。附加条款和条件适用。请参阅<u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>此处</link></u>了解完整详情。</color></b></size>"
     },
     "Events/Event_Desc_QualifierPlayIn_Bo3_Explorer": {
-        "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Explorer with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
-        "translation": "本月的资格赛周末即将来临！如果你还未获得资格，在本入围赛事中赢取4胜来获得你的资格赛周末席位。\n\n本入围赛事的赛制是BO3探险构筑，需使用备牌和个人计时器。如果你能赢取4胜，一定记得明天回来参加资格赛周末！\n\n<size=100%><b><color=\"red\">必须年满18岁才能参加。并非在所有地区/领地都可用。禁止地区无效。附加条款和条件适用。请参阅<u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>此处</link></u>了解完整详情。</color></b></size>"
+        "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Pioneer with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
+        "translation": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Pioneer with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>"
     },
     "Events/Event_Desc_QualifierPlayIn_Bo3_Historic": {
         "oracleText": "This month's Qualifier Weekend is almost here! If you're not already qualified, get all four match wins in this Play-In event to earn your seat.\n\nThe format for this Play-In event is Historic with best-of-three matches using sideboards and individual timers. If you win four matches, come back tomorrow for the Qualifier Weekend!\n\n<size=100%><b><color=\"red\">Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Additional terms and conditions apply. See <u><link=https://magic.gg/events/qualifier-weekend?utm_medium=product&utm_source=arena>here</link></u> for full details.</color></b></size>",
@@ -23746,6 +24226,10 @@
     "Events/Event_Desc_Sealed_FDN": {
         "oracleText": "You'll receive 6 <i>Magic: The Gathering Foundations</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Flying</b> Assemble a squadron of winged allies to strike down your enemies from the skies!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Graveyard</b> Control the battlefield using removal spells and card draw, while filling your graveyard to enact your master plans.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Raid</b> Attack relentlessly with resilient creatures, whittling down your opponent's life total and triggering your Raid abilities.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Power</b> Generate extra mana to play large creatures and outsize your enemies.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>+1/+1 Counters</b> Command efficient creatures that grow ever larger as you boost them with +1/+1 counters. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Life Gain</b> Support your forces by healing yourself, putting you out of the opposition's reach while you strengthen your creatures. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Spells</b> Channel your inner spellslinger—cast instants and sorceries to empower your Prowess creatures and outmaneuver your opponent. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Morbid</b> Get the most out of the cycle of life and death! Morbid turns the long game in your favor, adding value when you sacrifice your disposable minions or remove enemy threats. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Aggro</b> Attack your opponent quickly with fast, low-cost creatures and buff them up to surge to victory!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Ramp</b> Defend yourself early and accelerate your mana, then go over the top with huge creatures and the most impressive spells in the Multiverse.",
         "translation": "你将得到6包<i>万智牌：基石构筑</i>补充包。这些牌张将加入你的收藏，而你将使用它们和基本地来构组一副40张的套牌。不断进行对战，最后根据胜场数量赢得奖励！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>飞行</b> 组建一支空中军团，从天际打击你的敌人！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>坟墓</b> 运用去除咒语和抓牌来掌控战场，同时填充你的坟墓场来实现你的终极计划。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>突击</b> 用顽强的生物持续进攻，削减对手的生命值并触发你的突击异能。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>力量</b> 产出额外法术力来施放巨大生物，以压倒性优势击败敌人。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>+1/+1指示物</b> 统帅高效的生物，通过+1/+1指示物让它们不断成长。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>回血</b> 通过治疗自己来支援你的军队，在强化生物的同时远离对手的威胁。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>咒语</b> 释放你内心的施咒师——施放瞬间与法术来强化你的灵技生物，智取对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>丧心</b> 充分利用生死轮回！丧心让你在长期对局中占据优势，当你牺牲可消耗的随从或去除敌方威胁时获得额外价值。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>快攻</b> 用快速、低费的生物迅速攻击对手，并强化它们冲向胜利！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Ramp</b> 在前期保护自己并加速法术力，然后使用巨型生物和多重宇宙中最令人印象深刻的咒语碾压对手。"
+    },
+    "Events/Event_Desc_Sealed_FIN": {
+        "oracleText": "You'll receive 6 Magic: The Gathering—FINAL FANTASY packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\">  Artifacts    \nCalling all Machinists! Build up your arsenal by playing artifacts, including artifact creatures and token generating Equipment, then gain extra bonuses for playing those artifacts.  \n  \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Control    \nScheme and act in secret. Dominate the long game with strategies like removal spells, card draw, and tricky creatures. Cast flashback spells to crush foes under the weight of the past!  \n \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">  Black Mage Aggro    \nPlay the aggressive game with creatures that reward you whenever you cast a noncreature spell. Look for cards that create Wizard tokens and turn those spells into a barrage of damage! \n   \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">  Landfall Aggro    \nPlay creatures with landfall abilities, like Chocobos, and earn bonuses as you play lands. Look for ways to play extra lands and strengthen your creatures even further!\n    \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\">  Go Wide    \nCall forth a battalion of formidable fighters and play cards that make tokens. Either reinforce your standing army or leverage your high creature count to cast hard-hitting spells!  \n  \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\">  Artifact and Creature Sacrifice    \nSacrifice your artifacts and creatures, especially ones with death effects, to steadily gain the upper hand. Token generating Equipment gives you two things to sacrifice!    \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">  Big Noncreatures    \nWhenever you cast spells that cost 4 or more mana, you'll gain bonuses in battle. Find ways to generate tokens, like with special Equipment, so that your noncreature spells can add to your forces! \n   \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">  Graveyard Value    \nSlow and steady wins the game! Mill to fill your graveyard early with powerful creatures and flashback spells, then bring them back to the fight late in the game to achieve victory.  \n  \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\">  Equipment Aggro    \nGrab your favorite iconic weapon and rush into battle! Look for creatures that want to be equipped or cards that reward you for having Equipment, then gear up to outclass your opponent. \n   \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\">  Town Ramp    \nTravel the overworld! Towns are lands that grant more perks the more of them you have, so play a bunch and reap the rewards. You'll even want to play some Towns that aren't blue or green, so be sure to splash in some other colors, too!",
+        "translation": "You'll receive 6 Magic: The Gathering—FINAL FANTASY packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\">  Artifacts    \nCalling all Machinists! Build up your arsenal by playing artifacts, including artifact creatures and token generating Equipment, then gain extra bonuses for playing those artifacts.  \n  \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Control    \nScheme and act in secret. Dominate the long game with strategies like removal spells, card draw, and tricky creatures. Cast flashback spells to crush foes under the weight of the past!  \n \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">  Black Mage Aggro    \nPlay the aggressive game with creatures that reward you whenever you cast a noncreature spell. Look for cards that create Wizard tokens and turn those spells into a barrage of damage! \n   \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">  Landfall Aggro    \nPlay creatures with landfall abilities, like Chocobos, and earn bonuses as you play lands. Look for ways to play extra lands and strengthen your creatures even further!\n    \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\">  Go Wide    \nCall forth a battalion of formidable fighters and play cards that make tokens. Either reinforce your standing army or leverage your high creature count to cast hard-hitting spells!  \n  \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\">  Artifact and Creature Sacrifice    \nSacrifice your artifacts and creatures, especially ones with death effects, to steadily gain the upper hand. Token generating Equipment gives you two things to sacrifice!    \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">  Big Noncreatures    \nWhenever you cast spells that cost 4 or more mana, you'll gain bonuses in battle. Find ways to generate tokens, like with special Equipment, so that your noncreature spells can add to your forces! \n   \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">  Graveyard Value    \nSlow and steady wins the game! Mill to fill your graveyard early with powerful creatures and flashback spells, then bring them back to the fight late in the game to achieve victory.  \n  \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\">  Equipment Aggro    \nGrab your favorite iconic weapon and rush into battle! Look for creatures that want to be equipped or cards that reward you for having Equipment, then gear up to outclass your opponent. \n   \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\">  Town Ramp    \nTravel the overworld! Towns are lands that grant more perks the more of them you have, so play a bunch and reap the rewards. You'll even want to play some Towns that aren't blue or green, so be sure to splash in some other colors, too!"
     },
     "Events/Event_Desc_Sealed_GRN": {
         "oracleText": "You'll receive 6 fifteen-card packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!",
@@ -24082,6 +24566,10 @@
     "Events/Event_Desc_Trad_Sealed_FDN": {
         "oracleText": "You'll receive 6 <i>Magic: The Gathering Foundations</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Flying</b> Assemble a squadron of winged allies to strike down your enemies from the skies!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Graveyard</b> Control the battlefield using removal spells and card draw, while filling your graveyard to enact your master plans.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Raid</b> Attack relentlessly with resilient creatures, whittling down your opponent's life total and triggering your Raid abilities.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Power</b> Generate extra mana to play large creatures and outsize your enemies.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>+1/+1 Counters</b> Command efficient creatures that grow ever larger as you boost them with +1/+1 counters. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Life Gain</b> Support your forces by healing yourself, putting you out of the opposition's reach while you strengthen your creatures. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Spells</b> Channel your inner spellslinger—cast instants and sorceries to empower your Prowess creatures and outmaneuver your opponent. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Morbid</b> Get the most out of the cycle of life and death! Morbid turns the long game in your favor, adding value when you sacrifice your disposable minions or remove enemy threats. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Aggro</b> Attack your opponent quickly with fast, low-cost creatures and buff them up to surge to victory!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Ramp</b> Defend yourself early and accelerate your mana, then go over the top with huge creatures and the most impressive spells in the Multiverse. You'll receive 6 <i>Magic: The Gathering Foundations</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!",
         "translation": "你将得到6包<i>万智牌：基石构筑</i>补充包。这些牌张将加入你的收藏，而你将使用它们和基本地来构组一副40张的套牌。不断进行三盘两胜制的对局，最后根据你的胜场数量赢得奖励！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>飞行</b> 组建一支空中军团，从天际打击你的敌人！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>坟墓</b> 运用去除咒语和抓牌来掌控战场，同时填充你的坟墓场来实现你的终极计划。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>突击</b> 用顽强的生物持续进攻，削减对手的生命值并触发你的突击异能。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>力量</b> 产出额外法术力来施放巨大生物，以压倒性优势击败敌人。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>+1/+1指示物</b> 统帅高效的生物，通过+1/+1指示物让它们不断成长。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>回血</b> 通过治疗自己来支援你的军队，在强化生物的同时远离对手的威胁。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>咒语</b> 释放你内心的施咒师——施放瞬间与法术来强化你的灵技生物，智取对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>丧心</b> 充分利用生死轮回！丧心让你在长期对局中占据优势，当你牺牲可消耗的随从或去除敌方威胁时获得额外价值。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>快攻</b> 用快速、低费的生物迅速攻击对手，并强化它们冲向胜利！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Ramp</b> 在前期保护自己并加速法术力，然后使用巨型生物和多重宇宙中最令人印象深刻的咒语碾压对手。"
+    },
+    "Events/Event_Desc_Trad_Sealed_FIN": {
+        "oracleText": "You'll receive 6 Magic: The Gathering—FINAL FANTASY packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Artifacts</b> Calling all Machinists! Build up your arsenal by playing artifacts, including artifact creatures and token generating Equipment, then gain extra bonuses for playing those artifacts.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Control</b> Scheme and act in secret. Dominate the long game with strategies like removal spells, card draw, and tricky creatures. Cast flashback spells to crush foes under the weight of the past!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Black Mage Aggro</b> Play the aggressive game with creatures that reward you whenever you cast a noncreature spell. Look for cards that create Wizard tokens and turn those spells into a barrage of damage!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Landfall Aggro</b> Play creatures with landfall abilities, like Chocobos, and earn bonuses as you play lands. Look for ways to play extra lands and strengthen your creatures even further!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Go Wide</b> Call forth a battalion of formidable fighters and play cards that make tokens. Either reinforce your standing army or leverage your high creature count to cast hard-hitting spells!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Artifact and Creature Sacrifice</b> Sacrifice your artifacts and creatures, especially ones with death effects, to steadily gain the upper hand. Token generating Equipment gives you two things to sacrifice!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Big Noncreatures</b> Whenever you cast spells that cost 4 or more mana, you'll gain bonuses in battle. Find ways to generate tokens, like with special Equipment, so that your noncreature spells can add to your forces!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Graveyard Value</b> Slow and steady wins the game! Mill to fill your graveyard early with powerful creatures and flashback spells, then bring them back to the fight late in the game to achieve victory.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Equipment Aggro</b> Grab your favorite iconic weapon and rush into battle! Look for creatures that want to be equipped or cards that reward you for having Equipment, then gear up to outclass your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Town Ramp</b> Travel the overworld! Towns are lands that grant more perks the more of them you have, so play a bunch and reap the rewards. You'll even want to play some Towns that aren't blue or green, so be sure to splash in some other colors, too!",
+        "translation": "You'll receive 6 Magic: The Gathering—FINAL FANTASY packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Artifacts</b> Calling all Machinists! Build up your arsenal by playing artifacts, including artifact creatures and token generating Equipment, then gain extra bonuses for playing those artifacts.  \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Control</b> Scheme and act in secret. Dominate the long game with strategies like removal spells, card draw, and tricky creatures. Cast flashback spells to crush foes under the weight of the past!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Black Mage Aggro</b> Play the aggressive game with creatures that reward you whenever you cast a noncreature spell. Look for cards that create Wizard tokens and turn those spells into a barrage of damage!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Landfall Aggro</b> Play creatures with landfall abilities, like Chocobos, and earn bonuses as you play lands. Look for ways to play extra lands and strengthen your creatures even further!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Go Wide</b> Call forth a battalion of formidable fighters and play cards that make tokens. Either reinforce your standing army or leverage your high creature count to cast hard-hitting spells!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Artifact and Creature Sacrifice</b> Sacrifice your artifacts and creatures, especially ones with death effects, to steadily gain the upper hand. Token generating Equipment gives you two things to sacrifice!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Big Noncreatures</b> Whenever you cast spells that cost 4 or more mana, you'll gain bonuses in battle. Find ways to generate tokens, like with special Equipment, so that your noncreature spells can add to your forces!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Graveyard Value</b> Slow and steady wins the game! Mill to fill your graveyard early with powerful creatures and flashback spells, then bring them back to the fight late in the game to achieve victory.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Equipment Aggro</b> Grab your favorite iconic weapon and rush into battle! Look for creatures that want to be equipped or cards that reward you for having Equipment, then gear up to outclass your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Town Ramp</b> Travel the overworld! Towns are lands that grant more perks the more of them you have, so play a bunch and reap the rewards. You'll even want to play some Towns that aren't blue or green, so be sure to splash in some other colors, too!"
     },
     "Events/Event_Desc_Trad_Sealed_HBG": {
         "oracleText": "You'll receive 6 <i>Alchemy Horizons: Baldur's Gate</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Flicker your creatures in and out of play to produce as many triggers as possible!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Control the battlefield and sneak in creatures to deal damage to your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> The real treasure will be the treasure you make along the way.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> DRAGONS!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> The best offense is a good defense? Gain life so you can lower theirs!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Earn bonuses every time your creatures leave the battlefield.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> MORE DRAGONS!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> What's dead may never die... but may live again?\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> Prepare for trouble! Use the new Double Team mechanic to cast creatures with the same name.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> EVEN MORE DRAGONS!",
@@ -24531,6 +25019,10 @@
         "oracleText": "{0} events available.",
         "translation": "{0}赛事可用。"
     },
+    "Events/Event_FIN_DraftArchetypes": {
+        "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\">  Artifacts    \nCalling all Machinists! Build up your arsenal by playing artifacts, including artifact creatures and token generating Equipment, then gain extra bonuses for playing those artifacts.  \n  \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Control    \nScheme and act in secret. Dominate the long game with strategies like removal spells, card draw, and tricky creatures. Cast flashback spells to crush foes under the weight of the past!  \n \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">  Black Mage Aggro    \nPlay the aggressive game with creatures that reward you whenever you cast a noncreature spell. Look for cards that create Wizard tokens and turn those spells into a barrage of damage! \n   \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">  Landfall Aggro    \nPlay creatures with landfall abilities, like Chocobos, and earn bonuses as you play lands. Look for ways to play extra lands and strengthen your creatures even further!\n    \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\">  Go Wide    \nCall forth a battalion of formidable fighters and play cards that make tokens. Either reinforce your standing army or leverage your high creature count to cast hard-hitting spells!  \n  \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\">  Artifact and Creature Sacrifice    \nSacrifice your artifacts and creatures, especially ones with death effects, to steadily gain the upper hand. Token generating Equipment gives you two things to sacrifice!    \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">  Big Noncreatures    \nWhenever you cast spells that cost 4 or more mana, you'll gain bonuses in battle. Find ways to generate tokens, like with special Equipment, so that your noncreature spells can add to your forces! \n   \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">  Graveyard Value    \nSlow and steady wins the game! Mill to fill your graveyard early with powerful creatures and flashback spells, then bring them back to the fight late in the game to achieve victory.  \n  \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\">  Equipment Aggro    \nGrab your favorite iconic weapon and rush into battle! Look for creatures that want to be equipped or cards that reward you for having Equipment, then gear up to outclass your opponent. \n   \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\">  Town Ramp    \nTravel the overworld! Towns are lands that grant more perks the more of them you have, so play a bunch and reap the rewards. You'll even want to play some Towns that aren't blue or green, so be sure to splash in some other colors, too!",
+        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\">  Artifacts    \nCalling all Machinists! Build up your arsenal by playing artifacts, including artifact creatures and token generating Equipment, then gain extra bonuses for playing those artifacts.  \n  \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Control    \nScheme and act in secret. Dominate the long game with strategies like removal spells, card draw, and tricky creatures. Cast flashback spells to crush foes under the weight of the past!  \n \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">  Black Mage Aggro    \nPlay the aggressive game with creatures that reward you whenever you cast a noncreature spell. Look for cards that create Wizard tokens and turn those spells into a barrage of damage! \n   \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">  Landfall Aggro    \nPlay creatures with landfall abilities, like Chocobos, and earn bonuses as you play lands. Look for ways to play extra lands and strengthen your creatures even further!\n    \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\">  Go Wide    \nCall forth a battalion of formidable fighters and play cards that make tokens. Either reinforce your standing army or leverage your high creature count to cast hard-hitting spells!  \n  \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\">  Artifact and Creature Sacrifice    \nSacrifice your artifacts and creatures, especially ones with death effects, to steadily gain the upper hand. Token generating Equipment gives you two things to sacrifice!    \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">  Big Noncreatures    \nWhenever you cast spells that cost 4 or more mana, you'll gain bonuses in battle. Find ways to generate tokens, like with special Equipment, so that your noncreature spells can add to your forces! \n   \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">  Graveyard Value    \nSlow and steady wins the game! Mill to fill your graveyard early with powerful creatures and flashback spells, then bring them back to the fight late in the game to achieve victory.  \n  \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\">  Equipment Aggro    \nGrab your favorite iconic weapon and rush into battle! Look for creatures that want to be equipped or cards that reward you for having Equipment, then gear up to outclass your opponent. \n   \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\">  Town Ramp    \nTravel the overworld! Towns are lands that grant more perks the more of them you have, so play a bunch and reap the rewards. You'll even want to play some Towns that aren't blue or green, so be sure to splash in some other colors, too!"
+    },
     "Events/Event_NonStandardDraft_ConfirmJoin": {
         "oracleText": "Join Event",
         "translation": "加入赛事"
@@ -24706,6 +25198,14 @@
     "Events/Event_Title_ArenaDirect_FDN_Sealed": {
         "oracleText": "Arena Direct - Sealed Magic: The Gathering Foundations",
         "translation": "竞技场直邮赛 - 万智牌：基石构筑现开"
+    },
+    "Events/Event_Title_ArenaDirect_FIN_Collector_Sealed": {
+        "oracleText": "Arena Direct - Sealed Magic: the Gathering—FINAL FANTASY Collector Booster",
+        "translation": "Arena Direct - Sealed Magic: the Gathering—FINAL FANTASY Collector Booster"
+    },
+    "Events/Event_Title_ArenaDirect_FIN_Play_Sealed": {
+        "oracleText": "Arena Direct - Sealed Magic: the Gathering—FINAL FANTASY Play Booster",
+        "translation": "Arena Direct - Sealed Magic: the Gathering—FINAL FANTASY Play Booster"
     },
     "Events/Event_Title_ArenaDirect_LCI_Sealed": {
         "oracleText": "Arena Direct - Sealed The Lost Caverns of Ixalan",
@@ -25423,6 +25923,26 @@
         "oracleText": "Festival in a Box Chaos Sealed",
         "translation": "活动节：混沌现开"
     },
+    "Events/Event_Title_FIN_Premier_Draft": {
+        "oracleText": "Premier Draft Magic: The Gathering—FINAL FANTASY",
+        "translation": "Premier Draft Magic: The Gathering—FINAL FANTASY"
+    },
+    "Events/Event_Title_FIN_Premier_Draft_Early_Access": {
+        "oracleText": "Employee Prerelease Premier Draft Magic: The Gathering®—FINAL FANTASY",
+        "translation": "Employee Prerelease Premier Draft Magic: The Gathering®—FINAL FANTASY"
+    },
+    "Events/Event_Title_FIN_Quick_Draft": {
+        "oracleText": "Quick Draft Magic: The Gathering—FINAL FANTASY",
+        "translation": "Quick Draft Magic: The Gathering—FINAL FANTASY"
+    },
+    "Events/Event_Title_FIN_Quick_Draft_Emblem_Omniscience": {
+        "oracleText": "Magic: the Gathering—FINAL FANTASY Quick Draft with Omniscience Emblem",
+        "translation": "Magic: the Gathering—FINAL FANTASY Quick Draft with Omniscience Emblem"
+    },
+    "Events/Event_Title_FIN_Trad_Draft": {
+        "oracleText": "Traditional Draft Magic: The Gathering—FINAL FANTASY",
+        "translation": "Traditional Draft Magic: The Gathering—FINAL FANTASY"
+    },
     "Events/Event_Title_FNM_100C_HistoricBrawl": {
         "oracleText": "FNM at Home: 100-Card Historic Brawl",
         "translation": "家中FNM：100张史迹争锋"
@@ -26031,6 +26551,10 @@
         "oracleText": "Jump In!",
         "translation": "速学！"
     },
+    "Events/Event_Title_Jump_In_FIN": {
+        "oracleText": "Jump Into Magic: The Gathering—FINAL FANTASY",
+        "translation": "Jump Into Magic: The Gathering—FINAL FANTASY"
+    },
     "Events/Event_Title_Jump_In_LTR": {
         "oracleText": "Jump Into Middle-earth",
         "translation": "中洲速学"
@@ -26439,6 +26963,14 @@
         "oracleText": "Midweek Magic: Magic: The Gathering Foundations Constructed",
         "translation": "周中万智牌：万智牌：基石构筑环境构筑"
     },
+    "Events/Event_Title_MWM_FINConstructed": {
+        "oracleText": "Midweek Magic: Magic: The Gathering—FINAL FANTASY Constructed",
+        "translation": "Midweek Magic: Magic: The Gathering—FINAL FANTASY Constructed"
+    },
+    "Events/Event_Title_MWM_FIN_BotDraft": {
+        "oracleText": "Midweek Magic: Phantom Bot Draft",
+        "translation": "Midweek Magic: Phantom Bot Draft"
+    },
     "Events/Event_Title_MWM_Future": {
         "oracleText": "Midweek Magic: Standard 2022",
         "translation": "周中万智牌：标准2022"
@@ -26664,8 +27196,12 @@
         "translation": "周中万智牌：标准全铁"
     },
     "Events/Event_Title_MWM_StandardPrecons": {
-        "oracleText": "Midweek Magic: Standard Deck Duels",
-        "translation": "周中万智牌：标准套牌对决"
+        "oracleText": "Midweek Magic: Magic: The Gathering—FINAL FANTASY Showcase",
+        "translation": "Midweek Magic: Magic: The Gathering—FINAL FANTASY Showcase"
+    },
+    "Events/Event_Title_MWM_StandardPrecons_FIN": {
+        "oracleText": "Midweek Magic: Magic: the Gathering—FINAL FANTASY Showcase",
+        "translation": "Midweek Magic: Magic: the Gathering—FINAL FANTASY Showcase"
     },
     "Events/Event_Title_MWM_StandardShakeup": {
         "oracleText": "Midweek Magic: Standard Shakeup",
@@ -27179,6 +27715,14 @@
         "oracleText": "Sealed Magic: The Gathering Foundations",
         "translation": "万智牌：基石构筑现开"
     },
+    "Events/Event_Title_Sealed_FIN": {
+        "oracleText": "Sealed Magic: The Gathering—FINAL FANTASY",
+        "translation": "Sealed Magic: The Gathering—FINAL FANTASY"
+    },
+    "Events/Event_Title_Sealed_FIN_Employee_Prerelease": {
+        "oracleText": "Remote Employee Pre-release Sealed Magic: The Gathering®—FINAL FANTASY",
+        "translation": "Remote Employee Pre-release Sealed Magic: The Gathering®—FINAL FANTASY"
+    },
     "Events/Event_Title_Sealed_GRN": {
         "oracleText": "Sealed Guilds of Ravnica",
         "translation": "现开：烽会拉尼卡"
@@ -27562,6 +28106,10 @@
     "Events/Event_Title_Trad_Sealed_FDN": {
         "oracleText": "Traditional Sealed Magic: The Gathering Foundations",
         "translation": "万智牌：基石构筑三盘现开"
+    },
+    "Events/Event_Title_Trad_Sealed_FIN": {
+        "oracleText": "Traditional Sealed Magic: The Gathering—FINAL FANTASY",
+        "translation": "Traditional Sealed Magic: The Gathering—FINAL FANTASY"
     },
     "Events/Event_Title_Trad_Sealed_HBG": {
         "oracleText": "Traditional Sealed Baldur's Gate",
@@ -28790,6 +29338,46 @@
     "Events/Packets/SJMP_PacketName_FDN_Zombie": {
         "oracleText": "Zombie",
         "translation": "灵俑(Zombie)"
+    },
+    "Events/Packets/SJMP_PacketName_FIN_Artifacts": {
+        "oracleText": "Artifacts",
+        "translation": "Artifacts"
+    },
+    "Events/Packets/SJMP_PacketName_FIN_Bold": {
+        "oracleText": "Bold",
+        "translation": "Bold"
+    },
+    "Events/Packets/SJMP_PacketName_FIN_Chocobo": {
+        "oracleText": "Chocobo",
+        "translation": "Chocobo"
+    },
+    "Events/Packets/SJMP_PacketName_FIN_Devious": {
+        "oracleText": "Devious",
+        "translation": "Devious"
+    },
+    "Events/Packets/SJMP_PacketName_FIN_Mage": {
+        "oracleText": "Mage",
+        "translation": "Mage"
+    },
+    "Events/Packets/SJMP_PacketName_FIN_Merciless": {
+        "oracleText": "Merciless",
+        "translation": "Merciless"
+    },
+    "Events/Packets/SJMP_PacketName_FIN_Scheming": {
+        "oracleText": "Scheming",
+        "translation": "Scheming"
+    },
+    "Events/Packets/SJMP_PacketName_FIN_Valiant": {
+        "oracleText": "Valiant",
+        "translation": "Valiant"
+    },
+    "Events/Packets/SJMP_PacketName_FIN_Weapons": {
+        "oracleText": "Weapons",
+        "translation": "Weapons"
+    },
+    "Events/Packets/SJMP_PacketName_FIN_Wild": {
+        "oracleText": "Wild",
+        "translation": "Wild"
     },
     "Events/Packets/SJMP_PacketName_Fangs": {
         "oracleText": "Fangs",
@@ -30119,6 +30707,10 @@
         "oracleText": "Join between 6am and 8am Pacific on June 28",
         "translation": "太平洋时间6月28日上午6点到上午8点之间加入"
     },
+    "Events/Tokens/QualifierDay1TokenDescription20250719": {
+        "oracleText": "Join between 6am and 8am Pacific on July 19",
+        "translation": "Join between 6am and 8am Pacific on July 19"
+    },
     "Events/Tokens/QualifierDay1TokenPlural": {
         "oracleText": "Qualifier Weekend Token",
         "translation": "资格赛周末门票"
@@ -30254,6 +30846,10 @@
     "Events/Tokens/QualifierDay2TokenDescription20250629": {
         "oracleText": "Join between 6am and 8am Pacific on June 29",
         "translation": "太平洋时间6月29日上午6点到上午8点之间加入"
+    },
+    "Events/Tokens/QualifierDay2TokenDescription20250720": {
+        "oracleText": "Join between 6am and 8am Pacific on July 20",
+        "translation": "Join between 6am and 8am Pacific on July 20"
     },
     "Events/Tokens/QualifierDay2TokenPlural": {
         "oracleText": "Qualifier Day 2",
@@ -30778,6 +31374,10 @@
     "General/Sets/FDN": {
         "oracleText": "Magic: The Gathering Foundations",
         "translation": "万智牌：基石构筑"
+    },
+    "General/Sets/FIN": {
+        "oracleText": "Magic: The Gathering—FINAL FANTASY",
+        "translation": "Magic: The Gathering—FINAL FANTASY"
     },
     "General/Sets/GRN": {
         "oracleText": "Guilds of Ravnica",
@@ -31723,6 +32323,14 @@
         "oracleText": "Magic: The Gathering Foundations",
         "translation": "万智牌：基石构筑"
     },
+    "MainNav/BattlePass/BattlePass_FIN": {
+        "oracleText": "Magic: The Gathering—FINAL FANTASY",
+        "translation": "Magic: The Gathering—FINAL FANTASY"
+    },
+    "MainNav/BattlePass/BattlePass_FIN_Alt": {
+        "oracleText": "Magic: The Gathering—FINAL FANTASY",
+        "translation": "Magic: The Gathering—FINAL FANTASY"
+    },
     "MainNav/BattlePass/BattlePass_HBG": {
         "oracleText": "Baldur's Gate",
         "translation": "博德之门"
@@ -32099,6 +32707,10 @@
         "oracleText": "Foundations Set Mastery",
         "translation": "基石构筑精研通行证"
     },
+    "MainNav/BattlePass/MasteryListingTitle_FIN": {
+        "oracleText": "Magic: The Gathering—FINAL FANTASY Set Mastery",
+        "translation": "Magic: The Gathering—FINAL FANTASY Set Mastery"
+    },
     "MainNav/BattlePass/MasteryListingTitle_HBG": {
         "oracleText": "Alchemy Horizons: Baldur's Gate Set Mastery",
         "translation": "「炼金新篇：博德之门」精研通行证"
@@ -32182,6 +32794,10 @@
     "MainNav/BattlePass/Mastery_Header_FDNshort": {
         "oracleText": "Foundations Mastery",
         "translation": "基石构筑精研通行证"
+    },
+    "MainNav/BattlePass/Mastery_Header_FIN": {
+        "oracleText": "Magic: The Gathering—FINAL FANTASY Mastery",
+        "translation": "Magic: The Gathering—FINAL FANTASY Mastery"
     },
     "MainNav/BattlePass/Mastery_Header_HBG": {
         "oracleText": "Alchemy Horizons: Baldur's Gate Mastery Pass",
@@ -34347,6 +34963,10 @@
         "oracleText": "Brawl decks must contain exactly {MinMainDeckRequired} cards.",
         "translation": "争锋套牌需要正好包含{MinMainDeckRequired}张牌。"
     },
+    "MainNav/DeckBuilder/DeckBuilder_InvalidDeckReasons_CommanderHasPartner": {
+        "oracleText": "Second Commander must be a legendary creature or Planeswalker with the \"Partner\" ability. To change your deck's commander(s), remove one first.",
+        "translation": "Second Commander must be a legendary creature or Planeswalker with the \"Partner\" ability. To change your deck's commander(s), remove one first."
+    },
     "MainNav/DeckBuilder/DeckBuilder_InvalidDeckReasons_HasBannedCards": {
         "oracleText": "Deck contains banned or suspended cards.",
         "translation": "套牌中有禁用或停权牌。"
@@ -35835,9 +36455,73 @@
         "oracleText": "Chandra Foundations Sleeve",
         "translation": "茜卓基石构筑牌套"
     },
+    "MainNav/DeckBuilder/Sleeves/CardBack_FIN_443942": {
+        "oracleText": "Summon Knights of the Round Sleeve",
+        "translation": "Summon Knights of the Round Sleeve"
+    },
     "MainNav/DeckBuilder/Sleeves/CardBack_FIN_444069": {
         "oracleText": "Vivi Ornitier Sleeve",
         "translation": "比比·奥尼提尔牌套"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_FIN_445037": {
+        "oracleText": "Zidane, Tantalus Thief Sleeve",
+        "translation": "Zidane, Tantalus Thief Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_FIN_445038": {
+        "oracleText": "Squall, SeeD Mercenary Sleeve",
+        "translation": "Squall, SeeD Mercenary Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_FIN_445041": {
+        "oracleText": "Cecil, Dark Knight Sleeve",
+        "translation": "Cecil, Dark Knight Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_FIN_445042": {
+        "oracleText": "Cecil, Redeemed Paladin Sleeve",
+        "translation": "Cecil, Redeemed Paladin Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_FIN_445044": {
+        "oracleText": "Noctis, Prince of Lucis Sleeve",
+        "translation": "Noctis, Prince of Lucis Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_FIN_445050": {
+        "oracleText": "Y'shtola, Night's Blessed Sleeve",
+        "translation": "Y'shtola, Night's Blessed Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_FIN_448363": {
+        "oracleText": "Golbez, Crystal Collector Sleeve",
+        "translation": "Golbez, Crystal Collector Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_FIN_448385": {
+        "oracleText": "Vincent Valentine Sleeve",
+        "translation": "Vincent Valentine Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_FIN_448739": {
+        "oracleText": "Yuna, Hope of Spira Sleeve",
+        "translation": "Yuna, Hope of Spira Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_FIN_451307": {
+        "oracleText": "Cloud Sleeve",
+        "translation": "Cloud Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_FIN_451935": {
+        "oracleText": "Balthier and Fran Sleeve",
+        "translation": "Balthier and Fran Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_FIN_451941": {
+        "oracleText": "Dion, Bahamut's Dominant Sleeve",
+        "translation": "Dion, Bahamut's Dominant Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_FIN_451951": {
+        "oracleText": "Firion, Wild Rose Warrior Sleeve",
+        "translation": "Firion, Wild Rose Warrior Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_FIN_452052": {
+        "oracleText": "Sephiroth Sleeve",
+        "translation": "Sephiroth Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_FIN_452068": {
+        "oracleText": "Flower of Midgard Sleeve",
+        "translation": "Flower of Midgard Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_FIN_452070": {
         "oracleText": "Noctis Sleeve",
@@ -35846,6 +36530,10 @@
     "MainNav/DeckBuilder/Sleeves/CardBack_FIN_452072": {
         "oracleText": "Clive Sleeve",
         "translation": "克莱夫牌套"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_FIN_452153": {
+        "oracleText": "Moogle Sleeve",
+        "translation": "Moogle Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_FIN_452417": {
         "oracleText": "Terra Sleeve",
@@ -39187,6 +39875,10 @@
         "oracleText": "Magic: The Gathering Foundations Constructed",
         "translation": "万智牌：基石构筑环境构筑"
     },
+    "MainNav/DeckFormat/FIN": {
+        "oracleText": "Magic: The Gathering—FINAL FANTASY Constructed",
+        "translation": "Magic: The Gathering—FINAL FANTASY Constructed"
+    },
     "MainNav/DeckFormat/FriendlyBrawl": {
         "oracleText": "Friendly Brawl",
         "translation": "好友争锋"
@@ -39270,6 +39962,10 @@
     "MainNav/DeckFormat/HistoricBrawlWithAllowList_20250513": {
         "oracleText": "Midweek Magic: Brawl Builder",
         "translation": "周中万智牌：争锋构筑"
+    },
+    "MainNav/DeckFormat/HistoricBrawlWithAllowList_20250624": {
+        "oracleText": "Midweek Magic: Brawl Builder",
+        "translation": "Midweek Magic: Brawl Builder"
     },
     "MainNav/DeckFormat/HistoricNBL": {
         "oracleText": "No-Ban Historic",
@@ -40262,6 +40958,22 @@
     "MainNav/EventRewards/ArenaDirect_FIABVegas2024_Singular": {
         "oracleText": "{quantity} Festival in a Box: Las Vegas 2024 box",
         "translation": "{quantity}盒Festival in a Box: Las Vegas 2024"
+    },
+    "MainNav/EventRewards/ArenaDirect_FIN_COLLECTORPlural": {
+        "oracleText": "{number1} Magic: the Gathering—FINAL FANTASY Collector Booster Boxes",
+        "translation": "{number1} Magic: the Gathering—FINAL FANTASY Collector Booster Boxes"
+    },
+    "MainNav/EventRewards/ArenaDirect_FIN_COLLECTORSingular": {
+        "oracleText": "{number1} Magic: the Gathering—FINAL FANTASY Collector Booster Box",
+        "translation": "{number1} Magic: the Gathering—FINAL FANTASY Collector Booster Box"
+    },
+    "MainNav/EventRewards/ArenaDirect_FIN_PLAYPlural": {
+        "oracleText": "{quantity} Magic: the Gathering—FINAL FANTASY Play Booster Boxes",
+        "translation": "{quantity} Magic: the Gathering—FINAL FANTASY Play Booster Boxes"
+    },
+    "MainNav/EventRewards/ArenaDirect_FIN_PLAYSingular": {
+        "oracleText": "{number1} Magic: the Gathering—FINAL FANTASY Play Booster Box",
+        "translation": "{number1} Magic: the Gathering—FINAL FANTASY Play Booster Box"
     },
     "MainNav/EventRewards/ArenaDirect_LCI_PLAYSingular": {
         "oracleText": "2 Lost Caverns of Ixalan Set Booster Boxes",
@@ -41554,6 +42266,22 @@
     "MainNav/EventRewards/Sticker_FDN_Sylvan_Scavenging": {
         "oracleText": "Sylvan Scavenge Sticker Emote",
         "translation": "森林清还贴纸表情"
+    },
+    "MainNav/EventRewards/Sticker_FIN_BusterSword_GG": {
+        "oracleText": "Buster Sword GG Sticker Emote",
+        "translation": "Buster Sword GG Sticker Emote"
+    },
+    "MainNav/EventRewards/Sticker_FIN_Chocobo": {
+        "oracleText": "Chocobo Sticker Emote",
+        "translation": "Chocobo Sticker Emote"
+    },
+    "MainNav/EventRewards/Sticker_FIN_Moogle_VictoryDance": {
+        "oracleText": "Moogle Victory Dance Sticker Emote",
+        "translation": "Moogle Victory Dance Sticker Emote"
+    },
+    "MainNav/EventRewards/Sticker_FIN_Tonberry": {
+        "oracleText": "Tonberry Sticker Emote",
+        "translation": "Tonberry Sticker Emote"
     },
     "MainNav/EventRewards/Sticker_HBG_BlackDragon": {
         "oracleText": "Black Dragon Gloat Sticker Emote",
@@ -43388,8 +44116,16 @@
         "translation": "准备好迎接终极冒险了吗？今天就到商店来选取预售商品吧！"
     },
     "MainNav/HomePage/Carousel/2025_48_40_Store_Title": {
-        "oracleText": "Magic: The Gathering®—FINAL FANTASY is Nearly Here!",
-        "translation": "万智牌～最终幻想即将登场！"
+        "oracleText": "Magic: The Gathering—FINAL FANTASY is Nearly Here!",
+        "translation": "Magic: The Gathering—FINAL FANTASY is Nearly Here!"
+    },
+    "MainNav/HomePage/Carousel/2025_49_0_Store_Desc": {
+        "oracleText": "Pick up new Stickers, Full Art Lands, Avatars, and more in the Store today!",
+        "translation": "Pick up new Stickers, Full Art Lands, Avatars, and more in the Store today!"
+    },
+    "MainNav/HomePage/Carousel/2025_49_0_Store_Title": {
+        "oracleText": "Magic: The Gathering—FINAL FANTASY is Here!",
+        "translation": "Magic: The Gathering—FINAL FANTASY is Here!"
     },
     "MainNav/HomePage/Carousel/2025_OPPlay_Indiana_Desc": {
         "oracleText": "$50,000, Pro Tour Invites, and more are up for grabs in Indianapolis, IN. Sign-up today!",
@@ -44456,16 +45192,24 @@
         "translation": "万智聚光灯：秘室珍品 - 公开锦标赛"
     },
     "MainNav/HomePage/Carousel/FIN_PreRelease_Title": {
-        "oracleText": "Your first opportunity to play Magic: The Gathering®—FINAL FANTASY!",
-        "translation": "第一次尝试万智牌～最终幻想的机会来了！"
+        "oracleText": "Your first opportunity to play Magic: The Gathering—FINAL FANTASY!",
+        "translation": "Your first opportunity to play Magic: The Gathering—FINAL FANTASY!"
     },
     "MainNav/HomePage/Carousel/FIN_Previews_Desc": {
         "oracleText": "Get a sneak peek at the cards coming in the latest set by clicking here!",
         "translation": "点击此处，抢先一睹最新系列即将登场的卡牌！"
     },
     "MainNav/HomePage/Carousel/FIN_Previews_Title": {
-        "oracleText": "Magic: The Gathering®—FINAL FANTASY Previews!",
-        "translation": "万智牌～最终幻想预览！"
+        "oracleText": "Magic: The Gathering—FINAL FANTASY Previews!",
+        "translation": "Magic: The Gathering—FINAL FANTASY Previews!"
+    },
+    "MainNav/HomePage/Carousel/FIN_SetMastery_Desc": {
+        "oracleText": "Complete quests to earn packs, companions, and more from the Mastery Pass!",
+        "translation": "Complete quests to earn packs, companions, and more from the Mastery Pass!"
+    },
+    "MainNav/HomePage/Carousel/FIN_SetMastery_Title": {
+        "oracleText": "The Magic: The Gathering—FINAL FANTASY Set Mastery has arrived!",
+        "translation": "The Magic: The Gathering—FINAL FANTASY Set Mastery has arrived!"
     },
     "MainNav/HomePage/Carousel/FNMPromo_Desc": {
         "oracleText": "Click to see participating stores",
@@ -48695,13 +49439,37 @@
         "oracleText": "2024.42.10 Patch Notes Are Here!",
         "translation": "2024.42.10 补丁说明在此！"
     },
+    "MainNav/Mailbox/FIN_Announcement_Desc": {
+        "oracleText": "Get ready for an epic adventure! Take these 3 packs and basic lands to help you get started playing the latest set!",
+        "translation": "Get ready for an epic adventure! Take these 3 packs and basic lands to help you get started playing the latest set!"
+    },
+    "MainNav/Mailbox/FIN_Announcement_Title": {
+        "oracleText": "Magic: The Gathering—FINAL FANTASY is on Arena!",
+        "translation": "Magic: The Gathering—FINAL FANTASY is on Arena!"
+    },
     "MainNav/Mailbox/FIN_EarlyAccess_Description": {
         "oracleText": "Watch Standard, Sealed, and Draft as your favorite streamers face off against each other in head-to-head matches in a special early access event happening now!",
         "translation": "于特别提前试玩活动中，你最爱的主播在标准、现开、轮抽等多种赛制中捉对厮杀！现正进行中！"
     },
     "MainNav/Mailbox/FIN_EarlyAccess_Title": {
-        "oracleText": "Excited to play Magic: The Gathering®—FINAL FANTASY in MTG Arena? So are our streamers!",
-        "translation": "已迫不及待地想要在MTG竞技场中游玩万智牌～最终幻想了吗？主播们也是如此！"
+        "oracleText": "Excited to play Magic: The Gathering—FINAL FANTASY in MTG Arena? So are our streamers!",
+        "translation": "Excited to play Magic: The Gathering—FINAL FANTASY in MTG Arena? So are our streamers!"
+    },
+    "MainNav/Mailbox/FIN_FastFollow_PatchNotes_Desc": {
+        "oracleText": "A new patch is here with some exciting updates! Check them out at the link below to learn more!",
+        "translation": "A new patch is here with some exciting updates! Check them out at the link below to learn more!"
+    },
+    "MainNav/Mailbox/FIN_FastFollow_PatchNotes_Title": {
+        "oracleText": "2025.49.10 Patch Notes Are Here!",
+        "translation": "2025.49.10 Patch Notes Are Here!"
+    },
+    "MainNav/Mailbox/FIN_PatchNotes_Desc": {
+        "oracleText": "A new patch is here with some exciting updates! Check them out at the link below to learn more!",
+        "translation": "A new patch is here with some exciting updates! Check them out at the link below to learn more!"
+    },
+    "MainNav/Mailbox/FIN_PatchNotes_Title": {
+        "oracleText": "2025.49.0 Patch Notes Are Here!",
+        "translation": "2025.49.0 Patch Notes Are Here!"
     },
     "MainNav/Mailbox/FIN_PreOrder_PatchNotes_Desc": {
         "oracleText": "A new patch is here with some exciting updates! Check them out at the link below to learn more!",
@@ -48716,8 +49484,8 @@
         "translation": "点按下方链接，了解最新系列即将带来的机制、功能及更多内容。"
     },
     "MainNav/Mailbox/FIN_ReleaseNotes_Title": {
-        "oracleText": "Magic: The Gathering®—FINAL FANTASY Release Notes are Here!",
-        "translation": "万智牌～最终幻想发布释疑在此！"
+        "oracleText": "Magic: The Gathering—FINAL FANTASY Release Notes are Here!",
+        "translation": "Magic: The Gathering—FINAL FANTASY Release Notes are Here!"
     },
     "MainNav/Mailbox/Generic_Gift_Description": {
         "oracleText": "Thank you for attending our special event! To show our gratitude, we've attached a gift to this message. Enjoy, and thank you for playing Magic: The Gathering Arena!",
@@ -50095,6 +50863,18 @@
         "oracleText": "Arahbo",
         "translation": "阿拉博"
     },
+    "MainNav/PetNames/FIN_Mastery_1": {
+        "oracleText": "Chocobo",
+        "translation": "Chocobo"
+    },
+    "MainNav/PetNames/FIN_Mastery_2": {
+        "oracleText": "Chocobo, the Mind Sculptor",
+        "translation": "Chocobo, the Mind Sculptor"
+    },
+    "MainNav/PetNames/FIN_Mastery_3": {
+        "oracleText": "Chocobo, Awakened Inferno",
+        "translation": "Chocobo, Awakened Inferno"
+    },
     "MainNav/PetNames/FIN_Preorder_1": {
         "oracleText": "Moogle",
         "translation": "莫古力"
@@ -51211,6 +51991,10 @@
         "oracleText": "Waiting for <USERNAME WILL BE SUBBED IN> to challenge you back.",
         "translation": "正在等待<USERNAME WILL BE SUBBED IN>向你回发对战请求。"
     },
+    "MainNav/PrizeWall/Emporium_Header_FIN": {
+        "oracleText": "Magic: The Gathering—FINAL FANTASY Mastery Emporium",
+        "translation": "Magic: The Gathering—FINAL FANTASY Mastery Emporium"
+    },
     "MainNav/PrizeWall/Hideaway_Header_BLB": {
         "oracleText": "Bloomburrow Mastery Emporium",
         "translation": "班隆洛精研通行证商铺"
@@ -51451,6 +52235,14 @@
         "oracleText": "Aurelia",
         "translation": "欧瑞梨"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_BalthierFran_FIN_Bio": {
+        "oracleText": "Balthier would describe himself as a noble thief, stealing only from those who deserve it. He goes where he pleases, swearing fealty to no one. Fran is as much at ease with a sword as she is her bare hands. Her proficiency with a blade is matched only by her skill with a wrench, as she also handles the maintenance of Balthier's airship, the Strahl.",
+        "translation": "Balthier would describe himself as a noble thief, stealing only from those who deserve it. He goes where he pleases, swearing fealty to no one. Fran is as much at ease with a sword as she is her bare hands. Her proficiency with a blade is matched only by her skill with a wrench, as she also handles the maintenance of Balthier's airship, the Strahl."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_BalthierFran_FIN_Name": {
+        "oracleText": "Balthier & Fran",
+        "translation": "Balthier & Fran"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_Basri_M21_Bio": {
         "oracleText": "For most of his life, Basri Ket was utterly devoted to Oketra, god of loyalty and solidarity. When she was slain in the Hour of Devastation, his world was shattered. But rather than let it break him, he took up one of her massive arrows as a spear and vowed to champion her ideals across the Multiverse.",
         "translation": "巴席利柯特一生中的大部分时间都完全献给了团结之神。当她在毁灭时刻被杀时，他的世界被打碎了。但他并没有因此而崩溃，而是拿起她的一支巨箭作为长矛，发誓要在整个多重宇宙捍卫她的理想。"
@@ -51507,6 +52299,22 @@
         "oracleText": "Admiral Brass",
         "translation": "贝克蒂霸司"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_Cactuar_FIN_Bio": {
+        "oracleText": "A mysterious creature resembling a cactus. Often shy and timid, it uses quick and nimble movements to dodge player attacks and counter with its powerful '1000 Needles' technique.",
+        "translation": "A mysterious creature resembling a cactus. Often shy and timid, it uses quick and nimble movements to dodge player attacks and counter with its powerful '1000 Needles' technique."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Cactuar_FIN_Name": {
+        "oracleText": "Cactuar",
+        "translation": "Cactuar"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_CastleDwarf_FIN_Bio": {
+        "oracleText": "A cheerful gatekeeper of the dwarven castle in the underground world.",
+        "translation": "A cheerful gatekeeper of the dwarven castle in the underground world."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_CastleDwarf_FIN_Name": {
+        "oracleText": "Castle Dwarf",
+        "translation": "Castle Dwarf"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_ChandraNalaar_Bio": {
         "oracleText": "There is no virtue in subtlety, at least not as far as Chandra Nalaar is concerned. She's a confident, ardent, defiant Planeswalker whose specialty is pyromancy: spells of fire, fire, and more fire.",
         "translation": "缜密没什么好处～至少茜卓纳拉从不挂心这点。她是一名自信满盈，热情似火，桀骜不驯的鹏洛客，她的专长就是烈焰：火焰咒语，火焰，以及更猛的火焰。"
@@ -51546,6 +52354,22 @@
     "MainNav/Profile/Avatars/Avatar_Basic_Chandra_M20_Name": {
         "oracleText": "Chandra, Flame's Fury",
         "translation": "盛焰怒火茜卓"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Clive_FIN_Bio": {
+        "oracleText": "Born as the eldest son of Archduke Rosfield, he was expected to awaken as the Dominant of the Phoenix, but that responsibility fell on the shoulders of his younger brother, Joshua. Clive honed his skills with the blade until, after proving his worth in ceremonial combat, he was dubbed a knight. He was appointed as his brother's shield and was blessed with the ability to wield a part of the Phoenix's fire. However, he became ensnared in tragedy and was sent on a quest for vengeance, pursuing the author of this tragedy, the mysterious dark Eikon, Ifrit.",
+        "translation": "Born as the eldest son of Archduke Rosfield, he was expected to awaken as the Dominant of the Phoenix, but that responsibility fell on the shoulders of his younger brother, Joshua. Clive honed his skills with the blade until, after proving his worth in ceremonial combat, he was dubbed a knight. He was appointed as his brother's shield and was blessed with the ability to wield a part of the Phoenix's fire. However, he became ensnared in tragedy and was sent on a quest for vengeance, pursuing the author of this tragedy, the mysterious dark Eikon, Ifrit."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Clive_FIN_Name": {
+        "oracleText": "Clive",
+        "translation": "Clive"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Cloud_FIN_Bio": {
+        "oracleText": "Cloud Strife is a young man who claims to be a former elite member of the Shinra's SOLDIER unit. When he was hired as a mercenary for the anti-Shinra organization Avalanche, he learned that his nemesis Sephiroth was still alive. Now he pursues Sephiroth to settle their score.",
+        "translation": "Cloud Strife is a young man who claims to be a former elite member of the Shinra's SOLDIER unit. When he was hired as a mercenary for the anti-Shinra organization Avalanche, he learned that his nemesis Sephiroth was still alive. Now he pursues Sephiroth to settle their score."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Cloud_FIN_Name": {
+        "oracleText": "Cloud",
+        "translation": "Cloud"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_CourtKnight_ELD_Bio": {
         "oracleText": "The court of Ardenvale values loyalty above all else, and only those with truly virtuous hearts survive the trial of the Circle of Loyalty. Ardenvale's knights fight in perfect unison with a single, unbreakable will, each one selflessly defending the next.",
@@ -51787,6 +52611,14 @@
         "oracleText": "Gideon Jura",
         "translation": "基定尤拉"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_Gilgamesh_FIN_Bio": {
+        "oracleText": "A captain of the Royal Guard under Exdeath, along with his monstrous companion, Enkidu. Although he possesses the power to decimate the forces of the Castle of Bal, if he finds himself in an unfavorable position, he is likely to rely on his quick-witted charm, withdrawing under the cover of an unconvincing excuse. As he crosses swords with Bartz and his companions, a grudging respect blossoms into feelings akin to friendship.",
+        "translation": "A captain of the Royal Guard under Exdeath, along with his monstrous companion, Enkidu. Although he possesses the power to decimate the forces of the Castle of Bal, if he finds himself in an unfavorable position, he is likely to rely on his quick-witted charm, withdrawing under the cover of an unconvincing excuse. As he crosses swords with Bartz and his companions, a grudging respect blossoms into feelings akin to friendship."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Gilgamesh_FIN_Name": {
+        "oracleText": "Gilgamesh",
+        "translation": "Gilgamesh"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_Gishath_LCI_Bio": {
         "oracleText": "Gishath may look like a giant, terrifying dinosaur, because he is—but Gishath is also an avatar of the Threefold Sun, combining the deity's three aspects into one of the most formidable creatures on Ixalan. Best advice? Run, and never look back.",
         "translation": "基撒斯可能看起来像一只巨大而可怕的恐龙，因为他确实如此——但基撒斯也是三重太阳的化身，将神的三个方面结合在一起，成为依夏兰最强大的生物之一。 最好的建议是什么？ 跑吧，绝对不要回头看。"
@@ -51967,6 +52799,14 @@
         "oracleText": "Kaya",
         "translation": "卡娅"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_Kefka_FIN_Bio": {
+        "oracleText": "Kefka was one of the first test subjects to undergo magic infusion and was deemed a failure after the process twisted his psyche, leaving him a cackling madman. His ability to wield magic made him one of the most dangerous men in the Empire and he was enlisted as a Magitek knight, quickly gaining the position of Emperor Gestahl's right-hand man.",
+        "translation": "Kefka was one of the first test subjects to undergo magic infusion and was deemed a failure after the process twisted his psyche, leaving him a cackling madman. His ability to wield magic made him one of the most dangerous men in the Empire and he was enlisted as a Magitek knight, quickly gaining the position of Emperor Gestahl's right-hand man."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Kefka_FIN_Name": {
+        "oracleText": "Kefka",
+        "translation": "Kefka"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_Kellan_LCI_Bio": {
         "oracleText": "Hardly a day after leaving his home plane of Eldraine, Kellan is immediately thrown into a new adventure. The half-fae son of Oko traveled through an Omenpath in search of his father, arriving on Ixalan with a head full of questions.",
         "translation": "离开家乡艾卓时空不到一天，凯澜就立即投入了新的冒险。 瓯柯的半仙子儿子穿过预兆之路寻找他的父亲，带着满脑子的疑问来到依夏兰。"
@@ -52054,6 +52894,14 @@
     "MainNav/Profile/Avatars/Avatar_Basic_Legolas_LTR_Name": {
         "oracleText": "Legolas",
         "translation": "莱戈拉斯"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Lightning_FIN_Bio": {
+        "oracleText": "Lightning was formerly a sergeant in the Guardian Corps, Bodhum Security Regiment. Wanting to outgrow the painful memories of her parents' death, she abandoned her childhood name to take up her current moniker. To save Cocoon and her sister, she faces her destiny.",
+        "translation": "Lightning was formerly a sergeant in the Guardian Corps, Bodhum Security Regiment. Wanting to outgrow the painful memories of her parents' death, she abandoned her childhood name to take up her current moniker. To save Cocoon and her sister, she faces her destiny."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Lightning_FIN_Name": {
+        "oracleText": "Lightning",
+        "translation": "Lightning"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_LilGiri_Bio": {
         "oracleText": "A brave li'l warrior from a distant li'l plane, Li'l Giri is a protector of those who can't protect themselves. He has a strong sense of justice, deft sword skills, and an unknown filling.",
@@ -52207,6 +53055,14 @@
         "oracleText": "Nissa, Ascended Animist",
         "translation": "升华物灵师妮莎"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_Noctis_FIN_Bio": {
+        "oracleText": "Though he was chosen by the Crystal to serve as the savior of this star, an injury incurred as a young boy deprived him access to the full potential of his innate power. Leaving the shelter of the Citadel for the first time enlightens the prince as to just how unknown he is outside the castle walls.",
+        "translation": "Though he was chosen by the Crystal to serve as the savior of this star, an injury incurred as a young boy deprived him access to the full potential of his innate power. Leaving the shelter of the Citadel for the first time enlightens the prince as to just how unknown he is outside the castle walls."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Noctis_FIN_Name": {
+        "oracleText": "Noctis",
+        "translation": "Noctis"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_ObNixilis_SNC_Bio": {
         "oracleText": "The demon lord Ob Nixilis has carved his path to power through the multiverse. But after growing bored of regular conquest, he appeared in New Capenna with a more subtle strategy—gradually build his influence over the Five Families before claiming the plane for himself.",
         "translation": "恶魔领主尼希兹在多重宇宙中开创了自己的权力之路。但在厌倦了常规的征服之后，他出现在新卡佩纳，采取了一个更微妙的策略--在将这个星球据为己有之前，逐步建立他对五大家族的影响力。"
@@ -52246,6 +53102,14 @@
     "MainNav/Profile/Avatars/Avatar_Basic_Olivia_VOW_Name": {
         "oracleText": "Olivia Voldaren",
         "translation": "奥莉薇亚沃达连"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_OnionKnight_FIN_Bio": {
+        "oracleText": "Four orphans raised in the remote town of Ur by Elder Topapa, having survived an ordeal in the Altar Cave during a test of courage, are tasked by the elemental crystals with saving the world. Propped up by friends they have made along their journey, the Warriors of the Light bravely oppose Master Xande.",
+        "translation": "Four orphans raised in the remote town of Ur by Elder Topapa, having survived an ordeal in the Altar Cave during a test of courage, are tasked by the elemental crystals with saving the world. Propped up by friends they have made along their journey, the Warriors of the Light bravely oppose Master Xande."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_OnionKnight_FIN_Name": {
+        "oracleText": "Onion Knight",
+        "translation": "Onion Knight"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_PhagetheUntouchable_Bio": {
         "oracleText": "Before becoming a Planeswalker, Jeska once took the form of Phage, a powerful Avatar who could kill anything with a single touch. It's . . . complicated.",
@@ -52327,6 +53191,14 @@
         "oracleText": "Rowan, Scion of War",
         "translation": "尚武后裔萝婉"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_Rydia_FIN_Bio": {
+        "oracleText": "Rydia is a young summoner from the village of Mist. After tragedy befalls the peaceful hamlet, she is filled with rage toward those she holds responsible. As her nascent magical abilities grow, she plays an increasingly crucial role in the fate of the world.",
+        "translation": "Rydia is a young summoner from the village of Mist. After tragedy befalls the peaceful hamlet, she is filled with rage toward those she holds responsible. As her nascent magical abilities grow, she plays an increasingly crucial role in the fate of the world."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Rydia_FIN_Name": {
+        "oracleText": "Rydia",
+        "translation": "Rydia"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_STX_ProfessorOnyx_Bio": {
         "oracleText": "An alumna of Witherbloom, Professor Onyx has returned to her alma mater as a teacher. She is researching a way to return the dead to life. The good professor is definitely not the planeswalker Liliana Vess. Look, no headdress. Totally a different person.",
         "translation": "作为靡华的校友，黑玉教授已经回到母校当黑魔法防御课老师了。她正在研究一种让死者复生的方法。这位好教授绝对不是鹏洛客莉莲娜维斯。看，没有头饰。完全是一个不同的人。"
@@ -52375,6 +53247,14 @@
         "oracleText": "Sarkhan, Dragon Ascendant",
         "translation": "登龙萨坎"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_Sephiroth_FIN_Bio": {
+        "oracleText": "A legendary soldier who was once proclaimed a hero. However, upon learning the truth about the Shinra Inc. experiments that created him, he grew to hate Shinra and, eventually, all of humanity. Despite being defeated by Cloud five years ago, he refused to return to the planet. He manipulated Jenova, who was kept in the Shinra Building, as his own avatar, and, starting with Cloud, began calling upon the Sephiroth copies across the land with the goal of unleashing the ultimate destructive magic: Meteor.",
+        "translation": "A legendary soldier who was once proclaimed a hero. However, upon learning the truth about the Shinra Inc. experiments that created him, he grew to hate Shinra and, eventually, all of humanity. Despite being defeated by Cloud five years ago, he refused to return to the planet. He manipulated Jenova, who was kept in the Shinra Building, as his own avatar, and, starting with Cloud, began calling upon the Sephiroth copies across the land with the goal of unleashing the ultimate destructive magic: Meteor."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Sephiroth_FIN_Name": {
+        "oracleText": "Sephiroth",
+        "translation": "Sephiroth"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_Serra_MH1_Bio": {
         "oracleText": "A human Planeswalker from the distant past, Serra was a powerful and benevolent healer. She created an artificial plane known as Serra's Realm, where she and her followers lived in peace defended by flights of angels. Though Serra and her realm are long gone, her legacy and teachings have lived on as a beacon of hope throughout the Multiverse.",
         "translation": "来自遥远过去的人类鹏洛客，撒拉是一位强大而仁慈的治疗师。她创造了一个被称为撒拉国度的人造位面，在那里她和她的追随者在飞行天使的保护下过着和平的生活。尽管撒拉和她的国度早已不复存在，但她的遗产和教义作为整个多重宇宙的希望灯塔一直存在。"
@@ -52390,6 +53270,14 @@
     "MainNav/Profile/Avatars/Avatar_Basic_Shadowheart_HBG_Name": {
         "oracleText": "Shadowheart",
         "translation": "影心"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Shantotto_FIN_Bio": {
+        "oracleText": "A Tarutaru doctor and former minister of the Windurst Orastery who possesses extraordinary talent in black magic, Shantotto has a superiority complex and a short fuse. Her looks and cadence mimic those of a lady, but her words and actions are shocking and unpredictable.",
+        "translation": "A Tarutaru doctor and former minister of the Windurst Orastery who possesses extraordinary talent in black magic, Shantotto has a superiority complex and a short fuse. Her looks and cadence mimic those of a lady, but her words and actions are shocking and unpredictable."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Shantotto_FIN_Name": {
+        "oracleText": "Shantotto",
+        "translation": "Shantotto"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Sheoldred_ONE_Bio": {
         "oracleText": "Sheoldred is a graceful, cruel, and clever praetor and the mightiest of the Seven Steel Thanes. She is known for underhanded manipulation and effective use of sleeper agents to infiltrate her opposition. Returned now to New Phyrexia, Sheoldred prepares to betray Norn before her moment of triumph.",
@@ -52431,6 +53319,14 @@
         "oracleText": "Sorin Markov",
         "translation": "索霖马可夫"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_Squall_FIN_Bio": {
+        "oracleText": "A Balamb Garden SeeD cadet and mercenary-in-training, Squall is a lone wolf, cold and withdrawn from others. As he passes the exam to become a SeeD, he joins the Forest Owls on their mission, and gradually begins to open up to those around him.",
+        "translation": "A Balamb Garden SeeD cadet and mercenary-in-training, Squall is a lone wolf, cold and withdrawn from others. As he passes the exam to become a SeeD, he joins the Forest Owls on their mission, and gradually begins to open up to those around him."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Squall_FIN_Name": {
+        "oracleText": "Squall",
+        "translation": "Squall"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_Squee_DMU_Bio": {
         "oracleText": "Once a cabin-boy on the Weatherlight, a mishap related to an evil god granted Squee immortality. Unable to die by blade, age, or any other method his assorted enemies have tried, Squee has had his fill of adventuring and now lives in \"retirement\" as the chieftain of a goblin tribe high in the Otarian mountains. Lately, he can't shake the feeling that something is off, and is putting his centuries of wisdom to the purpose of figuring out just what that something is....",
         "translation": "曾经是晴空号上的一个客舱男孩，一次与邪恶之神有关的意外使斯奎获得了不朽的生命。由于无法死于刀剑、年龄或其他任何他的敌人尝试过的方法，斯奎已经完成了他的冒险，现在作为欧塔利亚山脉中一个鬼怪部落的首领过着“退休”生活。最近，他总觉得有什么东西不对劲，于是把他几个世纪的智慧用在了弄清楚什么东西上...."
@@ -52438,6 +53334,14 @@
     "MainNav/Profile/Avatars/Avatar_Basic_Squee_DMU_Name": {
         "oracleText": "Squee",
         "translation": "斯奎"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Stilzkin_FIN_Bio": {
+        "oracleText": "The knowledgeable and reliable hero of the moogle world. Stiltzkin never stays in one place for long, taking off to wander the land and selling items by the roadside to fund his journey. This cool customer almost never adds \"kupo\" to the end of his sentences.",
+        "translation": "The knowledgeable and reliable hero of the moogle world. Stiltzkin never stays in one place for long, taking off to wander the land and selling items by the roadside to fund his journey. This cool customer almost never adds \"kupo\" to the end of his sentences."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Stilzkin_FIN_Name": {
+        "oracleText": "Stiltzkin",
+        "translation": "Stiltzkin"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Stormsplitter_BLB_Bio": {
         "oracleText": "Stormsplitters are otters who can harness lightning to duplicate themselves, serving as diversion forces against Calamity Beasts. Their reckless bravery is born from a tradition of stormchasing, repurposing otter sport techniques into combat artistry.",
@@ -52495,6 +53399,14 @@
         "oracleText": "Teferi",
         "translation": "泰菲力"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_Terra_FIN_Bio": {
+        "oracleText": "Born with the ability to wield magic, Terra was placed under mind control by the Gestahlian Empire and forced to fight as a living weapon. The spell was broken after an encounter with a frozen esper, and she joined a rebel group known as the Returners to fight against the imperial regime.",
+        "translation": "Born with the ability to wield magic, Terra was placed under mind control by the Gestahlian Empire and forced to fight as a living weapon. The spell was broken after an encounter with a frozen esper, and she joined a rebel group known as the Returners to fight against the imperial regime."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Terra_FIN_Name": {
+        "oracleText": "Terra",
+        "translation": "Terra"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_Teyo_J21_Bio": {
         "oracleText": "Teyo Verada is a young, inexperienced shield mage who was unexpectedly thrust into the chaos of war, surviving deadly trials against all odds. He's still learning what it means to be a Planeswalker and has only scratched the surface of his true potential.",
         "translation": "泰佑维拉达是一个年轻的、没有经验的盾法师，他意外地被推入了混乱的战争中，在致命的考验中逆境生存。他仍在学习成为一名鹏洛客的意义，对他真正的潜力也只是触及表面。"
@@ -52535,6 +53447,14 @@
         "oracleText": "Tibalt",
         "translation": "提勃"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_Tidus_FIN_Bio": {
+        "oracleText": "Cheerful and carefree, Tidus was an ace blitzball player in the city of Zanarkand. After stumbling into Spira, a world plagued by the monster known as Sin, Tidus joins the summoner Yuna on her pilgrimage as he searches for a way home.",
+        "translation": "Cheerful and carefree, Tidus was an ace blitzball player in the city of Zanarkand. After stumbling into Spira, a world plagued by the monster known as Sin, Tidus joins the summoner Yuna on her pilgrimage as he searches for a way home."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Tidus_FIN_Name": {
+        "oracleText": "Tidus",
+        "translation": "Tidus"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_Tinybones_OTJ_Bio": {
         "oracleText": "For Tinybones, stealing is its own reward—other than the reward, of course. When the skeletal scamp isn't \"finding\" valuables and infiltrating stealthy spaces for Oko, he's bonding with the demon Rakdos, one of the few beings who can understand him.",
         "translation": "对于细骨来说，偷窃本身就是一种奖励——当然，除了奖赏之外。 当他没有为瓯柯“寻找”贵重物品并渗透到隐秘空间时，他就会与恶魔拉铎司建立联系，拉铎司是少数能理解他的生物之一。"
@@ -52550,6 +53470,14 @@
     "MainNav/Profile/Avatars/Avatar_Basic_Titania_BRO_Name": {
         "oracleText": "Titania",
         "translation": "泰坦尼亚"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Tonberry_FIN_Bio": {
+        "oracleText": "This enigmatic creature creeps forward by the light of a lantern held in one hand, before lashing out with the kitchen knife it holds in the other.",
+        "translation": "This enigmatic creature creeps forward by the light of a lantern held in one hand, before lashing out with the kitchen knife it holds in the other."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Tonberry_FIN_Name": {
+        "oracleText": "Tonberry",
+        "translation": "Tonberry"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Trostani_Bio": {
         "oracleText": "Guildmaster of the Selesnya Conclave on Ravnica, and speaker for the World Tree, Mat'Selesnya. Trostani is a fusion of three Dryads who each represent a different key Selesnyan value: Life, Order, and Harmony.",
@@ -52790,6 +53718,22 @@
     "MainNav/Profile/Avatars/Avatar_Basic_Yargle_DAR_Name": {
         "oracleText": "Yargle, Glutton of Urborg",
         "translation": "乌尔博格吞蛙雅骨尔"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Yshtola_FIN_Bio": {
+        "oracleText": "Well versed in arcane and ancient wisdom, Y'shtola's pragmatism is matched only by her thirst for knowledge. Her relentless studies have revealed the edges of a greater truth, and only time will tell where this new perspective will lead her.",
+        "translation": "Well versed in arcane and ancient wisdom, Y'shtola's pragmatism is matched only by her thirst for knowledge. Her relentless studies have revealed the edges of a greater truth, and only time will tell where this new perspective will lead her."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Yshtola_FIN_Name": {
+        "oracleText": "Y'shtola",
+        "translation": "Y'shtola"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Yuna_FIN_Bio": {
+        "oracleText": "Yuna is the daughter of High Summoner Braska, the man who defeated Sin ten years ago. She too becomes a summoner and embarks on a pilgrimage to vanquish Sin and bring peace to Spira. To avoid showing pain or sorrow, she maintains an optimistic and cheerful demeanor.",
+        "translation": "Yuna is the daughter of High Summoner Braska, the man who defeated Sin ten years ago. She too becomes a summoner and embarks on a pilgrimage to vanquish Sin and bring peace to Spira. To avoid showing pain or sorrow, she maintains an optimistic and cheerful demeanor."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Yuna_FIN_Name": {
+        "oracleText": "Yuna",
+        "translation": "Yuna"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Ziatora_SNC_Bio": {
         "oracleText": "Ziatora not only established the Riveteers, but also much of New Capenna itself from the foundations up. By accepting power from a demonic contract, she left dragonkind in the dust and grew her organization into one of the mightiest the city's ever seen.",
@@ -56719,6 +57663,10 @@
         "oracleText": "Turn Two Bundle",
         "translation": "二次转身套装"
     },
+    "MainNav/Store/Bundles/Bundle_Chocobo_Name": {
+        "oracleText": "Chocobo Bundle",
+        "translation": "Chocobo Bundle"
+    },
     "MainNav/Store/Bundles/Bundle_CommonMutate_Desc": {
         "oracleText": "Dreamtail Heron Showcase Style\nMigratory Greathorn Showcase Style\nVulpikeet Showcase Style\nCavern Whisperer Showcase Style\nCloudpiercer Showcase Style",
         "translation": "*梦翎苍鹭*镶金闪样式\n*迁徙巨角兽*镶金闪样式\n*狐身鹦鹉*镶金闪样式\n*洞窟低语怪*镶金闪样式\n*穿云庞龙*镶金闪样式"
@@ -57342,6 +58290,126 @@
     "MainNav/Store/Bundles/Bundle_FDN_Stickers_Name": {
         "oracleText": "Sticker Bundle",
         "translation": "贴纸套装"
+    },
+    "MainNav/Store/Bundles/Bundle_FIN_Avatars1_Desc": {
+        "oracleText": "Rydia Avatar\nGilgamesh Avatar\nKefka Avatar\nTerra Avatar\nOnion Knight Avatar\n\n© SQUARE ENIX",
+        "translation": "Rydia Avatar\nGilgamesh Avatar\nKefka Avatar\nTerra Avatar\nOnion Knight Avatar\n\n© SQUARE ENIX"
+    },
+    "MainNav/Store/Bundles/Bundle_FIN_Avatars1_Name": {
+        "oracleText": "Avatar Collection I",
+        "translation": "Avatar Collection I"
+    },
+    "MainNav/Store/Bundles/Bundle_FIN_Avatars2_Desc": {
+        "oracleText": "Sephiroth Avatar\nSquall Avatar\nYuna Avatar\nTidus Avatar\n\n© SQUARE ENIX",
+        "translation": "Sephiroth Avatar\nSquall Avatar\nYuna Avatar\nTidus Avatar\n\n© SQUARE ENIX"
+    },
+    "MainNav/Store/Bundles/Bundle_FIN_Avatars2_Name": {
+        "oracleText": "Avatar Collection II",
+        "translation": "Avatar Collection II"
+    },
+    "MainNav/Store/Bundles/Bundle_FIN_Avatars3_Desc": {
+        "oracleText": "Balthier & Fran Avatar\nLightning Avatar\nY'shtola Avatar\nNoctis Avatar\nClive Avatar\n\n© SQUARE ENIX",
+        "translation": "Balthier & Fran Avatar\nLightning Avatar\nY'shtola Avatar\nNoctis Avatar\nClive Avatar\n\n© SQUARE ENIX"
+    },
+    "MainNav/Store/Bundles/Bundle_FIN_Avatars3_Name": {
+        "oracleText": "Avatar Collection III",
+        "translation": "Avatar Collection III"
+    },
+    "MainNav/Store/Bundles/Bundle_FIN_Avatars4_Desc": {
+        "oracleText": "Shantotto Avatar\nCactuar Avatar\nCastle Dwarf Avatar\nTonberry Avatar\nStiltzkin Avatar\n\n© SQUARE ENIX",
+        "translation": "Shantotto Avatar\nCactuar Avatar\nCastle Dwarf Avatar\nTonberry Avatar\nStiltzkin Avatar\n\n© SQUARE ENIX"
+    },
+    "MainNav/Store/Bundles/Bundle_FIN_Avatars4_Name": {
+        "oracleText": "Avatar Collection IV",
+        "translation": "Avatar Collection IV"
+    },
+    "MainNav/Store/Bundles/Bundle_FIN_Lands1_Desc": {
+        "oracleText": "Full Art Land Plains\nFull Art Land Island\nFull Art Land Swamp\nFull Art Land Mountain\nFull Art Land Forest\n\n© SQUARE ENIX",
+        "translation": "Full Art Land Plains\nFull Art Land Island\nFull Art Land Swamp\nFull Art Land Mountain\nFull Art Land Forest\n\n© SQUARE ENIX"
+    },
+    "MainNav/Store/Bundles/Bundle_FIN_Lands1_Name": {
+        "oracleText": "Full Art Basic Lands I",
+        "translation": "Full Art Basic Lands I"
+    },
+    "MainNav/Store/Bundles/Bundle_FIN_Lands2_Desc": {
+        "oracleText": "Full Art Land Plains\nFull Art Land Island\nFull Art Land Swamp\nFull Art Land Mountain\nFull Art Land Forest\n\n© SQUARE ENIX",
+        "translation": "Full Art Land Plains\nFull Art Land Island\nFull Art Land Swamp\nFull Art Land Mountain\nFull Art Land Forest\n\n© SQUARE ENIX"
+    },
+    "MainNav/Store/Bundles/Bundle_FIN_Lands2_Name": {
+        "oracleText": "Full Art Basic Lands II",
+        "translation": "Full Art Basic Lands II"
+    },
+    "MainNav/Store/Bundles/Bundle_FIN_Lands3_Desc": {
+        "oracleText": "Full Art Land Plains\nFull Art Land Island\nFull Art Land Swamp\nFull Art Land Mountain\nFull Art Land Forest\n\n© SQUARE ENIX",
+        "translation": "Full Art Land Plains\nFull Art Land Island\nFull Art Land Swamp\nFull Art Land Mountain\nFull Art Land Forest\n\n© SQUARE ENIX"
+    },
+    "MainNav/Store/Bundles/Bundle_FIN_Lands3_Name": {
+        "oracleText": "Full Art Basic Lands III",
+        "translation": "Full Art Basic Lands III"
+    },
+    "MainNav/Store/Bundles/Bundle_FIN_Phrases_Desc": {
+        "oracleText": "\"Uraaahhh!!\" Phrase Emote\n\"Um...\" Phrase Emote\n\"No choice. Ultimate spell!\" Phrase Emote\n\"I am ready!\" Phrase Emote\n\"Ow! Take this!\" Phrase Emote\n\"Uwaoo~!\" Phrase Emote\n\"Duh-duh-duuun!♪\" Phrase Emote\n\"Time... it will not wait\" Phrase Emote\n\"Booyaka!\" Phrase Emote\n\"Won't let it happen!\" Phrase Emote\n\"Whatcha up to?\" Phrase Emote\n\"Ohohohohoho!\" Phrase Emote\n\"Hear... Feel... Think...\" Phrase Emote\n\"Don't underestimate me!\" Phrase Emote\n\"Are we doomed?\" Phrase Emote\n\"Kupo!\" Phrase Emote\n\n© SQUARE ENIX",
+        "translation": "\"Uraaahhh!!\" Phrase Emote\n\"Um...\" Phrase Emote\n\"No choice. Ultimate spell!\" Phrase Emote\n\"I am ready!\" Phrase Emote\n\"Ow! Take this!\" Phrase Emote\n\"Uwaoo~!\" Phrase Emote\n\"Duh-duh-duuun!♪\" Phrase Emote\n\"Time... it will not wait\" Phrase Emote\n\"Booyaka!\" Phrase Emote\n\"Won't let it happen!\" Phrase Emote\n\"Whatcha up to?\" Phrase Emote\n\"Ohohohohoho!\" Phrase Emote\n\"Hear... Feel... Think...\" Phrase Emote\n\"Don't underestimate me!\" Phrase Emote\n\"Are we doomed?\" Phrase Emote\n\"Kupo!\" Phrase Emote\n\n© SQUARE ENIX"
+    },
+    "MainNav/Store/Bundles/Bundle_FIN_Phrases_Name": {
+        "oracleText": "Phrases Bundle",
+        "translation": "Phrases Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_FIN_Stickers_Desc": {
+        "oracleText": "Moogle Victory Sticker Emote\nBuster Sword GG Sticker Emote\nChocobo Hello Sticker Emote\nTonberry Approaching Sticker Emote\n\n© SQUARE ENIX",
+        "translation": "Moogle Victory Sticker Emote\nBuster Sword GG Sticker Emote\nChocobo Hello Sticker Emote\nTonberry Approaching Sticker Emote\n\n© SQUARE ENIX"
+    },
+    "MainNav/Store/Bundles/Bundle_FIN_Stickers_Name": {
+        "oracleText": "Stickers Bundle",
+        "translation": "Stickers Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_FIN_Styles1_Desc": {
+        "oracleText": "Cloud, Midgar Mercenary Card Style\nSephiroth, Fabled SOLDIER Card Style\nKefka, Court Mage Card Style\nClive, Ifrit's Dominant Card Style\nEmet-Selch, Unsundered Card Style\nGogo, Master of Mimicry Card Style\nLightning, Army of One Card Style\nYuna, Hope of Spira Card Style\n\n© SQUARE ENIX",
+        "translation": "Cloud, Midgar Mercenary Card Style\nSephiroth, Fabled SOLDIER Card Style\nKefka, Court Mage Card Style\nClive, Ifrit's Dominant Card Style\nEmet-Selch, Unsundered Card Style\nGogo, Master of Mimicry Card Style\nLightning, Army of One Card Style\nYuna, Hope of Spira Card Style\n\n© SQUARE ENIX"
+    },
+    "MainNav/Store/Bundles/Bundle_FIN_Styles1_Name": {
+        "oracleText": "Borderless Styles I",
+        "translation": "Borderless Styles I"
+    },
+    "MainNav/Store/Bundles/Bundle_FIN_Styles2_Desc": {
+        "oracleText": "Aettir and Priwen Card Style\nBuster Sword Card Style\nDark Confidant Card Style\nNibelheim Aflame Card Style\nSummon: Bahamut Card Style\nSummon: Knights of Round Card Style\n\n© SQUARE ENIX",
+        "translation": "Aettir and Priwen Card Style\nBuster Sword Card Style\nDark Confidant Card Style\nNibelheim Aflame Card Style\nSummon: Bahamut Card Style\nSummon: Knights of Round Card Style\n\n© SQUARE ENIX"
+    },
+    "MainNav/Store/Bundles/Bundle_FIN_Styles2_Name": {
+        "oracleText": "Borderless Styles II",
+        "translation": "Borderless Styles II"
+    },
+    "MainNav/Store/Bundles/Bundle_FIN_Styles3_Desc": {
+        "oracleText": "Traveling Chocobo Card Style\nStiltzkin, Moogle Merchant Card Style\nYuna, Hope of Spira Card Style\nVivi Ornitier Card Style\nCloud, Midgar Mercenary Card Style\nTifa Lockhart Card Style\nChoco, Seeker of Paradise Card Style\nTraveling Chocobo Card Style\nA Realm Reborn Card Style\nBirds of Paradise Card Style\n\n© SQUARE ENIX",
+        "translation": "Traveling Chocobo Card Style\nStiltzkin, Moogle Merchant Card Style\nYuna, Hope of Spira Card Style\nVivi Ornitier Card Style\nCloud, Midgar Mercenary Card Style\nTifa Lockhart Card Style\nChoco, Seeker of Paradise Card Style\nTraveling Chocobo Card Style\nA Realm Reborn Card Style\nBirds of Paradise Card Style\n\n© SQUARE ENIX"
+    },
+    "MainNav/Store/Bundles/Bundle_FIN_Styles3_Name": {
+        "oracleText": "Borderless Styles III",
+        "translation": "Borderless Styles III"
+    },
+    "MainNav/Store/Bundles/Bundle_FIN_Styles4_Desc": {
+        "oracleText": "Sephiroth, Fabled SOLDIER Card Style\nClive, Ifrit's Dominant Card Style\nLightning, Army of One Card Style\nKain, Traitorous Dragoon Card Style\nVivi Ornitier Card Style\nArdyn, the Usurper Card Style\nBalthier and Fran Card Style\nY'shtola Rhul Card Style\n\n© SQUARE ENIX",
+        "translation": "Sephiroth, Fabled SOLDIER Card Style\nClive, Ifrit's Dominant Card Style\nLightning, Army of One Card Style\nKain, Traitorous Dragoon Card Style\nVivi Ornitier Card Style\nArdyn, the Usurper Card Style\nBalthier and Fran Card Style\nY'shtola Rhul Card Style\n\n© SQUARE ENIX"
+    },
+    "MainNav/Store/Bundles/Bundle_FIN_Styles4_Name": {
+        "oracleText": "Borderless Styles IV",
+        "translation": "Borderless Styles IV"
+    },
+    "MainNav/Store/Bundles/Bundle_FIN_StylesLands_Desc": {
+        "oracleText": "Lindblum, Industrial Regency Card Style\nZanarkand, Ancient Metropolis Card Style\nJidoor, Aristocratic Capital Card Style\nMidgar, City of Mako Card Style\nIshgard, the Holy See Card Style\n\n© SQUARE ENIX",
+        "translation": "Lindblum, Industrial Regency Card Style\nZanarkand, Ancient Metropolis Card Style\nJidoor, Aristocratic Capital Card Style\nMidgar, City of Mako Card Style\nIshgard, the Holy See Card Style\n\n© SQUARE ENIX"
+    },
+    "MainNav/Store/Bundles/Bundle_FIN_StylesLands_Name": {
+        "oracleText": "Borderless Lands",
+        "translation": "Borderless Lands"
+    },
+    "MainNav/Store/Bundles/Bundle_FIN_Wastes_Desc": {
+        "oracleText": "Full Art Land Wastes\n\n© SQUARE ENIX",
+        "translation": "Full Art Land Wastes\n\n© SQUARE ENIX"
+    },
+    "MainNav/Store/Bundles/Bundle_FIN_Wastes_Name": {
+        "oracleText": "Full Art Basic Wastes",
+        "translation": "Full Art Basic Wastes"
     },
     "MainNav/Store/Bundles/Bundle_FamilySleeves_Desc": {
         "oracleText": "Olena Richards Lord Xander Sleeve\nOlena Richards Jetmir Sleeve\nOlena Richards Raffine Sleeve\nOlena Richards Ziatora Sleeve\nOlena Richards Falco Spara Sleeve",
@@ -61032,16 +62100,16 @@
         "translation": "即日预购<i>基石构筑</i>，便可于2024年11月12日获得以下物品：\n\n2张真人轮抽门票\n1张现开门票\n5点参赛积分\n1张狮群唤师阿耶尼卡牌\n狮群唤师阿耶尼卡牌样式\n\n完成购买后，便会立刻获得阿耶尼牌套和阿拉博宠物。"
     },
     "MainNav/Store/Bundles/mtga_preorder_fin_pack_Desc": {
-        "oracleText": "Pre-order <i>Magic: The Gathering®—FINAL FANTASY</i> today and receive the following items on June 10, 2025:\n\n50 <i>Magic: The Gathering®—FINAL FANTASY</i> Packs\n5 Golden Packs\n1 Vivi Ornitier Card\nVivi Ornitier Card Style\n\nWhen purchased, you will immediately receive the Vivi Sleeve.\n\n© SQUARE ENIX",
-        "translation": "即日预购<i>万智牌：最终幻想</i>，便可于2025年6月10日获得以下物品：\n\n50包<i>万智牌：最终幻想</i>补充包\n5包黄金补充包\n1张比比·奥尼提尔卡牌\n比比·奥尼提尔卡牌样式\n\n完成购买后，便会立刻获得比比牌套。\n\n© SQUARE ENIX"
+        "oracleText": "Pre-order <i>Magic: The Gathering—FINAL FANTASY</i> today and receive the following items on June 10, 2025:\n\n50 <i>Magic: The Gathering—FINAL FANTASY</i> Packs\n5 Golden Packs\n1 Vivi Ornitier Card\nVivi Ornitier Card Style\n\nWhen purchased, you will immediately receive the Vivi Sleeve.\n\n© SQUARE ENIX",
+        "translation": "Pre-order <i>Magic: The Gathering—FINAL FANTASY</i> today and receive the following items on June 10, 2025:\n\n50 <i>Magic: The Gathering—FINAL FANTASY</i> Packs\n5 Golden Packs\n1 Vivi Ornitier Card\nVivi Ornitier Card Style\n\nWhen purchased, you will immediately receive the Vivi Sleeve.\n\n© SQUARE ENIX"
     },
     "MainNav/Store/Bundles/mtga_preorder_fin_pass_Desc": {
-        "oracleText": "Pre-order <i>Magic: The Gathering®—FINAL FANTASY</i> today and receive the following items on June 10, 2025:\n\n<i>Magic: The Gathering®—FINAL FANTASY</i> Set Mastery Pass\n1x Noctis, Prince of Lucis Card\n1x Clive, Ifrit's Dominant Card\nNoctis, Prince of Lucis Card Style\nClive, Ifrit's Dominant Card Style\n\nWhen purchased, you will immediately receive the Noctis Sleeve and the Clive Sleeve.\n\n© SQUARE ENIX",
-        "translation": "即日预购<i>万智牌：最终幻想</i>，便可于2025年6月10日获得以下物品：\n\n<i>万智牌～最终幻想</i>精研通行证\n1张路西斯王子诺克提斯卡牌\n1张伊弗利特显化者克莱夫卡牌\n路西斯王子诺克提斯卡牌样式\n伊弗利特显化者克莱夫卡牌样式\n\n完成购买后，便会立刻获得诺克提斯牌套和克莱夫牌套。\n\n© SQUARE ENIX"
+        "oracleText": "Pre-order <i>Magic: The Gathering—FINAL FANTASY</i> today and receive the following items on June 10, 2025:\n\n<i>Magic: The Gathering—FINAL FANTASY</i> Set Mastery Pass\n1x Noctis, Prince of Lucis Card\n1x Clive, Ifrit's Dominant Card\nNoctis, Prince of Lucis Card Style\nClive, Ifrit's Dominant Card Style\n\nWhen purchased, you will immediately receive the Noctis Sleeve and the Clive Sleeve.\n\n© SQUARE ENIX",
+        "translation": "Pre-order <i>Magic: The Gathering—FINAL FANTASY</i> today and receive the following items on June 10, 2025:\n\n<i>Magic: The Gathering—FINAL FANTASY</i> Set Mastery Pass\n1x Noctis, Prince of Lucis Card\n1x Clive, Ifrit's Dominant Card\nNoctis, Prince of Lucis Card Style\nClive, Ifrit's Dominant Card Style\n\nWhen purchased, you will immediately receive the Noctis Sleeve and the Clive Sleeve.\n\n© SQUARE ENIX"
     },
     "MainNav/Store/Bundles/mtga_preorder_fin_play_Desc": {
-        "oracleText": "Pre-order <i>Magic: The Gathering®—FINAL FANTASY</i> today and receive the following items on June 10, 2025:\n\n2 Player Draft Tokens\n1 Sealed Token\n5 Play-In Points\n1x Terra, Magical Adept Card\n1x Kefka, Court Mage Card\nTerra, Magical Adept Card Style\nKefka, Court Mage Card Style\n\nWhen purchased, you will immediately receive the Terra Sleeve, Kefka Sleeve, and the Moogle Companion.\n\n© SQUARE ENIX",
-        "translation": "即日预购<i>万智牌～最终幻想</i>，便可于2025年6月10日获得以下物品：\n\n2张真人轮抽门票\n1张现开门票\n5点参赛积分\n1张魔导战士蒂娜卡牌\n1张宫廷法师凯夫卡卡牌\n魔导战士蒂娜卡牌样式\n宫廷法师凯夫卡卡牌样式\n\n完成购买后，便会立刻获得蒂娜牌套、凯夫卡牌套和莫古力宠物。\n\n© SQUARE ENIX"
+        "oracleText": "Pre-order <i>Magic: The Gathering—FINAL FANTASY</i> today and receive the following items on June 10, 2025:\n\n2 Player Draft Tokens\n1 Sealed Token\n5 Play-In Points\n1x Terra, Magical Adept Card\n1x Kefka, Court Mage Card\nTerra, Magical Adept Card Style\nKefka, Court Mage Card Style\n\nWhen purchased, you will immediately receive the Terra Sleeve, Kefka Sleeve, and the Moogle Companion.\n\n© SQUARE ENIX",
+        "translation": "Pre-order <i>Magic: The Gathering—FINAL FANTASY</i> today and receive the following items on June 10, 2025:\n\n2 Player Draft Tokens\n1 Sealed Token\n5 Play-In Points\n1x Terra, Magical Adept Card\n1x Kefka, Court Mage Card\nTerra, Magical Adept Card Style\nKefka, Court Mage Card Style\n\nWhen purchased, you will immediately receive the Terra Sleeve, Kefka Sleeve, and the Moogle Companion.\n\n© SQUARE ENIX"
     },
     "MainNav/Store/Bundles/mtga_preorder_pack_generic_Name": {
         "oracleText": "Pack Bundle",
@@ -64803,9 +65871,49 @@
         "oracleText": "Aggressive (\"aggro\") decks look to win quickly with cheap creatures before the opponent can set up effective defenses.",
         "translation": "强攻（「快攻」）套牌偏好使用费用较低的生物，力争在对手建立起有效防御之前赢得胜利。"
     },
+    "Match/QueueTips/Queue_Tip_290_FIN_SetCode": {
+        "oracleText": "To show only cards from Magic: The Gathering—FINAL FANTASY in the deckbuilder, type \"set:FIN\" into the search bar. Each set has a unique 3-letter-code.",
+        "translation": "To show only cards from Magic: The Gathering—FINAL FANTASY in the deckbuilder, type \"set:FIN\" into the search bar. Each set has a unique 3-letter-code."
+    },
     "Match/QueueTips/Queue_Tip_290_TDM_Ureni": {
         "oracleText": "The dragon Ureni was summoned by the Temur to help heal and reforge their connection to the land. They are fiercely protective, and will not hesitate to drive out intruders that they believe mean harm to their clan.",
         "translation": "巨龙乌列尼被铁木尔人召唤而来，帮助他们治愈并重铸与大地的联系。他们极具保护欲，若认为有入侵者意图伤害其部族，绝不会犹豫驱逐之。"
+    },
+    "Match/QueueTips/Queue_Tip_291_FIN_FF1": {
+        "oracleText": "The elements of wind, water, earth, and fire, embodied by the four Crystals, once brought balance to the world. Now, a preternatural paradox throws the forces of nature into disarray, threatening to engulf the land in darkness. Although fear grips the populace, hope remains in a prophecy:\n\"When darkness veils the world, four Warriors of Light shall come.\"\n~ FINAL FANTASY ~",
+        "translation": "The elements of wind, water, earth, and fire, embodied by the four Crystals, once brought balance to the world. Now, a preternatural paradox throws the forces of nature into disarray, threatening to engulf the land in darkness. Although fear grips the populace, hope remains in a prophecy:\n\"When darkness veils the world, four Warriors of Light shall come.\"\n~ FINAL FANTASY ~"
+    },
+    "Match/QueueTips/Queue_Tip_292_FIN_FF2": {
+        "oracleText": "The ruthless emperor of Palamecia leads his demonic armies across the land, laying waste to all in his path. When the conflict reaches the borders of Fynn, its people choose to fight and are all but annihilated. The survivors flee to Altair, where they gain the rebellion's trust and join the battle to reclaim their homeland.\n~ FINAL FANTASY II ~",
+        "translation": "The ruthless emperor of Palamecia leads his demonic armies across the land, laying waste to all in his path. When the conflict reaches the borders of Fynn, its people choose to fight and are all but annihilated. The survivors flee to Altair, where they gain the rebellion's trust and join the battle to reclaim their homeland.\n~ FINAL FANTASY II ~"
+    },
+    "Match/QueueTips/Queue_Tip_293_FIN_FF3": {
+        "oracleText": "The Gulgan prophesied: \"The earthquake was only the beginning. The tremors that swallowed the crystals, only to spawn monsters from the scarred land, are nothing but harbingers of what is to come. Something fathomless, ominous, and full of sorrow... But hope is not yet lost. Four souls will be blessed with light, and so it begins...\"\n~ FINAL FANTASY III ~",
+        "translation": "The Gulgan prophesied: \"The earthquake was only the beginning. The tremors that swallowed the crystals, only to spawn monsters from the scarred land, are nothing but harbingers of what is to come. Something fathomless, ominous, and full of sorrow... But hope is not yet lost. Four souls will be blessed with light, and so it begins...\"\n~ FINAL FANTASY III ~"
+    },
+    "Match/QueueTips/Queue_Tip_294_FIN_FF4": {
+        "oracleText": "The kingdom of Baron continues its conquest of neighboring nations with the unsurpassed might of its airship squadrons. The Crystals are the true targets, and unbeknownst to Cecil Harvey, commander of the elite Red Wings, King Barons's motives are far more sinister than anyone could have suspected...\n~ FINAL FANTASY IV ~",
+        "translation": "The kingdom of Baron continues its conquest of neighboring nations with the unsurpassed might of its airship squadrons. The Crystals are the true targets, and unbeknownst to Cecil Harvey, commander of the elite Red Wings, King Barons's motives are far more sinister than anyone could have suspected...\n~ FINAL FANTASY IV ~"
+    },
+    "Match/QueueTips/Queue_Tip_295_FIN_FF5": {
+        "oracleText": "Since time immemorial, the four Crystals have maintained the harmony of the elements, and the civilizations of man flourished. However, the light of the Crystals begins to wane, ominously portending dark days to come. True to the omen, the reawakening of an ancient evil looms near.\n~ FINAL FANTASY V ~",
+        "translation": "Since time immemorial, the four Crystals have maintained the harmony of the elements, and the civilizations of man flourished. However, the light of the Crystals begins to wane, ominously portending dark days to come. True to the omen, the reawakening of an ancient evil looms near.\n~ FINAL FANTASY V ~"
+    },
+    "Match/QueueTips/Queue_Tip_296_FIN_FF6": {
+        "oracleText": "The Gestahlian Empire holds the world in an iron grip, its subjects living in fear and misery. The Empire continues its research into the mystical beings known as \"espers\" in a bid to create ever more terrible Magitek weaponry. Meanwhile, the Returners resistance movement carries out covert operations, pursuing their goal of liberating the world from the Empire..\n~ FINAL FANTASY VI ~",
+        "translation": "The Gestahlian Empire holds the world in an iron grip, its subjects living in fear and misery. The Empire continues its research into the mystical beings known as \"espers\" in a bid to create ever more terrible Magitek weaponry. Meanwhile, the Returners resistance movement carries out covert operations, pursuing their goal of liberating the world from the Empire..\n~ FINAL FANTASY VI ~"
+    },
+    "Match/QueueTips/Queue_Tip_297_FIN_FF7": {
+        "oracleText": "The discovery of mako—a natural resource drawn directly from the planet's life force—marked the dawn of a new era, and now its energy sustains the lives of people across the world. However, the Shinra Electric Power Company has monopolized mako production, and in doing so established a powerful hegemony, its influence reaching the very corners of the globe.\n~ FINAL FANTASY VII ~",
+        "translation": "The discovery of mako—a natural resource drawn directly from the planet's life force—marked the dawn of a new era, and now its energy sustains the lives of people across the world. However, the Shinra Electric Power Company has monopolized mako production, and in doing so established a powerful hegemony, its influence reaching the very corners of the globe.\n~ FINAL FANTASY VII ~"
+    },
+    "Match/QueueTips/Queue_Tip_298_FIN_FF8": {
+        "oracleText": "Squall, a member of Balamb Garden's mercenary force SeeD, finds his fate entwined with that of Rinoa, a courageous resistance fighter. They and their allies are soon thrown into a conflict with the tyrannical Sorceress Edea, whose schemes threaten not only the world, but the very fabric of existence.\n~ FINAL FANTASY VIII ~",
+        "translation": "Squall, a member of Balamb Garden's mercenary force SeeD, finds his fate entwined with that of Rinoa, a courageous resistance fighter. They and their allies are soon thrown into a conflict with the tyrannical Sorceress Edea, whose schemes threaten not only the world, but the very fabric of existence.\n~ FINAL FANTASY VIII ~"
+    },
+    "Match/QueueTips/Queue_Tip_299_FIN_FF9": {
+        "oracleText": "The Alexandrian princess Garnet's encounter with the daring thief Zidane begins the journey of a lifetime. They resolve to end the maniacal ambitions of Garnet's mother, Queen Brahne, and her enigmatic co-conspirator, Kuja. With the fate of the world at stake, Garnet, Zidane, and their friends must find the courage to overcome seemingly insurmountable odds.\n~ FINAL FANTASY IX ~",
+        "translation": "The Alexandrian princess Garnet's encounter with the daring thief Zidane begins the journey of a lifetime. They resolve to end the maniacal ambitions of Garnet's mother, Queen Brahne, and her enigmatic co-conspirator, Kuja. With the fate of the world at stake, Garnet, Zidane, and their friends must find the courage to overcome seemingly insurmountable odds.\n~ FINAL FANTASY IX ~"
     },
     "Match/QueueTips/Queue_Tip_3": {
         "oracleText": "Drag cards from your hand to the battlefield to play them.",
@@ -64814,6 +65922,34 @@
     "Match/QueueTips/Queue_Tip_30": {
         "oracleText": "Midrange decks use efficient creatures and value-generating spells to outclass aggro decks and pressure control and combo decks.",
         "translation": "中速套牌则会放入各类优质生物和高效咒语，以此拖垮快攻套牌，并与控制及组合技等套牌周旋、抗衡。"
+    },
+    "Match/QueueTips/Queue_Tip_300_FIN_FF10": {
+        "oracleText": "Spira―a world terrorized by the supernatural monster Sin. The temple of Yevon teaches that the monster is a physical manifestation of mankind's sins, and following the temple's teachings and atoning could purge it.\n~ FINAL FANTASY X ~",
+        "translation": "Spira―a world terrorized by the supernatural monster Sin. The temple of Yevon teaches that the monster is a physical manifestation of mankind's sins, and following the temple's teachings and atoning could purge it.\n~ FINAL FANTASY X ~"
+    },
+    "Match/QueueTips/Queue_Tip_301_FIN_FF11": {
+        "oracleText": "The world of Vana'diel is a crossroads of magic, swords, and technology. It is also a battlefield where those who believe in light face monsters that thrive in darkness. The struggle centers on the control of crystals: sacred stones that are the fundamental source of all creation.\n~ FINAL FANTASY XI ~",
+        "translation": "The world of Vana'diel is a crossroads of magic, swords, and technology. It is also a battlefield where those who believe in light face monsters that thrive in darkness. The struggle centers on the control of crystals: sacred stones that are the fundamental source of all creation.\n~ FINAL FANTASY XI ~"
+    },
+    "Match/QueueTips/Queue_Tip_302_FIN_FF12": {
+        "oracleText": "Vaan, a young man living on the streets of Rabanastre, hatches a plot to steal treasure from his sworn enemies, the Archadian Empire. He gets more than he bargained for when he meets Princess Ashe, the sole surviving heir to the Dalmascan throne, and together, they embark on a quest to free their homeland.\n~ FINAL FANTASY XII ~",
+        "translation": "Vaan, a young man living on the streets of Rabanastre, hatches a plot to steal treasure from his sworn enemies, the Archadian Empire. He gets more than he bargained for when he meets Princess Ashe, the sole surviving heir to the Dalmascan throne, and together, they embark on a quest to free their homeland.\n~ FINAL FANTASY XII ~"
+    },
+    "Match/QueueTips/Queue_Tip_303_FIN_FF13": {
+        "oracleText": "Long ago, powerful, mechanical beings called the fal'Cie created the floating world of Cocoon, a utopia in which humans thrived and prospered under their rule. However, when a fal'Cie from Gran Pulse, the feared lowerworld, is discovered in their midst, the government of Cocoon orders a Purge to banish all those who have come in contact with it.\n~ FINAL FANTASY XIII ~",
+        "translation": "Long ago, powerful, mechanical beings called the fal'Cie created the floating world of Cocoon, a utopia in which humans thrived and prospered under their rule. However, when a fal'Cie from Gran Pulse, the feared lowerworld, is discovered in their midst, the government of Cocoon orders a Purge to banish all those who have come in contact with it.\n~ FINAL FANTASY XIII ~"
+    },
+    "Match/QueueTips/Queue_Tip_304_FIN_FF14": {
+        "oracleText": "Hydaelyn─a vibrant planet blessed by the Light of the Crystal.\n\nAmid azure seas, encompassing the westernmost of the Three Great Continents, there lies a realm embraced by gods and forged by heroes. Her name...Eorzea.\n\nIt is here that your tale unfolds.\n~ FINAL FANTASY XIV ~",
+        "translation": "Hydaelyn─a vibrant planet blessed by the Light of the Crystal.\n\nAmid azure seas, encompassing the westernmost of the Three Great Continents, there lies a realm embraced by gods and forged by heroes. Her name...Eorzea.\n\nIt is here that your tale unfolds.\n~ FINAL FANTASY XIV ~"
+    },
+    "Match/QueueTips/Queue_Tip_305_FIN_FF15": {
+        "oracleText": "More than a century has passed since the Kingdom of Lucis raised a magical wall to stanch the Niflheim Empire's march toward the Crown City of Insomnia. In time, those behind the Wall came to know peace and leisure, having all but forgotten the horrors of war...\n~ FINAL FANTASY XV ~",
+        "translation": "More than a century has passed since the Kingdom of Lucis raised a magical wall to stanch the Niflheim Empire's march toward the Crown City of Insomnia. In time, those behind the Wall came to know peace and leisure, having all but forgotten the horrors of war...\n~ FINAL FANTASY XV ~"
+    },
+    "Match/QueueTips/Queue_Tip_306_FIN_FF16": {
+        "oracleText": "For centuries, people have flocked to her Mothercrystals to partake of their blessing—the abundant aether that fuels the magicks they rely upon in their everyday lives. As the aether begins to fade and the lifeless deadlands spread ever further, so too does the struggle for possession of the final flickers of the Mothers' light grow ever more fierce.\n~ FINAL FANTASY XVI ~",
+        "translation": "For centuries, people have flocked to her Mothercrystals to partake of their blessing—the abundant aether that fuels the magicks they rely upon in their everyday lives. As the aether begins to fade and the lifeless deadlands spread ever further, so too does the struggle for possession of the final flickers of the Mothers' light grow ever more fierce.\n~ FINAL FANTASY XVI ~"
     },
     "Match/QueueTips/Queue_Tip_31": {
         "oracleText": "Control decks look to answer early threats and survive until the late game, when they take over with powerful spells and card advantage.",
@@ -67798,6 +68934,10 @@
     "PlayBlade/Filters/Dynamic/FDNLimitedTitle": {
         "oracleText": "Magic: The Gathering Foundations Limited",
         "translation": "万智牌：基石构筑限制赛"
+    },
+    "PlayBlade/Filters/Dynamic/FINLimitedTitle": {
+        "oracleText": "Magic: The Gathering—FINAL FANTASY Limited",
+        "translation": "Magic: The Gathering—FINAL FANTASY Limited"
     },
     "PlayBlade/Filters/Dynamic/KhansofTarkirEventFilterDescription": {
         "oracleText": "Khans of Tarkir Limited Format Events",
