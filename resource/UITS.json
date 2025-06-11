@@ -2507,6 +2507,14 @@
         "oracleText": "Seek",
         "translation": "取出"
     },
+    "AbilityHanger/Keyword/Shadow_Body": {
+        "oracleText": "This creature can block or be blocked by only creatures with shadow.",
+        "translation": "This creature can block or be blocked by only creatures with shadow."
+    },
+    "AbilityHanger/Keyword/Shadow_Title": {
+        "oracleText": "Shadow",
+        "translation": "Shadow"
+    },
     "AbilityHanger/Keyword/Shroud_Body": {
         "oracleText": "A player or permanent with shroud can't be the target of spells or abilities.",
         "translation": "具有帷幕的牌手或永久物不能成为咒语或异能的目标。"
@@ -19563,9 +19571,13 @@
         "oracleText": "This token denotes that you are eligible to receive 1 physical Magic: the Gathering—FINAL FANTASY Collector Booster Box",
         "translation": "此代币表示您有资格获得1盒实体万智牌～最终幻想聚珍补充包"
     },
-    "Events/ArenaDirect_FIN_Play_String": {
+    "Events/ArenaDirect_FIN_PLAY_String": {
         "oracleText": "This token denotes that you are eligible to receive {number1} physical Magic: the Gathering—FINAL FANTASY Play Booster Box",
-        "translation": "此代币表示您有资格获得{number1}盒实体万智牌～最终幻想常规补充包"
+        "translation": "This token denotes that you are eligible to receive {number1} physical Magic: the Gathering—FINAL FANTASY Play Booster Box"
+    },
+    "Events/ArenaDirect_FIN_PLAY_Stringx2": {
+        "oracleText": "This token denotes that you are eligible to receive {number1} physical Magic: the Gathering—FINAL FANTASY Play Booster Boxes",
+        "translation": "This token denotes that you are eligible to receive {number1} physical Magic: the Gathering—FINAL FANTASY Play Booster Boxes"
     },
     "Events/ArenaDirect_FIN_Set_Prize": {
         "oracleText": "1 Magic: the Gathering—FINAL FANTASY Play Booster Box",
@@ -24123,6 +24135,10 @@
         "oracleText": "<i>Magic</i> World Championship XXVI is happening this Friday through Sunday!\n\nTo celebrate, we're giving you a chance to play some of the decks Standard decks from last year that <i>Magic</i> World Championship XXVI players used on their way to qualifying. To learn more about the event and how to watch coverage, click <u><b><link=REDIRECT_LINK_HERE>here</link></b></u>.",
         "translation": "第XXVI届<i>万智牌</i>世界冠军赛就在本周五到周日！\n\n为共通庆贺这一盛大赛事，我们特地准备了本次第XXVI届<i>万智牌</i>世界冠军赛参赛选手在去年征战路途中所使用的套牌，供广大牌手亲自体验。若想进一步了解本次世界冠军赛及查看转播安排，请点击<u><b><link=REDIRECT_LINK_HERE>此处</link></b></u>。"
     },
+    "Events/Event_Desc_SGF_Precons": {
+        "oracleText": "Hello and welcome to Magic: The Gathering at the Summer Game Fest! We are excited to have you here to experience our newest Magic set coming live to MTG Arena on June 10th.\n \nWe put together a special event for you at Summer Game Fest to test out your new Starter Kit decks. Each physical product will include two redemption codes - one for you and one for a friend - that each contains the two Starter Kit decks for MTG Arena.\n \nPlease enjoy a taste of how we are bringing this set to digital on MTG Arena!",
+        "translation": "Hello and welcome to Magic: The Gathering at the Summer Game Fest! We are excited to have you here to experience our newest Magic set coming live to MTG Arena on June 10th.\n \nWe put together a special event for you at Summer Game Fest to test out your new Starter Kit decks. Each physical product will include two redemption codes - one for you and one for a friend - that each contains the two Starter Kit decks for MTG Arena.\n \nPlease enjoy a taste of how we are bringing this set to digital on MTG Arena!"
+    },
     "Events/Event_Desc_SIR_Premier_Drafta": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players </b>\n\nThis Week's Shadows of the Past: Morbid and Macabre!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Haunting Spirits </b> Establish a ghostly presence as you take to the skies with Spirits and other unlikely allies.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Relentless Zombies </b> Destroy enemy creatures with removal spells, reload your hand with card draw, and march on with a horde of Zombies.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Vampire Madness </b> Your vampire army helps you to discard cards, cast spells for their madness costs, and secure victory. The key is striking the right balance between discard outlets and madness cards.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Wolves Attack </b> Transform your Werewolves with a combination of instants and activated abilities. Your outsized creatures will overrun your opponents in no time.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Super-Humans </b> Stack up Auras and Equipment on your Humans to swing in for the kill with your larger-than-life creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Valuable Sacrifice </b> Expendable resources are everywhere in white-black. Sacrifice creatures and pay life liberally for value.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Spell Science</b> Noncreature spells perform double duty here if you pick up enough creatures that reward you for playing them.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Graveyard Shift </b> Stock your graveyard to get extra value from powerful delirium cards. Your deck will just need a wide variety of card types to turn it on.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Righteous Fury </b> Run down your opponent with cheap, powerful threats and well-timed combat tricks.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Let's Investigate </b> Play defense while you build up a supply of Clues. You'll soon learn enough to overwhelm your opponent with card advantage and large monsters.",
         "translation": "轮抽补充包在桌上轮转，你每次需从中选择一张牌。这些牌张将加入你的收藏，而你将使用它们和基本地来构组一副40张的套牌。不断进行三盘两胜制的对局，最后根据胜局数量赢得奖励！\n\n<b>牌手轮抽～与7位其他牌手一同进行轮抽，有抽选时间限制。</b>\n\n本周的往昔暗影是：丧心丧狂！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>闹鬼精怪</b>利用精怪及其他奇诡生物统治天空，如鬼魅一般统治战场。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>无情灵俑</b>利用去除咒语消灭对手生物，借助抓牌手段重整手牌，派出灵俑大军横扫一切。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>吸血鬼疯魔</b>想要不断弃牌、利用疯魔施放咒语，最终确保胜利吗？你的吸血鬼大军能帮你。关键在于找好弃牌源与疯魔牌张之间的平衡所在。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>狼群扑袭</b>利用瞬间和起动式异能掌控时机转化狼人，之后这些身材拔群的生物便会在转瞬之间淹没对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>超级人类</b>在人类身上堆满灵气武具，然后利用你超凡生物打出最后一击。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>牺牲有价</b>白黑色组当中满是各类炮灰材料，你大可自如牺牲生物、支付生命来换取更大收益。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>咒语科学</b>本系列中有许多生物会在你施放非生物咒语时给予回报。如果你抓到足够多的此类生物，当你施放非生物咒语时就会有双重收获。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>坟场变幻</b>不断堆填坟墓场，好充分发挥强力躁狂卡牌的额外价值。你只需确保你牌库中充满了各类牌张类别，便可轻松坐收渔利。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>正义之怒</b>利用低费的强大威胁，辅以适时的战斗诡计，快速终结对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>深入探查</b>在坚守阵地的同时不断积累线索数量。你很快便占据手牌优势并派出大型怪兽，从而击溃对手。"
@@ -24204,8 +24220,8 @@
         "translation": "你会得到6包<i>兄弟之战</i>补充包。这些牌张将加入你的收藏，而你将使用它们和基本地来构组一副40张的套牌。不断进行对战，最后根据胜场数量赢得奖励！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>士兵</b> 召集士兵，从陆空两路碾压对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>抓牌之力</b> 从套牌里抓起大量牌张，让知识保持流动，同时强化你的生物！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>神器牺牲</b> 牺牲神器来燃旺战火。魔力石让你的引擎快速运行，之后还能牺牲来获得更多能量！别忘了，具破坟异能的神器可以牺牲两次！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>机械化猛袭</b> 利用魔力石尽快部署你最强大的威胁。用增加力量的咒语辅助它们打赢每一次战斗！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>神器登场</b> 集结会因为神器进战场而变强的生物，然后利用魔力石、士兵衍生物和破坟生物来让攻势更加猛烈。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>废品大军</b>尽早部署军队，放胆填充坟墓场。法术力值为三或更低的生物都大有可为，无论生死。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>灵技快攻</b>  集合一支发明家小队，利用低费的神器、瞬间和法术咒语来获得优势。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>坟场回击</b> 在一场无止尽的战争中，你那些依赖丰沛坟墓场的生物会非常高兴，随着游戏进入后期，它们会变得愈发强力。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>破坟快攻</b> 尽早开始攻势，利用破坟异能发动的第二波攻势或许就能决定胜负。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>魔力石加速</b> 积累魔力石，用以组织起防线，很快就没人能抵挡你的巨像大军。"
     },
     "Events/Event_Desc_Sealed_DAR": {
-        "oracleText": "<b><color=\"red\">This set is only legal in Historic and Explorer.</color></b>\n\nYou'll receive 6 <i>Dominaria</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!",
-        "translation": "<b><color=\"red\">此系列仅在史迹和探险中合法。</color></b>\n\n你将得到6包<i>多明纳里亚</i>的补充包。补充包内的牌张都会加入你的收藏，而你将利用这些牌外加基本地来构筑一副40张的套牌进行游戏。不断进行对战，最后根据胜场数量赢得奖励"
+        "oracleText": "<b><color=\"red\">This set is only legal in Historic and Pioneer.</color></b>\n\nYou'll receive 6 <i>Dominaria</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!",
+        "translation": "<b><color=\"red\">This set is only legal in Historic and Pioneer.</color></b>\n\nYou'll receive 6 <i>Dominaria</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!"
     },
     "Events/Event_Desc_Sealed_DFT": {
         "oracleText": "You'll receive 6 <i>Aetherdrift</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Artifact Value </b> Build up a board full of artifacts until your rival is overwhelmed by your racing Robot army!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Artifact Bleeder</b> Scare your opponent silly with a combination of Robots and possessed toys that pressure your opponent's life total.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Max Speed Aggro </b> Ensure you reach max speed to drive your rivals into the pavement.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Exhaust Midrange</b> Burn everything in the tank to enhance the Goblin Rocketeers to impressive size!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Vehicles & Mounts Midrange</b> The Alacrian Quickbeasts have skilled pilots who will ride your Mounts and Vehicles across the finish line.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Max Speed Attrition </b> The Champions of Amonkhet keep their feet on the gas to reach max speed and unleash a Zombie onslaught.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Discard Aggro</b> Avast! Cycle and discard away unneeded cards to improve your Pirates so they can throw your opponent overboard.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Graveyard</b> Fill up your graveyard and keep returning your threats to rise above the roadkill.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Vehicles & Mounts Aggro</b> Road rage! Keep driving forward with the Cloudspire crew's offense to make your opponent backpedal. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Exhaust Ramp</b> The Aether Rangers have mana to burn, fueling abilities that grant their creatures a huge burst of power.",
@@ -24548,8 +24564,8 @@
         "translation": "你会得到6包<i>兄弟之战</i>补充包。这些牌张将加入你的收藏，而你将使用它们和基本地来构组一副40张的套牌。不断进行三盘两胜制的对局，最后根据胜局数量赢得奖励！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>士兵</b> 召集士兵，从陆空两路碾压对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>抓牌之力</b> 从套牌里抓起大量牌张，让知识保持流动，同时强化你的生物！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>神器牺牲</b> 牺牲神器来燃旺战火。魔力石让你的引擎快速运行，之后还能牺牲来获得更多能量！别忘了，具破坟异能的神器可以牺牲两次！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>机械化猛袭</b> 利用魔力石尽快部署你最强大的威胁。用增加力量的咒语辅助它们打赢每一次战斗！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>神器登场</b> 集结会因为神器进战场而变强的生物，然后利用魔力石、士兵衍生物和破坟生物来让攻势更加猛烈。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>废品大军</b>尽早部署军队，放胆填充坟墓场。法术力值为三或更低的生物都大有可为，无论生死。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>灵技快攻</b>  集合一支发明家小队，利用低费的神器、瞬间和法术咒语来获得优势。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>坟场回击</b> 在一场无止尽的战争中，你那些依赖丰沛坟墓场的生物会非常高兴，随着游戏进入后期，它们会变得愈发强力。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>破坟快攻</b> 尽早开始攻势，利用破坟异能发动的第二波攻势或许就能决定胜负。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>魔力石加速</b> 积累魔力石，用以组织起防线，很快就没人能抵挡你的巨像大军。"
     },
     "Events/Event_Desc_Trad_Sealed_DAR": {
-        "oracleText": "<b><color=\"red\">This set is only legal in Historic and Explorer.</color></b>\n\nYou'll receive 6 <i>Dominaria</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!",
-        "translation": "<b><color=\"red\">此系列仅在史迹和探险中合法。</color></b>\n\n你将获得6个<i>多明纳里亚</i>的补充包。这些牌会加入你的收藏。你将使用这些牌加上基本地来构筑40张的套牌进行bo3对战。你将得到的奖励取决于你的胜场！"
+        "oracleText": "<b><color=\"red\">This set is only legal in Historic and Pioneer.</color></b>\n\nYou'll receive 6 <i>Dominaria</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!",
+        "translation": "<b><color=\"red\">This set is only legal in Historic and Pioneer.</color></b>\n\nYou'll receive 6 <i>Dominaria</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!"
     },
     "Events/Event_Desc_Trad_Sealed_DFT": {
         "oracleText": "You'll receive 6 <i>Aetherdrift</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Artifact Value </b> Build up a board full of artifacts until your rival is overwhelmed by your racing Robot army!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Artifact Bleeder</b> Scare your opponent silly with a combination of Robots and possessed toys that pressure your opponent's life total.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Max Speed Aggro </b> Ensure you reach max speed to drive your rivals into the pavement.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Exhaust Midrange</b> Burn everything in the tank to enhance the Goblin Rocketeers to impressive size!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Vehicles & Mounts Midrange</b> The Alacrian Quickbeasts have skilled pilots who will ride your Mounts and Vehicles across the finish line.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Max Speed Attrition </b> The Champions of Amonkhet keep their feet on the gas to reach max speed and unleash a Zombie onslaught.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Discard Aggro</b> Avast! Cycle and discard away unneeded cards to improve your Pirates so they can throw your opponent overboard.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Graveyard</b> Fill up your graveyard and keep returning your threats to rise above the roadkill.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Vehicles & Mounts Aggro</b> Road rage! Keep driving forward with the Cloudspire crew's offense to make your opponent backpedal. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Exhaust Ramp</b> The Aether Rangers have mana to burn, fueling abilities that grant their creatures a huge burst of power.",
@@ -27634,6 +27650,10 @@
     "Events/Event_Title_RoadToWorlds_2020_Alt1": {
         "oracleText": "Worlds Pregame",
         "translation": "世界冠军赛预赛"
+    },
+    "Events/Event_Title_SGF_Precons": {
+        "oracleText": "Magic: The Gathering Arena @ Summer Game Fest",
+        "translation": "Magic: The Gathering Arena @ Summer Game Fest"
     },
     "Events/Event_Title_SIR_Premier_Draft": {
         "oracleText": "Premier Draft Shadows Remastered",
@@ -34964,8 +34984,8 @@
         "translation": "争锋套牌需要正好包含{MinMainDeckRequired}张牌。"
     },
     "MainNav/DeckBuilder/DeckBuilder_InvalidDeckReasons_CommanderHasPartner": {
-        "oracleText": "Second Commander must be a legendary creature or Planeswalker with the \"Partner\" ability. To change your deck's commander(s), remove one first.",
-        "translation": "第二个指挥官必须是具有「拍档」异能的传奇生物或鹏洛客。需要变更指挥官的时候，首先移除其中一张。"
+        "oracleText": "Second Commander must be a legendary creature or planeswalker with the \"Partner\" ability. To change your deck's commander(s), remove one first.",
+        "translation": "Second Commander must be a legendary creature or planeswalker with the \"Partner\" ability. To change your deck's commander(s), remove one first."
     },
     "MainNav/DeckBuilder/DeckBuilder_InvalidDeckReasons_HasBannedCards": {
         "oracleText": "Deck contains banned or suspended cards.",
@@ -34980,12 +35000,12 @@
         "translation": "套牌包含和你的指挥官标识色不同的牌张。"
     },
     "MainNav/DeckBuilder/DeckBuilder_InvalidDeckReasons_HasInvalidCommander": {
-        "oracleText": "Commander must be a legendary creature or Planeswalker.",
-        "translation": "指挥官必须是传奇生物或鹏洛客。"
+        "oracleText": "Commander must be a legendary creature or planeswalker.",
+        "translation": "Commander must be a legendary creature or planeswalker."
     },
     "MainNav/DeckBuilder/DeckBuilder_InvalidDeckReasons_HasInvalidPartner": {
-        "oracleText": "Second Commander must be a legendary creature or Planeswalker with the \"Partner\" ability.",
-        "translation": "第二个指挥官必须是具有「拍档」异能的传奇生物或鹏洛客。"
+        "oracleText": "Second Commander must be a legendary creature or planeswalker with the \"Partner\" ability.",
+        "translation": "Second Commander must be a legendary creature or planeswalker with the \"Partner\" ability."
     },
     "MainNav/DeckBuilder/DeckBuilder_InvalidDeckReasons_HasNoCommanderButShould": {
         "oracleText": "Deck must have a Commander.",
@@ -69732,12 +69752,12 @@
         "translation": "轮替是指旧的系列轮换出去，新的系列轮换进来。让每个人都能感受到新鲜和乐趣！"
     },
     "Rotation/Header": {
-        "oracleText": "2024 Rotation",
-        "translation": "2024年轮替赛季"
+        "oracleText": "2025 Rotation",
+        "translation": "2025 Rotation"
     },
     "Rotation/Subheader": {
-        "oracleText": "July 30",
-        "translation": "7月30日"
+        "oracleText": "July 29",
+        "translation": "July 29"
     },
     "SJMP_PacketName_LTR_Amass": {
         "oracleText": "Amass",
