@@ -2584,8 +2584,8 @@
         "translation": "横置另一个由你操控的生物：依其力量在此太空船上放置等量的充电指示物。蓄势的时机视同法术。达到{chargeRequirement}+后它便是神器生物。"
     },
     "AbilityHanger/Keyword/Station_EternityElevator_Body": {
-        "oracleText": "Tap another creature you control: Put charge counters on this Spacecraft equal to its power. Station only as a sorcery",
-        "translation": "横置另一个由你操控的生物：依其力量在此太空船上放置等量的充电指示物。蓄势的时机视同法术。"
+        "oracleText": "Tap another creature you control: Put charge counters on this Spacecraft equal to its power. Station only as a sorcery.",
+        "translation": "Tap another creature you control: Put charge counters on this Spacecraft equal to its power. Station only as a sorcery."
     },
     "AbilityHanger/Keyword/Station_Planet_Body": {
         "oracleText": "Tap another creature you control: Put charge counters on this Planet equal to its power. Station only as a sorcery.",
@@ -12123,6 +12123,26 @@
         "oracleText": "Foundation Deck: Brawl Inspirit, Flagship Vessel",
         "translation": "基础套牌：争锋威武旗舰激励号"
     },
+    "Decks/StoreDecks/EOE/Wave13/Amalia": {
+        "oracleText": "Foundation Deck: Brawl Amalia Benavides Aguirre",
+        "translation": "Foundation Deck: Brawl Amalia Benavides Aguirre"
+    },
+    "Decks/StoreDecks/EOE/Wave13/Camellia": {
+        "oracleText": "Foundation Deck: Brawl Camellia, the Seedmiser",
+        "translation": "Foundation Deck: Brawl Camellia, the Seedmiser"
+    },
+    "Decks/StoreDecks/EOE/Wave13/Delney": {
+        "oracleText": "Foundation Deck: Brawl Delney, Streetwise Lookout",
+        "translation": "Foundation Deck: Brawl Delney, Streetwise Lookout"
+    },
+    "Decks/StoreDecks/EOE/Wave13/Ral": {
+        "oracleText": "Foundation Deck: Brawl Ral, Crackling Wit",
+        "translation": "Foundation Deck: Brawl Ral, Crackling Wit"
+    },
+    "Decks/StoreDecks/EOE/Wave13/Skitter": {
+        "oracleText": "Foundation Deck: Brawl Lord Skitter, Sewer King",
+        "translation": "Foundation Deck: Brawl Lord Skitter, Sewer King"
+    },
     "Decks/StoreDecks/FDN/Wave1/StandardChampionshipBGMidrange": {
         "oracleText": "Magic World Championship Deck: Standard Golgari Midrange",
         "translation": "世冠套牌：标准黑绿中速"
@@ -15875,6 +15895,10 @@
         "oracleText": "Complete three Quick Draft matches.",
         "translation": "完成三局快速轮抽比赛"
     },
+    "EPP/Quests/QuickDraft_Description_alt": {
+        "oracleText": "Complete a Quick Draft event.",
+        "translation": "Complete a Quick Draft event."
+    },
     "EPP/Quests/QuickDraft_Footer": {
         "oracleText": "Draft new cards in a Quick Draft event!",
         "translation": "在快速轮抽活动中选取新的牌张！"
@@ -17450,6 +17474,62 @@
     "Emotes/OTJ/Mini/YeeHaw": {
         "oracleText": "Yeehaw",
         "translation": "耶哈"
+    },
+    "Emotes/SS25/Full/Phrase_SS25_DidntNeed": {
+        "oracleText": "I didn't need that anyway.",
+        "translation": "I didn't need that anyway."
+    },
+    "Emotes/SS25/Full/Phrase_SS25_DoneHere": {
+        "oracleText": "We're done here.",
+        "translation": "We're done here."
+    },
+    "Emotes/SS25/Full/Phrase_SS25_DontMakeMistakes": {
+        "oracleText": "Odd, I usually don't make mistakes.",
+        "translation": "Odd, I usually don't make mistakes."
+    },
+    "Emotes/SS25/Full/Phrase_SS25_Enough": {
+        "oracleText": "That's enough of that.",
+        "translation": "That's enough of that."
+    },
+    "Emotes/SS25/Full/Phrase_SS25_Impressive": {
+        "oracleText": "Hm...impressive.",
+        "translation": "Hm...impressive."
+    },
+    "Emotes/SS25/Full/Phrase_SS25_QuietThinking": {
+        "oracleText": "Quiet, I'm thinking.",
+        "translation": "Quiet, I'm thinking."
+    },
+    "Emotes/SS25/Full/Phrase_SS25_RestWhenDead": {
+        "oracleText": "You can rest when you're dead. Oh--sorry.",
+        "translation": "You can rest when you're dead. Oh--sorry."
+    },
+    "Emotes/SS25/Mini/Phrase_SS25_DidntNeed": {
+        "oracleText": "I didn't need that anyway.",
+        "translation": "I didn't need that anyway."
+    },
+    "Emotes/SS25/Mini/Phrase_SS25_DoneHere": {
+        "oracleText": "We're done here.",
+        "translation": "We're done here."
+    },
+    "Emotes/SS25/Mini/Phrase_SS25_DontMakeMistakes": {
+        "oracleText": "Usually don't make mistakes.",
+        "translation": "Usually don't make mistakes."
+    },
+    "Emotes/SS25/Mini/Phrase_SS25_Enough": {
+        "oracleText": "That's enough of that.",
+        "translation": "That's enough of that."
+    },
+    "Emotes/SS25/Mini/Phrase_SS25_Impressive": {
+        "oracleText": "Hm...impressive.",
+        "translation": "Hm...impressive."
+    },
+    "Emotes/SS25/Mini/Phrase_SS25_QuietThinking": {
+        "oracleText": "Quiet, I'm thinking.",
+        "translation": "Quiet, I'm thinking."
+    },
+    "Emotes/SS25/Mini/Phrase_SS25_RestWhenDead": {
+        "oracleText": "Rest when you're dead.",
+        "translation": "Rest when you're dead."
     },
     "Emotes/TDM/Full/Phrase_TDM_Abzan": {
         "oracleText": "For the glory of the Abzan!",
@@ -21855,6 +21935,18 @@
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 7 wins to win a physical Edge of Eternities Collector Booster Box delivered to you.\n\nThe format for this event is 6 packs of <i>Edge of Eternities</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>",
         "translation": "<size=150%><color=#e1a154>参加赛事，竞夺卡盒！</color></size>\n\n报名参加此赛事，赢得全部7胜就能获得一盒实体虚空边域聚珍补充包邮寄到家。\n\n本赛事的赛制为6包补充包的<i>虚空边域</i>BO1现开赛。\n\n<b><color=red>须年满18周岁方能参加。部分地区／地域不能参加本赛事。在法律禁止的地区无效。须创建或具现有威世智、DCI及i-Payout帐户方能领取奖金。完整详细信息，请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>此处</link></u>。</color></b>"
     },
+    "Events/Event_Desc_ArenaDirect_EOE_Play_Draft": {
+        "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 7 wins to win 2 physical Edge of Eternities Play Booster Boxes delivered to you.\n\nThe format for this event is 3 packs of <i> Edge of Eternities</i> Draft with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 7 wins to win 2 physical Edge of Eternities Play Booster Boxes delivered to you.\n\nThe format for this event is 3 packs of <i> Edge of Eternities</i> Draft with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>"
+    },
+    "Events/Event_Desc_ArenaDirect_EOE_Play_Sealed": {
+        "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 7 wins to win 2 physical Edge of Eternities Play Booster Boxes delivered to you.\n\nThe format for this event is 6 packs of <i> Edge of Eternities</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 7 wins to win 2 physical Edge of Eternities Play Booster Boxes delivered to you.\n\nThe format for this event is 6 packs of <i> Edge of Eternities</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>"
+    },
+    "Events/Event_Desc_ArenaDirect_EOE_Play_Standard": {
+        "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n \nSign up for this event and get all 7 wins to win 2 physical Edge of Eternities Play Booster Boxes delivered to you.\n \nThe format for this event is Constructed Standard with single-game matches.  \n \n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n \nSign up for this event and get all 7 wins to win 2 physical Edge of Eternities Play Booster Boxes delivered to you.\n \nThe format for this event is Constructed Standard with single-game matches.  \n \n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>"
+    },
     "Events/Event_Desc_ArenaDirect_FDN_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win two physical <i>Magic: The Gathering Foundations</i> Play Booster Boxes delivered to you.\n\nThe format for this event is 6 packs of <i>Magic: The Gathering Foundations</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-otj-terms-and-conditions>here</link></u> for full details.</color></b>",
         "translation": "<size=150%><color=#e1a154>参加赛事，竞夺卡盒！</color></size>\n\n报名参加此赛事，赢得全部6胜就能获得两盒实体<i>万智牌：基石构筑</i>常规补充包邮寄到家。\n\n本赛事的赛制为6包补充包的<i>万智牌：基石构筑</i>BO1现开赛。\n\n<b><color=red>须年满18周岁方能参加。部分地区／地域不能参加本赛事。在法律禁止的地区无效。须创建或具现有威世智、DCI及i-Payout帐户方能领取奖金。完整详细信息，请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-otj-terms-and-conditions>此处</link></u>。</color></b>"
@@ -23563,6 +23655,10 @@
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Brawl Builder Challenge: choose any Commander from Magic: the Gathering—FINAL FANTASY and build a 100-card Brawl deck using any cards in MTG Arena!",
         "translation": "欢迎参加周中万智牌！MTG竞技场每周玩法花样百出，次次活动都有全新感受！\n\n本周的活动是争锋构筑挑战赛：选择一张来自万智牌～最终幻想的指挥官，使用万智牌竞技场中任意可用牌张构筑一副100张的争锋套牌！ "
     },
+    "Events/Event_Desc_MWM_BrawlBuilderChallenge_20250902": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Brawl Builder Challenge: choose any Commander from Edge of Eternities and build a 100-card Brawl deck using any cards in MTG Arena!",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Brawl Builder Challenge: choose any Commander from Edge of Eternities and build a 100-card Brawl deck using any cards in MTG Arena!"
+    },
     "Events/Event_Desc_MWM_BrawlPrecon": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Brawl Showcase: Take these Brawl preconstructed decks for a spin, and see if you find a new favorite! Change decks as often as you like.",
         "translation": "欢迎参加周中万智夜！《MTG竞技场》每周玩法花样百出，次次活动都有全新感受！\n\n本周的活动是争锋展威：拿上这些争锋预组套牌一试身手，瞧瞧能否找到新的心头好！你可以随心所欲地更换套牌。"
@@ -23623,6 +23719,10 @@
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Edge of Eternities Constructed: Bring a 60-card deck with only cards from the most recent set and demonstrate your mastery of the new cards!",
         "translation": "欢迎参加周中万智牌！MTG竞技场每周玩法花样百出，次次活动都有全新感受！\n\n本周活动是虚空边域构筑赛：使用仅包含最新系列卡牌的60张套牌，展现您对新牌的掌控力！"
     },
+    "Events/Event_Desc_MWM_EOE_Sealed": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Edge of Eternities</i> Sealed: Open six packs and add basic lands to make a 40-card deck, then play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Edge of Eternities</i> Sealed: Open six packs and add basic lands to make a 40-card deck, then play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>"
+    },
     "Events/Event_Desc_MWM_Explorer": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Explorer: Bring a 60-card Explorer deck. Break out the latest and greatest from the lab, or maybe find a new favorite!",
         "translation": "欢迎来到周中万智牌！每周尝试一种不同的方式来游玩万智牌竞技场！\n\n本周活动是探险：带上一副60张的探险套牌。从实验室获悉最新最强的套牌，也许能发现新的最爱！"
@@ -23638,6 +23738,10 @@
     "Events/Event_Desc_MWM_FDNConstructed": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\n\nThis week's event is <i>Magic: The Gathering Foundations</i> Constructed: Bring a 60-card deck with only cards from the most recent set and demonstrate your mastery of the new cards!\n\nThis event is All-Access, meaning you can even use cards outside of your collection.",
         "translation": "欢迎参加周中万智牌！万智牌：竞技场每周玩法花样百出，次次活动都有全新感受！\n\n\n本周的活动是<i>万智牌：基石构筑</i>构组：使用事先组好的60张套牌进行游戏，但套牌仅限利用最近刚刚推出之前述系列的的牌张，展示你对新牌的掌握！\n\n本次活动可牌张任用，就算不在你收藏中的牌张，也可以任意使用。"
+    },
+    "Events/Event_Desc_MWM_FDN_4P_BotDraft": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Magic: The Gathering Foundations</i> Pick-Two Draft! Select two cards at a time from rotating draft packs against a smaller group of 4 players. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Magic: The Gathering Foundations</i> Pick-Two Draft! Select two cards at a time from rotating draft packs against a smaller group of 4 players. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>"
     },
     "Events/Event_Desc_MWM_FDN_Sealed": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Magic the Gathering: Foundations</i> Sealed: Open six packs and add basic lands to make a 40-card deck, then play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>",
@@ -25135,6 +25239,10 @@
         "oracleText": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Eerie Investigation </b> Search the House! Play lots of enchantments and unlock Rooms to power up your creatures and get around all the horrifying blockers the house might throw your way. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Eerie Domination </b> Live out your worst nightmares and share them with your opponent, unlocking Rooms and playing enchantments to kill off their creatures and seize control of the game. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>BR Serial Sacrifice</b> Want to slash through opposing creatures and your opponent with ease? Pay the price for strength by sacrificing your own creatures and old Rooms. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Delirious Rampage</b> Fill your deck with artifact and enchantment creatures (along with other card types), then start attacking early and often. Once you get four different card types into your graveyard, your cards power up. Now go for the jugular! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Survival </b> Utilize all of Duskmourn's tricks to power up your creatures and help them smash their way to safety. Find other ways to tap them and hide until the danger's past. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Cultic Reanimation</b> All hail Valgavoth! Slow your opponent down while you get enormous monsters into your graveyard and then perform the rituals to return them to life. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> Room after Room </b> The House never ends! Trap your opponent going in circles as you unlock Rooms to build up control of more and more territory, then unleash the ghosts held within for a frightening finish. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> Grinding Delirium</b> Prioritize getting a wide variety of card types, then gum up the board as you fill your graveyard with them. Once you've got four types, grind your opponent to dust by recycling what you've thrown away. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> Childhood Fears</b> Fill your deck with toys and clowns that have 2 or less power and start attacking! Smash your opponents swiftly by clearing out their blockers and buffing your little creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> Manifest Dread</b> Something's lurking in the shadows. Manifest face-down creatures and get them into combat, then surprise your opponent with their true forms to outsize the competition.",
         "translation": "轮抽用补充包在桌上轮转，最新炼金系列的牌张也包含其中，你每次需从中选择一张牌。这些牌张将加入你的收藏，而你将使用它们和基本地来构组一副40张的套牌。不断进行对战，最后根据你的胜场数量赢得奖励！\n\n<b>真人轮抽～与7位其他牌手一同进行轮抽，有抽选时间限制。</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> 异景调查 </b> 搜索这座宅邸！多多使用结界和解锁房间来强化你的生物，绕过宅邸抛给你的所有恐怖阻挡者。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> 异景支配 </b> 体验你最糟糕的噩梦并与对手分享，解锁房间并使用结界来消灭他们的生物，夺取游戏的控制权。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>红黑连环牺牲</b> 想轻松斩杀对手的生物和对手吗？通过牺牲由你操控的生物和旧房间作为代价以换取力量。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>狂暴横行</b> 用神器和结界生物（以及其他牌张类别）填满你的套牌，然后尽早频繁地攻击。一旦你在坟墓场中拥有四种不同的牌张类别，你的牌就会被强化。现在，直击要害吧！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>生还</b>  利用暮悲邸的所有诡计来强化你的生物，帮助他们一路打破阻碍，安全脱身。找到其他方式来横置它们，躲避直到危险过去。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>邪教复生</b>  瓦伽沃万岁！减缓你的对手，同时将巨大的怪物送入你的坟墓场，然后进行仪式将它们复活。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> 房间接着房间 </b> 这座宅邸永无止境！当你解锁房间以建立对更多领地的控制时，让你的对手晕头转向，然后释放其中隐藏的幽灵，迎接恐怖终局。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> 碾磨躁狂 </b> 优先获得各种不同的牌张类别，当你用它们填满坟墓场时，阻碍场面威胁。一旦你拥有四种类别，通过循环利用你丢弃的东西，将对手碾为尘土。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> 童年阴影 </b> 用力量等于或小于2的玩具和小丑填满你的套牌，开始攻击！清除他们的阻挡者并强化你的小生物，迅速击败对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> 显化惧象 </b> 有东西潜伏在阴影中。显化牌面朝下的生物并让它们进入战斗，然后用它们的真面目给对手一个惊喜，扭转胜局。"
     },
+    "Events/Event_Desc_Y25EOE_Premier_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>",
+        "translation": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>"
+    },
     "Events/Event_Desc_Y25TDM_Premier_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Mardu Mobilize</b> Create additional tokens to help aid in your attack.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Go Wide Tokens</b> Blitz by your opponent with sheer numbers. Use Mobilize tokens and Flurry rewards to build impressive battlefields.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Jeskai Flurry</b> Cast two (or more!) spells in a single turn to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Two Spells</b> Use Harmonize spells frequently in order to reap the rewards from Flurry.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Temur Harmonize</b> Cast your spells twice with help of your biggest creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Leaves the Graveyard</b> Fill up your graveyard, then use Mobilize or Renew and others to get bonuses for cards leaving your graveyard.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Sultai Renew</b> Use the power of the graveyard to make your creatures stronger.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Counters</b> Use counters of any kind, not just +1/+1 counters, to make your creatures impressive in combat.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Abzan Endure</b> Your creatures are versatile!  Outsize your opponents with +1/+1 counters or outflank them with spirit tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Sacrifice</b> Sacrifice your extra creatures, such as your temporary creatures from Horde to get extra use out of those creatures.",
         "translation": "轮抽补充包在桌上轮转，其中包含最新炼金系列牌张，你每次需从中选择一张牌。这些牌张将加入你的收藏，而你将使用它们和基本地来构组一副40张的套牌。不断进行对战，最后根据胜场数量赢得奖励！\n\n<b>真人轮抽～与其他7位牌手一同进行轮抽，有抽选时间限制</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>玛尔都动员</b> 派出额外的衍生物来帮助你进行攻击。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>衍生物铺场</b> 用数量优势冲击你的对手。使用动员的衍生物和连咒收益来建立非凡场面。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>洁斯凯连咒</b> 在一个回合内施放两个（或更多！）咒语来压倒你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>两次咒语</b> 频繁使用谐颂咒语以获取连咒收益。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>铁木尔谐颂</b> 让你最大的生物帮助你施放两次咒语。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>离开坟场</b> 填满你的坟墓场，然后使用动员或复新之类的获得卡牌离开你坟墓场的奖励。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>苏勒台复新</b> 利用坟墓场的力量使你的生物更强大。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>指示物</b> 使用任何类型的指示物，不仅仅是+1/+1指示物，让你的生物在战斗中鹤立鸡群。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>阿布赞续战</b> 你的生物多才多艺！用+1/+1指示物压倒对手或用精怪衍生物包抄他们。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>牺牲</b> 牺牲你的额外生物，比如从战群获得的临时生物，充分利用这些生物。"
@@ -25454,6 +25562,18 @@
     "Events/Event_Title_ArenaDirect_EOE_Collector_Sealed": {
         "oracleText": "Arena Direct - Sealed Edge of Eternities Collector Booster",
         "translation": "竞技场直邮赛 - 虚空边域现开（聚珍补充包）"
+    },
+    "Events/Event_Title_ArenaDirect_EOE_Play_Draft": {
+        "oracleText": "Arena Direct - Draft Edge of Eternities Play Booster Boxes",
+        "translation": "Arena Direct - Draft Edge of Eternities Play Booster Boxes"
+    },
+    "Events/Event_Title_ArenaDirect_EOE_Play_Sealed": {
+        "oracleText": "Arena Direct - Sealed Edge of Eternities Play Booster Boxes",
+        "translation": "Arena Direct - Sealed Edge of Eternities Play Booster Boxes"
+    },
+    "Events/Event_Title_ArenaDirect_EOE_Play_Standard": {
+        "oracleText": "Arena Direct - Standard Edge of Eternities Play Booster Boxes",
+        "translation": "Arena Direct - Standard Edge of Eternities Play Booster Boxes"
     },
     "Events/Event_Title_ArenaDirect_FDN_Sealed": {
         "oracleText": "Arena Direct - Sealed Magic: The Gathering Foundations",
@@ -27155,6 +27275,10 @@
         "oracleText": "Midweek Magic: Phantom Bot Draft",
         "translation": "周中万智牌：幻影人机轮抽"
     },
+    "Events/Event_Title_MWM_BotDraft_4P": {
+        "oracleText": "Midweek Magic: Pick-Two Phantom Bot Draft",
+        "translation": "Midweek Magic: Pick-Two Phantom Bot Draft"
+    },
     "Events/Event_Title_MWM_BotDraft_DMU": {
         "oracleText": "Midweek Magic: Phantom Bot Draft",
         "translation": "周中万智牌：幻影人机轮抽"
@@ -28738,6 +28862,10 @@
     "Events/Event_Title_Y25DSK_Premier_Draft": {
         "oracleText": "Premier Draft Duskmourn: House of Horror Alchemy",
         "translation": "炼金暮悲邸：鬼屋惊魂竞技轮抽"
+    },
+    "Events/Event_Title_Y25EOE_Premier_Draft": {
+        "oracleText": "Premier Draft Edge of Eternities Alchemy",
+        "translation": "Premier Draft Edge of Eternities Alchemy"
     },
     "Events/Event_Title_Y25TDM_Premier_Draft": {
         "oracleText": "Premier Draft Tarkir: Dragonstorm Alchemy",
@@ -31643,6 +31771,14 @@
         "oracleText": "Timeless Beta",
         "translation": "永恒测试"
     },
+    "General/Sets/AA1": {
+        "oracleText": "Arena Anthology 1",
+        "translation": "Arena Anthology 1"
+    },
+    "General/Sets/AA2": {
+        "oracleText": "Arena Anthology 2",
+        "translation": "Arena Anthology 2"
+    },
     "General/Sets/AER": {
         "oracleText": "Aether Revolt",
         "translation": "乙太之乱"
@@ -31986,6 +32122,10 @@
     "General/Sets/Y25-DSK": {
         "oracleText": "Alchemy: Duskmourn",
         "translation": "炼金：暮悲邸"
+    },
+    "General/Sets/Y25-EOE": {
+        "oracleText": "Alchemy: Edge of Eternities",
+        "translation": "Alchemy: Edge of Eternities"
     },
     "General/Sets/Y25-TDM": {
         "oracleText": "Alchemy: Tarkir",
@@ -32478,6 +32618,50 @@
     "MainNav/AboveNav/WaitingForMatch_MatchFound": {
         "oracleText": "Match found!",
         "translation": "已找到对局！"
+    },
+    "MainNav/Achievements/AchievementSetEndsIn": {
+        "oracleText": "Achievement Set ends in {days} days",
+        "translation": "Achievement Set ends in {days} days"
+    },
+    "MainNav/Achievements/AchievementSetEndsSingular": {
+        "oracleText": "Achievement Set ends in {days} day",
+        "translation": "Achievement Set ends in {days} day"
+    },
+    "MainNav/Achievements/AchievementSetEnds_Days": {
+        "oracleText": "(Achievement Set ends in {days} days)",
+        "translation": "(Achievement Set ends in {days} days)"
+    },
+    "MainNav/Achievements/AchievementSetEnds_HourAndMinute": {
+        "oracleText": "(Achievement Set ends in 1 hour and 1 minute)",
+        "translation": "(Achievement Set ends in 1 hour and 1 minute)"
+    },
+    "MainNav/Achievements/AchievementSetEnds_HourAndMinutes": {
+        "oracleText": "(Achievement Set ends in 1 hour and {minutes} minutes)",
+        "translation": "(Achievement Set ends in 1 hour and {minutes} minutes)"
+    },
+    "MainNav/Achievements/AchievementSetEnds_Hours": {
+        "oracleText": "(Achievement Set ends in {hours} hours)",
+        "translation": "(Achievement Set ends in {hours} hours)"
+    },
+    "MainNav/Achievements/AchievementSetEnds_HoursAndMinute": {
+        "oracleText": "(Achievement Set ends in {hours} hours and 1 minute)",
+        "translation": "(Achievement Set ends in {hours} hours and 1 minute)"
+    },
+    "MainNav/Achievements/AchievementSetEnds_HoursAndMinutes": {
+        "oracleText": "(Achievement Set ends in {hours} hours and {minutes} minutes)",
+        "translation": "(Achievement Set ends in {hours} hours and {minutes} minutes)"
+    },
+    "MainNav/Achievements/AchievementSetEnds_LessThanMinute": {
+        "oracleText": "(Achievement Set ends in less than a minute)",
+        "translation": "(Achievement Set ends in less than a minute)"
+    },
+    "MainNav/Achievements/AchievementSetEnds_Minute": {
+        "oracleText": "(Achievement Set ends in 1 minute)",
+        "translation": "(Achievement Set ends in 1 minute)"
+    },
+    "MainNav/Achievements/AchievementSetEnds_Minutes": {
+        "oracleText": "(Achievement Set ends in {minutes} minutes)",
+        "translation": "(Achievement Set ends in {minutes} minutes)"
     },
     "MainNav/BannedCards/Historic_Anthology_2_Desc": {
         "oracleText": "Expand your Historic collection with 25 new-to-Arena cards!",
@@ -36511,9 +36695,37 @@
         "oracleText": "Kaito, Bane of Nightmares Sleeve",
         "translation": "梦魇克星魁渡牌套"
     },
+    "MainNav/DeckBuilder/Sleeves/CardBack_DSK_447745": {
+        "oracleText": "I Will Savor Your Agony Sleeve",
+        "translation": "I Will Savor Your Agony Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_DSK_447749": {
+        "oracleText": "I Am Never Alone Sleeve",
+        "translation": "I Am Never Alone Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_DSK_447750": {
+        "oracleText": "Time Bends to My Will Sleeve",
+        "translation": "Time Bends to My Will Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_DSK_447751": {
+        "oracleText": "You Cannot Hide From Me Sleeve",
+        "translation": "You Cannot Hide From Me Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_DSK_447752": {
+        "oracleText": "You Live Only Because I Will It Sleeve",
+        "translation": "You Live Only Because I Will It Sleeve"
+    },
     "MainNav/DeckBuilder/Sleeves/CardBack_DSK_447754": {
         "oracleText": "Plots That Span Centuries Sleeve",
         "translation": "伟大计划绵延千年牌套"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_DSK_447760": {
+        "oracleText": "My Wings Enfold All Sleeve",
+        "translation": "My Wings Enfold All Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_DSK_447800": {
+        "oracleText": "Running is Useless Sleeve",
+        "translation": "Running is Useless Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_DSK_447844": {
         "oracleText": "Niko, Light of Hope Sleeve",
@@ -36526,6 +36738,10 @@
     "MainNav/DeckBuilder/Sleeves/CardBack_DSK_448620": {
         "oracleText": "Cathartic Parting Exquisite Sleeve",
         "translation": "感人分别精饰牌套"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_DSK_449196": {
+        "oracleText": "I Am Duskmourn Sleeve",
+        "translation": "I Am Duskmourn Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_DSK_449250": {
         "oracleText": "The Wandering Rescuer Sleeve",
@@ -36583,6 +36799,38 @@
         "oracleText": "Igneous Cur Basic Sleeve",
         "translation": "火热杂狗基础牌套"
     },
+    "MainNav/DeckBuilder/Sleeves/CardBack_E01_401681": {
+        "oracleText": "My Echoing Laughter Sleeve",
+        "translation": "My Echoing Laughter Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_E01_401683": {
+        "oracleText": "Every Dream A Nightmare Sleeve",
+        "translation": "Every Dream A Nightmare Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_E01_401684": {
+        "oracleText": "Your Resolve Crumbles Sleeve",
+        "translation": "Your Resolve Crumbles Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_E01_401685": {
+        "oracleText": "Behold My Granduer Sleeve",
+        "translation": "Behold My Granduer Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_E01_401688": {
+        "oracleText": "Offerings To The God-Pharaoh Sleeve",
+        "translation": "Offerings To The God-Pharaoh Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_E01_401692": {
+        "oracleText": "My Power Is Without Equal Sleeve",
+        "translation": "My Power Is Without Equal Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_E01_401693": {
+        "oracleText": "Because I Have Willed It Sleeve",
+        "translation": "Because I Have Willed It Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_E01_401696": {
+        "oracleText": "When Will You Learn Sleeve",
+        "translation": "When Will You Learn Sleeve"
+    },
     "MainNav/DeckBuilder/Sleeves/CardBack_ELD_410736": {
         "oracleText": "Korvold Fae Cursed King Sleeve",
         "translation": "受诅国王寇沃牌套"
@@ -36622,6 +36870,10 @@
     "MainNav/DeckBuilder/Sleeves/CardBack_EOE_444356": {
         "oracleText": "Luxknight Breacher Sleeve",
         "translation": "尖光团破船骑士牌套"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_EOE_444414": {
+        "oracleText": "Mechan Navigator Sleeve",
+        "translation": "Mechan Navigator Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_EOE_444595": {
         "oracleText": "Dark Endurance Exquisite Sleeve",
@@ -40478,6 +40730,10 @@
     "MainNav/DeckFormat/HistoricBrawlWithAllowList_20250624": {
         "oracleText": "Midweek Magic: Brawl Builder",
         "translation": "周中万智牌：争锋构筑"
+    },
+    "MainNav/DeckFormat/HistoricBrawlWithAllowList_20250902": {
+        "oracleText": "Brawl Builder Challenge",
+        "translation": "Brawl Builder Challenge"
     },
     "MainNav/DeckFormat/HistoricNBL": {
         "oracleText": "No-Ban Historic",
@@ -44678,6 +44934,22 @@
     "MainNav/HomePage/Carousel/2025_50_0_Store_Title": {
         "oracleText": "Stock up on supplies!",
         "translation": "囤积补给品！"
+    },
+    "MainNav/HomePage/Carousel/2025_51_0_Store_Desc": {
+        "oracleText": "There's no end to the treasures found in the Edge. Find Packs, Card Styles, and more in the Store!",
+        "translation": "There's no end to the treasures found in the Edge. Find Packs, Card Styles, and more in the Store!"
+    },
+    "MainNav/HomePage/Carousel/2025_51_0_Store_Title": {
+        "oracleText": "Interstellar Deals!",
+        "translation": "Interstellar Deals!"
+    },
+    "MainNav/HomePage/Carousel/2025_51_0_SummerSale_Store_Desc": {
+        "oracleText": "Heat up with some hot deals in the Store!",
+        "translation": "Heat up with some hot deals in the Store!"
+    },
+    "MainNav/HomePage/Carousel/2025_51_0_SummerSale_Store_Title": {
+        "oracleText": "The Summer Sale Is Here!",
+        "translation": "The Summer Sale Is Here!"
     },
     "MainNav/HomePage/Carousel/2025_EOE_WPN_MagicSpotlight_Desc": {
         "oracleText": "$50,000, Pro Tour Invites, and more are up for grabs in Orlando, FL. Sign-up today!",
@@ -48983,6 +49255,10 @@
         "oracleText": "By clicking on ‘Submit' I agree to the <u><b><link=https://magic.wizards.com/mtgarena/terms>Terms and Conditions</link></b></u>, <u><b><link=https://company.wizards.com/conduct>Code of Conduct</link></b></u>, and <u><b><link=https://company.wizards.com/policy>Privacy Policy</link></b></u>.",
         "translation": "点击「提交」即表示我同意 <u><b><link=https://magic.wizards.com/zh-hans/mtgarena/terms>条款与细则</link></b></u>、<u><b><link=http://company.wizards.com/zh-hans/legal/xingweizhunze>行为准则</link></b></u>和<u><b><link=https://company.wizards.com/zh-hans/legal/weishizhiyinsizhengce>隐私政策</link></b></u>。"
     },
+    "MainNav/Login/Click_Submit_Agree_V2": {
+        "oracleText": "By clicking ‘Submit' I acknowledge that I have reviewed the <u><b><link=https://company.wizards.com/policy>Privacy Policy</link></b></u> and terms above.",
+        "translation": "By clicking ‘Submit' I acknowledge that I have reviewed the <u><b><link=https://company.wizards.com/policy>Privacy Policy</link></b></u> and terms above."
+    },
     "MainNav/Login/CodeOfConductLink": {
         "oracleText": "<u><b><link=https://company.wizards.com/conduct>Code of Conduct</link></b></u>",
         "translation": "<u><b><link=https://company.wizards.com/conduct>行为准则</link></b></u>"
@@ -49814,6 +50090,14 @@
     "MainNav/Mailbox/2025_50_0_EOE_Announcement_Title": {
         "oracleText": "To the Edge of the Eternities!",
         "translation": "前往虚空边域！"
+    },
+    "MainNav/Mailbox/2025_51_0_Y25EOE_Announcement_Description": {
+        "oracleText": "Crew log 299:\n\nMuch more time has passed, and the Edge still fills me with wonder. Every time I think I have seen it all, we stumble across another astonishing surprise. Some benign, some dangerous, but all beautiful.\n\nWe're departing now, but take these 3 packs to help fortify you for your own journey ahead!",
+        "translation": "Crew log 299:\n\nMuch more time has passed, and the Edge still fills me with wonder. Every time I think I have seen it all, we stumble across another astonishing surprise. Some benign, some dangerous, but all beautiful.\n\nWe're departing now, but take these 3 packs to help fortify you for your own journey ahead!"
+    },
+    "MainNav/Mailbox/2025_51_0_Y25EOE_Announcement_Title": {
+        "oracleText": "Our Journey Through the Edge Continues",
+        "translation": "Our Journey Through the Edge Continues"
     },
     "MainNav/Mailbox/2025_EOE_SparkRank_Desc": {
         "oracleText": "Starting now, Spark Ranked will use cards from the Standard card pool rather than the Alchemy card pool. This means that digital-only cards will no longer be allowed; if any of your decks contain digital-only cards, they will need to be removed from the deck to continue using that deck in Spark Ranked. Rebalanced cards will revert to their non-rebalanced versions.\n\nThe preconstructed Starter Decks all remain legal.",
@@ -53171,6 +53455,14 @@
         "oracleText": "Elspeth Tirel",
         "translation": "艾紫培提瑞"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_Emrakul_S25_Bio": {
+        "oracleText": "The Eldrazi Titan Emrakul brings ultimate ruin for organic life in the Multiverse. Her towering mass of writhing tentacles hangs in the air, distorting gravity and corrupting flesh. To stop Emrakul's apocalyptic destruction, she had to be imprisoned within Innistrad's moon.",
+        "translation": "The Eldrazi Titan Emrakul brings ultimate ruin for organic life in the Multiverse. Her towering mass of writhing tentacles hangs in the air, distorting gravity and corrupting flesh. To stop Emrakul's apocalyptic destruction, she had to be imprisoned within Innistrad's moon."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Emrakul_S25_Name": {
+        "oracleText": "Emrakul",
+        "translation": "Emrakul"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_Eowyn_LTR_Bio": {
         "oracleText": "Éowyn protects her homeland of Rohan as a skilled rider and a shieldmaiden. At the Battle of the Pelennor Fields, Éowyn demonstrates her prowess by slaying the Witch-king of Angmar, the Lord of the Nazgûl.",
         "translation": "伊奥温以熟练的骑手和盾牌侍女的身份保护她的家乡洛汗 (Rohan)。 在佩兰诺平野之战中，伊奥温杀死了戒灵之王安格玛的巫王，展示了她的实力。"
@@ -53583,6 +53875,14 @@
         "oracleText": "Kotis and Teval",
         "translation": "柯提斯与特瓦尔"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_Kozilek_S25_Bio": {
+        "oracleText": "Reality crumbles before the world-warping Eldrazi Titan known as Kozilek. His twisted magic bends rational thought into chaos and confusion, sundering even the sharpest minds. The combined efforts of the Gatewatch on Zendikar finally brought about his end.",
+        "translation": "Reality crumbles before the world-warping Eldrazi Titan known as Kozilek. His twisted magic bends rational thought into chaos and confusion, sundering even the sharpest minds. The combined efforts of the Gatewatch on Zendikar finally brought about his end."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Kozilek_S25_Name": {
+        "oracleText": "Kozilek",
+        "translation": "Kozilek"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_Laezel_HBG_Bio": {
         "oracleText": "Lae'zel is a consummate warrior, ferocious even by the standards of the githyanki. Faced with transforming into the very monster she has sworn to destroy, Lae'zel must prove herself worthy of rejoining her people - if they do not execute her first.",
         "translation": "莱埃泽尔是技艺高超的斗士，即使以一个吉斯洋基养育所的标准来看也非寻常。面临即将转变为自己发誓要消灭的怪物，她必须向自己的同胞证明自己还有作用——如果他们饶她一命的话。"
@@ -53638,6 +53938,14 @@
     "MainNav/Profile/Avatars/Avatar_Basic_Liliana_FDN_Name": {
         "oracleText": "Liliana",
         "translation": "莉莲娜"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Liliana_S25_Bio": {
+        "oracleText": "Don't mess with the Vess. The planeswalker Liliana raises the bar for raising the dead, using her necromantic powers in pivotal battles across the Multiverse. She once sought to selfishly gain power but now tries her hardest to support the common good.",
+        "translation": "Don't mess with the Vess. The planeswalker Liliana raises the bar for raising the dead, using her necromantic powers in pivotal battles across the Multiverse. She once sought to selfishly gain power but now tries her hardest to support the common good."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Liliana_S25_Name": {
+        "oracleText": "Liliana",
+        "translation": "Liliana"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Lukka_IKO_Bio": {
         "oracleText": "Lukka was once a loyal soldier who dedicated his life to protecting the humans of Ikoria from monsters. Then he magically bonded with one of the creatures he'd been trained to hate and fear, leaving him caught between two warring worlds.",
@@ -54318,6 +54626,14 @@
     "MainNav/Profile/Avatars/Avatar_Basic_Urzabot_BRO_Name": {
         "oracleText": "Urzan Automaton",
         "translation": "克撒的自动械"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Valgavoth_S25_Bio": {
+        "oracleText": "There is no plane of Duskmourn without Valgavoth—at least in its current form. After being summoned and bound to the House, the moth-like demon waited for centuries until the right moment to expand the walls of his prison until it occupied the entire plane.",
+        "translation": "There is no plane of Duskmourn without Valgavoth—at least in its current form. After being summoned and bound to the House, the moth-like demon waited for centuries until the right moment to expand the walls of his prison until it occupied the entire plane."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Valgavoth_S25_Name": {
+        "oracleText": "Valgavoth",
+        "translation": "Valgavoth"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Vannifar_Bio": {
         "oracleText": "Guildmaster of the Simic Combine, Vannifar is an elf who has mutated her body into a proto-plasmic ooze. She considers herself a superior life-form.",
@@ -57575,6 +57891,70 @@
         "oracleText": "MTGA Planeswalker Bundle",
         "translation": "MTGA鹏洛克套装"
     },
+    "MainNav/Store/Bundles/Bundle_AA1_DA1_Desc": {
+        "oracleText": "Sword of Feast and Famine Card Style\nSword of Light and Shadow Card Style\nSword of Truth and Justice Card Style\nSword of War and Peace Card Style\nDarksteel Plate Card Style \nChampion's Helm Card Style",
+        "translation": "Sword of Feast and Famine Card Style\nSword of Light and Shadow Card Style\nSword of Truth and Justice Card Style\nSword of War and Peace Card Style\nDarksteel Plate Card Style \nChampion's Helm Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_AA1_DA1_Name": {
+        "oracleText": "Anthology Styles: Arcane Armaments",
+        "translation": "Anthology Styles: Arcane Armaments"
+    },
+    "MainNav/Store/Bundles/Bundle_AA1_DA2_Desc": {
+        "oracleText": "Azorius Signet Card Style\nBoros Signet Card Style\nDimir Signet Card Style\nGolgari Signet Card Style\nGruul Signet Card Style\nIzzet Signet Card Style\nOrzhov Signet Card Style\nRakdos Signet Card Style\nSelesnya Signet Card Style\nSimic Signet Card Style",
+        "translation": "Azorius Signet Card Style\nBoros Signet Card Style\nDimir Signet Card Style\nGolgari Signet Card Style\nGruul Signet Card Style\nIzzet Signet Card Style\nOrzhov Signet Card Style\nRakdos Signet Card Style\nSelesnya Signet Card Style\nSimic Signet Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_AA1_DA2_Name": {
+        "oracleText": "Anthology Styles: Sorcerous Signets",
+        "translation": "Anthology Styles: Sorcerous Signets"
+    },
+    "MainNav/Store/Bundles/Bundle_AA1_DA3_Desc": {
+        "oracleText": "Talisman of Conviction Card Style\nTalisman of Creativity Card Style\nTalisman of Curiosity Card Style\nTalisman of Dominance Card Style\nTalisman of Hierarchy Card Style\nTalisman of Impulse Card Style\nTalisman of Indulgence Card Style\nTalisman of Progress Card Style\nTalisman of Resilience Card Style\nTalisman of Unity Card Style",
+        "translation": "Talisman of Conviction Card Style\nTalisman of Creativity Card Style\nTalisman of Curiosity Card Style\nTalisman of Dominance Card Style\nTalisman of Hierarchy Card Style\nTalisman of Impulse Card Style\nTalisman of Indulgence Card Style\nTalisman of Progress Card Style\nTalisman of Resilience Card Style\nTalisman of Unity Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_AA1_DA3_Name": {
+        "oracleText": "Anthology Styles: Tempting Talismans",
+        "translation": "Anthology Styles: Tempting Talismans"
+    },
+    "MainNav/Store/Bundles/Bundle_AA1_Desc": {
+        "oracleText": "4x Sword of Feast and Famine\n4x Sword of Light and Shadow\n4x Sword of Truth and Justice\n4x Sword of War and Peace\n4x Azorius Signet\n4x Boros Signet\n4x Darksteel Plate\n4x Dimir Signet\n4x Golgari Signet\n4x Gruul Signet\n4x Izzet Signet\n4x Orzhov Signet\n4x Rakdos Signet\n4x Selesnya Signet\n4x Simic Signet\n4x Champion's Helm\n4x Talisman of Conviction\n4x Talisman of Creativity\n4x Talisman of Curiosity\n4x Talisman of Dominance\n4x Talisman of Hierarchy\n4x Talisman of Impulse\n4x Talisman of Indulgence\n4x Talisman of Progress\n4x Talisman of Resilience\n4x Talisman of Unity",
+        "translation": "4x Sword of Feast and Famine\n4x Sword of Light and Shadow\n4x Sword of Truth and Justice\n4x Sword of War and Peace\n4x Azorius Signet\n4x Boros Signet\n4x Darksteel Plate\n4x Dimir Signet\n4x Golgari Signet\n4x Gruul Signet\n4x Izzet Signet\n4x Orzhov Signet\n4x Rakdos Signet\n4x Selesnya Signet\n4x Simic Signet\n4x Champion's Helm\n4x Talisman of Conviction\n4x Talisman of Creativity\n4x Talisman of Curiosity\n4x Talisman of Dominance\n4x Talisman of Hierarchy\n4x Talisman of Impulse\n4x Talisman of Indulgence\n4x Talisman of Progress\n4x Talisman of Resilience\n4x Talisman of Unity"
+    },
+    "MainNav/Store/Bundles/Bundle_AA1_Name": {
+        "oracleText": "Arena Anthology 1",
+        "translation": "Arena Anthology 1"
+    },
+    "MainNav/Store/Bundles/Bundle_AA2_DA1_Desc": {
+        "oracleText": "Damn Card Style\nOust Card Style\nEmpty the Warrens Card Style\nFlame Slash Card Style\nControl Magic Card Styled\nThought Scour Card Style\nFiery Confluence Card Style",
+        "translation": "Damn Card Style\nOust Card Style\nEmpty the Warrens Card Style\nFlame Slash Card Style\nControl Magic Card Styled\nThought Scour Card Style\nFiery Confluence Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_AA2_DA1_Name": {
+        "oracleText": "Anthology Styles: Sinister Spellcraft",
+        "translation": "Anthology Styles: Sinister Spellcraft"
+    },
+    "MainNav/Store/Bundles/Bundle_AA2_DA2_Desc": {
+        "oracleText": "Wrenn and Six Card Style\nGrist, the Hunger Tide Card Style\nBarrowgoyf Card Style\nPyrogoyf Card Style\nIgnoble Hierarch Card Style\nEternal Witness Card Style",
+        "translation": "Wrenn and Six Card Style\nGrist, the Hunger Tide Card Style\nBarrowgoyf Card Style\nPyrogoyf Card Style\nIgnoble Hierarch Card Style\nEternal Witness Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_AA2_DA2_Name": {
+        "oracleText": "Anthology Styles: Clash of Champions",
+        "translation": "Anthology Styles: Clash of Champions"
+    },
+    "MainNav/Store/Bundles/Bundle_AA2_DA3_Desc": {
+        "oracleText": "Mox Opal Card Style\nTriplicate Titan Card Style\nPyrite Spellbomb Card Style\nTrinket Mage Card Style\nCurrency Converter Card Style\nAncient Den Card Style\nTree of Tales Card Style\nGreat Furnace Card Style",
+        "translation": "Mox Opal Card Style\nTriplicate Titan Card Style\nPyrite Spellbomb Card Style\nTrinket Mage Card Style\nCurrency Converter Card Style\nAncient Den Card Style\nTree of Tales Card Style\nGreat Furnace Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_AA2_DA3_Name": {
+        "oracleText": "Anthology Styles: Metal Mastery",
+        "translation": "Anthology Styles: Metal Mastery"
+    },
+    "MainNav/Store/Bundles/Bundle_AA2_Desc": {
+        "oracleText": "4x Damn\n4x Oust\n4x Eternal Witness\n4x Pyrite Spellbomb\n4x Trinket Mage\n4x Life // Death\n4x Triplicate Titan\n4x Currency Converter\n4x Empty the Warrens\n4x Mana Leak\n4x Flame Slash\n4x Grist, the Hunger Tide\n4x Mother of Runes\n4x Barrowgoyf\n4x Pyrogoyf\n4x Rofellos, Llanowar Emissary\n4x Control Magic\n4x Thought Scour\n4x Fiery Confluence\n4x Ignoble Hierarch\n4x Ancient Den\n4x Tree of Tales\n4x Great Furnace\n4x Wrenn and Six\n4x Mox Opal",
+        "translation": "4x Damn\n4x Oust\n4x Eternal Witness\n4x Pyrite Spellbomb\n4x Trinket Mage\n4x Life // Death\n4x Triplicate Titan\n4x Currency Converter\n4x Empty the Warrens\n4x Mana Leak\n4x Flame Slash\n4x Grist, the Hunger Tide\n4x Mother of Runes\n4x Barrowgoyf\n4x Pyrogoyf\n4x Rofellos, Llanowar Emissary\n4x Control Magic\n4x Thought Scour\n4x Fiery Confluence\n4x Ignoble Hierarch\n4x Ancient Den\n4x Tree of Tales\n4x Great Furnace\n4x Wrenn and Six\n4x Mox Opal"
+    },
+    "MainNav/Store/Bundles/Bundle_AA2_Name": {
+        "oracleText": "Arena Anthology 2",
+        "translation": "Arena Anthology 2"
+    },
     "MainNav/Store/Bundles/Bundle_AFR_A_Desc": {
         "oracleText": "Drizzt Do'Urden Card Style\nShessra, Death's Whisper Card Style\nKalain, Reclusive Painter Card Style\nLurking Roper Card Style\nMind Flayer Card Style\nBaleful Beholder Card Style",
         "translation": "*崔斯特杜垩登*卡牌样式\n*亡者嗫声谢丝拉*卡牌样式\n*画家隐士卡莱茵*卡牌样式\n*伏击树绳妖*卡牌样式\n*夺心魔*卡牌样式\n*恶邪眼魔*卡牌样式"
@@ -57858,6 +58238,14 @@
     "MainNav/Store/Bundles/Bundle_Alchemist_Desc": {
         "oracleText": "20x <i>Alchemy: Innistrad</i> Boosters",
         "translation": "20包「炼金：依尼翠」"
+    },
+    "MainNav/Store/Bundles/Bundle_Alchemist_EOE_Desc": {
+        "oracleText": "20x <i>Alchemy: Edge of Eternities</i> Boosters",
+        "translation": "20x <i>Alchemy: Edge of Eternities</i> Boosters"
+    },
+    "MainNav/Store/Bundles/Bundle_Alchemist_EOE_Name": {
+        "oracleText": "Alchemist Bundle",
+        "translation": "Alchemist Bundle"
     },
     "MainNav/Store/Bundles/Bundle_Alchemist_LCI_Desc": {
         "oracleText": "20x Alchemy: Ixalan Boosters",
@@ -58942,6 +59330,14 @@
     "MainNav/Store/Bundles/Bundle_EOE_BonusLands2_Name": {
         "oracleText": "Borderless Stellar Sights Styles II",
         "translation": "扩画星间奇景样式II"
+    },
+    "MainNav/Store/Bundles/Bundle_EOE_Companion_Desc": {
+        "oracleText": "Azure Emissary Companion\nMechan Navigator Sleeve",
+        "translation": "Azure Emissary Companion\nMechan Navigator Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_EOE_Companion_Name": {
+        "oracleText": "Companion Bundle",
+        "translation": "Companion Bundle"
     },
     "MainNav/Store/Bundles/Bundle_EOE_Moonshot1_Desc": {
         "oracleText": "Tezzeret, Cruel Captain Card Style\nAlpharael, Stonechosen Card Style\nMm'menon, the Right Hand Card Style\nXu-Ifit, Osteoharmonist Card Style\nGenemorph Imago Card Style\nElegy Acolyte Card Style\nMightform Harmonizer Card Style\nDyadrine, Synthesis Amalgam Card Style",
@@ -61187,6 +61583,78 @@
         "oracleText": "Zendikar Full Art Lands II",
         "translation": "赞迪卡大画地II"
     },
+    "MainNav/Store/Bundles/Bundle_S25_Archenemy_Bolas_Desc": {
+        "oracleText": "Nicol Bolas Avatar\nEvery Dream A Nightmare Sleeve\nYour Resolve Crumbles Sleeve\nBehold My Granduer Sleeve\nOfferings To The God-Pharaoh Sleeve\nMy Power Is Without Equal Sleeve\nBecause I Have Willed It Sleeve\nWhen Will You Learn Sleeve\nMy Echoing Laughter Sleeve",
+        "translation": "Nicol Bolas Avatar\nEvery Dream A Nightmare Sleeve\nYour Resolve Crumbles Sleeve\nBehold My Granduer Sleeve\nOfferings To The God-Pharaoh Sleeve\nMy Power Is Without Equal Sleeve\nBecause I Have Willed It Sleeve\nWhen Will You Learn Sleeve\nMy Echoing Laughter Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_S25_Archenemy_Bolas_Name": {
+        "oracleText": "Archenemy: Nicol Bolas",
+        "translation": "Archenemy: Nicol Bolas"
+    },
+    "MainNav/Store/Bundles/Bundle_S25_Archenemy_DSK_Desc": {
+        "oracleText": "Valgavoth Avatar\nI Will Savor Your Agony Sleeve\nI Am Never Alone Sleeve\nTime Bends to My Will Sleeve\nYou Cannot Hide From Me Sleeve\nMy Wings Enfold All Sleeve\nRunning is Useless Sleeve\nI Am Duskmourn Sleeve \nYou Live Only Because I Will It Sleeve",
+        "translation": "Valgavoth Avatar\nI Will Savor Your Agony Sleeve\nI Am Never Alone Sleeve\nTime Bends to My Will Sleeve\nYou Cannot Hide From Me Sleeve\nMy Wings Enfold All Sleeve\nRunning is Useless Sleeve\nI Am Duskmourn Sleeve \nYou Live Only Because I Will It Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_S25_Archenemy_DSK_Name": {
+        "oracleText": "Archenemy: Duskmourn",
+        "translation": "Archenemy: Duskmourn"
+    },
+    "MainNav/Store/Bundles/Bundle_S25_EldraziAvatars_Desc": {
+        "oracleText": "Emrakul Avatar\nKozilek Avatar\nUlamog Avatar",
+        "translation": "Emrakul Avatar\nKozilek Avatar\nUlamog Avatar"
+    },
+    "MainNav/Store/Bundles/Bundle_S25_EldraziAvatars_Name": {
+        "oracleText": "They Came As Three",
+        "translation": "They Came As Three"
+    },
+    "MainNav/Store/Bundles/Bundle_S25_EvilPlaneswalkers_Desc": {
+        "oracleText": "Jace, the Perfected Mind Avatar\nVraska, Betrayal's Sting Avatar\nTamiyo, Compleated Sage Avatar\nAjani, Sleeper Agent Avatar\nNissa, Ascended Animist Avatar\nNahiri, the Unforgiving Avatar",
+        "translation": "Jace, the Perfected Mind Avatar\nVraska, Betrayal's Sting Avatar\nTamiyo, Compleated Sage Avatar\nAjani, Sleeper Agent Avatar\nNissa, Ascended Animist Avatar\nNahiri, the Unforgiving Avatar"
+    },
+    "MainNav/Store/Bundles/Bundle_S25_EvilPlaneswalkers_Name": {
+        "oracleText": "Compleat Phyrexian Planeswalkers",
+        "translation": "Compleat Phyrexian Planeswalkers"
+    },
+    "MainNav/Store/Bundles/Bundle_S25_FFDragons_Desc": {
+        "oracleText": "Dragonlord Atarka Card Style (2 appearances)\nDragonlord Dromoka Card Style (2 appearances)\nDragonlord Kolaghan Card Style (2 appearances)\nDragonlord Ojutai Card Style (2 appearances)\nDragonlord Silumgar Card Style (2 appearances)\nBloomvine Regent Card Style (2 appearances)\nClarion Conqueror Card Style (2 appearances)\nMagmatic Hellkite Card Style (2 appearances)\nMarang River Regent Card Style (2 appearances)\nScavenger Regent Card Style (2 appearances)\nUgin, Eye of the Storms Card Style (2 appearances)\nEbondeath, Dracolich Card Style\nOld Gnawbone Card Style\nInferno of the Star Mounts Card Style\nIymrith, Desert Doom Card Style\nIcingdeath, Frost Tyrant Card Style\nBlack Dragon Card Style\nGreen Dragon Card Style\nRed Dragon Card Style\nBlue Dragon Card Style\nWhite Dragon Card Style\nAdult Gold Dragon Card Style\nTiamat Card Style\nBeledros Witherbloom Card Style\nGalazeth Prismari Card Style\nShadrix Silverquill Card Style\nTanazir Quandrix Card Style\nVelomachus Lorehold Card Style\nAo, the Dawn Sky Card Style\nKairi, the Swirling Sky Card Style\nJunji, the Midnight Sky Card Style\nAtsushi, the Blazing Sky Card Style\nKura, the Boundless Sky Card Style\nKyodai, Soul of Kamigawa Card Style\nSkithiryx, the Blight Dragon Card Style\nBalefire Dragon Card Style\nBonehoard Dracosaur Card Style\nCapricious Hellraiser Card Style\nDragonhawk, Fate's Tempest Card Style\nHerigast, Erupting Hellkite Card Style\nUgin, the Spirit Dragon Card Style\nTwinflame Tyrant Card Style\nNiv-Mizzet, Visionary Card Style",
+        "translation": "Dragonlord Atarka Card Style (2 appearances)\nDragonlord Dromoka Card Style (2 appearances)\nDragonlord Kolaghan Card Style (2 appearances)\nDragonlord Ojutai Card Style (2 appearances)\nDragonlord Silumgar Card Style (2 appearances)\nBloomvine Regent Card Style (2 appearances)\nClarion Conqueror Card Style (2 appearances)\nMagmatic Hellkite Card Style (2 appearances)\nMarang River Regent Card Style (2 appearances)\nScavenger Regent Card Style (2 appearances)\nUgin, Eye of the Storms Card Style (2 appearances)\nEbondeath, Dracolich Card Style\nOld Gnawbone Card Style\nInferno of the Star Mounts Card Style\nIymrith, Desert Doom Card Style\nIcingdeath, Frost Tyrant Card Style\nBlack Dragon Card Style\nGreen Dragon Card Style\nRed Dragon Card Style\nBlue Dragon Card Style\nWhite Dragon Card Style\nAdult Gold Dragon Card Style\nTiamat Card Style\nBeledros Witherbloom Card Style\nGalazeth Prismari Card Style\nShadrix Silverquill Card Style\nTanazir Quandrix Card Style\nVelomachus Lorehold Card Style\nAo, the Dawn Sky Card Style\nKairi, the Swirling Sky Card Style\nJunji, the Midnight Sky Card Style\nAtsushi, the Blazing Sky Card Style\nKura, the Boundless Sky Card Style\nKyodai, Soul of Kamigawa Card Style\nSkithiryx, the Blight Dragon Card Style\nBalefire Dragon Card Style\nBonehoard Dracosaur Card Style\nCapricious Hellraiser Card Style\nDragonhawk, Fate's Tempest Card Style\nHerigast, Erupting Hellkite Card Style\nUgin, the Spirit Dragon Card Style\nTwinflame Tyrant Card Style\nNiv-Mizzet, Visionary Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_S25_FFDragons_Name": {
+        "oracleText": "Borderless Dragons Megabundle",
+        "translation": "Borderless Dragons Megabundle"
+    },
+    "MainNav/Store/Bundles/Bundle_S25_INRBasicLands_Desc": {
+        "oracleText": "Retro Basic Land Plains (2 appearances)\nRetro Basic Land Island (2 appearances)\nRetro Basic Land Swamp (2 appearances)\nRetro Basic Land Mountain (2 appearances)\nRetro Basic Land Forest (2 appearances)",
+        "translation": "Retro Basic Land Plains (2 appearances)\nRetro Basic Land Island (2 appearances)\nRetro Basic Land Swamp (2 appearances)\nRetro Basic Land Mountain (2 appearances)\nRetro Basic Land Forest (2 appearances)"
+    },
+    "MainNav/Store/Bundles/Bundle_S25_INRBasicLands_Name": {
+        "oracleText": "Innistrad Remastered Basic Lands",
+        "translation": "Innistrad Remastered Basic Lands"
+    },
+    "MainNav/Store/Bundles/Bundle_S25_Liliana_Desc": {
+        "oracleText": "Liliana Avatar\n\"Quiet, I'm thinking\" Phrase Emote\n\"I usually don't make mistakes\" Phrase Emote\n\"I didn't need that anyway\" Phrase Emote\n\"We're done here\" Phrase Emote\n\"That's enough of that\" Phrase Emote\n\"Hm... impressive\" Phrase Emote\n\"Rest when you're dead\" Phrase Emote",
+        "translation": "Liliana Avatar\n\"Quiet, I'm thinking\" Phrase Emote\n\"I usually don't make mistakes\" Phrase Emote\n\"I didn't need that anyway\" Phrase Emote\n\"We're done here\" Phrase Emote\n\"That's enough of that\" Phrase Emote\n\"Hm... impressive\" Phrase Emote\n\"Rest when you're dead\" Phrase Emote"
+    },
+    "MainNav/Store/Bundles/Bundle_S25_Liliana_Name": {
+        "oracleText": "A Villainess",
+        "translation": "A Villainess"
+    },
+    "MainNav/Store/Bundles/Bundle_S25_SqueeTinybones_Desc": {
+        "oracleText": "Tinybones Avatar\nTinybones Companion\nSquee Avatar\nSquee Companion",
+        "translation": "Tinybones Avatar\nTinybones Companion\nSquee Avatar\nSquee Companion"
+    },
+    "MainNav/Store/Bundles/Bundle_S25_SqueeTinybones_Name": {
+        "oracleText": "Mischievous Miscreants",
+        "translation": "Mischievous Miscreants"
+    },
+    "MainNav/Store/Bundles/Bundle_S25_TDM_Wastes_Desc": {
+        "oracleText": "Full Art Land Wastes",
+        "translation": "Full Art Land Wastes"
+    },
+    "MainNav/Store/Bundles/Bundle_S25_TDM_Wastes_Name": {
+        "oracleText": "Dragon's Eye Full Art Wastes",
+        "translation": "Dragon's Eye Full Art Wastes"
+    },
     "MainNav/Store/Bundles/Bundle_SIR_Avatars_Desc": {
         "oracleText": "Nahiri, Heir of the Ancients Avatar\nSorin Markov Avatar\nGarruk, Cursed Huntsman Avatar\nTamiyo, Collector of Tales Avatar",
         "translation": "先民后裔娜希丽头像\n索霖马可夫头像\n遭诅猎人贾路头像\n寰录多美代头像"
@@ -61920,8 +62388,8 @@
         "translation": "大画平原\n大画海岛\n大画沼泽\n大画山脉\n大画树林"
     },
     "MainNav/Store/Bundles/Bundle_TDM_Lands2_Name": {
-        "oracleText": "Full Art Basic Lands",
-        "translation": "大画基本地"
+        "oracleText": "Dragon's Eye Full Art Basic Lands",
+        "translation": "Dragon's Eye Full Art Basic Lands"
     },
     "MainNav/Store/Bundles/Bundle_TDM_NarsetShiko_Desc": {
         "oracleText": "Narset and Shiko Avatar\nShiko Sleeve",
@@ -62702,6 +63170,38 @@
     "MainNav/Store/Bundles/Bundle_Y25DSK_DA5_Name": {
         "oracleText": "Bump in the Night",
         "translation": "午夜惊响"
+    },
+    "MainNav/Store/Bundles/Bundle_Y25EOE_DA1_Desc": {
+        "oracleText": "Cosmic Sovereign Card Style\nCandela, Aegis of Adagia Card Style\nVal, Marooned Surveyor Card Style\nMonoist Gravliner Card Style\nSquadron Carrier Card Style\nMine Security Card Style\nStoic Star-Captain Card Style\nMutable Pupa Card Style",
+        "translation": "Cosmic Sovereign Card Style\nCandela, Aegis of Adagia Card Style\nVal, Marooned Surveyor Card Style\nMonoist Gravliner Card Style\nSquadron Carrier Card Style\nMine Security Card Style\nStoic Star-Captain Card Style\nMutable Pupa Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y25EOE_DA1_Name": {
+        "oracleText": "Alchemy Styles: Charging Up",
+        "translation": "Alchemy Styles: Charging Up"
+    },
+    "MainNav/Store/Bundles/Bundle_Y25EOE_DA2_Desc": {
+        "oracleText": "Vv'viza, Orbital Overseer Card Style\nWorldweave Card Style\nThendar, the Overminer Card Style\nBrood Astronomer Card Style\nHydroponics Architect Card Style\nAmbassador of Evendo Card Style\nEumidian Lifeseed Card Style\nVolatile Orbit Card Style",
+        "translation": "Vv'viza, Orbital Overseer Card Style\nWorldweave Card Style\nThendar, the Overminer Card Style\nBrood Astronomer Card Style\nHydroponics Architect Card Style\nAmbassador of Evendo Card Style\nEumidian Lifeseed Card Style\nVolatile Orbit Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y25EOE_DA2_Name": {
+        "oracleText": "Alchemy Styles: Planet Power",
+        "translation": "Alchemy Styles: Planet Power"
+    },
+    "MainNav/Store/Bundles/Bundle_Y25EOE_DA3_Desc": {
+        "oracleText": "Prototype X-8 Card Style\nSpirited Simulacrum Card Style\nCloudsculpt Armorer Card Style\nKavaron Consumed Card Style\nMachinist's Dismissal Card Style\nDrix Interlacer  Card Style\nNetwork Marauder Card Style",
+        "translation": "Prototype X-8 Card Style\nSpirited Simulacrum Card Style\nCloudsculpt Armorer Card Style\nKavaron Consumed Card Style\nMachinist's Dismissal Card Style\nDrix Interlacer  Card Style\nNetwork Marauder Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y25EOE_DA3_Name": {
+        "oracleText": "Alchemy Styles: Advanced Technology",
+        "translation": "Alchemy Styles: Advanced Technology"
+    },
+    "MainNav/Store/Bundles/Bundle_Y25EOE_DA4_Desc": {
+        "oracleText": "Sliver Weftwinder Card Style\nAxavar, Fate Thief Card Style\nCantor of the Refrain Card Style\nSong of Point Prime Card Style\nThought Partition Card Style\nGravitic Herald Card Style\nVoidcalled Devotee Card Style",
+        "translation": "Sliver Weftwinder Card Style\nAxavar, Fate Thief Card Style\nCantor of the Refrain Card Style\nSong of Point Prime Card Style\nThought Partition Card Style\nGravitic Herald Card Style\nVoidcalled Devotee Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y25EOE_DA4_Name": {
+        "oracleText": "Alchemy Styles: Call of the Void",
+        "translation": "Alchemy Styles: Call of the Void"
     },
     "MainNav/Store/Bundles/Bundle_Y25TDM_DA1_Desc": {
         "oracleText": "Mardu Thunderkite Card Style\nStormforged Armor Card Style\nThunderbond Vanguard Card Style\nDalkovan Outrider Card Style\nWaystone's Guidance Card Style",
@@ -69842,6 +70342,10 @@
     "PlayBlade/Filters/Dynamic/EFStopFinalTitle": {
         "oracleText": "The Dust Settles",
         "translation": "尘埃落定"
+    },
+    "PlayBlade/Filters/Dynamic/EOEArenaDirectTitle": {
+        "oracleText": "EOE Arena Direct",
+        "translation": "EOE Arena Direct"
     },
     "PlayBlade/Filters/Dynamic/EOELimitedTitle": {
         "oracleText": "Edge of Eternities Limited",
