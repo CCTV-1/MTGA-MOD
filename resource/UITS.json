@@ -1427,6 +1427,18 @@
         "oracleText": "As this creature attacks, you may tap a nonattacking creature you control without summoning sickness. When you do, add its power to this creature's until end of turn.",
         "translation": "于此生物攻击时，你可以横置一个由你操控、不具召唤失调且未进行攻击的生物。当你如此作时，将所横置生物的力量加至此生物直到回合结束。"
     },
+    "AbilityHanger/Keyword/Enweb_Body": {
+        "oracleText": "You may cast this spell for {abilityCost} if you also return a tapped creature you control to its owner's hand.",
+        "translation": "You may cast this spell for {abilityCost} if you also return a tapped creature you control to its owner's hand."
+    },
+    "AbilityHanger/Keyword/Enweb_Reference_Body": {
+        "oracleText": "You may cast a spell for its enweb cost if you also return a tapped creature you control to its owner's hand.",
+        "translation": "You may cast a spell for its enweb cost if you also return a tapped creature you control to its owner's hand."
+    },
+    "AbilityHanger/Keyword/Enweb_Title": {
+        "oracleText": "Enweb",
+        "translation": "Enweb"
+    },
     "AbilityHanger/Keyword/Equip": {
         "oracleText": "You may pay the Equip cost to attach this permanent to target creature you control. Equip only as a sorcery.",
         "translation": "你可以支付佩带费用将此永久物装备在目标由你操控的生物上。佩带的时机视同法术。"
@@ -1582,6 +1594,14 @@
     "AbilityHanger/Keyword/HarmonizeReference_Title": {
         "oracleText": "Harmonize",
         "translation": "谐颂"
+    },
+    "AbilityHanger/Keyword/Harness_Body": {
+        "oracleText": "Once harnessed, this permanent's Origin ability is active.",
+        "translation": "Once harnessed, this permanent's Origin ability is active."
+    },
+    "AbilityHanger/Keyword/Harness_Title": {
+        "oracleText": "Harness",
+        "translation": "Harness"
     },
     "AbilityHanger/Keyword/HasFinalityCounter": {
         "oracleText": "If this would go to a graveyard from the battlefield, exile this instead.",
@@ -1890,6 +1910,22 @@
     "AbilityHanger/Keyword/Manifested_Title": {
         "oracleText": "This Permanent is Manifested",
         "translation": "此永久物处于已显化状态"
+    },
+    "AbilityHanger/Keyword/Mayhem_Body_Land": {
+        "oracleText": "You may play this card from your graveyard if you discarded it this turn. Timing rules still apply.",
+        "translation": "You may play this card from your graveyard if you discarded it this turn. Timing rules still apply."
+    },
+    "AbilityHanger/Keyword/Mayhem_Body_Nonland": {
+        "oracleText": "You may cast this card from your graveyard for {abilityCost} if you discarded it this turn. Timing rules still apply.",
+        "translation": "You may cast this card from your graveyard for {abilityCost} if you discarded it this turn. Timing rules still apply."
+    },
+    "AbilityHanger/Keyword/Mayhem_Body_Reference": {
+        "oracleText": "You may cast a card from your graveyard for its mayhem cost if you discarded it this turn. Timing rules still apply.",
+        "translation": "You may cast a card from your graveyard for its mayhem cost if you discarded it this turn. Timing rules still apply."
+    },
+    "AbilityHanger/Keyword/Mayhem_Title": {
+        "oracleText": "Mayhem",
+        "translation": "Mayhem"
     },
     "AbilityHanger/Keyword/Menace": {
         "oracleText": "A creature with menace can't be blocked except by two or more creatures.",
@@ -2335,6 +2371,14 @@
         "oracleText": "Protection From Sorceries",
         "translation": "反法术保护"
     },
+    "AbilityHanger/Keyword/ProtectionFromSpellsAtLeastOneColor_Body": {
+        "oracleText": "This can't be targeted, enchanted, or dealt damage by spells that are one or more colors.",
+        "translation": "This can't be targeted, enchanted, or dealt damage by spells that are one or more colors."
+    },
+    "AbilityHanger/Keyword/ProtectionFromSpellsAtLeastOneColor_Title": {
+        "oracleText": "Protection from spells that are one or more colors",
+        "translation": "Protection from spells that are one or more colors"
+    },
     "AbilityHanger/Keyword/ProtectionFromVampires_Body": {
         "oracleText": "This permanent can't be blocked, targeted, or dealt damage by Vampires.",
         "translation": "该永久物不能被吸血鬼阻挡，指定为目标或造成伤害。"
@@ -2539,6 +2583,14 @@
         "oracleText": "Seek",
         "translation": "取出"
     },
+    "AbilityHanger/Keyword/Shadow_Body": {
+        "oracleText": "This creature can block or be blocked by only creatures with shadow.",
+        "translation": "This creature can block or be blocked by only creatures with shadow."
+    },
+    "AbilityHanger/Keyword/Shadow_Title": {
+        "oracleText": "Shadow",
+        "translation": "Shadow"
+    },
     "AbilityHanger/Keyword/Shroud_Body": {
         "oracleText": "A player or permanent with shroud can't be the target of spells or abilities.",
         "translation": "具有帷幕的牌手或永久物不能成为咒语或异能的目标。"
@@ -2598,6 +2650,14 @@
     "AbilityHanger/Keyword/Storm": {
         "oracleText": "When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.",
         "translation": "当你施放具有风暴异能的咒语时，本回合于它之前每施放过一个咒语，便将此咒语复制一次。 你可以为复制品选择新的目标。"
+    },
+    "AbilityHanger/Keyword/Sunburst_Body": {
+        "oracleText": "This enters with a charge counter for each color of mana spent to cast it.",
+        "translation": "This enters with a charge counter for each color of mana spent to cast it."
+    },
+    "AbilityHanger/Keyword/Sunburst_Title": {
+        "oracleText": "Sunburst",
+        "translation": "Sunburst"
     },
     "AbilityHanger/Keyword/Support2_Body": {
         "oracleText": "Put a +1/+1 counter on each of up to two other target creatures.",
@@ -5111,6 +5171,118 @@
         "oracleText": "Have 400 creatures with power 2 or less enter under your control over any number of games.",
         "translation": "在任意数量的对局中，让400个力量等于或小于2的生物在你的操控下进场。"
     },
+    "Achievements/EF/Description/BotMatch": {
+        "oracleText": "Complete a Bot Match",
+        "translation": "Complete a Bot Match"
+    },
+    "Achievements/EF/Description/BrawlCompletePath": {
+        "oracleText": "Complete 5 Brawl Matches",
+        "translation": "Complete 5 Brawl Matches"
+    },
+    "Achievements/EF/Description/ColorChallengeFive": {
+        "oracleText": "Complete all five Color Challenge tracks",
+        "translation": "Complete all five Color Challenge tracks"
+    },
+    "Achievements/EF/Description/ColorChallengeOne": {
+        "oracleText": "Complete one track of the Color Challenge.",
+        "translation": "Complete one track of the Color Challenge."
+    },
+    "Achievements/EF/Description/JumpIn": {
+        "oracleText": "Complete 5 Jump In Runs",
+        "translation": "Complete 5 Jump In Runs"
+    },
+    "Achievements/EF/Description/LimitedCompletePath": {
+        "oracleText": "Complete 3 Quick Draft Events",
+        "translation": "Complete 3 Quick Draft Events"
+    },
+    "Achievements/EF/Description/OffTheBeatenPath": {
+        "oracleText": "Optional challenges for players new to MTG Arena.",
+        "translation": "Optional challenges for players new to MTG Arena."
+    },
+    "Achievements/EF/Description/PathOfPlaneswalker": {
+        "oracleText": "A series of challenges to unlock all of MTG Arena.",
+        "translation": "A series of challenges to unlock all of MTG Arena."
+    },
+    "Achievements/EF/Description/SparkRank": {
+        "oracleText": "Complete all of Spark Rank",
+        "translation": "Complete all of Spark Rank"
+    },
+    "Achievements/EF/Description/SparkyChallenge": {
+        "oracleText": "Complete Sparky's Challenge",
+        "translation": "Complete Sparky's Challenge"
+    },
+    "Achievements/EF/Description/StandardCompletePath": {
+        "oracleText": "Reach Silver Rank in Standard Ranked",
+        "translation": "Reach Silver Rank in Standard Ranked"
+    },
+    "Achievements/EF/Description/StarterDeckDuel": {
+        "oracleText": "Complete Starter Deck Duels",
+        "translation": "Complete Starter Deck Duels"
+    },
+    "Achievements/EF/Description/TutorialComplete": {
+        "oracleText": "Complete the Tutorial",
+        "translation": "Complete the Tutorial"
+    },
+    "Achievements/EF/Description/UnrankedPlay": {
+        "oracleText": "Play 5 Standard Unranked Matches",
+        "translation": "Play 5 Standard Unranked Matches"
+    },
+    "Achievements/EF/Header/OffTheBeatenPath": {
+        "oracleText": "Off the Beaten Path",
+        "translation": "Off the Beaten Path"
+    },
+    "Achievements/EF/Header/PathOfPlaneswalker": {
+        "oracleText": "Path of the Planeswalker",
+        "translation": "Path of the Planeswalker"
+    },
+    "Achievements/EF/Title/BotMatch": {
+        "oracleText": "Just the Two of Us",
+        "translation": "Just the Two of Us"
+    },
+    "Achievements/EF/Title/BrawlCompletePath": {
+        "oracleText": "Let's Have a Brawl",
+        "translation": "Let's Have a Brawl"
+    },
+    "Achievements/EF/Title/ColorChallengeFive": {
+        "oracleText": "Understanding the Color Pie",
+        "translation": "Understanding the Color Pie"
+    },
+    "Achievements/EF/Title/ColorChallengeOne": {
+        "oracleText": "Choose Your Color",
+        "translation": "Choose Your Color"
+    },
+    "Achievements/EF/Title/JumpIn": {
+        "oracleText": "The Joys of Jump In",
+        "translation": "The Joys of Jump In"
+    },
+    "Achievements/EF/Title/LimitedCompletePath": {
+        "oracleText": "What's the Pick?",
+        "translation": "What's the Pick?"
+    },
+    "Achievements/EF/Title/SparkRank": {
+        "oracleText": "Finding Your Spark",
+        "translation": "Finding Your Spark"
+    },
+    "Achievements/EF/Title/SparkyChallenge": {
+        "oracleText": "First Challenge",
+        "translation": "First Challenge"
+    },
+    "Achievements/EF/Title/StandardCompletePath": {
+        "oracleText": "Into the Wild",
+        "translation": "Into the Wild"
+    },
+    "Achievements/EF/Title/StarterDeckDuel": {
+        "oracleText": "First Victories!",
+        "translation": "First Victories!"
+    },
+    "Achievements/EF/Title/TutorialComplete": {
+        "oracleText": "The Fundamentals",
+        "translation": "The Fundamentals"
+    },
+    "Achievements/EF/Title/UnrankedPlay": {
+        "oracleText": "Let Me Try Something...",
+        "translation": "Let Me Try Something..."
+    },
     "Achievements/UI/AchievementsTab": {
         "oracleText": "Achievements",
         "translation": "成就"
@@ -5146,6 +5318,10 @@
     "Achievements/UI/GettingThere": {
         "oracleText": "Getting there!",
         "translation": "快到了！"
+    },
+    "Achievements/UI/NPEAchievementsHeader": {
+        "oracleText": "New Player Achievements",
+        "translation": "New Player Achievements"
     },
     "Achievements/UI/OneshotSuggestion": {
         "oracleText": "Have you considered?",
@@ -6183,6 +6359,14 @@
         "oracleText": "{number1} Magic: The Gathering—FINAL FANTASY  Mythic Card Rewards",
         "translation": "{number1}万智牌～最终幻想秘稀卡牌奖励"
     },
+    "BattlePass/Rewards/ICR_OM1_M": {
+        "oracleText": "<i>Through the Omenpaths</i> Mythic Card Reward",
+        "translation": "<i>Through the Omenpaths</i> Mythic Card Reward"
+    },
+    "BattlePass/Rewards/ICR_OM1_M_Plural": {
+        "oracleText": "{number1} <i>Through the Omenpaths</i> Mythic Card Rewards",
+        "translation": "{number1} <i>Through the Omenpaths</i> Mythic Card Rewards"
+    },
     "BattlePass/Rewards/ICR_TDM_M": {
         "oracleText": "Tarkir: Dragonstorm Mythic Card Reward",
         "translation": "鞑契龙岚录秘稀卡牌奖励"
@@ -6578,6 +6762,22 @@
     "BattlePass/Rewards/NEO_Pet_Hover": {
         "oracleText": "Infrared Koi: Mastery Pass Level 60",
         "translation": "红外锦鲤：精研通行证等级达到60"
+    },
+    "BattlePass/Rewards/OM1_Companion_Hover": {
+        "oracleText": "Shifting Sliver: Mastery Pass Level 40",
+        "translation": "Shifting Sliver: Mastery Pass Level 40"
+    },
+    "BattlePass/Rewards/OM1_Level1": {
+        "oracleText": "Sliver Gravemother Avatar, Plated Sliver Companion, and Druneth, Reviver of the Hive Sleeve",
+        "translation": "Sliver Gravemother Avatar, Plated Sliver Companion, and Druneth, Reviver of the Hive Sleeve"
+    },
+    "BattlePass/Rewards/OM1_Pet2": {
+        "oracleText": "Magma Sliver Companion",
+        "translation": "Magma Sliver Companion"
+    },
+    "BattlePass/Rewards/OM1_Pet3": {
+        "oracleText": "Shifting Sliver Companion",
+        "translation": "Shifting Sliver Companion"
     },
     "BattlePass/Rewards/ONE_Level1": {
         "oracleText": "Koth Avatar, Furnace Mite Companion, and Myr Convert Sleeve",
@@ -8055,6 +8255,10 @@
         "oracleText": "HR",
         "translation": "人力资源部"
     },
+    "Credits/Department/Leadership": {
+        "oracleText": "MTG Arena Leadership",
+        "translation": "MTG Arena Leadership"
+    },
     "Credits/Department/Management": {
         "oracleText": "Management",
         "translation": "管理"
@@ -8131,6 +8335,10 @@
         "oracleText": "Associate Animator",
         "translation": "联合动画师"
     },
+    "Credits/Role/AssociateGameDesigner": {
+        "oracleText": "Associate Game Designer",
+        "translation": "Associate Game Designer"
+    },
     "Credits/Role/AssociateGameProductionArtist": {
         "oracleText": "Associate Game Production Artist",
         "translation": "助理游戏制作美术师"
@@ -8142,6 +8350,10 @@
     "Credits/Role/AssociateProductionArtist": {
         "oracleText": "Associate Production Artist",
         "translation": "助理美术师"
+    },
+    "Credits/Role/AssociateQualityAnalysis": {
+        "oracleText": "Associate QA Analyst",
+        "translation": "Associate QA Analyst"
     },
     "Credits/Role/AssociateSoftwareDeveloper": {
         "oracleText": "Associate Software Development Engineer",
@@ -8182,6 +8394,10 @@
     "Credits/Role/DirectorDigitalGameDesign": {
         "oracleText": "Director of Digital Game Design",
         "translation": "数字游戏设计总监"
+    },
+    "Credits/Role/DirectorDigitalProduct": {
+        "oracleText": "Director of Digital Product",
+        "translation": "Director of Digital Product"
     },
     "Credits/Role/DirectorSoftwareDevelopment": {
         "oracleText": "Director of Software Development Engineering",
@@ -8251,6 +8467,14 @@
         "oracleText": "Principal Software Development Engineer",
         "translation": "主要软件开发工程师"
     },
+    "Credits/Role/PrincipalSoftwareDevelopmentEngineerII": {
+        "oracleText": "Principal Software Development Engineer II",
+        "translation": "Principal Software Development Engineer II"
+    },
+    "Credits/Role/PrincipalTechnicalArtist": {
+        "oracleText": "Principal Technical Artist",
+        "translation": "Principal Technical Artist"
+    },
     "Credits/Role/ProductionArtManager": {
         "oracleText": "Production Art Manager",
         "translation": "美术制作经理"
@@ -8283,9 +8507,17 @@
         "oracleText": "Senior Game Designer",
         "translation": "高级游戏设计师"
     },
+    "Credits/Role/SeniorLeadSoftwareDevelopmentEngineer": {
+        "oracleText": "Senior Lead Software Development Engineer",
+        "translation": "Senior Lead Software Development Engineer"
+    },
     "Credits/Role/SeniorManagerDigitalProduct": {
         "oracleText": "Senior Manager Digital Product",
         "translation": "高级数字产品经理"
+    },
+    "Credits/Role/SeniorProductionArtist": {
+        "oracleText": "Senior Production Artist",
+        "translation": "Senior Production Artist"
     },
     "Credits/Role/SeniorSoftwareDevEngineerII": {
         "oracleText": "Senior Software Development Engineer II",
@@ -8358,6 +8590,10 @@
     "Credits/Role/VFXArtist": {
         "oracleText": "VFX Artist",
         "translation": "视觉特效师"
+    },
+    "Credits/Role/VicePresidentGeneralManager": {
+        "oracleText": "Vice President & General Manager, MTG Arena",
+        "translation": "Vice President & General Manager, MTG Arena"
     },
     "Credits/SetCredits": {
         "oracleText": "Per-Set Credits",
@@ -17443,6 +17679,46 @@
         "oracleText": "You Won't Best Me",
         "translation": "你赢不了我"
     },
+    "Emotes/OM1/Full/Phrase_OM1_angryfrown": {
+        "oracleText": ">:(",
+        "translation": ">:("
+    },
+    "Emotes/OM1/Full/Phrase_OM1_evilsmiley": {
+        "oracleText": ">:)",
+        "translation": ">:)"
+    },
+    "Emotes/OM1/Full/Phrase_OM1_sadface": {
+        "oracleText": ":(",
+        "translation": ":("
+    },
+    "Emotes/OM1/Full/Phrase_OM1_smiley": {
+        "oracleText": ":)",
+        "translation": ":)"
+    },
+    "Emotes/OM1/Full/Phrase_OM1_wink": {
+        "oracleText": ";)",
+        "translation": ";)"
+    },
+    "Emotes/OM1/Mini/Phrase_OM1_angryfrown": {
+        "oracleText": ">:(",
+        "translation": ">:("
+    },
+    "Emotes/OM1/Mini/Phrase_OM1_evilsmiley": {
+        "oracleText": ">:)",
+        "translation": ">:)"
+    },
+    "Emotes/OM1/Mini/Phrase_OM1_sadface": {
+        "oracleText": ":(",
+        "translation": ":("
+    },
+    "Emotes/OM1/Mini/Phrase_OM1_smiley": {
+        "oracleText": ":)",
+        "translation": ":)"
+    },
+    "Emotes/OM1/Mini/Phrase_OM1_wink": {
+        "oracleText": ";)",
+        "translation": ";)"
+    },
     "Emotes/OTJ/Full/321Draw": {
         "oracleText": "3... 2... 1... Draw!",
         "translation": "3...2...1...抽牌！"
@@ -19971,6 +20247,18 @@
         "oracleText": "This token denotes that you are eligible to receive 2 physical Lost Caverns of Ixalan Booster Boxes",
         "translation": "此代币表示您有资格获得2盒实体依夏兰迷窟系列补充包"
     },
+    "Events/ArenaDirect_MH3_JP_Play_Prize": {
+        "oracleText": "One <i>Japanese Modern Horizons 3 </i> Play Booster Box",
+        "translation": "One <i>Japanese Modern Horizons 3 </i> Play Booster Box"
+    },
+    "Events/ArenaDirect_MH3_JP_Play_Prize2": {
+        "oracleText": "Two <i>Japanese Modern Horizons 3 </i> Play Booster Boxes",
+        "translation": "Two <i>Japanese Modern Horizons 3 </i> Play Booster Boxes"
+    },
+    "Events/ArenaDirect_MH3_JP_Play_String": {
+        "oracleText": "This token denotes you are eligible to receive 1 physical Japanese Modern Horizons 3 Play Booster Box",
+        "translation": "This token denotes you are eligible to receive 1 physical Japanese Modern Horizons 3 Play Booster Box"
+    },
     "Events/ArenaDirect_MH3_String": {
         "oracleText": "This token denotes that you are eligible to receive a physical Modern Horizons 3 Play Booster Box",
         "translation": "此代币表示您有资格获得1盒实体摩登新篇3常规补充包"
@@ -22055,6 +22343,10 @@
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and see if you can wins physical Lost Caverns of Ixalan Set Booster Boxes delivered to you!\n\nThe format for this event is 6 packs of <i>Lost Caverns of Ixalan</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>",
         "translation": "<size=150%><color=#e1a154>为实体奖励而战！</color></size>\n\n报名参加此赛事，看看你是否能赢得实体依夏兰迷窟系列补充包邮寄到家！\n\n本赛事的赛制为6包补充包的<i>依夏兰迷窟</i>BO1现开赛。\n\n<b><color=red>必须年满18周岁才能参加。并非在所有地区/领地都可用。禁止地区无效。领取现金奖励需要创建或拥有现有的Wizards、DCI和i-Payout账户。请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>此处</link></u>了解完整详情。</color></b>"
     },
+    "Events/Event_Desc_ArenaDirect_MH3_Play_JP_Sealed": {
+        "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 7 wins to win 2 physical Japanese Modern Horizons 3 Play Booster Boxes delivered to you.\n\nThe format for this event is 6 packs of <i>Modern Horizons 3</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 7 wins to win 2 physical Japanese Modern Horizons 3 Play Booster Boxes delivered to you.\n\nThe format for this event is 6 packs of <i>Modern Horizons 3</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >here</link></u> for full details.</color></b>"
+    },
     "Events/Event_Desc_ArenaDirect_MH3_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\n Sign up for this event and get all 6 wins to win a physical Modern Horizons 3 Play Booster Box delivered to you.\n\n The format for this event is 6 packs of <i>Modern Horizons 3</i> Sealed with single-game matches. \n\n <b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-mh3-terms-and-conditions>here</link></u> for full details.</color></b>",
         "translation": "<size=150%><color=#e1a154>为实体奖励而战！</color></size>\n\n报名参加本赛事并赢得全部6场胜利，将会邮寄给你一盒实体摩登新篇3常规补充包。\n\n本赛事的赛制是<i>摩登新篇3</i>BO1现开。\n\n<b><color=red>必须年满18周岁才能参加。并非在所有地区/领地都可用。禁止地区无效。领取现金奖励需要创建或拥有现有的Wizards、DCI和i-Payout账户。请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-mh3-terms-and-conditions>此处</link></u>了解完整详情。</color></b>"
@@ -22190,6 +22482,10 @@
     "Events/Event_Desc_BRO_Trad_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players </b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Soldiers</b> Gather your Soldiers and overwhelm your opponent on the ground and in the skies.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Draw Power</b> Draw a multitude of cards from your deck to keep the knowledge flowing and strengthen your creatures at the same time!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Artifact Sacrifice</b> Fuel the fight by sacrificing artifacts. Powerstones rev your engines and can later be sacrificed for more power! Don't forget artifacts with unearth can be sacrificed twice!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Mechanized Stompy</b> Use Powerstones to deploy your biggest threats quickly. Back them up with power-boosting spells to dominate every fight!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Artifacts Enter the Battlefield</b> Assemble your crew of creatures that are enhanced when artifacts enter the battlefield, then use Powerstones, Soldier tokens, and unearthed creatures to power up your attacks.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Scrappy Swarm</b> Deploy your army early, but don't be afraid to fill the graveyard. Creatures with mana value three or less offer more than you might expect, alive or dead.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Prowess Aggro</b> Round up a squad of inventors and wizards that can utilize cheap artifacts, instants, and sorcery spells to press their advantage.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Graveyard Counter</b> In an endless war, your creatures that rely on a populated graveyard will be pleased as their power increases well into the late game.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Unearth Aggro</b> Start your aggression early, and the second wave that comes back with Unearth may just be the last you need.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Powerstone Ramp</b> Accumulate Powerstones to help build your defenses, and soon no one will stand a chance against your colossal army of colossuses.",
         "translation": "轮抽用补充包在桌上轮转，你每次需从中选择一张牌。这些牌张将加入你的收藏，而你将使用它们和基本地来构组一副40张的套牌。不断进行三盘两胜制的对局，最后根据你的胜场数量赢得奖励！\n\n<b>牌手轮抽～与其他7位牌手一同进行轮抽，有抽选时间限制</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>士兵</b> 召集士兵，从陆空两路碾压对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>抓牌之力</b> 从套牌里抓起大量牌张，让知识保持流动，同时强化你的生物！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>神器牺牲</b> 牺牲神器来燃旺战火。魔力石让你的引擎快速运行，之后还能牺牲来获得更多能量！别忘了，具破坟异能的神器可以牺牲两次！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>机械化猛袭</b> 利用魔力石尽快部署你最强大的威胁。用增加力量的咒语辅助它们打赢每一次战斗！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>神器登场</b> 集结会因为神器进战场而变强的生物，然后利用魔力石、士兵衍生物和破坟生物来让攻势更加猛烈。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>废品大军</b>尽早部署军队，放胆填充坟墓场。法术力值为三或更低的生物都大有可为，无论生死。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>灵技快攻</b>  集合一支发明家小队，利用低费的神器、瞬间和法术咒语来获得优势。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>坟场回击</b> 在一场无止尽的战争中，你那些依赖丰沛坟墓场的生物会非常高兴，随着游戏进入后期，它们会变得愈发强力。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>破坟快攻</b> 尽早开始攻势，利用破坟异能发动的第二波攻势或许就能决定胜负。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>魔力石加速</b> 积累魔力石，用以组织起防线，很快就没人能抵挡你的巨像大军。"
+    },
+    "Events/Event_Desc_Brawl_Challenge": {
+        "oracleText": "Bring your Brawl deck and play best-of-one matches! You'll receive rewards based on how many matches you win.",
+        "translation": "Bring your Brawl deck and play best-of-one matches! You'll receive rewards based on how many matches you win."
     },
     "Events/Event_Desc_Brawl_HQ_Alt": {
         "oracleText": "Welcome to the Brawlers' Guild! Come to the guildhall and play as many games as you want until <color=\"red\"><b>February 13, 2020 at 20:00 UTC.</b></color>",
@@ -22340,8 +22636,8 @@
         "translation": "<b><color=\"red\">这是一个幻影活动。你所抓取的牌张不会添加到你的收藏当中。</color></b>\n<b>真人轮抽 - 与其他7名玩家进行一场限时轮抽</b>\n\n在此赛事下，你像一般轮抽一样打开卡牌包选择然后传递包，只有卡池不再绑定到单个<i>万智牌</i>套牌，而是从<i> 万智牌竞技场</i>中所有可用卡牌中抽取的顶尖卡牌池。要查看此赛制的完整卡牌列表，请单击<u><link=https://magic.wizards.com/mtga-cube-draft>此处</link></u>。"
     },
     "Events/Event_Desc_CubeDraft_Arena": {
-        "oracleText": "<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n<b>Player Draft - A timed draft with 7 other players</b>\n\nIn this event you open and pass around packs like a typical Draft, only the card pool isn't bound to a single <i>Magic</i> set, but are drawn from the best of all the cards available in <i>MTG Arena</i>. To see the full list of cards in this format, click <u><link=https://magic.wizards.com/mtga-cube-draft>here</link></u>.",
-        "translation": "<b><color=\"red\">这是一个幻影活动。你所抓取的牌张不会添加到你的收藏当中。</color></b>\n<b>真人轮抽 - 与其他7名玩家进行一场限时轮抽</b>\n\n在此赛事下，你像一般轮抽一样打开卡牌包选择然后传递包，只有卡池不再绑定到单个<i>万智牌</i>套牌，而是从<i> 万智牌竞技场</i>中所有可用卡牌中抽取的顶尖卡牌池。要查看此赛制的完整卡牌列表，请单击<u><link=https://magic.wizards.com/mtga-cube-draft>此处</link></u>。"
+        "oracleText": "<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n<b>Player Draft - A timed draft with 7 other players</b>\n\nIn this event, you open and pass around packs like a typical Draft, only the card pool isn't bound to a single <i>Magic</i> set, but are drawn from the best of all the cards available in <i>MTG Arena</i>. To see the full list of cards in this format, click <u><link=https://magic.wizards.com/mtga-cube-draft>here</link></u>.",
+        "translation": "<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n<b>Player Draft - A timed draft with 7 other players</b>\n\nIn this event, you open and pass around packs like a typical Draft, only the card pool isn't bound to a single <i>Magic</i> set, but are drawn from the best of all the cards available in <i>MTG Arena</i>. To see the full list of cards in this format, click <u><link=https://magic.wizards.com/mtga-cube-draft>here</link></u>."
     },
     "Events/Event_Desc_CubeDraft_ArenaTraditional": {
         "oracleText": "<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>\n<b>Player Draft - A timed draft with 7 other players</b>\n\nIn this event, you open and pass around packs like a typical Draft, only the card pool isn't bound to a single <i>Magic</i> set, but are drawn from the best of all the cards available in <i>MTG Arena</i>. To see the full list of cards in this format, click <u><link=https://magic.wizards.com/mtga-cube-draft>here</link></u>.\n\nThen play best-of-three-game matches and receive prizes based on how many matches you win!",
@@ -23712,8 +24008,8 @@
         "translation": "欢迎来到周中万智牌！每周尝试一种不同的方式来游玩万智牌竞技场！\n\n\n本周活动是争锋：围绕你最喜爱的传奇生物或鹏洛客，使用万智牌竞技场中任意可用牌张构筑一副100张的争锋套牌！"
     },
     "Events/Event_Desc_MWM_BrawlBuilderChallenge": {
-        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Brawl Builder Challenge: choose one our potential Commanders and build a 100-card Brawl deck using any cards in MTG Arena!",
-        "translation": "欢迎来到周中万智牌！每周尝试一种不同的方式来游玩万智牌竞技场！\n\n本周活动是争锋构筑挑战赛：选择一张最有潜力的指挥官，使用万智牌竞技场中任意可用牌张构筑一副100张的争锋套牌！"
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Brawl Builder Challenge: choose any Commander from the latest set and build a 100-card Brawl deck using any cards in MTG Arena!",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Brawl Builder Challenge: choose any Commander from the latest set and build a 100-card Brawl deck using any cards in MTG Arena!"
     },
     "Events/Event_Desc_MWM_BrawlBuilderChallenge_20240514": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Brawl Builder Challenge: choose one our potential Commanders and build a 100-card Brawl deck using any cards in MTG Arena!\n\n\n\nThe following Commanders are allowed for this event:\n\nAkul the Unrepentant\nAlbiorix, Goose Tyrant\nAnnie Flash, the Veteran\nBaron Bertram Graywater\nBonny Pall, Clearcutter\nBreeches, the Blastmaker\nBristly Bill, Spine Sower\nBruse Tarl, Roving Rancher\nCalamity, Galloping Inferno\nDoc Aurlock, Grizzled Genius\nEmperor Apatzec Intli IV\nEriette, the Beguiler\nErtha Jo, Frontier Mentor\nFblthp, Lost on the Range\nFortune, Loyal Steed\nGeralf, the Fleshwright\nGhired, Mirror of the Wilds\nGisa, the Hellraiser\nGonti, Canny Acquisitor\nGrenzo, Crooked Jailer\nHonest Rutstein\nJace Reawakened\nJem Lightfoote, Sky Explorer\nJessie Zane, Fangbringer\nJolene, Plundering Pugilist\nKaervek, the Punisher\nKambal, Profiteering Mayor\nKellan, the Kid\nKraum, Violent Cacophony\nLaughing Jasper Flint\nLazav, Familiar Stranger\nLilah, Undefeated Slickshot\nMagda, the Hoardmaster\nMalcolm, the Eyes\nMarchesa, Dealer of Death\nMiriam, Herd Whisperer\nNashi, Illusion Gadgeteer\nObeka, Splitter of Seconds\nOko, the Ringleader\nOlivia, Opulent Outlaw\nRakdos, the Muscle\nRankle, Pitiless Trickster\nRiku of Many Paths\nRoxanne, Starfall Savant\nSaint Elenda\nSatoru, the Infiltrator\nSelvala, Eager Trailblazer\nStella Lee, Wild Card\nTaii Wakeen, Perfect Shot\nTeysa of the Ghost Council\nThe Gitrog, Ravenous Ride\nTinybones, the Pickpocket\nVadmir, New Blood\nVial Smasher, Gleeful Grenadier\nVona de Iedo, the Antifex\nVraska, the Silencer\nWylie Duke, Atiin Hero\nYuma, Proud Protector",
@@ -23831,6 +24127,10 @@
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\n\nThis week's event is <i>Magic: The Gathering Foundations</i> Constructed: Bring a 60-card deck with only cards from the most recent set and demonstrate your mastery of the new cards!\n\nThis event is All-Access, meaning you can even use cards outside of your collection.",
         "translation": "欢迎参加周中万智牌！万智牌：竞技场每周玩法花样百出，次次活动都有全新感受！\n\n\n本周的活动是<i>万智牌：基石构筑</i>构组：使用事先组好的60张套牌进行游戏，但套牌仅限利用最近刚刚推出之前述系列的的牌张，展示你对新牌的掌握！\n\n本次活动可牌张任用，就算不在你收藏中的牌张，也可以任意使用。"
     },
+    "Events/Event_Desc_MWM_FDNOM1": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Through the Omenpaths Foundations Constructed: Bring a 60-card deck with only cards from the most recent set and Foundations and demonstrate your mastery of the new cards!",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Through the Omenpaths Foundations Constructed: Bring a 60-card deck with only cards from the most recent set and Foundations and demonstrate your mastery of the new cards!"
+    },
     "Events/Event_Desc_MWM_FDN_4P_BotDraft": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Magic: The Gathering Foundations</i> Pick-Two Draft! Select two cards at a time from rotating draft packs against a smaller group of 4 players. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>",
         "translation": "欢迎参加周中万智牌！MTG竞技场每周玩法花样百出，次次活动都有全新感受！\n\n本周的活动是<i>万智牌：基石构筑</i>选两张轮抽！你将与另外3名牌手组成4人小组，从轮转的轮抽补充包中每次选取两张牌张。之后加入基本地构组一副40张的套牌，并与其他牌手进行对战，且无次数限制。\n\n<b><color=\"red\">此赛事为幻影活动。你抽选的牌张不会加入你的收藏。</color></b> "
@@ -23912,8 +24212,8 @@
         "translation": "欢迎参加周中万智夜！<i>《MTG竞技场》</i>每周玩法花样百出，次次活动都有全新感受！\n\n本周的活动是往日重现：使用事先组好的60张套牌参赛，但你可以使用<i>万智牌竞技场</i>自公测以来的所有标准系列，上可追溯至<i>依夏兰</i>！多年以来标准赛已经过诸多变革。你是否能够找到经时不衰的必胜策略？"
     },
     "Events/Event_Desc_MWM_JumpIn": {
-        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is phantom Jump! You will get to select two different half-decks from a variety of themes in <i>Tarkir: Dragonstorm</i>. Combine them, and you'll have a deck that's ready to go. Unlike regular Jump In, cards from this event will not be added to your collection.",
-        "translation": "欢迎参加周中万智牌！万智牌竞技场每周玩法花样百出，次次活动都有全新感受！\n\n本周的活动是幻影速学！你需要从<i>鞑契龙岚录</i>的多种不同主题的半副套牌中选择两种，将它们组合在一起，就有了一副能够即时开战的套牌。与往常的「速学！」不同，本次活动的牌张不会加入你的收藏。"
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is phantom Jump! You will get to select two different half-decks from a variety of themes in <i>Through the Omenpaths</i>. Combine them, and you'll have a deck that's ready to go. Unlike regular Jump In, cards from this event will not be added to your collection.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is phantom Jump! You will get to select two different half-decks from a variety of themes in <i>Through the Omenpaths</i>. Combine them, and you'll have a deck that's ready to go. Unlike regular Jump In, cards from this event will not be added to your collection."
     },
     "Events/Event_Desc_MWM_JumpIn_EOE": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is phantom Jump! You will get to select two different half-decks from a variety of themes in <i>Edge of Eternities</i>. Combine them, and you'll have a deck that's ready to go. Unlike regular Jump In, cards from this event will not be added to your collection.",
@@ -24234,6 +24534,22 @@
     "Events/Event_Desc_NewHistoric": {
         "oracleText": "<i>Seeing the maturation of the Historic format over time has been exciting, but we recently got to thinking. Have we lost sight of what got us here in the first place? Is this truly honoring the historical traditions of </i>Magic<i>? Not exactly, but it could! It's time to take Historic back to how things were </i>really<i> meant to be.\n\nIn the olden days, decks could be as small as 40 cards! And you could play as many of a card as you wanted, not just four! And there weren't any banned cards to worry about! Doesn't that sound great?\n\nThis is such an obviously great way to play, we've even enabled All Access so that everyone can participate. We're still debating the fate of existing \"Old Historic\" queues and events, but in the meantime, enjoy the new look of Historic here. Have fun!</i>\n\nBuild a 40-card deck with no limit on copies of a card. Every card on MTG Arena is legal and available, whether it's in your collection or not. (Yes, even <i>that</i> card.) Play as much as you want!",
         "translation": "<i>见证史迹赛制随着时间推移而逐渐成熟，当真令人兴奋，但我们最近却开始思考：我们是否忽视了创造史迹赛的原本的动机？它真的是为了纪念</i>万智牌<i>史迹传统而生的吗？虽然略有出入，但仍能不忘初心！现在是时候让史迹赛重归</i>原点<i>了。\n\n在过去，一副套牌最少40张就能参赛！而且同一张牌用多少张都行，而不是只能放四张！而且还不用担心什么乱七八糟的禁牌！听起来是不是很厉害？\n\n这显然是一种很棒的游戏方式，我们甚至允许牌张任用，好让大家都能参与其间。虽然我们仍在争论现有「旧版史迹」队列活动去留，但现在请各位先来享受全新史迹。祝大家玩得开心！</i>\n\n构组一副40张套牌，而其中每张牌的数量没有限制。《MTG竞技场》的所有牌张都合法并可使用，无论你收藏中是否已经拥有。（是的，即使是<i>那张</i>牌。）请尽情对局！"
+    },
+    "Events/Event_Desc_OM1_PickTwo_Draft": {
+        "oracleText": "Select two cards at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 3 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Modified - Use Auras, Equipment, and counters to both arm and armor your hard-to-block creatures and sneak in for surprising amounts of damage! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Connive Graveyard - Use the connive mechanic to draw cards, discard cards, and plan to destroy your opponent with the perfect hand and graveyard. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">BR Mayhem - Discard mayhem cards and play them from your graveyard. Mayhem cards reward a reckless playstyle that pushes aggression forward. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">RG Large Spells - Ramp into big spells or reduce their cost to make big plays, then reap the benefits for casting them! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> Enweb - Using the enweb mechanic, return creatures to your hand to tempo out powerful creatures and reuse the abilities of your smaller creatures for recurring value.",
+        "translation": "Select two cards at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 3 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Modified - Use Auras, Equipment, and counters to both arm and armor your hard-to-block creatures and sneak in for surprising amounts of damage! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Connive Graveyard - Use the connive mechanic to draw cards, discard cards, and plan to destroy your opponent with the perfect hand and graveyard. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">BR Mayhem - Discard mayhem cards and play them from your graveyard. Mayhem cards reward a reckless playstyle that pushes aggression forward. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">RG Large Spells - Ramp into big spells or reduce their cost to make big plays, then reap the benefits for casting them! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> Enweb - Using the enweb mechanic, return creatures to your hand to tempo out powerful creatures and reuse the abilities of your smaller creatures for recurring value."
+    },
+    "Events/Event_Desc_OM1_Premier_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Modified - Use Auras, Equipment, and counters to both arm and armor your hard-to-block creatures and sneak in for surprising amounts of damage! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Connive Graveyard - Use the connive mechanic to draw cards, discard cards, and plan to destroy your opponent with the perfect hand and graveyard. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">BR Mayhem - Discard mayhem cards and play them from your graveyard. Mayhem cards reward a reckless playstyle that pushes aggression forward. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">RG Large Spells - Ramp into big spells or reduce their cost to make big plays, then reap the benefits for casting them! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> Enweb - Using the enweb mechanic, return creatures to your hand to tempo out powerful creatures and reuse the abilities of your smaller creatures for recurring value.",
+        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Modified - Use Auras, Equipment, and counters to both arm and armor your hard-to-block creatures and sneak in for surprising amounts of damage! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Connive Graveyard - Use the connive mechanic to draw cards, discard cards, and plan to destroy your opponent with the perfect hand and graveyard. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">BR Mayhem - Discard mayhem cards and play them from your graveyard. Mayhem cards reward a reckless playstyle that pushes aggression forward. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">RG Large Spells - Ramp into big spells or reduce their cost to make big plays, then reap the benefits for casting them! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> Enweb - Using the enweb mechanic, return creatures to your hand to tempo out powerful creatures and reuse the abilities of your smaller creatures for recurring value."
+    },
+    "Events/Event_Desc_OM1_Quick_Draft": {
+        "oracleText": "Select two cards at a time from rotating draft packs . The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Modified - Use Auras, Equipment, and counters to both arm and armor your hard-to-block creatures and sneak in for surprising amounts of damage! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Connive Graveyard - Use the connive mechanic to draw cards, discard cards, and plan to destroy your opponent with the perfect hand and graveyard. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">BR Mayhem - Discard mayhem cards and play them from your graveyard. Mayhem cards reward a reckless playstyle that pushes aggression forward. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">RG Large Spells - Ramp into big spells or reduce their cost to make big plays, then reap the benefits for casting them! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> Enweb - Using the enweb mechanic, return creatures to your hand to tempo out powerful creatures and reuse the abilities of your smaller creatures for recurring value.",
+        "translation": "Select two cards at a time from rotating draft packs . The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Modified - Use Auras, Equipment, and counters to both arm and armor your hard-to-block creatures and sneak in for surprising amounts of damage! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Connive Graveyard - Use the connive mechanic to draw cards, discard cards, and plan to destroy your opponent with the perfect hand and graveyard. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">BR Mayhem - Discard mayhem cards and play them from your graveyard. Mayhem cards reward a reckless playstyle that pushes aggression forward. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">RG Large Spells - Ramp into big spells or reduce their cost to make big plays, then reap the benefits for casting them! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> Enweb - Using the enweb mechanic, return creatures to your hand to tempo out powerful creatures and reuse the abilities of your smaller creatures for recurring value."
+    },
+    "Events/Event_Desc_OM1_Trad_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Modified - Use Auras, Equipment, and counters to both arm and armor your hard-to-block creatures and sneak in for surprising amounts of damage!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Connive Graveyard - Use the connive mechanic to draw cards, discard cards, and plan to destroy your opponent with the perfect hand and graveyard.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">BR Mayhem - Discard mayhem cards and play them from your graveyard. Mayhem cards reward a reckless playstyle that pushes aggression forward.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">RG Large Spells - Ramp into big spells or reduce their cost to make big plays, then reap the benefits for casting them!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> Enweb - Using the enweb mechanic, return creatures to your hand to tempo out powerful creatures and reuse the abilities of your smaller creatures for recurring value.",
+        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Modified - Use Auras, Equipment, and counters to both arm and armor your hard-to-block creatures and sneak in for surprising amounts of damage!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Connive Graveyard - Use the connive mechanic to draw cards, discard cards, and plan to destroy your opponent with the perfect hand and graveyard.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">BR Mayhem - Discard mayhem cards and play them from your graveyard. Mayhem cards reward a reckless playstyle that pushes aggression forward.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">RG Large Spells - Ramp into big spells or reduce their cost to make big plays, then reap the benefits for casting them!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> Enweb - Using the enweb mechanic, return creatures to your hand to tempo out powerful creatures and reuse the abilities of your smaller creatures for recurring value."
     },
     "Events/Event_Desc_ONE_Premier_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Artifacts</b> Phyrexia is filled with glorious artifacts.  Gather as many of these artifacts as you can to outmaneuver your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Proliferate Control</b> Use proliferate to spread the glory of Phyrexia—oil counters, poison counters, and loyalty counters are all ready to be proliferated.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Oil Counters & Sacrifice</b> All Phyrexians are valuable, even (and sometimes especially) in death.  Use your creatures and artifacts to generate oil counters when they die.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Oil Counters Midrange</b> The more things with oil counters you have, the merrier.  Use these oil counters to get the biggest, smashiest creatures you can.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Toxic Aggro</b> Take advantage of small toxic creatures, especially Mite tokens, to swarm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Corrupted</b> Give your opponent three or more poison counters, then your corrupted cards become even more powerful.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Oil Counters & Noncreature Spells</b> Build up your oil counters and overwhelm your opponent by casting a variety of artifacts, enchantments, instants, sorceries, and yes, even planeswalkers!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Poison Victory</b> You have the biggest baddest creature with toxic.  Use them to get your opponent to 10 poison counters.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>For Mirrodin! Equipment</b> Someone's got to fight against the Phyrexians!  Your rebels can use equipment to stave them off!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Proliferate & Poison</b> Two great tastes that go great together.  Use green creatures with toxic to deal out serious poison counters, then proliferate to finish the job.",
@@ -24559,6 +24875,10 @@
         "oracleText": "<i>Magic</i> World Championship XXVI is happening this Friday through Sunday!\n\nTo celebrate, we're giving you a chance to play some of the decks Standard decks from last year that <i>Magic</i> World Championship XXVI players used on their way to qualifying. To learn more about the event and how to watch coverage, click <u><b><link=REDIRECT_LINK_HERE>here</link></b></u>.",
         "translation": "第XXVI届<i>万智牌</i>世界冠军赛就在本周五到周日！\n\n为共通庆贺这一盛大赛事，我们特地准备了本次第XXVI届<i>万智牌</i>世界冠军赛参赛选手在去年征战路途中所使用的套牌，供广大牌手亲自体验。若想进一步了解本次世界冠军赛及查看转播安排，请点击<u><b><link=REDIRECT_LINK_HERE>此处</link></b></u>。"
     },
+    "Events/Event_Desc_SET_Trad_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Modified - Use Auras, Equipment, and counters to both arm and armor your hard-to-block creatures and sneak in for surprising amounts of damage! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Connive Graveyard - Use the connive mechanic to draw cards, discard cards, and plan to destroy your opponent with the perfect hand and graveyard. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">BR Mayhem - Discard mayhem cards and play them from your graveyard. Mayhem cards reward a reckless playstyle that pushes aggression forward. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">RG Large Spells - Ramp into big spells or reduce their cost to make big plays, then reap the benefits for casting them! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> Enweb - Using the enweb mechanic, return creatures to your hand to tempo out powerful creatures and reuse the abilities of your smaller creatures for recurring value.",
+        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Modified - Use Auras, Equipment, and counters to both arm and armor your hard-to-block creatures and sneak in for surprising amounts of damage! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Connive Graveyard - Use the connive mechanic to draw cards, discard cards, and plan to destroy your opponent with the perfect hand and graveyard. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">BR Mayhem - Discard mayhem cards and play them from your graveyard. Mayhem cards reward a reckless playstyle that pushes aggression forward. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">RG Large Spells - Ramp into big spells or reduce their cost to make big plays, then reap the benefits for casting them! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> Enweb - Using the enweb mechanic, return creatures to your hand to tempo out powerful creatures and reuse the abilities of your smaller creatures for recurring value."
+    },
     "Events/Event_Desc_SGF_Precons": {
         "oracleText": "Hello and welcome to Magic: The Gathering at the Summer Game Fest! We are excited to have you here to experience our newest Magic set coming live to MTG Arena on June 10th.\n \nWe put together a special event for you at Summer Game Fest to test out your new Starter Kit decks. Each physical product will include two redemption codes - one for you and one for a friend - that each contains the two Starter Kit decks for MTG Arena.\n \nPlease enjoy a taste of how we are bringing this set to digital on MTG Arena!",
         "translation": "欢迎来到夏日游戏节的万智牌区！我们非常高兴能在此为您呈现即将于6月10日上线万智牌：竞技场的最新卡牌系列。\n\n我们特别为夏日游戏节准备了新手套牌试玩活动。每份实体产品将包含两个兑换码（一个自用，一个可赠予好友），每个兑换码可在万智牌：竞技场中领取两套新手套牌。\n\n请尽情体验我们为此系列在万智牌：竞技场中打造的数字版本！"
@@ -24751,6 +25071,10 @@
         "oracleText": "You'll receive 6 15-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!",
         "translation": "你将获得6个15张的补充包。 这些牌会加入你的收藏。 你将使用这些牌加上基本地来构筑40张的套牌进行游戏。 你将得到的奖励取决于你的胜场!"
     },
+    "Events/Event_Desc_Sealed_OM1": {
+        "oracleText": "You'll receive 6 <i>Through the Omenpaths</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Modified - Use Auras, Equipment, and counters to both arm and armor your hard-to-block creatures and sneak in for surprising amounts of damage! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Connive Graveyard - Use the connive mechanic to draw cards, discard cards, and plan to destroy your opponent with the perfect hand and graveyard. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">BR Mayhem - Discard mayhem cards and play them from your graveyard. Mayhem cards reward a reckless playstyle that pushes aggression forward. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">RG Large Spells - Ramp into big spells or reduce their cost to make big plays, then reap the benefits for casting them! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> Enweb - Using the enweb mechanic, return creatures to your hand to tempo out powerful creatures and reuse the abilities of your smaller creatures for recurring value.",
+        "translation": "You'll receive 6 <i>Through the Omenpaths</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Modified - Use Auras, Equipment, and counters to both arm and armor your hard-to-block creatures and sneak in for surprising amounts of damage! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Connive Graveyard - Use the connive mechanic to draw cards, discard cards, and plan to destroy your opponent with the perfect hand and graveyard. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">BR Mayhem - Discard mayhem cards and play them from your graveyard. Mayhem cards reward a reckless playstyle that pushes aggression forward. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">RG Large Spells - Ramp into big spells or reduce their cost to make big plays, then reap the benefits for casting them! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> Enweb - Using the enweb mechanic, return creatures to your hand to tempo out powerful creatures and reuse the abilities of your smaller creatures for recurring value."
+    },
     "Events/Event_Desc_Sealed_ONE": {
         "oracleText": "You'll receive 6 <i>Phyrexia: All Will Be One</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Artifacts</b> Phyrexia is filled with glorious artifacts.  Gather as many of these artifacts as you can to outmaneuver your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Proliferate Control</b> Use proliferate to spread the glory of Phyrexia—oil counters, poison counters, and loyalty counters are all ready to be proliferated.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Oil Counters & Sacrifice</b> All Phyrexians are valuable, even (and sometimes especially) in death.  Use your creatures and artifacts to generate oil counters when they die.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Oil Counters Midrange</b> The more things with oil counters you have, the merrier.  Use these oil counters to get the biggest, smashiest creatures you can.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Toxic Aggro</b> Take advantage of small toxic creatures, especially Mite tokens, to swarm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Corrupted</b> Give your opponent three or more poison counters, then your corrupted cards become even more powerful.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Oil Counters & Noncreature Spells</b> Build up your oil counters and overwhelm your opponent by casting a variety of artifacts, enchantments, instants, sorceries, and yes, even planeswalkers!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Poison Victory</b> You have the biggest baddest creature with toxic.  Use them to get your opponent to 10 poison counters.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>For Mirrodin! Equipment</b> Someone's got to fight against the Phyrexians!  Your rebels can use equipment to stave them off!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Proliferate & Poison</b> Two great tastes that go great together.  Use green creatures with toxic to deal out serious poison counters, then proliferate to finish the job.",
         "translation": "你将得到6包<i>非瑞克西亚：万界归一</i>补充包。补充包内的牌张都会加入你的收藏，而你将利用这些牌外加基本地来构组一副40张的套牌参赛。不断进行三局两胜制的对局，最后根据你的胜局数量赢得奖励！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>神器</b>非瑞克西亚神器阵容壮丽无匹。尽量多收集神器来降伏对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>增殖控制</b>利用增殖散播非瑞克西亚荣光～烁油指示物、中毒指示物和忠诚指示物都可以增殖。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>烁油指示物和牺牲</b>非瑞克西亚人不论死活都极具价值（有时死的更有用）。充分运用在死去时会产生烁油指示物的生物和神器。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>烁油指示物中速</b>烁油指示物多多益善。利用这些烁油指示物得到最强悍的大生物。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>下毒猛袭</b>利用小型下毒生物（尤其是虫械衍生物）大举淹没你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>腐化</b>让对手获得三个或更多中毒指示物后，你的腐化牌就会变得更强大。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>烁油指示物和非生物咒语</b>壮大烁油指示物的数量，并施放各种神器、结界、瞬间、法术甚至是鹏洛客来击溃对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>用毒致胜</b>你有最大最凶的下毒生物。利用它们让对手获得十个中毒指示物。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>「秘罗万岁！」武具</b>总得有人站出来同非瑞克西亚人斗争！反抗军可用武具来抵挡他们的进攻！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>增殖和中毒</b>这两个好东西能完美契合。利用具下毒异能的绿色生物让对手获得大量中毒指示物，然后通过增殖来决定战局。"
@@ -24888,12 +25212,12 @@
         "translation": "火花精灵的生日到了！在帮助无数鹏洛客重新站起来的这些年后，是时候通过一场多元宇宙庆典来感谢我们最喜爱的蓝色小火花了！\n\n在<b>鹏洛客派对！</b>中，选择一副由鹏洛客指挥官率领的60张预组套牌，点燃欢乐！每位鹏洛客都会为庆典带来额外的一种颜色，准备好在每场战斗中迎接惊喜吧。"
     },
     "Events/Event_Desc_Standard_Bo1_EarlyAccess": {
-        "oracleText": "Standard with Edge of Eternities - Matches are best of 1 Games",
-        "translation": "虚空边域标准赛 - 一盘胜负制"
+        "oracleText": "Standard with Through the Omenpaths - Matches are best of 1 Games",
+        "translation": "Standard with Through the Omenpaths - Matches are best of 1 Games"
     },
     "Events/Event_Desc_Standard_Bo3_EarlyAccess": {
-        "oracleText": "Standard with Edge of Eternities - Matches are best of 3 Games",
-        "translation": "虚空边域标准赛 - 三盘两胜制"
+        "oracleText": "Standard with Through the Omenpaths - Matches are best of 3 Games",
+        "translation": "Standard with Through the Omenpaths - Matches are best of 3 Games"
     },
     "Events/Event_Desc_Standard_Challenge": {
         "oracleText": "Bring your Standard deck and play best-of-three matches! You'll receive rewards based on how many matches you win.",
@@ -25066,6 +25390,10 @@
     "Events/Event_Desc_Trad_Sealed_NEO": {
         "oracleText": "You'll receive 6 15-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!",
         "translation": "你将获得6个15张的补充包。这些牌会加入你的收藏。你将使用这些牌加上基本地来构筑40张的套牌进行bo3对战。你将得到的奖励取决于你的胜场！"
+    },
+    "Events/Event_Desc_Trad_Sealed_OM1": {
+        "oracleText": "You'll receive 6 <i>Through the Omenpaths</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Modified - Use Auras, Equipment, and counters to both arm and armor your hard-to-block creatures and sneak in for surprising amounts of damage! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Connive Graveyard - Use the connive mechanic to draw cards, discard cards, and plan to destroy your opponent with the perfect hand and graveyard. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">BR Mayhem - Discard mayhem cards and play them from your graveyard. Mayhem cards reward a reckless playstyle that pushes aggression forward. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">RG Large Spells - Ramp into big spells or reduce their cost to make big plays, then reap the benefits for casting them! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> Enweb - Using the enweb mechanic, return creatures to your hand to tempo out powerful creatures and reuse the abilities of your smaller creatures for recurring value.",
+        "translation": "You'll receive 6 <i>Through the Omenpaths</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Modified - Use Auras, Equipment, and counters to both arm and armor your hard-to-block creatures and sneak in for surprising amounts of damage! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Connive Graveyard - Use the connive mechanic to draw cards, discard cards, and plan to destroy your opponent with the perfect hand and graveyard. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">BR Mayhem - Discard mayhem cards and play them from your graveyard. Mayhem cards reward a reckless playstyle that pushes aggression forward. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">RG Large Spells - Ramp into big spells or reduce their cost to make big plays, then reap the benefits for casting them! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> Enweb - Using the enweb mechanic, return creatures to your hand to tempo out powerful creatures and reuse the abilities of your smaller creatures for recurring value."
     },
     "Events/Event_Desc_Trad_Sealed_ONE": {
         "oracleText": "You'll receive 6 <i>Phyrexia: All Will Be One</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Artifacts</b> Phyrexia is filled with glorious artifacts.  Gather as many of these artifacts as you can to outmaneuver your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Proliferate Control</b> Use proliferate to spread the glory of Phyrexia—oil counters, poison counters, and loyalty counters are all ready to be proliferated.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Oil Counters & Sacrifice</b> All Phyrexians are valuable, even (and sometimes especially) in death.  Use your creatures and artifacts to generate oil counters when they die.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Oil Counters Midrange</b> The more things with oil counters you have, the merrier.  Use these oil counters to get the biggest, smashiest creatures you can.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Toxic Aggro</b> Take advantage of small toxic creatures, especially Mite tokens, to swarm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Corrupted</b> Give your opponent three or more poison counters, then your corrupted cards become even more powerful.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Oil Counters & Noncreature Spells</b> Build up your oil counters and overwhelm your opponent by casting a variety of artifacts, enchantments, instants, sorceries, and yes, even planeswalkers!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Poison Victory</b> You have the biggest baddest creature with toxic.  Use them to get your opponent to 10 poison counters.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>For Mirrodin! Equipment</b> Someone's got to fight against the Phyrexians!  Your rebels can use equipment to stave them off!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Proliferate & Poison</b> Two great tastes that go great together.  Use green creatures with toxic to deal out serious poison counters, then proliferate to finish the job.",
@@ -25695,6 +26023,10 @@
         "oracleText": "Arena Direct - Sealed Lost Caverns of Ixalan Set Booster",
         "translation": "竞技场直邮赛 - 依夏兰迷窟现开（系列补充包）"
     },
+    "Events/Event_Title_ArenaDirect_MH3_Play_JP_Sealed": {
+        "oracleText": "Arena Direct - Sealed Japanese Modern Horizons 3 Play Booster Boxes",
+        "translation": "Arena Direct - Sealed Japanese Modern Horizons 3 Play Booster Boxes"
+    },
     "Events/Event_Title_ArenaDirect_MH3_Sealed": {
         "oracleText": "Arena Direct - Sealed Modern Horizons 3",
         "translation": "竞技场直邮赛 - 摩登新篇3现开"
@@ -25798,6 +26130,10 @@
     "Events/Event_Title_BRO_Trad_Draft": {
         "oracleText": "Traditional Draft The Brothers' War",
         "translation": "兄弟之战三盘轮抽"
+    },
+    "Events/Event_Title_Brawl_Challenge": {
+        "oracleText": "Brawl Metagame Challenge",
+        "translation": "Brawl Metagame Challenge"
     },
     "Events/Event_Title_Brawl_Launch": {
         "oracleText": "Brawl Launch Event",
@@ -26316,8 +26652,8 @@
         "translation": "虚空边域竞技轮抽"
     },
     "Events/Event_Title_EOE_Premier_Draft_EarlyAccess": {
-        "oracleText": "Early Access Premier Draft Edge of Eternities",
-        "translation": "提前试玩鞑契龙岚录竞技轮抽"
+        "oracleText": "Early Access Pick-Two Draft Through the Omenpaths",
+        "translation": "Early Access Pick-Two Draft Through the Omenpaths"
     },
     "Events/Event_Title_EOE_Quick_Draft": {
         "oracleText": "Quick Draft Edge of Eternities",
@@ -27479,6 +27815,10 @@
         "oracleText": "Midweek Magic: Magic: The Gathering Foundations Constructed",
         "translation": "周中万智牌：万智牌：基石构筑环境构筑"
     },
+    "Events/Event_Title_MWM_FDNOM1": {
+        "oracleText": "Midweek Magic: Through the Omenpaths Foundations",
+        "translation": "Midweek Magic: Through the Omenpaths Foundations"
+    },
     "Events/Event_Title_MWM_FINConstructed": {
         "oracleText": "Midweek Magic: Magic: The Gathering—FINAL FANTASY Constructed",
         "translation": "周中万智牌：万智牌～最终幻想构筑"
@@ -27859,6 +28199,22 @@
         "oracleText": "Welcome to New Historic!",
         "translation": "欢迎来到新史迹！"
     },
+    "Events/Event_Title_OM1_PickTwo_Draft": {
+        "oracleText": "Pick-Two Draft Through the Omenpaths",
+        "translation": "Pick-Two Draft Through the Omenpaths"
+    },
+    "Events/Event_Title_OM1_Premier_Draft": {
+        "oracleText": "Premier Draft Through the Omenpaths",
+        "translation": "Premier Draft Through the Omenpaths"
+    },
+    "Events/Event_Title_OM1_Quick_Draft": {
+        "oracleText": "Quick Draft Through the Omenpaths",
+        "translation": "Quick Draft Through the Omenpaths"
+    },
+    "Events/Event_Title_OM1_Trad_Draft": {
+        "oracleText": "Traditional Draft Through the Omenpaths",
+        "translation": "Traditional Draft Through the Omenpaths"
+    },
     "Events/Event_Title_ONE_Premier_Draft": {
         "oracleText": "Premier Draft Phyrexia: All Will Be One",
         "translation": "万界归一竞技轮抽"
@@ -28155,6 +28511,10 @@
         "oracleText": "Worlds Pregame",
         "translation": "世界冠军赛预赛"
     },
+    "Events/Event_Title_SET_Trad_Draft": {
+        "oracleText": "Traditional Draft Through the Omenpaths",
+        "translation": "Traditional Draft Through the Omenpaths"
+    },
     "Events/Event_Title_SGF_Precons": {
         "oracleText": "Magic: The Gathering Arena @ Summer Game Fest",
         "translation": "万智牌：竞技场@夏日游戏节"
@@ -28240,8 +28600,8 @@
         "translation": "虚空边域现开"
     },
     "Events/Event_Title_Sealed_EOE_EarlyAccess": {
-        "oracleText": "Early Access Sealed Edge of Eternities",
-        "translation": "提前试玩虚空边域现开"
+        "oracleText": "Early Access Sealed Through the Omenpaths",
+        "translation": "Early Access Sealed Through the Omenpaths"
     },
     "Events/Event_Title_Sealed_FDN": {
         "oracleText": "Sealed Magic: The Gathering Foundations",
@@ -28330,6 +28690,10 @@
     "Events/Event_Title_Sealed_NEO": {
         "oracleText": "Sealed Neon Dynasty",
         "translation": "霓朝纪现开"
+    },
+    "Events/Event_Title_Sealed_OM1": {
+        "oracleText": "Sealed Through the Omenpaths",
+        "translation": "Sealed Through the Omenpaths"
     },
     "Events/Event_Title_Sealed_ONE": {
         "oracleText": "Sealed Phyrexia: All Will Be One",
@@ -28698,6 +29062,10 @@
     "Events/Event_Title_Trad_Sealed_NEO": {
         "oracleText": "Traditional Sealed Neon Dynasty",
         "translation": "霓朝纪三盘现开"
+    },
+    "Events/Event_Title_Trad_Sealed_OM1": {
+        "oracleText": "Traditional Sealed Through the Omenpaths",
+        "translation": "Traditional Sealed Through the Omenpaths"
     },
     "Events/Event_Title_Trad_Sealed_ONE": {
         "oracleText": "Traditional Sealed Phyrexia: All Will Be One",
@@ -31311,6 +31679,14 @@
         "oracleText": "Join between 6am and 8am Pacific on September 13",
         "translation": "太平洋时间9月13日上午6点到上午8点之间加入"
     },
+    "Events/Tokens/QualifierDay1TokenDescription20251018": {
+        "oracleText": "Join between 6am and 8am Pacific on October 18",
+        "translation": "Join between 6am and 8am Pacific on October 18"
+    },
+    "Events/Tokens/QualifierDay1TokenDescription20251101": {
+        "oracleText": "Join between 6am and 8am Pacific on November 01",
+        "translation": "Join between 6am and 8am Pacific on November 01"
+    },
     "Events/Tokens/QualifierDay1TokenPlural": {
         "oracleText": "Qualifier Weekend Token",
         "translation": "资格赛周末门票"
@@ -31458,6 +31834,14 @@
     "Events/Tokens/QualifierDay2TokenDescription20250914": {
         "oracleText": "Join between 6am and 8am Pacific on September 14",
         "translation": "太平洋时间9月14日上午6点到上午8点之间加入"
+    },
+    "Events/Tokens/QualifierDay2TokenDescription20251019": {
+        "oracleText": "Join between 6am and 8am Pacific on October 19",
+        "translation": "Join between 6am and 8am Pacific on October 19"
+    },
+    "Events/Tokens/QualifierDay2TokenDescription20251102": {
+        "oracleText": "Join between 6am and 8am Pacific on November 02",
+        "translation": "Join between 6am and 8am Pacific on November 02"
     },
     "Events/Tokens/QualifierDay2TokenPlural": {
         "oracleText": "Qualifier Day 2",
@@ -31891,6 +32275,14 @@
         "oracleText": "Arena Anthology 2",
         "translation": "竞技场集萃2"
     },
+    "General/Sets/AA3": {
+        "oracleText": "Arena Anthology 3",
+        "translation": "Arena Anthology 3"
+    },
+    "General/Sets/AA4": {
+        "oracleText": "Arena Anthology 4",
+        "translation": "Arena Anthology 4"
+    },
     "General/Sets/AER": {
         "oracleText": "Aether Revolt",
         "translation": "乙太之乱"
@@ -32098,6 +32490,14 @@
     "General/Sets/NEO": {
         "oracleText": "Kamigawa: Neon Dynasty",
         "translation": "神河：霓朝纪"
+    },
+    "General/Sets/OM1": {
+        "oracleText": "Through the Omenpaths",
+        "translation": "Through the Omenpaths"
+    },
+    "General/Sets/OMB": {
+        "oracleText": "Omenpath Bonus Sheet",
+        "translation": "Omenpath Bonus Sheet"
     },
     "General/Sets/ONE": {
         "oracleText": "Phyrexia: All Will Be One",
@@ -33127,6 +33527,10 @@
         "oracleText": "Kamigawa: Neon Dynasty",
         "translation": "神河：霓朝纪"
     },
+    "MainNav/BattlePass/BattlePass_OM1": {
+        "oracleText": "Through the Omenpaths",
+        "translation": "Through the Omenpaths"
+    },
     "MainNav/BattlePass/BattlePass_ONE": {
         "oracleText": "Phyrexia: All Will Be One",
         "translation": "非瑞克西亚：万界归一"
@@ -33463,6 +33867,10 @@
         "oracleText": "March of the Machine Set Mastery",
         "translation": "邪军压境精研通行证"
     },
+    "MainNav/BattlePass/MasteryListingTitle_OM1": {
+        "oracleText": "Through the Omenpaths Set Mastery",
+        "translation": "Through the Omenpaths Set Mastery"
+    },
     "MainNav/BattlePass/MasteryListingTitle_ONE": {
         "oracleText": "Phyrexia: All Will Be One Set Mastery",
         "translation": "非瑞克西亚：万界归一精研通行证"
@@ -33562,6 +33970,10 @@
     "MainNav/BattlePass/Mastery_Header_NEO": {
         "oracleText": "Kamigawa: Neon Dynasty Mastery Pass",
         "translation": "神河：霓朝纪精研通行证"
+    },
+    "MainNav/BattlePass/Mastery_Header_OM1": {
+        "oracleText": "Through the Omenpaths Mastery",
+        "translation": "Through the Omenpaths Mastery"
     },
     "MainNav/BattlePass/Mastery_Header_ONE": {
         "oracleText": "Phyrexia: All Will Be One Mastery Pass",
@@ -38171,9 +38583,9 @@
         "oracleText": "Neon Ogre Mask Sleeve",
         "translation": "霓朝食人魔面具牌套"
     },
-    "MainNav/DeckBuilder/Sleeves/CardBack_OM1_ 461339": {
-        "oracleText": "Scions of the Ur-Spider Sleeve",
-        "translation": "太初蛛后裔牌套"
+    "MainNav/DeckBuilder/Sleeves/CardBack_OM1_461218": {
+        "oracleText": "Lively Leap Sleeve",
+        "translation": "Lively Leap Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_OM1_461256": {
         "oracleText": "Terminus of Return Sleeve",
@@ -38182,6 +38594,34 @@
     "MainNav/DeckBuilder/Sleeves/CardBack_OM1_461279": {
         "oracleText": "Kraza, the Swarm As One Sleeve",
         "translation": "蛛群同心卡拉扎牌套"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_OM1_461290": {
+        "oracleText": "Sadistic String-Puller Sleeve",
+        "translation": "Sadistic String-Puller Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_OM1_461308": {
+        "oracleText": "The Clutter Cluster Sleeve",
+        "translation": "The Clutter Cluster Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_OM1_461311": {
+        "oracleText": "Fateweaver Exquisite Sleeve",
+        "translation": "Fateweaver Exquisite Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_OM1_461328": {
+        "oracleText": "Uharis, the Stormspinner Sleeve",
+        "translation": "Uharis, the Stormspinner Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_OM1_461338": {
+        "oracleText": "Nia, Fabled Skyclimber",
+        "translation": "Nia, Fabled Skyclimber"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_OM1_461339": {
+        "oracleText": "Scions of the Ur-Spider Sleeve",
+        "translation": "Scions of the Ur-Spider Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_OM1_461353": {
+        "oracleText": "Druneth, Reviver of the Hive Sleeve",
+        "translation": "Druneth, Reviver of the Hive Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_ONE_418505": {
         "oracleText": "Vorinclex, Monstrous Raider Sleeve",
@@ -40763,6 +41203,10 @@
         "oracleText": "Magic: The Gathering Foundations Constructed",
         "translation": "万智牌：基石构筑环境构筑"
     },
+    "MainNav/DeckFormat/FDNOM1": {
+        "oracleText": "Through the Omenpaths Foundations",
+        "translation": "Through the Omenpaths Foundations"
+    },
     "MainNav/DeckFormat/FIN": {
         "oracleText": "Magic: The Gathering—FINAL FANTASY Constructed",
         "translation": "万智牌～最终幻想构筑赛"
@@ -40858,6 +41302,10 @@
     "MainNav/DeckFormat/HistoricBrawlWithAllowList_20250902": {
         "oracleText": "Brawl Builder Challenge",
         "translation": "争锋构筑挑战赛"
+    },
+    "MainNav/DeckFormat/HistoricBrawlWithAllowList_20251014": {
+        "oracleText": "Brawl Builder Challenge",
+        "translation": "Brawl Builder Challenge"
     },
     "MainNav/DeckFormat/HistoricNBL": {
         "oracleText": "No-Ban Historic",
@@ -41910,6 +42358,14 @@
     "MainNav/EventRewards/ArenaDirect_LCI_Token_Desc": {
         "oracleText": "These tokens represent that you are eligible to receive physical <i>Lost Caverns of Ixalan</i> Set Booster Boxes",
         "translation": "这些代币表示您有资格获得实体<i>依夏兰迷窟</i>系列补充包"
+    },
+    "MainNav/EventRewards/ArenaDirect_MH3_JP_PLAYPlural": {
+        "oracleText": "{quantity} Japanese Modern Horizons 3 Play Booster Boxes",
+        "translation": "{quantity} Japanese Modern Horizons 3 Play Booster Boxes"
+    },
+    "MainNav/EventRewards/ArenaDirect_MH3_JP_PLAYSingular": {
+        "oracleText": "{quantity} Japanese Modern Horizons 3 Play Booster Box",
+        "translation": "{quantity} Japanese Modern Horizons 3 Play Booster Box"
     },
     "MainNav/EventRewards/ArenaDirect_MH3_PLAY": {
         "oracleText": "{number1} Modern Horizons 3 Play Booster Box",
@@ -43290,6 +43746,18 @@
     "MainNav/EventRewards/Sticker_MOM_Multani_Yargle": {
         "oracleText": "Yargle and Multani Swat Emote",
         "translation": "雅骨尔与穆塔尼拍拍表情"
+    },
+    "MainNav/EventRewards/Sticker_OM1_Moth_Topdeck": {
+        "oracleText": "Moth Topdeck",
+        "translation": "Moth Topdeck"
+    },
+    "MainNav/EventRewards/Sticker_OM1_Pigeon_Pathetic": {
+        "oracleText": "Pathetic Pigeon",
+        "translation": "Pathetic Pigeon"
+    },
+    "MainNav/EventRewards/Sticker_OM1_Polite_Goodbye": {
+        "oracleText": "Polite Goodbye",
+        "translation": "Polite Goodbye"
     },
     "MainNav/EventRewards/Sticker_ONE_Jin_Thinking": {
         "oracleText": "Jin-Gitaxias Ponder Sticker Emote",
@@ -47323,6 +47791,14 @@
         "oracleText": "Play in the Neon Arcade!",
         "translation": "霓朝纪拱桥入围赛"
     },
+    "MainNav/HomePage/Carousel/NewStore_Generic_Desc": {
+        "oracleText": "Check out the Store today for deals on Avatars, Packs, Card Styles, and more!",
+        "translation": "Check out the Store today for deals on Avatars, Packs, Card Styles, and more!"
+    },
+    "MainNav/HomePage/Carousel/NewStore_Generic_Title": {
+        "oracleText": "New Store Items Have Arrived!",
+        "translation": "New Store Items Have Arrived!"
+    },
     "MainNav/HomePage/Carousel/New_Cosmetic_Generic": {
         "oracleText": "New cosmetic deals are available in the Store! Click here to view!",
         "translation": "全新个性装饰商品现已可以在商店内选购！点击这里查看！"
@@ -47346,6 +47822,10 @@
     "MainNav/HomePage/Carousel/OM1_Previews_Title": {
         "oracleText": "Through the Omenpaths Previews!",
         "translation": "穿越预兆路预览！"
+    },
+    "MainNav/HomePage/Carousel/OM1_SetMastery_Title": {
+        "oracleText": "The Through the Omenpaths Set Mastery is Here!",
+        "translation": "The Through the Omenpaths Set Mastery is Here!"
     },
     "MainNav/HomePage/Carousel/ONE_CIG_Previews_Desc": {
         "oracleText": "See what perfection awaits with previews from Magic's next set.",
@@ -48319,6 +48799,10 @@
         "oracleText": "Complete quests, level up, earn rewards!",
         "translation": "完成任务，提升等级，赢取奖励！"
     },
+    "MainNav/HomePage/Carousel/SetMastery_Generic_Desc": {
+        "oracleText": "Play games and complete quests to advance up the Mastery and earn Companions, Packs, Orbs, and More!",
+        "translation": "Play games and complete quests to advance up the Mastery and earn Companions, Packs, Orbs, and More!"
+    },
     "MainNav/HomePage/Carousel/SetMastery_HBG_Desc": {
         "oracleText": "Take your highest initiative and earn metallic dragons, adventurous avatars, and more!",
         "translation": "掌握先制，赢取金属龙、冒险头像和更多内容！"
@@ -48407,6 +48891,14 @@
         "oracleText": "Spooky Sleeves",
         "translation": "幽灵形态牌套"
     },
+    "MainNav/HomePage/Carousel/SpotlightSeries_Baltimore_Title": {
+        "oracleText": "Magic Spotlight Series Arrives in Baltimore, MD",
+        "translation": "Magic Spotlight Series Arrives in Baltimore, MD"
+    },
+    "MainNav/HomePage/Carousel/SpotlightSeries_Generic_Desc": {
+        "oracleText": "$50,000, Pro Tour Invites, and more are up for grabs. Sign-up today!",
+        "translation": "$50,000, Pro Tour Invites, and more are up for grabs. Sign-up today!"
+    },
     "MainNav/HomePage/Carousel/SpotlightSeries_Modern_Desc": {
         "oracleText": "$50,000, Pro Tour Invites, and more are up for grabs!",
         "translation": "$50,000奖金、职业巡回赛参赛资格，以及更多奖励等你来拿！"
@@ -48414,6 +48906,10 @@
     "MainNav/HomePage/Carousel/SpotlightSeries_Modern_Title": {
         "oracleText": "Sign up today for Spotlight Series Modern!",
         "translation": "立即报名参加Spotlight系列摩登赛！"
+    },
+    "MainNav/HomePage/Carousel/SpotlightSeries_UK_Title": {
+        "oracleText": "Magic Spotlight Series Arrives in Liverpool, UK",
+        "translation": "Magic Spotlight Series Arrives in Liverpool, UK"
     },
     "MainNav/HomePage/Carousel/Standard2020_Bundle_Desc": {
         "oracleText": "Get a one-time deal on 10 boosters across current Standard sets and 1000 Gems.",
@@ -50263,6 +50759,14 @@
         "oracleText": "Our Journey Through the Edge Continues",
         "translation": "我们的边域之旅仍在继续"
     },
+    "MainNav/Mailbox/2025_52_0_OM1_Announcement_Description": {
+        "oracleText": "Begin your journey though the Omenpaths with these three packs!",
+        "translation": "Begin your journey though the Omenpaths with these three packs!"
+    },
+    "MainNav/Mailbox/2025_52_0_OM1_Announcement_Title": {
+        "oracleText": "Through the Omenpaths!",
+        "translation": "Through the Omenpaths!"
+    },
     "MainNav/Mailbox/2025_EOE_SparkRank_Desc": {
         "oracleText": "Starting now, Spark Ranked will use cards from the Standard card pool rather than the Alchemy card pool. This means that digital-only cards will no longer be allowed; if any of your decks contain digital-only cards, they will need to be removed from the deck to continue using that deck in Spark Ranked. Rebalanced cards will revert to their non-rebalanced versions.\n\nThe preconstructed Starter Decks all remain legal.",
         "translation": "即日起，火花排位将使用标准牌池而非炼金牌池。这意味着数字专属牌张将不再被允许使用；若您的套牌中包含数字专属牌张，则需将其移除以继续在火花排位中使用该套牌。经过再平衡的牌张将恢复为平衡前的版本。\n\n所有预组新手套牌仍可合法使用。"
@@ -51199,9 +51703,13 @@
         "oracleText": "Shadows over Innistrad Remastered Release Notes are Here!",
         "translation": "依尼翠暗影：重制版发布释疑现已公布！"
     },
+    "MainNav/Mailbox/SL_Sale_Link_Card_Description": {
+        "oracleText": "Thank you for being a part of Secret Lair. Wanna know a secret? The art on those cards comes straight from our Secret Lair cards!\n\nIf you're into collecting, you can find physical cards with this art at the link below. Plus, you'll find even more special stuff, like Foils and collabs.\n\nCheck it out!",
+        "translation": "Thank you for being a part of Secret Lair. Wanna know a secret? The art on those cards comes straight from our Secret Lair cards!\n\nIf you're into collecting, you can find physical cards with this art at the link below. Plus, you'll find even more special stuff, like Foils and collabs.\n\nCheck it out!"
+    },
     "MainNav/Mailbox/SL_Sale_Link_Description": {
-        "oracleText": "Thank you for buying one of our Sleeve bundles! Did you know the art on those Sleeves is inspired by our Secret Lair cards?\nDon't tell them we told you (it is a secret, after all), but you can find physical cards with the same art if you click the link below! There's even more cool stuff in there, including Foils and special collaborations. Check it out!",
-        "translation": "感谢你购买我们的牌套套装！你知道这些牌套上的插画是受到我们秘室珍品牌的启发吗？\n别告诉他们是我们透露的（毕竟这些来自秘室），但如果你点击下方链接，你可以找到具有相同插画的实体牌！那里面还有更多酷炫的东西，包括闪卡和特别合作系列。快来看看吧！"
+        "oracleText": "Thank you for being a part of Secret Lair. Wanna know a secret? The art on those Sleeves comes straight from our Secret Lair cards!\n\nIf you're into collecting, you can find physical cards with this art at the link below. Plus, you'll find even more special stuff, like Foils and collabs.\n\nCheck it out!",
+        "translation": "Thank you for being a part of Secret Lair. Wanna know a secret? The art on those Sleeves comes straight from our Secret Lair cards!\n\nIf you're into collecting, you can find physical cards with this art at the link below. Plus, you'll find even more special stuff, like Foils and collabs.\n\nCheck it out!"
     },
     "MainNav/Mailbox/SL_Sale_Link_Title": {
         "oracleText": "Enjoying the Secret Lair?",
@@ -52271,6 +52779,30 @@
         "oracleText": "Pompon-chan",
         "translation": "嘭嘭酱"
     },
+    "MainNav/PetNames/OM1_Mastery_1": {
+        "oracleText": "Plated Sliver",
+        "translation": "Plated Sliver"
+    },
+    "MainNav/PetNames/OM1_Mastery_2": {
+        "oracleText": "Magma Sliver",
+        "translation": "Magma Sliver"
+    },
+    "MainNav/PetNames/OM1_Mastery_3": {
+        "oracleText": "Shifting Sliver",
+        "translation": "Shifting Sliver"
+    },
+    "MainNav/PetNames/OM1_Mastery_Companion_1": {
+        "oracleText": "Plated Sliver",
+        "translation": "Plated Sliver"
+    },
+    "MainNav/PetNames/OM1_Mastery_Companion_2": {
+        "oracleText": "Magma Sliver",
+        "translation": "Magma Sliver"
+    },
+    "MainNav/PetNames/OM1_Mastery_Companion_3": {
+        "oracleText": "Shifting Sliver",
+        "translation": "Shifting Sliver"
+    },
     "MainNav/PetNames/OM1_Preorder_1": {
         "oracleText": "Crystalline Sliver",
         "translation": "水晶裂片妖"
@@ -53174,6 +53706,10 @@
     "MainNav/PrizeWall/Hideaway_Header_MH3": {
         "oracleText": "Psychic Frog's Horizon Hideaway",
         "translation": "灵能蛙的新篇藏身处"
+    },
+    "MainNav/PrizeWall/Hideaway_Header_OM1": {
+        "oracleText": "Through the Omenpaths Mastery Emporium",
+        "translation": "Through the Omenpaths Mastery Emporium"
     },
     "MainNav/PrizeWall/Hideaway_Header_TDM": {
         "oracleText": "Tarkir: Dragonstorm Mastery Emporium",
@@ -54510,6 +55046,22 @@
     "MainNav/Profile/Avatars/Avatar_Basic_Slimefoot_DMU_Name": {
         "oracleText": "Slimefoot",
         "translation": "黏足"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_SliverGravemothe_CMM_Bio": {
+        "oracleText": "Slivers evolve to conquer every situation they encounter. And now, with the power of the Sliver Gravemother, they evolve beyond death. On a plane whose name is buried under the weight of the swarm, the Gravemother and her merciless hive have become the ultimate predators.",
+        "translation": "Slivers evolve to conquer every situation they encounter. And now, with the power of the Sliver Gravemother, they evolve beyond death. On a plane whose name is buried under the weight of the swarm, the Gravemother and her merciless hive have become the ultimate predators."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_SliverGravemothe_CMM_Name": {
+        "oracleText": "Sliver Gravemother",
+        "translation": "Sliver Gravemother"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_SliverGravemother_CMM_Bio": {
+        "oracleText": "Slivers evolve to conquer every situation they encounter. And now, with the power of the Sliver Gravemother, they evolve beyond death. On a plane whose name is buried under the weight of the swarm, the Gravemother and her merciless hive have become the ultimate predators.",
+        "translation": "Slivers evolve to conquer every situation they encounter. And now, with the power of the Sliver Gravemother, they evolve beyond death. On a plane whose name is buried under the weight of the swarm, the Gravemother and her merciless hive have become the ultimate predators."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_SliverGravemother_CMM_Name": {
+        "oracleText": "Sliver Gravemother",
+        "translation": "Sliver Gravemother"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Sorin_Markov_M20_Bio": {
         "oracleText": "A powerful vampire Planeswalker, Sorin Markov was born over 7,000 years ago on Innistrad. For millennia, he lorded over his home plane, preserving the balance between humans and the monsters that hunt them. Now, his power has been challenged by his longtime rival, Olivia Voldaren.",
@@ -58135,6 +58687,86 @@
         "oracleText": "Arena Anthology 2",
         "translation": "竞技场集萃2"
     },
+    "MainNav/Store/Bundles/Bundle_AA3_DA1_Desc": {
+        "oracleText": "Emrakul, the Aeons Torn Card Style\nUlamog, the Infinite Gyre Card Style\nDauthi Voidwalker Card Style\nOxidda Scrapmelter Card Style\nKaldra Compleat Card Style\nBatterskull Card Style",
+        "translation": "Emrakul, the Aeons Torn Card Style\nUlamog, the Infinite Gyre Card Style\nDauthi Voidwalker Card Style\nOxidda Scrapmelter Card Style\nKaldra Compleat Card Style\nBatterskull Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_AA3_DA1_Name": {
+        "oracleText": "Anthology Styles: Monstrous Menagerie",
+        "translation": "Anthology Styles: Monstrous Menagerie"
+    },
+    "MainNav/Store/Bundles/Bundle_AA3_DA2_Desc": {
+        "oracleText": "Noble Hierarch Card Style\nUmezawa's Jitte Card Style\nStaff of the Storyteller Card Style\nFlickerwisp Card Style\nYavimaya, Cradle of Growth Card Style\nShelldock Isle Card Style",
+        "translation": "Noble Hierarch Card Style\nUmezawa's Jitte Card Style\nStaff of the Storyteller Card Style\nFlickerwisp Card Style\nYavimaya, Cradle of Growth Card Style\nShelldock Isle Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_AA3_DA2_Name": {
+        "oracleText": "Anthology Styles: Ancient Tales",
+        "translation": "Anthology Styles: Ancient Tales"
+    },
+    "MainNav/Store/Bundles/Bundle_AA3_DA3_Desc": {
+        "oracleText": "Fallen Shinobi Card Style\nChain Lightning Card Style\nAmbush Viper Card Style\nAssault Strobe Card Style\nBroadside Bombardiers Card Style",
+        "translation": "Fallen Shinobi Card Style\nChain Lightning Card Style\nAmbush Viper Card Style\nAssault Strobe Card Style\nBroadside Bombardiers Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_AA3_DA3_Name": {
+        "oracleText": "Anthology Styles: Twisted Trickery",
+        "translation": "Anthology Styles: Twisted Trickery"
+    },
+    "MainNav/Store/Bundles/Bundle_AA3_DA4_Desc": {
+        "oracleText": "Assault Strobe Card Style\nForce Spike Card Style\nPeek Card Style\nMystic Confluence Card Style\nChain Lightning Card Style\nExploration Card Style\nNecromancy Card Style",
+        "translation": "Assault Strobe Card Style\nForce Spike Card Style\nPeek Card Style\nMystic Confluence Card Style\nChain Lightning Card Style\nExploration Card Style\nNecromancy Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_AA3_DA4_Name": {
+        "oracleText": "Anthology Styles: Sorcerer's Spellbook",
+        "translation": "Anthology Styles: Sorcerer's Spellbook"
+    },
+    "MainNav/Store/Bundles/Bundle_AA3_Desc": {
+        "oracleText": "4x Ambush Viper\n4x Assault Strobe\n4x Force Spike\n4x Oxidda Scrapmelter\n4x Kaldra Compleat\n4x Peek\n4x Ulamog, the Infinite Gyre\n4x Flickerwisp\n4x Emrakul, the Aeons Torn\n4x Gut, True Soul Zealot\n4x Yavimaya, Cradle of Growth\n4x Shelldock Isle\n4x Broadside Bombardiers\n4x Crop Rotation\n4x Fallen Shinobi\n4x Miscalculation\n4x Chain Lightning\n4x Umezawa's Jitte\n4x Staff of the Storyteller\n4x Dauthi Voidwalker\n4x Batterskull\n4x Exploration\n4x Necromancy\n4x Noble Hierarch\n4x Memory Jar",
+        "translation": "4x Ambush Viper\n4x Assault Strobe\n4x Force Spike\n4x Oxidda Scrapmelter\n4x Kaldra Compleat\n4x Peek\n4x Ulamog, the Infinite Gyre\n4x Flickerwisp\n4x Emrakul, the Aeons Torn\n4x Gut, True Soul Zealot\n4x Yavimaya, Cradle of Growth\n4x Shelldock Isle\n4x Broadside Bombardiers\n4x Crop Rotation\n4x Fallen Shinobi\n4x Miscalculation\n4x Chain Lightning\n4x Umezawa's Jitte\n4x Staff of the Storyteller\n4x Dauthi Voidwalker\n4x Batterskull\n4x Exploration\n4x Necromancy\n4x Noble Hierarch\n4x Memory Jar"
+    },
+    "MainNav/Store/Bundles/Bundle_AA3_Name": {
+        "oracleText": "Arena Anthology 3",
+        "translation": "Arena Anthology 3"
+    },
+    "MainNav/Store/Bundles/Bundle_AA4_DA1_Desc": {
+        "oracleText": "Bringer of the White Dawn Card Style\nBringer of the Blue Dawn Card Style\nBringer of the Black Dawn Card Style\nBringer of the Red Dawn Card Style\nBringer of the Green Dawn Card Style",
+        "translation": "Bringer of the White Dawn Card Style\nBringer of the Blue Dawn Card Style\nBringer of the Black Dawn Card Style\nBringer of the Red Dawn Card Style\nBringer of the Green Dawn Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_AA4_DA1_Name": {
+        "oracleText": "Anthology Styles: Bring the Dawning",
+        "translation": "Anthology Styles: Bring the Dawning"
+    },
+    "MainNav/Store/Bundles/Bundle_AA4_DA2_Desc": {
+        "oracleText": "Baleful Force Card Style\nMagmatic Force Card Style\nRegal Force Card Style\nColossus of Sardia Card Style\nScaled Wurm Card Style\nDread Cacodemon Card Style\nKuro, Pitlord Card Style",
+        "translation": "Baleful Force Card Style\nMagmatic Force Card Style\nRegal Force Card Style\nColossus of Sardia Card Style\nScaled Wurm Card Style\nDread Cacodemon Card Style\nKuro, Pitlord Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_AA4_DA2_Name": {
+        "oracleText": "Anthology Styles: Primal Forces",
+        "translation": "Anthology Styles: Primal Forces"
+    },
+    "MainNav/Store/Bundles/Bundle_AA4_DA3_Desc": {
+        "oracleText": "Iona, Shield of Emeria Card Style\nBlazing Archon Card Style\nStormfront Pegasus Card Style\nChromescale Drake Card Style\nHoverguard Sweepers Card Style\nKraken Hatchling Card Style\nTidespout Tyrant Card Style\nFurnace Dragon Card Style\nDemon of Death's Gate Card Style",
+        "translation": "Iona, Shield of Emeria Card Style\nBlazing Archon Card Style\nStormfront Pegasus Card Style\nChromescale Drake Card Style\nHoverguard Sweepers Card Style\nKraken Hatchling Card Style\nTidespout Tyrant Card Style\nFurnace Dragon Card Style\nDemon of Death's Gate Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_AA4_DA3_Name": {
+        "oracleText": "Anthology Styles: Sea and Sky",
+        "translation": "Anthology Styles: Sea and Sky"
+    },
+    "MainNav/Store/Bundles/Bundle_AA4_DA4_Desc": {
+        "oracleText": "Iona, Shield of Emeria Card Style\nBlazing Archon Card Style\nStormfront Pegasus Card Style\nChromescale Drake Card Style\nHoverguard Sweepers Card Style\nKraken Hatchling Card Style\nThing from the Deep Card Style\nTidespout Tyrant Card Style",
+        "translation": "Iona, Shield of Emeria Card Style\nBlazing Archon Card Style\nStormfront Pegasus Card Style\nChromescale Drake Card Style\nHoverguard Sweepers Card Style\nKraken Hatchling Card Style\nThing from the Deep Card Style\nTidespout Tyrant Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_AA4_DA4_Name": {
+        "oracleText": "Anthology Styles: Sea and Sky",
+        "translation": "Anthology Styles: Sea and Sky"
+    },
+    "MainNav/Store/Bundles/Bundle_AA4_Desc": {
+        "oracleText": "4x Baleful Force\n4x Blazing Archon\n4x Chromescale Drake\n4x Iona, Shield of Emeria\n4x Regal Force\n4x Bringer of the Black Dawn\n4x Bringer of the Blue Dawn\n4x Bringer of the Green Dawn\n4x Bringer of the Red Dawn\n4x Bringer of the White Dawn\n4x Colossus of Sardia\n4x Crash of Rhinos\n4x Demon of Death's Gate\n4x Dragon Tyrant\n4x Dread Cacodemon\n4x Fire Dragon\n4x Furnace Dragon\n4x Gigantomancer\n4x Hoverguard Sweepers\n4x Kraken Hatchling\n4x Kuro, Pitlord\n4x Magmatic Force\n4x Scaled Wurm\n4x Stormfront Pegasus\n4x Stratadon\n4x Thing from the Deep\n4x Tidespout Tyrant\n4x Wolf Pack",
+        "translation": "4x Baleful Force\n4x Blazing Archon\n4x Chromescale Drake\n4x Iona, Shield of Emeria\n4x Regal Force\n4x Bringer of the Black Dawn\n4x Bringer of the Blue Dawn\n4x Bringer of the Green Dawn\n4x Bringer of the Red Dawn\n4x Bringer of the White Dawn\n4x Colossus of Sardia\n4x Crash of Rhinos\n4x Demon of Death's Gate\n4x Dragon Tyrant\n4x Dread Cacodemon\n4x Fire Dragon\n4x Furnace Dragon\n4x Gigantomancer\n4x Hoverguard Sweepers\n4x Kraken Hatchling\n4x Kuro, Pitlord\n4x Magmatic Force\n4x Scaled Wurm\n4x Stormfront Pegasus\n4x Stratadon\n4x Thing from the Deep\n4x Tidespout Tyrant\n4x Wolf Pack"
+    },
+    "MainNav/Store/Bundles/Bundle_AA4_Name": {
+        "oracleText": "Arena Anthology 4",
+        "translation": "Arena Anthology 4"
+    },
     "MainNav/Store/Bundles/Bundle_AFR_A_Desc": {
         "oracleText": "Drizzt Do'Urden Card Style\nShessra, Death's Whisper Card Style\nKalain, Reclusive Painter Card Style\nLurking Roper Card Style\nMind Flayer Card Style\nBaleful Beholder Card Style",
         "translation": "*崔斯特杜垩登*卡牌样式\n*亡者嗫声谢丝拉*卡牌样式\n*画家隐士卡莱茵*卡牌样式\n*伏击树绳妖*卡牌样式\n*夺心魔*卡牌样式\n*恶邪眼魔*卡牌样式"
@@ -61238,6 +61870,22 @@
     "MainNav/Store/Bundles/Bundle_NEO_Wanderer_Name": {
         "oracleText": "The Wanderer Bundle",
         "translation": "飘萍套装"
+    },
+    "MainNav/Store/Bundles/Bundle_OM1_Phrases_Desc": {
+        "oracleText": "\":(\" Phrase Emote\n\":)\" Phrase Emote\n\">:)\" Phrase Emote\n\">:(\" Phrase Emote\n\";)\" Phrase Emote",
+        "translation": "\":(\" Phrase Emote\n\":)\" Phrase Emote\n\">:)\" Phrase Emote\n\">:(\" Phrase Emote\n\";)\" Phrase Emote"
+    },
+    "MainNav/Store/Bundles/Bundle_OM1_Phrases_Name": {
+        "oracleText": "Phrase Emotes",
+        "translation": "Phrase Emotes"
+    },
+    "MainNav/Store/Bundles/Bundle_OM1_Stickers_Desc": {
+        "oracleText": "Moth Topdeck Sticker Emote\nPolite Goodbye Sticker Emote\nPathetic Pigeon Sticker Emote",
+        "translation": "Moth Topdeck Sticker Emote\nPolite Goodbye Sticker Emote\nPathetic Pigeon Sticker Emote"
+    },
+    "MainNav/Store/Bundles/Bundle_OM1_Stickers_Name": {
+        "oracleText": "Sticker Emotes",
+        "translation": "Sticker Emotes"
     },
     "MainNav/Store/Bundles/Bundle_ONE_ConceptPraetors_Desc": {
         "oracleText": "Elesh Norn, Mother of Machines Borderless Card Style\nJin-Gitaxias, Progress Tyrant Borderless Card Style\nSheoldred, the Apocalypse Borderless Card Style\nUrabrask, Heretic Praetor Borderless Card Style\nVorinclex, Monstrous Raider Borderless Card Style",
@@ -67555,6 +68203,10 @@
         "oracleText": "Sothera is the once lifegiving star that has been catalyzed into a Supervoid by the Monoists. If not stopped, Sothera will collapse, plunging all life around it into nothing but cold, dead, space.",
         "translation": "索瑟拉曾是赋予生命的星辰，现在被奇相教催化为超空洞。若不加阻止，索瑟拉将会坍缩，将其周围所有生命尽数拖入冰冷死寂的虚空之中。"
     },
+    "Match/QueueTips/Queue_Tip_318_OM1_SetCode": {
+        "oracleText": "To show only cards from Through the Omenpaths in the deckbuilder, type \"set:OM1\" into the search bar. Each set has a unique 3-letter-code.",
+        "translation": "To show only cards from Through the Omenpaths in the deckbuilder, type \"set:OM1\" into the search bar. Each set has a unique 3-letter-code."
+    },
     "Match/QueueTips/Queue_Tip_32": {
         "oracleText": "Combo decks focus on finding and casting spells that work together to produce powerful effects, often winning the game outright!",
         "translation": "组合技套牌注重于搜寻并施放配合良好的咒语来产生强大的效应，通常能够一举赢下游戏！"
@@ -70586,6 +71238,10 @@
     "PlayBlade/Filters/Dynamic/NewPlayerTitle": {
         "oracleText": "New Player",
         "translation": "新玩家"
+    },
+    "PlayBlade/Filters/Dynamic/OM1LimitedTitle": {
+        "oracleText": "Through the Omenpaths Limited",
+        "translation": "Through the Omenpaths Limited"
     },
     "PlayBlade/Filters/Dynamic/ONELimitedTitle": {
         "oracleText": "Phyrexia: All will be One Limited",
