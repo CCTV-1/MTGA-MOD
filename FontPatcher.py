@@ -7,7 +7,7 @@ import UnityPy
 
 import Config
 
-GAME_UNITY_VERSION_STRING: str = "2022.3.42f1"
+GAME_UNITY_VERSION_STRING: str = "2022.3.62f2"
 
 # asset path : monoBehavior name list
 WINDOWS_FONT_RULES: dict[str:list] = {
