@@ -111,6 +111,22 @@
         "oracleText": "This ability triggers when an enchantment enters the battlefield under your control.",
         "translation": "当一个结界在你的操控下进战场时，触发此异能。"
     },
+    "AbilityHanger/AbilityWord/EarthBend_N_Body": {
+        "oracleText": "Target land you control becomes a 0/0 land creature with haste. Put {numeral} +1/+1 counters on it. When it dies or is put into exile, return it to the battlefield tapped.",
+        "translation": "Target land you control becomes a 0/0 land creature with haste. Put {numeral} +1/+1 counters on it. When it dies or is put into exile, return it to the battlefield tapped."
+    },
+    "AbilityHanger/AbilityWord/EarthBend_N_Title": {
+        "oracleText": "Earthbend {numeral}",
+        "translation": "Earthbend {numeral}"
+    },
+    "AbilityHanger/AbilityWord/EarthBend_X_Body": {
+        "oracleText": "Target land you control becomes a 0/0 land creature with haste. Put X +1/+1 counters on it. When it dies or is put into exile, return it to the battlefield tapped.",
+        "translation": "Target land you control becomes a 0/0 land creature with haste. Put X +1/+1 counters on it. When it dies or is put into exile, return it to the battlefield tapped."
+    },
+    "AbilityHanger/AbilityWord/EarthBend_X_Title": {
+        "oracleText": "Earthbend X",
+        "translation": "Earthbend X"
+    },
     "AbilityHanger/AbilityWord/Enrage": {
         "oracleText": "This ability triggers whenever this creature takes damage.",
         "translation": "每当此生物受到伤害时，便会触发此异能。"
@@ -118,6 +134,22 @@
     "AbilityHanger/AbilityWord/Enrage_Title": {
         "oracleText": "Enrage",
         "translation": "激怒"
+    },
+    "AbilityHanger/AbilityWord/Firebending_N_Body": {
+        "oracleText": "Whenever this creature attacks, add {mana}. This mana lasts until end of combat.",
+        "translation": "Whenever this creature attacks, add {mana}. This mana lasts until end of combat."
+    },
+    "AbilityHanger/AbilityWord/Firebending_N_Title": {
+        "oracleText": "Firebending {numeral}",
+        "translation": "Firebending {numeral}"
+    },
+    "AbilityHanger/AbilityWord/Firebending_X_Body": {
+        "oracleText": "Whenever this creature attacks, add X {oR}. This mana lasts until end of combat.",
+        "translation": "Whenever this creature attacks, add X {oR}. This mana lasts until end of combat."
+    },
+    "AbilityHanger/AbilityWord/Firebending_X_Title": {
+        "oracleText": "Firebending X",
+        "translation": "Firebending X"
     },
     "AbilityHanger/AbilityWord/ForMirrodin_Body": {
         "oracleText": "When this Equipment enters the battlefield, create a 2/2 red Rebel creature token, then attach this to it.",
@@ -519,6 +551,14 @@
         "oracleText": "If your starting deck meets the companion's restriction you may choose it to be your companion. Once per game you may pay {o3} any time you could cast a sorcery to put your chosen companion into your hand.",
         "translation": "如果你的起始套牌满足行侣条件，你可以将它选为你的行侣。每盘游戏限一次，于法术时机，你可以支付{o3}来将它置于你手上。"
     },
+    "AbilityHanger/Designation/Earthbent_Body": {
+        "oracleText": "When this dies or is exiled, return it to the battlefield tapped under {playerName}'s control.",
+        "translation": "When this dies or is exiled, return it to the battlefield tapped under {playerName}'s control."
+    },
+    "AbilityHanger/Designation/Earthbent_Title": {
+        "oracleText": "Earthbent",
+        "translation": "Earthbent"
+    },
     "AbilityHanger/Designation/Monstrous": {
         "oracleText": "Monstrous",
         "translation": "已蛮化"
@@ -610,6 +650,14 @@
     "AbilityHanger/Keyword/Adapt_Title": {
         "oracleText": "Adapt {numeral}",
         "translation": "演化{numeral}"
+    },
+    "AbilityHanger/Keyword/AffinityForAllies_Body": {
+        "oracleText": "This spell costs {o1} less to cast for each Ally you control.",
+        "translation": "This spell costs {o1} less to cast for each Ally you control."
+    },
+    "AbilityHanger/Keyword/AffinityForAllies_Title": {
+        "oracleText": "Affinity for Allies",
+        "translation": "Affinity for Allies"
     },
     "AbilityHanger/Keyword/AffinityForBirds_Body": {
         "oracleText": "This spell costs {o1} less to cast for each Bird you control.",
@@ -746,6 +794,14 @@
     "AbilityHanger/Keyword/Aftermath": {
         "oracleText": "Cast this spell only from your graveyard. Then exile it.",
         "translation": "此咒语只能从你的坟墓场中施放。然后将它放逐。"
+    },
+    "AbilityHanger/Keyword/Airbend_Body": {
+        "oracleText": "To airbend a permanent or card, exile it. If a card is exiled this way, its owner may cast it from exile by paying o2 rather than paying its mana cost.",
+        "translation": "To airbend a permanent or card, exile it. If a card is exiled this way, its owner may cast it from exile by paying o2 rather than paying its mana cost."
+    },
+    "AbilityHanger/Keyword/Airbend_Title": {
+        "oracleText": "Airbend",
+        "translation": "Airbend"
     },
     "AbilityHanger/Keyword/Amass": {
         "oracleText": "Put +1/+1 counters on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.",
@@ -1130,6 +1186,14 @@
     "AbilityHanger/Keyword/Crime_Title": {
         "oracleText": "Crime",
         "translation": "罪行"
+    },
+    "AbilityHanger/Keyword/CumulativeUpkeep": {
+        "oracleText": "At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.",
+        "translation": "At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it."
+    },
+    "AbilityHanger/Keyword/CumulativeUpkeep_Title": {
+        "oracleText": "Cumulative upkeep",
+        "translation": "Cumulative upkeep"
     },
     "AbilityHanger/Keyword/CursedRole_Body": {
         "oracleText": "Enchanted creature has base power and toughness 1/1.",
@@ -2850,6 +2914,14 @@
     "AbilityHanger/Keyword/Warp_Title": {
         "oracleText": "Warp",
         "translation": "跃迁"
+    },
+    "AbilityHanger/Keyword/Waterbend_Body": {
+        "oracleText": "Your creatures and artifacts can help you pay a Waterbend cost. Each one you tap pays for {o1}.",
+        "translation": "Your creatures and artifacts can help you pay a Waterbend cost. Each one you tap pays for {o1}."
+    },
+    "AbilityHanger/Keyword/Waterbend_Title": {
+        "oracleText": "Waterbend",
+        "translation": "Waterbend"
     },
     "AbilityHanger/Keyword/WickedRole_Body": {
         "oracleText": "Enchanted creature gets +1/+1. When this Aura is put into a graveyard from the battlefield, each opponent loses 1 life.",
@@ -6391,6 +6463,14 @@
         "oracleText": "{number1} Tarkir: Dragonstorm Mythic Card Rewards",
         "translation": "{number1}张鞑契龙岚录秘稀卡牌奖励"
     },
+    "BattlePass/Rewards/ICR_TLA_M": {
+        "oracleText": "<i>Avatar: The Last Airbender</i> Mythic Card Reward",
+        "translation": "<i>Avatar: The Last Airbender</i> Mythic Card Reward"
+    },
+    "BattlePass/Rewards/ICR_TLA_M_Plural": {
+        "oracleText": "<i>{number1} Avatar: The Last Airbender</i> Mythic Card Rewards",
+        "translation": "<i>{number1} Avatar: The Last Airbender</i> Mythic Card Rewards"
+    },
     "BattlePass/Rewards/IKO_Level1": {
         "oracleText": "Lukka Avatar, Greatshark Sleeve, & Regal Cub",
         "translation": "卢卡头像、硕鲨牌套、& 威严幼兽"
@@ -7071,6 +7151,22 @@
         "oracleText": "2 Set Mastery Orbs & Rare Nyx Owl",
         "translation": "2颗精研法珠 & 稀有尼兹猫头鹰"
     },
+    "BattlePass/Rewards/TLA_Companion_Hover": {
+        "oracleText": "Black Sun Appa: Mastery Pass Level 40",
+        "translation": "Black Sun Appa: Mastery Pass Level 40"
+    },
+    "BattlePass/Rewards/TLA_Level1": {
+        "oracleText": "Aang, Appa Companion, and New Adventures Sleeve",
+        "translation": "Aang, Appa Companion, and New Adventures Sleeve"
+    },
+    "BattlePass/Rewards/TLA_Pet2_and_Orb": {
+        "oracleText": "1 Set Mastery Orb & Baby Appa Companion",
+        "translation": "1 Set Mastery Orb & Baby Appa Companion"
+    },
+    "BattlePass/Rewards/TLA_Pet3_and_Orb": {
+        "oracleText": "1 Set Mastery Orb & Black Sun Appa Companion",
+        "translation": "1 Set Mastery Orb & Black Sun Appa Companion"
+    },
     "BattlePass/Rewards/TextEmote_AllOfUs": {
         "oracleText": "All of Us Text Emote",
         "translation": "我们所有人文字表情"
@@ -7426,6 +7522,10 @@
     "Card/TitleOverride/DavrielsOffer": {
         "oracleText": "Davriel's Offer",
         "translation": "达夫黎的提议"
+    },
+    "Card/TitleOverride/Earthbend": {
+        "oracleText": "Earthbend",
+        "translation": "Earthbend"
     },
     "Card/TitleOverride/MaxSpeed": {
         "oracleText": "Max Speed",
@@ -11195,6 +11295,30 @@
         "oracleText": "Recruit your army and mentor your foot soldiers into battle-hardened veterans. Build a force to be reckoned with!",
         "translation": " 招募军队，训导新兵，将其锤炼成才。建立一支能够昭彰正义的军队！"
     },
+    "Decks/Precon/Precon_TLA_StoryDeck_AzulasTakeover": {
+        "oracleText": "Azula's Takeover",
+        "translation": "Azula's Takeover"
+    },
+    "Decks/Precon/Precon_TLA_StoryDeck_Book1": {
+        "oracleText": "Book 1: Water",
+        "translation": "Book 1: Water"
+    },
+    "Decks/Precon/Precon_TLA_StoryDeck_Book2Spirit": {
+        "oracleText": "Book 2: Earth - Mastering the Spirit",
+        "translation": "Book 2: Earth - Mastering the Spirit"
+    },
+    "Decks/Precon/Precon_TLA_StoryDeck_Book2Teacher": {
+        "oracleText": "Book 2: Earth - Finding a Teacher",
+        "translation": "Book 2: Earth - Finding a Teacher"
+    },
+    "Decks/Precon/Precon_TLA_StoryDeck_Book3": {
+        "oracleText": "Book 3: Fire",
+        "translation": "Book 3: Fire"
+    },
+    "Decks/Precon/Precon_TLA_StoryDeck_ZukosJourney": {
+        "oracleText": "Zuko's Journey",
+        "translation": "Zuko's Journey"
+    },
     "Decks/Precon/Precon_The_Brazen_Coalition": {
         "oracleText": "The Brazen Coalition",
         "translation": "莽霸联盟"
@@ -12554,6 +12678,26 @@
     "Decks/StoreDecks/TDM/Wave1/Temur": {
         "oracleText": "Foundation Deck: Brawl Eshki, Temur's Roar",
         "translation": "基础套牌：争锋铁木尔之吼艾丝琦"
+    },
+    "Decks/StoreDecks/TLA/Wave14/AvatarAang": {
+        "oracleText": "Foundation Deck: Brawl Avatar Aang",
+        "translation": "Foundation Deck: Brawl Avatar Aang"
+    },
+    "Decks/StoreDecks/TLA/Wave14/FireLordAzula": {
+        "oracleText": "Foundation Deck: Brawl Fire Lord Azula",
+        "translation": "Foundation Deck: Brawl Fire Lord Azula"
+    },
+    "Decks/StoreDecks/TLA/Wave14/IrohGrandLotus": {
+        "oracleText": "Foundation Deck: Brawl Iroh, Grand Lotus",
+        "translation": "Foundation Deck: Brawl Iroh, Grand Lotus"
+    },
+    "Decks/StoreDecks/TLA/Wave14/KataraTheFearless": {
+        "oracleText": "Foundation Deck: Brawl Katara, the Fearless",
+        "translation": "Foundation Deck: Brawl Katara, the Fearless"
+    },
+    "Decks/StoreDecks/TLA/Wave14/SokkaTenaciousTacticion": {
+        "oracleText": "Foundation Deck: Brawl Sokka, Tenacious Tactician",
+        "translation": "Foundation Deck: Brawl Sokka, Tenacious Tactician"
     },
     "Decks/StoreDecks/Wave1/Brawl_RWRaiyuu": {
         "oracleText": "Foundation Deck: Brawl Raiyuu, Storm's Edge",
@@ -17967,6 +18111,110 @@
         "oracleText": "What's this?",
         "translation": "这是什么？"
     },
+    "Emotes/TLA/Full/Phrase_TLA_4Elements": {
+        "oracleText": "Water. Earth. Fire. Air.",
+        "translation": "Water. Earth. Fire. Air."
+    },
+    "Emotes/TLA/Full/Phrase_TLA_Cabbages": {
+        "oracleText": "My cabbages!!!",
+        "translation": "My cabbages!!!"
+    },
+    "Emotes/TLA/Full/Phrase_TLA_CantKnockDown": {
+        "oracleText": "You can't knock me down!",
+        "translation": "You can't knock me down!"
+    },
+    "Emotes/TLA/Full/Phrase_TLA_FireAttacked": {
+        "oracleText": "Everything changed when the Fire Nation attacked.",
+        "translation": "Everything changed when the Fire Nation attacked."
+    },
+    "Emotes/TLA/Full/Phrase_TLA_Flameo": {
+        "oracleText": "Flameo, hotman.",
+        "translation": "Flameo, hotman."
+    },
+    "Emotes/TLA/Full/Phrase_TLA_MelonLord": {
+        "oracleText": "I am Melon Lord!",
+        "translation": "I am Melon Lord!"
+    },
+    "Emotes/TLA/Full/Phrase_TLA_NoWar": {
+        "oracleText": "There is no war in Ba Sing Se",
+        "translation": "There is no war in Ba Sing Se"
+    },
+    "Emotes/TLA/Full/Phrase_TLA_PenguinSledding": {
+        "oracleText": "Wanna go penguin sledding with me?",
+        "translation": "Wanna go penguin sledding with me?"
+    },
+    "Emotes/TLA/Full/Phrase_TLA_Quenchiest": {
+        "oracleText": "It's the quenchiest!",
+        "translation": "It's the quenchiest!"
+    },
+    "Emotes/TLA/Full/Phrase_TLA_RoughBuddy": {
+        "oracleText": "That's rough, buddy.",
+        "translation": "That's rough, buddy."
+    },
+    "Emotes/TLA/Full/Phrase_TLA_SecretTunnel": {
+        "oracleText": "Secret tunnel!",
+        "translation": "Secret tunnel!"
+    },
+    "Emotes/TLA/Full/Phrase_TLA_ShareTea": {
+        "oracleText": "Sharing tea with a fascinating stranger is one of life's true delights.",
+        "translation": "Sharing tea with a fascinating stranger is one of life's true delights."
+    },
+    "Emotes/TLA/Full/Phrase_TLA_YipYip": {
+        "oracleText": "Yip yip!",
+        "translation": "Yip yip!"
+    },
+    "Emotes/TLA/Mini/Phrase_TLA_4Elements": {
+        "oracleText": "Water. Earth. Fire. Air.",
+        "translation": "Water. Earth. Fire. Air."
+    },
+    "Emotes/TLA/Mini/Phrase_TLA_Cabbages": {
+        "oracleText": "My cabbages!!!",
+        "translation": "My cabbages!!!"
+    },
+    "Emotes/TLA/Mini/Phrase_TLA_CantKnockDown": {
+        "oracleText": "You can't knock me down!",
+        "translation": "You can't knock me down!"
+    },
+    "Emotes/TLA/Mini/Phrase_TLA_FireAttacked": {
+        "oracleText": "Fire Nation attacked.",
+        "translation": "Fire Nation attacked."
+    },
+    "Emotes/TLA/Mini/Phrase_TLA_Flameo": {
+        "oracleText": "Flameo, hotman.",
+        "translation": "Flameo, hotman."
+    },
+    "Emotes/TLA/Mini/Phrase_TLA_MelonLord": {
+        "oracleText": "I am Melon Lord!",
+        "translation": "I am Melon Lord!"
+    },
+    "Emotes/TLA/Mini/Phrase_TLA_NoWar": {
+        "oracleText": "No war in Ba Sing Se",
+        "translation": "No war in Ba Sing Se"
+    },
+    "Emotes/TLA/Mini/Phrase_TLA_PenguinSledding": {
+        "oracleText": "Penguin sledding",
+        "translation": "Penguin sledding"
+    },
+    "Emotes/TLA/Mini/Phrase_TLA_Quenchiest": {
+        "oracleText": "It's the quenchiest!",
+        "translation": "It's the quenchiest!"
+    },
+    "Emotes/TLA/Mini/Phrase_TLA_RoughBuddy": {
+        "oracleText": "That's rough, buddy.",
+        "translation": "That's rough, buddy."
+    },
+    "Emotes/TLA/Mini/Phrase_TLA_SecretTunnel": {
+        "oracleText": "Secret tunnel!",
+        "translation": "Secret tunnel!"
+    },
+    "Emotes/TLA/Mini/Phrase_TLA_ShareTea": {
+        "oracleText": "Sharing tea",
+        "translation": "Sharing tea"
+    },
+    "Emotes/TLA/Mini/Phrase_TLA_YipYip": {
+        "oracleText": "Yip yip!",
+        "translation": "Yip yip!"
+    },
     "Emotes/ZNR/Full/AllOfUs": {
         "oracleText": "You mess with one of us, you mess with all of us!",
         "translation": "你惹我们一个人，你就是在惹我们所有人!"
@@ -20323,6 +20571,14 @@
         "oracleText": "Two <i>Tarkir: Dragonstorm </i> Play Booster Boxes",
         "translation": "两盒<i>鞑契龙岚录</i>常规补充包"
     },
+    "Events/ArenaDirect_TLA_Collector_Prize": {
+        "oracleText": "One <i>Magic: The Gathering | Avatar: The Last Airbender™ </i> Collector Booster Box",
+        "translation": "One <i>Magic: The Gathering | Avatar: The Last Airbender™ </i> Collector Booster Box"
+    },
+    "Events/ArenaDirect_TLA_Collector_String": {
+        "oracleText": "This token indicates you are eligible to receive 1 physical <i>Magic: The Gathering | Avatar: The Last Airbender™</i> Collector Booster Box",
+        "translation": "This token indicates you are eligible to receive 1 physical <i>Magic: The Gathering | Avatar: The Last Airbender™</i> Collector Booster Box"
+    },
     "Events/Banned_Cards_Tag_A": {
         "oracleText": "Standard Shakeup",
         "translation": "标准非主流"
@@ -20355,6 +20611,14 @@
         "oracleText": "You are already done with your matches.",
         "translation": "你已经完成所有对局。"
     },
+    "Events/DeckType/Aang": {
+        "oracleText": "Aang",
+        "translation": "Aang"
+    },
+    "Events/DeckType/Aang_mana": {
+        "oracleText": "Aang <sprite=\"SpriteSheet_ManaIcons\" name=\"xW\">",
+        "translation": "Aang <sprite=\"SpriteSheet_ManaIcons\" name=\"xW\">"
+    },
     "Events/DeckType/Abzan": {
         "oracleText": "Abzan",
         "translation": "阿布赞"
@@ -20370,6 +20634,14 @@
     "Events/DeckType/Azorius": {
         "oracleText": "Azorius",
         "translation": "俄佐立"
+    },
+    "Events/DeckType/Azula": {
+        "oracleText": "Azula",
+        "translation": "Azula"
+    },
+    "Events/DeckType/Azula_mana": {
+        "oracleText": "Azula <sprite=\"SpriteSheet_ManaIcons\" name=\"xB\">",
+        "translation": "Azula <sprite=\"SpriteSheet_ManaIcons\" name=\"xB\">"
     },
     "Events/DeckType/Bant": {
         "oracleText": "Bant",
@@ -20454,6 +20726,14 @@
     "Events/DeckType/Jund": {
         "oracleText": "Jund",
         "translation": "勇得"
+    },
+    "Events/DeckType/Katara": {
+        "oracleText": "Katara",
+        "translation": "Katara"
+    },
+    "Events/DeckType/Katara_mana": {
+        "oracleText": "Katara <sprite=\"SpriteSheet_ManaIcons\" name=\"xU\">",
+        "translation": "Katara <sprite=\"SpriteSheet_ManaIcons\" name=\"xU\">"
     },
     "Events/DeckType/Kethis": {
         "oracleText": "Kethis",
@@ -20559,9 +20839,25 @@
         "oracleText": "Tokens",
         "translation": "衍生物"
     },
+    "Events/DeckType/Toph": {
+        "oracleText": "Toph",
+        "translation": "Toph"
+    },
+    "Events/DeckType/Toph_mana": {
+        "oracleText": "Toph <sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">",
+        "translation": "Toph <sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">"
+    },
     "Events/DeckType/Wolves": {
         "oracleText": "Wolves",
         "translation": "狼群"
+    },
+    "Events/DeckType/Zuko": {
+        "oracleText": "Zuko",
+        "translation": "Zuko"
+    },
+    "Events/DeckType/Zuko_mana": {
+        "oracleText": "Zuko <sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">",
+        "translation": "Zuko <sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">"
     },
     "Events/Deck_100commander": {
         "oracleText": "Deck size: 100 cards (including a Commander)",
@@ -22396,8 +22692,8 @@
         "translation": "<size=150%><color=#e1a154>参加赛事，竞夺卡盒！</color></size>\n\n报名参加此赛事，赢得全部7胜就能获得2盒实体神河：霓朝纪轮抽补充包邮寄到家。\n\n本赛事的赛制为6包补充包的<i>神河：霓朝纪</i>BO1现开赛。\n\n<b><color=red>须年满18周岁方能参加。部分地区／地域不能参加本赛事。在法律禁止的地区无效。须创建或具现有威世智、DCI及i-Payout帐户方能领取奖金。完整详细信息，请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>此处</link></u>。</color></b>"
     },
     "Events/Event_Desc_ArenaDirect_OTJ_Play_Sealed": {
-        "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 7 wins to win 2 physical Outlaws of Thunder Junction Play Booster Boxes delivered to you.\n\nThe format for this event is 6 packs of <i> Outlaws of Thunder Junction</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>参加赛事，竞夺卡盒！</color></size>\n\n报名参加此赛事，赢得全部7胜就能获得2盒实体光雷驿镖客常规补充包邮寄到家。\n\n本赛事的赛制为6包补充包的<i>光雷驿镖客</i>BO1现开赛。\n\n<b><color=red>须年满18周岁方能参加。部分地区／地域不能参加本赛事。在法律禁止的地区无效。须创建或具现有威世智、DCI及i-Payout帐户方能领取奖金。完整详细信息，请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>此处</link></u>。</color></b>"
+        "oracleText": "_",
+        "translation": "_"
     },
     "Events/Event_Desc_ArenaDirect_OTJ_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win a physical Outlaws of Thunder Junction Play Booster Box delivered to you.\n\nThe format for this event is 6 packs of <i>Outlaws of Thunder Junction</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-mh3-terms-and-conditions>here</link></u> for full details.</color></b>",
@@ -22410,6 +22706,10 @@
     "Events/Event_Desc_ArenaDirect_TDM_Play_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and see if you can win physical Tarkir: Dragonstorm Play Booster Boxes delivered to you!\n\nThe format for this event is 6 packs of <i>Tarkir: Dragonstorm</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>",
         "translation": "<size=150%><color=#e1a154>参加赛事，竞夺卡盒！</color></size>\n\n报名参加此赛事，看看你是否能赢得实体鞑契龙岚录常规补充包邮寄到家！\n\n本赛事的赛制为6包补充包的<i>鞑契龙岚录</i>BO1现开赛。\n\n<b><color=red>须年满18周岁方能参加。部分地区／地域不能参加本赛事。在法律禁止的地区无效。须创建或具现有威世智、DCI及i-Payout帐户方能领取奖金。完整详细信息，请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>此处</link></u>。</color></b>"
+    },
+    "Events/Event_Desc_ArenaDirect_TLA_Collector_Sealed": {
+        "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\nSign up for this event and get all 7 wins to win 1 physical Magic: The Gathering | Avatar: The Last Airbender™ Collector Booster Box delivered to you.\nThe format for this event is 6 packs of <i>Magic: The Gathering | Avatar: The Last Airbender™</i> Sealed with single-game matches.  \n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\nSign up for this event and get all 7 wins to win 1 physical Magic: The Gathering | Avatar: The Last Airbender™ Collector Booster Box delivered to you.\nThe format for this event is 6 packs of <i>Magic: The Gathering | Avatar: The Last Airbender™</i> Sealed with single-game matches.  \n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaDirect_WOE_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win a pair of Wilds of Eldraine Set Booster Box delivered to you.\n\nThe format for this event is 6 packs of <i>Wilds of Eldraine</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-WOE-terms-and-conditions>here</link></u> for full details.</color></b>",
@@ -23755,6 +24055,10 @@
         "oracleText": "Ready to start playing <i>The Lord of the Rings: Tales of Middle-earth</i> on MTG Arena? You can explore different strategies while playing and collecting cards from this new set.\n\nWhen you join this event, you will get to select two different half-decks from a variety of themes. They'll be combined and you will have a deck ready to go. Play as much as you want here, or use the cards to build new decks for other modes - they're yours to keep!\n\n<b><color=\"green\">Resign at any time if you wish to rejoin and pick new packets. You will have to pay the entry again, but you will keep all cards from the decks you choose.</color></b>\n\n\"The world is indeed full of peril, and in it there are many dark places; but still there is much that is fair, and though in all lands love is now mingled with grief, it grows perhaps the greater.\" – Haldir (Book 1, pg 349)",
         "translation": "准备好在MTG竞技场中体验<i>魔戒：中洲传说</i>的对局了吗？你可以通过对局和收集来自这个全新系列的牌张，探索各种不同的策略。\n\n加入此活动后，你需要先从多种不同主题的半副套牌中选择两种。将它们组合一起之后，你就有了一副能够对战的完整套牌。套牌中的所有牌张都归你所有，并且你可以尽情地进行对局，或者将它们用于构建其他游戏模式下的新套牌！\n\n<b><color=\"green\">如果你希望重新加入并选择新的卡包，你随时可以退出当前活动。你需要再次支付门票，但你将保留你所选择套牌中的所有牌张。</color></b>\n\n「这世界的确充满了危险，其中也有不少黑暗之处。但是，也仍有许多美丽的事物，尽管如今在所有的地方，爱都交织着悲伤，但或许还是爱占了上风。」～哈尔迪尔（第一部，第435页）"
     },
+    "Events/Event_Desc_Jump_In_TLA": {
+        "oracleText": "Ready to start playing <i>Magic: The Gathering | Avatar: The Last Airbender™</i> on MTG Arena? You can explore different strategies while playing and collecting cards from this new set.\n\nWhen you join this event, you will get to select two different half-decks from a variety of themes. Combine them, and you'll have a deck that's ready to go. Play as much as you want here, or use the cards to build new decks for other modes - they're yours to keep!\n\n<color=\"green\"><b>Resign at any time if you wish to rejoin and pick new packets. You will have to pay the entry again, but you will keep all cards from the decks you choose.</b></color>",
+        "translation": "Ready to start playing <i>Magic: The Gathering | Avatar: The Last Airbender™</i> on MTG Arena? You can explore different strategies while playing and collecting cards from this new set.\n\nWhen you join this event, you will get to select two different half-decks from a variety of themes. Combine them, and you'll have a deck that's ready to go. Play as much as you want here, or use the cards to build new decks for other modes - they're yours to keep!\n\n<color=\"green\"><b>Resign at any time if you wish to rejoin and pick new packets. You will have to pay the entry again, but you will keep all cards from the decks you choose.</b></color>"
+    },
     "Events/Event_Desc_Jumpstart2025": {
         "oracleText": "Welcome to Foundations JumpStart!\n\nWhen you join this event, you will get to select two different half-decks from a variety of themes in Magic: The Gathering Foundations. Combine them, and you'll have a deck that's ready to go. Play as much as you want here, or use the cards to build new decks for other modes - they're yours to keep!  \n\nNote: Not all Cards from Foundations Jumpstart are Standard Legal.\n\n<color=\"green\"><b>Resign at any time if you wish to rejoin and pick new packets. You will have to pay the entry again, but you will keep all cards from the decks you choose.</b></color>",
         "translation": "欢迎来到基石构筑速战！\n\n加入此活动后，你需要先从万智牌：基石构筑中多种不同主题的半副套牌中选择两种。将它们组合一起之后，你就有了一副能够对战的完整套牌！你可以在此尽情对局，或者使用这些牌来构筑其他赛制的新套牌——这些牌都归你所有！\n\n注意：并非所有基石构筑速战中的牌都可以在标准赛制中使用。\n\n<color=\"green\"><b>如果你希望重新参加并另选主题包，也可以随时退出。虽然需要再次支付参加费用，但你仍可保留所选套牌中的所有卡牌。</b></color>"
@@ -24191,6 +24495,10 @@
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Through the Omenpaths Foundations Constructed: Bring a 60-card deck with only cards from the most recent set and Foundations and demonstrate your mastery of the new cards!",
         "translation": "欢迎参加周中万智牌！MTG竞技场每周玩法花样百出，次次活动都有全新感受！\n\n本周活动是构筑赛：穿越预兆路 & 基石构筑：使用仅包含最新系列和基石构筑的60张套牌，展现您对新牌的掌控力！"
     },
+    "Events/Event_Desc_MWM_FDNTLA": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Magic: The Gathering | Avatar: The Last Airbender™ Foundations Constructed: Bring a 60-card deck with only cards from the most recent set and Foundations and demonstrate your mastery of the new cards!",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Magic: The Gathering | Avatar: The Last Airbender™ Foundations Constructed: Bring a 60-card deck with only cards from the most recent set and Foundations and demonstrate your mastery of the new cards!"
+    },
     "Events/Event_Desc_MWM_FDN_4P_BotDraft": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Magic: The Gathering Foundations</i> Pick-Two Draft! Select two cards at a time from rotating draft packs against a smaller group of 4 players. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>",
         "translation": "欢迎参加周中万智牌！MTG竞技场每周玩法花样百出，次次活动都有全新感受！\n\n本周的活动是<i>万智牌：基石构筑</i>选两张轮抽！你将与另外3名牌手组成4人小组，从轮转的轮抽补充包中每次选取两张牌张。之后加入基本地构组一副40张的套牌，并与其他牌手进行对战，且无次数限制。\n\n<b><color=\"red\">此赛事为幻影活动。你抽选的牌张不会加入你的收藏。</color></b> "
@@ -24286,6 +24594,10 @@
     "Events/Event_Desc_MWM_JumpIn_TDM": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is phantom Jump! You will get to select two different half-decks from a variety of themes in <i>Tarkir: Dragonstorm</i>. Combine them, and you'll have a deck that's ready to go. Unlike regular Jump In, cards from this event will not be added to your collection.",
         "translation": "欢迎参加周中万智牌！万智牌竞技场每周玩法花样百出，次次活动都有全新感受！\n\n本周的活动是幻影速学！你需要从<i>鞑契龙岚录</i>的多种不同主题的半副套牌中选择两种，将它们组合在一起，就有了一副能够即时开战的套牌。与往常的「速学！」不同，本次活动的牌张不会加入你的收藏。"
+    },
+    "Events/Event_Desc_MWM_JumpIn_TLA": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\nThis week's event is Jump into <i>Magic: The Gathering | Avatar: The Last Airbender™</i>! You will get to select two different half-decks from a variety of themes from the latest set. Combine them, and you'll have a deck that's ready to go. Unlike regular Jump In, cards from this event will not be added to your collection.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\nThis week's event is Jump into <i>Magic: The Gathering | Avatar: The Last Airbender™</i>! You will get to select two different half-decks from a variety of themes from the latest set. Combine them, and you'll have a deck that's ready to go. Unlike regular Jump In, cards from this event will not be added to your collection."
     },
     "Events/Event_Desc_MWM_Jumpstart2025": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is phantom Foundations Jumpstart! You will get to select two different half-decks from a variety of themes in Magic: The Gathering Foundations. Combine them, and you'll have a deck that's ready to go. Unlike regular Jump In, cards from this event will not be added to your collection.",
@@ -25235,6 +25547,34 @@
         "oracleText": "You'll receive 6 fourteen-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win.",
         "translation": "你将得到6包14张牌的补充包。补充包内的牌张都会加入你的收藏，而你将利用这些牌外加基本地来构筑一副40张的套牌进行游戏。不断进行对战，最后根据胜场数量赢得奖励"
     },
+    "Events/Event_Desc_Sealed_TLA": {
+        "oracleText": "$/Events/Event_Desc_Sealed_TLA_Base$\n\nEach Theme also comes with a guaranteed copy of a Card for your pool.\n\n$/Events/Promo/W_Aang$\n$/Events/Promo/U_Katara$\n$/Events/Promo/B_Azula$\n$/Events/Promo/R_Zuko$\n$/Events/Promo/G_Toph$\n\n$/Events/TLA_Limited_Archetypes$",
+        "translation": "$/Events/Event_Desc_Sealed_TLA_Base$\n\nEach Theme also comes with a guaranteed copy of a Card for your pool.\n\n$/Events/Promo/W_Aang$\n$/Events/Promo/U_Katara$\n$/Events/Promo/B_Azula$\n$/Events/Promo/R_Zuko$\n$/Events/Promo/G_Toph$\n\n$/Events/TLA_Limited_Archetypes$"
+    },
+    "Events/Event_Desc_Sealed_TLA_Aang": {
+        "oracleText": "$/Events/Event_Desc_Sealed_TLA_Base$\n\n$/Events/Promo/Aang$\n\n$/Events/TLA_Limited_Archetypes$",
+        "translation": "$/Events/Event_Desc_Sealed_TLA_Base$\n\n$/Events/Promo/Aang$\n\n$/Events/TLA_Limited_Archetypes$"
+    },
+    "Events/Event_Desc_Sealed_TLA_Azula": {
+        "oracleText": "$/Events/Event_Desc_Sealed_TLA_Base$\n\n$/Events/Promo/Azula$\n\n$/Events/TLA_Limited_Archetypes$",
+        "translation": "$/Events/Event_Desc_Sealed_TLA_Base$\n\n$/Events/Promo/Azula$\n\n$/Events/TLA_Limited_Archetypes$"
+    },
+    "Events/Event_Desc_Sealed_TLA_Base": {
+        "oracleText": "You'll receive 4 <i>Magic: The Gathering | Avatar: The Last Airbender™</i> packs and 2 special themed <i>Magic: The Gathering | Avatar: The Last Airbender™</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!",
+        "translation": "You'll receive 4 <i>Magic: The Gathering | Avatar: The Last Airbender™</i> packs and 2 special themed <i>Magic: The Gathering | Avatar: The Last Airbender™</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!"
+    },
+    "Events/Event_Desc_Sealed_TLA_Katara": {
+        "oracleText": "$/Events/Event_Desc_Sealed_TLA_Base$\n\n$/Events/Promo/Katara$\n\n$/Events/TLA_Limited_Archetypes$",
+        "translation": "$/Events/Event_Desc_Sealed_TLA_Base$\n\n$/Events/Promo/Katara$\n\n$/Events/TLA_Limited_Archetypes$"
+    },
+    "Events/Event_Desc_Sealed_TLA_Toph": {
+        "oracleText": "$/Events/Event_Desc_Sealed_TLA_Base$\n\n$/Events/Promo/Toph$\n\n$/Events/TLA_Limited_Archetypes$",
+        "translation": "$/Events/Event_Desc_Sealed_TLA_Base$\n\n$/Events/Promo/Toph$\n\n$/Events/TLA_Limited_Archetypes$"
+    },
+    "Events/Event_Desc_Sealed_TLA_Zuko": {
+        "oracleText": "$/Events/Event_Desc_Sealed_TLA_Base$\n\n$/Events/Promo/Zuko$\n\n$/Events/TLA_Limited_Archetypes$",
+        "translation": "$/Events/Event_Desc_Sealed_TLA_Base$\n\n$/Events/Promo/Zuko$\n\n$/Events/TLA_Limited_Archetypes$"
+    },
     "Events/Event_Desc_Sealed_VOW": {
         "oracleText": "You'll receive 6 fourteen-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!",
         "translation": "你将获得6个14张的补充包。 这些牌会加入你的收藏。 你将使用这些牌加上基本地来构筑40张的套牌进行游戏。 你将得到的奖励取决于你的胜场!"
@@ -25350,6 +25690,18 @@
     "Events/Event_Desc_THB_Quick_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers",
         "translation": "每次从传过来的轮抽卡包中选一张牌，这些牌会加入你的收藏，你将使用这些牌加上基本地来构筑40张的套牌开始游戏。你将得到的奖励取决于你的胜场!\n\n人机轮抽～与AI进行轮抽，无需等待，也不限制选牌时间"
+    },
+    "Events/Event_Desc_TLA_Premier_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n$/Events/TLA_Limited_Archetypes$",
+        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n$/Events/TLA_Limited_Archetypes$"
+    },
+    "Events/Event_Desc_TLA_Quick_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers.\n\n$/Events/TLA_Limited_Archetypes$",
+        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers.\n\n$/Events/TLA_Limited_Archetypes$"
+    },
+    "Events/Event_Desc_TLA_Trad_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n$/Events/TLA_Limited_Archetypes$",
+        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n$/Events/TLA_Limited_Archetypes$"
     },
     "Events/Event_Desc_Taste_ELD": {
         "oracleText": "Explore the Realm and the Wilds of <i>Eldraine</i>! We'll provide the decks for you to get a quick taste of the new set.",
@@ -25498,6 +25850,34 @@
     "Events/Event_Desc_Trad_Sealed_TDM": {
         "oracleText": "You'll receive 6 <i>Tarkir: Dragonstorm</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Mardu Mobilize</b> Create additional tokens to help aid in your attack.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Go Wide Tokens</b> Blitz by your opponent with sheer numbers. Use Mobilize tokens and Flurry rewards to build impressive battlefields.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Jeskai Flurry</b> Cast two (or more!) spells in a single turn to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Two Spells</b> Use Harmonize spells frequently in order to reap the rewards from Flurry.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Temur Harmonize</b> Cast your spells twice with help of your biggest creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Leaves the Graveyard</b> Fill up your graveyard, then use Mobilize or Renew and others to get bonuses for cards leaving your graveyard.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Sultai Renew</b> Use the power of the graveyard to make your creatures stronger.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Counters</b> Use counters of any kind, not just +1/+1 counters, to make your creatures impressive in combat.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Abzan Endure</b> Your creatures are versatile!  Outsize your opponents with +1/+1 counters or outflank them with spirit tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Sacrifice</b> Sacrifice your extra creatures, such as your temporary creatures from Horde to get extra use out of those creatures.",
         "translation": "你会得到6包<i>鞑契龙岚录</i>补充包。这些牌张将加入你的收藏，而你将使用它们和基本地来构组一副40张的套牌。不断进行三盘两胜制的对局，最后根据胜场数量赢得奖励！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>玛尔都动员</b> 派出额外的衍生物来帮助你进行攻击。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>衍生物铺场</b> 用数量优势冲击你的对手。使用动员的衍生物和连咒收益来建立非凡场面。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>洁斯凯连咒</b> 在一个回合内施放两个（或更多！）咒语来压倒你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>两次咒语</b> 频繁使用谐颂咒语以获取连咒收益。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>铁木尔谐颂</b> 让你最大的生物帮助你施放两次咒语。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>离开坟场</b> 填满你的坟墓场，然后使用动员或复新之类的获得卡牌离开你坟墓场的奖励。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>苏勒台复新</b> 利用坟墓场的力量使你的生物更强大。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>指示物</b> 使用任何类型的指示物，不仅仅是+1/+1指示物，让你的生物在战斗中鹤立鸡群。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>阿布赞续战</b> 你的生物多才多艺！用+1/+1指示物压倒对手或用精怪衍生物包抄他们。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>牺牲</b> 牺牲你的额外生物，比如从战群获得的临时生物，充分利用这些生物。"
+    },
+    "Events/Event_Desc_Trad_Sealed_TLA": {
+        "oracleText": "$/Events/Event_Desc_Trad_Sealed_TLA_Base$\n\nEach Theme also comes with a guaranteed copy of a Card for your pool.\n$/Events/Promo/W_Aang$\n$/Events/Promo/U_Katara$\n$/Events/Promo/B_Azula$\n$/Events/Promo/R_Zuko$\n$/Events/Promo/G_Toph$\n\n$/Events/TLA_Limited_Archetypes$",
+        "translation": "$/Events/Event_Desc_Trad_Sealed_TLA_Base$\n\nEach Theme also comes with a guaranteed copy of a Card for your pool.\n$/Events/Promo/W_Aang$\n$/Events/Promo/U_Katara$\n$/Events/Promo/B_Azula$\n$/Events/Promo/R_Zuko$\n$/Events/Promo/G_Toph$\n\n$/Events/TLA_Limited_Archetypes$"
+    },
+    "Events/Event_Desc_Trad_Sealed_TLA_Aang": {
+        "oracleText": "$/Events/Event_Desc_Trad_Sealed_TLA_Base$\n\n$/Events/Promo/Aang$\n\n$/Events/TLA_Limited_Archetypes$",
+        "translation": "$/Events/Event_Desc_Trad_Sealed_TLA_Base$\n\n$/Events/Promo/Aang$\n\n$/Events/TLA_Limited_Archetypes$"
+    },
+    "Events/Event_Desc_Trad_Sealed_TLA_Azula": {
+        "oracleText": "$/Events/Event_Desc_Trad_Sealed_TLA_Base$\n\n$/Events/Promo/Azula$\n\n$/Events/TLA_Limited_Archetypes$",
+        "translation": "$/Events/Event_Desc_Trad_Sealed_TLA_Base$\n\n$/Events/Promo/Azula$\n\n$/Events/TLA_Limited_Archetypes$"
+    },
+    "Events/Event_Desc_Trad_Sealed_TLA_Base": {
+        "oracleText": "You'll receive 4 <i>Magic: The Gathering | Avatar: The Last Airbender™</i> packs and 2 special themed <i>Magic: The Gathering | Avatar: The Last Airbender™</i> packs.  The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!",
+        "translation": "You'll receive 4 <i>Magic: The Gathering | Avatar: The Last Airbender™</i> packs and 2 special themed <i>Magic: The Gathering | Avatar: The Last Airbender™</i> packs.  The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!"
+    },
+    "Events/Event_Desc_Trad_Sealed_TLA_Katara": {
+        "oracleText": "$/Events/Event_Desc_Trad_Sealed_TLA_Base$\n\n$/Events/Promo/Katara$\n\n$/Events/TLA_Limited_Archetypes$",
+        "translation": "$/Events/Event_Desc_Trad_Sealed_TLA_Base$\n\n$/Events/Promo/Katara$\n\n$/Events/TLA_Limited_Archetypes$"
+    },
+    "Events/Event_Desc_Trad_Sealed_TLA_Toph": {
+        "oracleText": "$/Events/Event_Desc_Trad_Sealed_TLA_Base$\n\n$/Events/Promo/Toph$\n\n$/Events/TLA_Limited_Archetypes$",
+        "translation": "$/Events/Event_Desc_Trad_Sealed_TLA_Base$\n\n$/Events/Promo/Toph$\n\n$/Events/TLA_Limited_Archetypes$"
+    },
+    "Events/Event_Desc_Trad_Sealed_TLA_Zuko": {
+        "oracleText": "$/Events/Event_Desc_Trad_Sealed_TLA_Base$\n\n$/Events/Promo/Zuko$\n\n$/Events/TLA_Limited_Archetypes$",
+        "translation": "$/Events/Event_Desc_Trad_Sealed_TLA_Base$\n\n$/Events/Promo/Zuko$\n\n$/Events/TLA_Limited_Archetypes$"
     },
     "Events/Event_Desc_Trad_Sealed_VOW": {
         "oracleText": "You'll receive 6 fourteen-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!",
@@ -26126,6 +26506,10 @@
     "Events/Event_Title_ArenaDirect_TDM_Play_Sealed": {
         "oracleText": "Arena Direct - Sealed Tarkir: Dragonstorm Play Booster",
         "translation": "竞技场直邮赛 - 鞑契龙岚录现开（常规补充包）"
+    },
+    "Events/Event_Title_ArenaDirect_TLA_Collector_Sealed": {
+        "oracleText": "Arena Direct - Sealed Magic: The Gathering | Avatar: The Last Airbender™ Collector Booster Boxes",
+        "translation": "Arena Direct - Sealed Magic: The Gathering | Avatar: The Last Airbender™ Collector Booster Boxes"
     },
     "Events/Event_Title_ArenaDirect_WOE_Sealed": {
         "oracleText": "Arena Direct - Sealed Wilds of Eldraine",
@@ -27499,6 +27883,10 @@
         "oracleText": "Jump In: The Lord of the Rings: Tales of Middle-earth",
         "translation": "速学：魔戒：中洲传说"
     },
+    "Events/Event_Title_Jump_In_TLA": {
+        "oracleText": "Jump Into Magic: The Gathering | Avatar: The Last Airbender™",
+        "translation": "Jump Into Magic: The Gathering | Avatar: The Last Airbender™"
+    },
     "Events/Event_Title_Jumpstart2025": {
         "oracleText": "Foundations Jumpstart",
         "translation": "基石构筑速战"
@@ -27915,6 +28303,10 @@
         "oracleText": "Midweek Magic: Through the Omenpaths Foundations",
         "translation": "周中万智牌：穿越预兆路 & 基石构筑"
     },
+    "Events/Event_Title_MWM_FDNPlus": {
+        "oracleText": "Midweek Magic: Magic: The Gathering | Avatar: The Last Airbender™ + Foundations",
+        "translation": "Midweek Magic: Magic: The Gathering | Avatar: The Last Airbender™ + Foundations"
+    },
     "Events/Event_Title_MWM_FINConstructed": {
         "oracleText": "Midweek Magic: Magic: The Gathering—FINAL FANTASY Constructed",
         "translation": "周中万智牌：万智牌～最终幻想构筑"
@@ -28006,6 +28398,10 @@
     "Events/Event_Title_MWM_JumpIn_OTJ": {
         "oracleText": "Midweek Magic: Jump In",
         "translation": "周中万智牌：速学"
+    },
+    "Events/Event_Title_MWM_JumpIn_TLA": {
+        "oracleText": "Midweek Magic: Jump Into Magic: The Gathering | Avatar: The Last Airbender™",
+        "translation": "Midweek Magic: Jump Into Magic: The Gathering | Avatar: The Last Airbender™"
     },
     "Events/Event_Title_MWM_Jumpstart2025": {
         "oracleText": "Midweek Magic: Foundations Jumpstart",
@@ -28867,6 +29263,30 @@
         "oracleText": "Sealed Theros Beyond Death",
         "translation": "塞洛斯：冥途求生现开"
     },
+    "Events/Event_Title_Sealed_TLA": {
+        "oracleText": "Sealed Magic: The Gathering | Avatar: The Last Airbender™",
+        "translation": "Sealed Magic: The Gathering | Avatar: The Last Airbender™"
+    },
+    "Events/Event_Title_Sealed_TLA_Aang": {
+        "oracleText": "$/Events/Event_Title_Sealed_TLA$ - $/Events/Promo/W_Aang$",
+        "translation": "$/Events/Event_Title_Sealed_TLA$ - $/Events/Promo/W_Aang$"
+    },
+    "Events/Event_Title_Sealed_TLA_Azula": {
+        "oracleText": "$/Events/Event_Title_Sealed_TLA$ - $/Events/Promo/B_Azula$",
+        "translation": "$/Events/Event_Title_Sealed_TLA$ - $/Events/Promo/B_Azula$"
+    },
+    "Events/Event_Title_Sealed_TLA_Katara": {
+        "oracleText": "$/Events/Event_Title_Sealed_TLA$ - $/Events/Promo/U_Katara$",
+        "translation": "$/Events/Event_Title_Sealed_TLA$ - $/Events/Promo/U_Katara$"
+    },
+    "Events/Event_Title_Sealed_TLA_Toph": {
+        "oracleText": "$/Events/Event_Title_Sealed_TLA$ - $/Events/Promo/G_Toph$",
+        "translation": "$/Events/Event_Title_Sealed_TLA$ - $/Events/Promo/G_Toph$"
+    },
+    "Events/Event_Title_Sealed_TLA_Zuko": {
+        "oracleText": "$/Events/Event_Title_Sealed_TLA$ - $/Events/Promo/R_Zuko$",
+        "translation": "$/Events/Event_Title_Sealed_TLA$ - $/Events/Promo/R_Zuko$"
+    },
     "Events/Event_Title_Sealed_VOW": {
         "oracleText": "Sealed Crimson Vow",
         "translation": "腥红婚誓现开"
@@ -28974,6 +29394,18 @@
     "Events/Event_Title_THB_Quick_Draft": {
         "oracleText": "Quick Draft Theros Beyond Death",
         "translation": "塞洛斯：冥途求生快速轮抽"
+    },
+    "Events/Event_Title_TLA_Premier_Draft": {
+        "oracleText": "Premier Draft Magic: The Gathering | Avatar: The Last Airbender™",
+        "translation": "Premier Draft Magic: The Gathering | Avatar: The Last Airbender™"
+    },
+    "Events/Event_Title_TLA_Quick_Draft": {
+        "oracleText": "Quick Draft Magic: The Gathering | Avatar: The Last Airbender™",
+        "translation": "Quick Draft Magic: The Gathering | Avatar: The Last Airbender™"
+    },
+    "Events/Event_Title_TLA_Trad_Draft": {
+        "oracleText": "Traditional Draft Magic: The Gathering | Avatar: The Last Airbender™",
+        "translation": "Traditional Draft Magic: The Gathering | Avatar: The Last Airbender™"
     },
     "Events/Event_Title_Taste_ELD": {
         "oracleText": "Taste of Eldraine",
@@ -29202,6 +29634,30 @@
     "Events/Event_Title_Trad_Sealed_TDM": {
         "oracleText": "Traditional Sealed Tarkir: Dragonstorm",
         "translation": "鞑契龙岚录三盘现开"
+    },
+    "Events/Event_Title_Trad_Sealed_TLA": {
+        "oracleText": "Traditional Sealed Magic: The Gathering | Avatar: The Last Airbender™",
+        "translation": "Traditional Sealed Magic: The Gathering | Avatar: The Last Airbender™"
+    },
+    "Events/Event_Title_Trad_Sealed_TLA_Aang": {
+        "oracleText": "$/Events/Event_Title_Trad_Sealed_TLA$ - $/Events/Promo/W_Aang$",
+        "translation": "$/Events/Event_Title_Trad_Sealed_TLA$ - $/Events/Promo/W_Aang$"
+    },
+    "Events/Event_Title_Trad_Sealed_TLA_Azula": {
+        "oracleText": "$/Events/Event_Title_Trad_Sealed_TLA$ - $/Events/Promo/B_Azula$",
+        "translation": "$/Events/Event_Title_Trad_Sealed_TLA$ - $/Events/Promo/B_Azula$"
+    },
+    "Events/Event_Title_Trad_Sealed_TLA_Katara": {
+        "oracleText": "$/Events/Event_Title_Trad_Sealed_TLA$ - $/Events/Promo/U_Katara$",
+        "translation": "$/Events/Event_Title_Trad_Sealed_TLA$ - $/Events/Promo/U_Katara$"
+    },
+    "Events/Event_Title_Trad_Sealed_TLA_Toph": {
+        "oracleText": "$/Events/Event_Title_Trad_Sealed_TLA$ - $/Events/Promo/G_Toph$",
+        "translation": "$/Events/Event_Title_Trad_Sealed_TLA$ - $/Events/Promo/G_Toph$"
+    },
+    "Events/Event_Title_Trad_Sealed_TLA_Zuko": {
+        "oracleText": "$/Events/Event_Title_Trad_Sealed_TLA$ - $/Events/Promo/R_Zuko$",
+        "translation": "$/Events/Event_Title_Trad_Sealed_TLA$ - $/Events/Promo/R_Zuko$"
     },
     "Events/Event_Title_Trad_Sealed_VOW": {
         "oracleText": "Traditional Sealed Crimson Vow",
@@ -29614,6 +30070,14 @@
     "Events/FIAB_Notice": {
         "oracleText": "This token denotes that you are eligible to receive a physical Festival in a Box",
         "translation": "此代币表示你有资格获得一盒实体的Festival in a Box产品"
+    },
+    "Events/FactionSealed/ChooseYourFaction": {
+        "oracleText": "Choose Your Faction!",
+        "translation": "Choose Your Faction!"
+    },
+    "Events/FactionSealed/EventDescription": {
+        "oracleText": "Choose a faction and build a sealed deck with special faction booster packs. Battle against other players in this faction vs. faction showdown.",
+        "translation": "Choose a faction and build a sealed deck with special faction booster packs. Battle against other players in this faction vs. faction showdown."
     },
     "Events/FirstHistoric_Tag_A": {
         "oracleText": "Historic Anthology 3",
@@ -31279,6 +31743,230 @@
         "oracleText": "Zombies",
         "translation": "灵俑(Zombies)"
     },
+    "Events/Packets/TLA_Aang": {
+        "oracleText": "Aang",
+        "translation": "Aang"
+    },
+    "Events/Packets/TLA_Adaptive": {
+        "oracleText": "Adaptive",
+        "translation": "Adaptive"
+    },
+    "Events/Packets/TLA_Adept": {
+        "oracleText": "Adept",
+        "translation": "Adept"
+    },
+    "Events/Packets/TLA_Airbending": {
+        "oracleText": "Airbending",
+        "translation": "Airbending"
+    },
+    "Events/Packets/TLA_Alliance": {
+        "oracleText": "Alliance",
+        "translation": "Alliance"
+    },
+    "Events/Packets/TLA_AttheZoo": {
+        "oracleText": "At the Zoo",
+        "translation": "At the Zoo"
+    },
+    "Events/Packets/TLA_Azula": {
+        "oracleText": "Azula",
+        "translation": "Azula"
+    },
+    "Events/Packets/TLA_BadAdvice": {
+        "oracleText": "Bad Advice",
+        "translation": "Bad Advice"
+    },
+    "Events/Packets/TLA_BountyHunter": {
+        "oracleText": "Bounty Hunter",
+        "translation": "Bounty Hunter"
+    },
+    "Events/Packets/TLA_Bumi": {
+        "oracleText": "Bumi",
+        "translation": "Bumi"
+    },
+    "Events/Packets/TLA_Cabbages": {
+        "oracleText": "Cabbages",
+        "translation": "Cabbages"
+    },
+    "Events/Packets/TLA_EarthKingdom": {
+        "oracleText": "Earth Kingdom",
+        "translation": "Earth Kingdom"
+    },
+    "Events/Packets/TLA_EarthRumble": {
+        "oracleText": "Earth Rumble",
+        "translation": "Earth Rumble"
+    },
+    "Events/Packets/TLA_Earthbending": {
+        "oracleText": "Earthbending",
+        "translation": "Earthbending"
+    },
+    "Events/Packets/TLA_FireNation": {
+        "oracleText": "Fire Nation",
+        "translation": "Fire Nation"
+    },
+    "Events/Packets/TLA_Firebending": {
+        "oracleText": "Firebending",
+        "translation": "Firebending"
+    },
+    "Events/Packets/TLA_FreedomFighters": {
+        "oracleText": "Freedom Fighters",
+        "translation": "Freedom Fighters"
+    },
+    "Events/Packets/TLA_Gliding": {
+        "oracleText": "Gliding",
+        "translation": "Gliding"
+    },
+    "Events/Packets/TLA_HeiBai": {
+        "oracleText": "Hei Bai",
+        "translation": "Hei Bai"
+    },
+    "Events/Packets/TLA_Hunting": {
+        "oracleText": "Hunting",
+        "translation": "Hunting"
+    },
+    "Events/Packets/TLA_Insurgent": {
+        "oracleText": "Insurgent",
+        "translation": "Insurgent"
+    },
+    "Events/Packets/TLA_Iroh": {
+        "oracleText": "Iroh",
+        "translation": "Iroh"
+    },
+    "Events/Packets/TLA_Katara": {
+        "oracleText": "Katara",
+        "translation": "Katara"
+    },
+    "Events/Packets/TLA_Kyoshi": {
+        "oracleText": "Kyoshi",
+        "translation": "Kyoshi"
+    },
+    "Events/Packets/TLA_Learning": {
+        "oracleText": "Learning",
+        "translation": "Learning"
+    },
+    "Events/Packets/TLA_Lessons": {
+        "oracleText": "Lessons",
+        "translation": "Lessons"
+    },
+    "Events/Packets/TLA_Librarian": {
+        "oracleText": "Librarian",
+        "translation": "Librarian"
+    },
+    "Events/Packets/TLA_Musicians": {
+        "oracleText": "Musicians",
+        "translation": "Musicians"
+    },
+    "Events/Packets/TLA_Nightmares": {
+        "oracleText": "Nightmares",
+        "translation": "Nightmares"
+    },
+    "Events/Packets/TLA_Ozai": {
+        "oracleText": "Ozai",
+        "translation": "Ozai"
+    },
+    "Events/Packets/TLA_Powerful": {
+        "oracleText": "Powerful",
+        "translation": "Powerful"
+    },
+    "Events/Packets/TLA_Rebelling": {
+        "oracleText": "Rebelling",
+        "translation": "Rebelling"
+    },
+    "Events/Packets/TLA_Reinforced": {
+        "oracleText": "Reinforced",
+        "translation": "Reinforced"
+    },
+    "Events/Packets/TLA_Relentless": {
+        "oracleText": "Relentless",
+        "translation": "Relentless"
+    },
+    "Events/Packets/TLA_Roku": {
+        "oracleText": "Roku",
+        "translation": "Roku"
+    },
+    "Events/Packets/TLA_Shrines": {
+        "oracleText": "Shrines",
+        "translation": "Shrines"
+    },
+    "Events/Packets/TLA_SiegeEngines": {
+        "oracleText": "Siege Engines",
+        "translation": "Siege Engines"
+    },
+    "Events/Packets/TLA_Soaring": {
+        "oracleText": "Soaring",
+        "translation": "Soaring"
+    },
+    "Events/Packets/TLA_SparkySparky": {
+        "oracleText": "Sparky Sparky",
+        "translation": "Sparky Sparky"
+    },
+    "Events/Packets/TLA_Spirit": {
+        "oracleText": "Spirit",
+        "translation": "Spirit"
+    },
+    "Events/Packets/TLA_Swordmaster": {
+        "oracleText": "Swordmaster",
+        "translation": "Swordmaster"
+    },
+    "Events/Packets/TLA_Toph": {
+        "oracleText": "Toph",
+        "translation": "Toph"
+    },
+    "Events/Packets/TLA_Underwater": {
+        "oracleText": "Underwater",
+        "translation": "Underwater"
+    },
+    "Events/Packets/TLA_Warriors": {
+        "oracleText": "Warriors",
+        "translation": "Warriors"
+    },
+    "Events/Packets/TLA_Wise": {
+        "oracleText": "Wise",
+        "translation": "Wise"
+    },
+    "Events/Packets/TLA_Zuko": {
+        "oracleText": "Zuko",
+        "translation": "Zuko"
+    },
+    "Events/Promo/Aang": {
+        "oracleText": "Pool is guaranteed to have 1 copy of: <sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> Aang, the Last Airbender",
+        "translation": "Pool is guaranteed to have 1 copy of: <sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> Aang, the Last Airbender"
+    },
+    "Events/Promo/Azula": {
+        "oracleText": "Pool is guaranteed to have 1 copy of: <sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Azula, On the Hunt",
+        "translation": "Pool is guaranteed to have 1 copy of: <sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Azula, On the Hunt"
+    },
+    "Events/Promo/B_Azula": {
+        "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Azula, On the Hunt",
+        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Azula, On the Hunt"
+    },
+    "Events/Promo/G_Toph": {
+        "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> Toph, the Blind Bandit",
+        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> Toph, the Blind Bandit"
+    },
+    "Events/Promo/Katara": {
+        "oracleText": "Pool is guaranteed to have 1 copy of: <sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Katara, Bending Prodigy",
+        "translation": "Pool is guaranteed to have 1 copy of: <sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Katara, Bending Prodigy"
+    },
+    "Events/Promo/R_Zuko": {
+        "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> Zuko, Exiled Prince",
+        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> Zuko, Exiled Prince"
+    },
+    "Events/Promo/Toph": {
+        "oracleText": "Pool is guaranteed to have 1 copy of: <sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> Toph, the Blind Bandit",
+        "translation": "Pool is guaranteed to have 1 copy of: <sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> Toph, the Blind Bandit"
+    },
+    "Events/Promo/U_Katara": {
+        "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Katara, Bending Prodigy",
+        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Katara, Bending Prodigy"
+    },
+    "Events/Promo/W_Aang": {
+        "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> Aang, the Last Airbender",
+        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> Aang, the Last Airbender"
+    },
+    "Events/Promo/Zuko": {
+        "oracleText": "Pool is guaranteed to have 1 copy of: <sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> Zuko, Exiled Prince",
+        "translation": "Pool is guaranteed to have 1 copy of: <sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> Zuko, Exiled Prince"
+    },
     "Events/QW_Notice": {
         "oracleText": "This qualifies you for the associated Qualifier Weekend event. <b>Join from 6am - 8am PT.</b>",
         "translation": "这使你有资格参加相关的资格赛周末赛事。<b>在太平洋时间(PT)上午6 点-上午8 点参加。</b>"
@@ -31342,6 +32030,10 @@
     "Events/Sideboard_unlimited": {
         "oracleText": "Sideboard: Unlimited",
         "translation": "备牌：不限数量"
+    },
+    "Events/TLA_Limited_Archetypes": {
+        "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Flyers</b> Take to the skies with Aang and his friends! Gather a team of flyers and soar like an Airbender.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Draw Two</b> Hunt for knowledge, using Clues and other draw effects to trigger your second-draw reward cards.  The long game is yours!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Fire Nation Aggro</b> Everything changes when the Fire Nation attacks! Be aggressive with firebending and burn it on extra effects.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Earth Rumble Ramp</b> Use mana ramp and earthbending to create 4+ power creatures, then rack up the bonuses to claim the title belt.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Allies</b> A world united is unstoppable.  Play Allies and generate tokens to go wide and hit your enemies hard from all sides.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Sacrifice</b> Victory comes at a cost.  Play small creatures and clues, then gain the upper hand when you sacrifice them.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Combat Lessons</b> Play creatures that care about casting noncreature spells, then teach your foes a lesson with your martial prowess!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>+1/+1 Counters</b> Accrue power by any means! Stack up counters to gain bonuses and control the Early Kingdom from within.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Go Wide Aggro</b> Lead the rebellion with an army of Allies and tokens that you can enhance for devastating attacks.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Ramp + Lessons</b> Turn your knowledge into power! Ramp and draw cards to play big creatures while getting Lessons in your graveyard.",
+        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Flyers</b> Take to the skies with Aang and his friends! Gather a team of flyers and soar like an Airbender.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Draw Two</b> Hunt for knowledge, using Clues and other draw effects to trigger your second-draw reward cards.  The long game is yours!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Fire Nation Aggro</b> Everything changes when the Fire Nation attacks! Be aggressive with firebending and burn it on extra effects.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Earth Rumble Ramp</b> Use mana ramp and earthbending to create 4+ power creatures, then rack up the bonuses to claim the title belt.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Allies</b> A world united is unstoppable.  Play Allies and generate tokens to go wide and hit your enemies hard from all sides.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Sacrifice</b> Victory comes at a cost.  Play small creatures and clues, then gain the upper hand when you sacrifice them.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Combat Lessons</b> Play creatures that care about casting noncreature spells, then teach your foes a lesson with your martial prowess!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>+1/+1 Counters</b> Accrue power by any means! Stack up counters to gain bonuses and control the Early Kingdom from within.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Go Wide Aggro</b> Lead the rebellion with an army of Allies and tokens that you can enhance for devastating attacks.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Ramp + Lessons</b> Turn your knowledge into power! Ramp and draw cards to play big creatures while getting Lessons in your graveyard."
     },
     "Events/Tokens/ArenaDay2Description": {
         "oracleText": "Open Day Two Qualification\nJoin between 6am and 8am Pacific",
@@ -32011,6 +32703,10 @@
         "oracleText": "{quantity} Sealed Token",
         "translation": "{quantity}张现开门票"
     },
+    "Events/Tokens/TLAEarlyAccess": {
+        "oracleText": "Magic: The Gathering | Avatar: The Last Airbender™ Early Access",
+        "translation": "Magic: The Gathering | Avatar: The Last Airbender™ Early Access"
+    },
     "Events/Tokens/Token_AltOpenDay2Draft2Plural": {
         "oracleText": "Open Day 2 Draft Two",
         "translation": "公开赛 - 第二天 二次轮抽"
@@ -32670,6 +33366,14 @@
     "General/Sets/THB": {
         "oracleText": "Theros Beyond Death",
         "translation": "塞洛斯：冥途求生"
+    },
+    "General/Sets/TLA": {
+        "oracleText": "Magic: The Gathering | Avatar: The Last Airbender™",
+        "translation": "Magic: The Gathering | Avatar: The Last Airbender™"
+    },
+    "General/Sets/TLE": {
+        "oracleText": "Avatar: The Last Airbender Extra",
+        "translation": "Avatar: The Last Airbender Extra"
     },
     "General/Sets/VOW": {
         "oracleText": "Innistrad: Crimson Vow",
@@ -33683,6 +34387,10 @@
         "oracleText": "Theros",
         "translation": "塞洛斯"
     },
+    "MainNav/BattlePass/BattlePass_TLA": {
+        "oracleText": "Avatar: The Last Airbender",
+        "translation": "Avatar: The Last Airbender"
+    },
     "MainNav/BattlePass/BattlePass_VOW": {
         "oracleText": "Crimson Vow",
         "translation": "腥红婚誓"
@@ -33999,6 +34707,10 @@
         "oracleText": "Tarkir: Dragonstorm Set Mastery",
         "translation": "鞑契龙岚录精研通行证"
     },
+    "MainNav/BattlePass/MasteryListingTitle_TLA": {
+        "oracleText": "Avatar: The Last Airbender Set Mastery",
+        "translation": "Avatar: The Last Airbender Set Mastery"
+    },
     "MainNav/BattlePass/MasteryListingTitle_WOE": {
         "oracleText": "Wilds of Eldraine Set Mastery",
         "translation": "艾卓仙踪精研通行证"
@@ -34110,6 +34822,10 @@
     "MainNav/BattlePass/Mastery_Header_TDM": {
         "oracleText": "Tarkir: Dragonstorm Mastery",
         "translation": "鞑契龙岚录精研通行证"
+    },
+    "MainNav/BattlePass/Mastery_Header_TLA": {
+        "oracleText": "Avatar: The Last Airbender Mastery",
+        "translation": "Avatar: The Last Airbender Mastery"
     },
     "MainNav/BattlePass/Mastery_Header_VOW": {
         "oracleText": "Innistrad: Crimson Vow Mastery Pass",
@@ -34554,6 +35270,10 @@
     "MainNav/CardViewer/Crafting/WildcardsConsumed_Singular": {
         "oracleText": "Crafting will consume 1 {rarity} Wildcard.",
         "translation": "合成所选牌张将消耗1张{rarity}万用牌。"
+    },
+    "MainNav/Challenges/JoinChallenge_Button": {
+        "oracleText": "Join Challenge",
+        "translation": "Join Challenge"
     },
     "MainNav/ChangeDeckPoptart/BottomLine": {
         "oracleText": "(Earn daily and weekly rewards with Standard decks or in Historic modes.)",
@@ -37138,6 +37858,10 @@
     "MainNav/DeckBuilder/Sleeves/CardBack_DC22_50828": {
         "oracleText": "Sundering Titan Silver Sleeve",
         "translation": "裂地泰坦白银牌套"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_DDB_340156": {
+        "oracleText": "Lorwyn: First Light Sleeve",
+        "translation": "Lorwyn: First Light Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_DFT_445426": {
         "oracleText": "Bestow Greatness Sleeve",
@@ -40179,6 +40903,30 @@
         "oracleText": "Vraska, Golgari Queen Sleeve",
         "translation": "葛加理女王瓦丝卡牌套"
     },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_451789": {
+        "oracleText": "Serra Ascendent Sleeve",
+        "translation": "Serra Ascendent Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_451791": {
+        "oracleText": "Ponder Sleeve",
+        "translation": "Ponder Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_451793": {
+        "oracleText": "Torment of Hailfire Sleeve",
+        "translation": "Torment of Hailfire Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_451795": {
+        "oracleText": "Blood Moon Sleeve",
+        "translation": "Blood Moon Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_451796": {
+        "oracleText": "Dramatic Entrance Sleeve",
+        "translation": "Dramatic Entrance Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_451797": {
+        "oracleText": "Lightning Bolt Sleeve",
+        "translation": "Lightning Bolt Sleeve"
+    },
     "MainNav/DeckBuilder/Sleeves/CardBack_RD_453640": {
         "oracleText": "Agent of Treachery Sleeve",
         "translation": "谗言密探牌套"
@@ -40347,6 +41095,10 @@
         "oracleText": "Rip Apart Sleeve",
         "translation": "拆离牌套"
     },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_456564": {
+        "oracleText": "Lightning Bolt Sleeve",
+        "translation": "Lightning Bolt Sleeve"
+    },
     "MainNav/DeckBuilder/Sleeves/CardBack_RD_456773": {
         "oracleText": "Thrill of Possibillity Sleeve",
         "translation": "快意拼搏牌套"
@@ -40434,6 +41186,74 @@
     "MainNav/DeckBuilder/Sleeves/CardBack_RD_458304": {
         "oracleText": "Arcbound Ravager Sleeve",
         "translation": "能缰吞噬兽牌套"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_459213": {
+        "oracleText": "Silence Sleeve",
+        "translation": "Silence Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_459214": {
+        "oracleText": "Preordain Sleeve",
+        "translation": "Preordain Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_459215": {
+        "oracleText": "Painful Truths Sleeve",
+        "translation": "Painful Truths Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_459216": {
+        "oracleText": "Past in Flames Sleeve",
+        "translation": "Past in Flames Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_459217": {
+        "oracleText": "Force of Vigor Sleeve",
+        "translation": "Force of Vigor Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_459218": {
+        "oracleText": "Expressive Iteration Sleeve",
+        "translation": "Expressive Iteration Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_459219": {
+        "oracleText": "Chain of Vapor Sleeve",
+        "translation": "Chain of Vapor Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_459220": {
+        "oracleText": "Meltdown Sleeve",
+        "translation": "Meltdown Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_459221": {
+        "oracleText": "Nature's Claim Sleeve",
+        "translation": "Nature's Claim Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_459222": {
+        "oracleText": "Putrefy Sleeve",
+        "translation": "Putrefy Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_459223": {
+        "oracleText": "Anguished Unmaking Sleeve",
+        "translation": "Anguished Unmaking Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_459224": {
+        "oracleText": "Cursed Mirror Sleeve",
+        "translation": "Cursed Mirror Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_459225": {
+        "oracleText": "Thespian's Stage Sleeve",
+        "translation": "Thespian's Stage Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_459226": {
+        "oracleText": "Phantasmal Image Sleeve",
+        "translation": "Phantasmal Image Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_459227": {
+        "oracleText": "Mask of Memory Sleeve",
+        "translation": "Mask of Memory Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_459228": {
+        "oracleText": "Braid of Fire Sleeve",
+        "translation": "Braid of Fire Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_RD_459231": {
+        "oracleText": "Kodama's Reach Sleeve",
+        "translation": "Kodama's Reach Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_REX_440587": {
         "oracleText": "Dilophosaurus Sleeve",
@@ -40755,6 +41575,42 @@
         "oracleText": "Elspeth's Nightmare Sleeve",
         "translation": "艾紫培的梦魇牌套"
     },
+    "MainNav/DeckBuilder/Sleeves/CardBack_TLA_452929": {
+        "oracleText": "Fire Lord Azula Sleeve",
+        "translation": "Fire Lord Azula Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_TLA_453513": {
+        "oracleText": "Aang, Swift Savior Sleeve",
+        "translation": "Aang, Swift Savior Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_TLA_453514": {
+        "oracleText": "United Front Sleeve",
+        "translation": "United Front Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_TLA_453515": {
+        "oracleText": "Katara, the Fearless Sleeve",
+        "translation": "Katara, the Fearless Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_TLA_453516": {
+        "oracleText": "Fire Lord Zuko Sleeve",
+        "translation": "Fire Lord Zuko Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_TLA_453517": {
+        "oracleText": "Sozin's Comet Sleeve",
+        "translation": "Sozin's Comet Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_TLA_453518": {
+        "oracleText": "Toph, the First Metalbender Sleeve",
+        "translation": "Toph, the First Metalbender Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_TLA_453519": {
+        "oracleText": "Ozai, the Phoenix King Sleeve",
+        "translation": "Ozai, the Phoenix King Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_TLA_453569": {
+        "oracleText": "Avatar Destiny Sleeve",
+        "translation": "Avatar Destiny Sleeve"
+    },
     "MainNav/DeckBuilder/Sleeves/CardBack_TLA_456584_A": {
         "oracleText": "Aang Sleeve",
         "translation": "安昂牌套"
@@ -40766,6 +41622,18 @@
     "MainNav/DeckBuilder/Sleeves/CardBack_TLA_456584_S": {
         "oracleText": "Sokka Sleeve",
         "translation": "索卡牌套"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_TLA_456591": {
+        "oracleText": "New Adventures Sleeve",
+        "translation": "New Adventures Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_TLA_456592": {
+        "oracleText": "Master the Elements Exquisite Sleeve",
+        "translation": "Master the Elements Exquisite Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_TLA_460387": {
+        "oracleText": "Aang and La, Ocean's Fury Sleeve",
+        "translation": "Aang and La, Ocean's Fury Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_UNF_400465": {
         "oracleText": "Spike, Tournament Grinder Sleeve",
@@ -41342,6 +42210,10 @@
     "MainNav/DeckFormat/FDNOM1": {
         "oracleText": "Through the Omenpaths Foundations",
         "translation": "穿越预兆路 & 基石构筑"
+    },
+    "MainNav/DeckFormat/FDNTLA": {
+        "oracleText": "Magic: The Gathering | Avatar: The Last Airbender™ Foundations",
+        "translation": "Magic: The Gathering | Avatar: The Last Airbender™ Foundations"
     },
     "MainNav/DeckFormat/FIN": {
         "oracleText": "Magic: The Gathering—FINAL FANTASY Constructed",
@@ -41962,6 +42834,10 @@
     "MainNav/DeckManager/StarterDecks_Folder": {
         "oracleText": "Starter Decks",
         "translation": "新手套牌"
+    },
+    "MainNav/DeckManager/TLA_StoryDecks_Folder": {
+        "oracleText": "Magic: The Gathering | Avatar: The Last Airbender™ Story Decks",
+        "translation": "Magic: The Gathering | Avatar: The Last Airbender™ Story Decks"
     },
     "MainNav/DeckManager/Tooltip_PlayMoreColorChallenges": {
         "oracleText": "Play more {color} Color Challenge games to fully unlock or edit this deck",
@@ -42586,6 +43462,14 @@
     "MainNav/EventRewards/ArenaDirect_TDM_Token_Desc": {
         "oracleText": "These tokens represent that you are eligible to receive physical <i>Tarkir: Dragonstorm</i> Play Booster Boxes",
         "translation": "这些代币表示您有资格获得实体<i>鞑契龙岚录</i>系列补充包"
+    },
+    "MainNav/EventRewards/ArenaDirect_TLA_CollectorPlural": {
+        "oracleText": "{number1} Magic: The Gathering | Avatar: The Last Airbender™ Collector Booster Boxes",
+        "translation": "{number1} Magic: The Gathering | Avatar: The Last Airbender™ Collector Booster Boxes"
+    },
+    "MainNav/EventRewards/ArenaDirect_TLA_CollectorSingular": {
+        "oracleText": "{number1} Magic: The Gathering | Avatar: The Last Airbender™ Collector Booster Box",
+        "translation": "{number1} Magic: The Gathering | Avatar: The Last Airbender™ Collector Booster Box"
     },
     "MainNav/EventRewards/ArenaDirect_WOE_SETDesc": {
         "oracleText": "This token denotes that you are eligible to receive a physical Wilds of Eldraine Set Booster Box",
@@ -44019,6 +44903,18 @@
         "oracleText": "Temur Stone Sticker Emote",
         "translation": "铁木尔「石像」贴纸表情"
     },
+    "MainNav/EventRewards/Sticker_TLA_Hybrid_Animals": {
+        "oracleText": "Hybrid Animals Sticker Emote",
+        "translation": "Hybrid Animals Sticker Emote"
+    },
+    "MainNav/EventRewards/Sticker_TLA_Iroh_Tea": {
+        "oracleText": "Iroh Tea Sticker Emote",
+        "translation": "Iroh Tea Sticker Emote"
+    },
+    "MainNav/EventRewards/Sticker_TLA_My_Cabbages": {
+        "oracleText": "My Cabbages Sticker Emote",
+        "translation": "My Cabbages Sticker Emote"
+    },
     "MainNav/EventRewards/Sticker_WOE_Agatha_Food": {
         "oracleText": "Agatha Food Sticker Emote",
         "translation": "阿加莎食品贴纸表情"
@@ -45015,6 +45911,18 @@
         "oracleText": "{x}/{y}",
         "translation": "{x}/{y}"
     },
+    "MainNav/HomePage/2025_11_25_DDB_LorwynGuidebook_Desc": {
+        "oracleText": "Purchase <i>Lorwyn: First Light</i> on D&D Beyond with a linked Wizards account by the end of 2025 to claim Arena rewards—a sleeve and Rhys the Redeemed.",
+        "translation": "Purchase <i>Lorwyn: First Light</i> on D&D Beyond with a linked Wizards account by the end of 2025 to claim Arena rewards—a sleeve and Rhys the Redeemed."
+    },
+    "MainNav/HomePage/2025_11_25_DDB_LorwynGuidebook_Title": {
+        "oracleText": "Unlock Lorwyn: First Light Arena Rewards",
+        "translation": "Unlock Lorwyn: First Light Arena Rewards"
+    },
+    "MainNav/HomePage/2025_ECL_StoryPodcast_2_Title": {
+        "oracleText": "What's New on Lorwyn and Shadowmoor?",
+        "translation": "What's New on Lorwyn and Shadowmoor?"
+    },
     "MainNav/HomePage/Billboards/EventEndTimer": {
         "oracleText": "Ends in {timeLeft}",
         "translation": "剩余时间：{timeLeft}"
@@ -45639,6 +46547,14 @@
         "oracleText": "Arena Championship 9",
         "translation": "第9届竞技场冠军赛"
     },
+    "MainNav/HomePage/Carousel/2025_12_05_WorldChampionship_31_Desc": {
+        "oracleText": "Click here to watch as the top players of the 2025 season battle for the prestigious title of Magic World Champion!",
+        "translation": "Click here to watch as the top players of the 2025 season battle for the prestigious title of Magic World Champion!"
+    },
+    "MainNav/HomePage/Carousel/2025_12_05_WorldChampionship_31_Title": {
+        "oracleText": "Magic World Championship 31",
+        "translation": "Magic World Championship 31"
+    },
     "MainNav/HomePage/Carousel/2025_46_20_Store_Preorders_Desc": {
         "oracleText": "Check out these Pre-orders in the Store today to help fortify yourself!",
         "translation": "马上来商店看看这些预售商品，为自己增强实力！"
@@ -45714,6 +46630,30 @@
     "MainNav/HomePage/Carousel/2025_52_60_Store_Preorders_Title": {
         "oracleText": "Magic: The Gathering | Avatar: The Last Airbender™ Pre-orders!",
         "translation": "万智牌丨降世神通：最后的气宗预购！"
+    },
+    "MainNav/HomePage/Carousel/2025_53_0_BoxLunch_Desc": {
+        "oracleText": "Avatar: The Last Airbender meets Magic: The Gathering with exclusive clothing, bags, and cards",
+        "translation": "Avatar: The Last Airbender meets Magic: The Gathering with exclusive clothing, bags, and cards"
+    },
+    "MainNav/HomePage/Carousel/2025_53_0_BoxLunch_Title": {
+        "oracleText": "Two Worlds Collide with the BoxLunch Collection",
+        "translation": "Two Worlds Collide with the BoxLunch Collection"
+    },
+    "MainNav/HomePage/Carousel/2025_53_0_Store_Desc": {
+        "oracleText": "Maybe a little something to reinvigorate my battling...",
+        "translation": "Maybe a little something to reinvigorate my battling..."
+    },
+    "MainNav/HomePage/Carousel/2025_53_0_Store_Title": {
+        "oracleText": "Shopping!!",
+        "translation": "Shopping!!"
+    },
+    "MainNav/HomePage/Carousel/2025_ECL_StoryPodcast_1_Desc": {
+        "oracleText": "Prepare for Lorwyn Eclipsed with a recap of all the fae fun from Lorwyn and Shadowmoor!",
+        "translation": "Prepare for Lorwyn Eclipsed with a recap of all the fae fun from Lorwyn and Shadowmoor!"
+    },
+    "MainNav/HomePage/Carousel/2025_ECL_StoryPodcast_2_Desc": {
+        "oracleText": "The Magic Story Podcast discusses Lorwyn Eclipsed with the set's designers. It's time to discover your true self.",
+        "translation": "The Magic Story Podcast discusses Lorwyn Eclipsed with the set's designers. It's time to discover your true self."
     },
     "MainNav/HomePage/Carousel/2025_EOE_WPN_MagicSpotlight_Desc": {
         "oracleText": "$50,000, Pro Tour Invites, and more are up for grabs in Orlando, FL. Sign-up today!",
@@ -49267,6 +50207,14 @@
         "oracleText": "Magic: The Gathering | Avatar: The Last Airbender™ Previews!",
         "translation": "万智牌丨降世神通：最后的气宗预览！"
     },
+    "MainNav/HomePage/Carousel/TLA_SetMastery_Desc": {
+        "oracleText": "Play games and complete quests to help restore balance to the Mastery while you earn Companions, Packs, Orbs, and More!",
+        "translation": "Play games and complete quests to help restore balance to the Mastery while you earn Companions, Packs, Orbs, and More!"
+    },
+    "MainNav/HomePage/Carousel/TLA_SetMastery_Title": {
+        "oracleText": "Embrace Your Destiny!",
+        "translation": "Embrace Your Destiny!"
+    },
     "MainNav/HomePage/Carousel/TheGathering_Desc": {
         "oracleText": "Bring any a 60-card singleton Standard deck - whether you've collected the cards or not!",
         "translation": "带上任何60张无双标准套牌 - 无论你是否已收集到这些牌！"
@@ -49590,6 +50538,10 @@
     "MainNav/HomePage/Carousel/v_Previews_Desc": {
         "oracleText": "Get a look at the cards that will soon be towering over the battlefield by clicking here!",
         "translation": "点击此处查看即将在战场上崭露头角的卡牌！"
+    },
+    "MainNav/HomePage/Carousel2025_ECL_StoryPodcast_1_Title": {
+        "oracleText": "Return to Lorwyn with The Magic Story Podcast",
+        "translation": "Return to Lorwyn with The Magic Story Podcast"
     },
     "MainNav/HomePage/EventBlade/ConstructedRank": {
         "oracleText": "Constructed Rank",
@@ -50947,6 +51899,14 @@
         "oracleText": "Through the Omenpaths!",
         "translation": "穿越预兆路！"
     },
+    "MainNav/Mailbox/2025_53_0_TLA_Announcement_Description": {
+        "oracleText": "Are you ready to find balance within yourself and your decks? Take these 3 packs and some basic lands to help you on your journey mastering all four elements!",
+        "translation": "Are you ready to find balance within yourself and your decks? Take these 3 packs and some basic lands to help you on your journey mastering all four elements!"
+    },
+    "MainNav/Mailbox/2025_53_0_TLA_Announcement_Title": {
+        "oracleText": "Master the Elements!",
+        "translation": "Master the Elements!"
+    },
     "MainNav/Mailbox/2025_EOE_SparkRank_Desc": {
         "oracleText": "Starting now, Spark Ranked will use cards from the Standard card pool rather than the Alchemy card pool. This means that digital-only cards will no longer be allowed; if any of your decks contain digital-only cards, they will need to be removed from the deck to continue using that deck in Spark Ranked. Rebalanced cards will revert to their non-rebalanced versions.\n\nThe preconstructed Starter Decks all remain legal.",
         "translation": "即日起，火花排位将使用标准牌池而非炼金牌池。这意味着数字专属牌张将不再被允许使用；若您的套牌中包含数字专属牌张，则需将其移除以继续在火花排位中使用该套牌。经过再平衡的牌张将恢复为平衡前的版本。\n\n所有预组新手套牌仍可合法使用。"
@@ -51090,6 +52050,14 @@
     "MainNav/Mailbox/Customer_Service_Title": {
         "oracleText": "Customer Service Ticket Update",
         "translation": "客户服务票务更新"
+    },
+    "MainNav/Mailbox/DDB_LorwynGuidebook_Description": {
+        "oracleText": "Thank you for purchasing <i>Lorwyn: First Light!</i> As part of your adventure, your account now has bonuses waiting for you:\n- A sleeve featuring Lorwyn art\n- 1 copy of Rhys the Redeemed (rare)\n\nSelect \"Claim\" below to equip your sleeve, summon Rhys to your party, and embark with Lorwyn's magic into Arena.",
+        "translation": "Thank you for purchasing <i>Lorwyn: First Light!</i> As part of your adventure, your account now has bonuses waiting for you:\n- A sleeve featuring Lorwyn art\n- 1 copy of Rhys the Redeemed (rare)\n\nSelect \"Claim\" below to equip your sleeve, summon Rhys to your party, and embark with Lorwyn's magic into Arena."
+    },
+    "MainNav/Mailbox/DDB_LorwynGuidebook_Title": {
+        "oracleText": "Your Lorwyn: First Light Rewards Await",
+        "translation": "Your Lorwyn: First Light Rewards Await"
     },
     "MainNav/Mailbox/DFTPreorder_PatchNotes_Title": {
         "oracleText": "2025.44.50 Patch Notes Are Here!",
@@ -51986,6 +52954,14 @@
     "MainNav/Mailbox/TDM_PatchNotes_Title": {
         "oracleText": "2025.47.0 Patch Notes Are Here!",
         "translation": "2025.47.0 补丁说明在此！"
+    },
+    "MainNav/Mailbox/TLA_Cabbages_Achievement_Description": {
+        "oracleText": "This place is worse than Omashu! Does your appetite for destruction know no bounds? You've destroyed my cabbage cart countless times. The only thing I can think to satisfy your hunger is this. My most precious stock...\n\nThe most perfect vegetable in all the land...\n\nMy most prized possession...\n\nMy...final...cabbage.",
+        "translation": "This place is worse than Omashu! Does your appetite for destruction know no bounds? You've destroyed my cabbage cart countless times. The only thing I can think to satisfy your hunger is this. My most precious stock...\n\nThe most perfect vegetable in all the land...\n\nMy most prized possession...\n\nMy...final...cabbage."
+    },
+    "MainNav/Mailbox/TLA_Cabbages_Achievement_Title": {
+        "oracleText": "My Cabbages!!!",
+        "translation": "My Cabbages!!!"
     },
     "MainNav/Mailbox/Targeted_Login_Grant_Description": {
         "oracleText": "Oh no! Goblins got into our servers and made a mess. Everything is cleaned up now and the goblins are all wrangled. They wanted you to have this as a way of showing their appreciation for sticking with us as we clean up the dust.\n\n(Unclaimed items will be automatically claimed upon message expiration.)",
@@ -53223,6 +54199,34 @@
         "oracleText": "Nyx Owl",
         "translation": "尼兹猫头鹰"
     },
+    "MainNav/PetNames/TLA_Cabbage_Companion_1": {
+        "oracleText": "Cabbage",
+        "translation": "Cabbage"
+    },
+    "MainNav/PetNames/TLA_Mastery_1": {
+        "oracleText": "Appa",
+        "translation": "Appa"
+    },
+    "MainNav/PetNames/TLA_Mastery_2": {
+        "oracleText": "Baby Appa",
+        "translation": "Baby Appa"
+    },
+    "MainNav/PetNames/TLA_Mastery_3": {
+        "oracleText": "Black Sun Appa",
+        "translation": "Black Sun Appa"
+    },
+    "MainNav/PetNames/TLA_Mastery_Companion_1": {
+        "oracleText": "Appa",
+        "translation": "Appa"
+    },
+    "MainNav/PetNames/TLA_Mastery_Companion_2": {
+        "oracleText": "Baby Appa",
+        "translation": "Baby Appa"
+    },
+    "MainNav/PetNames/TLA_Mastery_Companion_3": {
+        "oracleText": "Black Sun Appa",
+        "translation": "Black Sun Appa"
+    },
     "MainNav/PetNames/TLA_Preorder_1": {
         "oracleText": "Momo",
         "translation": "模模"
@@ -53919,6 +54923,10 @@
         "oracleText": "Tarkir: Dragonstorm Mastery Emporium",
         "translation": "鞑契龙岚录精研通行证商铺"
     },
+    "MainNav/PrizeWall/Hideaway_Header_TLA": {
+        "oracleText": "Avatar: The Last Airbender Mastery Emporium",
+        "translation": "Avatar: The Last Airbender Mastery Emporium"
+    },
     "MainNav/ProdcutContent/ProductContent_Back_Text": {
         "oracleText": "BACK",
         "translation": "返回"
@@ -53994,6 +55002,14 @@
     "MainNav/Profile/Avatars/Aurelia_Name": {
         "oracleText": "Aurelia",
         "translation": "欧瑞梨"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Aang_TLA_Bio": {
+        "oracleText": "Aang is the Avatar, master of all four elements and inheritor of reincarnated power and experience. But more importantly, Aang is a kind-hearted boy who strives to help those around him. While sometimes overwhelmed by his heavy burden, he never lets go of his idealism.",
+        "translation": "Aang is the Avatar, master of all four elements and inheritor of reincarnated power and experience. But more importantly, Aang is a kind-hearted boy who strives to help those around him. While sometimes overwhelmed by his heavy burden, he never lets go of his idealism."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Aang_TLA_Name": {
+        "oracleText": "Aang",
+        "translation": "Aang"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Adventurer_Bio": {
         "oracleText": "A hooded figure stands in the doorway, their face obscured by shadows. They do not speak, but mysterious power crackles at their fingertips. Who are they? What do they want? Their fate has yet to be written.",
@@ -54071,6 +55087,14 @@
         "oracleText": "Angrath",
         "translation": "安戈斯"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_Appa_TLA_Bio": {
+        "oracleText": "Appa is a sky bison that can fly using airbending. He is Aang's loyal companion and Team Avatar's primary means of transport. Though he's very gentle, his massive size allows him to protect others from smaller threats.",
+        "translation": "Appa is a sky bison that can fly using airbending. He is Aang's loyal companion and Team Avatar's primary means of transport. Though he's very gentle, his massive size allows him to protect others from smaller threats."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Appa_TLA_Name": {
+        "oracleText": "Appa",
+        "translation": "Appa"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_Aragorn_LTR_Bio": {
         "oracleText": "Aragorn, legendary Ranger of the North, is a man of many destinies. As the descendant of Isildur, Aragorn wields his ancestor's reforged blade and joined the Fellowship of the Ring to settle his family's legacy. After the war, he claims the throne of Gondor and weds Arwen, his true love.",
         "translation": "阿拉贡，传说中的北方游侠，一个命运多舛的人。 作为伊熙尔铎的后裔，阿拉贡挥舞着他祖先的重铸剑，并加入了魔戒远征队来继承他家族的遗产。 战争结束后，他获得了刚铎的王位，并与他的真爱阿尔温结婚。"
@@ -54134,6 +55158,14 @@
     "MainNav/Profile/Avatars/Avatar_Basic_Aurelia_Name": {
         "oracleText": "Aurelia",
         "translation": "欧瑞梨"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Azula_TLA_Bio": {
+        "oracleText": "Princess Azula of the Fire Nation is refined, manipulative, and cruel. She's a firebending prodigy and a skilled liar, making her the Fire Lord's favorite child and most trusted agent. Despite her incredible talents, she is deeply insecure and threatens others to maintain her confidence.",
+        "translation": "Princess Azula of the Fire Nation is refined, manipulative, and cruel. She's a firebending prodigy and a skilled liar, making her the Fire Lord's favorite child and most trusted agent. Despite her incredible talents, she is deeply insecure and threatens others to maintain her confidence."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Azula_TLA_Name": {
+        "oracleText": "Azula",
+        "translation": "Azula"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_BalthierFran_FIN_Bio": {
         "oracleText": "Balthier would describe himself as a noble thief, stealing only from those who deserve it. He goes where he pleases, swearing fealty to no one. Fran is as much at ease with a sword as she is her bare hands. Her proficiency with a blade is matched only by her skill with a wrench, as she also handles the maintenance of Balthier's airship, the Strahl.",
@@ -54599,6 +55631,14 @@
         "oracleText": "Hugs, Grisly Guardian",
         "translation": "骇人守护者哈格斯"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_Iroh_TLA_Bio": {
+        "oracleText": "Iroh was once a great general in the Fire Nation army, but after losing his son in battle, his outlook on life changed. Now he dedicates himself to enlightenment and acts of service like mentoring his nephew, Zuko, and working at a tea shop.",
+        "translation": "Iroh was once a great general in the Fire Nation army, but after losing his son in battle, his outlook on life changed. Now he dedicates himself to enlightenment and acts of service like mentoring his nephew, Zuko, and working at a tea shop."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Iroh_TLA_Name": {
+        "oracleText": "Uncle Iroh",
+        "translation": "Uncle Iroh"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_JaceBeleren_Bio": {
         "oracleText": "Jace Beleren is a master of mental magic: spells of illusion, deception, and mind reading. His powers allow him to manipulate enemies by countering their magic or turning their spells against them.",
         "translation": "杰斯擅长心灵魔法：幻影、欺瞒，以及读取心灵的咒语。他的力量让他能反击敌对法师的魔法，或以其道反治其身。"
@@ -54702,6 +55742,14 @@
     "MainNav/Profile/Avatars/Avatar_Basic_Karn_Name": {
         "oracleText": "Karn",
         "translation": "卡恩"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Katara_TLA_Bio": {
+        "oracleText": "Katara, along with her brother, Sokka, discovered Aang frozen in ice near their Southern Water Tribe village. She's a waterbending prodigy, serving as Aang's teacher for the art during their journey. Capable, passionate, and determined, Katara holds on to hope in a hopeless world.",
+        "translation": "Katara, along with her brother, Sokka, discovered Aang frozen in ice near their Southern Water Tribe village. She's a waterbending prodigy, serving as Aang's teacher for the art during their journey. Capable, passionate, and determined, Katara holds on to hope in a hopeless world."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Katara_TLA_Name": {
+        "oracleText": "Katara",
+        "translation": "Katara"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Kaya_Bio": {
         "oracleText": "Kaya is a firm believer that life is for the living. If you die with unfinished business, well, that's probably your fault.",
@@ -54923,6 +55971,14 @@
         "oracleText": "Mm'menon",
         "translation": "姆门农"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_Momo_TLA_Bio": {
+        "oracleText": "Momo is an energetic and clever flying lemur with remarkable agility. While he often gets into trouble stealing food, he'll always come to the rescue to help Team Avatar, and especially his best buddy, Appa. When he's not around, everyone always asks—where's Momo?",
+        "translation": "Momo is an energetic and clever flying lemur with remarkable agility. While he often gets into trouble stealing food, he'll always come to the rescue to help Team Avatar, and especially his best buddy, Appa. When he's not around, everyone always asks—where's Momo?"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Momo_TLA_Name": {
+        "oracleText": "Momo",
+        "translation": "Momo"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_MuYanling_M20_Bio": {
         "oracleText": "Mu Yanling has adept command over wind and water, shaping them to meet her needs, whether it be gales to carry her through the air or weaving wind and water together to aid in her martial prowess.",
         "translation": "沐燕灵善控清风流水，可将其随意塑形为己所用：既可驾风疾行，又能乘浪助力。"
@@ -55066,6 +56122,14 @@
     "MainNav/Profile/Avatars/Avatar_Basic_OnionKnight_FIN_Name": {
         "oracleText": "Onion Knight",
         "translation": "洋葱剑士"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Ozai_TLA_Bio": {
+        "oracleText": "Fire Lord Ozai is the ruler of the Fire Nation and father of Zuko and Azula. His grandfather Sozin began the Hundred Year War, and he believes domination over the world is his birthright. He's a powerful Firebender with the entire Fire Nation military behind him.",
+        "translation": "Fire Lord Ozai is the ruler of the Fire Nation and father of Zuko and Azula. His grandfather Sozin began the Hundred Year War, and he believes domination over the world is his birthright. He's a powerful Firebender with the entire Fire Nation military behind him."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Ozai_TLA_Name": {
+        "oracleText": "Ozai",
+        "translation": "Ozai"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_PhagetheUntouchable_Bio": {
         "oracleText": "Before becoming a Planeswalker, Jeska once took the form of Phage, a powerful Avatar who could kill anything with a single touch. It's . . . complicated.",
@@ -55275,6 +56339,14 @@
         "oracleText": "Sliver Gravemother",
         "translation": "裂片妖坟母"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_Sokka_TLA_Bio": {
+        "oracleText": "Sokka may be sarcastic and emotional, but he's also insightful, brave, and willing to admit his mistakes. He feels outclassed by the Benders around him, but his wit and creativity often make up for his lack of bending powers.",
+        "translation": "Sokka may be sarcastic and emotional, but he's also insightful, brave, and willing to admit his mistakes. He feels outclassed by the Benders around him, but his wit and creativity often make up for his lack of bending powers."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Sokka_TLA_Name": {
+        "oracleText": "Sokka",
+        "translation": "Sokka"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_Sorin_Markov_M20_Bio": {
         "oracleText": "A powerful vampire Planeswalker, Sorin Markov was born over 7,000 years ago on Innistrad. For millennia, he lorded over his home plane, preserving the balance between humans and the monsters that hunt them. Now, his power has been challenged by his longtime rival, Olivia Voldaren.",
         "translation": "一个强大的吸血鬼鹏洛客，索霖马可夫在7000 多年前出生在依尼翠。几千年来，他一直统治着他的家乡时空，保持着人类与猎杀他们的怪物之间的平衡。现在，他的权力受到了他长期以来的对手奥莉薇亚沃达连的挑战。"
@@ -55322,6 +56394,14 @@
     "MainNav/Profile/Avatars/Avatar_Basic_Stormsplitter_BLB_Name": {
         "oracleText": "Stormsplitter",
         "translation": "劈风师"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Suki_TLA_Bio": {
+        "oracleText": "Suki leads the Kyoshi Warriors, female-centric fighters who defend their island home from invasion. She's confident and patient but possesses a dry sense of humor that comes out in casual moments. Her devotion to protecting others often puts her in the line of fire.",
+        "translation": "Suki leads the Kyoshi Warriors, female-centric fighters who defend their island home from invasion. She's confident and patient but possesses a dry sense of humor that comes out in casual moments. Her devotion to protecting others often puts her in the line of fire."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Suki_TLA_Name": {
+        "oracleText": "Suki",
+        "translation": "Suki"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Szarel_EOE_Bio": {
         "oracleText": "Szarel leads the current stage of terrasymbiosis on Evendo, simultaneously adapting the planet and Eumidian biology to coexist within the ecosystem. He knows he won't live to see the project's end, but his life is committed to advancing the cause and protecting the brood.",
@@ -55466,6 +56546,14 @@
     "MainNav/Profile/Avatars/Avatar_Basic_Tonberry_FIN_Name": {
         "oracleText": "Tonberry",
         "translation": "冬贝利"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Toph_TLA_Bio": {
+        "oracleText": "Toph is a self-reliant, blunt, and confident martial artist who teaches Aang earthbending. Born blind, she learned to \"see\" by sensing vibrations in the ground. She has trouble opening up to others, but her loyalty, unique perspective, and raw power make her a steadfast companion.",
+        "translation": "Toph is a self-reliant, blunt, and confident martial artist who teaches Aang earthbending. Born blind, she learned to \"see\" by sensing vibrations in the ground. She has trouble opening up to others, but her loyalty, unique perspective, and raw power make her a steadfast companion."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Toph_TLA_Name": {
+        "oracleText": "Toph",
+        "translation": "Toph"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Trostani_Bio": {
         "oracleText": "Guildmaster of the Selesnya Conclave on Ravnica, and speaker for the World Tree, Mat'Selesnya. Trostani is a fusion of three Dryads who each represent a different key Selesnyan value: Life, Order, and Harmony.",
@@ -55770,6 +56858,14 @@
     "MainNav/Profile/Avatars/Avatar_Basic_Zoraline_BLB_Name": {
         "oracleText": "Zoraline",
         "translation": "佐拉琳"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Zuko_TLA_Bio": {
+        "oracleText": "Scarred and exiled by his own father, Prince Zuko was tasked with capturing the Avatar. But under Uncle Iroh's guidance, Zuko's proud and impulsive nature takes a more honorable path. He spends time as a fugitive, a restored prince, and finally, as an ally of the Avatar.",
+        "translation": "Scarred and exiled by his own father, Prince Zuko was tasked with capturing the Avatar. But under Uncle Iroh's guidance, Zuko's proud and impulsive nature takes a more honorable path. He spends time as a fugitive, a restored prince, and finally, as an ally of the Avatar."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Zuko_TLA_Name": {
+        "oracleText": "Zuko",
+        "translation": "Zuko"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Zurgo_TDM_Bio": {
         "oracleText": "The orc warrior known as Zurgo Bellstriker rebelled against his dragonlord. Renamed Zurgo Stormrender, he leads the new Mardu to victory. The spirit dragon Neriv is the clan's vanguard, guiding them across the steppe. He flies into battle with passion, ferocity, and lightning breath.",
@@ -58170,6 +59266,10 @@
     "MainNav/Settings/Graphics/QualitySetting_MotionBlur": {
         "oracleText": "Motion Blur",
         "translation": "动态模糊"
+    },
+    "MainNav/Settings/Graphics/QualitySetting_Outlines": {
+        "oracleText": "Outlines",
+        "translation": "Outlines"
     },
     "MainNav/Settings/Graphics/QualitySetting_Shadows": {
         "oracleText": "Shadows",
@@ -63543,6 +64643,174 @@
         "oracleText": "Nyx Swamp Bundle",
         "translation": "尼兹沼泽套装"
     },
+    "MainNav/Store/Bundles/Bundle_TLA_Avatars1_Desc": {
+        "oracleText": "Katara\nToph\nSokka\nSuki\n\n©2025 Viacom International Inc.",
+        "translation": "Katara\nToph\nSokka\nSuki\n\n©2025 Viacom International Inc."
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_Avatars1_Name": {
+        "oracleText": "Aang's Allies",
+        "translation": "Aang's Allies"
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_Avatars2_Desc": {
+        "oracleText": "Zuko\nIroh\nAzula\nOzai\n\n©2025 Viacom International Inc.",
+        "translation": "Zuko\nIroh\nAzula\nOzai\n\n©2025 Viacom International Inc."
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_Avatars2_Name": {
+        "oracleText": "Fearsome Firebenders",
+        "translation": "Fearsome Firebenders"
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_Avatars3_Desc": {
+        "oracleText": "Appa\nMomo\n\n©2025 Viacom International Inc.",
+        "translation": "Appa\nMomo\n\n©2025 Viacom International Inc."
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_Avatars3_Name": {
+        "oracleText": "Furry Friends",
+        "translation": "Furry Friends"
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_BasicPhrases_Desc": {
+        "oracleText": "\"When the Fire Nation attacked\" Phrase Emote\n\"Flameo, hotman\" Phrase Emote\n\"Penguin sledding\" Phrase Emote\n\"Sharing tea\" Phrase Emote\n\"You can't knock me down\" Phrase Emote\n\"No war in Ba Sing Se\" Phrase Emote\n\"Melon Lord\" Phrase Emote\n\n©2025 Viacom International Inc.",
+        "translation": "\"When the Fire Nation attacked\" Phrase Emote\n\"Flameo, hotman\" Phrase Emote\n\"Penguin sledding\" Phrase Emote\n\"Sharing tea\" Phrase Emote\n\"You can't knock me down\" Phrase Emote\n\"No war in Ba Sing Se\" Phrase Emote\n\"Melon Lord\" Phrase Emote\n\n©2025 Viacom International Inc."
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_BasicPhrases_Name": {
+        "oracleText": "Phrase Emotes",
+        "translation": "Phrase Emotes"
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_FF_DFC_Desc": {
+        "oracleText": "The Legend of Kyoshi Card Style\nThe Legend of Yangchen Card Style\nThe Legend of Roku Card Style\nThe Rise of Sozin Card Style\nThe Legend of Kuruk Card Style\n\n©2025 Viacom International Inc.",
+        "translation": "The Legend of Kyoshi Card Style\nThe Legend of Yangchen Card Style\nThe Legend of Roku Card Style\nThe Rise of Sozin Card Style\nThe Legend of Kuruk Card Style\n\n©2025 Viacom International Inc."
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_FF_DFC_Name": {
+        "oracleText": "Borderless Double-Faced Styles",
+        "translation": "Borderless Double-Faced Styles"
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_FF_FieldNotes1_Desc": {
+        "oracleText": "Koh, the Face Stealer Card Style\nAppa, Steadfast Guardian Card Style\nThe Unagi of Kyoshi Island Card Style\nRan and Shaw Card Style\nThe Fire Nation Drill Card Style\nMomo, Friendly Flier Card Style\nDiligent Zookeeper Card Style\nThe Lion-Turtle Card Style\n\n©2025 Viacom International Inc.",
+        "translation": "Koh, the Face Stealer Card Style\nAppa, Steadfast Guardian Card Style\nThe Unagi of Kyoshi Island Card Style\nRan and Shaw Card Style\nThe Fire Nation Drill Card Style\nMomo, Friendly Flier Card Style\nDiligent Zookeeper Card Style\nThe Lion-Turtle Card Style\n\n©2025 Viacom International Inc."
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_FF_FieldNotes1_Name": {
+        "oracleText": "Borderless Field Notes Styles I",
+        "translation": "Borderless Field Notes Styles I"
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_FF_FieldNotes2_Desc": {
+        "oracleText": "Wan Shi Tong, Librarian Card Style\nPhoenix Fleet Airship Card Style\nRaven Eagle Card Style\nTiger-Seal Card Style\nBadgermole Cub Card Style\nThe Walls of Ba Sing Se Card Style\nWhite Lotus Tile Card Style\n\n©2025 Viacom International Inc.",
+        "translation": "Wan Shi Tong, Librarian Card Style\nPhoenix Fleet Airship Card Style\nRaven Eagle Card Style\nTiger-Seal Card Style\nBadgermole Cub Card Style\nThe Walls of Ba Sing Se Card Style\nWhite Lotus Tile Card Style\n\n©2025 Viacom International Inc."
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_FF_FieldNotes2_Name": {
+        "oracleText": "Borderless Field Notes Styles II",
+        "translation": "Borderless Field Notes Styles II"
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_FF_IntroInspired_Desc": {
+        "oracleText": "Fire Lord Azula Card Style\nSozin's Comet Card Style\nOzai, the Phoenix King Card Style\nUnited Front Card Style\nAvatar Destiny Card Style\n\n©2025 Viacom International Inc.",
+        "translation": "Fire Lord Azula Card Style\nSozin's Comet Card Style\nOzai, the Phoenix King Card Style\nUnited Front Card Style\nAvatar Destiny Card Style\n\n©2025 Viacom International Inc."
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_FF_IntroInspired_Name": {
+        "oracleText": "Borderless Battle Pose Styles",
+        "translation": "Borderless Battle Pose Styles"
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_Lands1_Desc": {
+        "oracleText": "Full Art Land Plains\nFull Art Land Island\nFull Art Land Swamp\nFull Art Land Mountain\nFull Art Land Forest\n\n©2025 Viacom International Inc.",
+        "translation": "Full Art Land Plains\nFull Art Land Island\nFull Art Land Swamp\nFull Art Land Mountain\nFull Art Land Forest\n\n©2025 Viacom International Inc."
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_Lands1_Name": {
+        "oracleText": "Full-Art Appa Lands",
+        "translation": "Full-Art Appa Lands"
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_Lands2_Desc": {
+        "oracleText": "Full Art Land Plains\nFull Art Land Island\nFull Art Land Swamp\nFull Art Land Mountain\nFull Art Land Forest\n\n©2025 Viacom International Inc.",
+        "translation": "Full Art Land Plains\nFull Art Land Island\nFull Art Land Swamp\nFull Art Land Mountain\nFull Art Land Forest\n\n©2025 Viacom International Inc."
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_Lands2_Name": {
+        "oracleText": "Full-Art Avatar's Journey Lands",
+        "translation": "Full-Art Avatar's Journey Lands"
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_Phrases1_Desc": {
+        "oracleText": "\"When the Fire Nation attacked\" Phrase Emote\n\"Water. Earth. Fire. Air.\" Phrase Emote\n\"Yip yip!\" Phrase Emote\n\"Flameo, hotman\" Phrase Emote\n\"Penguin sledding\" Phrase Emote\n\"That's rough, buddy\" Phrase Emote\n\n©2025 Viacom International Inc.",
+        "translation": "\"When the Fire Nation attacked\" Phrase Emote\n\"Water. Earth. Fire. Air.\" Phrase Emote\n\"Yip yip!\" Phrase Emote\n\"Flameo, hotman\" Phrase Emote\n\"Penguin sledding\" Phrase Emote\n\"That's rough, buddy\" Phrase Emote\n\n©2025 Viacom International Inc."
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_Phrases1_Name": {
+        "oracleText": "Phrase Emotes I",
+        "translation": "Phrase Emotes I"
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_Phrases2_Desc": {
+        "oracleText": "\"Sharing tea\" Phrase Emote\n\"It's the quenchiest!\" Phrase Emote\n\"You can't knock me down\" Phrase Emote\n\"No war in Ba Sing Se\" Phrase Emote\n\"Secret Tunnel\" Phrase Emote\n\"I am Melon Lord\" Phrase Emote\n\"My cabbages!\" Phrase Emote\n\n©2025 Viacom International Inc.",
+        "translation": "\"Sharing tea\" Phrase Emote\n\"It's the quenchiest!\" Phrase Emote\n\"You can't knock me down\" Phrase Emote\n\"No war in Ba Sing Se\" Phrase Emote\n\"Secret Tunnel\" Phrase Emote\n\"I am Melon Lord\" Phrase Emote\n\"My cabbages!\" Phrase Emote\n\n©2025 Viacom International Inc."
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_Phrases2_Name": {
+        "oracleText": "Phrase Emotes II",
+        "translation": "Phrase Emotes II"
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_PremiumPhrases_Desc": {
+        "oracleText": "\"Water. Earth. Fire. Air\" Phrase Emote\n\"Secret Tunnel\" Phrase Emote\n\"My cabbages!\" Phrase Emote\n\"That's rough, buddy\" Phrase Emote\n\"Yip yip!\" Phrase Emote\n\"It's the quenchiest!\" Phrase Emote\n\n©2025 Viacom International Inc.",
+        "translation": "\"Water. Earth. Fire. Air\" Phrase Emote\n\"Secret Tunnel\" Phrase Emote\n\"My cabbages!\" Phrase Emote\n\"That's rough, buddy\" Phrase Emote\n\"Yip yip!\" Phrase Emote\n\"It's the quenchiest!\" Phrase Emote\n\n©2025 Viacom International Inc."
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_PremiumPhrases_Name": {
+        "oracleText": "Voice Emotes",
+        "translation": "Voice Emotes"
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_SH_Elemental1_Desc": {
+        "oracleText": "Katara, Water Tribe's Hope Card Style\nBumi, Unleashed Card Style\nFated Firepower Card Style\nSecret of Bloodbending Card Style\nFoggy Swamp Visions Card Style\nAang's Iceberg Card Style\nObsessive Pursuit Card Style\nThe Earth King Card Style\nRedirect Lightning Card Style\n\n©2025 Viacom International Inc.",
+        "translation": "Katara, Water Tribe's Hope Card Style\nBumi, Unleashed Card Style\nFated Firepower Card Style\nSecret of Bloodbending Card Style\nFoggy Swamp Visions Card Style\nAang's Iceberg Card Style\nObsessive Pursuit Card Style\nThe Earth King Card Style\nRedirect Lightning Card Style\n\n©2025 Viacom International Inc."
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_SH_Elemental1_Name": {
+        "oracleText": "Elemental Styles I",
+        "translation": "Elemental Styles I"
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_SH_Elemental2_Desc": {
+        "oracleText": "Katara, the Fearless Card Style\nSokka, Tenacious Tactician Card Style\nToph, the First Metalbender Card Style\nIroh, Grand Lotus Card Style\nYue, the Moon Spirit Card Style\nFirebending Student Card Style\nGreat Divide Guide Card Style\nAang, Swift Savior Card Style\nAang, at the Crossroads Card Style\n\n©2025 Viacom International Inc.",
+        "translation": "Katara, the Fearless Card Style\nSokka, Tenacious Tactician Card Style\nToph, the First Metalbender Card Style\nIroh, Grand Lotus Card Style\nYue, the Moon Spirit Card Style\nFirebending Student Card Style\nGreat Divide Guide Card Style\nAang, Swift Savior Card Style\nAang, at the Crossroads Card Style\n\n©2025 Viacom International Inc."
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_SH_Elemental2_Name": {
+        "oracleText": "Elemental Styles II",
+        "translation": "Elemental Styles II"
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_SLD1_Desc": {
+        "oracleText": "Torment of Hailfire Sleeve\nBlood Moon Sleeve\nLightning Bolt Sleeve\nDramatic Entrance Sleeve\n\n©2025 Viacom International Inc.",
+        "translation": "Torment of Hailfire Sleeve\nBlood Moon Sleeve\nLightning Bolt Sleeve\nDramatic Entrance Sleeve\n\n©2025 Viacom International Inc."
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_SLD1_Name": {
+        "oracleText": "Secret Lair x Avatar: The Last Airbender™\nEverything Changed",
+        "translation": "Secret Lair x Avatar: The Last Airbender™\nEverything Changed"
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_SLD2_Desc": {
+        "oracleText": "Serra Ascendent Sleeve\nPonder Sleeve\nCryptolith Rite Sleeve\nKodama's Reach Sleeve\n\n©2025 Viacom International Inc.",
+        "translation": "Serra Ascendent Sleeve\nPonder Sleeve\nCryptolith Rite Sleeve\nKodama's Reach Sleeve\n\n©2025 Viacom International Inc."
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_SLD2_Name": {
+        "oracleText": "Secret Lair x Avatar: The Last Airbender™\nA Lot to Learn",
+        "translation": "Secret Lair x Avatar: The Last Airbender™\nA Lot to Learn"
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_SLD3_Desc": {
+        "oracleText": "Chain of Vapor Sleeve\nMeltdown Sleeve\nNature's Claim Sleeve\nPutrefy Sleeve\nAnguished Unmaking Sleeve\n\n©2025 Viacom International Inc.",
+        "translation": "Chain of Vapor Sleeve\nMeltdown Sleeve\nNature's Claim Sleeve\nPutrefy Sleeve\nAnguished Unmaking Sleeve\n\n©2025 Viacom International Inc."
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_SLD3_Name": {
+        "oracleText": "Secret Lair x Avatar: The Last Airbender™\nMy Cabbages!",
+        "translation": "Secret Lair x Avatar: The Last Airbender™\nMy Cabbages!"
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_SLD4_Desc": {
+        "oracleText": "Silence Sleeve\nPreordain Sleeve\nPainful Truths Sleeve\nPast in Flames Sleeve\nForce of Vigor Sleeve\nExpressive Iteration Sleeve\n\n©2025 Viacom International Inc.",
+        "translation": "Silence Sleeve\nPreordain Sleeve\nPainful Truths Sleeve\nPast in Flames Sleeve\nForce of Vigor Sleeve\nExpressive Iteration Sleeve\n\n©2025 Viacom International Inc."
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_SLD4_Name": {
+        "oracleText": "Secret Lair x Avatar: The Last Airbender™\nOne with the Elements",
+        "translation": "Secret Lair x Avatar: The Last Airbender™\nOne with the Elements"
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_SLD5_Desc": {
+        "oracleText": "Phantasmal Image Sleeve\nCursed Mirror Sleeve\nBraid of Fire Sleeve\nMask of Memory Sleeve\nThespian's Stage Sleeve\n\n©2025 Viacom International Inc.",
+        "translation": "Phantasmal Image Sleeve\nCursed Mirror Sleeve\nBraid of Fire Sleeve\nMask of Memory Sleeve\nThespian's Stage Sleeve\n\n©2025 Viacom International Inc."
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_SLD5_Name": {
+        "oracleText": "Secret Lair x Avatar: The Last Airbender™\nThe Ember Island Players",
+        "translation": "Secret Lair x Avatar: The Last Airbender™\nThe Ember Island Players"
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_Stickers_Desc": {
+        "oracleText": "My Cabbages Sticker Emote\nIroh Tea Sticker Emote\nHybrid Animals Sticker Emote\n\n©2025 Viacom International Inc.",
+        "translation": "My Cabbages Sticker Emote\nIroh Tea Sticker Emote\nHybrid Animals Sticker Emote\n\n©2025 Viacom International Inc."
+    },
+    "MainNav/Store/Bundles/Bundle_TLA_Stickers_Name": {
+        "oracleText": "Sticker Emotes",
+        "translation": "Sticker Emotes"
+    },
     "MainNav/Store/Bundles/Bundle_ThaliaStyle_Desc": {
         "oracleText": "Thalia, Guardian of Thraben Helvault Style\nThalia, Guardian of Thraben Lunarch Style\nThalia, Guardian of Thraben Chapel Style\nThalia, Guardian of Thraben Eldrazi Style\nThalia, Guardian of Thraben Sleeve",
         "translation": "*瑟班守护者莎利雅*赫尔库风格\n*瑟班守护者莎利雅*农历风格\n*瑟班守护者莎利雅*教堂风格\n*瑟班守护者莎利雅*奥札奇风格\n*瑟班守护者莎利雅*牌套"
@@ -66483,6 +67751,10 @@
         "oracleText": "Legal in Historic",
         "translation": "史迹赛制可用"
     },
+    "MainNav/Store/Tags/IncludesSound": {
+        "oracleText": "Includes Sound!",
+        "translation": "Includes Sound!"
+    },
     "MainNav/Store/Tags/JanuaryOnly": {
         "oracleText": "January Only",
         "translation": "一月限定"
@@ -68439,9 +69711,53 @@
         "oracleText": "To show only cards from Through the Omenpaths in the deckbuilder, type \"set:OM1\" into the search bar. Each set has a unique 3-letter-code.",
         "translation": "要在组牌器中只显示出自穿越预兆路系列的牌张，可在搜索栏中输入「set:OM1」。每个系列都有一个专属的三码代号。"
     },
+    "Match/QueueTips/Queue_Tip_319_TLA_SetCode": {
+        "oracleText": "To show only cards from Magic: The Gathering | Avatar: The Last Airbender™ in the deckbuilder, type \"set:TLA\" into the search bar. Each set has a unique 3-letter-code.",
+        "translation": "To show only cards from Magic: The Gathering | Avatar: The Last Airbender™ in the deckbuilder, type \"set:TLA\" into the search bar. Each set has a unique 3-letter-code."
+    },
     "Match/QueueTips/Queue_Tip_32": {
         "oracleText": "Combo decks focus on finding and casting spells that work together to produce powerful effects, often winning the game outright!",
         "translation": "组合技套牌注重于搜寻并施放配合良好的咒语来产生强大的效应，通常能够一举赢下游戏！"
+    },
+    "Match/QueueTips/Queue_Tip_320_TLA_AirNomad": {
+        "oracleText": "The Air Nomads were a people who dedicated themselves to peace, balance, and philosophy. Early in the war, the Fire Nation wiped out the entirety of their society, erasing all of their culture and teachings. The lone survivor of this genocide was Aang, the Avatar.",
+        "translation": "The Air Nomads were a people who dedicated themselves to peace, balance, and philosophy. Early in the war, the Fire Nation wiped out the entirety of their society, erasing all of their culture and teachings. The lone survivor of this genocide was Aang, the Avatar."
+    },
+    "Match/QueueTips/Queue_Tip_321_TLA_WaterTribe": {
+        "oracleText": "The Water Tribes primarily occupy the northern and southern poles. While the Southern Water Tribe has suffered decades of raids by the Fire Nation, the Northern Water Tribe has managed to stand stronger due to its natural icy defenses and urbanization.",
+        "translation": "The Water Tribes primarily occupy the northern and southern poles. While the Southern Water Tribe has suffered decades of raids by the Fire Nation, the Northern Water Tribe has managed to stand stronger due to its natural icy defenses and urbanization."
+    },
+    "Match/QueueTips/Queue_Tip_322_TLA_FireNation": {
+        "oracleText": "The Fire Nation possesses the most advanced military of all four nations, focusing heavily on technological advances. This has allowed them to steadily conquer much of the rest of the world and set up colonies around the Earth Kingdom.",
+        "translation": "The Fire Nation possesses the most advanced military of all four nations, focusing heavily on technological advances. This has allowed them to steadily conquer much of the rest of the world and set up colonies around the Earth Kingdom."
+    },
+    "Match/QueueTips/Queue_Tip_323_TLA_EarthKingdom": {
+        "oracleText": "The Earth Kingdom is the largest nation, spanning over a major continent as well as various outlying islands. Due to its extensive reach, its people are diverse and have adapted to many different climates--from deserts to sprawling cities.",
+        "translation": "The Earth Kingdom is the largest nation, spanning over a major continent as well as various outlying islands. Due to its extensive reach, its people are diverse and have adapted to many different climates--from deserts to sprawling cities."
+    },
+    "Match/QueueTips/Queue_Tip_324_TLA_TheAvatar": {
+        "oracleText": "The Avatar is the bridge between the Spirit World and the Human World--their purpose is to maintain balance between humans, spirits,  and each element. When the Avatar dies, they are reincarnated in a cycle between the Water Tribes, Earth Kingdom, Fire Nation and Air Nomads.",
+        "translation": "The Avatar is the bridge between the Spirit World and the Human World--their purpose is to maintain balance between humans, spirits,  and each element. When the Avatar dies, they are reincarnated in a cycle between the Water Tribes, Earth Kingdom, Fire Nation and Air Nomads."
+    },
+    "Match/QueueTips/Queue_Tip_325_TLA_TheAVatarState": {
+        "oracleText": "The Avatar State is a special state of being that the Avatar can enter into when threatened. While this state is incredibly powerful, it also leaves the Avatar vulnerable. If they are killed in the Avatar State, then the cycle of rebirth will be broken and no new Avatar will be born.",
+        "translation": "The Avatar State is a special state of being that the Avatar can enter into when threatened. While this state is incredibly powerful, it also leaves the Avatar vulnerable. If they are killed in the Avatar State, then the cycle of rebirth will be broken and no new Avatar will be born."
+    },
+    "Match/QueueTips/Queue_Tip_326_TLA_LionTurtle": {
+        "oracleText": "Lion-Turtles are massive sentient animals that many would mistake for a small island. While they are master benders and can grant humans the ability to bend elements, only one still remains in the world.",
+        "translation": "Lion-Turtles are massive sentient animals that many would mistake for a small island. While they are master benders and can grant humans the ability to bend elements, only one still remains in the world."
+    },
+    "Match/QueueTips/Queue_Tip_327_TLA_TheSpiritWorld": {
+        "oracleText": "The Spirit World coexists in parallel to the physical world. It is home to spirits, who each embody some aspect of the physical world. The Spirit World is ever-shifting, making it difficult to traverse or map, and the landscape often has exaggerated aspects.",
+        "translation": "The Spirit World coexists in parallel to the physical world. It is home to spirits, who each embody some aspect of the physical world. The Spirit World is ever-shifting, making it difficult to traverse or map, and the landscape often has exaggerated aspects."
+    },
+    "Match/QueueTips/Queue_Tip_328_TLA_Bending": {
+        "oracleText": "Bending is the ability to manipulate an element of nature--water, earth, fire, or air. Only the Avatar is capable of bending all four elements, but true masters of bending can learn even more advanced forms, such as lightningbending, metalbending, or bloodbending.",
+        "translation": "Bending is the ability to manipulate an element of nature--water, earth, fire, or air. Only the Avatar is capable of bending all four elements, but true masters of bending can learn even more advanced forms, such as lightningbending, metalbending, or bloodbending."
+    },
+    "Match/QueueTips/Queue_Tip_329_TLA_OrderOfWhiteLotus": {
+        "oracleText": "The Order of the White Lotus is a secret society dedicated to helping keep knowledge and balance throughout the world, regardless of cultural boundaries. It is not unusual for them to help train and protect the Avatar as well.",
+        "translation": "The Order of the White Lotus is a secret society dedicated to helping keep knowledge and balance throughout the world, regardless of cultural boundaries. It is not unusual for them to help train and protect the Avatar as well."
     },
     "Match/QueueTips/Queue_Tip_33": {
         "oracleText": "Ideal draws allow you to \"curve out\" by both playing a land and spending all available mana every turn for the first few turns.",
@@ -71487,10 +72803,6 @@
         "oracleText": "Pioneer Masters Limited",
         "translation": "先驱大师限制赛"
     },
-    "PlayBlade/Filters/Dynamic/PoweredCubeDraftDescription": {
-        "oracleText": "Draft with Magic's most Powerfull cards.",
-        "translation": "使用万智牌中最强大的牌张进行轮抽。 "
-    },
     "PlayBlade/Filters/Dynamic/PoweredCubeDraftTitle": {
         "oracleText": "Powered Cube Draft",
         "translation": "强化方盒轮抽"
@@ -71546,6 +72858,10 @@
     "PlayBlade/Filters/Dynamic/TDMLimitedTitle": {
         "oracleText": "Tarkir: Dragonstorm Limited",
         "translation": "鞑契龙岚录限制赛"
+    },
+    "PlayBlade/Filters/Dynamic/TLALimitedTitle": {
+        "oracleText": "Magic: The Gathering | Avatar: The Last Airbender™ Limited",
+        "translation": "Magic: The Gathering | Avatar: The Last Airbender™ Limited"
     },
     "PlayBlade/Filters/Dynamic/WOELimitedTitle": {
         "oracleText": "Wilds of Eldraine Limited",
@@ -72327,6 +73643,14 @@
         "oracleText": "Wild",
         "translation": "野性呼唤"
     },
+    "Social/Challenge/KickPlayerConfirmation": {
+        "oracleText": "Kick {username}?<br>They'll be unable to rejoin unless re-invited.",
+        "translation": "Kick {username}?<br>They'll be unable to rejoin unless re-invited."
+    },
+    "Social/Challenge/KickPlayerNotification": {
+        "oracleText": "You have been removed from the Challenge.",
+        "translation": "You have been removed from the Challenge."
+    },
     "Social/Challenge/Request_Message": {
         "oracleText": "{playerName} is challenging you to a match!",
         "translation": "{playerName}向你发出对战请求！"
@@ -72443,6 +73767,10 @@
         "oracleText": "Block Incoming Friend Requests",
         "translation": "屏蔽之后的好友请求"
     },
+    "Social/Friends/UI/Buttons/BlockNonFriendChallenges": {
+        "oracleText": "Block Incoming Non-Friend Challenges",
+        "translation": "Block Incoming Non-Friend Challenges"
+    },
     "Social/Friends/UI/Buttons/Challenge": {
         "oracleText": "Challenge",
         "translation": "挑战"
@@ -72483,6 +73811,34 @@
         "oracleText": "Unfriend",
         "translation": "移除好友"
     },
+    "Social/Friends/UI/Challenges/Invite": {
+        "oracleText": "Invite",
+        "translation": "Invite"
+    },
+    "Social/Friends/UI/Challenges/InviteInstruction": {
+        "oracleText": "Press Enter to Invite.",
+        "translation": "Press Enter to Invite."
+    },
+    "Social/Friends/UI/Challenges/InviteTable": {
+        "oracleText": "Invite to Challenge",
+        "translation": "Invite to Challenge"
+    },
+    "Social/Friends/UI/Challenges/Invited": {
+        "oracleText": "Invited:",
+        "translation": "Invited:"
+    },
+    "Social/Friends/UI/Challenges/PlayerStatusFriend": {
+        "oracleText": "Friend",
+        "translation": "Friend"
+    },
+    "Social/Friends/UI/Challenges/PlayerStatusOnline": {
+        "oracleText": "Online",
+        "translation": "Online"
+    },
+    "Social/Friends/UI/Challenges/PlayerStatusRecentlyPlayed": {
+        "oracleText": "Recently Played",
+        "translation": "Recently Played"
+    },
     "Social/Friends/UI/Confirmation/AddFriendRequest_FriendOrSelf": {
         "oracleText": "Unable to send this player a friend request.",
         "translation": "无法向该玩家发送好友请求。"
@@ -72518,6 +73874,14 @@
     "Social/Friends/UI/Headers/Blocks": {
         "oracleText": "Blocked Users",
         "translation": "屏蔽列表"
+    },
+    "Social/Friends/UI/Headers/ChallengesList": {
+        "oracleText": "Challenges",
+        "translation": "Challenges"
+    },
+    "Social/Friends/UI/Headers/ChallengesRequests": {
+        "oracleText": "Challenge Requests",
+        "translation": "Challenge Requests"
     },
     "Social/Friends/UI/Headers/FriendsList": {
         "oracleText": "Friends",
