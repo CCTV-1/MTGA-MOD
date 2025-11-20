@@ -31,7 +31,8 @@ SubtypeTextPatchRules: dict[int:int] = {
     42935: 9000004,
     704311: 9000005,
     756615: 9000006,
-    927984: 9000007
+    927984: 9000007,
+    1070397: 9000008,
 }
 
 # old TitleId : new TitleId
