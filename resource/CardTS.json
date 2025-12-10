@@ -5043,6 +5043,10 @@
         "oracleText": "Create two 1/1 white Warrior creature tokens. They gain first strike until end of turn.",
         "translation": "派出两个1/1白色战士衍生生物。他们获得先攻异能直到回合结束。"
     },
+    "2094": {
+        "oracleText": "Avalanche! — Whenever an Equipment you control enters, create a 2/2 red Rebel creature token.",
+        "translation": "Avalanche! — Whenever an Equipment you control enters, create a 2/2 red Rebel creature token."
+    },
     "2095": {
         "oracleText": "Exchange control of two target creatures?",
         "translation": "是否要交换两个目标生物的操控权？"
@@ -5127,6 +5131,10 @@
         "oracleText": "Springleaf Drum",
         "translation": "春叶鼓"
     },
+    "2134": {
+        "oracleText": "Locke can't be blocked by creatures with greater power.",
+        "translation": "Locke can't be blocked by creatures with greater power."
+    },
     "2137": {
         "oracleText": "Target an artifact card with mana value less than {2, Number}.",
         "translation": "指定一个法术力值等于或小于{2, Number}的神器牌为目标。"
@@ -5170,10 +5178,6 @@
     "2158": {
         "oracleText": "Treefolk",
         "translation": "树妖"
-    },
-    "2162": {
-        "oracleText": "Distribute counters among tapped creatures your opponents control.",
-        "translation": "将指示物分配到由对手操控且已横置的生物上。"
     },
     "2167": {
         "oracleText": "Epic Proportions",
@@ -5290,10 +5294,6 @@
     "2222": {
         "oracleText": "\"The beauty of it is they never see it coming. Ever.\"\n—Razzix, sparkmage",
         "translation": "「最令人激赏的一点，是他们完全浑然不知。完完全全。」\n～火花法师剌极"
-    },
-    "2223": {
-        "oracleText": "Exile an instant or sorcery card at random.",
-        "translation": "随机放逐一张瞬间或法术牌。"
     },
     "2224": {
         "oracleText": "Rampant Growth",
@@ -5582,6 +5582,10 @@
     "2380": {
         "oracleText": "Islandwalk",
         "translation": "海岛行者"
+    },
+    "2381": {
+        "oracleText": "Target a Rebel you control.",
+        "translation": "Target a Rebel you control."
     },
     "2382": {
         "oracleText": "Mana Leak",
@@ -10907,6 +10911,10 @@
         "oracleText": "Where wasted life cries out to be reborn.",
         "translation": "消亡生灵哀求转生之所。"
     },
+    "13131": {
+        "oracleText": "Random choice.",
+        "translation": "Random choice."
+    },
     "13149": {
         "oracleText": "Destroy target multicolored permanent.",
         "translation": "消灭目标多色永久物。"
@@ -13770,6 +13778,10 @@
     "26144": {
         "oracleText": "Imprisonment teaches revenge. Hobbling teaches resignation.",
         "translation": "监禁教出复仇。跛行教出屈从。"
+    },
+    "26158": {
+        "oracleText": "{o3oU}: Proliferate.",
+        "translation": "{o3oU}: Proliferate."
     },
     "26180": {
         "oracleText": "Master Splicer",
@@ -36999,41 +37011,21 @@
         "oracleText": "Draw a card at the beginning of the next turn's upkeep.",
         "translation": "在下一个回合的维持开始时抓一张牌。"
     },
-    "136482": {
-        "oracleText": "Draw a card. You lose 2 life.",
-        "translation": "抓一张牌。你失去2点生命。"
-    },
     "136483": {
-        "oracleText": "Draw a card. You lose 2 life.",
-        "translation": "抓一张牌。你失去2点生命。"
-    },
-    "136484": {
-        "oracleText": "Put a +1/+1 counter on CARDNAME. You lose 2 life.",
-        "translation": "在CARDNAME上放置一个+1/+1指示物。你失去2点生命。"
+        "oracleText": "You lose 2 life. Draw a card.",
+        "translation": "You lose 2 life. Draw a card."
     },
     "136485": {
-        "oracleText": "Put a +1/+1 counter on Zuko. You lose 2 life.",
-        "translation": "在苏科上放置一个+1/+1指示物。你失去2点生命。"
-    },
-    "136486": {
-        "oracleText": "Add {oR}. You lose 2 life.",
-        "translation": "加{oR}。你失去2点生命。"
+        "oracleText": "You lose 2 life. Put a +1/+1 counter on Zuko.",
+        "translation": "You lose 2 life. Put a +1/+1 counter on Zuko."
     },
     "136487": {
-        "oracleText": "Add {oR}. You lose 2 life.",
-        "translation": "加{oR}。你失去2点生命。"
-    },
-    "136488": {
-        "oracleText": "Exile CARDNAME, then return him to the battlefield under an opponent's control. You lose 2 life.",
-        "translation": "放逐CARDNAME，然后将他在任一对手的操控下移回战场。你失去2点生命。"
+        "oracleText": "You lose 2 life. Add {oR}.",
+        "translation": "You lose 2 life. Add {oR}."
     },
     "136489": {
-        "oracleText": "Exile Zuko, then return him to the battlefield under an opponent's control. You lose 2 life.",
-        "translation": "放逐苏科，然后将他在任一对手的操控下移回战场。你失去2点生命。"
-    },
-    "136490": {
-        "oracleText": "At the beginning of your first main phase, choose one that hasn't been chosen — • Draw a card. You lose 2 life. • Put a +1/+1 counter on CARDNAME. You lose 2 life. • Add {oR}. You lose 2 life. • Exile CARDNAME, then return him to the battlefield under an opponent's control. You lose 2 life.",
-        "translation": "在你第一个行动阶段开始时，选择一项，且不得是此前选过的～•抓一张牌。你失去2点生命。•在CARDNAME上放置一个+1/+1指示物。你失去2点生命。•加{oR}。你失去2点生命。•放逐CARDNAME，然后将他在对手的操控下移回战场。你失去2点生命。"
+        "oracleText": "You lose 2 life. Exile Zuko, then return him to the battlefield under an opponent's control.",
+        "translation": "You lose 2 life. Exile Zuko, then return him to the battlefield under an opponent's control."
     },
     "137399": {
         "oracleText": "Reveal your hand?",
@@ -41078,10 +41070,6 @@
     "224677": {
         "oracleText": "{oT}, Sacrifice CARDNAME: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
         "translation": "{oT}，牺牲CARDNAME：从你的牌库中搜寻一张基本地牌，将之横置放进战场，然后洗牌。"
-    },
-    "224691": {
-        "oracleText": "Choose a creature at random that attacked this turn.",
-        "translation": "随机选择一个曾于本回合中攻击的生物。"
     },
     "225188": {
         "oracleText": "{o4}, {oT}: CARDNAME deals 2 damage to any target.",
@@ -47507,10 +47495,6 @@
         "oracleText": "Sacrifice three Treasures.",
         "translation": "牺牲三个珍宝。"
     },
-    "257946": {
-        "oracleText": "Discard two cards at random.",
-        "translation": "随机弃两张牌。"
-    },
     "257947": {
         "oracleText": "Sacrifice a permanent.",
         "translation": "牺牲一个永久物。"
@@ -47583,10 +47567,6 @@
         "oracleText": "Sacrifice {2, plural, =1 {{2, Number} creature} other {{2, Number} creatures}}.",
         "translation": "牺牲{2, plural, =1 {{2, Number}个生物} other {{2, Number}个生物}}。"
     },
-    "259305": {
-        "oracleText": "Discard a card at random.",
-        "translation": "随机弃一张牌。"
-    },
     "259306": {
         "oracleText": "Sacrifice two creatures.",
         "translation": "牺牲两个生物。"
@@ -47598,10 +47578,6 @@
     "259311": {
         "oracleText": "Sacrifice an artifact or Goblin.",
         "translation": "牺牲一个神器或鬼怪。"
-    },
-    "259313": {
-        "oracleText": "Destroy one of those permanents at random.",
-        "translation": "随机消灭其中一个永久物。"
     },
     "259315": {
         "oracleText": "Discard up to three cards.",
@@ -54679,10 +54655,6 @@
         "oracleText": "Troll Shaman",
         "translation": "巨魔／祭师"
     },
-    "281994": {
-        "oracleText": "Discard three cards at random.",
-        "translation": "随机弃三张牌。"
-    },
     "282025": {
         "oracleText": "You may pay {oWoUoBoRoG} rather than pay this spell's mana cost.",
         "translation": "你可支付{oWoUoBoRoG}，而不支付此咒语的法术力费用。"
@@ -55659,6 +55631,10 @@
         "oracleText": "Pyrokinesis deals 4 damage divided as you choose among any number of target creatures.",
         "translation": "驾驭爆焰对任意数量的目标生物造成共4点伤害，你可以任意分配。"
     },
+    "300077": {
+        "oracleText": "Human Cleric Druid",
+        "translation": "Human Cleric Druid"
+    },
     "300311": {
         "oracleText": "Exile a red card.",
         "translation": "放逐一张红色牌。"
@@ -55962,10 +55938,6 @@
     "309018": {
         "oracleText": "Untap up to five lands.",
         "translation": "重置至多五个地。"
-    },
-    "309019": {
-        "oracleText": "Return a card at random to your hand.",
-        "translation": "随机将一张牌移回你手上。"
     },
     "309188": {
         "oracleText": "Goblin Spellshaper",
@@ -59910,10 +59882,6 @@
     "337097": {
         "oracleText": "{o0}: Add {oWoUoBoRoG}. Activate this ability only once each turn.",
         "translation": "{o0}：加{oWoUoBoRoG}。此异能每回合只能起动一次。"
-    },
-    "337098": {
-        "oracleText": "Choose a creature card in your hand at random.",
-        "translation": "从你手上随机选择一张生物牌。"
     },
     "337100": {
         "oracleText": "Exile the top card of your library face down and look at it. Create a 2/2 colorless Spirit creature token. When that token leaves the battlefield, put the exiled card into your hand.",
@@ -79819,14 +79787,6 @@
         "oracleText": "Cast the copies without paying their mana costs?",
         "translation": "是否要不支付法术力费用施放复制品？"
     },
-    "456646": {
-        "oracleText": "Return a Zombie card at random to your hand.",
-        "translation": "随机将一张灵俑牌移回你手上。"
-    },
-    "456647": {
-        "oracleText": "Return an instant or sorcery card at random to your hand.",
-        "translation": "随机将一张瞬间或法术牌移回你手上。"
-    },
     "456650": {
         "oracleText": "End the turn. (Exile all spells and abilities from the stack, including this card. The player whose turn it is discards down to their maximum hand size. Damage wears off, and \"this turn\" and \"until end of turn\" effects end.)",
         "translation": "结束本回合。（放逐堆叠上的所有咒语和异能，包括此牌。轮到此回合的牌手将手牌弃至其手牌上限。生物上的伤害消失，并且注记着「本回合」与「直到回合结束」的效应均结束。）"
@@ -89355,10 +89315,6 @@
         "oracleText": "Exile a creature card they revealed this way.",
         "translation": "放逐一张以此法他展示的一张生物牌。"
     },
-    "489356": {
-        "oracleText": "Choose a creature an opponent controls chosen at random.",
-        "translation": "随机选择一个由对手操控的生物。"
-    },
     "489405": {
         "oracleText": "Spend only on: Creature or Enchantment Spells",
         "translation": "只能用于支付：生物或结界咒语"
@@ -89602,10 +89558,6 @@
     "497212": {
         "oracleText": "Have target player mill two cards?",
         "translation": "是否要令目标牌手磨两张牌？"
-    },
-    "497214": {
-        "oracleText": "{2, plural, =1 {Return {2, Number} card at random to your hand.} other {Return {2, Number} cards at random to your hand.}}",
-        "translation": "{2, plural, =1 {随机将{2, Number}张牌移回你手上。} other {随机将{2, Number}张牌移回你手上。}}"
     },
     "497215": {
         "oracleText": "\"Into the smothering dark, Serra spoke a single word: ‘Hope.'\"\n—Song of All, canto 2",
@@ -98819,10 +98771,6 @@
         "oracleText": "Hone",
         "translation": "磨练"
     },
-    "535801": {
-        "oracleText": "Book",
-        "translation": "书籍"
-    },
     "535802": {
         "oracleText": "Point",
         "translation": "得分"
@@ -98930,10 +98878,6 @@
     "541871": {
         "oracleText": "Whenever you cast your second spell each turn, venture into the dungeon.",
         "translation": "每当你施放每回合中你的第二个咒语时，深入地城。"
-    },
-    "541873": {
-        "oracleText": "Seek two nonland cards.",
-        "translation": "取出两张非地牌。"
     },
     "541874": {
         "oracleText": "Add Die Roll",
@@ -102815,10 +102759,6 @@
         "oracleText": "\"I don't think so.\"",
         "translation": "「我不这么想。」"
     },
-    "547414": {
-        "oracleText": "Seek a nonland card with mana value 2 or less.",
-        "translation": "取出一张法术力值等于或小于2的非地牌。"
-    },
     "547444": {
         "oracleText": "Target a creature an opponent controls to get -3/-0 until your next turn.",
         "translation": "指定一个由对手操控的生物为目标，它得-3/-0直到你的下一个回合。"
@@ -103199,10 +103139,6 @@
         "oracleText": "Target a white creature card.",
         "translation": "指定一张白色生物牌为目标。"
     },
-    "548278": {
-        "oracleText": "Seek a land card and a nonland card.",
-        "translation": "取出一张地牌和一张非地牌。"
-    },
     "548279": {
         "oracleText": "Sacrifice a Kraken?",
         "translation": "是否要牺牲一个巨海兽？"
@@ -103210,10 +103146,6 @@
     "548280": {
         "oracleText": "Exile a Merfolk card or a land card from your hand?",
         "translation": "是否要从你手上放逐一张人鱼牌或地牌？"
-    },
-    "548281": {
-        "oracleText": "Seek an Elf card.",
-        "translation": "取出一张妖精牌。"
     },
     "548282": {
         "oracleText": "Merfolk Scout Ranger",
@@ -103527,10 +103459,6 @@
         "oracleText": "{o0}: Choose one — \n• You lose 6 life. \n• Exile two cards from your hand. If fewer than two cards were exiled this way, each opponent draws cards equal to the difference. \n• Sacrifice two permanents. \n• Each creature you don't control perpetually gets +1/+1. \n• You get an emblem with \"Creatures you control get -1/-0.\" \n• You get an emblem with \"Spells you cast cost {oB} more to cast.\" \n• You get an emblem with \"Whenever you draw a card, exile the top two cards of your library.\" \n• You get an emblem with \"At the beginning of your upkeep, you lose 1 life for each creature you control.\"",
         "translation": "{o0}：选择一项～ \n•你失去6点生命。 \n•从你手上放逐两张牌。若以此法放逐之牌少于两张，每位对手抓等同于该差距数量的牌。 \n•牺牲两个永久物。 \n•每个不由你操控的生物各永久得+1/+1。 \n•你获得具有以下异能的徽记～「由你操控的生物得-1/-0。」 \n•你获得具有以下异能的徽记～「你施放的咒语增加{oB}来施放。」 \n•你获得具有以下异能的徽记～「每当你抓一张牌时，放逐你牌库顶的两张牌。」 \n•你获得具有以下异能的徽记～「在你的维持开始时，你每操控一个生物便失去1点生命。」"
     },
-    "552831": {
-        "oracleText": "Get that Elf and a random Elf creature card in your hand.",
-        "translation": "该妖精，你手上随机一张妖精生物牌。"
-    },
     "552832": {
         "oracleText": "Choose a creature card in your hand?",
         "translation": "是否要选择你手上的一张生物牌？"
@@ -103538,10 +103466,6 @@
     "552834": {
         "oracleText": "Until your next turn, whenever an opponent attacks you and/or planeswalkers you control, they discard a card. If they can't, they sacrifice an attacking creature.",
         "translation": "直到你的下一个回合，每当任一对手攻击你和／或由你操控的鹏洛客时，该牌手弃一张。若该牌手无法如此作，则该牌手牺牲一个进行攻击的生物。"
-    },
-    "552835": {
-        "oracleText": "Return two random creature cards to your hand.",
-        "translation": "随机将两张生物牌移回你手上。"
     },
     "552857": {
         "oracleText": "Mana Link Emblem",
@@ -103599,10 +103523,6 @@
         "oracleText": "Target a creature to get three +1/+1 counters.",
         "translation": "指定一个生物为目标，它得三个+1/+1指示物。"
     },
-    "554628": {
-        "oracleText": "Seek a creature card of the most prevalent creature type in your library.",
-        "translation": "取出一张在你牌库中生物类别最普遍的生物牌。"
-    },
     "554630": {
         "oracleText": "Create a Food token",
         "translation": "派出一个食品衍生物"
@@ -103650,14 +103570,6 @@
     "555820": {
         "oracleText": "Protection from vanguards",
         "translation": "反先锋保护"
-    },
-    "555979": {
-        "oracleText": "Choose a random nonland card.",
-        "translation": "随机选择一张非地牌。"
-    },
-    "555994": {
-        "oracleText": "Return a random creature card with the highest mana value among creature cards in your graveyard to the battlefield.",
-        "translation": "随机将你坟墓场生物牌中法术力值最高的一张生物牌移回战场。"
     },
     "555995": {
         "oracleText": "Protection from planes",
@@ -108027,41 +107939,17 @@
         "oracleText": "Choose an instant or sorcery card in your hand with mana value 3 or greater.",
         "translation": "选择你手上的一张法术力值等于或大于3的瞬间或法术牌。"
     },
-    "566499": {
-        "oracleText": "Seek a card with mana value equal to the number of cards in your hand.",
-        "translation": "取出一张法术力值等同于你手牌数量的牌。"
-    },
     "566503": {
         "oracleText": "Choose an instant or sorcery card in your hand.",
         "translation": "选择你手上的一张瞬间或法术牌。"
-    },
-    "566506": {
-        "oracleText": "Seek a permanent card with mana value equal to the number of lands you control.",
-        "translation": "取出一张法术力值等同于由你操控之地数量的永久物牌。"
-    },
-    "566507": {
-        "oracleText": "Seek a land card.",
-        "translation": "取出一张地牌。"
     },
     "566510": {
         "oracleText": "Return a creature named Ominous Traveler you control to its owner's hand.",
         "translation": "将一个由你操控且名称为恶兆旅人的生物移回其拥有者手上。"
     },
-    "566511": {
-        "oracleText": "Seek three nonland cards.",
-        "translation": "取出三张非地牌。"
-    },
     "566512": {
         "oracleText": "Choose a permanent you don't control.",
         "translation": "选择一个不由你操控的永久物。"
-    },
-    "566513": {
-        "oracleText": "Seek a card with mana value equal to that damage.",
-        "translation": "取出一张法术力值等同于该伤害的牌。"
-    },
-    "566514": {
-        "oracleText": "Seek a basic land card.",
-        "translation": "取出一张基本地牌。"
     },
     "566515": {
         "oracleText": "Choose a party creature card in your hand.",
@@ -108175,10 +108063,6 @@
         "oracleText": "Whenever equipped creature deals combat damage to a player, seek a card with mana value equal to that damage.",
         "translation": "每当佩带此武具的生物对任一牌手造成战斗伤害时，取出一张法术力值等同于该伤害的牌。"
     },
-    "566798": {
-        "oracleText": "Choose a random creature card.",
-        "translation": "随机选择一张生物牌。"
-    },
     "566800": {
         "oracleText": "Target up to two nontoken creatures you control.",
         "translation": "指定至多两个由你操控且非衍生物的生物为目标。"
@@ -108187,21 +108071,9 @@
         "oracleText": "Choose another player.",
         "translation": "选择另一位牌手。"
     },
-    "566802": {
-        "oracleText": "Seek a creature card with mana value equal to the mana value of that card plus one.",
-        "translation": "取出一张法术力值等同于该牌法术力值加一的生物牌。"
-    },
     "566804": {
         "oracleText": "Search for any number of cards with the same name.",
         "translation": "搜寻任意数量同名的牌。"
-    },
-    "566805": {
-        "oracleText": "Seek two creature cards with mana value 3 or less.",
-        "translation": "取出两张法术力值等于或小于3的生物牌。"
-    },
-    "567008": {
-        "oracleText": "Seek an instant or sorcery card.",
-        "translation": "取出一张瞬间或法术牌。"
     },
     "567009": {
         "oracleText": "Angelic Observer",
@@ -111007,10 +110879,6 @@
         "oracleText": "Select any number of green cards to exile.",
         "translation": "选择并放逐任意数量的绿色牌。"
     },
-    "567969": {
-        "oracleText": "Seek {2, plural, =1 {{2, Number} instant or sorcery card} other {{2, Number} instant or sorcery cards}}.",
-        "translation": "取出{2, plural, =1 {{2, Number}张瞬间或法术牌} other {{2, Number}张瞬间或法术牌}}。"
-    },
     "567970": {
         "oracleText": "Target a nonlegendary creature that crewed it this turn.",
         "translation": "指定一个本回合中搭载它之非传奇的生物为目标。"
@@ -111026,10 +110894,6 @@
     "567973": {
         "oracleText": "Reconfigure {Cost} (Unattach from a creature.)",
         "translation": "重配{Cost}（从生物上卸装）"
-    },
-    "568053": {
-        "oracleText": "Seek a card with the same mana value as that spell.",
-        "translation": "取出一张法术力值与该咒语相同的牌。"
     },
     "568055": {
         "oracleText": "Draft a card.",
@@ -111067,21 +110931,9 @@
         "oracleText": "A-Esika's Chariot",
         "translation": "炼-埃西卡的战车"
     },
-    "569102": {
-        "oracleText": "Put a random instant card into your graveyard.",
-        "translation": "随机将一张瞬间牌置入你的坟墓场。"
-    },
-    "569103": {
-        "oracleText": "Put a random sorcery card into your graveyard.",
-        "translation": "随机将一张法术牌置入你的坟墓场。"
-    },
     "569104": {
         "oracleText": "Exile this card.",
         "translation": "放逐此牌。"
-    },
-    "569106": {
-        "oracleText": "Exile a nonland card from their library at random.",
-        "translation": "随机从其牌库放逐一张非地牌。"
     },
     "569107": {
         "oracleText": "A-Demilich",
@@ -111983,10 +111835,6 @@
         "oracleText": "Whenever a Samurai or Warrior you control attacks alone, draft a card from Imperial Blademaster's spellbook.",
         "translation": "每当一个由你操控的武士或战士单独攻击时，从皇室剑豪的法术书中抽选一张牌。"
     },
-    "595498": {
-        "oracleText": "Put a random creature card with lesser mana value onto the battlefield.",
-        "translation": "将一张法术力值更小的随机生物牌放进战场。"
-    },
     "595500": {
         "oracleText": "Target a creature you control or creature card in your graveyard.",
         "translation": "指定一个由你操控的生物或一张在你坟墓场中的生物牌为目标。"
@@ -111994,30 +111842,6 @@
     "595501": {
         "oracleText": "Discard an additional card?",
         "translation": "是否要额外弃一张牌？"
-    },
-    "595502": {
-        "oracleText": "Choose a random card.",
-        "translation": "随机选择一张牌。"
-    },
-    "595504": {
-        "oracleText": "Gain a random nonland card in your hand.",
-        "translation": "你手上随机一张非地牌。"
-    },
-    "595505": {
-        "oracleText": "Seek a card with mana value equal to that card's mana value.",
-        "translation": "取出一张法术力值与该牌的法术力值相同的牌。"
-    },
-    "595506": {
-        "oracleText": "Gain a random artifact card in your hand.",
-        "translation": "你手上随机一张神器牌。"
-    },
-    "595507": {
-        "oracleText": "Exile a random nonland artifact card with lesser mana value.",
-        "translation": "放逐一张法术力值更小的随机非地神器牌。"
-    },
-    "595508": {
-        "oracleText": "Put a random Shrine card into your hand.",
-        "translation": "随机将一张祭祠牌置于你手上。"
     },
     "595509": {
         "oracleText": "High Score Emblem",
@@ -112046,10 +111870,6 @@
     "595515": {
         "oracleText": "Whenever a creature you control attacks alone, you may pay 1 life. If you do, put a +1/+1 counter on that creature. Otherwise, it gets +1/+1 until end of turn.",
         "translation": "每当一个由你操控的生物单独攻击时，你可以支付1生命。若你如此作，在该生物上放置一个+1/+1指示物。否则它得+1/+1直到回合结束。"
-    },
-    "595516": {
-        "oracleText": "Get a random creature card in your hand.",
-        "translation": "你手上随机一张生物牌。"
     },
     "595517": {
         "oracleText": "Search your library for an Aura or Equipment card, reveal it, put it into your hand, then shuffle.",
@@ -112326,14 +112146,6 @@
     "598824": {
         "oracleText": "Whenever CARDNAME deals combat damage to a player, choose land or nonland. Seek a permanent card of the chosen kind.",
         "translation": "每当CARDNAME对任一牌手造成战斗伤害时，选择地或非地。取出一张该种类的永久物牌。"
-    },
-    "598828": {
-        "oracleText": "Put a random creature card with mana value {2, Number} or less onto the battlefield.",
-        "translation": "随机将一张法术力值等于或小于{2, Number}的生物牌放进战场。"
-    },
-    "598829": {
-        "oracleText": "Seek a permanent card of the chosen kind.",
-        "translation": "取出一张该种类的永久物牌。"
     },
     "599804": {
         "oracleText": "Tap any number of other creatures you control with total power 4 or more.",
@@ -115239,10 +115051,6 @@
         "oracleText": "Protection from Devils",
         "translation": "反魔鬼保护"
     },
-    "605046": {
-        "oracleText": "Seek two instant and/or sorcery cards with mana value 3.",
-        "translation": "取出两张法术力值等于3的瞬间和／或法术牌。"
-    },
     "605047": {
         "oracleText": "Put one of them onto the battlefield?",
         "translation": "是否要将其中之一放进战场？"
@@ -115255,29 +115063,9 @@
         "oracleText": "Choose a card revealed this way.",
         "translation": "选择以依法展示的一张牌。"
     },
-    "605050": {
-        "oracleText": "Seek {2, plural, =1 {{2, Number} nonland card} other {{2, Number} nonland cards}}.",
-        "translation": "取出{2, plural, =1 {{2, Number}张非地牌} other {{2, Number}张非地牌}}。"
-    },
     "605052": {
         "oracleText": "Target up to three artifacts.",
         "translation": "指定至多三个神器为目标。"
-    },
-    "605053": {
-        "oracleText": "Seek a creature card with mana value 3 or less.",
-        "translation": "取出一张法术力值等于或小于3的生物牌。"
-    },
-    "605054": {
-        "oracleText": "Seek a card with mana value equal to the number of flame counters on it.",
-        "translation": "取出一张法术力值等同于其上烈焰指示物数量的牌。"
-    },
-    "605056": {
-        "oracleText": "Seek a creature card.",
-        "translation": "取出一张生物牌。"
-    },
-    "605057": {
-        "oracleText": "{2, plural, =1 {Seek {2, Number} creature, enchantment, or planeswalker card.} other {Seek {2, Number} creature, enchantment, and/or planeswalker cards.}}",
-        "translation": "{2, plural, =1 {取出{2, Number}张生物、结界或鹏洛客牌。} other {取出{2, Number}张生物、结界和／或鹏洛客牌。}}"
     },
     "605059": {
         "oracleText": "Seek a nonland card.",
@@ -115362,10 +115150,6 @@
     "605092": {
         "oracleText": "Target an artifact or creature an opponent controls with mana value 4 or less.",
         "translation": "指定一个由对手操控且其法术力值等于或小于4的神器或生物为目标。"
-    },
-    "605094": {
-        "oracleText": "Seek a land card with a basic land type.",
-        "translation": "取出一张具基本地类别的地牌。"
     },
     "605100": {
         "oracleText": "Put a rope counter on a creature they control.",
@@ -116095,10 +115879,6 @@
         "oracleText": "Syndicate Recruiter",
         "translation": "黑帮招募员"
     },
-    "614528": {
-        "oracleText": "Seek two cards.",
-        "translation": "取出两张牌。"
-    },
     "614529": {
         "oracleText": "Shuffle them into your library?",
         "translation": "是否要将它们洗入你的牌库？"
@@ -116110,10 +115890,6 @@
     "614532": {
         "oracleText": "Target a nonartifact creature you control.",
         "translation": "指定一个由你操控的非神器生物为目标。"
-    },
-    "614533": {
-        "oracleText": "Seek a creature card with lesser mana value.",
-        "translation": "取出一张法术力值更小的生物牌。"
     },
     "614534": {
         "oracleText": "Choose up to two creature and/or planeswalker cards in your hand.",
@@ -116134,10 +115910,6 @@
     "614542": {
         "oracleText": "Whenever you discard one or more cards, seek a card that shares a card type with one of the discarded cards. This ability triggers only once each turn.",
         "translation": "每当你弃一张或数张牌时，取出一张与其中一张所弃之牌具共通牌张类别的牌。此异能每回合只会触发一次。"
-    },
-    "614547": {
-        "oracleText": "Seek a card that shares a card type with one of the discarded cards.",
-        "translation": "取出一张与其中一张所弃之牌具共通牌张类别的牌。"
     },
     "614551": {
         "oracleText": "Karn, Living Legacy",
@@ -119178,10 +118950,6 @@
     "617793": {
         "oracleText": "At the beginning of the next end step, return that creature to its owner's hand.",
         "translation": "在下一个结束步骤开始时，将该生物移回其拥有者手上。"
-    },
-    "617798": {
-        "oracleText": "Seek two creature cards with mana value less than or equal to the number of study counters removed this way.",
-        "translation": "取出两张生物牌，且其法术力值须等于或小于以此法移去的读书指示物数量。将其中一张放进战场，另一张则洗入你的牌库。"
     },
     "617800": {
         "oracleText": "Pay 5 life?",
@@ -122431,10 +122199,6 @@
         "oracleText": "When this card specializes from any zone, another target creature you control gets +4/+4 until end of turn.",
         "translation": "当此牌从任何区域精进时，另一个目标由你操控的生物得+4/+4直到回合结束。"
     },
-    "619023": {
-        "oracleText": "Seek an instant or sorcery card with mana value 3 or less.",
-        "translation": "取出一张法术力值等于或小于3的瞬间或法术牌。"
-    },
     "619355": {
         "oracleText": "Equip Shaman, Warlock, or Wizard {o1}",
         "translation": "佩带祭师，邪术师或法术师{o1}"
@@ -122638,10 +122402,6 @@
     "630367": {
         "oracleText": "Target a spell with mana value 2.",
         "translation": "指定一个法术力值为2的咒语为目标。"
-    },
-    "630552": {
-        "oracleText": "{2, plural, =1 {Discard {2, Number} card at random.} other {Discard {2, Number} cards at random.}}",
-        "translation": "{2, plural, =1 {随机弃{2, Number}张牌。} other {随机弃{2, Number}张牌。}}"
     },
     "630808": {
         "oracleText": "Search your library for a land card, put that card onto the battlefield, then shuffle.",
@@ -123067,10 +122827,6 @@
         "oracleText": "Target a non-Demon creature.",
         "translation": "指定一个非恶魔生物为目标。"
     },
-    "662651": {
-        "oracleText": "Return a creature card at random to your hand.",
-        "translation": "随机将一张生物牌移回你手上。"
-    },
     "662839": {
         "oracleText": "Search your library for a card and put that card into your hand. If this spell was cast from a graveyard, instead search your library for two cards and put those cards into your hand. Then shuffle.",
         "translation": "从你的牌库中搜寻一张牌并置于你手上。如果野心渐增是从坟墓场施放，则改为从你的牌库中搜寻两张牌并置于你手上。然后洗牌。"
@@ -123322,10 +123078,6 @@
     "669462": {
         "oracleText": "Exile that card at the beginning of your next end step.",
         "translation": "在你的下一个结束步骤开始时，放逐该牌。"
-    },
-    "669463": {
-        "oracleText": "Return a creature card at random to the battlefield.",
-        "translation": "随机将一张生物牌移回战场。"
     },
     "669464": {
         "oracleText": "Spirit Warrior Token",
@@ -124199,17 +123951,9 @@
         "oracleText": "Target a creature that crewed it this turn.",
         "translation": "指定一个本回合中搭载它的生物为目标。"
     },
-    "676079": {
-        "oracleText": "Seek a card with greater mana value.",
-        "translation": "取出一张法术力值更大的牌。"
-    },
     "676080": {
         "oracleText": "Target a card in an opponent's graveyard.",
         "translation": "以任一牌手坟墓场中的牌为目标。"
-    },
-    "676081": {
-        "oracleText": "Put a random land card into your graveyard.",
-        "translation": "随机将一张地牌置入你的坟墓场。"
     },
     "676082": {
         "oracleText": "Target a nonlegendary creature card in your graveyard that was put there from the battlefield this turn.",
@@ -124694,10 +124438,6 @@
     "677249": {
         "oracleText": "When you cast this spell, create a Treasure token and this spell perpetually loses this ability.",
         "translation": "当你施放此咒语时，派出一个珍宝衍生物且此咒语永久失去此异能。"
-    },
-    "677465": {
-        "oracleText": "Seek an artifact card.",
-        "translation": "取出一张神器牌。"
     },
     "677469": {
         "oracleText": "Target a nontoken, nonland permanent.",
@@ -127851,10 +127591,6 @@
         "oracleText": "Destroy all Equipment attached to that creature?",
         "translation": "消灭所有贴附在该生物上的武具？"
     },
-    "683842": {
-        "oracleText": "Exile three cards at random.",
-        "translation": "随机放逐三张牌。"
-    },
     "683843": {
         "oracleText": "Search for a basic Mountain card.",
         "translation": "搜寻一张基本的山脉牌。"
@@ -128639,10 +128375,6 @@
         "oracleText": "Choose a Soldier card in your hand.",
         "translation": "选择你手上的一张士兵牌。"
     },
-    "701525": {
-        "oracleText": "Seek a historic card.",
-        "translation": "取出一张史迹牌。"
-    },
     "701526": {
         "oracleText": "Sacrifice a historic permanent.",
         "translation": "牺牲一个史迹永久物。"
@@ -128679,17 +128411,9 @@
         "oracleText": "Target a creature card with power less than {1, CardId}'s power.",
         "translation": "选择一个力量小于{1, CardId}的生物牌为目标。"
     },
-    "701536": {
-        "oracleText": "Seek an Urza's land card.",
-        "translation": "取出一张克撒的地牌。"
-    },
     "701580": {
         "oracleText": "Target creature an opponent controls gets -X/-X until end of turn, where X is the number of cards you have discarded this turn.",
         "translation": "目标由对手操控的生物得-X/-X直到回合结束，X为你本回合中弃掉牌的数量。"
-    },
-    "701785": {
-        "oracleText": "Seek a card with mana value 2 or less and a card with mana value 3 or greater.",
-        "translation": "取出一张法术力值等于或小于2的牌和一张法术力值等于或大于3的牌。"
     },
     "701789": {
         "oracleText": "Invasion of Ravnica",
@@ -132203,10 +131927,6 @@
         "oracleText": "Target up to four cards with mana value 3 or greater.",
         "translation": "指定至多四张法术力值等于或大于3的牌为目标。"
     },
-    "702943": {
-        "oracleText": "Exile a card from their hand at random.",
-        "translation": "从他手上随机放逐一张牌。"
-    },
     "702944": {
         "oracleText": "Put it onto the battlefield under your control?",
         "translation": "是否要将它在你的操控下从放进战场？"
@@ -134428,8 +134148,8 @@
         "translation": "精灵领主眉宇间存有智慧，双手间握有力量。"
     },
     "703633": {
-        "oracleText": "Whenever you scry, choose one and Glorfindel, Dauntless Rescuer gets +1/+1 until end of turn. • Glorfindel must be blocked this turn if able. • Glorfindel can't be blocked by more than one creature each combat this turn.",
-        "translation": "每当你占卜时，选择一项且无畏援骑格罗芬德尔得+1/+1直到回合结束。 •格罗芬德尔本回合若能被阻挡，则须如此作。 •本回合中，格罗芬德尔每次战斗不能被多于一个生物阻挡。"
+        "oracleText": "Whenever you scry, choose one and Glorfindel, Dauntless Rescuer gets +1/+1 until end of turn. \n• Glorfindel must be blocked this turn if able. \n• Glorfindel can't be blocked by more than one creature each combat this turn.",
+        "translation": "Whenever you scry, choose one and Glorfindel, Dauntless Rescuer gets +1/+1 until end of turn. \n• Glorfindel must be blocked this turn if able. \n• Glorfindel can't be blocked by more than one creature each combat this turn."
     },
     "703634": {
         "oracleText": "Last March of the Ents",
@@ -135643,14 +135363,6 @@
         "oracleText": "expedient",
         "translation": "权宜之计"
     },
-    "704025": {
-        "oracleText": "Seek a card with greater mana value than the discarded card.",
-        "translation": "取出一张法术力值大于所弃之牌的牌。"
-    },
-    "704026": {
-        "oracleText": "Seek a card with lesser mana value than the discarded card.",
-        "translation": "取出一张法术力值小于所弃之牌的牌。"
-    },
     "704027": {
         "oracleText": "Pay {o{2, Number}oR}?",
         "translation": "是否要支付{o{2, Number}oR}？"
@@ -136230,10 +135942,6 @@
     "704224": {
         "oracleText": "To hear them tell it, they charged bare-handed into New Phyrexia and beat up Elesh Norn all by themselves.",
         "translation": "用他们的话来说，他们就是赤手空拳地冲进了新非瑞克西亚，全拥而上把艾蕾侬痛揍一频后得胜而归。"
-    },
-    "704225": {
-        "oracleText": "At the beginning of your end step, if one or more creatures died this turn, you gain that much life and distribute that many +1/+1 counters among creatures you control.",
-        "translation": "在你的结束步骤开始时，若本回合中有一个或数个生物死去，则你获得等量生命，并将等量的+1/+1指示物分配给由你操控的生物。"
     },
     "704226": {
         "oracleText": "Gold-Forged Thopteryx",
@@ -137427,14 +137135,6 @@
         "oracleText": "Choose an Equipment card in your hand.",
         "translation": "选择一张你手上的武具牌。"
     },
-    "729582": {
-        "oracleText": "Exile three random cards.",
-        "translation": "随机放逐三张牌。"
-    },
-    "729583": {
-        "oracleText": "Seek a card with mana value equal to the number of poison counters that player has.",
-        "translation": "取出一张法术力值等同于该牌手具有之中毒指示物数量的牌。"
-    },
     "729584": {
         "oracleText": "Conjure a duplicate of that card into the top five cards of your library at random?",
         "translation": "是否将该牌的一张副本随机幻变进你牌库顶的五张牌中？"
@@ -137442,18 +137142,6 @@
     "729585": {
         "oracleText": "At the beginning of your next end step, discard those cards.",
         "translation": "在你的下个结束步骤开始时，弃掉这些牌。"
-    },
-    "729586": {
-        "oracleText": "Seek a creature card with mana value equal to 1 plus the sacrificed creature's mana value.",
-        "translation": "取出一张生物牌，且其法术力值须等同于所牺牲之生物的法术力值加1。"
-    },
-    "729587": {
-        "oracleText": "Seek a card with mana value equal to the number of oil counters on {1, CardId}.",
-        "translation": "取出一张法术力值等同于{1, CardId}上烁油指示物数量的牌。"
-    },
-    "729588": {
-        "oracleText": "Gain a random nonland card in that player's hand.",
-        "translation": "获得该牌手手上的一张随机非地牌。"
     },
     "729590": {
         "oracleText": "Seek a nonland card?",
@@ -137602,10 +137290,6 @@
     "731067": {
         "oracleText": "As long as Arixmethes has a slumber counter on it, it's a land. (It's not a creature.)",
         "translation": "只要阿力马昔斯上有静眠指示物，它便是地。（它不是生物。）"
-    },
-    "731096": {
-        "oracleText": "Distribute counters among creatures you control.",
-        "translation": "将指示物分配到由你操控的生物上。"
     },
     "731099": {
         "oracleText": "Choose a nonland card, your opponent won't be able to cast the card you choose.",
@@ -148591,14 +148275,6 @@
         "oracleText": "Target up to one other nonland, nontoken permanent.",
         "translation": "指定至多另一个非地且非衍生物的永久物为目标。"
     },
-    "751596": {
-        "oracleText": "Seek a card with mana value less than the number of cards in your hand.",
-        "translation": "取出一张法术力值小于你手牌数量的牌。"
-    },
-    "751597": {
-        "oracleText": "Seek a card with mana value greater than the number of cards in your hand.",
-        "translation": "取出一张法术力值大于你手牌数量的牌。"
-    },
     "751598": {
         "oracleText": "Cast a spell with mana value equal to that number from your hand without paying its mana cost?",
         "translation": "是否从你手上施放一个法术力值等于该数量的咒语，且不需支付其法术力费用？"
@@ -148610,10 +148286,6 @@
     "751600": {
         "oracleText": "Target up to three Boar creature cards with different names.",
         "translation": "指定至多三张名称各不相同的野猪生物牌为目标。"
-    },
-    "751601": {
-        "oracleText": "Seek two creature cards.",
-        "translation": "取出两张生物牌。"
     },
     "751602": {
         "oracleText": "When damage is prevented this way, sacrifice an Equipment attached to CARDNAME.",
@@ -148694,10 +148366,6 @@
     "753171": {
         "oracleText": "Descended",
         "translation": "落坟"
-    },
-    "753172": {
-        "oracleText": "Seek a card with the highest mana value among cards in your library with mana value less than or equal to the amount of life you gained this turn.",
-        "translation": "从你牌库中法术力值等于或小于你本回合中所获得之生命数量的牌中，取出一张法术力值最高的牌。"
     },
     "754099": {
         "oracleText": "Exile an artifact.",
@@ -149183,10 +148851,6 @@
         "oracleText": "Return any number of creature cards with total mana value {2, Number} or less to the battlefield.",
         "translation": "将任意数量法术力值总和等于或小于{2, Number}的生物牌移回战场。"
     },
-    "755684": {
-        "oracleText": "Seek a nonland artifact card with mana value {2, Number} or less.",
-        "translation": "取出一张法术力值等于或小于{2, Number}的非地神器牌。"
-    },
     "755685": {
         "oracleText": "Play it?",
         "translation": "使用该牌？"
@@ -149195,17 +148859,9 @@
         "oracleText": "Exile a permanent card.",
         "translation": "放逐一张永久物牌。"
     },
-    "755687": {
-        "oracleText": "Seek two Vampire cards.",
-        "translation": "取出两张吸血鬼牌。"
-    },
     "755688": {
         "oracleText": "Target a creature card with power or toughness 1.",
         "translation": "指定一个力量或防御力为1的生物牌为目标。"
-    },
-    "755692": {
-        "oracleText": "Seek a Pirate card.",
-        "translation": "取出一张海盗牌。"
     },
     "755693": {
         "oracleText": "Target a Fungus creature card.",
@@ -152679,10 +152335,6 @@
         "oracleText": "Search for up to five land cards that have different names.",
         "translation": "搜寻至多五张名称各不相同的地牌。"
     },
-    "757136": {
-        "oracleText": "Choose a card at random exiled with {1, CardId}.",
-        "translation": "随机选择一张以{1, CardId}放逐的牌。"
-    },
     "757137": {
         "oracleText": "Exile an artifact or creature card?",
         "translation": "是否要放逐一张神器或生物牌？"
@@ -153050,10 +152702,6 @@
     "759693": {
         "oracleText": "Choose a card revealed this way or a card in their graveyard.",
         "translation": "选择一张以此法展示的牌或一张在其坟墓场中的牌。"
-    },
-    "759694": {
-        "oracleText": "Exile a random card with mana value equal to the damage dealt.",
-        "translation": "随机放逐一张法术力值等同于所造成伤害数量的牌。"
     },
     "759695": {
         "oracleText": "Its gaze gifts you with knowledge no mortal mind should possess.",
@@ -155764,8 +155412,8 @@
         "translation": "未来塑师玄古"
     },
     "760583": {
-        "oracleText": "Whenever another nontoken permanent you control leaves the battlefield, choose one that hasn't been chosen this turn. Create a creature token with those characteristics. • 2/2 white Fox with vigilance. • 1/2 blue Moonfolk with flying. • 1/1 black Rat with lifelink.",
-        "translation": "每当另一个由你操控且非衍生物的永久物离开战场时，选择一项，且不得是本回合中此前选过的。派出一个具相应特征的衍生生物。 •2/2白色的狐，且具警戒异能。 •1/2蓝色月人，且具飞行异能。 •1/1黑色老鼠，且具系命异能。"
+        "oracleText": "Whenever another nontoken permanent you control leaves the battlefield, choose one that hasn't been chosen this turn. Create a creature token with those characteristics. \n• 2/2 white Fox with vigilance. \n• 1/2 blue Moonfolk with flying. \n• 1/1 black Rat with lifelink.",
+        "translation": "Whenever another nontoken permanent you control leaves the battlefield, choose one that hasn't been chosen this turn. Create a creature token with those characteristics. \n• 2/2 white Fox with vigilance. \n• 1/2 blue Moonfolk with flying. \n• 1/1 black Rat with lifelink."
     },
     "760584": {
         "oracleText": "{o3oWoU}: Put a +1/+1 counter on each creature you control.",
@@ -156582,10 +156230,6 @@
     "760850": {
         "oracleText": "Copy this spell?",
         "translation": "是否要复制此咒语？"
-    },
-    "760853": {
-        "oracleText": "Seek a Merfolk card.",
-        "translation": "取出一张人鱼牌。"
     },
     "760854": {
         "oracleText": "Additional effect when spent on: An Artifact or Creature Spell",
@@ -157571,10 +157215,6 @@
         "oracleText": "Choose a number between 1 and 20.",
         "translation": "选择一个1到20之间的数字。"
     },
-    "793461": {
-        "oracleText": "Seek a nonland card with lesser mana value than the exiled card.",
-        "translation": "取出一张法术力值小于所放逐之牌的非地牌。"
-    },
     "793462": {
         "oracleText": "Sacrifice a non-Spirit creature.",
         "translation": "牺牲一个非精怪生物。"
@@ -157851,10 +157491,6 @@
         "oracleText": "Each player discards their hand, then conjures a duplicate of each of seven random cards from the library of the player to their right into their hand. The duplicates perpetually gain \"Mana of any type can be spent to cast this spell.\"",
         "translation": "每位牌手弃掉其手牌，然后将其右手边牌手的牌库中七张随机牌各自的一张副本幻变进其手上。这些副本永久获得「此咒语能用任意种类的法术力来施放。」"
     },
-    "794730": {
-        "oracleText": "Choose each of seven random cards.",
-        "translation": "随机选择七张牌。"
-    },
     "794731": {
         "oracleText": "Exile any number of creatures you control.",
         "translation": "放逐任意数量由你操控的生物。"
@@ -158022,10 +157658,6 @@
     "810720": {
         "oracleText": "Target a creature to deal 6 damage to.",
         "translation": "指定一个生物为目标，来对其造成6点伤害。"
-    },
-    "810806": {
-        "oracleText": "Seek a non-Elephant creature card with mana value 3 or less.",
-        "translation": "取出一张法术力值等于或小于3的非象生物牌。"
     },
     "810807": {
         "oracleText": "Jessie Zane, Fangbringer",
@@ -158371,17 +158003,9 @@
         "oracleText": "Discard a card with the greatest mana value among cards in their hand.",
         "translation": "从其手上弃一张法术力值最大的牌。"
     },
-    "810921": {
-        "oracleText": "Seek two noncreature, nonland cards.",
-        "translation": "取出两张非生物且非地的牌。"
-    },
     "810924": {
         "oracleText": "Target a nonland, nontoken permanent an opponent controls.",
         "translation": "指定一个由对手操控、既非地也非衍生物的永久物为目标。"
-    },
-    "810925": {
-        "oracleText": "Seek a creature card with the same mana value as the chosen spell.",
-        "translation": "取出一张法术力值等同于所选咒语的生物牌。"
     },
     "810926": {
         "oracleText": "Choose a card in your graveyard.",
@@ -165527,10 +165151,6 @@
         "oracleText": "Select the number of times to replicate.",
         "translation": "选择覆诵的次数。"
     },
-    "813522": {
-        "oracleText": "Seek a card with the highest mana value among cards in your library with mana value {2, Number} or less.",
-        "translation": "从你牌库中法术力值等于或小于{2, Number}的牌中，取出一张法术力值最高的牌。"
-    },
     "813523": {
         "oracleText": "Exile one face down.",
         "translation": "牌面朝下地放逐一张牌。"
@@ -165988,12 +165608,8 @@
         "translation": "派出一个1/1黑色，具系命异能的老鼠衍生生物。"
     },
     "814592": {
-        "oracleText": "Whenever another nontoken permanent you control leaves the battlefield, choose one that hasn't been chosen this turn. • Create a 2/2 white Fox creature token with vigilance. • Create a 1/2 blue Moonfolk creature token with flying. • Create a 1/1 black Rat creature token with lifelink.",
-        "translation": "每当另一个由你操控且非衍生物的永久物离开战场时，选择一项，且不得是本回合中此前选过的～ •派出一个2/2白色，具警戒异能的狐衍生生物。 •派出一个1/2蓝色，具飞行异能的月人衍生生物。 •派出一个1/1黑色，具系命异能的老鼠衍生生物。"
-    },
-    "814604": {
-        "oracleText": "Exile the top card of your library, a card at random from your graveyard, and a card at random from your hand.",
-        "translation": "放逐你的牌库顶牌，你的坟墓场中随机一张牌，以及你手上随机一张牌。"
+        "oracleText": "Whenever another nontoken permanent you control leaves the battlefield, choose one that hasn't been chosen this turn. \n• Create a 2/2 white Fox creature token with vigilance. \n• Create a 1/2 blue Moonfolk creature token with flying. \n• Create a 1/1 black Rat creature token with lifelink.",
+        "translation": "Whenever another nontoken permanent you control leaves the battlefield, choose one that hasn't been chosen this turn. \n• Create a 2/2 white Fox creature token with vigilance. \n• Create a 1/2 blue Moonfolk creature token with flying. \n• Create a 1/1 black Rat creature token with lifelink."
     },
     "815104": {
         "oracleText": "Lizard Soldier",
@@ -178575,10 +178191,6 @@
         "oracleText": "CARDNAME enters tapped. As it enters, choose a color other than black.",
         "translation": "CARDNAME须横置进场。于它进场时，选择一种黑色以外的颜色。"
     },
-    "877447": {
-        "oracleText": "Look a card at random in target player's hand.",
-        "translation": "随机检视目标牌手手上的一张牌。"
-    },
     "877452": {
         "oracleText": "Choose up to {2, plural, =1 {1 nonland permanent to sacrifice or card to discard. You will lose 4 life if nothing is selected.} other {{2, Number} nonland permanents to sacrifice and/or cards to discard. You will lose life if fewer than {2, Number} are selected.}}",
         "translation": "选择至多{2, plural, =1 {牺牲一个非地永久物或弃一张牌。否则便失去4点生命。} other {{2, Number}次牺牲一个非地永久物和/或弃一张牌。若选择数量少于{2, Number}次，便会失去生命。}}"
@@ -178859,17 +178471,9 @@
         "oracleText": "Target a nonland permanent with mana value 3 or less an opponent controls.",
         "translation": "指定一个由对手操控且法术力值等于或小于3的非地永久物为目标。"
     },
-    "877563": {
-        "oracleText": "Seek a card that shares a card type with the exiled card.",
-        "translation": "取出一张与所放逐之牌具共通牌张类别的牌。"
-    },
     "877564": {
         "oracleText": "Exile this artifact.",
         "translation": "放逐此神器。"
-    },
-    "877565": {
-        "oracleText": "Seek a nonland permanent card with mana value {2, Number} or less.",
-        "translation": "取出一张法术力值等于或小于{2, Number}的非地永久物牌。"
     },
     "878466": {
         "oracleText": "Reveal a creature card with power 3 or less?",
@@ -179146,14 +178750,6 @@
     "878583": {
         "oracleText": "Exile a random card.",
         "translation": "随机放逐一张牌。"
-    },
-    "878584": {
-        "oracleText": "Seek a nonbasic land card.",
-        "translation": "取出一张非基本地牌。"
-    },
-    "878585": {
-        "oracleText": "Seek a Rat card.",
-        "translation": "取出一张老鼠牌。"
     },
     "878586": {
         "oracleText": "Conjure a card named Chitterspitter onto the battlefield.",
@@ -182595,10 +182191,6 @@
         "oracleText": "time",
         "translation": "时间"
     },
-    "879591": {
-        "oracleText": "Choose a non-Food permanent card in your graveyard at random.",
-        "translation": "随机选择你坟墓场中的一张非食品永久物牌。"
-    },
     "879592": {
         "oracleText": "Choose a permanent owned by the voter.",
         "translation": "选择一个由投该票者拥有的永久物。"
@@ -182622,10 +182214,6 @@
     "879694": {
         "oracleText": "\"I'll teach you the leyline paratrigonometrics, no problem. But you need to show me how to make that fiery swirly thing.\"\n—Zimone, to Rootha",
         "translation": "「没问题，我可以教你地脉对三角学。但你得告诉我怎么画出那道火热涡旋。」\n～琦梦答应如莎"
-    },
-    "879805": {
-        "oracleText": "Attach to another one of your opponents.",
-        "translation": "贴附于另一位对手。"
     },
     "880001": {
         "oracleText": "At the beginning of each of your postcombat main phases, add {oR} for each 1 life your opponents have lost this turn.",
@@ -183335,14 +182923,6 @@
         "oracleText": "Soul Shredder",
         "translation": "碎魂机车"
     },
-    "887411": {
-        "oracleText": "Exile a random creature card.",
-        "translation": "随机放逐一张生物牌。"
-    },
-    "887412": {
-        "oracleText": "Seek two cards that don't share a card type with the discarded card.",
-        "translation": "取出两张与所弃之牌不具共通牌张类别的牌。"
-    },
     "887414": {
         "oracleText": "Exile another creature you control.",
         "translation": "放逐另一个由你操控的生物。"
@@ -183366,10 +182946,6 @@
     "887458": {
         "oracleText": "Exile a nonland, nontoken permanent they control and a random nonland card from their library.",
         "translation": "放逐一个由其操控，非地且非衍生物的永久物，及其牌库中随机一张非地牌。"
-    },
-    "887459": {
-        "oracleText": "Seek a Survivor card with mana value less than or equal to the number of tapped creatures you control.",
-        "translation": "取出一张法术力值等于或小于由你操控且已横置之生物数量的求生者牌。"
     },
     "887460": {
         "oracleText": "Put any number of permanent cards with mana value {2, Number} or less onto the battlefield?",
@@ -188050,10 +187626,6 @@
     "927479": {
         "oracleText": "Target a creature card plus 1.",
         "translation": "指定一张法术力值加1的生物牌。"
-    },
-    "927481": {
-        "oracleText": "Exile a card at random.",
-        "translation": "随机放逐一张牌。"
     },
     "927483": {
         "oracleText": "Sacrifice it at the beginning of the next end step.",
@@ -193326,10 +192898,6 @@
     "928875": {
         "oracleText": "Target any number of creature cards with total mana value 6 or less.",
         "translation": "指定任意数量法术力值总和等于或小于6的生物牌为目标。"
-    },
-    "928876": {
-        "oracleText": "Exile a permanent card from your graveyard at random.",
-        "translation": "随机从你的坟墓场放逐一张永久物牌。"
     },
     "928877": {
         "oracleText": "Put up to one enchantment card milled this way into your hand.",
@@ -214896,8 +214464,8 @@
         "translation": "本回合中，CARDNAME每次战斗不能被多于一个生物阻挡，且它得+1/+1直到回合结束。"
     },
     "1002146": {
-        "oracleText": "Whenever you scry, choose one — • CARDNAME must be blocked this turn if able and gets +1/+1 until end of turn. • CARDNAME can't be blocked by more than one creature each combat this turn and gets +1/+1 until end of turn.",
-        "translation": "每当你占卜时，选择一项～ •CARDNAME本回合若能被阻挡，则须如此作，且它得+1/+1直到回合结束。 •本回合中，CARDNAME每次战斗不能被多于一个生物阻挡，且它得+1/+1直到回合结束。"
+        "oracleText": "Whenever you scry, choose one — \n• CARDNAME must be blocked this turn if able and gets +1/+1 until end of turn. \n• CARDNAME can't be blocked by more than one creature each combat this turn and gets +1/+1 until end of turn.",
+        "translation": "Whenever you scry, choose one — \n• CARDNAME must be blocked this turn if able and gets +1/+1 until end of turn. \n• CARDNAME can't be blocked by more than one creature each combat this turn and gets +1/+1 until end of turn."
     },
     "1002616": {
         "oracleText": "Choose one.",
@@ -217212,12 +216780,12 @@
         "translation": "派出一个1/2红白双色，具敏捷异能的人类／浪客衍生生物，且具有「当此衍生物进场时，它对任意一个目标造成1点伤害。」"
     },
     "1021814": {
-        "oracleText": "At the beginning of your upkeep, choose one at random — • Create a 3/1 red and white Human Warrior creature token with trample and haste. • Create a 2/1 red and white Human Cleric creature token with lifelink and haste. • Create a 1/2 red and white Human Rogue creature token with haste and \"When this token enters, it deals 1 damage to any target.\"",
-        "translation": "在你的维持开始时，随机选择一项～ •派出一个3/1红白双色，且具践踏与敏捷异能的人类／战士衍生生物。 •派出一个2/1红白双色，且具系命与敏捷异能的人类／僧侣衍生生物。 •派出一个1/2红白双色，且具敏捷异能与「当此衍生物进场时，它对任意一个目标造成1点伤害」的人类／浪客衍生生物。"
+        "oracleText": "At the beginning of your upkeep, choose one at random — \n• Create a 3/1 red and white Human Warrior creature token with trample and haste. \n• Create a 2/1 red and white Human Cleric creature token with lifelink and haste. \n• Create a 1/2 red and white Human Rogue creature token with haste and \"When this token enters, it deals 1 damage to any target.\"",
+        "translation": "At the beginning of your upkeep, choose one at random — \n• Create a 3/1 red and white Human Warrior creature token with trample and haste. \n• Create a 2/1 red and white Human Cleric creature token with lifelink and haste. \n• Create a 1/2 red and white Human Rogue creature token with haste and \"When this token enters, it deals 1 damage to any target.\""
     },
     "1021815": {
-        "oracleText": "At the beginning of your upkeep, choose one at random. Create a red and white creature token with those characteristics. — • 3/1 Human Warrior with trample and haste. • 2/1 Human Cleric with lifelink and haste. • 1/2 Human Rogue with haste and \"When this token enters, it deals 1 damage to any target.\"",
-        "translation": "在你的维持开始时，随机选择一项。派出一个具相应特征的红白双色衍生生物。 •3/1的人类／战士，且具践踏与敏捷。 •2/1的人类／僧侣，且具系命与敏捷。 •1/2的人类／浪客，且具敏捷与「当此衍生物进场时，它对任意一个目标造成1点伤害。」"
+        "oracleText": "At the beginning of your upkeep, choose one at random. Create a red and white creature token with those characteristics. — \n• 3/1 Human Warrior with trample and haste. \n• 2/1 Human Cleric with lifelink and haste. \n• 1/2 Human Rogue with haste and \"When this token enters, it deals 1 damage to any target.\"",
+        "translation": "At the beginning of your upkeep, choose one at random. Create a red and white creature token with those characteristics. — \n• 3/1 Human Warrior with trample and haste. \n• 2/1 Human Cleric with lifelink and haste. \n• 1/2 Human Rogue with haste and \"When this token enters, it deals 1 damage to any target.\""
     },
     "1022135": {
         "oracleText": "Whenever you sacrifice a permanent, put a +1/+1 counter on CARDNAME and draw a card.",
@@ -219067,10 +218635,6 @@
         "oracleText": "Whenever equipped creature deals combat damage to a player, this Equipment deals damage to that player equal to the number of cards in their hand and you gain 1 life for each card in your hand.",
         "translation": "每当佩带此武具的生物对任一牌手造成战斗伤害时，此武具对该牌手造成等同于其手牌数量的伤害，且你每有—张手牌便获得1点生命。"
     },
-    "1055440": {
-        "oracleText": "Seek a creature card with mana value 2 or less.",
-        "translation": "取出一张法术力值等于或小于2的生物牌。"
-    },
     "1055441": {
         "oracleText": "Choose a Vehicle you control.",
         "translation": "选择一个由你操控的载具。"
@@ -219098,10 +218662,6 @@
     "1055448": {
         "oracleText": "Discard that card at the beginning of the next end step.",
         "translation": "在下一个结束步骤开始时，弃掉该牌。"
-    },
-    "1055449": {
-        "oracleText": "Seek a non-Shark card.",
-        "translation": "取出一张非鲨鱼牌。"
     },
     "1055450": {
         "oracleText": "Target a creature card in your graveyard without unearth.",
@@ -222451,10 +222011,6 @@
         "oracleText": "Equipped creature gets +0/+1 and has \"Sacrifice this creature: This creature deals 1 damage to any target.\"",
         "translation": "佩带此武具的生物得+0/+1且具有「牺牲此生物：此生物对任意一个目标造成1点伤害。」"
     },
-    "1061431": {
-        "oracleText": "Seek a card with start your engines !.",
-        "translation": "取出一张具发动引擎！异能的牌。"
-    },
     "1061544": {
         "oracleText": "Target up to one creature for each player.",
         "translation": "为每位牌手各指定至多一个生物为目标。"
@@ -222514,10 +222070,6 @@
     "1061563": {
         "oracleText": "When you cast your next spell this turn, copy that spell and you may choose new targets for the copy.",
         "translation": "本回合中，当你施放你的下一个咒语时，复制该咒语。你可以为该复制品选择新的目标。"
-    },
-    "1061565": {
-        "oracleText": "Gain a random creature card with the greatest mana value among creature cards in your hand.",
-        "translation": "随机选择一张你手上生物牌中法术力值最大者来获得。"
     },
     "1061566": {
         "oracleText": "Wreck",
@@ -222999,14 +222551,6 @@
         "oracleText": "You may cast creature spells with power 4 or greater from the top of your library. If you cast a creature spell this way, it gains haste until end of turn.",
         "translation": "你可以从你牌库顶施放力量等于或大于4的生物咒语。如果你以此法施放生物咒语，则它获得敏捷异能直到回合结束。"
     },
-    "1061811": {
-        "oracleText": "Seek two cards of the chosen kind.",
-        "translation": "取出两张所选种类的牌。"
-    },
-    "1061812": {
-        "oracleText": "Seek a card of the chosen kind.",
-        "translation": "取出一张所选种类的牌。"
-    },
     "1061813": {
         "oracleText": "Discard a card with the greatest mana value among cards in your hand.",
         "translation": "目标牌手弃一张牌，须为其手牌中法术力值最大者。"
@@ -223014,10 +222558,6 @@
     "1061816": {
         "oracleText": "Behold a Dragon creature?",
         "translation": "是否要请援龙生物？"
-    },
-    "1061817": {
-        "oracleText": "Seek a card named Audacious Knuckleblade.",
-        "translation": "取出一张名称为斗胆指套剑手的牌。"
     },
     "1061818": {
         "oracleText": "Exile it at the beginning of the next end step.",
@@ -225482,10 +225022,6 @@
     "1070443": {
         "oracleText": "As an additional cost to cast this spell, waterbend {oX}.",
         "translation": "截水{oX}，以作为施放此咒语的额外费用。"
-    },
-    "1070444": {
-        "oracleText": "Tap up to X target creatures, then distribute three stun counters among tapped creatures your opponents control.",
-        "translation": "横置至多X个目标生物，然后将三个晕眩指示物分配给由对手操控且已横置的生物。"
     },
     "1070445": {
         "oracleText": "Ember Island Production",
@@ -228528,8 +228064,8 @@
         "translation": "内心纠结的苏科"
     },
     "1071211": {
-        "oracleText": "At the beginning of your first main phase, choose one that hasn't been chosen and you lose 2 life — • Draw a card. • Put a +1/+1 counter on Zuko. • Add {oR}. • Exile Zuko, then return him to the battlefield under an opponent's control.",
-        "translation": "在你第一个行动阶段开始时，你失去2点生命并选择一项，且不得是此前选过的～•抓一张牌。•在苏科上放置一个+1/+1指示物。•加{oR}。•放逐苏科，然后将他在对手的操控下移回战场。"
+        "oracleText": "At the beginning of your first main phase, choose one that hasn't been chosen and you lose 2 life — \n• Draw a card. \n• Put a +1/+1 counter on Zuko. \n• Add {oR}. \n• Exile Zuko, then return him to the battlefield under an opponent's control.",
+        "translation": "At the beginning of your first main phase, choose one that hasn't been chosen and you lose 2 life — \n• Draw a card. \n• Put a +1/+1 counter on Zuko. \n• Add {oR}. \n• Exile Zuko, then return him to the battlefield under an opponent's control."
     },
     "1071212": {
         "oracleText": "Barrels of Blasting Jelly",
@@ -231231,6 +230767,222 @@
         "oracleText": "At the beginning of the end step on your next turn, sacrifice that token.",
         "translation": "在你下一个回合的结束步骤开始时，牺牲该衍生物。"
     },
+    "1076309": {
+        "oracleText": "Tataru Taru",
+        "translation": "Tataru Taru"
+    },
+    "1076310": {
+        "oracleText": "When CARDNAME enters, you draw a card and target opponent may draw a card.",
+        "translation": "When CARDNAME enters, you draw a card and target opponent may draw a card."
+    },
+    "1076311": {
+        "oracleText": "When Tataru Taru enters, you draw a card and target opponent may draw a card.",
+        "translation": "When Tataru Taru enters, you draw a card and target opponent may draw a card."
+    },
+    "1076312": {
+        "oracleText": "Scions' Secretary — Whenever an opponent draws a card, if it isn't that player's turn, create a tapped Treasure token. This ability triggers only once each turn.",
+        "translation": "Scions' Secretary — Whenever an opponent draws a card, if it isn't that player's turn, create a tapped Treasure token. This ability triggers only once each turn."
+    },
+    "1076313": {
+        "oracleText": "Scions' Secretary",
+        "translation": "Scions' Secretary"
+    },
+    "1076345": {
+        "oracleText": "Lulu, Stern Guardian",
+        "translation": "Lulu, Stern Guardian"
+    },
+    "1076346": {
+        "oracleText": "\"If you want everything, you'll end up with nothing.\"",
+        "translation": "\"If you want everything, you'll end up with nothing.\""
+    },
+    "1076347": {
+        "oracleText": "Whenever an opponent attacks you, choose target creature attacking you. Put a stun counter on that creature.",
+        "translation": "Whenever an opponent attacks you, choose target creature attacking you. Put a stun counter on that creature."
+    },
+    "1076348": {
+        "oracleText": "\"No matter how dark the night, morning always comes.\"",
+        "translation": "\"No matter how dark the night, morning always comes.\""
+    },
+    "1076356": {
+        "oracleText": "Rikku, Resourceful Guardian",
+        "translation": "Rikku, Resourceful Guardian"
+    },
+    "1076357": {
+        "oracleText": "\"Hey, I've got just the thing!\"",
+        "translation": "\"Hey, I've got just the thing!\""
+    },
+    "1076358": {
+        "oracleText": "Whenever you put one or more counters on a creature, until end of turn, that creature can't be blocked by creatures your opponents control.",
+        "translation": "Whenever you put one or more counters on a creature, until end of turn, that creature can't be blocked by creatures your opponents control."
+    },
+    "1076359": {
+        "oracleText": "Steal — {o1}, {oT}: Move a counter from target creature an opponent controls onto target creature you control. Activate only as a sorcery.",
+        "translation": "Steal — {o1}, {oT}: Move a counter from target creature an opponent controls onto target creature you control. Activate only as a sorcery."
+    },
+    "1076360": {
+        "oracleText": "Steal",
+        "translation": "Steal"
+    },
+    "1076361": {
+        "oracleText": "\"Rikku-approved item coming up!\"",
+        "translation": "\"Rikku-approved item coming up!\""
+    },
+    "1076470": {
+        "oracleText": "Yuffie, Materia Hunter",
+        "translation": "Yuffie, Materia Hunter"
+    },
+    "1076471": {
+        "oracleText": "Ninjutsu {o1oR}",
+        "translation": "Ninjutsu {o1oR}"
+    },
+    "1076472": {
+        "oracleText": "When CARDNAME enters, gain control of target noncreature artifact for as long as you control CARDNAME. Then you may attach an Equipment you control to CARDNAME.",
+        "translation": "When CARDNAME enters, gain control of target noncreature artifact for as long as you control CARDNAME. Then you may attach an Equipment you control to CARDNAME."
+    },
+    "1076473": {
+        "oracleText": "When Yuffie enters, gain control of target noncreature artifact for as long as you control Yuffie. Then you may attach an Equipment you control to Yuffie.",
+        "translation": "When Yuffie enters, gain control of target noncreature artifact for as long as you control Yuffie. Then you may attach an Equipment you control to Yuffie."
+    },
+    "1076474": {
+        "oracleText": "\"I have orders to infiltrate Shinra headquarters and steal their ultimate materia.\"",
+        "translation": "\"I have orders to infiltrate Shinra headquarters and steal their ultimate materia.\""
+    },
+    "1076522": {
+        "oracleText": "Aerith, Last Ancient",
+        "translation": "Aerith, Last Ancient"
+    },
+    "1076523": {
+        "oracleText": "\"Right here, right now, I need to know I did everything I could.\"",
+        "translation": "\"Right here, right now, I need to know I did everything I could.\""
+    },
+    "1076524": {
+        "oracleText": "Raise — At the beginning of your end step, if you gained life this turn, return target creature card from your graveyard to your hand. If you gained 7 or more life this turn, return that card to the battlefield instead.",
+        "translation": "Raise — At the beginning of your end step, if you gained life this turn, return target creature card from your graveyard to your hand. If you gained 7 or more life this turn, return that card to the battlefield instead."
+    },
+    "1076525": {
+        "oracleText": "Raise",
+        "translation": "Raise"
+    },
+    "1076526": {
+        "oracleText": "\"The flowers they . . . they have something important to tell us.\"",
+        "translation": "\"The flowers they . . . they have something important to tell us.\""
+    },
+    "1076537": {
+        "oracleText": "Barret, Avalanche Leader",
+        "translation": "Barret, Avalanche Leader"
+    },
+    "1076538": {
+        "oracleText": "Avalanche!",
+        "translation": "Avalanche!"
+    },
+    "1076539": {
+        "oracleText": "At the beginning of combat on your turn, attach up to one target Equipment you control to target Rebel you control.",
+        "translation": "At the beginning of combat on your turn, attach up to one target Equipment you control to target Rebel you control."
+    },
+    "1076545": {
+        "oracleText": "Emet-Selch of the Third Seat",
+        "translation": "Emet-Selch of the Third Seat"
+    },
+    "1076546": {
+        "oracleText": "Whenever one or more opponents lose life, you may cast target instant or sorcery card from your graveyard. If that spell would be put into your graveyard, exile it instead. Do this only once each turn.",
+        "translation": "Whenever one or more opponents lose life, you may cast target instant or sorcery card from your graveyard. If that spell would be put into your graveyard, exile it instead. Do this only once each turn."
+    },
+    "1076547": {
+        "oracleText": "Estinien Varlineau",
+        "translation": "Estinien Varlineau"
+    },
+    "1076548": {
+        "oracleText": "Whenever you cast a noncreature spell, put a +1/+1 counter on CARDNAME. It gains flying until end of turn.",
+        "translation": "Whenever you cast a noncreature spell, put a +1/+1 counter on CARDNAME. It gains flying until end of turn."
+    },
+    "1076549": {
+        "oracleText": "Whenever you cast a noncreature spell, put a +1/+1 counter on Estinien Varlineau. It gains flying until end of turn.",
+        "translation": "Whenever you cast a noncreature spell, put a +1/+1 counter on Estinien Varlineau. It gains flying until end of turn."
+    },
+    "1076550": {
+        "oracleText": "At the beginning of your second main phase, you draw X cards and lose X life, where X is the number of your opponents who were dealt combat damage by CARDNAME or a Dragon this turn.",
+        "translation": "At the beginning of your second main phase, you draw X cards and lose X life, where X is the number of your opponents who were dealt combat damage by CARDNAME or a Dragon this turn."
+    },
+    "1076551": {
+        "oracleText": "At the beginning of your second main phase, you draw X cards and lose X life, where X is the number of your opponents who were dealt combat damage by Estinien Varlineau or a Dragon this turn.",
+        "translation": "At the beginning of your second main phase, you draw X cards and lose X life, where X is the number of your opponents who were dealt combat damage by Estinien Varlineau or a Dragon this turn."
+    },
+    "1076563": {
+        "oracleText": "Locke, Treasure Hunter",
+        "translation": "Locke, Treasure Hunter"
+    },
+    "1076564": {
+        "oracleText": "CARDNAME can't be blocked by creatures with greater power.",
+        "translation": "CARDNAME can't be blocked by creatures with greater power."
+    },
+    "1076565": {
+        "oracleText": "Mug — Whenever CARDNAME attacks, each player mills a card. If a land card was milled this way, create a Treasure token. Until end of turn, you may cast a spell from among those cards.",
+        "translation": "Mug — Whenever CARDNAME attacks, each player mills a card. If a land card was milled this way, create a Treasure token. Until end of turn, you may cast a spell from among those cards."
+    },
+    "1076566": {
+        "oracleText": "Mug — Whenever Locke attacks, each player mills a card. If a land card was milled this way, create a Treasure token. Until end of turn, you may cast a spell from among those cards.",
+        "translation": "Mug — Whenever Locke attacks, each player mills a card. If a land card was milled this way, create a Treasure token. Until end of turn, you may cast a spell from among those cards."
+    },
+    "1076567": {
+        "oracleText": "Mug",
+        "translation": "Mug"
+    },
+    "1076570": {
+        "oracleText": "Mog, Moogle Warrior",
+        "translation": "Mog, Moogle Warrior"
+    },
+    "1076571": {
+        "oracleText": "Moogle Warrior",
+        "translation": "Moogle Warrior"
+    },
+    "1076572": {
+        "oracleText": "Dance — At the beginning of your end step, each player may discard a card. Each player who discarded a card this way draws a card. If a creature card was discarded this way, you create a 1/2 white Moogle creature token with lifelink. Then if a noncreature card was discarded this way, put a +1/+1 counter on each Moogle you control.",
+        "translation": "Dance — At the beginning of your end step, each player may discard a card. Each player who discarded a card this way draws a card. If a creature card was discarded this way, you create a 1/2 white Moogle creature token with lifelink. Then if a noncreature card was discarded this way, put a +1/+1 counter on each Moogle you control."
+    },
+    "1076573": {
+        "oracleText": "Dance",
+        "translation": "Dance"
+    },
+    "1076611": {
+        "oracleText": "Wakka, Devoted Guardian",
+        "translation": "Wakka, Devoted Guardian"
+    },
+    "1076612": {
+        "oracleText": "Whenever CARDNAME deals combat damage to a player, destroy up to one target artifact that player controls and put a +1/+1 counter on CARDNAME.",
+        "translation": "Whenever CARDNAME deals combat damage to a player, destroy up to one target artifact that player controls and put a +1/+1 counter on CARDNAME."
+    },
+    "1076613": {
+        "oracleText": "Whenever Wakka deals combat damage to a player, destroy up to one target artifact that player controls and put a +1/+1 counter on Wakka.",
+        "translation": "Whenever Wakka deals combat damage to a player, destroy up to one target artifact that player controls and put a +1/+1 counter on Wakka."
+    },
+    "1076614": {
+        "oracleText": "Blitzball Captain — At the beginning of your end step, if a counter was put on CARDNAME this turn, put a +1/+1 counter on each other creature you control.",
+        "translation": "Blitzball Captain — At the beginning of your end step, if a counter was put on CARDNAME this turn, put a +1/+1 counter on each other creature you control."
+    },
+    "1076615": {
+        "oracleText": "Blitzball Captain — At the beginning of your end step, if a counter was put on Wakka this turn, put a +1/+1 counter on each other creature you control.",
+        "translation": "Blitzball Captain — At the beginning of your end step, if a counter was put on Wakka this turn, put a +1/+1 counter on each other creature you control."
+    },
+    "1076616": {
+        "oracleText": "Blitzball Captain",
+        "translation": "Blitzball Captain"
+    },
+    "1076625": {
+        "oracleText": "Nym's scholars defended their tiny nation with spell-weaving faeries.",
+        "translation": "Nym's scholars defended their tiny nation with spell-weaving faeries."
+    },
+    "1076637": {
+        "oracleText": "Target a creature attacking you.",
+        "translation": "Target a creature attacking you."
+    },
+    "1076647": {
+        "oracleText": "Cast target instant or sorcery card from your graveyard?",
+        "translation": "Cast target instant or sorcery card from your graveyard?"
+    },
+    "1076651": {
+        "oracleText": "Target up to one artifact that player controls.",
+        "translation": "Target up to one artifact that player controls."
+    },
     "1077191": {
         "oracleText": "Sacrifice any number of lands?",
         "translation": "是否要牺牲任意数量的地？"
@@ -233035,10 +232787,6 @@
         "oracleText": "Whenever a creature you control dealt damage this way dies this turn, add {oR}.",
         "translation": "每当一个由你操控且以此法受过伤害的生物于本回合中死去时，加{oR}。"
     },
-    "1078488": {
-        "oracleText": "Exile an instant or sorcery card with mana value 3 or less from your graveyard at random.",
-        "translation": "随机从你的坟墓场放逐一张法术力值等于或小于3的瞬间或法术牌。"
-    },
     "1078489": {
         "oracleText": "Additional effect when spent on: A Non-Human Creature Spell",
         "translation": "用于支付以下费用时有额外效应：非人类生物咒语"
@@ -233106,10 +232854,6 @@
     "1079486": {
         "oracleText": "Target an instant spell, sorcery spell, or triggered ability.",
         "translation": "指定一个瞬间咒语、法术咒语或触发式异能为目标。"
-    },
-    "1079518": {
-        "oracleText": "Seek three ChosenThisWay cards.",
-        "translation": "取出三张ChosenThisWay牌。"
     },
     "1079569": {
         "oracleText": "Exchange life totals with target opponent?",
@@ -235087,14 +234831,6 @@
         "oracleText": "Their pearlescent scales are highly sought after by those who lack the instincts for self-preservation.",
         "translation": "那些缺乏自保本能的人，对它们珍珠般的鳞片趋之若鹜。"
     },
-    "1086941": {
-        "oracleText": "Seek a Spacecraft card.",
-        "translation": "取出一张太空船牌。"
-    },
-    "1086942": {
-        "oracleText": "Gain a random land card in your library.",
-        "translation": "牌库中随机一张地牌。"
-    },
     "1086943": {
         "oracleText": "Warp {o0}",
         "translation": "跃迁{o0}"
@@ -236019,10 +235755,6 @@
         "oracleText": "{oT}: Add one mana of any color. If you control a Planet with twelve or more charge counters on it, add three mana of any one color instead.",
         "translation": "{oT}：加一点任意颜色的法术力。如果你操控一个其上有十二个或更多充电指示物的行星，则改为加三点任意颜色的单色法术力。"
     },
-    "1104266": {
-        "oracleText": "Choose a random land card in your library.",
-        "translation": "从你的牌库中随机选择一张地牌。"
-    },
     "1105219": {
         "oracleText": "Return that land to the battlefield tapped under your control",
         "translation": "将该地在你的操控下横置移回战场"
@@ -236118,6 +235850,18 @@
     "1105915": {
         "oracleText": "Choose two to put into the graveyard. The rest will be put onto the battlefield tapped.",
         "translation": "选择两张牌置入坟墓场，其余的将被横置放进战场。"
+    },
+    "1105916": {
+        "oracleText": "Avacyn lives on in the hearts and minds of Innistrad's people.",
+        "translation": "Avacyn lives on in the hearts and minds of Innistrad's people."
+    },
+    "1105917": {
+        "oracleText": "An angel among angels, she carries the hopes of the world skyward.",
+        "translation": "An angel among angels, she carries the hopes of the world skyward."
+    },
+    "1105918": {
+        "oracleText": "\"When belief is shaken, seek faith in yourself. That temple must never fall.\"\n—The Teachings of Saint Traft",
+        "translation": "\"When belief is shaken, seek faith in yourself. That temple must never fall.\"\n—The Teachings of Saint Traft"
     },
     "1105922": {
         "oracleText": "Counter target artifact or enchantment spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.",
@@ -236243,6 +235987,10 @@
         "oracleText": "{oT}: Put a card exiled with this artifact into its owner's graveyard. If it's a land card, create a Treasure token. If it's a nonland card, create a 2/2 black Rogue creature token.",
         "translation": "{oT}：将一张以此神器放逐的牌置入其拥有者的坟墓场。如果它是地牌，则派出一个珍宝衍生物。如果它是非地牌，则派出一个2/2黑色浪客衍生生物。"
     },
+    "1109696": {
+        "oracleText": "At the beginning of your end step, if one or more creatures died this turn, you gain that much life and distribute that many +1/+1 counters among any number of creatures you control.",
+        "translation": "At the beginning of your end step, if one or more creatures died this turn, you gain that much life and distribute that many +1/+1 counters among any number of creatures you control."
+    },
     "1109796": {
         "oracleText": "Waterbend {oX} rather than paying its mana cost, where X is its mana value",
         "translation": "截水{oX}，而非支付此咒语的法术力费用，X为其法术力值。"
@@ -236266,5 +236014,53 @@
     "1114006": {
         "oracleText": "Create that many tokens that are copies of {2, CardId}?",
         "translation": "是否要派出等量为{2, CardId}复制品的衍生物？"
+    },
+    "1114573": {
+        "oracleText": "Tap up to X target creatures, then distribute three stun counters among any number of tapped creatures your opponents control.",
+        "translation": "Tap up to X target creatures, then distribute three stun counters among any number of tapped creatures your opponents control."
+    },
+    "1114574": {
+        "oracleText": "Distribute counters among any number of tapped creatures your opponents control.",
+        "translation": "Distribute counters among any number of tapped creatures your opponents control."
+    },
+    "1114576": {
+        "oracleText": "PlaceholderSubType470",
+        "translation": "PlaceholderSubType470"
+    },
+    "1114811": {
+        "oracleText": "Exile a card of that type?",
+        "translation": "Exile a card of that type?"
+    },
+    "1114814": {
+        "oracleText": "You lose 2 life. Draw a card.",
+        "translation": "You lose 2 life. Draw a card."
+    },
+    "1114816": {
+        "oracleText": "You lose 2 life. Put a +1/+1 counter on CARDNAME.",
+        "translation": "You lose 2 life. Put a +1/+1 counter on CARDNAME."
+    },
+    "1114818": {
+        "oracleText": "You lose 2 life. Add {oR}.",
+        "translation": "You lose 2 life. Add {oR}."
+    },
+    "1114820": {
+        "oracleText": "You lose 2 life. Exile CARDNAME, then return him to the battlefield under an opponent's control.",
+        "translation": "You lose 2 life. Exile CARDNAME, then return him to the battlefield under an opponent's control."
+    },
+    "1114822": {
+        "oracleText": "At the beginning of your first main phase, choose one that hasn't been chosen — \n• You lose 2 life. Draw a card. \n• You lose 2 life. Put a +1/+1 counter on CARDNAME. \n• You lose 2 life. Add {oR}. \n• You lose 2 life. Exile CARDNAME, then return him to the battlefield under an opponent's control.",
+        "translation": "At the beginning of your first main phase, choose one that hasn't been chosen — \n• You lose 2 life. Draw a card. \n• You lose 2 life. Put a +1/+1 counter on CARDNAME. \n• You lose 2 life. Add {oR}. \n• You lose 2 life. Exile CARDNAME, then return him to the battlefield under an opponent's control."
+    },
+    "1115317": {
+        "oracleText": "PlaceholderSubType471",
+        "translation": "PlaceholderSubType471"
+    },
+    "1115318": {
+        "oracleText": "PlaceholderSubType472",
+        "translation": "PlaceholderSubType472"
+    },
+    "1115319": {
+        "oracleText": "PlaceholderSubType473",
+        "translation": "PlaceholderSubType473"
     }
 }
