@@ -8436,8 +8436,8 @@
         "translation": "威世智"
     },
     "Credits/Copyright": {
-        "oracleText": "Copyright 2021 Wizards of the Coast",
-        "translation": "2021 威世智版权所有"
+        "oracleText": "Copyright 2026 Wizards of the Coast",
+        "translation": "Copyright 2026 Wizards of the Coast"
     },
     "Credits/Department/BusinessAndLegalAffairs": {
         "oracleText": "Business and Legal Affairs",
@@ -30284,8 +30284,8 @@
         "translation": "挑战 V – 白色 vs 旗鼓相当的对手"
     },
     "Events/Events/Event_Desc_MWM_TLA_Sealed": {
-        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Magic: The Gathering | Avatar: The Last Airbender™</i> Sealed: Open six packs and add basic lands to make a 40-card deck, then play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you open are not added to your collection.</color></b>",
-        "translation": "欢迎参加周中万智牌！MTG竞技场每周玩法花样百出，次次活动都有全新感受！\n\n本周的活动是<i>万智牌丨降世神通：最后的气宗</i>现开赛：打开六个卡包，再将基本地加入其中，组成40张的套牌与其他玩家对战，不限对局次数。\n\n<b><color=\"red\">这是一个幻影活动。你所打开的牌张不会添加到你的收藏当中。</color></b>"
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Magic: The Gathering | Avatar: The Last Airbender™</i> Sealed: Open six packs and add basic lands to make a 40-card deck, then play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you open are not added to your collection.</color></b>\n\n$/Events/TLA_Limited_Archetypes$",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Magic: The Gathering | Avatar: The Last Airbender™</i> Sealed: Open six packs and add basic lands to make a 40-card deck, then play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you open are not added to your collection.</color></b>\n\n$/Events/TLA_Limited_Archetypes$"
     },
     "Events/FIAB_Notice": {
         "oracleText": "This token denotes that you are eligible to receive a physical Festival in a Box",
@@ -32355,6 +32355,22 @@
         "oracleText": "{quantity} Draft Token",
         "translation": "{quantity}轮抽门票"
     },
+    "Events/Tokens/ECLEarlyAccessEmployeePlural": {
+        "oracleText": "Lorwyn Eclipsed Early Access Employee Token",
+        "translation": "Lorwyn Eclipsed Early Access Employee Token"
+    },
+    "Events/Tokens/ECLEarlyAccessEmployeeSingular": {
+        "oracleText": "Lorwyn Eclipsed Early Access Employee Token",
+        "translation": "Lorwyn Eclipsed Early Access Employee Token"
+    },
+    "Events/Tokens/ECLEarlyAccessPlural": {
+        "oracleText": "Lorwyn Eclipsed Early Access",
+        "translation": "Lorwyn Eclipsed Early Access"
+    },
+    "Events/Tokens/ECLEarlyAccessSingular": {
+        "oracleText": "Lorwyn Eclipsed Early Access",
+        "translation": "Lorwyn Eclipsed Early Access"
+    },
     "Events/Tokens/FIAB_20231208_Desc": {
         "oracleText": "Congratulations, you've won a Festival in a Box! Wizards of the Coast will contact you with information about how to claim your prize.",
         "translation": "恭喜，你赢得了一份Festival in a Box！威世智公司后续将与你联系，告知领取奖品的详细信息，敬请留意。"
@@ -32711,6 +32727,10 @@
         "oracleText": "Join between 6am and 8am Pacific on December 13",
         "translation": "太平洋时间12月13日上午6点到上午8点之间加入"
     },
+    "Events/Tokens/QualifierDay1TokenDescription20260110": {
+        "oracleText": "Join between 6am and 8am Pacific on January 10",
+        "translation": "Join between 6am and 8am Pacific on January 10"
+    },
     "Events/Tokens/QualifierDay1TokenDescription20260117": {
         "oracleText": "Join between 6am and 8am Pacific on January 17",
         "translation": "在太平洋时间1月17日上午6点到上午8点之间加入"
@@ -32874,6 +32894,10 @@
     "Events/Tokens/QualifierDay2TokenDescription20251214": {
         "oracleText": "Join between 6am and 8am Pacific on December 14",
         "translation": "太平洋时间12月14日上午6点到上午8点之间加入"
+    },
+    "Events/Tokens/QualifierDay2TokenDescription20260111": {
+        "oracleText": "Join between 6am and 8am Pacific on January 11",
+        "translation": "Join between 6am and 8am Pacific on January 11"
     },
     "Events/Tokens/QualifierDay2TokenDescription20260118": {
         "oracleText": "Join between 6am and 8am Pacific on January 18",
@@ -33854,6 +33878,54 @@
     "GothamNarrow-Medium": {
         "oracleText": "Font_Title - Quest",
         "translation": "Font_Title - 任务"
+    },
+    "Intro/Cinematic/ECL_1": {
+        "oracleText": "Welcome, traveler, to the plane of Lorwyn.",
+        "translation": "Welcome, traveler, to the plane of Lorwyn."
+    },
+    "Intro/Cinematic/ECL_10": {
+        "oracleText": "It is a world of conflict and unpredictability, where only the strong and the clever survive.",
+        "translation": "It is a world of conflict and unpredictability, where only the strong and the clever survive."
+    },
+    "Intro/Cinematic/ECL_11": {
+        "oracleText": "But if you embrace the danger and step into the darkness, you may find power beyond your wildest dreams.",
+        "translation": "But if you embrace the danger and step into the darkness, you may find power beyond your wildest dreams."
+    },
+    "Intro/Cinematic/ECL_12": {
+        "oracleText": "But what of the places where light and shadow meet? What other mysteries lurk on the boundary of Lorwyn and Shadowmoor? Enter the aurora and discover the answers for yourself!",
+        "translation": "But what of the places where light and shadow meet? What other mysteries lurk on the boundary of Lorwyn and Shadowmoor? Enter the aurora and discover the answers for yourself!"
+    },
+    "Intro/Cinematic/ECL_2": {
+        "oracleText": "Lorwyn is a world of eternal daylight that brims with potent magic.",
+        "translation": "Lorwyn is a world of eternal daylight that brims with potent magic."
+    },
+    "Intro/Cinematic/ECL_3": {
+        "oracleText": "Most of Lorwyn's inhabitants value harmony above conflict. (wryly) Whenever possible.",
+        "translation": "Most of Lorwyn's inhabitants value harmony above conflict. (wryly) Whenever possible."
+    },
+    "Intro/Cinematic/ECL_4": {
+        "oracleText": "Then there are those who are... less agreeable. The world is shifting, and conflict is inevitable.",
+        "translation": "Then there are those who are... less agreeable. The world is shifting, and conflict is inevitable."
+    },
+    "Intro/Cinematic/ECL_5": {
+        "oracleText": "In Lorwyn, you'll find wonders beyond imagination and possibilities beyond your wildest dreams.",
+        "translation": "In Lorwyn, you'll find wonders beyond imagination and possibilities beyond your wildest dreams."
+    },
+    "Intro/Cinematic/ECL_6": {
+        "oracleText": "But when the Aurora passes over, the plane twists into something dark and sinister.",
+        "translation": "But when the Aurora passes over, the plane twists into something dark and sinister."
+    },
+    "Intro/Cinematic/ECL_7": {
+        "oracleText": "The shining light of Lorwyn gives way to the unfathomable darkness of Shadowmoor.",
+        "translation": "The shining light of Lorwyn gives way to the unfathomable darkness of Shadowmoor."
+    },
+    "Intro/Cinematic/ECL_8": {
+        "oracleText": "Deadly secrets lurk behind every corner, and the plane's inhabitants become selfish and paranoid.",
+        "translation": "Deadly secrets lurk behind every corner, and the plane's inhabitants become selfish and paranoid."
+    },
+    "Intro/Cinematic/ECL_9": {
+        "oracleText": "Here, everyone fights for themselves, striving to reach their full potential by any means necessary.",
+        "translation": "Here, everyone fights for themselves, striving to reach their full potential by any means necessary."
     },
     "Intro/Cinematic/EOE_1": {
         "oracleText": "Conflict erupts in Sothera...",
@@ -38442,6 +38514,14 @@
     "MainNav/DeckBuilder/Sleeves/CardBack_E01_401696": {
         "oracleText": "When Will You Learn Sleeve",
         "translation": "何时才能吸取教训牌套"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_ECL_457583": {
+        "oracleText": "Oko, Lorwyn Liege Sleeve",
+        "translation": "Oko, Lorwyn Liege Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_ECL_458914": {
+        "oracleText": "Ajani, Outland Chaperone Sleeve",
+        "translation": "Ajani, Outland Chaperone Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_ELD_410736": {
         "oracleText": "Korvold Fae Cursed King Sleeve",
@@ -44055,6 +44135,10 @@
         "oracleText": "Crew Captain Card Style",
         "translation": "*工组队长*卡牌样式"
     },
+    "MainNav/EventRewards/CubePrizePacks": {
+        "oracleText": "Cube Prize Packs",
+        "translation": "Cube Prize Packs"
+    },
     "MainNav/EventRewards/CubeSealed0Wins": {
         "oracleText": "Card will be at least uncommon (15% upgrade)",
         "translation": "至少是非凡牌（15%概率提高稀有度）"
@@ -44400,8 +44484,8 @@
         "translation": "{number1}颗宝石和{number2}包补充包"
     },
     "MainNav/EventRewards/Gems_And_Packs_And_PrizePacks": {
-        "oracleText": "{number1} Gems & {number3} Prize Pack & {number2} Packs",
-        "translation": "{number1}颗宝石、{number3}包奖励包和{number2}包补充包"
+        "oracleText": "{number1} Gems & {number2} Cube Prize Packs & {number3} Packs",
+        "translation": "{number1} Gems & {number2} Cube Prize Packs & {number3} Packs"
     },
     "MainNav/EventRewards/Gems_And_QW": {
         "oracleText": "{number1} Gems and Qualifier Weekend Entry",
@@ -46998,6 +47082,26 @@
     "MainNav/HomePage/Carousel/2025_WinterSale_Title": {
         "oracleText": "The Winter Sale is Here!",
         "translation": "冬日特惠已经开始！"
+    },
+    "MainNav/HomePage/Carousel/2026_54_40_ECL_PhysPreRelease_Title": {
+        "oracleText": "Your first opportunity to play Lorwyn Eclipsed!",
+        "translation": "Your first opportunity to play Lorwyn Eclipsed!"
+    },
+    "MainNav/HomePage/Carousel/2026_54_40_ECL_PreOrders_Desc": {
+        "oracleText": "Be prepared for any shifts in the environment with the Pre-orders, available now in the Store!",
+        "translation": "Be prepared for any shifts in the environment with the Pre-orders, available now in the Store!"
+    },
+    "MainNav/HomePage/Carousel/2026_54_40_ECL_PreOrders_Title": {
+        "oracleText": "Lorwyn Eclipsed Pre-orders!",
+        "translation": "Lorwyn Eclipsed Pre-orders!"
+    },
+    "MainNav/HomePage/Carousel/2026_54_40_ECL_Previews_Desc": {
+        "oracleText": "Take a look at the latest cards coming to Arena!",
+        "translation": "Take a look at the latest cards coming to Arena!"
+    },
+    "MainNav/HomePage/Carousel/2026_54_40_ECL_Previews_Title": {
+        "oracleText": "Lorwyn Eclipsed Previews!",
+        "translation": "Lorwyn Eclipsed Previews!"
     },
     "MainNav/HomePage/Carousel/21_01_Store_Desc": {
         "oracleText": "Take part in the epic Saga of Kaldheim. New Boosters Packs, new Set Mastery Pass, new Showcase Bundles, and more!",
@@ -51352,8 +51456,8 @@
         "translation": "<u><b><link=https://company.wizards.com/conduct>行为准则</link></b></u>"
     },
     "MainNav/Login/CodeOfConductLinkUpdate": {
-        "oracleText": "<u><b><link=https://company.wizards.com/en/legal/terms>Code of Conduct</link></b></u>",
-        "translation": "<u><b><link=https://company.wizards.com/en/legal/terms>行为准则</link></b></u>"
+        "oracleText": "<u><b><link=https://company.wizards.com/conduct>Code of Conduct</link></b></u>",
+        "translation": "<u><b><link=https://company.wizards.com/conduct>Code of Conduct</link></b></u>"
     },
     "MainNav/Login/Code_Conduct": {
         "oracleText": "Code of Conduct,",
@@ -51659,13 +51763,17 @@
         "oracleText": "<u><b><link=https://company.wizards.com/en/legal/wizards-coasts-privacy-policy>Privacy Policy</link></b></u>",
         "translation": "<u><b><link=https://company.wizards.com/en/legal/wizards-coasts-privacy-policy>隐私政策</link></b></u>"
     },
+    "MainNav/Login/PrivacyPolicy_Update": {
+        "oracleText": "<u><b><link=https://company.wizards.com/privacy>Privacy Policy</link></b></u>",
+        "translation": "<u><b><link=https://company.wizards.com/privacy>Privacy Policy</link></b></u>"
+    },
     "MainNav/Login/Privacy_Policy": {
         "oracleText": "Privacy Policy",
         "translation": "隐私政策"
     },
     "MainNav/Login/Privacy_Policy_Notice": {
-        "oracleText": "By clicking 'Submit', you acknowledge our <u><b><link=https://company.wizards.com/policy>Privacy Policy</link></b></u> and have reviewed:",
-        "translation": "点击「提交」，即表明您已阅读并确认我们的<u><b><link=https://company.wizards.com/policy>隐私政策</link></b></u>并已审阅："
+        "oracleText": "By clicking 'Submit', you acknowledge our <color=#96A7FF><u><b><link=https://company.wizards.com/policy>Privacy Policy</link></b></u></color> and have reviewed:",
+        "translation": "By clicking 'Submit', you acknowledge our <color=#96A7FF><u><b><link=https://company.wizards.com/policy>Privacy Policy</link></b></u></color> and have reviewed:"
     },
     "MainNav/Login/Receive_Offers": {
         "oracleText": "YES! Wizards may send me promotional emails about Wizards' events, games, offers, and services.",
@@ -51690,6 +51798,10 @@
     "MainNav/Login/Register": {
         "oracleText": "Register",
         "translation": "注册"
+    },
+    "MainNav/Login/RegisterAccountTermsBody": {
+        "oracleText": "By clicking 'Submit' and using the services, you agree to Wizards of the Coast's:",
+        "translation": "By clicking 'Submit' and using the services, you agree to Wizards of the Coast's:"
     },
     "MainNav/Login/RememberMe": {
         "oracleText": "Remember Me",
@@ -51744,8 +51856,12 @@
         "translation": "<u><b><link=https://magic.wizards.com/mtgarena/terms>条款与细则</link></b></u>"
     },
     "MainNav/Login/TermsConditionsLink_Update": {
-        "oracleText": "<u><b><link=https://docs.hasbro.com/en-us/legal/wizards-terms>Terms and Conditions</link></b></u>",
-        "translation": "<u><b><link=https://docs.hasbro.com/en-us/legal/wizards-terms>条款与细则</link></b></u>"
+        "oracleText": "<u><b><link=https://docs.hasbro.com/en-us/legal/wizards-terms>Terms of Service</link></b></u>",
+        "translation": "<u><b><link=https://docs.hasbro.com/en-us/legal/wizards-terms>Terms of Service</link></b></u>"
+    },
+    "MainNav/Login/TermsConditionsLink_Update_2": {
+        "oracleText": "<u><b><link=https://magic.wizards.com/mtgarena/terms>Terms of Service</link></b></u>",
+        "translation": "<u><b><link=https://magic.wizards.com/mtgarena/terms>Terms of Service</link></b></u>"
     },
     "MainNav/Login/Terms_Conditions": {
         "oracleText": "Terms and Conditions,",
@@ -51758,6 +51874,14 @@
     "MainNav/Login/TokenExpiredMessage": {
         "oracleText": "Your login session has expired. Please log in to your Wizards Account again.",
         "translation": "你的登录已过期。请重新登录你的威世智帐户。"
+    },
+    "MainNav/Login/UpdateAccountTermsBody": {
+        "oracleText": "By clicking 'Submit' and continuing to use the services, you agree to Wizards of the Coast's updated:",
+        "translation": "By clicking 'Submit' and continuing to use the services, you agree to Wizards of the Coast's updated:"
+    },
+    "MainNav/Login/UpdateAccountTermsHeader": {
+        "oracleText": "Updated Terms",
+        "translation": "Updated Terms"
     },
     "MainNav/Login/Upgraded_Account_Description": {
         "oracleText": "Your account must be migrated to the new account system. Please confirm the information below.",
@@ -52298,6 +52422,86 @@
     "MainNav/Mailbox/2025_Sept_MTGAAccountUpdate_Title": {
         "oracleText": "Please Read! MTG Arena Account Update",
         "translation": "Please Read! MTG Arena Account Update"
+    },
+    "MainNav/Mailbox/2026_ECLCinematic_Slide1": {
+        "oracleText": "Welcome, traveler, to the plane of Lorwyn.",
+        "translation": "Welcome, traveler, to the plane of Lorwyn."
+    },
+    "MainNav/Mailbox/2026_ECLCinematic_Slide10": {
+        "oracleText": "It is a world of conflict and unpredictability, where only the strong and the clever survive.",
+        "translation": "It is a world of conflict and unpredictability, where only the strong and the clever survive."
+    },
+    "MainNav/Mailbox/2026_ECLCinematic_Slide11": {
+        "oracleText": "But if you embrace the danger and step into the darkness, you may find power beyond your wildest dreams.",
+        "translation": "But if you embrace the danger and step into the darkness, you may find power beyond your wildest dreams."
+    },
+    "MainNav/Mailbox/2026_ECLCinematic_Slide12": {
+        "oracleText": "But what of the places where light and shadow meet? What other mysteries lurk on the boundary of Lorwyn and Shadowmoor? Enter the aurora and discover the answers for yourself!",
+        "translation": "But what of the places where light and shadow meet? What other mysteries lurk on the boundary of Lorwyn and Shadowmoor? Enter the aurora and discover the answers for yourself!"
+    },
+    "MainNav/Mailbox/2026_ECLCinematic_Slide2": {
+        "oracleText": "Lorwyn is a world of eternal daylight that brims with potent magic.",
+        "translation": "Lorwyn is a world of eternal daylight that brims with potent magic."
+    },
+    "MainNav/Mailbox/2026_ECLCinematic_Slide3": {
+        "oracleText": "Most of Lorwyn's inhabitants value harmony above conflict. (wryly) Whenever possible.",
+        "translation": "Most of Lorwyn's inhabitants value harmony above conflict. (wryly) Whenever possible."
+    },
+    "MainNav/Mailbox/2026_ECLCinematic_Slide4": {
+        "oracleText": "Then there are those who are... less agreeable. The world is shifting, and conflict is inevitable.",
+        "translation": "Then there are those who are... less agreeable. The world is shifting, and conflict is inevitable."
+    },
+    "MainNav/Mailbox/2026_ECLCinematic_Slide5": {
+        "oracleText": "In Lorwyn, you'll find wonders beyond imagination and possibilities beyond your wildest dreams.",
+        "translation": "In Lorwyn, you'll find wonders beyond imagination and possibilities beyond your wildest dreams."
+    },
+    "MainNav/Mailbox/2026_ECLCinematic_Slide6": {
+        "oracleText": "But when the Aurora passes over, the plane twists into something dark and sinister.",
+        "translation": "But when the Aurora passes over, the plane twists into something dark and sinister."
+    },
+    "MainNav/Mailbox/2026_ECLCinematic_Slide7": {
+        "oracleText": "The shining light of Lorwyn gives way to the unfathomable darkness of Shadowmoor.",
+        "translation": "The shining light of Lorwyn gives way to the unfathomable darkness of Shadowmoor."
+    },
+    "MainNav/Mailbox/2026_ECLCinematic_Slide8": {
+        "oracleText": "Deadly secrets lurk behind every corner, and the plane's inhabitants become selfish and paranoid.",
+        "translation": "Deadly secrets lurk behind every corner, and the plane's inhabitants become selfish and paranoid."
+    },
+    "MainNav/Mailbox/2026_ECLCinematic_Slide9": {
+        "oracleText": "Here, everyone fights for themselves, striving to reach their full potential by any means necessary.",
+        "translation": "Here, everyone fights for themselves, striving to reach their full potential by any means necessary."
+    },
+    "MainNav/Mailbox/2026_ECL_Cinematic_Description": {
+        "oracleText": "Click the button below to re-watch the Lorwyn Eclipsed introductory cinematic, and get excited for the latest coming to Arena soon!",
+        "translation": "Click the button below to re-watch the Lorwyn Eclipsed introductory cinematic, and get excited for the latest coming to Arena soon!"
+    },
+    "MainNav/Mailbox/2026_ECL_Cinematic_Teaser_Description": {
+        "oracleText": "Click the button below to watch the Lorwyn Eclipsed Teaser, and get excited for the latest coming to Arena by Pre-ordering today!",
+        "translation": "Click the button below to watch the Lorwyn Eclipsed Teaser, and get excited for the latest coming to Arena by Pre-ordering today!"
+    },
+    "MainNav/Mailbox/2026_ECL_Cinematic_Teaser_Title": {
+        "oracleText": "Get Ready for Lorwyn Eclipsed!",
+        "translation": "Get Ready for Lorwyn Eclipsed!"
+    },
+    "MainNav/Mailbox/2026_ECL_Cinematic_Title": {
+        "oracleText": "Get Ready for Lorwyn Eclipsed!",
+        "translation": "Get Ready for Lorwyn Eclipsed!"
+    },
+    "MainNav/Mailbox/2026_ECL_Cinematic_Trailer_Description": {
+        "oracleText": "Click the button below to watch the Lorwyn Eclipsed trailer, and get excited  to enter the aurora and discover the magic for yourself!",
+        "translation": "Click the button below to watch the Lorwyn Eclipsed trailer, and get excited  to enter the aurora and discover the magic for yourself!"
+    },
+    "MainNav/Mailbox/2026_ECL_Cinematic_Trailer_Title": {
+        "oracleText": "Lorwyn Eclipsed is Nearly Here!",
+        "translation": "Lorwyn Eclipsed is Nearly Here!"
+    },
+    "MainNav/Mailbox/2026_ECL_PlayIncentive_Annoucnement_Description": {
+        "oracleText": "To help celebrate our first set release this year, we're giving away 2 Sleeves based on Lorwyn Eclipsed Concept Art if you do at least one of the following before January 26th:\n\nPlay in 1 or more ECL Draft or Sealed events\n\nOpen 10 or more ECL store packs\n\nPurchase the ECL Mastery Pass\n\nRewards for play will be sent around January 27th! Thank you for playing Magic: The Gathering Arena and we hope you enjoy Lorwyn Eclipsed!",
+        "translation": "To help celebrate our first set release this year, we're giving away 2 Sleeves based on Lorwyn Eclipsed Concept Art if you do at least one of the following before January 26th:\n\nPlay in 1 or more ECL Draft or Sealed events\n\nOpen 10 or more ECL store packs\n\nPurchase the ECL Mastery Pass\n\nRewards for play will be sent around January 27th! Thank you for playing Magic: The Gathering Arena and we hope you enjoy Lorwyn Eclipsed!"
+    },
+    "MainNav/Mailbox/2026_ECL_PlayIncentive_Annoucnement_Title": {
+        "oracleText": "2 Sleeves Await!",
+        "translation": "2 Sleeves Await!"
     },
     "MainNav/Mailbox/AnnualSatisfactionSurveyCTA_Description": {
         "oracleText": "We hope you are enjoying MTG Arena! If you have a few minutes, we would love to hear your thoughts in our feedback survey.\n\nThank you for all your help and see you in the game!",
@@ -53966,6 +54170,14 @@
     "MainNav/PetNames/DragonWhelp": {
         "oracleText": "Dragon Whelp",
         "translation": "龙崽"
+    },
+    "MainNav/PetNames/ECL_Preorder_1": {
+        "oracleText": "Ravenous Changeling",
+        "translation": "Ravenous Changeling"
+    },
+    "MainNav/PetNames/ECL_Preorder_Companion_1": {
+        "oracleText": "Ravenous Changeling",
+        "translation": "Ravenous Changeling"
     },
     "MainNav/PetNames/ELD_BattlePass": {
         "oracleText": "Fae Fox",
@@ -66168,12 +66380,12 @@
         "translation": "解锁灵能蛙的新篇藏身处，用票购买摩登新篇3补充包、头像、牌套等！"
     },
     "MainNav/Store/Bundles/PreOrder_AvailableDate": {
-        "oracleText": "Available on November 18, 2025",
-        "translation": "2025年11月18日上市"
+        "oracleText": "Available on January 20, 2026",
+        "translation": "Available on January 20, 2026"
     },
     "MainNav/Store/Bundles/PreOrder_Available_Purchasable": {
-        "oracleText": "Available for purchase until November 18, 2025",
-        "translation": "2025年11月18日前可供购买"
+        "oracleText": "Available for purchase until January 20, 2026",
+        "translation": "Available for purchase until January 20, 2026"
     },
     "MainNav/Store/Bundles/PrizeWall_BLBMastery_Sorin_Desc": {
         "oracleText": "4x Sorin Markov",
@@ -66290,6 +66502,14 @@
     "MainNav/Store/Bundles/mtga_bundle_40k_sleeves_Name": {
         "oracleText": "Warhammer 40,000 Sleeves",
         "translation": "战锤40K牌套"
+    },
+    "MainNav/Store/Bundles/mtga_preorder_ECL_pack_Desc": {
+        "oracleText": "Pre-order <i>Lorwyn Eclipsed</i> today and receive the following items on January 20, 2026:\n\n45 <i>Lorwyn Eclipsed</i> Boosters\n5 <i>Lorwyn Eclipsed</i> Mythic Boosters\n5 Golden Boosters\n1 Ajani, Outland Chaperone Card\nAjani, Outland Chaperone Card Style\n\nWhen purchased, you will immediately receive the Ajani, Outland Chaperone Sleeve.",
+        "translation": "Pre-order <i>Lorwyn Eclipsed</i> today and receive the following items on January 20, 2026:\n\n45 <i>Lorwyn Eclipsed</i> Boosters\n5 <i>Lorwyn Eclipsed</i> Mythic Boosters\n5 Golden Boosters\n1 Ajani, Outland Chaperone Card\nAjani, Outland Chaperone Card Style\n\nWhen purchased, you will immediately receive the Ajani, Outland Chaperone Sleeve."
+    },
+    "MainNav/Store/Bundles/mtga_preorder_ECL_play_Desc": {
+        "oracleText": "Pre-order <i>Lorwyn Eclipsed</i> today and receive the following items on January 20, 2026:\n\n4 Player Draft Tokens\n2 Sealed Token\n20 Play-In Points\n1x Oko, Lorwyn Liege Card\nOko, Lorwyn Liege Card Style\n\nWhen purchased, you will immediately receive the Oko, Lorwyn Liege Sleeve and the Ravenous Changeling Companion.",
+        "translation": "Pre-order <i>Lorwyn Eclipsed</i> today and receive the following items on January 20, 2026:\n\n4 Player Draft Tokens\n2 Sealed Token\n20 Play-In Points\n1x Oko, Lorwyn Liege Card\nOko, Lorwyn Liege Card Style\n\nWhen purchased, you will immediately receive the Oko, Lorwyn Liege Sleeve and the Ravenous Changeling Companion."
     },
     "MainNav/Store/Bundles/mtga_preorder_dft_pack_Desc": {
         "oracleText": "Pre-order <i>Aetherdrift</i> today and receive the following items on February 11, 2025:\n\n50 <i>Aetherdrift</i> Packs\n5 Golden Packs\n1 Chandra, Spark Hunter Card\nChandra, Spark Hunter Card Style\n\nWhen purchased, you will immediately receive the Chandra Sleeve.",
@@ -67542,6 +67762,10 @@
     "MainNav/Store/Payment_Method_Text": {
         "oracleText": "Payment Method: {paymentType}",
         "translation": "支付方式：{paymentType}"
+    },
+    "MainNav/Store/Popups/ExternalBrowserPrompt": {
+        "oracleText": "Please see the external browser that has been opened for you to complete your purchase.\n \nOnce completed, click below to return to Arena.",
+        "translation": "Please see the external browser that has been opened for you to complete your purchase.\n \nOnce completed, click below to return to Arena."
     },
     "MainNav/Store/Popups/Gems/Amount": {
         "oracleText": "Your purchase of <color=green>{gemAmount}</color> requires real money. Funds will be drawn from your saved payment method.",
