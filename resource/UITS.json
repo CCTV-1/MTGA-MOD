@@ -763,6 +763,14 @@
         "oracleText": "Affinity for Gates",
         "translation": "门共鸣"
     },
+    "AbilityHanger/Keyword/AffinityForGoats_Body": {
+        "oracleText": "A spell with affinity for Goats costs {o1} less to cast for each Goat you control.",
+        "translation": "A spell with affinity for Goats costs {o1} less to cast for each Goat you control."
+    },
+    "AbilityHanger/Keyword/AffinityForGoats_Title": {
+        "oracleText": "Affinity for Goats",
+        "translation": "Affinity for Goats"
+    },
     "AbilityHanger/Keyword/AffinityForHumans_Body": {
         "oracleText": "This spell costs {o1} less to cast for each Human you control.",
         "translation": "你每操控一个人类，此咒语便减少{o1}来施放。"
@@ -2542,6 +2550,14 @@
     "AbilityHanger/Keyword/ProtectionFromInstants_Title": {
         "oracleText": "Protection From Instants",
         "translation": "反瞬间保护"
+    },
+    "AbilityHanger/Keyword/ProtectionFromMonocolored": {
+        "oracleText": "This permanent can't be blocked, targeted, dealt damage, enchanted, or equipped by anything monocolored.",
+        "translation": "This permanent can't be blocked, targeted, dealt damage, enchanted, or equipped by anything monocolored."
+    },
+    "AbilityHanger/Keyword/ProtectionFromMonocolored_Title": {
+        "oracleText": "Protection from Monocolored",
+        "translation": "Protection from Monocolored"
     },
     "AbilityHanger/Keyword/ProtectionFromMulticolored": {
         "oracleText": "This permanent can't be blocked, targeted, dealt damage, enchanted, or equipped by anything multicolored.",
@@ -8963,6 +8979,10 @@
         "oracleText": "Software QA Analyst",
         "translation": "软件质量检查分析师"
     },
+    "Credits/Role/TechnicalArtist": {
+        "oracleText": "Technical Artist",
+        "translation": "Technical Artist"
+    },
     "Credits/Role/TechnicalProductManager": {
         "oracleText": "Technical Product Manager",
         "translation": "技术产品经理"
@@ -12859,6 +12879,30 @@
         "oracleText": "Foundation Deck: Brawl Auntie Ool, Cursewretch",
         "translation": "基础套牌：争锋劣咒婆巫儿大婶"
     },
+    "Decks/StoreDecks/ECL/Wave17/Doran": {
+        "oracleText": "Foundation Deck: Brawl Doran, Besieged by Time",
+        "translation": "Foundation Deck: Brawl Doran, Besieged by Time"
+    },
+    "Decks/StoreDecks/ECL/Wave17/Grub": {
+        "oracleText": "Foundation Deck: Brawl Grub, Storied Matriarch",
+        "translation": "Foundation Deck: Brawl Grub, Storied Matriarch"
+    },
+    "Decks/StoreDecks/ECL/Wave17/Oura": {
+        "oracleText": "Foundation Deck: Brawl Oura, the Imitator",
+        "translation": "Foundation Deck: Brawl Oura, the Imitator"
+    },
+    "Decks/StoreDecks/ECL/Wave17/ProvidenceOfNight": {
+        "oracleText": "Foundation Deck: Brawl Providence of Night",
+        "translation": "Foundation Deck: Brawl Providence of Night"
+    },
+    "Decks/StoreDecks/ECL/Wave17/Sygg": {
+        "oracleText": "Foundation Deck: Brawl Sygg, Wanderwine Wisdom",
+        "translation": "Foundation Deck: Brawl Sygg, Wanderwine Wisdom"
+    },
+    "Decks/StoreDecks/ECL/Wave17/Trystan": {
+        "oracleText": "Foundation Deck: Brawl Trystan, Callous Cultivator",
+        "translation": "Foundation Deck: Brawl Trystan, Callous Cultivator"
+    },
     "Decks/StoreDecks/EOE/Wave12/HearthhullRampage": {
         "oracleText": "Foundation Deck: Brawl Hearthhull Rampage",
         "translation": "基础套牌：争锋播世之种芯炉号"
@@ -14542,6 +14586,10 @@
     "DuelScene/ClientPrompt/ShocklandSubheader": {
         "oracleText": "Select whether to pay 2 life or to enter the battlefield tapped.",
         "translation": "选择是要支付2点生命还是要横置进战场。"
+    },
+    "DuelScene/ClientPrompt/Shuffle": {
+        "oracleText": "Shuffle",
+        "translation": "Shuffle"
     },
     "DuelScene/ClientPrompt/Submit_N": {
         "oracleText": "Submit {submitCount}",
@@ -21372,8 +21420,8 @@
         "translation": "这使你有资格参加本次赛事的第二轮轮抽。在太平洋时间(PT)中午12点-下午2点参加。"
     },
     "Events/ECL_Limited_Archetypes": {
-        "oracleText": "<b>Major Archetypes</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Merfolk</b> Use a variety of tricky tapping synergies to cast your spells for cheap and disrupt your opponents.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Goblins</b> Throw boggarts at every problem! Find ways to put -1/-1 counters on your disposable Goblin forces and reap rewards.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Kithkin</b> Use the power of shared consciousness to spread abilities among Kithkin.  The more Kithkin you play, the greater your thoughtweft grows!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Elementals</b> Burn bright like a flamekin. Cast big spells to unleash seismic Elemental power!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Elves</b> Harness the cycle of nature and use your graveyard as a resource to overwhelm your opponents.\n\n<b>Secondary Archetypes</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Blight Engine</b> Assemble a well-oiled machine of value. Put -1/-1 counters on your creatures, remove them to accrue advantage, then repeat.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Blight Midrange</b> Take small creatures and turn them into powerful threats by removing their -1/-1 counters, and at the same time use their abilities to clear the path to your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Vivid Ramp</b> Play a long game with permanents of every color. Bide your time and overwhelm your opponents in the late game with powerful vivid rewards and expensive spells.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Flash and Faeries</b> Gain the upper hand with trickery. Play on your opponent's turn with flash Faeries and instants so you can be ready for anything.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Vivid Midrange</b> Deploy cheap hybrid-mana creatures early to pressure your opponent, then utilize supercharged vivid cards to get over the finish line to victory.",
-        "translation": "<b>Major Archetypes</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Merfolk</b> Use a variety of tricky tapping synergies to cast your spells for cheap and disrupt your opponents.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Goblins</b> Throw boggarts at every problem! Find ways to put -1/-1 counters on your disposable Goblin forces and reap rewards.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Kithkin</b> Use the power of shared consciousness to spread abilities among Kithkin.  The more Kithkin you play, the greater your thoughtweft grows!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Elementals</b> Burn bright like a flamekin. Cast big spells to unleash seismic Elemental power!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Elves</b> Harness the cycle of nature and use your graveyard as a resource to overwhelm your opponents.\n\n<b>Secondary Archetypes</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Blight Engine</b> Assemble a well-oiled machine of value. Put -1/-1 counters on your creatures, remove them to accrue advantage, then repeat.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Blight Midrange</b> Take small creatures and turn them into powerful threats by removing their -1/-1 counters, and at the same time use their abilities to clear the path to your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Vivid Ramp</b> Play a long game with permanents of every color. Bide your time and overwhelm your opponents in the late game with powerful vivid rewards and expensive spells.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Flash and Faeries</b> Gain the upper hand with trickery. Play on your opponent's turn with flash Faeries and instants so you can be ready for anything.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Vivid Midrange</b> Deploy cheap hybrid-mana creatures early to pressure your opponent, then utilize supercharged vivid cards to get over the finish line to victory."
+        "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Merfolk</b> Use a variety of tricky tapping synergies to cast your spells for cheap and disrupt your opponents.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Flash and Faeries</b> Gain the upper hand with trickery. Play on your opponent's turn with flash Faeries and instants so you can be ready for anything.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Goblins</b> Throw boggarts at every problem! Find ways to put -1/-1 counters on your disposable Goblin forces and reap rewards.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Vivid Midrange</b> Deploy cheap hybrid-mana creatures early to pressure your opponent, then utilize supercharged vivid cards to get over the finish line to victory.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Kithkin</b> Use the power of shared consciousness to spread abilities among Kithkin.  The more Kithkin you play, the greater your thoughtweft grows!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Blight Engine</b> Assemble a well-oiled machine of value. Put -1/-1 counters on your creatures, remove them to accrue advantage, then repeat.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Elementals</b> Burn bright like a flamekin. Cast big spells to unleash seismic Elemental power!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Elves</b> Harness the cycle of nature and use your graveyard as a resource to overwhelm your opponents.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Blight Midrange</b> Take small creatures and turn them into powerful threats by removing their -1/-1 counters, and at the same time use their abilities to clear the path to your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Vivid Ramp</b> Play a long game with permanents of every color. Bide your time and overwhelm your opponents in the late game with powerful vivid rewards and expensive spells.",
+        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Merfolk</b> Use a variety of tricky tapping synergies to cast your spells for cheap and disrupt your opponents.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Flash and Faeries</b> Gain the upper hand with trickery. Play on your opponent's turn with flash Faeries and instants so you can be ready for anything.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Goblins</b> Throw boggarts at every problem! Find ways to put -1/-1 counters on your disposable Goblin forces and reap rewards.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Vivid Midrange</b> Deploy cheap hybrid-mana creatures early to pressure your opponent, then utilize supercharged vivid cards to get over the finish line to victory.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Kithkin</b> Use the power of shared consciousness to spread abilities among Kithkin.  The more Kithkin you play, the greater your thoughtweft grows!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Blight Engine</b> Assemble a well-oiled machine of value. Put -1/-1 counters on your creatures, remove them to accrue advantage, then repeat.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Elementals</b> Burn bright like a flamekin. Cast big spells to unleash seismic Elemental power!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Elves</b> Harness the cycle of nature and use your graveyard as a resource to overwhelm your opponents.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Blight Midrange</b> Take small creatures and turn them into powerful threats by removing their -1/-1 counters, and at the same time use their abilities to clear the path to your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Vivid Ramp</b> Play a long game with permanents of every color. Bide your time and overwhelm your opponents in the late game with powerful vivid rewards and expensive spells."
     },
     "Events/EventPreview_Back_To_Day_1": {
         "oracleText": "Back to Day 1",
@@ -25051,10 +25099,6 @@
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nWelcome to Gladiator, one of the most popular fan formats for MTG Arena!\n\nGladiator uses 100-card singleton Historic decks with a minimal banned list. You'll face off in best-of-one matches, so every game matters. With no sideboards, what you bring is what you've got—so make it count!",
         "translation": "欢迎来到周中万智牌！每周尝试一个不同的方式来游玩万智牌竞技场！\n\n欢迎来到角斗，这是万智牌竞技场最受欢迎的粉丝赛制之一！\n\n角斗使用100张无双史迹套牌和最低限度的禁牌表。然后，你将在一盘胜负制的比赛中对峙，让你有机会从双方玩家的套牌中看到广泛的可能性。没有备牌，所以你带来的就是你所拥有的！"
     },
-    "Events/Event_Desc_MWM_GoldenSealed": {
-        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's enjoy this silly, chaotic experience by playing <i>Golden Booster Sealed </i> with twelve boosters. Add basic lands to make a 40-card deck, then play against other players as much as you want!\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>",
-        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's enjoy this silly, chaotic experience by playing <i>Golden Booster Sealed </i> with twelve boosters. Add basic lands to make a 40-card deck, then play against other players as much as you want!\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>"
-    },
     "Events/Event_Desc_MWM_HBG_BotDraft": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Alchemy Horizons: Baldur's Gate</i> Bot Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>",
         "translation": "欢迎参加周中万智夜！《MTG竞技场》每周玩法花样百出，次次活动都有全新感受！\n\n本周的活动是电脑轮抽：<i>炼金新篇：博德之门</i>：你将与电脑一道，从在桌上轮转的轮抽补充包中抽选牌张，无需等待，也没有抽选时间限制。之后加入基本地构组一副40张的套牌，并与其他牌手进行对战，且无次数限制。\n\n<b><color=\"red\">此赛事为虚拟活动。你抽选的牌张不会加入你的收藏。</color></b>"
@@ -25900,8 +25944,8 @@
         "translation": "你将得到6包<i>暮悲邸：鬼屋惊魂</i>补充包。这些牌张将加入你的收藏，而你将使用它们和基本地来构组一副40张的套牌。不断进行对战，最后根据胜场数量赢得奖励！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> 异景调查 </b> 搜索这座宅邸！多多使用结界和解锁房间来强化你的生物，绕过宅邸抛给你的所有恐怖阻挡者。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> 异景支配 </b> 体验你最糟糕的噩梦并与对手分享，解锁房间并使用结界来消灭他们的生物，夺取游戏的控制权。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>红黑连环牺牲</b> 想轻松斩杀对手的生物和对手吗？通过牺牲由你操控的生物和旧房间作为代价以换取力量。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>狂暴横行</b> 用神器和结界生物（以及其他牌张类别）填满你的套牌，然后尽早频繁地攻击。一旦你在坟墓场中拥有四种不同的牌张类别，你的牌就会被强化。现在，直击要害吧！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>生还</b>  利用暮悲邸的所有诡计来强化你的生物，帮助他们一路打破阻碍，安全脱身。找到其他方式来横置它们，躲避直到危险过去。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>邪教复生</b>  瓦伽沃万岁！减缓你的对手，同时将巨大的怪物送入你的坟墓场，然后进行仪式将它们复活。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b> 房间接着房间 </b> 这座宅邸永无止境！当你解锁房间以建立对更多领地的控制时，让你的对手晕头转向，然后释放其中隐藏的幽灵，迎接恐怖终局。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b> 碾磨躁狂 </b> 优先获得各种不同的牌张类别，当你用它们填满坟墓场时，阻碍场面威胁。一旦你拥有四种类别，通过循环利用你丢弃的东西，将对手碾为尘土。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b> 童年阴影 </b> 用力量等于或小于2的玩具和小丑填满你的套牌，开始攻击！清除他们的阻挡者并强化你的小生物，迅速击败对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b> 显化惧象 </b> 有东西潜伏在阴影中。显化牌面朝下的生物并让它们进入战斗，然后用它们的真面目给对手一个惊喜，扭转胜局。"
     },
     "Events/Event_Desc_Sealed_ECL": {
-        "oracleText": "You'll receive 6 <i>Lorwyn Eclipsed</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n\n$/Events/ECL_Limited_Archetypes$",
-        "translation": "You'll receive 6 <i>Lorwyn Eclipsed</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n\n$/Events/ECL_Limited_Archetypes$"
+        "oracleText": "You'll receive 6 <i>Lorwyn Eclipsed</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n$/Events/ECL_Limited_Archetypes$",
+        "translation": "You'll receive 6 <i>Lorwyn Eclipsed</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n$/Events/ECL_Limited_Archetypes$"
     },
     "Events/Event_Desc_Sealed_ELD": {
         "oracleText": "You'll receive 6 fourteen-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win",
@@ -26670,6 +26714,10 @@
     "Events/Event_Desc_Y25TDM_Premier_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Mardu Mobilize</b> Create additional tokens to help aid in your attack.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Go Wide Tokens</b> Blitz by your opponent with sheer numbers. Use Mobilize tokens and Flurry rewards to build impressive battlefields.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Jeskai Flurry</b> Cast two (or more!) spells in a single turn to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Two Spells</b> Use Harmonize spells frequently in order to reap the rewards from Flurry.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Temur Harmonize</b> Cast your spells twice with help of your biggest creatures.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Leaves the Graveyard</b> Fill up your graveyard, then use Mobilize or Renew and others to get bonuses for cards leaving your graveyard.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Sultai Renew</b> Use the power of the graveyard to make your creatures stronger.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Counters</b> Use counters of any kind, not just +1/+1 counters, to make your creatures impressive in combat.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Abzan Endure</b> Your creatures are versatile!  Outsize your opponents with +1/+1 counters or outflank them with spirit tokens.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Sacrifice</b> Sacrifice your extra creatures, such as your temporary creatures from Horde to get extra use out of those creatures.",
         "translation": "轮抽补充包在桌上轮转，其中包含最新炼金系列牌张，你每次需从中选择一张牌。这些牌张将加入你的收藏，而你将使用它们和基本地来构组一副40张的套牌。不断进行对战，最后根据胜场数量赢得奖励！\n\n<b>真人轮抽～与其他7位牌手一同进行轮抽，有抽选时间限制</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>玛尔都动员</b> 派出额外的衍生物来帮助你进行攻击。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>衍生物铺场</b> 用数量优势冲击你的对手。使用动员的衍生物和连咒收益来建立非凡场面。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>洁斯凯连咒</b> 在一个回合内施放两个（或更多！）咒语来压倒你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>两次咒语</b> 频繁使用谐颂咒语以获取连咒收益。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>铁木尔谐颂</b> 让你最大的生物帮助你施放两次咒语。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>离开坟场</b> 填满你的坟墓场，然后使用动员或复新之类的获得卡牌离开你坟墓场的奖励。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>苏勒台复新</b> 利用坟墓场的力量使你的生物更强大。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>指示物</b> 使用任何类型的指示物，不仅仅是+1/+1指示物，让你的生物在战斗中鹤立鸡群。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>阿布赞续战</b> 你的生物多才多艺！用+1/+1指示物压倒对手或用精怪衍生物包抄他们。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>牺牲</b> 牺牲你的额外生物，比如从战群获得的临时生物，充分利用这些生物。"
+    },
+    "Events/Event_Desc_YECL_Premier_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n$/Events/ECL_Limited_Archetypes$",
+        "translation": "Select one card at a time from rotating draft packs that include cards from the latest Alchemy release. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n$/Events/ECL_Limited_Archetypes$"
     },
     "Events/Event_Desc_Yargle_Day_2020": {
         "oracleText": "When Belzenlok's lieutenant Yar-Kul grew too ambitious, the Demonlord transformed him into a maggot. The frog that ate the maggot grew and grew, until a ravenous spirit burst from its body. Today, we celebrate that spirit, everyone's pal, Yargle!\n\nWe asked Yargle how best to celebrate, and here's how we interpreted its gurgles and shrieks:\n- Yargle makes the rules! Yargle has provided decks for everyone to use, and we've even cleaned most of the slime off of them.\n- Yargle is the center of attention! Yargle is the only non-common card allowed, and you'll have plenty of extras so you won't run out.\n- Yargle is special! Yargle will be faster to get into the fight, so nobody has to have fun alone.\n\nJoin us for a rip-roaring good time with a spirit of a frog which ate a maggot that was actually a transformed lieutenant of a demon. Happy Yargle Day, everyone!",
@@ -30567,6 +30615,10 @@
         "oracleText": "Premier Draft Tarkir: Dragonstorm Alchemy",
         "translation": "炼金：鞑契龙岚录竞技轮抽"
     },
+    "Events/Event_Title_YECL_Premier_Draft": {
+        "oracleText": "Premier Draft Alchemy Lorwyn Eclipsed",
+        "translation": "Premier Draft Alchemy Lorwyn Eclipsed"
+    },
     "Events/Event_Title_Yargle_Day_2020": {
         "oracleText": "Yargle Day!",
         "translation": "雅骨尔日！"
@@ -34239,6 +34291,10 @@
         "oracleText": "Alchemy: Bloomburrow",
         "translation": "炼金：班隆洛"
     },
+    "General/Sets/Y26-ECL": {
+        "oracleText": "Alchemy: Lorwyn",
+        "translation": "Alchemy: Lorwyn"
+    },
     "General/Sets/ZNR": {
         "oracleText": "Zendikar Rising",
         "translation": "赞迪卡再起"
@@ -36164,8 +36220,8 @@
         "translation": "你确定要屏蔽{username}并将其移出挑战吗？\n该玩家只会收到被移出挑战的通知。"
     },
     "MainNav/Challenges/ConfirmationPanel/BlockDescriptionInvitee": {
-        "oracleText": "Are you sure you want to block {username} and remove them from the Challenge?\nThey will only be notified that you left the Challenge.",
-        "translation": "Are you sure you want to block {username} and remove them from the Challenge?\nThey will only be notified that you left the Challenge."
+        "oracleText": "Are you sure you want to block {username} and remove them from the Challenge?\nThe will only be notified that you left the Challenge.",
+        "translation": "Are you sure you want to block {username} and remove them from the Challenge?\nThe will only be notified that you left the Challenge."
     },
     "MainNav/Challenges/ConfirmationPanel/BlockTitle": {
         "oracleText": "Confirm Block Player",
@@ -39250,6 +39306,10 @@
     "MainNav/DeckBuilder/Sleeves/CardBack_ECL_457583": {
         "oracleText": "Oko, Lorwyn Liege Sleeve",
         "translation": "洛温王侯瓯柯牌套"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_ECL_458905": {
+        "oracleText": "Mutable Explorer Sleeve",
+        "translation": "Mutable Explorer Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_ECL_458914": {
         "oracleText": "Ajani, Outland Chaperone Sleeve",
@@ -47903,6 +47963,14 @@
         "oracleText": "Magic Spotlight: Eclipsed - Open Tournament",
         "translation": "万智聚光灯：暗影笼罩 - 公开锦标赛"
     },
+    "MainNav/HomePage/Carousel/2026_56_0_Y26ECL_Store_Desc": {
+        "oracleText": "Even more treasures and trinkets have appeared! Check out new offerings in the Store today!",
+        "translation": "Even more treasures and trinkets have appeared! Check out new offerings in the Store today!"
+    },
+    "MainNav/HomePage/Carousel/2026_56_0_Y26ECL_Store_Title": {
+        "oracleText": "There's More in the Store!",
+        "translation": "There's More in the Store!"
+    },
     "MainNav/HomePage/Carousel/21_01_Store_Desc": {
         "oracleText": "Take part in the epic Saga of Kaldheim. New Boosters Packs, new Set Mastery Pass, new Showcase Bundles, and more!",
         "translation": "参加史诗般的凯德海姆传奇。新的补充包、新的精研通行证、新的展示套装等等！"
@@ -53230,6 +53298,14 @@
     "MainNav/Mailbox/2026_55_0_ECL_SetAnnouncement_Title": {
         "oracleText": "Lorwyn Eclipsed is here!",
         "translation": "洛温：暗影笼罩现已上线！"
+    },
+    "MainNav/Mailbox/2026_56_0_Y26ECL_SetAnnouncement_Description": {
+        "oracleText": "Take these 3 packs to help you as your journey across Lorwyn and Shadowmoor continues!",
+        "translation": "Take these 3 packs to help you as your journey across Lorwyn and Shadowmoor continues!"
+    },
+    "MainNav/Mailbox/2026_56_0_Y26ECL_SetAnnouncement_Title": {
+        "oracleText": "The Eclipse Persists!",
+        "translation": "The Eclipse Persists!"
     },
     "MainNav/Mailbox/2026_ECLCinematic_Slide1": {
         "oracleText": "Welcome, traveler, to the plane of Lorwyn.",
@@ -61491,6 +61567,54 @@
         "oracleText": "MTGA Planeswalker Bundle",
         "translation": "MTGA鹏洛克套装"
     },
+    "MainNav/Store/Bundles/Bundle_56_0_Elemental_Brawl1_Desc": {
+        "oracleText": "Bristly Bill, Spine Sower Card Style\nEsika, God of the Tree Card Style\nTatyova, Benthic Druid Card Style\nKotis, the Fangkeeper Card Style\nJodah, the Unifier Card Style\nKrenko, Mob Boss Card Style\nGiada, Font of Hope Card Style\nGolos, Tireless Pilgrim Card Style\nPantlaza, Sun-Favored Card Style\nTannuk, Memorial Ensign Card Style\nAtraxa, Praetors' Voice Card Style\nKaalia of the Vast Card Style\nLathril, Blade of the Elves Card Style\nKenrith, the Returned King Card Style\nMiirym, Sentinel Wyrm Card Style\nIsshin, Two Heavens as One Card Style\nGishath, Sun's Avatar Card Style\nUlalek, Fused Atrocity Card Style\nChatterfang, Squirrel General Card Style\nToski, Bearer of Secrets Card Style",
+        "translation": "Bristly Bill, Spine Sower Card Style\nEsika, God of the Tree Card Style\nTatyova, Benthic Druid Card Style\nKotis, the Fangkeeper Card Style\nJodah, the Unifier Card Style\nKrenko, Mob Boss Card Style\nGiada, Font of Hope Card Style\nGolos, Tireless Pilgrim Card Style\nPantlaza, Sun-Favored Card Style\nTannuk, Memorial Ensign Card Style\nAtraxa, Praetors' Voice Card Style\nKaalia of the Vast Card Style\nLathril, Blade of the Elves Card Style\nKenrith, the Returned King Card Style\nMiirym, Sentinel Wyrm Card Style\nIsshin, Two Heavens as One Card Style\nGishath, Sun's Avatar Card Style\nUlalek, Fused Atrocity Card Style\nChatterfang, Squirrel General Card Style\nToski, Bearer of Secrets Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_56_0_Elemental_Brawl1_Name": {
+        "oracleText": "Elemental Frame Brawlers I",
+        "translation": "Elemental Frame Brawlers I"
+    },
+    "MainNav/Store/Bundles/Bundle_56_0_Elemental_Brawl2_Desc": {
+        "oracleText": "Sliver Weftwinder Card Style\nAlesha, Who Laughs at Fate Card Style\nRin and Seri, Inseparable Card Style\nThe Necrobloom Card Style\nArcades, the Strategist Card Style\nBaylen, the Haymaker Card Style\nSythis, Harvest's Hand Card Style\nKinnan, Bonder Prodigy Card Style\nElspeth, Storm Slayer Card Style\nSami, Wildcat Captain Card Style\nGo-Shintai of Life's Origin Card Style\nMuldrotha, the Gravetide Card Style\nUrza, Lord High Artificer Card Style\nLaughing Jasper Flint Card Style\nMythweaver Poq Card Style\nAnim Pakal, Thousandth Moon Card Style\nHalana and Alena, Partners Card Style\nHelga, Skittish Seer Card Style\nOracle of the Alpha Card Style\nThalia and The Gitrog Monster Card Style",
+        "translation": "Sliver Weftwinder Card Style\nAlesha, Who Laughs at Fate Card Style\nRin and Seri, Inseparable Card Style\nThe Necrobloom Card Style\nArcades, the Strategist Card Style\nBaylen, the Haymaker Card Style\nSythis, Harvest's Hand Card Style\nKinnan, Bonder Prodigy Card Style\nElspeth, Storm Slayer Card Style\nSami, Wildcat Captain Card Style\nGo-Shintai of Life's Origin Card Style\nMuldrotha, the Gravetide Card Style\nUrza, Lord High Artificer Card Style\nLaughing Jasper Flint Card Style\nMythweaver Poq Card Style\nAnim Pakal, Thousandth Moon Card Style\nHalana and Alena, Partners Card Style\nHelga, Skittish Seer Card Style\nOracle of the Alpha Card Style\nThalia and The Gitrog Monster Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_56_0_Elemental_Brawl2_Name": {
+        "oracleText": "Elemental Frame Brawlers II",
+        "translation": "Elemental Frame Brawlers II"
+    },
+    "MainNav/Store/Bundles/Bundle_56_0_Elemental_BrawlLands_Desc": {
+        "oracleText": "Command Tower Card Style\nFabled Passage Card Style\nCavern of Souls Card Style\nNykthos, Shrine to Nyx Card Style\nField of Ruin Card Style\nMana Confluence Card Style",
+        "translation": "Command Tower Card Style\nFabled Passage Card Style\nCavern of Souls Card Style\nNykthos, Shrine to Nyx Card Style\nField of Ruin Card Style\nMana Confluence Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_56_0_Elemental_BrawlLands_Name": {
+        "oracleText": "Elemental Frame Lands",
+        "translation": "Elemental Frame Lands"
+    },
+    "MainNav/Store/Bundles/Bundle_56_0_Elemental_Gainlands_Desc": {
+        "oracleText": "Bloodfell Caves Card Style\nBlossoming Sands Card Style \nDismal Backwater Card Style\nJungle Hollow Card Style\nRugged Highlands Card Style\nScoured Barrens Card Style\nSwiftwater Cliffs Card Style\nThornwood Falls Card Style\nTranquil Cove Card Style\nWind-Scarred Crag Card Style",
+        "translation": "Bloodfell Caves Card Style\nBlossoming Sands Card Style \nDismal Backwater Card Style\nJungle Hollow Card Style\nRugged Highlands Card Style\nScoured Barrens Card Style\nSwiftwater Cliffs Card Style\nThornwood Falls Card Style\nTranquil Cove Card Style\nWind-Scarred Crag Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_56_0_Elemental_Gainlands_Name": {
+        "oracleText": "Elemental Frame Gain Lands",
+        "translation": "Elemental Frame Gain Lands"
+    },
+    "MainNav/Store/Bundles/Bundle_56_0_Elemental_Painlands_Desc": {
+        "oracleText": "Adarkar Wastes Card Style\nBattlefield Forge Card Style\nBrushland Card Style\nCaves of Koilos Card Style\nKarplusan Forest Card Style\nLlanowar Wastes Card Style\nShivan Reef Card Style\nSulfurous Springs Card Style\nUnderground River Card Style\nYavimaya Coast Card Style",
+        "translation": "Adarkar Wastes Card Style\nBattlefield Forge Card Style\nBrushland Card Style\nCaves of Koilos Card Style\nKarplusan Forest Card Style\nLlanowar Wastes Card Style\nShivan Reef Card Style\nSulfurous Springs Card Style\nUnderground River Card Style\nYavimaya Coast Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_56_0_Elemental_Painlands_Name": {
+        "oracleText": "Elemental Frame Pain Lands",
+        "translation": "Elemental Frame Pain Lands"
+    },
+    "MainNav/Store/Bundles/Bundle_56_0_Elemental_Shocklands_Desc": {
+        "oracleText": "Blood Crypt Card Style\nBreeding Pool Card Style\nGodless Shrine Card Style\nHallowed Fountain Card Style\nOvergrown Tomb Card Style\nSacred Foundry Card Style\nSteam Vents Card Style\nStomping Ground Card Style\nTemple Garden Card Style\nWatery Grave Card Style",
+        "translation": "Blood Crypt Card Style\nBreeding Pool Card Style\nGodless Shrine Card Style\nHallowed Fountain Card Style\nOvergrown Tomb Card Style\nSacred Foundry Card Style\nSteam Vents Card Style\nStomping Ground Card Style\nTemple Garden Card Style\nWatery Grave Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_56_0_Elemental_Shocklands_Name": {
+        "oracleText": "Elemental Frame Shock Lands",
+        "translation": "Elemental Frame Shock Lands"
+    },
     "MainNav/Store/Bundles/Bundle_AA1_DA1_Desc": {
         "oracleText": "Sword of Feast and Famine Card Style\nSword of Light and Shadow Card Style\nSword of Truth and Justice Card Style\nSword of War and Peace Card Style\nDarksteel Plate Card Style \nChampion's Helm Card Style",
         "translation": "丰馑剑卡牌样式\n天冥剑卡牌样式\n诚理剑卡牌样式\n战宁剑卡牌样式\n玄铁护甲卡牌样式\n斗士头盔卡牌样式"
@@ -61918,6 +62042,14 @@
     "MainNav/Store/Bundles/Bundle_Alchemist_Desc": {
         "oracleText": "20x <i>Alchemy: Innistrad</i> Boosters",
         "translation": "20包「炼金：依尼翠」"
+    },
+    "MainNav/Store/Bundles/Bundle_Alchemist_ECL_Desc": {
+        "oracleText": "20x <i>Alchemy: Lorwyn</i> Boosters",
+        "translation": "20x <i>Alchemy: Lorwyn</i> Boosters"
+    },
+    "MainNav/Store/Bundles/Bundle_Alchemist_ECL_Name": {
+        "oracleText": "Alchemist Bundle",
+        "translation": "Alchemist Bundle"
     },
     "MainNav/Store/Bundles/Bundle_Alchemist_EOE_Desc": {
         "oracleText": "20x <i>Alchemy: Edge of Eternities</i> Boosters",
@@ -62938,6 +63070,14 @@
     "MainNav/Store/Bundles/Bundle_ECL_BEDTIME_SPELLS_Name": {
         "oracleText": "Fabled Stories",
         "translation": "寓言故事"
+    },
+    "MainNav/Store/Bundles/Bundle_ECL_Companion_Desc": {
+        "oracleText": "Ravenous Changeling Companion\nMutable Explorer Sleeve",
+        "translation": "Ravenous Changeling Companion\nMutable Explorer Sleeve"
+    },
+    "MainNav/Store/Bundles/Bundle_ECL_Companion_Name": {
+        "oracleText": "Companion Bundle",
+        "translation": "Companion Bundle"
     },
     "MainNav/Store/Bundles/Bundle_ECL_FF_Elementals_Desc": {
         "oracleText": "Catharsis Card Style\nDeceit Card Style\nEmptiness Card Style\nVibrance Card Style\nWistfulness Card Style",
@@ -64078,6 +64218,14 @@
     "MainNav/Store/Bundles/Bundle_LCI_Stickers_Name": {
         "oracleText": "The Lost Caverns of Ixalan Sticker Bundle",
         "translation": "依夏兰迷窟贴纸表情套装"
+    },
+    "MainNav/Store/Bundles/Bundle_LOR_Lands_Desc": {
+        "oracleText": "Basic Land Plains (4 apperances)\nBasic Land Island (4 apperances)\nBasic Land Swamp (4 apperances)\nBasic Land Mountain (4 apperances)\nBasic Land Forest (4 apperances)",
+        "translation": "Basic Land Plains (4 apperances)\nBasic Land Island (4 apperances)\nBasic Land Swamp (4 apperances)\nBasic Land Mountain (4 apperances)\nBasic Land Forest (4 apperances)"
+    },
+    "MainNav/Store/Bundles/Bundle_LOR_Lands_Name": {
+        "oracleText": "<i>Lorwyn</i> Basic Lands",
+        "translation": "<i>Lorwyn</i> Basic Lands"
     },
     "MainNav/Store/Bundles/Bundle_LTR_Boromir_Desc": {
         "oracleText": "Boromir Avatar\nThe Shield of Gondor Sleeve",
@@ -65462,6 +65610,14 @@
     "MainNav/Store/Bundles/Bundle_S25_TDM_Wastes_Name": {
         "oracleText": "Dragon's Eye Full Art Wastes",
         "translation": "龙目大画荒野"
+    },
+    "MainNav/Store/Bundles/Bundle_SHM_Lands_Desc": {
+        "oracleText": "Basic Land Plains (4 apperances)\nBasic Land Island (4 apperances)\nBasic Land Swamp (4 apperances)\nBasic Land Mountain (4 apperances)\nBasic Land Forest (4 apperances)",
+        "translation": "Basic Land Plains (4 apperances)\nBasic Land Island (4 apperances)\nBasic Land Swamp (4 apperances)\nBasic Land Mountain (4 apperances)\nBasic Land Forest (4 apperances)"
+    },
+    "MainNav/Store/Bundles/Bundle_SHM_Lands_Name": {
+        "oracleText": "<i>Shadowmoor</i> Basic Lands",
+        "translation": "<i>Shadowmoor</i> Basic Lands"
     },
     "MainNav/Store/Bundles/Bundle_SIR_Avatars_Desc": {
         "oracleText": "Nahiri, Heir of the Ancients Avatar\nSorin Markov Avatar\nGarruk, Cursed Huntsman Avatar\nTamiyo, Collector of Tales Avatar",
@@ -67314,6 +67470,38 @@
     "MainNav/Store/Bundles/Bundle_Y25TDM_DA5_Name": {
         "oracleText": "Alchemy Styles: Song of the Temur",
         "translation": "炼金样式：铁木尔之歌"
+    },
+    "MainNav/Store/Bundles/Bundle_Y26ECL_DA1_Desc": {
+        "oracleText": "Salacinder and Soot, Rascals Card Style\nReflective Rimekin Card Style\nTend to the Kiln Card Style\nAquatic Subtlety Card Style\nCurrent Curriculum Card Style\nPreponderant Pearl Card Style\nLimitless Rekindling Card Style",
+        "translation": "Salacinder and Soot, Rascals Card Style\nReflective Rimekin Card Style\nTend to the Kiln Card Style\nAquatic Subtlety Card Style\nCurrent Curriculum Card Style\nPreponderant Pearl Card Style\nLimitless Rekindling Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y26ECL_DA1_Name": {
+        "oracleText": "Magical Mischief",
+        "translation": "Magical Mischief"
+    },
+    "MainNav/Store/Bundles/Bundle_Y26ECL_DA2_Desc": {
+        "oracleText": "Echoing Cavern Card Style\nAdaptive Armorer Card Style\nWildgrove Summoner Card Style\nKithkin Brinefarer Card Style\nThoughtweft's Call Card Style\nTopsoil Turner Card Style\nThoughtsteal Sprites Card Style\nAdherent's Heirloom Card Style",
+        "translation": "Echoing Cavern Card Style\nAdaptive Armorer Card Style\nWildgrove Summoner Card Style\nKithkin Brinefarer Card Style\nThoughtweft's Call Card Style\nTopsoil Turner Card Style\nThoughtsteal Sprites Card Style\nAdherent's Heirloom Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y26ECL_DA2_Name": {
+        "oracleText": "Wild Wanderings",
+        "translation": "Wild Wanderings"
+    },
+    "MainNav/Store/Bundles/Bundle_Y26ECL_DA3_Desc": {
+        "oracleText": "Perennial Gravewarden Card Style\nBlighted Nightmare Card Style\nElvish Elegy Card Style\nGilt-Leaf Alchemist Card Style\nCraterous Stomp Card Style\nPutrid Hexhag Card Style\nThorna and Twigtooth Card Style\nInfestation Card Style",
+        "translation": "Perennial Gravewarden Card Style\nBlighted Nightmare Card Style\nElvish Elegy Card Style\nGilt-Leaf Alchemist Card Style\nCraterous Stomp Card Style\nPutrid Hexhag Card Style\nThorna and Twigtooth Card Style\nInfestation Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y26ECL_DA3_Name": {
+        "oracleText": "Night Blight",
+        "translation": "Night Blight"
+    },
+    "MainNav/Store/Bundles/Bundle_Y26ECL_DA4_Desc": {
+        "oracleText": "Circadian Struggle Card Style\nPep, Raucous Raider Card Style\nOpulent Clomper Card Style\nThe Grand Goatnapper Card Style\nVolatile Rift Card Style\nOura, the Imitator Card Style\nProvidence of Night Card Style",
+        "translation": "Circadian Struggle Card Style\nPep, Raucous Raider Card Style\nOpulent Clomper Card Style\nThe Grand Goatnapper Card Style\nVolatile Rift Card Style\nOura, the Imitator Card Style\nProvidence of Night Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_Y26ECL_DA4_Name": {
+        "oracleText": "All That Glitters",
+        "translation": "All That Glitters"
     },
     "MainNav/Store/Bundles/Bundle_YargleDay_Desc": {
         "oracleText": "Opt Card Style\nFatal Push Card Style\nSwords to Plowshares Card Style\nAnger of the Gods Card Style\nExplore Card Style",
@@ -69475,6 +69663,10 @@
         "oracleText": "Charity Item**",
         "translation": "慈善项目**"
     },
+    "MainNav/Store/Tags/ClassicArtwork": {
+        "oracleText": "Classic Artwork!",
+        "translation": "Classic Artwork!"
+    },
     "MainNav/Store/Tags/DecemberOnly": {
         "oracleText": "December Only",
         "translation": "十一月限定"
@@ -71575,9 +71767,73 @@
         "oracleText": "When you can't decide which spell to cast, the play that lets you spend as much of your available mana as possible is generally better.",
         "translation": "当你举棋不定，不知道要施放哪个咒语时，不妨先考虑能够用尽你所有法术力的方案，通常收效较佳。"
     },
+    "Match/QueueTips/Queue_Tip_341_Y26ECL_PoemStanza1": {
+        "oracleText": "I dared to ask answers.\nI dared to seek questions.\nTo fill the vessel\nthe vessel must shatter.\n– The Listener's Lament",
+        "translation": "I dared to ask answers.\nI dared to seek questions.\nTo fill the vessel\nthe vessel must shatter.\n– The Listener's Lament"
+    },
+    "Match/QueueTips/Queue_Tip_342_Y26ECL_PoemStanza2": {
+        "oracleText": "I have seen beyond the moonlight\nI have seen the infinite night\nIt does not creep\nIt has no need\nIt is already here\nIt is already here\n– The Listener's Lament",
+        "translation": "I have seen beyond the moonlight\nI have seen the infinite night\nIt does not creep\nIt has no need\nIt is already here\nIt is already here\n– The Listener's Lament"
+    },
+    "Match/QueueTips/Queue_Tip_343_Y26ECL_PoemStanza3": {
+        "oracleText": "It will come to you in color\nin brightest dreams\nevery rainbow ever seen\n– The Listener's Lament",
+        "translation": "It will come to you in color\nin brightest dreams\nevery rainbow ever seen\n– The Listener's Lament"
+    },
+    "Match/QueueTips/Queue_Tip_344_Y26ECL_PoemStanza4": {
+        "oracleText": "For we comprehend that which is,\nand cannot comprehend that which is not.\nenticing evernothingness\n– The Listener's Lament",
+        "translation": "For we comprehend that which is,\nand cannot comprehend that which is not.\nenticing evernothingness\n– The Listener's Lament"
+    },
+    "Match/QueueTips/Queue_Tip_345_ECL_PoemStanza5": {
+        "oracleText": "The shadow cannot exist without the light.\nBut without the light, the shadow is everywhere.\nhiding every pain\nevery nothing you have known\n– The Listener's Lament",
+        "translation": "The shadow cannot exist without the light.\nBut without the light, the shadow is everywhere.\nhiding every pain\nevery nothing you have known\n– The Listener's Lament"
+    },
+    "Match/QueueTips/Queue_Tip_346_ECL_PoemStanza6": {
+        "oracleText": "Heed me\nCan you even hear me\nA divinity and a dominus,\na deity and a nobilis,\nand an overbeing in harmony.\nDoes it choke the words from me?\n– The Listener's Lament",
+        "translation": "Heed me\nCan you even hear me\nA divinity and a dominus,\na deity and a nobilis,\nand an overbeing in harmony.\nDoes it choke the words from me?\n– The Listener's Lament"
+    },
+    "Match/QueueTips/Queue_Tip_347_ECL_PoemStanza7": {
+        "oracleText": "A choir.\nI hear it now\nAn opera without lyrics.\nWhispers.\nA ballad without notes.\n– The Listener's Lament",
+        "translation": "A choir.\nI hear it now\nAn opera without lyrics.\nWhispers.\nA ballad without notes.\n– The Listener's Lament"
+    },
+    "Match/QueueTips/Queue_Tip_348_ECL_PoemStanza8": {
+        "oracleText": "It Whispers.\nI knew the words.\nMy Whispers.\nAnd sang the song.\nOur whispers,\nOur whispers.\n– The Listener's Lament",
+        "translation": "It Whispers.\nI knew the words.\nMy Whispers.\nAnd sang the song.\nOur whispers,\nOur whispers.\n– The Listener's Lament"
+    },
+    "Match/QueueTips/Queue_Tip_349_ECL_PoemStanza9": {
+        "oracleText": "If a lie is an absence of the truth,\nbut the truth is there is no truth,\nthen all is a lie, which is the truth.\n– The Listener's Lament",
+        "translation": "If a lie is an absence of the truth,\nbut the truth is there is no truth,\nthen all is a lie, which is the truth.\n– The Listener's Lament"
+    },
     "Match/QueueTips/Queue_Tip_35": {
         "oracleText": "Your life total is a resource, so don't be afraid to spend it! Winning at one life counts the same as winning at 20 life.",
         "translation": "你的总生命也是一种资源，能派上用场时请不要吝惜！获胜时还剩1点生命和还剩20点生命并没有区别。"
+    },
+    "Match/QueueTips/Queue_Tip_350_ECL_PoemStanza10": {
+        "oracleText": "Has it been seconds or years?\nDream with me\nPerhaps eons and eternities.\nIt does not matter.\nBeyond the dusk.\nBeyond the moonlight.\nBeyond the darkness.\n– The Listener's Lament",
+        "translation": "Has it been seconds or years?\nDream with me\nPerhaps eons and eternities.\nIt does not matter.\nBeyond the dusk.\nBeyond the moonlight.\nBeyond the darkness.\n– The Listener's Lament"
+    },
+    "Match/QueueTips/Queue_Tip_351_ECL_PoemStanza11": {
+        "oracleText": "Because everything matters.\nBecause nothing matters.\nNight is risen\nNight has always been\nNight will always be\n– The Listener's Lament",
+        "translation": "Because everything matters.\nBecause nothing matters.\nNight is risen\nNight has always been\nNight will always be\n– The Listener's Lament"
+    },
+    "Match/QueueTips/Queue_Tip_352_ECL_PoemStanza12": {
+        "oracleText": "I scream.\nI found my questions.\nI lost my answers.\n– The Listener's Lament",
+        "translation": "I scream.\nI found my questions.\nI lost my answers.\n– The Listener's Lament"
+    },
+    "Match/QueueTips/Queue_Tip_353_ECL_PoemStanza13": {
+        "oracleText": "I rise, an abomination.\nConsume with me\nThat burning smoke\nThat blackest smoke\nThat embrace of hers\nReality is fiction, a nightmare's dream.\n– The Listener's Lament",
+        "translation": "I rise, an abomination.\nConsume with me\nThat burning smoke\nThat blackest smoke\nThat embrace of hers\nReality is fiction, a nightmare's dream.\n– The Listener's Lament"
+    },
+    "Match/QueueTips/Queue_Tip_354_ECL_PoemStanza14": {
+        "oracleText": "The seer knows all.\nLurking\nThe seer knows nothing.\nEver present\nTo understand everything\nis to understand nothing.\n– The Listener's Lament",
+        "translation": "The seer knows all.\nLurking\nThe seer knows nothing.\nEver present\nTo understand everything\nis to understand nothing.\n– The Listener's Lament"
+    },
+    "Match/QueueTips/Queue_Tip_355_ECL_PoemStanza15": {
+        "oracleText": "Inescapable\nI weep.\nOblivion\nI rejoice.\nTo become everything\nis to become nothing.\n– The Listener's Lament",
+        "translation": "Inescapable\nI weep.\nOblivion\nI rejoice.\nTo become everything\nis to become nothing.\n– The Listener's Lament"
+    },
+    "Match/QueueTips/Queue_Tip_356_ECL_PoemStanza16": {
+        "oracleText": "Finally I understand.\nI am hers\nI am hers\nI am hers\n– The Listener's Lament",
+        "translation": "Finally I understand.\nI am hers\nI am hers\nI am hers\n– The Listener's Lament"
     },
     "Match/QueueTips/Queue_Tip_36": {
         "oracleText": "When you spend less mana to answer a threat than it cost, you have gained an important mana advantage.",
