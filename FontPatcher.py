@@ -29,7 +29,7 @@ WINDOWS_MATERIAL_RULES: dict[str:list] = {
     '{0}/resources.assets'.format(Config.WINDOWS_DATA_DIR): [
         'Font_Title - DropShadow', 'Font_Title_JP - DropShadow', 'Font_Default - DropShadow'
     ],
-    '{0}/Downloads/AssetBundle/Bucket_Card.FontMaterialSettings_0_6c4b3bfb-05815236c4d85f597ae88d6fa09af06d.mtga'.format(
+    '{0}/Downloads/AssetBundle/Bucket_Card.FontMaterialSettings_0_af426a0e-9d6ef5a5c7aa479615e16945dbaca757.mtga'.format(
         Config.WINDOWS_DATA_DIR): [
             'Font_Title - DropShadow', 'Font_Title_JP - DropShadow'
     ],
@@ -58,7 +58,7 @@ MACOS_MATERIAL_RULES: dict[str:list] = {
     '{0}/resources.assets'.format(Config.MACOS_RES_DIR): [
         'Font_Title - DropShadow', 'Font_Title_JP - DropShadow', 'Font_Default - DropShadow'
     ],
-    '{0}/Downloads/AssetBundle/Bucket_Card.FontMaterialSettings_0_45af4e8b-05815236c4d85f597ae88d6fa09af06d.mtga'.format(
+    '{0}/Downloads/AssetBundle/Bucket_Card.FontMaterialSettings_0_98a32e90-9d6ef5a5c7aa479615e16945dbaca757.mtga'.format(
         Config.MACOS_DATA_DIR): [
             'Font_Title - DropShadow', 'Font_Title_JP - DropShadow'
     ],
@@ -101,7 +101,7 @@ ANDROID_MATERIAL_RULES: dict[str:list] = {
     '{0}/351f23bf48c7814428089374c54eefa9'.format(Config.ANDROID_DATA_DIR): [
         'Font_Default - DropShadow'
     ],
-    '{0}/AssetBundle/Bucket_Card.FontMaterialSettings_0_ebdc6064-05815236c4d85f597ae88d6fa09af06d.mtga'.format(
+    '{0}/AssetBundle/Bucket_Card.FontMaterialSettings_0_8a03ed1a-9d6ef5a5c7aa479615e16945dbaca757.mtga'.format(
         Config.ANDROID_DATA_DIR): [
             'Font_Title - DropShadow', 'Font_Title_JP - DropShadow'
     ],
