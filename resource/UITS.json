@@ -1783,6 +1783,14 @@
         "oracleText": "During your turn, you may pay <sprite=\"SpriteSheet_ManaIcons\" name=\"x2\"> and exile this card from your hand face down. Cast it on a later turn for its foretell cost.",
         "translation": "于你的回合中，你可以支付<sprite=\"SpriteSheet_ManaIcons\" name=\"x2\"> 并将此牌从手上牌面朝下地放逐，在之后的回合你可以施放它并须改为支付其预示费用。"
     },
+    "AbilityHanger/Keyword/Foretold_Body": {
+        "oracleText": "Your opponent may cast this spell on their turn for its foretell cost.",
+        "translation": "Your opponent may cast this spell on their turn for its foretell cost."
+    },
+    "AbilityHanger/Keyword/Foretold_Title": {
+        "oracleText": "Foretold",
+        "translation": "Foretold"
+    },
     "AbilityHanger/Keyword/HarmonizeN_Body": {
         "oracleText": "You may cast this card from your graveyard for {abilityCost}. You may tap a creature you control to reduce that cost by oX, where X is that creature's power. Then exile this spell.",
         "translation": "你可以从你坟墓场中施放此牌，并支付{abilityCost}。你可以横置一个由你操控的生物来将该费用减少oX，X为该生物的力量。然后放逐此咒语。"
@@ -8978,6 +8986,10 @@
     "Credits/Role/SoftwareQualityAnalysis": {
         "oracleText": "Software QA Analyst",
         "translation": "软件质量检查分析师"
+    },
+    "Credits/Role/TechnicalArtist": {
+        "oracleText": "Technical Artist",
+        "translation": "Technical Artist"
     },
     "Credits/Role/TechnicalProductManager": {
         "oracleText": "Technical Product Manager",
@@ -21427,6 +21439,10 @@
         "oracleText": "This qualifies you for Draft Two of this event. Join from 12 p.m. - 2 p.m. PT.",
         "translation": "这使你有资格参加本次赛事的第二轮轮抽。在太平洋时间(PT)中午12点-下午2点参加。"
     },
+    "Events/Draft_2_Notice": {
+        "oracleText": "This token qualifies you for the associated Draft 2 event.",
+        "translation": "This token qualifies you for the associated Draft 2 event."
+    },
     "Events/ECL_Limited_Archetypes": {
         "oracleText": "<b>Major Archetypes</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Merfolk</b> Use a variety of tricky tapping synergies to cast your spells for cheap and disrupt your opponents.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Goblins</b> Throw boggarts at every problem! Find ways to put -1/-1 counters on your disposable Goblin forces and reap rewards.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Kithkin</b> Use the power of shared consciousness to spread abilities among Kithkin.  The more Kithkin you play, the greater your thoughtweft grows!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Elementals</b> Burn bright like a flamekin. Cast big spells to unleash seismic Elemental power!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Elves</b> Harness the cycle of nature and use your graveyard as a resource to overwhelm your opponents.\n\n<b>Secondary Archetypes</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Blight Engine</b> Assemble a well-oiled machine of value. Put -1/-1 counters on your creatures, remove them to accrue advantage, then repeat.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Blight Midrange</b> Take small creatures and turn them into powerful threats by removing their -1/-1 counters, and at the same time use their abilities to clear the path to your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Vivid Ramp</b> Play a long game with permanents of every color. Bide your time and overwhelm your opponents in the late game with powerful vivid rewards and expensive spells.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Flash and Faeries</b> Gain the upper hand with trickery. Play on your opponent's turn with flash Faeries and instants so you can be ready for anything.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Vivid Midrange</b> Deploy cheap hybrid-mana creatures early to pressure your opponent, then utilize supercharged vivid cards to get over the finish line to victory.",
         "translation": "<b>主要套牌类型</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>人鱼</b> 利用各种诡诈的横置协同效应，以低廉费用施放你的咒语并干扰对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>鬼怪</b> 用波尬解决所有问题！设法在可以牺牲的鬼怪部队上放置-1/-1指示物并获取收益。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>洁英</b> 运用共享意识的力量在洁英间传播异能。你使用的洁英越多，你的纺思就越强大！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>元素</b> 如炎身般炽烈燃烧。施放强力咒语来释放震撼大地的元素之力！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>妖精</b> 驾驭自然循环，将你的坟墓场作为资源来压制对手。\n\n<b>次要套牌类型</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>衰萎引擎</b> 组装运转顺畅的价值引擎。在你的生物上放置-1/-1指示物，通过移除它们积累优势，然后重复此过程。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>衰萎中速</b> 将小型生物转化为强大威胁，通过移除其-1/-1指示物，同时利用它们的异能为你扫清直面对手的道路。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>异彩加速</b> 使用各种颜色的永久物进行长线对局。耐心等待时机，在后期用强力的异彩收益和昂贵咒语击垮对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>闪现与仙灵</b> 用诡计取得优势。在对手的回合使用具闪现的仙灵和瞬间咒语，让你能应对任何情况。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>异彩中速</b> 尽早部署低廉的混血法术力生物以施压对手，随后利用强化的异彩牌张突破防线赢得胜利。"
@@ -23266,6 +23282,14 @@
     "Events/Event_Desc_ArenaDirect_WOE_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win a pair of Wilds of Eldraine Set Booster Box delivered to you.\n\nThe format for this event is 6 packs of <i>Wilds of Eldraine</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-WOE-terms-and-conditions>here</link></u> for full details.</color></b>",
         "translation": "<size=150%><color=#e1a154>为实体奖励而战！</color></size>\n\n报名参加本赛事并赢得全部6场胜利，将会邮寄给你一盒实体艾卓仙踪系列补充包。\n\n本赛事的赛制是<i>艾卓仙踪</i>BO1现开。\n\n<b><color=red>必须年满18周岁才能参加。并非在所有地区/领地都可用。禁止地区无效。领取现金奖励需要创建或拥有现有的Wizards、DCI和i-Payout账户。请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-WOE-terms-and-conditions>此处</link></u>了解完整详情。</color></b>"
+    },
+    "Events/Event_Desc_ArenaLimitedQualifier_Draft1": {
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for Draft 1 and get all 7 wins to qualify for Draft 2 where top finishers earn monetary rewards! Players may enter this event as many times as they wish, but can only qualify for the Arena Limited Championship once.\n\nThe format for this event is Draft with single-game matches. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/en-us/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-limited-championship-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for Draft 1 and get all 7 wins to qualify for Draft 2 where top finishers earn monetary rewards! Players may enter this event as many times as they wish, but can only qualify for the Arena Limited Championship once.\n\nThe format for this event is Draft with single-game matches. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/en-us/requests/new?ticket_form_id=360000419612>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-limited-championship-terms-and-conditions>here</link></u> for full details.</color></b>"
+    },
+    "Events/Event_Desc_ArenaLimitedQualifier_Draft2": {
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for Draft 2 and get all 6 wins to qualify for The Arena Limited Championship and monetary rewards! Players may enter this event as many times as they wish, but can only qualify for the Arena Limited Championship once.\n\nThe format for this event is Draft with single-game matches. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612 >here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-limited-championship-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for Draft 2 and get all 6 wins to qualify for The Arena Limited Championship and monetary rewards! Players may enter this event as many times as they wish, but can only qualify for the Arena Limited Championship once.\n\nThe format for this event is Draft with single-game matches. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612 >here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-limited-championship-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaOpen_Day1": {
         "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for this Day 1 event and get all 7 wins to qualify for Day 2 where top finishers earn monetary rewards! Players may enter Day 1 as many times as they wish, but can only enter Day 2 once even if they have qualified through Day 1 multiple times.\n\nThe format for Day 1 is Historic with single-game matches, and then Traditional Historic with best-of-three matches using sideboards for Day 2. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/requests/new?ticket_form_id=360000419612>here</link></u> to contact Game Support.\n\n<size=100%><b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions>here</link></u> for full details.</color></b></size>",
@@ -25831,6 +25855,10 @@
         "oracleText": "Bring your deck and see how high you can rank up!",
         "translation": "使用事先组好的套牌进行对战，不断提高你的段位！"
     },
+    "Events/Event_Desc_Ranked_Brawl_Modified": {
+        "oracleText": "Build a 100-card singleton deck of eternally-legal cards centered around a Legendary create or planeswalker: your Commander!\n\nThis is a competitive, Ranked event.\n\nThis event features a special ban list:\n\nOko, Thief of Crowns\nAjani, Nacatl Pariah\nRusko, Clockmaker\nOld Stickfingers\nWrenn and Six\nRagavan, Nimble Pilferer\nA-Nadu, Winged Wisdom\nLutri, the Spellchaser\nTamiyo, Inquisitive Student",
+        "translation": "Build a 100-card singleton deck of eternally-legal cards centered around a Legendary create or planeswalker: your Commander!\n\nThis is a competitive, Ranked event.\n\nThis event features a special ban list:\n\nOko, Thief of Crowns\nAjani, Nacatl Pariah\nRusko, Clockmaker\nOld Stickfingers\nWrenn and Six\nRagavan, Nimble Pilferer\nA-Nadu, Winged Wisdom\nLutri, the Spellchaser\nTamiyo, Inquisitive Student"
+    },
     "Events/Event_Desc_Ravnica_Constructed_AA": {
         "oracleText": "Collect some of your Favorite Card Style in this Block Festival! \n\nCreate a 60 card deck using only cards from the plane of Ravnica from sets <i> Guilds of Ravnica </i>, <i> Ravnica Allegiance </i>, <i>War of the Spark</i>, and <i> Murders at Karlov Manor</i>.\n\nThis event is All-Access, meaning you can even use cards outside of your collection.",
         "translation": "在这个街区节中收集一些你最喜欢的卡牌样式！\n\n仅使用拉尼卡位面的<i>烽会拉尼卡</i>、<i>效忠拉尼卡</i>、<i>火花之战</i>和<i>卡洛夫庄园谋杀案</i>系列中的卡牌创建一套 60 张卡牌。\n\n此活动是全卡活动，这意味着你甚至可以使用你收藏之外的卡牌。"
@@ -27134,6 +27162,14 @@
     "Events/Event_Title_ArenaDirect_WOE_Sealed": {
         "oracleText": "Arena Direct - Sealed Wilds of Eldraine",
         "translation": "竞技场直邮赛 - 艾卓仙踪现开"
+    },
+    "Events/Event_Title_ArenaLimitedQualifier_Draft1": {
+        "oracleText": "Arena Limited Championship Qualifier Draft One",
+        "translation": "Arena Limited Championship Qualifier Draft One"
+    },
+    "Events/Event_Title_ArenaLimitedQualifier_Draft2": {
+        "oracleText": "Arena Limited Championship Qualifier Draft Two",
+        "translation": "Arena Limited Championship Qualifier Draft Two"
     },
     "Events/Event_Title_ArenaOpen_Day1": {
         "oracleText": "The Arena Open - Day 1",
@@ -29647,6 +29683,10 @@
         "oracleText": "Ranked Draft Ravnica Allegiance",
         "translation": "排名轮抽：效忠拉尼卡"
     },
+    "Events/Event_Title_Ranked_Brawl_Modified": {
+        "oracleText": "Modified Ranked Brawl",
+        "translation": "Modified Ranked Brawl"
+    },
     "Events/Event_Title_Ranked_Renewal2022_Bo1": {
         "oracleText": "Standard 2022 Ranked",
         "translation": "标准2022天梯"
@@ -30796,8 +30836,8 @@
         "translation": "挑战 V – 白色 vs 旗鼓相当的对手"
     },
     "Events/Events/Event_Desc_MWM_ECL_Sealed": {
-        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Lorwyn Eclipsed</i> Sealed: Open six packs and add basic lands to make a 40-card deck, then play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you open are not added to your collection.</color></b>\n\n$Events/ECLLimited_Archetypes$",
-        "translation": "欢迎参加周中万智牌！MTG竞技场每周玩法花样百出，次次活动都有全新感受！\n\n本周的活动是<i>洛温：暗影笼罩</i>现开赛：打开六个卡包，再将基本地加入其中，组成40张的套牌与其他玩家对战，不限对局次数。\n\n<b><color=\"red\">这是一个幻影活动。你所开启的牌张不会添加到你的收藏当中。</color></b>\n\n$Events/ECLLimited_Archetypes$"
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Lorwyn Eclipsed</i> Sealed: Open six packs and add basic lands to make a 40-card deck, then play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you open are not added to your collection.</color></b>\n\n$/Events/ECL_Limited_Archetypes$",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Lorwyn Eclipsed</i> Sealed: Open six packs and add basic lands to make a 40-card deck, then play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you open are not added to your collection.</color></b>\n\n$/Events/ECL_Limited_Archetypes$"
     },
     "Events/Events/Event_Desc_MWM_TLA_Sealed": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Magic: The Gathering | Avatar: The Last Airbender™</i> Sealed: Open six packs and add basic lands to make a 40-card deck, then play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you open are not added to your collection.</color></b>\n\n$/Events/TLA_Limited_Archetypes$",
@@ -33642,6 +33682,14 @@
     "Events/Tokens/Token_Decathlon2023_FinalsSingular": {
         "oracleText": "{quantity} Decathlon Finals Qualification",
         "translation": "{quantity} 张十项全能决赛参赛券"
+    },
+    "Events/Tokens/Token_LimitedChampionship2026Plural": {
+        "oracleText": "2026 Arena Limited Championship Entry Token",
+        "translation": "2026 Arena Limited Championship Entry Token"
+    },
+    "Events/Tokens/Token_LimitedChampionship2026Singular": {
+        "oracleText": "2026 Arena Limited Championship Entry Token",
+        "translation": "2026 Arena Limited Championship Entry Token"
     },
     "Events/Tokens/Token_OpenDay2Draft1Plural": {
         "oracleText": "Open Day 2 Draft One",
@@ -42791,6 +42839,14 @@
         "oracleText": "Aang and La, Ocean's Fury Sleeve",
         "translation": "海洋之怒安昂与拉牌套"
     },
+    "MainNav/DeckBuilder/Sleeves/CardBack_TMT_456054": {
+        "oracleText": "Raph & Leo Sleeve",
+        "translation": "Raph & Leo Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_TMT_456057": {
+        "oracleText": "Mikey & Donnie Sleeve",
+        "translation": "Mikey & Donnie Sleeve"
+    },
     "MainNav/DeckBuilder/Sleeves/CardBack_UNF_400465": {
         "oracleText": "Spike, Tournament Grinder Sleeve",
         "translation": "*竞技牌手史派克*牌套"
@@ -43498,6 +43554,10 @@
     "MainNav/DeckFormat/HistoricBrawlWithAllowList_20260210_MWM": {
         "oracleText": "Brawl Builder Challenge",
         "translation": "争锋构筑挑战赛"
+    },
+    "MainNav/DeckFormat/HistoricBrawlWithAllowList_20260217_Challenge": {
+        "oracleText": "Brawl Builder Challenge",
+        "translation": "Brawl Builder Challenge"
     },
     "MainNav/DeckFormat/HistoricNBL": {
         "oracleText": "No-Ban Historic",
@@ -44907,6 +44967,10 @@
         "oracleText": "$2,500 USD",
         "translation": "两千五百美元"
     },
+    "MainNav/EventRewards/Cash_and_Qualifier": {
+        "oracleText": "$2,000 USD and Arena Limited Championship Qualifier Token",
+        "translation": "$2,000 USD and Arena Limited Championship Qualifier Token"
+    },
     "MainNav/EventRewards/Claim_Prizes": {
         "oracleText": "Claim Prizes",
         "translation": "领取奖品"
@@ -45118,6 +45182,10 @@
     "MainNav/EventRewards/DoomBlade": {
         "oracleText": "Doom Blade",
         "translation": "送终刀锋"
+    },
+    "MainNav/EventRewards/Draft2": {
+        "oracleText": "5500 Gems and Qualify for Draft 2",
+        "translation": "5500 Gems and Qualify for Draft 2"
     },
     "MainNav/EventRewards/DraftToken_and_Packs": {
         "oracleText": "{number1} Player Draft Token & {number2} Packs",
@@ -45331,9 +45399,21 @@
         "oracleText": "{number1} Gems & 1 Pack",
         "translation": "{number1}颗宝石和1包补充包"
     },
+    "MainNav/EventRewards/Gems_And_Pack_And_PrizePack": {
+        "oracleText": "{number1} Gems & {number2} Cube Prize Pack & {number3} Pack",
+        "translation": "{number1} Gems & {number2} Cube Prize Pack & {number3} Pack"
+    },
+    "MainNav/EventRewards/Gems_And_Pack_And_PrizePacks": {
+        "oracleText": "{number1} Gems & {number2} Cube Prize Packs & {number3} Pack",
+        "translation": "{number1} Gems & {number2} Cube Prize Packs & {number3} Pack"
+    },
     "MainNav/EventRewards/Gems_And_Packs": {
         "oracleText": "{number1} Gems & {number2} Packs",
         "translation": "{number1}颗宝石和{number2}包补充包"
+    },
+    "MainNav/EventRewards/Gems_And_Packs_And_PrizePack": {
+        "oracleText": "{number1} Gems & {number2} Cube Prize Pack & {number3} Packs",
+        "translation": "{number1} Gems & {number2} Cube Prize Pack & {number3} Packs"
     },
     "MainNav/EventRewards/Gems_And_Packs_And_PrizePacks": {
         "oracleText": "{number1} Gems & {number2} Cube Prize Packs & {number3} Packs",
@@ -48002,6 +48082,34 @@
     "MainNav/HomePage/Carousel/2026_56_0_Y26ECL_Store_Title": {
         "oracleText": "There's More in the Store!",
         "translation": "商店里还有更多优惠！"
+    },
+    "MainNav/HomePage/Carousel/2026_56_10_TMT_PhysPreRelease_Title": {
+        "oracleText": "Your first opportunity to play Magic: The Gathering® | Teenage Mutant Ninja Turtles!",
+        "translation": "Your first opportunity to play Magic: The Gathering® | Teenage Mutant Ninja Turtles!"
+    },
+    "MainNav/HomePage/Carousel/2026_56_10_TMT_PreOrders_Desc": {
+        "oracleText": "There's some totally tubular Pre-orders in the Store! Go check ‘em out!",
+        "translation": "There's some totally tubular Pre-orders in the Store! Go check ‘em out!"
+    },
+    "MainNav/HomePage/Carousel/2026_56_10_TMT_PreOrders_Title": {
+        "oracleText": "Magic: The Gathering® | Teenage Mutant Ninja Turtles Pre-orders!",
+        "translation": "Magic: The Gathering® | Teenage Mutant Ninja Turtles Pre-orders!"
+    },
+    "MainNav/HomePage/Carousel/2026_56_10_TMT_Previews_Desc": {
+        "oracleText": "Take a look at these gnarly cards coming to Arena!",
+        "translation": "Take a look at these gnarly cards coming to Arena!"
+    },
+    "MainNav/HomePage/Carousel/2026_56_10_TMT_Previews_Title": {
+        "oracleText": "Magic: The Gathering® | Teenage Mutant Ninja Turtles Previews!",
+        "translation": "Magic: The Gathering® | Teenage Mutant Ninja Turtles Previews!"
+    },
+    "MainNav/HomePage/Carousel/2026_57_0_OrganizedPlay_TMT_Desc": {
+        "oracleText": "Prizes, Pro Tour Invites, and more are up for grabs in Richmond, Virginia USA. Click to learn more!",
+        "translation": "Prizes, Pro Tour Invites, and more are up for grabs in Richmond, Virginia USA. Click to learn more!"
+    },
+    "MainNav/HomePage/Carousel/2026_57_0_OrganizedPlay_TMT_Title": {
+        "oracleText": "Magic Spotlight: TMNT - Open Tournament",
+        "translation": "Magic Spotlight: TMNT - Open Tournament"
     },
     "MainNav/HomePage/Carousel/21_01_Store_Desc": {
         "oracleText": "Take part in the epic Saga of Kaldheim. New Boosters Packs, new Set Mastery Pass, new Showcase Bundles, and more!",
@@ -55747,6 +55855,14 @@
         "oracleText": "Momo",
         "translation": "模模"
     },
+    "MainNav/PetNames/TMT_Preorder_1": {
+        "oracleText": "Splinter",
+        "translation": "Splinter"
+    },
+    "MainNav/PetNames/TMT_Preorder_Companion_1": {
+        "oracleText": "Splinter",
+        "translation": "Splinter"
+    },
     "MainNav/PetNames/Thopter": {
         "oracleText": "Thopter",
         "translation": "振翼机"
@@ -59818,6 +59934,18 @@
     "MainNav/Rewards/ICRBonusAdditionalPlural": {
         "oracleText": "You have been granted bonus Alchemy cards.",
         "translation": "你已获得额外的炼金卡牌。"
+    },
+    "MainNav/Rewards/LimitedQualiferTokenHeaderPlural": {
+        "oracleText": "Arena Limited Championship Qualifier Draft 2 Token",
+        "translation": "Arena Limited Championship Qualifier Draft 2 Token"
+    },
+    "MainNav/Rewards/LimitedQualiferTokenHeaderSingular": {
+        "oracleText": "Arena Limited Championship Qualifier Draft 2 Token",
+        "translation": "Arena Limited Championship Qualifier Draft 2 Token"
+    },
+    "MainNav/Rewards/LimitedQualifierTokenDescription": {
+        "oracleText": "Join and compete in Arena Limited Championship Qualifier Draft 2!",
+        "translation": "Join and compete in Arena Limited Championship Qualifier Draft 2!"
     },
     "MainNav/Rewards/MythicQualifier_Button_MoreInfo": {
         "oracleText": "Event details available online",
@@ -67584,12 +67712,12 @@
         "translation": "解锁灵能蛙的新篇藏身处，用票购买摩登新篇3补充包、头像、牌套等！"
     },
     "MainNav/Store/Bundles/PreOrder_AvailableDate": {
-        "oracleText": "Available on January 20, 2026",
-        "translation": "2026年1月20日上市"
+        "oracleText": "Available on March 3, 2026",
+        "translation": "Available on March 3, 2026"
     },
     "MainNav/Store/Bundles/PreOrder_Available_Purchasable": {
-        "oracleText": "Available for purchase until January 20, 2026",
-        "translation": "2026年1月20日前可供购买"
+        "oracleText": "Available for purchase until March 3, 2026",
+        "translation": "Available for purchase until March 3, 2026"
     },
     "MainNav/Store/Bundles/PrizeWall_BLBMastery_Sorin_Desc": {
         "oracleText": "4x Sorin Markov",
@@ -67714,6 +67842,14 @@
     "MainNav/Store/Bundles/mtga_preorder_ECL_play_Desc": {
         "oracleText": "Pre-order <i>Lorwyn Eclipsed</i> today and receive the following items on January 20, 2026:\n\n4 Player Draft Tokens\n2 Sealed Token\n20 Play-In Points\n1x Oko, Lorwyn Liege Card\nOko, Lorwyn Liege Card Style\n\nWhen purchased, you will immediately receive the Oko, Lorwyn Liege Sleeve and the Ravenous Changeling Companion.",
         "translation": "即日预购<i>洛温：暗影笼罩</i>，便可于2026年1月20日获得以下物品：\n\n4张真人轮抽门票  \n2张现开门票  \n20点参赛积分  \n1张洛温王侯瓯柯卡牌  \n洛温王侯瓯柯卡牌样式  \n\n完成购买后，便会立刻获得洛温王侯瓯柯牌套和贪婪化形宠物。"
+    },
+    "MainNav/Store/Bundles/mtga_preorder_TMT_pack_Desc": {
+        "oracleText": "Pre-order <i>Teenage Mutant Ninja Turtles</i> today and receive the following items on March 3, 2026:\n\n45 <i>Teenage Mutant Ninja Turtles</i> Boosters\n5 <i>Teenage Mutant Ninja Turtles</i> Mythic Boosters\n5 Golden Boosters\n1 Raphael, Ninja Destroyer Card\n1 Leonardo, Sewer Samurai Card\nRaphael, Ninja Destroyer Card Style\nLeonardo, Sewer Samurai Card Style\n\nWhen purchased, you will immediately receive the Raph & Leo Sleeve.\n\n©2026 Viacom International Inc.",
+        "translation": "Pre-order <i>Teenage Mutant Ninja Turtles</i> today and receive the following items on March 3, 2026:\n\n45 <i>Teenage Mutant Ninja Turtles</i> Boosters\n5 <i>Teenage Mutant Ninja Turtles</i> Mythic Boosters\n5 Golden Boosters\n1 Raphael, Ninja Destroyer Card\n1 Leonardo, Sewer Samurai Card\nRaphael, Ninja Destroyer Card Style\nLeonardo, Sewer Samurai Card Style\n\nWhen purchased, you will immediately receive the Raph & Leo Sleeve.\n\n©2026 Viacom International Inc."
+    },
+    "MainNav/Store/Bundles/mtga_preorder_TMT_play_Desc": {
+        "oracleText": "Pre-order <i>Teenage Mutant Ninja Turtles</i> today and receive the following items on March 3, 2026:\n\n4 Player Draft Tokens\n2 Sealed Token\n20 Play-In Points\n1 Michelangelo, Improviser Card\n1 Donatello, Mutant Mechanic Card\nMichelangelo, Improviser Card Style\nDonatello, Mutant Mechanic Card Style\n\nWhen purchased, you will immediately receive the Mikey & Donnie Sleeve and the Splinter Companion.\n\n©2026 Viacom International Inc.",
+        "translation": "Pre-order <i>Teenage Mutant Ninja Turtles</i> today and receive the following items on March 3, 2026:\n\n4 Player Draft Tokens\n2 Sealed Token\n20 Play-In Points\n1 Michelangelo, Improviser Card\n1 Donatello, Mutant Mechanic Card\nMichelangelo, Improviser Card Style\nDonatello, Mutant Mechanic Card Style\n\nWhen purchased, you will immediately receive the Mikey & Donnie Sleeve and the Splinter Companion.\n\n©2026 Viacom International Inc."
     },
     "MainNav/Store/Bundles/mtga_preorder_dft_pack_Desc": {
         "oracleText": "Pre-order <i>Aetherdrift</i> today and receive the following items on February 11, 2025:\n\n50 <i>Aetherdrift</i> Packs\n5 Golden Packs\n1 Chandra, Spark Hunter Card\nChandra, Spark Hunter Card Style\n\nWhen purchased, you will immediately receive the Chandra Sleeve.",
