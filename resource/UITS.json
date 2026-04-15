@@ -559,6 +559,10 @@
         "oracleText": "A player with ten or more poison counters loses the game.",
         "translation": "如果一位牌手有十个或更多的中毒指示物，则其输掉游戏。"
     },
+    "AbilityHanger/Counters/PoisonCounter_Title": {
+        "oracleText": "Poison Counter",
+        "translation": "Poison Counter"
+    },
     "AbilityHanger/Counters/ShieldCounterReference_Body": {
         "oracleText": "If a permanent with a shield counter on it would be dealt damage or destroyed, remove a shield counter from it instead.",
         "translation": "如果其上有后盾指示物的永久物将受到伤害或将被消灭，则改为从其上移去一个后盾指示物。"
@@ -1975,6 +1979,14 @@
         "oracleText": "Incorporate",
         "translation": "添补"
     },
+    "AbilityHanger/Keyword/Increment_Body": {
+        "oracleText": "Whenever you cast a spell, if the amount of mana you spent is greater than this creature's power or toughness, put a +1/+1 counter on this creature.",
+        "translation": "Whenever you cast a spell, if the amount of mana you spent is greater than this creature's power or toughness, put a +1/+1 counter on this creature."
+    },
+    "AbilityHanger/Keyword/Increment_Title": {
+        "oracleText": "Increment",
+        "translation": "Increment"
+    },
     "AbilityHanger/Keyword/Incubate1_Body": {
         "oracleText": "Create an Incubator token with a +1/+1 counter on it and \"{o2}: Transform this artifact.\" It transforms into a 0/0 Phyrexian artifact creature.",
         "translation": "派出一个上面有一个+1/+1指示物的抚育器衍生物，且具有「{o2}：转化此神器。」 它转化为0/0非瑞人神器衍生物。"
@@ -2171,6 +2183,14 @@
         "oracleText": "Mill",
         "translation": "磨"
     },
+    "AbilityHanger/Keyword/Miracle_Body": {
+        "oracleText": "You may reveal a card with miracle as it's drawn, if it's the first card you drew this turn. When you do, you may cast it for its miracle cost.",
+        "translation": "You may reveal a card with miracle as it's drawn, if it's the first card you drew this turn. When you do, you may cast it for its miracle cost."
+    },
+    "AbilityHanger/Keyword/Miracle_Title": {
+        "oracleText": "Miracle",
+        "translation": "Miracle"
+    },
     "AbilityHanger/Keyword/Mobilize_1_Body": {
         "oracleText": "Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.",
         "translation": "每当此生物攻击时，派出一个已横置且正进行攻击的1/1红色战士衍生生物。在下一个结束步骤开始时，将它牺牲。"
@@ -2251,6 +2271,14 @@
         "oracleText": "If you cast this spell for its mutate cost, put it under or over target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.",
         "translation": "如果你支付合变费用施放之，则改为将其放置在目标你拥有的非人类生物的顶上或底下，他们合变做顶上的生物，并拥有底下生物的所有异能。"
     },
+    "AbilityHanger/Keyword/Myriad_Body": {
+        "oracleText": "When a creature you control with Myriad attacks, for each opponent other than the defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat. No tokens are created in a two player game.",
+        "translation": "When a creature you control with Myriad attacks, for each opponent other than the defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat. No tokens are created in a two player game."
+    },
+    "AbilityHanger/Keyword/Myriad_Title": {
+        "oracleText": "Myriad",
+        "translation": "Myriad"
+    },
     "AbilityHanger/Keyword/Ninjutsu_Body": {
         "oracleText": "{abilityCost}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.",
         "translation": "{abilityCost}，将一个由你操控且未受阻挡的攻击生物移回其拥有者手上：将此牌从你手上横置放进战场，且正进行攻击。"
@@ -2270,6 +2298,14 @@
     "AbilityHanger/Keyword/Overload": {
         "oracleText": "You may cast this spell for its overload cost. If you do, change its text by replacing all instances of \"target\" with \"each.\"",
         "translation": "你可以支付此咒语的超载费用来施放它。如果你如此作，将其中的“目标”字样全部更改为“每个”。"
+    },
+    "AbilityHanger/Keyword/Paradigm_Body": {
+        "oracleText": "Exile this spell as it resolves. After you first resolve a spell with this name, you may cast a copy of it from exile without paying its mana cost at the beginning of each of your first main phases.",
+        "translation": "Exile this spell as it resolves. After you first resolve a spell with this name, you may cast a copy of it from exile without paying its mana cost at the beginning of each of your first main phases."
+    },
+    "AbilityHanger/Keyword/Paradigm_Title": {
+        "oracleText": "Paradigm",
+        "translation": "Paradigm"
     },
     "AbilityHanger/Keyword/Parameterized/Scavenge_Body": {
         "oracleText": "{abilityCost}, Exile this card from your graveyard: Put a number of +1/+1 counters equal to this card's power on target creature. Scavenge only as a sorcery.",
@@ -2386,6 +2422,22 @@
     "AbilityHanger/Keyword/Populate_Title": {
         "oracleText": "Populate",
         "translation": "殖民"
+    },
+    "AbilityHanger/Keyword/Prepare_Body": {
+        "oracleText": "While this is prepared, you may cast a copy of its spell. Doing so unprepares it.",
+        "translation": "While this is prepared, you may cast a copy of its spell. Doing so unprepares it."
+    },
+    "AbilityHanger/Keyword/Prepare_Title": {
+        "oracleText": "Prepare",
+        "translation": "Prepare"
+    },
+    "AbilityHanger/Keyword/Prepared_Body": {
+        "oracleText": "This is prepared, you may cast a copy of its spell. Doing so unprepares it.",
+        "translation": "This is prepared, you may cast a copy of its spell. Doing so unprepares it."
+    },
+    "AbilityHanger/Keyword/Prepared_Title": {
+        "oracleText": "Prepared",
+        "translation": "Prepared"
     },
     "AbilityHanger/Keyword/Proliferate": {
         "oracleText": "Choose any number of permanents and/or players, then give each another counter of each kind already there.",
@@ -6787,6 +6839,14 @@
         "oracleText": "{number1} <i>Through the Omenpaths</i> Mythic Card Rewards",
         "translation": "{number1}张<i>穿越预兆路</i>秘稀卡牌奖励"
     },
+    "BattlePass/Rewards/ICR_SOS_M": {
+        "oracleText": "<i>Secrets of Strixhaven</i> Mythic Card Reward",
+        "translation": "<i>Secrets of Strixhaven</i> Mythic Card Reward"
+    },
+    "BattlePass/Rewards/ICR_SOS_M_Plural": {
+        "oracleText": "{number1} <i>Secrets of Strixhaven</i> Mythic Card Rewards",
+        "translation": "{number1} <i>Secrets of Strixhaven</i> Mythic Card Rewards"
+    },
     "BattlePass/Rewards/ICR_TDM_M": {
         "oracleText": "Tarkir: Dragonstorm Mythic Card Reward",
         "translation": "鞑契龙岚录秘稀卡牌奖励"
@@ -7366,6 +7426,26 @@
     "BattlePass/Rewards/SNC_Web_Avatar_Ziatora": {
         "oracleText": "Ziatora, the Incinerator Avatar",
         "translation": "焚炎魔齐朵拉头像"
+    },
+    "BattlePass/Rewards/SOS_Companion_Hover": {
+        "oracleText": "Inquisitive Owlin: Mastery Pass Level 53",
+        "translation": "Inquisitive Owlin: Mastery Pass Level 53"
+    },
+    "BattlePass/Rewards/SOS_Level1": {
+        "oracleText": "Dellian Fell Avatar, Pompous Owlin Companion, and Biblioplex  Sleeve",
+        "translation": "Dellian Fell Avatar, Pompous Owlin Companion, and Biblioplex  Sleeve"
+    },
+    "BattlePass/Rewards/SOS_Pet2_And_Orb": {
+        "oracleText": "1 Set Mastery Orb & Brooding Owlin Companion",
+        "translation": "1 Set Mastery Orb & Brooding Owlin Companion"
+    },
+    "BattlePass/Rewards/SOS_Pet3_And_Orb": {
+        "oracleText": "1 Set Mastery Orb & Courageous Owlin Companion",
+        "translation": "1 Set Mastery Orb & Courageous Owlin Companion"
+    },
+    "BattlePass/Rewards/SOS_Pet4_And_Orb": {
+        "oracleText": "1 Set Mastery Orb & Inquisitive Owlin Companion",
+        "translation": "1 Set Mastery Orb & Inquisitive Owlin Companion"
     },
     "BattlePass/Rewards/STA_ICR": {
         "oracleText": "1 Mystical Archive Card",
@@ -9458,6 +9538,26 @@
     "Decks/Precon/Alchemy_SNC_WUB": {
         "oracleText": "Flow of Information",
         "translation": "信息流"
+    },
+    "Decks/Precon/Alchemy_SOS_MWM_BG": {
+        "oracleText": "Never Dead for Long",
+        "translation": "Never Dead for Long"
+    },
+    "Decks/Precon/Alchemy_SOS_MWM_GU": {
+        "oracleText": "X Marks the Spot",
+        "translation": "X Marks the Spot"
+    },
+    "Decks/Precon/Alchemy_SOS_MWM_RW": {
+        "oracleText": "Reassembled Relics",
+        "translation": "Reassembled Relics"
+    },
+    "Decks/Precon/Alchemy_SOS_MWM_UR": {
+        "oracleText": "Spellstorm",
+        "translation": "Spellstorm"
+    },
+    "Decks/Precon/Alchemy_SOS_MWM_WB": {
+        "oracleText": "Exalted Repartee",
+        "translation": "Exalted Repartee"
     },
     "Decks/Precon/Alchemy_TDM_MWM_Abzan": {
         "oracleText": "Abzan Counters",
@@ -11791,6 +11891,14 @@
         "oracleText": "Pirates",
         "translation": "海盗"
     },
+    "Decks/Precon/StandardIntro/2026/WBLifegain": {
+        "oracleText": "Lifegain",
+        "translation": "Lifegain"
+    },
+    "Decks/Precon/StandardIntro/2026/WUEerie": {
+        "oracleText": "Eerie",
+        "translation": "Eerie"
+    },
     "Decks/Precon/Standard_FDN_BG": {
         "oracleText": "Morbid Machinations",
         "translation": "丧心计谋"
@@ -13103,6 +13211,26 @@
         "oracleText": "Foundation Deck: Brawl Locke, Treasure Hunter",
         "translation": "基础套牌：争锋财宝猎人洛克"
     },
+    "Decks/StoreDecks/SOS/Wave20/Dina": {
+        "oracleText": "Foundation Deck: Brawl Dina, Essence Brewer",
+        "translation": "Foundation Deck: Brawl Dina, Essence Brewer"
+    },
+    "Decks/StoreDecks/SOS/Wave20/Killian": {
+        "oracleText": "Foundation Deck: Brawl Killian, Decisive Mentor",
+        "translation": "Foundation Deck: Brawl Killian, Decisive Mentor"
+    },
+    "Decks/StoreDecks/SOS/Wave20/Quintorius": {
+        "oracleText": "Foundation Deck: Brawl Quintorius, History Chaser",
+        "translation": "Foundation Deck: Brawl Quintorius, History Chaser"
+    },
+    "Decks/StoreDecks/SOS/Wave20/Rootha": {
+        "oracleText": "Foundation Deck: Brawl Rootha, Mastering the Moment",
+        "translation": "Foundation Deck: Brawl Rootha, Mastering the Moment"
+    },
+    "Decks/StoreDecks/SOS/Wave20/Zimone": {
+        "oracleText": "Foundation Deck: Brawl Zimone, Infinite Analyst",
+        "translation": "Foundation Deck: Brawl Zimone, Infinite Analyst"
+    },
     "Decks/StoreDecks/STX/Wave19/Codie": {
         "oracleText": "Foundation Deck: Brawl Codie, Vociferous Codex",
         "translation": "Foundation Deck: Brawl Codie, Vociferous Codex"
@@ -14231,6 +14359,10 @@
         "oracleText": "Select whether to pay 3 life or to enter the battlefield tapped.",
         "translation": "选择是支付3点生命还是横置进战场。"
     },
+    "DuelScene/ClientPrompt/CardAlreadyTargetOfSpell": {
+        "oracleText": "This card is already the target of this spell.",
+        "translation": "This card is already the target of this spell."
+    },
     "DuelScene/ClientPrompt/Cast_Normally_Text": {
         "oracleText": "Cast Normally",
         "translation": "正常施放"
@@ -14238,6 +14370,10 @@
     "DuelScene/ClientPrompt/Cast_With_Selection": {
         "oracleText": "({CastWith}) Select 1.",
         "translation": "({CastWith})选择1。"
+    },
+    "DuelScene/ClientPrompt/Casualty_Sacrifice_Confirm": {
+        "oracleText": "This spell will lose casualty and not be copied if you sacrifice this creature.",
+        "translation": "This spell will lose casualty and not be copied if you sacrifice this creature."
     },
     "DuelScene/ClientPrompt/ChooseX_Choose": {
         "oracleText": "Choose {quantity}",
@@ -14370,6 +14506,10 @@
     "DuelScene/ClientPrompt/ClientPrompt_Button_PutInHand": {
         "oracleText": "Put in Hand",
         "translation": "置于手上"
+    },
+    "DuelScene/ClientPrompt/ClientPrompt_Button_PutOnLibrary": {
+        "oracleText": "Put on Library",
+        "translation": "Put on Library"
     },
     "DuelScene/ClientPrompt/ClientPrompt_Button_ResolveAttack": {
         "oracleText": "Resolve Attack",
@@ -14559,6 +14699,10 @@
         "oracleText": "Odd",
         "translation": "奇数"
     },
+    "DuelScene/ClientPrompt/Pay0Life": {
+        "oracleText": "Pay 0 Life",
+        "translation": "Pay 0 Life"
+    },
     "DuelScene/ClientPrompt/Pay2Life": {
         "oracleText": "Pay 2 Life",
         "translation": "支付2点生命"
@@ -14566,6 +14710,14 @@
     "DuelScene/ClientPrompt/Pay3Life": {
         "oracleText": "Pay 3 Life",
         "translation": "支付3点生命"
+    },
+    "DuelScene/ClientPrompt/Pay4Life": {
+        "oracleText": "Pay 4 Life",
+        "translation": "Pay 4 Life"
+    },
+    "DuelScene/ClientPrompt/Pay8Life": {
+        "oracleText": "Pay 8 Life",
+        "translation": "Pay 8 Life"
     },
     "DuelScene/ClientPrompt/PayAdamant": {
         "oracleText": "Pay Adamant",
@@ -18623,6 +18775,66 @@
         "oracleText": "Yeehaw",
         "translation": "耶哈"
     },
+    "Emotes/SOS/Full/Phrase_SOS_ClassSession": {
+        "oracleText": "Class is in session.",
+        "translation": "Class is in session."
+    },
+    "Emotes/SOS/Full/Phrase_SOS_DetentionBog": {
+        "oracleText": "To the Detention Bog with you!",
+        "translation": "To the Detention Bog with you!"
+    },
+    "Emotes/SOS/Full/Phrase_SOS_ImpeccableTechnique": {
+        "oracleText": "Impeccable technique!",
+        "translation": "Impeccable technique!"
+    },
+    "Emotes/SOS/Full/Phrase_SOS_Pledgemage": {
+        "oracleText": "I'm just a pledgemage!",
+        "translation": "I'm just a pledgemage!"
+    },
+    "Emotes/SOS/Full/Phrase_SOS_PracticedForThis": {
+        "oracleText": "I practiced for this!",
+        "translation": "I practiced for this!"
+    },
+    "Emotes/SOS/Full/Phrase_SOS_WrongAnswers": {
+        "oracleText": "Wrong answers only!",
+        "translation": "Wrong answers only!"
+    },
+    "Emotes/SOS/Full/Sticker_SOS_Dina_Tea": {
+        "oracleText": "Dina Tea",
+        "translation": "Dina Tea"
+    },
+    "Emotes/SOS/Full/Sticker_SOS_Frustrated_Student": {
+        "oracleText": "Frustrated Student",
+        "translation": "Frustrated Student"
+    },
+    "Emotes/SOS/Full/Sticker_SOS_Prismari_Violin": {
+        "oracleText": "Prismari Violin",
+        "translation": "Prismari Violin"
+    },
+    "Emotes/SOS/Mini/Phrase_SOS_ClassSession": {
+        "oracleText": "Class is in session.",
+        "translation": "Class is in session."
+    },
+    "Emotes/SOS/Mini/Phrase_SOS_DetentionBog": {
+        "oracleText": "To the Detention Bog with you!",
+        "translation": "To the Detention Bog with you!"
+    },
+    "Emotes/SOS/Mini/Phrase_SOS_ImpeccableTechnique": {
+        "oracleText": "Impeccable technique!",
+        "translation": "Impeccable technique!"
+    },
+    "Emotes/SOS/Mini/Phrase_SOS_Pledgemage": {
+        "oracleText": "I'm just a pledgemage!",
+        "translation": "I'm just a pledgemage!"
+    },
+    "Emotes/SOS/Mini/Phrase_SOS_PracticedForThis": {
+        "oracleText": "I practiced for this!",
+        "translation": "I practiced for this!"
+    },
+    "Emotes/SOS/Mini/Phrase_SOS_WrongAnswers": {
+        "oracleText": "Wrong answers only!",
+        "translation": "Wrong answers only!"
+    },
     "Emotes/SS25/Full/Phrase_SS25_DidntNeed": {
         "oracleText": "I didn't need that anyway.",
         "translation": "反正我也不需要。"
@@ -21339,6 +21551,26 @@
         "oracleText": "This token denotes that you are eligible to receive 2 physical Outlaws of Thunder Junction Play Booster Boxes",
         "translation": "此代币表示您有资格获得2盒实体光雷驿镖客常规补充包"
     },
+    "Events/ArenaDirect_SOS_Collector_Prize": {
+        "oracleText": "One <i>Secrets of Strixhaven</i> Collector Booster Box",
+        "translation": "One <i>Secrets of Strixhaven</i> Collector Booster Box"
+    },
+    "Events/ArenaDirect_SOS_Collector_String": {
+        "oracleText": "This token indicates you are eligible to receive 1 physical Secrets of Strixhaven Collector Box",
+        "translation": "This token indicates you are eligible to receive 1 physical Secrets of Strixhaven Collector Box"
+    },
+    "Events/ArenaDirect_SOS_Play_Prize": {
+        "oracleText": "One <i>Secrets of Strixhaven</i> Play Booster Box",
+        "translation": "One <i>Secrets of Strixhaven</i> Play Booster Box"
+    },
+    "Events/ArenaDirect_SOS_Play_Prize2": {
+        "oracleText": "Two <i>Secrets of Strixhaven</i> Play Booster Boxes",
+        "translation": "Two <i>Secrets of Strixhaven</i> Play Booster Boxes"
+    },
+    "Events/ArenaDirect_SOS_Play_String": {
+        "oracleText": "This token indicates you are eligible to receive a physical Secrets of Strixhaven Play Booster Box",
+        "translation": "This token indicates you are eligible to receive a physical Secrets of Strixhaven Play Booster Box"
+    },
     "Events/ArenaDirect_TDM_COLLECTOR_Prize": {
         "oracleText": "These tokens denote that you are eligible to receive a physical <i>Tarkir: Dragonstorm</i> Collector Booster Box",
         "translation": "这些代币表示您有资格获得一盒实体<i>鞑契龙岚录</i>聚珍补充包"
@@ -21579,6 +21811,10 @@
         "oracleText": "Knights",
         "translation": "骑士"
     },
+    "Events/DeckType/Lorehold": {
+        "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> Lorehold",
+        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> Lorehold"
+    },
     "Events/DeckType/Mardu": {
         "oracleText": "Mardu",
         "translation": "玛尔都"
@@ -21631,9 +21867,17 @@
         "oracleText": "Planeswalkers",
         "translation": "鹏洛客"
     },
+    "Events/DeckType/Prismari": {
+        "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> Prismari",
+        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> Prismari"
+    },
     "Events/DeckType/Pyromancer": {
         "oracleText": "Pyromancer",
         "translation": "烈焰术士"
+    },
+    "Events/DeckType/Quandrix": {
+        "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Quandrix",
+        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Quandrix"
     },
     "Events/DeckType/Rakdos": {
         "oracleText": "Rakdos",
@@ -21654,6 +21898,10 @@
     "Events/DeckType/Selesnya": {
         "oracleText": "Selesnya",
         "translation": "瑟雷尼亚"
+    },
+    "Events/DeckType/Silverquill": {
+        "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Silverquill",
+        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Silverquill"
     },
     "Events/DeckType/Simic": {
         "oracleText": "Simic",
@@ -21686,6 +21934,10 @@
     "Events/DeckType/Toph_mana": {
         "oracleText": "Toph <sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">",
         "translation": "拓芙 <sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">"
+    },
+    "Events/DeckType/Witherbloom": {
+        "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> Witherbloom",
+        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> Witherbloom"
     },
     "Events/DeckType/Wolves": {
         "oracleText": "Wolves",
@@ -23559,6 +23811,14 @@
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win a physical Outlaws of Thunder Junction Play Booster Box delivered to you.\n\nThe format for this event is 6 packs of <i>Outlaws of Thunder Junction</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-mh3-terms-and-conditions>here</link></u> for full details.</color></b>",
         "translation": "<size=150%><color=#e1a154>为实体奖励而战！</color></size>\n\n报名参加本赛事并赢得全部6场胜利，将会邮寄给你一盒实体光雷驿镖客常规补充包。\n\n本赛事的赛制是<i>光雷驿镖客</i>BO1现开。\n\n<b><color=red>必须年满18周岁才能参加。并非在所有地区/领地都可用。禁止地区无效。领取现金奖励需要创建或拥有现有的Wizards、DCI和i-Payout账户。请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-mh3-terms-and-conditions>此处</link></u>了解完整详情。</color></b>"
     },
+    "Events/Event_Desc_ArenaDirect_SOS_Collector_Sealed": {
+        "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\nSign up for this event and get all 7 wins to win 1 physical Secrets of Strixhaven Collector Booster Box delivered to you.\nThe format for this event is 6 packs of *<i>Secrets of Strixhaven</i>* Sealed with single-game matches.  \n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\nSign up for this event and get all 7 wins to win 1 physical Secrets of Strixhaven Collector Booster Box delivered to you.\nThe format for this event is 6 packs of *<i>Secrets of Strixhaven</i>* Sealed with single-game matches.  \n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >here</link></u> for full details.</color></b>"
+    },
+    "Events/Event_Desc_ArenaDirect_SOS_Play_Sealed": {
+        "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\nSign up for this event and get all 7 wins to win up to 2 physical Secrets of Strixhaven Play Booster Box delivered to you.\nThe format for this event is 6 packs of *<i>Secrets of Strixhaven</i>* Sealed with single-game matches.  \n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\nSign up for this event and get all 7 wins to win up to 2 physical Secrets of Strixhaven Play Booster Box delivered to you.\nThe format for this event is 6 packs of *<i>Secrets of Strixhaven</i>* Sealed with single-game matches.  \n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >here</link></u> for full details.</color></b>"
+    },
     "Events/Event_Desc_ArenaDirect_TDM_Collector_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win a physical Tarkir: Dragonstorm Collector Booster Box delivered to you.\n\nThe format for this event is 6 packs of <i>Tarkir: Dragonstorm</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>",
         "translation": "<size=150%><color=#e1a154>参加赛事，竞夺卡盒！</color></size>\n\n报名参加此赛事，赢得全部6胜就能获得一盒实体鞑契龙岚录聚珍补充包邮寄到家。\n\n本赛事的赛制为6包补充包的<i>鞑契龙岚录</i>BO1现开赛。\n\n<b><color=red>须年满18周岁方能参加。部分地区／地域不能参加本赛事。在法律禁止的地区无效。须创建或具现有威世智、DCI及i-Payout帐户方能领取奖金。完整详细信息，请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>此处</link></u>。</color></b>"
@@ -25212,8 +25472,8 @@
         "translation": "轮抽补充包在桌上轮转，你每次需从中选择一张牌。这些牌张将加入你的收藏，而你将使用它们和基本地来构组一副40张的套牌。不断进行三盘两胜制的对局，最后根据胜局数量赢得奖励！\n\n<b>牌手轮抽～与7位其他牌手一同进行轮抽，有抽选时间限制。</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>骑士</b>整个多重宇宙的骑士均已集结于此！持续派出这些英勇的生物，助你每回合都能建立优势。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>坟场</b>大家齐磨牌。所有坟墓场中的牌越多，你的手下就有更多选择，也会因此愈加强大。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>牺牲</b>绝望之时更需殊死之策。牺牲神器生物，开辟胜利通途。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>战役</b>准备好从非瑞克西亚人手中拯救自己的最爱时空。优先应对战役这一万智牌中最新的牌张类别，随后洞穿敌人防线，力挽狂澜。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>+1/+1指示物</b>现在是加成时间！用+1/+1指示物武装你的生物，完胜对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>非瑞克西亚</b>想当大反派？留意各类非瑞人，然后充分利用他们和成群待孵化的抚育器衍生物。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>召集</b>你的生物可助你抵御非瑞克西亚大军。早期就构建起庞大军势，之后便可利用它们来协助施放具召集异能的强大咒语。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>抚育</b>积极扩充法术力基础，产生大量的法术力来派遣大型生物或抚育大型衍生物。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>后援</b>寻找合适战友，结伴对抗非瑞克西亚。利用后援机制，探寻正确的异能组合，每回合都迈出踏向胜利的坚实脚步。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>转化</b>有改变，生命才更精彩。打赢战役，或是将抚育器衍生物转化变成非瑞人生物，让牌张强度再上一层楼。"
     },
     "Events/Event_Desc_MWM_3Sets": {
-        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is On the Edge: Bring a 60-card deck only using cards from <i>Magic: The Gathering Foundations</i> and the last three Standard sets.  That means cards from <i>Magic: The Gathering | Avatar: The Last Airbender™</i> <i>Lorwyn Eclipsed</i>, and <i>Magic: The Gathering | Teenage Mutant Ninja Turtles</i> are Legal. With only these Standard sets to work with, you'll need cutting-edge strategies to find victory!",
-        "translation": "欢迎参加周中万智牌！MTG竞技场每周玩法花样百出，次次活动都有全新感受！\n\n本周的活动是剑走偏锋：使用一副60张的套牌，仅限使用<i>万智牌：基石构筑</i>和最近三个标准系列的牌。这意味着<i>万智牌丨降世神通：最后的气宗</i>、<i>洛温：暗影笼罩</i>和<i>万智牌丨忍者神龟</i>中的牌都是合法的。在只有这些标准系列可用的情况下，你需要剑走偏锋的策略来取得胜利！"
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is On the Edge: Bring a 60-card deck only using cards from <i>Magic: The Gathering Foundations</i> and the last three Standard sets.  That means cards from <i>Secrets of Strixhaven</i>, <i>Teenage Mutant Ninja Turtles</i>, and <i>Lorwyn Eclipsed</i> are Legal. With only these Standard sets to work with, you'll need cutting-edge strategies to find victory!",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is On the Edge: Bring a 60-card deck only using cards from <i>Magic: The Gathering Foundations</i> and the last three Standard sets.  That means cards from <i>Secrets of Strixhaven</i>, <i>Teenage Mutant Ninja Turtles</i>, and <i>Lorwyn Eclipsed</i> are Legal. With only these Standard sets to work with, you'll need cutting-edge strategies to find victory!"
     },
     "Events/Event_Desc_MWM_Alchemy": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Alchemy: Bring a 60-card Alchemy deck. Break out the latest and greatest from the lab, or maybe find a new favorite!",
@@ -25514,6 +25774,10 @@
     "Events/Event_Desc_MWM_JumpIn_MKM": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is phantom Jump In featuring only cards from <i>Murders at Karlov Manor</i>! You will get to select two different half-decks from a variety of themes in Alchemy. Combine them, and you'll have a deck that's ready to go. Unlike regular Jump In, cards from this event will not be added to your collection.",
         "translation": "欢迎来到周中万智牌！每周尝试一个不同的方式来游玩万智牌竞技场！\n\n本周赛事是<i>卡洛夫庄园谋杀案</i>的幻影速学！你可以炼金赛制的各种主题中选择两个不同的「半套牌」补充包，将它们混合起来，你就有一副可以立刻开玩的套牌了！但与通常的速学赛事不同的是，你所选的套牌不会添加到你的收藏当中。"
+    },
+    "Events/Event_Desc_MWM_JumpIn_SOS": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Jump into <i>Secrets of Strixhaven</i>! You will get to select two different half-decks from a variety of themes from the latest set. Combine them, and you'll have a deck that's ready to go. Unlike regular Jump In, cards from this event will not be added to your collection.",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Jump into <i>Secrets of Strixhaven</i>! You will get to select two different half-decks from a variety of themes from the latest set. Combine them, and you'll have a deck that's ready to go. Unlike regular Jump In, cards from this event will not be added to your collection."
     },
     "Events/Event_Desc_MWM_JumpIn_TDM": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is phantom Jump! You will get to select two different half-decks from a variety of themes in <i>Tarkir: Dragonstorm</i>. Combine them, and you'll have a deck that's ready to go. Unlike regular Jump In, cards from this event will not be added to your collection.",
@@ -26259,6 +26523,22 @@
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players </b>\n\n<b>The Five Families</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> The Obscura: Craft the perfect draws and use superior intelligence over a long game to engineer a route to victory. Use the family's connive mechanic to draw, then discard - giving your creatures +1/+1 counters along the way!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> The Maestros: Hire expendable underlings as your family's muscle on the streets. Then use the casualty mechanic to sacrifice those minions, copy your spells, and blast your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> The Riveteers: The Riveteers rumble with large creatures. Give your creatures haste with the blitz mechanic, then sacrifice them at the end of your turn to draw a card. Keep that pressure up! Then press your advantage to crush your opponents.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> The Cabaretti: Flood the board with tokens and small creatures to overwhelm the opposition. The family knows how to collaborate for greater gain: alliance abilities give you additional effects whenever another creature enters the battlefield under your control.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> The Brokers: The Brokers are always ready to take down your opponents one notch at a time. Attack relentlessly to deal small amounts of damage, and mount an impenetrable defense - legal or otherwise! - by amassing shield counters on your creatures.",
         "translation": "每次从传过来的轮抽卡包中选一张牌，这些牌会加入你的收藏，你将使用这些牌加上基本地来构筑40张的套牌进行bo3对战。你将得到的奖励取决于你的胜场！\n\n<b>真人轮抽～和其他七位玩家共同进行的限时轮抽</b> \n\n<b>五大家族</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> 秘闻帮：在漫长的比赛中制作完美的平局并使用卓越的智慧来设计通往胜利的路线。使用家族的筹谋机制来抓牌，然后弃牌——在你的生物上放置 +1/+1 指示物!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> 绝艺盟： 雇佣可消耗的下属作为你的家族在街头的力量。然后利用催命机制来牺牲这些小兵，复制你的咒语，并轰击你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> 勤工联： 铆工们用大型生物轰鸣。用急袭机制给你的生物以敏捷异能，然后在你的回合结束时牺牲它们来抽一张牌。保持这种压力! 然后发挥你的优势，击溃你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> 乐舞会： 用指示物和小生物铺满桌面以压制对手。家族知道如何合作以获得更大的收益：每当另一个生物在你的控制下进入战场，联手异能附加额外效应。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> 扶济社： 扶济社总是有所准备，将对手层层击溃。无情攻击造成少量伤害，但建立坚不可摧的防御 - 合法或其他！ - 通过在你的生物上积累后盾指示物"
     },
+    "Events/Event_Desc_SOS_PickTwo_Draft": {
+        "oracleText": "Select two cards at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 3 other players</b>\n\n$/Events/SOS_Limited_Archetypes$",
+        "translation": "Select two cards at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 3 other players</b>\n\n$/Events/SOS_Limited_Archetypes$"
+    },
+    "Events/Event_Desc_SOS_Premier_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n$/Events/SOS_Limited_Archetypes$",
+        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n$/Events/SOS_Limited_Archetypes$"
+    },
+    "Events/Event_Desc_SOS_Quick_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers\n\n$/Events/SOS_Limited_Archetypes$",
+        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers\n\n$/Events/SOS_Limited_Archetypes$"
+    },
+    "Events/Event_Desc_SOS_Trad_Draft": {
+        "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n$/Events/SOS_Limited_Archetypes$",
+        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n$/Events/SOS_Limited_Archetypes$"
+    },
     "Events/Event_Desc_STX_Premier_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>",
         "translation": "每次从传过来的轮抽卡包中选一张牌，这些牌会加入你的收藏，你将使用这些牌加上基本地来构筑40张的套牌开始游戏。你将得到的奖励取决于你的胜场!\n\n<b>真人轮抽～和其他七位玩家共同进行的限时轮抽</b>"
@@ -26458,6 +26738,10 @@
     "Events/Event_Desc_Sealed_SNC": {
         "oracleText": "You'll receive 6 <i>Streets of New Capenna</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>The Five Families</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> The Obscura: Craft the perfect draws and use superior intelligence over a long game to engineer a route to victory. Use the family's connive mechanic to draw, then discard - giving your creatures +1/+1 counters along the way!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> The Maestros: Hire expendable underlings as your family's muscle on the streets. Then use the casualty mechanic to sacrifice those minions, copy your spells, and blast your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> The Riveteers: The Riveteers rumble with large creatures. Give your creatures haste with the blitz mechanic, then sacrifice them at the end of your turn to draw a card. Keep that pressure up! Then press your advantage to crush your opponents.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> The Cabaretti: Flood the board with tokens and small creatures to overwhelm the opposition. The family knows how to collaborate for greater gain: alliance abilities give you additional effects whenever another creature enters the battlefield under your control.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> The Brokers: The Brokers are always ready to take down your opponents one notch at a time. Attack relentlessly to deal small amounts of damage, and mount an impenetrable defense - legal or otherwise! - by amassing shield counters on your creatures.",
         "translation": "你将得到6包<i>新卡佩纳：喧嚣黑街</i>的补充包。补充包内的牌张都会加入你的收藏，而你将利用这些牌外加基本地来构筑一副40张的套牌进行游戏。不断进行对战，最后根据你的胜场数量赢得奖励！\n\n<b>五大家族</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> 秘闻帮：在漫长的比赛中制作完美的平局并使用卓越的智慧来设计通往胜利的路线。使用家族的筹谋机制来抓牌，然后弃牌——在你的生物上放置 +1/+1 指示物!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> 绝艺盟： 雇佣可消耗的下属作为你的家族在街头的力量。然后利用催命机制来牺牲这些小兵，复制你的咒语，并轰击你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> 勤工联： 铆工们用大型生物轰鸣。用急袭机制给你的生物以敏捷异能，然后在你的回合结束时牺牲它们来抽一张牌。保持这种压力! 然后发挥你的优势，击溃你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> 乐舞会： 用指示物和小生物铺满桌面以压制对手。家族知道如何合作以获得更大的收益：每当另一个生物在你的控制下进入战场，联手异能附加额外效应。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> 扶济社： 扶济社总是有所准备，将对手层层击溃。无情攻击造成少量伤害，但建立坚不可摧的防御 - 合法或其他！ - 通过在你的生物上积累后盾指示物"
+    },
+    "Events/Event_Desc_Sealed_SOS": {
+        "oracleText": "You'll receive 4 <i>Secrets of Strixhaven</i> packs and 2 special themed <i>Secrets of Strixhaven</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n\n$/Events/SOS_Limited_Archetypes$",
+        "translation": "You'll receive 4 <i>Secrets of Strixhaven</i> packs and 2 special themed <i>Secrets of Strixhaven</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n\n$/Events/SOS_Limited_Archetypes$"
     },
     "Events/Event_Desc_Sealed_STX": {
         "oracleText": "You'll receive 6 fifteen-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!",
@@ -26810,6 +27094,10 @@
     "Events/Event_Desc_Trad_Sealed_SNC": {
         "oracleText": "You'll receive 6 <i>Streets of New Capenna</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>The Five Families</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> The Obscura: Craft the perfect draws and use superior intelligence over a long game to engineer a route to victory. Use the family's connive mechanic to draw, then discard - giving your creatures +1/+1 counters along the way!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> The Maestros: Hire expendable underlings as your family's muscle on the streets. Then use the casualty mechanic to sacrifice those minions, copy your spells, and blast your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> The Riveteers: The Riveteers rumble with large creatures. Give your creatures haste with the blitz mechanic, then sacrifice them at the end of your turn to draw a card. Keep that pressure up! Then press your advantage to crush your opponents.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> The Cabaretti: Flood the board with tokens and small creatures to overwhelm the opposition. The family knows how to collaborate for greater gain: alliance abilities give you additional effects whenever another creature enters the battlefield under your control.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> The Brokers: The Brokers are always ready to take down your opponents one notch at a time. Attack relentlessly to deal small amounts of damage, and mount an impenetrable defense - legal or otherwise! - by amassing shield counters on your creatures.",
         "translation": "你将得到6包<i>新卡佩纳：喧嚣黑街</i>补充包。这些牌张将加入你的收藏，而你将使用它们和基本地来构组一副40张的套牌。不断进行三盘两胜制的对局，最后根据你的胜场数量赢得奖励！\n\n<b>五大家族</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\">秘闻帮：巧妙利用完美抓牌和情报优势，在长盘对局中开辟通往胜利的道路。利用家族特有的筹谋机制来抓牌弃牌～同时还能让生物得到+1/+1！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">绝艺盟：当你的家族在街头火拼时，别忘雇佣一些炮灰手下。然后利用催命机制牺牲它们，复制咒语，猛击对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">勤工联：勤工联以大块头兴事。利用急袭机制子让生物获得敏捷异能，然后在回合结束时牺牲它们好抓一张牌！持续维持压力！然后利用优势击溃对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\">乐舞会：在战场上铺满衍生物和小生物冲垮对手。此家族深谙合作共赢之道：联手异能能在另一生物在你操控下进战场时让你获得额外效应。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\">扶济社：扶济社随时准备蚕食对手。无情攻击，多次造成少量伤害，同时在自己生物上布置后盾指示物构建一道防御天堑～无论是法律方面还是现实方面。"
+    },
+    "Events/Event_Desc_Trad_Sealed_SOS": {
+        "oracleText": "You'll receive 6 <i>Secrets of Strixhaven</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n$/Events/SOS_Limited_Archetypes$",
+        "translation": "You'll receive 6 <i>Secrets of Strixhaven</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n$/Events/SOS_Limited_Archetypes$"
     },
     "Events/Event_Desc_Trad_Sealed_STX": {
         "oracleText": "You'll receive 6 fifteen-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!",
@@ -27486,6 +27774,14 @@
     "Events/Event_Title_ArenaDirect_OTJ_Sealed": {
         "oracleText": "Arena Direct - Sealed Outlaws of Thunder Junction",
         "translation": "竞技场直邮赛 - 光雷驿镖客现开"
+    },
+    "Events/Event_Title_ArenaDirect_SOS_Collector_Sealed": {
+        "oracleText": "Arena Direct - Sealed Secrets of Strixhaven Collector Booster Box",
+        "translation": "Arena Direct - Sealed Secrets of Strixhaven Collector Booster Box"
+    },
+    "Events/Event_Title_ArenaDirect_SOS_Play_Sealed": {
+        "oracleText": "Arena Direct - Sealed Secrets of Strixhaven Play Booster Box",
+        "translation": "Arena Direct - Sealed Secrets of Strixhaven Play Booster Box"
     },
     "Events/Event_Title_ArenaDirect_TDM_Collector_Sealed": {
         "oracleText": "Arena Direct - Sealed Tarkir: Dragonstorm Collector Booster",
@@ -29447,6 +29743,10 @@
         "oracleText": "Midweek Magic: Jump Into Lorwyn Eclipsed",
         "translation": "周中万智牌：投身洛温：暗影笼罩"
     },
+    "Events/Event_Title_MWM_JumpIn_FDN": {
+        "oracleText": "Midweek Magic: Jump Into Magic: The Gathering® Foundations",
+        "translation": "Midweek Magic: Jump Into Magic: The Gathering® Foundations"
+    },
     "Events/Event_Title_MWM_JumpIn_MKM": {
         "oracleText": "Midweek Magic: Jump Into Murders at Karlov Manor",
         "translation": "周中万智牌：卡洛夫庄园谋杀案速学对决"
@@ -30119,6 +30419,26 @@
         "oracleText": "Traditional Draft New Capenna",
         "translation": "新卡佩纳三盘轮抽"
     },
+    "Events/Event_Title_SOS_PickTwo_Draft": {
+        "oracleText": "Pick-Two Draft Secrets of Strixhaven",
+        "translation": "Pick-Two Draft Secrets of Strixhaven"
+    },
+    "Events/Event_Title_SOS_Premier_Draft": {
+        "oracleText": "Premier Draft Secrets of Strixhaven",
+        "translation": "Premier Draft Secrets of Strixhaven"
+    },
+    "Events/Event_Title_SOS_Premier_Draft_EarlyAccess": {
+        "oracleText": "Early Access Secrets of Strixhaven Premier Draft",
+        "translation": "Early Access Secrets of Strixhaven Premier Draft"
+    },
+    "Events/Event_Title_SOS_Quick_Draft": {
+        "oracleText": "Quick Draft Secrets of Strixhaven",
+        "translation": "Quick Draft Secrets of Strixhaven"
+    },
+    "Events/Event_Title_SOS_Trad_Draft": {
+        "oracleText": "Traditional Draft Secrets of Strixhaven",
+        "translation": "Traditional Draft Secrets of Strixhaven"
+    },
     "Events/Event_Title_STX_Premier_Draft": {
         "oracleText": "Premier Draft Strixhaven",
         "translation": "斯翠海文竞技轮抽"
@@ -30330,6 +30650,34 @@
     "Events/Event_Title_Sealed_SNC": {
         "oracleText": "Sealed New Capenna",
         "translation": "新卡佩纳现开"
+    },
+    "Events/Event_Title_Sealed_SOS": {
+        "oracleText": "Sealed Secrets of Strixhaven",
+        "translation": "Sealed Secrets of Strixhaven"
+    },
+    "Events/Event_Title_Sealed_SOS_EarlyAccess": {
+        "oracleText": "Early Access Sealed Secrets of Strixhaven",
+        "translation": "Early Access Sealed Secrets of Strixhaven"
+    },
+    "Events/Event_Title_Sealed_SOS_Lorehold": {
+        "oracleText": "$/Events/Event_Title_Sealed_SOS$ - Lorehold",
+        "translation": "$/Events/Event_Title_Sealed_SOS$ - Lorehold"
+    },
+    "Events/Event_Title_Sealed_SOS_Prismari": {
+        "oracleText": "$/Events/Event_Title_Sealed_SOS$ - Prismari",
+        "translation": "$/Events/Event_Title_Sealed_SOS$ - Prismari"
+    },
+    "Events/Event_Title_Sealed_SOS_Quandrix": {
+        "oracleText": "$/Events/Event_Title_Sealed_SOS$ - Quandrix",
+        "translation": "$/Events/Event_Title_Sealed_SOS$ - Quandrix"
+    },
+    "Events/Event_Title_Sealed_SOS_Silverquill": {
+        "oracleText": "$/Events/Event_Title_Sealed_SOS$ - Silverquill",
+        "translation": "$/Events/Event_Title_Sealed_SOS$ - Silverquill"
+    },
+    "Events/Event_Title_Sealed_SOS_Witherbloom": {
+        "oracleText": "$/Events/Event_Title_Sealed_SOS$ - Witherbloom",
+        "translation": "$/Events/Event_Title_Sealed_SOS$ - Witherbloom"
     },
     "Events/Event_Title_Sealed_STX": {
         "oracleText": "Sealed Strixhaven",
@@ -30786,6 +31134,10 @@
     "Events/Event_Title_Trad_Sealed_SNC": {
         "oracleText": "Traditional Sealed New Capenna",
         "translation": "新卡佩纳三盘现开"
+    },
+    "Events/Event_Title_Trad_Sealed_SOS": {
+        "oracleText": "Traditional Sealed Secrets of Strixhaven",
+        "translation": "Traditional Sealed Secrets of Strixhaven"
     },
     "Events/Event_Title_Trad_Sealed_STX": {
         "oracleText": "Traditional Sealed Strixhaven",
@@ -31266,6 +31618,10 @@
     "Events/Filter/ECLEarlyAccess": {
         "oracleText": "Lorwyn Eclipsed Early Access",
         "translation": "洛温：暗影笼罩提前试玩"
+    },
+    "Events/Filter/SOSEarlyAccess": {
+        "oracleText": "Secrets of Strixhaven Early Access",
+        "translation": "Secrets of Strixhaven Early Access"
     },
     "Events/Filter/TMTEarlyAccess": {
         "oracleText": "Magic: The Gathering® | Teenage Mutant Ninja Turtles Early Access",
@@ -32735,6 +33091,46 @@
         "oracleText": "Rooted",
         "translation": "根深蒂固"
     },
+    "Events/Packets/SJMP_PacketName_SOS_Aesthetic": {
+        "oracleText": "Aesthetic",
+        "translation": "Aesthetic"
+    },
+    "Events/Packets/SJMP_PacketName_SOS_Field_Trip": {
+        "oracleText": "Field Trip",
+        "translation": "Field Trip"
+    },
+    "Events/Packets/SJMP_PacketName_SOS_Grave": {
+        "oracleText": "Grave",
+        "translation": "Grave"
+    },
+    "Events/Packets/SJMP_PacketName_SOS_Lorehold": {
+        "oracleText": "Lorehold",
+        "translation": "Lorehold"
+    },
+    "Events/Packets/SJMP_PacketName_SOS_Prismari": {
+        "oracleText": "Prismari",
+        "translation": "Prismari"
+    },
+    "Events/Packets/SJMP_PacketName_SOS_Quandrix": {
+        "oracleText": "Quandrix",
+        "translation": "Quandrix"
+    },
+    "Events/Packets/SJMP_PacketName_SOS_Scribe": {
+        "oracleText": "Scribe",
+        "translation": "Scribe"
+    },
+    "Events/Packets/SJMP_PacketName_SOS_Silverquill": {
+        "oracleText": "Silverquill",
+        "translation": "Silverquill"
+    },
+    "Events/Packets/SJMP_PacketName_SOS_Spellcraft": {
+        "oracleText": "Spellcraft",
+        "translation": "Spellcraft"
+    },
+    "Events/Packets/SJMP_PacketName_SOS_Witherbloom": {
+        "oracleText": "Witherbloom",
+        "translation": "Witherbloom"
+    },
     "Events/Packets/SJMP_PacketName_SPG_Slime_Against_Humanity": {
         "oracleText": "Slime Against Humanity",
         "translation": "反人淤泥"
@@ -33242,6 +33638,10 @@
     "Events/Rewards/Timeless_ICR": {
         "oracleText": "1 Rare or Mythic Timeless-only Card",
         "translation": "1张只在永恒赛制可用的稀有或秘稀牌"
+    },
+    "Events/SOS_Limited_Archetypes": {
+        "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Silverquill Repartee Aggro — Inspire your creatures with words of affirmation or hurl cutting critiques at your enemies. Either way, get rewarded for casting targeted spells while you press the attack. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> Prismari Opus Spellcasting — Load up your deck with instants and sorceries and paint the battlefield red and blue! Fire off cheap spells or get a showstopping bonus from spending five or more mana on your opus. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> Witherbloom Lifegain Swarm — Build up an army of Pests and other creatures to gain lots of life and overwhelm your opponents. Steady lifegain will also infuse your spells with boosted effects! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> Lorehold Flashback Excavation — Fill your graveyard and then dig it back up again. When cards leave your graveyard, you'll uncover the power for history-making plays! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Quandrix Incremental Value — Grow your creatures with counters as you cast bigger and bigger spells! Accelerate your mana, draw cards, and attack with huge creatures—math isn't just for blockers here.",
+        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Silverquill Repartee Aggro — Inspire your creatures with words of affirmation or hurl cutting critiques at your enemies. Either way, get rewarded for casting targeted spells while you press the attack. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> Prismari Opus Spellcasting — Load up your deck with instants and sorceries and paint the battlefield red and blue! Fire off cheap spells or get a showstopping bonus from spending five or more mana on your opus. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> Witherbloom Lifegain Swarm — Build up an army of Pests and other creatures to gain lots of life and overwhelm your opponents. Steady lifegain will also infuse your spells with boosted effects! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> Lorehold Flashback Excavation — Fill your graveyard and then dig it back up again. When cards leave your graveyard, you'll uncover the power for history-making plays! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Quandrix Incremental Value — Grow your creatures with counters as you cast bigger and bigger spells! Accelerate your mana, draw cards, and attack with huge creatures—math isn't just for blockers here."
     },
     "Events/SealedTwo_Notice": {
         "oracleText": "This qualifies you for Sealed Two of this event. Join from 11 a.m. - 1 p.m. PT.",
@@ -33779,6 +34179,10 @@
         "oracleText": "Join between 6am and 8am Pacific on May 16",
         "translation": "Join between 6am and 8am Pacific on May 16"
     },
+    "Events/Tokens/QualifierDay1TokenDescription20260613": {
+        "oracleText": "Join between 6am and 8am Pacific on 2026-06-13",
+        "translation": "Join between 6am and 8am Pacific on 2026-06-13"
+    },
     "Events/Tokens/QualifierDay1TokenDescription20260711": {
         "oracleText": "Join between 6am and 8am Pacific on July 11",
         "translation": "Join between 6am and 8am Pacific on July 11"
@@ -33991,6 +34395,10 @@
         "oracleText": "Join between 6am and 8am Pacific on May 17",
         "translation": "Join between 6am and 8am Pacific on May 17"
     },
+    "Events/Tokens/QualifierDay2TokenDescription20260614": {
+        "oracleText": "Join between 6am and 8am Pacific on 2026-06-14",
+        "translation": "Join between 6am and 8am Pacific on 2026-06-14"
+    },
     "Events/Tokens/QualifierDay2TokenDescription20260712": {
         "oracleText": "Join between 6am and 8am Pacific on July 12",
         "translation": "Join between 6am and 8am Pacific on July 12"
@@ -34038,6 +34446,14 @@
     "Events/Tokens/QuickDraftTokenSingular": {
         "oracleText": "{quantity} Quick Draft Token",
         "translation": "{quantity}快速轮抽门票"
+    },
+    "Events/Tokens/SOSEarlyAccessPlural": {
+        "oracleText": "Secrets of Strixhaven Early Access Token",
+        "translation": "Secrets of Strixhaven Early Access Token"
+    },
+    "Events/Tokens/SOSEarlyAccessSingular": {
+        "oracleText": "Secrets of Strixhaven Early Access Token",
+        "translation": "Secrets of Strixhaven Early Access Token"
     },
     "Events/Tokens/ScavengerHunt_SecretEvent_Desc": {
         "oracleText": "You cracked the case! This token unlocks a secret Event somewhere on Arena...",
@@ -34743,13 +35159,25 @@
         "oracleText": "Streets of New Capenna",
         "translation": "新卡佩纳：喧嚣黑街"
     },
+    "General/Sets/SOA": {
+        "oracleText": "Secrets of Strixhaven Mystical Archive",
+        "translation": "Secrets of Strixhaven Mystical Archive"
+    },
+    "General/Sets/SOC": {
+        "oracleText": "Secrets of Strixhaven Commander",
+        "translation": "Secrets of Strixhaven Commander"
+    },
+    "General/Sets/SOS": {
+        "oracleText": "Secrets of Strixhaven",
+        "translation": "Secrets of Strixhaven"
+    },
     "General/Sets/SPG": {
         "oracleText": "Special Guests",
         "translation": "特殊来宾"
     },
     "General/Sets/STA": {
-        "oracleText": "Mystical Archive",
-        "translation": "斯翠海文秘典"
+        "oracleText": "Strixhaven Mystical Archive",
+        "translation": "Strixhaven Mystical Archive"
     },
     "General/Sets/STX": {
         "oracleText": "Strixhaven",
@@ -35839,6 +36267,10 @@
         "oracleText": "Streets of New Capenna",
         "translation": "新卡佩纳：喧嚣黑街"
     },
+    "MainNav/BattlePass/BattlePass_SOS": {
+        "oracleText": "Secrets of Strixhaven",
+        "translation": "Secrets of Strixhaven"
+    },
     "MainNav/BattlePass/BattlePass_STX": {
         "oracleText": "Strixhaven",
         "translation": "斯翠海文"
@@ -36183,6 +36615,10 @@
         "oracleText": "Outlaws of Thunder Junction Set Mastery",
         "translation": "光雷驿镖客精研通行证"
     },
+    "MainNav/BattlePass/MasteryListingTitle_SOS": {
+        "oracleText": "Secrets of Strixhaven Set Mastery",
+        "translation": "Secrets of Strixhaven Set Mastery"
+    },
     "MainNav/BattlePass/MasteryListingTitle_TDM": {
         "oracleText": "Tarkir: Dragonstorm Set Mastery",
         "translation": "鞑契龙岚录精研通行证"
@@ -36306,6 +36742,10 @@
     "MainNav/BattlePass/Mastery_Header_SNC": {
         "oracleText": "Streets of New Capenna Mastery Pass",
         "translation": "新卡佩纳：喧嚣黑街精研通行证"
+    },
+    "MainNav/BattlePass/Mastery_Header_SOS": {
+        "oracleText": "Secrets of Strixhaven Mastery",
+        "translation": "Secrets of Strixhaven Mastery"
     },
     "MainNav/BattlePass/Mastery_Header_STX": {
         "oracleText": "Strixhaven Set Mastery Pass",
@@ -43147,6 +43587,22 @@
         "oracleText": "Olena Richards Falco Spara Sleeve",
         "translation": "Olena Richards版*织契魔冯柯斯帕拉*牌套"
     },
+    "MainNav/DeckBuilder/Sleeves/CardBack_SOS_457664": {
+        "oracleText": "Quintorius, History Chaser",
+        "translation": "Quintorius, History Chaser"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_SOS_457665": {
+        "oracleText": "Rootha, Mastering the Moment",
+        "translation": "Rootha, Mastering the Moment"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_SOS_457667": {
+        "oracleText": "Killian, Decisive Mentor",
+        "translation": "Killian, Decisive Mentor"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_SOS_457668": {
+        "oracleText": "Dina, Essence Brewer",
+        "translation": "Dina, Essence Brewer"
+    },
     "MainNav/DeckBuilder/Sleeves/CardBack_SOS_459589": {
         "oracleText": "Ral Zarek Sleeve",
         "translation": "Ral Zarek Sleeve"
@@ -43154,6 +43610,38 @@
     "MainNav/DeckBuilder/Sleeves/CardBack_SOS_459590": {
         "oracleText": "Professor Dellian Fel Sleeve",
         "translation": "Professor Dellian Fel Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_SOS_459688": {
+        "oracleText": "Zimone's Experiment",
+        "translation": "Zimone's Experiment"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_SOS_460847": {
+        "oracleText": "Biblioplex Sleeve",
+        "translation": "Biblioplex Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_SOS_463630": {
+        "oracleText": "Prismari Stylus Sleeve",
+        "translation": "Prismari Stylus Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_SOS_463631": {
+        "oracleText": "Witherbloom Stylus Sleeve",
+        "translation": "Witherbloom Stylus Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_SOS_463632": {
+        "oracleText": "Lorehold Stylus Sleeve",
+        "translation": "Lorehold Stylus Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_SOS_463633": {
+        "oracleText": "Quandrix Stylus Sleeve",
+        "translation": "Quandrix Stylus Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_SOS_463635": {
+        "oracleText": "Silverquill Stylus Sleeve",
+        "translation": "Silverquill Stylus Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_SOS_464349": {
+        "oracleText": "Arcane Tome Exquisite Sleeve",
+        "translation": "Arcane Tome Exquisite Sleeve"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_STX_412077": {
         "oracleText": "Professor of Zoomancy Sleeve",
@@ -45063,6 +45551,14 @@
         "oracleText": "Token Entry",
         "translation": "消耗门票参加"
     },
+    "MainNav/EventPage/TokenEntryPlural": {
+        "oracleText": "Token Entry",
+        "translation": "Token Entry"
+    },
+    "MainNav/EventPage/TokenEntrySingular": {
+        "oracleText": "Token Entry",
+        "translation": "Token Entry"
+    },
     "MainNav/EventPage/Tooltip_ClickToEditDeck": {
         "oracleText": "Click to Edit...",
         "translation": "点击以编辑..."
@@ -45310,6 +45806,22 @@
     "MainNav/EventRewards/ArenaDirect_OTJ_PlaySingular": {
         "oracleText": "{quantity} Outlaws of Thunder Junction Play Booster Box",
         "translation": "{quantity}盒光雷驿镖客常规补充包"
+    },
+    "MainNav/EventRewards/ArenaDirect_SOS_CollectorPlural": {
+        "oracleText": "{quantity} Secrets of Strixhaven Collector Booster Boxes",
+        "translation": "{quantity} Secrets of Strixhaven Collector Booster Boxes"
+    },
+    "MainNav/EventRewards/ArenaDirect_SOS_CollectorSingular": {
+        "oracleText": "{quantity} Secrets of Strixhaven Collector Booster Box",
+        "translation": "{quantity} Secrets of Strixhaven Collector Booster Box"
+    },
+    "MainNav/EventRewards/ArenaDirect_SOS_PlayPlural": {
+        "oracleText": "{quantity} Secrets of Strixhaven Booster Boxes",
+        "translation": "{quantity} Secrets of Strixhaven Booster Boxes"
+    },
+    "MainNav/EventRewards/ArenaDirect_SOS_PlaySingular": {
+        "oracleText": "{quantity} Secrets of Strixhaven Play Booster Box",
+        "translation": "{quantity} Secrets of Strixhaven Play Booster Box"
     },
     "MainNav/EventRewards/ArenaDirect_TDM_COLLECTORPlural": {
         "oracleText": "{quantity}  <i>Tarkir: Dragonstorm</i> Collector Booster Boxes",
@@ -46182,6 +46694,10 @@
     "MainNav/EventRewards/Incandescent_Aria": {
         "oracleText": "Incandescent Aria Card Style",
         "translation": "*炽热咏叹调*卡牌样式"
+    },
+    "MainNav/EventRewards/Invite": {
+        "oracleText": "Invitation",
+        "translation": "Invitation"
     },
     "MainNav/EventRewards/JinGitaxias_Reward": {
         "oracleText": "Jin-Gitaxias, Progress Tyrant Card Style",
@@ -47074,6 +47590,10 @@
     "MainNav/EventRewards/Zopandrel_Hunger_Dominus": {
         "oracleText": "Zopandrel, Hunger Dominus Card Style",
         "translation": "饥渴圣主佐潘坠卡牌样式"
+    },
+    "MainNav/EventRewards/nvite": {
+        "oracleText": "Invitation",
+        "translation": "Invitation"
     },
     "MainNav/EventsPage/AddToDecks": {
         "oracleText": "Add to Decks",
@@ -48794,6 +49314,38 @@
     "MainNav/HomePage/Carousel/2026_57_50_SOS_Previews_Title": {
         "oracleText": "Secrets of Strixhaven Previews!",
         "translation": "Secrets of Strixhaven Previews!"
+    },
+    "MainNav/HomePage/Carousel/2026_58_0_OrganizedPlay_SOS_JP_Desc": {
+        "oracleText": "Prizes, Pro Tour Invites, and more are up for grabs. Click to learn more!",
+        "translation": "Prizes, Pro Tour Invites, and more are up for grabs. Click to learn more!"
+    },
+    "MainNav/HomePage/Carousel/2026_58_0_OrganizedPlay_SOS_JP_Title": {
+        "oracleText": "Magic Spotlight: Secrets | Chiba, Japan May 29-31",
+        "translation": "Magic Spotlight: Secrets | Chiba, Japan May 29-31"
+    },
+    "MainNav/HomePage/Carousel/2026_58_0_OrganizedPlay_SOS_UK_Desc": {
+        "oracleText": "Prizes, Pro Tour Invites, and more are up for grabs. Click to learn more!",
+        "translation": "Prizes, Pro Tour Invites, and more are up for grabs. Click to learn more!"
+    },
+    "MainNav/HomePage/Carousel/2026_58_0_OrganizedPlay_SOS_UK_Title": {
+        "oracleText": "Magic Spotlight: Secrets | London, UK May 8-10",
+        "translation": "Magic Spotlight: Secrets | London, UK May 8-10"
+    },
+    "MainNav/HomePage/Carousel/2026_58_0_SOS_Mastery_Desc": {
+        "oracleText": "Do a few extracurricular quests to advance up the Mastery and claim Sleeves, Companions, and more!",
+        "translation": "Do a few extracurricular quests to advance up the Mastery and claim Sleeves, Companions, and more!"
+    },
+    "MainNav/HomePage/Carousel/2026_58_0_SOS_Mastery_Title": {
+        "oracleText": "The Secrets of Strixhaven Set Mastery is Here!",
+        "translation": "The Secrets of Strixhaven Set Mastery is Here!"
+    },
+    "MainNav/HomePage/Carousel/2026_58_0_SOS_Store_Desc": {
+        "oracleText": "Enhance your studies with incredible deals, available now in the Store! Check them out today!",
+        "translation": "Enhance your studies with incredible deals, available now in the Store! Check them out today!"
+    },
+    "MainNav/HomePage/Carousel/2026_58_0_SOS_Store_Title": {
+        "oracleText": "Magical Offerings!",
+        "translation": "Magical Offerings!"
     },
     "MainNav/HomePage/Carousel/21_01_Store_Desc": {
         "oracleText": "Take part in the epic Saga of Kaldheim. New Boosters Packs, new Set Mastery Pass, new Showcase Bundles, and more!",
@@ -54155,6 +54707,14 @@
         "oracleText": "It's Time for Turtle Power!",
         "translation": "是时候展现神龟力量了！"
     },
+    "MainNav/Mailbox/2026_58_0_SOS_SetAnnouncement_Description": {
+        "oracleText": "Hope you've studied up! This year is going to be full of hands-on experience, so take these 3 packs and some basic lands to help you grow into the star pupil of MTG Arena!\n\nWant to dive even deeper into the lore of Magic? Start reading the story for this set by clicking the link below!",
+        "translation": "Hope you've studied up! This year is going to be full of hands-on experience, so take these 3 packs and some basic lands to help you grow into the star pupil of MTG Arena!\n\nWant to dive even deeper into the lore of Magic? Start reading the story for this set by clicking the link below!"
+    },
+    "MainNav/Mailbox/2026_58_0_SOS_SetAnnouncement_Title": {
+        "oracleText": "School is Back in Session!",
+        "translation": "School is Back in Session!"
+    },
     "MainNav/Mailbox/2026_ECLCinematic_Slide1": {
         "oracleText": "Welcome, traveler, to the plane of Lorwyn.",
         "translation": "欢迎来到洛温时空，旅行者。"
@@ -54243,6 +54803,14 @@
         "oracleText": "Your Squen and Cragg Sleeves!",
         "translation": "你的斯奎茵和克瑞格牌套！"
     },
+    "MainNav/Mailbox/2026_Maintenence_May4thTitle": {
+        "oracleText": "Arena Downtime on May 4th",
+        "translation": "Arena Downtime on May 4th"
+    },
+    "MainNav/Mailbox/2026_Maintenence_May4th_Description": {
+        "oracleText": "Magic: The Gathering Arena will be undergoing maintenance on May 4th, beginning at 4am Pacific Time. The maintenance is expected to last 5 hours, but could extend if necessary. During this time, all of our services will be down and the play queues will be inaccessible. Click the link below to see more status updates, and thank you for your patience!",
+        "translation": "Magic: The Gathering Arena will be undergoing maintenance on May 4th, beginning at 4am Pacific Time. The maintenance is expected to last 5 hours, but could extend if necessary. During this time, all of our services will be down and the play queues will be inaccessible. Click the link below to see more status updates, and thank you for your patience!"
+    },
     "MainNav/Mailbox/2026_SOSCinematic_Slide1": {
         "oracleText": "Welcome to Strixhaven University, the greatest repository of magical knowledge in the Multiverse!",
         "translation": "Welcome to Strixhaven University, the greatest repository of magical knowledge in the Multiverse!"
@@ -54290,6 +54858,14 @@
     "MainNav/Mailbox/2026_SOSCinematic_Slide9": {
         "oracleText": "However, something is dangerously wrong on Arcavios. The normally docile archaics have begun rampaging.",
         "translation": "However, something is dangerously wrong on Arcavios. The normally docile archaics have begun rampaging."
+    },
+    "MainNav/Mailbox/2026_SOS_ArenaSurvey_Desc": {
+        "oracleText": "In this survey, we want to hear the good, the bad, and everything in between about your recent experiences playing MTG Arena.\n\nThe survey should take 10-15 minutes to complete and will be open until May 6th.\n\nFeedback from players like you helps us make MTG Arena the best it can be!",
+        "translation": "In this survey, we want to hear the good, the bad, and everything in between about your recent experiences playing MTG Arena.\n\nThe survey should take 10-15 minutes to complete and will be open until May 6th.\n\nFeedback from players like you helps us make MTG Arena the best it can be!"
+    },
+    "MainNav/Mailbox/2026_SOS_ArenaSurvey_Title": {
+        "oracleText": "Are you enjoying MTG Arena? Tell us about it!",
+        "translation": "Are you enjoying MTG Arena? Tell us about it!"
     },
     "MainNav/Mailbox/2026_SOS_Cinematic_Teaser_Description": {
         "oracleText": "Click the button below to watch the Secrets of Strixhaven cinematic, and get excited for the latest set coming to Arena by Pre-ordering today!",
@@ -55226,6 +55802,22 @@
     "MainNav/Mailbox/SL_Sale_Link_Title": {
         "oracleText": "Enjoying the Secret Lair?",
         "translation": "Enjoying the Secret Lair?"
+    },
+    "MainNav/Mailbox/SOS_CPC_StandardIntroDeck_Description": {
+        "oracleText": "Looking to practice with your new 60-card theme deck online before taking it back to your local game store? Click below to redeem your digital copy of the deck now and start battling!",
+        "translation": "Looking to practice with your new 60-card theme deck online before taking it back to your local game store? Click below to redeem your digital copy of the deck now and start battling!"
+    },
+    "MainNav/Mailbox/SOS_CPC_StandardIntroDeck_Title": {
+        "oracleText": "Try Your New 60-Card Deck Now!",
+        "translation": "Try Your New 60-Card Deck Now!"
+    },
+    "MainNav/Mailbox/SOS_CPC_WelcomeDeck_AcqTest_Description": {
+        "oracleText": "Thank you for visiting your local game store to redeem your digital prize with your Welcome Deck! Click below to add three <i>Secrets of Strixvhaven</i> packs to your collection!",
+        "translation": "Thank you for visiting your local game store to redeem your digital prize with your Welcome Deck! Click below to add three <i>Secrets of Strixvhaven</i> packs to your collection!"
+    },
+    "MainNav/Mailbox/SOS_CPC_WelcomeDeck_AcqTest_Title": {
+        "oracleText": "Welcome to Magic!",
+        "translation": "Welcome to Magic!"
     },
     "MainNav/Mailbox/SecretLair_ArenaPromo_Secretversary2023_Description": {
         "oracleText": "It's time to party!\n\nSecretversary 2023 has officially kicked off and everyone's invited. In celebration of another year filled with fan-favorite cards featuring fantastic art, we've pulled out all the stops to bring you one of the most exciting superdrops ever!\n\nAnd soon you'll be able to wrap your cards for the holidays on MTG Arena. New lands and sleeves with art from Gift Wrapped, Mycosynthwave, Through the Wormhole, and Paradise Frost arrive on 12/19/23!\n\nCheers!",
@@ -56439,6 +57031,38 @@
         "oracleText": "Angelic Construct",
         "translation": "天使组构体"
     },
+    "MainNav/PetNames/SOS_Mastery_1": {
+        "oracleText": "Pompous Owlin",
+        "translation": "Pompous Owlin"
+    },
+    "MainNav/PetNames/SOS_Mastery_2": {
+        "oracleText": "Brooding Owlin",
+        "translation": "Brooding Owlin"
+    },
+    "MainNav/PetNames/SOS_Mastery_3": {
+        "oracleText": "Courageous Owlin",
+        "translation": "Courageous Owlin"
+    },
+    "MainNav/PetNames/SOS_Mastery_4": {
+        "oracleText": "Inquisitive Owlin",
+        "translation": "Inquisitive Owlin"
+    },
+    "MainNav/PetNames/SOS_Mastery_Companion_1": {
+        "oracleText": "Pompous Owlin",
+        "translation": "Pompous Owlin"
+    },
+    "MainNav/PetNames/SOS_Mastery_Companion_2": {
+        "oracleText": "Brooding Owlin",
+        "translation": "Brooding Owlin"
+    },
+    "MainNav/PetNames/SOS_Mastery_Companion_3": {
+        "oracleText": "Courageous Owlin",
+        "translation": "Courageous Owlin"
+    },
+    "MainNav/PetNames/SOS_Mastery_Companion_4": {
+        "oracleText": "Inquisitive Owlin",
+        "translation": "Inquisitive Owlin"
+    },
     "MainNav/PetNames/SOS_Preorder_1": {
         "oracleText": "Abigale",
         "translation": "Abigale"
@@ -57375,6 +57999,10 @@
         "oracleText": "Through the Omenpaths Mastery Emporium",
         "translation": "穿越预兆路通行证商铺"
     },
+    "MainNav/PrizeWall/Hideaway_Header_SOS": {
+        "oracleText": "<i>Secrets of Strixhaven</i> Mastery Emporium",
+        "translation": "<i>Secrets of Strixhaven</i> Mastery Emporium"
+    },
     "MainNav/PrizeWall/Hideaway_Header_TDM": {
         "oracleText": "Tarkir: Dragonstorm Mastery Emporium",
         "translation": "鞑契龙岚录精研通行证商铺"
@@ -57858,6 +58486,22 @@
     "MainNav/Profile/Avatars/Avatar_Basic_Davriel_J21_Name": {
         "oracleText": "Davriel",
         "translation": "达夫黎"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_DellianFell_SOS_Bio": {
+        "oracleText": "Dellian was the youngest-ever tenured Witherbloom professor and a pioneer in necromantic studies. After he was discovered dead, he mysteriously rose from the grave thirteen months later with a Planeswalker's spark and a strange hunger lurking in the back of his mind.",
+        "translation": "Dellian was the youngest-ever tenured Witherbloom professor and a pioneer in necromantic studies. After he was discovered dead, he mysteriously rose from the grave thirteen months later with a Planeswalker's spark and a strange hunger lurking in the back of his mind."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_DellianFell_SOS_Name": {
+        "oracleText": "Professor Dellian Fel",
+        "translation": "Professor Dellian Fel"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Dina_SOS_Bio": {
+        "oracleText": "Dina is a darkly humorous and tea-obsessed dryad who knows hundreds of recipes for potions, charms, and spells that help almost any malady or mood. She's recently found solace in a social life and Witherbloom mentorship, committing herself to deepening roots in her community.",
+        "translation": "Dina is a darkly humorous and tea-obsessed dryad who knows hundreds of recipes for potions, charms, and spells that help almost any malady or mood. She's recently found solace in a social life and Witherbloom mentorship, committing herself to deepening roots in her community."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Dina_SOS_Name": {
+        "oracleText": "Dina",
+        "translation": "Dina"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Dina_STX_Bio": {
         "oracleText": "Dina is a weird, darkly humorous, and tea-obsessed student of Witherbloom. She is learning how to concoct all manner of herbal brews from bizarre swamp creatures. If she offers you a cup of tea, you should probably decline.",
@@ -58367,6 +59011,14 @@
         "oracleText": "Kellan, the Fae-Blooded",
         "translation": "仙儿血脉凯澜"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_Killian_SOS_Bio": {
+        "oracleText": "Killian Lu is a Silverquill graduate student, mentoring and bolstering younger students at the Forum of Amity. He doesn't shy away from pointed wit as a means of defense, believing that the best way to help is often preventing others from causing harm.",
+        "translation": "Killian Lu is a Silverquill graduate student, mentoring and bolstering younger students at the Forum of Amity. He doesn't shy away from pointed wit as a means of defense, believing that the best way to help is often preventing others from causing harm."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Killian_SOS_Name": {
+        "oracleText": "Killian",
+        "translation": "Killian"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_Killian_STX_Bio": {
         "oracleText": "Killian Lu is a competitive and driven student of Silverquill who puts a lot of pressure on himself. His father being one of the deans doesn't make it any easier. While Killian's talents may seem effortless, he secretly trains for long hours every day.",
         "translation": "齐力安是一个好胜心强的银毫学生，他给自己施加了很大的压力。他的父亲是院长之一，这并没有让他轻松。或许齐力安看似毫不费力就拥有那些天赋，不过他每天都会进行长时间的秘密训练。"
@@ -58783,6 +59435,14 @@
         "oracleText": "Quintorius Kand",
         "translation": "昆托力康德"
     },
+    "MainNav/Profile/Avatars/Avatar_Basic_Quintorius_SOS_Bio": {
+        "oracleText": "Quintorius Kand, Lorehold student and recently sparked Planeswalker, has ventured out into the wider Multiverse. While investigating the remnants of the Fomori, Quint followed the trail back to Arcavios, allowing him to guide younger students as they search for answers on the Fields of Strife.",
+        "translation": "Quintorius Kand, Lorehold student and recently sparked Planeswalker, has ventured out into the wider Multiverse. While investigating the remnants of the Fomori, Quint followed the trail back to Arcavios, allowing him to guide younger students as they search for answers on the Fields of Strife."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Quintorius_SOS_Name": {
+        "oracleText": "Quintorius",
+        "translation": "Quintorius"
+    },
     "MainNav/Profile/Avatars/Avatar_Basic_Quintorius_STX_Bio": {
         "oracleText": "Quintorius Kand is a gentle, earnest-hearted archaeomancer. Expelled from a military academy, he discovered his true passion as a student of Lorehold. Quintorius is an extensive reader with a head full of facts and a big heart, even for a loxodon.",
         "translation": "昆托力康德是一位温和、真诚的古语术士。被一所军事学院开除，他发现自己对于衡鉴修习法师的身分怀有真正的热诚。昆托力博览群书，学富五车。在经历于不同道路上摸索的漫长青春期之后，他一心只想「寻找自我」，而且他相信自己能够藉由探索世界上奇妙的历史名胜而达成该目标。他当然能够利用一点指引来协助他找到方向。"
@@ -58846,6 +59506,14 @@
     "MainNav/Profile/Avatars/Avatar_Basic_Rocksteady_TMT_Pixel_Name": {
         "oracleText": "Rocksteady",
         "translation": "洛克斯代迪"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Rootha_SOS_Bio": {
+        "oracleText": "Rootha Squallheart is intense, passionate, and obsessed with perfecting her art. Despite significant magical aptitude, Rootha has delayed her graduation, unable to finish the thesis she has lingered on for years. Her artistic vision feels impossible unless she can learn to let go of perfection.",
+        "translation": "Rootha Squallheart is intense, passionate, and obsessed with perfecting her art. Despite significant magical aptitude, Rootha has delayed her graduation, unable to finish the thesis she has lingered on for years. Her artistic vision feels impossible unless she can learn to let go of perfection."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Rootha_SOS_Name": {
+        "oracleText": "Rootha",
+        "translation": "Rootha"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Rootha_STX_Bio": {
         "oracleText": "Rootha Squallheart is a student of Prismari. She is intense, passionate, and obsessed with perfecting her art. She often becomes enamored of a visionary idea, spends weeks working to make it incredible, then suddenly hates her creation and destroys it.",
@@ -59542,6 +60210,14 @@
     "MainNav/Profile/Avatars/Avatar_Basic_Zimone_FDN_Name": {
         "oracleText": "Zimone, Paradox Sculptor",
         "translation": "悖论塑师琦梦"
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Zimone_SOS_Bio": {
+        "oracleText": "Zimone Wola, mathematical prodigy and survivor of Duskmourn, graduated from Quandrix and wrapped up an internship on Ravnica to begin her Strixhaven graduate studies. Determined to solve future threats like Duskmourn, Zimone put her mind to the test and created multiple copies of herself.",
+        "translation": "Zimone Wola, mathematical prodigy and survivor of Duskmourn, graduated from Quandrix and wrapped up an internship on Ravnica to begin her Strixhaven graduate studies. Determined to solve future threats like Duskmourn, Zimone put her mind to the test and created multiple copies of herself."
+    },
+    "MainNav/Profile/Avatars/Avatar_Basic_Zimone_SOS_Name": {
+        "oracleText": "Zimone",
+        "translation": "Zimone"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Zimone_STX_Bio": {
         "oracleText": "Zimone Wola is a young prodigy who was accepted to Strixhaven early. She is a whiz at many forms of mystical arts, but eventually gravitated to the mathematical magic of Quandrix. Dark forces have noticed her considerable talents...",
@@ -67279,6 +67955,154 @@
         "oracleText": "New Capenna Sticker Bundle",
         "translation": "新卡佩纳贴纸套装"
     },
+    "MainNav/Store/Bundles/Bundle_SOS_Dina_Desc": {
+        "oracleText": "Dina Sleeve\nDina Avatar",
+        "translation": "Dina Sleeve\nDina Avatar"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_Dina_Name": {
+        "oracleText": "Dina Bundle",
+        "translation": "Dina Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_Dragons_Desc": {
+        "oracleText": "Silverquill, the Disputant Borderless Card Style\nPrismari, the Inspiration Borderless Card Style\nWitherbloom, the Balancer Borderless Card Style\nLorehold, the Historian Borderless Card Style\nQuandrix, the Proof Borderless Card Style",
+        "translation": "Silverquill, the Disputant Borderless Card Style\nPrismari, the Inspiration Borderless Card Style\nWitherbloom, the Balancer Borderless Card Style\nLorehold, the Historian Borderless Card Style\nQuandrix, the Proof Borderless Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_Dragons_Name": {
+        "oracleText": "Borderless Dragons",
+        "translation": "Borderless Dragons"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_FF_BasicLands_Desc": {
+        "oracleText": "Full Art Land Plains\nFull Art Land Island\nFull Art Land Swamp\nFull Art Land Mountain\nFull Art Land Forest",
+        "translation": "Full Art Land Plains\nFull Art Land Island\nFull Art Land Swamp\nFull Art Land Mountain\nFull Art Land Forest"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_FF_BasicLands_Name": {
+        "oracleText": "Full Art Basic Lands",
+        "translation": "Full Art Basic Lands"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_FieldMonsters _Desc": {
+        "oracleText": "Tragedy Feaster Fieldnotes Card Style\nMagmablood Archaic Fieldnotes Card Style \nWildgrowth Archaic Fieldnotes Card Style\nColorstorm Stallion Fieldnotes Card Style\nBlech, Loafing Pest Fieldnotes Card Style\nGeometer's Arthropod Fieldnotes Card Style\nThe Dawning Archaic Fieldnotes Card Style",
+        "translation": "Tragedy Feaster Fieldnotes Card Style\nMagmablood Archaic Fieldnotes Card Style \nWildgrowth Archaic Fieldnotes Card Style\nColorstorm Stallion Fieldnotes Card Style\nBlech, Loafing Pest Fieldnotes Card Style\nGeometer's Arthropod Fieldnotes Card Style\nThe Dawning Archaic Fieldnotes Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_FieldMonsters_Desc": {
+        "oracleText": "Tragedy Feaster Fieldnotes Card Style\nMagmablood Archaic Fieldnotes Card Style \nWildgrowth Archaic Fieldnotes Card Style\nColorstorm Stallion Fieldnotes Card Style\nBlech, Loafing Pest Fieldnotes Card Style\nGeometer's Arthropod Fieldnotes Card Style\nThe Dawning Archaic Fieldnotes Card Style",
+        "translation": "Tragedy Feaster Fieldnotes Card Style\nMagmablood Archaic Fieldnotes Card Style \nWildgrowth Archaic Fieldnotes Card Style\nColorstorm Stallion Fieldnotes Card Style\nBlech, Loafing Pest Fieldnotes Card Style\nGeometer's Arthropod Fieldnotes Card Style\nThe Dawning Archaic Fieldnotes Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_FieldMonsters_Name": {
+        "oracleText": "Fieldnotes - Magic Monsters",
+        "translation": "Fieldnotes - Magic Monsters"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_FieldSpells_Desc": {
+        "oracleText": "Restoration Seminar Fieldnotes Card Style\nEchocasting Symposium Fieldnotes Card Style\nDecorum Disseratation Fieldnotes Card Style\nImprovisation Capstone Fieldnotes Card Style\nGermination Practicum Fieldnotes Card Style",
+        "translation": "Restoration Seminar Fieldnotes Card Style\nEchocasting Symposium Fieldnotes Card Style\nDecorum Disseratation Fieldnotes Card Style\nImprovisation Capstone Fieldnotes Card Style\nGermination Practicum Fieldnotes Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_FieldSpells_Name": {
+        "oracleText": "Fieldnotes - Spectacular Spells",
+        "translation": "Fieldnotes - Spectacular Spells"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_Killian_Desc": {
+        "oracleText": "Killian Sleeve\nKillian Avatar",
+        "translation": "Killian Sleeve\nKillian Avatar"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_Killian_Name": {
+        "oracleText": "Killian Bundle",
+        "translation": "Killian Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_MAJP_B_Desc": {
+        "oracleText": "Sheoldred's Edict JP Mystical Archive Card Style\nSmallpox JP Mystical Archive Card Style\nCulling the Weak JP Mystical Archive Card Style\nDismember JP Mystical Archive Card Style\nLiving End JP Mystical Archive Card Style\nAd Nauseam JP Mystical Archive Card Style\nVampiric Tutor JP Mystical Archive Card Style",
+        "translation": "Sheoldred's Edict JP Mystical Archive Card Style\nSmallpox JP Mystical Archive Card Style\nCulling the Weak JP Mystical Archive Card Style\nDismember JP Mystical Archive Card Style\nLiving End JP Mystical Archive Card Style\nAd Nauseam JP Mystical Archive Card Style\nVampiric Tutor JP Mystical Archive Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_MAJP_B_Name": {
+        "oracleText": "Mystical Archives JP - Black",
+        "translation": "Mystical Archives JP - Black"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_MAJP_G_Desc": {
+        "oracleText": "Veil of Summer JP Mystical Archive Card Style\nCrop Rotation JP Mystical Archive Card Style\nGlimpse of Nature JP Mystical Archive Card Style\nShamanic Revelation JP Mystical Archive Card Style\nBerserk JP Mystical Archive Card Style\nTriumph of the Hordes JP Mystical Archive Card Style\nAwaken the Woods JP Mystical Archive Card Style",
+        "translation": "Veil of Summer JP Mystical Archive Card Style\nCrop Rotation JP Mystical Archive Card Style\nGlimpse of Nature JP Mystical Archive Card Style\nShamanic Revelation JP Mystical Archive Card Style\nBerserk JP Mystical Archive Card Style\nTriumph of the Hordes JP Mystical Archive Card Style\nAwaken the Woods JP Mystical Archive Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_MAJP_G_Name": {
+        "oracleText": "Mystical Archives JP - Green",
+        "translation": "Mystical Archives JP - Green"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_MAJP_R_Desc": {
+        "oracleText": "Brotherhood's End JP Mystical Archive Card Style\nEmpty the Warrens JP Mystical Archive Card Style\nBig Score JP Mystical Archive Card Style\nPyretic Ritual JP Mystical Archive Card Style\nJeska's Will JP Mystical Archive Card Style\nCrackle with Power JP Mystical Archive Card Style\nSubterranean Tremors JP Mystical Archive Card Style",
+        "translation": "Brotherhood's End JP Mystical Archive Card Style\nEmpty the Warrens JP Mystical Archive Card Style\nBig Score JP Mystical Archive Card Style\nPyretic Ritual JP Mystical Archive Card Style\nJeska's Will JP Mystical Archive Card Style\nCrackle with Power JP Mystical Archive Card Style\nSubterranean Tremors JP Mystical Archive Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_MAJP_R_Name": {
+        "oracleText": "Mystical Archives JP - Red",
+        "translation": "Mystical Archives JP - Red"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_MAJP_U_Desc": {
+        "oracleText": "Preordain JP Mystical Archive Card Style\nPongify JP Mystical Archive Card Style\nDaze JP Mystical Archive Card Style\nBrain Freeze JP Mystical Archive Card Style\nCyclonic Rift JP Mystical Archive Card Style\nForce of Will JP Mystical Archive Card Style\nFlusterstorm JP Mystical Archive Card Style",
+        "translation": "Preordain JP Mystical Archive Card Style\nPongify JP Mystical Archive Card Style\nDaze JP Mystical Archive Card Style\nBrain Freeze JP Mystical Archive Card Style\nCyclonic Rift JP Mystical Archive Card Style\nForce of Will JP Mystical Archive Card Style\nFlusterstorm JP Mystical Archive Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_MAJP_U_Name": {
+        "oracleText": "Mystical Archives JP - Blue",
+        "translation": "Mystical Archives JP - Blue"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_MAJP_W_Desc": {
+        "oracleText": "Return to the Ranks JP Mystical Archive Card Style\nPrismatic Ending JP Mystical Archive Card Style\nReprieve JP Mystical Archive Card Style\nAngel's Grace JP Mystical Archive Card Style\nWinds of Abandon JP Mystical Archive Card Style\nAkroma's Will JP Mystical Archive Card Style\nArmageddon JP Mystical Archive Card Style",
+        "translation": "Return to the Ranks JP Mystical Archive Card Style\nPrismatic Ending JP Mystical Archive Card Style\nReprieve JP Mystical Archive Card Style\nAngel's Grace JP Mystical Archive Card Style\nWinds of Abandon JP Mystical Archive Card Style\nAkroma's Will JP Mystical Archive Card Style\nArmageddon JP Mystical Archive Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_MAJP_W_Name": {
+        "oracleText": "Mystical Archives JP - White",
+        "translation": "Mystical Archives JP - White"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_MAJP_Z_Desc": {
+        "oracleText": "Fracture JP Mystical Archive Card Style\nExpressive Iteration JP Mystical Archive Card Style\nDeflecting Palm JP Mystical Archive Card Style\nCulling Ritual JP Mystical Archive Card Style\nBring to Light JP Mystical Archive Card Style",
+        "translation": "Fracture JP Mystical Archive Card Style\nExpressive Iteration JP Mystical Archive Card Style\nDeflecting Palm JP Mystical Archive Card Style\nCulling Ritual JP Mystical Archive Card Style\nBring to Light JP Mystical Archive Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_MAJP_Z_Name": {
+        "oracleText": "Mystical Archives JP - Multicolor",
+        "translation": "Mystical Archives JP - Multicolor"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_Phrases_Desc": {
+        "oracleText": "Impeccable Technique Phrase Emote\nClass Is In Session Phrase Emote\nWrong Answers Phrase Emote\nDetention Bog Phrase Emote\nPledgemage Phrase Emote\nPracticed For This Phrase Emote",
+        "translation": "Impeccable Technique Phrase Emote\nClass Is In Session Phrase Emote\nWrong Answers Phrase Emote\nDetention Bog Phrase Emote\nPledgemage Phrase Emote\nPracticed For This Phrase Emote"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_Phrases_Name": {
+        "oracleText": "Phrase Bundle",
+        "translation": "Phrase Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_PortalLands_Desc": {
+        "oracleText": "Shattered Sanctum Borderless Card Style\nStormcarved Coast Borderless Card Style\nDeathcap Glade Borderless Card Style\nSundown Pass Borderless Card Style\nDreamroot Cascade Borderless Card Style",
+        "translation": "Shattered Sanctum Borderless Card Style\nStormcarved Coast Borderless Card Style\nDeathcap Glade Borderless Card Style\nSundown Pass Borderless Card Style\nDreamroot Cascade Borderless Card Style"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_PortalLands_Name": {
+        "oracleText": "Borderless Portal Lands",
+        "translation": "Borderless Portal Lands"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_Quint_Desc": {
+        "oracleText": "Quintorius Sleeve\nQuintorius Avatar",
+        "translation": "Quintorius Sleeve\nQuintorius Avatar"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_Quint_Name": {
+        "oracleText": "Quintorius Bundle",
+        "translation": "Quintorius Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_Rootha_Desc": {
+        "oracleText": "Rootha Sleeve\nRootha Avatar",
+        "translation": "Rootha Sleeve\nRootha Avatar"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_Rootha_Name": {
+        "oracleText": "Rootha Bundle",
+        "translation": "Rootha Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_Stickers_Desc": {
+        "oracleText": "Dine Tea Sticker Emote\nFrustrated Student Sticker Emote\nPrismari Violin Sticker Emote",
+        "translation": "Dine Tea Sticker Emote\nFrustrated Student Sticker Emote\nPrismari Violin Sticker Emote"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_Stickers_Name": {
+        "oracleText": "Sticker Bundle",
+        "translation": "Sticker Bundle"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_Zimone_Desc": {
+        "oracleText": "Zimone Sleeve\nZimone Avatar",
+        "translation": "Zimone Sleeve\nZimone Avatar"
+    },
+    "MainNav/Store/Bundles/Bundle_SOS_Zimone_Name": {
+        "oracleText": "Zimone Bundle",
+        "translation": "Zimone Bundle"
+    },
     "MainNav/Store/Bundles/Bundle_STA_B_Desc": {
         "oracleText": "Agonizing Remorse Card Style\nCrux of Fate Card Style\nDuress Card Style\nInquisition of Kozilek Card Style\nSign in Blood Card Style\nTainted Pact Card Style\nTendrils of Agony Card Style",
         "translation": "*苦痛悔恨*卡牌样式\n*命途交错*卡牌样式\n*逼从*卡牌样式\n*寇基雷的审讯*卡牌样式\n*以血立契*卡牌样式\n*腐败协定*卡牌样式\n*苦痛卷须*卡牌样式"
@@ -73235,9 +74059,53 @@
         "oracleText": "Deep in the sewers of New York City, the Turtles have made their home in a disused section of tunnels and storage rooms. Despite being composed of mostly secondhand and repurposed items, the Turtles home is comfortable and safe.",
         "translation": "在纽约市下水道的深处，忍者神龟们将废弃的隧道和储藏室区域作为自己的家园。尽管主要由二手和改造物品构成，这个家却既舒适又安全。"
     },
+    "Match/QueueTips/Queue_Tip_368_SOS_SetCode": {
+        "oracleText": "To show only cards from Secrets Of Strixhaven in the deckbuilder, type \"set:SOS\" into the search bar. Each set has a unique 3-letter-code.",
+        "translation": "To show only cards from Secrets Of Strixhaven in the deckbuilder, type \"set:SOS\" into the search bar. Each set has a unique 3-letter-code."
+    },
+    "Match/QueueTips/Queue_Tip_369_SOS_Silverquill": {
+        "oracleText": "Silverquill students study the magic of language, using their eloquent speeches to bolster their allies, and their razor-sharp wit to literally cut through opponents' defenses. They gravitate towards leadership roles both on and off campus, and their mascots are inklings.",
+        "translation": "Silverquill students study the magic of language, using their eloquent speeches to bolster their allies, and their razor-sharp wit to literally cut through opponents' defenses. They gravitate towards leadership roles both on and off campus, and their mascots are inklings."
+    },
     "Match/QueueTips/Queue_Tip_37": {
         "oracleText": "If your opening hand doesn't contain any early plays, consider taking a mulligan.",
         "translation": "如果你的起手牌中没有可在游戏早期打出的牌，则应考虑「再调度」。"
+    },
+    "Match/QueueTips/Queue_Tip_370_SOS_Prismari": {
+        "oracleText": "Prismari students study art, showcasing their raw creativity through spellcraft. Each student uses their own style of elemental magic to express themselves in painting, sculpture, song, or dance. Their mascots are elementals.",
+        "translation": "Prismari students study art, showcasing their raw creativity through spellcraft. Each student uses their own style of elemental magic to express themselves in painting, sculpture, song, or dance. Their mascots are elementals."
+    },
+    "Match/QueueTips/Queue_Tip_371_SOS_Lorehold": {
+        "oracleText": "Lorehold students are captivated by history and driven by adventure. Their magic can be used to summon spirits of long-dead historical figures to help answer questions of the past and help predict the future. Their mascots are statues infused with spirits of the past.",
+        "translation": "Lorehold students are captivated by history and driven by adventure. Their magic can be used to summon spirits of long-dead historical figures to help answer questions of the past and help predict the future. Their mascots are statues infused with spirits of the past."
+    },
+    "Match/QueueTips/Queue_Tip_372_SOS_Quandrix": {
+        "oracleText": "Quandrix students study the underlying mathematical principles of nature, turning the theoretical into something physical. To them, reality is little more than an equation to be solved. Their mascots are fractals.",
+        "translation": "Quandrix students study the underlying mathematical principles of nature, turning the theoretical into something physical. To them, reality is little more than an equation to be solved. Their mascots are fractals."
+    },
+    "Match/QueueTips/Queue_Tip_373_SOS_Witherbloom": {
+        "oracleText": "Witherbloom students draw their power from the opposing forces of life and death. They can cause whole forests to blossom, or decay flesh from bone instantly. Some other schools may find them creepy, but they just take it in stride. Their mascots are pests.",
+        "translation": "Witherbloom students draw their power from the opposing forces of life and death. They can cause whole forests to blossom, or decay flesh from bone instantly. Some other schools may find them creepy, but they just take it in stride. Their mascots are pests."
+    },
+    "Match/QueueTips/Queue_Tip_374_SOS_Archaics": {
+        "oracleText": "The Archaics are a race of wise giants who posses an innate talent for magic. Few know the origins of Archaics, but they can often be found exploring the Vastlands.",
+        "translation": "The Archaics are a race of wise giants who posses an innate talent for magic. Few know the origins of Archaics, but they can often be found exploring the Vastlands."
+    },
+    "Match/QueueTips/Queue_Tip_375_SOS_Vastlands": {
+        "oracleText": "The Vastlands of Arcavios are a sprawling continent full of discovery and danger. Many sites contain sources of knowledge and spell components that college leaders wish to further study.",
+        "translation": "The Vastlands of Arcavios are a sprawling continent full of discovery and danger. Many sites contain sources of knowledge and spell components that college leaders wish to further study."
+    },
+    "Match/QueueTips/Queue_Tip_376_SOS_MageTower": {
+        "oracleText": "Mage Tower is a competitive team sport played by the students of Strixhaven. It is the main spectator sport of the school, drawing in huge crowds of fans from the university and beyond.",
+        "translation": "Mage Tower is a competitive team sport played by the students of Strixhaven. It is the main spectator sport of the school, drawing in huge crowds of fans from the university and beyond."
+    },
+    "Match/QueueTips/Queue_Tip_377_SOS_CodieTheCodex": {
+        "oracleText": "Codie – or Codex Vocifera, as it prefers to be called – is a centuries-old tome that contains convoluted mystical knowledge. It spends most of its time roaming the new Biblioplex, searching for misplaced tomes, and muttering grouchily to itself.",
+        "translation": "Codie – or Codex Vocifera, as it prefers to be called – is a centuries-old tome that contains convoluted mystical knowledge. It spends most of its time roaming the new Biblioplex, searching for misplaced tomes, and muttering grouchily to itself."
+    },
+    "Match/QueueTips/Queue_Tip_378_SOS_TheOracle": {
+        "oracleText": "The Oracle is the wisest and most accomplished mage in all of Arcavios. The current Oracle is Jadzi, a Strixhaven graduate from decades ago, who specializes in substance manipulation. She is highly attuned to mana currents, and can help predict new formations of snarls or star arches across the plane.",
+        "translation": "The Oracle is the wisest and most accomplished mage in all of Arcavios. The current Oracle is Jadzi, a Strixhaven graduate from decades ago, who specializes in substance manipulation. She is highly attuned to mana currents, and can help predict new formations of snarls or star arches across the plane."
     },
     "Match/QueueTips/Queue_Tip_38": {
         "oracleText": "An ideal opening hand typically has three or four lands in it. If you have more than five or fewer than two, consider taking a mulligan.",
@@ -76315,6 +77183,10 @@
         "oracleText": "Shadows Remastered",
         "translation": "暗影重铸"
     },
+    "PlayBlade/Filters/Dynamic/SOSLimitedTitle": {
+        "oracleText": "Secrets of Strixhaven Limited",
+        "translation": "Secrets of Strixhaven Limited"
+    },
     "PlayBlade/Filters/Dynamic/SpecialLimitedDescription": {
         "oracleText": "Special Limited Format Events",
         "translation": "特别限制赛赛事"
@@ -77934,6 +78806,10 @@
     "SystemMessage/System_Event_Draft_Commence_Error_Text": {
         "oracleText": "Unable to start draft. Please try again later.",
         "translation": "无法开始轮抽。请于稍后重试。"
+    },
+    "SystemMessage/System_Event_Draft_Commence_Error_Text_60s": {
+        "oracleText": "Unable to start draft. Please try again in 60 seconds.",
+        "translation": "Unable to start draft. Please try again in 60 seconds."
     },
     "SystemMessage/System_Event_Draft_Complete_Error_Text": {
         "oracleText": "Unable to finish draft. Please try again later.",
