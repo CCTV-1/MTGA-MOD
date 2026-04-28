@@ -2185,7 +2185,7 @@
     },
     "AbilityHanger/Keyword/Miracle_Body": {
         "oracleText": "You may reveal a card with miracle as it's drawn, if it's the first card you drew this turn. When you do, you may cast it for its miracle cost.",
-        "translation": "如果它是你本回合抓到的第一张牌，你可以展示你抓到的奇迹牌，当你如此作，你可以支付其奇迹费用来施放它。"
+        "translation": "如果你本回合抓到的第一张牌为具有奇迹异能的牌，你可以展示之。当你如此作，你可以支付其奇迹费用来施放它。"
     },
     "AbilityHanger/Keyword/Miracle_Title": {
         "oracleText": "Miracle",
@@ -2273,7 +2273,7 @@
     },
     "AbilityHanger/Keyword/Myriad_Body": {
         "oracleText": "When a creature you control with Myriad attacks, for each opponent other than the defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat. No tokens are created in a two player game.",
-        "translation": "每当一个具有繁影异能生物攻击时，对防御牌手之外的每位对手而言，你可以派出一个横置的衍生物且正对该牌手或由他操控的某个鹏洛客进行攻击，该衍生物为此生物的复制品。在战斗结束时，放逐这些衍生物。在两个牌手对战中不会派出衍生物。"
+        "translation": "每当一个由你操控且具繁影异能的生物攻击时，对防御牌手之外的每位对手而言，你可以派出一个衍生复制品，其为横置且正向该牌手或某个由他操控的鹏洛客进行攻击。在战斗结束时，放逐这些衍生物。在双人游戏中，不会派出衍生物。"
     },
     "AbilityHanger/Keyword/Myriad_Title": {
         "oracleText": "Myriad",
@@ -7429,7 +7429,7 @@
     },
     "BattlePass/Rewards/SOS_Companion_Hover": {
         "oracleText": "Inquisitive Owlin: Mastery Pass Level 53",
-        "translation": "好奇猫鹰：精研通行证等级达到40"
+        "translation": "好奇猫鹰：精研通行证等级达到53"
     },
     "BattlePass/Rewards/SOS_Level1": {
         "oracleText": "Dellian Fell Avatar, Pompous Owlin Companion, and Biblioplex  Sleeve",
@@ -7437,7 +7437,7 @@
     },
     "BattlePass/Rewards/SOS_Pet2_And_Orb": {
         "oracleText": "1 Set Mastery Orb & Brooding Owlin Companion",
-        "translation": "1精研通行证法球 & 沉思猫鹰宠物"
+        "translation": "1颗精研法珠 & 沉思猫鹰宠物"
     },
     "BattlePass/Rewards/SOS_Pet3_And_Orb": {
         "oracleText": "1 Set Mastery Orb & Courageous Owlin Companion",
@@ -7445,7 +7445,7 @@
     },
     "BattlePass/Rewards/SOS_Pet4_And_Orb": {
         "oracleText": "1 Set Mastery Orb & Inquisitive Owlin Companion",
-        "translation": "1精研通行证法球 & 好奇猫鹰宠物"
+        "translation": "1颗精研法珠 & 好奇猫鹰宠物"
     },
     "BattlePass/Rewards/STA_ICR": {
         "oracleText": "1 Mystical Archive Card",
@@ -8965,7 +8965,7 @@
     },
     "Credits/Role/DirectorDigitalDevelopment": {
         "oracleText": "Director, Digital Development",
-        "translation": "数字化发展总监"
+        "translation": "数字开发总监"
     },
     "Credits/Role/DirectorDigitalGameDesign": {
         "oracleText": "Director of Digital Game Design",
@@ -9093,7 +9093,7 @@
     },
     "Credits/Role/SeniorManager": {
         "oracleText": "Senior Manager",
-        "translation": "高级经理"
+        "translation": "资深经理"
     },
     "Credits/Role/SeniorManagerDigitalProduct": {
         "oracleText": "Senior Manager Digital Product",
@@ -9173,7 +9173,7 @@
     },
     "Credits/Role/UXDesignDirector": {
         "oracleText": "UX Design Director",
-        "translation": "UX设计总监"
+        "translation": "用户体验设计总监"
     },
     "Credits/Role/VFXArtist": {
         "oracleText": "VFX Artist",
@@ -18777,11 +18777,11 @@
     },
     "Emotes/SOS/Full/Phrase_SOS_WrongAnswers": {
         "oracleText": "Wrong answers only!",
-        "translation": "回答错误！"
+        "translation": "只准答错！"
     },
     "Emotes/SOS/Full/Sticker_SOS_Dina_Tea": {
         "oracleText": "Dina Tea",
-        "translation": "迪娜下午茶"
+        "translation": "迪娜配茶"
     },
     "Emotes/SOS/Full/Sticker_SOS_Frustrated_Student": {
         "oracleText": "Frustrated Student",
@@ -18813,7 +18813,7 @@
     },
     "Emotes/SOS/Mini/Phrase_SOS_WrongAnswers": {
         "oracleText": "Wrong answers only!",
-        "translation": "回答错误！"
+        "translation": "只准答错！"
     },
     "Emotes/SS25/Full/Phrase_SS25_DidntNeed": {
         "oracleText": "I didn't need that anyway.",
@@ -23761,7 +23761,7 @@
     },
     "Events/Event_Desc_ArenaDirect_JPBLB_Play_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 7 wins to win 2 physical Japanese Bloomburrow Booster Boxes delivered to you.\n\nThe format for this event is 6 packs of <i>Bloomburrow</i> Sealed with single-game matches.  \n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>参加赛事，竞夺卡盒！</color></size>\n\n报名参加此赛事，赢得全部7胜就能获得两盒实体日文班隆洛常规补充包邮寄到家。\n\n本赛事的赛制为6包补充包的<i>班隆洛</i>BO1现开赛。\n<b><color=red>须年满18周岁方能参加。部分地区／地域不能参加本赛事。在法律禁止的地区无效。须创建或具现有威世智、DCI及i-Payout帐户方能领取奖金。完整详细信息，请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >此处</link></u>。</color></b>"
+        "translation": "<size=150%><color=#e1a154>参加赛事，竞夺卡盒！</color></size>\n\n报名参加此赛事，赢得全部7胜就能获得两盒实体日文班隆洛常规补充包邮寄到家。\n\n本赛事的赛制为6包补充包的<i>班隆洛</i>BO1现开赛。\n\n<b><color=red>须年满18周岁方能参加。部分地区／地域不能参加本赛事。在法律禁止的地区无效。须创建或具现有威世智、DCI及i-Payout帐户方能领取奖金。完整详细信息，请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >此处</link></u>。</color></b>"
     },
     "Events/Event_Desc_ArenaDirect_LCI_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win a pair of The Lost Caverns of Ixalan Set Booster Box delivered to you.\n\nThe format for this event is 6 packs of <i>The Lost Caverns of Ixalan</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-LCI-terms-and-conditions>here</link></u> for full details.</color></b>",
@@ -23793,11 +23793,11 @@
     },
     "Events/Event_Desc_ArenaDirect_SOS_Collector_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\nSign up for this event and get all 7 wins to win 1 physical Secrets of Strixhaven Collector Booster Box delivered to you.\nThe format for this event is 6 packs of *<i>Secrets of Strixhaven</i>* Sealed with single-game matches.  \n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>参加赛事，竞夺卡盒！</color></size>\n报名参加此赛事，赢得全部7胜就能获得一盒实体斯翠海文的秘密聚珍补充包邮寄到家。\n本赛事的赛制为6包补充包的<i>斯翠海文的秘密</i>BO1现开赛。\n<b><color=red>须年满18周岁方能参加。部分地区／地域不能参加本赛事。在法律禁止的地区无效。须创建或具现有威世智、DCI及i-Payout帐户方能领取奖金。完整详细信息，请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >此处</link></u>。</color></b>"
+        "translation": "<size=150%><color=#e1a154>参加赛事，竞夺卡盒！</color></size>\n\n报名参加此赛事，赢得全部7胜就能获得一盒实体斯翠海文的秘密聚珍补充包邮寄到家。\n\n本赛事的赛制为6包补充包的<i>斯翠海文的秘密</i>BO1现开赛。\n\n<b><color=red>须年满18周岁方能参加。部分地区／地域不能参加本赛事。在法律禁止的地区无效。须创建或具现有威世智、DCI及i-Payout帐户方能领取奖金。完整详细信息，请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >此处</link></u>。</color></b>"
     },
     "Events/Event_Desc_ArenaDirect_SOS_Play_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\nSign up for this event and get all 7 wins to win up to 2 physical Secrets of Strixhaven Play Booster Box delivered to you.\nThe format for this event is 6 packs of *<i>Secrets of Strixhaven</i>* Sealed with single-game matches.  \n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>参加赛事，竞夺卡盒！</color></size>\n报名参加此赛事，赢得全部7胜就能获得2盒实体斯翠海文的秘密常规补充包邮寄到家。\n本赛事的赛制为6包补充包的<i>斯翠海文的秘密</i>BO1现开赛。\n<b><color=red>须年满18周岁方能参加。部分地区／地域不能参加本赛事。在法律禁止的地区无效。须创建或具现有威世智、DCI及i-Payout帐户方能领取奖金。完整详细信息，请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >此处</link></u>。</color></b>"
+        "translation": "<size=150%><color=#e1a154>参加赛事，竞夺卡盒！</color></size>\n\n报名参加此赛事，赢得全部7胜就能获得2盒实体斯翠海文的秘密常规补充包邮寄到家。\n\n本赛事的赛制为6包补充包的<i>斯翠海文的秘密</i>BO1现开赛。\n\n<b><color=red>须年满18周岁方能参加。部分地区／地域不能参加本赛事。在法律禁止的地区无效。须创建或具现有威世智、DCI及i-Payout帐户方能领取奖金。完整详细信息，请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >此处</link></u>。</color></b>"
     },
     "Events/Event_Desc_ArenaDirect_TDM_Collector_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win a physical Tarkir: Dragonstorm Collector Booster Box delivered to you.\n\nThe format for this event is 6 packs of <i>Tarkir: Dragonstorm</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>",
@@ -25561,7 +25561,7 @@
     },
     "Events/Event_Desc_MWM_Brawl_Emblem_RitesofFlourishing": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\n This week's event is Rites of Flourishing Brawl: each turn, you draw an additional card and can play an additional land. All you'll need to play is a 100-card Brawl deck, led by your favorite legendary creature or planeswalker!",
-        "translation": "欢迎来到周中万智牌！每周尝试一种不同的方式来游玩万智牌竞技场！\n\n本周活动是茁壮仪式争锋：每个回合，你可以额外抽一张牌并且额外使用一张地。围绕你最喜爱的传奇生物或鹏洛客，使用万智牌竞技场中任意可用牌张构筑一副100张的争锋套牌！"
+        "translation": "欢迎参加周中万智牌！MTG竞技场每周玩法花样百出，次次活动都有全新感受！\n\n本周活动是茁壮仪式争锋：每个回合，你可以额外抽一张牌并且额外使用一张地。围绕你最喜爱的传奇生物或鹏洛客，使用万智牌竞技场中任意可用牌张构筑一副100张的争锋套牌！"
     },
     "Events/Event_Desc_MWM_Cascade": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Cascade: The first time you cast a spell each turn, you'll get to cast another, less expensive card from your library without paying its mana cost. What a bargain!",
@@ -26517,7 +26517,7 @@
     },
     "Events/Event_Desc_SOS_Premier_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n$/Events/SOS_Limited_Archetypes$",
-        "translation": "轮抽用补充包在桌上轮转，你每次需从中选择一张牌。这些牌张将加入你的收藏，而你将使用它们和基本地来构筑一副40张的套牌。不断进行对战，最后根据你的胜场数量赢得奖励！\n\n<b>真人轮抽～与其他7位牌手一同进行轮抽，有抽选时间限制</b>\n\n$/Events/SOS_Limited_Archetypes$"
+        "translation": "轮抽补充包在桌上轮转，你每次需从中选择一张牌。这些牌张将加入你的收藏，而你将使用它们和基本地来构筑一副40张的套牌。不断进行对战，最后根据你的胜场数量赢得奖励！\n\n<b>真人轮抽～与其他7位牌手一同进行轮抽，有抽选时间限制</b>\n\n$/Events/SOS_Limited_Archetypes$"
     },
     "Events/Event_Desc_SOS_Quick_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers\n\n$/Events/SOS_Limited_Archetypes$",
@@ -27733,7 +27733,7 @@
     },
     "Events/Event_Title_ArenaDirect_JPBLB_Play_Sealed": {
         "oracleText": "Arena Direct - Sealed Japanese Bloomburrow Play Booster Box",
-        "translation": "竞技场直邮赛 - 日文班隆洛现开（常规补充包）"
+        "translation": "竞技场直邮赛 - 班隆洛现开（日文常规补充包）"
     },
     "Events/Event_Title_ArenaDirect_LCI_Sealed": {
         "oracleText": "Arena Direct - Sealed The Lost Caverns of Ixalan",
@@ -33065,15 +33065,15 @@
     },
     "Events/Packets/SJMP_PacketName_SOS_Aesthetic": {
         "oracleText": "Aesthetic",
-        "translation": "美学（Aesthetic）"
+        "translation": "美学(Aesthetic)"
     },
     "Events/Packets/SJMP_PacketName_SOS_Field_Trip": {
         "oracleText": "Field Trip",
-        "translation": "实地考察（Field Trip）"
+        "translation": "实地考察(Field Trip)"
     },
     "Events/Packets/SJMP_PacketName_SOS_Grave": {
         "oracleText": "Grave",
-        "translation": "墓地（Grave）"
+        "translation": "墓地(Grave)"
     },
     "Events/Packets/SJMP_PacketName_SOS_Lorehold": {
         "oracleText": "Lorehold",
@@ -33089,7 +33089,7 @@
     },
     "Events/Packets/SJMP_PacketName_SOS_Scribe": {
         "oracleText": "Scribe",
-        "translation": "抄录（Scribe）"
+        "translation": "抄录(Scribe)"
     },
     "Events/Packets/SJMP_PacketName_SOS_Silverquill": {
         "oracleText": "Silverquill",
@@ -33653,7 +33653,7 @@
     },
     "Events/Tokens/AD_JP_BLB_Play": {
         "oracleText": "Magic: The Gathering Japanese Play Booster Box Token",
-        "translation": "万智牌：日文常规补充包代币"
+        "translation": "万智牌日文常规补充包代币"
     },
     "Events/Tokens/ArenaDay2Description": {
         "oracleText": "Open Day Two Qualification\nJoin between 6am and 8am Pacific",
@@ -34145,11 +34145,11 @@
     },
     "Events/Tokens/QualifierDay1TokenDescription20260411": {
         "oracleText": "Join between 6am and 8am Pacific on April 11",
-        "translation": "在太平洋时间4月11日的早上六点到八点加入"
+        "translation": "在太平洋时间4月11日上午6点到上午8点之间加入"
     },
     "Events/Tokens/QualifierDay1TokenDescription20260516": {
         "oracleText": "Join between 6am and 8am Pacific on May 16",
-        "translation": "太平洋时间5月16日上午6点到上午8点之间加入"
+        "translation": "在太平洋时间5月16日上午6点到上午8点之间加入"
     },
     "Events/Tokens/QualifierDay1TokenDescription20260613": {
         "oracleText": "Join between 6am and 8am Pacific on 2026-06-13",
@@ -34361,7 +34361,7 @@
     },
     "Events/Tokens/QualifierDay2TokenDescription20260412": {
         "oracleText": "Join between 6am and 8am Pacific on April 12",
-        "translation": "在太平洋时间4月12日的早上六点到八点加入"
+        "translation": "在太平洋时间4月12日上午6点到上午8点之间加入"
     },
     "Events/Tokens/QualifierDay2TokenDescription20260517": {
         "oracleText": "Join between 6am and 8am Pacific on May 17",
@@ -35109,7 +35109,7 @@
     },
     "General/Sets/PZA": {
         "oracleText": "Teenage Mutant Ninja Turtles Partner Source Overlays",
-        "translation": "忍者神龟拍档起源蒙层"
+        "translation": "忍者神龟原始素材"
     },
     "General/Sets/RIX": {
         "oracleText": "Rivals of Ixalan",
@@ -43593,23 +43593,23 @@
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_SOS_463630": {
         "oracleText": "Prismari Stylus Sleeve",
-        "translation": "粹丽笔触牌套"
+        "translation": "粹丽魔笔牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_SOS_463631": {
         "oracleText": "Witherbloom Stylus Sleeve",
-        "translation": "靡华笔触牌套"
+        "translation": "靡华魔笔牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_SOS_463632": {
         "oracleText": "Lorehold Stylus Sleeve",
-        "translation": "衡鉴笔触牌套"
+        "translation": "衡鉴魔笔牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_SOS_463633": {
         "oracleText": "Quandrix Stylus Sleeve",
-        "translation": "量析笔触牌套"
+        "translation": "量析魔笔牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_SOS_463635": {
         "oracleText": "Silverquill Stylus Sleeve",
-        "translation": "银毫笔触牌套"
+        "translation": "银毫魔笔牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_SOS_464349": {
         "oracleText": "Arcane Tome Exquisite Sleeve",
@@ -46669,7 +46669,7 @@
     },
     "MainNav/EventRewards/Invite": {
         "oracleText": "Invitation",
-        "translation": "请柬"
+        "translation": "参赛资格"
     },
     "MainNav/EventRewards/JinGitaxias_Reward": {
         "oracleText": "Jin-Gitaxias, Progress Tyrant Card Style",
@@ -47565,7 +47565,7 @@
     },
     "MainNav/EventRewards/nvite": {
         "oracleText": "Invitation",
-        "translation": "请柬"
+        "translation": "参赛资格"
     },
     "MainNav/EventsPage/AddToDecks": {
         "oracleText": "Add to Decks",
@@ -49261,31 +49261,31 @@
     },
     "MainNav/HomePage/Carousel/2026_57_50_AprilFools_Desc": {
         "oracleText": "...We're Weathered Together!",
-        "translation": "我们曾一起历经风雨！"
+        "translation": "...我们风雨同舟！"
     },
     "MainNav/HomePage/Carousel/2026_57_50_AprilFools_Title": {
         "oracleText": "No Matter the Weather...",
-        "translation": "无论天气如何"
+        "translation": "无论天气如何..."
     },
     "MainNav/HomePage/Carousel/2026_57_50_SOS_PhysPreRelease_Title": {
         "oracleText": "Your first opportunity to play Secrets of Strixhaven!",
-        "translation": "第一次尝试斯翠海文的机会来了！"
+        "translation": "第一次尝试斯翠海文的秘密的机会来了！"
     },
     "MainNav/HomePage/Carousel/2026_57_50_SOS_PreOrders_Desc": {
         "oracleText": "Be prepared for any upcoming lectures with these magical Pre-orders, available now in the Store!",
-        "translation": "为准备迎接即将到来的讲座，预购套装现已在商店推出！"
+        "translation": "为迎接即将到来的课程做好准备，这些魔法预购套装现已在商店推出！"
     },
     "MainNav/HomePage/Carousel/2026_57_50_SOS_PreOrders_Title": {
         "oracleText": "Secrets of Strixhaven Pre-orders!",
-        "translation": "预购斯翠海文的秘密！"
+        "translation": "斯翠海文的秘密预购！"
     },
     "MainNav/HomePage/Carousel/2026_57_50_SOS_Previews_Desc": {
         "oracleText": "Take a look at these magical cards coming soon to Arena!",
-        "translation": "抢先一睹即将登陆竞技场的这些神奇卡牌！"
+        "translation": "抢先一睹即将登陆竞技场的这些魔法卡牌！"
     },
     "MainNav/HomePage/Carousel/2026_57_50_SOS_Previews_Title": {
         "oracleText": "Secrets of Strixhaven Previews!",
-        "translation": "预览斯翠海文的秘密！"
+        "translation": "斯翠海文的秘密预览！"
     },
     "MainNav/HomePage/Carousel/2026_58_0_OrganizedPlay_SOS_JP_Desc": {
         "oracleText": "Prizes, Pro Tour Invites, and more are up for grabs. Click to learn more!",
@@ -49313,11 +49313,11 @@
     },
     "MainNav/HomePage/Carousel/2026_58_0_SOS_Store_Desc": {
         "oracleText": "Enhance your studies with incredible deals, available now in the Store! Check them out today!",
-        "translation": "用超值优惠助力你的学习，现已上架商城！快去看看吧！"
+        "translation": "商店现正推出超值优惠，助你学业更上一层楼！立即前往查看吧！"
     },
     "MainNav/HomePage/Carousel/2026_58_0_SOS_Store_Title": {
         "oracleText": "Magical Offerings!",
-        "translation": "魔法献礼！"
+        "translation": "魔法特卖！"
     },
     "MainNav/HomePage/Carousel/21_01_Store_Desc": {
         "oracleText": "Take part in the epic Saga of Kaldheim. New Boosters Packs, new Set Mastery Pass, new Showcase Bundles, and more!",
@@ -54681,7 +54681,7 @@
     },
     "MainNav/Mailbox/2026_58_0_SOS_SetAnnouncement_Description": {
         "oracleText": "Hope you've studied up! This year is going to be full of hands-on experience, so take these 3 packs and some basic lands to help you grow into the star pupil of MTG Arena!\n\nWant to dive even deeper into the lore of Magic? Start reading the story for this set by clicking the link below!",
-        "translation": "希望你已经做好功课！今年将充满大量实践体验——收下这3个补充包和一些基础地，助你在《万智牌：竞技场》中成长为最出色的学员！\n\n想更深入了解万智牌的背景故事？点击下方链接，开始阅读本系列的剧情吧！"
+        "translation": "希望你已经做好了功课！今年将充满实践体验，收下这三包补充包和基本地，助你成长为万智牌：竞技场的明星学员！\n\n想更深入地了解万智牌的背景故事吗？点击下方链接，开始阅读这个系列的万智故事吧！"
     },
     "MainNav/Mailbox/2026_58_0_SOS_SetAnnouncement_Title": {
         "oracleText": "School is Back in Session!",
@@ -54781,7 +54781,7 @@
     },
     "MainNav/Mailbox/2026_Maintenence_May4th_Description": {
         "oracleText": "Magic: The Gathering Arena will be undergoing maintenance on May 4th, beginning at 4am Pacific Time. The maintenance is expected to last 5 hours, but could extend if necessary. During this time, all of our services will be down and the play queues will be inaccessible. Click the link below to see more status updates, and thank you for your patience!",
-        "translation": "《万智牌：竞技场》将于 5月4日（太平洋时间凌晨4点） 开始进行维护。预计维护时长为 5小时，如有需要可能延长。在此期间，所有服务将暂停，且对局队列将无法访问。点击下方链接查看最新状态更新，感谢你的耐心等待！"
+        "translation": "万智牌：竞技场将于5月4日太平洋时间凌晨4点起进行维护。预计维护将持续5小时，但必要时可能延长。在此期间，所有服务将暂停，游戏队列将无法使用。请点击下方链接查看最新状态更新，感谢您的耐心等待！"
     },
     "MainNav/Mailbox/2026_SOSCinematic_Slide1": {
         "oracleText": "Welcome to Strixhaven University, the greatest repository of magical knowledge in the Multiverse!",
@@ -54805,7 +54805,7 @@
     },
     "MainNav/Mailbox/2026_SOSCinematic_Slide3": {
         "oracleText": "Strixhaven students choose one of five colleges to direct their study.",
-        "translation": "斯翠海文学生需在五个学院中选择其一，以决定其学业方向。"
+        "translation": "斯翠海文的学生需在五个学院中选择其一，以决定其学业方向。"
     },
     "MainNav/Mailbox/2026_SOSCinematic_Slide4": {
         "oracleText": "The eloquent orators of Silverquill research linguistic magic,",
@@ -54833,11 +54833,11 @@
     },
     "MainNav/Mailbox/2026_SOS_ArenaSurvey_Desc": {
         "oracleText": "In this survey, we want to hear the good, the bad, and everything in between about your recent experiences playing MTG Arena.\n\nThe survey should take 10-15 minutes to complete and will be open until May 6th.\n\nFeedback from players like you helps us make MTG Arena the best it can be!",
-        "translation": "在本次问卷中，我们希望了解你在游玩《万智牌：竞技场》近期体验中的优点、不足，以及介于两者之间的一切感受。\n\n本问卷预计需要 10–15 分钟 完成，并将开放至 5月6日。\n\n像你这样的玩家所提供的反馈，将帮助我们不断完善《万智牌：竞技场》，让它变得更好！"
+        "translation": "在本次问卷中，我们希望了解你在游玩万智牌：竞技场近期体验中的优点、不足，以及介于两者之间的一切感受。\n\n本问卷预计需要 10–15 分钟 完成，并将开放至 5月6日。\n\n像你这样的玩家所提供的反馈，将帮助我们不断完善万智牌：竞技场，让它变得更好！"
     },
     "MainNav/Mailbox/2026_SOS_ArenaSurvey_Title": {
         "oracleText": "Are you enjoying MTG Arena? Tell us about it!",
-        "translation": "你是否正在享受《万智牌：竞技场》的游戏体验？快来告诉我们吧！"
+        "translation": "你喜欢万智牌：竞技场吗？来和我们分享你的感受吧！"
     },
     "MainNav/Mailbox/2026_SOS_Cinematic_Teaser_Description": {
         "oracleText": "Click the button below to watch the Secrets of Strixhaven cinematic, and get excited for the latest set coming to Arena by Pre-ordering today!",
@@ -55785,7 +55785,7 @@
     },
     "MainNav/Mailbox/SOS_CPC_WelcomeDeck_AcqTest_Description": {
         "oracleText": "Thank you for visiting your local game store to redeem your digital prize with your Welcome Deck! Click below to add three <i>Secrets of Strixvhaven</i> packs to your collection!",
-        "translation": "感谢你前往当地牌店，使用迎新套牌兑换你的数字奖励！点击下方，将三个<i>斯翠海文的秘密</i>补充包加入你的收藏！"
+        "translation": "感谢你前往本地牌店，使用迎新套牌兑换你的数字奖励！点击下方，将三包<i>斯翠海文的秘密</i>补充包加入你的收藏！"
     },
     "MainNav/Mailbox/SOS_CPC_WelcomeDeck_AcqTest_Title": {
         "oracleText": "Welcome to Magic!",
@@ -59409,7 +59409,7 @@
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Quintorius_SOS_Bio": {
         "oracleText": "Quintorius Kand, Lorehold student and recently sparked Planeswalker, has ventured out into the wider Multiverse. While investigating the remnants of the Fomori, Quint followed the trail back to Arcavios, allowing him to guide younger students as they search for answers on the Fields of Strife.",
-        "translation": "昆托力康德——洛哈司学院的学生，亦是新近觉醒火花的鹏洛客——已踏入更为广阔的多重宇宙。在追查佛莫里遗迹的过程中，昆托力循迹回到阿凯维沃，并得以在争斗战场上引导年轻学员，协助他们探寻答案。"
+        "translation": "昆托力康德——衡鉴学院的学生，亦是新近觉醒火花的鹏洛客——已踏入更为广阔的多重宇宙。在追查佛莫里遗迹的过程中，昆托力循迹回到阿凯维沃，并得以在争斗战场上引导年轻学员，协助他们探寻答案。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Quintorius_SOS_Name": {
         "oracleText": "Quintorius",
@@ -60185,7 +60185,7 @@
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Zimone_SOS_Bio": {
         "oracleText": "Zimone Wola, mathematical prodigy and survivor of Duskmourn, graduated from Quandrix and wrapped up an internship on Ravnica to begin her Strixhaven graduate studies. Determined to solve future threats like Duskmourn, Zimone put her mind to the test and created multiple copies of herself.",
-        "translation": "琦梦沃拉——一位数学天才、亦是暮悲邸的幸存者——自量析学院毕业，并在拉尼卡完成实习后，开始于斯翠海文攻读研究生学业。为了解决如暮悲邸般的未来威胁，齐莫妮不断挑战自我，甚至创造出了多个自身的复制体。"
+        "translation": "琦梦沃拉——一位数学天才、亦是暮悲邸的幸存者——自量析学院毕业，并在拉尼卡完成实习后，开始于斯翠海文攻读研究生学业。为了解决如暮悲邸般的未来威胁，琦梦不断挑战自我，甚至创造出了多个自身的复制体。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Zimone_SOS_Name": {
         "oracleText": "Zimone",
@@ -68029,7 +68029,7 @@
     },
     "MainNav/Store/Bundles/Bundle_SOS_Phrases_Desc": {
         "oracleText": "Impeccable Technique Phrase Emote\nClass Is In Session Phrase Emote\nWrong Answers Phrase Emote\nDetention Bog Phrase Emote\nPledgemage Phrase Emote\nPracticed For This Phrase Emote",
-        "translation": "完美技艺短语表情\n现在上课短语表情\n答案错误短语表情\n留堂沼短语表情\n证法师短语表情\n我早练过短语表情"
+        "translation": "「完美技艺」短语表情\n「上课时间到」短语表情\n「只准答错」短语表情\n「留堂沼」短语表情\n「证法师」短语表情\n「早就练过」短语表情"
     },
     "MainNav/Store/Bundles/Bundle_SOS_Phrases_Name": {
         "oracleText": "Phrase Bundle",
@@ -68041,7 +68041,7 @@
     },
     "MainNav/Store/Bundles/Bundle_SOS_PortalLands_Name": {
         "oracleText": "Borderless Portal Lands",
-        "translation": "扩画慢慢地"
+        "translation": "扩画传送门地"
     },
     "MainNav/Store/Bundles/Bundle_SOS_Quint_Desc": {
         "oracleText": "Quintorius Sleeve\nQuintorius Avatar",
@@ -68061,7 +68061,7 @@
     },
     "MainNav/Store/Bundles/Bundle_SOS_Stickers_Desc": {
         "oracleText": "Dine Tea Sticker Emote\nFrustrated Student Sticker Emote\nPrismari Violin Sticker Emote",
-        "translation": "茶歇贴纸表情\n沮丧学生贴纸表情\n粹丽小提琴贴纸表情"
+        "translation": "迪娜配茶贴纸表情\n沮丧学生贴纸表情\n粹丽小提琴贴纸表情"
     },
     "MainNav/Store/Bundles/Bundle_SOS_Stickers_Name": {
         "oracleText": "Sticker Bundle",
@@ -69817,11 +69817,11 @@
     },
     "MainNav/Store/Bundles/mtga_preorder_SOS_pack_Desc": {
         "oracleText": "Pre-order <i>Secrets of Strixhaven</i> today and receive the following items on April 21, 2026:\n\n45 <i>Secrets of Strixhaven</i> Boosters\n5 <i>Secrets of Strixhaven</i> Mythic Boosters\n5 Golden Boosters\n1 Ral Zarek, Guest Lecturer Card\nRal Zarek, Guest Lecturer Card Style\n\nWhen purchased, you will immediately receive the Ral Zarek Sleeve.",
-        "translation": "即日预购<i>斯翠海文的秘密</i>，便可于2026年4月21日获得以下物品：\n\n45包<i>斯翠海文的秘密</i>补充包\n5包<i>斯翠海文的秘密</i>秘稀补充包\n5包黄金补充包\n1张客座讲师拉尔查雷克卡牌\n客座讲师拉尔查雷克卡牌样式\n\n完成购买后，便会立刻获得客座讲师拉尔查雷克牌套。"
+        "translation": "即日预购<i>斯翠海文的秘密</i>，便可于2026年4月21日获得以下物品：\n\n45包<i>斯翠海文的秘密</i>补充包\n5包<i>斯翠海文的秘密</i>秘稀补充包\n5包黄金补充包\n1张客座讲师拉尔查雷克卡牌\n客座讲师拉尔查雷克卡牌样式\n\n完成购买后，便会立刻获得拉尔查雷克牌套。"
     },
     "MainNav/Store/Bundles/mtga_preorder_SOS_play_Desc": {
         "oracleText": "Pre-order <i>Secrets of Strixhaven</i> today and receive the following items on April 21, 2026:\n\n4 Player Draft Tokens\n2 Sealed Token\n20 Play-In Points\n1x Professor Dellian Fell Card\nProfessor Dellian Fell Card Style\n\nWhen purchased, you will immediately receive the Professor Dellian Fell Sleeve and the Abigale Companion.",
-        "translation": "今天预购<i>斯翠海文的秘密</i>，可在2026年4月21日收到以下物品：\n\n4x 真人轮抽门票\n2x 现开门票\n20x 参赛积分\n1x 德连费尔教授卡牌\n*德连费尔教授*卡牌样式\n\n购买后，你将立即收到*德连费尔教授*牌套和艾比苟宠物。"
+        "translation": "今天预购<i>斯翠海文的秘密</i>，可在2026年4月21日收到以下物品：\n\n4张真人轮抽门票\n2张现开门票\n20点参赛积分\n1张德连费尔教授卡牌\n德连费尔教授卡牌样式\n\n完成购买后，便会立刻获得德连费尔教授牌套和艾比苟宠物。"
     },
     "MainNav/Store/Bundles/mtga_preorder_TMT_pack_Desc": {
         "oracleText": "Pre-order <i>Teenage Mutant Ninja Turtles</i> today and receive the following items on March 3, 2026:\n\n45 <i>Teenage Mutant Ninja Turtles</i> Boosters\n5 <i>Teenage Mutant Ninja Turtles</i> Mythic Boosters\n5 Golden Boosters\n1 Raphael, Ninja Destroyer Card\n1 Leonardo, Sewer Samurai Card\nRaphael, Ninja Destroyer Card Style\nLeonardo, Sewer Samurai Card Style\n\nWhen purchased, you will immediately receive the Raph & Leo Sleeve.\n\n©2026 Viacom International Inc.",
