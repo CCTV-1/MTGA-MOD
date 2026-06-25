@@ -73,11 +73,11 @@
     },
     "AbilityHanger/AbilityWord/BeholdAHero_Body": {
         "oracleText": "To behold a Hero, choose a Hero you control or reveal a Hero card from your hand.",
-        "translation": "To behold a Hero, choose a Hero you control or reveal a Hero card from your hand."
+        "translation": "请援英雄的流程是选择一个由你操控的英雄或从手上展示一张英雄牌。"
     },
     "AbilityHanger/AbilityWord/BeholdAHero_Title": {
         "oracleText": "Behold a Hero",
-        "translation": "Behold a Hero"
+        "translation": "请援英雄"
     },
     "AbilityHanger/AbilityWord/Behold_Body": {
         "oracleText": "Choose a creature you control with the chosen type or reveal a creature card with the chosen type from your hand.",
@@ -109,11 +109,11 @@
     },
     "AbilityHanger/AbilityWord/Behold_Gamma_Creature": {
         "oracleText": "To behold a Gamma Creature, choose a Gamma Creature you control or reveal a Gamma Creature card from your hand.",
-        "translation": "To behold a Gamma Creature, choose a Gamma Creature you control or reveal a Gamma Creature card from your hand."
+        "translation": "请援伽马人生物的流程是选择一个由你操控的伽马人生物或从手上展示一张伽马人生物牌。"
     },
     "AbilityHanger/AbilityWord/Behold_Gamma_Creature_Title": {
         "oracleText": "Behold a Gamma Creature",
-        "translation": "Behold a Gamma Creature"
+        "translation": "请援伽马人生物"
     },
     "AbilityHanger/AbilityWord/Behold_Goblin_Body": {
         "oracleText": "To behold a Goblin, choose a Goblin you control or reveal a Goblin card from your hand.",
@@ -345,11 +345,11 @@
     },
     "AbilityHanger/AbilityWord/PowerUp_Body": {
         "oracleText": "Activate each power-up ability only once. Reduce the cost by its mana cost if it entered this turn.",
-        "translation": "Activate each power-up ability only once. Reduce the cost by its mana cost if it entered this turn."
+        "translation": "每个超能异能只能起动一次。如果其为本回合进场，则此费用会减去其法术力费用。"
     },
     "AbilityHanger/AbilityWord/PowerUp_Title": {
         "oracleText": "Power-Up",
-        "translation": "Power-Up"
+        "translation": "超能"
     },
     "AbilityHanger/AbilityWord/Raid": {
         "oracleText": "This ability triggers if a creature you control attacked this turn.",
@@ -441,11 +441,11 @@
     },
     "AbilityHanger/AbilityWord/Teamwork_Body": {
         "oracleText": "As an additional cost to cast this spell, you may tap any number of creatures you control with total power {numeral} or more.",
-        "translation": "As an additional cost to cast this spell, you may tap any number of creatures you control with total power {numeral} or more."
+        "translation": "你可以横置任意数量由你操控且力量总和等于或大于{numeral}的生物，以作为施放此咒语的额外费用。"
     },
     "AbilityHanger/AbilityWord/Teamwork_Title": {
         "oracleText": "Teamwork {numeral}",
-        "translation": "Teamwork {numeral}"
+        "translation": "联合{numeral}"
     },
     "AbilityHanger/AbilityWord/Toxic_Body": {
         "oracleText": "A player dealt combat damage by a creature with toxic also gets poison counters equal to that creature's total toxic value.",
@@ -661,11 +661,11 @@
     },
     "AbilityHanger/Designation/Goaded_Body": {
         "oracleText": "Attacks each combat if able.",
-        "translation": "Attacks each combat if able."
+        "translation": "每次战斗若能攻击，则必须攻击。"
     },
     "AbilityHanger/Designation/Goaded_Title": {
         "oracleText": "Goaded",
-        "translation": "Goaded"
+        "translation": "已煽惑"
     },
     "AbilityHanger/Designation/Monstrous": {
         "oracleText": "Monstrous",
@@ -1565,11 +1565,11 @@
     },
     "AbilityHanger/Keyword/Devour_Body": {
         "oracleText": "As this creature enters, you may sacrifice any number of creatures. This creature enters the battlefield with {numeral} times that many +1/+1 counters on it.",
-        "translation": "As this creature enters, you may sacrifice any number of creatures. This creature enters the battlefield with {numeral} times that many +1/+1 counters on it."
+        "translation": "于此生物进场时，你可以牺牲任意数量的生物。此生物进战场时上面有该数量{numeral}倍的+1/+1指示物。"
     },
     "AbilityHanger/Keyword/Devour_Title": {
         "oracleText": "Devour {numeral}",
-        "translation": "Devour {numeral}"
+        "translation": "吞噬{numeral}"
     },
     "AbilityHanger/Keyword/Discover10_Body": {
         "oracleText": "Exile cards from the top of your library until you exile a nonland card with mana value 10 or less. You may cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.",
@@ -1893,7 +1893,7 @@
     },
     "AbilityHanger/Keyword/Harness_UB_Body": {
         "oracleText": "Once harnessed, this permanent's ∞ ability is active.",
-        "translation": "Once harnessed, this permanent's ∞ ability is active."
+        "translation": "一旦受掌控后，此永久物的∞异能便会生效。"
     },
     "AbilityHanger/Keyword/HasFinalityCounter": {
         "oracleText": "If this would go to a graveyard from the battlefield, exile this instead.",
@@ -3265,15 +3265,15 @@
     },
     "AbilityHanger/Keyword/Web-Slinging_Body": {
         "oracleText": "You may cast this spell for {abilityCost} if you also return a tapped creature you control to its owner's hand.",
-        "translation": "You may cast this spell for {abilityCost} if you also return a tapped creature you control to its owner's hand."
+        "translation": "如果你额外将一个由你操控且已横置的生物移回其拥有者手上，则可以支付{abilityCost}来施放此咒语。"
     },
     "AbilityHanger/Keyword/Web-Slinging_Reference_Body": {
         "oracleText": "You may cast this spell for its web-slinging cost if you also return a tapped creature you control to its owner's hand.",
-        "translation": "You may cast this spell for its web-slinging cost if you also return a tapped creature you control to its owner's hand."
+        "translation": "如果你额外将一个由你操控且已横置的生物移回其拥有者手上，则可以支付其蛛丝甩荡费用来施放此咒语。"
     },
     "AbilityHanger/Keyword/Web-Slinging_Title": {
         "oracleText": "Web-slinging",
-        "translation": "Web-slinging"
+        "translation": "蛛丝甩荡"
     },
     "AbilityHanger/Keyword/WickedRole_Body": {
         "oracleText": "Enchanted creature gets +1/+1. When this Aura is put into a graveyard from the battlefield, each opponent loses 1 life.",
@@ -3297,11 +3297,11 @@
     },
     "AbilityHanger/Keyword/Worthy_Body": {
         "oracleText": "A creature is worthy if it's a legendary non-Villain that's red and/or white.",
-        "translation": "A creature is worthy if it's a legendary non-Villain that's red and/or white."
+        "translation": "如果某生物是非反派的传奇，且是红色和／或白色，它便是英杰。"
     },
     "AbilityHanger/Keyword/Worthy_Title": {
         "oracleText": "Worthy",
-        "translation": "Worthy"
+        "translation": "英杰"
     },
     "AbilityHanger/Keyword/X": {
         "oracleText": "X",
@@ -4129,7 +4129,7 @@
     },
     "Achievements/CardReward_Generic": {
         "oracleText": "Card Reward",
-        "translation": "Card Reward"
+        "translation": "卡牌奖励"
     },
     "Achievements/ClaimAll": {
         "oracleText": "Claim All",
@@ -4681,7 +4681,7 @@
     },
     "Achievements/Core/Formats/Brawl_1_desc": {
         "oracleText": "Play 25 games of unranked Brawl.",
-        "translation": "Play 25 games of unranked Brawl."
+        "translation": "进行25场非排位争锋赛制对局。"
     },
     "Achievements/Core/Formats/Brawl_1_desc_alt": {
         "oracleText": "Win a game of Brawl with 5 different Commanders.",
@@ -4697,7 +4697,7 @@
     },
     "Achievements/Core/Formats/Brawl_2_desc": {
         "oracleText": "Play 150 games of unranked Brawl.",
-        "translation": "Play 150 games of unranked Brawl."
+        "translation": "进行150场非排位争锋赛制对局。"
     },
     "Achievements/Core/Formats/Brawl_2_desc_alt": {
         "oracleText": "Win a game of Brawl with 15 different Commanders.",
@@ -4713,7 +4713,7 @@
     },
     "Achievements/Core/Formats/Brawl_3_desc": {
         "oracleText": "Play 450 games of unranked Brawl.",
-        "translation": "Play 450 games of unranked Brawl."
+        "translation": "进行450场非排位争锋赛制对局。"
     },
     "Achievements/Core/Formats/Brawl_3_desc_alt": {
         "oracleText": "Win a game of Brawl with 50 different Commanders.",
@@ -4853,27 +4853,27 @@
     },
     "Achievements/Core/Formats/RankedBrawl_1": {
         "oracleText": "Competitive Brawler I",
-        "translation": "Competitive Brawler I"
+        "translation": "竞技争锋客 I"
     },
     "Achievements/Core/Formats/RankedBrawl_1_desc": {
         "oracleText": "Play 25 matchmade games of Competitive Brawl.",
-        "translation": "Play 25 matchmade games of Competitive Brawl."
+        "translation": "进行25场竞技争锋赛制匹配对战。"
     },
     "Achievements/Core/Formats/RankedBrawl_2": {
         "oracleText": "Competitive Brawler II",
-        "translation": "Competitive Brawler II"
+        "translation": "竞技争锋客 II"
     },
     "Achievements/Core/Formats/RankedBrawl_2_desc": {
         "oracleText": "Play 150 matchmade games of Competitive Brawl.",
-        "translation": "Play 150 matchmade games of Competitive Brawl."
+        "translation": "进行150场竞技争锋赛制匹配对战。"
     },
     "Achievements/Core/Formats/RankedBrawl_3": {
         "oracleText": "Competitive Brawler III",
-        "translation": "Competitive Brawler III"
+        "translation": "竞技争锋客 III"
     },
     "Achievements/Core/Formats/RankedBrawl_3_desc": {
         "oracleText": "Play 450 matchmade games of Competitive Brawl.",
-        "translation": "Play 450 matchmade games of Competitive Brawl."
+        "translation": "进行450场竞技争锋赛制匹配对战。"
     },
     "Achievements/Core/Formats/Standard_1": {
         "oracleText": "Standard Mage I",
@@ -5857,131 +5857,131 @@
     },
     "Achievements/MSH/AgentofDoom": {
         "oracleText": "Agent of Doom",
-        "translation": "Agent of Doom"
+        "translation": "毁灭博士特工"
     },
     "Achievements/MSH/AgentofDoom_desc": {
         "oracleText": "Cast 100 Black spells over any number of games.",
-        "translation": "Cast 100 Black spells over any number of games."
+        "translation": "在任意数量的对局中，施放100个黑色咒语。"
     },
     "Achievements/MSH/BrutalBrawler": {
         "oracleText": "Brutal Brawler",
-        "translation": "Brutal Brawler"
+        "translation": "蛮野斗客"
     },
     "Achievements/MSH/BrutalBrawler_desc": {
         "oracleText": "Put one or more counters on a creature you control 50 or more times over any number of games.",
-        "translation": "Put one or more counters on a creature you control 50 or more times over any number of games."
+        "translation": "在任意数量的对局中，在一个由你操控的生物上放置一个或数个指示物至少50次。"
     },
     "Achievements/MSH/ClawsofBast": {
         "oracleText": "Claws of Bast",
-        "translation": "Claws of Bast"
+        "translation": "巴斯特之爪"
     },
     "Achievements/MSH/ClawsofBast_desc": {
         "oracleText": "Gain one or more life 50 times over any number of games.",
-        "translation": "Gain one or more life 50 times over any number of games."
+        "translation": "在任意数量的对局中，获得一点或更多生命50次。"
     },
     "Achievements/MSH/DaringOperative": {
         "oracleText": "Daring Operative",
-        "translation": "Daring Operative"
+        "translation": "大胆特务"
     },
     "Achievements/MSH/DaringOperative_desc": {
         "oracleText": "Mill one or more cards from any player's library 50 times over any number of games.",
-        "translation": "Mill one or more cards from any player's library 50 times over any number of games."
+        "translation": "在任意数量的对局中，磨任意牌手的牌库一张或更多牌50次。"
     },
     "Achievements/MSH/EarthsMightiestHeroesI": {
         "oracleText": "Earth's Mightiest Heroes I",
-        "translation": "Earth's Mightiest Heroes I"
+        "translation": "世上最强英雄联盟 I"
     },
     "Achievements/MSH/EarthsMightiestHeroesII": {
         "oracleText": "Earth's Mightiest Heroes II",
-        "translation": "Earth's Mightiest Heroes II"
+        "translation": "世上最强英雄联盟 II"
     },
     "Achievements/MSH/EarthsMightiestHeroesIII": {
         "oracleText": "Earth's Mightiest Heroes III",
-        "translation": "Earth's Mightiest Heroes III"
+        "translation": "世上最强英雄联盟 III"
     },
     "Achievements/MSH/EarthsMightiestHeroesIII_desc": {
         "oracleText": "Cast 100 or more Hero spells over any number of games.",
-        "translation": "Cast 100 or more Hero spells over any number of games."
+        "translation": "在任意数量的对局中，施放100个或更多英雄咒语。"
     },
     "Achievements/MSH/EarthsMightiestHeroesII_desc": {
         "oracleText": "Cast 30 or more Hero spells over any number of games.",
-        "translation": "Cast 30 or more Hero spells over any number of games."
+        "translation": "在任意数量的对局中，施放30个或更多英雄咒语。"
     },
     "Achievements/MSH/EarthsMightiestHeroesI_desc": {
         "oracleText": "Cast 10 or more Hero spells over any number of games.",
-        "translation": "Cast 10 or more Hero spells over any number of games."
+        "translation": "在任意数量的对局中，施放10个或更多英雄咒语。"
     },
     "Achievements/MSH/GodofThunder": {
         "oracleText": "God of Thunder",
-        "translation": "God of Thunder"
+        "translation": "雷神"
     },
     "Achievements/MSH/GodofThunder_desc": {
         "oracleText": "Cast 100 Red spells over any number of games.",
-        "translation": "Cast 100 Red spells over any number of games."
+        "translation": "在任意数量的对局中，施放100个红色咒语。"
     },
     "Achievements/MSH/ModernMarvel": {
         "oracleText": "Modern Marvel",
-        "translation": "Modern Marvel"
+        "translation": "摩登惊奇"
     },
     "Achievements/MSH/ModernMarvel_desc": {
         "oracleText": "Cast artifact spells or sacrifice artifacts 50 times over any number of games.",
-        "translation": "Cast artifact spells or sacrifice artifacts 50 times over any number of games."
+        "translation": "在任意数量的对局中，施放神器咒语或牺牲神器共50次。"
     },
     "Achievements/MSH/ProtectorofEarth": {
         "oracleText": "Protector of Earth",
-        "translation": "Protector of Earth"
+        "translation": "地球保护者"
     },
     "Achievements/MSH/ProtectorofEarth_desc": {
         "oracleText": "Cast 100 White spells over any number of games.",
-        "translation": "Cast 100 White spells over any number of games."
+        "translation": "在任意数量的对局中，施放100个白色咒语。"
     },
     "Achievements/MSH/ShakerofSkies": {
         "oracleText": "Shaker of Skies",
-        "translation": "Shaker of Skies"
+        "translation": "撼天者"
     },
     "Achievements/MSH/ShakerofSkies_desc": {
         "oracleText": "Cast 100 Green spells over any number of games.",
-        "translation": "Cast 100 Green spells over any number of games."
+        "translation": "在任意数量的对局中，施放100个绿色咒语。"
     },
     "Achievements/MSH/SpectacularI": {
         "oracleText": "Spectacular I",
-        "translation": "Spectacular I"
+        "translation": "神奇 I"
     },
     "Achievements/MSH/SpectacularII": {
         "oracleText": "Spectacular II",
-        "translation": "Spectacular II"
+        "translation": "神奇 II"
     },
     "Achievements/MSH/SpectacularIII": {
         "oracleText": "Spectacular III",
-        "translation": "Spectacular III"
+        "translation": "神奇 III"
     },
     "Achievements/MSH/SpectacularIII_desc": {
         "oracleText": "Play 50 Games.",
-        "translation": "Play 50 Games."
+        "translation": "进行50场对局。"
     },
     "Achievements/MSH/SpectacularII_desc": {
         "oracleText": "Play 15 Games.",
-        "translation": "Play 15 Games."
+        "translation": "进行15场对局。"
     },
     "Achievements/MSH/SpectacularI_desc": {
         "oracleText": "Play 5 Games.",
-        "translation": "Play 5 Games."
+        "translation": "进行5场对局。"
     },
     "Achievements/MSH/TitanofInnovation": {
         "oracleText": "Titan of Innovation",
-        "translation": "Titan of Innovation"
+        "translation": "创新泰坦"
     },
     "Achievements/MSH/TitanofInnovation_desc": {
         "oracleText": "Cast 100 Blue spells over any number of games.",
-        "translation": "Cast 100 Blue spells over any number of games."
+        "translation": "在任意数量的对局中，施放100个蓝色咒语。"
     },
     "Achievements/MSH/Web-Spinner": {
         "oracleText": "Web-Spinner",
-        "translation": "Web-Spinner"
+        "translation": "纺丝者"
     },
     "Achievements/MSH/Web-Spinner_desc": {
         "oracleText": "Cast 50 or more Spider spells over any number of games.",
-        "translation": "Cast 50 or more Spider spells over any number of games."
+        "translation": "在任意数量的对局中，施放50个或更多蜘蛛咒语。"
     },
     "Achievements/UI/AchievementsTab": {
         "oracleText": "Achievements",
@@ -6029,11 +6029,11 @@
     },
     "Achievements/UI/MSHAchievementsDescription": {
         "oracleText": "Celebrate the arrival of Marvel Super Heroes with new limited-time Achievements!",
-        "translation": "Celebrate the arrival of Marvel Super Heroes with new limited-time Achievements!"
+        "translation": "庆祝漫威超级英雄到来，全新限时成就现已开启！"
     },
     "Achievements/UI/MSHAchievementsHeader": {
         "oracleText": "Avengers Assemble!",
-        "translation": "Avengers Assemble!"
+        "translation": "复仇者集结！"
     },
     "Achievements/UI/NPEAchievementsHeader": {
         "oracleText": "New Player Achievements",
@@ -6145,7 +6145,7 @@
     },
     "AgentofDoom_CardRewardKey": {
         "oracleText": "x4 Madame Hydra, Reanimated\nx4 Glamorous Grapplers\nx4 Minotaur, Roxxon CEO",
-        "translation": "x4 Madame Hydra, Reanimated\nx4 Glamorous Grapplers\nx4 Minotaur, Roxxon CEO"
+        "translation": "x4 复生的九头蛇夫人\nx4 迷人摔跤手\nx4 洛桑执行官牛头怪"
     },
     "Apple/ACR_Cosmetics_ShortDesc": {
         "oracleText": "Includes 1 Avatar and 9 Sleeves",
@@ -7105,11 +7105,11 @@
     },
     "BattlePass/Rewards/ICR_MSH_M": {
         "oracleText": "<i>Marvel Super Heroes</i> Mythic Card Reward",
-        "translation": "<i>Marvel Super Heroes</i> Mythic Card Reward"
+        "translation": "<i>漫威超级英雄</i>秘稀卡牌奖励"
     },
     "BattlePass/Rewards/ICR_MSH_M_Plural": {
         "oracleText": "{number1} <i>Marvel Super Heroes</i> Mythic Card Rewards",
-        "translation": "{number1} <i>Marvel Super Heroes</i> Mythic Card Rewards"
+        "translation": "{number1}张<i>漫威超级英雄</i>秘稀卡牌奖励"
     },
     "BattlePass/Rewards/ICR_OM1_M": {
         "oracleText": "<i>Through the Omenpaths</i> Mythic Card Reward",
@@ -7517,83 +7517,83 @@
     },
     "BattlePass/Rewards/MSH_AbominationIrradiatedBrute_4": {
         "oracleText": "4x Abomination, Irradiated Brute",
-        "translation": "4x Abomination, Irradiated Brute"
+        "translation": "4x 辐射蛮怪恶煞"
     },
     "BattlePass/Rewards/MSH_AbsorbingManandTitania_4": {
         "oracleText": "4x Absorbing Man and Titania",
-        "translation": "4x Absorbing Man and Titania"
+        "translation": "4x 吸收人与泰坦妮亚"
     },
     "BattlePass/Rewards/MSH_BlackWidowIntelExpert_4": {
         "oracleText": "4x Black Widow, Intel Expert",
-        "translation": "4x Black Widow, Intel Expert"
+        "translation": "4x 情报专家黑寡妇"
     },
     "BattlePass/Rewards/MSH_CaptainAmericaUnbowed_4": {
         "oracleText": "4x Captain America, Unbowed",
-        "translation": "4x Captain America, Unbowed"
+        "translation": "4x 不屈英雄美国队长"
     },
     "BattlePass/Rewards/MSH_Companion_Hover": {
         "oracleText": "Captain America's Energy Shield: Mastery Pass Level 43",
-        "translation": "Captain America's Energy Shield: Mastery Pass Level 43"
+        "translation": "美国队长的能量盾：精研通行证等级达到43"
     },
     "BattlePass/Rewards/MSH_HawkeyeTrickShot_4": {
         "oracleText": "4x Hawkeye, Trick Shot",
-        "translation": "4x Hawkeye, Trick Shot"
+        "translation": "4x 特技射手鹰眼"
     },
     "BattlePass/Rewards/MSH_HulkAlwaysAngry_4": {
         "oracleText": "4x Hulk, Always Angry",
-        "translation": "4x Hulk, Always Angry"
+        "translation": "4x 怒拳常握浩克"
     },
     "BattlePass/Rewards/MSH_IronManFuturistParagon_4": {
         "oracleText": "4x Iron Man, Futurist Paragon",
-        "translation": "4x Iron Man, Futurist Paragon"
+        "translation": "4x 未来主义模范钢铁侠"
     },
     "BattlePass/Rewards/MSH_Level1": {
         "oracleText": "Nick Fury Avatar, Captain America's Heater Shield Companion, and Captain America, Team Leader Sleeve",
-        "translation": "Nick Fury Avatar, Captain America's Heater Shield Companion, and Captain America, Team Leader Sleeve"
+        "translation": "尼克·弗瑞头像，美国队长的三角盾宠物以及团队领袖美国队长牌套"
     },
     "BattlePass/Rewards/MSH_LokiGodofLies_4": {
         "oracleText": "4x Loki, God of Lies",
-        "translation": "4x Loki, God of Lies"
+        "translation": "4x 谎言之神洛基"
     },
     "BattlePass/Rewards/MSH_MODOKEvilIntellect_4": {
         "oracleText": "4x M.O.D.O.K., Evil Intellect",
-        "translation": "4x M.O.D.O.K., Evil Intellect"
+        "translation": "4x 邪恶智能魔多客"
     },
     "BattlePass/Rewards/MSH_Pet2": {
         "oracleText": "Captain America's Vibranium Shield Companion",
-        "translation": "Captain America's Vibranium Shield Companion"
+        "translation": "美国队长的振金盾宠物"
     },
     "BattlePass/Rewards/MSH_Pet2_And_Orb": {
         "oracleText": "1 Set Mastery Orb & Captain America's Vibranium Shield Companion",
-        "translation": "1 Set Mastery Orb & Captain America's Vibranium Shield Companion"
+        "translation": "1颗精研法球 & 美国队长的振金盾宠物"
     },
     "BattlePass/Rewards/MSH_Pet3": {
         "oracleText": "Captain America's Energy Shield Companion",
-        "translation": "Captain America's Energy Shield Companion"
+        "translation": "美国队长的能量盾宠物"
     },
     "BattlePass/Rewards/MSH_Pet3_And_Orb": {
         "oracleText": "1 Set Mastery Orb & Captain America's Energy Shield Companion",
-        "translation": "1 Set Mastery Orb & Captain America's Energy Shield Companion"
+        "translation": "1颗精研法球 & 美国队长的能量盾宠物"
     },
     "BattlePass/Rewards/MSH_SceneCardHero_Desc": {
         "oracleText": "from <i>Marvel Super Heroes</i> Heroes Assemble Scene Box",
-        "translation": "from <i>Marvel Super Heroes</i> Heroes Assemble Scene Box"
+        "translation": "来自<i>漫威超级英雄</i>英雄集结场景盒"
     },
     "BattlePass/Rewards/MSH_SceneCardVillain_Desc": {
         "oracleText": "from <i>Marvel Super Heroes</i> Villains Unite Scene Box",
-        "translation": "from <i>Marvel Super Heroes</i> Villains Unite Scene Box"
+        "translation": "来自<i>漫威超级英雄</i>反派联手场景盒"
     },
     "BattlePass/Rewards/MSH_ThanosDeathsConsort_4": {
         "oracleText": "4x Thanos, Death's Consort",
-        "translation": "4x Thanos, Death's Consort"
+        "translation": "4x 死神亲眷灭霸"
     },
     "BattlePass/Rewards/MSH_ThorGuardianofMidgard_4": {
         "oracleText": "4x Thor, Guardian of Midgard",
-        "translation": "4x Thor, Guardian of Midgard"
+        "translation": "4x 米德加德守护者索尔"
     },
     "BattlePass/Rewards/MSH_UltronMachineOverlord_4": {
         "oracleText": "4x Ultron, Machine Overlord",
-        "translation": "4x Ultron, Machine Overlord"
+        "translation": "4x 机械霸主奥创"
     },
     "BattlePass/Rewards/MultipleMythicICR": {
         "oracleText": "{number1} Mythic Card Rewards",
@@ -7729,7 +7729,7 @@
     },
     "BattlePass/Rewards/Orbs": {
         "oracleText": "{number1} Orbs",
-        "translation": "{number1} Orbs"
+        "translation": "{number1}颗法珠"
     },
     "BattlePass/Rewards/Orbs_And_DraftToken": {
         "oracleText": "{number1} Set Mastery Orbs & 1 Player Draft Entry",
@@ -8245,7 +8245,7 @@
     },
     "BrutalBrawler_CardRewardKey": {
         "oracleText": "x4 Hulk, Brutal Brawler",
-        "translation": "x4 Hulk, Brutal Brawler"
+        "translation": "x4 蛮野斗客浩克"
     },
     "Buy_Avatars_Title": {
         "oracleText": "<color=white>Buy Avatars</color>*",
@@ -8353,7 +8353,7 @@
     },
     "ClawsofBast_CardRewardKey": {
         "oracleText": "x4 Black Panther, Claws of Bast",
-        "translation": "x4 Black Panther, Claws of Bast"
+        "translation": "x4 巴斯特之爪黑豹"
     },
     "Codex/2023/StarterDeck_BG_Description": {
         "oracleText": "<color #CCCCCC>Fill up your graveyard with goodies to use, reuse, and abuse its contents against your terrified opponents!",
@@ -8961,7 +8961,7 @@
     },
     "Codex/WaysToPlay/Formats/Constructed_Brawl_A": {
         "oracleText": "<indent=5%><color #E9E9F6><b>Brawl</b><color #CCCCCC>, and its cousin, <color #E9E9F6><b>Historic Brawl</b><color #CCCCCC>, are constructed formats",
-        "translation": "<indent=5%><color #E9E9F6><b>Brawl</b><color #CCCCCC>, and its cousin, <color #E9E9F6><b>Historic Brawl</b><color #CCCCCC>, are constructed formats"
+        "translation": "<indent=5%><color #E9E9F6><b>争锋</b><color #CCCCCC>（及衍生之<color #E9E9F6><b>史迹争锋</b><color #CCCCCC>）也都是构筑赛制"
     },
     "Codex/WaysToPlay/Formats/Constructed_Brawl_Header": {
         "oracleText": "<indent=5%>Brawl",
@@ -9029,7 +9029,7 @@
     },
     "Codex/WaysToPlay/Formats/JumpIn/JumpIn_A": {
         "oracleText": "<indent=5%><color #E9E9F6><b>Jump In!</b><color #CCCCCC> is an easy to play format that's perfect for newly sparked Planeswalkers to...well...<color #E9E9F6><b>Jump into!</b><color #CCCCCC> In fact, you only need to make two choices before you get right into playing: selecting two different half-decks from a variety of cool themes. Combine them, and you'll have decks with names like <color #E9E9F6><b>\"High-Tech Knights\"</b><color #CCCCCC> or <color #E9E9F6><b>\"Oily Vampires\"</b><color #CCCCCC> ready to go!<br><br>You might have earned some <b>\"Jump-In Tokens\"</b><color #CCCCCC> during your journey and here's where you can cash them in! MTG Arena takes care of what lands to play, and while you'll even earn a prize for winning a game, you can play with your deck as many times as you'd like.<br><br>This format uses cards legal in <color #E9E9F6><b>Historic</b><color #CCCCCC>, and is a good first step toward playing other formats like <color #E9E9F6><b>Draft</b><color #CCCCCC> and <color #E9E9F6><b>Sealed</b><color #CCCCCC>. What are those? Keep playing and you're sure to find out!",
-        "translation": "<indent=5%><color #E9E9F6><b>Jump In!</b><color #CCCCCC> is an easy to play format that's perfect for newly sparked Planeswalkers to...well...<color #E9E9F6><b>Jump into!</b><color #CCCCCC> In fact, you only need to make two choices before you get right into playing: selecting two different half-decks from a variety of cool themes. Combine them, and you'll have decks with names like <color #E9E9F6><b>\"High-Tech Knights\"</b><color #CCCCCC> or <color #E9E9F6><b>\"Oily Vampires\"</b><color #CCCCCC> ready to go!<br><br>You might have earned some <b>\"Jump-In Tokens\"</b><color #CCCCCC> during your journey and here's where you can cash them in! MTG Arena takes care of what lands to play, and while you'll even earn a prize for winning a game, you can play with your deck as many times as you'd like.<br><br>This format uses cards legal in <color #E9E9F6><b>Historic</b><color #CCCCCC>, and is a good first step toward playing other formats like <color #E9E9F6><b>Draft</b><color #CCCCCC> and <color #E9E9F6><b>Sealed</b><color #CCCCCC>. What are those? Keep playing and you're sure to find out!"
+        "translation": "<indent=5%><color #E9E9F6><b>速学！</b><color #CCCCCC>本赛制上手简单，非常适合刚点燃火花的新晋鹏洛客们来...<color #E9E9F6><b>投身加入！</b><color #CCCCCC>你实际上只需要做两个选择就可以开始游戏：在一系列酷炫主题的套牌中选择两套半副套牌。将他们混合一起，你就会得到一副名称像是<color #E9E9F6><b>「尖端科技+骑士列阵」</b><color #CCCCCC>或 <color #E9E9F6><b>「烁油缠身+吸血魔鬼」</b><color #CCCCCC>这样的完整套牌，可以用来进行对战！<br><br>你在之前的游戏历程中可能也已经获得了一些<b>「速学门票」</b><color #CCCCCC> ，这里便是兑换它们的地方！MTGA会帮你配好套牌中需要用到的地牌，你每赢一盘还能得到奖品，而且利用同一副套牌进行对战的次数并无限制。<br><br>本赛制利用在<color #E9E9F6><b>史迹</b><color #CCCCCC>赛制中允用之牌张，你也可以藉此当作练习其他赛制（如<color #E9E9F6><b>轮抽</b><color #CCCCCC>和<color #E9E9F6><b>现开</b><color #CCCCCC>）良好起点。这些又是什么赛制？别心急，继续投身游戏，亲身经历后就会知道！"
     },
     "Codex/WaysToPlay/Formats/Limited_A": {
         "oracleText": "<color #E9E9F6><b>Limited</b><color #CCCCCC> events are where you open up packs during the event itself and build a deck out of what you find! You're able to use as many basic lands as you'd like, and the minimum number of cards for these decks is 40, with players playing around 17 lands, but MTG Arena will take care of this for you.",
@@ -9597,7 +9597,7 @@
     },
     "DaringOperative_CardRewardKey": {
         "oracleText": "x4 Black Widow, Daring Operative",
-        "translation": "x4 Black Widow, Daring Operative"
+        "translation": "x4 大胆特务黑寡妇"
     },
     "DeckFolders/MyDecks": {
         "oracleText": "My Decks",
@@ -13037,11 +13037,11 @@
     },
     "Decks/SGF_1": {
         "oracleText": "Avengers",
-        "translation": "Avengers"
+        "translation": "复仇者"
     },
     "Decks/SGF_2": {
         "oracleText": "Kingpin",
-        "translation": "Kingpin"
+        "translation": "金并"
     },
     "Decks/StoreDecks/DFT/Wave1/Champion5CUlalek": {
         "oracleText": "Champion Deck: Brawl Ulalek, Fused Atrocity",
@@ -13593,31 +13593,31 @@
     },
     "Decks/StoreDecks/MSH/Wave22/BR-Villains": {
         "oracleText": "Starter Deck: Standard Black Red Villains",
-        "translation": "Starter Deck: Standard Black Red Villains"
+        "translation": "起始套牌：标准红黑反派"
     },
     "Decks/StoreDecks/MSH/Wave22/CaptainAmerica": {
         "oracleText": "Foundation Deck: Brawl Captain America, Team Leader",
-        "translation": "Foundation Deck: Brawl Captain America, Team Leader"
+        "translation": "基础套牌：争锋团队领袖美国队长"
     },
     "Decks/StoreDecks/MSH/Wave22/DoctorDoom": {
         "oracleText": "Foundation Deck: Brawl Doctor Doom, King of Latveria",
-        "translation": "Foundation Deck: Brawl Doctor Doom, King of Latveria"
+        "translation": "基础套牌：争锋拉托维利亚之王毁灭博士"
     },
     "Decks/StoreDecks/MSH/Wave22/FantasticFour": {
         "oracleText": "Foundation Deck: Brawl The Fantastic Four",
-        "translation": "Foundation Deck: Brawl The Fantastic Four"
+        "translation": "基础套牌：争锋神奇四侠"
     },
     "Decks/StoreDecks/MSH/Wave22/GW-Heroes": {
         "oracleText": "Starter Deck: Standard Green White Heroes",
-        "translation": "Starter Deck: Standard Green White Heroes"
+        "translation": "起始套牌：标准白绿英雄"
     },
     "Decks/StoreDecks/MSH/Wave22/RW-Equipment": {
         "oracleText": "Starter Deck: Standard Red White Equipment",
-        "translation": "Starter Deck: Standard Red White Equipment"
+        "translation": "起始套牌：标准红白武具"
     },
     "Decks/StoreDecks/MSH/Wave22/TChalla": {
         "oracleText": "Foundation Deck: Brawl T'Challa, the Black Panther",
-        "translation": "Foundation Deck: Brawl T'Challa, the Black Panther"
+        "translation": "基础套牌：争锋黑豹特查拉"
     },
     "Decks/StoreDecks/SOS/Wave20/Dina": {
         "oracleText": "Foundation Deck: Brawl Dina, Essence Brewer",
@@ -14041,7 +14041,7 @@
     },
     "DuelScene/Browsers/BrowserCardInfo_Teamwork": {
         "oracleText": "Teamwork",
-        "translation": "Teamwork"
+        "translation": "联合"
     },
     "DuelScene/Browsers/BrowserCardInfo_Unattach": {
         "oracleText": "Unattach",
@@ -14049,7 +14049,7 @@
     },
     "DuelScene/Browsers/BrowserCardInfo_WebSlinging": {
         "oracleText": "Web-slinging",
-        "translation": "Web-slinging"
+        "translation": "蛛丝甩荡"
     },
     "DuelScene/Browsers/BrowserSubheader_DragToGraveyard": {
         "oracleText": "Drag a card into your graveyard.",
@@ -18293,15 +18293,15 @@
     },
     "EarthsMightiestHeroesIII_CardRewardKey": {
         "oracleText": "x4 Wondrous Revival\nx4 Power Boost\nx4 Experimental Armor",
-        "translation": "x4 Wondrous Revival\nx4 Power Boost\nx4 Experimental Armor"
+        "translation": "x4 神力复生\nx4 力量增幅\nx4 实验性装甲"
     },
     "EarthsMightiestHeroesII_CardRewardKey": {
         "oracleText": "x4 Hawkeye's Shot\nx4 Concentrated Fire\nx4 Soldier On\nx4 Furious Strength",
-        "translation": "x4 Hawkeye's Shot\nx4 Concentrated Fire\nx4 Soldier On\nx4 Furious Strength"
+        "translation": "x4 鹰眼的射击\nx4 集束火力\nx4 战士坚守\nx4 怒火力量"
     },
     "EarthsMightiestHeroesI_CardRewardKey": {
         "oracleText": "x4 Captain's Defense\nx4 Repulsor Rays\nx4 Smashing Spree\nx4 Feral Ferocity",
-        "translation": "x4 Captain's Defense\nx4 Repulsor Rays\nx4 Smashing Spree\nx4 Feral Ferocity"
+        "translation": "x4 队长的防御\nx4 冲击射线\nx4 狂砸无歇\nx4 狂野血性"
     },
     "Emotes/Achievements/Core/Full/AlchemyPhrase": {
         "oracleText": "Check out my latest brew!",
@@ -18433,11 +18433,11 @@
     },
     "Emotes/Achievements/Core/Full/RankedBrawlPhrase": {
         "oracleText": "Do you pay the one?",
-        "translation": "Do you pay the one?"
+        "translation": "你要支一吗？"
     },
     "Emotes/Achievements/Core/Full/RankedBrawlPhrase_RewardKey": {
         "oracleText": "\"Do you pay the one?\" Phrase Emote",
-        "translation": "\"Do you pay the one?\" Phrase Emote"
+        "translation": "「你要支一吗？」短语表情"
     },
     "Emotes/Achievements/Core/Full/StandardPhrase": {
         "oracleText": "Nice deck!",
@@ -18517,7 +18517,7 @@
     },
     "Emotes/Achievements/Core/Truncated/RankedBrawlPhrase": {
         "oracleText": "Pay the one?",
-        "translation": "Pay the one?"
+        "translation": "支一吗？"
     },
     "Emotes/Achievements/Core/Truncated/SeeTheLine": {
         "oracleText": "Never Didn't",
@@ -19065,83 +19065,83 @@
     },
     "Emotes/MSH/Full/Phrase_MSH_AvengersAssemble": {
         "oracleText": "Avengers Assemble!",
-        "translation": "Avengers Assemble!"
+        "translation": "复仇者集结！"
     },
     "Emotes/MSH/Full/Phrase_MSH_ClobberinTime": {
         "oracleText": "It's clobberin' time!",
-        "translation": "It's clobberin' time!"
+        "translation": "痛扁时间到！"
     },
     "Emotes/MSH/Full/Phrase_MSH_HulkSmash": {
         "oracleText": "Hulk Smash!",
-        "translation": "Hulk Smash!"
+        "translation": "浩克，砸！"
     },
     "Emotes/MSH/Full/Phrase_MSH_ImMagic": {
         "oracleText": "You're pretty good. But me? I'm Magic.",
-        "translation": "You're pretty good. But me? I'm Magic."
+        "translation": "亲爱的，你已经很厉害了。至于我？我是天才。"
     },
     "Emotes/MSH/Full/Phrase_MSH_ImpressiveHuh": {
         "oracleText": "Impressive, huh?",
-        "translation": "Impressive, huh?"
+        "translation": "挺雄伟的，对吧？"
     },
     "Emotes/MSH/Full/Phrase_MSH_KnuckleSandwiches": {
         "oracleText": "Knuckle sandwiches for everyone!",
-        "translation": "Knuckle sandwiches for everyone!"
+        "translation": "指虎三明治人人有份！"
     },
     "Emotes/MSH/Full/Phrase_MSH_NotDying": {
         "oracleText": "Dibs on not dying this time.",
-        "translation": "Dibs on not dying this time."
+        "translation": "这次争取不死。"
     },
     "Emotes/MSH/Full/Phrase_MSH_RighteousSmiting": {
         "oracleText": "Verily, 'tis time for righteous smiting!",
-        "translation": "Verily, 'tis time for righteous smiting!"
+        "translation": "诚然，该来一场正义的痛击了！"
     },
     "Emotes/MSH/Full/Phrase_MSH_StarsAndGarters": {
         "oracleText": "Oh, my stars and garters!",
-        "translation": "Oh, my stars and garters!"
+        "translation": "哦，我的星星和勋章啊！"
     },
     "Emotes/MSH/Full/Phrase_MSH_WorstDay": {
         "oracleText": "Our worst day is only where we start from.",
-        "translation": "Our worst day is only where we start from."
+        "translation": "最终末日只是我们努力的起点。"
     },
     "Emotes/MSH/Mini/Phrase_MSH_AvengersAssemble": {
         "oracleText": "Avengers Assemble!",
-        "translation": "Avengers Assemble!"
+        "translation": "复仇者集结！"
     },
     "Emotes/MSH/Mini/Phrase_MSH_ClobberinTime": {
         "oracleText": "It's clobberin' time!",
-        "translation": "It's clobberin' time!"
+        "translation": "痛扁时间到！"
     },
     "Emotes/MSH/Mini/Phrase_MSH_HulkSmash": {
         "oracleText": "Hulk Smash!",
-        "translation": "Hulk Smash!"
+        "translation": "浩克，砸！"
     },
     "Emotes/MSH/Mini/Phrase_MSH_ImMagic": {
         "oracleText": "You're pretty good. But me? I'm Magic.",
-        "translation": "You're pretty good. But me? I'm Magic."
+        "translation": "亲爱的，你已经很厉害了。至于我？我是天才。"
     },
     "Emotes/MSH/Mini/Phrase_MSH_ImpressiveHuh": {
         "oracleText": "Impressive, huh?",
-        "translation": "Impressive, huh?"
+        "translation": "挺雄伟的，对吧？"
     },
     "Emotes/MSH/Mini/Phrase_MSH_KnuckleSandwiches": {
         "oracleText": "Knuckle sandwiches for everyone!",
-        "translation": "Knuckle sandwiches for everyone!"
+        "translation": "指虎三明治人人有份！"
     },
     "Emotes/MSH/Mini/Phrase_MSH_NotDying": {
         "oracleText": "Dibs on not dying this time.",
-        "translation": "Dibs on not dying this time."
+        "translation": "这次争取不死。"
     },
     "Emotes/MSH/Mini/Phrase_MSH_RighteousSmiting": {
         "oracleText": "Verily, 'tis time for righteous smiting!",
-        "translation": "Verily, 'tis time for righteous smiting!"
+        "translation": "诚然，该来一场正义的痛击了！"
     },
     "Emotes/MSH/Mini/Phrase_MSH_StarsAndGarters": {
         "oracleText": "Oh, my stars and garters!",
-        "translation": "Oh, my stars and garters!"
+        "translation": "哦，我的星星和勋章啊！"
     },
     "Emotes/MSH/Mini/Phrase_MSH_WorstDay": {
         "oracleText": "Our worst day is only where we start from.",
-        "translation": "Our worst day is only where we start from."
+        "translation": "最终末日只是我们努力的起点。"
     },
     "Emotes/OM1/Full/Phrase_OM1_angryfrown": {
         "oracleText": ">:(",
@@ -22061,27 +22061,27 @@
     },
     "Events/ArenaDirect_MSH_Collector_Prize": {
         "oracleText": "One <i>Marvel Super Heroes</i> Collector Booster Boxes",
-        "translation": "One <i>Marvel Super Heroes</i> Collector Booster Boxes"
+        "translation": "一盒<i>漫威超级英雄</i>聚珍补充包"
     },
     "Events/ArenaDirect_MSH_Collector_Prize2": {
         "oracleText": "Two <i>Marvel Super Heroes</i> Collector Booster Boxes",
-        "translation": "Two <i>Marvel Super Heroes</i> Collector Booster Boxes"
+        "translation": "两盒<i>漫威超级英雄</i>聚珍补充包"
     },
     "Events/ArenaDirect_MSH_Collector_String": {
         "oracleText": "This token indicates you are eligible to receive a physical Marvel Super Heroes Collector Booster Box",
-        "translation": "This token indicates you are eligible to receive a physical Marvel Super Heroes Collector Booster Box"
+        "translation": "此代币表示你有资格获得1盒实体漫威超级英雄聚珍补充包"
     },
     "Events/ArenaDirect_MSH_Play_Prize": {
         "oracleText": "One <i>Marvel Super Heroes</i> Play Booster Box",
-        "translation": "One <i>Marvel Super Heroes</i> Play Booster Box"
+        "translation": "一盒<i>漫威超级英雄</i>常规补充包"
     },
     "Events/ArenaDirect_MSH_Play_Prize2": {
         "oracleText": "Two <i>Marvel Super Heroes</i> Play Booster Boxes",
-        "translation": "Two <i>Marvel Super Heroes</i> Play Booster Boxes"
+        "translation": "两盒<i>漫威超级英雄</i>常规补充包"
     },
     "Events/ArenaDirect_MSH_Play_String": {
         "oracleText": "This token indicates you are eligible to receive 1 physical Marvel Super Heroes Play Booster Box",
-        "translation": "This token indicates you are eligible to receive 1 physical Marvel Super Heroes Play Booster Box"
+        "translation": "此代币表示你有资格获得1盒实体漫威超级英雄常规补充包"
     },
     "Events/ArenaDirect_NEO_Set_Prize": {
         "oracleText": "One <i>Kamigawa: Neon Dynasty</i> Draft Booster Box",
@@ -24365,11 +24365,11 @@
     },
     "Events/Event_Desc_ArenaDirect_MSH_Collector_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 7 wins to win 1 physical Marvel Super Heroes Collector Booster Box delivered to you.\n\nThe format for this event is 6 packs of <i>Marvel Super Heroes</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 7 wins to win 1 physical Marvel Super Heroes Collector Booster Box delivered to you.\n\nThe format for this event is 6 packs of <i>Marvel Super Heroes</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >here</link></u> for full details.</color></b>"
+        "translation": "<size=150%><color=#e1a154>参加赛事，竞夺卡盒！</color></size>\n\n报名参加此赛事，赢得全部7胜就能获得一盒实体漫威超级英雄聚珍补充包邮寄到家。\n\n本赛事的赛制为6包补充包的<i>漫威超级英雄</i>BO1现开赛。\n\n<b><color=red>须年满18周岁方能参加。部分地区／地域不能参加本赛事。在法律禁止的地区无效。须创建或具现有威世智、DCI及i-Payout帐户方能领取奖金。完整详细信息，请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >此处</link></u>。</color></b>"
     },
     "Events/Event_Desc_ArenaDirect_MSH_Play_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 7 wins to win 1 physical Marvel Super Heroes Play Booster Box delivered to you.\n\nThe format for this event is 6 packs of <i>Marvel Super Heroes</i> Sealed with single-game matches. \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 7 wins to win 1 physical Marvel Super Heroes Play Booster Box delivered to you.\n\nThe format for this event is 6 packs of <i>Marvel Super Heroes</i> Sealed with single-game matches. \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >here</link></u> for full details.</color></b>"
+        "translation": "<size=150%><color=#e1a154>参加赛事，竞夺卡盒！</color></size>\n\n报名参加此赛事，赢得全部7胜就能获得1盒实体漫威超级英雄常规补充包邮寄到家。\n\n本赛事的赛制为6包补充包的<i>漫威超级英雄</i>BO1现开赛。\n\n<b><color=red>须年满18周岁方能参加。部分地区／地域不能参加本赛事。在法律禁止的地区无效。须创建或具现有威世智、DCI及i-Payout帐户方能领取奖金。完整详细信息，请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >此处</link></u>。</color></b>"
     },
     "Events/Event_Desc_ArenaDirect_NEO_Set_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\nSign up for this event and get all 7 wins to win 2 physical Kamigawa: Neon Dynasty Draft Booster Boxes delivered to you.\n\nThe format for this event is 6 packs of <i>Kamigawa: Neon Dynasty</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >here</link></u> for full details.</color></b>",
@@ -24557,7 +24557,7 @@
     },
     "Events/Event_Desc_Brawl_Ladder": {
         "oracleText": "Build a 100-card singleton deck led by a Legendary Creature or Planeswalker as your commander.",
-        "translation": "Build a 100-card singleton deck led by a Legendary Creature or Planeswalker as your commander."
+        "translation": "以传奇生物或鹏洛客作为指挥官，构组一副100张无双套牌。"
     },
     "Events/Event_Desc_Brawl_Launch": {
         "oracleText": "Dive into a Brawl! Build a deck around a legendary creature or planeswalker which serves as your commander, and fight your way to victory. The following cards are banned in Brawl:\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xC\"> Sorcerous Spyglass\n\n<u><b><link=https://magic.wizards.com/mtga-brawl>Click here</link></b></u> to learn more about Brawl.",
@@ -25805,7 +25805,7 @@
     },
     "Events/Event_Desc_Jump_In_MSH": {
         "oracleText": "Ready to start playing <i>Marvel Super Heroes</i> on MTG Arena? You can explore different strategies while playing and collecting cards from this new set.\nWhen you join this event, you will get to select two different half-decks from a variety of themes. Combine them, and you'll have a deck that's ready to go. Play a few matches to get a feel for the newest set.\n\nUse the cards to build new decks for other modes - they're yours to keep!  \n<color=\"green\"><b>Resign at any time if you wish to rejoin and pick new packets. You will have to pay the entry again, but you will keep all cards from the decks you choose.</b></color>",
-        "translation": "Ready to start playing <i>Marvel Super Heroes</i> on MTG Arena? You can explore different strategies while playing and collecting cards from this new set.\nWhen you join this event, you will get to select two different half-decks from a variety of themes. Combine them, and you'll have a deck that's ready to go. Play a few matches to get a feel for the newest set.\n\nUse the cards to build new decks for other modes - they're yours to keep!  \n<color=\"green\"><b>Resign at any time if you wish to rejoin and pick new packets. You will have to pay the entry again, but you will keep all cards from the decks you choose.</b></color>"
+        "translation": "准备好在MTG竞技场中体验<i>漫威超级英雄</i>了吗？你可以通过对局和收集新系列的卡牌来探索不同策略。\n\n参加此赛事时，你需要从多种主题中选择两套不同的半副套牌。将它们组合起来，就能获得一副完整的对战套牌。进行几场对局来感受这个最新系列吧。\n\n用这些卡牌构建其他模式的套牌——它们都将加入你的收藏！\n\n<color=\"green\"><b>如果想选择新的主题包，可随时退出活动。虽然需要重新支付入场费，但你将保留所选套牌中的所有卡牌。</b></color>"
     },
     "Events/Event_Desc_Jump_In_TLA": {
         "oracleText": "Ready to start playing <i>Magic: The Gathering | Avatar: The Last Airbender™</i> on MTG Arena? You can explore different strategies while playing and collecting cards from this new set.\n\nWhen you join this event, you will get to select two different half-decks from a variety of themes. Combine them, and you'll have a deck that's ready to go. Play as much as you want here, or use the cards to build new decks for other modes - they're yours to keep!\n\n<color=\"green\"><b>Resign at any time if you wish to rejoin and pick new packets. You will have to pay the entry again, but you will keep all cards from the decks you choose.</b></color>",
@@ -26057,31 +26057,31 @@
     },
     "Events/Event_Desc_MSH_Contender_Draft": {
         "oracleText": "Are you a competitive drafter? Prove your mettle in this dynamic draft environment where mythic boosters are on the line! Earning seven wins even gets you a unique Title to prove your skill to all your opponents forevermore.\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n$/Events/MSH_Limited_Archetypes$",
-        "translation": "Are you a competitive drafter? Prove your mettle in this dynamic draft environment where mythic boosters are on the line! Earning seven wins even gets you a unique Title to prove your skill to all your opponents forevermore.\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n$/Events/MSH_Limited_Archetypes$"
+        "translation": "你是一位竞技轮抽玩家吗？在这个充满活力的轮抽环境中证明自己的实力吧，秘稀补充包正等着你！赢得七场胜利甚至能让你获得一个独特的称号，永久地向所有对手展示你的技术。\n\n<b>真人轮抽～与其他7位牌手一同进行轮抽，有抽选时间限制</b>\n\n$/Events/MSH_Limited_Archetypes$"
     },
     "Events/Event_Desc_MSH_PickTwo_Draft": {
         "oracleText": "Select two cards at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 3 other players</b>\n\n$/Events/MSH_Limited_Archetypes$",
-        "translation": "Select two cards at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 3 other players</b>\n\n$/Events/MSH_Limited_Archetypes$"
+        "translation": "轮抽补充包在桌上轮转，你每次需从中选择两张牌。这些牌张将加入你的收藏，而你将使用它们和基本地来构组一副40张的套牌。不断进行对战，最后根据胜场数量赢得奖励！\n\n<b>真人轮抽～与其他3位牌手一同进行轮抽，有抽选时间限制</b>\n\n$/Events/MSH_Limited_Archetypes$"
     },
     "Events/Event_Desc_MSH_Premier_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n$/Events/MSH_Limited_Archetypes$",
-        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n$/Events/MSH_Limited_Archetypes$"
+        "translation": "轮抽补充包在桌上轮转，你每次需从中选择一张牌。这些牌张将加入你的收藏，而你将使用它们和基本地来构筑一副40张的套牌。不断进行对战，最后根据你的胜场数量赢得奖励！\n\n<b>真人轮抽～与其他7位牌手一同进行轮抽，有抽选时间限制</b>\n\n$/Events/MSH_Limited_Archetypes$"
     },
     "Events/Event_Desc_MSH_Quick_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers\n\n$/Events/MSH_Limited_Archetypes$",
-        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers\n\n$/Events/MSH_Limited_Archetypes$"
+        "translation": "轮抽补充包在桌上轮转，你每次需从中选择一张牌。这些牌张将加入你的收藏，而你将使用它们和基本地来构组一副40张的套牌。不断进行对战，最后根据胜场数量赢得奖励！\n\n人机轮抽～与AI一同进行轮抽，无需等待，没有抽选时间限制\n\n$/Events/MSH_Limited_Archetypes$"
     },
     "Events/Event_Desc_MSH_SGF": {
         "oracleText": "Welcome to our preview of Marvel Super Heroes on MTG Arena!\n \nSelect one of two decks from our upcoming Marvel Super Heroes release.  Each deck is built to show off some of the new mechanics and exciting things you will find playing Marvel Super Heroes on MTG Arena with its release on June 23!\n \nThank you for spending part of your weekend with us!",
-        "translation": "Welcome to our preview of Marvel Super Heroes on MTG Arena!\n \nSelect one of two decks from our upcoming Marvel Super Heroes release.  Each deck is built to show off some of the new mechanics and exciting things you will find playing Marvel Super Heroes on MTG Arena with its release on June 23!\n \nThank you for spending part of your weekend with us!"
+        "translation": "欢迎来到万智牌：竞技场漫威超级英雄预览活动！\n\n请从即将推出的漫威超级英雄系列中选择两套牌中的一套。每套牌都旨在展示一些新机制和精彩内容，你将在6月23日漫威超级英雄于万智牌：竞技场上线时体验到这些！\n\n感谢您与我们共度周末时光！"
     },
     "Events/Event_Desc_MSH_Trad_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n$/Events/MSH_Limited_Archetypes$",
-        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n$/Events/MSH_Limited_Archetypes$"
+        "translation": "轮抽补充包在桌上轮转，你每次需从中选择一张牌。这些牌张将加入你的收藏，而你将使用它们和基本地来构组一副40张的套牌。不断进行三盘两胜制的对局，最后根据胜局数量赢得奖励！\n\n<b>真人轮抽～与其他7位牌手一同进行轮抽，有抽选时间限制</b>\n\n$/Events/MSH_Limited_Archetypes$"
     },
     "Events/Event_Desc_MWM_3Sets": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is On the Edge: Bring a 60-card deck only using cards from <i>Magic: The Gathering Foundations</i> and the last three Standard sets.  That means cards from <i>Marvel Super Heroes</i>, <i>Secrets of Strixhaven</i>, and <i>Magic: The Gathering® | Teenage Mutant Ninja Turtles</i> are Legal. With only these Standard sets to work with, you'll need cutting-edge strategies to find victory!",
-        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is On the Edge: Bring a 60-card deck only using cards from <i>Magic: The Gathering Foundations</i> and the last three Standard sets.  That means cards from <i>Marvel Super Heroes</i>, <i>Secrets of Strixhaven</i>, and <i>Magic: The Gathering® | Teenage Mutant Ninja Turtles</i> are Legal. With only these Standard sets to work with, you'll need cutting-edge strategies to find victory!"
+        "translation": "欢迎参加周中万智牌！MTG竞技场每周玩法花样百出，次次活动都有全新感受！\n\n本周的活动是剑走偏锋：使用一副60张的套牌，仅限使用<i>万智牌：基石构筑</i>和最近三个标准系列的牌。这意味着<i>漫威超级英雄</i>、<i>斯翠海文的秘密</i>和<i>万智牌丨忍者神龟</i>中的牌都是合法的。在只有这些标准系列可用的情况下，你需要剑走偏锋的策略来取得胜利！"
     },
     "Events/Event_Desc_MWM_Alchemy": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Alchemy: Bring a 60-card Alchemy deck. Break out the latest and greatest from the lab, or maybe find a new favorite!",
@@ -26281,7 +26281,7 @@
     },
     "Events/Event_Desc_MWM_FDNMSH": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Foundations and <i>Marvel Super Heroes</i> Constructed: Bring a 60-card deck with only cards from the most recent set and Foundations and demonstrate your mastery of the new cards!",
-        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Foundations and <i>Marvel Super Heroes</i> Constructed: Bring a 60-card deck with only cards from the most recent set and Foundations and demonstrate your mastery of the new cards!"
+        "translation": "欢迎参加周中万智牌！MTG竞技场每周玩法花样百出，次次活动都有全新感受！\n\n本周活动是基石构筑与<i>漫威超级英雄</i>构筑赛：使用仅包含最新系列和基石构筑的60张套牌，展现您对新牌的掌控力！"
     },
     "Events/Event_Desc_MWM_FDNOM1": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is Through the Omenpaths Foundations Constructed: Bring a 60-card deck with only cards from the most recent set and Foundations and demonstrate your mastery of the new cards!",
@@ -27309,7 +27309,7 @@
     },
     "Events/Event_Desc_Sealed_MSH": {
         "oracleText": "You'll receive 6 <i>Marvel Super Heroes</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n\n$/Events/MSH_Limited_Archetypes$",
-        "translation": "You'll receive 6 <i>Marvel Super Heroes</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many matches you win!\n\n$/Events/MSH_Limited_Archetypes$"
+        "translation": "你会得到6包<i>漫威超级英雄</i>补充包。这些牌张将加入你的收藏，而你将使用它们和基本地来构组一副40张的套牌。不断进行对战，最后根据胜场数量赢得奖励！ \n\n$/Events/MSH_Limited_Archetypes$"
     },
     "Events/Event_Desc_Sealed_MixedUp": {
         "oracleText": "<b><color=\"red\">This event is phantom. Cards in your pool are not added to your collection.</color></b>\n\n<i>You know what's more exciting than a pack of cards? A pack of <b>mystery</b> cards! Why the mystery? Well, look, some beebles got into the warehouse and moved everything around, and now it's a mystery whether you like it or not. I'd actually appreciate some help sorting things back out, and I don't mind if you play some games along the way. Thanks for pitching in!</i>\n\nIf you've finished your run in this weekend's run of the Arena Open, kick back with some Mixed-Up Sealed! You can enter this event <b>either</b> by paying the entry fee once or by entering Day 1 of the Arena Open. Once you've entered, you can play as many times as you like for the rest of the weekend.\n\nYou'll receive 6 packs of mixed-up cards from all across <i>MTG Arena</i>, and then build the best 40-card deck you can. Once you're finished, we'll find the right shelves in the back room for your cards, and you can join again!",
@@ -27709,7 +27709,7 @@
     },
     "Events/Event_Desc_Trad_Sealed_MSH": {
         "oracleText": "You'll receive 6 <i>Marvel Super Heroes</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n$/Events/MSH_Limited_Archetypes$",
-        "translation": "You'll receive 6 <i>Marvel Super Heroes</i> packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n$/Events/MSH_Limited_Archetypes$"
+        "translation": "你会得到6包<i>漫威超级英雄</i>补充包。这些牌张将加入你的收藏，而你将使用它们和基本地来构组一副40张的套牌。不断进行对战，最后根据胜场数量赢得奖励！ \n\n$/Events/MSH_Limited_Archetypes$"
     },
     "Events/Event_Desc_Trad_Sealed_NEO": {
         "oracleText": "You'll receive 6 15-card packs. The cards will be added to your collection and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!",
@@ -28413,11 +28413,11 @@
     },
     "Events/Event_Title_ArenaDirect_MSH_Collector_Sealed": {
         "oracleText": "Arena Direct - Sealed Marvel Super Heroes Collector Booster Box",
-        "translation": "Arena Direct - Sealed Marvel Super Heroes Collector Booster Box"
+        "translation": "竞技场直邮赛 - 漫威超级英雄现开（聚珍补充包）"
     },
     "Events/Event_Title_ArenaDirect_MSH_Play_Sealed": {
         "oracleText": "Arena Direct - Sealed Marvel Super Heroes Play Booster Box",
-        "translation": "Arena Direct - Sealed Marvel Super Heroes Play Booster Box"
+        "translation": "竞技场直邮赛 - 漫威超级英雄现开（常规补充包）"
     },
     "Events/Event_Title_ArenaDirect_NEO_Set_Sealed": {
         "oracleText": "Arena Direct - Sealed Kamigawa: Neon Dynasty Draft Booster Box",
@@ -28569,7 +28569,7 @@
     },
     "Events/Event_Title_Brawl_Ladder": {
         "oracleText": "Competitive Brawl",
-        "translation": "Competitive Brawl"
+        "translation": "竞技争锋"
     },
     "Events/Event_Title_Brawl_Launch": {
         "oracleText": "Brawl Launch Event",
@@ -29893,11 +29893,11 @@
     },
     "Events/Event_Title_Jump_In_MSH": {
         "oracleText": "Jump Into Marvel Super Heroes",
-        "translation": "Jump Into Marvel Super Heroes"
+        "translation": "投身漫威超级英雄"
     },
     "Events/Event_Title_Jump_In_MSH_SGF": {
         "oracleText": "Marvel Super Heroes at Summer Game Fest",
-        "translation": "Marvel Super Heroes at Summer Game Fest"
+        "translation": "漫威超级英雄亮相夏日游戏节"
     },
     "Events/Event_Title_Jump_In_TLA": {
         "oracleText": "Jump Into Magic: The Gathering | Avatar: The Last Airbender™",
@@ -30165,27 +30165,27 @@
     },
     "Events/Event_Title_MSH_Contender_Draft": {
         "oracleText": "Contender Draft Marvel Super Heroes",
-        "translation": "Contender Draft Marvel Super Heroes"
+        "translation": "漫威超级英雄竞逐轮抽"
     },
     "Events/Event_Title_MSH_PickTwo_Draft": {
         "oracleText": "Pick-Two Draft Marvel Super Heroes",
-        "translation": "Pick-Two Draft Marvel Super Heroes"
+        "translation": "漫威超级英雄选两张轮抽"
     },
     "Events/Event_Title_MSH_Premier_Draft": {
         "oracleText": "Premier Draft Marvel Super Heroes",
-        "translation": "Premier Draft Marvel Super Heroes"
+        "translation": "漫威超级英雄竞技轮抽"
     },
     "Events/Event_Title_MSH_Premier_Draft_EarlyAccess": {
         "oracleText": "Early Access Marvel Super Heroes Premier Draft",
-        "translation": "Early Access Marvel Super Heroes Premier Draft"
+        "translation": "漫威超级英雄竞技轮抽提前试玩"
     },
     "Events/Event_Title_MSH_Quick_Draft": {
         "oracleText": "Quick Draft Marvel Super Heroes",
-        "translation": "Quick Draft Marvel Super Heroes"
+        "translation": "漫威超级英雄快速轮抽"
     },
     "Events/Event_Title_MSH_Trad_Draft": {
         "oracleText": "Traditional Draft Marvel Super Heroes",
-        "translation": "Traditional Draft Marvel Super Heroes"
+        "translation": "漫威超级英雄三盘轮抽"
     },
     "Events/Event_Title_MWM_3Sets": {
         "oracleText": "Midweek Magic: On the Edge",
@@ -30353,7 +30353,7 @@
     },
     "Events/Event_Title_MWM_FDNMSH": {
         "oracleText": "Midweek Magic: Foundations + Marvel Super Heroes",
-        "translation": "Midweek Magic: Foundations + Marvel Super Heroes"
+        "translation": "周中万智牌：基石构筑+漫威超级英雄"
     },
     "Events/Event_Title_MWM_FDNOM1": {
         "oracleText": "Midweek Magic: Through the Omenpaths Foundations",
@@ -31321,11 +31321,11 @@
     },
     "Events/Event_Title_Sealed_MSH": {
         "oracleText": "Sealed Marvel Super Heroes",
-        "translation": "Sealed Marvel Super Heroes"
+        "translation": "漫威超级英雄现开"
     },
     "Events/Event_Title_Sealed_MSH_EarlyAccess": {
         "oracleText": "Early Access Sealed Marvel Super Heroes",
-        "translation": "Early Access Sealed Marvel Super Heroes"
+        "translation": "漫威超级英雄现开提前试玩"
     },
     "Events/Event_Title_Sealed_MixedUp": {
         "oracleText": "Mixed-Up Sealed",
@@ -31833,7 +31833,7 @@
     },
     "Events/Event_Title_Trad_Sealed_MSH": {
         "oracleText": "Traditional Sealed Marvel Super Heroes",
-        "translation": "Traditional Sealed Marvel Super Heroes"
+        "translation": "漫威超级英雄三盘现开"
     },
     "Events/Event_Title_Trad_Sealed_NEO": {
         "oracleText": "Traditional Sealed Neon Dynasty",
@@ -32341,7 +32341,7 @@
     },
     "Events/Filter/MSHEarlyAccess": {
         "oracleText": "Marvel Super Heroes Early Access",
-        "translation": "Marvel Super Heroes Early Access"
+        "translation": "漫威超级英雄提前试玩"
     },
     "Events/Filter/SOSEarlyAccess": {
         "oracleText": "Secrets of Strixhaven Early Access",
@@ -32413,7 +32413,7 @@
     },
     "Events/MSH_Limited_Archetypes": {
         "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Teamwork</b> - Call on your team to supercharge your instants and sorceries. Find ways to untap those creatures and they'll be available for offense, strategic tap abilities, and protection! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Draw Second Card</b> - Be the calculating mastermind and draw two or more cards in a turn. While extra cards are good on their own, clever use of connive will magnify your rewards! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Villains Matter</b> - More Villains mean more chaos. Keep adding Villains to the battlefield and overwhelm your adversaries with the unified power of pure evil! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Power-Up</b> - Hit hard with great feats of strength. Generate extra lands and mana to bring out the might of your creatures with their power-up abilities. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Heroes Matter</b> - Assemble as many Heroes as you can! Go wide with a full roster of fearless fighters and defend the world against any threat. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Attack Alone</b> - Send your best operative on a stealthy mission to attack alone, backed up by a support team that's ready to defend you as well. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Artifacts</b> - A steady stream of artifacts allows you to invent your way out of impossible odds. Spend Treasures to fund your more advanced research projects. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Creatures in Graveyard</b> - Your fallen forces didn't die in vain—reclaim their power with a vengeance! Make more potent plays while there are two or more creature cards in your graveyard. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Noncreature Spells</b> - Arrive on the scene quickly with creatures and then back them up with blasty instants and sorceries and crafty artifacts and enchantments. Look for key moments to turn the tables on your foes. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>+1/+1 Counters</b>  - Adjust and adapt to every situation. Keep evolving your creatures by adding counters with your cards or by using their own power-up abilities.",
-        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Teamwork</b> - Call on your team to supercharge your instants and sorceries. Find ways to untap those creatures and they'll be available for offense, strategic tap abilities, and protection! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Draw Second Card</b> - Be the calculating mastermind and draw two or more cards in a turn. While extra cards are good on their own, clever use of connive will magnify your rewards! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Villains Matter</b> - More Villains mean more chaos. Keep adding Villains to the battlefield and overwhelm your adversaries with the unified power of pure evil! \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Power-Up</b> - Hit hard with great feats of strength. Generate extra lands and mana to bring out the might of your creatures with their power-up abilities. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Heroes Matter</b> - Assemble as many Heroes as you can! Go wide with a full roster of fearless fighters and defend the world against any threat. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b> Attack Alone</b> - Send your best operative on a stealthy mission to attack alone, backed up by a support team that's ready to defend you as well. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Artifacts</b> - A steady stream of artifacts allows you to invent your way out of impossible odds. Spend Treasures to fund your more advanced research projects. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Creatures in Graveyard</b> - Your fallen forces didn't die in vain—reclaim their power with a vengeance! Make more potent plays while there are two or more creature cards in your graveyard. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Noncreature Spells</b> - Arrive on the scene quickly with creatures and then back them up with blasty instants and sorceries and crafty artifacts and enchantments. Look for key moments to turn the tables on your foes. \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>+1/+1 Counters</b>  - Adjust and adapt to every situation. Keep evolving your creatures by adding counters with your cards or by using their own power-up abilities."
+        "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>联合</b> - 召唤你的队伍来为你的瞬间和法术充能。找到重置那些生物的方法，它们就能用于进攻、战略性横置，以及提供保护！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>抓第二张牌</b> - 成为精于算计的谋士，在一回合内抓两张或更多牌。额外的牌本身就很不错，而巧妙运用筹谋将放大你的收益！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>反派决定一切</b> - 反派越多，混乱越甚。不断将反派加入战场，用纯粹邪恶的合力压倒你的对手！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>超能</b> - 凭借强大的力量猛力出击。创造额外的地和法术力，用来释放超能异能的威力。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>英雄决定一切</b> - 尽可能多地集结英雄！用一整队无畏的战士铺开场面，保卫世界抵御任何威胁。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>单独攻击</b> - 派遣你最强的特工执行隐秘任务，进行单独攻击，并由一支随时准备为你提供防御的支援队伍作为后盾。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>神器</b> - 源源不断的神器让你能够通过发明来摆脱绝境。花费珍宝来资助你更先进的研究项目。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>坟场生物</b> - 你倒下的部队并非白白牺牲——带着复仇之心夺回它们的力量！当你的坟墓场中有两张或更多生物牌时，做出更强大的行动。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>非生物咒语</b> - 快速用生物登场，然后用爆炸性的瞬间和法术、以及精巧的神器和结界来支援它们。寻找关键时机来扭转战局，反制你的敌人。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>+1/+1指示物</b> - 调整并适应每一种情况。演化你的生物，运用你的牌张添加指示物，或利用生物自身的超能异能。"
     },
     "Events/Matchmaking_NotReadyToMatch": {
         "oracleText": "You are not ready to match.",
@@ -33669,207 +33669,207 @@
     },
     "Events/Packets/SJMP_PacketName_MSH_AgentsofSHIELD": {
         "oracleText": "Agents of S.H.I.E.L.D.",
-        "translation": "Agents of S.H.I.E.L.D."
+        "translation": "神盾局特工(Agents of S.H.I.E.L.D.)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Analyzed": {
         "oracleText": "Analyzed",
-        "translation": "Analyzed"
+        "translation": "解析(Analyzed)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Animal": {
         "oracleText": "Animal",
-        "translation": "Animal"
+        "translation": "动物(Animal)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Armed": {
         "oracleText": "Armed",
-        "translation": "Armed"
+        "translation": "武装(Armed)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Atlantis": {
         "oracleText": "Atlantis",
-        "translation": "Atlantis"
+        "translation": "亚特兰蒂斯(Atlantis)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Battalion": {
         "oracleText": "Battalion",
-        "translation": "Battalion"
+        "translation": "协战(Battalion)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Blink": {
         "oracleText": "Blink",
-        "translation": "Blink"
+        "translation": "闪现(Blink)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Boosted": {
         "oracleText": "Boosted",
-        "translation": "Boosted"
+        "translation": "强化(Boosted)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Caretakers": {
         "oracleText": "Caretakers",
-        "translation": "Caretakers"
+        "translation": "护持师(Caretakers)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Conniving": {
         "oracleText": "Conniving",
-        "translation": "Conniving"
+        "translation": "筹谋(Conniving)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Counterargument": {
         "oracleText": "Counterargument",
-        "translation": "Counterargument"
+        "translation": "驳斥(Counterargument)"
     },
     "Events/Packets/SJMP_PacketName_MSH_DOOM": {
         "oracleText": "DOOM",
-        "translation": "DOOM"
+        "translation": "毁灭博士(DOOM)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Equipped": {
         "oracleText": "Equipped",
-        "translation": "Equipped"
+        "translation": "装备(Equipped)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Fantastic": {
         "oracleText": "Fantastic",
-        "translation": "Fantastic"
+        "translation": "神奇(Fantastic)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Fearless": {
         "oracleText": "Fearless",
-        "translation": "Fearless"
+        "translation": "无畏(Fearless)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Geniuses": {
         "oracleText": "Geniuses",
-        "translation": "Geniuses"
+        "translation": "天才(Geniuses)"
     },
     "Events/Packets/SJMP_PacketName_MSH_GreatLakesAvengers": {
         "oracleText": "Great Lakes Avengers",
-        "translation": "Great Lakes Avengers"
+        "translation": "五大湖复仇者(Great Lakes Avengers)"
     },
     "Events/Packets/SJMP_PacketName_MSH_HYDRA": {
         "oracleText": "HYDRA",
-        "translation": "HYDRA"
+        "translation": "九头蛇(HYDRA)"
     },
     "Events/Packets/SJMP_PacketName_MSH_HeroesforHire": {
         "oracleText": "Heroes for Hire",
-        "translation": "Heroes for Hire"
+        "translation": "待雇英雄(Heroes for Hire)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Incredible": {
         "oracleText": "Incredible",
-        "translation": "Incredible"
+        "translation": "无敌(Incredible)"
     },
     "Events/Packets/SJMP_PacketName_MSH_IronMan": {
         "oracleText": "Iron Man",
-        "translation": "Iron Man"
+        "translation": "钢铁侠(Iron Man)"
     },
     "Events/Packets/SJMP_PacketName_MSH_KangDynasty": {
         "oracleText": "Kang Dynasty",
-        "translation": "Kang Dynasty"
+        "translation": "康之王朝(Kang Dynasty)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Lethal": {
         "oracleText": "Lethal",
-        "translation": "Lethal"
+        "translation": "致命(Lethal)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Marvelous": {
         "oracleText": "Marvelous",
-        "translation": "Marvelous"
+        "translation": "惊奇(Marvelous)"
     },
     "Events/Packets/SJMP_PacketName_MSH_MasterofEvil": {
         "oracleText": "Master of Evil",
-        "translation": "Master of Evil"
+        "translation": "邪恶大师(Masters of Evil)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Mayhem": {
         "oracleText": "Mayhem",
-        "translation": "Mayhem"
+        "translation": "疯乱(Mayhem)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Precise": {
         "oracleText": "Precise",
-        "translation": "Precise"
+        "translation": "精准(Precise)"
     },
     "Events/Packets/SJMP_PacketName_MSH_PymParticles": {
         "oracleText": "Pym Particles",
-        "translation": "Pym Particles"
+        "translation": "皮姆粒子(Pym Particles)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Rampaging": {
         "oracleText": "Rampaging",
-        "translation": "Rampaging"
+        "translation": "狂暴(Rampaging)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Returned": {
         "oracleText": "Returned",
-        "translation": "Returned"
+        "translation": "复归(Returned)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Runaways": {
         "oracleText": "Runaways",
-        "translation": "Runaways"
+        "translation": "离家童盟(Runaways)"
     },
     "Events/Packets/SJMP_PacketName_MSH_SavageLands": {
         "oracleText": "Savage Land",
-        "translation": "Savage Land"
+        "translation": "蛮荒之地(Savage Lands)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Scarlet": {
         "oracleText": "Scarlet",
-        "translation": "Scarlet"
+        "translation": "猩红(Scarlet)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Soaring": {
         "oracleText": "Soaring",
-        "translation": "Soaring"
+        "translation": "翱翔(Soaring)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Speedy": {
         "oracleText": "Speedy",
-        "translation": "Speedy"
+        "translation": "疾速(Speedy)"
     },
     "Events/Packets/SJMP_PacketName_MSH_SpiderVerse": {
         "oracleText": "Spider-Verse",
-        "translation": "Spider-Verse"
+        "translation": "蜘蛛宇宙(Spider-Verse)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Squadron": {
         "oracleText": "Squadron",
-        "translation": "Squadron"
+        "translation": "中队(Squadron)"
     },
     "Events/Packets/SJMP_PacketName_MSH_StreetLevelVillains": {
         "oracleText": "Street Level Villains",
-        "translation": "Street Level Villains"
+        "translation": "街头恶棍(Street Level Villains)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Tenacious": {
         "oracleText": "Tenacious",
-        "translation": "Tenacious"
+        "translation": "顽强(Tenacious)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Thor": {
         "oracleText": "Thor",
-        "translation": "Thor"
+        "translation": "索尔(Thor)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Thunderbolts": {
         "oracleText": "Thunderbolts",
-        "translation": "Thunderbolts"
+        "translation": "雷霆特工队(Thunderbolts)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Towering": {
         "oracleText": "Towering",
-        "translation": "Towering"
+        "translation": "雄立(Towering)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Trained": {
         "oracleText": "Trained",
-        "translation": "Trained"
+        "translation": "驯良(Trained)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Tricksters": {
         "oracleText": "Tricksters",
-        "translation": "Tricksters"
+        "translation": "诈术师(Tricksters)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Ultron": {
         "oracleText": "Ultron",
-        "translation": "Ultron"
+        "translation": "奥创(Ultron)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Uncanny": {
         "oracleText": "Uncanny",
-        "translation": "Uncanny"
+        "translation": "非凡(Uncanny)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Vehicles": {
         "oracleText": "Vehicles",
-        "translation": "Vehicles"
+        "translation": "载具(Vehicles)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Wakanda": {
         "oracleText": "Wakanda",
-        "translation": "Wakanda"
+        "translation": "瓦坎达(Wakanda)"
     },
     "Events/Packets/SJMP_PacketName_MSH_WebSlinging": {
         "oracleText": "Web-Slinging",
-        "translation": "Web-Slinging"
+        "translation": "蛛丝甩荡(Web-Slinging)"
     },
     "Events/Packets/SJMP_PacketName_MSH_Wild": {
         "oracleText": "Wild",
-        "translation": "Wild"
+        "translation": "野性(Wild)"
     },
     "Events/Packets/SJMP_PacketName_MSH_YoungAvengers": {
         "oracleText": "Young Avengers",
-        "translation": "Young Avengers"
+        "translation": "年轻复仇者(Young Avengers)"
     },
     "Events/Packets/SJMP_PacketName_Maestros": {
         "oracleText": "Maestros",
@@ -34789,11 +34789,11 @@
     },
     "Events/Tokens/MSHEarlyAccessPlural": {
         "oracleText": "Marvel Super Heroes Early Access",
-        "translation": "Marvel Super Heroes Early Access"
+        "translation": "漫威超级英雄提前试玩"
     },
     "Events/Tokens/MSHEarlyAccessSingular": {
         "oracleText": "Marvel Super Heroes Early Access",
-        "translation": "Marvel Super Heroes Early Access"
+        "translation": "漫威超级英雄提前试玩"
     },
     "Events/Tokens/OpenDay2TokenDescription": {
         "oracleText": "Join between 6am and 8am Pacific",
@@ -35133,7 +35133,7 @@
     },
     "Events/Tokens/QualifierDay1TokenDescription20260711": {
         "oracleText": "Join between 6am and 8am Pacific on July 11",
-        "translation": "Join between 6am and 8am Pacific on July 11"
+        "translation": "太平洋时间7月11日上午6点到上午8点之间加入"
     },
     "Events/Tokens/QualifierDay1TokenDescription20260829": {
         "oracleText": "Join between 6am and 8am Pacific on August 29",
@@ -35333,7 +35333,7 @@
     },
     "Events/Tokens/QualifierDay2TokenDescription20260712": {
         "oracleText": "Join between 6am and 8am Pacific on July 12",
-        "translation": "Join between 6am and 8am Pacific on July 12"
+        "translation": "太平洋时间7月12日上午6点到上午8点之间加入"
     },
     "Events/Tokens/QualifierDay2TokenDescription20260830": {
         "oracleText": "Join between 6am and 8am Pacific on August 30",
@@ -35801,115 +35801,115 @@
     },
     "Gatherings/About/Access": {
         "oracleText": "Access:",
-        "translation": "Access:"
+        "translation": "访问权限："
     },
     "Gatherings/About/Description": {
         "oracleText": "Description:",
-        "translation": "Description:"
+        "translation": "描述："
     },
     "Gatherings/About/Focus": {
         "oracleText": "Focus:",
-        "translation": "Focus:"
+        "translation": "偏好："
     },
     "Gatherings/About/Language": {
         "oracleText": "Primary Language:",
-        "translation": "Primary Language:"
+        "translation": "主要语言："
     },
     "Gatherings/About/Private": {
         "oracleText": "Private",
-        "translation": "Private"
+        "translation": "私人"
     },
     "Gatherings/About/Public": {
         "oracleText": "Public",
-        "translation": "Public"
+        "translation": "公开"
     },
     "Gatherings/About/Title": {
         "oracleText": "Title:",
-        "translation": "Title:"
+        "translation": "称号："
     },
     "Gatherings/Button/AddAFriend": {
         "oracleText": "Add a Friend",
-        "translation": "Add a Friend"
+        "translation": "添加好友"
     },
     "Gatherings/Button/AddYourFriends": {
         "oracleText": "Add your friends on Arena",
-        "translation": "Add your friends on Arena"
+        "translation": "在竞技场上添加好友"
     },
     "Gatherings/Button/CopyInviteCode": {
         "oracleText": "Copy Invite Code",
-        "translation": "Copy Invite Code"
+        "translation": "复制邀请代码"
     },
     "Gatherings/Button/Create": {
         "oracleText": "Create",
-        "translation": "Create"
+        "translation": "创建"
     },
     "Gatherings/Button/CreateAGathering": {
         "oracleText": "Create a Gathering",
-        "translation": "Create a Gathering"
+        "translation": "创建集会"
     },
     "Gatherings/Button/EnterGatheringCode": {
         "oracleText": "Enter Gathering Code",
-        "translation": "Enter Gathering Code"
+        "translation": "输入集会代码"
     },
     "Gatherings/Button/FindFriendsDiscord": {
         "oracleText": "Find your friends on <sprite=\"SpriteSheet_MiscIcons\" name=\"discord_logo_white\">",
-        "translation": "Find your friends on <sprite=\"SpriteSheet_MiscIcons\" name=\"discord_logo_white\">"
+        "translation": "在 <sprite=\"SpriteSheet_MiscIcons\" name=\"discord_logo_white\"> 上寻找好友"
     },
     "Gatherings/Button/Friends": {
         "oracleText": "Friends",
-        "translation": "Friends"
+        "translation": "好友"
     },
     "Gatherings/Button/Gatherings": {
         "oracleText": "Gatherings",
-        "translation": "Gatherings"
+        "translation": "集会"
     },
     "Gatherings/Button/Next": {
         "oracleText": "Next",
-        "translation": "Next"
+        "translation": "下一步"
     },
     "Gatherings/Button/Previous": {
         "oracleText": "Previous",
-        "translation": "Previous"
+        "translation": "上一步"
     },
     "Gatherings/CreateAGathering/GatheringDescription": {
         "oracleText": "Gathering Description",
-        "translation": "Gathering Description"
+        "translation": "集会描述"
     },
     "Gatherings/CreateAGathering/GatheringDescriptionPrompt": {
         "oracleText": "Describe...",
-        "translation": "Describe..."
+        "translation": "描述…"
     },
     "Gatherings/CreateAGathering/GatheringTitle": {
         "oracleText": "Gathering Title",
-        "translation": "Gathering Title"
+        "translation": "集会名称"
     },
     "Gatherings/CreateAGathering/GatheringTitlePrompt": {
         "oracleText": "Name for this Gathering...",
-        "translation": "Name for this Gathering..."
+        "translation": "给集会命名…"
     },
     "Gatherings/CreateAGathering/PrivateGathering": {
         "oracleText": "Private Gathering",
-        "translation": "Private Gathering"
+        "translation": "私人集会"
     },
     "Gatherings/CreateAGathering/PrivateGatheringDescription": {
         "oracleText": "Join-by-invite (or request) only. These Gatherings are limited to people approved by the Owner or Admins. Best for groups of friends, or smaller, more controlled communities.",
-        "translation": "Join-by-invite (or request) only. These Gatherings are limited to people approved by the Owner or Admins. Best for groups of friends, or smaller, more controlled communities."
+        "translation": "仅限邀请（或申请）加入。这些集会仅限所有者或管理员批准的人员进入。最适合好友群组，或是规模较小、易于管理的社群。"
     },
     "Gatherings/CreateAGathering/PublicGathering": {
         "oracleText": "Public Gathering",
-        "translation": "Public Gathering"
+        "translation": "公开集会"
     },
     "Gatherings/CreateAGathering/PublicGatheringDescription": {
         "oracleText": "Anyone with the Invite Code can join. These Gatherings are open to all players and may show up in search results in the future. A good choice if you want to meet new people and grow a larger community.",
-        "translation": "Anyone with the Invite Code can join. These Gatherings are open to all players and may show up in search results in the future. A good choice if you want to meet new people and grow a larger community."
+        "translation": "任何拥有邀请码的人均可加入。这些集会对所有玩家开放，且未来可能会出现在搜索结果中。如果你想结识新朋友并发展更庞大的社群，这是一个好选择。"
     },
     "Gatherings/CreateAGathering/StepProgress": {
         "oracleText": "Step {0}/{1}",
-        "translation": "Step {0}/{1}"
+        "translation": "第 {0}/{1} 步"
     },
     "Gatherings/FirstTimeConnection": {
         "oracleText": "First-time Connection Reward",
-        "translation": "First-time Connection Reward"
+        "translation": "首次连接奖励"
     },
     "Gatherings/FirstTimeConnectionReward": {
         "oracleText": "<sprite=\"SpriteSheet_MiscIcons\" name=\"gems\"> {0}",
@@ -35917,131 +35917,131 @@
     },
     "Gatherings/Header/About": {
         "oracleText": "About",
-        "translation": "About"
+        "translation": "关于"
     },
     "Gatherings/Header/Admin": {
         "oracleText": "Admin",
-        "translation": "Admin"
+        "translation": "管理员"
     },
     "Gatherings/Header/Chat": {
         "oracleText": "Chat",
-        "translation": "Chat"
+        "translation": "聊天"
     },
     "Gatherings/Header/Leader": {
         "oracleText": "Leader",
-        "translation": "Leader"
+        "translation": "领袖"
     },
     "Gatherings/Header/Member": {
         "oracleText": "Member",
-        "translation": "Member"
+        "translation": "成员"
     },
     "Gatherings/Header/Members": {
         "oracleText": "Members",
-        "translation": "Members"
+        "translation": "成员"
     },
     "Gatherings/Header/Social": {
         "oracleText": "Social",
-        "translation": "Social"
+        "translation": "社交"
     },
     "Gatherings/MagicIsBetter": {
         "oracleText": "Magic is better with friends.",
-        "translation": "Magic is better with friends."
+        "translation": "万智牌与友同乐更精彩。"
     },
     "Gatherings/MemberCountStatus": {
         "oracleText": "{0}/{1} Online",
-        "translation": "{0}/{1} Online"
+        "translation": "{0}/{1} 在线"
     },
     "Gatherings/PlayerInfoPanel/Block": {
         "oracleText": "Block",
-        "translation": "Block"
+        "translation": "屏蔽"
     },
     "Gatherings/PlayerInfoPanel/Mute": {
         "oracleText": "Mute",
-        "translation": "Mute"
+        "translation": "静音"
     },
     "Gatherings/PlayerInfoPanel/Report": {
         "oracleText": "Report",
-        "translation": "Report"
+        "translation": "举报"
     },
     "Gatherings/PlayerInfoPanel/Unblock": {
         "oracleText": "Unblock",
-        "translation": "Unblock"
+        "translation": "解除屏蔽"
     },
     "Gatherings/PlayerInfoPanel/Unfriend": {
         "oracleText": "Unfriend",
-        "translation": "Unfriend"
+        "translation": "移除好友"
     },
     "Gatherings/PlayerInfoPanel/Unmute": {
         "oracleText": "Unmute",
-        "translation": "Unmute"
+        "translation": "解除静音"
     },
     "Gatherings/Status/OnlineElsewhere": {
         "oracleText": "Online Elsewhere",
-        "translation": "Online Elsewhere"
+        "translation": "其他平台在线"
     },
     "Gatherings/Status/OnlineInGame": {
         "oracleText": "Online In Game",
-        "translation": "Online In Game"
+        "translation": "游戏中在线"
     },
     "Gatherings/SystemMessage/ConfirmUnlinkingHeader": {
         "oracleText": "Confirm Unlinking?",
-        "translation": "Confirm Unlinking?"
+        "translation": "确认解除关联？"
     },
     "Gatherings/SystemMessage/ConfirmUnlinkingText": {
         "oracleText": "This will unlink your Arena account from your Discord account.",
-        "translation": "This will unlink your Arena account from your Discord account."
+        "translation": "这将解除您的竞技场账号与Discord账号的关联。"
     },
     "Gatherings/SystemMessage/ConnectingHeader": {
         "oracleText": "Connecting to Discord",
-        "translation": "Connecting to Discord"
+        "translation": "正在连接至Discord"
     },
     "Gatherings/SystemMessage/ConnectingText": {
         "oracleText": "Please accept the connection request via the Discord application.",
-        "translation": "Please accept the connection request via the Discord application."
+        "translation": "请通过Discord应用程序接受连接请求。"
     },
     "Gatherings/SystemMessage/ConnectionArenaDiscordHeader": {
         "oracleText": "Discord Friends",
-        "translation": "Discord Friends"
+        "translation": "Discord好友"
     },
     "Gatherings/SystemMessage/ConnectionArenaDiscordText": {
         "oracleText": "Visible across Discord and all games linked to your account.",
-        "translation": "Visible across Discord and all games linked to your account."
+        "translation": "在Discord及所有关联至您账号的游戏中均可见。"
     },
     "Gatherings/SystemMessage/ConnectionArenaFriendsHeader": {
         "oracleText": "Arena Friends",
-        "translation": "Arena Friends"
+        "translation": "竞技场好友"
     },
     "Gatherings/SystemMessage/ConnectionArenaFriendsText": {
         "oracleText": "Only visible when you are logged into Arena and Discord.",
-        "translation": "Only visible when you are logged into Arena and Discord."
+        "translation": "仅在您同时登录竞技场和Discord时可见。"
     },
     "Gatherings/SystemMessage/ConnectionSuccessHeader": {
         "oracleText": "Discord Account Connected",
-        "translation": "Discord Account Connected"
+        "translation": "Discord账号已连接"
     },
     "Gatherings/SystemMessage/ConnectionSuccessText": {
         "oracleText": "You have successfully connected your Discord account, and can now chat with your friends no matter what plane they walk. Friends you add on Arena will be in-game friends only.",
-        "translation": "You have successfully connected your Discord account, and can now chat with your friends no matter what plane they walk. Friends you add on Arena will be in-game friends only."
+        "translation": "您已成功连接Discord账号，现在无论您的好友漫步于哪个时空，您都能与他们随心交流。您在竞技场中添加的好友将仅限为游戏内好友。"
     },
     "Gatherings/SystemMessage/FailedConnectHeader": {
         "oracleText": "Failed to Connect",
-        "translation": "Failed to Connect"
+        "translation": "连接失败"
     },
     "Gatherings/SystemMessage/FailedConnectText": {
         "oracleText": "There was an issue connecting to Discord.",
-        "translation": "There was an issue connecting to Discord."
+        "translation": "连接至Discord时出现问题。"
     },
     "Gatherings/SystemMessage/RetryButton": {
         "oracleText": "Retry",
-        "translation": "Retry"
+        "translation": "重试"
     },
     "Gatherings/SystemMessage/UnlinkConfirmedHeader": {
         "oracleText": "Unlinked from Discord",
-        "translation": "Unlinked from Discord"
+        "translation": "已与Discord解除关联"
     },
     "Gatherings/SystemMessage/UnlinkConfirmedText": {
         "oracleText": "Account successfully unlinked from Discord.",
-        "translation": "Account successfully unlinked from Discord."
+        "translation": "账号已成功与Discord解除关联。"
     },
     "General/Sets/AA1": {
         "oracleText": "Arena Anthology 1",
@@ -36245,7 +36245,7 @@
     },
     "General/Sets/MAR": {
         "oracleText": "Marvel Source Material",
-        "translation": "Marvel Source Material"
+        "translation": "漫威原始素材"
     },
     "General/Sets/MAT": {
         "oracleText": "March of the Machine: The Aftermath",
@@ -36269,11 +36269,11 @@
     },
     "General/Sets/MSC": {
         "oracleText": "Marvel Super Heroes Commander",
-        "translation": "Marvel Super Heroes Commander"
+        "translation": "漫威超级英雄指挥官"
     },
     "General/Sets/MSH": {
         "oracleText": "Magic: The Gathering® | Marvel Super Heroes",
-        "translation": "Magic: The Gathering® | Marvel Super Heroes"
+        "translation": "万智牌丨漫威超级英雄"
     },
     "General/Sets/MUL": {
         "oracleText": "Multiverse Legends",
@@ -36349,7 +36349,7 @@
     },
     "General/Sets/SPM": {
         "oracleText": "Magic: The Gathering® | Marvel's Spider-Man",
-        "translation": "Magic: The Gathering® | Marvel's Spider-Man"
+        "translation": "万智牌丨漫威的蜘蛛侠"
     },
     "General/Sets/STA": {
         "oracleText": "Strixhaven Mystical Archive",
@@ -36489,7 +36489,7 @@
     },
     "GodofThunder_CardRewardKey": {
         "oracleText": "x4 The Immortal Weapons\nx4 Happy Hogan, Dauntless Driver\nx4 She-Hulk, Jennifer Walters",
-        "translation": "x4 The Immortal Weapons\nx4 Happy Hogan, Dauntless Driver\nx4 She-Hulk, Jennifer Walters"
+        "translation": "x4 不朽武器\nx4 无畏司机哈皮·霍根\nx4 女浩克珍妮佛·沃尔特斯"
     },
     "Google/Bundle_REX_FullArtLands_Desc": {
         "oracleText": "Full Art Land Plains (2 appearances)\nFull Art Land Island (2 appearances)\nFull Art Land Swamp (2 appearances)\nFull Art Land Mountain (2 appearances)\nFull Art Land Forest (2 appearances)\n\n© UCS LLC and Amblin",
@@ -36989,7 +36989,7 @@
     },
     "MSH_MetaGoal_CardRewardKey": {
         "oracleText": "x4 \"Team Transmitter\" Card Reward",
-        "translation": "x4 \"Team Transmitter\" Card Reward"
+        "translation": "x4 团队通讯器卡牌奖励"
     },
     "MainNav/1xSetRewardCard/ELD": {
         "oracleText": "x1 set - Throne of Eldraine",
@@ -37441,7 +37441,7 @@
     },
     "MainNav/BattlePass/BattlePass_MSH": {
         "oracleText": "<i>Marvel Super Heroes</i>",
-        "translation": "<i>Marvel Super Heroes</i>"
+        "translation": "<i>漫威超级英雄</i>"
     },
     "MainNav/BattlePass/BattlePass_NEO": {
         "oracleText": "Neon Dynasty",
@@ -37813,7 +37813,7 @@
     },
     "MainNav/BattlePass/MasteryListingTitle_MSH": {
         "oracleText": "<i>Marvel Super Heroes</i> Set Mastery",
-        "translation": "<i>Marvel Super Heroes</i> Set Mastery"
+        "translation": "<i>漫威超级英雄</i>精研通行证"
     },
     "MainNav/BattlePass/MasteryListingTitle_OM1": {
         "oracleText": "Through the Omenpaths Set Mastery",
@@ -37937,7 +37937,7 @@
     },
     "MainNav/BattlePass/Mastery_Header_MSH": {
         "oracleText": "<i>Marvel Super Heroes</i> Mastery",
-        "translation": "<i>Marvel Super Heroes</i> Mastery"
+        "translation": "<i>漫威超级英雄</i>精研通行证"
     },
     "MainNav/BattlePass/Mastery_Header_NEO": {
         "oracleText": "Kamigawa: Neon Dynasty Mastery Pass",
@@ -42693,7 +42693,7 @@
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MSH_454581": {
         "oracleText": "Captain America's Shield Sleeve",
-        "translation": "Captain America's Shield Sleeve"
+        "translation": "美国队长之盾牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MSH_454705": {
         "oracleText": "Thanos Sleeve",
@@ -42701,15 +42701,15 @@
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MSH_456354": {
         "oracleText": "Doom's Dark Ritual Exquisite Sleeve",
-        "translation": "Doom's Dark Ritual Exquisite Sleeve"
+        "translation": "毁灭的黑暗祭礼精饰牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MSH_457172": {
         "oracleText": "Captain America, Wings of Freedom Sleeve",
-        "translation": "Captain America, Wings of Freedom Sleeve"
+        "translation": "自由之翼美国队长牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MSH_457174": {
         "oracleText": "Ironheart, Clever Champion Sleeve",
-        "translation": "Ironheart, Clever Champion Sleeve"
+        "translation": "机敏斗士钢铁心牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MSH_457254": {
         "oracleText": "Iron Man Sleeve",
@@ -42717,19 +42717,19 @@
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MSH_460073": {
         "oracleText": "The Unbeatable Squirrel Girl Sleeve",
-        "translation": "The Unbeatable Squirrel Girl Sleeve"
+        "translation": "无敌松鼠妹牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MSH_460076": {
         "oracleText": "The Kingpin of Crime Sleeve",
-        "translation": "The Kingpin of Crime Sleeve"
+        "translation": "犯罪大王金并牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MSH_460082": {
         "oracleText": "The Sensational She-Hulk Sleeve",
-        "translation": "The Sensational She-Hulk Sleeve"
+        "translation": "惊世瞩目女浩克牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MSH_460192": {
         "oracleText": "Captain America, Team Leader Sleeve",
-        "translation": "Captain America, Team Leader Sleeve"
+        "translation": "团队领袖美国队长牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_MetallicArena": {
         "oracleText": "Metallic Arena Sleeve",
@@ -45801,7 +45801,7 @@
     },
     "MainNav/DeckFormat/FDNMSH": {
         "oracleText": "<i>Marvel Super Heroes</i> Foundations",
-        "translation": "<i>Marvel Super Heroes</i> Foundations"
+        "translation": "<i>漫威超级英雄</i>基石构筑"
     },
     "MainNav/DeckFormat/FDNOM1": {
         "oracleText": "Through the Omenpaths Foundations",
@@ -45869,7 +45869,7 @@
     },
     "MainNav/DeckFormat/HistoricBrawlRanked": {
         "oracleText": "Competitive Brawl",
-        "translation": "Competitive Brawl"
+        "translation": "竞技争锋"
     },
     "MainNav/DeckFormat/HistoricBrawlWithAllowList_20240514": {
         "oracleText": "Midweek Magic: Brawl Builder",
@@ -46977,7 +46977,7 @@
     },
     "MainNav/EventRewards/ArenaDirect_FDN_PlaySingular": {
         "oracleText": "1 Magic: The Gathering Foundations Play Booster Box",
-        "translation": "1 Magic: The Gathering Foundations Play Booster Box"
+        "translation": "1盒万智牌：基石构筑常规补充包"
     },
     "MainNav/EventRewards/ArenaDirect_FDN_Token_Desc": {
         "oracleText": "These tokens represent that you are eligible to receive physical <i>Foundations</i> Play Booster Boxes",
@@ -47073,19 +47073,19 @@
     },
     "MainNav/EventRewards/ArenaDirect_MSH_CollectorPlural": {
         "oracleText": "{quantity} Marvel Super Heroes Collector Booster Boxes",
-        "translation": "{quantity} Marvel Super Heroes Collector Booster Boxes"
+        "translation": "{quantity}盒漫威超级英雄聚珍补充包"
     },
     "MainNav/EventRewards/ArenaDirect_MSH_CollectorSingular": {
         "oracleText": "{quantity} Marvel Super Heroes Collector Booster Box",
-        "translation": "{quantity} Marvel Super Heroes Collector Booster Box"
+        "translation": "{quantity}盒漫威超级英雄聚珍补充包"
     },
     "MainNav/EventRewards/ArenaDirect_MSH_PlayPlural": {
         "oracleText": "{quantity} Marvel Super Heroes Play Booster Box",
-        "translation": "{quantity} Marvel Super Heroes Play Booster Box"
+        "translation": "{quantity}盒漫威超级英雄常规补充包"
     },
     "MainNav/EventRewards/ArenaDirect_MSH_PlaySingular": {
         "oracleText": "{quantity} Marvel Super Heroes Play Booster Boxes",
-        "translation": "{quantity} Marvel Super Heroes Play Booster Boxes"
+        "translation": "{quantity}盒漫威超级英雄常规补充包"
     },
     "MainNav/EventRewards/ArenaDirect_NEO_SetPlural": {
         "oracleText": "{quantity} Kamigawa: Neon Dynasty Draft Booster Boxes",
@@ -47373,7 +47373,7 @@
     },
     "MainNav/EventRewards/Card_R": {
         "oracleText": "1 Rare Card",
-        "translation": "1 Rare Card"
+        "translation": "1张稀有牌"
     },
     "MainNav/EventRewards/Card_Reward_Common": {
         "oracleText": "Card will be at least Common",
@@ -47413,11 +47413,11 @@
     },
     "MainNav/EventRewards/Cards_XR": {
         "oracleText": "{number1} Rare Cards",
-        "translation": "{number1} Rare Cards"
+        "translation": "{number1}张稀有牌"
     },
     "MainNav/EventRewards/Cards_XR_XU": {
         "oracleText": "{number1} Rare and {number2} Uncommon Cards",
-        "translation": "{number1} Rare and {number2} Uncommon Cards"
+        "translation": "{number1}张稀有牌和{number2}张非普通牌"
     },
     "MainNav/EventRewards/Cash0": {
         "oracleText": "$500 USD",
@@ -48085,7 +48085,7 @@
     },
     "MainNav/EventRewards/MSH_Styles_and_Orbs": {
         "oracleText": "{number1} <i>Marvel Super Heroes</i> Card Styles & {number2} Orbs",
-        "translation": "{number1} <i>Marvel Super Heroes</i> Card Styles & {number2} Orbs"
+        "translation": "{number1}种<i>漫威超级英雄</i>卡牌样式和{number2}颗法珠"
     },
     "MainNav/EventRewards/MWCs": {
         "oracleText": "{number1} Mythic Wildcards",
@@ -48585,15 +48585,15 @@
     },
     "MainNav/EventRewards/Sticker_MSH_DoomBots_Multiply": {
         "oracleText": "Doom Bots Sticker Emote",
-        "translation": "Doom Bots Sticker Emote"
+        "translation": "毁灭机器人贴纸表情"
     },
     "MainNav/EventRewards/Sticker_MSH_MsMarvel_Punch": {
         "oracleText": "Ms. Marvel Sticker Emote",
-        "translation": "Ms. Marvel Sticker Emote"
+        "translation": "惊奇少女贴纸表情"
     },
     "MainNav/EventRewards/Sticker_MSH_Shehulk_Rebuttal": {
         "oracleText": "She-Hulk Sticker Emote",
-        "translation": "She-Hulk Sticker Emote"
+        "translation": "女浩克贴纸表情"
     },
     "MainNav/EventRewards/Sticker_OM1_Fleem_Blink": {
         "oracleText": "Fleem Blink Sticker Emote",
@@ -48769,7 +48769,7 @@
     },
     "MainNav/EventRewards/Styles_and_Orbs": {
         "oracleText": "{number1} Card Styles & {number2} Set Mastery Orbs",
-        "translation": "{number1} Card Styles & {number2} Set Mastery Orbs"
+        "translation": "{number1}种卡牌样式和{number2}颗精研通行证法珠"
     },
     "MainNav/EventRewards/Suspicious_Stowaway": {
         "oracleText": "Suspicious Stowaway Card Style",
@@ -50725,15 +50725,15 @@
     },
     "MainNav/HomePage/Carousel/2026_60_0_MSH_Mastery_Title": {
         "oracleText": "The Magic: The Gathering® | Marvel Super Heroes Set Mastery is Here!",
-        "translation": "The Magic: The Gathering® | Marvel Super Heroes Set Mastery is Here!"
+        "translation": "万智牌丨漫威超级英雄精研通行证在此！"
     },
     "MainNav/HomePage/Carousel/2026_60_0_OrganizedPlay_Belgium_Desc": {
         "oracleText": "July 24-26 | Prizes, Pro Tour invites, and more are up for grabs. Learn more!",
-        "translation": "July 24-26 | Prizes, Pro Tour invites, and more are up for grabs. Learn more!"
+        "translation": "7月24-26日丨奖金、职业巡回赛参赛资格，以及更多奖励等你来拿！了解更多！"
     },
     "MainNav/HomePage/Carousel/2026_60_0_OrganizedPlay_Belgium_Title": {
         "oracleText": "Magic Spotlight Series Arrives in Brussels, Belgium",
-        "translation": "Magic Spotlight Series Arrives in Brussels, Belgium"
+        "translation": "万智牌聚光灯系列赛登陆比利时布鲁塞尔"
     },
     "MainNav/HomePage/Carousel/2026_60_0_OrganizedPlay_LasVegas_Desc": {
         "oracleText": "June 26-28 | Prizes, Pro Tour Invites, and more are up for grabs. Learn more!",
@@ -56129,11 +56129,11 @@
     },
     "MainNav/Mailbox/2026_60_0_MSH_SetAnnouncement_Description": {
         "oracleText": "Take these 3 packs and some basic lands to help you become one of the mightiest heroes on MTG Arena!",
-        "translation": "Take these 3 packs and some basic lands to help you become one of the mightiest heroes on MTG Arena!"
+        "translation": "收下这3包补充包和一些基本地，助你成为万智牌：竞技场中最强大的英雄之一！"
     },
     "MainNav/Mailbox/2026_60_0_MSH_SetAnnouncement_Title": {
         "oracleText": "Marvel Super Heroes Are Here!",
-        "translation": "Marvel Super Heroes Are Here!"
+        "translation": "漫威超级英雄在此！"
     },
     "MainNav/Mailbox/2026_ECLCinematic_Slide1": {
         "oracleText": "Welcome, traveler, to the plane of Lorwyn.",
@@ -58333,15 +58333,15 @@
     },
     "MainNav/PetNames/MSH_Mastery_Companion_1": {
         "oracleText": "Captain America's Heater Shield",
-        "translation": "Captain America's Heater Shield"
+        "translation": "美国队长的三角盾"
     },
     "MainNav/PetNames/MSH_Mastery_Companion_2": {
         "oracleText": "Captain America's Vibranium Shield",
-        "translation": "Captain America's Vibranium Shield"
+        "translation": "美国队长的振金盾"
     },
     "MainNav/PetNames/MSH_Mastery_Companion_3": {
         "oracleText": "Captain America's Energy Shield",
-        "translation": "Captain America's Energy Shield"
+        "translation": "美国队长的能量盾"
     },
     "MainNav/PetNames/MSH_Preorder_1": {
         "oracleText": "Iron Man's Briefcase",
@@ -59469,7 +59469,7 @@
     },
     "MainNav/PrizeWall/Hideaway_Header_MSH": {
         "oracleText": "<i>Magic: The Gathering® | Marvel Super Heroes</i> Mastery Emporium",
-        "translation": "<i>Magic: The Gathering® | Marvel Super Heroes</i> Mastery Emporium"
+        "translation": "<i>万智牌丨漫威超级英雄</i>通行证商铺"
     },
     "MainNav/PrizeWall/Hideaway_Header_OM1": {
         "oracleText": "Through the Omenpaths Mastery Emporium",
@@ -59805,19 +59805,19 @@
     },
     "MainNav/Profile/Avatars/Avatar_Basic_BlackPanther_MSH_Bio": {
         "oracleText": "T'Challa serves the nation of Wakanda as its king and sworn protector known as the Black Panther. Enhanced with strength, agility, and a Vibranium suit, he defends Wakanda against threats both internal and external. Defying tradition, he also assists the greater world—often as an Avenger.",
-        "translation": "T'Challa serves the nation of Wakanda as its king and sworn protector known as the Black Panther. Enhanced with strength, agility, and a Vibranium suit, he defends Wakanda against threats both internal and external. Defying tradition, he also assists the greater world—often as an Avenger."
+        "translation": "特查拉作为瓦坎达的国王与誓约守护者，以黑豹之名效力于国家。凭借力量、敏捷和振金战衣增强自身能力，保卫瓦坎达免受内外威胁。他打破传统，也常常以复仇者的身份协助更广阔的世界。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_BlackPanther_MSH_Name": {
         "oracleText": "Black Panther",
-        "translation": "Black Panther"
+        "translation": "黑豹"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_BlackWidow_MSH_Bio": {
         "oracleText": "The enigmatic Natasha Romanoff proves that some heroes work best in the shadows. Operating at peak human condition with expert combat training, deadly gadgets, and fluency in multiple languages, the Black Widow is S.H.I.E.L.D.'s weapon of choice for any covert mission.",
-        "translation": "The enigmatic Natasha Romanoff proves that some heroes work best in the shadows. Operating at peak human condition with expert combat training, deadly gadgets, and fluency in multiple languages, the Black Widow is S.H.I.E.L.D.'s weapon of choice for any covert mission."
+        "translation": "神秘的娜塔莎·罗曼诺夫证明了有些英雄最适合在暗处行动。黑寡妇以人类巅峰体能、专业格斗训练、致命装备和精通多国语言的能力，成为神盾局执行秘密任务的首选武器。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_BlackWidow_MSH_Name": {
         "oracleText": "Black Widow, Natasha Romanoff",
-        "translation": "Black Widow, Natasha Romanoff"
+        "translation": "黑寡妇娜塔莎·罗曼诺夫"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Bolas_DragonGod_Bio": {
         "oracleText": "A force of villainous destruction, crushing all that stand in his way.  Elder dragon and tyrant of worlds, Nicol Bolas is one of the oldest known beings in the Multiverse.",
@@ -59877,19 +59877,19 @@
     },
     "MainNav/Profile/Avatars/Avatar_Basic_CaptainAmerica_MSH_Bio": {
         "oracleText": "As a scrawny, sickly teen in the earliest days of World War II, Steve volunteered for an experimental program that would grant him strength to fight for his country. Frozen under ice for decades, Steve awoke in the modern era to lead the Avengers.",
-        "translation": "As a scrawny, sickly teen in the earliest days of World War II, Steve volunteered for an experimental program that would grant him strength to fight for his country. Frozen under ice for decades, Steve awoke in the modern era to lead the Avengers."
+        "translation": "在二战初期，瘦弱多病的史蒂夫自愿参加了一个实验项目，获得为祖国而战的力量。被冰封数十年后，史蒂夫在现代苏醒，领导复仇者联盟。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_CaptainAmerica_MSH_Name": {
         "oracleText": "Captain America, Steve Rogers",
-        "translation": "Captain America, Steve Rogers"
+        "translation": "美国队长史蒂夫·罗杰斯"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_CaptainMarvel_MSH_Bio": {
         "oracleText": "Carol wasn't the first to be called \"Captain Marvel,\" but she's taking the mantle higher, further, and faster than ever before. The former Air Force pilot was exposed to a Kree alien device, rewiring her DNA and giving her powerful cosmic abilities.",
-        "translation": "Carol wasn't the first to be called \"Captain Marvel,\" but she's taking the mantle higher, further, and faster than ever before. The former Air Force pilot was exposed to a Kree alien device, rewiring her DNA and giving her powerful cosmic abilities."
+        "translation": "卡罗尔并非第一个被称为「惊奇队长」的人，但她将这一称号提升到了前所未有的高度。这位前空军飞行员曾接触克里人外星装置，改写了她的DNA，赋予她强大的宇宙异能。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_CaptainMarvel_MSH_Name": {
         "oracleText": "Captain Marvel, Carol Danvers",
-        "translation": "Captain Marvel, Carol Danvers"
+        "translation": "惊奇队长卡罗尔·丹弗斯"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_CaseyJones_TMT_Bio": {
         "oracleText": "New York is a big city, and four turtles can't protect it all—that's where Casey Jones comes in. This vigilante crime fighter's signature style is a hockey mask and a dangerous arsenal of sporting equipment. At least he's working for the good guys!",
@@ -59997,11 +59997,11 @@
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Daredevil_MSH_Bio": {
         "oracleText": "After Matthew Murdock was blinded in a childhood accident, his other senses became enhanced. Through training, he found he could use these enhanced senses to defend the streets of Hell's Kitchen as the vigilante Daredevil—all while living a double life as a mild-mannered lawyer.",
-        "translation": "After Matthew Murdock was blinded in a childhood accident, his other senses became enhanced. Through training, he found he could use these enhanced senses to defend the streets of Hell's Kitchen as the vigilante Daredevil—all while living a double life as a mild-mannered lawyer."
+        "translation": "马修·默多克在童年事故中失明后，其他感官变得异常敏锐。通过训练，他发现自己可以利用这些增强的感官，以义警夜魔侠的身份守护地狱厨房的街头——同时过着温文尔雅律师的双重生活。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Daredevil_MSH_Name": {
         "oracleText": "Daredevil, Matt Murdock",
-        "translation": "Daredevil, Matt Murdock"
+        "translation": "夜魔侠马特·默多克"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Davriel_J21_Bio": {
         "oracleText": "Davriel Cane is a simple man who enjoys simple pleasures: wealth, luxury, and fine tea. He also happens to be a talented diabolist, skilled at binding demons to his service. He detests playing the hero, yet often finds himself in the role despite his best efforts to avoid it.",
@@ -60069,19 +60069,19 @@
     },
     "MainNav/Profile/Avatars/Avatar_Basic_DrDoom_MSH_Bio": {
         "oracleText": "With an ego as great as his genius, Doctor Doom casts a tall and fearsome shadow over the Marvel Universe. Wearing his iron mask and armor, he rules Latveria—but he won't relent until he conquers Earth and finally eliminates his longtime rival, Reed Richards.",
-        "translation": "With an ego as great as his genius, Doctor Doom casts a tall and fearsome shadow over the Marvel Universe. Wearing his iron mask and armor, he rules Latveria—but he won't relent until he conquers Earth and finally eliminates his longtime rival, Reed Richards."
+        "translation": "毁灭博士的自大与他的天才不相上下，他在漫威宇宙中投下巨大而可怕的阴影。他戴着铁面具、身披铠甲统治拉托维利亚——但他不会停歇，直到征服地球并最终消灭宿敌里德·理查兹。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_DrDoom_MSH_Name": {
         "oracleText": "Doctor Doom",
-        "translation": "Doctor Doom"
+        "translation": "毁灭博士"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Elektra_MSH_Bio": {
         "oracleText": "When her infiltration of assassin organization the Hand failed, Elektra Natchios gave herself over to the insidious order, becoming one of their deadliest operatives. She eventually became free of the Hand's solitary grasp, but she'll rarely turn down a contract if the money's good enough.",
-        "translation": "When her infiltration of assassin organization the Hand failed, Elektra Natchios gave herself over to the insidious order, becoming one of their deadliest operatives. She eventually became free of the Hand's solitary grasp, but she'll rarely turn down a contract if the money's good enough."
+        "translation": "当渗透刺客组织手合会失败后，艾丽卡·纳奇丝投身于这个阴险的组织，成为其最致命的特工之一。她最终摆脱了手合会的控制，但如果报酬足够丰厚，她很少会拒绝合约。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Elektra_MSH_Name": {
         "oracleText": "Elektra",
-        "translation": "Elektra"
+        "translation": "艾丽卡"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_EleshNorn_ONE_Bio": {
         "oracleText": "After dominating the other Phyrexian praetors in a struggle for power, Elesh Norn led the transformation of the plane of Mirrodin into a world of twisted perfection called New Phyrexia. Under her rule, she now envisions an entire Multiverse \"blessed\" by the same mechanical corruption . . .",
@@ -60253,11 +60253,11 @@
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Galactus_MSH_Bio": {
         "oracleText": "No planet in the universe is truly safe from Galactus, for the Devourer of Worlds always hungers. The colossal cosmic being sends out his heralds to seek new planetary candidates for consumption, which often places Earth in the path of destruction.",
-        "translation": "No planet in the universe is truly safe from Galactus, for the Devourer of Worlds always hungers. The colossal cosmic being sends out his heralds to seek new planetary candidates for consumption, which often places Earth in the path of destruction."
+        "translation": "宇宙中没有任何星球能真正免受行星吞噬者的威胁，因为这位吞噬诸界的巨大宇宙存在永远饥渴。他派出传令使寻找新的行星作为吞噬目标，这常常使地球处于毁灭的边缘。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Galactus_MSH_Name": {
         "oracleText": "Galactus",
-        "translation": "Galactus"
+        "translation": "行星吞噬者"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Galadriel_LTR_Bio": {
         "oracleText": "Galadriel carries one of the Three Rings of the Elves and is nearly as old as Middle-earth itself. She rules the forest of Lothlórien with her husband Celeborn and provides aid to the Fellowship of the Ring after their escape from Moria.",
@@ -60349,11 +60349,11 @@
     },
     "MainNav/Profile/Avatars/Avatar_Basic_GwenStacy_SPM_Bio": {
         "oracleText": "Gwen possesses supernatural balance, agility, and speed, and when she's not battling evil, she plays the drums in her rock band, the Mary Janes. She's been called Spider-Woman, Ghost-Spider, and—from those who know—Spider-Gwen.",
-        "translation": "Gwen possesses supernatural balance, agility, and speed, and when she's not battling evil, she plays the drums in her rock band, the Mary Janes. She's been called Spider-Woman, Ghost-Spider, and—from those who know—Spider-Gwen."
+        "translation": "格温拥有超自然的平衡感、敏捷性和速度，当她不与邪恶战斗时，会在她的摇滚乐队「玛丽·简」中担任鼓手。她被称为蜘蛛女侠、幽灵蜘蛛，以及——知情者所称的——蜘蛛格温。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_GwenStacy_SPM_Name": {
         "oracleText": "Ghost-Spider, Gwen Stacy",
-        "translation": "Ghost-Spider, Gwen Stacy"
+        "translation": "幽灵蜘蛛格温·史黛西"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Haliya_EOE_Bio": {
         "oracleText": "Haliya is a bright and eager squire in the Sunstar Free Company who just arrived in Sothera. She traveled there aboard the Horizon Javelin Dawnsire, a kilometers-long vessel that will reignite the Sothera supervoid—something the system's Monoists will do anything to prevent.",
@@ -60365,19 +60365,19 @@
     },
     "MainNav/Profile/Avatars/Avatar_Basic_HawkeyeClint_MSH_Bio": {
         "oracleText": "Clint Barton may spend his days fighting beside gamma-radiated monsters and mythic gods, but when the battles are done, he's just a guy with bills to pay. He's certainly no slouch—as an expert archer, his trick arrows never fail to hit the mark.",
-        "translation": "Clint Barton may spend his days fighting beside gamma-radiated monsters and mythic gods, but when the battles are done, he's just a guy with bills to pay. He's certainly no slouch—as an expert archer, his trick arrows never fail to hit the mark."
+        "translation": "克林特·巴顿的日常可能是与伽马辐射怪物和神话中的神明并肩作战，但战斗结束后，他只是一个要付账单的普通人。他绝非等闲之辈——作为神射手，他的特制箭矢从不失手。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_HawkeyeClint_MSH_Name": {
         "oracleText": "Hawkeye, Clint Barton",
-        "translation": "Hawkeye, Clint Barton"
+        "translation": "鹰眼克林特·巴顿"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_HawkeyeKate_MSH_Bio": {
         "oracleText": "Young Avenger and aspirational archer Kate Bishop shares the \"Hawkeye\" moniker with her mentor, Clint Barton. She's proven herself more than deserving of the mantle, taking on the Russian Mafia, Madame Masque, and even her own father.",
-        "translation": "Young Avenger and aspirational archer Kate Bishop shares the \"Hawkeye\" moniker with her mentor, Clint Barton. She's proven herself more than deserving of the mantle, taking on the Russian Mafia, Madame Masque, and even her own father."
+        "translation": "年轻复仇者和有抱负的弓箭手凯特·毕肖普与她的导师克林特·巴顿共享「鹰眼」的称号。她已经证明自己完全配得上这一称号，曾与俄罗斯黑帮、面具夫人甚至自己的父亲交手。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_HawkeyeKate_MSH_Name": {
         "oracleText": "Hawkeye, Kate Bishop",
-        "translation": "Hawkeye, Kate Bishop"
+        "translation": "鹰眼凯特·毕肖普"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Helga_BLB_Bio": {
         "oracleText": "Helga is a gifted seer and spellcaster but lacks self-assurance in her abilities. She studied under the wizard Glarb but struggled to live up to his impossible expectations, deeply affecting her demeanor and confidence. With enough encouragement, she may still make leaps in progress.",
@@ -60413,19 +60413,19 @@
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Hulk_MSH_Bio": {
         "oracleText": "After an unfortunate accident during a gamma radiation test, scientist Bruce Banner was left with the ability to transform into a raging monster with incredible strength. This ability isn't voluntary, however—as Banner loses control of his anger, it's the Hulk that emerges.",
-        "translation": "After an unfortunate accident during a gamma radiation test, scientist Bruce Banner was left with the ability to transform into a raging monster with incredible strength. This ability isn't voluntary, however—as Banner loses control of his anger, it's the Hulk that emerges."
+        "translation": "在一次伽马辐射实验中不幸遭遇事故后，科学家布鲁斯·班纳获得了变身为拥有惊人力量的狂暴怪物的能力。然而这种能力并不可控——当班纳失去对愤怒的控制时，浩克就会出现。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Hulk_MSH_Name": {
         "oracleText": "The Hulk, Bruce Banner",
-        "translation": "The Hulk, Bruce Banner"
+        "translation": "绿巨人布鲁斯·班纳"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_HumanTorch_MSH_Bio": {
         "oracleText": "The hothead flyboy of the Fantastic Four. Engulfed in living flames, Johnny Storm soars through the skies and puts a stop to fights before they can begin. The only thing he can't stop: tabloids getting the scoop on his latest celebrity romance.",
-        "translation": "The hothead flyboy of the Fantastic Four. Engulfed in living flames, Johnny Storm soars through the skies and puts a stop to fights before they can begin. The only thing he can't stop: tabloids getting the scoop on his latest celebrity romance."
+        "translation": "神奇四侠中的火爆飞行员。强尼·斯托姆被活体火焰包裹，在天空翱翔，总能在冲突爆发前将其扼杀。唯一他无法阻止的：小报爆料他最新的名人恋情。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_HumanTorch_MSH_Name": {
         "oracleText": "Human Torch, Johnny Storm",
-        "translation": "Human Torch, Johnny Storm"
+        "translation": "霹雳火强尼·斯托姆"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Iroh_TLA_Bio": {
         "oracleText": "Iroh was once a great general in the Fire Nation army, but after losing his son in battle, his outlook on life changed. Now he dedicates himself to enlightenment and acts of service like mentoring his nephew, Zuko, and working at a tea shop.",
@@ -60437,11 +60437,11 @@
     },
     "MainNav/Profile/Avatars/Avatar_Basic_IronMan_MSH_Bio": {
         "oracleText": "Brilliant inventor Tony Stark turned a brush with death into a powerful force for good. Escaping from captivity with a mechanical suit built to keep him alive, Tony continued to refine his invention's capabilities—and became the hero known as Iron Man.",
-        "translation": "Brilliant inventor Tony Stark turned a brush with death into a powerful force for good. Escaping from captivity with a mechanical suit built to keep him alive, Tony continued to refine his invention's capabilities—and became the hero known as Iron Man."
+        "translation": "天才发明家托尼·史塔克将一次濒死经历转化为强大的正义力量。他穿着为保命而打造的机械战甲逃脱囚禁，不断改进发明的性能——成为了被称为钢铁侠的英雄。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_IronMan_MSH_Name": {
         "oracleText": "Iron Man, Tony Stark",
-        "translation": "Iron Man, Tony Stark"
+        "translation": "钢铁侠托尼·史塔克"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_JaceBeleren_Bio": {
         "oracleText": "Jace Beleren is a master of mental magic: spells of illusion, deception, and mind reading. His powers allow him to manipulate enemies by countering their magic or turning their spells against them.",
@@ -60541,11 +60541,11 @@
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Kang_MSH_Bio": {
         "oracleText": "To battle the machinations of the devious villain Kang, one must not think \"where,\" but \"when.\" As a master of time travel, Kang's frontlines are timelines, sending alternate Kangs to run amok through history, sometimes to his own detriment.",
-        "translation": "To battle the machinations of the devious villain Kang, one must not think \"where,\" but \"when.\" As a master of time travel, Kang's frontlines are timelines, sending alternate Kangs to run amok through history, sometimes to his own detriment."
+        "translation": "要对抗诡诈反派征服者康的阴谋，不能只思考\"何地\"，更要思考\"何时\"。作为时间旅行大师，康的前线就是时间线，他派出平行宇宙的康在历史中横行无忌，有时甚至自食其果。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Kang_MSH_Name": {
         "oracleText": "Kang the Conqueror",
-        "translation": "Kang the Conqueror"
+        "translation": "征服者康"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Karn_Bio": {
         "oracleText": "Originally created as a war weapon, Karn is able to control all five colors of mana. This silver golem is a time-travelling Planeswalker, powerful artifact, world builder, and unstoppable ally.",
@@ -60777,11 +60777,11 @@
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Loki_MSH_Bio": {
         "oracleText": "Trickster of legend and god of mischief and evil, Loki was the adopted child of Odin, ruler of Asgard, and a foster brother to Thor. He's a regular thorn in the side of Thor as well as the Avengers, reveling in their chaos and confusion.",
-        "translation": "Trickster of legend and god of mischief and evil, Loki was the adopted child of Odin, ruler of Asgard, and a foster brother to Thor. He's a regular thorn in the side of Thor as well as the Avengers, reveling in their chaos and confusion."
+        "translation": "传说中的骗子、诡计与邪恶之神洛基是阿斯加德统治者奥丁的养子，也是索尔的义弟。他是索尔和复仇者联盟的眼中钉，热衷于制造混乱与困惑。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Loki_MSH_Name": {
         "oracleText": "Loki",
-        "translation": "Loki"
+        "translation": "洛基"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Lukka_IKO_Bio": {
         "oracleText": "Lukka was once a loyal soldier who dedicated his life to protecting the humans of Ikoria from monsters. Then he magically bonded with one of the creatures he'd been trained to hate and fear, leaving him caught between two warring worlds.",
@@ -60825,11 +60825,11 @@
     },
     "MainNav/Profile/Avatars/Avatar_Basic_MilesMorales_SPM_Bio": {
         "oracleText": "Miles is a teen attending the Brooklyn Visions Academy who became Spider-Man when his world's Peter Parker perished. He has powers akin to Peter's, but with the addition of bio-electric stun blasts and natural cloaking to go undetected.",
-        "translation": "Miles is a teen attending the Brooklyn Visions Academy who became Spider-Man when his world's Peter Parker perished. He has powers akin to Peter's, but with the addition of bio-electric stun blasts and natural cloaking to go undetected."
+        "translation": "迈尔斯是一名就读于布鲁克林愿景学院的少年，当他的世界的彼得·帕克牺牲后，他成为了蜘蛛侠。他拥有与彼得相似的能力，但额外具备生物电眩晕冲击和天然隐身。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_MilesMorales_SPM_Name": {
         "oracleText": "Spider-Man, Miles Morales",
-        "translation": "Spider-Man, Miles Morales"
+        "translation": "蜘蛛侠迈尔斯·莫拉雷斯"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Minsc_HBG_Bio": {
         "oracleText": "Minsc is a bald, purple-tattooed ranger and a source of comic relief. His loyal companion is a miniature giant space hamster (a.k.a., a regular hamster) known as Boo, who doesn't talk. Minsc hails from Rashemen, Boo from Wildspace. Minsc is kind-hearted, has good intentions, and absolutely loves to be the hero even if it means throwing himself into danger to do what he believes is right.",
@@ -60873,11 +60873,11 @@
     },
     "MainNav/Profile/Avatars/Avatar_Basic_MrFantastic_MSH_Bio": {
         "oracleText": "The flexible mastermind of the Fantastic Four. When genius scientist Reed Richards isn't hard at work tinkering on his latest invention or conducting mind-bending research, he's foiling evil plots with his stretchy elastic body or coordinating battle strategies with the rest of the team.",
-        "translation": "The flexible mastermind of the Fantastic Four. When genius scientist Reed Richards isn't hard at work tinkering on his latest invention or conducting mind-bending research, he's foiling evil plots with his stretchy elastic body or coordinating battle strategies with the rest of the team."
+        "translation": "神奇四侠中的灵活智囊。当天才科学家里德·理查兹不在埋头钻研最新发明或进行颠覆性研究时，他正用可伸展的弹性身体粉碎邪恶阴谋，或与团队其他成员协调战斗策略。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_MrFantastic_MSH_Name": {
         "oracleText": "Mister Fantastic, Reed Richards",
-        "translation": "Mister Fantastic, Reed Richards"
+        "translation": "神奇先生里德·理查兹"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_MuYanling_M20_Bio": {
         "oracleText": "Mu Yanling has adept command over wind and water, shaping them to meet her needs, whether it be gales to carry her through the air or weaving wind and water together to aid in her martial prowess.",
@@ -60945,11 +60945,11 @@
     },
     "MainNav/Profile/Avatars/Avatar_Basic_NickFury_MSH_Bio": {
         "oracleText": "He's the eye in the sky, the operative in the shadows, and the power behind the scenes. As an elite spymaster and the director of S.H.I.E.L.D., Fury keeps close tabs on Earth's many threats so he can call upon the right heroes to face them.",
-        "translation": "He's the eye in the sky, the operative in the shadows, and the power behind the scenes. As an elite spymaster and the director of S.H.I.E.L.D., Fury keeps close tabs on Earth's many threats so he can call upon the right heroes to face them."
+        "translation": "他是天空之眼、暗处的特工、幕后的力量。作为精英间谍大师和神盾局局长，弗瑞密切关注地球上的众多威胁，以便召唤合适的英雄来应对它们。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_NickFury_MSH_Name": {
         "oracleText": "Nick Fury",
-        "translation": "Nick Fury"
+        "translation": "尼克·弗瑞"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_NicolBolas_Bio": {
         "oracleText": "Elder dragon and tyrant of worlds, Nicol Bolas is one of the oldest known beings in the Multiverse. He's a force of villainous destruction, crushing all magic—and minds—that stand in his way.",
@@ -61057,11 +61057,11 @@
     },
     "MainNav/Profile/Avatars/Avatar_Basic_PeterParker_SPM_Bio": {
         "oracleText": "When high school student Peter Parker was bitten by a radioactive spider, his life was forever changed. Discovering spider-like abilities, Peter assumed the identity of \"Spider-Man,\" but it wasn't until the tragic death of his Uncle Ben that he devoted his life to fighting crime.",
-        "translation": "When high school student Peter Parker was bitten by a radioactive spider, his life was forever changed. Discovering spider-like abilities, Peter assumed the identity of \"Spider-Man,\" but it wasn't until the tragic death of his Uncle Ben that he devoted his life to fighting crime."
+        "translation": "当高中生彼得·帕克被一只放射性蜘蛛咬伤后，他的人生永远改变了。发现自己拥有蜘蛛般的能力后，彼得化身「蜘蛛侠」，但直到他的本叔叔悲惨离世后，他才将一生奉献给打击犯罪。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_PeterParker_SPM_Name": {
         "oracleText": "Spider-Man, Peter Parker",
-        "translation": "Spider-Man, Peter Parker"
+        "translation": "蜘蛛侠彼得·帕克"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_PhagetheUntouchable_Bio": {
         "oracleText": "Before becoming a Planeswalker, Jeska once took the form of Phage, a powerful Avatar who could kill anything with a single touch. It's . . . complicated.",
@@ -61249,11 +61249,11 @@
     },
     "MainNav/Profile/Avatars/Avatar_Basic_ScarletWitch_MSH_Bio": {
         "oracleText": "Reality is a mere plaything for Scarlet Witch, a mutant sorceress with mastery of magic and a powerful family lineage. Wanda's proficiency with spellcraft is impressive by itself, but her most terrifying talent is altering the fabric of fate, changing the world on a whim.",
-        "translation": "Reality is a mere plaything for Scarlet Witch, a mutant sorceress with mastery of magic and a powerful family lineage. Wanda's proficiency with spellcraft is impressive by itself, but her most terrifying talent is altering the fabric of fate, changing the world on a whim."
+        "translation": "对猩红女巫来说，现实不过是玩物。她是一位精通魔法的变种人女巫，拥有强大的家族血统。旺达对法术的精通本身就令人印象深刻，但她最可怕的能力是改变命运的织网，随心所欲地改变世界。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_ScarletWitch_MSH_Name": {
         "oracleText": "Scarlet Witch, Wanda Maximoff",
-        "translation": "Scarlet Witch, Wanda Maximoff"
+        "translation": "猩红女巫旺达·马克西莫夫"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Sephiroth_FIN_Bio": {
         "oracleText": "A legendary soldier who was once proclaimed a hero. However, upon learning the truth about the Shinra Inc. experiments that created him, he grew to hate Shinra and, eventually, all of humanity. Despite being defeated by Cloud five years ago, he refused to return to the planet. He manipulated Jenova, who was kept in the Shinra Building, as his own avatar, and, starting with Cloud, began calling upon the Sephiroth copies across the land with the goal of unleashing the ultimate destructive magic: Meteor.",
@@ -61281,11 +61281,11 @@
     },
     "MainNav/Profile/Avatars/Avatar_Basic_ShangChi_MSH_Bio": {
         "oracleText": "Shang-Chi is a master of all martial arts, especially hand-to-hand combat. Trained since childhood by his villainous father, Shang-Chi would only learn of his father's treacherous deeds as he reached adulthood—and swore he would never relent until his father's secret society is destroyed.",
-        "translation": "Shang-Chi is a master of all martial arts, especially hand-to-hand combat. Trained since childhood by his villainous father, Shang-Chi would only learn of his father's treacherous deeds as he reached adulthood—and swore he would never relent until his father's secret society is destroyed."
+        "translation": "尚气是所有武术的大师，尤其精通徒手格斗。他自幼由邪恶的父亲训练，直到成年才得知父亲的背叛行径——他发誓不摧毁父亲的秘密组织绝不罢休。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_ShangChi_MSH_Name": {
         "oracleText": "Shang-Chi",
-        "translation": "Shang-Chi"
+        "translation": "尚气"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Shantotto_FIN_Bio": {
         "oracleText": "A Tarutaru doctor and former minister of the Windurst Orastery who possesses extraordinary talent in black magic, Shantotto has a superiority complex and a short fuse. Her looks and cadence mimic those of a lady, but her words and actions are shocking and unpredictable.",
@@ -61297,11 +61297,11 @@
     },
     "MainNav/Profile/Avatars/Avatar_Basic_SheHulk_MSH_Bio": {
         "oracleText": "Jennifer Walters is more than just a defense attorney, especially when she transforms into the towering She-Hulk. After receiving a blood transfusion from her cousin Bruce Banner, Jennifer can \"Hulk out\" as well, but maintains her intelligence—and her stellar lawyer skills.",
-        "translation": "Jennifer Walters is more than just a defense attorney, especially when she transforms into the towering She-Hulk. After receiving a blood transfusion from her cousin Bruce Banner, Jennifer can \"Hulk out\" as well, but maintains her intelligence—and her stellar lawyer skills."
+        "translation": "珍妮佛·沃尔特斯不仅仅是一名辩护律师，尤其是当她变身为高大的女浩克时。在接受表哥布鲁斯·班纳的输血后，珍妮佛也能「浩克化」，但保留了她的智力——以及出色的律师技能。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_SheHulk_MSH_Name": {
         "oracleText": "She-Hulk, Jennifer Walters",
-        "translation": "She-Hulk, Jennifer Walters"
+        "translation": "女浩克珍妮佛·沃尔特斯"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Sheoldred_ONE_Bio": {
         "oracleText": "Sheoldred is a graceful, cruel, and clever praetor and the mightiest of the Seven Steel Thanes. She is known for underhanded manipulation and effective use of sleeper agents to infiltrate her opposition. Returned now to New Phyrexia, Sheoldred prepares to betray Norn before her moment of triumph.",
@@ -61433,11 +61433,11 @@
     },
     "MainNav/Profile/Avatars/Avatar_Basic_SueStorm_MSH_Bio": {
         "oracleText": "The stealthy protector of the Fantastic Four. Using her mind, Susan Storm Richards can alter light wavelengths to become invisible. She can also generate near-impervious force fields, which prove to be as effective for offense as they are for defense.",
-        "translation": "The stealthy protector of the Fantastic Four. Using her mind, Susan Storm Richards can alter light wavelengths to become invisible. She can also generate near-impervious force fields, which prove to be as effective for offense as they are for defense."
+        "translation": "神奇四侠中的隐秘守护者。苏珊·斯托姆·理查兹运用意念改变光波长来实现隐身。她还能生成几乎坚不可摧的力场，这在进攻和防御中同样有效。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_SueStorm_MSH_Name": {
         "oracleText": "Invisible Woman, Sue Storm",
-        "translation": "Invisible Woman, Sue Storm"
+        "translation": "隐形女苏·斯托姆"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Suki_TLA_Bio": {
         "oracleText": "Suki leads the Kyoshi Warriors, female-centric fighters who defend their island home from invasion. She's confident and patient but possesses a dry sense of humor that comes out in casual moments. Her devotion to protecting others often puts her in the line of fire.",
@@ -61545,11 +61545,11 @@
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Thanos_MSH_Bio": {
         "oracleText": "Thanos, the Mad Titan, is single-minded in his pursuit of the Infinity Stones, which he believes will bring order—and ruin—to the universe. What drives him to such extremes? His attempted courtship of the goddess Death, who remains cold to his grandest gestures.",
-        "translation": "Thanos, the Mad Titan, is single-minded in his pursuit of the Infinity Stones, which he believes will bring order—and ruin—to the universe. What drives him to such extremes? His attempted courtship of the goddess Death, who remains cold to his grandest gestures."
+        "translation": "疯狂泰坦灭霸一心追求无限宝石，他相信这将为宇宙带来秩序——以及毁灭。是什么驱使他走向如此极端？是他对死亡女神的追求，而死亡女神对他最宏大的姿态也无动于衷。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Thanos_MSH_Name": {
         "oracleText": "Thanos",
-        "translation": "Thanos"
+        "translation": "灭霸"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_TheWanderer_NEO_Bio": {
         "oracleText": "A mysterious swordswoman of unmatched prowess, the Wanderer appears without warning to defend the innocent before disappearing just as suddenly as she arrived. Few know the truth: she is the lost empress of Kamigawa, wandering the Multiverse in search of a way home.",
@@ -61561,19 +61561,19 @@
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Thing_MSH_Bio": {
         "oracleText": "The definitive muscle of the Fantastic Four. Ben Grimm, aka The Thing, is rock-like in strength, durability, and appearance, but he's a real softie when it comes to his friends and loved ones. If anything poses a threat, you better believe it's clobberin' time!",
-        "translation": "The definitive muscle of the Fantastic Four. Ben Grimm, aka The Thing, is rock-like in strength, durability, and appearance, but he's a real softie when it comes to his friends and loved ones. If anything poses a threat, you better believe it's clobberin' time!"
+        "translation": "神奇四侠中当之无愧的力量担当。本·格瑞姆，又名石头人，在力量、耐久和外表上都坚如磐石，但对朋友和亲人却心软得很。如果有任何威胁出现，你最好相信——痛扁时间到！"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Thing_MSH_Name": {
         "oracleText": "The Thing, Ben Grimm",
-        "translation": "The Thing, Ben Grimm"
+        "translation": "石头人本·格瑞姆"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Thor_MSH_Bio": {
         "oracleText": "Thor, the Asgardian god of thunder, was banished to Earth by his father, Odin. Thor's banishment taught him humility, as well as a fondness for the planet and its people. He wields Mjölnir, a divine hammer that can be lifted only by those deemed worthy.",
-        "translation": "Thor, the Asgardian god of thunder, was banished to Earth by his father, Odin. Thor's banishment taught him humility, as well as a fondness for the planet and its people. He wields Mjölnir, a divine hammer that can be lifted only by those deemed worthy."
+        "translation": "阿斯加德雷神索尔被父亲奥丁放逐到地球。索尔的放逐让他学会了谦卑，也让他对这颗星球和人类产生了感情。他挥舞着妙尔尼尔，一把只有被认定为有资格之人才能举起的神锤。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Thor_MSH_Name": {
         "oracleText": "Thor",
-        "translation": "Thor"
+        "translation": "索尔"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Tiana_DMU_Bio": {
         "oracleText": "Appointed guardian of the sacred powerstone at the core of the <i>Weatherlight</i>, Tiana discovered a gift for maintaining the legendary skyship. At home amidst the grease and noise of the engine room, Tiana uses her natural abilities to keep the <i>Weatherlight</i> flying in hostile territory.",
@@ -61713,11 +61713,11 @@
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Ultron_MSH_Bio": {
         "oracleText": "As soon as Dr. Hank Pym created the robotic intelligence known as Ultron, he knew he'd made a grave mistake. Ultron defied his creator, escaping and rapidly upgrading himself into a nearly unstoppable global threat. The Age of Ultron had just begun.",
-        "translation": "As soon as Dr. Hank Pym created the robotic intelligence known as Ultron, he knew he'd made a grave mistake. Ultron defied his creator, escaping and rapidly upgrading himself into a nearly unstoppable global threat. The Age of Ultron had just begun."
+        "translation": "汉克·皮姆博士一创造出名为奥创的机械智能，就意识到自己犯了严重错误。奥创违抗了创造者，逃脱并迅速将自己升级为几乎不可阻挡的全球威胁。奥创纪元就此开启。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Ultron_MSH_Name": {
         "oracleText": "Ultron",
-        "translation": "Ultron"
+        "translation": "奥创"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Urabrask_ONE_Bio": {
         "oracleText": "Blazing with a temper as hot as his furnace, Urabrask is a reclusive praetor solely focused on the perfection of Mirrodin. His devotion was so extreme that he refused to fight the Mirran Resistance, an act which would eventually draw punishment from Elesh Norn. Now he plots a rebellion of his own.",
@@ -61761,11 +61761,11 @@
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Venom_SPM_Bio": {
         "oracleText": "Venom is both a single entity and several, existing as the merged identities of reporter Eddie Brock and the alien symbiote bonded to him. Where one ends and the other begins is difficult to discern, but they both share a deep hatred for Spider-Man.",
-        "translation": "Venom is both a single entity and several, existing as the merged identities of reporter Eddie Brock and the alien symbiote bonded to him. Where one ends and the other begins is difficult to discern, but they both share a deep hatred for Spider-Man."
+        "translation": "毒液既是一个个体也是多个个体的存在，是记者艾迪·布洛克与外星共生体融合后的身份。很难分辨一个在哪里结束、另一个在哪里开始，但他们都对蜘蛛侠怀有深深的仇恨。"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Venom_SPM_Name": {
         "oracleText": "Venom",
-        "translation": "Venom"
+        "translation": "毒液"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Vito_LCI_Bio": {
         "oracleText": "Vito Quijano de Pasamonte, vampire cleric of the Church of Dusk, has seen his hardline faith redoubled. To usher Torrezon into a new era of pure devotion, Vito sees a path through Aclazotz, the progenitor god of vampires. And that means seeking Ixalan's hollow core.",
@@ -61873,11 +61873,11 @@
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Wolverine_MSH_Bio": {
         "oracleText": "The short-tempered mutant known as Logan may not be a ray of sunshine, but he's nearly unkillable due to his robust healing abilities. His implanted adamantium skeleton grants him razor-sharp claws which he rarely hesitates to use. Watch out, bub!",
-        "translation": "The short-tempered mutant known as Logan may not be a ray of sunshine, but he's nearly unkillable due to his robust healing abilities. His implanted adamantium skeleton grants him razor-sharp claws which he rarely hesitates to use. Watch out, bub!"
+        "translation": "被称为罗根的暴躁变种人可能不是阳光般温暖的存在，但他凭借强大的自愈能力几乎不可杀死。他植入的艾德曼合金骨架赋予他锋利的爪子，他从不犹豫使用。小心点，伙计！"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Wolverine_MSH_Name": {
         "oracleText": "Wolverine",
-        "translation": "Wolverine"
+        "translation": "金刚狼"
     },
     "MainNav/Profile/Avatars/Avatar_Basic_Wrenn_MID_Bio": {
         "oracleText": "Long ago, Wrenn absorbed a raging wildfire to protect an ancient forest. Those flames still burn within her and she must physically merge with especially strong trees to survive. Now, Wrenn and her latest symbiont, Seven, seek a way to quench her inner fire for good.",
@@ -62717,7 +62717,7 @@
     },
     "MainNav/Profile/AvatarsAvatar_Basic_NickFury_MSH_Name": {
         "oracleText": "Nick Fury",
-        "translation": "Nick Fury"
+        "translation": "尼克·弗瑞"
     },
     "MainNav/Profile/ChangeAvatar": {
         "oracleText": "Avatars",
@@ -68441,219 +68441,219 @@
     },
     "MainNav/Store/Bundles/Bundle_MSH_Avatars1_Desc": {
         "oracleText": "Iron Man Avatar\nThe Hulk Avatar\nBlack Widow Avatar\nHawkeye Avatar\n\n© MARVEL",
-        "translation": "Iron Man Avatar\nThe Hulk Avatar\nBlack Widow Avatar\nHawkeye Avatar\n\n© MARVEL"
+        "translation": "钢铁侠头像\n浩克头像\n黑寡妇头像\n鹰眼头像\n\n© MARVEL"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Avatars1_Name": {
         "oracleText": "Avatar Collection I",
-        "translation": "Avatar Collection I"
+        "translation": "头像组合包I"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Avatars2_Desc": {
         "oracleText": "Black Panther Avatar\nThor Avatar\nCaptain Marvel Avatar\nScarlet Witch Avatar\nShang-Chi Avatar\n\n© MARVEL",
-        "translation": "Black Panther Avatar\nThor Avatar\nCaptain Marvel Avatar\nScarlet Witch Avatar\nShang-Chi Avatar\n\n© MARVEL"
+        "translation": "黑豹头像\n索尔头像\n惊奇队长头像\n猩红女巫头像\n尚气头像\n\n© MARVEL"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Avatars2_Name": {
         "oracleText": "Avatar Collection II",
-        "translation": "Avatar Collection II"
+        "translation": "头像组合包II"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Avatars3_Desc": {
         "oracleText": "Doctor Doom Avatar\nLoki Avatar\nThanos Avatar\nUltron Avatar\nKang the Conqueror Avatar\nGalactus Avatar\n\n© MARVEL",
-        "translation": "Doctor Doom Avatar\nLoki Avatar\nThanos Avatar\nUltron Avatar\nKang the Conqueror Avatar\nGalactus Avatar\n\n© MARVEL"
+        "translation": "毁灭博士头像\n洛基头像\n灭霸头像\n奥创头像\n征服者康头像\n行星吞噬者头像\n\n© MARVEL"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Avatars3_Name": {
         "oracleText": "Avatar Collection III",
-        "translation": "Avatar Collection III"
+        "translation": "头像组合包III"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Avatars4_Desc": {
         "oracleText": "Mister Fantastic Avatar\nSue Storm Avatar\nHuman Torch Avatar\nThe Thing Avatar\n\n© MARVEL",
-        "translation": "Mister Fantastic Avatar\nSue Storm Avatar\nHuman Torch Avatar\nThe Thing Avatar\n\n© MARVEL"
+        "translation": "神奇先生头像\n隐形女头像\n霹雳火头像\n石头人头像\n\n© MARVEL"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Avatars4_Name": {
         "oracleText": "Avatar Collection IV",
-        "translation": "Avatar Collection IV"
+        "translation": "头像组合包IV"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Avatars5_Desc": {
         "oracleText": "Wolverine Avatar\nDaredevil Avatar\nElektra Avatar\nHawkeye Avatar\nShe-Hulk Avatar\n\n© MARVEL",
-        "translation": "Wolverine Avatar\nDaredevil Avatar\nElektra Avatar\nHawkeye Avatar\nShe-Hulk Avatar\n\n© MARVEL"
+        "translation": "金刚狼头像\n夜魔侠头像\n艾丽卡头像\n鹰眼头像\n女浩克头像\n\n© MARVEL"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Avatars5_Name": {
         "oracleText": "Avatar Collection V",
-        "translation": "Avatar Collection V"
+        "translation": "头像组合包V"
     },
     "MainNav/Store/Bundles/Bundle_MSH_BasicLands_Desc": {
         "oracleText": "Full Art Land Plains (2 appearances)\nFull Art Land Island (2 appearances)\nFull Art Land Swamp (2 appearances)\nFull Art Land Mountain (2 appearances)\nFull Art Land Forest (2 appearances)\n\n© MARVEL",
-        "translation": "Full Art Land Plains (2 appearances)\nFull Art Land Island (2 appearances)\nFull Art Land Swamp (2 appearances)\nFull Art Land Mountain (2 appearances)\nFull Art Land Forest (2 appearances)\n\n© MARVEL"
+        "translation": "大画平原（两种外观）  \n大画海岛（两种外观）  \n大画沼泽（两种外观）  \n大画山脉（两种外观）  \n大画树林（两种外观）\n\n© MARVEL"
     },
     "MainNav/Store/Bundles/Bundle_MSH_BasicLands_Name": {
         "oracleText": "Full Art Basic Lands",
-        "translation": "Full Art Basic Lands"
+        "translation": "大画基本地"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Comics1_Desc": {
         "oracleText": "Tony Stark // The Invincible Iron Man Card Style\nKing T'Challa // Black Panther, Hope Enduring Card Style\nBruce Banner // The Incredible Hulk Card Style\nJennifer Walters // The Sensational She-Hulk Card Style\n\n© MARVEL",
-        "translation": "Tony Stark // The Invincible Iron Man Card Style\nKing T'Challa // Black Panther, Hope Enduring Card Style\nBruce Banner // The Incredible Hulk Card Style\nJennifer Walters // The Sensational She-Hulk Card Style\n\n© MARVEL"
+        "translation": "托尼·史塔克 // 无敌钢铁侠卡牌样式\n特查拉国王 // 坚守希望黑豹卡牌样式\n布鲁斯·班纳 // 无敌浩克卡牌样式\n珍妮佛·沃尔特斯 // 惊世瞩目女浩克卡牌样式\n\n© MARVEL"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Comics1_Name": {
         "oracleText": "Classic Comics Styles I",
-        "translation": "Classic Comics Styles I"
+        "translation": "经典漫画样式I"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Comics2_Desc": {
         "oracleText": "Captain America, Super-Soldier Card Style\nThe Astonishing Ant-Man Card Style\nNick Fury, Agent of S.H.I.E.L.D. Card Style\nBlack Widow, Super Spy Card Style\nShang-Chi, Master of Kung Fu Card Style\nDaredevil, Man Without Fear Card Style\n\n© MARVEL",
-        "translation": "Captain America, Super-Soldier Card Style\nThe Astonishing Ant-Man Card Style\nNick Fury, Agent of S.H.I.E.L.D. Card Style\nBlack Widow, Super Spy Card Style\nShang-Chi, Master of Kung Fu Card Style\nDaredevil, Man Without Fear Card Style\n\n© MARVEL"
+        "translation": "超级士兵美国队长卡牌样式\n惊世绝俗蚁人卡牌样式\n神盾局特工尼克·弗瑞卡牌样式\n超级间谍黑寡妇卡牌样式\n功夫大师尚气卡牌样式\n无惧侠客夜魔侠卡牌样式\n\n© MARVEL"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Comics2_Name": {
         "oracleText": "Classic Comics Styles II",
-        "translation": "Classic Comics Styles II"
+        "translation": "经典漫画样式II"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Comics3_Desc": {
         "oracleText": "Doctor Doom Card Style\nThanos, the Mad Titan Card Style\nUltron, Artificial Malevolence Card Style\nNamor the Sub-Mariner Card Style\nElektra, Daughter of the Hand Card Style\n\n© MARVEL",
-        "translation": "Doctor Doom Card Style\nThanos, the Mad Titan Card Style\nUltron, Artificial Malevolence Card Style\nNamor the Sub-Mariner Card Style\nElektra, Daughter of the Hand Card Style\n\n© MARVEL"
+        "translation": "毁灭博士卡牌样式\n疯狂泰坦灭霸卡牌样式\n人工恶意奥创卡牌样式\n潜水人纳摩卡牌样式\n手合会之女艾丽卡卡牌样式\n\n© MARVEL"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Comics3_Name": {
         "oracleText": "Classic Comics Styles III",
-        "translation": "Classic Comics Styles III"
+        "translation": "经典漫画样式III"
     },
     "MainNav/Store/Bundles/Bundle_MSH_FF_Lands_Desc": {
         "oracleText": "Gleaming Bastion  Card Style\nHidden Lair Card Style\nDark Fortress Card Style\nTraining Compound Card Style\nGathering Place Card Style\n\n© MARVEL",
-        "translation": "Gleaming Bastion  Card Style\nHidden Lair Card Style\nDark Fortress Card Style\nTraining Compound Card Style\nGathering Place Card Style\n\n© MARVEL"
+        "translation": "微光堡垒卡牌样式\n秘密巢穴卡牌样式\n黑暗要塞卡牌样式\n训练基地卡牌样式\n集结地卡牌样式\n\n© MARVEL"
     },
     "MainNav/Store/Bundles/Bundle_MSH_FF_Lands_Name": {
         "oracleText": "Borderless Land Styles",
-        "translation": "Borderless Land Styles"
+        "translation": "扩画地样式"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Logos1_Desc": {
         "oracleText": "Tony Stark // The Invincible Iron Man Card Style\nKing T'Challa // Black Panther, Hope Enduring Card Style\nBruce Banner // The Incredible Hulk Card Style\nMonica Rambeau // Photon, Living Light Card Style\nJennifer Walters // The Sensational She-Hulk Card Style\n\n© MARVEL",
-        "translation": "Tony Stark // The Invincible Iron Man Card Style\nKing T'Challa // Black Panther, Hope Enduring Card Style\nBruce Banner // The Incredible Hulk Card Style\nMonica Rambeau // Photon, Living Light Card Style\nJennifer Walters // The Sensational She-Hulk Card Style\n\n© MARVEL"
+        "translation": "托尼·史塔克 // 无敌钢铁侠卡牌样式\n特查拉国王 // 坚守希望黑豹卡牌样式\n布鲁斯·班纳 // 无敌浩克卡牌样式\n莫妮卡·兰博 // 活体光束光子卡牌样式\n珍妮佛·沃尔特斯 // 惊世瞩目女浩克卡牌样式\n\n© MARVEL"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Logos1_Name": {
         "oracleText": "Borderless Logo Styles I",
-        "translation": "Borderless Logo Styles I"
+        "translation": "扩画标志样式I"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Logos2_Desc": {
         "oracleText": "Captain America, Super-Soldier Card Style\nThor, God of Thunder Card Style\nThe Vision Card Style\nBlack Widow, Super Spy Card Style\nHawkeye, Master Marksman Card Style\nNick Fury, Agent of S.H.I.E.L.D. Card Style\n\n© MARVEL",
-        "translation": "Captain America, Super-Soldier Card Style\nThor, God of Thunder Card Style\nThe Vision Card Style\nBlack Widow, Super Spy Card Style\nHawkeye, Master Marksman Card Style\nNick Fury, Agent of S.H.I.E.L.D. Card Style\n\n© MARVEL"
+        "translation": "超级士兵美国队长卡牌样式\n雷神索尔卡牌样式\n幻视卡牌样式\n超级间谍黑寡妇卡牌样式\n神射手鹰眼卡牌样式\n神盾局特工尼克·弗瑞卡牌样式\n\n© MARVEL"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Logos2_Name": {
         "oracleText": "Borderless Logo Styles II",
-        "translation": "Borderless Logo Styles II"
+        "translation": "扩画标志样式II"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Logos3_Desc": {
         "oracleText": "Captain Marvel, Earth's Protector Card Style\nShang-Chi, Master of Kung Fu Card Style\nCaptain America, Wings of Freedom Card Style\nDaredevil, Man Without Fear Card Style\nThe Sentry, Golden Guardian Card Style\nIronheart, Clever Champion Card Style\n\n© MARVEL",
-        "translation": "Captain Marvel, Earth's Protector Card Style\nShang-Chi, Master of Kung Fu Card Style\nCaptain America, Wings of Freedom Card Style\nDaredevil, Man Without Fear Card Style\nThe Sentry, Golden Guardian Card Style\nIronheart, Clever Champion Card Style\n\n© MARVEL"
+        "translation": "地球保护者惊奇队长卡牌样式\n功夫大师尚气卡牌样式\n自由之翼美国队长卡牌样式\n无惧侠客夜魔侠卡牌样式\n黄金守护者哨兵卡牌样式\n机敏斗士钢铁心卡牌样式\n\n© MARVEL"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Logos3_Name": {
         "oracleText": "Borderless Logo Styles III",
-        "translation": "Borderless Logo Styles III"
+        "translation": "扩画标志样式III"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Logos4_Desc": {
         "oracleText": "Wolverine, Fierce Fighter Card Style\nNamor the Sub-Mariner Card Style\nStorm, Windrider Card Style\nMs. Marvel, Kamala Khan Card Style\nThe Unbeatable Squirrel Girl Card Style\nThe Scarlet Witch Card Style\n\n© MARVEL",
-        "translation": "Wolverine, Fierce Fighter Card Style\nNamor the Sub-Mariner Card Style\nStorm, Windrider Card Style\nMs. Marvel, Kamala Khan Card Style\nThe Unbeatable Squirrel Girl Card Style\nThe Scarlet Witch Card Style\n\n© MARVEL"
+        "translation": "凶猛战士金刚狼卡牌样式\n潜水人纳摩卡牌样式\n驭风侠暴风女卡牌样式\n惊奇少女卡玛拉·克汗卡牌样式\n无敌松鼠妹卡牌样式\n猩红女巫卡牌样式\n\n© MARVEL"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Logos4_Name": {
         "oracleText": "Borderless Logo Styles IV",
-        "translation": "Borderless Logo Styles IV"
+        "translation": "扩画标志样式IV"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Logos5_Desc": {
         "oracleText": "Thanos, the Mad Titan Card Style\nDoctor Doom Card Style\nWinter Soldier, Icy Assassin Card Style\nElektra, Daughter of the Hand Card Style\nThe Kingpin of Crime Card Style\n\n© MARVEL",
-        "translation": "Thanos, the Mad Titan Card Style\nDoctor Doom Card Style\nWinter Soldier, Icy Assassin Card Style\nElektra, Daughter of the Hand Card Style\nThe Kingpin of Crime Card Style\n\n© MARVEL"
+        "translation": "疯狂泰坦灭霸卡牌样式\n毁灭博士卡牌样式\n冰寒刺客冬日战士卡牌样式\n手合会之女艾丽卡卡牌样式\n犯罪大王金并卡牌样式\n\n© MARVEL"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Logos5_Name": {
         "oracleText": "Borderless Logo Styles V",
-        "translation": "Borderless Logo Styles V"
+        "translation": "扩画标志样式V"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Panels1_Desc": {
         "oracleText": "Avengers Assemble! Card Style\nCosmic Cube Card Style\nMjölnir, Hammer of Thor Card Style\nMultiversal Incursion Card Style\nThe Ten Rings Card Style\n\n© MARVEL",
-        "translation": "Avengers Assemble! Card Style\nCosmic Cube Card Style\nMjölnir, Hammer of Thor Card Style\nMultiversal Incursion Card Style\nThe Ten Rings Card Style\n\n© MARVEL"
+        "translation": "复仇者集结！卡牌样式\n宇宙魔方卡牌样式\n雷神之锤妙尔尼尔卡牌样式\n多重宇宙入侵卡牌样式\n十环卡牌样式\n\n© MARVEL"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Panels1_Name": {
         "oracleText": "Showcase Panel Styles I",
-        "translation": "Showcase Panel Styles I"
+        "translation": "漫画分镜牌框样式I"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Panels2_Desc": {
         "oracleText": "Arc Reactor Card Style\nAvengers Disassembled Card Style\nCaptain America's Shield Card Style\nSecret Invasion Card Style\nSuper-Soldier Serum Card Style\nVision Quest Card Style\n\n© MARVEL",
-        "translation": "Arc Reactor Card Style\nAvengers Disassembled Card Style\nCaptain America's Shield Card Style\nSecret Invasion Card Style\nSuper-Soldier Serum Card Style\nVision Quest Card Style\n\n© MARVEL"
+        "translation": "光弧反应堆卡牌样式\n复仇者解散卡牌样式\n美国队长之盾卡牌样式\n秘密侵入卡牌样式\n超级战士血清卡牌样式\n幻视任务卡牌样式\n\n© MARVEL"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Panels2_Name": {
         "oracleText": "Showcase Panel Styles II",
-        "translation": "Showcase Panel Styles II"
+        "translation": "漫画分镜牌框样式II"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Phrases1_Desc": {
         "oracleText": "\"Hulk Smash!\" Phrase Emote\n\"It's clobberin' time!\" Phrase Emote\n\"Avengers Assemble!\" Phrase Emote\n\"Righteous Smiting\" Phrase Emote\n\"Stars and Garters\" Phrase Emote\n\n© MARVEL",
-        "translation": "\"Hulk Smash!\" Phrase Emote\n\"It's clobberin' time!\" Phrase Emote\n\"Avengers Assemble!\" Phrase Emote\n\"Righteous Smiting\" Phrase Emote\n\"Stars and Garters\" Phrase Emote\n\n© MARVEL"
+        "translation": "「浩克，砸！」短语表情\n「痛击时间到了！」短语表情\n「复仇者集结！」短语表情\n「正义的痛击」短语表情\n「星星和勋章」短语表情\n\n© MARVEL"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Phrases1_Name": {
         "oracleText": "Phrase Emotes I",
-        "translation": "Phrase Emotes I"
+        "translation": "短语表情I"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Phrases2_Desc": {
         "oracleText": "\"Knuckle Sandwiches\" Phrase Emote\n\"Worst Day\" Phrase Emote\n\"Dibs on Not Dying\" Phrase Emote\n\"I'm Magic\" Phrase Emote\n\"Impressive\" Phrase Emote\n© MARVEL",
-        "translation": "\"Knuckle Sandwiches\" Phrase Emote\n\"Worst Day\" Phrase Emote\n\"Dibs on Not Dying\" Phrase Emote\n\"I'm Magic\" Phrase Emote\n\"Impressive\" Phrase Emote\n© MARVEL"
+        "translation": "「指虎三明治」短语表情\n「最终末日」短语表情\n「争取不死」短语表情\n「我是天才」短语表情\n「挺雄伟的」短语表情\n\n© MARVEL"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Phrases2_Name": {
         "oracleText": "Phrase Emotes II",
-        "translation": "Phrase Emotes II"
+        "translation": "短语表情II"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Scenes1_Desc": {
         "oracleText": "Nick Fury, Agent of S.H.I.E.L.D. Card Style\nBaron Strucker, HYDRA Overlord Card Style\nCaptain America, Super-Soldier Card Style\nCaptain America's Shield Card Style\nMadame Hydra Card Style\nArnim Zola, Bio-Fanatic Card Style\n\n© MARVEL",
-        "translation": "Nick Fury, Agent of S.H.I.E.L.D. Card Style\nBaron Strucker, HYDRA Overlord Card Style\nCaptain America, Super-Soldier Card Style\nCaptain America's Shield Card Style\nMadame Hydra Card Style\nArnim Zola, Bio-Fanatic Card Style\n\n© MARVEL"
+        "translation": "神盾局特工尼克·弗瑞卡牌样式\n九头蛇霸主斯特拉克男爵卡牌样式\n超级士兵美国队长卡牌样式\n美国队长之盾卡牌样式\n九头蛇夫人卡牌样式\n生化狂人阿尼姆·索拉卡牌样式\n\n© MARVEL"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Scenes1_Name": {
         "oracleText": "Borderless Scene Styles: Cap Versus HYDRA",
-        "translation": "Borderless Scene Styles: Cap Versus HYDRA"
+        "translation": "扩画场景样式：美国队长对抗九头蛇"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Scenes2_Desc": {
         "oracleText": "Jennifer Walters // The Sensational She-Hulk Card Style \nRed Hulk Card Style\nLeader, Super-Genius Card Style\nBruce Banner // The Incredible Hulk Card Style\nHULK SMASH! Card Style\nAbomination, Terrifying Titan Card Style\n\n© MARVEL",
-        "translation": "Jennifer Walters // The Sensational She-Hulk Card Style \nRed Hulk Card Style\nLeader, Super-Genius Card Style\nBruce Banner // The Incredible Hulk Card Style\nHULK SMASH! Card Style\nAbomination, Terrifying Titan Card Style\n\n© MARVEL"
+        "translation": "珍妮佛·沃尔特斯 // 惊世瞩目女浩克卡牌样式\n红浩克卡牌样式\n超级天才大头目卡牌样式\n布鲁斯·班纳 // 无敌浩克卡牌样式\n浩克，砸！卡牌样式\n骇人怪物恶煞卡牌样式\n\n© MARVEL"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Scenes2_Name": {
         "oracleText": "Borderless Scene Styles: Hulks Smash",
-        "translation": "Borderless Scene Styles: Hulks Smash"
+        "translation": "扩画场景样式：浩克，砸"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Scenes3_Desc": {
         "oracleText": "Mister Fantastic, Reed Richards Card Style\nHuman Torch, Johnny Storm Card Style\nThe Thing, Ben Grimm Card Style\nInvisible Woman, Sue Storm Card Style\n\n© MARVEL",
-        "translation": "Mister Fantastic, Reed Richards Card Style\nHuman Torch, Johnny Storm Card Style\nThe Thing, Ben Grimm Card Style\nInvisible Woman, Sue Storm Card Style\n\n© MARVEL"
+        "translation": "神奇先生里德·理查兹卡牌样式\n霹雳火强尼·斯托姆卡牌样式\n石头人本·格瑞姆卡牌样式\n隐形女苏·斯托姆卡牌样式\n\n© MARVEL"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Scenes3_Name": {
         "oracleText": "Borderless Scene Styles: Fantastic Family",
-        "translation": "Borderless Scene Styles: Fantastic Family"
+        "translation": "扩画场景样式：神奇家庭"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Scenes4_Desc": {
         "oracleText": "Daredevil, Man Without Fear Card Style\nBullseye, Death Dealer Card Style\nElektra, Daughter of the Hand Card Style\nThe Kingpin of Crime Card Style\n\n© MARVEL",
-        "translation": "Daredevil, Man Without Fear Card Style\nBullseye, Death Dealer Card Style\nElektra, Daughter of the Hand Card Style\nThe Kingpin of Crime Card Style\n\n© MARVEL"
+        "translation": "无惧侠客夜魔侠卡牌样式\n致命杀手靶眼卡牌样式\n手合会之女艾丽卡卡牌样式\n犯罪大王金并卡牌样式\n\n© MARVEL"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Scenes4_Name": {
         "oracleText": "Borderless Scene Styles: Daredevil Street Fight",
-        "translation": "Borderless Scene Styles: Daredevil Street Fight"
+        "translation": "扩画场景样式：夜魔侠街战"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Scenes5_Desc": {
         "oracleText": "Avengers Tower Card Style\nSpider-Man, To the Rescue Card Style\nDoctor Doom Card Style\nCosmic Cube Card Style\nThor, God of Thunder Card Style\nMjölnir, Hammer of Thor Card Style\nBlazing Crescendo Card Style\nAvengers Assemble! Card Style\nCaptain Marvel, Earth's Protector Card Style\nLoki, God of Mischief Card Style\nUltron, Artificial Malevolence Card Style\nMonica Rambeau // Photon, Living Light Card Style\nKing T'Challa // Black Panther, Hope Enduring Card Style\nBlack Widow, Super Spy Card Style\nTake Up the Shield Card Style\nEarth's Mightiest Heroes Card Style\nTony Stark // The Invincible Iron Man Card Style\nEpic Fight Card Style\n\n© MARVEL",
-        "translation": "Avengers Tower Card Style\nSpider-Man, To the Rescue Card Style\nDoctor Doom Card Style\nCosmic Cube Card Style\nThor, God of Thunder Card Style\nMjölnir, Hammer of Thor Card Style\nBlazing Crescendo Card Style\nAvengers Assemble! Card Style\nCaptain Marvel, Earth's Protector Card Style\nLoki, God of Mischief Card Style\nUltron, Artificial Malevolence Card Style\nMonica Rambeau // Photon, Living Light Card Style\nKing T'Challa // Black Panther, Hope Enduring Card Style\nBlack Widow, Super Spy Card Style\nTake Up the Shield Card Style\nEarth's Mightiest Heroes Card Style\nTony Stark // The Invincible Iron Man Card Style\nEpic Fight Card Style\n\n© MARVEL"
+        "translation": "复仇者大厦卡牌样式\n救星蜘蛛侠卡牌样式\n毁灭博士卡牌样式\n宇宙魔方卡牌样式\n雷神索尔卡牌样式\n雷神之锤妙尔尼尔卡牌样式\n渐烈热焰卡牌样式\n复仇者集结！卡牌样式\n地球保护者惊奇队长卡牌样式\n诡计之神洛基卡牌样式\n人工恶意奥创卡牌样式\n莫妮卡·兰博 // 活体光束光子卡牌样式\n特查拉国王 // 坚守希望黑豹卡牌样式\n超级间谍黑寡妇卡牌样式\n举盾护卫卡牌样式\n世上最强英雄联盟卡牌样式\n托尼·史塔克 // 无敌钢铁侠卡牌样式\n壮绝搏斗卡牌样式\n\n© MARVEL"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Scenes5_Name": {
         "oracleText": "Borderless Scene Styles: Clash for the Cosmic Cube",
-        "translation": "Borderless Scene Styles: Clash for the Cosmic Cube"
+        "translation": "扩画场景样式：宇宙魔方争夺战"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Scenes6_Desc": {
         "oracleText": "Jennifer Walters // The Sensational She-Hulk Card Style \nKing T'Challa // Black Panther, Hope Enduring Card Style\nMonica Rambeau // Photon, Living Light Card Style\nTony Stark // The Invincible Iron Man Card Style\nBruce Banner // The Incredible Hulk Card Style\n\n© MARVEL",
-        "translation": "Jennifer Walters // The Sensational She-Hulk Card Style \nKing T'Challa // Black Panther, Hope Enduring Card Style\nMonica Rambeau // Photon, Living Light Card Style\nTony Stark // The Invincible Iron Man Card Style\nBruce Banner // The Incredible Hulk Card Style\n\n© MARVEL"
+        "translation": "珍妮佛·沃尔特斯 // 惊世瞩目女浩克卡牌样式\n特查拉国王 // 坚守希望黑豹卡牌样式\n莫妮卡·兰博 // 活体光束光子卡牌样式\n托尼·史塔克 // 无敌钢铁侠卡牌样式\n布鲁斯·班纳 // 无敌浩克卡牌样式\n\n© MARVEL"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Scenes6_Name": {
         "oracleText": "Borderless Scene Styles: Avengers Balcony BBQ",
-        "translation": "Borderless Scene Styles: Avengers Balcony BBQ"
+        "translation": "扩画场景样式：复仇者阳台烧烤"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Starter_Desc": {
         "oracleText": "10x <i>Marvel Super Heroes</i> Boosters\nCaptain America Avatar\nCaptain America's Shield Sleeve\n\n© MARVEL",
-        "translation": "10x <i>Marvel Super Heroes</i> Boosters\nCaptain America Avatar\nCaptain America's Shield Sleeve\n\n© MARVEL"
+        "translation": "10包<i>漫威超级英雄</i>补充包\n美国队长头像\n美国队长之盾牌套\n\n© MARVEL"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Starter_Name": {
         "oracleText": "Marvel Super Heroes Starter Bundle",
-        "translation": "Marvel Super Heroes Starter Bundle"
+        "translation": "漫威超级英雄入门套装"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Stickers_Desc": {
         "oracleText": "Doom Bots Sticker Emote\nMs. Marvel Sticker Emote\nShe-Hulk Sticker Emote\n\n© MARVEL",
-        "translation": "Doom Bots Sticker Emote\nMs. Marvel Sticker Emote\nShe-Hulk Sticker Emote\n\n© MARVEL"
+        "translation": "毁灭机器人贴纸表情\n惊奇少女贴纸表情\n女浩克贴纸表情\n\n© MARVEL"
     },
     "MainNav/Store/Bundles/Bundle_MSH_Stickers_Name": {
         "oracleText": "Sticker Emotes Bundle",
-        "translation": "Sticker Emotes Bundle"
+        "translation": "贴纸表情套装"
     },
     "MainNav/Store/Bundles/Bundle_Magic30_Desc": {
         "oracleText": "Li'l Giri Peek Sleeve\nLi'l Giri Greed Sleeve\nLi'l Giri Curiosity Sleeve\nLi'l Giri Vandalblast Sleeve\n Li'l Giri Last Chance Sleeve",
@@ -70089,19 +70089,19 @@
     },
     "MainNav/Store/Bundles/Bundle_SPM_Avatars_Desc": {
         "oracleText": "Peter Parker Avatar\nMiles Morales Avatar\nGwen Stacy Avatar\nVenom Avatar\n\n© MARVEL",
-        "translation": "Peter Parker Avatar\nMiles Morales Avatar\nGwen Stacy Avatar\nVenom Avatar\n\n© MARVEL"
+        "translation": "彼得·帕克头像\n迈尔斯·莫拉莱斯头像\n格温·史黛西头像\n毒液头像\n\n© MARVEL"
     },
     "MainNav/Store/Bundles/Bundle_SPM_Avatars_Name": {
         "oracleText": "Avatar Collection VI",
-        "translation": "Avatar Collection VI"
+        "translation": "头像组合包VI"
     },
     "MainNav/Store/Bundles/Bundle_SPM_BasicLands_Desc": {
         "oracleText": "Full Art Land Plains\nFull Art Land Island\nFull Art Land Swamp\nFull Art Land Mountain\nFull Art Land Forest\n\n© MARVEL",
-        "translation": "Full Art Land Plains\nFull Art Land Island\nFull Art Land Swamp\nFull Art Land Mountain\nFull Art Land Forest\n\n© MARVEL"
+        "translation": "大画平原\n大画海岛\n大画沼泽\n大画山脉\n大画树林\n\n© MARVEL"
     },
     "MainNav/Store/Bundles/Bundle_SPM_BasicLands_Name": {
         "oracleText": "Full Art Basic Lands",
-        "translation": "Full Art Basic Lands"
+        "translation": "大画基本地"
     },
     "MainNav/Store/Bundles/Bundle_STA_B_Desc": {
         "oracleText": "Agonizing Remorse Card Style\nCrux of Fate Card Style\nDuress Card Style\nInquisition of Kozilek Card Style\nSign in Blood Card Style\nTainted Pact Card Style\nTendrils of Agony Card Style",
@@ -74001,7 +74001,7 @@
     },
     "MainNav/Store/Tags/MSH": {
         "oracleText": "<i>Marvel Super Heroes</i>",
-        "translation": "<i>Marvel Super Heroes</i>"
+        "translation": "<i>漫威超级英雄</i>"
     },
     "MainNav/Store/Tags/MarchOnly": {
         "oracleText": "March Only",
@@ -74097,7 +74097,7 @@
     },
     "MainNav/Store/Tags/SPM": {
         "oracleText": "<i>Marvel's Spider-Man</i>",
-        "translation": "<i>Marvel's Spider-Man</i>"
+        "translation": "<i>漫威的蜘蛛侠</i>"
     },
     "MainNav/Store/Tags/SeptemberOnly": {
         "oracleText": "September Only",
@@ -76193,7 +76193,7 @@
     },
     "Match/QueueTips/Queue_Tip_379_MSH_SetCode": {
         "oracleText": "To show only cards from Magic: The Gathering® | Marvel Super Heroes in the deckbuilder, type \"set:MSH\" into the search bar. Each set has a unique 3-letter-code.",
-        "translation": "To show only cards from Magic: The Gathering® | Marvel Super Heroes in the deckbuilder, type \"set:MSH\" into the search bar. Each set has a unique 3-letter-code."
+        "translation": "要在组牌器中只显示出自万智牌丨漫威超级英雄系列的牌张，可在搜索栏中输入「set:MSH」。每个系列都有一个专属的三码代号。"
     },
     "Match/QueueTips/Queue_Tip_38": {
         "oracleText": "An ideal opening hand typically has three or four lands in it. If you have more than five or fewer than two, consider taking a mulligan.",
@@ -76201,43 +76201,43 @@
     },
     "Match/QueueTips/Queue_Tip_380_MSH_Avengers": {
         "oracleText": "The Avengers are Earth's Mightiest Heroes, coming together to face challenges that no single hero could face alone.",
-        "translation": "The Avengers are Earth's Mightiest Heroes, coming together to face challenges that no single hero could face alone."
+        "translation": "复仇者联盟是世上最强英雄联盟，他们集结在一起，面对任何单个英雄都无法独自应对的挑战。"
     },
     "Match/QueueTips/Queue_Tip_381_MSH_CaptainAmerica": {
         "oracleText": "Captain America was born Steve Rogers, a frail but courageous young man. During WWII, he was injected with an experimental Super-Soldier Serum, and transformed into the leader of the Avengers we know today.",
-        "translation": "Captain America was born Steve Rogers, a frail but courageous young man. During WWII, he was injected with an experimental Super-Soldier Serum, and transformed into the leader of the Avengers we know today."
+        "translation": "美国队长原名史蒂夫·罗杰斯，一个瘦弱但勇敢的年轻人。二战期间，他被注入实验性超级战士血清，蜕变为我们今天所知的复仇者联盟领袖。"
     },
     "Match/QueueTips/Queue_Tip_382_MSH_TheHulk": {
         "oracleText": "A massive dose of gamma radiation transformed the brilliant scientist Bruce Banner into the giant known as the Hulk. While Banner can shift between these two forms, the transformation is not easy, and often triggered by pain or distress. Despite this, he's determined to use his powers to smash the forces of evil.",
-        "translation": "A massive dose of gamma radiation transformed the brilliant scientist Bruce Banner into the giant known as the Hulk. While Banner can shift between these two forms, the transformation is not easy, and often triggered by pain or distress. Despite this, he's determined to use his powers to smash the forces of evil."
+        "translation": "大剂量的伽马辐射将天才科学家布鲁斯·班纳变成了被称为浩克的巨人。虽然班纳可以在这两种形态之间转换，但转换过程并不轻松，常常由痛苦或悲痛触发。尽管如此，他决心用自己的力量粉碎邪恶势力。"
     },
     "Match/QueueTips/Queue_Tip_383_MSH_BlackWidow": {
         "oracleText": "Natasha Romanoff, better known as Black Widow, is a dangerous super-spy, and a master of combat. Originally raised in a top-secret Soviet Red Room program, she ultimately defected to the Avengers to try and right the wrongs of her past and protect the innocent.",
-        "translation": "Natasha Romanoff, better known as Black Widow, is a dangerous super-spy, and a master of combat. Originally raised in a top-secret Soviet Red Room program, she ultimately defected to the Avengers to try and right the wrongs of her past and protect the innocent."
+        "translation": "娜塔莎·罗曼诺夫，更为人知的名字是黑寡妇，是一名危险的超级间谍和格斗大师。她最初在苏联最高机密的红房计划中成长，最终投奔复仇者联盟，试图纠正过去的错误并保护无辜者。"
     },
     "Match/QueueTips/Queue_Tip_384_MSH_Hawkeye": {
         "oracleText": "Clint Barton was trained in archery from a young age, and his skill was so great that he earned the nickname Hawkeye. Despite being deaf, he is one of the world's most elite marksmen, and uses his sharpshooting talents to help defend the world from evil.",
-        "translation": "Clint Barton was trained in archery from a young age, and his skill was so great that he earned the nickname Hawkeye. Despite being deaf, he is one of the world's most elite marksmen, and uses his sharpshooting talents to help defend the world from evil."
+        "translation": "克林特·巴顿从小接受射箭训练，技艺精湛到赢得了鹰眼的绰号。尽管失聪，他仍是世界最顶尖的射手之一，用他的神射才能帮助抵御邪恶。"
     },
     "Match/QueueTips/Queue_Tip_385_MSH_IronMan": {
         "oracleText": "Tony Stark is a billionaire industrialist and genius inventor. After being kidnapped by terrorists and suffering a near-fatal chest wound, he constructed a metal suit to stabilize his injury and help him escape. After returning home, he vowed to use his resources and intellect to protect the world as Iron Man!",
-        "translation": "Tony Stark is a billionaire industrialist and genius inventor. After being kidnapped by terrorists and suffering a near-fatal chest wound, he constructed a metal suit to stabilize his injury and help him escape. After returning home, he vowed to use his resources and intellect to protect the world as Iron Man!"
+        "translation": "托尼·史塔克是亿万富翁实业家和天才发明家。在被恐怖分子绑架并遭受近乎致命的胸部创伤后，他制造了一套金属战甲来稳定伤势并帮助逃脱。回国后，他发誓要用自己的资源和智慧以钢铁侠的身份保护世界！"
     },
     "Match/QueueTips/Queue_Tip_386_MSH_Thor": {
         "oracleText": "Thor Odinson is the heir to the otherworldly throne of Asgard – the God of Thunder, and the mightiest hero of mythology! After being banished to Earth by his father to learn lessons in humility, the noble Thor vowed to use his godly power to vanquish any foes that threaten his newly adopted home.",
-        "translation": "Thor Odinson is the heir to the otherworldly throne of Asgard – the God of Thunder, and the mightiest hero of mythology! After being banished to Earth by his father to learn lessons in humility, the noble Thor vowed to use his godly power to vanquish any foes that threaten his newly adopted home."
+        "translation": "索尔·奥丁森是阿斯加德异界王位的继承人——雷神，神话中最强大的英雄！在被父亲放逐到地球学习谦卑之后，高贵的索尔发誓要用神力消灭任何威胁他新家园的敌人。"
     },
     "Match/QueueTips/Queue_Tip_387_MSH_Thanos": {
         "oracleText": "Thanos is a mad titan and nihilist, who's sole ambition is to return the universe to what he believes is its natural state – oblivion. He has traversed the stars, growing in cosmic power, and becoming one of the most feared being in the cosmos.",
-        "translation": "Thanos is a mad titan and nihilist, who's sole ambition is to return the universe to what he believes is its natural state – oblivion. He has traversed the stars, growing in cosmic power, and becoming one of the most feared being in the cosmos."
+        "translation": "灭霸是一个疯狂泰坦和虚无主义者，他唯一的野心是将宇宙带回他认为的自然状态——湮灭。他穿越星际，宇宙力量不断增长，成为宇宙中最令人恐惧的存在之一。"
     },
     "Match/QueueTips/Queue_Tip_388_MSH_BlackPanther": {
         "oracleText": "The Black Panther is a title inherited and earned by the ruler of the secluded and technologically advanced nation of Wakanda. To become Black Panther, the Wakandan ruler must be a master of strategy, science, and combat, and be dedicated to defending their people from any threat.",
-        "translation": "The Black Panther is a title inherited and earned by the ruler of the secluded and technologically advanced nation of Wakanda. To become Black Panther, the Wakandan ruler must be a master of strategy, science, and combat, and be dedicated to defending their people from any threat."
+        "translation": "黑豹是瓦坎达这个与世隔绝、科技先进的国家统治者继承和赢得的称号。要成为黑豹，瓦坎达统治者必须精通战略、科学和格斗，并致力于保护人民免受任何威胁。"
     },
     "Match/QueueTips/Queue_Tip_389_MSH_KangTheConqueror": {
         "oracleText": "Kang the Conqueror was originally born in the 30th century, and he is ruthlessly bent on dominating all of time and space. His vast knowledge of the greater multiverse makes him a deadly adversary, and he often allies with variants of himself from other timelines to further his goals.",
-        "translation": "Kang the Conqueror was originally born in the 30th century, and he is ruthlessly bent on dominating all of time and space. His vast knowledge of the greater multiverse makes him a deadly adversary, and he often allies with variants of himself from other timelines to further his goals."
+        "translation": "征服者康最初出生于30世纪，他无情地致力于统治所有时间和空间。他对更大多元宇宙的广博知识使他成为一个致命的对手，他常常与其他时间线的自己变体结盟以实现目标。"
     },
     "Match/QueueTips/Queue_Tip_4": {
         "oracleText": "As you drag a spell over the battlefield, the lands that will be tapped to cast it become highlighted.",
@@ -76501,7 +76501,7 @@
     },
     "ModernMarvel_CardRewardKey": {
         "oracleText": "x4 Iron Man, Modern Marvel",
-        "translation": "x4 Iron Man, Modern Marvel"
+        "translation": "x4 摩登惊奇钢铁侠"
     },
     "NPE/Click_to_Continue": {
         "oracleText": "[Click to Continue]",
@@ -78989,7 +78989,7 @@
     },
     "Options/DiscordUnlink": {
         "oracleText": "<sprite=\"SpriteSheet_MiscIcons\" name=\"discord_symbol_white\">Unlink Discord Account",
-        "translation": "<sprite=\"SpriteSheet_MiscIcons\" name=\"discord_symbol_white\">Unlink Discord Account"
+        "translation": "<sprite=\"SpriteSheet_MiscIcons\" name=\"discord_symbol_white\"> 取消关联Discord账号"
     },
     "Phrase_Frenzy_emotes_uniquerandom": {
         "oracleText": "?!@#%!!",
@@ -79249,7 +79249,7 @@
     },
     "PlayBlade/Filters/Dynamic/MSHLimitedTitle": {
         "oracleText": "Marvel Super Heroes Limited",
-        "translation": "Marvel Super Heroes Limited"
+        "translation": "漫威超级英雄限制赛"
     },
     "PlayBlade/Filters/Dynamic/NewPlayerDescription": {
         "oracleText": "These Events are great for both New and Long Time Players!  Click into an Event to learn more about it!",
@@ -79361,7 +79361,7 @@
     },
     "PlayBlade/FindMatch/Blade_Brawl_Ladder": {
         "oracleText": "Competitive Brawl",
-        "translation": "Competitive Brawl"
+        "translation": "竞技争锋"
     },
     "PlayBlade/FindMatch/Blade_Historic_Ladder": {
         "oracleText": "Historic Ranked",
@@ -79505,7 +79505,7 @@
     },
     "ProtectorofEarth_CardRewardKey": {
         "oracleText": "x4 Captain America, Steve Rogers\nx4 Iconic Shield\nx4 Mandroid Squadron",
-        "translation": "x4 Captain America, Steve Rogers\nx4 Iconic Shield\nx4 Mandroid Squadron"
+        "translation": "x4 美国队长史蒂夫·罗杰斯\nx4 标志之盾\nx4 曼卓小队"
     },
     "Quests/Color_Challenge_SecondPhase_07": {
         "oracleText": "Cast {quantity} spells.",
@@ -80137,7 +80137,7 @@
     },
     "ShakerofSkies_CardRewardKey": {
         "oracleText": "x4 Gamma Grotesque\nx4 Warriors of Wakanda\nx4 Flora Colossus",
-        "translation": "x4 Gamma Grotesque\nx4 Warriors of Wakanda\nx4 Flora Colossus"
+        "translation": "x4 伽马怪诞\nx4 瓦坎达战士\nx4 植物巨像"
     },
     "Social/Challenge/KickPlayerConfirmation": {
         "oracleText": "Kick {username}?",
@@ -80617,15 +80617,15 @@
     },
     "SpectacularIII_CardRewardKey": {
         "oracleText": "x4 Iron Man, Tony Stark\nx4 Scarlet Witch, Wanda Maximoff\nx4 Quicksilver, Pietro Maximoff\nx4 Mockingbird, Bobbi Morse",
-        "translation": "x4 Iron Man, Tony Stark\nx4 Scarlet Witch, Wanda Maximoff\nx4 Quicksilver, Pietro Maximoff\nx4 Mockingbird, Bobbi Morse"
+        "translation": "x4 钢铁侠托尼·史塔克\nx4 猩红女巫旺达·马克西莫夫\nx4 快银皮特罗·马克西莫夫\nx4 仿声鸟芭比·摩尔斯"
     },
     "SpectacularII_CardRewardKey": {
         "oracleText": "x4 The Falcon, Sam Wilson\nx4 Hawkeye, Clint Barton\nx4 Hulk, Bruce Banner\nx4 The Wasp, Janey Van Dyne",
-        "translation": "x4 The Falcon, Sam Wilson\nx4 Hawkeye, Clint Barton\nx4 Hulk, Bruce Banner\nx4 The Wasp, Janey Van Dyne"
+        "translation": "x4 猎鹰山姆·威尔逊\nx4 鹰眼克林特·巴顿\nx4 绿巨人布鲁斯·班纳\nx4 黄蜂女珍妮特·凡·戴恩"
     },
     "SpectacularI_CardRewardKey": {
         "oracleText": "x4 Winter Soldier, Bucky Barnes\nx4 Black Widow, Natasha Romanoff\nx4 Spider-Man, Hometown Hero\nx4 Ant-Man, Scott Lang",
-        "translation": "x4 Winter Soldier, Bucky Barnes\nx4 Black Widow, Natasha Romanoff\nx4 Spider-Man, Hometown Hero\nx4 Ant-Man, Scott Lang"
+        "translation": "x4 冬日战士巴基·巴恩斯\nx4 黑寡妇娜塔莎·罗曼诺夫\nx4 家乡英雄蜘蛛侠\nx4 蚁人斯科特·朗"
     },
     "SystemMessage/ButtonAlert_Deck_Limit_Reached": {
         "oracleText": "(Deck Limit Reached)",
@@ -81445,7 +81445,7 @@
     },
     "TitanofInnovation_CardRewardKey": {
         "oracleText": "x4 Stark's Ingenuity\nx4 A.I.M. Bot\nx4 Repulsor Bots",
-        "translation": "x4 Stark's Ingenuity\nx4 A.I.M. Bot\nx4 Repulsor Bots"
+        "translation": "x4 史塔克的巧思\nx4 先进概念力学机器人\nx4 冲击机器人"
     },
     "Titles/Community/Asmoranomardicadaistinaculdacar": {
         "oracleText": "Asmoranomardicadaistinaculdacar",
@@ -81473,7 +81473,7 @@
     },
     "Titles/CondenderDraft/MSH/DraftContender": {
         "oracleText": "Marvel Super Heroes Draft Contender",
-        "translation": "Marvel Super Heroes Draft Contender"
+        "translation": "漫威超级英雄竞逐轮抽"
     },
     "Titles/Core/AchievementHunter": {
         "oracleText": "Achievement Hunter",
@@ -81645,11 +81645,11 @@
     },
     "Titles/Core/RankedBrawl": {
         "oracleText": "Jubilant Brawler",
-        "translation": "Jubilant Brawler"
+        "translation": "欢腾争锋客"
     },
     "Titles/Core/RankedBrawl_RewardKey": {
         "oracleText": "\"Jubilant Brawler\" Title",
-        "translation": "\"Jubilant Brawler\" Title"
+        "translation": "「欢腾争锋客」称号"
     },
     "Titles/Core/SetComplete": {
         "oracleText": "Collector",
@@ -81701,19 +81701,19 @@
     },
     "Titles/MSH/Avenger": {
         "oracleText": "Avenger",
-        "translation": "Avenger"
+        "translation": "复仇者"
     },
     "Titles/MSH/Avenger_RewardKey": {
         "oracleText": "\"Avenger\" Title",
-        "translation": "\"Avenger\" Title"
+        "translation": "「复仇者」称号"
     },
     "Titles/MSH/YoungAvenger": {
         "oracleText": "Young Avenger",
-        "translation": "Young Avenger"
+        "translation": "年轻复仇者"
     },
     "Titles/MSH/YoungAvenger_RewardKey": {
         "oracleText": "\"Young Avenger\" Title",
-        "translation": "\"Young Avenger\" Title"
+        "translation": "「年轻复仇者」称号"
     },
     "Titles/YargleDay2025/TheBargler": {
         "oracleText": "The Bargler",
@@ -81733,7 +81733,7 @@
     },
     "Web-Spinner_CardRewardKey": {
         "oracleText": "x4 Spider-Man, Web-Spinner",
-        "translation": "x4 Spider-Man, Web-Spinner"
+        "translation": "x4 纺丝蜘蛛侠"
     },
     "Web/Promotions/Boosters/KLRRMRatio": {
         "oracleText": "At a rate of approximately 1:7 for Sets: Kaladesh Remastered.",
@@ -82157,7 +82157,7 @@
     },
     "o": {
         "oracleText": "Competitive Brawl",
-        "translation": "Competitive Brawl"
+        "translation": "竞技争锋"
     },
     "vo_sparky_Renewal_01a": {
         "oracleText": "Planeswalker, renewal is upon us! Here is when entire sets will rotate of out of the Standard and Alchemy formats.",
