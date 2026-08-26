@@ -96,12 +96,11 @@ if __name__ == "__main__":
     for obj in assetEnv.objects:
         if obj.type != UnityPy.enums.ClassIDType.TextAsset:
             continue
-
-        objData = obj.read()
-        if objData.name != assetObjectName:
+        if obj.peek_name() != assetObjectName:
             continue
 
-        LocJsonData = json.loads(objData.script)
+        objData = obj.parse_as_object()
+        LocJsonData = json.loads(objData.m_Script)
         for LocText in LocJsonData:
             if not TSInfo.__contains__(LocText['Key']):
                 TSInfo[LocText['Key']] = {'oracleText': LocText['Translations'][0]
@@ -118,7 +117,7 @@ if __name__ == "__main__":
             LocText['Translations'].append(enNode)
             LocText['Translations'].append(zhNode)
 
-        objData.script = bytes(json.dumps(LocJsonData), encoding='utf-8')
+        objData.m_Script = json.dumps(LocJsonData, ensure_ascii=False)
         objData.save()
 
     shutil.copy(locLibraryAsset, Config.BACKUP_DIR)

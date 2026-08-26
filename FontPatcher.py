@@ -4,10 +4,11 @@ import shutil
 
 import PIL
 import UnityPy
+from UnityPy.helpers.TypeTreeGenerator import TypeTreeGenerator
 
 import Config
 
-GAME_UNITY_VERSION_STRING: str = "2022.3.62f2"
+GameTypeTreeGenerator:TypeTreeGenerator = None
 
 # asset path : monoBehavior name list
 WINDOWS_FONT_RULES: dict[str:list] = {
@@ -17,10 +18,10 @@ WINDOWS_FONT_RULES: dict[str:list] = {
     '{0}/sharedassets0.assets'.format(Config.WINDOWS_DATA_DIR): [
         'Font_Default', 'Font_Title'
     ],
-    '{0}/Downloads/AssetBundle/Bucket_Card.FieldFont_0_f36b7a69-ab42a73024b38000c60debc9bc8b61cb.mtga'.format(Config.WINDOWS_DATA_DIR): [
+    '{0}/Downloads/AssetBundle/Bucket_Card.FieldFont_0_9941e5ad-6ca062d7528a408fb341568888828fc9.mtga'.format(Config.WINDOWS_DATA_DIR): [
         'Font_Default', 'Font_Title', 'Font_Default_JP', 'Font_Title_JP'
     ],
-    '{0}/Downloads/AssetBundle/Fonts_23f37c46-6874dedd51ee0c307c3742ac6a94d6f1.mtga'.format(Config.WINDOWS_DATA_DIR): [
+    '{0}/Downloads/AssetBundle/Fonts_4892b8e6-8d8c41dee669c323c880cc5f75059a99.mtga'.format(Config.WINDOWS_DATA_DIR): [
         'Font_Default_USERNAME', 'Font_Title_USERNAME'
     ]
 }
@@ -29,11 +30,11 @@ WINDOWS_MATERIAL_RULES: dict[str:list] = {
     '{0}/resources.assets'.format(Config.WINDOWS_DATA_DIR): [
         'Font_Title - DropShadow', 'Font_Title_JP - DropShadow', 'Font_Default - DropShadow'
     ],
-    '{0}/Downloads/AssetBundle/Bucket_Card.FontMaterialSettings_0_dd9da960-56922a494c80ce3fb55c0bf5c246d828.mtga'.format(
+    '{0}/Downloads/AssetBundle/Bucket_Card.FontMaterialSettings_0_61349fd6-be77a0308903a6564384ca37f10efbd9.mtga'.format(
         Config.WINDOWS_DATA_DIR): [
             'Font_Title - DropShadow', 'Font_Title_JP - DropShadow'
     ],
-    '{0}/Downloads/AssetBundle/Fonts_23f37c46-6874dedd51ee0c307c3742ac6a94d6f1.mtga'.format(
+    '{0}/Downloads/AssetBundle/Fonts_4892b8e6-8d8c41dee669c323c880cc5f75059a99.mtga'.format(
         Config.WINDOWS_DATA_DIR): [
             'Font_Default - DropShadow'
     ]
@@ -46,10 +47,10 @@ MACOS_FONT_RULES: dict[str:list] = {
     '{0}/sharedassets0.assets'.format(Config.MACOS_RES_DIR): [
         'Font_Default', 'Font_Title'
     ],
-    '{0}/Downloads/AssetBundle/Bucket_Card.FieldFont_0_7cd8fa71-ab42a73024b38000c60debc9bc8b61cb.mtga'.format(Config.MACOS_DATA_DIR): [
+    '{0}/Downloads/AssetBundle/Bucket_Card.FieldFont_0_9b535ef6-6ca062d7528a408fb341568888828fc9.mtga'.format(Config.MACOS_DATA_DIR): [
         'Font_Default', 'Font_Title', 'Font_Default_JP', 'Font_Title_JP'
     ],
-    '{0}/Downloads/AssetBundle/Fonts_9f3223a2-6874dedd51ee0c307c3742ac6a94d6f1.mtga'.format(Config.MACOS_DATA_DIR): [
+    '{0}/Downloads/AssetBundle/Fonts_72211418-8d8c41dee669c323c880cc5f75059a99.mtga'.format(Config.MACOS_DATA_DIR): [
         'Font_Default_USERNAME', 'Font_Title_USERNAME'
     ]
 }
@@ -58,11 +59,11 @@ MACOS_MATERIAL_RULES: dict[str:list] = {
     '{0}/resources.assets'.format(Config.MACOS_RES_DIR): [
         'Font_Title - DropShadow', 'Font_Title_JP - DropShadow', 'Font_Default - DropShadow'
     ],
-    '{0}/Downloads/AssetBundle/Bucket_Card.FontMaterialSettings_0_209bdb13-56922a494c80ce3fb55c0bf5c246d828.mtga'.format(
+    '{0}/Downloads/AssetBundle/Bucket_Card.FontMaterialSettings_0_4bba7691-be77a0308903a6564384ca37f10efbd9.mtga'.format(
         Config.MACOS_DATA_DIR): [
             'Font_Title - DropShadow', 'Font_Title_JP - DropShadow'
     ],
-    '{0}/Downloads/AssetBundle/Fonts_9f3223a2-6874dedd51ee0c307c3742ac6a94d6f1.mtga'.format(
+    '{0}/Downloads/AssetBundle/Fonts_72211418-8d8c41dee669c323c880cc5f75059a99.mtga'.format(
         Config.MACOS_DATA_DIR): [
             'Font_Default - DropShadow'
     ]
@@ -82,10 +83,10 @@ ANDROID_FONT_RULES: dict[str:list] = {
     '{0}/sharedassets0.assets'.format(Config.ANDROID_DATA_DIR): [
         'Font_Default', 'Font_Title'
     ],
-    '{0}/AssetBundle/Bucket_Card.FieldFont_0_b0997846-ab42a73024b38000c60debc9bc8b61cb.mtga'.format(Config.ANDROID_DATA_DIR): [
+    '{0}/AssetBundle/Bucket_Card.FieldFont_0_9aa2c83f-6ca062d7528a408fb341568888828fc9.mtga'.format(Config.ANDROID_DATA_DIR): [
         'Font_Default', 'Font_Title', 'Font_Default_JP', 'Font_Title_JP'
     ],
-    '{0}/AssetBundle/Fonts_f48d16fe-6874dedd51ee0c307c3742ac6a94d6f1.mtga'.format(Config.ANDROID_DATA_DIR): [
+    '{0}/AssetBundle/Fonts_644f8fb2-8d8c41dee669c323c880cc5f75059a99.mtga'.format(Config.ANDROID_DATA_DIR): [
         'Font_Title_USERNAME', 'Font_Default_USERNAME'
     ]
 }
@@ -101,11 +102,11 @@ ANDROID_MATERIAL_RULES: dict[str:list] = {
     '{0}/351f23bf48c7814428089374c54eefa9'.format(Config.ANDROID_DATA_DIR): [
         'Font_Default - DropShadow'
     ],
-    '{0}/AssetBundle/Bucket_Card.FontMaterialSettings_0_74660ac2-56922a494c80ce3fb55c0bf5c246d828.mtga'.format(
+    '{0}/AssetBundle/Bucket_Card.FontMaterialSettings_0_523fd1ac-be77a0308903a6564384ca37f10efbd9.mtga'.format(
         Config.ANDROID_DATA_DIR): [
             'Font_Title - DropShadow', 'Font_Title_JP - DropShadow'
     ],
-    '{0}/AssetBundle/Fonts_f48d16fe-6874dedd51ee0c307c3742ac6a94d6f1.mtga'.format(
+    '{0}/AssetBundle/Fonts_644f8fb2-8d8c41dee669c323c880cc5f75059a99.mtga'.format(
         Config.ANDROID_DATA_DIR): [
             'Font_Default - DropShadow'
     ]
@@ -119,7 +120,7 @@ class FontContent():
         self.fontMaterial = material
 
 
-def loadTMPFont(assetPath: str, monoBehaviorName: str, unityVersionStr: str = GAME_UNITY_VERSION_STRING) -> FontContent:
+def loadTMPFont(assetPath: str, monoBehaviorName: str) -> FontContent:
     """
         if you want load splitN asset,and edit it,code as follows(you can also use\ 
         other tools to binray merge files,then use `UnityPy.load(path)`):
@@ -139,6 +140,7 @@ def loadTMPFont(assetPath: str, monoBehaviorName: str, unityVersionStr: str = GA
         ```
     """
     assetEnv = UnityPy.load(assetPath)
+    assetEnv.typetree_generator = GameTypeTreeGenerator
     texture = None
     monoBehavior = {}
     material = {}
@@ -147,37 +149,19 @@ def loadTMPFont(assetPath: str, monoBehaviorName: str, unityVersionStr: str = GA
     for obj in assetEnv.objects:
         if obj.type != UnityPy.enums.ClassIDType.MonoBehaviour:
             continue
-        objData = obj.read()
-        if objData.name != monoBehaviorName:
+        try:
+            if obj.peek_name() not in monoBehaviorName:
+                continue
+        except:
+            #some rich type can't generate typetree
             continue
-        if not objData.serialized_type.nodes:
-            # hook(or other method) AssetStudio::MonoBehaviourConverter::ConvertToTypeTree dump TypeTree::m_Nodes
-            # when AssetStudio choose target monoBehaviour,the function will be called
-            # then converter to UnityPy::helpers::TypeTreeHelper.py::read_typetree need format:
-            # [{
-            #    "level": 0,
-            #    "type": "MonoBehaviour",
-            #    "name": "Base",
-            #    "meta_flag": 0
-            # },
-            # {
-            #    "level": 1,
-            #    "type": "int",
-            #    "name": "m_SomeNode",
-            #    "meta_flag": 0
-            # }]
-            with open('{0}/TMPFontAssetTypeTree.{1}.json'.format(Config.RESOUCE_DIR, unityVersionStr), 'r', encoding='UTF-8') as f:
-                typeTree = json.load(f)
-            objData.serialized_type.nodes = typeTree
-        objTree = objData.read_typetree()
-        # with open('{0}.json'.format(monoBehaviorName), 'w', encoding='UTF-8') as f:
-        #    json.dump(objTree, f, ensure_ascii=False)
-        if not objTree:
+        objData = obj.parse_as_dict()
+        if not objData:
             raise NotImplementedError('cannot found typetree in {0}:{1}'.format(
                 assetPath, monoBehaviorName))
-        monoBehavior = objTree
-        texturePathID = objTree['m_AtlasTextures'][objTree['m_AtlasTextureIndex']]['m_PathID']
-        materialPathID = objTree['material']['m_PathID']
+        monoBehavior = objData
+        texturePathID = objData['m_AtlasTextures'][objData['m_AtlasTextureIndex']]['m_PathID']
+        materialPathID = objData['m_Material']['m_PathID']
         break
 
     for obj in assetEnv.objects:
@@ -185,20 +169,12 @@ def loadTMPFont(assetPath: str, monoBehaviorName: str, unityVersionStr: str = GA
             continue
         match obj.type:
             case UnityPy.enums.ClassIDType.Texture2D:
-                objData = obj.read()
-                texture = objData.image
+                textureData = obj.parse_as_object()
+                texture = textureData.image
                 # objData.image.save('{0} Atlas.png'.format(monoBehaviorName))
             case UnityPy.enums.ClassIDType.Material:
-                objData = obj.read()
-                if not objData.serialized_type.nodes:
-                    with open('{0}/TMPFontMaterialTypeTree.json'.format(Config.RESOUCE_DIR), 'r', encoding='UTF-8') as f:
-                        typeTree = json.load(f)
-                    objData.serialized_type.nodes = typeTree
-                objTree = objData.read_typetree()
-                if not objTree:
-                    raise NotImplementedError('cannot found typetree in {0}:{1}'.format(
-                        assetPath, objData.name))
-                material = objTree
+                objData = obj.parse_as_dict()
+                material = objData
             case _:
                 continue
         if texture and material:
@@ -207,7 +183,7 @@ def loadTMPFont(assetPath: str, monoBehaviorName: str, unityVersionStr: str = GA
     return FontContent(texture, monoBehavior, material)
 
 
-def replaceTMPFont(assetPath: str, monoBehaviorNames: list[str], newFontContent: FontContent, replaceMaterial: bool = False, unityVersionStr: str = GAME_UNITY_VERSION_STRING):
+def replaceTMPFont(assetPath: str, monoBehaviorNames: list[str], newFontContent: FontContent, replaceMaterial: bool = False):
     """
         if you want load splitN asset,and edit it,code as follows(you can also use\ 
         other tools to binray merge files,then use `UnityPy.load(path)`):
@@ -227,35 +203,36 @@ def replaceTMPFont(assetPath: str, monoBehaviorNames: list[str], newFontContent:
         ```
     """
     assetEnv = UnityPy.load(assetPath)
+    assetEnv.typetree_generator = GameTypeTreeGenerator
     replacePathIDs = []
     for obj in assetEnv.objects:
         if obj.type != UnityPy.enums.ClassIDType.MonoBehaviour:
             continue
-        objData = obj.read()
-        if objData.name not in monoBehaviorNames:
+        try:
+            if obj.peek_name() not in monoBehaviorNames:
+                continue
+        except:
+            #some rich type can't generate typetree
             continue
-        if not objData.serialized_type.nodes:
-            # see function:LoadTMPFont Notes
-            with open('{0}/TMPFontAssetTypeTree.{1}.json'.format(Config.RESOUCE_DIR, unityVersionStr), 'r', encoding='UTF-8') as f:
-                typeTree = json.load(f)
-            objData.serialized_type.nodes = typeTree
-
-        objTree = objData.read_typetree()
+        objTree = obj.parse_as_dict()
         if not objTree:
-            raise NotImplementedError('cannot found typetree in {0}:{1}'.format(
-                assetPath, objData.name))
+            raise NotImplementedError('cannot found typetree in {0}'.format(
+                assetPath, monoBehaviorNames))
 
         # patch FileID,PathID,Name
         newFontContent.fontMonoBehavior['m_GameObject']['m_FileID'] = objTree['m_GameObject']['m_FileID']
         newFontContent.fontMonoBehavior['m_GameObject']['m_PathID'] = objTree['m_GameObject']['m_PathID']
 
         newFontContent.fontMonoBehavior['m_Name'] = objTree['m_Name']
+        #newFontContent.fontMonoBehavior['hashCode'] = objTree['hashCode']
+        #newFontContent.fontMonoBehavior['materialHashCode'] = objTree['materialHashCode']
+        #newFontContent.fontMonoBehavior['m_SourceFontFileGUID'] = objTree['m_SourceFontFileGUID']
 
         newFontContent.fontMonoBehavior['m_Script']['m_FileID'] = objTree['m_Script']['m_FileID']
         newFontContent.fontMonoBehavior['m_Script']['m_PathID'] = objTree['m_Script']['m_PathID']
 
-        newFontContent.fontMonoBehavior['material']['m_FileID'] = objTree['material']['m_FileID']
-        newFontContent.fontMonoBehavior['material']['m_PathID'] = objTree['material']['m_PathID']
+        newFontContent.fontMonoBehavior['m_Material']['m_FileID'] = objTree['m_Material']['m_FileID']
+        newFontContent.fontMonoBehavior['m_Material']['m_PathID'] = objTree['m_Material']['m_PathID']
 
         newFontAtlasTextureIndex = newFontContent.fontMonoBehavior['m_AtlasTextureIndex']
         oldFontAtlasTextureIndex = objTree['m_AtlasTextureIndex']
@@ -269,31 +246,26 @@ def replaceTMPFont(assetPath: str, monoBehaviorNames: list[str], newFontContent:
 
         replacePathIDs.append(
             objTree['m_AtlasTextures'][objTree['m_AtlasTextureIndex']]['m_PathID'])
-        replacePathIDs.append(objTree['material']['m_PathID'])
-        obj.save_typetree(newFontContent.fontMonoBehavior)
+        replacePathIDs.append(objTree['m_Material']['m_PathID'])
+        obj.patch(newFontContent.fontMonoBehavior)
 
     for obj in assetEnv.objects:
         if obj.path_id not in replacePathIDs:
             continue
         match obj.type:
             case UnityPy.enums.ClassIDType.Texture2D:
-                objData = obj.read()
-                objData.set_image(img=newFontContent.fontAtlas)
-                objData.m_Height = newFontContent.fontAtlas.height
-                objData.m_Width = newFontContent.fontAtlas.width
-                objData.save()
+                textureData = obj.parse_as_object()
+                textureData.image = newFontContent.fontAtlas
+                textureData.m_Height = newFontContent.fontAtlas.height
+                textureData.m_Width = newFontContent.fontAtlas.width
+                textureData.save()
             case UnityPy.enums.ClassIDType.Material:
                 if not replaceMaterial:
                     continue
-                objData = obj.read()
-                if not objData.serialized_type.nodes:
-                    with open('{0}/TMPFontMaterialTypeTree.{1}.json'.format(Config.RESOUCE_DIR, unityVersionStr), 'r', encoding='UTF-8') as f:
-                        typeTree = json.load(f)
-                    objData.serialized_type.nodes = typeTree
-                objTree = objData.read_typetree()
+                objTree = obj.parse_as_dict()
                 if not objTree:
-                    raise NotImplementedError('cannot found typetree in {0}:{1}'.format(
-                        assetPath, objData.name))
+                    raise NotImplementedError('cannot found typetree in {0}:{1} material'.format(
+                        assetPath, monoBehaviorNames))
 
                 newFontContent.fontMaterial['m_Name'] = objTree['m_Name']
                 #newFontContent.fontMaterial['m_ShaderKeywords'] = objTree['m_ShaderKeywords']
@@ -306,7 +278,7 @@ def replaceTMPFont(assetPath: str, monoBehaviorNames: list[str], newFontContent:
                     newFontContent.fontMaterial['m_SavedProperties']['m_TexEnvs'][i][1]['m_Texture'][
                         'm_PathID'] = objTree['m_SavedProperties']['m_TexEnvs'][i][1]['m_Texture']['m_PathID']
 
-                obj.save_typetree(newFontContent.fontMaterial)
+                obj.patch(newFontContent.fontMaterial)
             case _:
                 continue
         replacePathIDs.remove(obj.path_id)
@@ -320,22 +292,19 @@ def replaceTMPFont(assetPath: str, monoBehaviorNames: list[str], newFontContent:
     shutil.copy('{0}/{1}'.format(Config.OUT_DIR, assetName), assetPath)
 
 
-def replaceTMPMaterial(assetPath: str, materialNames: str, newFontContent: FontContent, unityVersionStr: str = GAME_UNITY_VERSION_STRING):
+def replaceTMPMaterial(assetPath: str, materialNames: str, newFontContent: FontContent):
     assetEnv = UnityPy.load(assetPath)
+    assetEnv.typetree_generator = GameTypeTreeGenerator
     for obj in assetEnv.objects:
+        try:
+            if obj.peek_name() not in materialNames:
+                continue
+        except:
+            #some rich type can't generate typetree
+            continue
         if obj.type != UnityPy.enums.ClassIDType.Material:
             continue
-        objData = obj.read()
-        if not objData.serialized_type.nodes:
-            with open('{0}/TMPFontMaterialTypeTree.{1}.json'.format(Config.RESOUCE_DIR, unityVersionStr), 'r', encoding='UTF-8') as f:
-                typeTree = json.load(f)
-            objData.serialized_type.nodes = typeTree
-        if objData.name not in materialNames:
-            continue
-        objTree = objData.read_typetree()
-        if not objTree:
-            raise NotImplementedError('cannot found typetree in {0}:{1}'.format(
-                assetPath, objData.name))
+        objTree = obj.parse_as_dict()
 
         newFontContent.fontMaterial['m_Name'] = objTree['m_Name']
         #newFontContent.fontMaterial['m_ShaderKeywords'] = objTree['m_ShaderKeywords']
@@ -348,7 +317,7 @@ def replaceTMPMaterial(assetPath: str, materialNames: str, newFontContent: FontC
             newFontContent.fontMaterial['m_SavedProperties']['m_TexEnvs'][i][1]['m_Texture'][
                 'm_PathID'] = objTree['m_SavedProperties']['m_TexEnvs'][i][1]['m_Texture']['m_PathID']
 
-        obj.save_typetree(newFontContent.fontMaterial)
+        obj.patch(newFontContent.fontMaterial)
 
     assetName = pathlib.Path(assetPath).name
     if not pathlib.Path('{0}/{1}'.format(Config.BACKUP_DIR, assetName)).exists():
@@ -359,10 +328,10 @@ def replaceTMPMaterial(assetPath: str, materialNames: str, newFontContent: FontC
 
 
 if __name__ == '__main__':
-    from UnityPy.helpers import TypeTreeHelper
-    TypeTreeHelper.read_typetree_c = False
-    UnityPy.config.FALLBACK_UNITY_VERSION = GAME_UNITY_VERSION_STRING
-    
+    UnityPy.config.FALLBACK_UNITY_VERSION = Config.GAME_UNITY_VERSION_STRING
+    GameTypeTreeGenerator = TypeTreeGenerator(Config.GAME_UNITY_VERSION_STRING)
+    GameTypeTreeGenerator.load_local_dll_folder(Config.GAME_DLL_DIR)
+
     if not Config.BACKUP_DIR.is_dir():
         Config.BACKUP_DIR.unlink(missing_ok=True)
         Config.BACKUP_DIR.mkdir(parents=True, exist_ok=True)
