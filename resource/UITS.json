@@ -1373,11 +1373,11 @@
     },
     "AbilityHanger/Keyword/CraftWithFourOrMoreNonlandsWithActivatedAbilities_Body": {
         "oracleText": "{abilityCost}, Exile the four from among other permanents you control and/or cards in your graveyard, Exile this card: Return it transformed under its owner's control. Craft only as a sorcery.",
-        "translation": "{abilityCost}, Exile the four from among other permanents you control and/or cards in your graveyard, Exile this card: Return it transformed under its owner's control. Craft only as a sorcery."
+        "translation": "{abilityCost}，放逐此牌，从由你操控的其他永久物和／或你坟墓场的牌中放逐前述化炼物件达四个或更多：将此牌在其拥有者的操控下移回且已转化。只能于法术时机化炼。"
     },
     "AbilityHanger/Keyword/CraftWithFourOrMoreNonlandsWithActivatedAbilities_Title": {
         "oracleText": "Craft with four or more nonlands with activated abilities",
-        "translation": "Craft with four or more nonlands with activated abilities"
+        "translation": "以四个或更多具起动式异能之非地物件化炼"
     },
     "AbilityHanger/Keyword/CraftWithIsland_Body": {
         "oracleText": "{abilityCost}, Exile an Island you control or an Island card from your graveyard, Exile this card: Return it transformed under its owner's control. Craft only as a sorcery.",
@@ -2017,11 +2017,11 @@
     },
     "AbilityHanger/Keyword/HexproofFromBlack": {
         "oracleText": "This permanent can't be the target of black spells or abilities your opponents control.",
-        "translation": "This permanent can't be the target of black spells or abilities your opponents control."
+        "translation": "此生物不能成为由对手操控之黑色咒语或异能的目标。"
     },
     "AbilityHanger/Keyword/HexproofFromBlue": {
         "oracleText": "This permanent can't be the target of blue spells or abilities your opponents control.",
-        "translation": "This permanent can't be the target of blue spells or abilities your opponents control."
+        "translation": "此生物不能成为由对手操控之蓝色咒语或异能的目标。"
     },
     "AbilityHanger/Keyword/HexproofFromEachColor_Body": {
         "oracleText": "A permanent with hexproof from each color can't be the target of spells or abilities your opponents control that are one or more colors.",
@@ -2065,7 +2065,7 @@
     },
     "AbilityHanger/Keyword/HexproofFromWhite": {
         "oracleText": "This permanent can't be the target of white spells or abilities your opponents control.",
-        "translation": "This permanent can't be the target of white spells or abilities your opponents control."
+        "translation": "此生物不能成为由对手操控之白色咒语或异能的目标。"
     },
     "AbilityHanger/Keyword/Hexproof_from_Abilities_Body": {
         "oracleText": "A permanent with hexproof from activated and triggered abilities can't be the target of abilities your opponents control.",
@@ -3745,11 +3745,11 @@
     },
     "AbilityHanger/Qualification/CantBeBlockedByObjectsControlledBy_Body": {
         "oracleText": "This can't be blocked by creatures {playerName} controls.",
-        "translation": "This can't be blocked by creatures {playerName} controls."
+        "translation": "其不能被由{playerName}操控的生物阻挡。"
     },
     "AbilityHanger/Qualification/CantBeBlockedByObjectsControlledBy_Title": {
         "oracleText": "Can't Be Blocked By {playerName}",
-        "translation": "Can't Be Blocked By {playerName}"
+        "translation": "不能被{playerName}阻挡"
     },
     "AbilityHanger/Qualification/CantBeBlocked_Title": {
         "oracleText": "Can't be Blocked",
@@ -14885,7 +14885,7 @@
     },
     "DuelScene/Browsers/StackedCards": {
         "oracleText": "Stacked Cards",
-        "translation": "Stacked Cards"
+        "translation": "重叠牌张"
     },
     "DuelScene/Browsers/StartingPlayer_DrawFirst": {
         "oracleText": "Draw First",
@@ -22333,15 +22333,15 @@
     },
     "Events/ArenaDirect_DFT_Play_Prize": {
         "oracleText": "One <i>Aetherdrift</i> Play Booster Box",
-        "translation": "One <i>Aetherdrift</i> Play Booster Box"
+        "translation": "1盒<i>乙太飘移</i>常规补充包"
     },
     "Events/ArenaDirect_DFT_Play_Prize2": {
         "oracleText": "Two <i>Aetherdrift</i> Play Booster Boxes",
-        "translation": "Two <i>Aetherdrift</i> Play Booster Boxes"
+        "translation": "2盒<i>乙太飘移</i>常规补充包"
     },
     "Events/ArenaDirect_DFT_Play_String": {
         "oracleText": "This token indicates you are eligible to receive a physical Aetherdrift Play Booster Box",
-        "translation": "This token indicates you are eligible to receive a physical Aetherdrift Play Booster Box"
+        "translation": "此代币表示您有资格获得1盒实体乙太飘移常规补充包"
     },
     "Events/ArenaDirect_DFT_String": {
         "oracleText": "This token denotes you are eligible to receive 1 physical Aetherdrift Booster Box",
@@ -22497,15 +22497,15 @@
     },
     "Events/ArenaDirect_MOM_Set_Prize": {
         "oracleText": "One <i>March of the Machines</i> Set Booster Box",
-        "translation": "One <i>March of the Machines</i> Set Booster Box"
+        "translation": "1盒<i>邪军压境</i>系列补充包"
     },
     "Events/ArenaDirect_MOM_Set_Prize2": {
         "oracleText": "Two <i>March of the Machines</i> Set Booster Boxes",
-        "translation": "Two <i>March of the Machines</i> Set Booster Boxes"
+        "translation": "2盒<i>邪军压境</i>系列补充包"
     },
     "Events/ArenaDirect_MOM_Set_String": {
         "oracleText": "This token indicates you are eligible to receive a physical March of the Machines Set Booster Box",
-        "translation": "This token indicates you are eligible to receive a physical March of the Machines Set Booster Box"
+        "translation": "此代币表示您有资格获得1盒实体邪军压境系列补充包"
     },
     "Events/ArenaDirect_MSH_Collector_Prize": {
         "oracleText": "One <i>Marvel Super Heroes</i> Collector Booster Boxes",
@@ -24753,11 +24753,11 @@
     },
     "Events/Event_Desc_ArenaDirect_DFT_Play_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 7 wins to win 2 physical Aetherdrift Play Booster Boxes delivered to you.\n\nThe format for this event is 6 packs of <i>Aetherdrift</i> Sealed with single-game matches.  \n\n<size=120%><color=#e1a154>Eligibility Rules</color></size>\n\n<b><color=red>Must be 18 years or older to participate.</color></b>\n\n<b><color=red>Not all countries/regions are eligible. Go <u><link=https://mtgarena-support.wizards.com/hc/en-us/articles/31879284566548-Arena-Direct-FAQ>here</link></u> to check yours.</color></b>\n\n<b><color=red>Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 7 wins to win 2 physical Aetherdrift Play Booster Boxes delivered to you.\n\nThe format for this event is 6 packs of <i>Aetherdrift</i> Sealed with single-game matches.  \n\n<size=120%><color=#e1a154>Eligibility Rules</color></size>\n\n<b><color=red>Must be 18 years or older to participate.</color></b>\n\n<b><color=red>Not all countries/regions are eligible. Go <u><link=https://mtgarena-support.wizards.com/hc/en-us/articles/31879284566548-Arena-Direct-FAQ>here</link></u> to check yours.</color></b>\n\n<b><color=red>Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>"
+        "translation": "<size=150%><color=#e1a154> 参加赛事，竞夺卡盒！</color></size>\n\n报名参加此赛事，赢得全部7胜就能获得两盒实体乙太飘移常规补充包邮寄到家。\n\n本赛事的赛制为6包补充包的<i>乙太飘移</i>BO1现开赛。\n\n<size=120%><color=#e1a154>参赛资格规则</color></size>\n\n<b><color=red>须年满18周岁方能参加。</color></b>\n\n<b><color=red>并非所有国家/地区都可参加。请点击<u><link=https://mtgarena-support.wizards.com/hc/en-us/articles/31879284566548-Arena-Direct-FAQ>此处</link></u>查看你所在地区是否符合资格。</color></b>\n\n<b><color=red>在法律禁止的地区无效。须创建或具现有威世智、DCI及i-Payout帐户方能领取奖金。完整详细信息，请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>此处</link></u>。</color></b>"
     },
     "Events/Event_Desc_ArenaDirect_DFT_Set_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size> Sign up for this event and get all 7 wins to win 2 physical Aetherdrift Play Booster Boxes delivered to you. The format for this event is 6 packs of *<i>*Aetherdrift*</i>* Sealed with single-game matches.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=[https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions|https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions] >here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size> Sign up for this event and get all 7 wins to win 2 physical Aetherdrift Play Booster Boxes delivered to you. The format for this event is 6 packs of *<i>*Aetherdrift*</i>* Sealed with single-game matches.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=[https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions|https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions] >here</link></u> for full details.</color></b>"
+        "translation": "<size=150%><color=#e1a154>参加赛事，竞夺卡盒！</color></size>\n报名参加此赛事，赢得全部7胜就能获得2盒实体乙太飘移常规补充包邮寄到家。\n本赛事的赛制为6包补充包的<i>乙太飘移</i>BO1现开赛。\n\n<b><color=red>须年满18周岁方能参加。部分地区／地域不能参加本赛事。在法律禁止的地区无效。须创建或具现有威世智、DCI及i-Payout帐户方能领取奖金。完整详细信息，请参阅<u><link=[https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions|https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions] >此处</link></u>。</color></b>"
     },
     "Events/Event_Desc_ArenaDirect_DMU_Set_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win 2 physical <i>Dominaria United </i> Set Booster Boxes delivered to you.\n\nThe format for this event is 6 packs of <i>Dominaria United</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>",
@@ -24837,7 +24837,7 @@
     },
     "Events/Event_Desc_ArenaDirect_MOM_Set_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\nSign up for this event and get all 7 wins to win 2 physical March of the Machines Set Booster Boxes delivered to you.\nThe format for this event is 6 packs of <i>*March of the Machines</i>* Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\nSign up for this event and get all 7 wins to win 2 physical March of the Machines Set Booster Boxes delivered to you.\nThe format for this event is 6 packs of <i>*March of the Machines</i>* Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >here</link></u> for full details.</color></b>"
+        "translation": "<size=150%><color=#e1a154>参加赛事，竞夺卡盒！</color></size>\n报名参加此赛事，赢得全部7胜就能获得2盒实体邪军压境系列补充包邮寄到家。\n本赛事的赛制为6包补充包的<i>邪军压境</i>BO1现开赛。\n\n<b><color=red>须年满18周岁方能参加。部分地区／地域不能参加本赛事。在法律禁止的地区无效。须创建或具现有威世智、DCI及i-Payout帐户方能领取奖金。完整详细信息，请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >此处</link></u>。</color></b>"
     },
     "Events/Event_Desc_ArenaDirect_MSH_Collector_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 7 wins to win 1 physical Marvel Super Heroes Collector Booster Box delivered to you.\n\nThe format for this event is 6 packs of <i>Marvel Super Heroes</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >here</link></u> for full details.</color></b>",
@@ -28777,7 +28777,7 @@
     },
     "Events/Event_Minimum_Rank": {
         "oracleText": "Minimum Rank",
-        "translation": "Minimum Rank"
+        "translation": "最低段位"
     },
     "Events/Event_NonStandardDraft_ConfirmJoin": {
         "oracleText": "Join Event",
@@ -28941,7 +28941,7 @@
     },
     "Events/Event_Title_ArenaDirect_DFT_Set_Sealed": {
         "oracleText": "Arena Direct - Sealed Aetherdrift Play Booster Box",
-        "translation": "Arena Direct - Sealed Aetherdrift Play Booster Box"
+        "translation": "竞技场直邮赛 - 乙太飘移现开（常规补充包）"
     },
     "Events/Event_Title_ArenaDirect_DMU_Set_Sealed": {
         "oracleText": "Arena Direct - Sealed Dominaria United Set Booster",
@@ -29021,7 +29021,7 @@
     },
     "Events/Event_Title_ArenaDirect_MOM_Set_Sealed": {
         "oracleText": "Arena Direct - Sealed March of the Machines Set Booster Box",
-        "translation": "Arena Direct - Sealed March of the Machines Set Booster Box"
+        "translation": "竞技场直邮赛 - 邪军压境现开（系列补充包）"
     },
     "Events/Event_Title_ArenaDirect_MSH_Collector_Sealed": {
         "oracleText": "Arena Direct - Sealed Marvel Super Heroes Collector Booster Box",
@@ -30421,11 +30421,11 @@
     },
     "Events/Event_Title_HOBLimitedOpen_Draft1": {
         "oracleText": "The Hobbit Limited Open Draft One",
-        "translation": "The Hobbit Limited Open Draft One"
+        "translation": "霍比特人限制公开赛第一轮轮抽"
     },
     "Events/Event_Title_HOBLimitedOpen_Draft2": {
         "oracleText": "The Hobbit Limited Open Draft Two",
-        "translation": "The Hobbit Limited Open Draft Two"
+        "translation": "霍比特人限制公开赛第二轮轮抽"
     },
     "Events/Event_Title_HOB_Contender_Draft": {
         "oracleText": "Contender Draft \n$/General/Sets/HOB$",
@@ -33013,11 +33013,11 @@
     },
     "Events/Events/Event_Desc_MWM_HOB_BotDraft": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Magic: The Gathering | The Hobbit</i> Bot Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>",
-        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Magic: The Gathering | The Hobbit</i> Bot Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>"
+        "translation": "欢迎参加周中万智牌！MTG竞技场每周玩法花样百出，次次活动都有全新感受！\n\n本周的活动是<i>万智牌 | 霍比特人</i>人机轮抽：你将与电脑一道，从在桌上轮转的轮抽补充包中抽选牌张，无需等待，也没有抽选时间限制。之后加入基本地构组一副40张的套牌，并与其他牌手进行对战，且无次数限制。\n\n<b><color=\"red\">此赛事为幻影活动。你抽选的牌张不会加入你的收藏。</color></b> "
     },
     "Events/Events/Event_Desc_MWM_HOB_Sealed": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Magic: The Gathering | The Hobbit</i> Sealed: Open six packs and add basic lands to make a 40-card deck, then play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you open are not added to your collection.</color></b>\n\n$/Events/HOB_Limited_Archetypes$",
-        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Magic: The Gathering | The Hobbit</i> Sealed: Open six packs and add basic lands to make a 40-card deck, then play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you open are not added to your collection.</color></b>\n\n$/Events/HOB_Limited_Archetypes$"
+        "translation": "欢迎参加周中万智牌！MTG竞技场每周玩法花样百出，次次活动都有全新感受！\n\n本周的活动是<i>万智牌 | 霍比特人</i>现开赛：打开六个卡包，再将基本地加入其中，组成40张的套牌与其他玩家对战，不限对局次数。\n\n<b><color=\"red\">这是一个幻影活动。你所开启的牌张不会添加到你的收藏当中。</color></b>\n\n$/Events/HOB_Limited_Archetypes$"
     },
     "Events/Events/Event_Desc_MWM_MSH_BotDraft": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Marvel Super Heroes</i> Bot Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>",
@@ -36721,7 +36721,7 @@
     },
     "Gatherings/Status/OnlineElsewhere": {
         "oracleText": "Online Elsewhere - {count}",
-        "translation": "Online Elsewhere - {count}"
+        "translation": "其他平台在线 - {count}"
     },
     "Gatherings/SystemMessage/ConfirmUnlinkingHeader": {
         "oracleText": "Confirm Unlinking?",
@@ -37493,47 +37493,47 @@
     },
     "Intro/Cinematic/FRA_1": {
         "oracleText": "The Planeswalker Jace Beleren is convinced he can save the Multiverse.",
-        "translation": "The Planeswalker Jace Beleren is convinced he can save the Multiverse."
+        "translation": "鹏洛客杰斯贝连坚信自己能够拯救多重宇宙。"
     },
     "Intro/Cinematic/FRA_10": {
         "oracleText": "What other alternate selves are appearing throughout the Echoverse?",
-        "translation": "What other alternate selves are appearing throughout the Echoverse?"
+        "translation": "逆声宇宙各处还出现了哪些人的另一个自己？"
     },
     "Intro/Cinematic/FRA_11": {
         "oracleText": "Reality is fractured—will you be the one to save it?",
-        "translation": "Reality is fractured—will you be the one to save it?"
+        "translation": "现实已然破碎——你会成为拯救它的人吗？"
     },
     "Intro/Cinematic/FRA_2": {
         "oracleText": "He plans to overwrite the planes with an \"Echoverse\" of his own design.",
-        "translation": "He plans to overwrite the planes with an \"Echoverse\" of his own design."
+        "translation": "他计划用自己设计的逆声宇宙覆盖各个时空。"
     },
     "Intro/Cinematic/FRA_3": {
         "oracleText": "Jace watches from a massive tower, finishing his spell.",
-        "translation": "Jace watches from a massive tower, finishing his spell."
+        "translation": "杰斯在一座巨塔上注视着这一切，同时完成他的咒语。"
     },
     "Intro/Cinematic/FRA_4": {
         "oracleText": "The tower is home to Hexhaven, an alternate Strixhaven where the classes—",
-        "translation": "The tower is home to Hexhaven, an alternate Strixhaven where the classes—"
+        "translation": "塔中坐落着赫克海文——另一个版本的斯翠海文，那里的课程——"
     },
     "Intro/Cinematic/FRA_5": {
         "oracleText": "and rules—are completely different from the school we know.",
-        "translation": "and rules—are completely different from the school we know."
+        "translation": "乃至规则——都与我们所熟知的学校截然不同。"
     },
     "Intro/Cinematic/FRA_6": {
         "oracleText": "A brave band of current and former Planeswalkers prepares to storm the tower and stop Jace.",
-        "translation": "A brave band of current and former Planeswalkers prepares to storm the tower and stop Jace."
+        "translation": "一群英勇的现任及昔日鹏洛客准备强攻高塔，阻止杰斯。"
     },
     "Intro/Cinematic/FRA_7": {
         "oracleText": "To get to him, they'll need to fight a most dangerous foe: themselves.",
-        "translation": "To get to him, they'll need to fight a most dangerous foe: themselves."
+        "translation": "要想抵达杰斯面前，他们必须迎战一个无比危险的敌人：他们自己。"
     },
     "Intro/Cinematic/FRA_8": {
         "oracleText": "Can our heroes defeat their deadly doppelgangers and stop Jace before it's too late?",
-        "translation": "Can our heroes defeat their deadly doppelgangers and stop Jace before it's too late?"
+        "translation": "我们的英雄能否战胜那些致命的分身，赶在为时已晚之前阻止杰斯？"
     },
     "Intro/Cinematic/FRA_9": {
         "oracleText": "What are the true goals of the mysterious girl, Tam?",
-        "translation": "What are the true goals of the mysterious girl, Tam?"
+        "translation": "神秘少女谭姆真正的目的究竟是什么？"
     },
     "LoadingTips/CosmeticTip": {
         "oracleText": "To view available Card Styles navigate to the Deckbuilder or Collection and enable Cosmetics mode.",
@@ -42913,15 +42913,15 @@
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_FRA_468253": {
         "oracleText": "Liliana Sleeve",
-        "translation": "Liliana Sleeve"
+        "translation": "莉莲娜牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_FRA_468254": {
         "oracleText": "Chandra Sleeve",
-        "translation": "Chandra Sleeve"
+        "translation": "茜卓牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_FRA_479306": {
         "oracleText": "Jace Sleeve",
-        "translation": "Jace Sleeve"
+        "translation": "杰斯牌套"
     },
     "MainNav/DeckBuilder/Sleeves/CardBack_FindYourChampion": {
         "oracleText": "Trophy Sleeve",
@@ -47937,11 +47937,11 @@
     },
     "MainNav/EventRewards/ArenaDirect_DFT_PlayPlural": {
         "oracleText": "{quantity} Aetherdrift Play Booster Boxes",
-        "translation": "{quantity} Aetherdrift Play Booster Boxes"
+        "translation": "{quantity}盒乙太飘移常规补充包"
     },
     "MainNav/EventRewards/ArenaDirect_DFT_PlaySingular": {
         "oracleText": "{quantity} Aetherdrift Play Booster Box",
-        "translation": "{quantity} Aetherdrift Play Booster Box"
+        "translation": "{quantity}盒乙太飘移常规补充包"
     },
     "MainNav/EventRewards/ArenaDirect_DMU_SetSingular": {
         "oracleText": "2 Dominaria United Set Booster Box",
@@ -48125,11 +48125,11 @@
     },
     "MainNav/EventRewards/ArenaDirect_MOM_SetPlural": {
         "oracleText": "{quantity} March of the Machines Set Booster Boxes",
-        "translation": "{quantity} March of the Machines Set Booster Boxes"
+        "translation": "{quantity}盒邪军压境系列补充包"
     },
     "MainNav/EventRewards/ArenaDirect_MOM_SetSingular": {
         "oracleText": "{quantity} March of the Machines Set Booster Box",
-        "translation": "{quantity} March of the Machines Set Booster Box"
+        "translation": "{quantity}盒邪军压境系列补充包"
     },
     "MainNav/EventRewards/ArenaDirect_MSH_CollectorPlural": {
         "oracleText": "{quantity} Marvel Super Heroes Collector Booster Boxes",
@@ -51833,23 +51833,23 @@
     },
     "MainNav/HomePage/Carousel/2026_62_50_FRA_Desc": {
         "oracleText": "Check out these Pre-orders in the Store before they're overwritten!",
-        "translation": "Check out these Pre-orders in the Store before they're overwritten!"
+        "translation": "在被覆盖之前来商店看看这些预售商品吧！"
     },
     "MainNav/HomePage/Carousel/2026_62_50_FRA_PhysPreRelease_Title": {
         "oracleText": "Your first opportunity to play Reality Fracture!",
-        "translation": "Your first opportunity to play Reality Fracture!"
+        "translation": "第一次尝试现实裂界的机会来了！"
     },
     "MainNav/HomePage/Carousel/2026_62_50_FRA_PreOrders_Title": {
         "oracleText": "Mind-bending Pre-orders!",
-        "translation": "Mind-bending Pre-orders!"
+        "translation": "扭曲心灵的预购！"
     },
     "MainNav/HomePage/Carousel/2026_62_50_FRA_Previews_Title": {
         "oracleText": "Reality Fracture Previews!",
-        "translation": "Reality Fracture Previews!"
+        "translation": "现实裂界预览！"
     },
     "MainNav/HomePage/Carousel/2026_62_50_FRA_StoryUpdate_Desc": {
         "oracleText": "Will Jace be able to overwrite the world? Read all of the Reality Fracture story by clicking here!",
-        "translation": "Will Jace be able to overwrite the world? Read all of the Reality Fracture story by clicking here!"
+        "translation": "杰斯能够覆盖这个世界吗？点此阅读现实裂界的完整故事！"
     },
     "MainNav/HomePage/Carousel/21_01_Store_Desc": {
         "oracleText": "Take part in the epic Saga of Kaldheim. New Boosters Packs, new Set Mastery Pass, new Showcase Bundles, and more!",
@@ -57465,43 +57465,43 @@
     },
     "MainNav/Mailbox/2026_FRACinematic_Slide1": {
         "oracleText": "The Planeswalker Jace Beleren is convinced he can save the Multiverse.",
-        "translation": "The Planeswalker Jace Beleren is convinced he can save the Multiverse."
+        "translation": "鹏洛客杰斯贝连坚信自己能够拯救多重宇宙。"
     },
     "MainNav/Mailbox/2026_FRACinematic_Slide10": {
         "oracleText": "Reality is fractured—will you be the one to save it?",
-        "translation": "Reality is fractured—will you be the one to save it?"
+        "translation": "现实已然破碎——你会成为拯救它的人吗？"
     },
     "MainNav/Mailbox/2026_FRACinematic_Slide2": {
         "oracleText": "He plans to overwrite the planes with an \"Echoverse\" of his own design.",
-        "translation": "He plans to overwrite the planes with an \"Echoverse\" of his own design."
+        "translation": "他计划用自己设计的逆声宇宙覆盖各个时空。"
     },
     "MainNav/Mailbox/2026_FRACinematic_Slide3": {
         "oracleText": "Jace watches from a massive tower, finishing his spell.",
-        "translation": "Jace watches from a massive tower, finishing his spell."
+        "translation": "杰斯在一座巨塔上注视着这一切，同时完成他的咒语。"
     },
     "MainNav/Mailbox/2026_FRACinematic_Slide4": {
         "oracleText": "The tower is home to Hexhaven, an alternate Strixhaven where the classes—and rules—are completely different from the school we know.",
-        "translation": "The tower is home to Hexhaven, an alternate Strixhaven where the classes—and rules—are completely different from the school we know."
+        "translation": "塔中坐落着赫克海文——另一个版本的斯翠海文，那里的课程——乃至规则——都与我们所熟知的学校截然不同。"
     },
     "MainNav/Mailbox/2026_FRACinematic_Slide5": {
         "oracleText": "A brave band of current and former Planeswalkers prepares to storm the tower and stop Jace.",
-        "translation": "A brave band of current and former Planeswalkers prepares to storm the tower and stop Jace."
+        "translation": "一群英勇的现任及昔日鹏洛客准备强攻高塔，阻止杰斯。"
     },
     "MainNav/Mailbox/2026_FRACinematic_Slide6": {
         "oracleText": "To get to him, they'll need to fight a most dangerous foe: themselves.",
-        "translation": "To get to him, they'll need to fight a most dangerous foe: themselves."
+        "translation": "要想抵达杰斯面前，他们必须迎战一个无比危险的敌人：他们自己。"
     },
     "MainNav/Mailbox/2026_FRACinematic_Slide7": {
         "oracleText": "Can our heroes defeat their deadly doppelgangers and stop Jace before it's too late?",
-        "translation": "Can our heroes defeat their deadly doppelgangers and stop Jace before it's too late?"
+        "translation": "我们的英雄能否战胜那些致命的分身，赶在为时已晚之前阻止杰斯？"
     },
     "MainNav/Mailbox/2026_FRACinematic_Slide8": {
         "oracleText": "What are the true goals of the mysterious girl, Tam?",
-        "translation": "What are the true goals of the mysterious girl, Tam?"
+        "translation": "神秘少女谭姆真正的目的究竟是什么？"
     },
     "MainNav/Mailbox/2026_FRACinematic_Slide9": {
         "oracleText": "What other alternate selves are appearing throughout the Echoverse?",
-        "translation": "What other alternate selves are appearing throughout the Echoverse?"
+        "translation": "逆声宇宙各处还出现了哪些人的另一个自己？"
     },
     "MainNav/Mailbox/2026_HOB_Marketing_Trailer_Description": {
         "oracleText": "Journey with us as The Hobbit travels to explore the depths of Magic: The Gathering. Click below to watch!",
@@ -59417,11 +59417,11 @@
     },
     "MainNav/PetNames/FRA_Preorder_1": {
         "oracleText": "Puppeteer's Mage Hunter",
-        "translation": "Puppeteer's Mage Hunter"
+        "translation": "控偶师的猎法妖"
     },
     "MainNav/PetNames/FRA_Preorder_Companion_1": {
         "oracleText": "Puppeteer's Mage Hunter",
-        "translation": "Puppeteer's Mage Hunter"
+        "translation": "控偶师的猎法妖"
     },
     "MainNav/PetNames/HA4_Cat": {
         "oracleText": "Amon-cat",
@@ -64737,15 +64737,15 @@
     },
     "MainNav/Rewards/HOBLimitedOpenHeaderPlural": {
         "oracleText": "{quantity} The Hobbit Limited Open Draft 2 Token",
-        "translation": "{quantity} The Hobbit Limited Open Draft 2 Token"
+        "translation": "{quantity}霍比特人限制公开赛第二轮轮抽门票"
     },
     "MainNav/Rewards/HOBLimitedOpenHeaderSingular": {
         "oracleText": "{quantity} The Hobbit Limited Open Draft 2 Token",
-        "translation": "{quantity} The Hobbit Limited Open Draft 2 Token"
+        "translation": "{quantity}霍比特人限制公开赛第二轮轮抽门票"
     },
     "MainNav/Rewards/HOBLimitedOpenTokenDescription": {
         "oracleText": "Join and compete in The Hobbit Limited Open Draft 2!",
-        "translation": "Join and compete in The Hobbit Limited Open Draft 2!"
+        "translation": "参加霍比特人限制公开赛第二轮轮抽，一展身手！"
     },
     "MainNav/Rewards/ICRBonusAdditional": {
         "oracleText": "You have been granted a bonus Alchemy card.",
@@ -73421,11 +73421,11 @@
     },
     "MainNav/Store/Bundles/PreOrder_AvailableDate": {
         "oracleText": "Available on September 29, 2026",
-        "translation": "Available on September 29, 2026"
+        "translation": "2026年9月29日上市"
     },
     "MainNav/Store/Bundles/PreOrder_Available_Purchasable": {
         "oracleText": "Available for purchase until September 29, 2026",
-        "translation": "Available for purchase until September 29, 2026"
+        "translation": "2026年9月29日前可供购买"
     },
     "MainNav/Store/Bundles/PrizeWall_BLBMastery_Sorin_Desc": {
         "oracleText": "4x Sorin Markov",
@@ -73629,15 +73629,15 @@
     },
     "MainNav/Store/Bundles/mtga_preorder_fra_pack_Desc": {
         "oracleText": "Pre-order <i>Reality Fracture</i> today and receive the following items on September 29, 2026:\n45 <i>Reality Fracture</i> Boosters\n5 <i>Reality Fracture</i> Mythic Boosters\n5 Golden Boosters\n1 Chandra, Torch of Defiance\n1 Chandra, Chill of Compliance\nChandra, Torch of Defiance Depth Art Card Style\nChandra, Chill of Compliance Depth Art Card Style\nWhen purchased, you will immediately receive the Chandra Sleeve.",
-        "translation": "Pre-order <i>Reality Fracture</i> today and receive the following items on September 29, 2026:\n45 <i>Reality Fracture</i> Boosters\n5 <i>Reality Fracture</i> Mythic Boosters\n5 Golden Boosters\n1 Chandra, Torch of Defiance\n1 Chandra, Chill of Compliance\nChandra, Torch of Defiance Depth Art Card Style\nChandra, Chill of Compliance Depth Art Card Style\nWhen purchased, you will immediately receive the Chandra Sleeve."
+        "translation": "即日预购<i>现实裂界</i>，便可于2026年9月29日获得以下物品：\n\n45包<i>现实裂界</i>补充包  \n5包<i>现实裂界</i>秘稀补充包  \n5包黄金补充包  \n1张反抗烈炬茜卓  \n1张适令寒冰茜卓  \n反抗烈炬茜卓深度插画卡牌样式  \n适令寒冰茜卓深度插画卡牌样式  \n\n完成购买后，便会立刻获得茜卓牌套。"
     },
     "MainNav/Store/Bundles/mtga_preorder_fra_pass_Desc": {
         "oracleText": "Pre-order <i>Reality Fracture</i> today and receive the following items on September 29, 2026:\n<i>Reality Fracture</i> Set Mastery Pass + 10 bonus levels!\n1 Sealed Token\n20 <i>Reality Fracture</i> Boosters\n2 Golden Boosters\n2 The Theorist, Jace Beleren\nThe Theorist, Jace Beleren Depth Art Card Style\nWhen purchased, you will immediately receive the Jace Sleeve.",
-        "translation": "Pre-order <i>Reality Fracture</i> today and receive the following items on September 29, 2026:\n<i>Reality Fracture</i> Set Mastery Pass + 10 bonus levels!\n1 Sealed Token\n20 <i>Reality Fracture</i> Boosters\n2 Golden Boosters\n2 The Theorist, Jace Beleren\nThe Theorist, Jace Beleren Depth Art Card Style\nWhen purchased, you will immediately receive the Jace Sleeve."
+        "translation": "即日预购<i>现实裂界</i>，便可于2026年9月29日获得以下物品：\n\n<i>现实裂界</i>精研通行证 + 10额外等级！\n1张现开门票\n20包<i>现实裂界</i>补充包\n2包黄金补充包\n2张塑理师杰斯贝连\n塑理师杰斯贝连卡牌样式\n\n完成购买后，便会立刻获得杰斯牌套。"
     },
     "MainNav/Store/Bundles/mtga_preorder_fra_play_Desc": {
         "oracleText": "Pre-order <i>Reality Fracture</i> today and receive the following items on September 29, 2026:\n4 Player Draft Tokens\n2 Sealed Token\n20 Play-In Points\n1 Liliana the Repentant\n1 Liliana the Faultless\nLiliana the Repentant Depth Art Card Style\nLiliana the Faultless Depth Art Card Style\nWhen purchased, you will immediately receive the Liliana Sleeve and the Puppeteer's Mage Hunter Companion.",
-        "translation": "Pre-order <i>Reality Fracture</i> today and receive the following items on September 29, 2026:\n4 Player Draft Tokens\n2 Sealed Token\n20 Play-In Points\n1 Liliana the Repentant\n1 Liliana the Faultless\nLiliana the Repentant Depth Art Card Style\nLiliana the Faultless Depth Art Card Style\nWhen purchased, you will immediately receive the Liliana Sleeve and the Puppeteer's Mage Hunter Companion."
+        "translation": "即日预购<i>现实裂界</i>，便可于2026年9月29日获得以下物品：\n\n4张真人轮抽门票  \n2张现开门票  \n20点参赛积分  \n1张自新莉莲娜  \n1张无瑕莉莲娜  \n自新莉莲娜深度插画卡牌样式  \n无瑕莉莲娜深度插画卡牌样式  \n\n完成购买后，便会立刻获得莉莲娜牌套和控偶师的猎法妖宠物。"
     },
     "MainNav/Store/Bundles/mtga_preorder_hob_pack_Desc": {
         "oracleText": "Pre-order <i>The Hobbit</i> today and receive the following items on August 11th, 2026:\n\n45 <i>The Hobbit</i> Boosters\n5 <i>The Hobbit</i> Mythic Boosters\n5 Golden Boosters\n1 Smaug, the Magnificent\nSmaug, the Magnificent Depth Art Card Style\n\nWhen purchased, you will immediately receive the Smaug Sleeve.\n\n™ MEE to Wizards. TM & © 2026 MEE & Wizards.",
@@ -82121,7 +82121,7 @@
     },
     "Social/Friends/UI/Details/Blocked": {
         "oracleText": "Blocked - {count}",
-        "translation": "Blocked - {count}"
+        "translation": "屏蔽中 - {count}"
     },
     "Social/Friends/UI/Details/IncomingRequest": {
         "oracleText": "Pending Request",
@@ -82141,7 +82141,7 @@
     },
     "Social/Friends/UI/Headers/ChallengesList": {
         "oracleText": "Challenges - {count}",
-        "translation": "Challenges - {count}"
+        "translation": "挑战 - {count}"
     },
     "Social/Friends/UI/Headers/ChallengesRequests": {
         "oracleText": "Incoming Requests",
@@ -82197,7 +82197,7 @@
     },
     "Social/PlayerReport/ReasonRequired": {
         "oracleText": "Reason for Report - Required",
-        "translation": "Reason for Report - Required"
+        "translation": "举报理由 - 必填"
     },
     "Social/PlayerReportCategory/AFK": {
         "oracleText": "Inactivity",
