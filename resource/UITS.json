@@ -1371,6 +1371,14 @@
         "oracleText": "Craft with four or more nonlands with activated abilities",
         "translation": "以四个或更多具起动式异能之非地物件化炼"
     },
+    "AbilityHanger/Keyword/CraftWithFourOrMoreNonlandsWithActivatedAbilities_Body": {
+        "oracleText": "{abilityCost}, Exile the four from among other permanents you control and/or cards in your graveyard, Exile this card: Return it transformed under its owner's control. Craft only as a sorcery.",
+        "translation": "{abilityCost}, Exile the four from among other permanents you control and/or cards in your graveyard, Exile this card: Return it transformed under its owner's control. Craft only as a sorcery."
+    },
+    "AbilityHanger/Keyword/CraftWithFourOrMoreNonlandsWithActivatedAbilities_Title": {
+        "oracleText": "Craft with four or more nonlands with activated abilities",
+        "translation": "Craft with four or more nonlands with activated abilities"
+    },
     "AbilityHanger/Keyword/CraftWithIsland_Body": {
         "oracleText": "{abilityCost}, Exile an Island you control or an Island card from your graveyard, Exile this card: Return it transformed under its owner's control. Craft only as a sorcery.",
         "translation": "{abilityCost}，放逐此牌，放逐另一个由你操控的海岛或一张你坟墓场中的海岛牌：将此牌在其拥有者的操控下移回且已转化。只能于法术时机化炼。"
@@ -2007,6 +2015,14 @@
         "oracleText": "Hexproof from a Color",
         "translation": "反色辟邪"
     },
+    "AbilityHanger/Keyword/HexproofFromBlack": {
+        "oracleText": "This permanent can't be the target of black spells or abilities your opponents control.",
+        "translation": "This permanent can't be the target of black spells or abilities your opponents control."
+    },
+    "AbilityHanger/Keyword/HexproofFromBlue": {
+        "oracleText": "This permanent can't be the target of blue spells or abilities your opponents control.",
+        "translation": "This permanent can't be the target of blue spells or abilities your opponents control."
+    },
     "AbilityHanger/Keyword/HexproofFromEachColor_Body": {
         "oracleText": "A permanent with hexproof from each color can't be the target of spells or abilities your opponents control that are one or more colors.",
         "translation": "具有反五色辟邪的永久物不能成为由对手所操控之单色或多色咒语或异能的目标。"
@@ -2046,6 +2062,10 @@
     "AbilityHanger/Keyword/HexproofFromRed_Body": {
         "oracleText": "This permanent can't be the target of red spells or abilities your opponents control.",
         "translation": "此永久物不能成为由对手所操控之红色咒语或异能的目标。"
+    },
+    "AbilityHanger/Keyword/HexproofFromWhite": {
+        "oracleText": "This permanent can't be the target of white spells or abilities your opponents control.",
+        "translation": "This permanent can't be the target of white spells or abilities your opponents control."
     },
     "AbilityHanger/Keyword/Hexproof_from_Abilities_Body": {
         "oracleText": "A permanent with hexproof from activated and triggered abilities can't be the target of abilities your opponents control.",
@@ -3722,6 +3742,14 @@
     "AbilityHanger/Qualification/CantAttack_Title": {
         "oracleText": "Can't Attack",
         "translation": "无法攻击"
+    },
+    "AbilityHanger/Qualification/CantBeBlockedByObjectsControlledBy_Body": {
+        "oracleText": "This can't be blocked by creatures {playerName} controls.",
+        "translation": "This can't be blocked by creatures {playerName} controls."
+    },
+    "AbilityHanger/Qualification/CantBeBlockedByObjectsControlledBy_Title": {
+        "oracleText": "Can't Be Blocked By {playerName}",
+        "translation": "Can't Be Blocked By {playerName}"
     },
     "AbilityHanger/Qualification/CantBeBlocked_Title": {
         "oracleText": "Can't be Blocked",
@@ -14855,6 +14883,10 @@
         "oracleText": "Stacked Cards",
         "translation": "重叠牌张"
     },
+    "DuelScene/Browsers/StackedCards": {
+        "oracleText": "Stacked Cards",
+        "translation": "Stacked Cards"
+    },
     "DuelScene/Browsers/StartingPlayer_DrawFirst": {
         "oracleText": "Draw First",
         "translation": "后手"
@@ -22299,9 +22331,17 @@
         "oracleText": "This token denotes that you are eligible to receive 1 physical <i>Aetherdrift</i> Collector Booster Box",
         "translation": "此代币表示您有资格获得1盒实体<i>乙太飘移</i>聚珍补充包。"
     },
+    "Events/ArenaDirect_DFT_Play_Prize": {
+        "oracleText": "One <i>Aetherdrift</i> Play Booster Box",
+        "translation": "One <i>Aetherdrift</i> Play Booster Box"
+    },
+    "Events/ArenaDirect_DFT_Play_Prize2": {
+        "oracleText": "Two <i>Aetherdrift</i> Play Booster Boxes",
+        "translation": "Two <i>Aetherdrift</i> Play Booster Boxes"
+    },
     "Events/ArenaDirect_DFT_Play_String": {
-        "oracleText": "This token denotes that you are eligible to receive physical <i>Aetherdrift</i> Play Booster Boxes",
-        "translation": "此代币表示您有资格获得实体盒装<i>乙太飘移</i>常规补充包"
+        "oracleText": "This token indicates you are eligible to receive a physical Aetherdrift Play Booster Box",
+        "translation": "This token indicates you are eligible to receive a physical Aetherdrift Play Booster Box"
     },
     "Events/ArenaDirect_DFT_String": {
         "oracleText": "This token denotes you are eligible to receive 1 physical Aetherdrift Booster Box",
@@ -22454,6 +22494,18 @@
     "Events/ArenaDirect_MH3_String": {
         "oracleText": "This token denotes that you are eligible to receive a physical Modern Horizons 3 Play Booster Box",
         "translation": "此代币表示您有资格获得1盒实体摩登新篇3常规补充包"
+    },
+    "Events/ArenaDirect_MOM_Set_Prize": {
+        "oracleText": "One <i>March of the Machines</i> Set Booster Box",
+        "translation": "One <i>March of the Machines</i> Set Booster Box"
+    },
+    "Events/ArenaDirect_MOM_Set_Prize2": {
+        "oracleText": "Two <i>March of the Machines</i> Set Booster Boxes",
+        "translation": "Two <i>March of the Machines</i> Set Booster Boxes"
+    },
+    "Events/ArenaDirect_MOM_Set_String": {
+        "oracleText": "This token indicates you are eligible to receive a physical March of the Machines Set Booster Box",
+        "translation": "This token indicates you are eligible to receive a physical March of the Machines Set Booster Box"
     },
     "Events/ArenaDirect_MSH_Collector_Prize": {
         "oracleText": "One <i>Marvel Super Heroes</i> Collector Booster Boxes",
@@ -24700,8 +24752,12 @@
         "translation": "<size=150%><color=#e1a154>参加赛事，竞夺卡盒！</color></size>\n\n报名参加此赛事，赢得全部6胜就能获得一盒实体乙太飘移聚珍补充包邮寄到家。\n\n本赛事的赛制为6包补充包的<i>乙太飘移</i>BO1现开赛。\n\n<b><color=red>须年满18周岁方能参加。部分地区／地域不能参加本赛事。在法律禁止的地区无效。须创建或具现有威世智、DCI及i-Payout帐户方能领取奖金。完整详细信息，请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>此处</link></u>。</color></b>"
     },
     "Events/Event_Desc_ArenaDirect_DFT_Play_Sealed": {
-        "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win 2 physical Aetherdrift Play Booster Boxes delivered to you.\n\nThe format for this event is 6 packs of <i>Aetherdrift</i> Sealed with single-game matches.  \n\n<size=120%><color=#e1a154>Eligibility Rules</color></size>\n\n<b><color=red>Must be 18 years or older to participate.</color></b>\n\n<b><color=red>Not all countries/regions are eligible. Go <u><link=https://mtgarena-support.wizards.com/hc/en-us/articles/31879284566548-Arena-Direct-FAQ>here</link></u> to check yours.</color></b>\n\n<b><color=red>Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>",
-        "translation": "<size=150%><color=#e1a154> 参加赛事，竞夺卡盒！</color></size>\n\n报名参加此赛事，赢得全部6胜就能获得两盒实体乙太飘移常规补充包邮寄到家。\n\n本赛事的赛制为6包补充包的<i>乙太飘移</i>BO1现开赛。\n\n<size=120%><color=#e1a154>参赛资格规则</color></size>\n\n<b><color=red>须年满18周岁方能参加。</color></b>\n\n<b><color=red>并非所有国家/地区都可参加。请点击<u><link=https://mtgarena-support.wizards.com/hc/en-us/articles/31879284566548-Arena-Direct-FAQ>此处</link></u>查看你所在地区是否符合资格。</color></b>\n\n<b><color=red>在法律禁止的地区无效。须创建或具现有威世智、DCI及i-Payout帐户方能领取奖金。完整详细信息，请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>此处</link></u>。</color></b>"
+        "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 7 wins to win 2 physical Aetherdrift Play Booster Boxes delivered to you.\n\nThe format for this event is 6 packs of <i>Aetherdrift</i> Sealed with single-game matches.  \n\n<size=120%><color=#e1a154>Eligibility Rules</color></size>\n\n<b><color=red>Must be 18 years or older to participate.</color></b>\n\n<b><color=red>Not all countries/regions are eligible. Go <u><link=https://mtgarena-support.wizards.com/hc/en-us/articles/31879284566548-Arena-Direct-FAQ>here</link></u> to check yours.</color></b>\n\n<b><color=red>Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 7 wins to win 2 physical Aetherdrift Play Booster Boxes delivered to you.\n\nThe format for this event is 6 packs of <i>Aetherdrift</i> Sealed with single-game matches.  \n\n<size=120%><color=#e1a154>Eligibility Rules</color></size>\n\n<b><color=red>Must be 18 years or older to participate.</color></b>\n\n<b><color=red>Not all countries/regions are eligible. Go <u><link=https://mtgarena-support.wizards.com/hc/en-us/articles/31879284566548-Arena-Direct-FAQ>here</link></u> to check yours.</color></b>\n\n<b><color=red>Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>"
+    },
+    "Events/Event_Desc_ArenaDirect_DFT_Set_Sealed": {
+        "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size> Sign up for this event and get all 7 wins to win 2 physical Aetherdrift Play Booster Boxes delivered to you. The format for this event is 6 packs of *<i>*Aetherdrift*</i>* Sealed with single-game matches.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=[https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions|https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions] >here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size> Sign up for this event and get all 7 wins to win 2 physical Aetherdrift Play Booster Boxes delivered to you. The format for this event is 6 packs of *<i>*Aetherdrift*</i>* Sealed with single-game matches.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=[https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions|https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions] >here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaDirect_DMU_Set_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 6 wins to win 2 physical <i>Dominaria United </i> Set Booster Boxes delivered to you.\n\nThe format for this event is 6 packs of <i>Dominaria United</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions>here</link></u> for full details.</color></b>",
@@ -24778,6 +24834,10 @@
     "Events/Event_Desc_ArenaDirect_MH3_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\n Sign up for this event and get all 6 wins to win a physical Modern Horizons 3 Play Booster Box delivered to you.\n\n The format for this event is 6 packs of <i>Modern Horizons 3</i> Sealed with single-game matches. \n\n <b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-mh3-terms-and-conditions>here</link></u> for full details.</color></b>",
         "translation": "<size=150%><color=#e1a154>为实体奖励而战！</color></size>\n\n报名参加本赛事并赢得全部6场胜利，将会邮寄给你一盒实体摩登新篇3常规补充包。\n\n本赛事的赛制是<i>摩登新篇3</i>BO1现开。\n\n<b><color=red>必须年满18周岁才能参加。并非在所有地区/领地都可用。禁止地区无效。领取现金奖励需要创建或拥有现有的Wizards、DCI和i-Payout账户。请参阅<u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-mh3-terms-and-conditions>此处</link></u>了解完整详情。</color></b>"
+    },
+    "Events/Event_Desc_ArenaDirect_MOM_Set_Sealed": {
+        "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\nSign up for this event and get all 7 wins to win 2 physical March of the Machines Set Booster Boxes delivered to you.\nThe format for this event is 6 packs of <i>*March of the Machines</i>* Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\nSign up for this event and get all 7 wins to win 2 physical March of the Machines Set Booster Boxes delivered to you.\nThe format for this event is 6 packs of <i>*March of the Machines</i>* Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_ArenaDirect_MSH_Collector_Sealed": {
         "oracleText": "<size=150%><color=#e1a154>Compete for physical rewards!</color></size>\n\nSign up for this event and get all 7 wins to win 1 physical Marvel Super Heroes Collector Booster Box delivered to you.\n\nThe format for this event is 6 packs of <i>Marvel Super Heroes</i> Sealed with single-game matches.  \n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, DCI, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/arena-direct-terms-and-conditions >here</link></u> for full details.</color></b>",
@@ -25242,6 +25302,10 @@
     "Events/Event_Desc_DMU_Premier_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Fliers Tempo</b> Hold your ground with tokens and defensive instants and sorceries, all while attacking from the air.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Control</b> Develop a long-term advantage with card draw and creature removal spells, then go after your opponent directly in the late game.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Reckless Aggro</b> Throw caution to the wind and assault your opponent, clearing a path with creature removal spells or by simply trading your creatures for theirs.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Domain Stompy</b> Rule the board by attacking with the largest creatures on the battlefield, boosted by the domain mechanic.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Domain Tokens</b> Assemble a massive army of creatures and tokens, then dominate the mid-game with the domain mechanic.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Creature Sacrifice</b> Ruthlessly sacrifice your small creatures or tokens for profit, then bring creatures back from the graveyard to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Spells Aggro</b> Cast instant and sorcery spells to bolster aggressive creatures and clear a path to victory.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Domain Midrange</b> Get maximum value out of your cards with huge creatures, bringing cards back from the graveyard, and domain rewards.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Tokens Aggro</b> Go wide with an aggressive army of small creatures and tokens, punching through your opponent's defenses with spells and effects that boost your whole team.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Kicker Ramp</b> Build up your mana to get additional value from kicking your spells. Splash in some other colors to take advantage of powerful multicolor cards and the domain mechanic.",
         "translation": "轮抽用补充包在桌上轮转，你每次需从中选择一张牌。这些牌张将加入你的收藏，而你将使用它们和基本地来构筑一副40张的套牌。不断进行对战，最后根据你的胜场数量赢得奖励！\n\n<b>真人轮抽～和其他七位玩家共同进行的限时轮抽</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>飞行节奏</b> 用衍生物和防御性的瞬间和法术进行地面防御，同时从空中进行攻击。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>控制</b> 利用抓牌和生物移除咒语形成长期优势，然后在游戏后期直接追击你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>无情快攻</b> 将谨慎抛诸脑后，直接攻击你的对手，用生物移除咒语扫清道路，或者简单地用你的生物交换他们的生物。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>领土风暴</b> 通过使用战场上最大的生物进行攻击，在领土机制的推动下，统治棋盘。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>领土衍生物</b> 组建一支庞大的生物和衍生物大军，然后用领土机制主宰游戏中期。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>生物牺牲</b> 无情地牺牲你的小生物或衍生物以获得收益，然后将生物从坟墓场带回来压倒你的对手。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>法术快攻</b>释放瞬间和法术咒语来振励好斗异能生物，并扫清通往胜利的道路。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>领土中速</b> 使用巨大的生物让你的牌发挥最大价值，将牌从坟墓场中带回，并获得领土的加成效果。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>衍生物快攻</b> 使用由小生物和衍生物组成的侵略性大军，用可以提升整个团队的咒语和效应来突破对手的防御。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>增幅暴费</b> 使用增幅类咒语获得额外法术力建立优势，加上一些其它颜色卡牌以更好利用多色和领土优势。"
+    },
+    "Events/Event_Desc_DMU_Premier_Draft_Flashback": {
+        "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<b><color=red> This set is not legal in Standard.</color></b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Fliers Tempo</b> Hold your ground with tokens and defensive instants and sorceries, all while attacking from the air.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Control</b> Develop a long-term advantage with card draw and creature removal spells, then go after your opponent directly in the late game.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Reckless Aggro</b> Throw caution to the wind and assault your opponent, clearing a path with creature removal spells or by simply trading your creatures for theirs.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Domain Stompy</b> Rule the board by attacking with the largest creatures on the battlefield, boosted by the domain mechanic.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Domain Tokens</b> Assemble a massive army of creatures and tokens, then dominate the mid-game with the domain mechanic.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Creature Sacrifice</b> Ruthlessly sacrifice your small creatures or tokens for profit, then bring creatures back from the graveyard to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Spells Aggro</b> Cast instant and sorcery spells to bolster aggressive creatures and clear a path to victory.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Domain Midrange</b> Get maximum value out of your cards with huge creatures, bringing cards back from the graveyard, and domain rewards.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Tokens Aggro</b> Go wide with an aggressive army of small creatures and tokens, punching through your opponent's defenses with spells and effects that boost your whole team.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Kicker Ramp</b> Build up your mana to get additional value from kicking your spells. Splash in some other colors to take advantage of powerful multicolor cards and the domain mechanic.",
+        "translation": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n<b><color=red> This set is not legal in Standard.</color></b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Fliers Tempo</b> Hold your ground with tokens and defensive instants and sorceries, all while attacking from the air.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Control</b> Develop a long-term advantage with card draw and creature removal spells, then go after your opponent directly in the late game.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Reckless Aggro</b> Throw caution to the wind and assault your opponent, clearing a path with creature removal spells or by simply trading your creatures for theirs.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Domain Stompy</b> Rule the board by attacking with the largest creatures on the battlefield, boosted by the domain mechanic.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Domain Tokens</b> Assemble a massive army of creatures and tokens, then dominate the mid-game with the domain mechanic.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Creature Sacrifice</b> Ruthlessly sacrifice your small creatures or tokens for profit, then bring creatures back from the graveyard to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Spells Aggro</b> Cast instant and sorcery spells to bolster aggressive creatures and clear a path to victory.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Domain Midrange</b> Get maximum value out of your cards with huge creatures, bringing cards back from the graveyard, and domain rewards.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Tokens Aggro</b> Go wide with an aggressive army of small creatures and tokens, punching through your opponent's defenses with spells and effects that boost your whole team.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Kicker Ramp</b> Build up your mana to get additional value from kicking your spells. Splash in some other colors to take advantage of powerful multicolor cards and the domain mechanic."
     },
     "Events/Event_Desc_DMU_Quick_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play games and receive prizes based on how many games you win!\n\nBot Draft - Draft against AI with no waiting & no pick timers\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> <b>Fliers Tempo</b> Hold your ground with tokens and defensive instants and sorceries, all while attacking from the air.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Control</b> Develop a long-term advantage with card draw and creature removal spells, then go after your opponent directly in the late game.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Reckless Aggro</b> Throw caution to the wind and assault your opponent, clearing a path with creature removal spells or by simply trading your creatures for theirs.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Domain Stompy</b> Rule the board by attacking with the largest creatures on the battlefield, boosted by the domain mechanic.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> <b>Domain Tokens</b> Assemble a massive army of creatures and tokens, then dominate the mid-game with the domain mechanic.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> <b>Creature Sacrifice</b> Ruthlessly sacrifice your small creatures or tokens for profit, then bring creatures back from the graveyard to overwhelm your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Spells Aggro</b> Cast instant and sorcery spells to bolster aggressive creatures and clear a path to victory.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Domain Midrange</b> Get maximum value out of your cards with huge creatures, bringing cards back from the graveyard, and domain rewards.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> <b>Tokens Aggro</b> Go wide with an aggressive army of small creatures and tokens, punching through your opponent's defenses with spells and effects that boost your whole team.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> <b>Kicker Ramp</b> Build up your mana to get additional value from kicking your spells. Splash in some other colors to take advantage of powerful multicolor cards and the domain mechanic.",
@@ -26126,6 +26190,14 @@
     "Events/Event_Desc_HBG_Trad_Draft": {
         "oracleText": "Select one card at a time from rotating draft packs. The cards will be added to your collection, and you'll use them plus basic lands to build a 40-card deck. Play best-of-three-game matches and receive prizes based on how many matches you win!\n\n<b>Player Draft - A timed draft with 7 other players </b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> Flicker your creatures in and out of play to produce as many triggers as possible!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Control the battlefield and sneak in creatures to deal damage to your opponent.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> The real treasure will be the treasure you make along the way.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> DRAGONS!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> The best offense is a good defense? Gain life so you can lower theirs!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Earn bonuses every time your creatures leave the battlefield.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> MORE DRAGONS!\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> What's dead may never die... but may live again?\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> Prepare for trouble! Use the new Double Team mechanic to cast creatures with the same name.\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> EVEN MORE DRAGONS!",
         "translation": "每次从传过来的轮抽卡包中选一张牌，这些牌会加入你的收藏，你将使用这些牌加上基本地来构筑40张的套牌进行bo3对战。 你将得到的奖励取决于你的胜场!\n\n<b>真人轮抽～和其他七位玩家共同进行的限时轮抽</b>\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\">在游戏中闪动你的生物，以产生尽可能多的触发器\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\">控制战场，偷袭生物，对你的对手造成伤害。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">真正的宝藏将是你沿途创造的财富。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">龙！龙！龙！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\">最好的进攻就是防守？获得生命，这样你就可以降低他们的生命！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\">每次你的生物离开战场时，都能获得奖励。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> 更多的龙！更多的龙！更多的龙！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">死去的东西可能永远不会死去……但可能会再次复活？\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">准备好迎接麻烦! 使用新的双团队机制来施放同名的生物。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">甚至更多的龙！甚至更多的龙！甚至更多的龙！"
+    },
+    "Events/Event_Desc_HOBLimitedOpen_Draft1": {
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for Draft 1 and get all 7 wins to qualify for Draft 2 where top finishers earn monetary rewards! Players may enter this event as many times as they wish!\n\nThe format for this event is Draft with single-game matches. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/en-us/requests/new>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/limited-open-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for Draft 1 and get all 7 wins to qualify for Draft 2 where top finishers earn monetary rewards! Players may enter this event as many times as they wish!\n\nThe format for this event is Draft with single-game matches. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/en-us/requests/new>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/limited-open-terms-and-conditions>here</link></u> for full details.</color></b>"
+    },
+    "Events/Event_Desc_HOBLimitedOpen_Draft2": {
+        "oracleText": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for Draft 2 and get all 6 wins to win monetary rewards! Players may enter this event as many times as they wish.\n\nThe format for this event is Draft with single-game matches. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/en-us/requests/new>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/limited-open-terms-and-conditions>here</link></u> for full details.</color></b>",
+        "translation": "<size=150%><color=#e1a154>Compete for monetary rewards!</color></size>\n\nSign up for Draft 2 and get all 6 wins to win monetary rewards! Players may enter this event as many times as they wish.\n\nThe format for this event is Draft with single-game matches. For assistance, click <u><link=https://mtgarena-support.wizards.com/hc/en-us/requests/new>here</link></u> to contact Customer Service.\n\n<b><color=red>Must be 18 years or older to participate. Not available in all regions/territories. Void where prohibited. Receiving monetary rewards requires creating or having existing Wizards, and i-Payout accounts. See <u><link=https://magic.wizards.com/en/news/mtg-arena/limited-open-terms-and-conditions>here</link></u> for full details.</color></b>"
     },
     "Events/Event_Desc_HOB_Contender_Draft": {
         "oracleText": "Are you a competitive drafter? Prove your mettle in this dynamic draft environment where mythic boosters are on the line! The first time you get seven wins, you'll also get a unique Title to prove your skill to all your opponents forevermore.\n\n<b>Player Draft - A timed draft with 7 other players</b>\n\n$/Events/HOB_Limited_Archetypes$",
@@ -28703,6 +28775,10 @@
         "oracleText": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\">  Artifacts    \nCalling all Machinists! Build up your arsenal by playing artifacts, including artifact creatures and token generating Equipment, then gain extra bonuses for playing those artifacts.  \n  \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> Control    \nScheme and act in secret. Dominate the long game with strategies like removal spells, card draw, and tricky creatures. Cast flashback spells to crush foes under the weight of the past!  \n \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">  Black Mage Aggro    \nPlay the aggressive game with creatures that reward you whenever you cast a noncreature spell. Look for cards that create Wizard tokens and turn those spells into a barrage of damage! \n   \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">  Landfall Aggro    \nPlay creatures with landfall abilities, like Chocobos, and earn bonuses as you play lands. Look for ways to play extra lands and strengthen your creatures even further!\n    \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\">  Go Wide    \nCall forth a battalion of formidable fighters and play cards that make tokens. Either reinforce your standing army or leverage your high creature count to cast hard-hitting spells!  \n  \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\">  Artifact and Creature Sacrifice    \nSacrifice your artifacts and creatures, especially ones with death effects, to steadily gain the upper hand. Token generating Equipment gives you two things to sacrifice!    \n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\">  Big Noncreatures    \nWhenever you cast spells that cost 4 or more mana, you'll gain bonuses in battle. Find ways to generate tokens, like with special Equipment, so that your noncreature spells can add to your forces! \n   \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\">  Graveyard Value    \nSlow and steady wins the game! Mill to fill your graveyard early with powerful creatures and flashback spells, then bring them back to the fight late in the game to achieve victory.  \n  \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\">  Equipment Aggro    \nGrab your favorite iconic weapon and rush into battle! Look for creatures that want to be equipped or cards that reward you for having Equipment, then gear up to outclass your opponent. \n   \n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\">  Town Ramp    \nTravel the overworld! Towns are lands that grant more perks the more of them you have, so play a bunch and reap the rewards. You'll even want to play some Towns that aren't blue or green, so be sure to splash in some other colors, too!",
         "translation": "<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> 神器\n机工士集结！使用神器——包括神器生物和派出衍生物的武具——来建立你的军火库，然后从神器中赚取额外收益！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> 控制\n暗中策划并行动。通过使用诸如去除咒语、抓牌和诡计生物等策略来主宰长盘。施放返照咒语，用回忆的分量碾压敌人！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> 黑魔法师快攻\n使用那些在你施放非生物咒语时有所回报的生物打出进攻性。寻找能派出法术师衍生物的牌，将这些咒语转化为一连串的伤害！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> 地落快攻\n使用具有地落异能的生物（如陆行鸟），让你在使用地时获得奖励。寻找额外使用地的方法，进一步强化你的生物！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> 横向展开\n召唤一支强大的战士队伍，并使用能派出衍生物的牌。要么增援你的常备军，要么利用你的生物数量施放强力咒语！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"> 神器与生物牺牲\n牺牲你的神器和生物，尤其是那些具有死去效应的，以此稳步获得优势。派出衍生物的武具为你提供了两样可以牺牲的东西！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"> 高费非生物\n每当你施放费用等于或大于4的咒语时，你将在战斗中获得奖励。寻找派出衍生物的方法（如特殊武具），这样你的非生物咒语也能增强你的部队！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xB\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"> 坟场价值\n稳扎稳打赢得比赛！早期通过磨牌将强力生物和返照咒语放入坟墓场，然后在游戏后期将它们带回战斗以获得胜利。\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xR\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xW\"> 武具快攻\n拿起你最爱的标志性武器，冲入战场！寻找那些希望被装备的生物或在你拥有武具时有所收益的牌，然后装备起来超越你的对手！\n\n<sprite=\"SpriteSheet_ManaIcons\" name=\"xG\"><sprite=\"SpriteSheet_ManaIcons\" name=\"xU\"> 市镇加速\n环游世界！市镇作为地牌，当你拥有的越多，它们提供的额外好处就越多，所以使用一堆市镇来收获奖励。你甚至可以使用一些非蓝非绿的市镇，所以别忘了混些其他颜色！"
     },
+    "Events/Event_Minimum_Rank": {
+        "oracleText": "Minimum Rank",
+        "translation": "Minimum Rank"
+    },
     "Events/Event_NonStandardDraft_ConfirmJoin": {
         "oracleText": "Join Event",
         "translation": "加入赛事"
@@ -28863,6 +28939,10 @@
         "oracleText": "Arena Direct - Sealed Aetherdrift Play Booster",
         "translation": "Arena Direct - Sealed Aetherdrift Play Booster"
     },
+    "Events/Event_Title_ArenaDirect_DFT_Set_Sealed": {
+        "oracleText": "Arena Direct - Sealed Aetherdrift Play Booster Box",
+        "translation": "Arena Direct - Sealed Aetherdrift Play Booster Box"
+    },
     "Events/Event_Title_ArenaDirect_DMU_Set_Sealed": {
         "oracleText": "Arena Direct - Sealed Dominaria United Set Booster",
         "translation": "竞技场直邮赛 - 多明纳里亚：众志成城现开（系列补充包）"
@@ -28938,6 +29018,10 @@
     "Events/Event_Title_ArenaDirect_MH3_Sealed": {
         "oracleText": "Arena Direct - Sealed Modern Horizons 3",
         "translation": "竞技场直邮赛 - 摩登新篇3现开"
+    },
+    "Events/Event_Title_ArenaDirect_MOM_Set_Sealed": {
+        "oracleText": "Arena Direct - Sealed March of the Machines Set Booster Box",
+        "translation": "Arena Direct - Sealed March of the Machines Set Booster Box"
     },
     "Events/Event_Title_ArenaDirect_MSH_Collector_Sealed": {
         "oracleText": "Arena Direct - Sealed Marvel Super Heroes Collector Booster Box",
@@ -30334,6 +30418,14 @@
     "Events/Event_Title_HBG_Trad_Draft": {
         "oracleText": "Traditional Draft Baldur's Gate",
         "translation": "博德之门三盘轮抽"
+    },
+    "Events/Event_Title_HOBLimitedOpen_Draft1": {
+        "oracleText": "The Hobbit Limited Open Draft One",
+        "translation": "The Hobbit Limited Open Draft One"
+    },
+    "Events/Event_Title_HOBLimitedOpen_Draft2": {
+        "oracleText": "The Hobbit Limited Open Draft Two",
+        "translation": "The Hobbit Limited Open Draft Two"
     },
     "Events/Event_Title_HOB_Contender_Draft": {
         "oracleText": "Contender Draft \n$/General/Sets/HOB$",
@@ -32918,6 +33010,14 @@
     "Events/Event_Title_white05": {
         "oracleText": "Challenge V – White vs ???",
         "translation": "挑战 V – 白色 vs 旗鼓相当的对手"
+    },
+    "Events/Events/Event_Desc_MWM_HOB_BotDraft": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Magic: The Gathering | The Hobbit</i> Bot Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Magic: The Gathering | The Hobbit</i> Bot Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>"
+    },
+    "Events/Events/Event_Desc_MWM_HOB_Sealed": {
+        "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Magic: The Gathering | The Hobbit</i> Sealed: Open six packs and add basic lands to make a 40-card deck, then play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you open are not added to your collection.</color></b>\n\n$/Events/HOB_Limited_Archetypes$",
+        "translation": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Magic: The Gathering | The Hobbit</i> Sealed: Open six packs and add basic lands to make a 40-card deck, then play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you open are not added to your collection.</color></b>\n\n$/Events/HOB_Limited_Archetypes$"
     },
     "Events/Events/Event_Desc_MWM_MSH_BotDraft": {
         "oracleText": "Welcome to Midweek Magic! Each week, try out a different way to play MTG Arena!\n\nThis week's event is <i>Marvel Super Heroes</i> Bot Draft: Select one card at a time from rotating draft packs against AI with no waiting and no pick timers. Add basic lands to make a 40-card deck, and play against other players as much as you want.\n\n<b><color=\"red\">This event is phantom. Cards you draft are not added to your collection.</color></b>",
@@ -36620,8 +36720,8 @@
         "translation": "解除静音"
     },
     "Gatherings/Status/OnlineElsewhere": {
-        "oracleText": "Online Elsewhere",
-        "translation": "其他平台在线"
+        "oracleText": "Online Elsewhere - {count}",
+        "translation": "Online Elsewhere - {count}"
     },
     "Gatherings/SystemMessage/ConfirmUnlinkingHeader": {
         "oracleText": "Confirm Unlinking?",
@@ -37390,6 +37490,50 @@
     "Intro/Cinematic/EOE_9": {
         "oracleText": "...from the nihilistic Monoists...",
         "translation": "…来自虚无主义的奇相教…"
+    },
+    "Intro/Cinematic/FRA_1": {
+        "oracleText": "The Planeswalker Jace Beleren is convinced he can save the Multiverse.",
+        "translation": "The Planeswalker Jace Beleren is convinced he can save the Multiverse."
+    },
+    "Intro/Cinematic/FRA_10": {
+        "oracleText": "What other alternate selves are appearing throughout the Echoverse?",
+        "translation": "What other alternate selves are appearing throughout the Echoverse?"
+    },
+    "Intro/Cinematic/FRA_11": {
+        "oracleText": "Reality is fractured—will you be the one to save it?",
+        "translation": "Reality is fractured—will you be the one to save it?"
+    },
+    "Intro/Cinematic/FRA_2": {
+        "oracleText": "He plans to overwrite the planes with an \"Echoverse\" of his own design.",
+        "translation": "He plans to overwrite the planes with an \"Echoverse\" of his own design."
+    },
+    "Intro/Cinematic/FRA_3": {
+        "oracleText": "Jace watches from a massive tower, finishing his spell.",
+        "translation": "Jace watches from a massive tower, finishing his spell."
+    },
+    "Intro/Cinematic/FRA_4": {
+        "oracleText": "The tower is home to Hexhaven, an alternate Strixhaven where the classes—",
+        "translation": "The tower is home to Hexhaven, an alternate Strixhaven where the classes—"
+    },
+    "Intro/Cinematic/FRA_5": {
+        "oracleText": "and rules—are completely different from the school we know.",
+        "translation": "and rules—are completely different from the school we know."
+    },
+    "Intro/Cinematic/FRA_6": {
+        "oracleText": "A brave band of current and former Planeswalkers prepares to storm the tower and stop Jace.",
+        "translation": "A brave band of current and former Planeswalkers prepares to storm the tower and stop Jace."
+    },
+    "Intro/Cinematic/FRA_7": {
+        "oracleText": "To get to him, they'll need to fight a most dangerous foe: themselves.",
+        "translation": "To get to him, they'll need to fight a most dangerous foe: themselves."
+    },
+    "Intro/Cinematic/FRA_8": {
+        "oracleText": "Can our heroes defeat their deadly doppelgangers and stop Jace before it's too late?",
+        "translation": "Can our heroes defeat their deadly doppelgangers and stop Jace before it's too late?"
+    },
+    "Intro/Cinematic/FRA_9": {
+        "oracleText": "What are the true goals of the mysterious girl, Tam?",
+        "translation": "What are the true goals of the mysterious girl, Tam?"
     },
     "LoadingTips/CosmeticTip": {
         "oracleText": "To view available Card Styles navigate to the Deckbuilder or Collection and enable Cosmetics mode.",
@@ -42767,6 +42911,18 @@
         "oracleText": "Chocobo, Awakened Inferno Sleeve",
         "translation": "觉醒炼狱陆行鸟牌套"
     },
+    "MainNav/DeckBuilder/Sleeves/CardBack_FRA_468253": {
+        "oracleText": "Liliana Sleeve",
+        "translation": "Liliana Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_FRA_468254": {
+        "oracleText": "Chandra Sleeve",
+        "translation": "Chandra Sleeve"
+    },
+    "MainNav/DeckBuilder/Sleeves/CardBack_FRA_479306": {
+        "oracleText": "Jace Sleeve",
+        "translation": "Jace Sleeve"
+    },
     "MainNav/DeckBuilder/Sleeves/CardBack_FindYourChampion": {
         "oracleText": "Trophy Sleeve",
         "translation": "纪念杯牌套"
@@ -47780,12 +47936,12 @@
         "translation": "1 盒<i>乙太飘移</i>聚珍补充包"
     },
     "MainNav/EventRewards/ArenaDirect_DFT_PlayPlural": {
-        "oracleText": "{quantity} Aetherdrift Play Booster Boxes",
-        "translation": "{quantity}盒乙太飘移常规补充包"
+        "oracleText": "{quantity} Aetherdrift Play Booster Boxes",
+        "translation": "{quantity} Aetherdrift Play Booster Boxes"
     },
     "MainNav/EventRewards/ArenaDirect_DFT_PlaySingular": {
-        "oracleText": "2 Aetherdrift Play Booster Boxes",
-        "translation": "2盒乙太飘移常规补充包"
+        "oracleText": "{quantity} Aetherdrift Play Booster Box",
+        "translation": "{quantity} Aetherdrift Play Booster Box"
     },
     "MainNav/EventRewards/ArenaDirect_DMU_SetSingular": {
         "oracleText": "2 Dominaria United Set Booster Box",
@@ -47966,6 +48122,14 @@
     "MainNav/EventRewards/ArenaDirect_MKM_PLAYSingular": {
         "oracleText": "{quantity} Murders at Karlov Manor Play Booster Box",
         "translation": "{quantity}盒卡洛夫庄园谋杀案常规补充包"
+    },
+    "MainNav/EventRewards/ArenaDirect_MOM_SetPlural": {
+        "oracleText": "{quantity} March of the Machines Set Booster Boxes",
+        "translation": "{quantity} March of the Machines Set Booster Boxes"
+    },
+    "MainNav/EventRewards/ArenaDirect_MOM_SetSingular": {
+        "oracleText": "{quantity} March of the Machines Set Booster Box",
+        "translation": "{quantity} March of the Machines Set Booster Box"
     },
     "MainNav/EventRewards/ArenaDirect_MSH_CollectorPlural": {
         "oracleText": "{quantity} Marvel Super Heroes Collector Booster Boxes",
@@ -51666,6 +51830,26 @@
     "MainNav/HomePage/Carousel/2026_62_0_HOB_Store_Title": {
         "oracleText": "Inside the Store, treasure is hid...",
         "translation": "在商店内，宝藏被藏在……"
+    },
+    "MainNav/HomePage/Carousel/2026_62_50_FRA_Desc": {
+        "oracleText": "Check out these Pre-orders in the Store before they're overwritten!",
+        "translation": "Check out these Pre-orders in the Store before they're overwritten!"
+    },
+    "MainNav/HomePage/Carousel/2026_62_50_FRA_PhysPreRelease_Title": {
+        "oracleText": "Your first opportunity to play Reality Fracture!",
+        "translation": "Your first opportunity to play Reality Fracture!"
+    },
+    "MainNav/HomePage/Carousel/2026_62_50_FRA_PreOrders_Title": {
+        "oracleText": "Mind-bending Pre-orders!",
+        "translation": "Mind-bending Pre-orders!"
+    },
+    "MainNav/HomePage/Carousel/2026_62_50_FRA_Previews_Title": {
+        "oracleText": "Reality Fracture Previews!",
+        "translation": "Reality Fracture Previews!"
+    },
+    "MainNav/HomePage/Carousel/2026_62_50_FRA_StoryUpdate_Desc": {
+        "oracleText": "Will Jace be able to overwrite the world? Read all of the Reality Fracture story by clicking here!",
+        "translation": "Will Jace be able to overwrite the world? Read all of the Reality Fracture story by clicking here!"
     },
     "MainNav/HomePage/Carousel/21_01_Store_Desc": {
         "oracleText": "Take part in the epic Saga of Kaldheim. New Boosters Packs, new Set Mastery Pass, new Showcase Bundles, and more!",
@@ -57279,6 +57463,46 @@
         "oracleText": "Your Squen and Cragg Sleeves!",
         "translation": "你的斯奎茵和克瑞格牌套！"
     },
+    "MainNav/Mailbox/2026_FRACinematic_Slide1": {
+        "oracleText": "The Planeswalker Jace Beleren is convinced he can save the Multiverse.",
+        "translation": "The Planeswalker Jace Beleren is convinced he can save the Multiverse."
+    },
+    "MainNav/Mailbox/2026_FRACinematic_Slide10": {
+        "oracleText": "Reality is fractured—will you be the one to save it?",
+        "translation": "Reality is fractured—will you be the one to save it?"
+    },
+    "MainNav/Mailbox/2026_FRACinematic_Slide2": {
+        "oracleText": "He plans to overwrite the planes with an \"Echoverse\" of his own design.",
+        "translation": "He plans to overwrite the planes with an \"Echoverse\" of his own design."
+    },
+    "MainNav/Mailbox/2026_FRACinematic_Slide3": {
+        "oracleText": "Jace watches from a massive tower, finishing his spell.",
+        "translation": "Jace watches from a massive tower, finishing his spell."
+    },
+    "MainNav/Mailbox/2026_FRACinematic_Slide4": {
+        "oracleText": "The tower is home to Hexhaven, an alternate Strixhaven where the classes—and rules—are completely different from the school we know.",
+        "translation": "The tower is home to Hexhaven, an alternate Strixhaven where the classes—and rules—are completely different from the school we know."
+    },
+    "MainNav/Mailbox/2026_FRACinematic_Slide5": {
+        "oracleText": "A brave band of current and former Planeswalkers prepares to storm the tower and stop Jace.",
+        "translation": "A brave band of current and former Planeswalkers prepares to storm the tower and stop Jace."
+    },
+    "MainNav/Mailbox/2026_FRACinematic_Slide6": {
+        "oracleText": "To get to him, they'll need to fight a most dangerous foe: themselves.",
+        "translation": "To get to him, they'll need to fight a most dangerous foe: themselves."
+    },
+    "MainNav/Mailbox/2026_FRACinematic_Slide7": {
+        "oracleText": "Can our heroes defeat their deadly doppelgangers and stop Jace before it's too late?",
+        "translation": "Can our heroes defeat their deadly doppelgangers and stop Jace before it's too late?"
+    },
+    "MainNav/Mailbox/2026_FRACinematic_Slide8": {
+        "oracleText": "What are the true goals of the mysterious girl, Tam?",
+        "translation": "What are the true goals of the mysterious girl, Tam?"
+    },
+    "MainNav/Mailbox/2026_FRACinematic_Slide9": {
+        "oracleText": "What other alternate selves are appearing throughout the Echoverse?",
+        "translation": "What other alternate selves are appearing throughout the Echoverse?"
+    },
     "MainNav/Mailbox/2026_HOB_Marketing_Trailer_Description": {
         "oracleText": "Journey with us as The Hobbit travels to explore the depths of Magic: The Gathering. Click below to watch!",
         "translation": "与我们一同踏上旅程，跟随霍比特人深入探索万智牌的奥秘。点击下方观看！"
@@ -59190,6 +59414,14 @@
     "MainNav/PetNames/FIN_Preorder_1": {
         "oracleText": "Moogle",
         "translation": "莫古力"
+    },
+    "MainNav/PetNames/FRA_Preorder_1": {
+        "oracleText": "Puppeteer's Mage Hunter",
+        "translation": "Puppeteer's Mage Hunter"
+    },
+    "MainNav/PetNames/FRA_Preorder_Companion_1": {
+        "oracleText": "Puppeteer's Mage Hunter",
+        "translation": "Puppeteer's Mage Hunter"
     },
     "MainNav/PetNames/HA4_Cat": {
         "oracleText": "Amon-cat",
@@ -64502,6 +64734,18 @@
     "MainNav/Rewards/GemCard/GemRewardDescription": {
         "oracleText": "Rare and mythic rare cards you collected that exceed the 4x collection limit were converted to gems.",
         "translation": "每种牌张的收藏上限为4张。你收藏中超过此上限的稀有及秘稀牌已转化成宝石。"
+    },
+    "MainNav/Rewards/HOBLimitedOpenHeaderPlural": {
+        "oracleText": "{quantity} The Hobbit Limited Open Draft 2 Token",
+        "translation": "{quantity} The Hobbit Limited Open Draft 2 Token"
+    },
+    "MainNav/Rewards/HOBLimitedOpenHeaderSingular": {
+        "oracleText": "{quantity} The Hobbit Limited Open Draft 2 Token",
+        "translation": "{quantity} The Hobbit Limited Open Draft 2 Token"
+    },
+    "MainNav/Rewards/HOBLimitedOpenTokenDescription": {
+        "oracleText": "Join and compete in The Hobbit Limited Open Draft 2!",
+        "translation": "Join and compete in The Hobbit Limited Open Draft 2!"
     },
     "MainNav/Rewards/ICRBonusAdditional": {
         "oracleText": "You have been granted a bonus Alchemy card.",
@@ -73176,12 +73420,12 @@
         "translation": "解锁灵能蛙的新篇藏身处，用票购买摩登新篇3补充包、头像、牌套等！"
     },
     "MainNav/Store/Bundles/PreOrder_AvailableDate": {
-        "oracleText": "Available on August 11, 2026",
-        "translation": "2026年8月11日上市"
+        "oracleText": "Available on September 29, 2026",
+        "translation": "Available on September 29, 2026"
     },
     "MainNav/Store/Bundles/PreOrder_Available_Purchasable": {
-        "oracleText": "Available for purchase until August 11th, 2026",
-        "translation": "2026年8月11日前可供购买"
+        "oracleText": "Available for purchase until September 29, 2026",
+        "translation": "Available for purchase until September 29, 2026"
     },
     "MainNav/Store/Bundles/PrizeWall_BLBMastery_Sorin_Desc": {
         "oracleText": "4x Sorin Markov",
@@ -73382,6 +73626,18 @@
     "MainNav/Store/Bundles/mtga_preorder_fin_play_Desc": {
         "oracleText": "Pre-order <i>Magic: The Gathering—FINAL FANTASY</i> today and receive the following items on June 10, 2025:\n\n2 Player Draft Tokens\n1 Sealed Token\n5 Play-In Points\n1x Terra, Magical Adept Card\n1x Kefka, Court Mage Card\nTerra, Magical Adept Card Style\nKefka, Court Mage Card Style\n\nWhen purchased, you will immediately receive the Terra Sleeve, Kefka Sleeve, and the Moogle Companion.\n\n© SQUARE ENIX",
         "translation": "即日预购<i>万智牌～最终幻想</i>，便可于2025年6月10日获得以下物品：\n\n2张真人轮抽门票\n1张现开门票\n5点参赛积分\n1张魔导战士蒂娜卡牌\n1张宫廷法师凯夫卡卡牌\n魔导战士蒂娜卡牌样式\n宫廷法师凯夫卡卡牌样式\n\n完成购买后，便会立刻获得蒂娜牌套、凯夫卡牌套和莫古力宠物。\n\n© SQUARE ENIX"
+    },
+    "MainNav/Store/Bundles/mtga_preorder_fra_pack_Desc": {
+        "oracleText": "Pre-order <i>Reality Fracture</i> today and receive the following items on September 29, 2026:\n45 <i>Reality Fracture</i> Boosters\n5 <i>Reality Fracture</i> Mythic Boosters\n5 Golden Boosters\n1 Chandra, Torch of Defiance\n1 Chandra, Chill of Compliance\nChandra, Torch of Defiance Depth Art Card Style\nChandra, Chill of Compliance Depth Art Card Style\nWhen purchased, you will immediately receive the Chandra Sleeve.",
+        "translation": "Pre-order <i>Reality Fracture</i> today and receive the following items on September 29, 2026:\n45 <i>Reality Fracture</i> Boosters\n5 <i>Reality Fracture</i> Mythic Boosters\n5 Golden Boosters\n1 Chandra, Torch of Defiance\n1 Chandra, Chill of Compliance\nChandra, Torch of Defiance Depth Art Card Style\nChandra, Chill of Compliance Depth Art Card Style\nWhen purchased, you will immediately receive the Chandra Sleeve."
+    },
+    "MainNav/Store/Bundles/mtga_preorder_fra_pass_Desc": {
+        "oracleText": "Pre-order <i>Reality Fracture</i> today and receive the following items on September 29, 2026:\n<i>Reality Fracture</i> Set Mastery Pass + 10 bonus levels!\n1 Sealed Token\n20 <i>Reality Fracture</i> Boosters\n2 Golden Boosters\n2 The Theorist, Jace Beleren\nThe Theorist, Jace Beleren Depth Art Card Style\nWhen purchased, you will immediately receive the Jace Sleeve.",
+        "translation": "Pre-order <i>Reality Fracture</i> today and receive the following items on September 29, 2026:\n<i>Reality Fracture</i> Set Mastery Pass + 10 bonus levels!\n1 Sealed Token\n20 <i>Reality Fracture</i> Boosters\n2 Golden Boosters\n2 The Theorist, Jace Beleren\nThe Theorist, Jace Beleren Depth Art Card Style\nWhen purchased, you will immediately receive the Jace Sleeve."
+    },
+    "MainNav/Store/Bundles/mtga_preorder_fra_play_Desc": {
+        "oracleText": "Pre-order <i>Reality Fracture</i> today and receive the following items on September 29, 2026:\n4 Player Draft Tokens\n2 Sealed Token\n20 Play-In Points\n1 Liliana the Repentant\n1 Liliana the Faultless\nLiliana the Repentant Depth Art Card Style\nLiliana the Faultless Depth Art Card Style\nWhen purchased, you will immediately receive the Liliana Sleeve and the Puppeteer's Mage Hunter Companion.",
+        "translation": "Pre-order <i>Reality Fracture</i> today and receive the following items on September 29, 2026:\n4 Player Draft Tokens\n2 Sealed Token\n20 Play-In Points\n1 Liliana the Repentant\n1 Liliana the Faultless\nLiliana the Repentant Depth Art Card Style\nLiliana the Faultless Depth Art Card Style\nWhen purchased, you will immediately receive the Liliana Sleeve and the Puppeteer's Mage Hunter Companion."
     },
     "MainNav/Store/Bundles/mtga_preorder_hob_pack_Desc": {
         "oracleText": "Pre-order <i>The Hobbit</i> today and receive the following items on August 11th, 2026:\n\n45 <i>The Hobbit</i> Boosters\n5 <i>The Hobbit</i> Mythic Boosters\n5 Golden Boosters\n1 Smaug, the Magnificent\nSmaug, the Magnificent Depth Art Card Style\n\nWhen purchased, you will immediately receive the Smaug Sleeve.\n\n™ MEE to Wizards. TM & © 2026 MEE & Wizards.",
@@ -81864,8 +82120,8 @@
         "translation": "成功发送好友请求"
     },
     "Social/Friends/UI/Details/Blocked": {
-        "oracleText": "Blocked",
-        "translation": "被屏蔽"
+        "oracleText": "Blocked - {count}",
+        "translation": "Blocked - {count}"
     },
     "Social/Friends/UI/Details/IncomingRequest": {
         "oracleText": "Pending Request",
@@ -81884,8 +82140,8 @@
         "translation": "屏蔽列表"
     },
     "Social/Friends/UI/Headers/ChallengesList": {
-        "oracleText": "Challenges",
-        "translation": "挑战"
+        "oracleText": "Challenges - {count}",
+        "translation": "Challenges - {count}"
     },
     "Social/Friends/UI/Headers/ChallengesRequests": {
         "oracleText": "Incoming Requests",
@@ -81938,6 +82194,10 @@
     "Social/Notifications/ViewChallenge": {
         "oracleText": "View Challenge",
         "translation": "查看挑战"
+    },
+    "Social/PlayerReport/ReasonRequired": {
+        "oracleText": "Reason for Report - Required",
+        "translation": "Reason for Report - Required"
     },
     "Social/PlayerReportCategory/AFK": {
         "oracleText": "Inactivity",
