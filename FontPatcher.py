@@ -122,7 +122,7 @@ class FontContent():
 
 def loadTMPFont(assetPath: str, monoBehaviorName: str) -> FontContent:
     """
-        if you want load splitN asset,and edit it,code as follows(you can also use\ 
+        if you want load splitN asset,and edit it,code as follows(you can also use\n
         other tools to binray merge files,then use `UnityPy.load(path)`):
         ```
         files = []
@@ -185,7 +185,7 @@ def loadTMPFont(assetPath: str, monoBehaviorName: str) -> FontContent:
 
 def replaceTMPFont(assetPath: str, monoBehaviorNames: list[str], newFontContent: FontContent, replaceMaterial: bool = False):
     """
-        if you want load splitN asset,and edit it,code as follows(you can also use\ 
+        if you want load splitN asset,and edit it,code as follows(you can also use\n
         other tools to binray merge files,then use `UnityPy.load(path)`):
         ```
         files = []
@@ -202,6 +202,10 @@ def replaceTMPFont(assetPath: str, monoBehaviorNames: list[str], newFontContent:
                 f.write(env.files[filePath].save())
         ```
     """
+    if not pathlib.Path(assetPath).is_file():
+        print("{0} not found,skip it.".format(assetPath))
+        return
+
     assetEnv = UnityPy.load(assetPath)
     assetEnv.typetree_generator = GameTypeTreeGenerator
     replacePathIDs = []
@@ -293,6 +297,9 @@ def replaceTMPFont(assetPath: str, monoBehaviorNames: list[str], newFontContent:
 
 
 def replaceTMPMaterial(assetPath: str, materialNames: str, newFontContent: FontContent):
+    if not pathlib.Path(assetPath).is_file():
+        print("{0} not found,skip it.".format(assetPath))
+        return
     assetEnv = UnityPy.load(assetPath)
     assetEnv.typetree_generator = GameTypeTreeGenerator
     for obj in assetEnv.objects:
